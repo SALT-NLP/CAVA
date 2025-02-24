@@ -4,8 +4,8 @@
 
 
 ```
-conda create -n "talkarena" python=3.12 ipython -y
-conda activate talkarena
+conda create -n "meau" python=3.12 ipython -y
+conda activate meau
 pip install -e .
 ```
 

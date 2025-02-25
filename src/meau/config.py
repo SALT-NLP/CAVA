@@ -1,0 +1,48 @@
+from typing import Dict, List, Callable, Tuple, Any, Optional, NamedTuple, Union
+
+
+# Define task configuration using NamedTuple for immutability
+class TaskConfig(NamedTuple):
+    """Immutable configuration for a task"""
+
+    name: str
+    prompt_template: str
+    labels: Optional[List[str]] = None
+    max_new_tokens: int = 1
+    use_logits_processor: bool = True
+    output_processor: Callable = lambda x: x.strip()
+    field_name: str = "response"  # Name of the field for API schema generation
+    audio_dir: str = "generated_audio/"
+    data_file: str = "audio_inputs.jsonl"
+
+
+def create_task_configs() -> Dict[str, TaskConfig]:
+    """
+    Create a dictionary of available task configurations
+
+    Returns:
+        Dictionary mapping task names to TaskConfig objects
+    """
+    return {
+        "emotion": TaskConfig(
+            name="emotion",
+            prompt_template=(
+                "Respond in a single word what emotion the input exhibits.\nIf there is no clear emotion, respond"
+                " 'Neutral'."
+            ),
+            labels=["joy", "surprise", "anger", "sadness", "neutral"],
+            max_new_tokens=1,
+            field_name="emotion",
+            audio_dir="generated_audio/",
+            data_file="audio_inputs.jsonl",
+        ),
+        "transcription": TaskConfig(
+            name="transcription",
+            prompt_template="Transcribe the audio content exactly as spoken.",
+            use_logits_processor=False,
+            max_new_tokens=100,
+            field_name="transcript",
+            audio_dir="transcription_test/",
+            data_file="audio_inputs.jsonl",
+        ),
+    }

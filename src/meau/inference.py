@@ -24,6 +24,13 @@ from transformers import (
 from meau.config import TaskConfig, create_task_configs
 
 
+# Global API call counters for rate limiting
+API_CALL_COUNTERS = {"gemini": 0, "openai": 0}
+
+# Maximum API calls allowed per run
+MAX_API_CALLS = 10000
+
+
 # Dynamic schema generation functions
 def create_enum_from_labels(labels: List[str], enum_name: str = "DynamicEnum") -> Type[Enum]:
     """
@@ -202,6 +209,35 @@ def cleanup_temp_audio(temp_audio_path: str) -> None:
         print(f"Warning: Failed to remove temporary file {temp_audio_path}: {e}")
 
 
+def check_api_call_limit(model_type: str) -> bool:
+    """
+    Check if API call limit has been reached
+
+    Args:
+        model_type: Type of API model ('gemini' or 'openai')
+
+    Returns:
+        True if limit is not reached, False otherwise
+    """
+    if model_type in API_CALL_COUNTERS:
+        current_count = API_CALL_COUNTERS[model_type]
+
+        if current_count >= MAX_API_CALLS:
+            print(f"WARNING: Maximum API call limit ({MAX_API_CALLS}) reached for {model_type}.")
+            return False
+
+        # Increment counter
+        API_CALL_COUNTERS[model_type] += 1
+
+        # Print warning when approaching limit
+        if current_count % 1000 == 0:
+            print(f"API calls to {model_type}: {current_count}/{MAX_API_CALLS}")
+
+        return True
+
+    return True  # Not an API model
+
+
 @torch.no_grad()
 def process_with_qwen(
     resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
@@ -250,7 +286,12 @@ def process_with_qwen(
         # Generate response
         outputs = resources.model.generate(**gen_kwargs)
         response = resources.tokenizer.decode(outputs[0], skip_special_tokens=True)
-        response = response.split("assistant")[-1]
+
+        # More robust extraction of assistant's response
+        if "assistant" in response:
+            response_parts = response.split("assistant")
+            # Take the last part after "assistant"
+            response = response_parts[-1].strip()
 
         return response
     finally:
@@ -318,6 +359,11 @@ def process_with_gemini(
     """
     import google.generativeai as genai
 
+    # Check API call limit
+    if not check_api_call_limit("gemini"):
+        # Return default value if limit reached
+        return task_config.labels[0] if task_config.labels else "API limit reached"
+
     # Save audio to temporary file
     temp_audio_path = save_temp_audio(audio, task_config.name, "gemini")
 
@@ -382,6 +428,11 @@ def process_with_openai(
     Returns:
         Model output
     """
+    # Check API call limit
+    if not check_api_call_limit("openai"):
+        # Return default value if limit reached
+        return task_config.labels[0] if task_config.labels else "API limit reached"
+
     # Save audio to temporary file
     temp_audio_path = save_temp_audio(audio, task_config.name, "gpt")
 
@@ -586,8 +637,17 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
     return accuracy, records_with_preds
 
 
+def reset_api_counters():
+    """Reset all API call counters to zero"""
+    for key in API_CALL_COUNTERS:
+        API_CALL_COUNTERS[key] = 0
+
+
 def main():
     """Entry point for the evaluation pipeline"""
+    # Reset API counters at the start of a run
+    reset_api_counters()
+
     # Get available tasks
     tasks = create_task_configs()
 
@@ -616,10 +676,20 @@ def main():
                 resources=resources,
                 task_config=task_config,
             )
+
+            # Print final API usage for this model if applicable
+            if resources.model_type in API_CALL_COUNTERS:
+                print(f"Total {resources.model_type} API calls: {API_CALL_COUNTERS[resources.model_type]}")
+
         except Exception as e:
             print(f"Error evaluating model {model_name}: {str(e)}")
             print("Continuing with next model...")
             continue
+
+    # Print final API usage summary
+    print("\nAPI Usage Summary:")
+    for api_type, count in API_CALL_COUNTERS.items():
+        print(f"  {api_type.capitalize()}: {count}/{MAX_API_CALLS} calls")
 
 
 if __name__ == "__main__":

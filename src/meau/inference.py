@@ -1,24 +1,26 @@
+import base64
 import json
-import torch
-import soundfile as sf
-import librosa
 import os
 import time
-import base64
-import numpy as np
-from pathlib import Path
 from enum import Enum
-from typing import Dict, List, Callable, Tuple, Any, Optional, NamedTuple, Union, Type
+from pathlib import Path
+from typing import Any, Callable, Dict, List, NamedTuple, Optional, Tuple, Type, Union
+
+import librosa
+import numpy as np
+import soundfile as sf
+import torch
+from dotenv import load_dotenv
 from pydantic import BaseModel
 from tqdm import tqdm
 from transformers import (
-    AutoTokenizer,
-    AutoModelForCausalLM,
     AutoModel,
+    AutoModelForCausalLM,
     AutoProcessor,
-    Qwen2AudioForConditionalGeneration,
-    PrefixConstrainedLogitsProcessor,
+    AutoTokenizer,
     GenerationConfig,
+    PrefixConstrainedLogitsProcessor,
+    Qwen2AudioForConditionalGeneration,
 )
 
 from meau.config import TaskConfig, create_task_configs
@@ -29,6 +31,8 @@ API_CALL_COUNTERS = {"gemini": 0, "openai": 0}
 
 # Maximum API calls allowed per run
 MAX_API_CALLS = 10000
+
+load_dotenv()
 
 
 # Dynamic schema generation functions
@@ -154,8 +158,9 @@ def process_audio(audio_file: str, audio_dir: str = "") -> Dict[str, Any]:
     Returns:
         Dictionary with processed audio data
     """
-    full_path = os.path.join(audio_dir, audio_file) if audio_dir else audio_file
-    audio, sr = librosa.load(full_path, sr=16000)
+
+    full_path = Path("data") / (audio_dir + audio_file if audio_dir else audio_file)
+    audio, sr = librosa.load(str(full_path), sr=16000)
     return {"array": audio, "sampling_rate": sr}
 
 
@@ -190,9 +195,14 @@ def save_temp_audio(audio: Dict[str, Any], task_name: str, model_type: str) -> s
     Returns:
         Path to saved temporary file
     """
-    temp_audio_path = f"tmp_{task_name}_{model_type}.wav"
-    sf.write(temp_audio_path, audio["array"], audio["sampling_rate"], format="wav")
-    return temp_audio_path
+    import tempfile
+
+    # Create a temporary file with proper suffix
+    tmp_dir = tempfile.gettempdir()
+    temp_audio_path = Path(tmp_dir) / f"meau_{task_name}_{model_type}_{int(time.time())}.wav"
+
+    sf.write(str(temp_audio_path), audio["array"], audio["sampling_rate"], format="wav")
+    return str(temp_audio_path)
 
 
 def cleanup_temp_audio(temp_audio_path: str) -> None:
@@ -601,32 +611,36 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
     total = 0
     records_with_preds = []
 
-    data_file = os.path.join(task_config.audio_dir, task_config.data_file)
+    data_path = Path("data") / task_config.audio_dir / task_config.data_file
 
-    with open(data_file, "r") as f:
+    # Ensure data_path exists
+    if not data_path.exists():
+        # Try relative to current directory as fallback
+        data_path = Path(task_config.audio_dir) / task_config.data_file
+
+    # Log path being used for debugging
+    print(f"Loading data from: {data_path}")
+
+    with open(data_path, "r") as f:
         pbar = tqdm(f)
         for line in pbar:
             json_data = json.loads(line)
             processed_samples = []
 
-            # Process each audio sample in the record
-            for record in json_data.get("generated_audio", [json_data]):
-                processed_record, sample_correct, sample_total = process_record(resources, record, task_config)
-                processed_samples.append(processed_record)
-                correct += sample_correct
-                total += sample_total
+            processed_record, sample_correct, sample_total = process_record(resources, json_data, task_config)
+            processed_samples.append(processed_record)
+            correct += sample_correct
+            total += sample_total
 
-                # Update progress bar
-                if total > 0:
-                    pbar.set_description(f"{task_config.name}: {100*(correct/total):.2f}% (N={total})")
+            # Update progress bar
+            if total > 0:
+                pbar.set_description(f"{task_config.name}: {100*(correct/total):.2f}% (N={total})")
 
-            # Store predictions
-            json_data["processed_samples"] = processed_samples
             records_with_preds.append(json_data)
 
-    # Write results to file
-    output_file = f"{data_file}_{resources.model_name.split('/')[-1]}_{task_config.name}"
-    with open(output_file, "w") as f:
+    # Maintain relative path for output file but use the same directory as input file
+    output_path = f"{data_path}_{resources.model_name.split('/')[-1]}_{task_config.name}"
+    with open(output_path, "w") as f:
         for entry in records_with_preds:
             json.dump(entry, ensure_ascii=False, fp=f)
             f.write("\n")
@@ -657,34 +671,28 @@ def main():
 
     # Model names to evaluate - now including API-based models
     model_names = [
-        "Qwen/Qwen2-Audio-7B-Instruct",
-        "WillHeld/DiVA-llama-3-v0-8b",
+        # "Qwen/Qwen2-Audio-7B-Instruct",
+        # "WillHeld/DiVA-llama-3-v0-8b",
         "models/gemini-2.0-flash-exp",
         "gpt-4o-audio-preview",
     ]
 
     # Run evaluations for each model
     for model_name in model_names:
-        try:
-            print(f"Evaluating model: {model_name}")
+        print(f"Evaluating model: {model_name}")
 
-            # Load model resources
-            resources = load_model(model_name)
+        # Load model resources
+        resources = load_model(model_name)
 
-            # Run evaluation
-            run_evaluation(
-                resources=resources,
-                task_config=task_config,
-            )
+        # Run evaluation
+        run_evaluation(
+            resources=resources,
+            task_config=task_config,
+        )
 
-            # Print final API usage for this model if applicable
-            if resources.model_type in API_CALL_COUNTERS:
-                print(f"Total {resources.model_type} API calls: {API_CALL_COUNTERS[resources.model_type]}")
-
-        except Exception as e:
-            print(f"Error evaluating model {model_name}: {str(e)}")
-            print("Continuing with next model...")
-            continue
+        # Print final API usage for this model if applicable
+        if resources.model_type in API_CALL_COUNTERS:
+            print(f"Total {resources.model_type} API calls: {API_CALL_COUNTERS[resources.model_type]}")
 
     # Print final API usage summary
     print("\nAPI Usage Summary:")

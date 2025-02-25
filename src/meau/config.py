@@ -1,4 +1,4 @@
-from typing import Dict, List, Callable, Tuple, Any, Optional, NamedTuple, Union
+from typing import Any, Callable, Dict, List, NamedTuple, Optional, Tuple, Union
 
 
 # Define task configuration using NamedTuple for immutability

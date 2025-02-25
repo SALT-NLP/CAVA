@@ -8,7 +8,7 @@ import base64
 import numpy as np
 from pathlib import Path
 from enum import Enum
-from typing import Dict, List, Callable, Tuple, Any, Optional, NamedTuple, Union
+from typing import Dict, List, Callable, Tuple, Any, Optional, NamedTuple, Union, Type
 from pydantic import BaseModel
 from tqdm import tqdm
 from transformers import (
@@ -36,6 +36,9 @@ def create_enum_from_labels(labels: List[str], enum_name: str = "DynamicEnum") -
     Returns:
         Dynamically created Enum class
     """
+    if not labels:
+        raise ValueError("Cannot create Enum from empty labels list")
+
     return Enum(enum_name, {label.upper(): label.lower() for label in labels})
 
 
@@ -185,6 +188,20 @@ def save_temp_audio(audio: Dict[str, Any], task_name: str, model_type: str) -> s
     return temp_audio_path
 
 
+def cleanup_temp_audio(temp_audio_path: str) -> None:
+    """
+    Remove temporary audio file
+
+    Args:
+        temp_audio_path: Path to temporary file
+    """
+    try:
+        if os.path.exists(temp_audio_path):
+            os.remove(temp_audio_path)
+    except Exception as e:
+        print(f"Warning: Failed to remove temporary file {temp_audio_path}: {e}")
+
+
 @torch.no_grad()
 def process_with_qwen(
     resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
@@ -204,37 +221,41 @@ def process_with_qwen(
     # Save audio to temporary file
     temp_audio_path = save_temp_audio(audio, task_config.name, "qwen2")
 
-    # Create conversation input
-    conversation = [
-        {
-            "role": "user",
-            "content": [
-                {"type": "audio", "audio_url": temp_audio_path},
-                {"type": "text", "text": text_prompt},
-            ],
-        },
-    ]
+    try:
+        # Create conversation input
+        conversation = [
+            {
+                "role": "user",
+                "content": [
+                    {"type": "audio", "audio_url": temp_audio_path},
+                    {"type": "text", "text": text_prompt},
+                ],
+            },
+        ]
 
-    # Apply chat template
-    text_input = resources.processor.apply_chat_template(conversation, add_generation_prompt=True, tokenize=False)
+        # Apply chat template
+        text_input = resources.processor.apply_chat_template(conversation, add_generation_prompt=True, tokenize=False)
 
-    # Tokenize input
-    inputs = resources.tokenizer(text=text_input, return_tensors="pt").to("cuda")
+        # Tokenize input
+        inputs = resources.tokenizer(text=text_input, return_tensors="pt").to("cuda")
 
-    # Prepare generation kwargs
-    gen_kwargs = {**inputs, "max_new_tokens": task_config.max_new_tokens}
+        # Prepare generation kwargs
+        gen_kwargs = {**inputs, "max_new_tokens": task_config.max_new_tokens}
 
-    # Add logits processor if needed
-    if task_config.use_logits_processor and task_config.labels:
-        logits_processor = create_logits_processor(resources.tokenizer, task_config.labels)
-        gen_kwargs["logits_processor"] = [logits_processor]
+        # Add logits processor if needed
+        if task_config.use_logits_processor and task_config.labels:
+            logits_processor = create_logits_processor(resources.tokenizer, task_config.labels)
+            gen_kwargs["logits_processor"] = [logits_processor]
 
-    # Generate response
-    outputs = resources.model.generate(**gen_kwargs)
-    response = resources.tokenizer.decode(outputs[0], skip_special_tokens=True)
-    response = response.split("assistant")[-1]
+        # Generate response
+        outputs = resources.model.generate(**gen_kwargs)
+        response = resources.tokenizer.decode(outputs[0], skip_special_tokens=True)
+        response = response.split("assistant")[-1]
 
-    return response
+        return response
+    finally:
+        # Clean up temporary file
+        cleanup_temp_audio(temp_audio_path)
 
 
 @torch.no_grad()
@@ -253,26 +274,31 @@ def process_with_diva(
     Returns:
         Model output
     """
-    # Save audio to temporary file
+    # Save audio to temporary file - although not directly used by the model
+    # it can be helpful for debugging or logging purposes
     temp_audio_path = save_temp_audio(audio, task_config.name, "diva")
 
-    # Prepare generation kwargs
-    gen_kwargs = {
-        "audio": [audio["array"]],
-        "text_prompt": ["\n" + text_prompt],
-        "max_new_tokens": task_config.max_new_tokens,
-    }
+    try:
+        # Prepare generation kwargs
+        gen_kwargs = {
+            "audio": [audio["array"]],
+            "text_prompt": ["\n" + text_prompt],
+            "max_new_tokens": task_config.max_new_tokens,
+        }
 
-    # Add logits processor if needed
-    if task_config.use_logits_processor and task_config.labels:
-        logits_processor = create_logits_processor(resources.tokenizer, task_config.labels)
-        gen_kwargs["logits_processor"] = logits_processor
+        # Add logits processor if needed
+        if task_config.use_logits_processor and task_config.labels:
+            logits_processor = create_logits_processor(resources.tokenizer, task_config.labels)
+            gen_kwargs["logits_processor"] = logits_processor
 
-    # Generate response
-    with torch.cuda.amp.autocast(dtype=torch.float16):
-        llm_message = resources.model.generate(**gen_kwargs)
+        # Generate response
+        with torch.cuda.amp.autocast(dtype=torch.float16):
+            llm_message = resources.model.generate(**gen_kwargs)
 
-    return llm_message[0]
+        return llm_message[0]
+    finally:
+        # Clean up temporary file
+        cleanup_temp_audio(temp_audio_path)
 
 
 def process_with_gemini(
@@ -295,46 +321,50 @@ def process_with_gemini(
     # Save audio to temporary file
     temp_audio_path = save_temp_audio(audio, task_config.name, "gemini")
 
-    # Create inputs for the model
-    prompt = text_prompt
-    inputs = [
-        prompt,
-        {"mime_type": "audio/wav", "data": Path(temp_audio_path).read_bytes()},
-    ]
+    try:
+        # Create inputs for the model
+        prompt = text_prompt
+        inputs = [
+            prompt,
+            {"mime_type": "audio/wav", "data": Path(temp_audio_path).read_bytes()},
+        ]
 
-    # Set up retry logic
-    max_retries = 5
-    sleep_time = 1
+        # Set up retry logic
+        max_retries = 5
+        sleep_time = 1
 
-    # Try to generate content with retries for API rate limits
-    for attempt in range(max_retries):
-        try:
-            # If we have labels for constrained generation
-            if task_config.labels and task_config.use_logits_processor:
-                # Dynamically create enum type from labels
-                DynamicEnum = create_enum_from_labels(task_config.labels, f"{task_config.name.capitalize()}Enum")
+        # Try to generate content with retries for API rate limits
+        for attempt in range(max_retries):
+            try:
+                # If we have labels for constrained generation
+                if task_config.labels and task_config.use_logits_processor:
+                    # Dynamically create enum type from labels
+                    DynamicEnum = create_enum_from_labels(task_config.labels, f"{task_config.name.capitalize()}Enum")
 
-                response = resources.model.generate_content(
-                    inputs,
-                    generation_config=genai.GenerationConfig(
-                        response_mime_type="text/x.enum", response_schema=DynamicEnum
-                    ),
-                )
-            else:
-                response = resources.model.generate_content(inputs)
+                    response = resources.model.generate_content(
+                        inputs,
+                        generation_config=genai.GenerationConfig(
+                            response_mime_type="text/x.enum", response_schema=DynamicEnum
+                        ),
+                    )
+                else:
+                    response = resources.model.generate_content(inputs)
 
-            response_text = response.candidates[0].content.parts[0].text
-            return response_text
+                response_text = response.candidates[0].content.parts[0].text
+                return response_text
 
-        except Exception as e:
-            if attempt < max_retries - 1:
-                print(f"Gemini API error: {e}. Retrying after {sleep_time}s...")
-                time.sleep(sleep_time)
-                sleep_time *= 2
-            else:
-                print(f"Failed after {max_retries} attempts: {e}")
-                # Default to first label if available, otherwise empty string
-                return task_config.labels[0] if task_config.labels else ""
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    print(f"Gemini API error: {e}. Retrying after {sleep_time}s...")
+                    time.sleep(sleep_time)
+                    sleep_time *= 2
+                else:
+                    print(f"Failed after {max_retries} attempts: {e}")
+                    # Default to first label if available, otherwise empty string
+                    return task_config.labels[0] if task_config.labels else ""
+    finally:
+        # Clean up temporary file
+        cleanup_temp_audio(temp_audio_path)
 
 
 def process_with_openai(
@@ -355,80 +385,84 @@ def process_with_openai(
     # Save audio to temporary file
     temp_audio_path = save_temp_audio(audio, task_config.name, "gpt")
 
-    # Encode audio to base64
-    with open(temp_audio_path, "rb") as audio_file:
-        encoded_audio = base64.b64encode(audio_file.read()).decode("utf-8")
+    try:
+        # Encode audio to base64
+        with open(temp_audio_path, "rb") as audio_file:
+            encoded_audio = base64.b64encode(audio_file.read()).decode("utf-8")
 
-    # Prepare content
-    messages_content = [
-        {
-            "role": "user",
-            "content": [
-                {"type": "text", "text": text_prompt},
-                {
-                    "type": "input_audio",
-                    "input_audio": {
-                        "data": encoded_audio,
-                        "format": "wav",
+        # Prepare content
+        messages_content = [
+            {
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": text_prompt},
+                    {
+                        "type": "input_audio",
+                        "input_audio": {
+                            "data": encoded_audio,
+                            "format": "wav",
+                        },
                     },
-                },
-            ],
-        },
-    ]
+                ],
+            },
+        ]
 
-    # If we have labels for constrained generation, use schema
-    if task_config.labels and task_config.use_logits_processor:
-        # Dynamically create a pydantic model for structured output
-        SchemaWrapper = create_schema_wrapper(task_config.field_name)
+        # If we have labels for constrained generation, use schema
+        if task_config.labels and task_config.use_logits_processor:
+            # Dynamically create a pydantic model for structured output
+            SchemaWrapper = create_schema_wrapper(task_config.field_name)
 
-        # Add schema format guidance
-        messages_content[0]["content"][0]["text"] += "\nFormat: " + json.dumps(SchemaWrapper.model_json_schema())
+            # Add schema format guidance
+            messages_content[0]["content"][0]["text"] += "\nFormat: " + json.dumps(SchemaWrapper.model_json_schema())
 
-    # Set up retry logic
-    max_retries = 5
-    sleep_time = 0.1
+        # Set up retry logic
+        max_retries = 5
+        sleep_time = 0.1
 
-    # Try to generate content with retries for API rate limits
-    for attempt in range(max_retries):
-        try:
-            completion = resources.model.chat.completions.create(
-                model=resources.model_name,
-                modalities=["text"],
-                temperature=0,
-                messages=messages_content,
-            )
+        # Try to generate content with retries for API rate limits
+        for attempt in range(max_retries):
+            try:
+                completion = resources.model.chat.completions.create(
+                    model=resources.model_name,
+                    modalities=["text"],
+                    temperature=0,
+                    messages=messages_content,
+                )
 
-            response = completion.choices[0].message.content
+                response = completion.choices[0].message.content
 
-            # Try to parse structured response if using schema
-            if task_config.labels and task_config.use_logits_processor:
-                try:
-                    # First try to parse as JSON
-                    response_json = json.loads(response)
-                    response = response_json[task_config.field_name]
-                except:
-                    # Fall back to checking for label terms in response
-                    if task_config.labels:
-                        # Check if any of the labels appear in the response
-                        response_vec = [int(label.lower() in response.lower()) for label in task_config.labels]
+                # Try to parse structured response if using schema
+                if task_config.labels and task_config.use_logits_processor:
+                    try:
+                        # First try to parse as JSON
+                        response_json = json.loads(response)
+                        response = response_json[task_config.field_name]
+                    except:
+                        # Fall back to checking for label terms in response
+                        if task_config.labels:
+                            # Check if any of the labels appear in the response
+                            response_vec = [int(label.lower() in response.lower()) for label in task_config.labels]
 
-                        if np.sum(response_vec) == 1:
-                            # Find which label was detected
-                            response = [
-                                label.lower() for label, pred in zip(task_config.labels, response_vec) if pred == 1
-                            ][0]
+                            if np.sum(response_vec) == 1:
+                                # Find which label was detected
+                                response = [
+                                    label.lower() for label, pred in zip(task_config.labels, response_vec) if pred == 1
+                                ][0]
 
-            return response
+                return response
 
-        except Exception as e:
-            if attempt < max_retries - 1:
-                print(f"OpenAI API error: {e}. Retrying after {sleep_time}s...")
-                time.sleep(sleep_time)
-                sleep_time *= 2
-            else:
-                print(f"Failed after {max_retries} attempts: {e}")
-                # Default to first label if available, otherwise empty string
-                return task_config.labels[0] if task_config.labels else ""
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    print(f"OpenAI API error: {e}. Retrying after {sleep_time}s...")
+                    time.sleep(sleep_time)
+                    sleep_time *= 2
+                else:
+                    print(f"Failed after {max_retries} attempts: {e}")
+                    # Default to first label if available, otherwise empty string
+                    return task_config.labels[0] if task_config.labels else ""
+    finally:
+        # Clean up temporary file
+        cleanup_temp_audio(temp_audio_path)
 
 
 def process_sample(resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig) -> str:
@@ -473,20 +507,18 @@ def process_record(
         resources: Model resources
         record: Record data
         task_config: Task configuration
-        expected_key: Key containing expected output
-        audio_dir: Directory containing audio files
 
     Returns:
         Tuple of (processed record, correct count, total count)
     """
-    expected_value = record.get(task.field_name)
+    expected_value = record.get(task_config.field_name)
     audio_file = record.get("filename")
 
     if not audio_file:
         return record, 0, 0
 
     # Process audio
-    audio = process_audio(audio_file, task.audio_dir)
+    audio = process_audio(audio_file, task_config.audio_dir)
 
     # Get model prediction
     predicted_value = process_sample(resources, audio, task_config.prompt_template, task_config)
@@ -508,7 +540,7 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
     Run evaluation on a dataset
 
     Args:
-        data_file: JSONL file with dataset
+        resources: Model resources
         task_config: Task configuration
 
     Returns:
@@ -517,6 +549,8 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
     correct = 0
     total = 0
     records_with_preds = []
+
+    data_file = os.path.join(task_config.audio_dir, task_config.data_file)
 
     with open(data_file, "r") as f:
         pbar = tqdm(f)
@@ -554,11 +588,12 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
 
 def main():
     """Entry point for the evaluation pipeline"""
-    # Directory containing audio files
-    audio_dir = "generated_audio/"
+    # Get available tasks
+    tasks = create_task_configs()
 
-    # Input data file
-    data_file = os.path.join(audio_dir, "audio_inputs.jsonl")
+    # Define task to run
+    task_name = "emotion"  # Change this to run different tasks
+    task_config = tasks[task_name]
 
     # Model names to evaluate - now including API-based models
     model_names = [
@@ -567,13 +602,6 @@ def main():
         "models/gemini-2.0-flash-exp",
         "gpt-4o-audio-preview",
     ]
-
-    # Get available tasks
-    tasks = create_task_configs()
-
-    # Define task to run
-    task_name = "emotion"  # Change this to run different tasks
-    task_config = tasks[task_name]
 
     # Run evaluations for each model
     for model_name in model_names:

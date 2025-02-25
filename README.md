@@ -7,7 +7,7 @@ A framework for evaluating audio models across multiple tasks.
 ### Create environment and install packages
 
 ```bash
-conda create -n "meau" python=3.12 ipython -y>
+conda create -n "meau" python=3.12 ipython -y
 conda activate meau
 pip install -e .
 ```

@@ -36,7 +36,7 @@ include = ["src/"]
 dev-mode-dirs = [".", "src"]
 
 [tool.hatch.build.sources]
-"realtime-diva" = "src/meau"
+"meau" = "src/meau"
 
 [tool.hatch.metadata]
 allow-direct-references = true
@@ -48,6 +48,7 @@ only-include = ["src"]
 only-include = ["src/meau"]
 
 [tool.hatch.version]
+
 [project.urls]
 "Homepage" = "https://diva-audio.github.io"
 

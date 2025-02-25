@@ -40,8 +40,7 @@ Create a JSONL file with entries describing each audio file. Each line should be
   "filename": "your_audio_file.wav",
   "field_name": "ground_truth_value",
   "sentence": "optional context or transcript",
-  "additional_metadata": "any other relevant information"
-}
+  ... # All Additional Relevant Metadata
 ```
 
 For example, for an emotion classification task:
@@ -54,31 +53,7 @@ For example, for an emotion classification task:
 }
 ```
 
-### 3. Format your dataset for evaluation
-
-If your dataset format differs from the expected structure, you can use the utility functions in `data/EmoCF/flatten.py` to convert your data:
-
-```python
-from meau.data.utils import adapt_jsonl_format
-
-# For a single task
-adapt_jsonl_format(
-    input_file="your_data.jsonl", 
-    output_file="audio_inputs.jsonl", 
-    task_name="your_task", 
-    field_name="your_field"
-)
-
-# For multiple tasks
-tasks = [
-    {"name": "emotion", "field_name": "emotion"}, 
-    {"name": "transcription", "field_name": "transcript"}
-]
-
-create_task_input_files("your_data.jsonl", "output_directory", tasks)
-```
-
-### 4. Configure a new task
+### 3. Configure a new task
 
 Add a new task configuration in `src/meau/config.py` by updating the `create_task_configs()` function:
 
@@ -99,7 +74,7 @@ def create_task_configs() -> Dict[str, TaskConfig]:
     }
 ```
 
-### 5. Run evaluation
+### 4. Run evaluation
 
 Run the evaluation using the command:
 

@@ -109,7 +109,7 @@ def convert_audio_to_wav(input_path):
     """
     If the input audio file is not in WAV format, convert it using ffmpeg.
     The converted file will have the same basename with a .wav extension.
-    The original file is removed.
+    The original file is removed if it still exists.
     Returns the path of the .wav file.
     """
     ext = os.path.splitext(input_path)[1].lower()
@@ -120,7 +120,9 @@ def convert_audio_to_wav(input_path):
     try:
         subprocess.run(["ffmpeg", "-y", "-i", input_path, output_path],
                        check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        os.remove(input_path)
+        # Only attempt to remove the input file if it still exists.
+        if os.path.exists(input_path):
+            os.remove(input_path)
         return output_path
     except subprocess.CalledProcessError as e:
         print(f"Error converting {input_path} to WAV: {e}")
@@ -301,7 +303,7 @@ def parse_pronunciation_page(html):
             ipas = union_plain.copy()
         mapping['ipas'] = ipas
         
-        # NEW: Drop mapping if there are two or more broad transcriptions.
+        # Drop mapping if there are two or more broad transcriptions.
         broad_count = sum(1 for ipa in ipas if is_broad(ipa))
         if broad_count >= 2:
             debug(f"Dropping mapping for region {region} due to {broad_count} broad transcriptions.")
@@ -402,9 +404,16 @@ def main():
     parser = argparse.ArgumentParser(
         description="Scrape Wiktionary pronunciation info, download audio files, convert to WAV, using multithreading."
     )
+    # New argument to allow reading words from a file.
+    parser.add_argument(
+        "--word-file",
+        type=str,
+        default="target_words.txt",
+        help="Path to a file containing words to scrape (one word per line)."
+    )
     parser.add_argument(
         "words",
-        nargs="+",
+        nargs="*",
         help='Words to scrape (e.g., "7 Up cake", "$100 hamburger", "tomato", "example", "a bad penny always turns up", "abbess").'
     )
     parser.add_argument(
@@ -444,6 +453,20 @@ def main():
     global DEBUG
     DEBUG = args.debug
     
+    # Determine words to process: either from the word file or the positional arguments.
+    if args.word_file:
+        if not os.path.exists(args.word_file):
+            print(f"Word file {args.word_file} does not exist.")
+            return
+        with open(args.word_file, "r", encoding="utf-8") as f:
+            words_to_process = [line.strip() for line in f if line.strip()]
+    else:
+        words_to_process = args.words
+
+    if not words_to_process:
+        print("No words to process.")
+        return
+    
     os.makedirs(args.output_dir, exist_ok=True)
     fieldnames = ["word", "region", "IPAs", "file_path", "wiktionary_url"]
     all_results = load_existing_csv(args.csv_file)
@@ -453,7 +476,6 @@ def main():
     # Lock to protect shared data.
     lock = threading.Lock()
     count = 0
-    words_to_process = args.words
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as executor:
         futures = {executor.submit(worker, word, args.output_dir, processed_words, skipped_terms, lock): word for word in words_to_process}
         for future in concurrent.futures.as_completed(futures):
@@ -472,3 +494,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Example usage:
+# python scrape.py

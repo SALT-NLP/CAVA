@@ -1,12 +1,12 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./CATS-white.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./CATS.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./img/CATS-white.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./img/CATS.svg">
     <img alt="Shows a black logo in light color mode and a white one in dark color mode.">
   </picture>
 </p>
 
-# MEAU - Multitask Evaluation of Audio Models
+# CATS - Comprehensive Assesment for Testing Speech
 
 A framework for evaluating audio models across multiple tasks.
 
@@ -15,8 +15,8 @@ A framework for evaluating audio models across multiple tasks.
 ### Create environment and install packages
 
 ```bash
-conda create -n "meau" python=3.12 ipython -y
-conda activate meau
+conda create -n "cats" python=3.12 ipython -y
+conda activate cats
 pip install -e .
 ```
 
@@ -63,7 +63,7 @@ For example, for an emotion classification task:
 
 ### 3. Configure a new task
 
-Add a new task configuration in `src/meau/config.py` by updating the `create_task_configs()` function:
+Add a new task configuration in `src/cats/config.py` by updating the `create_task_configs()` function:
 
 ```python
 def create_task_configs() -> Dict[str, TaskConfig]:
@@ -87,14 +87,14 @@ def create_task_configs() -> Dict[str, TaskConfig]:
 Run the evaluation using the command:
 
 ```python
-import meau
+import cats
 
 # To run evaluation on your new task
-from meau.inference import main
+from cats.inference import main
 main()
 ```
 
-You can also modify the `main()` function in `src/meau/inference.py` to specify your task:
+You can also modify the `main()` function in `src/cats/inference.py` to specify your task:
 
 ```python
 def main():

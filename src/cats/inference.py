@@ -26,7 +26,7 @@ from transformers import (
     Qwen2AudioForConditionalGeneration,
 )
 
-from meau.config import TaskConfig, create_task_configs, format_prompt_template
+from cats.config import TaskConfig, create_task_configs, format_prompt_template
 
 
 # Global API call counters for rate limiting
@@ -36,11 +36,11 @@ API_CALL_COUNTERS = {"gemini": 0, "openai": 0}
 MAX_API_CALLS = 10000
 
 # Initialize disk cache for API calls
-CACHE_DIR = os.environ.get("MEAU_CACHE_DIR", ".meau_cache")
+CACHE_DIR = os.environ.get("CATS_CACHE_DIR", ".cats_cache")
 api_cache = diskcache.Cache(CACHE_DIR)
 
 # Cache expiration time (default: 30 days)
-CACHE_EXPIRE_SECONDS = int(os.environ.get("MEAU_CACHE_EXPIRE", 60 * 60 * 24 * 30))
+CACHE_EXPIRE_SECONDS = int(os.environ.get("CATS_CACHE_EXPIRE", 60 * 60 * 24 * 30))
 
 load_dotenv()
 
@@ -230,7 +230,7 @@ def save_temp_audio(audio: Dict[str, Any], task_name: str, model_type: str) -> s
 
     # Create a temporary file with proper suffix
     tmp_dir = tempfile.gettempdir()
-    temp_audio_path = Path(tmp_dir) / f"meau_{task_name}_{model_type}_{int(time.time())}.wav"
+    temp_audio_path = Path(tmp_dir) / f"cats_{task_name}_{model_type}_{int(time.time())}.wav"
 
     sf.write(str(temp_audio_path), audio["array"], audio["sampling_rate"], format="wav")
     return str(temp_audio_path)
@@ -316,7 +316,7 @@ def create_cache_key(
         text_prompt: Text prompt for the model
         model_name: Name of the model
         task_name: Name of the task
-        use_cache_seed: Whether to include the MEAU_CACHE_SEED env var in the key
+        use_cache_seed: Whether to include the CATS_CACHE_SEED env var in the key
 
     Returns:
         A unique hash string to use as cache key
@@ -331,7 +331,7 @@ def create_cache_key(
     # This allows forcing cache misses by changing the seed
     cache_seed = ""
     if use_cache_seed:
-        cache_seed = os.environ.get("MEAU_CACHE_SEED", "")
+        cache_seed = os.environ.get("CATS_CACHE_SEED", "")
 
     # Combine all elements
     key_str = f"{model_name}:{task_name}:{audio_hash}:{prompt_hash}:{cache_seed}"
@@ -352,7 +352,7 @@ def api_cached(func):
     @functools.wraps(func)
     def wrapper(resources, audio, text_prompt, task_config, *args, **kwargs):
         # Skip caching if disabled
-        if os.environ.get("MEAU_DISABLE_CACHE", "").lower() in ("true", "1", "yes"):
+        if os.environ.get("CATS_DISABLE_CACHE", "").lower() in ("true", "1", "yes"):
             return func(resources, audio, text_prompt, task_config, *args, **kwargs)
 
         # Create cache key
@@ -893,7 +893,7 @@ if __name__ == "__main__":
     # Add argument parsing for cache management
     import argparse
 
-    parser = argparse.ArgumentParser(description="MEAu evaluation pipeline")
+    parser = argparse.ArgumentParser(description="CATS evaluation pipeline")
     parser.add_argument("--clear-cache", action="store_true", help="Clear the API response cache before running")
     parser.add_argument("--cache-seed", type=str, help="Set a cache seed to force fresh API calls")
     parser.add_argument("--disable-cache", action="store_true", help="Disable caching for this run")
@@ -909,14 +909,13 @@ if __name__ == "__main__":
             clear_cache()
         else:
             print("Cache clearing aborted.")
-            return
 
     if args.cache_seed:
-        os.environ["MEAU_CACHE_SEED"] = args.cache_seed
+        os.environ["CATS_CACHE_SEED"] = args.cache_seed
         print(f"Using cache seed: {args.cache_seed}")
 
     if args.disable_cache:
-        os.environ["MEAU_DISABLE_CACHE"] = "true"
+        os.environ["CATS_DISABLE_CACHE"] = "true"
         print("Caching disabled for this run")
 
     main()

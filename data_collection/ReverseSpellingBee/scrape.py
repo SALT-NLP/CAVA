@@ -9,6 +9,8 @@ import subprocess
 import threading
 import concurrent.futures
 import copy
+import signal
+import time
 from bs4 import BeautifulSoup
 
 # ----------------------------
@@ -131,11 +133,16 @@ def unique_preserve_order(seq):
 # ----------------------------
 def snapshot_save(csv_file, skipped_file, all_results, skipped_terms, fieldnames, order, lock):
     with lock:
-        # Create deep copies (snapshots) of the shared state.
         snapshot_results = copy.deepcopy(all_results)
         snapshot_skipped = copy.deepcopy(skipped_terms)
     save_all_results(csv_file, snapshot_results, fieldnames, order)
     save_skipped_terms(skipped_file, snapshot_skipped, order)
+
+def periodic_snapshot(csv_file, skipped_file, all_results, skipped_terms, fieldnames, order, lock, interval):
+    while not shutdown_event.is_set():
+        time.sleep(interval)
+        print("Periodic snapshot saving...")
+        snapshot_save(csv_file, skipped_file, all_results, skipped_terms, fieldnames, order, lock)
 
 # ----------------------------
 # Audio Conversion Function
@@ -374,20 +381,37 @@ def worker(word, output_dir, processed_words, skipped_terms, lock):
     new_rows = scrape_word(word, output_dir)
     with lock:
         if new_rows:
-            if normalized in processed_words:
-                # Merge with existing rows if needed.
-                processed_words.remove(normalized)
-                processed_words.add(normalized)
-            else:
-                processed_words.add(normalized)
+            processed_words.add(normalized)
         else:
             skipped_terms.add(normalized)
     return (normalized, new_rows)
 
 # ----------------------------
+# Signal Handler for Ctrl+C
+# ----------------------------
+def signal_handler(signum, frame):
+    print("\nCtrl+C pressed! Saving final snapshot...")
+    shutdown_event.set()  # Signal periodic snapshot thread to stop.
+    snapshot_save(global_csv_file, global_skipped_file, global_all_results, global_skipped_terms, global_fieldnames, global_order, global_lock)
+    print("Progress saved. Exiting.")
+    os._exit(0)
+
+# Global variables for state saving (set in main)
+global_csv_file = ""
+global_skipped_file = ""
+global_all_results = {}
+global_skipped_terms = set()
+global_fieldnames = []
+global_order = []
+global_lock = threading.Lock()
+shutdown_event = threading.Event()
+
+# ----------------------------
 # Main Function with Argparse, Multithreading, and State Resumption
 # ----------------------------
 def main():
+    global global_csv_file, global_skipped_file, global_all_results, global_skipped_terms, global_fieldnames, global_order, global_lock
+
     parser = argparse.ArgumentParser(
         description="Scrape Wiktionary pronunciation info, download audio files, convert to WAV, using multithreading."
     )
@@ -401,8 +425,8 @@ def main():
                         help="CSV file to store output (default: output.csv)")
     parser.add_argument("--skipped-file", default="skipped_terms.txt",
                         help="Text file to store words skipped due to missing data (default: skipped_terms.txt)")
-    parser.add_argument("--save-interval", type=int, default=1000,
-                        help="Save state after processing every N words (default: 1000)")
+    parser.add_argument("--save-interval", type=int, default=60,
+                        help="Interval in seconds to perform periodic snapshot saving (default: 60 seconds)")
     parser.add_argument("--workers", type=int, default=8,
                         help="Number of worker threads to use (default: 8)")
     parser.add_argument("--debug", action="store_true", help="Enable debug output.")
@@ -411,6 +435,7 @@ def main():
     global DEBUG
     DEBUG = args.debug
     
+    # Gather words from the word file (if it exists) and positional arguments.
     words_to_process = []
     if args.word_file and os.path.exists(args.word_file):
         with open(args.word_file, "r", encoding="utf-8") as f:
@@ -425,32 +450,43 @@ def main():
     order_list = [normalize_word(w) for w in words_to_process]
     
     os.makedirs(args.output_dir, exist_ok=True)
-    fieldnames = ["word", "region", "IPAs", "file_path", "wiktionary_url"]
-    all_results = load_existing_csv(args.csv_file)
-    skipped_terms = load_skipped_terms(args.skipped_file)
+    global_fieldnames = ["word", "region", "IPAs", "file_path", "wiktionary_url"]
+    global_csv_file = args.csv_file
+    global_skipped_file = args.skipped_file
     
-    processed_words = {norm for norm, rows in all_results.items() if is_fully_processed(rows)}
+    global_all_results = load_existing_csv(args.csv_file)
+    global_skipped_terms = load_skipped_terms(args.skipped_file)
+    processed_words = {norm for norm, rows in global_all_results.items() if is_fully_processed(rows)}
     
-    lock = threading.Lock()
+    # Register the signal handler for Ctrl+C.
+    signal.signal(signal.SIGINT, signal_handler)
+    
+    # Start the periodic snapshot thread.
+    snapshot_thread = threading.Thread(
+        target=periodic_snapshot,
+        args=(args.csv_file, args.skipped_file, global_all_results, global_skipped_terms,
+              global_fieldnames, order_list, global_lock, args.save_interval),
+        daemon=True
+    )
+    snapshot_thread.start()
+    
     count = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as executor:
-        futures = {executor.submit(worker, word, args.output_dir, processed_words, skipped_terms, lock): word
+        futures = {executor.submit(worker, word, args.output_dir, processed_words, global_skipped_terms, global_lock): word
                    for word in words_to_process}
         for future in concurrent.futures.as_completed(futures):
             norm, new_rows = future.result()
-            with lock:
+            with global_lock:
                 if new_rows:
-                    if norm in all_results:
-                        all_results[norm] = merge_results(all_results[norm], new_rows)
+                    if norm in global_all_results:
+                        global_all_results[norm] = merge_results(global_all_results[norm], new_rows)
                     else:
-                        all_results[norm] = new_rows
+                        global_all_results[norm] = new_rows
             count += 1
-            if count % args.save_interval == 0:
-                # Take a snapshot and perform an incremental save.
-                snapshot_save(args.csv_file, args.skipped_file, all_results, skipped_terms, fieldnames, order_list, lock)
     
-    # Final save after all threads complete.
-    snapshot_save(args.csv_file, args.skipped_file, all_results, skipped_terms, fieldnames, order_list, lock)
+    # Final snapshot save.
+    shutdown_event.set()  # Signal snapshot thread to stop.
+    snapshot_save(args.csv_file, args.skipped_file, global_all_results, global_skipped_terms, global_fieldnames, order_list, global_lock)
 
 if __name__ == "__main__":
     main()

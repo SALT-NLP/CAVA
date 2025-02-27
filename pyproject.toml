@@ -32,6 +32,7 @@ dependencies = [
     "pydantic",
     "tqdm",
     "argparse",
+    "diskcache",
 ]
 
 [tool.hatch.build]

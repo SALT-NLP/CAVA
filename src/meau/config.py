@@ -50,18 +50,6 @@ def create_task_configs() -> Dict[str, TaskConfig]:
             audio_dir="transcription_test/",
             data_file="audio_inputs.jsonl",
         ),
-        "pronunciation": TaskConfig(
-            name="pronunciation",
-            prompt_template="Read aloud the following text: {text_to_read}",
-            use_logits_processor=False,
-            max_new_tokens=0,  # No text output expected
-            field_name="pronunciation_score",
-            audio_dir="pronunciation_test/",
-            data_file="pronunciation_inputs.jsonl",
-            speech_output=True,  # This task evaluates speech output
-            output_audio_dir="pronunciation_outputs/",
-            template_fields={"text_to_read": "sentence"},  # Map 'text_to_read' in prompt to 'sentence' field in data
-        ),
     }
 
 

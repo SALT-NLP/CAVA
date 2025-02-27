@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./CATS-white.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./CATS.svg">
+    <img alt="Shows a black logo in light color mode and a white one in dark color mode.">
+  </picture>
+</p>
+
 # MEAU - Multitask Evaluation of Audio Models
 
 A framework for evaluating audio models across multiple tasks.

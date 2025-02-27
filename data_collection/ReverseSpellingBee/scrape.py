@@ -324,9 +324,7 @@ def get_audio_file_url(file_name):
 
 def download_audio_file(url, save_path):
     headers = {
-        'User-Agent': ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
-                       'AppleWebKit/537.36 (KHTML, like Gecko) '
-                       'Chrome/115.0 Safari/537.36')
+        'User-Agent': 'Wget/1.21.3'
     }
     response = requests.get(url, stream=True, headers=headers)
     if response.status_code == 200:

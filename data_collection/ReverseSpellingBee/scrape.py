@@ -8,6 +8,7 @@ import requests
 import subprocess
 import threading
 import concurrent.futures
+import copy
 from bs4 import BeautifulSoup
 
 # ----------------------------
@@ -22,10 +23,6 @@ def debug(msg):
 # Region Normalization
 # ----------------------------
 def normalize_region(region):
-    """
-    Normalize region names so that similar ones are merged.
-    For example, treat "General American", "American", and "American English" as equivalent to "US".
-    """
     if not region:
         return None
     reg = region.strip().lower()
@@ -37,22 +34,13 @@ def normalize_region(region):
 # Utility Functions
 # ----------------------------
 def normalize_word(word):
-    """
-    Convert the given word into a valid Wiktionary page title.
-    E.g., "7 Up Cake" becomes "7_Up_Cake" (preserving case).
-    """
     parts = word.strip().split()
-    normalized = "_".join(parts)
-    return normalized
+    return "_".join(parts)
 
 def get_wiktionary_url(normalized_word):
-    """Construct the Wiktionary URL for the given normalized word."""
     return f"https://en.wiktionary.org/wiki/{normalized_word}"
 
 def is_fully_processed(rows):
-    """
-    Returns True if every row with a non-empty file_path corresponds to an existing file.
-    """
     for row in rows:
         path = row["file_path"].strip()
         if path and not os.path.exists(path):
@@ -60,10 +48,6 @@ def is_fully_processed(rows):
     return True
 
 def load_existing_csv(csv_path):
-    """
-    Load existing CSV rows into a dictionary mapping normalized word -> list of rows.
-    Each row has keys: word, region, IPAs, file_path, wiktionary_url.
-    """
     processed = {}
     if not os.path.exists(csv_path):
         return processed
@@ -75,7 +59,6 @@ def load_existing_csv(csv_path):
     return processed
 
 def load_skipped_terms(skipped_path):
-    """Load skipped normalized words from a text file into a set."""
     skipped = set()
     if os.path.exists(skipped_path):
         with open(skipped_path, mode="r", encoding="utf-8") as f:
@@ -85,33 +68,79 @@ def load_skipped_terms(skipped_path):
                     skipped.add(term)
     return skipped
 
-def save_skipped_terms(skipped_path, skipped_set):
-    """Write the skipped normalized words to the text file (one per line)."""
-    with open(skipped_path, mode="w", encoding="utf-8") as f:
-        for term in sorted(skipped_set):
-            f.write(term + "\n")
+def save_skipped_terms(skipped_path, skipped_set, order=None):
+    temp_path = skipped_path + ".tmp"
+    with open(temp_path, mode="w", encoding="utf-8") as f:
+        if order:
+            for norm in order:
+                if norm in skipped_set:
+                    f.write(norm + "\n")
+            for norm in sorted(skipped_set - set(order)):
+                f.write(norm + "\n")
+        else:
+            for term in sorted(skipped_set):
+                f.write(term + "\n")
+    os.replace(temp_path, skipped_path)
     print(f"Saved {len(skipped_set)} skipped terms to {skipped_path}")
 
-def save_all_results(csv_path, all_results, fieldnames):
-    """Overwrite the CSV file with all the results from the all_results dictionary."""
-    with open(csv_path, mode="w", newline="", encoding="utf-8") as f:
+def save_all_results(csv_path, all_results, fieldnames, order=None):
+    temp_path = csv_path + ".tmp"
+    with open(temp_path, mode="w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        for rows in all_results.values():
-            for row in rows:
-                writer.writerow(row)
-    print(f"Saved CSV with {sum(len(v) for v in all_results.values())} rows to {csv_path}")
+        if order:
+            for norm in order:
+                if norm in all_results:
+                    for row in all_results[norm]:
+                        writer.writerow(row)
+            for norm in sorted(set(all_results.keys()) - set(order)):
+                for row in all_results[norm]:
+                    writer.writerow(row)
+        else:
+            for rows in all_results.values():
+                for row in rows:
+                    writer.writerow(row)
+    os.replace(temp_path, csv_path)
+    total = sum(len(v) for v in all_results.values())
+    print(f"Saved CSV with {total} rows to {csv_path}")
+
+def merge_results(existing, new):
+    for new_row in new:
+        duplicate = False
+        for exist_row in existing:
+            if (exist_row["region"] == new_row["region"] and 
+                exist_row["file_path"] == new_row["file_path"] and 
+                exist_row["IPAs"] == new_row["IPAs"]):
+                duplicate = True
+                break
+        if not duplicate:
+            existing.append(new_row)
+    return existing
+
+def unique_preserve_order(seq):
+    seen = set()
+    result = []
+    for item in seq:
+        if item not in seen:
+            seen.add(item)
+            result.append(item)
+    return result
+
+# ----------------------------
+# Snapshot Save Helpers
+# ----------------------------
+def snapshot_save(csv_file, skipped_file, all_results, skipped_terms, fieldnames, order, lock):
+    with lock:
+        # Create deep copies (snapshots) of the shared state.
+        snapshot_results = copy.deepcopy(all_results)
+        snapshot_skipped = copy.deepcopy(skipped_terms)
+    save_all_results(csv_file, snapshot_results, fieldnames, order)
+    save_skipped_terms(skipped_file, snapshot_skipped, order)
 
 # ----------------------------
 # Audio Conversion Function
 # ----------------------------
 def convert_audio_to_wav(input_path):
-    """
-    If the input audio file is not in WAV format, convert it using ffmpeg.
-    The converted file will have the same basename with a .wav extension.
-    The original file is removed if it still exists.
-    Returns the path of the .wav file.
-    """
     ext = os.path.splitext(input_path)[1].lower()
     if ext == ".wav":
         return input_path
@@ -120,7 +149,6 @@ def convert_audio_to_wav(input_path):
     try:
         subprocess.run(["ffmpeg", "-y", "-i", input_path, output_path],
                        check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        # Only attempt to remove the input file if it still exists.
         if os.path.exists(input_path):
             os.remove(input_path)
         return output_path
@@ -133,12 +161,7 @@ def convert_audio_to_wav(input_path):
 # ----------------------------
 def get_pronunciation_section_html(word):
     api_url = "https://en.wiktionary.org/w/api.php"
-    params = {
-        "action": "parse",
-        "page": word,
-        "prop": "sections",
-        "format": "json"
-    }
+    params = {"action": "parse", "page": word, "prop": "sections", "format": "json"}
     resp = requests.get(api_url, params=params)
     data = resp.json()
     sections = data.get("parse", {}).get("sections", [])
@@ -150,16 +173,9 @@ def get_pronunciation_section_html(word):
     if not pron_index:
         debug(f"Pronunciation section not found for {word}.")
         return None
-    params = {
-        "action": "parse",
-        "page": word,
-        "prop": "text",
-        "section": pron_index,
-        "format": "json"
-    }
+    params = {"action": "parse", "page": word, "prop": "text", "section": pron_index, "format": "json"}
     resp = requests.get(api_url, params=params)
-    html = resp.json()["parse"]["text"]["*"]
-    return html
+    return resp.json()["parse"]["text"]["*"]
 
 def parse_plain_ipa_li(li):
     region_span = li.find('span', class_='usage-label-accent')
@@ -173,10 +189,7 @@ def parse_plain_ipa_li(li):
     ipa_spans = li.find_all('span', class_='IPA')
     ipas = [span.get_text(strip=True) for span in ipa_spans]
     debug(f"Plain li: region={region}, IPAs={ipas}")
-    if ipas:
-        return {'region': region, 'ipas': ipas}
-    else:
-        return None
+    return {'region': region, 'ipas': ipas} if ipas else None
 
 def parse_audio_block(li):
     table = li.find('table', class_='audiotable')
@@ -203,37 +216,20 @@ def parse_audio_block(li):
         else:
             audio_file = None
     debug(f"Audio block: region={region}, narrow_ipa={narrow_ipa}, file={audio_file}")
-    if region and audio_file:
-        return {'region': region, 'audio_file': audio_file, 'narrow_ipa': narrow_ipa}
-    else:
-        return None
+    return {'region': region, 'audio_file': audio_file, 'narrow_ipa': narrow_ipa} if region and audio_file else None
 
 def is_broad(ipa):
-    """
-    Return True if the IPA string is a "broad" transcription (enclosed in slashes).
-    """
     return ipa.startswith("/") and ipa.endswith("/")
 
 def parse_pronunciation_page(html):
-    """
-    Two-pass approach:
-      1. Build a plain_dict from all li's without an audio table.
-      2. Process li's with an audio table.
-    Then build a union of all plain IPA values (ignoring region).
-    For each audio mapping, merge in any plain IPA where regions match.
-    If an audio mapping's IPA list is empty and union has exactly one element, merge that union.
-    Finally, if a mapping contains two or more broad transcriptions, drop it.
-    Return only mappings that have both a non-empty IPA list and an audio_file.
-    """
     soup = BeautifulSoup(html, 'html.parser')
     top_ul = soup.find('ul')
     if not top_ul:
         return []
     
-    plain_dict = {}  # region -> IPA list from li's without audio
-    audio_list = []  # list of mappings from li's with audio
+    plain_dict = {}
+    audio_list = []
     
-    # First pass: plain mappings.
     for li in top_ul.find_all('li', recursive=False):
         if not li.find('table', class_='audiotable'):
             plain = parse_plain_ipa_li(li)
@@ -244,7 +240,6 @@ def parse_pronunciation_page(html):
                     if ipa not in plain_dict[region]:
                         plain_dict[region].append(ipa)
     
-    # Build union of all plain IPA values (ignoring regions)
     union_plain = []
     for ipalist in plain_dict.values():
         for ipa in ipalist:
@@ -252,7 +247,6 @@ def parse_pronunciation_page(html):
                 union_plain.append(ipa)
     debug(f"Union of plain IPA: {union_plain}")
     
-    # Second pass: audio mappings.
     for li in top_ul.find_all('li', recursive=False):
         if li.find('table', class_='audiotable'):
             nested_ul = li.find('ul')
@@ -292,23 +286,18 @@ def parse_pronunciation_page(html):
     for mapping in audio_list:
         region = mapping.get('region')
         ipas = mapping.get('ipas', [])
-        # Merge in plain IPA if region matches.
         if region in plain_dict:
             for ipa in plain_dict[region]:
                 if ipa not in ipas:
                     ipas.append(ipa)
-        # If IPA list is empty and union_plain has exactly one element, merge that.
         elif (not ipas or len(ipas) == 0) and len(union_plain) == 1:
             debug(f"Merging union_plain into mapping for region {region} because IPA list is empty.")
             ipas = union_plain.copy()
         mapping['ipas'] = ipas
-        
-        # Drop mapping if there are two or more broad transcriptions.
         broad_count = sum(1 for ipa in ipas if is_broad(ipa))
         if broad_count >= 2:
             debug(f"Dropping mapping for region {region} due to {broad_count} broad transcriptions.")
             continue
-        
         if ipas and mapping.get('audio_file'):
             final_mappings.append(mapping)
     
@@ -317,13 +306,7 @@ def parse_pronunciation_page(html):
 
 def get_audio_file_url(file_name):
     api_url = "https://en.wiktionary.org/w/api.php"
-    params = {
-        "action": "query",
-        "titles": f"File:{file_name}",
-        "prop": "imageinfo",
-        "iiprop": "url",
-        "format": "json"
-    }
+    params = {"action": "query", "titles": f"File:{file_name}", "prop": "imageinfo", "iiprop": "url", "format": "json"}
     resp = requests.get(api_url, params=params)
     data = resp.json()
     pages = data.get("query", {}).get("pages", {})
@@ -334,9 +317,9 @@ def get_audio_file_url(file_name):
 
 def download_audio_file(url, save_path):
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) ' +
-                      'AppleWebKit/537.36 (KHTML, like Gecko) ' +
-                      'Chrome/115.0 Safari/537.36'
+        'User-Agent': ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+                       'AppleWebKit/537.36 (KHTML, like Gecko) '
+                       'Chrome/115.0 Safari/537.36')
     }
     response = requests.get(url, stream=True, headers=headers)
     if response.status_code == 200:
@@ -366,7 +349,6 @@ def scrape_word(original_word, output_dir):
             file_path = os.path.join(output_dir, mapping['audio_file'])
             if not os.path.exists(file_path):
                 download_audio_file(full_url, file_path)
-            # Convert file to WAV if needed.
             file_path = convert_audio_to_wav(file_path)
         else:
             print(f"Could not get full URL for {mapping['audio_file']}")
@@ -392,108 +374,83 @@ def worker(word, output_dir, processed_words, skipped_terms, lock):
     new_rows = scrape_word(word, output_dir)
     with lock:
         if new_rows:
-            processed_words.add(normalized)
+            if normalized in processed_words:
+                # Merge with existing rows if needed.
+                processed_words.remove(normalized)
+                processed_words.add(normalized)
+            else:
+                processed_words.add(normalized)
         else:
             skipped_terms.add(normalized)
     return (normalized, new_rows)
 
 # ----------------------------
-# Main Function with Argparse, Multithreading, and Skip List
+# Main Function with Argparse, Multithreading, and State Resumption
 # ----------------------------
 def main():
     parser = argparse.ArgumentParser(
         description="Scrape Wiktionary pronunciation info, download audio files, convert to WAV, using multithreading."
     )
-    # New argument to allow reading words from a file.
-    parser.add_argument(
-        "--word-file",
-        type=str,
-        default="target_words.txt",
-        help="Path to a file containing words to scrape (one word per line)."
-    )
-    parser.add_argument(
-        "words",
-        nargs="*",
-        help='Words to scrape (e.g., "7 Up cake", "$100 hamburger", "tomato", "example", "a bad penny always turns up", "abbess").'
-    )
-    parser.add_argument(
-        "--output-dir",
-        default="./audio_files",
-        help="Directory to save downloaded audio files (default: ./audio_files)"
-    )
-    parser.add_argument(
-        "--csv-file",
-        default="output.csv",
-        help="CSV file to store output (default: output.csv)"
-    )
-    parser.add_argument(
-        "--skipped-file",
-        default="skipped_terms.txt",
-        help="Text file to store words skipped due to missing data (default: skipped_terms.txt)"
-    )
-    parser.add_argument(
-        "--save-interval",
-        type=int,
-        default=5,
-        help="Save CSV and skipped file after processing every N words (default: 5)"
-    )
-    parser.add_argument(
-        "--workers",
-        type=int,
-        default=8,
-        help="Number of worker threads to use (default: 8)"
-    )
-    parser.add_argument(
-        "--debug",
-        action="store_true",
-        help="Enable debug output."
-    )
+    parser.add_argument("--word-file", type=str, default="target_words.txt",
+                        help="Path to a file containing words to scrape (one word per line).")
+    parser.add_argument("words", nargs="*",
+                        help='Words to scrape (e.g., "7 Up cake", "$100 hamburger", "tomato", "example", etc.)')
+    parser.add_argument("--output-dir", default="./audio_files",
+                        help="Directory to save downloaded audio files (default: ./audio_files)")
+    parser.add_argument("--csv-file", default="output.csv",
+                        help="CSV file to store output (default: output.csv)")
+    parser.add_argument("--skipped-file", default="skipped_terms.txt",
+                        help="Text file to store words skipped due to missing data (default: skipped_terms.txt)")
+    parser.add_argument("--save-interval", type=int, default=1000,
+                        help="Save state after processing every N words (default: 1000)")
+    parser.add_argument("--workers", type=int, default=8,
+                        help="Number of worker threads to use (default: 8)")
+    parser.add_argument("--debug", action="store_true", help="Enable debug output.")
     args = parser.parse_args()
     
     global DEBUG
     DEBUG = args.debug
     
-    # Determine words to process: either from the word file or the positional arguments.
-    if args.word_file:
-        if not os.path.exists(args.word_file):
-            print(f"Word file {args.word_file} does not exist.")
-            return
+    words_to_process = []
+    if args.word_file and os.path.exists(args.word_file):
         with open(args.word_file, "r", encoding="utf-8") as f:
-            words_to_process = [line.strip() for line in f if line.strip()]
-    else:
-        words_to_process = args.words
-
+            words_to_process.extend([line.strip() for line in f if line.strip()])
+    words_to_process.extend(args.words)
+    words_to_process = unique_preserve_order(words_to_process)
+    
     if not words_to_process:
         print("No words to process.")
         return
+    
+    order_list = [normalize_word(w) for w in words_to_process]
     
     os.makedirs(args.output_dir, exist_ok=True)
     fieldnames = ["word", "region", "IPAs", "file_path", "wiktionary_url"]
     all_results = load_existing_csv(args.csv_file)
     skipped_terms = load_skipped_terms(args.skipped_file)
+    
     processed_words = {norm for norm, rows in all_results.items() if is_fully_processed(rows)}
     
-    # Lock to protect shared data.
     lock = threading.Lock()
     count = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as executor:
-        futures = {executor.submit(worker, word, args.output_dir, processed_words, skipped_terms, lock): word for word in words_to_process}
+        futures = {executor.submit(worker, word, args.output_dir, processed_words, skipped_terms, lock): word
+                   for word in words_to_process}
         for future in concurrent.futures.as_completed(futures):
             norm, new_rows = future.result()
             with lock:
                 if new_rows:
-                    all_results[norm] = new_rows
+                    if norm in all_results:
+                        all_results[norm] = merge_results(all_results[norm], new_rows)
+                    else:
+                        all_results[norm] = new_rows
             count += 1
             if count % args.save_interval == 0:
-                with lock:
-                    save_all_results(args.csv_file, all_results, fieldnames)
-                    save_skipped_terms(args.skipped_file, skipped_terms)
+                # Take a snapshot and perform an incremental save.
+                snapshot_save(args.csv_file, args.skipped_file, all_results, skipped_terms, fieldnames, order_list, lock)
+    
     # Final save after all threads complete.
-    save_all_results(args.csv_file, all_results, fieldnames)
-    save_skipped_terms(args.skipped_file, skipped_terms)
+    snapshot_save(args.csv_file, args.skipped_file, all_results, skipped_terms, fieldnames, order_list, lock)
 
 if __name__ == "__main__":
     main()
-
-# Example usage:
-# python scrape.py

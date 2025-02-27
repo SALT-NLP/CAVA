@@ -14,6 +14,10 @@ class TaskConfig(NamedTuple):
     field_name: str = "response"  # Name of the field for API schema generation
     audio_dir: str = "generated_audio/"
     data_file: str = "audio_inputs.jsonl"
+    speech_output: bool = False  # Flag for tasks that evaluate model's speech output
+    output_audio_dir: Optional[str] = None  # Directory to save model's speech output
+    template_fields: Optional[Dict[str, Any]] = None  # Fields to populate in prompt template
+    verify_tokenization: bool = False  # Flag to verify label tokenization
 
 
 def create_task_configs() -> Dict[str, TaskConfig]:
@@ -35,6 +39,7 @@ def create_task_configs() -> Dict[str, TaskConfig]:
             field_name="emotion",
             audio_dir="generated_audio/",
             data_file="audio_inputs.jsonl",
+            verify_tokenization=True,  # Enable tokenization verification for labels
         ),
         "transcription": TaskConfig(
             name="transcription",
@@ -45,4 +50,43 @@ def create_task_configs() -> Dict[str, TaskConfig]:
             audio_dir="transcription_test/",
             data_file="audio_inputs.jsonl",
         ),
+        "pronunciation": TaskConfig(
+            name="pronunciation",
+            prompt_template="Read aloud the following text: {text_to_read}",
+            use_logits_processor=False,
+            max_new_tokens=0,  # No text output expected
+            field_name="pronunciation_score",
+            audio_dir="pronunciation_test/",
+            data_file="pronunciation_inputs.jsonl",
+            speech_output=True,  # This task evaluates speech output
+            output_audio_dir="pronunciation_outputs/",
+            template_fields={"text_to_read": "sentence"},  # Map 'text_to_read' in prompt to 'sentence' field in data
+        ),
     }
+
+
+def format_prompt_template(
+    template: str, record: Dict[str, Any], template_fields: Optional[Dict[str, Any]] = None
+) -> str:
+    """
+    Format a prompt template with values from the record
+
+    Args:
+        template: The prompt template with placeholders
+        record: The record containing field values
+        template_fields: Optional mapping from template placeholders to record fields
+
+    Returns:
+        Formatted prompt
+    """
+    if not template_fields:
+        return template
+
+    # Create a dictionary of values to replace in the template
+    replacements = {}
+    for template_key, record_field in template_fields.items():
+        if record_field in record:
+            replacements[template_key] = record[record_field]
+
+    # Format the template with the replacements
+    return template.format(**replacements)

@@ -103,6 +103,18 @@ def main():
     # ... rest of the function
 ```
 
+## Prompt Templates
+
+Prompt templates are used to guide the model in performing the task. 
+Templates can include placeholders for dynamic content using the format `{placeholder_name}`.
+
+For example:
+```python
+prompt_template="Analyze the audio and determine if the speaker sounds {emotion_type}. Respond with only 'yes' or 'no'."
+```
+
+When no placeholders are used, the template is used as a prefix to the audio input.
+
 ## Output format
 
 After running evaluation, results will be saved in files named:
@@ -112,3 +124,12 @@ For example:
 `audio_inputs.jsonl_Qwen2-Audio-7B-Instruct_emotion`
 
 The output file will contain the original records with added prediction fields.
+
+## Speech Output Evaluation
+
+For tasks that require evaluating a model's speech output (such as pronunciation or speech synthesis):
+
+1. Set the `speech_output` parameter to `True` in your task configuration
+2. Specify an `output_audio_dir` where generated audio will be saved
+3. Define an appropriate evaluation metric in the task configuration
+

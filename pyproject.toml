@@ -28,7 +28,11 @@ dependencies = [
     "xxhash",
     "datasets",
     "openai",
-    "transformers"
+    "transformers",
+    "pydantic",
+    "tqdm",
+    "argparse",
+    "diskcache",
 ]
 
 [tool.hatch.build]
@@ -51,6 +55,7 @@ only-include = ["src/meau"]
 
 [project.urls]
 "Homepage" = "https://diva-audio.github.io"
+"Repository" = "https://github.com/SALT-NLP/MEAu"
 
 [tool.black]
 line-length = 119

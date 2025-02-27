@@ -1,4 +1,6 @@
 import base64
+import functools
+import hashlib
 import json
 import os
 import time
@@ -6,6 +8,7 @@ from enum import Enum
 from pathlib import Path
 from typing import Any, Callable, Dict, List, NamedTuple, Optional, Tuple, Type, Union
 
+import diskcache
 import librosa
 import numpy as np
 import soundfile as sf
@@ -23,7 +26,7 @@ from transformers import (
     Qwen2AudioForConditionalGeneration,
 )
 
-from meau.config import TaskConfig, create_task_configs
+from cats.config import TaskConfig, create_task_configs, format_prompt_template
 
 
 # Global API call counters for rate limiting
@@ -31,6 +34,13 @@ API_CALL_COUNTERS = {"gemini": 0, "openai": 0}
 
 # Maximum API calls allowed per run
 MAX_API_CALLS = 10000
+
+# Initialize disk cache for API calls
+CACHE_DIR = os.environ.get("CATS_CACHE_DIR", ".cats_cache")
+api_cache = diskcache.Cache(CACHE_DIR)
+
+# Cache expiration time (default: 30 days)
+CACHE_EXPIRE_SECONDS = int(os.environ.get("CATS_CACHE_EXPIRE", 60 * 60 * 24 * 30))
 
 load_dotenv()
 
@@ -164,6 +174,27 @@ def process_audio(audio_file: str, audio_dir: str = "") -> Dict[str, Any]:
     return {"array": audio, "sampling_rate": sr}
 
 
+def verify_label_tokenization(tokenizer: Any, labels: List[str]) -> None:
+    """
+    Verify that all labels tokenize as expected (single tokens)
+
+    Args:
+        tokenizer: Model tokenizer
+        labels: List of label strings to verify
+    """
+    problematic_labels = []
+    for label in labels:
+        tokens = tokenizer.tokenize(label)
+        if len(tokens) != 1:
+            problematic_labels.append((label, tokens))
+
+    if problematic_labels:
+        print("WARNING: The following labels are not single tokens:")
+        for label, tokens in problematic_labels:
+            print(f"  '{label}' -> {tokens}")
+        print("This may affect logits processing for constrained generation.")
+
+
 def create_logits_processor(tokenizer: Any, labels: List[str]) -> PrefixConstrainedLogitsProcessor:
     """
     Create a logits processor for constrained generation
@@ -199,10 +230,36 @@ def save_temp_audio(audio: Dict[str, Any], task_name: str, model_type: str) -> s
 
     # Create a temporary file with proper suffix
     tmp_dir = tempfile.gettempdir()
-    temp_audio_path = Path(tmp_dir) / f"meau_{task_name}_{model_type}_{int(time.time())}.wav"
+    temp_audio_path = Path(tmp_dir) / f"cats_{task_name}_{model_type}_{int(time.time())}.wav"
 
     sf.write(str(temp_audio_path), audio["array"], audio["sampling_rate"], format="wav")
     return str(temp_audio_path)
+
+
+def save_model_speech_output(audio_data: bytes, task_config: TaskConfig, record_id: str) -> str:
+    """
+    Save model's speech output to file
+
+    Args:
+        audio_data: Generated audio data
+        task_config: Task configuration
+        record_id: Identifier for the record
+
+    Returns:
+        Path to saved audio file
+    """
+    # Create output directory if not exists
+    output_dir = Path(task_config.output_audio_dir or "model_speech_outputs")
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Generate output filename
+    output_path = output_dir / f"{task_config.name}_{record_id}_{int(time.time())}.wav"
+
+    # Write audio data to file
+    with open(output_path, "wb") as f:
+        f.write(audio_data)
+
+    return str(output_path)
 
 
 def cleanup_temp_audio(temp_audio_path: str) -> None:
@@ -246,6 +303,77 @@ def check_api_call_limit(model_type: str) -> bool:
         return True
 
     return True  # Not an API model
+
+
+def create_cache_key(
+    audio: Dict[str, Any], text_prompt: str, model_name: str, task_name: str, use_cache_seed: bool = True
+) -> str:
+    """
+    Create a unique cache key for API responses
+
+    Args:
+        audio: Processed audio data
+        text_prompt: Text prompt for the model
+        model_name: Name of the model
+        task_name: Name of the task
+        use_cache_seed: Whether to include the CATS_CACHE_SEED env var in the key
+
+    Returns:
+        A unique hash string to use as cache key
+    """
+    # Get audio content hash
+    audio_hash = hashlib.md5(audio["array"].tobytes()).hexdigest()
+
+    # Get prompt hash
+    prompt_hash = hashlib.md5(text_prompt.encode()).hexdigest()
+
+    # Include cache seed if available and requested
+    # This allows forcing cache misses by changing the seed
+    cache_seed = ""
+    if use_cache_seed:
+        cache_seed = os.environ.get("CATS_CACHE_SEED", "")
+
+    # Combine all elements
+    key_str = f"{model_name}:{task_name}:{audio_hash}:{prompt_hash}:{cache_seed}"
+    return hashlib.md5(key_str.encode()).hexdigest()
+
+
+def api_cached(func):
+    """
+    Decorator to cache API responses on disk
+
+    Args:
+        func: The function to decorate
+
+    Returns:
+        Wrapped function with caching
+    """
+
+    @functools.wraps(func)
+    def wrapper(resources, audio, text_prompt, task_config, *args, **kwargs):
+        # Skip caching if disabled
+        if os.environ.get("CATS_DISABLE_CACHE", "").lower() in ("true", "1", "yes"):
+            return func(resources, audio, text_prompt, task_config, *args, **kwargs)
+
+        # Create cache key
+        cache_key = create_cache_key(audio, text_prompt, resources.model_name, task_config.name)
+
+        # Try to get from cache
+        cached_result = api_cache.get(cache_key)
+        if cached_result is not None:
+            print(f"Cache hit for {resources.model_type} API call: {resources.model_name}")
+            return cached_result
+
+        # Call the original function
+        result = func(resources, audio, text_prompt, task_config, *args, **kwargs)
+
+        # Store in cache
+        api_cache.set(cache_key, result, expire=CACHE_EXPIRE_SECONDS)
+        print(f"Cached {resources.model_type} API response for {resources.model_name}")
+
+        return result
+
+    return wrapper
 
 
 @torch.no_grad()
@@ -352,6 +480,7 @@ def process_with_diva(
         cleanup_temp_audio(temp_audio_path)
 
 
+@api_cached
 def process_with_gemini(
     resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
 ) -> str:
@@ -423,9 +552,10 @@ def process_with_gemini(
         cleanup_temp_audio(temp_audio_path)
 
 
+@api_cached
 def process_with_openai(
     resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
-) -> str:
+) -> Union[str, Tuple[str, str]]:
     """
     Process audio with OpenAI model
 
@@ -436,7 +566,7 @@ def process_with_openai(
         task_config: Task configuration
 
     Returns:
-        Model output
+        Model output text, or tuple of (output text, path to output audio) for speech tasks
     """
     # Check API call limit
     if not check_api_call_limit("openai"):
@@ -483,14 +613,26 @@ def process_with_openai(
         # Try to generate content with retries for API rate limits
         for attempt in range(max_retries):
             try:
-                completion = resources.model.chat.completions.create(
-                    model=resources.model_name,
-                    modalities=["text"],
-                    temperature=0,
-                    messages=messages_content,
-                )
+                # Create API call arguments
+                api_args = {
+                    "model": resources.model_name,
+                    "modalities": ["text"] if not task_config.speech_output else ["text", "audio"],
+                    "temperature": 0,
+                    "messages": messages_content,
+                }
+
+                # Make the API call
+                completion = resources.model.chat.completions.create(**api_args)
 
                 response = completion.choices[0].message.content
+
+                # Handle speech output if applicable
+                output_audio_path = None
+                if task_config.speech_output and hasattr(completion.choices[0].message, "audio"):
+                    audio_data = base64.b64decode(completion.choices[0].message.audio)
+                    output_audio_path = save_model_speech_output(
+                        audio_data, task_config, os.path.basename(temp_audio_path).split("_")[0]
+                    )
 
                 # Try to parse structured response if using schema
                 if task_config.labels and task_config.use_logits_processor:
@@ -510,7 +652,11 @@ def process_with_openai(
                                     label.lower() for label, pred in zip(task_config.labels, response_vec) if pred == 1
                                 ][0]
 
-                return response
+                # Return appropriate result based on task type
+                if task_config.speech_output and output_audio_path:
+                    return response, output_audio_path
+                else:
+                    return response
 
             except Exception as e:
                 if attempt < max_retries - 1:
@@ -526,7 +672,9 @@ def process_with_openai(
         cleanup_temp_audio(temp_audio_path)
 
 
-def process_sample(resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig) -> str:
+def process_sample(
+    resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
+) -> Union[str, Tuple[str, str]]:
     """
     Process a single audio sample based on model type
 
@@ -537,8 +685,12 @@ def process_sample(resources: ModelResources, audio: Dict[str, Any], text_prompt
         task_config: Task configuration
 
     Returns:
-        Processed model output
+        Processed model output text, or tuple of (output text, path to output audio) for speech tasks
     """
+    # Verify label tokenization if required
+    if task_config.verify_tokenization and task_config.labels and resources.tokenizer:
+        verify_label_tokenization(resources.tokenizer, task_config.labels)
+
     # Choose processing function based on model type
     if resources.model_type == "transformers":
         if "Qwen2" in resources.model_name:
@@ -554,8 +706,14 @@ def process_sample(resources: ModelResources, audio: Dict[str, Any], text_prompt
     else:
         raise ValueError(f"Model type {resources.model_type} processing not implemented")
 
-    # Apply task-specific output processing
-    return task_config.output_processor(response)
+    # Apply task-specific output processing for text responses
+    if isinstance(response, tuple) and task_config.speech_output:
+        # For speech output tasks, apply processing only to the text part
+        text_response, audio_path = response
+        return task_config.output_processor(text_response), audio_path
+    else:
+        # For text-only tasks
+        return task_config.output_processor(response)
 
 
 def process_record(
@@ -581,11 +739,20 @@ def process_record(
     # Process audio
     audio = process_audio(audio_file, task_config.audio_dir)
 
-    # Get model prediction
-    predicted_value = process_sample(resources, audio, task_config.prompt_template, task_config)
+    # Format the prompt template with record values if template_fields are provided
+    formatted_prompt = format_prompt_template(task_config.prompt_template, record, task_config.template_fields)
 
-    # Add prediction to record
-    record["prediction"] = predicted_value
+    # Get model prediction
+    prediction = process_sample(resources, audio, formatted_prompt, task_config)
+
+    # Handle different return types based on task type
+    if isinstance(prediction, tuple) and task_config.speech_output:
+        predicted_value, output_audio_path = prediction
+        record["prediction"] = predicted_value
+        record["output_audio_path"] = output_audio_path
+    else:
+        predicted_value = prediction
+        record["prediction"] = predicted_value
 
     # Check if prediction is correct
     correct = 0
@@ -657,10 +824,28 @@ def reset_api_counters():
         API_CALL_COUNTERS[key] = 0
 
 
+def clear_cache():
+    """Clear the API response cache"""
+    api_cache.clear()
+    print(f"Cache cleared: {CACHE_DIR}")
+
+
+def get_cache_stats():
+    """Get cache statistics"""
+    stats = {"size": api_cache.size, "volume": len(api_cache), "directory": CACHE_DIR}
+    return stats
+
+
 def main():
     """Entry point for the evaluation pipeline"""
     # Reset API counters at the start of a run
     reset_api_counters()
+
+    # Print cache stats at the beginning
+    cache_stats = get_cache_stats()
+    print(
+        f"Cache stats: {cache_stats['volume']} items, {cache_stats['size']/1024/1024:.2f} MB at {cache_stats['directory']}"
+    )
 
     # Get available tasks
     tasks = create_task_configs()
@@ -699,6 +884,38 @@ def main():
     for api_type, count in API_CALL_COUNTERS.items():
         print(f"  {api_type.capitalize()}: {count}/{MAX_API_CALLS} calls")
 
+    # Print cache stats at the end
+    cache_stats = get_cache_stats()
+    print(f"\nCache stats: {cache_stats['volume']} items, {cache_stats['size']/1024/1024:.2f} MB")
+
 
 if __name__ == "__main__":
+    # Add argument parsing for cache management
+    import argparse
+
+    parser = argparse.ArgumentParser(description="CATS evaluation pipeline")
+    parser.add_argument("--clear-cache", action="store_true", help="Clear the API response cache before running")
+    parser.add_argument("--cache-seed", type=str, help="Set a cache seed to force fresh API calls")
+    parser.add_argument("--disable-cache", action="store_true", help="Disable caching for this run")
+
+    args = parser.parse_args()
+
+    # Handle cache-related arguments
+    if args.clear_cache:
+        response = input(
+            "Warning: You are about to clear the cache. This action cannot be undone.\nDo you want to continue? [y/N]: "
+        )
+        if response.lower() == "y":
+            clear_cache()
+        else:
+            print("Cache clearing aborted.")
+
+    if args.cache_seed:
+        os.environ["CATS_CACHE_SEED"] = args.cache_seed
+        print(f"Using cache seed: {args.cache_seed}")
+
+    if args.disable_cache:
+        os.environ["CATS_DISABLE_CACHE"] = "true"
+        print("Caching disabled for this run")
+
     main()

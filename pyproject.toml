@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "meau"
+name = "cats"
 version = "0.0.1"
 authors = [
   {name="Will Held", email="wheld3@gatech.edu"},
@@ -28,7 +28,11 @@ dependencies = [
     "xxhash",
     "datasets",
     "openai",
-    "transformers"
+    "transformers",
+    "pydantic",
+    "tqdm",
+    "argparse",
+    "diskcache",
 ]
 
 [tool.hatch.build]
@@ -36,7 +40,7 @@ include = ["src/"]
 dev-mode-dirs = [".", "src"]
 
 [tool.hatch.build.sources]
-"meau" = "src/meau"
+"cats" = "src/cats"
 
 [tool.hatch.metadata]
 allow-direct-references = true
@@ -45,12 +49,13 @@ allow-direct-references = true
 only-include = ["src"]
 
 [tool.hatch.build.targets.wheel]
-only-include = ["src/meau"]
+only-include = ["src/cats"]
 
 [tool.hatch.version]
 
 [project.urls]
 "Homepage" = "https://diva-audio.github.io"
+"Repository" = "https://github.com/SALT-NLP/CATS"
 
 [tool.black]
 line-length = 119

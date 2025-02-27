@@ -1,4 +1,12 @@
-# MEAU - Multitask Evaluation of Audio Models
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./img/CATS-white.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./img/CATS.svg">
+    <img alt="Shows a black logo in light color mode and a white one in dark color mode.">
+  </picture>
+</p>
+
+# CATS - Comprehensive Assesment for Testing Speech
 
 A framework for evaluating audio models across multiple tasks.
 
@@ -7,8 +15,8 @@ A framework for evaluating audio models across multiple tasks.
 ### Create environment and install packages
 
 ```bash
-conda create -n "meau" python=3.12 ipython -y
-conda activate meau
+conda create -n "cats" python=3.12 ipython -y
+conda activate cats
 pip install -e .
 ```
 
@@ -55,7 +63,7 @@ For example, for an emotion classification task:
 
 ### 3. Configure a new task
 
-Add a new task configuration in `src/meau/config.py` by updating the `create_task_configs()` function:
+Add a new task configuration in `src/cats/config.py` by updating the `create_task_configs()` function:
 
 ```python
 def create_task_configs() -> Dict[str, TaskConfig]:
@@ -79,14 +87,14 @@ def create_task_configs() -> Dict[str, TaskConfig]:
 Run the evaluation using the command:
 
 ```python
-import meau
+import cats
 
 # To run evaluation on your new task
-from meau.inference import main
+from cats.inference import main
 main()
 ```
 
-You can also modify the `main()` function in `src/meau/inference.py` to specify your task:
+You can also modify the `main()` function in `src/cats/inference.py` to specify your task:
 
 ```python
 def main():
@@ -103,6 +111,18 @@ def main():
     # ... rest of the function
 ```
 
+## Prompt Templates
+
+Prompt templates are used to guide the model in performing the task. 
+Templates can include placeholders for dynamic content using the format `{placeholder_name}`.
+
+For example:
+```python
+prompt_template="Analyze the audio and determine if the speaker sounds {emotion_type}. Respond with only 'yes' or 'no'."
+```
+
+When no placeholders are used, the template is used as a prefix to the audio input.
+
 ## Output format
 
 After running evaluation, results will be saved in files named:
@@ -112,3 +132,12 @@ For example:
 `audio_inputs.jsonl_Qwen2-Audio-7B-Instruct_emotion`
 
 The output file will contain the original records with added prediction fields.
+
+## Speech Output Evaluation
+
+For tasks that require evaluating a model's speech output (such as pronunciation or speech synthesis):
+
+1. Set the `speech_output` parameter to `True` in your task configuration
+2. Specify an `output_audio_dir` where generated audio will be saved
+3. Define an appropriate evaluation metric in the task configuration
+

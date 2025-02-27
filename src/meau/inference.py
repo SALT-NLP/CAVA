@@ -902,7 +902,14 @@ if __name__ == "__main__":
 
     # Handle cache-related arguments
     if args.clear_cache:
-        clear_cache()
+        response = input(
+            "Warning: You are about to clear the cache. This action cannot be undone.\nDo you want to continue? [y/N]: "
+        )
+        if response.lower() == "y":
+            clear_cache()
+        else:
+            print("Cache clearing aborted.")
+            return
 
     if args.cache_seed:
         os.environ["MEAU_CACHE_SEED"] = args.cache_seed

@@ -1,0 +1,1189 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+ES2006d,A,0.0,0.0,0.0,ES2006d.A.dialog-act.s9553330.1,,,,,,,,,False, I'm proud of it.,4,other,Other
+ES2006d,D,3.824,5.285,1.461,ES2006d.D.dialog-act.s9553330.1,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,4.79,6.25,1.46,ES2006d.C.dialog-act.s9553330.1,,,,,,,,,False, Okay.,1,other,Other
+ES2006d,C,6.25,9.69,3.44,ES2006d.C.dialog-act.s9553330.2,C,,1.16,,True,False,0.0,[],False," This is our final meeting, the detailed design meeting.",9,task,Inform
+ES2006d,C,10.85,14.62,3.77,ES2006d.C.dialog-act.s9553330.3,C,C,1.17,1.16,False,False,0.0,[],False, And again I'll take minutes.,5,other,Offer
+ES2006d,C,14.62,15.79,1.17,ES2006d.C.dialog-act.s9553330.4,,,,,,,,,False, The,1,minor,Fragment
+ES2006d,C,15.79,22.11,6.32,ES2006d.C.dialog-act.s9553330.5,C,C,0.0,1.17,False,False,0.0,[],False," what we have to get through in this meeting is firstly the prototype presentation from you two,",17,task,Inform
+ES2006d,C,22.11,26.3,4.19,ES2006d.C.dialog-act.s9553330.6,B,C,1.2,0.0,False,False,0.0,[],False, so you can show us what you've been working on so diligently.,12,elicit,Elicit-Offer-Or-Suggestion
+ES2006d,D,23.52,23.84,0.32,ES2006d.D.dialog-act.s9553330.2,,,,,,,,,False, Yeah.,1,other,Offer
+ES2006d,C,27.15,27.88,0.73,ES2006d.C.dialog-act.s9553330.7,,,,,,,,,False, Um then,2,minor,Fragment
+ES2006d,B,27.5,29.0,1.5,ES2006d.B.dialog-act.s9553330.1,C,C,-0.04,1.2,True,True,0.04,['ES2006d.C.dialog-act.s9553330.8'],True, It does look very cool.,5,task,Assess
+ES2006d,A,28.411,30.523,2.112,ES2006d.A.dialog-act.s9553330.2,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,28.96,38.81,9.85,ES2006d.C.dialog-act.s9553330.8,C,B,0.0,-0.04,True,False,0.0,[],False, then Cat's going to present the evaluation criteria that we're going to be evaluating this against.,16,task,Inform
+ES2006d,D,29.984,30.576,0.592,ES2006d.D.dialog-act.s9553330.3,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,38.81,41.7,2.89,ES2006d.C.dialog-act.s9553330.9,C,C,0.0,0.0,False,False,0.0,[],False," Then I need to say some st a few things about finance,",12,task,Inform
+ES2006d,C,41.7,47.9,6.2,ES2006d.C.dialog-act.s9553330.10,C,C,0.0,0.0,False,False,0.0,[],False, 'cause we have to check that it's within the finance criteria.,11,task,Inform
+ES2006d,C,47.9,58.75,10.85,ES2006d.C.dialog-act.s9553330.11,C,C,0.0,0.0,False,False,0.0,[],False, Um and then we'll be making sure that our product fits both the evaluation criteria from Cat and the financial limits.,21,task,Inform
+ES2006d,C,58.75,66.73,7.98,ES2006d.C.dialog-act.s9553330.12,C,C,0.0,0.0,False,False,0.0,[],False, Um and then we uh will have a brief evaluation of the whole process of production and design that we've been through.,22,task,Inform
+ES2006d,C,66.73,68.87,2.14,ES2006d.C.dialog-act.s9553330.13,B,C,-0.26,0.0,False,True,0.26,['ES2006d.B.dialog-act.s9553330.2'],False, So we've got forty minutes. S,6,elicit,Elicit-Inform
+ES2006d,B,68.61,70.54,1.93,ES2006d.B.dialog-act.s9553330.2,C,C,0.452,-0.26,True,False,0.0,[],False, And then do we get to make a remote control?,10,other,Be-Positive
+ES2006d,A,70.656,72.496,1.84,ES2006d.A.dialog-act.s9553330.3,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,70.992,74.1,3.108,ES2006d.C.dialog-act.s9553330.14,C,B,4.87,0.452,True,False,0.0,[],True, 'Cause we missed out.,4,other,Be-Positive
+ES2006d,D,71.063,72.297,1.234,ES2006d.D.dialog-act.s9553330.4,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,73.702,75.12,1.418,ES2006d.B.dialog-act.s9553330.3,,,,,,,,,False, Yeah.,1,other,Be-Positive
+ES2006d,C,75.96,76.71,0.75,ES2006d.C.dialog-act.s9553330.15,,,,,,,,,False, So,1,minor,Stall
+ES2006d,A,76.912,77.568,0.656,ES2006d.A.dialog-act.s9553330.4,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,77.73,78.97,1.24,ES2006d.C.dialog-act.s9553330.16,,,,,,,,,False, it's now,2,task,Inform
+ES2006d,C,78.97,82.11,3.14,ES2006d.C.dialog-act.s9553330.17,C,C,0.0,4.87,False,False,0.0,[],False," I guess that we're supposed to start at fifteen thirty five,",11,task,Inform
+ES2006d,C,82.11,86.81,4.7,ES2006d.C.dialog-act.s9553330.18,A,C,2.25,0.0,False,False,0.0,[],False, so we've got until four fifteen.,6,task,Inform
+ES2006d,A,87.99,89.06,1.07,ES2006d.A.dialog-act.s9553330.5,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+ES2006d,C,88.98,89.38,0.4,ES2006d.C.dialog-act.s9553330.19,,,,,,,,,False, Is that right?,3,elicit,Elicit-Inform
+ES2006d,A,89.06,91.57,2.51,ES2006d.A.dialog-act.s9553330.6,D,C,-1.09,2.25,True,True,1.09,"['ES2006d.D.dialog-act.s9553330.5', 'ES2006d.C.dialog-act.s9553330.21']",True," How how much do we have, forty minutes?",8,elicit,Elicit-Inform
+ES2006d,D,90.48,92.19,1.71,ES2006d.D.dialog-act.s9553330.5,C,A,-0.64,-1.09,True,True,0.64,['ES2006d.C.dialog-act.s9553330.21'],False," Yeah, about four fifteen, yeah.",5,task,Assess
+ES2006d,C,90.98,91.55,0.57,ES2006d.C.dialog-act.s9553330.20,,,,,,,,,False," Yeah,",1,task,Assess
+ES2006d,B,91.19,91.53,0.34,ES2006d.B.dialog-act.s9553330.4,,,,,,,,,False, Yeah.,1,task,Inform
+ES2006d,C,91.55,93.26,1.71,ES2006d.C.dialog-act.s9553330.21,D,D,7.14,-0.64,True,False,0.0,[],False, until about four fifteen.,4,task,Inform
+ES2006d,A,91.57,91.79,0.22,ES2006d.A.dialog-act.s9553330.7,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,93.26,95.824,2.564,ES2006d.C.dialog-act.s9553330.22,,,,,,,,,False, So yeah.,2,minor,Stall
+ES2006d,A,95.883,97.84,1.957,ES2006d.A.dialog-act.s9553330.8,,,,,,,,,False," Okay, so.",2,minor,Stall
+ES2006d,C,97.36,97.81,0.45,ES2006d.C.dialog-act.s9553330.23,,,,,,,,,False, Go for it.,3,task,Suggest
+ES2006d,C,97.81,99.197,1.387,ES2006d.C.dialog-act.s9553330.24,,,,,,,,,False, Do you want,3,minor,Fragment
+ES2006d,D,98.75,100.4,1.65,ES2006d.D.dialog-act.s9553330.6,,,,,,,,,False," So, you said um",4,minor,Fragment
+ES2006d,D,100.4,102.88,2.48,ES2006d.D.dialog-act.s9553330.7,D,C,0.0,7.14,True,False,0.0,[],True, are are we starting with the the,7,elicit,Elicit-Inform
+ES2006d,C,101.6,102.12,0.52,ES2006d.C.dialog-act.s9553330.25,,,,,,,,,False, Yes.,1,task,Inform
+ES2006d,A,102.14,102.74,0.6,ES2006d.A.dialog-act.s9553330.9,,,,,,,,,False, Presentation.,1,task,Inform
+ES2006d,D,102.88,106.65,3.77,ES2006d.D.dialog-act.s9553330.8,D,D,0.0,0.0,False,False,0.0,[],False, so will you maybe start with like the mm the shape and things,13,elicit,Elicit-Offer-Or-Suggestion
+ES2006d,D,106.65,113.988,7.338,ES2006d.D.dialog-act.s9553330.9,A,D,-0.188,0.0,False,True,0.188,['ES2006d.A.dialog-act.s9553330.11'],False," and and then I will explain the the user interface th uh things, like the buttons and the scrolling things and",21,other,Offer
+ES2006d,A,111.36,113.8,2.44,ES2006d.A.dialog-act.s9553330.10,,,,,,,,,False, Okay.,1,other,Offer
+ES2006d,A,113.8,126.71,12.91,ES2006d.A.dialog-act.s9553330.11,B,D,-2.118,-0.188,True,True,2.118,['ES2006d.B.dialog-act.s9553330.5'],False, Okay. So um basically going with our trend of vegetables and we selected the colour and approximate shape of banana.,20,task,Inform
+ES2006d,C,119.58,120.119,0.539,ES2006d.C.dialog-act.s9553330.26,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,119.6,120.112,0.512,ES2006d.D.dialog-act.s9553330.10,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,124.256,126.191,1.935,ES2006d.C.dialog-act.s9553330.27,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,124.592,128.73,4.138,ES2006d.B.dialog-act.s9553330.5,B,A,0.0,-2.118,True,False,0.0,[],False, You think bananas are a safe thing to use?,9,elicit,Elicit-Inform
+ES2006d,A,126.71,127.344,0.634,ES2006d.A.dialog-act.s9553330.13,,,,,,,,,False, Um,1,minor,Fragment
+ES2006d,B,128.73,130.19,1.46,ES2006d.B.dialog-act.s9553330.6,D,B,0.706,0.0,False,False,0.0,[],False, It's a bit um phallic.,5,task,Assess
+ES2006d,A,128.976,129.824,0.848,ES2006d.A.dialog-act.s9553330.12,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,130.448,131.774,1.326,ES2006d.C.dialog-act.s9553330.28,,,,,,,,,False,,0,minor,Fragment
+ES2006d,A,130.84,133.072,2.232,ES2006d.A.dialog-act.s9553330.14,,,,,,,,,False, Yeah. Um,2,minor,Backchannel
+ES2006d,D,130.896,135.856,4.96,ES2006d.D.dialog-act.s9553330.11,B,B,3.984,0.706,True,False,0.0,[],True," Well, but it's it's just an a approximation.",8,task,Inform
+ES2006d,C,133.77,136.02,2.25,ES2006d.C.dialog-act.s9553330.29,,,,,,,,,False," Dual use, perfect.",3,other,Be-Positive
+ES2006d,A,134.91,141.106,6.196,ES2006d.A.dialog-act.s9553330.15,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,136.02,142.66,6.64,ES2006d.C.dialog-act.s9553330.30,,,,,,,,,False," Dual use, perfect.",3,other,Be-Positive
+ES2006d,D,137.76,138.288,0.528,ES2006d.D.dialog-act.s9553330.12,,,,,,,,,False,,0,minor,Backchannel
+ES2006d,B,138.72,138.81,0.09,ES2006d.B.dialog-act.s9553330.8,,,,,,,,,False," Oh,",1,other,Be-Positive
+ES2006d,B,138.81,139.84,1.03,ES2006d.B.dialog-act.s9553330.9,,,,,,,,,False, your remote control,3,minor,Fragment
+ES2006d,B,139.84,142.752,2.912,ES2006d.B.dialog-act.s9553330.7,C,D,-0.092,3.984,True,True,0.092,['ES2006d.C.dialog-act.s9553330.31'],True,? Oh that's just bad.,4,other,Be-Positive
+ES2006d,C,142.66,144.51,1.85,ES2006d.C.dialog-act.s9553330.31,A,B,-0.958,-0.092,True,True,0.958,['ES2006d.A.dialog-act.s9553330.16'],False, Does it vibrate when you press the buttons?,8,other,Be-Positive
+ES2006d,A,143.552,150.93,7.378,ES2006d.A.dialog-act.s9553330.16,A,C,3.21,-0.958,True,False,0.0,[],False, Um so basically it's the it's the flip open thing again.,11,task,Inform
+ES2006d,C,144.51,145.61,1.1,ES2006d.C.dialog-act.s9553330.32,,,,,,,,,False," Sorry, sorry.",2,other,Be-Positive
+ES2006d,D,144.611,145.201,0.59,ES2006d.D.dialog-act.s9553330.13,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,150.58,150.94,0.36,ES2006d.C.dialog-act.s9553330.34,,,,,,,,,False, Mm-hmm.,1,task,Assess
+ES2006d,A,150.93,154.14,3.21,ES2006d.A.dialog-act.s9553330.17,,,,,,,,,False," So now we we have the okay,",7,minor,Fragment
+ES2006d,A,154.14,157.7,3.56,ES2006d.A.dialog-act.s9553330.18,A,A,0.0,3.21,False,False,0.0,[],False, so Ma Maarika will explain you the user interface there.,10,task,Inform
+ES2006d,A,157.7,162.53,4.83,ES2006d.A.dialog-act.s9553330.19,A,A,0.0,0.0,False,False,0.0,[],False," And it flips open on the side, so it opens like that.",12,task,Inform
+ES2006d,C,162.2,162.53,0.33,ES2006d.C.dialog-act.s9553330.35,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,A,162.53,166.24,3.71,ES2006d.A.dialog-act.s9553330.20,A,A,0.0,0.0,False,False,0.0,[],False, And we have the user interface o in here,9,task,Inform
+ES2006d,C,164.31,165.33,1.02,ES2006d.C.dialog-act.s9553330.33,,,,,,,,,False, Wow.,1,task,Assess
+ES2006d,A,166.24,171.18,4.94,ES2006d.A.dialog-act.s9553330.21,A,A,2.31,0.0,False,False,0.0,[],False, and uh the the L_C_D_ and and the scroll are inside.,11,task,Inform
+ES2006d,A,171.18,172.43,1.25,ES2006d.A.dialog-act.s9553330.22,,,,,,,,,False, Um,1,minor,Stall
+ES2006d,A,173.49,176.84,3.35,ES2006d.A.dialog-act.s9553330.23,C,A,0.16,2.31,False,False,0.0,[],False," well, everything else is probably user interface, so.",8,task,Inform
+ES2006d,A,176.84,178.01,1.17,ES2006d.A.dialog-act.s9553330.24,,,,,,,,,False," Yeah, yeah.",2,minor,Backchannel
+ES2006d,D,176.98,177.82,0.84,ES2006d.D.dialog-act.s9553330.14,,,,,,,,,False, Uh yeah.,2,other,Comment-About-Understanding
+ES2006d,C,177.0,180.361,3.361,ES2006d.C.dialog-act.s9553330.36,A,A,-1.058,0.16,True,True,1.058,['ES2006d.A.dialog-act.s9553330.25'],True," And it's the whole thing's made of rubber, is that",10,elicit,Elicit-Inform
+ES2006d,A,179.303,181.09,1.787,ES2006d.A.dialog-act.s9553330.25,B,C,0.17,-1.058,True,False,0.0,[],False," Oh yeah. Yeah, it has, yeah.",6,task,Inform
+ES2006d,D,179.36,180.1,0.74,ES2006d.D.dialog-act.s9553330.15,,,,,,,,,False, Rubber.,1,task,Inform
+ES2006d,D,181.09,181.62,0.53,ES2006d.D.dialog-act.s9553330.16,,,,,,,,,False," Yeah,.",1,minor,Fragment
+ES2006d,B,181.26,183.69,2.43,ES2006d.B.dialog-act.s9553330.10,D,A,1.1,0.17,True,False,0.0,[],True," Is it to scale, or do you think you can make it a bit smaller?",15,elicit,Elicit-Inform
+ES2006d,D,184.79,186.4,1.61,ES2006d.D.dialog-act.s9553330.17,D,B,0.0,1.1,True,False,0.0,[],True," Um it could be made a bit smaller,",8,task,Inform
+ES2006d,D,186.4,189.17,2.77,ES2006d.D.dialog-act.s9553330.18,D,D,0.0,0.0,False,False,0.0,[],False, and and of course it would be and,8,task,Inform
+ES2006d,D,189.17,195.92,6.75,ES2006d.D.dialog-act.s9553330.19,D,D,0.0,0.0,False,False,0.0,[],False," yeah, but um one thing we actually kind of um forgot while designing, that one side was supposed to be rounder,",21,task,Inform
+ES2006d,B,189.31,189.42,0.11,ES2006d.B.dialog-act.s9553330.11,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,195.554,197.07,1.516,ES2006d.A.dialog-act.s9553330.26,,,,,,,,,False," Yeah,",1,task,Assess
+ES2006d,D,195.92,197.89,1.97,ES2006d.D.dialog-act.s9553330.20,A,D,-0.82,0.0,False,True,0.82,['ES2006d.A.dialog-act.s9553330.27'],False," so we said the back side round, yeah.",8,task,Inform
+ES2006d,A,197.07,202.048,4.978,ES2006d.A.dialog-act.s9553330.27,B,D,-1.068,-0.82,True,True,1.068,['ES2006d.B.dialog-act.s9553330.12'],False," well, but i since it's made of rubber anyway. I I think it's it's uh",15,task,Inform
+ES2006d,C,199.99,200.37,0.38,ES2006d.C.dialog-act.s9553330.37,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,D,200.58,200.91,0.33,ES2006d.D.dialog-act.s9553330.21,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,B,200.98,203.12,2.14,ES2006d.B.dialog-act.s9553330.12,B,A,0.0,-1.068,True,False,0.0,[],False, It l does look like the curvy,7,task,Assess
+ES2006d,B,203.12,204.68,1.56,ES2006d.B.dialog-act.s9553330.13,B,B,0.0,0.0,False,False,0.0,[],False," and then the whole shape's curvy,",6,task,Assess
+ES2006d,B,204.68,209.36,4.68,ES2006d.B.dialog-act.s9553330.14,D,B,1.46,0.0,False,False,0.0,[],False, so I would say that this curvy does look quite like a vegetable.,13,task,Assess
+ES2006d,A,205.24,205.49,0.25,ES2006d.A.dialog-act.s9553330.28,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,206.96,207.22,0.26,ES2006d.C.dialog-act.s9553330.38,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,209.81,210.82,1.01,ES2006d.D.dialog-act.s9553330.22,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,A,209.87,210.49,0.62,ES2006d.A.dialog-act.s9553330.29,,,,,,,,,False, Mm. Hmm.,2,minor,Backchannel
+ES2006d,D,210.82,214.32,3.5,ES2006d.D.dialog-act.s9553330.23,B,B,-2.288,1.46,True,True,2.288,['ES2006d.B.dialog-act.s9553330.15'],True, And it's spongy as well.,5,task,Inform
+ES2006d,C,212.011,214.14,2.129,ES2006d.C.dialog-act.s9553330.39,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,212.032,216.672,4.64,ES2006d.B.dialog-act.s9553330.15,D,D,-2.352,-2.288,True,True,2.352,['ES2006d.D.dialog-act.s9553330.24'],False," I wasn't very keen on that, but yeah.",8,task,Assess
+ES2006d,A,212.32,214.177,1.857,ES2006d.A.dialog-act.s9553330.30,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,214.32,225.49,11.17,ES2006d.D.dialog-act.s9553330.24,D,B,0.0,-2.352,True,False,0.0,[],False, So so uh the user interface as as we discussed last time uh mm on on the on the cover we just have the very basic things.,27,task,Inform
+ES2006d,A,215.296,216.662,1.366,ES2006d.A.dialog-act.s9553330.31,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,216.44,216.73,0.29,ES2006d.C.dialog-act.s9553330.40,,,,,,,,,False, Huh.,1,minor,Backchannel
+ES2006d,C,225.37,225.74,0.37,ES2006d.C.dialog-act.s9553330.41,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,D,225.49,230.18,4.69,ES2006d.D.dialog-act.s9553330.25,D,D,0.0,0.0,False,False,0.0,[],False, So we have that n uh channels here starting from um uh one two three,15,task,Inform
+ES2006d,D,230.18,233.2,3.02,ES2006d.D.dialog-act.s9553330.26,D,D,0.0,0.0,False,False,0.0,[],False, there would be numbers in in the on the actual one.,11,task,Inform
+ES2006d,C,231.64,232.04,0.4,ES2006d.C.dialog-act.s9553330.42,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,233.2,238.91,5.71,ES2006d.D.dialog-act.s9553330.27,C,D,-3.329,0.0,False,True,2.579,['ES2006d.C.dialog-act.s9553330.43'],False," So it's four, up to four, up to seven, up to nine and zero, z zero here.",17,task,Inform
+ES2006d,C,235.581,238.16,2.579,ES2006d.C.dialog-act.s9553330.43,D,D,1.88,-3.329,True,False,0.0,[],False, Six seven eight nine.,4,task,Inform
+ES2006d,C,238.16,238.9,0.74,ES2006d.C.dialog-act.s9553330.44,,,,,,,,,False, I like that.,3,task,Assess
+ES2006d,D,239.15,240.04,0.89,ES2006d.D.dialog-act.s9553330.28,,,,,,,,,False, Yeah.,1,minor,Stall
+ES2006d,D,240.04,241.93,1.89,ES2006d.D.dialog-act.s9553330.29,D,C,0.0,1.88,True,False,0.0,[],True," And then, well this is on off button.",8,task,Inform
+ES2006d,D,241.93,245.49,3.56,ES2006d.D.dialog-act.s9553330.30,D,D,0.0,0.0,False,False,0.0,[],False, It's it's quite standard mm place for it,8,task,Inform
+ES2006d,D,245.49,248.57,3.08,ES2006d.D.dialog-act.s9553330.31,D,D,0.0,0.0,False,False,0.0,[],False," and and also the colour is quite often red,",9,task,Inform
+ES2006d,D,248.57,251.01,2.44,ES2006d.D.dialog-act.s9553330.32,D,D,0.0,0.0,False,False,0.0,[],False, so it's it's kind of user friendly.,7,task,Inform
+ES2006d,C,250.88,251.24,0.36,ES2006d.C.dialog-act.s9553330.45,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,251.01,254.13,3.12,ES2006d.D.dialog-act.s9553330.33,D,D,0.0,0.0,False,False,0.0,[],False, And then these ones would be for flipping the channels back and,12,task,Inform
+ES2006d,D,254.13,256.34,2.21,ES2006d.D.dialog-act.s9553330.34,D,D,0.0,0.0,False,False,0.0,[],False, like the previous one and the next one.,8,task,Inform
+ES2006d,C,256.18,256.67,0.49,ES2006d.C.dialog-act.s9553330.46,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+ES2006d,D,256.34,262.25,5.91,ES2006d.D.dialog-act.s9553330.35,B,D,-0.44,0.0,False,True,0.44,['ES2006d.B.dialog-act.s9553330.16'],False," And and we would also have a l little um thing saying here, previous and ne prevon prevon next.",19,task,Inform
+ES2006d,B,261.81,263.11,1.3,ES2006d.B.dialog-act.s9553330.16,D,D,0.41,-0.44,True,False,0.0,[],False, So where's the volume?,4,elicit,Elicit-Inform
+ES2006d,C,262.19,262.53,0.34,ES2006d.C.dialog-act.s9553330.47,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,263.52,265.12,1.6,ES2006d.D.dialog-act.s9553330.36,A,B,0.11,0.41,True,False,0.0,[],True, The volume is is scrolling.,5,task,Inform
+ES2006d,D,265.12,265.98,0.86,ES2006d.D.dialog-act.s9553330.37,,,,,,,,,False," On the side,",3,task,Inform
+ES2006d,A,265.23,266.13,0.9,ES2006d.A.dialog-act.s9553330.32,B,D,-0.05,0.11,True,True,0.05,['ES2006d.B.dialog-act.s9553330.17'],True, It's on the side.,4,task,Inform
+ES2006d,D,265.98,266.64,0.66,ES2006d.D.dialog-act.s9553330.38,,,,,,,,,False, this one.,2,task,Assess
+ES2006d,B,266.08,268.02,1.94,ES2006d.B.dialog-act.s9553330.17,D,A,-1.38,-0.05,True,True,1.38,['ES2006d.D.dialog-act.s9553330.39'],False," Ah, you did get that in then,",7,task,Assess
+ES2006d,D,266.64,268.2,1.56,ES2006d.D.dialog-act.s9553330.39,D,B,0.0,-1.38,True,False,0.0,[],False, Yeah you just do it like this.,7,task,Inform
+ES2006d,B,268.02,268.5,0.48,ES2006d.B.dialog-act.s9553330.18,,,,,,,,,False, mm-hmm.,1,minor,Backchannel
+ES2006d,D,268.2,276.14,7.94,ES2006d.D.dialog-act.s9553330.40,D,D,2.09,0.0,False,False,0.0,[],False," And and and it's it's on the back is mm cover or back lid, because if you flip it open, you can still do the scrolling here.",27,task,Inform
+ES2006d,B,276.1,277.19,1.09,ES2006d.B.dialog-act.s9553330.19,,,,,,,,,False," Oh okay,.",2,task,Assess
+ES2006d,C,276.23,276.59,0.36,ES2006d.C.dialog-act.s9553330.48,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,D,277.38,278.23,0.85,ES2006d.D.dialog-act.s9553330.41,,,,,,,,,False, See?,1,elicit,Elicit-Comment-Understanding
+ES2006d,D,278.23,280.39,2.16,ES2006d.D.dialog-act.s9553330.42,D,D,0.0,2.09,False,False,0.0,[],False," So the volume is you just scroll,",7,task,Inform
+ES2006d,D,280.39,284.8,4.41,ES2006d.D.dialog-act.s9553330.43,D,D,0.0,0.0,False,False,0.0,[],False," but then once you flip it open, okay, there there you have the screen",14,task,Inform
+ES2006d,C,284.45,284.65,0.2,ES2006d.C.dialog-act.s9553330.49,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,284.8,289.27,4.47,ES2006d.D.dialog-act.s9553330.44,D,D,0.0,0.0,False,False,0.0,[],False, and and you have the mm spinning wheel with options to choose.,12,task,Inform
+ES2006d,C,287.73,288.12,0.39,ES2006d.C.dialog-act.s9553330.50,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,D,289.27,290.65,1.38,ES2006d.D.dialog-act.s9553330.45,D,D,0.0,0.0,False,False,0.0,[],False, You can move back and forth,6,task,Inform
+ES2006d,D,290.65,294.73,4.08,ES2006d.D.dialog-act.s9553330.46,B,D,1.57,0.0,False,False,0.0,[],False," and then if you need to m choose something on the screen, you just push the cen mm the middle button.",21,task,Inform
+ES2006d,C,294.82,295.09,0.27,ES2006d.C.dialog-act.s9553330.51,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,B,295.54,296.3,0.76,ES2006d.B.dialog-act.s9553330.20,,,,,,,,,False, Cool.,1,task,Assess
+ES2006d,B,296.3,298.36,2.06,ES2006d.B.dialog-act.s9553330.21,D,D,3.18,1.57,True,False,0.0,[],True," Oh, the thing we forgot was like a mute button.",10,task,Inform
+ES2006d,A,298.896,301.64,2.744,ES2006d.A.dialog-act.s9553330.33,,,,,,,,,False," Uh no, we we'd not put",6,minor,Fragment
+ES2006d,D,299.37,300.1,0.73,ES2006d.D.dialog-act.s9553330.47,,,,,,,,,False, A mute button.,3,other,Other
+ES2006d,B,300.26,300.71,0.45,ES2006d.B.dialog-act.s9553330.22,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,D,301.54,304.51,2.97,ES2006d.D.dialog-act.s9553330.48,A,B,-2.87,3.18,True,True,2.87,['ES2006d.A.dialog-act.s9553330.34'],True," Well, we'll have this on the screen, on the display.",10,task,Inform
+ES2006d,A,301.64,308.54,6.9,ES2006d.A.dialog-act.s9553330.34,C,D,-2.75,-2.87,True,True,2.75,"['ES2006d.C.dialog-act.s9553330.52', 'ES2006d.B.dialog-act.s9553330.23']",False, so on on the cover we have the the bare essentials.,11,task,Inform
+ES2006d,C,305.79,309.6,3.81,ES2006d.C.dialog-act.s9553330.52,B,A,-2.22,-2.75,True,True,2.22,['ES2006d.B.dialog-act.s9553330.23'],False, Y or you could have it so you on the wheel if you,13,task,Suggest
+ES2006d,B,307.38,312.09,4.71,ES2006d.B.dialog-act.s9553330.23,A,C,-0.98,-2.22,True,True,0.98,['ES2006d.A.dialog-act.s9553330.35'],False," On the wheel, like if you hold the wheel down then it will mute.",14,task,Suggest
+ES2006d,A,311.11,315.5,4.39,ES2006d.A.dialog-act.s9553330.35,D,B,-0.74,-0.98,True,True,0.74,['ES2006d.D.dialog-act.s9553330.50'],False," Uh on the L_C_D_ we r you know, the main menu will have various options.",15,task,Inform
+ES2006d,D,313.7,314.76,1.06,ES2006d.D.dialog-act.s9553330.49,,,,,,,,,False," Well, but the but the mute",6,minor,Fragment
+ES2006d,D,314.76,318.29,3.53,ES2006d.D.dialog-act.s9553330.50,C,A,0.24,-0.74,True,False,0.0,[],False," yeah, the scrolling is kind of you have to scroll all the way to make it mute, right?",18,task,Inform
+ES2006d,C,318.53,320.38,1.85,ES2006d.C.dialog-act.s9553330.53,B,D,-1.56,0.24,True,True,1.56,['ES2006d.B.dialog-act.s9553330.24'],True," But if you hold it in,",6,task,Suggest
+ES2006d,B,318.82,320.52,1.7,ES2006d.B.dialog-act.s9553330.24,C,C,-0.14,-1.56,True,True,0.14,['ES2006d.C.dialog-act.s9553330.54'],False," Yeah, but it's a scroll and click, isn't it?",9,task,Inform
+ES2006d,A,319.29,319.8,0.51,ES2006d.A.dialog-act.s9553330.36,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2006d,C,320.38,322.7,2.32,ES2006d.C.dialog-act.s9553330.54,B,B,0.4,-0.14,True,False,0.0,[],False, if it's a scroll and click so you hold it in?,11,task,Suggest
+ES2006d,D,321.9,323.92,2.02,ES2006d.D.dialog-act.s9553330.51,,,,,,,,,False," Okay, yeah, okay.",3,task,Assess
+ES2006d,B,322.31,323.1,0.79,ES2006d.B.dialog-act.s9553330.25,,,,,,,,,False," Okay, cool.",2,minor,Stall
+ES2006d,B,323.1,324.84,1.74,ES2006d.B.dialog-act.s9553330.26,D,C,2.04,0.4,True,False,0.0,[],True, So that that solves the whole mute issue.,8,task,Inform
+ES2006d,A,324.57,325.21,0.64,ES2006d.A.dialog-act.s9553330.37,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2006d,D,325.3,325.66,0.36,ES2006d.D.dialog-act.s9553330.52,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,D,326.88,331.17,4.29,ES2006d.D.dialog-act.s9553330.53,D,B,0.0,2.04,True,False,0.0,[],True," And okay, so i so the the voice recognition is also just part of it.",15,task,Inform
+ES2006d,D,331.17,332.83,1.66,ES2006d.D.dialog-act.s9553330.54,A,D,-0.03,0.0,False,True,0.03,['ES2006d.A.dialog-act.s9553330.38'],False, You can't really see it in the interface.,8,task,Inform
+ES2006d,C,331.594,332.52,0.926,ES2006d.C.dialog-act.s9553330.55,,,,,,,,,False, no.,1,minor,Backchannel
+ES2006d,A,332.8,336.06,3.26,ES2006d.A.dialog-act.s9553330.38,D,D,-0.7,-0.03,True,True,0.7,['ES2006d.D.dialog-act.s9553330.56'],False," Yeah, it's hidden in there somewhere.",6,task,Inform
+ES2006d,D,334.44,335.36,0.92,ES2006d.D.dialog-act.s9553330.55,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,D,335.36,337.86,2.5,ES2006d.D.dialog-act.s9553330.56,C,A,2.75,-0.7,True,False,0.0,[],False, And we do have the logo on it as well.,10,task,Inform
+ES2006d,C,337.75,338.94,1.19,ES2006d.C.dialog-act.s9553330.56,,,,,,,,,False," Mm-hmm, very good.",3,task,Assess
+ES2006d,D,339.85,341.023,1.173,ES2006d.D.dialog-act.s9553330.57,,,,,,,,,False, So I think it,4,minor,Fragment
+ES2006d,C,340.61,344.7,4.09,ES2006d.C.dialog-act.s9553330.57,D,D,2.25,2.75,True,False,0.0,[],True, And it's with the the black and yellow you're even in the right colours.,14,task,Assess
+ES2006d,D,344.54,344.93,0.39,ES2006d.D.dialog-act.s9553330.58,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,B,345.568,346.587,1.019,ES2006d.B.dialog-act.s9553330.27,,,,,,,,,False,.,0,minor,Fragment
+ES2006d,D,346.95,351.47,4.52,ES2006d.D.dialog-act.s9553330.59,A,C,0.47,2.25,True,False,0.0,[],True," Yeah, I think um we could do l the logo in grey, as it is on the website.",18,task,Suggest
+ES2006d,A,347.21,347.42,0.21,ES2006d.A.dialog-act.s9553330.39,,,,,,,,,False, Cool.,1,minor,Backchannel
+ES2006d,C,349.94,350.32,0.38,ES2006d.C.dialog-act.s9553330.58,,,,,,,,,False, Mm-hmm.,1,task,Assess
+ES2006d,B,351.91,352.22,0.31,ES2006d.B.dialog-act.s9553330.28,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,A,351.94,355.792,3.852,ES2006d.A.dialog-act.s9553330.40,D,D,-3.232,0.47,True,True,0.75,['ES2006d.D.dialog-act.s9553330.60'],True," We ran out of resources here, so.",7,task,Inform
+ES2006d,D,352.56,353.31,0.75,ES2006d.D.dialog-act.s9553330.60,D,A,3.64,-3.232,True,False,0.0,[],False, In the actual one.,4,task,Inform
+ES2006d,C,354.443,355.571,1.128,ES2006d.C.dialog-act.s9553330.59,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,354.52,356.95,2.43,ES2006d.D.dialog-act.s9553330.61,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,B,355.489,358.069,2.58,ES2006d.B.dialog-act.s9553330.29,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,356.95,358.2,1.25,ES2006d.D.dialog-act.s9553330.62,A,D,-1.0,3.64,False,True,1.0,['ES2006d.A.dialog-act.s9553330.41'],False, So if you have questions.,5,task,Suggest
+ES2006d,A,357.2,362.032,4.832,ES2006d.A.dialog-act.s9553330.41,C,D,-3.822,-1.0,True,True,1.93,['ES2006d.C.dialog-act.s9553330.60'],False, You can have a look.,5,other,Offer
+ES2006d,C,358.21,360.14,1.93,ES2006d.C.dialog-act.s9553330.60,C,A,6.08,-3.822,True,False,0.0,[],False," Very good, let's have a look.",6,other,Offer
+ES2006d,D,359.36,362.094,2.734,ES2006d.D.dialog-act.s9553330.63,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,360.14,362.098,1.958,ES2006d.C.dialog-act.s9553330.61,,,,,,,,,False, Test it out.,3,task,Inform
+ES2006d,B,362.656,365.44,2.784,ES2006d.B.dialog-act.s9553330.30,,,,,,,,,False,.,0,minor,Fragment
+ES2006d,C,363.511,365.043,1.532,ES2006d.C.dialog-act.s9553330.62,,,,,,,,,False,,0,minor,Fragment
+ES2006d,A,363.574,365.397,1.823,ES2006d.A.dialog-act.s9553330.42,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,363.76,366.176,2.416,ES2006d.D.dialog-act.s9553330.64,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,366.22,368.46,2.24,ES2006d.C.dialog-act.s9553330.63,B,C,0.47,6.08,False,False,0.0,[],False," Uh it's a sort of intermediate colour, I guess.",9,task,Assess
+ES2006d,B,368.93,371.28,2.35,ES2006d.B.dialog-act.s9553330.31,B,C,0.0,0.47,True,False,0.0,[],True," Yeah, oh, we hold the remote.",6,other,Be-Positive
+ES2006d,A,370.455,371.984,1.529,ES2006d.A.dialog-act.s9553330.43,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,371.28,374.78,3.5,ES2006d.B.dialog-act.s9553330.32,B,B,1.97,0.0,False,False,0.0,[],False," Oh, but it it does feel all cold and slimy.",10,task,Assess
+ES2006d,C,374.024,375.505,1.481,ES2006d.C.dialog-act.s9553330.64,,,,,,,,,False,,0,minor,Fragment
+ES2006d,A,374.672,375.232,0.56,ES2006d.A.dialog-act.s9553330.44,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,374.78,375.61,0.83,ES2006d.B.dialog-act.s9553330.33,,,,,,,,,False," I hate Play-Do,",3,other,Be-Positive
+ES2006d,B,375.61,376.75,1.14,ES2006d.B.dialog-act.s9553330.34,,,,,,,,,False, it's just minging.,3,other,Be-Positive
+ES2006d,A,376.386,377.141,0.755,ES2006d.A.dialog-act.s9553330.45,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,376.75,379.03,2.28,ES2006d.B.dialog-act.s9553330.35,C,B,2.49,1.97,False,False,0.0,[],False," But yeah, uh that's cool, cool.",6,task,Assess
+ES2006d,C,380.47,381.52,1.05,ES2006d.C.dialog-act.s9553330.65,,,,,,,,,False, Very good.,2,task,Assess
+ES2006d,B,381.41,381.97,0.56,ES2006d.B.dialog-act.s9553330.38,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,C,381.52,385.62,4.1,ES2006d.C.dialog-act.s9553330.66,A,B,1.97,2.49,True,False,0.0,[],True," Okay, so maybe if we go on to evaluation cri criteria",11,task,Suggest
+ES2006d,B,385.6,385.99,0.39,ES2006d.B.dialog-act.s9553330.39,,,,,,,,,False, Okay.,1,other,Offer
+ES2006d,C,385.62,387.86,2.24,ES2006d.C.dialog-act.s9553330.67,,,,,,,,,False, and then we'll there,4,minor,Fragment
+ES2006d,A,387.59,388.53,0.94,ES2006d.A.dialog-act.s9553330.49,C,C,-0.67,1.97,True,True,0.67,['ES2006d.C.dialog-act.s9553330.68'],True," Yeah, see the budget.",4,task,Inform
+ES2006d,C,387.86,391.05,3.19,ES2006d.C.dialog-act.s9553330.68,C,A,0.0,-0.67,True,False,0.0,[],False," I suspect we're gonna have a couple of minor finance issues,",11,task,Inform
+ES2006d,C,391.05,393.89,2.84,ES2006d.C.dialog-act.s9553330.69,C,C,8.96,0.0,False,False,0.0,[],False, but um we'll se I'm sure we can get around them somehow.,12,task,Inform
+ES2006d,B,394.8,399.12,4.32,ES2006d.B.dialog-act.s9553330.36,,,,,,,,,False,,0,minor,Fragment
+ES2006d,A,396.128,396.784,0.656,ES2006d.A.dialog-act.s9553330.46,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,402.85,408.15,5.3,ES2006d.C.dialog-act.s9553330.70,C,C,0.0,8.96,False,False,0.0,[],False, We'll just send all of our manufacturing to some nice poor country,12,task,Suggest
+ES2006d,C,408.15,410.86,2.71,ES2006d.C.dialog-act.s9553330.71,B,C,31.48,0.0,False,False,0.0,[],False, and cut some of the prices that way.,8,task,Suggest
+ES2006d,A,408.432,409.84,1.408,ES2006d.A.dialog-act.s9553330.47,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,408.65,409.312,0.662,ES2006d.D.dialog-act.s9553330.65,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,415.08,418.528,3.448,ES2006d.B.dialog-act.s9553330.40,,,,,,,,,False, Wales.,1,task,Suggest
+ES2006d,C,416.04,418.638,2.598,ES2006d.C.dialog-act.s9553330.72,,,,,,,,,False," Wales, for example.",3,task,Suggest
+ES2006d,A,416.384,417.696,1.312,ES2006d.A.dialog-act.s9553330.48,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,419.65,424.566,4.916,ES2006d.B.dialog-act.s9553330.41,,,,,,,,,False," Mm. Cool, okay. Right, okay.",5,minor,Stall
+ES2006d,B,436.552,439.66,3.108,ES2006d.B.dialog-act.s9553330.42,,,,,,,,,False," Fabulous,",1,task,Assess
+ES2006d,C,438.02,439.08,1.06,ES2006d.C.dialog-act.s9553330.73,,,,,,,,,False, Marketing Expert.,2,other,Other
+ES2006d,B,439.66,441.3,1.64,ES2006d.B.dialog-act.s9553330.43,,,,,,,,,False, yeah.,1,task,Assess
+ES2006d,B,441.3,442.34,1.04,ES2006d.B.dialog-act.s9553330.44,,,,,,,,,False," Okay, cool.",2,minor,Stall
+ES2006d,B,442.34,447.16,4.82,ES2006d.B.dialog-act.s9553330.45,B,C,0.0,31.48,True,False,0.0,[],True, So what we're gonna do is prefer prepare the evaluation of the new design.,14,task,Inform
+ES2006d,C,446.86,447.09,0.23,ES2006d.C.dialog-act.s9553330.74,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,B,447.16,449.01,1.85,ES2006d.B.dialog-act.s9553330.46,B,B,0.0,0.0,False,False,0.0,[],False," Um so we're gonna be using a seven point scale,",10,task,Inform
+ES2006d,B,449.01,453.14,4.13,ES2006d.B.dialog-act.s9553330.47,B,B,0.0,0.0,False,False,0.0,[],False," so one is, you know, yes, it totally meets with that requirement",12,task,Inform
+ES2006d,B,453.14,457.06,3.92,ES2006d.B.dialog-act.s9553330.48,B,B,0.0,0.0,False,False,0.0,[],False," and seven is, no, it really doesn't, we need to go back and start again.",15,task,Inform
+ES2006d,B,457.06,469.61,12.55,ES2006d.B.dialog-act.s9553330.49,B,B,0.0,0.0,False,False,0.0,[],False," Um, you know. Basically, what I did was I went through all the like user requirements and things that we've done and we've worked on and like made a list of them.",32,task,Inform
+ES2006d,B,469.61,473.06,3.45,ES2006d.B.dialog-act.s9553330.50,B,B,0.0,0.0,False,False,0.0,[],False," Um you know, so that we can evaluate each one and like",12,task,Inform
+ES2006d,B,473.06,478.36,5.3,ES2006d.B.dialog-act.s9553330.51,B,B,0.88,0.0,False,False,0.0,[],False," so it was about going back to the start and saying oh yeah, we did manage to do that, or oh no, we really forgot about that.",27,task,Inform
+ES2006d,D,477.7,478.01,0.31,ES2006d.D.dialog-act.s9553330.66,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,478.26,478.73,0.47,ES2006d.C.dialog-act.s9553330.75,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,B,478.36,478.93,0.57,ES2006d.B.dialog-act.s9553330.52,,,,,,,,,False, Okay?,1,elicit,Elicit-Comment-Understanding
+ES2006d,B,478.93,479.24,0.31,ES2006d.B.dialog-act.s9553330.53,,,,,,,,,False," Cool,",1,task,Assess
+ES2006d,B,479.24,482.19,2.95,ES2006d.B.dialog-act.s9553330.54,C,B,0.56,0.88,False,False,0.0,[],False, so these are what they are.,6,task,Inform
+ES2006d,B,482.19,482.562,0.372,ES2006d.B.dialog-act.s9553330.55,,,,,,,,,False, Oh,1,minor,Fragment
+ES2006d,C,482.75,485.41,2.66,ES2006d.C.dialog-act.s9553330.76,B,B,1.25,0.56,True,False,0.0,[],True, So for each of these we need to give it a one to seven.,14,task,Inform
+ES2006d,C,485.41,485.94,0.53,ES2006d.C.dialog-act.s9553330.77,,,,,,,,,False, Is that right?,3,elicit,Elicit-Inform
+ES2006d,B,486.09,486.66,0.57,ES2006d.B.dialog-act.s9553330.56,,,,,,,,,False," Yes,",1,task,Inform
+ES2006d,B,486.66,489.01,2.35,ES2006d.B.dialog-act.s9553330.57,B,C,0.0,1.25,True,False,0.0,[],True," I did have A_, B_, C_, and D_ down here,",10,task,Inform
+ES2006d,B,489.01,493.45,4.44,ES2006d.B.dialog-act.s9553330.58,C,B,-2.29,0.0,False,True,2.26,['ES2006d.C.dialog-act.s9553330.78'],False, but it seems to have turned into like just bullet points.,11,task,Inform
+ES2006d,C,491.16,493.42,2.26,ES2006d.C.dialog-act.s9553330.78,B,B,0.03,-2.29,True,False,0.0,[],False," Mm dots, never mind.",4,other,Be-Positive
+ES2006d,B,493.45,498.33,4.88,ES2006d.B.dialog-act.s9553330.59,A,C,4.485,0.03,True,False,0.0,[],True," Okay. But if you can imagine that they say A_, B_, C_, and D_, then that would be really good.",20,task,Suggest
+ES2006d,A,498.452,499.638,1.186,ES2006d.A.dialog-act.s9553330.50,,,,,,,,,False,,0,minor,Fragment
+ES2006d,A,502.815,506.691,3.876,ES2006d.A.dialog-act.s9553330.52,D,B,11.779,4.485,True,False,0.0,[],True, I guess we'll give it maximum points in everything.,9,task,Suggest
+ES2006d,D,505.43,506.17,0.74,ES2006d.D.dialog-act.s9553330.67,,,,,,,,,False," Yeah, the yeah,",3,task,Assess
+ES2006d,D,506.17,509.696,3.526,ES2006d.D.dialog-act.s9553330.68,,,,,,,,,False, it's definitely attractive.,3,task,Assess
+ES2006d,A,507.488,507.92,0.432,ES2006d.A.dialog-act.s9553330.51,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,507.553,510.4,2.847,ES2006d.C.dialog-act.s9553330.79,,,,,,,,,False," Yeah, I agree.",3,task,Assess
+ES2006d,D,518.47,521.08,2.61,ES2006d.D.dialog-act.s9553330.69,B,A,0.76,11.779,True,False,0.0,[],True," Oh, the locatable thing we actually forgot.",7,task,Inform
+ES2006d,B,521.84,525.94,4.1,ES2006d.B.dialog-act.s9553330.60,C,D,0.38,0.76,True,False,0.0,[],True," Well, I thought we'd um kinda said that you'd have a little thing to stick on the T_V_?",18,task,Inform
+ES2006d,D,526.0,526.67,0.67,ES2006d.D.dialog-act.s9553330.70,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,C,526.32,528.7,2.38,ES2006d.C.dialog-act.s9553330.80,D,B,-2.03,0.38,True,True,1.26,['ES2006d.D.dialog-act.s9553330.71'],True," Yeah, just prepare one now.",5,task,Inform
+ES2006d,D,526.67,527.93,1.26,ES2006d.D.dialog-act.s9553330.71,D,C,2.15,-2.03,True,False,0.0,[],False, Shall I just prepare it now?,6,other,Offer
+ES2006d,B,529.061,529.72,0.659,ES2006d.B.dialog-act.s9553330.61,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,530.08,531.05,0.97,ES2006d.D.dialog-act.s9553330.72,B,D,18.7,2.15,False,False,0.0,[],False," It will be red, too.",5,task,Inform
+ES2006d,B,547.36,549.75,2.39,ES2006d.B.dialog-act.s9553330.62,,,,,,,,,False, Cool. Okay.,2,minor,Stall
+ES2006d,B,549.75,551.74,1.99,ES2006d.B.dialog-act.s9553330.63,B,D,3.63,18.7,True,False,0.0,[],True," So, be attractive to look at.",6,task,Inform
+ES2006d,B,554.17,555.37,1.2,ES2006d.B.dialog-act.s9553330.64,,,,,,,,,False, That's this one.,3,task,Inform
+ES2006d,B,555.37,556.31,0.94,ES2006d.B.dialog-act.s9553330.65,D,B,0.451,3.63,False,False,0.0,[],False, What do you all say?,5,elicit,Elicit-Assessment
+ES2006d,D,556.761,560.01,3.249,ES2006d.D.dialog-act.s9553330.73,D,B,0.0,0.451,True,False,0.0,[],True," S seven was th the maximum, yeah?",7,elicit,Elicit-Inform
+ES2006d,A,557.11,558.14,1.03,ES2006d.A.dialog-act.s9553330.53,,,,,,,,,False, So?,1,minor,Stall
+ES2006d,C,557.23,558.355,1.125,ES2006d.C.dialog-act.s9553330.81,,,,,,,,,False, I reckon it,3,minor,Fragment
+ES2006d,C,559.19,559.55,0.36,ES2006d.C.dialog-act.s9553330.82,,,,,,,,,False, Yeah.,1,task,Inform
+ES2006d,B,559.4,559.74,0.34,ES2006d.B.dialog-act.s9553330.66,,,,,,,,,False, Yeah.,1,task,Inform
+ES2006d,D,560.01,561.18,1.17,ES2006d.D.dialog-act.s9553330.74,B,D,0.01,0.0,False,False,0.0,[],False, I I go for seven.,5,task,Assess
+ES2006d,C,560.95,562.68,1.73,ES2006d.C.dialog-act.s9553330.83,,,,,,,,,False," Seven, yeah,",2,task,Assess
+ES2006d,B,561.19,564.64,3.45,ES2006d.B.dialog-act.s9553330.67,C,D,-1.96,0.01,True,True,1.96,['ES2006d.C.dialog-act.s9553330.84'],True, Oh we're all so proud of the.,7,task,Inform
+ES2006d,A,561.287,562.79,1.503,ES2006d.A.dialog-act.s9553330.54,,,,,,,,,False, Yes.,1,task,Assess
+ES2006d,C,562.68,565.04,2.36,ES2006d.C.dialog-act.s9553330.84,B,B,-0.4,-1.96,True,True,0.4,['ES2006d.B.dialog-act.s9553330.68'],False, it's terribly sexy. Yeah.,4,task,Assess
+ES2006d,D,564.624,565.325,0.701,ES2006d.D.dialog-act.s9553330.75,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,564.64,568.35,3.71,ES2006d.B.dialog-act.s9553330.68,B,C,0.3,-0.4,True,False,0.0,[],False," Okay, so that'll be a seven for A_.",8,task,Inform
+ES2006d,B,568.35,568.65,0.3,ES2006d.B.dialog-act.s9553330.69,,,,,,,,,False, Could,1,minor,Fragment
+ES2006d,B,568.65,570.75,2.1,ES2006d.B.dialog-act.s9553330.70,B,B,0.0,0.3,False,False,0.0,[],False," oh no, you can't whilst that's up there.",8,task,Inform
+ES2006d,B,570.75,575.21,4.46,ES2006d.B.dialog-act.s9553330.71,A,B,5.66,0.0,False,False,0.0,[],False, Okay um uh what I've done on the next page is I've set it up so we just put the marks in.,22,elicit,Elicit-Inform
+ES2006d,C,575.51,576.4,0.89,ES2006d.C.dialog-act.s9553330.85,,,,,,,,,False," Ah, okay.",2,other,Comment-About-Understanding
+ES2006d,A,576.08,576.36,0.28,ES2006d.A.dialog-act.s9553330.55,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2006d,C,577.88,578.93,1.05,ES2006d.C.dialog-act.s9553330.86,,,,,,,,,False, Excellent.,1,task,Assess
+ES2006d,C,578.93,580.55,1.62,ES2006d.C.dialog-act.s9553330.87,,,,,,,,,False, Except we can't,3,minor,Fragment
+ES2006d,B,580.26,580.72,0.46,ES2006d.B.dialog-act.s9553330.72,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,C,580.55,582.51,1.96,ES2006d.C.dialog-act.s9553330.88,,,,,,,,,False, uh we can if we,5,minor,Fragment
+ES2006d,B,580.72,581.4,0.68,ES2006d.B.dialog-act.s9553330.73,,,,,,,,,False, But that's alright.,3,task,Assess
+ES2006d,A,580.87,581.57,0.7,ES2006d.A.dialog-act.s9553330.56,B,B,-0.17,5.66,True,True,0.17,['ES2006d.B.dialog-act.s9553330.74'],True, But we can we can,5,task,Inform
+ES2006d,B,581.4,582.62,1.22,ES2006d.B.dialog-act.s9553330.74,A,A,-1.05,-0.17,True,True,1.05,"['ES2006d.A.dialog-act.s9553330.57', 'ES2006d.C.dialog-act.s9553330.89']",False," If you take a note of them,",7,task,Suggest
+ES2006d,A,581.57,584.335,2.765,ES2006d.A.dialog-act.s9553330.57,C,B,-1.825,-1.05,True,True,1.81,"['ES2006d.C.dialog-act.s9553330.89', 'ES2006d.B.dialog-act.s9553330.75']",False, I can I can take note uh uh,8,other,Offer
+ES2006d,C,582.51,584.32,1.81,ES2006d.C.dialog-act.s9553330.89,B,A,-1.7,-1.825,True,True,1.7,['ES2006d.B.dialog-act.s9553330.75'],False," then yeah, I'll take a note, it's fine.",8,other,Offer
+ES2006d,B,582.62,584.39,1.77,ES2006d.B.dialog-act.s9553330.75,B,C,0.0,-1.7,True,False,0.0,[],False, and then I'll put them in in a minute.,9,other,Offer
+ES2006d,B,584.39,587.65,3.26,ES2006d.B.dialog-act.s9553330.76,B,B,0.75,0.0,False,False,0.0,[],False," Okay, so we're all agreeing on seven for A_?",9,elicit,Elicit-Inform
+ES2006d,C,586.99,587.56,0.57,ES2006d.C.dialog-act.s9553330.90,,,,,,,,,False, Yeah.,1,task,Inform
+ES2006d,B,587.65,588.4,0.75,ES2006d.B.dialog-act.s9553330.77,,,,,,,,,False," Cool, okay.",2,task,Assess
+ES2006d,B,588.4,590.72,2.32,ES2006d.B.dialog-act.s9553330.78,D,B,1.06,0.75,False,False,0.0,[],False, Does it match the operating behaviour of the user?,9,elicit,Elicit-Assessment
+ES2006d,D,591.78,593.74,1.96,ES2006d.D.dialog-act.s9553330.76,A,B,-1.93,1.06,True,True,1.93,"['ES2006d.A.dialog-act.s9553330.58', 'ES2006d.C.dialog-act.s9553330.91']",True," I would think yes, yeah.",5,task,Assess
+ES2006d,A,591.81,600.81,9.0,ES2006d.A.dialog-act.s9553330.58,C,D,-8.81,-1.93,True,True,1.45,['ES2006d.C.dialog-act.s9553330.91'],False," Um the the only thing that we were considering was that uh this thing is kind of more for right-handed people than for left-handed people,",25,task,Inform
+ES2006d,C,592.0,593.45,1.45,ES2006d.C.dialog-act.s9553330.91,A,A,7.36,-8.81,True,False,0.0,[],False, I think it does.,4,task,Assess
+ES2006d,B,593.01,593.91,0.9,ES2006d.B.dialog-act.s9553330.79,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,B,593.91,594.823,0.913,ES2006d.B.dialog-act.s9553330.80,,,,,,,,,False, I mean,2,minor,Fragment
+ES2006d,A,600.81,604.85,4.04,ES2006d.A.dialog-act.s9553330.59,D,C,-1.54,7.36,True,True,1.54,['ES2006d.D.dialog-act.s9553330.78'],True, so if you're left-handed you're kind of left uh scrolling with your finger.,13,task,Inform
+ES2006d,D,602.8,603.31,0.51,ES2006d.D.dialog-act.s9553330.77,,,,,,,,,False," Yeah,",1,task,Assess
+ES2006d,D,603.31,612.28,8.97,ES2006d.D.dialog-act.s9553330.78,C,A,0.3,-1.54,True,False,0.0,[],False," so y so we we might do we might want to do like a uh another m model another another version, which is like exactly the mirror image of this one.",31,task,Suggest
+ES2006d,C,603.38,604.16,0.78,ES2006d.C.dialog-act.s9553330.92,,,,,,,,,False, Alright.,1,other,Comment-About-Understanding
+ES2006d,B,612.41,612.85,0.44,ES2006d.B.dialog-act.s9553330.81,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,612.58,613.55,0.97,ES2006d.C.dialog-act.s9553330.93,C,D,0.0,0.3,True,False,0.0,[],True," But that's gonna be a problem,",6,task,Assess
+ES2006d,A,613.16,614.13,0.97,ES2006d.A.dialog-act.s9553330.60,,,,,,,,,False, But then yeah.,3,minor,Fragment
+ES2006d,C,613.55,617.25,3.7,ES2006d.C.dialog-act.s9553330.94,A,C,1.55,0.0,False,False,0.0,[],False, 'cause you don't always have all left-handers or all right-handers in a family.,13,task,Inform
+ES2006d,A,617.63,618.8,1.17,ES2006d.A.dialog-act.s9553330.61,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,D,617.79,618.35,0.56,ES2006d.D.dialog-act.s9553330.79,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,A,618.8,620.92,2.12,ES2006d.A.dialog-act.s9553330.62,B,C,-2.1,1.55,True,True,2.1,['ES2006d.B.dialog-act.s9553330.82'],True," So bu it's it's not a huge problem,",8,task,Inform
+ES2006d,B,618.82,622.7,3.88,ES2006d.B.dialog-act.s9553330.82,A,A,-1.78,-2.1,True,True,1.6,"['ES2006d.A.dialog-act.s9553330.63', 'ES2006d.D.dialog-act.s9553330.80']",False, I th I think it's not it's not like it's a pen.,12,task,Inform
+ES2006d,A,620.92,622.52,1.6,ES2006d.A.dialog-act.s9553330.63,D,B,-1.25,-1.78,True,True,1.25,['ES2006d.D.dialog-act.s9553330.80'],False, because i i it is operatable.,6,task,Inform
+ES2006d,D,621.27,625.81,4.54,ES2006d.D.dialog-act.s9553330.80,B,A,0.85,-1.25,True,False,0.0,[],False," But then then I think left-handed people are already used to discrimination anyway,",13,task,Inform
+ES2006d,C,625.2,625.78,0.58,ES2006d.C.dialog-act.s9553330.95,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,D,625.81,626.769,0.959,ES2006d.D.dialog-act.s9553330.81,,,,,,,,,False, so they just,3,task,Inform
+ES2006d,B,626.66,628.91,2.25,ES2006d.B.dialog-act.s9553330.83,B,D,0.0,0.85,True,False,0.0,[],True," Yeah, but I mean because it's not like it's a pen, you know,",13,task,Inform
+ES2006d,B,628.91,630.98,2.07,ES2006d.B.dialog-act.s9553330.84,B,B,0.0,0.0,False,False,0.0,[],False," left-handed people can't normally write right-handed,",6,task,Inform
+ES2006d,D,629.25,629.62,0.37,ES2006d.D.dialog-act.s9553330.82,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,630.98,632.97,1.99,ES2006d.B.dialog-act.s9553330.85,B,B,0.0,0.0,False,False,0.0,[],False," but they can normally do most things right-handed,",8,task,Inform
+ES2006d,C,632.55,633.1,0.55,ES2006d.C.dialog-act.s9553330.96,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,632.97,636.37,3.4,ES2006d.B.dialog-act.s9553330.86,D,B,-0.57,0.0,False,True,0.57,['ES2006d.D.dialog-act.s9553330.83'],False, so I would say it's not such a big issue.,10,task,Inform
+ES2006d,A,633.28,633.66,0.38,ES2006d.A.dialog-act.s9553330.64,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2006d,D,635.8,639.46,3.66,ES2006d.D.dialog-act.s9553330.83,D,B,0.0,-0.57,True,False,0.0,[],False," Yeah, because I mean anyway, right-handed people would be able to scroll with it,",14,task,Inform
+ES2006d,C,636.17,636.52,0.35,ES2006d.C.dialog-act.s9553330.97,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,B,638.79,640.12,1.33,ES2006d.B.dialog-act.s9553330.87,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,639.46,642.357,2.897,ES2006d.D.dialog-act.s9553330.84,B,D,-2.237,0.0,False,True,2.237,['ES2006d.B.dialog-act.s9553330.88'],False," so i if the majority are right-handed, it's uh",9,task,Inform
+ES2006d,A,639.77,640.01,0.24,ES2006d.A.dialog-act.s9553330.65,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,639.91,640.08,0.17,ES2006d.C.dialog-act.s9553330.98,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,640.12,644.69,4.57,ES2006d.B.dialog-act.s9553330.88,B,D,0.0,-2.237,True,False,0.0,[],False, I mean you can you can use your finger to to scroll rather than your thumb.,16,task,Inform
+ES2006d,C,642.76,643.24,0.48,ES2006d.C.dialog-act.s9553330.99,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,C,644.36,644.53,0.17,ES2006d.C.dialog-act.s9553330.100,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,644.39,644.71,0.32,ES2006d.A.dialog-act.s9553330.66,,,,,,,,,False, Yep.,1,minor,Backchannel
+ES2006d,B,644.69,648.18,3.49,ES2006d.B.dialog-act.s9553330.89,B,B,0.0,0.0,False,False,0.0,[],False, So I mean that does kind of negate the whole R_S_I_ issue.,12,task,Inform
+ES2006d,A,648.05,648.64,0.59,ES2006d.A.dialog-act.s9553330.67,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2006d,B,648.18,651.2,3.02,ES2006d.B.dialog-act.s9553330.90,B,B,0.0,0.0,False,False,0.0,[],False," So maybe we need to put that needs a little bit of investigation,",13,task,Suggest
+ES2006d,B,651.2,652.89,1.69,ES2006d.B.dialog-act.s9553330.91,B,B,0.0,0.0,False,False,0.0,[],False," maybe give it a five, I would say?",8,task,Suggest
+ES2006d,C,651.3,651.662,0.362,ES2006d.C.dialog-act.s9553330.101,,,,,,,,,False, Um,1,minor,Backchannel
+ES2006d,B,652.89,654.18,1.29,ES2006d.B.dialog-act.s9553330.92,D,B,1.89,0.0,False,False,0.0,[],False, What do you what do you all think?,8,elicit,Elicit-Assessment
+ES2006d,C,654.82,655.62,0.8,ES2006d.C.dialog-act.s9553330.102,,,,,,,,,False, Six.,1,task,Assess
+ES2006d,D,655.03,656.07,1.04,ES2006d.D.dialog-act.s9553330.85,,,,,,,,,False," Or maybe six,",3,task,Suggest
+ES2006d,A,655.21,655.92,0.71,ES2006d.A.dialog-act.s9553330.68,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2006d,D,656.07,658.54,2.47,ES2006d.D.dialog-act.s9553330.86,C,B,0.91,1.89,True,False,0.0,[],True," because it's just one one i one among the issues,",10,task,Inform
+ES2006d,C,657.75,657.98,0.23,ES2006d.C.dialog-act.s9553330.103,,,,,,,,,False," Yeah,",1,task,Assess
+ES2006d,C,657.98,659.45,1.47,ES2006d.C.dialog-act.s9553330.104,,,,,,,,,False, I think I think for um,6,minor,Fragment
+ES2006d,D,658.54,659.22,0.68,ES2006d.D.dialog-act.s9553330.87,,,,,,,,,False, I mean. Yeah.,3,minor,Fragment
+ES2006d,C,659.45,661.08,1.63,ES2006d.C.dialog-act.s9553330.105,C,D,0.0,0.91,True,False,0.0,[],True," I mean most people are right-handed,",6,task,Inform
+ES2006d,C,661.08,666.12,5.04,ES2006d.C.dialog-act.s9553330.106,C,C,0.0,0.0,False,False,0.0,[],False," so in in terms of our greatest target group, I think it's pretty good,",14,task,Inform
+ES2006d,D,666.09,666.64,0.55,ES2006d.D.dialog-act.s9553330.88,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,666.12,669.84,3.72,ES2006d.C.dialog-act.s9553330.107,A,C,1.05,0.0,False,False,0.0,[],False," but we might want to flag it for management, they want might want to um",15,task,Suggest
+ES2006d,A,666.62,667.72,1.1,ES2006d.A.dialog-act.s9553330.69,,,,,,,,,False, One more thing is that i,6,minor,Fragment
+ES2006d,B,670.21,670.72,0.51,ES2006d.B.dialog-act.s9553330.93,,,,,,,,,False, Okay.,1,task,Assess
+ES2006d,A,670.89,673.9,3.01,ES2006d.A.dialog-act.s9553330.70,A,C,0.0,1.05,True,False,0.0,[],True," It might be a little clumsy when when it opens up, right,",12,task,Assess
+ES2006d,C,670.92,671.548,0.628,ES2006d.C.dialog-act.s9553330.108,,,,,,,,,False, They,1,minor,Fragment
+ES2006d,A,673.9,677.536,3.636,ES2006d.A.dialog-act.s9553330.71,D,A,-1.936,0.0,False,True,1.936,['ES2006d.D.dialog-act.s9553330.89'],False, so it opens on the side. So,7,task,Inform
+ES2006d,C,675.56,676.28,0.72,ES2006d.C.dialog-act.s9553330.109,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,D,675.6,680.51,4.91,ES2006d.D.dialog-act.s9553330.89,D,A,0.0,-1.936,True,False,0.0,[],False," No, yeah, but mm but we have it nicely with the hinges here yeah.",14,task,Inform
+ES2006d,A,678.64,680.78,2.14,ES2006d.A.dialog-act.s9553330.72,,,,,,,,,False," Yeah yeah yeah,",3,task,Assess
+ES2006d,D,680.51,683.53,3.02,ES2006d.D.dialog-act.s9553330.90,D,D,1.69,0.0,False,False,0.0,[],False," So it won't be a problem,",6,task,Inform
+ES2006d,C,680.67,681.09,0.42,ES2006d.C.dialog-act.s9553330.110,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,680.78,682.3,1.52,ES2006d.A.dialog-act.s9553330.74,,,,,,,,,False, I mean yeah.,3,minor,Backchannel
+ES2006d,B,681.6,682.83,1.23,ES2006d.B.dialog-act.s9553330.94,,,,,,,,,False, Yeah. Yeah.,2,minor,Backchannel
+ES2006d,A,682.3,684.464,2.164,ES2006d.A.dialog-act.s9553330.75,,,,,,,,,False, So you guys can decide wh whether,7,minor,Fragment
+ES2006d,D,683.53,685.22,1.69,ES2006d.D.dialog-act.s9553330.91,,,,,,,,,False, it will be and it will be,7,minor,Fragment
+ES2006d,D,685.22,686.15,0.93,ES2006d.D.dialog-act.s9553330.92,B,D,0.41,1.69,False,False,0.0,[],False, it won't be heavy.,4,task,Inform
+ES2006d,A,685.96,686.21,0.25,ES2006d.A.dialog-act.s9553330.73,,,,,,,,,False, Oops.,1,minor,Backchannel
+ES2006d,B,686.56,689.01,2.45,ES2006d.B.dialog-act.s9553330.95,A,D,0.61,0.41,True,False,0.0,[],True, I th I think the alternative is flipping from the top.,11,task,Suggest
+ES2006d,D,689.59,690.44,0.85,ES2006d.D.dialog-act.s9553330.93,,,,,,,,,False," Yeah well yeah,",3,task,Assess
+ES2006d,A,689.62,693.78,4.16,ES2006d.A.dialog-act.s9553330.76,D,B,-3.34,0.61,True,True,1.79,"['ES2006d.D.dialog-act.s9553330.94', 'ES2006d.C.dialog-act.s9553330.111', 'ES2006d.D.dialog-act.s9553330.95', 'ES2006d.D.dialog-act.s9553330.96']",True," Yeah, but we which makes it kind of really big, yeah.",11,task,Inform
+ES2006d,D,690.44,691.98,1.54,ES2006d.D.dialog-act.s9553330.94,C,A,-1.1,-3.34,True,True,1.1,['ES2006d.C.dialog-act.s9553330.111'],False, but it's it's a bit long.,6,task,Inform
+ES2006d,C,690.88,692.67,1.79,ES2006d.C.dialog-act.s9553330.111,D,D,-0.69,-1.1,True,True,0.69,['ES2006d.D.dialog-act.s9553330.95'],False, The length is gonna be difficu,6,task,Inform
+ES2006d,D,691.98,693.57,1.59,ES2006d.D.dialog-act.s9553330.95,D,C,0.0,-0.69,True,False,0.0,[],False, It's a little bit long.,5,task,Inform
+ES2006d,D,693.57,696.63,3.06,ES2006d.D.dialog-act.s9553330.96,B,D,-1.07,0.0,False,True,1.07,['ES2006d.B.dialog-act.s9553330.97'],False," Well, I mean it can be opened like this of course and yeah.",13,task,Inform
+ES2006d,B,693.57,694.589,1.019,ES2006d.B.dialog-act.s9553330.96,,,,,,,,,False, Yeah um,2,minor,Backchannel
+ES2006d,B,695.56,697.91,2.35,ES2006d.B.dialog-act.s9553330.97,A,D,0.392,-1.07,True,False,0.0,[],False," But you were thinking about making it smaller, yeah?",9,elicit,Elicit-Inform
+ES2006d,A,698.302,701.26,2.958,ES2006d.A.dialog-act.s9553330.77,D,B,-1.49,0.392,True,True,1.42,['ES2006d.D.dialog-act.s9553330.97'],True, Uh this this kind of uh makes it more,9,task,Inform
+ES2006d,C,698.75,699.18,0.43,ES2006d.C.dialog-act.s9553330.112,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2006d,B,699.48,700.255,0.775,ES2006d.B.dialog-act.s9553330.98,,,,,,,,,False, Because,1,minor,Fragment
+ES2006d,D,699.77,701.19,1.42,ES2006d.D.dialog-act.s9553330.97,A,A,0.07,-1.49,True,False,0.0,[],False, S uh slightly smaller.,4,task,Inform
+ES2006d,A,701.26,704.87,3.61,ES2006d.A.dialog-act.s9553330.78,B,D,-3.39,0.07,True,True,3.39,['ES2006d.B.dialog-act.s9553330.99'],True," and two, it might interfere with the I_R_ channel.",9,task,Inform
+ES2006d,B,701.48,704.88,3.4,ES2006d.B.dialog-act.s9553330.99,D,A,0.25,-3.39,True,False,0.0,[],False, So you have to keep that side flat.,8,task,Inform
+ES2006d,D,705.13,707.55,2.42,ES2006d.D.dialog-act.s9553330.98,B,B,1.54,0.25,True,False,0.0,[],True," Yeah, but if we flip it open only as much as that.",12,task,Inform
+ES2006d,A,707.9,708.53,0.63,ES2006d.A.dialog-act.s9553330.79,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2006d,B,709.09,713.94,4.85,ES2006d.B.dialog-act.s9553330.100,B,D,7.95,1.54,True,False,0.0,[],True," So it works like a mobile phone flipping, but y you know, as long as that side's flat, than that will work.",22,task,Inform
+ES2006d,A,714.21,714.45,0.24,ES2006d.A.dialog-act.s9553330.80,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2006d,B,715.77,719.32,3.55,ES2006d.B.dialog-act.s9553330.101,,,,,,,,,False," Okay. Um okay,",3,minor,Stall
+ES2006d,A,716.01,716.9,0.89,ES2006d.A.dialog-act.s9553330.81,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2006d,B,719.32,721.89,2.57,ES2006d.B.dialog-act.s9553330.102,,,,,,,,,False, so C_.,2,task,Inform
+ES2006d,B,721.89,723.83,1.94,ES2006d.B.dialog-act.s9553330.103,B,B,0.0,7.95,False,False,0.0,[],False, Are are we admitting defeat on C_,7,elicit,Elicit-Inform
+ES2006d,B,723.83,728.24,4.41,ES2006d.B.dialog-act.s9553330.104,A,B,-1.84,0.0,False,True,0.91,"['ES2006d.A.dialog-act.s9553330.83', 'ES2006d.C.dialog-act.s9553330.115']",False, or are we saying we're gonna stick a locator on the T_V_?,12,elicit,Elicit-Inform
+ES2006d,C,726.05,726.22,0.17,ES2006d.C.dialog-act.s9553330.113,,,,,,,,,False," No,",1,task,Inform
+ES2006d,A,726.22,726.4,0.18,ES2006d.A.dialog-act.s9553330.82,,,,,,,,,False," No,",1,task,Inform
+ES2006d,C,726.22,727.33,1.11,ES2006d.C.dialog-act.s9553330.114,,,,,,,,,False, we're gonna put it like we've got,7,minor,Fragment
+ES2006d,A,726.4,727.3,0.9,ES2006d.A.dialog-act.s9553330.83,C,B,0.03,-1.84,True,False,0.0,[],False, we have a locator.,4,task,Inform
+ES2006d,C,727.33,729.26,1.93,ES2006d.C.dialog-act.s9553330.115,D,A,-0.01,0.03,True,True,0.01,['ES2006d.D.dialog-act.s9553330.99'],True, th there's the locator dot.,5,task,Inform
+ES2006d,B,728.24,729.02,0.78,ES2006d.B.dialog-act.s9553330.105,,,,,,,,,False, There's a locator.,3,task,Inform
+ES2006d,B,729.02,729.35,0.33,ES2006d.B.dialog-act.s9553330.106,,,,,,,,,False," Cool,",1,task,Inform
+ES2006d,D,729.25,730.91,1.66,ES2006d.D.dialog-act.s9553330.99,B,C,-1.56,-0.01,True,True,1.56,['ES2006d.B.dialog-act.s9553330.107'],False, Mm that you stick on T_V_.,6,task,Inform
+ES2006d,B,729.35,733.5,4.15,ES2006d.B.dialog-act.s9553330.107,B,D,0.82,-1.56,True,False,0.0,[],False," so that means you need a that does mean you need a little speaker on it though,",17,task,Inform
+ES2006d,C,731.07,731.77,0.7,ES2006d.C.dialog-act.s9553330.116,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2006d,B,733.5,734.32,0.82,ES2006d.B.dialog-act.s9553330.108,,,,,,,,,False, doesn't it?,2,elicit,Elicit-Inform
+ES2006d,B,734.32,735.68,1.36,ES2006d.B.dialog-act.s9553330.109,D,B,0.39,0.82,False,False,0.0,[],False, To make it beep.,4,task,Inform
+ES2006d,D,735.44,736.07,0.63,ES2006d.D.dialog-act.s9553330.100,,,,,,,,,False, Yeah well w,3,task,Inform
+ES2006d,A,735.45,735.92,0.47,ES2006d.A.dialog-act.s9553330.84,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,735.68,736.24,0.56,ES2006d.B.dialog-act.s9553330.110,,,,,,,,,False, Or a buzzer.,3,task,Inform
+ES2006d,C,735.72,736.16,0.44,ES2006d.C.dialog-act.s9553330.117,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,736.07,738.37,2.3,ES2006d.D.dialog-act.s9553330.101,D,B,0.0,0.39,True,False,0.0,[],True," but l but the speak sample speaker is included,",9,task,Inform
+ES2006d,D,738.37,743.07,4.7,ES2006d.D.dialog-act.s9553330.102,B,D,0.18,0.0,False,False,0.0,[],False," so it it has some capacity to mm to do some to make some sounds, so yeah.",17,task,Inform
+ES2006d,B,739.16,739.55,0.39,ES2006d.B.dialog-act.s9553330.111,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2006d,A,741.1,741.47,0.37,ES2006d.A.dialog-act.s9553330.85,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,741.76,743.25,1.49,ES2006d.B.dialog-act.s9553330.112,,,,,,,,,False," So that's two,",3,task,Inform
+ES2006d,B,743.25,744.47,1.22,ES2006d.B.dialog-act.s9553330.113,D,D,7.94,0.18,True,False,0.0,[],True," so that's seven, yeah.",4,task,Inform
+ES2006d,B,744.47,745.92,1.45,ES2006d.B.dialog-act.s9553330.114,,,,,,,,,False, It's locatable?,2,elicit,Elicit-Inform
+ES2006d,D,744.68,744.91,0.23,ES2006d.D.dialog-act.s9553330.103,,,,,,,,,False, Yep.,1,task,Inform
+ES2006d,B,745.92,747.1,1.18,ES2006d.B.dialog-act.s9553330.115,,,,,,,,,False, Fabulous.,1,task,Assess
+ES2006d,B,747.1,747.85,0.75,ES2006d.B.dialog-act.s9553330.116,,,,,,,,,False, D_.,1,task,Inform
+ES2006d,A,748.82,749.35,0.53,ES2006d.A.dialog-act.s9553330.86,,,,,,,,,False," Intuitive,",1,task,Assess
+ES2006d,A,749.35,752.668,3.318,ES2006d.A.dialog-act.s9553330.87,,,,,,,,,False, completely intuitive.,2,task,Assess
+ES2006d,C,750.496,752.44,1.944,ES2006d.C.dialog-act.s9553330.118,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,750.639,753.173,2.534,ES2006d.B.dialog-act.s9553330.117,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,751.19,752.41,1.22,ES2006d.D.dialog-act.s9553330.104,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,752.41,757.61,5.2,ES2006d.D.dialog-act.s9553330.105,C,B,3.84,7.94,True,False,0.0,[],True," If uh uh if this means intuitive, if it means the way people kind of are used to finding things",20,task,Inform
+ES2006d,D,757.61,760.394,2.784,ES2006d.D.dialog-act.s9553330.106,,,,,,,,,False, and it's I th I think it's,7,minor,Fragment
+ES2006d,C,758.02,758.36,0.34,ES2006d.C.dialog-act.s9553330.119,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,C,759.9,761.45,1.55,ES2006d.C.dialog-act.s9553330.120,,,,,,,,,False," I'd say six,",3,task,Assess
+ES2006d,C,761.45,768.87,7.42,ES2006d.C.dialog-act.s9553330.121,C,D,0.0,3.84,True,False,0.0,[],True," 'cause the I mean the the standard layout for numbers is three three three and one, rather than the way you've got it.",23,task,Inform
+ES2006d,C,768.87,770.51,1.64,ES2006d.C.dialog-act.s9553330.122,C,C,0.0,0.0,False,False,0.0,[],False," I really like the way you have it,",8,task,Assess
+ES2006d,B,770.48,770.93,0.45,ES2006d.B.dialog-act.s9553330.118,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,770.51,773.08,2.57,ES2006d.C.dialog-act.s9553330.123,A,C,1.32,0.0,False,False,0.0,[],False, but it's not the immediate thing that you're used to.,10,task,Inform
+ES2006d,A,772.35,773.01,0.66,ES2006d.A.dialog-act.s9553330.88,,,,,,,,,False, Intuitive.,1,task,Inform
+ES2006d,B,773.16,774.48,1.32,ES2006d.B.dialog-act.s9553330.119,,,,,,,,,False," Yeah, and I mean d",5,minor,Fragment
+ES2006d,C,774.17,774.662,0.492,ES2006d.C.dialog-act.s9553330.124,,,,,,,,,False, So,1,minor,Fragment
+ES2006d,A,774.4,777.35,2.95,ES2006d.A.dialog-act.s9553330.89,A,C,0.0,1.32,True,False,0.0,[],True," And uh even the scroll, it's a it's a new technology",11,task,Inform
+ES2006d,A,777.35,781.45,4.1,ES2006d.A.dialog-act.s9553330.90,A,A,0.0,0.0,False,False,0.0,[],False, so m m might be a little more difficult for people to get used to in the beginni,18,task,Inform
+ES2006d,C,778.28,779.394,1.114,ES2006d.C.dialog-act.s9553330.125,,,,,,,,,False, Might be,2,minor,Fragment
+ES2006d,A,781.45,783.9,2.45,ES2006d.A.dialog-act.s9553330.92,A,A,0.0,0.0,False,False,0.0,[],False, so it is kind of not very intuitive,8,task,Inform
+ES2006d,A,783.9,786.49,2.59,ES2006d.A.dialog-act.s9553330.93,C,A,-1.43,0.0,False,True,1.43,['ES2006d.C.dialog-act.s9553330.126'],False," but uh it's a good technology, I mean once they get used to it.",14,task,Inform
+ES2006d,C,785.06,789.76,4.7,ES2006d.C.dialog-act.s9553330.126,B,A,0.29,-1.43,True,False,0.0,[],False, But it and it's something that they will be experiencing in a lot of different places soon.,17,task,Inform
+ES2006d,D,789.0,789.41,0.41,ES2006d.D.dialog-act.s9553330.107,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,789.13,789.49,0.36,ES2006d.A.dialog-act.s9553330.91,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,790.05,792.6,2.55,ES2006d.B.dialog-act.s9553330.120,B,C,0.0,0.29,True,False,0.0,[],True," So, should we maybe say f a five",8,task,Suggest
+ES2006d,A,790.61,791.59,0.98,ES2006d.A.dialog-act.s9553330.94,,,,,,,,,False, So l,2,minor,Fragment
+ES2006d,C,792.48,792.93,0.45,ES2006d.C.dialog-act.s9553330.127,,,,,,,,,False, Five?,1,task,Suggest
+ES2006d,B,792.6,794.17,1.57,ES2006d.B.dialog-act.s9553330.121,B,B,1.27,0.0,False,False,0.0,[],False," and say it is intuitive,",5,task,Suggest
+ES2006d,B,794.17,795.44,1.27,ES2006d.B.dialog-act.s9553330.122,,,,,,,,,False," but it's different,",3,task,Suggest
+ES2006d,B,795.44,798.84,3.4,ES2006d.B.dialog-act.s9553330.123,B,B,0.0,1.27,False,False,0.0,[],False," so, do you know, I mean it's obvious how to use it,",12,task,Inform
+ES2006d,C,796.36,796.63,0.27,ES2006d.C.dialog-act.s9553330.128,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,B,798.84,800.14,1.3,ES2006d.B.dialog-act.s9553330.124,B,B,0.0,0.0,False,False,0.0,[],False, but you might have to think about it first.,9,task,Inform
+ES2006d,B,800.14,802.28,2.14,ES2006d.B.dialog-act.s9553330.125,C,B,-0.07,0.0,False,True,0.07,['ES2006d.C.dialog-act.s9553330.129'],False," So we give that one a five, you think?",9,elicit,Elicit-Assessment
+ES2006d,A,801.15,802.49,1.34,ES2006d.A.dialog-act.s9553330.95,,,,,,,,,False," Yeah, okay.",2,task,Assess
+ES2006d,C,802.21,804.22,2.01,ES2006d.C.dialog-act.s9553330.129,A,B,-1.73,-0.07,True,True,1.73,['ES2006d.A.dialog-act.s9553330.96'],False, I'm happy with five?,4,task,Assess
+ES2006d,B,802.28,802.63,0.35,ES2006d.B.dialog-act.s9553330.126,,,,,,,,,False, Yep.,1,task,Assess
+ES2006d,A,802.49,808.208,5.718,ES2006d.A.dialog-act.s9553330.96,B,C,-2.938,-1.73,True,True,1.688,"['ES2006d.B.dialog-act.s9553330.127', 'ES2006d.B.dialog-act.s9553330.128']",False," I'm gonna give a seven in everything, so.",8,task,Inform
+ES2006d,D,802.77,803.04,0.27,ES2006d.D.dialog-act.s9553330.108,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,C,804.22,805.872,1.652,ES2006d.C.dialog-act.s9553330.130,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,805.27,806.52,1.25,ES2006d.B.dialog-act.s9553330.127,B,A,0.0,-2.938,True,False,0.0,[],False, I'm glad you're accepting this.,5,task,Assess
+ES2006d,B,806.52,808.48,1.96,ES2006d.B.dialog-act.s9553330.128,B,B,11.95,0.0,False,False,0.0,[],False," It has taken a little while, hasn't it?",8,task,Inform
+ES2006d,B,808.48,812.848,4.368,ES2006d.B.dialog-act.s9553330.129,,,,,,,,,False, Um intuitive but,3,other,Other
+ES2006d,B,820.07,820.43,0.36,ES2006d.B.dialog-act.s9553330.130,,,,,,,,,False," Sorry,",1,other,Be-Positive
+ES2006d,B,820.43,821.68,1.25,ES2006d.B.dialog-act.s9553330.131,B,B,0.0,11.95,False,False,0.0,[],False, it's really hard to write on those.,7,task,Inform
+ES2006d,B,821.68,823.41,1.73,ES2006d.B.dialog-act.s9553330.132,B,B,5.38,0.0,False,False,0.0,[],False," I just went a bit mad, didn't I?",8,task,Assess
+ES2006d,A,821.88,823.838,1.958,ES2006d.A.dialog-act.s9553330.97,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2006d,C,822.657,824.357,1.7,ES2006d.C.dialog-act.s9553330.131,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,823.41,824.92,1.51,ES2006d.B.dialog-act.s9553330.133,,,,,,,,,False," Um okay, cool,",3,minor,Stall
+ES2006d,B,824.92,826.22,1.3,ES2006d.B.dialog-act.s9553330.134,,,,,,,,,False," E_,",1,task,Inform
+ES2006d,B,826.22,827.28,1.06,ES2006d.B.dialog-act.s9553330.135,,,,,,,,,False, okay.,1,minor,Stall
+ES2006d,B,828.79,834.74,5.95,ES2006d.B.dialog-act.s9553330.136,B,B,0.0,5.38,False,False,0.0,[],False," Um I would guess this comes back from this whole B_ thing links in here,",15,task,Inform
+ES2006d,B,834.74,841.37,6.63,ES2006d.B.dialog-act.s9553330.137,C,B,2.01,0.0,False,False,0.0,[],False, so possibly for left-handed. Investigate.,5,task,Inform
+ES2006d,C,842.47,843.38,0.91,ES2006d.C.dialog-act.s9553330.132,,,,,,,,,False, Yep.,1,task,Assess
+ES2006d,C,843.38,845.23,1.85,ES2006d.C.dialog-act.s9553330.133,B,B,0.41,2.01,True,False,0.0,[],True, But otherwise it's superb.,4,task,Assess
+ES2006d,B,845.64,848.12,2.48,ES2006d.B.dialog-act.s9553330.138,D,C,1.24,0.41,True,False,0.0,[],True," So, should we give it a six?",7,elicit,Elicit-Assessment
+ES2006d,C,847.61,848.12,0.51,ES2006d.C.dialog-act.s9553330.134,,,,,,,,,False, Six.,1,task,Assess
+ES2006d,B,848.12,848.66,0.54,ES2006d.B.dialog-act.s9553330.139,,,,,,,,,False, Six?,1,task,Assess
+ES2006d,D,849.36,852.06,2.7,ES2006d.D.dialog-act.s9553330.109,D,B,0.0,1.24,True,False,0.0,[],True, Um uh the ergonom ergonomic design,6,task,Inform
+ES2006d,D,852.06,857.96,5.9,ES2006d.D.dialog-act.s9553330.110,D,D,0.0,0.0,False,False,0.0,[],False," well mm I mean I d uh I dunno, I mean the the repetitive stress things,",16,task,Inform
+ES2006d,C,852.22,852.39,0.17,ES2006d.C.dialog-act.s9553330.135,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,854.408,855.28,0.872,ES2006d.A.dialog-act.s9553330.98,,,,,,,,,False,.,0,minor,Fragment
+ES2006d,D,857.96,863.95,5.99,ES2006d.D.dialog-act.s9553330.111,A,D,0.33,0.0,False,False,0.0,[],False," but then who would be really pushing the buttons so much on the on the remote control anyway,",18,task,Inform
+ES2006d,A,863.33,864.28,0.95,ES2006d.A.dialog-act.s9553330.99,,,,,,,,,False," Yeah. Yeah,",2,task,Assess
+ES2006d,D,863.95,864.64,0.69,ES2006d.D.dialog-act.s9553330.112,,,,,,,,,False, yeah? See.,2,minor,Backchannel
+ES2006d,A,864.28,866.33,2.05,ES2006d.A.dialog-act.s9553330.100,D,D,0.67,0.33,True,False,0.0,[],True, unless you are a all the time sitting.,8,task,Inform
+ES2006d,D,867.0,868.864,1.864,ES2006d.D.dialog-act.s9553330.113,A,A,0.676,0.67,True,False,0.0,[],True," Yeah, so it's kinda",4,task,Inform
+ES2006d,A,867.43,867.81,0.38,ES2006d.A.dialog-act.s9553330.101,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,869.36,870.948,1.588,ES2006d.C.dialog-act.s9553330.136,,,,,,,,,False, Well we've banned them from,5,minor,Fragment
+ES2006d,A,869.54,871.3,1.76,ES2006d.A.dialog-act.s9553330.102,B,D,-1.55,0.676,True,True,1.55,['ES2006d.B.dialog-act.s9553330.140'],True," Yeah, I I think it is ergonomic.",7,task,Assess
+ES2006d,B,869.75,871.84,2.09,ES2006d.B.dialog-act.s9553330.140,B,A,0.0,-1.55,True,False,0.0,[],False," I used to send fifty texts a day, you know,",10,task,Inform
+ES2006d,B,871.84,873.98,2.14,ES2006d.B.dialog-act.s9553330.141,B,B,0.0,0.0,False,False,0.0,[],False," and I never got repetitive strain injury from that,",9,task,Inform
+ES2006d,C,872.896,873.641,0.745,ES2006d.C.dialog-act.s9553330.137,,,,,,,,,False,,0,minor,Fragment
+ES2006d,A,873.6,874.11,0.51,ES2006d.A.dialog-act.s9553330.103,,,,,,,,,False, Mm yeah.,2,minor,Backchannel
+ES2006d,B,873.98,876.14,2.16,ES2006d.B.dialog-act.s9553330.142,A,B,0.21,0.0,False,False,0.0,[],False, so I find it quite hard to believe to be honest.,11,task,Inform
+ES2006d,C,876.12,876.42,0.3,ES2006d.C.dialog-act.s9553330.138,,,,,,,,,False, Yeah.,1,minor,Fragment
+ES2006d,A,876.35,879.26,2.91,ES2006d.A.dialog-act.s9553330.104,A,B,0.0,0.21,True,False,0.0,[],True," And moreover it it has um L_C_D_ and everything,",9,task,Inform
+ES2006d,A,879.26,882.66,3.4,ES2006d.A.dialog-act.s9553330.105,B,A,-0.1,0.0,False,True,0.1,['ES2006d.B.dialog-act.s9553330.143'],False, so that uh you know uh we minimise the pressing of the buttons anyway.,14,task,Inform
+ES2006d,D,879.6,880.07,0.47,ES2006d.D.dialog-act.s9553330.114,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,C,880.2,880.72,0.52,ES2006d.C.dialog-act.s9553330.139,,,,,,,,,False," Yeah,",1,task,Assess
+ES2006d,C,880.72,881.64,0.92,ES2006d.C.dialog-act.s9553330.140,,,,,,,,,False, it's varied.,2,task,Inform
+ES2006d,C,882.4,883.94,1.54,ES2006d.C.dialog-act.s9553330.141,,,,,,,,,False, Yeah. Six?,2,task,Suggest
+ES2006d,B,882.56,884.16,1.6,ES2006d.B.dialog-act.s9553330.143,D,A,3.328,-0.1,True,False,0.0,[],False," Okay, so we give that a six,",7,task,Inform
+ES2006d,B,884.16,885.48,1.32,ES2006d.B.dialog-act.s9553330.144,,,,,,,,,False, yeah.,1,task,Assess
+ES2006d,B,885.48,886.31,0.83,ES2006d.B.dialog-act.s9553330.145,,,,,,,,,False," Okay, F_.",2,task,Inform
+ES2006d,D,887.488,889.75,2.262,ES2006d.D.dialog-act.s9553330.115,B,B,1.0,3.328,True,False,0.0,[],True," Yeah, it does have yeah.",5,task,Inform
+ES2006d,A,888.303,890.44,2.137,ES2006d.A.dialog-act.s9553330.106,,,,,,,,,False, Absolutely.,1,task,Assess
+ES2006d,C,888.45,889.43,0.98,ES2006d.C.dialog-act.s9553330.142,,,,,,,,,False, Voice control have,3,task,Inform
+ES2006d,C,889.43,890.02,0.59,ES2006d.C.dialog-act.s9553330.143,,,,,,,,,False, seven.,1,task,Inform
+ES2006d,B,890.48,890.75,0.27,ES2006d.B.dialog-act.s9553330.146,,,,,,,,,False," Hang on,",2,minor,Stall
+ES2006d,B,890.75,894.01,3.26,ES2006d.B.dialog-act.s9553330.147,C,D,0.19,1.0,True,False,0.0,[],True, how come it's showing up with the things there but it only had bullet points there?,16,elicit,Elicit-Inform
+ES2006d,B,894.01,895.223,1.213,ES2006d.B.dialog-act.s9553330.148,,,,,,,,,False, That's just,2,minor,Fragment
+ES2006d,C,894.2,895.97,1.77,ES2006d.C.dialog-act.s9553330.144,C,B,0.0,0.19,True,False,0.0,[],True," Ah, that's the second one.",5,task,Inform
+ES2006d,C,895.97,898.96,2.99,ES2006d.C.dialog-act.s9553330.145,C,C,0.0,0.0,False,False,0.0,[],False," So you must have changed it on this one where it's got score,",13,task,Inform
+ES2006d,C,898.96,900.74,1.78,ES2006d.C.dialog-act.s9553330.146,A,C,4.8,0.0,False,False,0.0,[],False, but not on the previous slide.,6,task,Inform
+ES2006d,B,901.13,902.86,1.73,ES2006d.B.dialog-act.s9553330.149,,,,,,,,,False," Oh okay, cool.",3,other,Comment-About-Understanding
+ES2006d,B,902.86,905.97,3.11,ES2006d.B.dialog-act.s9553330.150,,,,,,,,,False," Um right, so.",3,minor,Stall
+ES2006d,A,905.54,906.83,1.29,ES2006d.A.dialog-act.s9553330.107,B,C,0.41,4.8,True,False,0.0,[],True, So it has voice control.,5,task,Inform
+ES2006d,B,906.93,907.24,0.31,ES2006d.B.dialog-act.s9553330.151,,,,,,,,,False," Yes,",1,task,Assess
+ES2006d,B,907.24,909.24,2.0,ES2006d.B.dialog-act.s9553330.152,A,A,3.92,0.41,True,False,0.0,[],True, so that's a seven then.,5,task,Inform
+ES2006d,A,908.42,908.84,0.42,ES2006d.A.dialog-act.s9553330.108,,,,,,,,,False, Yep.,1,minor,Backchannel
+ES2006d,B,909.24,910.28,1.04,ES2006d.B.dialog-act.s9553330.153,,,,,,,,,False," Um, cool.",2,minor,Stall
+ES2006d,C,909.86,913.2,3.34,ES2006d.C.dialog-act.s9553330.147,,,,,,,,,False, G_ technologically innovative.,3,task,Inform
+ES2006d,A,909.921,910.323,0.402,ES2006d.A.dialog-act.s9553330.109,,,,,,,,,False,,0,minor,Fragment
+ES2006d,A,911.3,913.16,1.86,ES2006d.A.dialog-act.s9553330.110,,,,,,,,,False," Anyway it ha yeah,",4,minor,Fragment
+ES2006d,D,911.44,913.104,1.664,ES2006d.D.dialog-act.s9553330.116,,,,,,,,,False, Technologi well,2,minor,Fragment
+ES2006d,A,913.16,917.36,4.2,ES2006d.A.dialog-act.s9553330.111,C,B,-1.264,3.92,True,True,1.264,['ES2006d.C.dialog-act.s9553330.148'],True, it's the most sophisticated remote that I ever seen.,9,task,Assess
+ES2006d,C,916.096,921.9,5.804,ES2006d.C.dialog-act.s9553330.148,D,A,-0.95,-1.264,True,True,0.95,['ES2006d.D.dialog-act.s9553330.118'],False," But in terms of the actual technology, none of it is actually new.",13,task,Inform
+ES2006d,B,916.208,918.624,2.416,ES2006d.B.dialog-act.s9553330.154,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,916.4,917.06,0.66,ES2006d.D.dialog-act.s9553330.117,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,920.95,926.51,5.56,ES2006d.D.dialog-act.s9553330.118,C,C,0.58,-0.95,True,False,0.0,[],False," Well mm we have we have the sample speaker as well, which is yeah, it's kind of new.",18,task,Inform
+ES2006d,C,924.18,924.72,0.54,ES2006d.C.dialog-act.s9553330.149,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,925.4,927.741,2.341,ES2006d.B.dialog-act.s9553330.155,,,,,,,,,False," Yeah, but I mean you don't",6,minor,Fragment
+ES2006d,C,927.09,931.51,4.42,ES2006d.C.dialog-act.s9553330.150,D,D,-1.19,0.58,True,True,1.19,"['ES2006d.D.dialog-act.s9553330.119', 'ES2006d.A.dialog-act.s9553330.112', 'ES2006d.B.dialog-act.s9553330.156']",True, All of the components have been used in other things before.,11,task,Inform
+ES2006d,D,930.32,933.28,2.96,ES2006d.D.dialog-act.s9553330.119,A,C,-2.93,-1.19,True,True,2.25,"['ES2006d.A.dialog-act.s9553330.112', 'ES2006d.B.dialog-act.s9553330.156']",False, But at the same time they are all they are all relatively new.,13,task,Inform
+ES2006d,A,930.35,932.29,1.94,ES2006d.A.dialog-act.s9553330.112,B,D,-1.26,-2.93,True,True,1.26,['ES2006d.B.dialog-act.s9553330.156'],False," Yeah, but they've been brought together in a remote.",9,task,Inform
+ES2006d,B,931.03,936.36,5.33,ES2006d.B.dialog-act.s9553330.156,C,A,1.75,-1.26,True,False,0.0,[],False, They're never been used i they've never been using remote remote control before I don't think.,16,task,Inform
+ES2006d,C,931.51,932.18,0.67,ES2006d.C.dialog-act.s9553330.151,,,,,,,,,False, But do,2,minor,Fragment
+ES2006d,C,932.18,933.82,1.64,ES2006d.C.dialog-act.s9553330.152,,,,,,,,,False," yeah, yeah.",2,minor,Backchannel
+ES2006d,C,936.68,938.11,1.43,ES2006d.C.dialog-act.s9553330.153,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,937.276,938.418,1.142,ES2006d.B.dialog-act.s9553330.157,,,,,,,,,False,.,0,minor,Fragment
+ES2006d,C,938.11,939.58,1.47,ES2006d.C.dialog-act.s9553330.154,B,B,1.02,1.75,True,False,0.0,[],True," What do you reckon, five, six?",6,task,Suggest
+ES2006d,B,939.84,940.6,0.76,ES2006d.B.dialog-act.s9553330.158,,,,,,,,,False," Yeah,",1,task,Assess
+ES2006d,B,940.6,942.01,1.41,ES2006d.B.dialog-act.s9553330.159,D,C,0.95,1.02,True,False,0.0,[],True, what do you all think?,5,elicit,Elicit-Assessment
+ES2006d,D,941.3,941.87,0.57,ES2006d.D.dialog-act.s9553330.120,,,,,,,,,False, Six.,1,task,Assess
+ES2006d,B,942.01,942.65,0.64,ES2006d.B.dialog-act.s9553330.160,,,,,,,,,False, Six?,1,task,Assess
+ES2006d,A,942.497,942.89,0.393,ES2006d.A.dialog-act.s9553330.113,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,942.96,946.31,3.35,ES2006d.D.dialog-act.s9553330.121,D,B,0.0,0.95,True,False,0.0,[],True," I mean how how far can you go with a remote control, really?",13,task,Inform
+ES2006d,C,945.054,948.96,3.906,ES2006d.C.dialog-act.s9553330.155,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,945.92,947.433,1.513,ES2006d.B.dialog-act.s9553330.161,,,,,,,,,False," Well, that's it, I mean",5,minor,Fragment
+ES2006d,D,946.31,948.66,2.35,ES2006d.D.dialog-act.s9553330.122,B,D,0.8,0.0,False,False,0.0,[],False, It still has to do what i what it has to do.,12,task,Inform
+ES2006d,A,946.348,946.946,0.598,ES2006d.A.dialog-act.s9553330.114,,,,,,,,,False,,0,minor,Fragment
+ES2006d,A,948.0,948.688,0.688,ES2006d.A.dialog-act.s9553330.115,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,949.46,954.44,4.98,ES2006d.B.dialog-act.s9553330.162,B,D,3.56,0.8,True,False,0.0,[],True," Yeah, but I mean everything has been used in space before it gets to anyone else really, hasn't it?",19,task,Inform
+ES2006d,C,952.638,953.807,1.169,ES2006d.C.dialog-act.s9553330.156,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,954.44,956.53,2.09,ES2006d.B.dialog-act.s9553330.163,,,,,,,,,False," So, I don't think many peop",6,minor,Fragment
+ES2006d,C,956.21,957.72,1.51,ES2006d.C.dialog-act.s9553330.157,,,,,,,,,False, Space remote.,2,other,Be-Positive
+ES2006d,A,957.168,957.696,0.528,ES2006d.A.dialog-act.s9553330.116,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,957.792,958.768,0.976,ES2006d.D.dialog-act.s9553330.123,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,958.0,959.38,1.38,ES2006d.B.dialog-act.s9553330.164,C,B,0.12,3.56,False,False,0.0,[],False," That's it, they can take it with them.",8,task,Inform
+ES2006d,C,959.5,961.74,2.24,ES2006d.C.dialog-act.s9553330.158,D,B,0.09,0.12,True,False,0.0,[],True, Put fashion in electronics.,4,elicit,Elicit-Assessment
+ES2006d,A,961.314,963.95,2.636,ES2006d.A.dialog-act.s9553330.117,,,,,,,,,False, Absolutely.,1,task,Assess
+ES2006d,D,961.83,963.52,1.69,ES2006d.D.dialog-act.s9553330.124,A,C,0.43,0.09,True,False,0.0,[],True," Yeah, isn't it fashionable?",4,task,Assess
+ES2006d,C,963.248,964.436,1.188,ES2006d.C.dialog-act.s9553330.159,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,963.52,964.1,0.58,ES2006d.D.dialog-act.s9553330.125,,,,,,,,,False," Yeah, sure.",2,task,Assess
+ES2006d,A,963.95,967.895,3.945,ES2006d.A.dialog-act.s9553330.118,D,D,-2.575,0.43,True,True,1.91,"['ES2006d.D.dialog-act.s9553330.126', 'ES2006d.B.dialog-act.s9553330.165', 'ES2006d.D.dialog-act.s9553330.127']",True, The carrot banana remote.,4,task,Inform
+ES2006d,D,965.32,967.23,1.91,ES2006d.D.dialog-act.s9553330.126,B,A,-0.83,-2.575,True,True,0.83,['ES2006d.B.dialog-act.s9553330.165'],False, It's the maximum fashion.,4,task,Assess
+ES2006d,C,965.721,967.611,1.89,ES2006d.C.dialog-act.s9553330.160,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,966.4,967.53,1.13,ES2006d.B.dialog-act.s9553330.165,D,D,-0.3,-0.83,True,True,0.3,['ES2006d.D.dialog-act.s9553330.127'],False," So, we give it seven,",5,task,Inform
+ES2006d,D,967.23,970.9,3.67,ES2006d.D.dialog-act.s9553330.127,D,B,4.51,-0.3,True,False,0.0,[],False," Fruit fruit and vegetables are fashionable these days, so.",9,task,Inform
+ES2006d,B,967.53,968.642,1.112,ES2006d.B.dialog-act.s9553330.166,,,,,,,,,False, and we write,3,minor,Fragment
+ES2006d,C,971.808,972.788,0.98,ES2006d.C.dialog-act.s9553330.161,,,,,,,,,False,,0,minor,Fragment
+ES2006d,A,973.012,973.76,0.748,ES2006d.A.dialog-act.s9553330.119,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,973.7,973.99,0.29,ES2006d.B.dialog-act.s9553330.167,,,,,,,,,False, There we go.,3,other,Other
+ES2006d,D,975.41,977.08,1.67,ES2006d.D.dialog-act.s9553330.128,A,D,-1.35,4.51,False,True,1.34,['ES2006d.A.dialog-act.s9553330.120'],False," So I think we've done very well,",7,task,Assess
+ES2006d,A,975.73,977.07,1.34,ES2006d.A.dialog-act.s9553330.120,B,D,1.84,-1.35,True,False,0.0,[],False, I think that's a.,4,task,Assess
+ES2006d,D,977.08,977.408,0.328,ES2006d.D.dialog-act.s9553330.129,,,,,,,,,False, but,1,minor,Fragment
+ES2006d,B,977.8,978.91,1.11,ES2006d.B.dialog-act.s9553330.168,,,,,,,,,False, Cool.,1,task,Assess
+ES2006d,C,977.83,979.26,1.43,ES2006d.C.dialog-act.s9553330.162,,,,,,,,,False, Very good.,2,task,Assess
+ES2006d,D,977.877,979.37,1.493,ES2006d.D.dialog-act.s9553330.130,,,,,,,,,False, What's the assessment?,3,elicit,Elicit-Inform
+ES2006d,A,978.27,978.53,0.26,ES2006d.A.dialog-act.s9553330.121,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,978.91,980.33,1.42,ES2006d.B.dialog-act.s9553330.169,D,A,1.46,1.84,True,False,0.0,[],True," So, we need the average here,",6,task,Inform
+ES2006d,B,980.33,981.568,1.238,ES2006d.B.dialog-act.s9553330.170,,,,,,,,,False, so we got,3,other,Other
+ES2006d,D,981.79,984.51,2.72,ES2006d.D.dialog-act.s9553330.131,D,B,0.0,1.46,True,False,0.0,[],True, The average is about six and something.,7,task,Inform
+ES2006d,C,984.064,985.85,1.786,ES2006d.C.dialog-act.s9553330.163,,,,,,,,,False," Yeah, one.",2,other,Other
+ES2006d,D,984.51,985.83,1.32,ES2006d.D.dialog-act.s9553330.132,A,D,1.93,0.0,False,False,0.0,[],False, A little bit over six.,5,task,Inform
+ES2006d,B,987.24,987.84,0.6,ES2006d.B.dialog-act.s9553330.171,,,,,,,,,False, Seven,1,other,Other
+ES2006d,C,987.55,988.38,0.83,ES2006d.C.dialog-act.s9553330.164,,,,,,,,,False, Or a seven.,3,other,Other
+ES2006d,A,987.76,989.08,1.32,ES2006d.A.dialog-act.s9553330.122,B,D,-0.34,1.93,True,True,0.34,['ES2006d.B.dialog-act.s9553330.172'],True, There are how many sixes?,5,elicit,Elicit-Inform
+ES2006d,D,988.71,989.37,0.66,ES2006d.D.dialog-act.s9553330.133,,,,,,,,,False," No, wait,",2,task,Assess
+ES2006d,B,988.74,990.2,1.46,ES2006d.B.dialog-act.s9553330.172,D,A,-0.83,-0.34,True,True,0.83,['ES2006d.D.dialog-act.s9553330.134'],False," So we've got four sevens,",5,task,Inform
+ES2006d,A,989.08,991.35,2.27,ES2006d.A.dialog-act.s9553330.123,,,,,,,,,False," One, two, three.",3,other,Other
+ES2006d,D,989.37,990.92,1.55,ES2006d.D.dialog-act.s9553330.134,B,B,-0.72,-0.83,True,True,0.72,['ES2006d.B.dialog-act.s9553330.173'],False, a little bit under six.,5,task,Inform
+ES2006d,B,990.2,992.67,2.47,ES2006d.B.dialog-act.s9553330.173,D,D,3.62,-0.72,True,False,0.0,[],False," so that's twenty eight,",4,task,Inform
+ES2006d,D,990.92,991.39,0.47,ES2006d.D.dialog-act.s9553330.135,,,,,,,,,False," No, wait.",2,task,Assess
+ES2006d,A,991.35,991.67,0.32,ES2006d.A.dialog-act.s9553330.124,,,,,,,,,False, Three.,1,task,Inform
+ES2006d,B,992.67,994.96,2.29,ES2006d.B.dialog-act.s9553330.174,,,,,,,,,False," three sixes,",2,task,Inform
+ES2006d,A,994.02,994.85,0.83,ES2006d.A.dialog-act.s9553330.125,,,,,,,,,False, And one five.,3,task,Inform
+ES2006d,B,994.96,995.8,0.84,ES2006d.B.dialog-act.s9553330.175,,,,,,,,,False, eighteen.,1,task,Inform
+ES2006d,D,996.29,997.73,1.44,ES2006d.D.dialog-act.s9553330.136,C,B,-0.897,3.62,True,True,0.897,"['ES2006d.C.dialog-act.s9553330.165', 'ES2006d.A.dialog-act.s9553330.126']",True," Oh, three sixes, okay, yeah.",5,other,Comment-About-Understanding
+ES2006d,C,996.833,1001.5,4.667,ES2006d.C.dialog-act.s9553330.165,A,D,-4.04,-0.897,True,True,4.04,['ES2006d.A.dialog-act.s9553330.126'],False," Fifty one, one, two, three, four, five, six, seven, eight.",10,other,Other
+ES2006d,A,997.46,1003.43,5.97,ES2006d.A.dialog-act.s9553330.126,A,C,0.0,-4.04,True,False,0.0,[],False," Okay, twenty eight, thirty eight, fo forty six. Forty six and five, fifty one.",14,other,Other
+ES2006d,C,1002.8,1005.81,3.01,ES2006d.C.dialog-act.s9553330.166,,,,,,,,,False, Six point point,3,minor,Fragment
+ES2006d,A,1003.43,1005.46,2.03,ES2006d.A.dialog-act.s9553330.127,D,A,-1.44,0.0,False,True,1.31,['ES2006d.D.dialog-act.s9553330.137'],False, Fifty one divided by,4,other,Other
+ES2006d,D,1004.02,1005.33,1.31,ES2006d.D.dialog-act.s9553330.137,B,A,0.22,-1.44,True,False,0.0,[],False," Six point something, yeah.",4,task,Inform
+ES2006d,B,1005.55,1008.01,2.46,ES2006d.B.dialog-act.s9553330.176,C,D,-2.2,0.22,True,True,1.871,"['ES2006d.C.dialog-act.s9553330.167', 'ES2006d.D.dialog-act.s9553330.138']",True, Two three four Seven eight.,5,other,Unlabelled
+ES2006d,C,1005.81,1007.45,1.64,ES2006d.C.dialog-act.s9553330.167,D,B,-1.311,-2.2,True,True,1.311,['ES2006d.D.dialog-act.s9553330.138'],False, about six point five.,4,task,Inform
+ES2006d,D,1006.139,1008.7,2.561,ES2006d.D.dialog-act.s9553330.138,B,C,1.6,-1.311,True,False,0.0,[],False," Six point five, yeah.",4,task,Assess
+ES2006d,C,1007.45,1008.11,0.66,ES2006d.C.dialog-act.s9553330.168,,,,,,,,,False, Close enough.,2,task,Inform
+ES2006d,B,1009.52,1010.3,0.78,ES2006d.B.dialog-act.s9553330.178,,,,,,,,,False," Okay,",1,minor,Stall
+ES2006d,B,1010.3,1011.62,1.32,ES2006d.B.dialog-act.s9553330.179,C,D,1.08,1.6,True,False,0.0,[],True," that's pretty good, I think.",5,task,Assess
+ES2006d,B,1012.521,1013.071,0.55,ES2006d.B.dialog-act.s9553330.180,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1012.7,1017.05,4.35,ES2006d.C.dialog-act.s9553330.169,C,B,1.47,1.08,True,False,0.0,[],True, Now wait until we get to finance and then we'll see if we can afford it.,16,task,Inform
+ES2006d,B,1014.749,1016.504,1.755,ES2006d.B.dialog-act.s9553330.181,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1018.52,1020.25,1.73,ES2006d.C.dialog-act.s9553330.170,C,C,0.0,1.47,False,False,0.0,[],False," That's all you've got at the moment,",7,elicit,Elicit-Inform
+ES2006d,C,1020.25,1022.08,1.83,ES2006d.C.dialog-act.s9553330.171,B,C,0.35,0.0,False,False,0.0,[],False, or did you have anything more?,6,elicit,Elicit-Inform
+ES2006d,B,1022.43,1024.34,1.91,ES2006d.B.dialog-act.s9553330.182,C,C,4.0,0.35,True,False,0.0,[],True," Um no, that's it,",4,task,Inform
+ES2006d,C,1023.83,1024.7,0.87,ES2006d.C.dialog-act.s9553330.172,,,,,,,,,False, That's it?,2,elicit,Elicit-Inform
+ES2006d,B,1024.34,1024.69,0.35,ES2006d.B.dialog-act.s9553330.183,,,,,,,,,False, yeah.,1,task,Inform
+ES2006d,C,1024.7,1025.76,1.06,ES2006d.C.dialog-act.s9553330.173,,,,,,,,,False, Alright.,1,task,Assess
+ES2006d,C,1025.76,1027.11,1.35,ES2006d.C.dialog-act.s9553330.174,,,,,,,,,False," So, finance.",2,task,Inform
+ES2006d,C,1028.34,1036.31,7.97,ES2006d.C.dialog-act.s9553330.175,B,B,5.49,4.0,True,False,0.0,[],True, And we'll see if we can unscrew this first.,9,other,Offer
+ES2006d,A,1038.59,1039.719,1.129,ES2006d.A.dialog-act.s9553330.128,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,1041.8,1043.46,1.66,ES2006d.B.dialog-act.s9553330.184,B,C,9.31,5.49,True,False,0.0,[],True," Cool, there we go.",4,task,Assess
+ES2006d,C,1041.94,1042.42,0.48,ES2006d.C.dialog-act.s9553330.176,,,,,,,,,False," Sorry,",1,other,Be-Positive
+ES2006d,C,1042.42,1043.744,1.324,ES2006d.C.dialog-act.s9553330.177,,,,,,,,,False, this is I'm just um,5,minor,Fragment
+ES2006d,B,1044.135,1045.264,1.129,ES2006d.B.dialog-act.s9553330.185,,,,,,,,,False,.,0,minor,Fragment
+ES2006d,B,1052.77,1053.86,1.09,ES2006d.B.dialog-act.s9553330.186,A,B,27.71,9.31,False,False,0.0,[],False, There we go and there are the marks.,8,task,Inform
+ES2006d,C,1056.3,1058.26,1.96,ES2006d.C.dialog-act.s9553330.178,,,,,,,,,False, Beautiful.,1,task,Assess
+ES2006d,D,1057.46,1057.64,0.18,ES2006d.D.dialog-act.s9553330.139,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1058.26,1059.46,1.2,ES2006d.C.dialog-act.s9553330.179,,,,,,,,,False, Not anymore.,2,task,Inform
+ES2006d,B,1059.011,1060.105,1.094,ES2006d.B.dialog-act.s9553330.187,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,1059.408,1059.968,0.56,ES2006d.D.dialog-act.s9553330.140,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1073.47,1074.41,0.94,ES2006d.C.dialog-act.s9553330.180,,,,,,,,,False, Computer no signal?,3,other,Other
+ES2006d,A,1081.57,1084.29,2.72,ES2006d.A.dialog-act.s9553330.129,C,B,20.98,27.71,True,False,0.0,[],True, Mm I guess it'll have to wait for a bit.,10,task,Inform
+ES2006d,C,1095.64,1096.46,0.82,ES2006d.C.dialog-act.s9553330.181,,,,,,,,,False, Adjusting.,1,other,Other
+ES2006d,C,1100.16,1101.32,1.16,ES2006d.C.dialog-act.s9553330.182,,,,,,,,,False, There we go.,3,task,Inform
+ES2006d,C,1104.93,1105.27,0.34,ES2006d.C.dialog-act.s9553330.183,,,,,,,,,False," Okay,",1,minor,Stall
+ES2006d,C,1105.27,1108.67,3.4,ES2006d.C.dialog-act.s9553330.184,C,A,1.33,20.98,True,False,0.0,[],True, so we've looked at the prototype presentation and the evaluation criteria.,11,task,Inform
+ES2006d,C,1110.0,1115.02,5.02,ES2006d.C.dialog-act.s9553330.185,C,C,0.0,1.33,False,False,0.0,[],False, And now we have to calculate the production costs.,9,task,Inform
+ES2006d,C,1115.02,1119.04,4.02,ES2006d.C.dialog-act.s9553330.186,C,C,2.0,0.0,False,False,0.0,[],False, So I've got an Excel spreadsheet to help us do that.,11,task,Inform
+ES2006d,C,1121.04,1122.65,1.61,ES2006d.C.dialog-act.s9553330.187,C,C,6.02,2.0,False,False,0.0,[],False, Can you read that?,4,elicit,Elicit-Inform
+ES2006d,C,1122.65,1123.42,0.77,ES2006d.C.dialog-act.s9553330.188,,,,,,,,,False, Almost.,1,task,Assess
+ES2006d,A,1125.885,1126.896,1.011,ES2006d.A.dialog-act.s9553330.130,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1126.92,1128.67,1.75,ES2006d.C.dialog-act.s9553330.189,,,,,,,,,False, More or less.,3,task,Assess
+ES2006d,C,1128.67,1131.83,3.16,ES2006d.C.dialog-act.s9553330.190,C,C,0.0,6.02,False,False,0.0,[],False," Um I started filling it in,",6,task,Inform
+ES2006d,C,1131.83,1136.15,4.32,ES2006d.C.dialog-act.s9553330.191,C,C,0.0,0.0,False,False,0.0,[],False," but of course these are provisional, so we have to go down.",12,task,Inform
+ES2006d,C,1136.15,1138.31,2.16,ES2006d.C.dialog-act.s9553330.192,C,C,6.8,0.0,False,False,0.0,[],False," No hand dynamo, right?",4,task,Inform
+ES2006d,B,1137.81,1138.25,0.44,ES2006d.B.dialog-act.s9553330.188,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,D,1138.208,1138.76,0.552,ES2006d.D.dialog-act.s9553330.141,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,C,1138.31,1140.46,2.15,ES2006d.C.dialog-act.s9553330.193,,,,,,,,,False, One simple battery.,3,task,Inform
+ES2006d,A,1139.0,1139.59,0.59,ES2006d.A.dialog-act.s9553330.131,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2006d,C,1140.46,1143.16,2.7,ES2006d.C.dialog-act.s9553330.194,,,,,,,,,False," No kinetic energy,",3,task,Inform
+ES2006d,C,1143.16,1144.14,0.98,ES2006d.C.dialog-act.s9553330.195,,,,,,,,,False, no solar.,2,task,Inform
+ES2006d,C,1145.11,1149.11,4.0,ES2006d.C.dialog-act.s9553330.196,C,C,0.0,6.8,False,False,0.0,[],False," The chip, we're going for an advanced chip on print.",10,task,Inform
+ES2006d,A,1147.18,1148.1,0.92,ES2006d.A.dialog-act.s9553330.132,,,,,,,,,False," Advanced, yeah.",2,task,Assess
+ES2006d,C,1149.11,1152.2,3.09,ES2006d.C.dialog-act.s9553330.201,C,C,1.53,0.0,False,False,0.0,[],False, We also said the sample sensor and sample speaker.,9,task,Inform
+ES2006d,D,1152.18,1152.45,0.27,ES2006d.D.dialog-act.s9553330.142,,,,,,,,,False, Yep.,1,task,Assess
+ES2006d,C,1153.73,1158.12,4.39,ES2006d.C.dialog-act.s9553330.202,C,C,1.55,1.53,False,False,0.0,[],False," Um single-curved surface, so that we can fold it.",9,task,Inform
+ES2006d,D,1157.0,1158.37,1.37,ES2006d.D.dialog-act.s9553330.143,,,,,,,,,False," Yeah, yes.",2,task,Assess
+ES2006d,C,1159.67,1162.3,2.63,ES2006d.C.dialog-act.s9553330.203,C,C,0.0,1.55,False,False,0.0,[],False, Case material we said rubber.,5,task,Inform
+ES2006d,D,1161.35,1161.76,0.41,ES2006d.D.dialog-act.s9553330.144,,,,,,,,,False, Rubber.,1,minor,Backchannel
+ES2006d,A,1162.03,1162.19,0.16,ES2006d.A.dialog-act.s9553330.133,,,,,,,,,False, Yep.,1,minor,Backchannel
+ES2006d,C,1162.3,1164.55,2.25,ES2006d.C.dialog-act.s9553330.204,A,C,0.83,0.0,False,False,0.0,[],False, I don't know what special colour means.,7,task,Inform
+ES2006d,A,1165.38,1170.41,5.03,ES2006d.A.dialog-act.s9553330.134,D,C,-1.47,0.83,True,True,0.99,['ES2006d.D.dialog-act.s9553330.145'],True, Mm anything uh I think which is not more.,9,task,Inform
+ES2006d,C,1165.944,1167.238,1.294,ES2006d.C.dialog-act.s9553330.205,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,1168.94,1169.93,0.99,ES2006d.D.dialog-act.s9553330.145,D,A,1.09,-1.47,True,False,0.0,[],False," I think something coloured,",4,task,Inform
+ES2006d,D,1169.93,1171.02,1.09,ES2006d.D.dialog-act.s9553330.146,,,,,,,,,False," yeah, probably.",2,task,Assess
+ES2006d,D,1171.02,1173.6,2.58,ES2006d.D.dialog-act.s9553330.147,B,D,0.13,1.09,False,False,0.0,[],False, So I think this is probably special co no?,9,task,Assess
+ES2006d,C,1172.81,1173.689,0.879,ES2006d.C.dialog-act.s9553330.206,,,,,,,,,False, It could be,3,task,Assess
+ES2006d,A,1172.83,1173.22,0.39,ES2006d.A.dialog-act.s9553330.135,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,1173.59,1173.73,0.14,ES2006d.B.dialog-act.s9553330.189,,,,,,,,,False," Yeah,",1,task,Assess
+ES2006d,B,1173.73,1176.12,2.39,ES2006d.B.dialog-act.s9553330.190,C,D,-1.22,0.13,True,True,1.22,['ES2006d.C.dialog-act.s9553330.207'],True," but rubber comes coloured, doesn't it? You know.",8,task,Inform
+ES2006d,C,1174.9,1176.16,1.26,ES2006d.C.dialog-act.s9553330.207,C,B,0.63,-1.22,True,False,0.0,[],False," Rub rubber comes coloured,",4,task,Inform
+ES2006d,D,1175.51,1176.07,0.56,ES2006d.D.dialog-act.s9553330.148,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1176.16,1176.79,0.63,ES2006d.C.dialog-act.s9553330.208,,,,,,,,,False, it's I would,3,minor,Fragment
+ES2006d,C,1176.79,1180.79,4.0,ES2006d.C.dialog-act.s9553330.209,D,C,-1.2,0.63,False,True,1.2,['ES2006d.D.dialog-act.s9553330.149'],False," maybe it's like if you want titanium coloured or wood coloured, it's different.",13,task,Suggest
+ES2006d,D,1179.59,1182.58,2.99,ES2006d.D.dialog-act.s9553330.149,C,C,0.07,-1.2,True,False,0.0,[],False," Or maybe maybe if you want some kind of pattern thing on it,",13,task,Suggest
+ES2006d,C,1182.4,1182.65,0.25,ES2006d.C.dialog-act.s9553330.210,,,,,,,,,False," Yeah,",1,minor,Backchannel
+ES2006d,D,1182.58,1183.69,1.11,ES2006d.D.dialog-act.s9553330.150,,,,,,,,,False," yeah yeah, okay.",3,minor,Backchannel
+ES2006d,C,1182.65,1184.608,1.958,ES2006d.C.dialog-act.s9553330.211,B,D,0.632,0.07,True,False,0.0,[],True," let's leave it as zero, 'cause it's easy.",8,task,Suggest
+ES2006d,D,1184.68,1184.99,0.31,ES2006d.D.dialog-act.s9553330.151,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,1184.86,1185.24,0.38,ES2006d.B.dialog-act.s9553330.191,,,,,,,,,False," Yeah,",1,minor,Backchannel
+ES2006d,B,1185.24,1190.19,4.95,ES2006d.B.dialog-act.s9553330.192,C,C,-3.34,0.632,True,True,2.12,"['ES2006d.C.dialog-act.s9553330.212', 'ES2006d.C.dialog-act.s9553330.213']",True, you might end up having to take off the sample sensor.,11,task,Suggest
+ES2006d,C,1186.85,1188.97,2.12,ES2006d.C.dialog-act.s9553330.212,C,B,0.0,-3.34,True,False,0.0,[],False, We we're definitely going to have to,7,task,Inform
+ES2006d,D,1188.24,1189.5,1.26,ES2006d.D.dialog-act.s9553330.152,,,,,,,,,False," We have pushbuttons,",3,task,Inform
+ES2006d,C,1188.97,1190.48,1.51,ES2006d.C.dialog-act.s9553330.213,D,C,0.93,0.0,False,False,0.0,[],False," so we've got pushbutton,",4,task,Inform
+ES2006d,A,1189.1,1189.26,0.16,ES2006d.A.dialog-act.s9553330.136,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2006d,C,1190.48,1191.89,1.41,ES2006d.C.dialog-act.s9553330.214,,,,,,,,,False, and then we've,3,minor,Fragment
+ES2006d,D,1191.41,1193.33,1.92,ES2006d.D.dialog-act.s9553330.153,C,C,0.34,0.93,True,False,0.0,[],True, scro we have scroll wheel as well.,7,task,Inform
+ES2006d,C,1193.67,1196.74,3.07,ES2006d.C.dialog-act.s9553330.215,D,D,1.25,0.34,True,False,0.0,[],True," Scroll wheel with pushbutton we had, no?",7,task,Inform
+ES2006d,D,1197.01,1197.99,0.98,ES2006d.D.dialog-act.s9553330.154,,,,,,,,,False," S yeah, yeah,",3,task,Assess
+ES2006d,A,1197.03,1199.31,2.28,ES2006d.A.dialog-act.s9553330.137,,,,,,,,,False, No uh we we have uh yeah.,7,minor,Fragment
+ES2006d,D,1197.99,1199.81,1.82,ES2006d.D.dialog-act.s9553330.155,D,C,0.0,1.25,True,False,0.0,[],True," we had, for muting, yeah.",5,task,Inform
+ES2006d,C,1199.53,1199.82,0.29,ES2006d.C.dialog-act.s9553330.216,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,1199.81,1201.59,1.78,ES2006d.D.dialog-act.s9553330.156,A,D,8.81,0.0,False,False,0.0,[],False, And we have L_C_ display,5,task,Inform
+ES2006d,D,1201.59,1202.29,0.7,ES2006d.D.dialog-act.s9553330.157,,,,,,,,,False, and yeah.,2,minor,Fragment
+ES2006d,C,1201.97,1204.95,2.98,ES2006d.C.dialog-act.s9553330.217,,,,,,,,,False, And button supplements.,3,task,Inform
+ES2006d,D,1206.1,1206.968,0.868,ES2006d.D.dialog-act.s9553330.158,,,,,,,,,False, Um,1,minor,Fragment
+ES2006d,A,1206.57,1207.75,1.18,ES2006d.A.dialog-act.s9553330.138,,,,,,,,,False, Mm no.,2,task,Assess
+ES2006d,B,1206.841,1207.699,0.858,ES2006d.B.dialog-act.s9553330.193,,,,,,,,,False,.,0,minor,Fragment
+ES2006d,B,1209.08,1209.3,0.22,ES2006d.B.dialog-act.s9553330.194,,,,,,,,,False, No.,1,task,Assess
+ES2006d,A,1209.69,1210.4,0.71,ES2006d.A.dialog-act.s9553330.139,,,,,,,,,False, We don't have,3,minor,Fragment
+ES2006d,C,1209.84,1211.36,1.52,ES2006d.C.dialog-act.s9553330.218,,,,,,,,,False, No. No?,2,minor,Backchannel
+ES2006d,A,1210.4,1211.61,1.21,ES2006d.A.dialog-act.s9553330.140,D,D,-0.33,8.81,True,True,0.33,['ES2006d.D.dialog-act.s9553330.159'],True, we're not using any of that.,6,task,Inform
+ES2006d,D,1211.28,1217.723,6.443,ES2006d.D.dialog-act.s9553330.159,C,A,-2.383,-0.33,True,True,2.383,['ES2006d.C.dialog-act.s9553330.219'],False," Yeah, but what do we ha we have L_C_ display, but but the wh but the s spinning wheel",19,task,Inform
+ES2006d,C,1215.34,1217.88,2.54,ES2006d.C.dialog-act.s9553330.219,C,D,0.0,-2.383,True,False,0.0,[],False, But the the spinning wheel's not there.,7,task,Inform
+ES2006d,C,1217.88,1222.07,4.19,ES2006d.C.dialog-act.s9553330.220,B,C,0.22,0.0,False,False,0.0,[],False, I have think maybe it's integrated with the L_C_ display?,10,task,Inform
+ES2006d,D,1219.19,1219.6,0.41,ES2006d.D.dialog-act.s9553330.160,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,1222.26,1224.06,1.8,ES2006d.D.dialog-act.s9553330.161,,,,,,,,,False," Okay, let's yeah.",3,task,Assess
+ES2006d,B,1222.29,1223.79,1.5,ES2006d.B.dialog-act.s9553330.195,C,C,5.88,0.22,True,False,0.0,[],True," We've got more than one pushbutton though,",7,task,Inform
+ES2006d,C,1223.102,1223.66,0.558,ES2006d.C.dialog-act.s9553330.221,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,1223.79,1224.46,0.67,ES2006d.B.dialog-act.s9553330.196,,,,,,,,,False, haven't we?,2,elicit,Elicit-Assessment
+ES2006d,C,1225.36,1227.1,1.74,ES2006d.C.dialog-act.s9553330.222,,,,,,,,,False, I think the pushbutton,4,minor,Fragment
+ES2006d,C,1227.1,1227.91,0.81,ES2006d.C.dialog-act.s9553330.223,,,,,,,,,False, oh.,1,other,Other
+ES2006d,B,1228.82,1229.647,0.827,ES2006d.B.dialog-act.s9553330.197,,,,,,,,,False, 'Cause then you have,4,minor,Fragment
+ES2006d,C,1229.67,1231.244,1.574,ES2006d.C.dialog-act.s9553330.224,B,B,-0.734,5.88,True,True,0.734,['ES2006d.B.dialog-act.s9553330.198'],True, I don't know if that's one,6,task,Inform
+ES2006d,B,1230.51,1233.47,2.96,ES2006d.B.dialog-act.s9553330.198,B,C,0.0,-0.734,True,False,0.0,[],False, That means you can only have twenty five push buttons in total doesn't it?,14,task,Inform
+ES2006d,B,1233.47,1235.56,2.09,ES2006d.B.dialog-act.s9553330.199,A,B,4.07,0.0,False,False,0.0,[],False," Not counting anything, we'd still be in budget.",8,task,Inform
+ES2006d,C,1234.66,1235.23,0.57,ES2006d.C.dialog-act.s9553330.225,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1236.21,1237.34,1.13,ES2006d.C.dialog-act.s9553330.226,,,,,,,,,False, That seems unlikely.,3,task,Assess
+ES2006d,C,1239.11,1241.84,2.73,ES2006d.C.dialog-act.s9553330.227,,,,,,,,,False, Push what uh,3,minor,Fragment
+ES2006d,A,1239.44,1239.63,0.19,ES2006d.A.dialog-act.s9553330.141,,,,,,,,,False, Huh?,1,minor,Backchannel
+ES2006d,A,1239.63,1241.88,2.25,ES2006d.A.dialog-act.s9553330.142,C,B,-0.04,4.07,True,True,0.04,['ES2006d.C.dialog-act.s9553330.228'],True, Wh wh what is the limit? Uh.,7,elicit,Elicit-Inform
+ES2006d,B,1241.7,1242.6,0.9,ES2006d.B.dialog-act.s9553330.200,,,,,,,,,False, Twelve point five.,3,task,Inform
+ES2006d,C,1241.84,1247.18,5.34,ES2006d.C.dialog-act.s9553330.228,D,A,-2.7,-0.04,True,True,1.14,"['ES2006d.D.dialog-act.s9553330.162', 'ES2006d.A.dialog-act.s9553330.143']",False, whether whether pushbutton means that p count by button or do we,12,task,Inform
+ES2006d,D,1244.48,1245.62,1.14,ES2006d.D.dialog-act.s9553330.162,A,C,1.01,-2.7,True,False,0.0,[],False," We have to count all of them,",7,task,Inform
+ES2006d,D,1245.62,1246.27,0.65,ES2006d.D.dialog-act.s9553330.163,,,,,,,,,False, or yeah.,2,minor,Backchannel
+ES2006d,A,1246.63,1249.87,3.24,ES2006d.A.dialog-act.s9553330.143,C,D,-2.69,1.01,True,True,1.81,['ES2006d.C.dialog-act.s9553330.229'],True," Mm I don't think so, no.",6,task,Assess
+ES2006d,C,1247.18,1248.99,1.81,ES2006d.C.dialog-act.s9553330.229,A,A,0.88,-2.69,True,False,0.0,[],False, I don't think that makes sense.,6,task,Assess
+ES2006d,B,1249.35,1249.74,0.39,ES2006d.B.dialog-act.s9553330.201,,,,,,,,,False, No.,1,task,Assess
+ES2006d,B,1249.74,1251.648,1.908,ES2006d.B.dialog-act.s9553330.202,,,,,,,,,False," Well it doesn't, but it uh",6,minor,Fragment
+ES2006d,A,1249.87,1252.58,2.71,ES2006d.A.dialog-act.s9553330.144,A,C,0.0,0.88,True,False,0.0,[],True," No it says what what is the kind of interface,",10,task,Inform
+ES2006d,C,1251.28,1251.48,0.2,ES2006d.C.dialog-act.s9553330.230,,,,,,,,,False, No.,1,minor,Backchannel
+ES2006d,A,1252.58,1255.55,2.97,ES2006d.A.dialog-act.s9553330.145,A,A,0.0,0.0,False,False,0.0,[],False," if it is pushbutton then you got a zero point five,",11,task,Inform
+ES2006d,A,1255.55,1262.65,7.1,ES2006d.A.dialog-act.s9553330.146,A,A,0.0,0.0,False,False,0.0,[],False," it's a scroll wheel so we we've put it's pushbutton and scroll wheel and L_C_D_ display,",16,task,Inform
+ES2006d,C,1258.99,1259.28,0.29,ES2006d.C.dialog-act.s9553330.231,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1260.79,1261.22,0.43,ES2006d.C.dialog-act.s9553330.232,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,1260.79,1262.22,1.43,ES2006d.B.dialog-act.s9553330.203,,,,,,,,,False, And L_C_ display.,3,task,Inform
+ES2006d,C,1262.24,1262.6,0.36,ES2006d.C.dialog-act.s9553330.233,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,1262.65,1265.74,3.09,ES2006d.A.dialog-act.s9553330.147,C,A,1.91,0.0,False,False,0.0,[],False, so that's that's the three kind of interfaces that we have.,11,task,Inform
+ES2006d,C,1265.09,1265.99,0.9,ES2006d.C.dialog-act.s9553330.234,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1267.65,1271.52,3.87,ES2006d.C.dialog-act.s9553330.235,A,A,-0.727,1.91,True,True,0.727,['ES2006d.A.dialog-act.s9553330.148'],True," So, as we can see, that's way too expensive down here.",11,task,Inform
+ES2006d,A,1270.793,1273.32,2.527,ES2006d.A.dialog-act.s9553330.148,C,C,-0.46,-0.727,True,True,0.46,['ES2006d.C.dialog-act.s9553330.236'],False, Wh wh what's our criteria?,5,elicit,Elicit-Inform
+ES2006d,B,1272.0,1274.41,2.41,ES2006d.B.dialog-act.s9553330.204,,,,,,,,,False, This sample sensor.,3,minor,Fragment
+ES2006d,C,1272.86,1275.68,2.82,ES2006d.C.dialog-act.s9553330.236,B,A,0.12,-0.46,True,False,0.0,[],False, Our budget's twelve point five.,5,task,Inform
+ES2006d,A,1275.47,1276.1,0.63,ES2006d.A.dialog-act.s9553330.149,,,,,,,,,False, Uh okay.,2,other,Comment-About-Understanding
+ES2006d,B,1275.8,1277.78,1.98,ES2006d.B.dialog-act.s9553330.205,B,C,0.0,0.12,True,False,0.0,[],True," Yeah, the sample sensor will have to go,",8,task,Inform
+ES2006d,B,1277.78,1279.45,1.67,ES2006d.B.dialog-act.s9553330.206,C,B,0.44,0.0,False,False,0.0,[],False, 'cause that's the most expensive thing on there.,8,task,Inform
+ES2006d,C,1279.0,1279.89,0.89,ES2006d.C.dialog-act.s9553330.237,,,,,,,,,False," Yeah,",1,task,Assess
+ES2006d,C,1279.89,1285.27,5.38,ES2006d.C.dialog-act.s9553330.238,A,B,-0.94,0.44,True,True,0.94,['ES2006d.A.dialog-act.s9553330.150'],True, so that has implications though for the.,7,task,Inform
+ES2006d,A,1284.33,1286.45,2.12,ES2006d.A.dialog-act.s9553330.150,A,C,0.0,-0.94,True,False,0.0,[],False," Uh it does not have for voice recognition,",8,task,Inform
+ES2006d,A,1286.45,1289.48,3.03,ES2006d.A.dialog-act.s9553330.151,A,A,0.0,0.0,False,False,0.0,[],False, but it does have for the feedback speaker.,8,task,Inform
+ES2006d,A,1289.48,1292.86,3.38,ES2006d.A.dialog-act.s9553330.152,B,A,-0.17,0.0,False,True,0.17,['ES2006d.B.dialog-act.s9553330.208'],False, when you say when you press one it says one or it says hello.,14,task,Inform
+ES2006d,B,1289.72,1290.28,0.56,ES2006d.B.dialog-act.s9553330.207,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1290.93,1292.02,1.09,ES2006d.C.dialog-act.s9553330.239,,,,,,,,,False, For the locator.,3,task,Inform
+ES2006d,B,1292.69,1294.87,2.18,ES2006d.B.dialog-act.s9553330.208,A,A,-0.32,-0.17,True,True,0.32,['ES2006d.A.dialog-act.s9553330.153'],False," But that's a bit of a gimmick anyway really, isn't it?",11,task,Inform
+ES2006d,C,1294.29,1294.8,0.51,ES2006d.C.dialog-act.s9553330.240,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,A,1294.55,1297.03,2.48,ES2006d.A.dialog-act.s9553330.153,B,B,-2.16,-0.32,True,True,1.57,['ES2006d.B.dialog-act.s9553330.209'],False, Mm and the locator also goes away.,7,task,Inform
+ES2006d,B,1294.87,1296.44,1.57,ES2006d.B.dialog-act.s9553330.209,D,A,0.59,-2.16,True,False,0.0,[],False, We can afford to get rid of it.,8,task,Inform
+ES2006d,D,1297.03,1300.95,3.92,ES2006d.D.dialog-act.s9553330.164,B,B,-0.32,0.59,True,True,0.32,['ES2006d.B.dialog-act.s9553330.210'],True, But it was very no innovative,6,task,Inform
+ES2006d,C,1299.4,1299.84,0.44,ES2006d.C.dialog-act.s9553330.241,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,1300.63,1302.69,2.06,ES2006d.B.dialog-act.s9553330.210,C,D,4.0,-0.32,True,False,0.0,[],False," So that means no locator, does it?",7,elicit,Elicit-Inform
+ES2006d,D,1300.95,1305.52,4.57,ES2006d.D.dialog-act.s9553330.165,,,,,,,,,False, innovativeness. Well um yeah.,4,minor,Fragment
+ES2006d,B,1306.39,1307.241,0.851,ES2006d.B.dialog-act.s9553330.211,,,,,,,,,False, I mean does,3,minor,Fragment
+ES2006d,C,1306.69,1308.12,1.43,ES2006d.C.dialog-act.s9553330.242,D,B,-1.06,4.0,True,True,1.06,['ES2006d.D.dialog-act.s9553330.166'],True, What else does it need?,5,elicit,Elicit-Inform
+ES2006d,D,1307.06,1310.68,3.62,ES2006d.D.dialog-act.s9553330.166,D,C,0.0,-1.06,True,False,0.0,[],False," Well the speaker uh the sample speaker is is expensive,",10,task,Inform
+ES2006d,D,1310.68,1314.83,4.15,ES2006d.D.dialog-act.s9553330.167,C,D,0.5,0.0,False,False,0.0,[],False, but we could just have some some very very easy device that just beeps.,14,task,Suggest
+ES2006d,C,1314.93,1315.33,0.4,ES2006d.C.dialog-act.s9553330.243,,,,,,,,,False," Yeah,",1,task,Assess
+ES2006d,C,1315.33,1319.17,3.84,ES2006d.C.dialog-act.s9553330.244,D,D,0.39,0.5,True,False,0.0,[],True," 'cause the sample speaker was, I think, more complicated then just a beeping thing.",14,task,Inform
+ES2006d,D,1315.81,1316.675,0.865,ES2006d.D.dialog-act.s9553330.168,,,,,,,,,False, This would be,3,minor,Fragment
+ES2006d,D,1318.0,1319.56,1.56,ES2006d.D.dialog-act.s9553330.169,,,,,,,,,False," Yeah, yeah yeah",3,task,Assess
+ES2006d,B,1318.68,1319.23,0.55,ES2006d.B.dialog-act.s9553330.212,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,1319.56,1322.762,3.202,ES2006d.D.dialog-act.s9553330.170,A,C,-0.452,0.39,True,True,0.452,['ES2006d.A.dialog-act.s9553330.154'],True, there you record your samples your speech samples and,9,task,Inform
+ES2006d,C,1321.46,1323.414,1.954,ES2006d.C.dialog-act.s9553330.245,,,,,,,,,False," Yeah, okay, so we",4,minor,Fragment
+ES2006d,B,1321.46,1321.96,0.5,ES2006d.B.dialog-act.s9553330.213,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,1322.31,1327.77,5.46,ES2006d.A.dialog-act.s9553330.154,A,D,0.0,-0.452,True,False,0.0,[],False," A also i in the case I'm not sure that you will evaluate this as a curved surface,",18,task,Inform
+ES2006d,A,1327.77,1331.28,3.51,ES2006d.A.dialog-act.s9553330.155,C,A,7.43,0.0,False,False,0.0,[],False," because it's just rubber, so it's probably a flat surface rubber.",11,task,Inform
+ES2006d,A,1331.28,1333.72,2.44,ES2006d.A.dialog-act.s9553330.156,,,,,,,,,False, Uh I mean uh um yeah.,6,minor,Fragment
+ES2006d,C,1332.1,1332.41,0.31,ES2006d.C.dialog-act.s9553330.246,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+ES2006d,B,1332.79,1333.69,0.9,ES2006d.B.dialog-act.s9553330.214,,,,,,,,,False," Okay, yeah.",2,task,Assess
+ES2006d,C,1338.71,1340.5,1.79,ES2006d.C.dialog-act.s9553330.247,B,A,1.17,7.43,True,False,0.0,[],True," Right, so we need one fifty off.",7,task,Inform
+ES2006d,A,1338.74,1340.096,1.356,ES2006d.A.dialog-act.s9553330.157,,,,,,,,,False, Um,1,minor,Backchannel
+ES2006d,B,1341.67,1345.73,4.06,ES2006d.B.dialog-act.s9553330.215,C,C,0.63,1.17,True,False,0.0,[],True," See, I was gonna say the scroll wheel pushbutton thing,",10,task,Inform
+ES2006d,B,1345.73,1346.256,0.526,ES2006d.B.dialog-act.s9553330.216,,,,,,,,,False, 'cause,1,minor,Fragment
+ES2006d,C,1346.36,1348.27,1.91,ES2006d.C.dialog-act.s9553330.248,A,B,2.33,0.63,True,False,0.0,[],True, Take it down to just a scroll wheel.,8,task,Suggest
+ES2006d,C,1349.564,1351.107,1.543,ES2006d.C.dialog-act.s9553330.249,,,,,,,,,False, We could do,3,task,Assess
+ES2006d,A,1350.6,1352.8,2.2,ES2006d.A.dialog-act.s9553330.158,D,C,-0.03,2.33,True,True,0.03,['ES2006d.D.dialog-act.s9553330.171'],True, So tha that mean that we cannot press,8,task,Inform
+ES2006d,D,1352.77,1354.62,1.85,ES2006d.D.dialog-act.s9553330.171,A,A,-1.82,-0.03,True,True,1.82,['ES2006d.A.dialog-act.s9553330.159'],False," Yeah, then then we would be in the b budget.",10,task,Inform
+ES2006d,A,1352.8,1356.95,4.15,ES2006d.A.dialog-act.s9553330.159,A,D,0.41,-1.82,True,False,0.0,[],False, how do we how do we make a selection in uh in the L_C_D_?,14,elicit,Elicit-Inform
+ES2006d,A,1356.95,1357.36,0.41,ES2006d.A.dialog-act.s9553330.160,,,,,,,,,False, If,1,minor,Fragment
+ES2006d,A,1357.36,1359.03,1.67,ES2006d.A.dialog-act.s9553330.161,A,A,0.0,0.41,False,False,0.0,[],False," in the L_C_D_ we can scroll, right?",7,task,Inform
+ES2006d,A,1359.03,1361.92,2.89,ES2006d.A.dialog-act.s9553330.162,D,A,-0.26,0.0,False,True,0.26,['ES2006d.D.dialog-act.s9553330.174'],False, But how do we make a selection if we d cannot push the button.,14,elicit,Elicit-Inform
+ES2006d,D,1360.66,1361.14,0.48,ES2006d.D.dialog-act.s9553330.173,,,,,,,,,False, Yeah b,2,minor,Fragment
+ES2006d,D,1361.14,1361.66,0.52,ES2006d.D.dialog-act.s9553330.172,,,,,,,,,False," no no,",2,task,Assess
+ES2006d,D,1361.66,1362.63,0.97,ES2006d.D.dialog-act.s9553330.174,D,A,0.0,-0.26,True,False,0.0,[],False," you can push this one,",5,task,Inform
+ES2006d,D,1362.63,1367.87,5.24,ES2006d.D.dialog-act.s9553330.175,B,D,-0.59,0.0,False,True,0.59,['ES2006d.B.dialog-act.s9553330.217'],False, but we don't have a pushbutton uh we ca we don't have this muting mechanism for this scrolling thing.,19,task,Inform
+ES2006d,B,1367.28,1370.26,2.98,ES2006d.B.dialog-act.s9553330.217,C,D,-0.66,-0.59,True,True,0.66,['ES2006d.C.dialog-act.s9553330.251'],False, But that's well you would just have to to spin it down.,12,task,Inform
+ES2006d,C,1367.36,1367.93,0.57,ES2006d.C.dialog-act.s9553330.250,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1369.6,1373.73,4.13,ES2006d.C.dialog-act.s9553330.251,B,B,0.43,-0.66,True,False,0.0,[],False, You can have to scroll it straight r roll it straight down for for mute.,15,task,Inform
+ES2006d,D,1372.93,1373.49,0.56,ES2006d.D.dialog-act.s9553330.176,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,B,1374.16,1375.65,1.49,ES2006d.B.dialog-act.s9553330.218,A,C,0.07,0.43,True,False,0.0,[],True, So that's point three.,4,task,Inform
+ES2006d,A,1374.26,1375.72,1.46,ES2006d.A.dialog-act.s9553330.163,,,,,,,,,False, No w w w but ha,6,minor,Fragment
+ES2006d,A,1375.72,1377.05,1.33,ES2006d.A.dialog-act.s9553330.164,A,B,0.0,0.07,True,False,0.0,[],True, it's it's the scroll wheel,5,task,Inform
+ES2006d,A,1377.05,1380.9,3.85,ES2006d.A.dialog-act.s9553330.165,D,A,0.27,0.0,False,False,0.0,[],False, and I thought we were referring to this as a scroll spinning wheel and pushbutton thing.,16,task,Inform
+ES2006d,D,1381.17,1385.25,4.08,ES2006d.D.dialog-act.s9553330.177,B,A,2.19,0.27,True,False,0.0,[],True, But I mean we can put an additional mute button on the top as well.,15,task,Suggest
+ES2006d,D,1386.27,1386.781,0.511,ES2006d.D.dialog-act.s9553330.178,,,,,,,,,False, If you,2,minor,Fragment
+ES2006d,B,1386.67,1387.44,0.77,ES2006d.B.dialog-act.s9553330.219,,,,,,,,,False," Yeah,",1,task,Assess
+ES2006d,B,1387.44,1389.24,1.8,ES2006d.B.dialog-act.s9553330.220,B,D,0.0,2.19,True,False,0.0,[],True, I mean that wouldn't actually cost any more.,8,task,Inform
+ES2006d,B,1389.24,1390.7,1.46,ES2006d.B.dialog-act.s9553330.221,B,B,0.0,0.0,False,False,0.0,[],False," That's the spin wheel though, isn't it?",7,task,Inform
+ES2006d,B,1390.7,1392.424,1.724,ES2006d.B.dialog-act.s9553330.222,C,B,-0.184,0.0,False,True,0.184,['ES2006d.C.dialog-act.s9553330.252'],False, Didn't that come with the L_C_,6,elicit,Elicit-Inform
+ES2006d,C,1392.24,1394.07,1.83,ES2006d.C.dialog-act.s9553330.252,A,B,-0.61,-0.184,True,True,0.61,['ES2006d.A.dialog-act.s9553330.166'],False, That's with the L_C_,4,task,Inform
+ES2006d,A,1393.46,1394.86,1.4,ES2006d.A.dialog-act.s9553330.166,C,C,1.0,-0.61,True,False,0.0,[],False, That comes with the L_C_D_?,5,elicit,Elicit-Inform
+ES2006d,B,1394.79,1395.26,0.47,ES2006d.B.dialog-act.s9553330.223,,,,,,,,,False, Yeah.,1,task,Inform
+ES2006d,C,1395.24,1395.86,0.62,ES2006d.C.dialog-act.s9553330.253,,,,,,,,,False," We decided,",2,task,Inform
+ES2006d,C,1395.86,1397.12,1.26,ES2006d.C.dialog-act.s9553330.254,C,A,2.56,1.0,True,False,0.0,[],True, 'cause it's not on our list.,6,task,Inform
+ES2006d,B,1397.34,1397.71,0.37,ES2006d.B.dialog-act.s9553330.224,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,1397.48,1399.728,2.248,ES2006d.A.dialog-act.s9553330.167,,,,,,,,,False, Oh so so the the this is,7,minor,Fragment
+ES2006d,D,1397.91,1398.1,0.19,ES2006d.D.dialog-act.s9553330.179,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2006d,C,1399.68,1401.77,2.09,ES2006d.C.dialog-act.s9553330.255,A,C,5.25,2.56,False,False,0.0,[],False, The scroll wheel is on the side.,7,task,Inform
+ES2006d,A,1402.265,1404.2,1.935,ES2006d.A.dialog-act.s9553330.168,,,,,,,,,False,. So,1,minor,Stall
+ES2006d,A,1404.2,1407.02,2.82,ES2006d.A.dialog-act.s9553330.169,,,,,,,,,False," we're adding costs for right, okay",6,minor,Fragment
+ES2006d,A,1407.02,1409.12,2.1,ES2006d.A.dialog-act.s9553330.170,B,C,0.48,5.25,True,False,0.0,[],True, uh I mean I think this is good.,8,task,Assess
+ES2006d,D,1409.44,1409.953,0.513,ES2006d.D.dialog-act.s9553330.180,,,,,,,,,False, So,1,minor,Fragment
+ES2006d,B,1409.6,1411.67,2.07,ES2006d.B.dialog-act.s9553330.225,C,A,-0.54,0.48,True,True,0.54,['ES2006d.C.dialog-act.s9553330.256'],True, S so we're point three over.,6,task,Inform
+ES2006d,C,1411.13,1413.33,2.2,ES2006d.C.dialog-act.s9553330.256,B,B,1.74,-0.54,True,False,0.0,[],False, We're point three over at the moment.,7,task,Inform
+ES2006d,C,1414.69,1415.56,0.87,ES2006d.C.dialog-act.s9553330.257,,,,,,,,,False, It's nothing n,3,minor,Fragment
+ES2006d,B,1415.07,1417.38,2.31,ES2006d.B.dialog-act.s9553330.226,B,C,0.0,1.74,True,False,0.0,[],True, Unless we just take off the scroll wheel altogether,9,task,Suggest
+ES2006d,B,1417.38,1419.08,1.7,ES2006d.B.dialog-act.s9553330.227,B,B,1.07,0.0,False,False,0.0,[],False, and just have pushbuttons for the volume.,7,task,Suggest
+ES2006d,B,1420.15,1421.71,1.56,ES2006d.B.dialog-act.s9553330.228,B,B,2.96,1.07,False,False,0.0,[],False, Could b still put them on the side.,8,task,Inform
+ES2006d,B,1423.94,1424.67,0.73,ES2006d.B.dialog-act.s9553330.229,,,,,,,,,False, But yeah.,2,minor,Stall
+ES2006d,C,1424.15,1424.93,0.78,ES2006d.C.dialog-act.s9553330.258,,,,,,,,,False," Yeah,",1,minor,Backchannel
+ES2006d,B,1424.67,1426.887,2.217,ES2006d.B.dialog-act.s9553330.230,A,B,1.033,2.96,False,False,0.0,[],False," I mean the scroll wheel's pretty cool, but",8,task,Assess
+ES2006d,C,1424.93,1425.649,0.719,ES2006d.C.dialog-act.s9553330.259,,,,,,,,,False, I have,2,minor,Fragment
+ES2006d,A,1427.92,1432.23,4.31,ES2006d.A.dialog-act.s9553330.171,A,B,0.52,1.033,True,False,0.0,[],True," Instead of scrolling here we have two buttons here, up for up and down.",14,task,Inform
+ES2006d,B,1430.1,1430.65,0.55,ES2006d.B.dialog-act.s9553330.231,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,D,1431.75,1432.21,0.46,ES2006d.D.dialog-act.s9553330.181,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,B,1432.05,1432.46,0.41,ES2006d.B.dialog-act.s9553330.232,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,1432.23,1432.75,0.52,ES2006d.A.dialog-act.s9553330.172,,,,,,,,,False, On the side.,3,task,Inform
+ES2006d,C,1432.65,1433.1,0.45,ES2006d.C.dialog-act.s9553330.260,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,1432.75,1434.59,1.84,ES2006d.A.dialog-act.s9553330.173,C,A,0.02,0.52,False,False,0.0,[],False," Mm uh it sounds good actually, yeah.",7,task,Assess
+ES2006d,D,1433.25,1434.5,1.25,ES2006d.D.dialog-act.s9553330.182,,,,,,,,,False," Okay, yeah.",2,task,Assess
+ES2006d,C,1434.61,1437.36,2.75,ES2006d.C.dialog-act.s9553330.261,C,A,2.5,0.02,True,False,0.0,[],True, Rather than having three different things that people have to do.,11,task,Inform
+ES2006d,A,1435.544,1439.424,3.88,ES2006d.A.dialog-act.s9553330.174,,,,,,,,,False,.,0,minor,Fragment
+ES2006d,D,1438.35,1438.74,0.39,ES2006d.D.dialog-act.s9553330.183,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2006d,C,1439.36,1439.86,0.5,ES2006d.C.dialog-act.s9553330.262,,,,,,,,,False, There we go.,3,other,Other
+ES2006d,C,1439.86,1441.17,1.31,ES2006d.C.dialog-act.s9553330.263,C,C,0.0,2.5,False,False,0.0,[],False," Oh look, we're way under budget",6,task,Inform
+ES2006d,C,1441.17,1442.42,1.25,ES2006d.C.dialog-act.s9553330.264,C,C,0.0,0.0,False,False,0.0,[],False, and we'll make huge profits,5,task,Inform
+ES2006d,C,1442.42,1443.6,1.18,ES2006d.C.dialog-act.s9553330.265,B,C,0.6,0.0,False,False,0.0,[],False, and we'll all get bonuses.,5,task,Inform
+ES2006d,B,1444.2,1448.896,4.696,ES2006d.B.dialog-act.s9553330.233,C,C,-1.809,0.6,True,True,1.809,['ES2006d.C.dialog-act.s9553330.266'],True," Yeah, well we could admit to the single curve, couldn't we?",11,task,Suggest
+ES2006d,A,1447.085,1448.496,1.411,ES2006d.A.dialog-act.s9553330.175,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1447.087,1452.59,5.503,ES2006d.C.dialog-act.s9553330.266,C,B,3.41,-1.809,True,False,0.0,[],False, Or or that we have to have some sort of special colour.,12,task,Inform
+ES2006d,B,1453.94,1456.055,2.115,ES2006d.B.dialog-act.s9553330.234,,,,,,,,,False," Yeah, but",2,minor,Fragment
+ES2006d,C,1455.3,1456.0,0.7,ES2006d.C.dialog-act.s9553330.267,,,,,,,,,False, So that's alright.,3,task,Assess
+ES2006d,C,1456.0,1457.44,1.44,ES2006d.C.dialog-act.s9553330.268,C,C,0.0,3.41,False,False,0.0,[],False, We we'll leave it at that,6,task,Inform
+ES2006d,B,1457.44,1457.87,0.43,ES2006d.B.dialog-act.s9553330.235,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1457.44,1459.94,2.5,ES2006d.C.dialog-act.s9553330.269,C,C,0.0,0.0,False,False,0.0,[],False, and then I'll take I can send it back to management,11,other,Offer
+ES2006d,C,1459.94,1461.99,2.05,ES2006d.C.dialog-act.s9553330.270,C,C,0.0,0.0,False,False,0.0,[],False," and say we weren't quite sure about the colour,",9,other,Offer
+ES2006d,C,1461.99,1465.1,3.11,ES2006d.C.dialog-act.s9553330.271,C,C,4.24,0.0,False,False,0.0,[],False," if that costs extra then we've still got some space for it,",12,task,Inform
+ES2006d,A,1464.036,1464.92,0.884,ES2006d.A.dialog-act.s9553330.176,,,,,,,,,False," We have, yeah.",3,task,Assess
+ES2006d,D,1464.63,1464.98,0.35,ES2006d.D.dialog-act.s9553330.184,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1465.1,1466.21,1.11,ES2006d.C.dialog-act.s9553330.272,,,,,,,,,False, yeah.,1,minor,Backchannel
+ES2006d,B,1465.17,1465.57,0.4,ES2006d.B.dialog-act.s9553330.236,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1466.21,1468.09,1.88,ES2006d.C.dialog-act.s9553330.273,,,,,,,,,False, Excellent.,1,task,Assess
+ES2006d,C,1468.09,1469.34,1.25,ES2006d.C.dialog-act.s9553330.274,,,,,,,,,False, Alright.,1,minor,Stall
+ES2006d,C,1469.34,1476.01,6.67,ES2006d.C.dialog-act.s9553330.275,B,C,0.23,4.24,False,False,0.0,[],False," So did we lose um on our evaluation criteria, as a result of doing that?",15,elicit,Elicit-Inform
+ES2006d,B,1475.25,1476.24,0.99,ES2006d.B.dialog-act.s9553330.237,,,,,,,,,False, No.,1,task,Inform
+ES2006d,B,1476.24,1477.18,0.94,ES2006d.B.dialog-act.s9553330.238,A,C,1.17,0.23,True,False,0.0,[],True," No, I don't think so.",5,task,Inform
+ES2006d,A,1476.45,1478.35,1.9,ES2006d.A.dialog-act.s9553330.177,,,,,,,,,False," Not really, no.",3,task,Inform
+ES2006d,A,1478.35,1479.71,1.36,ES2006d.A.dialog-act.s9553330.178,A,B,0.0,1.17,True,False,0.0,[],True," Because we keep all the features,",6,task,Inform
+ES2006d,A,1479.71,1481.12,1.41,ES2006d.A.dialog-act.s9553330.179,A,A,0.0,0.0,False,False,0.0,[],False," we keep voice recognition,",4,task,Inform
+ES2006d,A,1481.12,1483.16,2.04,ES2006d.A.dialog-act.s9553330.180,A,A,0.13,0.0,False,False,0.0,[],False, we keep L_C_D_ display.,4,task,Inform
+ES2006d,C,1481.83,1482.02,0.19,ES2006d.C.dialog-act.s9553330.276,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2006d,B,1482.95,1483.42,0.47,ES2006d.B.dialog-act.s9553330.239,,,,,,,,,False, Yeah.,1,minor,Stall
+ES2006d,A,1483.16,1483.29,0.13,ES2006d.A.dialog-act.s9553330.181,,,,,,,,,False, We,1,minor,Fragment
+ES2006d,C,1483.21,1483.68,0.47,ES2006d.C.dialog-act.s9553330.277,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,1483.29,1486.56,3.27,ES2006d.A.dialog-act.s9553330.182,B,A,-1.63,0.13,False,True,1.63,['ES2006d.B.dialog-act.s9553330.240'],False, instead of having scrolling we we just push the buttons.,10,task,Inform
+ES2006d,B,1484.93,1487.92,2.99,ES2006d.B.dialog-act.s9553330.240,B,A,0.0,-1.63,True,False,0.0,[],False," We just got rid of a gimmick that was never anyway,",11,task,Inform
+ES2006d,C,1486.52,1486.89,0.37,ES2006d.C.dialog-act.s9553330.278,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,1486.56,1488.41,1.85,ES2006d.A.dialog-act.s9553330.184,,,,,,,,,False, Um yeah.,2,minor,Backchannel
+ES2006d,B,1487.92,1491.79,3.87,ES2006d.B.dialog-act.s9553330.241,B,B,0.0,0.0,False,False,0.0,[],False, and the scroll wheel is I mean essentially the two buttons that was,13,task,Inform
+ES2006d,B,1491.79,1493.33,1.54,ES2006d.B.dialog-act.s9553330.242,A,B,1.747,0.0,False,False,0.0,[],False, it's not a great difference I don't think.,8,task,Assess
+ES2006d,C,1492.92,1494.94,2.02,ES2006d.C.dialog-act.s9553330.280,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,1493.05,1493.33,0.28,ES2006d.A.dialog-act.s9553330.185,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1494.94,1495.62,0.68,ES2006d.C.dialog-act.s9553330.281,,,,,,,,,False, Alright then.,2,minor,Stall
+ES2006d,A,1495.077,1497.07,1.993,ES2006d.A.dialog-act.s9553330.186,D,B,0.626,1.747,True,False,0.0,[],True, But we lose the locator.,5,task,Inform
+ES2006d,D,1497.696,1501.51,3.814,ES2006d.D.dialog-act.s9553330.185,C,A,-3.35,0.626,True,True,0.94,"['ES2006d.C.dialog-act.s9553330.282', 'ES2006d.A.dialog-act.s9553330.187']",True, Well we're going to have a beeping thing.,8,task,Inform
+ES2006d,B,1497.97,1498.47,0.5,ES2006d.B.dialog-act.s9553330.243,,,,,,,,,False, Really?,1,other,Comment-About-Understanding
+ES2006d,C,1498.16,1499.1,0.94,ES2006d.C.dialog-act.s9553330.282,A,D,1.64,-3.35,True,False,0.0,[],False, We're gonna have a beep.,5,task,Inform
+ES2006d,A,1500.74,1502.29,1.55,ES2006d.A.dialog-act.s9553330.187,D,C,-0.78,1.64,True,True,0.78,['ES2006d.D.dialog-act.s9553330.186'],True," So instead of speaker,.",4,elicit,Elicit-Inform
+ES2006d,D,1501.51,1505.12,3.61,ES2006d.D.dialog-act.s9553330.186,D,A,0.0,-0.78,True,False,0.0,[],False," But yeah, it's it's not like sample speaker, but it will just beep,",13,task,Inform
+ES2006d,C,1501.91,1502.38,0.47,ES2006d.C.dialog-act.s9553330.283,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,1505.12,1506.48,1.36,ES2006d.D.dialog-act.s9553330.187,B,D,4.16,0.0,False,False,0.0,[],False, so we still have the locate.,6,task,Inform
+ES2006d,C,1506.56,1507.18,0.62,ES2006d.C.dialog-act.s9553330.284,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,1507.49,1509.026,1.536,ES2006d.A.dialog-act.s9553330.188,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+ES2006d,B,1508.35,1508.54,0.19,ES2006d.B.dialog-act.s9553330.244,,,,,,,,,False, Cool.,1,minor,Backchannel
+ES2006d,B,1510.64,1512.39,1.75,ES2006d.B.dialog-act.s9553330.245,B,D,0.0,4.16,True,False,0.0,[],True, That's not a very exciting colour.,6,task,Assess
+ES2006d,B,1512.39,1516.125,3.735,ES2006d.B.dialog-act.s9553330.246,D,B,-0.115,0.0,False,True,0.115,['ES2006d.D.dialog-act.s9553330.189'],False, I think you should make it more vegetable-like.,8,task,Suggest
+ES2006d,A,1514.4,1515.168,0.768,ES2006d.A.dialog-act.s9553330.183,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1514.688,1515.92,1.232,ES2006d.C.dialog-act.s9553330.285,,,,,,,,,False, Tha,1,minor,Fragment
+ES2006d,D,1515.43,1516.01,0.58,ES2006d.D.dialog-act.s9553330.188,,,,,,,,,False," Which colour,",2,elicit,Elicit-Inform
+ES2006d,D,1516.01,1518.368,2.358,ES2006d.D.dialog-act.s9553330.189,B,B,0.162,-0.115,True,False,0.0,[],False, the the colour of the phone or the colour of the,11,elicit,Elicit-Inform
+ES2006d,A,1517.164,1517.736,0.572,ES2006d.A.dialog-act.s9553330.189,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,1518.53,1519.96,1.43,ES2006d.B.dialog-act.s9553330.247,D,D,1.16,0.162,True,False,0.0,[],True, Oh the the beeper thing.,5,task,Inform
+ES2006d,C,1520.304,1520.967,0.663,ES2006d.C.dialog-act.s9553330.279,,,,,,,,,False,.,0,minor,Fragment
+ES2006d,D,1521.12,1522.53,1.41,ES2006d.D.dialog-act.s9553330.190,D,B,0.0,1.16,True,False,0.0,[],True, But it can be yellow as well.,7,task,Inform
+ES2006d,B,1521.17,1521.609,0.439,ES2006d.B.dialog-act.s9553330.248,,,,,,,,,False, It,1,minor,Fragment
+ES2006d,D,1522.53,1526.19,3.66,ES2006d.D.dialog-act.s9553330.191,C,D,-0.78,0.0,False,True,0.78,['ES2006d.C.dialog-act.s9553330.286'],False, It can come in the same colour as the the case.,11,task,Inform
+ES2006d,C,1525.41,1529.57,4.16,ES2006d.C.dialog-act.s9553330.286,B,D,-0.96,-0.78,True,True,0.96,['ES2006d.B.dialog-act.s9553330.250'],False, 'Cause we we won't have run out of our pot of Play-Doh.,12,task,Inform
+ES2006d,A,1526.956,1527.728,0.772,ES2006d.A.dialog-act.s9553330.190,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,1528.61,1530.15,1.54,ES2006d.B.dialog-act.s9553330.250,C,C,0.376,-0.96,True,False,0.0,[],False," Yeah, I think Jen wants it to vibrate.",8,other,Be-Positive
+ES2006d,D,1530.395,1531.425,1.03,ES2006d.D.dialog-act.s9553330.192,,,,,,,,,False,,0,minor,Fragment
+ES2006d,A,1530.467,1531.264,0.797,ES2006d.A.dialog-act.s9553330.191,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1530.526,1535.87,5.344,ES2006d.C.dialog-act.s9553330.287,B,B,-4.18,0.376,True,True,2.33,['ES2006d.B.dialog-act.s9553330.251'],True," Yeah, I know I know, my pen vibrates.",8,task,Inform
+ES2006d,B,1531.69,1534.02,2.33,ES2006d.B.dialog-act.s9553330.251,C,C,1.85,-4.18,True,False,0.0,[],False," You know, your pen vibrates?",5,elicit,Elicit-Inform
+ES2006d,A,1533.291,1534.654,1.363,ES2006d.A.dialog-act.s9553330.192,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,1534.02,1535.664,1.644,ES2006d.B.dialog-act.s9553330.252,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1535.87,1538.12,2.25,ES2006d.C.dialog-act.s9553330.288,C,B,6.28,1.85,True,False,0.0,[],True, But only for a very short time.,7,task,Inform
+ES2006d,C,1538.12,1538.88,0.76,ES2006d.C.dialog-act.s9553330.289,,,,,,,,,False, Um,1,minor,Stall
+ES2006d,C,1540.17,1541.25,1.08,ES2006d.C.dialog-act.s9553330.290,,,,,,,,,False, okay.,1,minor,Stall
+ES2006d,C,1542.87,1543.32,0.45,ES2006d.C.dialog-act.s9553330.291,,,,,,,,,False, So,1,minor,Stall
+ES2006d,C,1544.4,1549.79,5.39,ES2006d.C.dialog-act.s9553330.292,C,C,3.85,6.28,False,False,0.0,[],False, looks like we've designed a banana.,6,task,Inform
+ES2006d,B,1548.929,1551.232,2.303,ES2006d.B.dialog-act.s9553330.249,,,,,,,,,False,,0,minor,Fragment
+ES2006d,A,1549.067,1551.301,2.234,ES2006d.A.dialog-act.s9553330.193,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,1549.15,1552.496,3.346,ES2006d.D.dialog-act.s9553330.193,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1549.79,1552.41,2.62,ES2006d.C.dialog-act.s9553330.293,,,,,,,,,False," Well done, team.",3,task,Assess
+ES2006d,C,1552.41,1553.64,1.23,ES2006d.C.dialog-act.s9553330.294,,,,,,,,,False, Um we need,3,minor,Fragment
+ES2006d,C,1553.64,1556.68,3.04,ES2006d.C.dialog-act.s9553330.295,C,C,0.0,3.85,False,False,0.0,[],False," we've just got about ten minutes or so left of the meeting,",12,task,Inform
+ES2006d,C,1556.68,1563.57,6.89,ES2006d.C.dialog-act.s9553330.296,C,C,0.0,0.0,False,False,0.0,[],False," so it would be good if we could just have a little talk about the project itself and how it went,",21,task,Suggest
+ES2006d,C,1563.57,1569.71,6.14,ES2006d.C.dialog-act.s9553330.297,D,C,5.93,0.0,False,False,0.0,[],False, um so that we can feed back to the management for next time they're designing a product.,17,task,Inform
+ES2006d,A,1571.59,1574.115,2.525,ES2006d.A.dialog-act.s9553330.195,,,,,,,,,False, I think it mm,4,minor,Fragment
+ES2006d,B,1571.81,1572.18,0.37,ES2006d.B.dialog-act.s9553330.253,,,,,,,,,False, Cool.,1,task,Assess
+ES2006d,C,1572.95,1573.38,0.43,ES2006d.C.dialog-act.s9553330.298,,,,,,,,,False, Feedback?,1,elicit,Elicit-Assessment
+ES2006d,C,1573.38,1573.94,0.56,ES2006d.C.dialog-act.s9553330.299,,,,,,,,,False, Ideas?,1,elicit,Elicit-Offer-Or-Suggestion
+ES2006d,D,1574.7,1575.64,0.94,ES2006d.D.dialog-act.s9553330.194,,,,,,,,,False," Yeah mm,",2,task,Inform
+ES2006d,D,1575.64,1580.21,4.57,ES2006d.D.dialog-act.s9553330.195,D,C,0.0,5.93,True,False,0.0,[],True," as far as creativity is concerned, yeah I think there was there was room for creativity.",16,task,Inform
+ES2006d,D,1580.21,1586.39,6.18,ES2006d.D.dialog-act.s9553330.196,A,D,0.89,0.0,False,False,0.0,[],False, The only the only problem being that at the end we had to cut some things down because of the the budget we had.,24,task,Inform
+ES2006d,C,1584.32,1584.67,0.35,ES2006d.C.dialog-act.s9553330.300,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,A,1585.57,1586.066,0.496,ES2006d.A.dialog-act.s9553330.194,,,,,,,,,False,,0,minor,Fragment
+ES2006d,A,1587.28,1594.33,7.05,ES2006d.A.dialog-act.s9553330.196,A,D,0.0,0.89,True,False,0.0,[],True, I think uh n one thing that was lacking uh was that we did not know what the various things cost to begin with.,24,task,Inform
+ES2006d,C,1593.78,1594.56,0.78,ES2006d.C.dialog-act.s9553330.301,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,B,1594.02,1594.63,0.61,ES2006d.B.dialog-act.s9553330.254,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,A,1594.33,1597.67,3.34,ES2006d.A.dialog-act.s9553330.197,A,A,0.0,0.0,False,False,0.0,[],False, Um we kap kept a adding things randomly.,8,task,Inform
+ES2006d,C,1597.4,1597.62,0.22,ES2006d.C.dialog-act.s9553330.302,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,1597.67,1599.2,1.53,ES2006d.A.dialog-act.s9553330.198,B,A,-1.15,0.0,False,True,1.15,['ES2006d.B.dialog-act.s9553330.255'],False," So, had we known",4,task,Inform
+ES2006d,B,1598.05,1604.69,6.64,ES2006d.B.dialog-act.s9553330.255,A,A,0.14,-1.15,True,False,0.0,[],False," If we'd had that sheet at the beginning should've been like, okay, so we can have that lot, let's just throw it together and do what we can.",28,task,Inform
+ES2006d,A,1600.384,1603.29,2.906,ES2006d.A.dialog-act.s9553330.199,,,,,,,,,False," Yeah, that or not, yeah.",5,minor,Backchannel
+ES2006d,C,1602.1,1602.51,0.41,ES2006d.C.dialog-act.s9553330.303,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,D,1602.76,1604.19,1.43,ES2006d.D.dialog-act.s9553330.197,,,,,,,,,False," Yeah, yeah, yeah.",3,task,Assess
+ES2006d,A,1604.03,1604.83,0.8,ES2006d.A.dialog-act.s9553330.200,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,1604.83,1609.31,4.48,ES2006d.A.dialog-act.s9553330.201,C,B,3.35,0.14,True,False,0.0,[],True, So d all the random decisions at the end could have been prevented.,13,task,Inform
+ES2006d,B,1608.67,1609.13,0.46,ES2006d.B.dialog-act.s9553330.256,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,1611.3,1612.69,1.39,ES2006d.A.dialog-act.s9553330.202,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2006d,C,1612.66,1622.04,9.38,ES2006d.C.dialog-act.s9553330.304,B,A,-1.03,3.35,True,True,1.03,['ES2006d.B.dialog-act.s9553330.257'],True," But in terms of the process of um going and working individually and then coming back to a meeting, that that worked in terms of.",25,elicit,Elicit-Assessment
+ES2006d,A,1619.97,1621.29,1.32,ES2006d.A.dialog-act.s9553330.203,,,,,,,,,False," Yeah, mm.",2,task,Assess
+ES2006d,B,1621.01,1623.19,2.18,ES2006d.B.dialog-act.s9553330.257,B,C,0.0,-1.03,True,False,0.0,[],False," I think 'cause the meetings were so regular, you know.",10,task,Assess
+ES2006d,C,1623.12,1623.59,0.47,ES2006d.C.dialog-act.s9553330.305,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,B,1623.19,1624.91,1.72,ES2006d.B.dialog-act.s9553330.258,B,B,0.0,0.0,False,False,0.0,[],False," It wasn't like we were alone for very long,",9,task,Inform
+ES2006d,B,1624.91,1634.05,9.14,ES2006d.B.dialog-act.s9553330.259,B,B,0.0,0.0,False,False,0.0,[],False," so you didn't st go off and think, wouldn't it be great to have a vibrating remote control shaped like a banana,",22,task,Inform
+ES2006d,C,1629.05,1630.67,1.62,ES2006d.C.dialog-act.s9553330.306,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,A,1629.831,1631.908,2.077,ES2006d.A.dialog-act.s9553330.204,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,1630.144,1630.88,0.736,ES2006d.D.dialog-act.s9553330.198,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1630.67,1634.128,3.458,ES2006d.C.dialog-act.s9553330.307,,,,,,,,,False, Banana.,1,task,Inform
+ES2006d,A,1633.488,1634.112,0.624,ES2006d.A.dialog-act.s9553330.205,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,1634.05,1641.19,7.14,ES2006d.B.dialog-act.s9553330.260,D,B,3.66,0.0,False,False,0.0,[],False," and then, you know, come back three days later and Jen's going look, look, it vibrates and it looks like a banana.",22,task,Inform
+ES2006d,A,1635.456,1639.001,3.545,ES2006d.A.dialog-act.s9553330.206,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1636.048,1640.96,4.912,ES2006d.C.dialog-act.s9553330.308,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,1636.42,1640.432,4.012,ES2006d.D.dialog-act.s9553330.199,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,1641.19,1642.92,1.73,ES2006d.B.dialog-act.s9553330.261,,,,,,,,,False," Um yeah, so yeah.",4,minor,Backchannel
+ES2006d,D,1644.85,1647.89,3.04,ES2006d.D.dialog-act.s9553330.200,C,B,0.7,3.66,True,False,0.0,[],True," Yeah, the m the means were very very good, the means we used.",13,task,Assess
+ES2006d,C,1648.12,1648.59,0.47,ES2006d.C.dialog-act.s9553330.309,,,,,,,,,False," Mm-hmm,",1,minor,Backchannel
+ES2006d,C,1648.59,1652.34,3.75,ES2006d.C.dialog-act.s9553330.310,B,D,-0.02,0.7,True,True,0.02,['ES2006d.B.dialog-act.s9553330.262'],True, the whiteboard digital pens.,4,task,Inform
+ES2006d,D,1650.12,1652.368,2.248,ES2006d.D.dialog-act.s9553330.201,,,,,,,,,False, And the pens.,3,task,Inform
+ES2006d,B,1652.32,1653.61,1.29,ES2006d.B.dialog-act.s9553330.262,C,C,-1.27,-0.02,True,True,1.27,['ES2006d.C.dialog-act.s9553330.311'],False, Uh I like the pens.,5,task,Assess
+ES2006d,C,1652.34,1654.848,2.508,ES2006d.C.dialog-act.s9553330.311,B,B,-0.558,-1.27,True,True,0.558,['ES2006d.B.dialog-act.s9553330.264'],False, We like the pens.,4,task,Assess
+ES2006d,B,1653.61,1654.29,0.68,ES2006d.B.dialog-act.s9553330.263,,,,,,,,,False, I want one.,3,task,Inform
+ES2006d,B,1654.29,1656.94,2.65,ES2006d.B.dialog-act.s9553330.264,C,C,0.02,-0.558,True,False,0.0,[],False," That would just be so cool, to d do all your notes and s",14,task,Inform
+ES2006d,C,1656.76,1656.96,0.2,ES2006d.C.dialog-act.s9553330.312,,,,,,,,,False," Yeah,",1,task,Assess
+ES2006d,C,1656.96,1658.17,1.21,ES2006d.C.dialog-act.s9553330.313,C,B,0.0,0.02,True,False,0.0,[],True, you could take it to lectures,6,task,Suggest
+ES2006d,C,1658.17,1659.39,1.22,ES2006d.C.dialog-act.s9553330.314,C,C,0.0,0.0,False,False,0.0,[],False, and just write stuff down,5,task,Suggest
+ES2006d,A,1659.36,1661.27,1.91,ES2006d.A.dialog-act.s9553330.207,,,,,,,,,False," Yeah yeah yeah,",3,task,Assess
+ES2006d,C,1659.39,1661.94,2.55,ES2006d.C.dialog-act.s9553330.315,A,C,0.66,0.0,False,False,0.0,[],False, and have it printed out when you got back to the office.,12,task,Suggest
+ES2006d,D,1660.6,1661.45,0.85,ES2006d.D.dialog-act.s9553330.202,,,,,,,,,False," Yeah, yeah.",2,task,Assess
+ES2006d,A,1661.27,1662.6,1.33,ES2006d.A.dialog-act.s9553330.208,,,,,,,,,False, that's it's it's,3,minor,Fragment
+ES2006d,C,1661.94,1662.52,0.58,ES2006d.C.dialog-act.s9553330.316,,,,,,,,,False, They great?,2,minor,Fragment
+ES2006d,A,1662.6,1666.576,3.976,ES2006d.A.dialog-act.s9553330.209,C,C,-2.346,0.66,True,True,1.5,['ES2006d.C.dialog-act.s9553330.317'],True, I wonder what one of these costs.,7,elicit,Elicit-Inform
+ES2006d,C,1664.23,1665.73,1.5,ES2006d.C.dialog-act.s9553330.317,B,A,1.006,-2.346,True,False,0.0,[],False, Do you think they'd notice if one went?,8,elicit,Elicit-Inform
+ES2006d,D,1666.464,1667.655,1.191,ES2006d.D.dialog-act.s9553330.203,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,1666.736,1670.74,4.004,ES2006d.B.dialog-act.s9553330.265,B,C,0.0,1.006,True,False,0.0,[],True, I don't think you should say that was the recording.,10,task,Inform
+ES2006d,C,1670.1,1670.66,0.56,ES2006d.C.dialog-act.s9553330.318,,,,,,,,,False, Oh okay.,2,minor,Backchannel
+ES2006d,B,1670.74,1671.92,1.18,ES2006d.B.dialog-act.s9553330.266,B,B,0.0,0.0,False,False,0.0,[],False," Okay, cover up the microphone.",5,task,Suggest
+ES2006d,B,1671.92,1675.68,3.76,ES2006d.B.dialog-act.s9553330.267,C,B,0.09,0.0,False,False,0.0,[],False," Alright, let's take it.",4,other,Be-Positive
+ES2006d,C,1672.0,1675.12,3.12,ES2006d.C.dialog-act.s9553330.319,,,,,,,,,False, Yep. Shh.,2,minor,Backchannel
+ES2006d,A,1672.47,1673.873,1.403,ES2006d.A.dialog-act.s9553330.210,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,1673.36,1673.856,0.496,ES2006d.D.dialog-act.s9553330.204,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1675.12,1675.77,0.65,ES2006d.C.dialog-act.s9553330.320,,,,,,,,,False, Yep.,1,minor,Stall
+ES2006d,B,1675.68,1676.26,0.58,ES2006d.B.dialog-act.s9553330.268,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2006d,C,1675.77,1680.64,4.87,ES2006d.C.dialog-act.s9553330.321,C,B,0.0,0.09,True,False,0.0,[],True," But that worked well having having a whiteboard that we could draw on as well as having the PowerPoint,",19,task,Assess
+ES2006d,C,1680.64,1684.83,4.19,ES2006d.C.dialog-act.s9553330.322,C,C,0.0,0.0,False,False,0.0,[],False, 'cause the I find that the problem with PowerPoint often is that it's so static,15,task,Inform
+ES2006d,C,1684.83,1687.68,2.85,ES2006d.C.dialog-act.s9553330.323,B,C,-2.13,0.0,False,True,1.7,['ES2006d.B.dialog-act.s9553330.269'],False," and you can't change it once you're in there,",9,task,Inform
+ES2006d,B,1685.55,1687.25,1.7,ES2006d.B.dialog-act.s9553330.269,D,C,0.53,-2.13,True,False,0.0,[],False," It is a bit limiting, isn't it?",7,task,Assess
+ES2006d,D,1686.18,1686.58,0.4,ES2006d.D.dialog-act.s9553330.205,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,1686.45,1686.93,0.48,ES2006d.A.dialog-act.s9553330.211,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,1687.25,1687.64,0.39,ES2006d.B.dialog-act.s9553330.270,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1687.68,1688.13,0.45,ES2006d.C.dialog-act.s9553330.324,,,,,,,,,False, yep.,1,minor,Backchannel
+ES2006d,D,1687.78,1692.493,4.713,ES2006d.D.dialog-act.s9553330.206,B,B,0.327,0.53,True,False,0.0,[],True," Yeah, and and and this time also the time limits but actually preparing the",14,task,Inform
+ES2006d,B,1690.28,1691.0,0.72,ES2006d.B.dialog-act.s9553330.271,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,B,1692.82,1693.9,1.08,ES2006d.B.dialog-act.s9553330.272,B,D,0.0,0.327,True,False,0.0,[],True," The thing flew in,",4,task,Inform
+ES2006d,C,1692.85,1693.35,0.5,ES2006d.C.dialog-act.s9553330.325,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,B,1693.9,1696.19,2.29,ES2006d.B.dialog-act.s9553330.273,B,B,0.0,0.0,False,False,0.0,[],False," you didn't have the whole whooshing thing,",7,task,Inform
+ES2006d,D,1696.01,1696.78,0.77,ES2006d.D.dialog-act.s9553330.207,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,1696.19,1698.33,2.14,ES2006d.B.dialog-act.s9553330.274,C,B,0.22,0.0,False,False,0.0,[],False," 'cause there wasn't time for that, so yeah.",8,task,Inform
+ES2006d,C,1697.55,1698.55,1.0,ES2006d.C.dialog-act.s9553330.326,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1698.55,1701.76,3.21,ES2006d.C.dialog-act.s9553330.327,B,B,-1.82,0.22,True,True,1.82,['ES2006d.B.dialog-act.s9553330.275'],True," That's alright, that always irritates me anyway, yeah.",8,task,Assess
+ES2006d,B,1699.94,1701.85,1.91,ES2006d.B.dialog-act.s9553330.275,D,C,0.94,-1.82,True,False,0.0,[],False," Not that you can do that on the board, either.",10,task,Inform
+ES2006d,B,1701.85,1703.571,1.721,ES2006d.B.dialog-act.s9553330.276,,,,,,,,,False, We could make some little,5,minor,Fragment
+ES2006d,D,1702.79,1707.74,4.95,ES2006d.D.dialog-act.s9553330.208,B,B,-0.71,0.94,True,True,0.71,['ES2006d.B.dialog-act.s9553330.278'],True," But yeah, but I mean already just just preparing the slides before before the meeting, yeah.",16,task,Inform
+ES2006d,B,1706.29,1707.03,0.74,ES2006d.B.dialog-act.s9553330.277,,,,,,,,,False," Yeah, totally,",2,task,Assess
+ES2006d,B,1707.03,1708.96,1.93,ES2006d.B.dialog-act.s9553330.278,B,D,0.0,-0.71,True,False,0.0,[],False," I mean that was fairly tight anyway,",7,task,Inform
+ES2006d,C,1708.61,1709.01,0.4,ES2006d.C.dialog-act.s9553330.328,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2006d,B,1708.96,1712.68,3.72,ES2006d.B.dialog-act.s9553330.279,B,B,7.6,0.0,False,False,0.0,[],False, I mean especially with that last-minute alteration.,7,task,Inform
+ES2006d,D,1711.27,1712.32,1.05,ES2006d.D.dialog-act.s9553330.209,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,C,1711.48,1712.11,0.63,ES2006d.C.dialog-act.s9553330.329,,,,,,,,,False, Yeah.,1,task,Assess
+ES2006d,A,1712.18,1714.16,1.98,ES2006d.A.dialog-act.s9553330.212,,,,,,,,,False, Mm yeah.,2,task,Assess
+ES2006d,B,1712.68,1716.36,3.68,ES2006d.B.dialog-act.s9553330.281,,,,,,,,,False," back it, this is just had to be changed",9,minor,Fragment
+ES2006d,D,1713.44,1713.824,0.384,ES2006d.D.dialog-act.s9553330.210,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,1716.36,1718.57,2.21,ES2006d.B.dialog-act.s9553330.280,,,,,,,,,False,". And yeah, so cool.",4,minor,Stall
+ES2006d,C,1719.04,1719.46,0.42,ES2006d.C.dialog-act.s9553330.330,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,1720.28,1722.05,1.77,ES2006d.B.dialog-act.s9553330.282,C,B,1.67,7.6,False,False,0.0,[],False, Are we supposed to say nice things about Jen now?,10,elicit,Elicit-Inform
+ES2006d,C,1722.24,1723.72,1.48,ES2006d.C.dialog-act.s9553330.331,,,,,,,,,False, And presumably you don't,4,minor,Fragment
+ES2006d,A,1722.32,1723.584,1.264,ES2006d.A.dialog-act.s9553330.213,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1723.72,1725.53,1.81,ES2006d.C.dialog-act.s9553330.332,D,B,1.31,1.67,True,False,0.0,[],True, you can say nasty things as well.,7,task,Inform
+ES2006d,B,1724.88,1726.688,1.808,ES2006d.B.dialog-act.s9553330.283,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,1725.84,1726.84,1.0,ES2006d.D.dialog-act.s9553330.211,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,1726.84,1730.38,3.54,ES2006d.D.dialog-act.s9553330.212,C,C,-3.13,1.31,True,True,1.52,"['ES2006d.C.dialog-act.s9553330.334', 'ES2006d.B.dialog-act.s9553330.285']",True," I was I was satisfied with with the leadership, yeah.",10,task,Assess
+ES2006d,C,1727.25,1728.77,1.52,ES2006d.C.dialog-act.s9553330.334,B,D,1.23,-3.13,True,False,0.0,[],False, I have no stake in it.,6,task,Inform
+ES2006d,B,1728.8,1730.0,1.2,ES2006d.B.dialog-act.s9553330.284,,,,,,,,,False," Yeah, definitely.",2,task,Assess
+ES2006d,A,1729.88,1730.41,0.53,ES2006d.A.dialog-act.s9553330.215,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,1730.0,1733.15,3.15,ES2006d.B.dialog-act.s9553330.285,C,C,1.81,1.23,True,False,0.0,[],True," You weren't like a a dictating leader, so that was always good.",12,task,Assess
+ES2006d,C,1734.96,1735.73,0.77,ES2006d.C.dialog-act.s9553330.335,C,B,0.0,1.81,True,False,0.0,[],True," You have to say that,",5,task,Inform
+ES2006d,C,1735.73,1737.29,1.56,ES2006d.C.dialog-act.s9553330.336,C,C,0.0,0.0,False,False,0.0,[],False, 'cause I'm taking the notes.,5,task,Inform
+ES2006d,A,1737.04,1738.336,1.296,ES2006d.A.dialog-act.s9553330.214,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,1737.18,1737.51,0.33,ES2006d.D.dialog-act.s9553330.213,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,C,1737.29,1739.1,1.81,ES2006d.C.dialog-act.s9553330.337,B,C,-0.71,0.0,False,True,0.71,['ES2006d.B.dialog-act.s9553330.286'],False, I'll leave the room and you can have another go.,10,other,Offer
+ES2006d,B,1738.39,1739.26,0.87,ES2006d.B.dialog-act.s9553330.286,B,C,0.0,-0.71,True,False,0.0,[],False," I know you've got the pen,",6,task,Inform
+ES2006d,B,1739.26,1743.056,3.796,ES2006d.B.dialog-act.s9553330.287,C,B,-3.324,0.0,False,True,3.228,"['ES2006d.C.dialog-act.s9553330.338', 'ES2006d.D.dialog-act.s9553330.214']",False, you might attack me with it.,6,task,Inform
+ES2006d,C,1739.732,1742.96,3.228,ES2006d.C.dialog-act.s9553330.338,D,B,-1.16,-3.324,True,True,1.16,['ES2006d.D.dialog-act.s9553330.214'],False, Better than that than the banana.,6,task,Assess
+ES2006d,D,1741.8,1746.08,4.28,ES2006d.D.dialog-act.s9553330.214,C,C,-1.68,-1.16,True,True,1.62,"['ES2006d.C.dialog-act.s9553330.339', 'ES2006d.C.dialog-act.s9553330.340']",False," And then the teamwork I think I think it worked quite quite nicely, yeah.",14,task,Assess
+ES2006d,C,1744.4,1746.02,1.62,ES2006d.C.dialog-act.s9553330.339,C,D,0.0,-1.68,True,False,0.0,[],False, I think it worked quite well.,6,task,Assess
+ES2006d,A,1745.68,1746.17,0.49,ES2006d.A.dialog-act.s9553330.216,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,1745.73,1746.18,0.45,ES2006d.B.dialog-act.s9553330.288,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1746.02,1752.34,6.32,ES2006d.C.dialog-act.s9553330.340,A,C,0.67,0.0,False,False,0.0,[],False, Did anyone feel that they were getting sort of covered up and not being able to say their bit?,19,elicit,Elicit-Inform
+ES2006d,D,1751.76,1754.47,2.71,ES2006d.D.dialog-act.s9553330.215,,,,,,,,,False, To express them mm mm,5,minor,Fragment
+ES2006d,A,1753.01,1755.89,2.88,ES2006d.A.dialog-act.s9553330.217,A,C,0.0,0.67,True,False,0.0,[],True," Mm. I guess it was a fairly small group,",9,task,Inform
+ES2006d,D,1754.47,1755.22,0.75,ES2006d.D.dialog-act.s9553330.216,,,,,,,,,False, no.,1,task,Inform
+ES2006d,A,1755.89,1758.36,2.47,ES2006d.A.dialog-act.s9553330.218,C,A,14.08,0.0,False,False,0.0,[],False," so all of us got to express our opinions, yeah.",10,task,Inform
+ES2006d,C,1756.68,1757.13,0.45,ES2006d.C.dialog-act.s9553330.341,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,1759.18,1759.49,0.31,ES2006d.B.dialog-act.s9553330.289,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1762.331,1763.76,1.429,ES2006d.C.dialog-act.s9553330.333,,,,,,,,,False,.,0,minor,Fragment
+ES2006d,C,1769.92,1772.44,2.52,ES2006d.C.dialog-act.s9553330.342,,,,,,,,,False, New ideas found.,3,task,Inform
+ES2006d,C,1772.44,1774.49,2.05,ES2006d.C.dialog-act.s9553330.343,D,A,-1.89,14.08,True,True,1.89,['ES2006d.D.dialog-act.s9553330.217'],True, Not quite sure what about.,5,other,Comment-About-Understanding
+ES2006d,D,1772.6,1774.62,2.02,ES2006d.D.dialog-act.s9553330.217,D,C,0.0,-1.89,True,False,0.0,[],False," Well it's it's it's pretty new,",6,task,Inform
+ES2006d,C,1774.49,1775.834,1.344,ES2006d.C.dialog-act.s9553330.345,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,1774.62,1780.624,6.004,ES2006d.D.dialog-act.s9553330.218,B,D,0.436,0.0,False,False,0.0,[],False," pretty novel solution for a for a remote control really, all this flipping open thing and",16,task,Inform
+ES2006d,A,1774.77,1775.44,0.67,ES2006d.A.dialog-act.s9553330.219,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2006d,C,1778.505,1780.1,1.595,ES2006d.C.dialog-act.s9553330.346,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,1780.58,1781.06,0.48,ES2006d.B.dialog-act.s9553330.290,,,,,,,,,False," I don't know,",3,task,Assess
+ES2006d,B,1781.06,1783.09,2.03,ES2006d.B.dialog-act.s9553330.291,D,D,-0.41,0.436,True,True,0.41,['ES2006d.D.dialog-act.s9553330.219'],True," I don't go shopping for remote controls that often,",9,task,Inform
+ES2006d,D,1782.68,1783.93,1.25,ES2006d.D.dialog-act.s9553330.219,B,B,-0.84,-0.41,True,True,0.84,['ES2006d.B.dialog-act.s9553330.292'],False," Yeah, neither neither do I,",5,task,Inform
+ES2006d,B,1783.09,1784.77,1.68,ES2006d.B.dialog-act.s9553330.292,D,D,-0.84,-0.84,True,True,0.84,['ES2006d.D.dialog-act.s9553330.220'],False, maybe somebody's already though of it.,6,task,Inform
+ES2006d,D,1783.93,1784.93,1.0,ES2006d.D.dialog-act.s9553330.220,D,B,0.0,-0.84,True,False,0.0,[],False, but I've never seen anything,5,task,Inform
+ES2006d,C,1784.175,1785.329,1.154,ES2006d.C.dialog-act.s9553330.347,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,1784.93,1788.8,3.87,ES2006d.D.dialog-act.s9553330.221,B,D,2.73,0.0,False,False,0.0,[],False," and and none of my examples were was was like this, actually, so.",13,task,Inform
+ES2006d,C,1788.06,1788.58,0.52,ES2006d.C.dialog-act.s9553330.348,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,B,1788.31,1788.7,0.39,ES2006d.B.dialog-act.s9553330.293,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,1788.55,1789.15,0.6,ES2006d.A.dialog-act.s9553330.220,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2006d,B,1790.39,1790.66,0.27,ES2006d.B.dialog-act.s9553330.294,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,B,1791.53,1793.96,2.43,ES2006d.B.dialog-act.s9553330.295,B,D,0.0,2.73,True,False,0.0,[],True, I'll be looking out next time I need to write an essay.,12,task,Inform
+ES2006d,C,1792.79,1794.039,1.249,ES2006d.C.dialog-act.s9553330.349,,,,,,,,,False," Yeah, that's right.",3,task,Assess
+ES2006d,B,1793.96,1797.02,3.06,ES2006d.B.dialog-act.s9553330.296,D,B,-1.54,0.0,False,True,1.54,['ES2006d.D.dialog-act.s9553330.224'],False," That looks boring, I'll see if anyone's made a remote control.",11,other,Other
+ES2006d,A,1794.961,1796.307,1.346,ES2006d.A.dialog-act.s9553330.221,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,1795.48,1797.84,2.36,ES2006d.D.dialog-act.s9553330.224,D,B,1.46,-1.54,True,False,0.0,[],False, Yeah maybe w maybe we could have a patent on this one.,12,task,Suggest
+ES2006d,C,1795.661,1796.551,0.89,ES2006d.C.dialog-act.s9553330.350,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1797.936,1799.087,1.151,ES2006d.C.dialog-act.s9553330.351,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,1798.2,1799.52,1.32,ES2006d.B.dialog-act.s9553330.298,,,,,,,,,False," Yeah, yeah.",2,task,Assess
+ES2006d,A,1798.7,1800.752,2.052,ES2006d.A.dialog-act.s9553330.224,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,1799.3,1801.59,2.29,ES2006d.D.dialog-act.s9553330.225,B,D,-0.74,1.46,False,True,0.74,['ES2006d.B.dialog-act.s9553330.299'],False, Patent patent patent. Mm.,4,other,Other
+ES2006d,C,1800.73,1801.66,0.93,ES2006d.C.dialog-act.s9553330.352,,,,,,,,,False, Banana remote.,2,other,Other
+ES2006d,B,1800.85,1802.53,1.68,ES2006d.B.dialog-act.s9553330.299,B,D,0.0,-0.74,True,False,0.0,[],False," I think we'd like to think the ideas were new,",10,task,Inform
+ES2006d,B,1802.53,1804.272,1.742,ES2006d.B.dialog-act.s9553330.300,C,B,1.598,0.0,False,False,0.0,[],False, but we've got no way of finding out.,8,task,Inform
+ES2006d,C,1804.37,1805.87,1.5,ES2006d.C.dialog-act.s9553330.353,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,1805.08,1805.38,0.3,ES2006d.D.dialog-act.s9553330.226,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,C,1805.87,1811.05,5.18,ES2006d.C.dialog-act.s9553330.354,B,B,2.053,1.598,True,False,0.0,[],True, Or you can always go to Google and type in banana remote control.,13,task,Suggest
+ES2006d,A,1809.424,1813.776,4.352,ES2006d.A.dialog-act.s9553330.222,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,1810.672,1812.608,1.936,ES2006d.D.dialog-act.s9553330.222,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,1810.98,1812.323,1.343,ES2006d.B.dialog-act.s9553330.301,,,,,,,,,False, That vibrates,2,other,Be-Positive
+ES2006d,C,1811.05,1813.78,2.73,ES2006d.C.dialog-act.s9553330.356,,,,,,,,,False, Flip. Vibrate,2,other,Other
+ES2006d,B,1813.103,1820.99,7.887,ES2006d.B.dialog-act.s9553330.302,C,C,-3.454,2.053,True,True,3.154,['ES2006d.C.dialog-act.s9553330.357'],True," Yeah, but that would just come up with like other things really wouldn't it.",14,task,Inform
+ES2006d,C,1813.78,1815.41,1.63,ES2006d.C.dialog-act.s9553330.355,,,,,,,,,False,. And uh yeah.,3,minor,Fragment
+ES2006d,C,1817.536,1820.69,3.154,ES2006d.C.dialog-act.s9553330.357,C,B,6.34,-3.454,True,False,0.0,[],False, Nothing that you really want.,5,task,Inform
+ES2006d,A,1818.56,1820.56,2.0,ES2006d.A.dialog-act.s9553330.223,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,1818.976,1821.171,2.195,ES2006d.D.dialog-act.s9553330.223,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1820.69,1822.76,2.07,ES2006d.C.dialog-act.s9553330.358,,,,,,,,,False, True. Yeah.,2,task,Assess
+ES2006d,B,1820.99,1821.385,0.395,ES2006d.B.dialog-act.s9553330.297,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1824.481,1827.03,2.549,ES2006d.C.dialog-act.s9553330.359,,,,,,,,,False," Okay. So,",2,minor,Stall
+ES2006d,C,1827.03,1829.37,2.34,ES2006d.C.dialog-act.s9553330.360,C,C,1.72,6.34,False,False,0.0,[],False," costs are within budget,",4,task,Inform
+ES2006d,D,1828.77,1830.161,1.391,ES2006d.D.dialog-act.s9553330.227,,,,,,,,,False, Yes.,1,minor,Backchannel
+ES2006d,B,1829.0,1829.66,0.66,ES2006d.B.dialog-act.s9553330.303,,,,,,,,,False, Yes.,1,task,Assess
+ES2006d,C,1829.37,1831.09,1.72,ES2006d.C.dialog-act.s9553330.361,,,,,,,,,False," well within budget,",3,task,Inform
+ES2006d,C,1831.09,1832.76,1.67,ES2006d.C.dialog-act.s9553330.362,C,C,0.0,1.72,False,False,0.0,[],False, including a little what have we got?,7,task,Inform
+ES2006d,C,1832.76,1835.91,3.15,ES2006d.C.dialog-act.s9553330.363,C,C,1.63,0.0,False,False,0.0,[],False, One Euro left over for bits that we didn't foresee.,10,task,Inform
+ES2006d,C,1837.54,1841.65,4.11,ES2006d.C.dialog-act.s9553330.364,C,C,0.0,1.63,False,False,0.0,[],False, Um we've evaluated the project.,5,task,Inform
+ES2006d,D,1839.71,1840.33,0.62,ES2006d.D.dialog-act.s9553330.228,,,,,,,,,False, Yes.,1,task,Assess
+ES2006d,C,1841.65,1842.78,1.13,ES2006d.C.dialog-act.s9553330.365,C,C,0.0,0.0,False,False,0.0,[],False, You've got the scores.,4,task,Inform
+ES2006d,B,1841.66,1842.89,1.23,ES2006d.B.dialog-act.s9553330.304,,,,,,,,,False, And it's fabulous.,3,task,Inform
+ES2006d,C,1842.78,1845.52,2.74,ES2006d.C.dialog-act.s9553330.366,B,C,-0.58,0.0,False,True,0.58,['ES2006d.B.dialog-act.s9553330.305'],False, Can you put that in the project documents file?,9,elicit,Elicit-Offer-Or-Suggestion
+ES2006d,B,1844.94,1846.86,1.92,ES2006d.B.dialog-act.s9553330.305,C,C,-1.34,-0.58,True,True,1.34,['ES2006d.C.dialog-act.s9553330.367'],False, It's in the project documents.,5,task,Inform
+ES2006d,C,1845.52,1847.66,2.14,ES2006d.C.dialog-act.s9553330.367,C,B,0.0,-1.34,True,False,0.0,[],False, It's in there already.,4,task,Inform
+ES2006d,C,1847.66,1852.77,5.11,ES2006d.C.dialog-act.s9553330.368,C,C,0.0,0.0,False,False,0.0,[],False, And the process wheel didn't really have any major problems with.,11,task,Inform
+ES2006d,C,1852.77,1856.44,3.67,ES2006d.C.dialog-act.s9553330.369,C,C,0.0,0.0,False,False,0.0,[],False," Were there any was there anything that you found difficult,",10,elicit,Elicit-Inform
+ES2006d,C,1856.44,1861.77,5.33,ES2006d.C.dialog-act.s9553330.370,D,C,-0.42,0.0,False,True,0.42,['ES2006d.D.dialog-act.s9553330.229'],False, or anything that didn't go as smoothly as you'd hope?,10,elicit,Elicit-Inform
+ES2006d,D,1861.35,1864.26,2.91,ES2006d.D.dialog-act.s9553330.229,D,C,0.0,-0.42,True,False,0.0,[],False, And my main difficulty was the the time pressure.,9,task,Inform
+ES2006d,C,1864.08,1864.36,0.28,ES2006d.C.dialog-act.s9553330.371,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,D,1864.26,1866.59,2.33,ES2006d.D.dialog-act.s9553330.230,B,D,-0.82,0.0,False,True,0.82,['ES2006d.B.dialog-act.s9553330.307'],False, Otherwise it's it's all fine.,5,task,Assess
+ES2006d,B,1864.77,1865.77,1.0,ES2006d.B.dialog-act.s9553330.306,,,,,,,,,False," Yeah, yeah,",2,task,Assess
+ES2006d,A,1865.2,1866.04,0.84,ES2006d.A.dialog-act.s9553330.225,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2006d,B,1865.77,1867.95,2.18,ES2006d.B.dialog-act.s9553330.307,A,D,1.451,-0.82,True,False,0.0,[],False, sometimes it's like a little bit rushed.,7,task,Assess
+ES2006d,A,1869.401,1871.59,2.189,ES2006d.A.dialog-act.s9553330.226,A,B,0.0,1.451,True,False,0.0,[],True," I thought that was good though,",6,task,Assess
+ES2006d,A,1871.59,1877.85,6.26,ES2006d.A.dialog-act.s9553330.227,A,A,0.0,0.0,False,False,0.0,[],False, because if you're given too much time then you got nothing to do with your time and um yeah.,19,task,Inform
+ES2006d,D,1873.12,1875.23,2.11,ES2006d.D.dialog-act.s9553330.231,,,,,,,,,False," Yeah, yeah, yeah.",3,minor,Backchannel
+ES2006d,A,1877.85,1881.394,3.544,ES2006d.A.dialog-act.s9553330.228,C,A,5.406,0.0,False,False,0.0,[],False, Although we could have made the R_s better had we had five more minute.,14,task,Suggest
+ES2006d,D,1879.91,1880.94,1.03,ES2006d.D.dialog-act.s9553330.232,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1879.959,1881.758,1.799,ES2006d.C.dialog-act.s9553330.372,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,1881.196,1882.192,0.996,ES2006d.B.dialog-act.s9553330.308,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,1883.708,1884.261,0.553,ES2006d.B.dialog-act.s9553330.309,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1885.41,1886.8,1.39,ES2006d.C.dialog-act.s9553330.373,,,,,,,,,False, Okay then.,2,minor,Stall
+ES2006d,C,1886.8,1890.64,3.84,ES2006d.C.dialog-act.s9553330.374,B,A,-1.0,5.406,True,True,1.0,['ES2006d.B.dialog-act.s9553330.311'],True, Um I think we're still well within our time.,9,task,Inform
+ES2006d,B,1889.32,1889.64,0.32,ES2006d.B.dialog-act.s9553330.310,,,,,,,,,False," Yeah,",1,task,Assess
+ES2006d,B,1889.64,1891.27,1.63,ES2006d.B.dialog-act.s9553330.311,C,C,-0.63,-1.0,True,True,0.63,['ES2006d.C.dialog-act.s9553330.375'],False, we've got like five minutes left.,6,task,Inform
+ES2006d,C,1890.64,1892.28,1.64,ES2006d.C.dialog-act.s9553330.375,C,B,0.0,-0.63,True,False,0.0,[],False," We've got about five minutes left,",6,task,Inform
+ES2006d,C,1892.28,1895.53,3.25,ES2006d.C.dialog-act.s9553330.376,C,C,0.0,0.0,False,False,0.0,[],False," but if we've finished, then we've finished.",7,task,Inform
+ES2006d,D,1895.44,1895.89,0.45,ES2006d.D.dialog-act.s9553330.233,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,C,1895.53,1897.34,1.81,ES2006d.C.dialog-act.s9553330.377,C,C,0.0,0.0,False,False,0.0,[],False, We're just too too efficient,5,task,Assess
+ES2006d,C,1897.34,1902.0,4.66,ES2006d.C.dialog-act.s9553330.378,C,C,1.61,0.0,False,False,0.0,[],False, and you should never drag a meeting on just because you have extra time.,14,task,Inform
+ES2006d,A,1897.349,1898.84,1.491,ES2006d.A.dialog-act.s9553330.229,,,,,,,,,False," We certainly are,",3,task,Assess
+ES2006d,B,1898.15,1898.52,0.37,ES2006d.B.dialog-act.s9553330.312,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2006d,A,1898.84,1903.39,4.55,ES2006d.A.dialog-act.s9553330.230,,,,,,,,,False, mm. Yeah.,2,minor,Backchannel
+ES2006d,D,1903.04,1903.68,0.64,ES2006d.D.dialog-act.s9553330.234,,,,,,,,,False, Yes.,1,minor,Backchannel
+ES2006d,C,1903.61,1907.0,3.39,ES2006d.C.dialog-act.s9553330.379,D,C,1.33,1.61,False,False,0.0,[],False, So I would say that's the end of that meeting.,10,task,Inform
+ES2006d,A,1907.264,1907.936,0.672,ES2006d.A.dialog-act.s9553330.231,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,1908.33,1909.96,1.63,ES2006d.D.dialog-act.s9553330.235,C,C,0.19,1.33,True,False,0.0,[],True," Yeah, it was a pleasure working with you.",8,other,Be-Positive
+ES2006d,C,1908.34,1910.15,1.81,ES2006d.C.dialog-act.s9553330.380,,,,,,,,,False," Thank you, team.",3,other,Be-Positive
+ES2006d,B,1908.46,1908.61,0.15,ES2006d.B.dialog-act.s9553330.315,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+ES2006d,A,1909.936,1912.937,3.001,ES2006d.A.dialog-act.s9553330.233,,,,,,,,,False," Yeah, same here.",3,other,Be-Positive
+ES2006d,C,1910.15,1915.375,5.225,ES2006d.C.dialog-act.s9553330.381,B,D,-0.735,0.19,True,True,0.735,['ES2006d.B.dialog-act.s9553330.316'],True, It was very productive day and,6,task,Assess
+ES2006d,B,1910.352,1912.75,2.398,ES2006d.B.dialog-act.s9553330.313,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,1914.64,1916.28,1.64,ES2006d.B.dialog-act.s9553330.316,A,C,2.82,-0.735,True,False,0.0,[],False, We could draw animals on the board again.,8,task,Suggest
+ES2006d,C,1916.736,1920.598,3.862,ES2006d.C.dialog-act.s9553330.382,,,,,,,,,False, Mm uh no.,3,task,Assess
+ES2006d,A,1917.81,1919.1,1.29,ES2006d.A.dialog-act.s9553330.234,,,,,,,,,False, Mm uh no.,3,task,Assess
+ES2006d,B,1918.556,1920.96,2.404,ES2006d.B.dialog-act.s9553330.314,,,,,,,,,False,,0,minor,Fragment
+ES2006d,A,1919.1,1920.32,1.22,ES2006d.A.dialog-act.s9553330.235,D,B,0.48,2.82,True,False,0.0,[],True, I don't think so.,4,task,Assess
+ES2006d,D,1920.8,1922.64,1.84,ES2006d.D.dialog-act.s9553330.236,B,A,-0.07,0.48,True,True,0.07,['ES2006d.B.dialog-act.s9553330.317'],True, You can make some animals.,5,task,Suggest
+ES2006d,B,1922.57,1924.14,1.57,ES2006d.B.dialog-act.s9553330.317,B,D,1.13,-0.07,True,False,0.0,[],False," I don't like Play-Doh, no.",5,task,Inform
+ES2006d,D,1922.64,1923.89,1.25,ES2006d.D.dialog-act.s9553330.237,,,,,,,,,False," Oh, you don't like anim",5,minor,Fragment
+ES2006d,A,1923.082,1923.861,0.779,ES2006d.A.dialog-act.s9553330.232,,,,,,,,,False,,0,minor,Fragment
+ES2006d,B,1924.14,1925.27,1.13,ES2006d.B.dialog-act.s9553330.318,,,,,,,,,False, It's just minging.,3,task,Assess
+ES2006d,B,1925.27,1926.27,1.0,ES2006d.B.dialog-act.s9553330.319,C,B,8.43,1.13,False,False,0.0,[],False, It smells so bad.,4,task,Assess
+ES2006d,D,1927.999,1929.13,1.131,ES2006d.D.dialog-act.s9553330.238,,,,,,,,,False, It doesn't?,2,task,Assess
+ES2006d,B,1929.06,1929.87,0.81,ES2006d.B.dialog-act.s9553330.321,,,,,,,,,False, It does.,2,task,Assess
+ES2006d,D,1929.13,1930.58,1.45,ES2006d.D.dialog-act.s9553330.239,,,,,,,,,False, Smells quite nice.,3,task,Assess
+ES2006d,D,1930.58,1931.6,1.02,ES2006d.D.dialog-act.s9553330.240,,,,,,,,,False, Smells very sweet.,3,task,Assess
+ES2006d,B,1933.76,1934.14,0.38,ES2006d.B.dialog-act.s9553330.322,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2006d,C,1934.7,1940.97,6.27,ES2006d.C.dialog-act.s9553330.384,A,B,-1.54,8.43,True,True,1.54,['ES2006d.A.dialog-act.s9553330.237'],True," Right, so we have to complete the final questionnaire and meeting summary when they send it.",16,task,Inform
+ES2006d,A,1939.43,1940.97,1.54,ES2006d.A.dialog-act.s9553330.237,C,C,0.0,-1.54,True,False,0.0,[],False, Was there a questionnaire already sent?,6,elicit,Elicit-Inform
+ES2006d,C,1940.97,1943.24,2.27,ES2006d.C.dialog-act.s9553330.385,B,A,-0.91,0.0,True,True,0.91,['ES2006d.B.dialog-act.s9553330.323'],False, I don't know if it's already sent or not.,9,task,Inform
+ES2006d,B,1942.33,1943.41,1.08,ES2006d.B.dialog-act.s9553330.323,B,C,1.31,-0.91,True,False,0.0,[],False," No, it hasn't been.",4,task,Inform
+ES2006d,C,1943.24,1945.428,2.188,ES2006d.C.dialog-act.s9553330.386,,,,,,,,,False, Um presumably I have to,5,minor,Fragment
+ES2006d,B,1944.72,1947.33,2.61,ES2006d.B.dialog-act.s9553330.324,C,B,0.23,1.31,False,False,0.0,[],False, Do we have to go back into the other room or can we stay in here now?,17,elicit,Elicit-Inform
+ES2006d,C,1947.56,1949.65,2.09,ES2006d.C.dialog-act.s9553330.387,B,B,0.34,0.23,True,False,0.0,[],True," I don't see why you can't stay here, really.",9,task,Inform
+ES2006d,B,1949.99,1953.68,3.69,ES2006d.B.dialog-act.s9553330.325,C,C,0.28,0.34,True,False,0.0,[],True," Okay, so the other way.",5,other,Other
+ES2006d,C,1951.04,1952.24,1.2,ES2006d.C.dialog-act.s9553330.383,,,,,,,,,False,,0,minor,Fragment
+ES2006d,C,1953.96,1955.16,1.2,ES2006d.C.dialog-act.s9553330.388,D,B,4.36,0.28,True,False,0.0,[],True, Did I save this one?,5,other,Other
+ES2006d,C,1955.16,1956.4,1.24,ES2006d.C.dialog-act.s9553330.389,,,,,,,,,False, Production costs.,2,other,Other
+ES2006d,D,1959.52,1961.07,1.55,ES2006d.D.dialog-act.s9553330.241,C,C,0.418,4.36,True,False,0.0,[],True, I made your animal for you.,6,other,Be-Positive
+ES2006d,C,1961.488,1965.97,4.482,ES2006d.C.dialog-act.s9553330.390,D,D,-0.47,0.418,True,True,0.47,['ES2006d.D.dialog-act.s9553330.242'],True, It was supposed to be pink.,6,other,Other
+ES2006d,B,1961.776,1964.306,2.53,ES2006d.B.dialog-act.s9553330.320,,,,,,,,,False,,0,minor,Fragment
+ES2006d,A,1961.808,1963.152,1.344,ES2006d.A.dialog-act.s9553330.236,,,,,,,,,False,,0,minor,Fragment
+ES2006d,D,1965.5,1967.32,1.82,ES2006d.D.dialog-act.s9553330.242,C,C,-1.35,-0.47,True,True,1.35,['ES2006d.C.dialog-act.s9553330.391'],False," Yeah, that's the one",4,other,Other
+ES2006d,C,1965.97,1967.33,1.36,ES2006d.C.dialog-act.s9553330.391,,D,,-1.35,True,False,0.0,[],False, But it was blue on the board.,7,other,Other

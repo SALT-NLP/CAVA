@@ -27,6 +27,7 @@ from transformers import (
 )
 
 from cats.config import TaskConfig, create_task_configs, format_prompt_template
+from cats.utils import get_jer_score
 
 
 # Global API call counters for rate limiting
@@ -516,7 +517,7 @@ def process_with_gemini(
 
         # Set up retry logic
         max_retries = 5
-        sleep_time = 1
+        sleep_time = 4
 
         # Try to generate content with retries for API rate limits
         for attempt in range(max_retries):
@@ -757,8 +758,11 @@ def process_record(
     # Check if prediction is correct
     correct = 0
     if expected_value and predicted_value:
-        if predicted_value.lower() == expected_value.lower():
-            correct = 1
+        if task_config.name=="speaker_diarization":
+            correct = 1 - get_jer_score(expected_value, predicted_value)
+        else:
+            if predicted_value.lower() == expected_value.lower():
+                correct = 1
 
     return record, correct, 1
 
@@ -851,7 +855,7 @@ def main():
     tasks = create_task_configs()
 
     # Define task to run
-    task_name = "transcription"  # Change this to run different tasks
+    task_name = "speaker_diarization"  # Change this to run different tasks
     task_config = tasks[task_name]
 
     # Model names to evaluate - now including API-based models
@@ -899,7 +903,6 @@ if __name__ == "__main__":
     parser.add_argument("--disable-cache", action="store_true", help="Disable caching for this run")
 
     args = parser.parse_args()
-
     # Handle cache-related arguments
     if args.clear_cache:
         response = input(

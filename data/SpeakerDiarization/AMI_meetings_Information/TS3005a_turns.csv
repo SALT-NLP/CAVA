@@ -1,0 +1,642 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+TS3005a,A,16.94,18.22,1.28,TS3005a.A.dialog-act.vkaraisk.1,,,,,,,,,False, Good morning.,2,other,Be-Positive
+TS3005a,A,51.89,52.11,0.22,TS3005a.A.dialog-act.vkaraisk.2,,,,,,,,,False, Sorry?,1,other,Be-Positive
+TS3005a,A,53.33,54.31,0.98,TS3005a.A.dialog-act.vkaraisk.3,,,,,,,,,False," Yeah,",1,task,Inform
+TS3005a,A,54.31,54.9,0.59,TS3005a.A.dialog-act.vkaraisk.4,,,,,,,,,False, busy job.,2,other,Other
+TS3005a,A,62.98,63.45,0.47,TS3005a.A.dialog-act.vkaraisk.5,,,,,,,,,False, Good morning.,2,other,Be-Positive
+TS3005a,A,71.47,74.99,3.52,TS3005a.A.dialog-act.vkaraisk.6,,,,,,,,,False," So Oh,",2,minor,Stall
+TS3005a,A,74.99,75.93,0.94,TS3005a.A.dialog-act.vkaraisk.7,,,,,,,,,False, good morning everyone.,3,other,Be-Positive
+TS3005a,C,76.01,76.49,0.48,TS3005a.C.dialog-act.vkaraisk.1,,,,,,,,,False, Good morning.,2,other,Be-Positive
+TS3005a,B,76.39,76.89,0.5,TS3005a.B.dialog-act.vkaraisk.1,,,,,,,,,False, Good morning.,2,other,Be-Positive
+TS3005a,A,77.33,81.1,3.77,TS3005a.A.dialog-act.vkaraisk.8,A,,1.8,,True,False,0.0,[],False, I'd uh like to welcome you to our first meeting.,10,other,Be-Positive
+TS3005a,A,82.9,85.0,2.1,TS3005a.A.dialog-act.vkaraisk.9,A,A,2.54,1.8,False,False,0.0,[],False, I've prepared a little presentation.,5,task,Inform
+TS3005a,A,86.77,87.54,0.77,TS3005a.A.dialog-act.vkaraisk.10,,,,,,,,,False, My name is,3,task,Inform
+TS3005a,A,87.54,91.83,4.29,TS3005a.A.dialog-act.vkaraisk.11,A,A,1.44,2.54,False,False,0.0,[],False," and uh I hope you will introduce yourself uh in a few minutes,",13,task,Suggest
+TS3005a,A,91.83,93.27,1.44,TS3005a.A.dialog-act.vkaraisk.12,,,,,,,,,False, as will I.,3,other,Offer
+TS3005a,A,93.27,96.42,3.15,TS3005a.A.dialog-act.vkaraisk.14,A,A,1.24,1.44,False,False,0.0,[],False," Um I'm the Project Manager of this project,",8,task,Inform
+TS3005a,A,96.42,97.66,1.24,TS3005a.A.dialog-act.vkaraisk.15,,,,,,,,,False," and uh, well",3,minor,Stall
+TS3005a,A,97.66,101.98,4.32,TS3005a.A.dialog-act.vkaraisk.16,A,A,0.0,1.24,False,False,0.0,[],False, I will tell you on what actually is the project.,10,other,Offer
+TS3005a,A,101.98,106.19,4.21,TS3005a.A.dialog-act.vkaraisk.17,A,A,0.0,0.0,False,False,0.0,[],False, This is uh the agenda for our first meeting.,9,task,Inform
+TS3005a,A,106.19,108.15,1.96,TS3005a.A.dialog-act.vkaraisk.19,A,A,0.7,0.0,False,False,0.0,[],False," Um this is the opening,",5,task,Inform
+TS3005a,A,108.15,108.85,0.7,TS3005a.A.dialog-act.vkaraisk.20,,,,,,,,,False, then we will get,4,minor,Fragment
+TS3005a,A,108.85,112.06,3.21,TS3005a.A.dialog-act.vkaraisk.21,A,A,0.0,0.7,False,False,0.0,[],False, I will hope we will get acquainted to each other.,10,task,Inform
+TS3005a,A,112.06,115.33,3.27,TS3005a.A.dialog-act.vkaraisk.22,A,A,0.0,0.0,False,False,0.0,[],False, We'll do a little tool training with these two things.,10,task,Inform
+TS3005a,A,115.33,116.96,1.63,TS3005a.A.dialog-act.vkaraisk.23,A,A,0.27,0.0,False,False,0.0,[],False, We'll take a look at the project plan.,8,task,Inform
+TS3005a,A,117.23,118.67,1.44,TS3005a.A.dialog-act.vkaraisk.25,A,A,0.0,0.27,False,False,0.0,[],False, Uh there will be time for discussion.,7,task,Inform
+TS3005a,A,118.67,119.8,1.13,TS3005a.A.dialog-act.vkaraisk.26,A,A,0.0,0.0,False,False,0.0,[],False, Actually we have to discuss,5,task,Inform
+TS3005a,A,119.8,122.62,2.82,TS3005a.A.dialog-act.vkaraisk.27,A,A,0.0,0.0,False,False,0.0,[],False, because we have to create a product.,7,task,Inform
+TS3005a,A,122.62,125.73,3.11,TS3005a.A.dialog-act.vkaraisk.28,A,A,0.0,0.0,False,False,0.0,[],False, And then we will close this session.,7,task,Inform
+TS3005a,A,125.73,130.8,5.07,TS3005a.A.dialog-act.vkaraisk.30,A,A,0.0,0.0,False,False,0.0,[],False, Um but first of all we I'd like to uh introduce you to this room.,15,other,Offer
+TS3005a,A,130.8,136.03,5.23,TS3005a.A.dialog-act.vkaraisk.32,A,A,0.0,0.0,False,False,0.0,[],False, Um as you probably have noticed there are little black uh fields on the table.,15,task,Inform
+TS3005a,A,136.03,138.86,2.83,TS3005a.A.dialog-act.vkaraisk.34,A,A,0.0,0.0,False,False,0.0,[],False, Um you have to put your laptop exactly in that field,11,task,Inform
+TS3005a,A,138.86,142.19,3.33,TS3005a.A.dialog-act.vkaraisk.35,A,A,0.0,0.0,False,False,0.0,[],False, so the little cameras can see your face.,8,task,Inform
+TS3005a,A,142.19,143.32,1.13,TS3005a.A.dialog-act.vkaraisk.37,A,A,1.14,0.0,False,False,0.0,[],False, Um there are cameras,4,task,Inform
+TS3005a,C,142.623,144.228,1.605,TS3005a.C.dialog-act.vkaraisk.2,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,144.46,146.72,2.26,TS3005a.A.dialog-act.vkaraisk.38,A,A,0.0,1.14,False,False,0.0,[],False," everywhere around the room especially here for your face, of course,",11,task,Inform
+TS3005a,A,146.72,148.2,1.48,TS3005a.A.dialog-act.vkaraisk.39,A,A,0.0,0.0,False,False,0.0,[],False," and this isn't a pie,",5,other,Be-Positive
+TS3005a,A,148.2,149.78,1.58,TS3005a.A.dialog-act.vkaraisk.40,A,A,0.0,0.0,False,False,0.0,[],False, it's a a set of microphones,6,task,Inform
+TS3005a,C,148.428,149.314,0.886,TS3005a.C.dialog-act.vkaraisk.3,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,149.78,152.6,2.82,TS3005a.A.dialog-act.vkaraisk.41,A,A,0.0,0.0,False,False,0.0,[],False, and there are microphones here also.,6,task,Inform
+TS3005a,A,152.6,154.16,1.56,TS3005a.A.dialog-act.vkaraisk.42,A,A,1.24,0.0,False,False,0.0,[],False, But please uh don't be afraid of them.,8,other,Be-Positive
+TS3005a,B,154.224,154.64,0.416,TS3005a.B.dialog-act.vkaraisk.2,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,155.4,156.91,1.51,TS3005a.A.dialog-act.vkaraisk.43,A,A,1.75,1.24,False,False,0.0,[],False, They won't hurt you.,4,other,Be-Positive
+TS3005a,C,156.482,157.318,0.836,TS3005a.C.dialog-act.vkaraisk.4,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,156.81,157.58,0.77,TS3005a.B.dialog-act.vkaraisk.3,,,,,,,,,False, Well,1,minor,Fragment
+TS3005a,A,156.91,158.66,1.75,TS3005a.A.dialog-act.vkaraisk.44,,,,,,,,,False, Um well uh,3,minor,Stall
+TS3005a,A,158.66,160.17,1.51,TS3005a.A.dialog-act.vkaraisk.45,A,A,0.0,1.75,False,False,0.0,[],False, I said I'm the Project Manager,6,task,Inform
+TS3005a,A,160.17,163.85,3.68,TS3005a.A.dialog-act.vkaraisk.46,A,A,0.0,0.0,False,False,0.0,[],False, and uh I'm hoping uh for a good project,9,other,Other
+TS3005a,A,163.85,169.91,6.06,TS3005a.A.dialog-act.vkaraisk.47,A,A,0.0,0.0,False,False,0.0,[],False, and uh I'd like to hear uh who you are and what your functions are uh on this project.,19,task,Suggest
+TS3005a,A,169.91,171.71,1.8,TS3005a.A.dialog-act.vkaraisk.48,B,A,1.55,0.0,False,False,0.0,[],False, Let's start with the ladies.,5,task,Suggest
+TS3005a,B,171.11,171.73,0.62,TS3005a.B.dialog-act.vkaraisk.4,,,,,,,,,False, Well uh,2,minor,Stall
+TS3005a,B,171.73,173.26,1.53,TS3005a.B.dialog-act.vkaraisk.5,,,,,,,,,False, I'm uh,2,task,Inform
+TS3005a,B,173.26,178.87,5.61,TS3005a.B.dialog-act.vkaraisk.6,C,A,5.35,1.55,True,False,0.0,[],True," and my uh function is User Interface Design, I think.",10,task,Inform
+TS3005a,C,178.268,179.279,1.011,TS3005a.C.dialog-act.vkaraisk.5,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,178.87,180.31,1.44,TS3005a.B.dialog-act.vkaraisk.7,,,,,,,,,False, So uh,2,minor,Stall
+TS3005a,B,180.31,180.76,0.45,TS3005a.B.dialog-act.vkaraisk.8,,,,,,,,,False, that's me.,2,task,Inform
+TS3005a,C,181.95,183.23,1.28,TS3005a.C.dialog-act.vkaraisk.6,,,,,,,,,False," Okay, uh",2,minor,Stall
+TS3005a,C,183.23,184.22,0.99,TS3005a.C.dialog-act.vkaraisk.7,,,,,,,,,False, I'm,1,task,Inform
+TS3005a,C,184.22,185.95,1.73,TS3005a.C.dialog-act.vkaraisk.9,C,B,0.0,5.35,True,False,0.0,[],True, uh I'm the Industrial Designer,5,task,Inform
+TS3005a,C,185.95,193.17,7.22,TS3005a.C.dialog-act.vkaraisk.10,D,C,1.65,0.0,False,False,0.0,[],False, and I uh hope to uh look forward to uh a very uh pleasing uh end of this uh project.,20,other,Other
+TS3005a,A,193.39,193.78,0.39,TS3005a.A.dialog-act.vkaraisk.49,,,,,,,,,False," Okay,",1,task,Assess
+TS3005a,A,193.78,194.34,0.56,TS3005a.A.dialog-act.vkaraisk.50,,,,,,,,,False, so I.,2,other,Other
+TS3005a,B,194.05,194.41,0.36,TS3005a.B.dialog-act.vkaraisk.9,,,,,,,,,False, Me too.,2,task,Assess
+TS3005a,D,194.44,194.82,0.38,TS3005a.D.dialog-act.vkaraisk.1,,,,,,,,,False, My name's.,2,task,Inform
+TS3005a,D,194.82,198.49,3.67,TS3005a.D.dialog-act.vkaraisk.2,D,C,0.0,1.65,True,False,0.0,[],True, I'm uh Marketing Expert.,4,task,Inform
+TS3005a,D,198.49,204.04,5.55,TS3005a.D.dialog-act.vkaraisk.3,D,D,1.12,0.0,False,False,0.0,[],False, My job is in the company to promote company or promote products to the customers.,15,task,Inform
+TS3005a,D,204.04,205.16,1.12,TS3005a.D.dialog-act.vkaraisk.4,,,,,,,,,False, So,1,minor,Stall
+TS3005a,D,205.16,208.83,3.67,TS3005a.D.dialog-act.vkaraisk.5,A,D,0.81,1.12,False,False,0.0,[],False, I also h hope we have a pleasant uh working with uh with each other.,15,other,Other
+TS3005a,A,209.01,209.64,0.63,TS3005a.A.dialog-act.vkaraisk.51,,,,,,,,,False," Okay, well",2,minor,Stall
+TS3005a,A,209.64,214.63,4.99,TS3005a.A.dialog-act.vkaraisk.52,A,D,2.36,0.81,True,False,0.0,[],True, we have some expertise from uh different pieces of the of the company.,13,task,Inform
+TS3005a,B,212.576,213.072,0.496,TS3005a.B.dialog-act.vkaraisk.10,,,,,,,,,False,,0,minor,Stall
+TS3005a,A,214.63,215.65,1.02,TS3005a.A.dialog-act.vkaraisk.53,,,,,,,,,False, That's good.,2,task,Assess
+TS3005a,A,215.65,216.99,1.34,TS3005a.A.dialog-act.vkaraisk.54,,,,,,,,,False, Um well,2,minor,Stall
+TS3005a,A,216.99,219.75,2.76,TS3005a.A.dialog-act.vkaraisk.55,A,A,0.0,2.36,False,False,0.0,[],False, I said uh we're working on a project,8,task,Inform
+TS3005a,A,219.75,224.51,4.76,TS3005a.A.dialog-act.vkaraisk.56,A,A,0.0,0.0,False,False,0.0,[],False, and the aim for the project is to to create a to design a new remote control,17,task,Inform
+TS3005a,A,224.51,228.95,4.44,TS3005a.A.dialog-act.vkaraisk.57,A,A,0.0,0.0,False,False,0.0,[],False," which uh has to be original, trendy and of course, user friendly.",12,task,Inform
+TS3005a,A,228.95,234.83,5.88,TS3005a.A.dialog-act.vkaraisk.58,A,A,0.28,0.0,False,False,0.0,[],False, And uh I hope we have the expertise to create such a project such a product.,16,other,Other
+TS3005a,A,235.11,239.05,3.94,TS3005a.A.dialog-act.vkaraisk.60,A,A,0.0,0.28,False,False,0.0,[],False, Um the way we hope to achieve that is uh the following methods.,13,task,Inform
+TS3005a,A,239.05,244.93,5.88,TS3005a.A.dialog-act.vkaraisk.61,A,A,0.0,0.0,False,False,0.0,[],False," It consists of three phases, namely the functional design, conceptual design and detailed design.",14,task,Inform
+TS3005a,A,244.93,251.12,6.19,TS3005a.A.dialog-act.vkaraisk.62,A,A,0.0,0.0,False,False,0.0,[],False," As you can see, all of these phases consists of two parts, namely individual work part and a meeting",19,task,Inform
+TS3005a,A,251.12,255.18,4.06,TS3005a.A.dialog-act.vkaraisk.63,A,A,0.93,0.0,False,False,0.0,[],False, where we will discuss uh our work so far.,9,task,Inform
+TS3005a,A,255.18,256.11,0.93,TS3005a.A.dialog-act.vkaraisk.64,,,,,,,,,False, Okay.,1,minor,Stall
+TS3005a,A,256.11,259.77,3.66,TS3005a.A.dialog-act.vkaraisk.65,A,A,0.0,0.93,False,False,0.0,[],False, But first I will uh tell you something about the tools we have here.,14,other,Offer
+TS3005a,A,259.77,261.82,2.05,TS3005a.A.dialog-act.vkaraisk.66,A,A,0.0,0.0,False,False,0.0,[],False," I already talked about the cameras and microphones,",8,task,Inform
+TS3005a,A,261.82,265.83,4.01,TS3005a.A.dialog-act.vkaraisk.67,A,A,0.46,0.0,False,False,0.0,[],False, but they are not of uh much use to us. Uh,11,task,Assess
+TS3005a,A,266.29,268.51,2.22,TS3005a.A.dialog-act.vkaraisk.69,A,A,0.0,0.46,False,False,0.0,[],False, we will have to take advantage of these two things.,10,task,Suggest
+TS3005a,A,268.51,269.86,1.35,TS3005a.A.dialog-act.vkaraisk.70,A,A,0.0,0.0,False,False,0.0,[],False, They are smart boards.,4,task,Inform
+TS3005a,A,269.86,272.81,2.95,TS3005a.A.dialog-act.vkaraisk.71,A,A,0.0,0.0,False,False,0.0,[],False," As you can see, you can give a presentation on them.",11,task,Inform
+TS3005a,A,272.81,276.74,3.93,TS3005a.A.dialog-act.vkaraisk.72,A,A,0.0,0.0,False,False,0.0,[],False, And uh this one here is a white board.,9,task,Inform
+TS3005a,A,276.74,279.82,3.08,TS3005a.A.dialog-act.vkaraisk.73,A,A,0.0,0.0,False,False,0.0,[],False, I will uh instruct you about that soon.,8,other,Offer
+TS3005a,A,279.82,284.79,4.97,TS3005a.A.dialog-act.vkaraisk.75,A,A,0.0,0.0,False,False,0.0,[],False, Um as you also noticed uh this presentation document is in our uh project folder,15,task,Inform
+TS3005a,A,284.79,291.89,7.1,TS3005a.A.dialog-act.vkaraisk.76,A,A,0.8,0.0,False,False,0.0,[],False, and every document you put in this folder uh is uh it is possible to show that here in our meeting room.,22,task,Inform
+TS3005a,A,292.69,295.67,2.98,TS3005a.A.dialog-act.vkaraisk.78,A,A,0.0,0.8,False,False,0.0,[],False, Um and yeah there are available on both smart boards,10,task,Inform
+TS3005a,A,295.67,302.01,6.34,TS3005a.A.dialog-act.vkaraisk.79,A,A,0.0,0.0,False,False,0.0,[],False, but I think we will uh mainly use this one for the documents in the shared folder.,17,task,Inform
+TS3005a,A,302.01,306.67,4.66,TS3005a.A.dialog-act.vkaraisk.80,A,A,0.0,0.0,False,False,0.0,[],False," As you can see, this is the same tool bar uh as is located here.",15,task,Inform
+TS3005a,A,306.67,311.76,5.09,TS3005a.A.dialog-act.vkaraisk.82,A,A,0.0,0.0,False,False,0.0,[],False," Um the most functions uh we will use will be to to add a new page,",16,task,Inform
+TS3005a,A,311.76,316.54,4.78,TS3005a.A.dialog-act.vkaraisk.84,A,A,0.0,0.0,False,False,0.0,[],False," um uh to go back and forward between pages,",9,task,Inform
+TS3005a,A,316.54,319.41,2.87,TS3005a.A.dialog-act.vkaraisk.85,A,A,0.0,0.0,False,False,0.0,[],False, and of course uh to save it every now and then.,11,task,Inform
+TS3005a,A,319.41,324.38,4.97,TS3005a.A.dialog-act.vkaraisk.87,A,A,1.45,0.0,False,False,0.0,[],False," Um and this is the pen with which you can draw on the board, for instance",16,task,Inform
+TS3005a,A,325.83,327.07,1.24,TS3005a.A.dialog-act.vkaraisk.88,A,A,0.0,1.45,False,False,0.0,[],False," like this if everything's okay,",5,task,Inform
+TS3005a,B,326.339,327.728,1.389,TS3005a.B.dialog-act.vkaraisk.11,,,,,,,,,False,,0,minor,Stall
+TS3005a,A,327.07,329.02,1.95,TS3005a.A.dialog-act.vkaraisk.89,A,A,0.0,0.0,False,False,0.0,[],False," but I first have to put it on the pen,",10,task,Inform
+TS3005a,A,329.02,330.51,1.49,TS3005a.A.dialog-act.vkaraisk.90,A,A,0.0,0.0,False,False,0.0,[],False, you see I'm new to it too.,7,other,Be-Negative
+TS3005a,B,329.259,330.145,0.886,TS3005a.B.dialog-act.vkaraisk.12,,,,,,,,,False,,0,minor,Stall
+TS3005a,C,330.488,331.161,0.673,TS3005a.C.dialog-act.vkaraisk.11,,,,,,,,,False,,0,minor,Stall
+TS3005a,A,330.51,336.14,5.63,TS3005a.A.dialog-act.vkaraisk.92,A,A,0.0,0.0,False,False,0.0,[],False, Um and then you can write things like test or whatever you want.,13,task,Inform
+TS3005a,B,331.92,332.1,0.18,TS3005a.B.dialog-act.vkaraisk.13,,,,,,,,,False, Oh.,1,minor,Backchannel
+TS3005a,A,336.14,338.11,1.97,TS3005a.A.dialog-act.vkaraisk.93,A,A,0.0,0.0,False,False,0.0,[],False," As you can see you have to move it a little bit slow,",13,task,Suggest
+TS3005a,A,338.11,340.2,2.09,TS3005a.A.dialog-act.vkaraisk.94,A,A,0.0,0.0,False,False,0.0,[],False," it's not such a fast board,",6,task,Assess
+TS3005a,A,340.2,342.64,2.44,TS3005a.A.dialog-act.vkaraisk.95,A,A,0.0,0.0,False,False,0.0,[],False, it's a smart board but also a slow board.,9,other,Be-Positive
+TS3005a,C,341.008,342.726,1.718,TS3005a.C.dialog-act.vkaraisk.12,,,,,,,,,False,,0,minor,Stall
+TS3005a,B,341.756,342.609,0.853,TS3005a.B.dialog-act.vkaraisk.14,,,,,,,,,False,,0,minor,Stall
+TS3005a,A,342.64,343.83,1.19,TS3005a.A.dialog-act.vkaraisk.97,A,A,0.0,0.0,False,False,0.0,[],False, Uh but you can write things,6,task,Inform
+TS3005a,A,343.83,348.39,4.56,TS3005a.A.dialog-act.vkaraisk.98,A,A,0.0,0.0,False,False,0.0,[],False," and of course you can also, when you click here, uh erase things,",13,task,Inform
+TS3005a,A,348.39,351.43,3.04,TS3005a.A.dialog-act.vkaraisk.99,A,A,0.0,0.0,False,False,0.0,[],False, so we have uh est left.,6,task,Inform
+TS3005a,A,351.43,354.41,2.98,TS3005a.A.dialog-act.vkaraisk.100,A,A,0.0,0.0,False,False,0.0,[],False," And um you can also delete an entire page,",9,task,Inform
+TS3005a,A,354.41,355.84,1.43,TS3005a.A.dialog-act.vkaraisk.101,A,A,0.0,0.0,False,False,0.0,[],False, but we ask you not to do that.,8,task,Suggest
+TS3005a,A,355.84,358.27,2.43,TS3005a.A.dialog-act.vkaraisk.102,A,A,0.0,0.0,False,False,0.0,[],False, Just simply create a new one,6,task,Suggest
+TS3005a,A,358.27,360.02,1.75,TS3005a.A.dialog-act.vkaraisk.103,A,A,0.0,0.0,False,False,0.0,[],False, and uh start all over,5,task,Suggest
+TS3005a,A,360.02,364.37,4.35,TS3005a.A.dialog-act.vkaraisk.104,A,A,0.0,0.0,False,False,0.0,[],False, because we want to save all the results.,8,task,Inform
+TS3005a,A,364.37,367.26,2.89,TS3005a.A.dialog-act.vkaraisk.106,B,A,-0.059,0.0,False,True,0.059,['TS3005a.B.dialog-act.vkaraisk.15'],False, Um does everyone understand this,5,elicit,Elicit-Comment-Understanding
+TS3005a,B,367.201,369.25,2.049,TS3005a.B.dialog-act.vkaraisk.15,A,A,0.56,-0.059,True,False,0.0,[],False, So we can't erase anything.,5,other,Comment-About-Understanding
+TS3005a,D,367.94,368.27,0.33,TS3005a.D.dialog-act.vkaraisk.6,,,,,,,,,False, Mm-hmm.,1,other,Comment-About-Understanding
+TS3005a,C,368.12,368.31,0.19,TS3005a.C.dialog-act.vkaraisk.13,,,,,,,,,False, Yeah.,1,other,Comment-About-Understanding
+TS3005a,A,368.45,369.58,1.13,TS3005a.A.dialog-act.vkaraisk.107,,,,,,,,,False, nice application?,2,elicit,Elicit-Comment-Understanding
+TS3005a,A,369.58,369.81,0.23,TS3005a.A.dialog-act.vkaraisk.108,,,,,,,,,False, Well,1,minor,Stall
+TS3005a,A,369.81,371.29,1.48,TS3005a.A.dialog-act.vkaraisk.109,A,B,0.0,0.56,True,False,0.0,[],True," you can erase it with the eraser,",7,task,Inform
+TS3005a,A,371.29,373.31,2.02,TS3005a.A.dialog-act.vkaraisk.110,A,A,0.0,0.0,False,False,0.0,[],False," but uh you shouldn't delete an entire page,",8,task,Suggest
+TS3005a,A,373.31,375.42,2.11,TS3005a.A.dialog-act.vkaraisk.111,A,A,0.0,0.0,False,False,0.0,[],False, but just create a new blank one.,7,task,Suggest
+TS3005a,B,373.52,373.62,0.1,TS3005a.B.dialog-act.vkaraisk.16,,,,,,,,,False, Right.,1,other,Comment-About-Understanding
+TS3005a,D,374.09,374.27,0.18,TS3005a.D.dialog-act.vkaraisk.7,,,,,,,,,False, S,1,minor,Fragment
+TS3005a,A,375.42,376.41,0.99,TS3005a.A.dialog-act.vkaraisk.112,A,A,0.0,0.0,False,False,0.0,[],False, I will delete this one now,6,other,Offer
+TS3005a,A,376.41,377.41,1.0,TS3005a.A.dialog-act.vkaraisk.113,A,A,1.41,0.0,False,False,0.0,[],False, because we don't use it yet.,6,task,Inform
+TS3005a,B,377.44,377.76,0.32,TS3005a.B.dialog-act.vkaraisk.17,,,,,,,,,False, Alright.,1,other,Comment-About-Understanding
+TS3005a,A,378.82,381.03,2.21,TS3005a.A.dialog-act.vkaraisk.114,A,A,0.0,1.41,False,False,0.0,[],False," But you can of course erase when you make a mistake,",11,task,Inform
+TS3005a,A,381.03,384.32,3.29,TS3005a.A.dialog-act.vkaraisk.115,A,A,0.0,0.0,False,False,0.0,[],False, but don't uh delete entire pages.,6,task,Suggest
+TS3005a,A,384.32,391.24,6.92,TS3005a.A.dialog-act.vkaraisk.116,A,A,0.0,0.0,False,False,0.0,[],False," And you can also um let's see I think it's here uh change the uh colour of your pen,",19,task,Inform
+TS3005a,A,391.24,393.64,2.4,TS3005a.A.dialog-act.vkaraisk.117,A,A,0.0,0.0,False,False,0.0,[],False, for instance take a blue one,6,task,Inform
+TS3005a,A,393.64,398.83,5.19,TS3005a.A.dialog-act.vkaraisk.118,A,A,0.0,0.0,False,False,0.0,[],False, and uh change the line width like to five.,9,task,Inform
+TS3005a,A,398.83,401.52,2.69,TS3005a.A.dialog-act.vkaraisk.120,A,A,0.0,0.0,False,False,0.0,[],False," Um that's what you will need for our first exercise,",10,task,Inform
+TS3005a,A,401.52,405.18,3.66,TS3005a.A.dialog-act.vkaraisk.121,A,A,2.14,0.0,False,False,0.0,[],False, because I'm uh going to ask you to draw your favourite animal.,12,task,Suggest
+TS3005a,B,404.288,407.584,3.296,TS3005a.B.dialog-act.vkaraisk.18,,,,,,,,,False,,0,minor,Fragment
+TS3005a,C,405.368,407.259,1.891,TS3005a.C.dialog-act.vkaraisk.14,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,407.32,408.82,1.5,TS3005a.A.dialog-act.vkaraisk.122,A,A,0.0,2.14,False,False,0.0,[],False, It's also to gets to know each other,8,task,Inform
+TS3005a,A,408.82,413.36,4.54,TS3005a.A.dialog-act.vkaraisk.123,A,A,0.0,0.0,False,False,0.0,[],False," because um I'm asking three things, uh for that uh drawing,",11,task,Suggest
+TS3005a,C,409.3,409.47,0.17,TS3005a.C.dialog-act.vkaraisk.15,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3005a,A,413.36,414.74,1.38,TS3005a.A.dialog-act.vkaraisk.124,A,A,0.72,0.0,False,False,0.0,[],False," to do it on a blank sheet,",7,task,Suggest
+TS3005a,A,414.74,415.46,0.72,TS3005a.A.dialog-act.vkaraisk.125,,,,,,,,,False, with different colours,3,task,Suggest
+TS3005a,A,415.46,417.5,2.04,TS3005a.A.dialog-act.vkaraisk.126,A,A,0.0,0.72,False,False,0.0,[],False," and I just showed you how to pick a colour,",10,task,Inform
+TS3005a,A,417.5,419.18,1.68,TS3005a.A.dialog-act.vkaraisk.127,A,A,0.0,0.0,False,False,0.0,[],False, and also with different pen widths,6,task,Suggest
+TS3005a,A,419.18,421.25,2.07,TS3005a.A.dialog-act.vkaraisk.128,A,A,0.0,0.0,False,False,0.0,[],False, which I also showed you.,5,task,Inform
+TS3005a,A,421.25,426.54,5.29,TS3005a.A.dialog-act.vkaraisk.130,A,A,0.36,0.0,False,False,0.0,[],False, Um and a favourite characteristic can be just uh one word.,11,task,Inform
+TS3005a,A,426.54,426.9,0.36,TS3005a.A.dialog-act.vkaraisk.131,,,,,,,,,False, Well,1,minor,Stall
+TS3005a,A,426.9,428.36,1.46,TS3005a.A.dialog-act.vkaraisk.132,A,A,0.0,0.36,False,False,0.0,[],False," I'm not very good at drawing,",6,other,Be-Negative
+TS3005a,A,428.36,430.18,1.82,TS3005a.A.dialog-act.vkaraisk.133,A,A,1.24,0.0,False,False,0.0,[],False, but I will uh go first,6,other,Offer
+TS3005a,A,431.42,433.616,2.196,TS3005a.A.dialog-act.vkaraisk.134,A,A,1.944,1.24,False,False,0.0,[],False, and um try to draw,5,other,Offer
+TS3005a,B,434.8,435.04,0.24,TS3005a.B.dialog-act.vkaraisk.19,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,435.56,438.357,2.797,TS3005a.A.dialog-act.vkaraisk.135,C,A,22.193,1.944,False,False,0.0,[],False," Or maybe you should guess what I'm drawing, eh.",9,task,Suggest
+TS3005a,C,437.616,438.718,1.102,TS3005a.C.dialog-act.vkaraisk.16,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,438.161,440.208,2.047,TS3005a.B.dialog-act.vkaraisk.20,,,,,,,,,False,,0,minor,Fragment
+TS3005a,D,441.53,441.8,0.27,TS3005a.D.dialog-act.vkaraisk.8,,,,,,,,,False, Good.,1,task,Assess
+TS3005a,B,442.384,442.784,0.4,TS3005a.B.dialog-act.vkaraisk.21,,,,,,,,,False,,0,minor,Fragment
+TS3005a,C,443.27,443.75,0.48,TS3005a.C.dialog-act.vkaraisk.17,,,,,,,,,False, Hmm.,1,task,Inform
+TS3005a,D,444.615,446.94,2.325,TS3005a.D.dialog-act.vkaraisk.9,,,,,,,,,False, No.,1,other,Other
+TS3005a,B,445.41,446.656,1.246,TS3005a.B.dialog-act.vkaraisk.22,,,,,,,,,False, It's a sheep.,3,task,Inform
+TS3005a,C,446.624,447.552,0.928,TS3005a.C.dialog-act.vkaraisk.18,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,447.712,449.36,1.648,TS3005a.B.dialog-act.vkaraisk.23,,,,,,,,,False,,0,minor,Fragment
+TS3005a,D,448.55,449.33,0.78,TS3005a.D.dialog-act.vkaraisk.10,,,,,,,,,False, Dinos,1,minor,Fragment
+TS3005a,C,449.32,452.048,2.728,TS3005a.C.dialog-act.vkaraisk.19,,,,,,,,,False," Seal, a seal.",3,task,Inform
+TS3005a,D,449.33,450.23,0.9,TS3005a.D.dialog-act.vkaraisk.11,,,,,,,,,False, Dinosaur.,1,task,Inform
+TS3005a,B,450.06,451.106,1.046,TS3005a.B.dialog-act.vkaraisk.24,,,,,,,,,False,,0,minor,Fragment
+TS3005a,D,452.82,453.23,0.41,TS3005a.D.dialog-act.vkaraisk.12,,,,,,,,,False, Beaver.,1,task,Inform
+TS3005a,B,453.424,455.008,1.584,TS3005a.B.dialog-act.vkaraisk.25,,,,,,,,,False, A beaver.,2,other,Comment-About-Understanding
+TS3005a,C,453.59,455.264,1.674,TS3005a.C.dialog-act.vkaraisk.20,,,,,,,,,False, A be,2,minor,Fragment
+TS3005a,A,456.77,457.68,0.91,TS3005a.A.dialog-act.vkaraisk.136,,,,,,,,,False, Well it uh,3,minor,Fragment
+TS3005a,B,457.13,458.88,1.75,TS3005a.B.dialog-act.vkaraisk.26,,,,,,,,,False, It's weird.,2,task,Assess
+TS3005a,A,458.82,459.6,0.78,TS3005a.A.dialog-act.vkaraisk.137,,,,,,,,,False, could be everything.,3,task,Inform
+TS3005a,C,460.18,460.55,0.37,TS3005a.C.dialog-act.vkaraisk.21,,,,,,,,,False, Mm.,1,other,Comment-About-Understanding
+TS3005a,C,460.55,461.53,0.98,TS3005a.C.dialog-act.vkaraisk.22,A,A,-0.1,22.193,True,True,0.1,['TS3005a.A.dialog-act.vkaraisk.138'],True, With a tail and a mouth.,6,other,Other
+TS3005a,A,461.43,462.61,1.18,TS3005a.A.dialog-act.vkaraisk.138,A,C,6.79,-0.1,True,False,0.0,[],False, Maybe when I put on,5,task,Inform
+TS3005a,B,462.88,463.65,0.77,TS3005a.B.dialog-act.vkaraisk.27,,,,,,,,,False, It has wings?,3,elicit,Elicit-Inform
+TS3005a,D,463.57,463.82,0.25,TS3005a.D.dialog-act.vkaraisk.13,,,,,,,,,False, Turtle.,1,task,Inform
+TS3005a,A,464.44,465.03,0.59,TS3005a.A.dialog-act.vkaraisk.139,,,,,,,,,False, this thing,2,task,Inform
+TS3005a,A,469.4,473.66,4.26,TS3005a.A.dialog-act.vkaraisk.140,B,A,0.92,6.79,False,False,0.0,[],False," it could be a turtle, or a snail,",8,task,Inform
+TS3005a,C,471.27,473.408,2.138,TS3005a.C.dialog-act.vkaraisk.23,,,,,,,,,False, Snail.,1,task,Inform
+TS3005a,B,473.44,474.58,1.14,TS3005a.B.dialog-act.vkaraisk.28,,,,,,,,,False, Well,1,minor,Stall
+TS3005a,B,474.58,475.73,1.15,TS3005a.B.dialog-act.vkaraisk.29,A,A,2.01,0.92,True,False,0.0,[],True, the snail doesn't have legs.,5,task,Inform
+TS3005a,C,475.96,476.24,0.28,TS3005a.C.dialog-act.vkaraisk.24,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3005a,A,477.74,478.97,1.23,TS3005a.A.dialog-act.vkaraisk.141,A,B,0.0,2.01,True,False,0.0,[],True, But a turtle has.,4,task,Inform
+TS3005a,A,478.97,480.55,1.58,TS3005a.A.dialog-act.vkaraisk.142,A,A,1.63,0.0,False,False,0.0,[],False, And those are slow.,4,task,Inform
+TS3005a,C,482.102,482.667,0.565,TS3005a.C.dialog-act.vkaraisk.25,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,482.18,484.38,2.2,TS3005a.A.dialog-act.vkaraisk.143,A,A,0.0,1.63,False,False,0.0,[],False," And I hope our project group will not be slow,",10,other,Other
+TS3005a,A,484.38,486.79,2.41,TS3005a.A.dialog-act.vkaraisk.144,A,A,0.0,0.0,False,False,0.0,[],False, but we will uh work to a good result,9,other,Other
+TS3005a,C,485.65,486.57,0.92,TS3005a.C.dialog-act.vkaraisk.26,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,486.79,490.33,3.54,TS3005a.A.dialog-act.vkaraisk.145,A,A,1.38,0.0,False,False,0.0,[],False, and do it uh as fast as we can.,9,other,Other
+TS3005a,A,490.33,491.71,1.38,TS3005a.A.dialog-act.vkaraisk.146,,,,,,,,,False," Okay,",1,minor,Stall
+TS3005a,A,491.71,493.36,1.65,TS3005a.A.dialog-act.vkaraisk.147,A,A,0.0,1.38,False,False,0.0,[],False, time for another animal.,4,task,Suggest
+TS3005a,A,493.36,494.48,1.12,TS3005a.A.dialog-act.vkaraisk.148,D,A,0.208,0.0,False,False,0.0,[],False, Would you like to go next?,6,task,Suggest
+TS3005a,B,494.432,494.848,0.416,TS3005a.B.dialog-act.vkaraisk.30,,,,,,,,,False,,0,minor,Fragment
+TS3005a,D,494.688,500.25,5.562,TS3005a.D.dialog-act.vkaraisk.14,D,A,0.0,0.208,True,False,0.0,[],True, No problem. No problem.,4,task,Assess
+TS3005a,C,495.19,495.88,0.69,TS3005a.C.dialog-act.vkaraisk.27,,,,,,,,,False, Sure.,1,task,Assess
+TS3005a,B,496.144,496.752,0.608,TS3005a.B.dialog-act.vkaraisk.31,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,498.29,499.04,0.75,TS3005a.B.dialog-act.vkaraisk.32,,,,,,,,,False, Oh right.,2,task,Assess
+TS3005a,D,500.25,502.34,2.09,TS3005a.D.dialog-act.vkaraisk.16,D,D,33.884,0.0,False,False,0.0,[],False, Mm. It was four months?,5,task,Inform
+TS3005a,B,504.816,507.52,2.704,TS3005a.B.dialog-act.vkaraisk.33,,,,,,,,,False,,0,minor,Fragment
+TS3005a,D,509.39,510.19,0.8,TS3005a.D.dialog-act.vkaraisk.17,,,,,,,,,False," Nice, okay.",2,other,Other
+TS3005a,B,516.57,517.824,1.254,TS3005a.B.dialog-act.vkaraisk.34,,,,,,,,,False, Well.,1,minor,Backchannel
+TS3005a,C,529.28,532.27,2.99,TS3005a.C.dialog-act.vkaraisk.28,,,,,,,,,False, The hell.,2,other,Other
+TS3005a,B,529.904,530.896,0.992,TS3005a.B.dialog-act.vkaraisk.35,,,,,,,,,False,,0,minor,Fragment
+TS3005a,D,536.224,541.04,4.816,TS3005a.D.dialog-act.vkaraisk.18,D,D,20.47,33.884,False,False,0.0,[],False, To make it a little bit easier.,7,other,Offer
+TS3005a,D,541.623,543.265,1.642,TS3005a.D.dialog-act.vkaraisk.19,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,544.816,545.248,0.432,TS3005a.B.dialog-act.vkaraisk.36,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,546.4,547.09,0.69,TS3005a.B.dialog-act.vkaraisk.37,,,,,,,,,False, It's a giraffe.,3,task,Inform
+TS3005a,C,547.94,549.984,2.044,TS3005a.C.dialog-act.vkaraisk.29,,,,,,,,,False, Make that cute.,3,task,Suggest
+TS3005a,B,550.71,552.784,2.074,TS3005a.B.dialog-act.vkaraisk.38,,,,,,,,,False, Or a dinosaur.,3,task,Inform
+TS3005a,D,552.06,552.26,0.2,TS3005a.D.dialog-act.vkaraisk.20,,,,,,,,,False," No,",1,task,Assess
+TS3005a,D,552.26,553.0,0.74,TS3005a.D.dialog-act.vkaraisk.21,,,,,,,,,False, it's a giraffe.,3,task,Assess
+TS3005a,D,557.09,558.9,1.81,TS3005a.D.dialog-act.vkaraisk.22,,,,,,,,,False, 'Kay.,1,minor,Stall
+TS3005a,B,557.697,558.503,0.806,TS3005a.B.dialog-act.vkaraisk.39,,,,,,,,,False,,0,minor,Fragment
+TS3005a,D,558.9,559.88,0.98,TS3005a.D.dialog-act.vkaraisk.23,,,,,,,,,False, I think it's,3,task,Assess
+TS3005a,D,561.51,568.45,6.94,TS3005a.D.dialog-act.vkaraisk.24,D,D,0.57,20.47,False,False,0.0,[],False, easy to r uh to recognise as a giraffe.,9,task,Assess
+TS3005a,C,565.984,566.32,0.336,TS3005a.C.dialog-act.vkaraisk.30,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,566.28,567.18,0.9,TS3005a.B.dialog-act.vkaraisk.40,,,,,,,,,False, Yes. Giraffe.,2,minor,Backchannel
+TS3005a,A,566.81,567.05,0.24,TS3005a.A.dialog-act.vkaraisk.149,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3005a,D,568.45,569.02,0.57,TS3005a.D.dialog-act.vkaraisk.25,,,,,,,,,False," Yeah,",1,minor,Stall
+TS3005a,D,569.02,573.61,4.59,TS3005a.D.dialog-act.vkaraisk.26,D,D,0.0,0.57,False,False,0.0,[],False," the favourite charis characteristic is that the long neck,",9,task,Inform
+TS3005a,D,573.61,575.21,1.6,TS3005a.D.dialog-act.vkaraisk.27,D,D,0.0,0.0,False,False,0.0,[],False, it can reach everything.,4,task,Inform
+TS3005a,D,575.21,579.18,3.97,TS3005a.D.dialog-act.vkaraisk.28,D,D,1.31,0.0,False,False,0.0,[],False, And I hope I can also reach a lot with this project.,12,other,Other
+TS3005a,D,579.18,580.49,1.31,TS3005a.D.dialog-act.vkaraisk.29,,,,,,,,,False, So,1,minor,Stall
+TS3005a,D,580.49,582.17,1.68,TS3005a.D.dialog-act.vkaraisk.30,D,D,1.43,1.31,False,False,0.0,[],False, that's my favourite animal.,4,task,Inform
+TS3005a,A,583.3,584.25,0.95,TS3005a.A.dialog-act.vkaraisk.150,,,,,,,,,False, Okay.,1,minor,Stall
+TS3005a,D,583.6,584.53,0.93,TS3005a.D.dialog-act.vkaraisk.31,A,D,-0.28,1.43,False,True,0.28,['TS3005a.A.dialog-act.vkaraisk.151'],False, Anything else you need to know?,6,task,Inform
+TS3005a,A,584.25,586.5,2.25,TS3005a.A.dialog-act.vkaraisk.151,B,D,57.2,-0.28,True,False,0.0,[],False," Could you write the words, uh underneath it?",8,task,Suggest
+TS3005a,D,586.95,587.99,1.04,TS3005a.D.dialog-act.vkaraisk.32,,,,,,,,,False," Oh,",1,task,Assess
+TS3005a,A,587.26,588.46,1.2,TS3005a.A.dialog-act.vkaraisk.152,,,,,,,,,False, Or more words.,3,task,Suggest
+TS3005a,D,587.99,588.606,0.616,TS3005a.D.dialog-act.vkaraisk.33,,,,,,,,,False, uh,1,minor,Stall
+TS3005a,C,592.32,595.312,2.992,TS3005a.C.dialog-act.vkaraisk.31,,,,,,,,,False, Tall.,1,other,Comment-About-Understanding
+TS3005a,B,594.192,594.512,0.32,TS3005a.B.dialog-act.vkaraisk.41,,,,,,,,,False,,0,minor,Fragment
+TS3005a,D,596.53,596.7,0.17,TS3005a.D.dialog-act.vkaraisk.34,,,,,,,,,False, Tall.,1,task,Assess
+TS3005a,D,597.86,598.99,1.13,TS3005a.D.dialog-act.vkaraisk.35,,,,,,,,,False," So,",1,minor,Stall
+TS3005a,D,598.99,600.01,1.02,TS3005a.D.dialog-act.vkaraisk.36,,,,,,,,,False, 'kay.,1,task,Assess
+TS3005a,B,599.23,599.904,0.674,TS3005a.B.dialog-act.vkaraisk.42,,,,,,,,,False, Should I uh,3,other,Offer
+TS3005a,B,603.64,604.24,0.6,TS3005a.B.dialog-act.vkaraisk.43,,,,,,,,,False, Alright.,1,task,Assess
+TS3005a,D,604.32,605.376,1.056,TS3005a.D.dialog-act.vkaraisk.37,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,605.35,605.53,0.18,TS3005a.B.dialog-act.vkaraisk.44,,,,,,,,,False, So,1,minor,Stall
+TS3005a,B,605.53,606.23,0.7,TS3005a.B.dialog-act.vkaraisk.45,,,,,,,,,False," I can draw,",3,task,Inform
+TS3005a,B,606.23,606.688,0.458,TS3005a.B.dialog-act.vkaraisk.47,,,,,,,,,False, but uh,2,minor,Fragment
+TS3005a,B,609.58,617.51,7.93,TS3005a.B.dialog-act.vkaraisk.46,,,,,,,,,False, Uh. Well. Oh.,3,other,Other
+TS3005a,C,621.72,622.745,1.025,TS3005a.C.dialog-act.vkaraisk.32,,,,,,,,,False, B,1,minor,Fragment
+TS3005a,D,621.83,622.44,0.61,TS3005a.D.dialog-act.vkaraisk.38,,,,,,,,,False, It's a mouse.,3,task,Inform
+TS3005a,B,622.896,623.76,0.864,TS3005a.B.dialog-act.vkaraisk.48,,,,,,,,,False,,0,minor,Fragment
+TS3005a,C,624.48,627.584,3.104,TS3005a.C.dialog-act.vkaraisk.33,,,,,,,,,False, Bunny rabbit.,2,task,Inform
+TS3005a,D,625.09,627.184,2.094,TS3005a.D.dialog-act.vkaraisk.39,,,,,,,,,False, A bunny rabbit.,3,other,Comment-About-Understanding
+TS3005a,B,634.796,635.74,0.944,TS3005a.B.dialog-act.vkaraisk.49,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,643.7,652.1,8.4,TS3005a.B.dialog-act.vkaraisk.50,B,A,6.61,57.2,True,False,0.0,[],True, Oh wrong one. Uh.,4,other,Other
+TS3005a,B,653.587,654.657,1.07,TS3005a.B.dialog-act.vkaraisk.51,,,,,,,,,False,,0,minor,Fragment
+TS3005a,C,655.872,656.4,0.528,TS3005a.C.dialog-act.vkaraisk.34,,,,,,,,,False,,0,minor,Fragment
+TS3005a,D,656.839,658.431,1.592,TS3005a.D.dialog-act.vkaraisk.40,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,657.392,658.71,1.318,TS3005a.B.dialog-act.vkaraisk.52,,,,,,,,,False, Well uh,2,minor,Stall
+TS3005a,C,657.952,658.528,0.576,TS3005a.C.dialog-act.vkaraisk.35,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,658.71,660.752,2.042,TS3005a.B.dialog-act.vkaraisk.53,B,B,5.308,6.61,False,False,0.0,[],False," you can guess what it is, I hope.",8,elicit,Elicit-Inform
+TS3005a,D,660.56,661.83,1.27,TS3005a.D.dialog-act.vkaraisk.41,,,,,,,,,False, Uh-huh. No problem.,3,task,Inform
+TS3005a,B,661.81,663.36,1.55,TS3005a.B.dialog-act.vkaraisk.54,,,,,,,,,False, It's a rabbit.,3,task,Inform
+TS3005a,A,662.19,662.97,0.78,TS3005a.A.dialog-act.vkaraisk.153,,,,,,,,,False, Little rabbits.,2,task,Inform
+TS3005a,C,662.592,663.2,0.608,TS3005a.C.dialog-act.vkaraisk.36,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,663.36,666.06,2.7,TS3005a.B.dialog-act.vkaraisk.55,,,,,,,,,False, And uh well uh,4,minor,Stall
+TS3005a,B,666.06,668.69,2.63,TS3005a.B.dialog-act.vkaraisk.56,B,B,10.5,5.308,False,False,0.0,[],False," it's uh quick, I guess.",5,task,Inform
+TS3005a,B,679.19,681.328,2.138,TS3005a.B.dialog-act.vkaraisk.57,A,B,4.752,10.5,False,False,0.0,[],False, That's uh my uh favourite animal.,6,task,Inform
+TS3005a,A,681.37,681.9,0.53,TS3005a.A.dialog-act.vkaraisk.154,,,,,,,,,False," Okay,",1,other,Comment-About-Understanding
+TS3005a,C,681.41,681.73,0.32,TS3005a.C.dialog-act.vkaraisk.37,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+TS3005a,A,681.9,682.21,0.31,TS3005a.A.dialog-act.vkaraisk.155,,,,,,,,,False, thank you.,2,other,Be-Positive
+TS3005a,A,686.08,687.2,1.12,TS3005a.A.dialog-act.vkaraisk.156,C,B,39.01,4.752,True,False,0.0,[],True, And our final drawing.,4,other,Be-Positive
+TS3005a,B,687.376,688.432,1.056,TS3005a.B.dialog-act.vkaraisk.58,,,,,,,,,False,,0,minor,Fragment
+TS3005a,D,688.18,688.71,0.53,TS3005a.D.dialog-act.vkaraisk.42,,,,,,,,,False, Bob Ross.,2,other,Other
+TS3005a,D,711.25,711.68,0.43,TS3005a.D.dialog-act.vkaraisk.43,,,,,,,,,False, Dolphin.,1,task,Inform
+TS3005a,B,711.44,712.864,1.424,TS3005a.B.dialog-act.vkaraisk.59,,,,,,,,,False, A dolphin.,2,task,Inform
+TS3005a,C,711.712,715.98,4.268,TS3005a.C.dialog-act.vkaraisk.38,,,,,,,,,False," Okay, um.",2,other,Other
+TS3005a,A,712.074,712.995,0.921,TS3005a.A.dialog-act.vkaraisk.157,,,,,,,,,False,,0,minor,Fragment
+TS3005a,C,724.34,726.21,1.87,TS3005a.C.dialog-act.vkaraisk.39,,,,,,,,,False, Uh I uh draw I,5,minor,Fragment
+TS3005a,C,726.21,729.74,3.53,TS3005a.C.dialog-act.vkaraisk.40,C,A,0.0,39.01,True,False,0.0,[],True, I've drawn a dolphin because of its intelligence.,8,task,Inform
+TS3005a,D,726.984,728.643,1.659,TS3005a.D.dialog-act.vkaraisk.44,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,727.376,727.872,0.496,TS3005a.B.dialog-act.vkaraisk.60,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,727.904,728.176,0.272,TS3005a.A.dialog-act.vkaraisk.158,,,,,,,,,False,,0,minor,Fragment
+TS3005a,C,729.74,732.75,3.01,TS3005a.C.dialog-act.vkaraisk.41,C,C,3.67,0.0,False,False,0.0,[],False, One of the most intelligent uh,6,task,Inform
+TS3005a,B,730.2,730.58,0.38,TS3005a.B.dialog-act.vkaraisk.61,,,,,,,,,False, Right.,1,minor,Backchannel
+TS3005a,A,732.71,733.13,0.42,TS3005a.A.dialog-act.vkaraisk.159,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3005a,C,736.42,740.05,3.63,TS3005a.C.dialog-act.vkaraisk.43,B,C,8.35,3.67,False,False,0.0,[],False, animals in our world.,4,task,Inform
+TS3005a,B,740.36,740.64,0.28,TS3005a.B.dialog-act.vkaraisk.62,,,,,,,,,False, Well.,1,minor,Backchannel
+TS3005a,D,740.925,742.55,1.625,TS3005a.D.dialog-act.vkaraisk.45,,,,,,,,,False,,0,minor,Fragment
+TS3005a,C,742.1,745.41,3.31,TS3005a.C.dialog-act.vkaraisk.44,,,,,,,,,False, Yeah intelligent.,2,other,Other
+TS3005a,B,742.416,742.976,0.56,TS3005a.B.dialog-act.vkaraisk.64,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,744.76,745.42,0.66,TS3005a.B.dialog-act.vkaraisk.63,,,,,,,,,False, With an E_.,3,task,Inform
+TS3005a,A,745.389,746.061,0.672,TS3005a.A.dialog-act.vkaraisk.160,,,,,,,,,False,,0,minor,Fragment
+TS3005a,C,745.41,747.22,1.81,TS3005a.C.dialog-act.vkaraisk.45,,,,,,,,,False, I've I've uh,3,minor,Fragment
+TS3005a,B,746.736,746.976,0.24,TS3005a.B.dialog-act.vkaraisk.65,,,,,,,,,False,,0,minor,Fragment
+TS3005a,C,747.22,748.29,1.07,TS3005a.C.dialog-act.vkaraisk.46,,,,,,,,,False, Eraser.,1,other,Other
+TS3005a,A,748.272,748.464,0.192,TS3005a.A.dialog-act.vkaraisk.161,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,748.4,750.224,1.824,TS3005a.B.dialog-act.vkaraisk.66,C,C,7.106,8.35,True,False,0.0,[],True, You can try out the eraser now.,7,task,Suggest
+TS3005a,A,750.144,750.71,0.566,TS3005a.A.dialog-act.vkaraisk.162,,,,,,,,,False,,0,minor,Fragment
+TS3005a,C,753.01,753.27,0.26,TS3005a.C.dialog-act.vkaraisk.47,,,,,,,,,False, Pen.,1,other,Other
+TS3005a,C,757.33,759.56,2.23,TS3005a.C.dialog-act.vkaraisk.48,A,B,1.27,7.106,True,False,0.0,[],True," Well not perfect, but okay.",5,task,Assess
+TS3005a,A,759.96,760.83,0.87,TS3005a.A.dialog-act.vkaraisk.163,,,,,,,,,False," Okay, well",2,minor,Stall
+TS3005a,B,760.149,760.718,0.569,TS3005a.B.dialog-act.vkaraisk.67,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,760.83,761.52,0.69,TS3005a.A.dialog-act.vkaraisk.164,A,C,0.0,1.27,True,False,0.0,[],True, thank you very much.,4,other,Be-Positive
+TS3005a,A,761.52,764.94,3.42,TS3005a.A.dialog-act.vkaraisk.165,A,A,6.14,0.0,False,False,0.0,[],False," I can see we have some uh drawing talent uh in this group,",13,task,Assess
+TS3005a,C,763.68,766.848,3.168,TS3005a.C.dialog-act.vkaraisk.49,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,764.304,765.888,1.584,TS3005a.B.dialog-act.vkaraisk.68,,,,,,,,,False, Not really.,2,task,Assess
+TS3005a,A,764.94,765.1,0.16,TS3005a.A.dialog-act.vkaraisk.166,,,,,,,,,False, huh?,1,elicit,Elicit-Assessment
+TS3005a,A,766.79,767.12,0.33,TS3005a.A.dialog-act.vkaraisk.167,,,,,,,,,False," Well,",1,minor,Stall
+TS3005a,A,767.12,767.84,0.72,TS3005a.A.dialog-act.vkaraisk.168,,,,,,,,,False," nice animals,",2,task,Assess
+TS3005a,A,767.84,770.16,2.32,TS3005a.A.dialog-act.vkaraisk.169,,,,,,,,,False, nice words.,2,task,Assess
+TS3005a,A,770.16,771.08,0.92,TS3005a.A.dialog-act.vkaraisk.170,,,,,,,,,False, Sounds good.,2,task,Assess
+TS3005a,A,771.08,775.72,4.64,TS3005a.A.dialog-act.vkaraisk.172,A,A,0.0,6.14,False,False,0.0,[],False," Um back to business, back to the money part.",9,task,Inform
+TS3005a,A,775.72,781.37,5.65,TS3005a.A.dialog-act.vkaraisk.174,A,A,0.0,0.0,False,False,0.0,[],False, Um from the finance department I have learned that we are aiming for a selling price of twenty five Euros.,20,task,Inform
+TS3005a,A,781.37,784.18,2.81,TS3005a.A.dialog-act.vkaraisk.175,A,A,0.0,0.0,False,False,0.0,[],False, And we're hoping for a aim of fifty million Euros,10,task,Inform
+TS3005a,A,784.18,789.62,5.44,TS3005a.A.dialog-act.vkaraisk.176,A,A,0.0,0.0,False,False,0.0,[],False, and uh we are hoping to achieve that uh by aiming for an international market.,15,task,Inform
+TS3005a,A,789.62,792.81,3.19,TS3005a.A.dialog-act.vkaraisk.177,A,A,2.86,0.0,False,False,0.0,[],False, And the production cost will be twelve Euro fifty max.,10,task,Inform
+TS3005a,A,795.03,795.67,0.64,TS3005a.A.dialog-act.vkaraisk.178,,,,,,,,,False," Okay, well",2,minor,Stall
+TS3005a,A,795.67,797.75,2.08,TS3005a.A.dialog-act.vkaraisk.179,A,A,0.0,2.86,False,False,0.0,[],False, it's time uh for some discussion.,6,task,Suggest
+TS3005a,A,797.75,800.72,2.97,TS3005a.A.dialog-act.vkaraisk.180,A,A,0.0,0.0,False,False,0.0,[],False, I've wrote down some examples here of what we can can speak about.,13,task,Inform
+TS3005a,A,800.72,803.37,2.65,TS3005a.A.dialog-act.vkaraisk.182,A,A,0.0,0.0,False,False,0.0,[],False," Uh what's your experience with remote controls,",7,elicit,Elicit-Assessment
+TS3005a,A,803.37,807.11,3.74,TS3005a.A.dialog-act.vkaraisk.184,A,A,0.0,0.0,False,False,0.0,[],False," um what kind of ideas do you have to design a new remote control,",14,elicit,Elicit-Offer-Or-Suggestion
+TS3005a,A,807.11,810.05,2.94,TS3005a.A.dialog-act.vkaraisk.185,A,A,0.0,0.0,False,False,0.0,[],False," maybe for which market segments should we aim,",8,elicit,Elicit-Offer-Or-Suggestion
+TS3005a,A,810.05,811.99,1.94,TS3005a.A.dialog-act.vkaraisk.186,A,A,0.41,0.0,False,False,0.0,[],False, or should we aim for all segments.,7,elicit,Elicit-Offer-Or-Suggestion
+TS3005a,A,811.99,812.4,0.41,TS3005a.A.dialog-act.vkaraisk.187,,,,,,,,,False, Uh well,2,minor,Stall
+TS3005a,A,812.4,814.36,1.96,TS3005a.A.dialog-act.vkaraisk.188,A,A,1.21,0.41,False,False,0.0,[],False, actually I'd like to hand the word uh back to you.,11,task,Suggest
+TS3005a,B,815.441,816.218,0.777,TS3005a.B.dialog-act.vkaraisk.69,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,815.57,818.62,3.05,TS3005a.A.dialog-act.vkaraisk.189,C,A,1.38,1.21,False,False,0.0,[],False, What's your experience with remote control?,6,elicit,Elicit-Assessment
+TS3005a,C,820.0,821.37,1.37,TS3005a.C.dialog-act.vkaraisk.50,B,A,-1.27,1.38,True,True,1.27,['TS3005a.B.dialog-act.vkaraisk.70'],True, A lot of buttons.,4,task,Inform
+TS3005a,B,820.1,822.41,2.31,TS3005a.B.dialog-act.vkaraisk.70,C,C,-1.04,-1.27,True,True,1.04,['TS3005a.C.dialog-act.vkaraisk.51'],False, I always lose them.,4,task,Inform
+TS3005a,D,821.32,821.54,0.22,TS3005a.D.dialog-act.vkaraisk.46,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3005a,C,821.37,823.33,1.96,TS3005a.C.dialog-act.vkaraisk.51,C,B,0.0,-1.04,True,False,0.0,[],False, And you always lose them.,5,task,Inform
+TS3005a,B,822.41,823.05,0.64,TS3005a.B.dialog-act.vkaraisk.71,,,,,,,,,False, Yes.,1,task,Assess
+TS3005a,C,823.33,826.25,2.92,TS3005a.C.dialog-act.vkaraisk.52,B,C,5.177,0.0,False,False,0.0,[],False, A lot of buttons which you don't use,8,task,Inform
+TS3005a,B,824.81,825.09,0.28,TS3005a.B.dialog-act.vkaraisk.72,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3005a,A,826.16,826.45,0.29,TS3005a.A.dialog-act.vkaraisk.190,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3005a,C,826.25,827.74,1.49,TS3005a.C.dialog-act.vkaraisk.53,,,,,,,,,False, or who you don't use,5,minor,Fragment
+TS3005a,D,826.63,827.1,0.47,TS3005a.D.dialog-act.vkaraisk.47,,,,,,,,,False, Complex.,1,task,Assess
+TS3005a,C,827.74,828.32,0.58,TS3005a.C.dialog-act.vkaraisk.54,,,,,,,,,False, Complex.,1,minor,Backchannel
+TS3005a,B,828.02,828.27,0.25,TS3005a.B.dialog-act.vkaraisk.73,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3005a,B,829.52,830.16,0.64,TS3005a.B.dialog-act.vkaraisk.74,,,,,,,,,False,,0,minor,Backchannel
+TS3005a,C,830.29,831.24,0.95,TS3005a.C.dialog-act.vkaraisk.55,,,,,,,,,False, Not user friendly.,3,task,Assess
+TS3005a,B,831.427,834.18,2.753,TS3005a.B.dialog-act.vkaraisk.75,A,C,5.06,5.177,True,False,0.0,[],True," search for the buttons, which one is which",8,task,Inform
+TS3005a,D,831.54,832.0,0.46,TS3005a.D.dialog-act.vkaraisk.48,,,,,,,,,False, No.,1,task,Assess
+TS3005a,C,833.696,834.032,0.336,TS3005a.C.dialog-act.vkaraisk.56,,,,,,,,,False,,0,minor,Fragment
+TS3005a,D,833.91,834.43,0.52,TS3005a.D.dialog-act.vkaraisk.49,,,,,,,,,False, No.,1,minor,Backchannel
+TS3005a,B,834.18,834.624,0.444,TS3005a.B.dialog-act.vkaraisk.76,,,,,,,,,False, and uh,2,minor,Fragment
+TS3005a,C,836.064,836.736,0.672,TS3005a.C.dialog-act.vkaraisk.57,,,,,,,,,False,,0,minor,Fragment
+TS3005a,D,837.15,837.87,0.72,TS3005a.D.dialog-act.vkaraisk.50,,,,,,,,,False, Boring.,1,task,Assess
+TS3005a,B,837.84,838.544,0.704,TS3005a.B.dialog-act.vkaraisk.77,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,838.5,839.24,0.74,TS3005a.A.dialog-act.vkaraisk.191,,,,,,,,,False," Boring,",1,task,Assess
+TS3005a,C,839.072,839.6,0.528,TS3005a.C.dialog-act.vkaraisk.58,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,839.24,841.14,1.9,TS3005a.A.dialog-act.vkaraisk.192,A,B,4.68,5.06,True,False,0.0,[],True, it's not fun to use a remote.,7,task,Assess
+TS3005a,D,840.32,841.55,1.23,TS3005a.D.dialog-act.vkaraisk.51,,,,,,,,,False, No.,1,task,Assess
+TS3005a,C,840.96,841.13,0.17,TS3005a.C.dialog-act.vkaraisk.59,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3005a,D,841.55,842.7,1.15,TS3005a.D.dialog-act.vkaraisk.52,,,,,,,,,False," Black, all black.",3,task,Inform
+TS3005a,B,842.24,842.68,0.44,TS3005a.B.dialog-act.vkaraisk.78,,,,,,,,,False, Well.,1,minor,Backchannel
+TS3005a,A,843.36,843.55,0.19,TS3005a.A.dialog-act.vkaraisk.193,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3005a,D,843.48,844.66,1.18,TS3005a.D.dialog-act.vkaraisk.53,,,,,,,,,False," So,",1,minor,Stall
+TS3005a,C,843.94,845.39,1.45,TS3005a.C.dialog-act.vkaraisk.60,,,,,,,,,False, Black colours.,2,elicit,Elicit-Inform
+TS3005a,D,844.66,844.97,0.31,TS3005a.D.dialog-act.vkaraisk.54,,,,,,,,,False, yeah.,1,task,Inform
+TS3005a,A,845.67,845.82,0.15,TS3005a.A.dialog-act.vkaraisk.194,,,,,,,,,False, Well,1,minor,Stall
+TS3005a,A,845.82,847.28,1.46,TS3005a.A.dialog-act.vkaraisk.195,C,A,3.25,4.68,False,False,0.0,[],False, maybe we should try to make it fun.,8,task,Suggest
+TS3005a,D,847.44,847.78,0.34,TS3005a.D.dialog-act.vkaraisk.55,,,,,,,,,False, Mm-hmm.,1,task,Assess
+TS3005a,C,847.984,849.53,1.546,TS3005a.C.dialog-act.vkaraisk.61,,,,,,,,,False, They use batteries,3,task,Inform
+TS3005a,C,849.53,850.53,1.0,TS3005a.C.dialog-act.vkaraisk.63,,,,,,,,,False, and batteries,2,minor,Fragment
+TS3005a,C,850.53,852.03,1.5,TS3005a.C.dialog-act.vkaraisk.64,D,A,2.73,3.25,True,False,0.0,[],True, uh and poor signal.,4,task,Assess
+TS3005a,A,852.81,853.05,0.24,TS3005a.A.dialog-act.vkaraisk.196,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3005a,D,853.27,853.49,0.22,TS3005a.D.dialog-act.vkaraisk.56,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3005a,C,853.69,854.22,0.53,TS3005a.C.dialog-act.vkaraisk.62,,,,,,,,,False, Uh.,1,minor,Stall
+TS3005a,D,854.47,854.76,0.29,TS3005a.D.dialog-act.vkaraisk.57,,,,,,,,,False, The,1,minor,Fragment
+TS3005a,D,854.76,856.4,1.64,TS3005a.D.dialog-act.vkaraisk.58,B,C,-1.63,2.73,True,True,1.63,['TS3005a.B.dialog-act.vkaraisk.79'],True, the angle you have to use.,6,task,Inform
+TS3005a,B,854.77,859.97,5.2,TS3005a.B.dialog-act.vkaraisk.79,D,D,-2.57,-1.63,True,True,2.57,['TS3005a.D.dialog-act.vkaraisk.59'],False, Perhaps that you have a lot of road remotes r road con remote controls.,14,task,Inform
+TS3005a,D,857.4,860.79,3.39,TS3005a.D.dialog-act.vkaraisk.59,B,B,-0.11,-2.57,True,True,0.11,['TS3005a.B.dialog-act.vkaraisk.81'],False, You had different remote controls for different devices.,8,task,Inform
+TS3005a,C,858.56,858.91,0.35,TS3005a.C.dialog-act.vkaraisk.65,,,,,,,,,False," Yeah,",1,task,Assess
+TS3005a,C,858.91,859.98,1.07,TS3005a.C.dialog-act.vkaraisk.66,,,,,,,,,False," different remote controls,",3,task,Inform
+TS3005a,B,859.97,860.68,0.71,TS3005a.B.dialog-act.vkaraisk.80,,,,,,,,,False," Yes,",1,task,Assess
+TS3005a,C,859.98,860.19,0.21,TS3005a.C.dialog-act.vkaraisk.67,,,,,,,,,False, yeah.,1,task,Assess
+TS3005a,B,860.68,862.88,2.2,TS3005a.B.dialog-act.vkaraisk.81,C,D,0.53,-0.11,True,False,0.0,[],False, perhaps you can integrate them or something.,7,task,Suggest
+TS3005a,D,860.79,861.04,0.25,TS3005a.D.dialog-act.vkaraisk.60,,,,,,,,,False, Yes.,1,task,Assess
+TS3005a,C,863.41,865.68,2.27,TS3005a.C.dialog-act.vkaraisk.68,B,B,0.74,0.53,True,False,0.0,[],True, Uh for the use of different uh devices.,8,elicit,Elicit-Inform
+TS3005a,B,864.71,865.1,0.39,TS3005a.B.dialog-act.vkaraisk.82,,,,,,,,,False, Yes.,1,task,Inform
+TS3005a,D,866.09,866.19,0.1,TS3005a.D.dialog-act.vkaraisk.61,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3005a,B,866.42,867.63,1.21,TS3005a.B.dialog-act.vkaraisk.83,B,C,2.54,0.74,True,False,0.0,[],True, Your stereo and your T_V_,5,task,Inform
+TS3005a,A,866.52,866.77,0.25,TS3005a.A.dialog-act.vkaraisk.197,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3005a,C,866.864,867.168,0.304,TS3005a.C.dialog-act.vkaraisk.69,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,867.63,868.04,0.41,TS3005a.B.dialog-act.vkaraisk.84,,,,,,,,,False, and uh.,2,minor,Fragment
+TS3005a,B,870.17,871.64,1.47,TS3005a.B.dialog-act.vkaraisk.85,D,B,-0.47,2.54,False,True,0.47,['TS3005a.D.dialog-act.vkaraisk.63'],False, Perhaps that's an idea.,4,elicit,Elicit-Assessment
+TS3005a,D,870.92,871.17,0.25,TS3005a.D.dialog-act.vkaraisk.62,,,,,,,,,False, Yeah,1,minor,Stall
+TS3005a,D,871.17,875.93,4.76,TS3005a.D.dialog-act.vkaraisk.63,B,B,0.59,-0.47,True,False,0.0,[],False," but then again you you still have a lot of buttons,",11,task,Assess
+TS3005a,B,875.04,876.52,1.48,TS3005a.B.dialog-act.vkaraisk.86,,,,,,,,,False," Yeah, that's right.",3,task,Assess
+TS3005a,D,875.93,876.336,0.406,TS3005a.D.dialog-act.vkaraisk.64,,,,,,,,,False, so,1,minor,Fragment
+TS3005a,C,876.31,876.49,0.18,TS3005a.C.dialog-act.vkaraisk.70,,,,,,,,,False, Yeah,1,minor,Stall
+TS3005a,C,876.49,877.91,1.42,TS3005a.C.dialog-act.vkaraisk.71,,,,,,,,,False, but you could uh I thin uh,7,minor,Fragment
+TS3005a,B,876.52,877.49,0.97,TS3005a.B.dialog-act.vkaraisk.87,C,D,0.42,0.59,True,False,0.0,[],True, And which you don't use.,5,task,Inform
+TS3005a,C,877.91,887.51,9.6,TS3005a.C.dialog-act.vkaraisk.72,C,B,0.0,0.42,True,False,0.0,[],True, there's a possibility to g uh to uh to put those buttons uh behind some uh kind of uh protection,20,task,Suggest
+TS3005a,D,886.82,887.52,0.7,TS3005a.D.dialog-act.vkaraisk.65,,,,,,,,,False, Flap,1,task,Inform
+TS3005a,C,887.51,890.17,2.66,TS3005a.C.dialog-act.vkaraisk.73,D,C,0.17,0.0,False,False,0.0,[],False, so that if y y you only get to see them when you need 'em.,15,task,Inform
+TS3005a,D,887.52,887.88,0.36,TS3005a.D.dialog-act.vkaraisk.66,,,,,,,,,False, yeah.,1,task,Assess
+TS3005a,B,887.9,888.15,0.25,TS3005a.B.dialog-act.vkaraisk.88,,,,,,,,,False, Right.,1,minor,Backchannel
+TS3005a,D,890.34,892.53,2.19,TS3005a.D.dialog-act.vkaraisk.67,D,C,0.0,0.17,True,False,0.0,[],True," Yeah, okay, that's possible,",4,task,Assess
+TS3005a,C,891.83,892.38,0.55,TS3005a.C.dialog-act.vkaraisk.74,,,,,,,,,False," That's possible,",2,task,Inform
+TS3005a,C,892.38,894.35,1.97,TS3005a.C.dialog-act.vkaraisk.75,,,,,,,,,False, so that you only get the,6,minor,Fragment
+TS3005a,D,892.53,895.19,2.66,TS3005a.D.dialog-act.vkaraisk.68,C,D,-0.84,0.0,False,True,0.67,['TS3005a.C.dialog-act.vkaraisk.76'],False, but it'll get very big the the remote control.,9,task,Assess
+TS3005a,B,893.856,894.82,0.964,TS3005a.B.dialog-act.vkaraisk.90,,,,,,,,,False, Yeah.,1,task,Assess
+TS3005a,C,894.35,895.02,0.67,TS3005a.C.dialog-act.vkaraisk.76,C,D,1.55,-0.84,True,False,0.0,[],False," No n n no,",4,task,Assess
+TS3005a,B,894.82,897.006,2.186,TS3005a.B.dialog-act.vkaraisk.89,,,,,,,,,False, You should just give it to.,6,minor,Fragment
+TS3005a,C,895.02,896.57,1.55,TS3005a.C.dialog-act.vkaraisk.77,,,,,,,,,False, just,1,minor,Fragment
+TS3005a,C,896.57,900.93,4.36,TS3005a.C.dialog-act.vkaraisk.78,C,C,0.0,1.55,False,False,0.0,[],False," Uh for example you got th uh the same size uh remote control you use everyday,",16,task,Suggest
+TS3005a,C,900.93,914.43,13.5,TS3005a.C.dialog-act.vkaraisk.79,C,C,0.0,0.0,False,False,0.0,[],False, but um the usual buttons such as uh um zapping uh as you call it in Dutch. Uh and the volume control uh are only the only possible buttons uh to use directly.,33,task,Suggest
+TS3005a,D,901.35,901.82,0.47,TS3005a.D.dialog-act.vkaraisk.69,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3005a,B,907.696,909.95,2.254,TS3005a.B.dialog-act.vkaraisk.92,,,,,,,,,False, Changing channel.,2,task,Inform
+TS3005a,A,914.32,914.59,0.27,TS3005a.A.dialog-act.vkaraisk.198,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3005a,D,914.32,915.06,0.74,TS3005a.D.dialog-act.vkaraisk.70,,,,,,,,,False, Mm-hmm.,1,task,Assess
+TS3005a,C,914.43,917.77,3.34,TS3005a.C.dialog-act.vkaraisk.83,C,C,0.0,0.0,False,False,0.0,[],False," Or uh the numbers, of course.",6,task,Assess
+TS3005a,D,915.06,915.38,0.32,TS3005a.D.dialog-act.vkaraisk.71,,,,,,,,,False, numbers.,1,task,Inform
+TS3005a,C,917.77,923.15,5.38,TS3005a.C.dialog-act.vkaraisk.80,C,C,0.0,0.0,False,False,0.0,[],False, But uh not uh the buttons used to search on the the channels on your television.,16,task,Suggest
+TS3005a,D,918.13,918.83,0.7,TS3005a.D.dialog-act.vkaraisk.72,,,,,,,,,False, On and off.,3,task,Inform
+TS3005a,C,923.15,925.13,1.98,TS3005a.C.dialog-act.vkaraisk.81,A,C,3.18,0.0,False,False,0.0,[],False," You only use those uh the first time,",8,task,Inform
+TS3005a,C,925.13,925.4,0.27,TS3005a.C.dialog-act.vkaraisk.82,,,,,,,,,False, or.,1,minor,Fragment
+TS3005a,D,925.78,926.45,0.67,TS3005a.D.dialog-act.vkaraisk.73,,,,,,,,,False," Yeah,",1,minor,Stall
+TS3005a,D,926.45,927.41,0.96,TS3005a.D.dialog-act.vkaraisk.74,,,,,,,,,False," play, pause, stop.",3,task,Inform
+TS3005a,C,926.53,927.65,1.12,TS3005a.C.dialog-act.vkaraisk.84,,,,,,,,,False, So. Uh.,2,minor,Stall
+TS3005a,A,927.64,928.31,0.67,TS3005a.A.dialog-act.vkaraisk.199,,,,,,,,,False, Mm-hmm. So,2,minor,Stall
+TS3005a,A,928.31,932.86,4.55,TS3005a.A.dialog-act.vkaraisk.200,C,C,-2.86,3.18,True,True,1.07,"['TS3005a.C.dialog-act.vkaraisk.85', 'TS3005a.B.dialog-act.vkaraisk.94']",True," maybe a a minimalist design, the least uh possible amount uh of buttons.",13,elicit,Elicit-Assessment
+TS3005a,C,930.0,931.07,1.07,TS3005a.C.dialog-act.vkaraisk.85,B,A,1.78,-2.86,True,False,0.0,[],False," Yeah, I think so, yeah.",5,task,Assess
+TS3005a,D,930.265,930.819,0.554,TS3005a.D.dialog-act.vkaraisk.75,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,930.89,931.23,0.34,TS3005a.B.dialog-act.vkaraisk.93,,,,,,,,,False, Yes.,1,minor,Backchannel
+TS3005a,B,932.85,935.92,3.07,TS3005a.B.dialog-act.vkaraisk.94,A,C,10.5,1.78,True,False,0.0,[],True, But you should make sure that you have every button they need on it.,14,task,Suggest
+TS3005a,D,935.84,936.74,0.9,TS3005a.D.dialog-act.vkaraisk.76,,,,,,,,,False," Mm-hmm, of course.",3,task,Assess
+TS3005a,B,935.92,940.25,4.33,TS3005a.B.dialog-act.vkaraisk.95,,,,,,,,,False," Because uh things for uh teletext, I dunno uh, w",10,minor,Fragment
+TS3005a,C,936.032,936.534,0.502,TS3005a.C.dialog-act.vkaraisk.86,,,,,,,,,False,,0,minor,Fragment
+TS3005a,D,938.689,940.061,1.372,TS3005a.D.dialog-act.vkaraisk.77,,,,,,,,,False,,0,minor,Fragment
+TS3005a,C,938.89,942.98,4.09,TS3005a.C.dialog-act.vkaraisk.87,,,,,,,,,False," Yeah, uh teletext.",3,task,Inform
+TS3005a,B,940.25,941.03,0.78,TS3005a.B.dialog-act.vkaraisk.96,,,,,,,,,False, what's the name?,3,elicit,Elicit-Inform
+TS3005a,A,942.36,942.63,0.27,TS3005a.A.dialog-act.vkaraisk.201,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3005a,D,942.623,943.694,1.071,TS3005a.D.dialog-act.vkaraisk.78,,,,,,,,,False,,0,minor,Fragment
+TS3005a,C,942.98,944.23,1.25,TS3005a.C.dialog-act.vkaraisk.88,,,,,,,,,False, think so.,2,task,Inform
+TS3005a,C,944.23,944.58,0.35,TS3005a.C.dialog-act.vkaraisk.89,,,,,,,,,False, Okay.,1,task,Assess
+TS3005a,A,946.01,946.42,0.41,TS3005a.A.dialog-act.vkaraisk.202,,,,,,,,,False, So,1,minor,Stall
+TS3005a,A,946.42,949.1,2.68,TS3005a.A.dialog-act.vkaraisk.203,A,B,0.0,10.5,True,False,0.0,[],True," you don't want to bother people with uh loads of buttons,",11,task,Inform
+TS3005a,A,949.1,950.8,1.7,TS3005a.A.dialog-act.vkaraisk.204,A,A,0.0,0.0,False,False,0.0,[],False, but on the other hand they need many buttons,9,task,Inform
+TS3005a,D,949.11,949.34,0.23,TS3005a.D.dialog-act.vkaraisk.79,,,,,,,,,False, No.,1,task,Assess
+TS3005a,A,950.8,952.23,1.43,TS3005a.A.dialog-act.vkaraisk.205,D,A,2.27,0.0,False,False,0.0,[],False, so they don't have to get out of their seat.,10,task,Inform
+TS3005a,B,952.87,953.73,0.86,TS3005a.B.dialog-act.vkaraisk.97,,,,,,,,,False, Yeah.,1,task,Assess
+TS3005a,D,953.05,953.31,0.26,TS3005a.D.dialog-act.vkaraisk.80,,,,,,,,,False, Yeah.,1,task,Assess
+TS3005a,B,953.73,955.252,1.522,TS3005a.B.dialog-act.vkaraisk.98,,,,,,,,,False, But,1,minor,Fragment
+TS3005a,C,953.88,954.04,0.16,TS3005a.C.dialog-act.vkaraisk.90,,,,,,,,,False, Right.,1,task,Assess
+TS3005a,D,954.5,960.93,6.43,TS3005a.D.dialog-act.vkaraisk.81,B,A,2.1,2.27,True,False,0.0,[],True," Because I think a market will be all kind of people. Elderly p el elderly, young people, so.",18,task,Inform
+TS3005a,B,958.8,963.03,4.23,TS3005a.B.dialog-act.vkaraisk.99,,,,,,,,,False, But if if it's if it's international you should uh look in,12,minor,Fragment
+TS3005a,B,963.03,967.3,4.27,TS3005a.B.dialog-act.vkaraisk.100,B,D,0.0,2.1,True,False,0.0,[],True," think in Britain they have uh different things they can do with the T_V_,",14,task,Inform
+TS3005a,B,967.3,969.93,2.63,TS3005a.B.dialog-act.vkaraisk.101,B,B,0.0,0.0,False,False,0.0,[],False, or so uh that you can choose what you want to see.,12,task,Inform
+TS3005a,B,969.93,974.14,4.21,TS3005a.B.dialog-act.vkaraisk.102,B,B,0.0,0.0,False,False,0.0,[],False," I dunno if you should uh take that in consideration,",10,elicit,Elicit-Assessment
+TS3005a,B,974.14,976.54,2.4,TS3005a.B.dialog-act.vkaraisk.103,D,B,0.9,0.0,False,False,0.0,[],False, or that you just should aim for the normal T_V_s,10,elicit,Elicit-Assessment
+TS3005a,C,974.58,975.04,0.46,TS3005a.C.dialog-act.vkaraisk.91,,,,,,,,,False, Uh.,1,minor,Stall
+TS3005a,B,976.54,976.96,0.42,TS3005a.B.dialog-act.vkaraisk.104,,,,,,,,,False, that uh,2,minor,Fragment
+TS3005a,D,977.44,979.21,1.77,TS3005a.D.dialog-act.vkaraisk.82,C,B,-1.67,0.9,True,True,1.06,['TS3005a.C.dialog-act.vkaraisk.92'],True," Yeah I think that's the better one,",7,task,Assess
+TS3005a,C,977.54,978.6,1.06,TS3005a.C.dialog-act.vkaraisk.92,D,D,2.3,-1.67,True,False,0.0,[],False, Yeah I I understand.,4,other,Comment-About-Understanding
+TS3005a,B,978.92,980.11,1.19,TS3005a.B.dialog-act.vkaraisk.105,,,,,,,,,False, And the B_B_C_.,3,minor,Fragment
+TS3005a,D,979.21,979.536,0.326,TS3005a.D.dialog-act.vkaraisk.83,,,,,,,,,False, because,1,minor,Fragment
+TS3005a,D,980.9,991.29,10.39,TS3005a.D.dialog-act.vkaraisk.84,B,C,0.14,2.3,True,False,0.0,[],True," I think if you you're going to target a lot of people and the whole world and only Britain then I think the cost will uh rise higher than the twelve fifty, I think.",34,task,Inform
+TS3005a,C,987.072,988.18,1.108,TS3005a.C.dialog-act.vkaraisk.93,,,,,,,,,False, No.,1,minor,Backchannel
+TS3005a,B,987.71,988.68,0.97,TS3005a.B.dialog-act.vkaraisk.106,,,,,,,,,False, Yes.,1,task,Assess
+TS3005a,B,991.27,991.43,0.16,TS3005a.B.dialog-act.vkaraisk.107,,,,,,,,,False," Yeah,",1,minor,Backchannel
+TS3005a,B,991.43,993.67,2.24,TS3005a.B.dialog-act.vkaraisk.108,D,D,-1.65,0.14,True,True,1.65,['TS3005a.D.dialog-act.vkaraisk.85'],True," I don't know if the they have that anywhere else, though.",11,task,Inform
+TS3005a,D,992.02,995.91,3.89,TS3005a.D.dialog-act.vkaraisk.85,C,B,2.41,-1.65,True,False,0.0,[],False," I think the aim is better to use uh the whole world and Britain, yeah.",15,task,Assess
+TS3005a,C,995.5,995.94,0.44,TS3005a.C.dialog-act.vkaraisk.94,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3005a,B,996.63,997.97,1.34,TS3005a.B.dialog-act.vkaraisk.109,,,,,,,,,False," Yeah, we can leave that.",5,minor,Fragment
+TS3005a,C,997.25,998.32,1.07,TS3005a.C.dialog-act.vkaraisk.95,,,,,,,,,False, When I think of it uh,6,minor,Fragment
+TS3005a,D,997.62,998.18,0.56,TS3005a.D.dialog-act.vkaraisk.86,,,,,,,,,False, Not that much.,3,other,Other
+TS3005a,C,998.32,1002.75,4.43,TS3005a.C.dialog-act.vkaraisk.96,C,D,1.62,2.41,True,False,0.0,[],True, I think the main idea uh of this remote remote control is uh,13,task,Inform
+TS3005a,C,1004.37,1005.59,1.22,TS3005a.C.dialog-act.vkaraisk.97,C,C,1.98,1.62,False,False,0.0,[],False, to make it user friendly.,5,task,Inform
+TS3005a,C,1005.59,1007.57,1.98,TS3005a.C.dialog-act.vkaraisk.98,,,,,,,,,False, So uh,2,minor,Stall
+TS3005a,C,1007.57,1020.84,13.27,TS3005a.C.dialog-act.vkaraisk.99,C,C,0.71,1.98,False,False,0.0,[],False," I think uh when p uh when uh the customers will buy this remote control, they already have uh the remote control which uh companies uh uh with uh the the standards uh remote control with which comes uh with the television.",42,task,Inform
+TS3005a,D,1015.4,1017.7,2.3,TS3005a.D.dialog-act.vkaraisk.88,,,,,,,,,False, Mm. Standard deliver.,3,task,Inform
+TS3005a,B,1015.56,1016.28,0.72,TS3005a.B.dialog-act.vkaraisk.110,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3005a,A,1020.56,1020.8,0.24,TS3005a.A.dialog-act.vkaraisk.206,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3005a,D,1020.64,1020.95,0.31,TS3005a.D.dialog-act.vkaraisk.87,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3005a,C,1020.84,1021.55,0.71,TS3005a.C.dialog-act.vkaraisk.100,,,,,,,,,False, So uh,2,minor,Stall
+TS3005a,C,1021.55,1025.54,3.99,TS3005a.C.dialog-act.vkaraisk.101,C,C,0.0,0.71,False,False,0.0,[],False, it only has to have uh the most used buttons.,10,task,Suggest
+TS3005a,C,1025.54,1029.33,3.79,TS3005a.C.dialog-act.vkaraisk.102,B,C,1.21,0.0,False,False,0.0,[],False, You don't have to integrate the buttons to search the channels on your television.,14,task,Suggest
+TS3005a,C,1029.33,1030.922,1.592,TS3005a.C.dialog-act.vkaraisk.103,,,,,,,,,False, In those in that,4,minor,Fragment
+TS3005a,D,1029.52,1030.654,1.134,TS3005a.D.dialog-act.vkaraisk.89,,,,,,,,,False, No but,2,minor,Fragment
+TS3005a,B,1029.65,1029.88,0.23,TS3005a.B.dialog-act.vkaraisk.111,,,,,,,,,False, Well,1,minor,Stall
+TS3005a,B,1029.88,1030.54,0.66,TS3005a.B.dialog-act.vkaraisk.112,,,,,,,,,False, but,1,minor,Fragment
+TS3005a,B,1030.54,1034.52,3.98,TS3005a.B.dialog-act.vkaraisk.113,C,C,1.06,1.21,True,False,0.0,[],True, but then you have to to find your other remote control if you want to search.,16,task,Assess
+TS3005a,D,1031.81,1032.84,1.03,TS3005a.D.dialog-act.vkaraisk.90,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3005a,D,1032.84,1033.28,0.44,TS3005a.D.dialog-act.vkaraisk.91,,,,,,,,,False," Yeah,",1,minor,Stall
+TS3005a,D,1033.28,1036.405,3.125,TS3005a.D.dialog-act.vkaraisk.92,,,,,,,,,False, th it it's I think that's not,7,minor,Fragment
+TS3005a,B,1034.52,1034.896,0.376,TS3005a.B.dialog-act.vkaraisk.114,,,,,,,,,False, That's not,2,minor,Fragment
+TS3005a,C,1035.11,1035.26,0.15,TS3005a.C.dialog-act.vkaraisk.104,,,,,,,,,False, Yeah,1,minor,Stall
+TS3005a,C,1035.26,1035.58,0.32,TS3005a.C.dialog-act.vkaraisk.105,,,,,,,,,False, but I,2,minor,Fragment
+TS3005a,C,1035.58,1047.68,12.1,TS3005a.C.dialog-act.vkaraisk.106,C,B,0.0,1.06,True,False,0.0,[],True, but it is impossible to uh to accommodate uh accommodate uh all the buttons on the s on the difference different televisions sets on one remote control. It's impossible.,29,task,Assess
+TS3005a,B,1042.73,1044.76,2.03,TS3005a.B.dialog-act.vkaraisk.115,,,,,,,,,False," Yeah, that's right.",3,task,Assess
+TS3005a,D,1046.8,1048.03,1.23,TS3005a.D.dialog-act.vkaraisk.93,,,,,,,,,False," Yeah, okay.",2,task,Assess
+TS3005a,C,1047.68,1059.712,12.032,TS3005a.C.dialog-act.vkaraisk.107,D,C,-0.432,0.0,False,True,0.432,['TS3005a.D.dialog-act.vkaraisk.95'],False," Because uh for example Sony television uh has the opportunity to s to make uh uh to make it possible for to see on one side of the screen uh teletext, and on the other side uh just n uh regular television. Uh",43,task,Inform
+TS3005a,D,1056.6,1056.87,0.27,TS3005a.D.dialog-act.vkaraisk.94,,,,,,,,,False, No.,1,minor,Backchannel
+TS3005a,B,1057.12,1059.23,2.11,TS3005a.B.dialog-act.vkaraisk.116,,,,,,,,,False, Yeah that's uh.,3,task,Assess
+TS3005a,D,1059.28,1061.95,2.67,TS3005a.D.dialog-act.vkaraisk.95,C,C,0.6,-0.432,True,False,0.0,[],False, I think n m n most televisions nowadays do this.,10,task,Inform
+TS3005a,C,1062.31,1062.55,0.24,TS3005a.C.dialog-act.vkaraisk.108,,,,,,,,,False," Yeah,",1,minor,Stall
+TS3005a,C,1062.55,1066.21,3.66,TS3005a.C.dialog-act.vkaraisk.109,C,D,0.0,0.6,True,False,0.0,[],True," but uh they don't use the same signal, uh on remote control.",12,task,Inform
+TS3005a,B,1063.07,1064.16,1.09,TS3005a.B.dialog-act.vkaraisk.117,,,,,,,,,False, Well not everywhere.,3,task,Assess
+TS3005a,D,1063.57,1065.53,1.96,TS3005a.D.dialog-act.vkaraisk.96,,,,,,,,,False, So I think numerals.,4,minor,Fragment
+TS3005a,C,1066.21,1069.89,3.68,TS3005a.C.dialog-act.vkaraisk.110,D,C,2.08,0.0,False,False,0.0,[],False, Because you can't use a Panasonic uh remote control on a on a Philips television.,15,task,Inform
+TS3005a,D,1069.89,1070.08,0.19,TS3005a.D.dialog-act.vkaraisk.97,,,,,,,,,False," Yeah,",1,minor,Stall
+TS3005a,D,1070.08,1071.79,1.71,TS3005a.D.dialog-act.vkaraisk.98,,,,,,,,,False, but then you have to choose the,7,minor,Fragment
+TS3005a,D,1071.97,1075.11,3.14,TS3005a.D.dialog-act.vkaraisk.99,B,C,-1.11,2.08,True,True,1.11,['TS3005a.B.dialog-act.vkaraisk.119'],True, always with r universal remotes you have to choose the code.,11,task,Inform
+TS3005a,B,1073.91,1074.0,0.09,TS3005a.B.dialog-act.vkaraisk.118,,,,,,,,,False," Yeah,",1,task,Assess
+TS3005a,B,1074.0,1075.63,1.63,TS3005a.B.dialog-act.vkaraisk.119,D,D,-0.52,-1.11,True,True,0.52,"['TS3005a.D.dialog-act.vkaraisk.100', 'TS3005a.C.dialog-act.vkaraisk.111']",False, you can choose the code.,5,task,Inform
+TS3005a,D,1075.11,1077.64,2.53,TS3005a.D.dialog-act.vkaraisk.100,C,B,-2.42,-0.52,True,True,2.42,['TS3005a.C.dialog-act.vkaraisk.111'],False, You can use which which type of television you have.,10,task,Inform
+TS3005a,C,1075.22,1088.01,12.79,TS3005a.C.dialog-act.vkaraisk.111,D,D,-9.18,-2.42,True,True,9.18,['TS3005a.D.dialog-act.vkaraisk.102'],False," Okay. Okay. Okay. Okay,",4,task,Assess
+TS3005a,D,1077.64,1078.83,1.19,TS3005a.D.dialog-act.vkaraisk.101,,,,,,,,,False, That's no problem.,3,task,Inform
+TS3005a,D,1078.83,1088.18,9.35,TS3005a.D.dialog-act.vkaraisk.102,C,C,-0.17,-9.18,True,True,0.17,['TS3005a.C.dialog-act.vkaraisk.112'],False," But I think like the two pages on the same screen, like teletext and normal television, that's that's nowadays standard, I think.",22,task,Inform
+TS3005a,C,1088.01,1094.65,6.64,TS3005a.C.dialog-act.vkaraisk.112,C,D,0.0,-0.17,True,False,0.0,[],False, but uh I think that most people uh th uh will buy the remote control because,16,task,Inform
+TS3005a,C,1094.65,1098.16,3.51,TS3005a.C.dialog-act.vkaraisk.113,C,C,0.0,0.0,False,False,0.0,[],False, because uh the first they lost the one they lost first one,12,task,Inform
+TS3005a,D,1095.37,1095.98,0.61,TS3005a.D.dialog-act.vkaraisk.103,,,,,,,,,False, Simplicity.,1,task,Inform
+TS3005a,C,1098.16,1099.47,1.31,TS3005a.C.dialog-act.vkaraisk.114,C,C,0.0,0.0,False,False,0.0,[],False," or the first one is broken,",6,task,Inform
+TS3005a,D,1098.38,1098.88,0.5,TS3005a.D.dialog-act.vkaraisk.104,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3005a,C,1099.47,1105.48,6.01,TS3005a.C.dialog-act.vkaraisk.115,C,C,0.0,0.0,False,False,0.0,[],False," so uh uh perhaps they have a got a an older television,",12,task,Inform
+TS3005a,D,1099.68,1100.0,0.32,TS3005a.D.dialog-act.vkaraisk.105,,,,,,,,,False," Yeah, yeah.",2,minor,Backchannel
+TS3005a,D,1104.96,1105.33,0.37,TS3005a.D.dialog-act.vkaraisk.106,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3005a,C,1105.48,1110.05,4.57,TS3005a.C.dialog-act.vkaraisk.116,B,C,-0.15,0.0,False,True,0.15,['TS3005a.B.dialog-act.vkaraisk.121'],False, so that option is not uh optional for those uh people.,11,task,Inform
+TS3005a,B,1107.35,1107.63,0.28,TS3005a.B.dialog-act.vkaraisk.120,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3005a,D,1107.61,1108.02,0.41,TS3005a.D.dialog-act.vkaraisk.107,,,,,,,,,False, Yeah,1,minor,Stall
+TS3005a,D,1108.02,1108.08,0.06,TS3005a.D.dialog-act.vkaraisk.108,,,,,,,,,False, g,1,minor,Fragment
+TS3005a,D,1108.08,1108.89,0.81,TS3005a.D.dialog-act.vkaraisk.109,,,,,,,,,False, available.,1,task,Inform
+TS3005a,B,1109.9,1111.58,1.68,TS3005a.B.dialog-act.vkaraisk.121,B,C,0.0,-0.15,True,False,0.0,[],False," But the people have a new television,",7,task,Inform
+TS3005a,D,1110.03,1110.26,0.23,TS3005a.D.dialog-act.vkaraisk.110,,,,,,,,,False, True.,1,task,Assess
+TS3005a,B,1111.58,1116.13,4.55,TS3005a.B.dialog-act.vkaraisk.122,C,B,0.67,0.0,False,False,0.0,[],False," and c if you look into the future, then they want will want the button, if their thing is broke.",20,task,Inform
+TS3005a,C,1114.04,1115.16,1.12,TS3005a.C.dialog-act.vkaraisk.117,,,,,,,,,False," Yeah, yeah.",2,minor,Backchannel
+TS3005a,D,1114.27,1114.77,0.5,TS3005a.D.dialog-act.vkaraisk.111,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3005a,C,1116.8,1118.22,1.42,TS3005a.C.dialog-act.vkaraisk.118,A,B,13.61,0.67,True,False,0.0,[],True, So we should take that in consideration.,7,task,Inform
+TS3005a,B,1118.42,1118.64,0.22,TS3005a.B.dialog-act.vkaraisk.123,,,,,,,,,False, Yeah.,1,task,Assess
+TS3005a,D,1118.56,1118.8,0.24,TS3005a.D.dialog-act.vkaraisk.112,,,,,,,,,False, Mm-hmm.,1,task,Assess
+TS3005a,A,1119.39,1119.69,0.3,TS3005a.A.dialog-act.vkaraisk.207,,,,,,,,,False, Mm-hmm.,1,task,Assess
+TS3005a,D,1121.15,1121.55,0.4,TS3005a.D.dialog-act.vkaraisk.113,,,,,,,,,False, Mm-hmm.,1,task,Assess
+TS3005a,A,1121.6,1122.47,0.87,TS3005a.A.dialog-act.vkaraisk.208,,,,,,,,,False," Okay, well",2,minor,Stall
+TS3005a,A,1122.47,1123.66,1.19,TS3005a.A.dialog-act.vkaraisk.209,,,,,,,,,False, any more ideas?,3,elicit,Elicit-Offer-Or-Suggestion
+TS3005a,C,1125.57,1127.59,2.02,TS3005a.C.dialog-act.vkaraisk.119,,,,,,,,,False," Oh mm,",2,minor,Stall
+TS3005a,B,1125.852,1126.651,0.799,TS3005a.B.dialog-act.vkaraisk.124,,,,,,,,,False,,0,minor,Fragment
+TS3005a,C,1127.59,1128.71,1.12,TS3005a.C.dialog-act.vkaraisk.120,,,,,,,,,False, no.,1,task,Inform
+TS3005a,D,1128.03,1128.81,0.78,TS3005a.D.dialog-act.vkaraisk.114,,,,,,,,,False, Of course.,2,other,Other
+TS3005a,A,1128.21,1128.46,0.25,TS3005a.A.dialog-act.vkaraisk.210,,,,,,,,,False, No?,1,elicit,Elicit-Inform
+TS3005a,B,1128.34,1129.05,0.71,TS3005a.B.dialog-act.vkaraisk.125,,,,,,,,,False, Guess not.,2,task,Inform
+TS3005a,C,1128.71,1129.37,0.66,TS3005a.C.dialog-act.vkaraisk.121,,,,,,,,,False, Things'll come up.,3,task,Inform
+TS3005a,D,1129.75,1129.98,0.23,TS3005a.D.dialog-act.vkaraisk.115,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3005a,A,1130.25,1131.83,1.58,TS3005a.A.dialog-act.vkaraisk.211,,,,,,,,,False," Okay, yeah well",3,minor,Stall
+TS3005a,A,1131.83,1133.8,1.97,TS3005a.A.dialog-act.vkaraisk.212,A,C,0.0,13.61,True,False,0.0,[],True, we have some time.,4,task,Inform
+TS3005a,A,1133.8,1135.82,2.02,TS3005a.A.dialog-act.vkaraisk.213,A,A,0.0,0.0,False,False,0.0,[],False, Let's see what more I have to tell you.,9,task,Suggest
+TS3005a,A,1135.82,1138.17,2.35,TS3005a.A.dialog-act.vkaraisk.214,A,A,0.0,0.0,False,False,0.0,[],False, I don't think there is much left. Nope.,8,task,Inform
+TS3005a,A,1138.17,1139.51,1.34,TS3005a.A.dialog-act.vkaraisk.215,A,A,0.0,0.0,False,False,0.0,[],False, We're starting to close.,4,task,Inform
+TS3005a,A,1139.51,1145.7,6.19,TS3005a.A.dialog-act.vkaraisk.216,A,A,0.0,0.0,False,False,0.0,[],False," Um our next meeting uh will start well we're a little bit early, but our next meeting will start in in thirty minutes.",23,task,Inform
+TS3005a,C,1139.8,1141.003,1.203,TS3005a.C.dialog-act.vkaraisk.122,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,1140.472,1141.658,1.186,TS3005a.B.dialog-act.vkaraisk.126,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,1145.7,1148.86,3.16,TS3005a.A.dialog-act.vkaraisk.217,A,A,1.83,0.0,False,False,0.0,[],False, In the meantime uh there's time for some uh individual actions.,11,task,Inform
+TS3005a,A,1150.69,1154.36,3.67,TS3005a.A.dialog-act.vkaraisk.218,A,A,2.35,1.83,False,False,0.0,[],False," Um, as you can see, the different roles have uh different tasks.",12,task,Inform
+TS3005a,A,1156.71,1159.0,2.29,TS3005a.A.dialog-act.vkaraisk.219,A,A,0.0,2.35,False,False,0.0,[],False, And there's a ping.,4,other,Be-Positive
+TS3005a,B,1157.68,1158.256,0.576,TS3005a.B.dialog-act.vkaraisk.127,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,1159.0,1159.7,0.7,TS3005a.A.dialog-act.vkaraisk.220,C,A,2.62,0.0,False,False,0.0,[],False, Is it my laptop?,4,elicit,Elicit-Inform
+TS3005a,D,1159.75,1160.0,0.25,TS3005a.D.dialog-act.vkaraisk.116,,,,,,,,,False, Yeah.,1,task,Inform
+TS3005a,A,1161.51,1161.89,0.38,TS3005a.A.dialog-act.vkaraisk.221,,,,,,,,,False, Yep.,1,task,Inform
+TS3005a,C,1162.32,1164.07,1.75,TS3005a.C.dialog-act.vkaraisk.123,B,A,-0.36,2.62,True,True,0.36,['TS3005a.B.dialog-act.vkaraisk.129'],True, Stop the meeting now.,4,other,Be-Positive
+TS3005a,A,1163.25,1164.74,1.49,TS3005a.A.dialog-act.vkaraisk.222,,,,,,,,,False, Ah well,2,minor,Stall
+TS3005a,B,1163.38,1163.71,0.33,TS3005a.B.dialog-act.vkaraisk.128,,,,,,,,,False, Yeah,1,minor,Stall
+TS3005a,B,1163.71,1166.192,2.482,TS3005a.B.dialog-act.vkaraisk.129,A,C,-1.102,-0.36,True,True,1.102,['TS3005a.A.dialog-act.vkaraisk.224'],False, meeting will close in five minutes.,6,task,Inform
+TS3005a,A,1164.74,1165.09,0.35,TS3005a.A.dialog-act.vkaraisk.223,,,,,,,,,False," that's good,",2,task,Assess
+TS3005a,A,1165.09,1168.89,3.8,TS3005a.A.dialog-act.vkaraisk.224,A,B,0.0,-1.102,True,False,0.0,[],False," five minutes and uh the meeting's over, uh right on schedule.",11,task,Inform
+TS3005a,C,1167.17,1167.41,0.24,TS3005a.C.dialog-act.vkaraisk.124,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3005a,A,1168.89,1173.46,4.57,TS3005a.A.dialog-act.vkaraisk.225,A,A,0.0,0.0,False,False,0.0,[],False, Um the Marketing Expert will uh will take a look at the user requirement specification.,15,task,Inform
+TS3005a,A,1173.46,1177.77,4.31,TS3005a.A.dialog-act.vkaraisk.226,A,A,0.0,0.0,False,False,0.0,[],False, The User Interface Designer will work out the technical functions design.,11,task,Inform
+TS3005a,A,1177.77,1179.52,1.75,TS3005a.A.dialog-act.vkaraisk.227,A,A,0.0,0.0,False,False,0.0,[],False, And this was the Interface Designer?,6,elicit,Elicit-Inform
+TS3005a,A,1179.52,1181.35,1.83,TS3005a.A.dialog-act.vkaraisk.230,A,A,0.0,0.0,False,False,0.0,[],False, Or the Interaction Designer.,4,elicit,Elicit-Inform
+TS3005a,B,1180.11,1181.58,1.47,TS3005a.B.dialog-act.vkaraisk.130,,,,,,,,,False, Hmm hmm.,2,minor,Stall
+TS3005a,C,1180.58,1181.59,1.01,TS3005a.C.dialog-act.vkaraisk.125,,,,,,,,,False, Mm.,1,minor,Stall
+TS3005a,A,1181.35,1182.51,1.16,TS3005a.A.dialog-act.vkaraisk.228,A,A,0.9,0.0,False,False,0.0,[],False," Or what was it, I_D_?",5,elicit,Elicit-Inform
+TS3005a,B,1181.58,1181.71,0.13,TS3005a.B.dialog-act.vkaraisk.131,,,,,,,,,False, No,1,task,Inform
+TS3005a,C,1181.59,1181.81,0.22,TS3005a.C.dialog-act.vkaraisk.126,,,,,,,,,False, No?,1,other,Other
+TS3005a,D,1181.65,1182.54,0.89,TS3005a.D.dialog-act.vkaraisk.117,,,,,,,,,False, Interface.,1,task,Inform
+TS3005a,B,1181.71,1182.61,0.9,TS3005a.B.dialog-act.vkaraisk.132,,,,,,,,,False, interface.,1,task,Inform
+TS3005a,A,1182.51,1183.41,0.9,TS3005a.A.dialog-act.vkaraisk.229,,,,,,,,,False," Interface Designer, okay,",3,other,Comment-About-Understanding
+TS3005a,A,1183.41,1184.78,1.37,TS3005a.A.dialog-act.vkaraisk.231,A,A,0.0,0.9,False,False,0.0,[],False, first guess was right.,4,task,Assess
+TS3005a,A,1184.78,1187.22,2.44,TS3005a.A.dialog-act.vkaraisk.232,C,A,0.11,0.0,False,False,0.0,[],False, Uh will take a look at the the working design.,10,task,Inform
+TS3005a,C,1187.12,1187.33,0.21,TS3005a.C.dialog-act.vkaraisk.128,,,,,,,,,False," No,",1,task,Assess
+TS3005a,C,1187.33,1189.37,2.04,TS3005a.C.dialog-act.vkaraisk.129,A,A,4.886,0.11,True,False,0.0,[],True," the Industrial Designer will take a look at the working design,",11,task,Inform
+TS3005a,B,1187.64,1188.02,0.38,TS3005a.B.dialog-act.vkaraisk.133,,,,,,,,,False, No,1,task,Assess
+TS3005a,B,1188.02,1188.38,0.36,TS3005a.B.dialog-act.vkaraisk.134,,,,,,,,,False, the,1,minor,Fragment
+TS3005a,B,1188.38,1188.7,0.32,TS3005a.B.dialog-act.vkaraisk.135,,,,,,,,,False, Yeah.,1,task,Assess
+TS3005a,C,1189.37,1192.9,3.53,TS3005a.C.dialog-act.vkaraisk.130,,,,,,,,,False, and the in uh usability interaction,6,minor,Fragment
+TS3005a,B,1190.52,1191.223,0.703,TS3005a.B.dialog-act.vkaraisk.136,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,1191.84,1193.48,1.64,TS3005a.A.dialog-act.vkaraisk.233,,,,,,,,,False," Industrial Designer, okay,",3,other,Comment-About-Understanding
+TS3005a,C,1192.9,1197.03,4.13,TS3005a.C.dialog-act.vkaraisk.131,,,,,,,,,False," Yeah, okay. Okay.",3,task,Assess
+TS3005a,A,1193.48,1193.72,0.24,TS3005a.A.dialog-act.vkaraisk.234,,,,,,,,,False, sorry.,1,other,Be-Positive
+TS3005a,A,1194.256,1197.89,3.634,TS3005a.A.dialog-act.vkaraisk.235,A,C,0.0,4.886,True,False,0.0,[],True, Let's just use the acronyms.,5,task,Suggest
+TS3005a,B,1197.86,1198.556,0.696,TS3005a.B.dialog-act.vkaraisk.137,,,,,,,,,False, So,1,minor,Fragment
+TS3005a,A,1197.89,1202.8,4.91,TS3005a.A.dialog-act.vkaraisk.236,B,A,0.78,0.0,False,False,0.0,[],False, Um and of course specific instructions uh will be sent to you uh through your personal coach.,17,task,Inform
+TS3005a,B,1203.3,1203.58,0.28,TS3005a.B.dialog-act.vkaraisk.138,,,,,,,,,False, So,1,minor,Stall
+TS3005a,B,1203.58,1206.95,3.37,TS3005a.B.dialog-act.vkaraisk.139,A,A,1.67,0.78,True,False,0.0,[],True," I should look at uh what you should be able to do with the remote,",15,other,Comment-About-Understanding
+TS3005a,B,1206.95,1209.339,2.389,TS3005a.B.dialog-act.vkaraisk.140,,,,,,,,,False," or uh, or how I don't really",7,minor,Fragment
+TS3005a,A,1208.62,1213.712,5.092,TS3005a.A.dialog-act.vkaraisk.237,A,B,0.868,1.67,True,False,0.0,[],True," Uh well those instructions will be uh in the email you will receive uh shortly, I hope.",17,task,Inform
+TS3005a,B,1210.16,1212.09,1.93,TS3005a.B.dialog-act.vkaraisk.141,,,,,,,,,False, Right. Alright.,2,other,Comment-About-Understanding
+TS3005a,B,1212.976,1214.64,1.664,TS3005a.B.dialog-act.vkaraisk.142,,,,,,,,,False, Me too.,2,task,Inform
+TS3005a,A,1214.58,1217.25,2.67,TS3005a.A.dialog-act.vkaraisk.238,A,A,0.0,0.868,False,False,0.0,[],False, And of course you have your own uh expertise.,9,other,Be-Positive
+TS3005a,B,1216.448,1217.344,0.896,TS3005a.B.dialog-act.vkaraisk.143,,,,,,,,,False,,0,minor,Fragment
+TS3005a,C,1216.72,1218.368,1.648,TS3005a.C.dialog-act.vkaraisk.133,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,1217.25,1219.58,2.33,TS3005a.A.dialog-act.vkaraisk.239,A,A,0.0,0.0,False,False,0.0,[],False, Well uh that was what I had to say.,9,task,Inform
+TS3005a,D,1217.67,1218.49,0.82,TS3005a.D.dialog-act.vkaraisk.118,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+TS3005a,A,1219.58,1221.12,1.54,TS3005a.A.dialog-act.vkaraisk.240,A,A,3.79,0.0,False,False,0.0,[],False, Uh are there any more questions?,6,elicit,Elicit-Comment-Understanding
+TS3005a,C,1219.78,1220.06,0.28,TS3005a.C.dialog-act.vkaraisk.134,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3005a,D,1221.95,1222.63,0.68,TS3005a.D.dialog-act.vkaraisk.119,,,,,,,,,False, No.,1,task,Inform
+TS3005a,C,1222.84,1223.25,0.41,TS3005a.C.dialog-act.vkaraisk.135,,,,,,,,,False, No.,1,task,Inform
+TS3005a,A,1223.65,1224.24,0.59,TS3005a.A.dialog-act.vkaraisk.241,,,,,,,,,False, No?,1,elicit,Elicit-Inform
+TS3005a,A,1224.24,1224.91,0.67,TS3005a.A.dialog-act.vkaraisk.242,,,,,,,,,False, Okay well,2,task,Assess
+TS3005a,A,1224.91,1229.38,4.47,TS3005a.A.dialog-act.vkaraisk.243,D,A,0.1,3.79,False,False,0.0,[],False, I think then we have to head uh back to our offices and uh start working.,16,task,Suggest
+TS3005a,D,1229.48,1231.42,1.94,TS3005a.D.dialog-act.vkaraisk.120,D,A,0.0,0.1,True,False,0.0,[],True, I have one question.,4,other,Offer
+TS3005a,C,1229.72,1229.98,0.26,TS3005a.C.dialog-act.vkaraisk.136,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3005a,A,1230.26,1230.76,0.5,TS3005a.A.dialog-act.vkaraisk.244,,,,,,,,,False," Okay,",1,task,Assess
+TS3005a,A,1230.76,1231.31,0.55,TS3005a.A.dialog-act.vkaraisk.245,,,,,,,,,False, one question?,2,elicit,Elicit-Inform
+TS3005a,C,1231.29,1231.41,0.12,TS3005a.C.dialog-act.vkaraisk.137,,,,,,,,,False, Oh.,1,other,Other
+TS3005a,D,1231.42,1233.29,1.87,TS3005a.D.dialog-act.vkaraisk.121,D,D,4.253,0.0,False,False,0.0,[],False," Where does it says we have to make a remote,",10,elicit,Elicit-Inform
+TS3005a,D,1233.29,1234.736,1.446,TS3005a.D.dialog-act.vkaraisk.122,,,,,,,,,False, because I presumed,3,minor,Fragment
+TS3005a,D,1237.543,1240.28,2.737,TS3005a.D.dialog-act.vkaraisk.124,A,D,7.59,4.253,False,False,0.0,[],False, She didn't know who.,4,other,Other
+TS3005a,D,1243.04,1243.46,0.42,TS3005a.D.dialog-act.vkaraisk.125,,,,,,,,,False," Okay,",1,task,Assess
+TS3005a,D,1243.46,1244.04,0.58,TS3005a.D.dialog-act.vkaraisk.126,,,,,,,,,False," no,",1,minor,Fragment
+TS3005a,D,1244.04,1244.54,0.5,TS3005a.D.dialog-act.vkaraisk.127,,,,,,,,,False, no problem.,2,task,Assess
+TS3005a,C,1245.104,1248.23,3.126,TS3005a.C.dialog-act.vkaraisk.138,,,,,,,,,False, No problem. Okay.,3,other,Comment-About-Understanding
+TS3005a,B,1245.242,1246.496,1.254,TS3005a.B.dialog-act.vkaraisk.144,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,1245.6,1245.91,0.31,TS3005a.A.dialog-act.vkaraisk.246,,,,,,,,,False, Okay,1,minor,Stall
+TS3005a,A,1245.91,1247.44,1.53,TS3005a.A.dialog-act.vkaraisk.247,,,,,,,,,False, we're still going.,3,minor,Fragment
+TS3005a,D,1246.622,1250.22,3.598,TS3005a.D.dialog-act.vkaraisk.128,,,,,,,,,False, No problem. Yeah.,3,task,Assess
+TS3005a,A,1247.44,1247.87,0.43,TS3005a.A.dialog-act.vkaraisk.248,,,,,,,,,False," Okay, well",2,minor,Stall
+TS3005a,A,1247.87,1253.43,5.56,TS3005a.A.dialog-act.vkaraisk.249,A,D,0.71,7.59,True,False,0.0,[],True, I expect everything will be much clearer with the instructions we will receive uh shortly.,15,task,Inform
+TS3005a,D,1252.27,1253.18,0.91,TS3005a.D.dialog-act.vkaraisk.129,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3005a,B,1252.33,1252.86,0.53,TS3005a.B.dialog-act.vkaraisk.145,,,,,,,,,False, Alright.,1,minor,Backchannel
+TS3005a,A,1253.43,1254.14,0.71,TS3005a.A.dialog-act.vkaraisk.250,,,,,,,,,False, Okay well uh,3,minor,Stall
+TS3005a,C,1254.05,1257.14,3.09,TS3005a.C.dialog-act.vkaraisk.139,,,,,,,,,False, Alrighty. Okay.,2,minor,Backchannel
+TS3005a,A,1254.14,1256.16,2.02,TS3005a.A.dialog-act.vkaraisk.251,,A,,0.71,False,False,0.0,[],False," see you all in about thirty minutes, then.",8,task,Suggest
+TS3005a,B,1255.7,1255.85,0.15,TS3005a.B.dialog-act.vkaraisk.146,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3005a,D,1255.808,1256.96,1.152,TS3005a.D.dialog-act.vkaraisk.130,,,,,,,,,False,,0,minor,Fragment
+TS3005a,A,1256.16,1256.56,0.4,TS3005a.A.dialog-act.vkaraisk.252,,,,,,,,,False, Thank you very much.,4,other,Be-Positive
+TS3005a,C,1261.531,1263.832,2.301,TS3005a.C.dialog-act.vkaraisk.140,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,1262.528,1263.104,0.576,TS3005a.B.dialog-act.vkaraisk.149,,,,,,,,,False,,0,minor,Fragment
+TS3005a,B,1269.26,1270.032,0.772,TS3005a.B.dialog-act.vkaraisk.147,,,,,,,,,False, Yeah.,1,task,Assess
+TS3005a,B,1273.73,1276.12,2.39,TS3005a.B.dialog-act.vkaraisk.148,,,,,,,,,False, Okay.,1,other,Other

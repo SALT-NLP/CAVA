@@ -1,0 +1,652 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+ES2011b,D,31.54,31.8,0.26,ES2011b.D.dialog-act.dharshi.1,,,,,,,,,False, Okay.,1,task,Assess
+ES2011b,A,33.49,36.52,3.03,ES2011b.A.dialog-act.dharshi.1,A,,1.45,,True,False,0.0,[],False," 'Kay so we'll try to zip through this, since we're short on time.",13,task,Suggest
+ES2011b,A,36.52,37.97,1.45,ES2011b.A.dialog-act.dharshi.2,,,,,,,,,False, Welcome everybody.,2,other,Be-Positive
+ES2011b,A,37.97,41.52,3.55,ES2011b.A.dialog-act.dharshi.3,A,A,0.0,1.45,False,False,0.0,[],False, Um hope your sessions went well.,6,other,Be-Positive
+ES2011b,A,41.52,45.68,4.16,ES2011b.A.dialog-act.dharshi.4,A,A,0.0,0.0,False,False,0.0,[],False," Um so this is our functional design meeting,",8,task,Inform
+ES2011b,A,45.68,56.89,11.21,ES2011b.A.dialog-act.dharshi.5,A,A,0.0,0.0,False,False,0.0,[],False," we're going to consider um user needs, technical effects, and the working design of our remote control.",17,task,Inform
+ES2011b,A,56.89,61.33,4.44,ES2011b.A.dialog-act.dharshi.6,A,A,0.0,0.0,False,False,0.0,[],False," Um I've been taking meetings on the minute minutes on the meetings,",12,task,Inform
+ES2011b,A,61.33,63.59,2.26,ES2011b.A.dialog-act.dharshi.7,A,A,0.0,0.0,False,False,0.0,[],False, and I'll be putting them in the shared documents folder,10,other,Offer
+ES2011b,A,63.59,67.24,3.65,ES2011b.A.dialog-act.dharshi.8,A,A,0.0,0.0,False,False,0.0,[],False, so if there's anything you need to refer to you can find them in there.,15,task,Inform
+ES2011b,A,67.24,70.84,3.6,ES2011b.A.dialog-act.dharshi.9,A,A,0.0,0.0,False,False,0.0,[],False," Um I I'll get the ones up for next time,",10,other,Offer
+ES2011b,A,70.84,72.84,2.0,ES2011b.A.dialog-act.dharshi.10,A,A,0.34,0.0,False,False,0.0,[],False, um they're not finished yet.,5,task,Inform
+ES2011b,A,72.84,73.18,0.34,ES2011b.A.dialog-act.dharshi.11,,,,,,,,,False, Right.,1,minor,Stall
+ES2011b,A,73.18,77.99,4.81,ES2011b.A.dialog-act.dharshi.12,A,A,0.0,0.34,False,False,0.0,[],False, Um so can we have updates from everyone from what you've worked,12,task,Suggest
+ES2011b,A,77.99,84.93,6.94,ES2011b.A.dialog-act.dharshi.13,D,A,-1.74,0.0,False,True,1.74,['ES2011b.D.dialog-act.dharshi.2'],False, on just kind of a quick summary of anything interesting that you'd like to share or discuss in this,19,task,Inform
+ES2011b,D,83.19,85.48,2.29,ES2011b.D.dialog-act.dharshi.2,D,A,0.76,-1.74,True,False,0.0,[],False, And I can start if you want. Mm.,8,other,Offer
+ES2011b,A,84.93,86.02,1.09,ES2011b.A.dialog-act.dharshi.14,,,,,,,,,False, sure.,1,task,Assess
+ES2011b,D,86.24,86.96,0.72,ES2011b.D.dialog-act.dharshi.3,D,D,1.09,0.76,False,False,0.0,[],False, Is there an order?,4,elicit,Elicit-Inform
+ES2011b,D,86.96,88.05,1.09,ES2011b.D.dialog-act.dharshi.4,,,,,,,,,False, No.,1,elicit,Elicit-Inform
+ES2011b,D,88.05,89.41,1.36,ES2011b.D.dialog-act.dharshi.5,A,D,0.96,1.09,False,False,0.0,[],False, We haven't decided on an order.,6,elicit,Elicit-Inform
+ES2011b,A,88.39,88.58,0.19,ES2011b.A.dialog-act.dharshi.15,,,,,,,,,False, Hm?,1,other,Comment-About-Understanding
+ES2011b,A,90.37,92.6,2.23,ES2011b.A.dialog-act.dharshi.16,D,D,0.14,0.96,True,False,0.0,[],True," No, any any order's fine. Yeah.",6,task,Inform
+ES2011b,D,90.38,91.73,1.35,ES2011b.D.dialog-act.dharshi.9,,,,,,,,,False, First.,1,minor,Backchannel
+ES2011b,D,91.73,92.74,1.01,ES2011b.D.dialog-act.dharshi.10,,,,,,,,,False, Okay.,1,task,Assess
+ES2011b,D,92.74,95.31,2.57,ES2011b.D.dialog-act.dharshi.11,D,A,0.0,0.14,True,False,0.0,[],True," Um, how do I put this",6,elicit,Elicit-Inform
+ES2011b,B,95.3,95.888,0.588,ES2011b.B.dialog-act.dharshi.1,,,,,,,,,False, Just uh,2,minor,Fragment
+ES2011b,D,95.31,96.73,1.42,ES2011b.D.dialog-act.dharshi.12,D,D,17.23,0.0,False,False,0.0,[],False, I'll just put the cable in.,6,other,Offer
+ES2011b,A,98.48,98.83,0.35,ES2011b.A.dialog-act.dharshi.17,,,,,,,,,False," Oh yeah,",2,task,Assess
+ES2011b,A,98.83,99.05,0.22,ES2011b.A.dialog-act.dharshi.18,,,,,,,,,False, sorry.,1,other,Be-Positive
+ES2011b,D,101.235,102.04,0.805,ES2011b.D.dialog-act.dharshi.8,,,,,,,,,False,,0,minor,Fragment
+ES2011b,D,107.96,108.56,0.6,ES2011b.D.dialog-act.dharshi.13,,,,,,,,,False, Is that it?,3,elicit,Elicit-Inform
+ES2011b,D,108.56,109.05,0.49,ES2011b.D.dialog-act.dharshi.14,,,,,,,,,False, Can you see?,3,elicit,Elicit-Inform
+ES2011b,D,109.05,111.36,2.31,ES2011b.D.dialog-act.dharshi.15,,,,,,,,,False," Oh, here. Okay.",3,task,Assess
+ES2011b,D,113.96,115.85,1.89,ES2011b.D.dialog-act.dharshi.16,A,D,-0.53,17.23,False,True,0.53,['ES2011b.A.dialog-act.dharshi.19'],False, So what happens it doesn't work?,6,elicit,Elicit-Inform
+ES2011b,A,115.32,117.93,2.61,ES2011b.A.dialog-act.dharshi.19,D,D,17.46,-0.53,True,False,0.0,[],False, It sh it takes a few seconds I think.,9,task,Inform
+ES2011b,B,124.99,125.888,0.898,ES2011b.B.dialog-act.dharshi.2,,,,,,,,,False, You may need to,4,minor,Fragment
+ES2011b,C,129.668,133.184,3.516,ES2011b.C.dialog-act.dharshi.2,,,,,,,,,False, Who's that?,2,elicit,Elicit-Inform
+ES2011b,D,131.056,131.696,0.64,ES2011b.D.dialog-act.dharshi.6,,,,,,,,,False,,0,minor,Fragment
+ES2011b,D,133.13,133.41,0.28,ES2011b.D.dialog-act.dharshi.17,,,,,,,,,False, No.,1,task,Assess
+ES2011b,C,133.184,156.976,23.792,ES2011b.C.dialog-act.dharshi.1,,,,,,,,,False,,0,minor,Fragment
+ES2011b,D,135.39,136.48,1.09,ES2011b.D.dialog-act.dharshi.18,B,A,0.3,17.46,True,False,0.0,[],True, Is it in the right thing?,6,elicit,Elicit-Inform
+ES2011b,B,135.74,136.78,1.04,ES2011b.B.dialog-act.dharshi.3,,,,,,,,,False, But sometimes you have to do it,7,minor,Stall
+ES2011b,B,136.78,142.77,5.99,ES2011b.B.dialog-act.dharshi.4,D,D,3.69,0.3,True,False,0.0,[],True," it's like a three set setting cycle, so press it a couple times, hold down function and then press F_ eight.",21,task,Inform
+ES2011b,D,142.19,143.81,1.62,ES2011b.D.dialog-act.dharshi.19,,,,,,,,,False," Oh wait, um.",3,other,Other
+ES2011b,D,146.46,148.208,1.748,ES2011b.D.dialog-act.dharshi.20,A,B,-0.018,3.69,True,True,0.018,['ES2011b.A.dialog-act.dharshi.20'],True, Uh. You need to help me.,6,task,Suggest
+ES2011b,A,148.19,151.2,3.01,ES2011b.A.dialog-act.dharshi.20,C,D,5.8,-0.018,True,False,0.0,[],False," Uh-huh, and then press function.",5,task,Inform
+ES2011b,D,150.542,151.139,0.597,ES2011b.D.dialog-act.dharshi.7,,,,,,,,,False,,0,minor,Fragment
+ES2011b,D,152.15,152.77,0.62,ES2011b.D.dialog-act.dharshi.21,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,A,152.37,153.43,1.06,ES2011b.A.dialog-act.dharshi.21,,,,,,,,,False, and F_ eight.,3,task,Inform
+ES2011b,C,157.0,158.37,1.37,ES2011b.C.dialog-act.dharshi.3,B,A,7.39,5.8,True,False,0.0,[],True, Could you just plug it back into hers,8,task,Suggest
+ES2011b,C,158.37,159.45,1.08,ES2011b.C.dialog-act.dharshi.4,,,,,,,,,False, because she had,3,minor,Fragment
+ES2011b,D,158.5,159.42,0.92,ES2011b.D.dialog-act.dharshi.22,,,,,,,,,False," Oh, wait.",2,other,Other
+ES2011b,D,159.42,159.84,0.42,ES2011b.D.dialog-act.dharshi.23,,,,,,,,,False, That's,1,minor,Stall
+ES2011b,C,159.45,159.61,0.16,ES2011b.C.dialog-act.dharshi.5,,,,,,,,,False, oh.,1,other,Unlabelled
+ES2011b,D,159.84,160.62,0.78,ES2011b.D.dialog-act.dharshi.24,,,,,,,,,False, is that it?,3,elicit,Elicit-Inform
+ES2011b,B,160.55,161.12,0.57,ES2011b.B.dialog-act.dharshi.6,,,,,,,,,False, Adjusting.,1,minor,Fragment
+ES2011b,A,162.66,162.99,0.33,ES2011b.A.dialog-act.dharshi.23,,,,,,,,,False, Here we are.,3,other,Other
+ES2011b,A,164.864,165.392,0.528,ES2011b.A.dialog-act.dharshi.22,,,,,,,,,False,,0,minor,Fragment
+ES2011b,B,165.76,167.99,2.23,ES2011b.B.dialog-act.dharshi.7,D,C,-0.08,7.39,True,True,0.08,['ES2011b.D.dialog-act.dharshi.25'],True, The cable might be a little loose or something.,9,task,Inform
+ES2011b,D,167.91,169.75,1.84,ES2011b.D.dialog-act.dharshi.25,B,B,-1.76,-0.08,True,True,0.63,"['ES2011b.B.dialog-act.dharshi.8', 'ES2011b.A.dialog-act.dharshi.24']",False, Right here we are.,4,task,Assess
+ES2011b,B,167.99,168.56,0.57,ES2011b.B.dialog-act.dharshi.8,A,D,0.56,-1.76,True,False,0.0,[],False," Oh, you got it.",4,task,Assess
+ES2011b,A,169.12,170.36,1.24,ES2011b.A.dialog-act.dharshi.24,D,B,1.69,0.56,True,False,0.0,[],True, Oh. Is it on?,4,elicit,Elicit-Inform
+ES2011b,D,169.75,170.59,0.84,ES2011b.D.dialog-act.dharshi.26,,,,,,,,,False, We're here.,2,task,Inform
+ES2011b,A,170.36,170.8,0.44,ES2011b.A.dialog-act.dharshi.25,,,,,,,,,False, Okay.,1,task,Assess
+ES2011b,D,170.59,172.05,1.46,ES2011b.D.dialog-act.dharshi.27,,,,,,,,,False," Okay, um.",2,minor,Stall
+ES2011b,D,172.05,177.39,5.34,ES2011b.D.dialog-act.dharshi.28,D,A,1.7,1.69,True,False,0.0,[],True," In order to see what the functional requirements were to be found, um",13,task,Inform
+ES2011b,D,179.09,183.17,4.08,ES2011b.D.dialog-act.dharshi.29,D,D,3.56,1.7,False,False,0.0,[],False, a hundred people were tested in a usability laboratory,9,task,Inform
+ES2011b,D,183.17,186.73,3.56,ES2011b.D.dialog-act.dharshi.30,,,,,,,,,False, through just their habits to n know,7,minor,Stall
+ES2011b,D,186.73,190.71,3.98,ES2011b.D.dialog-act.dharshi.31,D,D,0.0,3.56,False,False,0.0,[],False, their habits were observed and questionnaires were given out.,9,task,Inform
+ES2011b,D,190.71,197.3,6.59,ES2011b.D.dialog-act.dharshi.32,D,D,0.0,0.0,False,False,0.0,[],False," Um, the findings in in some cases matched what we were talking about.",13,task,Inform
+ES2011b,D,197.3,202.67,5.37,ES2011b.D.dialog-act.dharshi.33,D,D,0.0,0.0,False,False,0.0,[],False," Custome Customers and users don't like the way remote controls look,",11,task,Inform
+ES2011b,D,202.67,204.52,1.85,ES2011b.D.dialog-act.dharshi.34,D,D,0.0,0.0,False,False,0.0,[],False," they don't like the way they feel,",7,task,Inform
+ES2011b,D,204.52,208.07,3.55,ES2011b.D.dialog-act.dharshi.35,D,D,0.0,0.0,False,False,0.0,[],False," they don't think they match their operating behaviour,",8,task,Inform
+ES2011b,D,208.07,212.97,4.9,ES2011b.D.dialog-act.dharshi.37,D,D,0.0,0.0,False,False,0.0,[],False," and an example is what we were talking about, the buttons, they only use ten per cent of the buttons,",20,task,Inform
+ES2011b,D,212.97,216.22,3.25,ES2011b.D.dialog-act.dharshi.38,D,D,0.0,0.0,False,False,0.0,[],False, so later on there's a study of the buttons that they use most,13,task,Inform
+ES2011b,D,216.22,220.02,3.8,ES2011b.D.dialog-act.dharshi.39,D,D,0.0,0.0,False,False,0.0,[],False, and I think we should design according to these buttons.,10,task,Suggest
+ES2011b,D,220.02,221.8,1.78,ES2011b.D.dialog-act.dharshi.40,D,D,0.0,0.0,False,False,0.0,[],False," Easy to lose, and R_S_I_.",5,task,Inform
+ES2011b,D,221.8,223.88,2.08,ES2011b.D.dialog-act.dharshi.41,D,D,0.0,0.0,False,False,0.0,[],False, I don't know what R_S_I_ means.,6,task,Inform
+ES2011b,D,223.88,228.14,4.26,ES2011b.D.dialog-act.dharshi.42,D,D,0.6,0.0,False,False,0.0,[],False," Um the person that did the questionnaire obviously did, I don't have a clue.",14,task,Inform
+ES2011b,A,227.72,227.9,0.18,ES2011b.A.dialog-act.dharshi.26,,,,,,,,,False, Hm.,1,minor,Backchannel
+ES2011b,D,228.74,241.23,12.49,ES2011b.D.dialog-act.dharshi.43,D,D,0.0,0.6,False,False,0.0,[],False," Um, according to the frequency of use and the relevance of each buttons, I have made a list of the buttons that we should focus on in order of importance.",30,task,Inform
+ES2011b,D,241.23,244.83,3.6,ES2011b.D.dialog-act.dharshi.44,D,D,0.0,0.0,False,False,0.0,[],False, So the most important buttons are those to do with channel selection.,12,task,Inform
+ES2011b,D,244.83,249.16,4.33,ES2011b.D.dialog-act.dharshi.45,D,D,2.21,0.0,False,False,0.0,[],False, They're used about a hundred and sixty times per hour.,10,task,Inform
+ES2011b,D,249.16,250.43,1.27,ES2011b.D.dialog-act.dharshi.46,,,,,,,,,False, And um,2,minor,Stall
+ES2011b,D,251.37,254.44,3.07,ES2011b.D.dialog-act.dharshi.47,D,D,0.0,2.21,False,False,0.0,[],False," yeah so and and people like to zap a lot apparently,",11,task,Inform
+ES2011b,D,254.44,256.12,1.68,ES2011b.D.dialog-act.dharshi.48,D,D,0.0,0.0,False,False,0.0,[],False, so this is the order.,5,task,Inform
+ES2011b,D,256.12,260.1,3.98,ES2011b.D.dialog-act.dharshi.49,D,D,0.0,0.0,False,False,0.0,[],False," Channel selection, teletext, volume, and power.",6,task,Inform
+ES2011b,D,260.1,267.14,7.04,ES2011b.D.dialog-act.dharshi.50,D,D,0.0,0.0,False,False,0.0,[],False," The other ones are the settings, and they're used less than you know zero point eight to zero point five times per hour,",23,task,Inform
+ES2011b,D,267.14,272.12,4.98,ES2011b.D.dialog-act.dharshi.51,D,D,0.0,0.0,False,False,0.0,[],False," and this means that I think we can we could have like a a button for all the settings,",19,task,Inform
+ES2011b,D,272.12,273.11,0.99,ES2011b.D.dialog-act.dharshi.52,D,D,0.0,0.0,False,False,0.0,[],False," and then, just one,",4,task,Inform
+ES2011b,D,273.11,278.72,5.61,ES2011b.D.dialog-act.dharshi.53,D,D,1.35,0.0,False,False,0.0,[],False," and then from there go on to the audio on the screen, either on the remote or on the television.",20,task,Inform
+ES2011b,D,278.72,279.33,0.61,ES2011b.D.dialog-act.dharshi.54,,,,,,,,,False," Um,",1,minor,Stall
+ES2011b,D,280.07,286.48,6.41,ES2011b.D.dialog-act.dharshi.55,D,D,0.0,1.35,False,False,0.0,[],False," about the screen, and speech recognition, some people are more willing than others to actually pay for that.",18,task,Inform
+ES2011b,D,286.48,293.4,6.92,ES2011b.D.dialog-act.dharshi.56,D,D,0.0,0.0,False,False,0.0,[],False," And if we look at the market, f people from well from fifteen to thirty five year old year olds,",20,task,Inform
+ES2011b,D,293.4,295.34,1.94,ES2011b.D.dialog-act.dharshi.57,D,D,0.0,0.0,False,False,0.0,[],False," I don't really know how to describe this,",8,task,Inform
+ES2011b,D,295.34,304.5,9.16,ES2011b.D.dialog-act.dharshi.58,D,D,0.0,0.0,False,False,0.0,[],False," um ninety one to seventy six percent of people in that age range are willing to pay more for this sort of product,",23,task,Inform
+ES2011b,D,304.5,311.53,7.03,ES2011b.D.dialog-act.dharshi.59,D,D,0.0,0.0,False,False,0.0,[],False," while people that are above thirty five years ol um years old go from thirty five percent to eight percent,",20,task,Inform
+ES2011b,D,311.53,317.15,5.62,ES2011b.D.dialog-act.dharshi.60,D,D,0.0,0.0,False,False,0.0,[],False, so people that are sixty five for example wouldn't actually pay for this sort of thing.,16,task,Inform
+ES2011b,D,317.15,322.06,4.91,ES2011b.D.dialog-act.dharshi.61,D,D,0.0,0.0,False,False,0.0,[],False," Um I don't I don't know um what the decision to be made is,",14,task,Assess
+ES2011b,D,322.06,331.92,9.86,ES2011b.D.dialog-act.dharshi.62,D,D,0.0,0.0,False,False,0.0,[],False," but I think that the people that actually do buy remotes m more are those like teenagers and young professionals and um, most likely,",24,task,Inform
+ES2011b,D,331.92,333.63,1.71,ES2011b.D.dialog-act.dharshi.63,D,D,1.01,0.0,False,False,0.0,[],False, but we should discuss this together.,6,task,Suggest
+ES2011b,D,334.64,338.26,3.62,ES2011b.D.dialog-act.dharshi.64,D,D,4.05,1.01,False,False,0.0,[],False," And that's all I have to say about the matter, um.",11,task,Inform
+ES2011b,A,337.77,338.68,0.91,ES2011b.A.dialog-act.dharshi.27,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+ES2011b,D,341.89,342.31,0.42,ES2011b.D.dialog-act.dharshi.65,,,,,,,,,False, Shall I,2,minor,Stall
+ES2011b,D,342.31,343.1,0.79,ES2011b.D.dialog-act.dharshi.66,D,D,0.0,4.05,False,False,0.0,[],False, what do I do?,4,elicit,Elicit-Inform
+ES2011b,D,343.1,344.56,1.46,ES2011b.D.dialog-act.dharshi.67,A,D,-0.16,0.0,False,True,0.16,['ES2011b.A.dialog-act.dharshi.28'],False, Do I give this to someone else?,7,elicit,Elicit-Inform
+ES2011b,A,344.4,345.83,1.43,ES2011b.A.dialog-act.dharshi.28,C,D,31.98,-0.16,True,False,0.0,[],False, Yeah. Just move right on.,5,task,Inform
+ES2011b,C,350.17,350.84,0.67,ES2011b.C.dialog-act.dharshi.6,,,,,,,,,False, Right.,1,task,Assess
+ES2011b,C,352.15,354.01,1.86,ES2011b.C.dialog-act.dharshi.7,,,,,,,,,False, So get this.,3,other,Other
+ES2011b,C,377.81,381.85,4.04,ES2011b.C.dialog-act.dharshi.8,A,A,0.086,31.98,True,False,0.0,[],True," Okay so now I need to press F_ eight, what is it?",12,elicit,Elicit-Inform
+ES2011b,A,381.936,383.52,1.584,ES2011b.A.dialog-act.dharshi.29,A,C,7.97,0.086,True,False,0.0,[],True, Uh function F_ eight.,4,task,Inform
+ES2011b,D,382.44,383.42,0.98,ES2011b.D.dialog-act.dharshi.68,,,,,,,,,False, Function F_ eight.,3,task,Inform
+ES2011b,C,389.19,390.16,0.97,ES2011b.C.dialog-act.dharshi.9,,,,,,,,,False, 'Kay.,1,task,Assess
+ES2011b,C,390.16,391.2,1.04,ES2011b.C.dialog-act.dharshi.10,,,,,,,,,False, What's function?,2,elicit,Elicit-Inform
+ES2011b,A,391.49,393.78,2.29,ES2011b.A.dialog-act.dharshi.30,C,A,-0.7,7.97,False,True,0.7,['ES2011b.C.dialog-act.dharshi.11'],False, It's the little blue w it's the one th,9,task,Inform
+ES2011b,C,393.08,393.9,0.82,ES2011b.C.dialog-act.dharshi.11,A,A,11.83,-0.7,True,False,0.0,[],False," Oh function, I see it.",5,task,Assess
+ES2011b,A,393.78,394.57,0.79,ES2011b.A.dialog-act.dharshi.31,,,,,,,,,False, yeah.,1,task,Assess
+ES2011b,C,397.68,398.38,0.7,ES2011b.C.dialog-act.dharshi.12,,,,,,,,,False, There we go.,3,other,Other
+ES2011b,A,398.05,398.816,0.766,ES2011b.A.dialog-act.dharshi.32,,,,,,,,,False, Yeah should be,3,minor,Fragment
+ES2011b,C,399.987,400.995,1.008,ES2011b.C.dialog-act.dharshi.13,,,,,,,,,False,,0,minor,Fragment
+ES2011b,A,405.73,406.78,1.05,ES2011b.A.dialog-act.dharshi.33,C,C,7.29,11.83,True,False,0.0,[],True, It should be yeah.,4,task,Inform
+ES2011b,C,410.55,412.01,1.46,ES2011b.C.dialog-act.dharshi.14,,,,,,,,,False, Okay. Um.,2,minor,Stall
+ES2011b,C,414.07,418.59,4.52,ES2011b.C.dialog-act.dharshi.15,C,A,0.0,7.29,True,False,0.0,[],True, This my presentation about the uh technical functions design,9,task,Inform
+ES2011b,C,418.59,430.95,12.36,ES2011b.C.dialog-act.dharshi.16,C,C,0.0,0.0,False,False,0.0,[],False, and I basically just tried to focus on um just what what functions we need and how to make that the best function for the user.,26,task,Inform
+ES2011b,C,430.95,435.42,4.47,ES2011b.C.dialog-act.dharshi.17,C,C,0.0,0.0,False,False,0.0,[],False, So uh and I just sort of like thought about it myself and looked on the internet.,17,task,Inform
+ES2011b,A,434.352,434.912,0.56,ES2011b.A.dialog-act.dharshi.34,,,,,,,,,False,,0,minor,Fragment
+ES2011b,C,435.42,445.32,9.9,ES2011b.C.dialog-act.dharshi.18,C,C,0.0,0.0,False,False,0.0,[],False, And okay so basically um I think i uh like it is really important that we sort of get this done in a user friendly and fashionable way.,28,task,Inform
+ES2011b,C,445.32,448.61,3.29,ES2011b.C.dialog-act.dharshi.19,C,C,1.27,0.0,False,False,0.0,[],False, Um so I think things like uh,7,task,Suggest
+ES2011b,C,449.88,456.16,6.28,ES2011b.C.dialog-act.dharshi.20,C,C,2.33,1.27,False,False,0.0,[],False," you know keeping buttons together that like close together that um are used in the same way,",17,task,Suggest
+ES2011b,C,456.16,458.49,2.33,ES2011b.C.dialog-act.dharshi.21,,,,,,,,,False, uh,1,minor,Stall
+ES2011b,C,458.49,462.53,4.04,ES2011b.C.dialog-act.dharshi.22,C,C,0.0,2.33,False,False,0.0,[],False," or um maybe that making 'em the same colour,",9,task,Suggest
+ES2011b,C,462.53,467.18,4.65,ES2011b.C.dialog-act.dharshi.23,C,C,0.0,0.0,False,False,0.0,[],False," keeping the number of buttons the uh leas you know to a minimum,",13,task,Suggest
+ES2011b,C,467.18,475.22,8.04,ES2011b.C.dialog-act.dharshi.24,C,C,0.0,0.0,False,False,0.0,[],False, and also things like is it is it um is it uh can you c y small enough large enough,20,task,Inform
+ES2011b,C,475.22,476.44,1.22,ES2011b.C.dialog-act.dharshi.25,C,C,0.0,0.0,False,False,0.0,[],False, I'm not sure we c,5,task,Assess
+ES2011b,C,476.44,484.13,7.69,ES2011b.C.dialog-act.dharshi.26,C,C,0.0,0.0,False,False,0.0,[],False," I guess we would need to do some research about, I would, about what size is appropriate and that sort of thing,",22,task,Suggest
+ES2011b,C,484.13,487.59,3.46,ES2011b.C.dialog-act.dharshi.27,C,C,0.0,0.0,False,False,0.0,[],False, um but basically we need to make sure that it turns on and off the T_V_.,16,task,Inform
+ES2011b,C,487.59,490.24,2.65,ES2011b.C.dialog-act.dharshi.28,C,C,2.49,0.0,False,False,0.0,[],False, Does it have like capacity to change the channels?,9,task,Inform
+ES2011b,C,490.24,492.73,2.49,ES2011b.C.dialog-act.dharshi.29,,,,,,,,,False, Um does it do,4,minor,Stall
+ES2011b,C,492.73,497.2,4.47,ES2011b.C.dialog-act.dharshi.30,C,C,0.0,2.49,False,False,0.0,[],False, or do we need to have like functions for cable or V_C_R_?,12,task,Inform
+ES2011b,C,497.2,499.41,2.21,ES2011b.C.dialog-act.dharshi.31,C,C,0.0,0.0,False,False,0.0,[],False," And then, is it findable,",5,task,Inform
+ES2011b,C,499.41,503.34,3.93,ES2011b.C.dialog-act.dharshi.32,C,C,3.151,0.0,False,False,0.0,[],False, and uh how do we wanna do that?,8,task,Inform
+ES2011b,C,503.34,505.184,1.844,ES2011b.C.dialog-act.dharshi.33,,,,,,,,,False, And um,2,minor,Stall
+ES2011b,C,506.491,509.81,3.319,ES2011b.C.dialog-act.dharshi.34,C,C,0.0,3.151,False,False,0.0,[],False," I just thought that these two remotes were pretty boring,",10,task,Assess
+ES2011b,C,509.81,512.304,2.494,ES2011b.C.dialog-act.dharshi.35,C,C,2.306,0.0,False,False,0.0,[],False, um I dunno if this will work but,8,task,Inform
+ES2011b,C,514.61,518.95,4.34,ES2011b.C.dialog-act.dharshi.36,C,C,2.426,2.306,False,False,0.0,[],False, And I think we can find something that's more fun to look at and use than either of those.,19,task,Assess
+ES2011b,C,521.376,525.63,4.254,ES2011b.C.dialog-act.dharshi.37,C,C,0.0,2.426,False,False,0.0,[],False," Just I mean I like the one on the right better, just because it does have fewer buttons,",18,task,Assess
+ES2011b,C,525.63,537.67,12.04,ES2011b.C.dialog-act.dharshi.38,C,C,3.066,0.0,False,False,0.0,[],False," uh but I mean I think we sh can sort of think about things like um like colour and you know size, shapes, that sort of thing, to best fit the user.",32,task,Suggest
+ES2011b,C,540.736,542.66,1.924,ES2011b.C.dialog-act.dharshi.39,C,C,3.2,3.066,False,False,0.0,[],False, That concludes my presentation.,4,task,Inform
+ES2011b,A,541.432,542.06,0.628,ES2011b.A.dialog-act.dharshi.36,,,,,,,,,False,,0,minor,Fragment
+ES2011b,C,545.86,547.44,1.58,ES2011b.C.dialog-act.dharshi.40,B,C,46.14,3.2,False,False,0.0,[],False, Okay. You need the little thingy.,6,task,Inform
+ES2011b,C,564.54,564.79,0.25,ES2011b.C.dialog-act.dharshi.41,,,,,,,,,False, Ooh.,1,other,Other
+ES2011b,B,593.58,595.533,1.953,ES2011b.B.dialog-act.dharshi.9,B,C,18.827,46.14,True,False,0.0,[],True, How do I um,4,other,Other
+ES2011b,D,599.83,599.96,0.13,ES2011b.D.dialog-act.dharshi.69,,,,,,,,,False, S,1,minor,Fragment
+ES2011b,D,609.73,611.11,1.38,ES2011b.D.dialog-act.dharshi.70,,,,,,,,,False, That's on view.,3,task,Inform
+ES2011b,D,611.11,611.24,0.13,ES2011b.D.dialog-act.dharshi.71,,,,,,,,,False, Oh.,1,other,Other
+ES2011b,B,611.4,611.67,0.27,ES2011b.B.dialog-act.dharshi.10,,,,,,,,,False, Right.,1,task,Assess
+ES2011b,B,614.36,621.09,6.73,ES2011b.B.dialog-act.dharshi.11,B,B,0.0,18.827,False,False,0.0,[],False," Okay so this is on the working design, which is sort of the uh mechanical functions of the remote,",19,task,Inform
+ES2011b,B,621.09,627.04,5.95,ES2011b.B.dialog-act.dharshi.12,B,B,1.06,0.0,False,False,0.0,[],False, um and the method I used was to basically look at existing designs and incorporate ideas from our last meeting.,20,task,Inform
+ES2011b,B,628.1,633.93,5.83,ES2011b.B.dialog-act.dharshi.13,B,B,0.0,1.06,False,False,0.0,[],False," Um so I think we need two basic functions which is just the basic remote functions,",16,task,Inform
+ES2011b,B,633.93,638.81,4.88,ES2011b.B.dialog-act.dharshi.14,B,B,0.0,0.0,False,False,0.0,[],False, the user can input a channel or volume setting and it will be output to the T_V_.,17,task,Inform
+ES2011b,B,638.81,650.24,11.43,ES2011b.B.dialog-act.dharshi.15,B,B,1.76,0.0,False,False,0.0,[],False, And also we talked about um a location function where maybe you could press a button on the T_V_ and it would send sort of signal to the remote where it would beep or flash or vibrate or whatever to tell you where the remote is.,46,task,Inform
+ES2011b,B,652.0,655.33,3.33,ES2011b.B.dialog-act.dharshi.16,B,B,0.0,1.76,False,False,0.0,[],False," So the components we need are an energy source to power the remote,",13,task,Inform
+ES2011b,B,655.33,658.3,2.97,ES2011b.B.dialog-act.dharshi.17,B,B,0.0,0.0,False,False,0.0,[],False," um input which would probably be buttons,",7,task,Inform
+ES2011b,B,658.3,661.39,3.09,ES2011b.B.dialog-act.dharshi.18,B,B,0.0,0.0,False,False,0.0,[],False," although um we just talked about voice recognition,",8,task,Inform
+ES2011b,B,661.39,664.06,2.67,ES2011b.B.dialog-act.dharshi.19,B,B,0.0,0.0,False,False,0.0,[],False," processor to take the information,",5,task,Inform
+ES2011b,B,664.06,666.8,2.74,ES2011b.B.dialog-act.dharshi.20,B,B,0.0,0.0,False,False,0.0,[],False," um something to transmit it to the T_V_,",8,task,Inform
+ES2011b,B,666.8,675.74,8.94,ES2011b.B.dialog-act.dharshi.22,B,B,0.0,0.0,False,False,0.0,[],False," and we also need something on the remote that would receive the location signal and have an output, like possibly a beep or a vibration.",25,task,Inform
+ES2011b,B,675.74,678.01,2.27,ES2011b.B.dialog-act.dharshi.24,B,B,0.0,0.0,False,False,0.0,[],False," And also you need a sender for location signal,",9,task,Inform
+ES2011b,B,678.01,684.32,6.31,ES2011b.B.dialog-act.dharshi.25,B,B,2.45,0.0,False,False,0.0,[],False, which would probably be a separate um thing that we'd have to sell with the remote and people could stick it on their T_V_ or stick it on their wall.,30,task,Inform
+ES2011b,B,686.77,690.35,3.58,ES2011b.B.dialog-act.dharshi.26,B,B,0.0,2.45,False,False,0.0,[],False, And this is just sort of an overview of how the remote works.,13,task,Inform
+ES2011b,B,690.35,692.86,2.51,ES2011b.B.dialog-act.dharshi.27,B,B,1.06,0.0,False,False,0.0,[],False," Power comes from the battery, goes to the chip,",9,task,Inform
+ES2011b,B,693.92,697.4,3.48,ES2011b.B.dialog-act.dharshi.29,B,B,0.0,1.06,False,False,0.0,[],False, um and then it is sent from there to an infrared bulb,12,task,Inform
+ES2011b,B,697.4,700.59,3.19,ES2011b.B.dialog-act.dharshi.30,B,B,0.0,0.0,False,False,0.0,[],False, which is probably the easiest way to send to the T_V_.,11,task,Inform
+ES2011b,B,700.59,707.14,6.55,ES2011b.B.dialog-act.dharshi.31,B,B,0.0,0.0,False,False,0.0,[],False," And then for the location function, you would have a sender on the T_V_ which would output some sort of signal,",21,task,Inform
+ES2011b,B,707.14,711.32,4.18,ES2011b.B.dialog-act.dharshi.32,B,B,0.0,0.0,False,False,0.0,[],False, um we could use I_R_ but we'd probably wanna use radio instead.,12,task,Inform
+ES2011b,B,711.32,714.67,3.35,ES2011b.B.dialog-act.dharshi.33,B,B,0.0,0.0,False,False,0.0,[],False," That signal would go to a receiver which it would process it,",12,task,Inform
+ES2011b,B,714.67,718.58,3.91,ES2011b.B.dialog-act.dharshi.34,B,B,3.19,0.0,False,False,0.0,[],False, and it would be output in the form of a buzzer or a light lighting up.,16,task,Inform
+ES2011b,B,721.77,727.43,5.66,ES2011b.B.dialog-act.dharshi.35,B,B,0.0,3.19,False,False,0.0,[],False," Um so my personal preferences for how to build the remote would probably be uh, battery for the energy source,",20,task,Suggest
+ES2011b,B,727.43,729.53,2.1,ES2011b.B.dialog-act.dharshi.36,B,B,0.0,0.0,False,False,0.0,[],False," that way you wouldn't have to plug it in,",9,task,Inform
+ES2011b,B,729.53,732.67,3.14,ES2011b.B.dialog-act.dharshi.37,B,B,0.0,0.0,False,False,0.0,[],False," um a button pad for input,",6,task,Suggest
+ES2011b,B,732.67,736.82,4.15,ES2011b.B.dialog-act.dharshi.38,B,B,0.0,0.0,False,False,0.0,[],False," um we can purchase a pre-made chip which will handle all the processing stuff,",14,task,Inform
+ES2011b,B,736.82,738.9,2.08,ES2011b.B.dialog-act.dharshi.39,B,B,0.0,0.0,False,False,0.0,[],False," I_R_ transmitter to communicate to the T_V_,",7,task,Suggest
+ES2011b,B,738.9,743.2,4.3,ES2011b.B.dialog-act.dharshi.40,B,B,0.0,0.0,False,False,0.0,[],False," that's just sort of standard, um so most T_V_s have an I_R_ receiver.",13,task,Inform
+ES2011b,B,743.2,747.27,4.07,ES2011b.B.dialog-act.dharshi.41,B,B,0.0,0.0,False,False,0.0,[],False, Probably a radio receiver to send out location function and to receive it,13,task,Suggest
+ES2011b,B,747.27,752.83,5.56,ES2011b.B.dialog-act.dharshi.42,B,B,0.0,0.0,False,False,0.0,[],False, and I'd probably say a buzzer for the location function on the remote itself.,14,task,Suggest
+ES2011b,B,752.83,754.22,1.39,ES2011b.B.dialog-act.dharshi.43,C,B,2.12,0.0,False,False,0.0,[],False, So that concludes my presentation.,5,task,Inform
+ES2011b,A,756.06,756.37,0.31,ES2011b.A.dialog-act.dharshi.37,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+ES2011b,C,756.34,758.0,1.66,ES2011b.C.dialog-act.dharshi.42,C,B,0.0,2.12,True,False,0.0,[],True, Do you know about like,5,elicit,Elicit-Inform
+ES2011b,C,758.0,760.272,2.272,ES2011b.C.dialog-act.dharshi.43,B,C,-0.062,0.0,False,True,0.062,['ES2011b.B.dialog-act.dharshi.45'],False," I dunno, you seem like you know about",8,task,Inform
+ES2011b,B,758.19,758.33,0.14,ES2011b.B.dialog-act.dharshi.44,,,,,,,,,False, Mm?,1,other,Comment-About-Understanding
+ES2011b,B,760.21,763.03,2.82,ES2011b.B.dialog-act.dharshi.45,A,C,6.48,-0.062,True,False,0.0,[],False," Yeah, uh I d I was an engineer before I came here.",12,task,Inform
+ES2011b,C,761.96,764.032,2.072,ES2011b.C.dialog-act.dharshi.44,,,,,,,,,False, Okay. Cool.,2,task,Assess
+ES2011b,A,768.96,769.51,0.55,ES2011b.A.dialog-act.dharshi.38,,,,,,,,,False, Okay.,1,minor,Stall
+ES2011b,A,769.51,770.82,1.31,ES2011b.A.dialog-act.dharshi.39,A,B,3.49,6.48,True,False,0.0,[],True, Well thank you everybody.,4,other,Be-Positive
+ES2011b,A,770.82,773.49,2.67,ES2011b.A.dialog-act.dharshi.40,,,,,,,,,False, Um we have,3,minor,Stall
+ES2011b,A,773.49,774.31,0.82,ES2011b.A.dialog-act.dharshi.41,,,,,,,,,False, we'll discuss that,3,task,Suggest
+ES2011b,A,774.31,779.86,5.55,ES2011b.A.dialog-act.dharshi.42,A,A,0.0,3.49,False,False,0.0,[],False, and then I just wanna mention some new project requirements that came in.,13,other,Offer
+ES2011b,A,779.86,791.42,11.56,ES2011b.A.dialog-act.dharshi.43,A,A,1.08,0.0,False,False,0.0,[],False," Um, teletext is apparently outdated, so due to internet popularity, so that's off the list. Um,",16,task,Inform
+ES2011b,B,783.344,784.896,1.552,ES2011b.B.dialog-act.dharshi.46,,,,,,,,,False,,0,minor,Fragment
+ES2011b,B,789.892,791.697,1.805,ES2011b.B.dialog-act.dharshi.47,,,,,,,,,False,,0,minor,Fragment
+ES2011b,A,792.5,796.77,4.27,ES2011b.A.dialog-act.dharshi.44,A,A,0.0,1.08,False,False,0.0,[],False," also our remote should be used only for television, um,",10,task,Inform
+ES2011b,A,796.77,803.07,6.3,ES2011b.A.dialog-act.dharshi.45,A,A,0.0,0.0,False,False,0.0,[],False," no extra internet kinda fancy things, just the remote and the television.",12,task,Inform
+ES2011b,A,803.07,809.07,6.0,ES2011b.A.dialog-act.dharshi.46,A,A,0.0,0.0,False,False,0.0,[],False," Um and also we need to incorporate our corporate image onto this,",12,task,Inform
+ES2011b,A,809.07,817.54,8.47,ES2011b.A.dialog-act.dharshi.47,A,A,0.0,0.0,False,False,0.0,[],False," so um the phrase is, we put fashion in electronics,",10,task,Inform
+ES2011b,A,817.54,820.66,3.12,ES2011b.A.dialog-act.dharshi.48,A,A,2.73,0.0,False,False,0.0,[],False, so let's be fashionable I guess.,6,task,Suggest
+ES2011b,A,820.66,823.39,2.73,ES2011b.A.dialog-act.dharshi.49,,,,,,,,,False, Um if we have something,5,minor,Stall
+ES2011b,A,823.39,826.43,3.04,ES2011b.A.dialog-act.dharshi.50,A,A,0.0,2.73,False,False,0.0,[],False," I mean silver and and gold or yellow are our colours,",11,task,Inform
+ES2011b,A,826.43,834.81,8.38,ES2011b.A.dialog-act.dharshi.51,A,A,2.83,0.0,False,False,0.0,[],False," so if we had a like a kind of silver one like you saw, and yellow writing, something like that.",20,task,Suggest
+ES2011b,A,834.81,836.24,1.43,ES2011b.A.dialog-act.dharshi.52,,,,,,,,,False, Okay. Um.,2,minor,Stall
+ES2011b,A,837.64,843.42,5.78,ES2011b.A.dialog-act.dharshi.53,A,A,6.75,2.83,False,False,0.0,[],False, So we need to make some decisions on the remote control functions.,12,task,Suggest
+ES2011b,A,843.42,850.17,6.75,ES2011b.A.dialog-act.dharshi.54,,,,,,,,,False," Um, yeah. Do Let's",4,minor,Stall
+ES2011b,B,847.296,848.304,1.008,ES2011b.B.dialog-act.dharshi.48,,,,,,,,,False,,0,minor,Fragment
+ES2011b,A,850.17,851.89,1.72,ES2011b.A.dialog-act.dharshi.55,C,A,3.46,6.75,False,False,0.0,[],False, I guess we should yeah make some,7,task,Suggest
+ES2011b,A,853.06,855.53,2.47,ES2011b.A.dialog-act.dharshi.56,,,,,,,,,False," kind of brainstorming,",3,task,Suggest
+ES2011b,C,855.35,856.3,0.95,ES2011b.C.dialog-act.dharshi.45,D,A,0.57,3.46,True,False,0.0,[],True, Like in terms of,4,elicit,Elicit-Inform
+ES2011b,A,855.53,856.161,0.631,ES2011b.A.dialog-act.dharshi.57,,,,,,,,,False, see what we can,4,minor,Fragment
+ES2011b,D,856.87,858.216,1.346,ES2011b.D.dialog-act.dharshi.72,C,C,-0.756,0.57,True,True,0.756,['ES2011b.C.dialog-act.dharshi.46'],True, How it looks or,4,elicit,Elicit-Inform
+ES2011b,C,857.46,859.74,2.28,ES2011b.C.dialog-act.dharshi.46,A,D,2.43,-0.756,True,False,0.0,[],False," how it looks, or like what it does?",8,elicit,Elicit-Inform
+ES2011b,A,859.08,862.17,3.09,ES2011b.A.dialog-act.dharshi.58,,,,,,,,,False, wha what um,3,minor,Stall
+ES2011b,A,862.17,868.57,6.4,ES2011b.A.dialog-act.dharshi.59,A,C,1.81,2.43,True,False,0.0,[],True, well probably our target group and how it's gonna going to appeal to our target group,16,task,Inform
+ES2011b,C,868.37,868.79,0.42,ES2011b.C.dialog-act.dharshi.47,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2011b,A,868.57,870.38,1.81,ES2011b.A.dialog-act.dharshi.60,,,,,,,,,False, and I dunno the the s,6,minor,Stall
+ES2011b,A,870.38,874.21,3.83,ES2011b.A.dialog-act.dharshi.61,C,A,8.89,1.81,False,False,0.0,[],False, the buttons and what it does and that sort of thing. So.,12,task,Inform
+ES2011b,C,872.34,874.09,1.75,ES2011b.C.dialog-act.dharshi.48,,,,,,,,,False, Yeah. Okay.,2,task,Assess
+ES2011b,C,877.54,878.048,0.508,ES2011b.C.dialog-act.dharshi.49,,,,,,,,,False, So,1,minor,Stall
+ES2011b,C,880.85,883.1,2.25,ES2011b.C.dialog-act.dharshi.50,,,,,,,,,False, Is our target group then people,6,minor,Fragment
+ES2011b,C,883.1,886.28,3.18,ES2011b.C.dialog-act.dharshi.51,A,A,2.028,8.89,True,False,0.0,[],True, so do we wanna go ahead and design this thing with the finder button?,14,elicit,Elicit-Assessment
+ES2011b,C,888.15,888.544,0.394,ES2011b.C.dialog-act.dharshi.52,,,,,,,,,False, So,1,minor,Stall
+ES2011b,A,888.308,890.7,2.392,ES2011b.A.dialog-act.dharshi.62,B,C,-1.83,2.028,True,True,1.2,['ES2011b.B.dialog-act.dharshi.49'],True, I think that seems to yeah. Mm.,7,task,Assess
+ES2011b,B,888.87,890.07,1.2,ES2011b.B.dialog-act.dharshi.49,D,A,0.959,-1.83,True,False,0.0,[],False, It's easy to implement.,4,task,Assess
+ES2011b,C,890.28,891.01,0.73,ES2011b.C.dialog-act.dharshi.53,,,,,,,,,False, Okay.,1,task,Assess
+ES2011b,C,891.01,892.95,1.94,ES2011b.C.dialog-act.dharshi.54,,,,,,,,,False, So the,2,minor,Fragment
+ES2011b,D,891.029,893.37,2.341,ES2011b.D.dialog-act.dharshi.73,D,B,0.0,0.959,True,False,0.0,[],True," the the buzzer you mean,",5,elicit,Elicit-Inform
+ES2011b,C,892.95,894.27,1.32,ES2011b.C.dialog-act.dharshi.55,,,,,,,,,False," yeah, yeah, yeah.",3,task,Inform
+ES2011b,D,893.37,894.68,1.31,ES2011b.D.dialog-act.dharshi.74,C,D,-0.41,0.0,False,True,0.41,['ES2011b.C.dialog-act.dharshi.56'],False," yeah, for sure, yeah.",4,task,Assess
+ES2011b,B,893.58,894.13,0.55,ES2011b.B.dialog-act.dharshi.50,,,,,,,,,False, Locator.,1,task,Inform
+ES2011b,C,894.27,898.6,4.33,ES2011b.C.dialog-act.dharshi.56,A,D,-0.08,-0.41,True,True,0.08,['ES2011b.A.dialog-act.dharshi.63'],False," So then our target age group would be the nineteen to thirty five range,",14,task,Inform
+ES2011b,A,898.52,900.96,2.44,ES2011b.A.dialog-act.dharshi.63,D,C,-0.64,-0.08,True,True,0.64,['ES2011b.D.dialog-act.dharshi.75'],False," Yeah, teenagers and young professionals.",5,task,Inform
+ES2011b,C,898.6,899.14,0.54,ES2011b.C.dialog-act.dharshi.57,,,,,,,,,False, what was it?,3,elicit,Elicit-Inform
+ES2011b,D,900.32,902.05,1.73,ES2011b.D.dialog-act.dharshi.75,D,A,2.34,-0.64,True,False,0.0,[],False, Well that's for speech recognition.,5,task,Inform
+ES2011b,C,902.6,902.85,0.25,ES2011b.C.dialog-act.dharshi.58,,,,,,,,,False, Oh.,1,other,Comment-About-Understanding
+ES2011b,B,902.79,903.218,0.428,ES2011b.B.dialog-act.dharshi.51,,,,,,,,,False, Well,1,minor,Fragment
+ES2011b,A,902.96,903.73,0.77,ES2011b.A.dialog-act.dharshi.64,,,,,,,,,False," Oh, uh.",2,other,Comment-About-Understanding
+ES2011b,D,903.01,904.39,1.38,ES2011b.D.dialog-act.dharshi.76,,,,,,,,,False, And screen.,2,task,Inform
+ES2011b,D,904.39,906.57,2.18,ES2011b.D.dialog-act.dharshi.77,B,D,-1.64,2.34,False,True,1.38,"['ES2011b.B.dialog-act.dharshi.52', 'ES2011b.B.dialog-act.dharshi.53']",False, That's only for speech recognition and screen.,7,task,Inform
+ES2011b,B,904.93,906.31,1.38,ES2011b.B.dialog-act.dharshi.52,B,D,0.0,-1.64,True,False,0.0,[],False, I was thinking about that,5,task,Inform
+ES2011b,B,906.31,909.89,3.58,ES2011b.B.dialog-act.dharshi.53,B,B,0.0,0.0,False,False,0.0,[],False," but uh I mean speech recognition is really hard to programme,",11,task,Inform
+ES2011b,B,909.89,917.03,7.14,ES2011b.B.dialog-act.dharshi.55,B,B,1.88,0.0,False,False,0.0,[],False," and also, if the T_V_ is on it's making sound and the people on the T_V_ are talking, and if somebody says like one, then the T_V_'s gonna switch itself to channel one,",33,task,Inform
+ES2011b,A,910.02,910.52,0.5,ES2011b.A.dialog-act.dharshi.65,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,D,916.69,917.85,1.16,ES2011b.D.dialog-act.dharshi.78,,,,,,,,,False, Yeah yeah yeah.,3,task,Assess
+ES2011b,B,917.03,917.76,0.73,ES2011b.B.dialog-act.dharshi.56,,,,,,,,,False, or,1,minor,Fragment
+ES2011b,C,917.39,918.73,1.34,ES2011b.C.dialog-act.dharshi.59,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,A,917.41,917.81,0.4,ES2011b.A.dialog-act.dharshi.66,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2011b,B,917.76,918.91,1.15,ES2011b.B.dialog-act.dharshi.57,,,,,,,,,False," it seems like a silly,",5,minor,Fragment
+ES2011b,D,917.85,918.538,0.688,ES2011b.D.dialog-act.dharshi.79,,,,,,,,,False, I mean,2,minor,Fragment
+ES2011b,C,918.73,919.22,0.49,ES2011b.C.dialog-act.dharshi.60,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,B,918.91,920.67,1.76,ES2011b.B.dialog-act.dharshi.58,D,B,0.29,1.88,False,False,0.0,[],False, I'm not sure how you would implement it.,8,task,Assess
+ES2011b,D,920.96,922.84,1.88,ES2011b.D.dialog-act.dharshi.80,B,B,1.97,0.29,True,False,0.0,[],True, I just put the values in.,6,task,Inform
+ES2011b,B,922.112,922.784,0.672,ES2011b.B.dialog-act.dharshi.59,,,,,,,,,False,,0,minor,Fragment
+ES2011b,A,922.79,925.4,2.61,ES2011b.A.dialog-act.dharshi.67,,,,,,,,,False," And if if you consider our budget, it probably",9,minor,Stall
+ES2011b,D,922.84,925.42,2.58,ES2011b.D.dialog-act.dharshi.81,,,,,,,,,False," But um the screen is the same as what,",9,minor,Fragment
+ES2011b,C,922.992,923.696,0.704,ES2011b.C.dialog-act.dharshi.61,,,,,,,,,False,,0,minor,Fragment
+ES2011b,B,924.81,927.905,3.095,ES2011b.B.dialog-act.dharshi.60,A,D,-2.505,1.97,True,True,2.505,['ES2011b.A.dialog-act.dharshi.68'],True, It's a cool idea but,5,task,Assess
+ES2011b,A,925.4,933.81,8.41,ES2011b.A.dialog-act.dharshi.68,D,B,-1.4,-2.505,True,True,1.4,['ES2011b.D.dialog-act.dharshi.82'],False," if you consider our budget, to h have speech recognition programmed in every single remote might be a little pricey.",20,task,Assess
+ES2011b,C,927.25,927.63,0.38,ES2011b.C.dialog-act.dharshi.62,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,D,932.41,934.49,2.08,ES2011b.D.dialog-act.dharshi.82,C,A,4.67,-1.4,True,False,0.0,[],False," Yeah, I'm happy with that.",5,task,Assess
+ES2011b,B,933.328,934.722,1.394,ES2011b.B.dialog-act.dharshi.61,,,,,,,,,False,,0,minor,Fragment
+ES2011b,A,933.81,935.0,1.19,ES2011b.A.dialog-act.dharshi.69,,,,,,,,,False, Yeah.,1,task,Assess
+ES2011b,D,934.49,935.13,0.64,ES2011b.D.dialog-act.dharshi.83,,,,,,,,,False, Completely.,1,task,Assess
+ES2011b,C,934.61,935.01,0.4,ES2011b.C.dialog-act.dharshi.63,,,,,,,,,False, Hu yeah.,2,minor,Backchannel
+ES2011b,A,935.0,942.79,7.79,ES2011b.A.dialog-act.dharshi.70,,,,,,,,,False, Right so um yeah.,4,minor,Stall
+ES2011b,C,939.16,944.01,4.85,ES2011b.C.dialog-act.dharshi.64,B,D,0.4,4.67,True,False,0.0,[],True, Okay so are we gonna have just some kind of a like we'll have the buzzer on the som like on the T_V_ itself.,24,elicit,Elicit-Assessment
+ES2011b,B,944.41,950.47,6.06,ES2011b.B.dialog-act.dharshi.62,B,C,0.0,0.4,True,False,0.0,[],True, Well you would have to have a button on a T_V_ or on your wall or some place since the T_V_ already has power.,24,task,Inform
+ES2011b,D,946.21,946.43,0.22,ES2011b.D.dialog-act.dharshi.84,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,A,947.81,948.16,0.35,ES2011b.A.dialog-act.dharshi.71,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,C,949.62,950.03,0.41,ES2011b.C.dialog-act.dharshi.65,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,B,950.47,953.66,3.19,ES2011b.B.dialog-act.dharshi.64,B,B,0.0,0.0,False,False,0.0,[],False," Yeah you click the button, it's gonna send out a signal,",11,task,Inform
+ES2011b,B,953.66,959.85,6.19,ES2011b.B.dialog-act.dharshi.65,B,B,0.0,0.0,False,False,0.0,[],False," and I was thinking, I_R_ is line of sight, so unless the remote is like actually in front of the T_V_ it's not gonna work,",25,task,Inform
+ES2011b,B,959.85,963.26,3.41,ES2011b.B.dialog-act.dharshi.66,B,B,0.0,0.0,False,False,0.0,[],False, um so probably like a radio signal like on a on a cell phone.,14,task,Inform
+ES2011b,C,961.55,962.24,0.69,ES2011b.C.dialog-act.dharshi.66,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2011b,C,962.24,963.08,0.84,ES2011b.C.dialog-act.dharshi.67,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2011b,D,962.25,963.06,0.81,ES2011b.D.dialog-act.dharshi.85,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,D,963.06,963.73,0.67,ES2011b.D.dialog-act.dharshi.86,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2011b,C,963.08,963.29,0.21,ES2011b.C.dialog-act.dharshi.68,,,,,,,,,False, Alright.,1,minor,Backchannel
+ES2011b,A,963.25,963.65,0.4,ES2011b.A.dialog-act.dharshi.72,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2011b,B,963.26,968.27,5.01,ES2011b.B.dialog-act.dharshi.67,A,B,0.83,0.0,False,False,0.0,[],False, Sends out a signal and then the the remote hears the signal and so it beeps probably.,17,task,Inform
+ES2011b,C,968.528,969.02,0.492,ES2011b.C.dialog-act.dharshi.69,,,,,,,,,False, Okay.,1,task,Assess
+ES2011b,A,969.1,973.65,4.55,ES2011b.A.dialog-act.dharshi.74,B,B,-1.5,0.83,True,True,1.5,['ES2011b.B.dialog-act.dharshi.68'],True, So you you'd need like a separate base for that or like something you can,15,elicit,Elicit-Inform
+ES2011b,B,972.15,978.41,6.26,ES2011b.B.dialog-act.dharshi.68,D,A,1.31,-1.5,True,False,0.0,[],False, It would have to be sold separately because if the sender's on the remote then you'd have to find the remote first to click the button to find the remote.,30,task,Inform
+ES2011b,A,973.65,973.89,0.24,ES2011b.A.dialog-act.dharshi.73,,,,,,,,,False, right.,1,minor,Backchannel
+ES2011b,A,977.26,978.14,0.88,ES2011b.A.dialog-act.dharshi.75,,,,,,,,,False," Yeah, yeah.",2,minor,Backchannel
+ES2011b,D,979.72,983.44,3.72,ES2011b.D.dialog-act.dharshi.87,B,B,-0.51,1.31,True,True,0.51,['ES2011b.B.dialog-act.dharshi.69'],True," So do you plug it in the T_ you plug it in T_V_, this thing?",15,elicit,Elicit-Inform
+ES2011b,B,982.93,984.38,1.45,ES2011b.B.dialog-act.dharshi.69,B,D,0.0,-0.51,True,False,0.0,[],False," Yeah, it'd probably just stick it on your T_V_",9,task,Inform
+ES2011b,B,984.38,986.2,1.82,ES2011b.B.dialog-act.dharshi.70,C,B,0.2,0.0,False,False,0.0,[],False," so if you need to find the remote, click the button.",11,task,Inform
+ES2011b,D,984.46,985.73,1.27,ES2011b.D.dialog-act.dharshi.88,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2011b,D,985.73,986.25,0.52,ES2011b.D.dialog-act.dharshi.89,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2011b,C,986.4,988.63,2.23,ES2011b.C.dialog-act.dharshi.70,B,B,-0.63,0.2,True,True,0.63,['ES2011b.B.dialog-act.dharshi.71'],True, So it's now like a two-part thing.,7,elicit,Elicit-Inform
+ES2011b,B,988.0,989.66,1.66,ES2011b.B.dialog-act.dharshi.71,C,C,1.48,-0.63,True,False,0.0,[],False," Yeah, so it would be a two part package.",9,task,Inform
+ES2011b,C,988.63,989.9,1.27,ES2011b.C.dialog-act.dharshi.71,,,,,,,,,False, Okay. Alright.,2,task,Assess
+ES2011b,D,989.88,990.39,0.51,ES2011b.D.dialog-act.dharshi.90,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2011b,C,991.14,993.36,2.22,ES2011b.C.dialog-act.dharshi.72,A,B,5.25,1.48,True,False,0.0,[],True, So we get to design that too.,7,task,Inform
+ES2011b,B,992.352,993.203,0.851,ES2011b.B.dialog-act.dharshi.72,,,,,,,,,False,,0,minor,Fragment
+ES2011b,C,993.36,994.69,1.33,ES2011b.C.dialog-act.dharshi.73,,,,,,,,,False, Make it fashionable.,3,task,Inform
+ES2011b,C,995.94,997.44,1.5,ES2011b.C.dialog-act.dharshi.74,,,,,,,,,False," Um, okay.",2,minor,Stall
+ES2011b,A,998.61,1005.95,7.34,ES2011b.A.dialog-act.dharshi.77,B,C,-1.04,5.25,True,True,0.73,['ES2011b.B.dialog-act.dharshi.73'],True, So do you think even though we're not talking about speek speech recognition our target group should still be teenagers and young professionals.,23,elicit,Elicit-Assessment
+ES2011b,B,1004.91,1005.64,0.73,ES2011b.B.dialog-act.dharshi.73,D,A,8.98,-1.04,True,False,0.0,[],False, Yeah I think so.,4,task,Assess
+ES2011b,D,1005.4,1007.21,1.81,ES2011b.D.dialog-act.dharshi.91,,,,,,,,,False, Yeah. Just there.,3,task,Assess
+ES2011b,A,1005.95,1006.16,0.21,ES2011b.A.dialog-act.dharshi.76,,,,,,,,,False, Huh.,1,minor,Backchannel
+ES2011b,A,1007.72,1008.3,0.58,ES2011b.A.dialog-act.dharshi.78,,,,,,,,,False, Okay.,1,task,Assess
+ES2011b,D,1007.98,1014.62,6.64,ES2011b.D.dialog-act.dharshi.92,,,,,,,,,False, Mm. Are we um should that thing be on the thing to put the you s,16,minor,Stall
+ES2011b,D,1014.62,1016.67,2.05,ES2011b.D.dialog-act.dharshi.93,D,B,0.0,8.98,True,False,0.0,[],True, you talking about a home for it.,7,task,Inform
+ES2011b,D,1016.67,1020.58,3.91,ES2011b.D.dialog-act.dharshi.94,D,D,0.0,0.0,False,False,0.0,[],False, Do you still want to build a little thing next to the telly or to p hang on the wall,20,elicit,Elicit-Assessment
+ES2011b,A,1016.79,1017.14,0.35,ES2011b.A.dialog-act.dharshi.79,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,D,1020.58,1021.79,1.21,ES2011b.D.dialog-act.dharshi.95,A,D,0.85,0.0,False,False,0.0,[],False, or shall we leave that for now?,7,elicit,Elicit-Assessment
+ES2011b,A,1022.64,1023.52,0.88,ES2011b.A.dialog-act.dharshi.80,A,D,0.0,0.85,True,False,0.0,[],True, We probably leave that.,4,task,Assess
+ES2011b,A,1023.52,1025.76,2.24,ES2011b.A.dialog-act.dharshi.81,A,A,0.0,0.0,False,False,0.0,[],False," I mean I guess one takes care of the other,",10,task,Assess
+ES2011b,D,1025.75,1026.26,0.51,ES2011b.D.dialog-act.dharshi.96,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2011b,A,1025.76,1030.432,4.672,ES2011b.A.dialog-act.dharshi.82,C,A,0.468,0.0,False,False,0.0,[],False, like um if you can yeah if you can call it then it's,13,task,Inform
+ES2011b,C,1026.28,1026.74,0.46,ES2011b.C.dialog-act.dharshi.75,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,C,1030.9,1031.82,0.92,ES2011b.C.dialog-act.dharshi.76,D,A,3.43,0.468,True,False,0.0,[],True, Then it can live anywhere.,5,task,Inform
+ES2011b,A,1031.78,1033.24,1.46,ES2011b.A.dialog-act.dharshi.83,,,,,,,,,False, Yeah.,1,task,Assess
+ES2011b,B,1031.818,1033.184,1.366,ES2011b.B.dialog-act.dharshi.74,,,,,,,,,False,,0,minor,Fragment
+ES2011b,D,1032.69,1033.56,0.87,ES2011b.D.dialog-act.dharshi.97,,,,,,,,,False, Okay.,1,minor,Stall
+ES2011b,C,1032.93,1033.28,0.35,ES2011b.C.dialog-act.dharshi.77,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,D,1033.56,1035.25,1.69,ES2011b.D.dialog-act.dharshi.98,,,,,,,,,False, For the,2,minor,Stall
+ES2011b,D,1035.25,1036.65,1.4,ES2011b.D.dialog-act.dharshi.99,D,C,1.49,3.43,True,False,0.0,[],True," so you have that button,",5,task,Inform
+ES2011b,D,1036.65,1038.14,1.49,ES2011b.D.dialog-act.dharshi.100,,,,,,,,,False, that so there's,3,minor,Stall
+ES2011b,D,1038.14,1040.87,2.73,ES2011b.D.dialog-act.dharshi.101,B,D,0.98,1.49,False,False,0.0,[],False, is there a light or shall we leave just have a radio?,12,elicit,Elicit-Assessment
+ES2011b,B,1041.85,1044.65,2.8,ES2011b.B.dialog-act.dharshi.75,D,D,-2.68,0.98,True,True,1.02,['ES2011b.D.dialog-act.dharshi.102'],True, Um on the T_V_ or on the phone?,8,elicit,Elicit-Inform
+ES2011b,D,1041.97,1042.99,1.02,ES2011b.D.dialog-act.dharshi.102,B,B,1.66,-2.68,True,False,0.0,[],False, Are we just having a radio?,6,elicit,Elicit-Inform
+ES2011b,D,1043.58,1044.29,0.71,ES2011b.D.dialog-act.dharshi.103,,,,,,,,,False, On the phone.,3,task,Inform
+ES2011b,B,1044.65,1048.4,3.75,ES2011b.B.dialog-act.dharshi.76,D,D,-2.09,1.66,True,True,1.5,['ES2011b.D.dialog-act.dharshi.104'],True," Um it seemed like a a beep seemed the most reasonable to me,",13,task,Assess
+ES2011b,C,1045.47,1045.56,0.09,ES2011b.C.dialog-act.dharshi.78,,,,,,,,,False, T,1,minor,Fragment
+ES2011b,D,1046.31,1047.81,1.5,ES2011b.D.dialog-act.dharshi.104,B,B,0.59,-2.09,True,False,0.0,[],False, You don't need a light.,5,task,Assess
+ES2011b,D,1047.81,1049.36,1.55,ES2011b.D.dialog-act.dharshi.105,,,,,,,,,False, Yeah yeah yeah.,3,task,Assess
+ES2011b,B,1048.4,1050.45,2.05,ES2011b.B.dialog-act.dharshi.77,B,D,0.0,0.59,True,False,0.0,[],True," I think that's what the phone has,",7,task,Inform
+ES2011b,A,1048.58,1048.96,0.38,ES2011b.A.dialog-act.dharshi.84,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,D,1049.36,1049.84,0.48,ES2011b.D.dialog-act.dharshi.106,,,,,,,,,False, Yeah yeah.,2,task,Assess
+ES2011b,A,1050.34,1050.68,0.34,ES2011b.A.dialog-act.dharshi.85,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,B,1050.45,1055.93,5.48,ES2011b.B.dialog-act.dharshi.78,A,B,-1.14,0.0,False,True,1.14,['ES2011b.A.dialog-act.dharshi.86'],False," I mean when you need to find your phone, you just have someone call it and it starts ringing somewhere and then you can figure out that it's in the couch or wherever.",33,task,Inform
+ES2011b,A,1054.79,1058.86,4.07,ES2011b.A.dialog-act.dharshi.86,D,B,-1.66,-1.14,True,True,1.66,['ES2011b.D.dialog-act.dharshi.107'],False," And like if the if the phone's under the couch, you might not see the light, so",17,task,Inform
+ES2011b,D,1057.2,1059.9,2.7,ES2011b.D.dialog-act.dharshi.107,D,A,7.62,-1.66,True,False,0.0,[],False, You can hear it's under the couch yeah.,8,task,Inform
+ES2011b,A,1058.86,1059.18,0.32,ES2011b.A.dialog-act.dharshi.87,,,,,,,,,False, yeah.,1,task,Assess
+ES2011b,C,1059.82,1060.54,0.72,ES2011b.C.dialog-act.dharshi.79,,,,,,,,,False, So i Yeah.,3,minor,Backchannel
+ES2011b,D,1059.9,1062.832,2.932,ES2011b.D.dialog-act.dharshi.108,,,,,,,,,False," Um,",1,minor,Stall
+ES2011b,D,1067.52,1069.35,1.83,ES2011b.D.dialog-act.dharshi.109,D,D,0.0,7.62,False,False,0.0,[],False, So need the other buttons.,5,task,Inform
+ES2011b,D,1069.35,1072.14,2.79,ES2011b.D.dialog-act.dharshi.110,A,D,-0.66,0.0,False,True,0.66,['ES2011b.A.dialog-act.dharshi.88'],False, So we have this mm.,5,task,Inform
+ES2011b,A,1071.48,1074.91,3.43,ES2011b.A.dialog-act.dharshi.88,A,D,0.0,-0.66,True,False,0.0,[],False, So I mean the two remotes that you had shown r,11,task,Inform
+ES2011b,A,1074.91,1076.11,1.2,ES2011b.A.dialog-act.dharshi.89,C,A,-0.41,0.0,False,True,0.41,['ES2011b.C.dialog-act.dharshi.80'],False," I don't remember who showed them,",6,task,Inform
+ES2011b,D,1075.56,1076.998,1.438,ES2011b.D.dialog-act.dharshi.111,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2011b,B,1075.699,1077.192,1.493,ES2011b.B.dialog-act.dharshi.79,,,,,,,,,False,,0,minor,Fragment
+ES2011b,C,1075.7,1076.88,1.18,ES2011b.C.dialog-act.dharshi.80,A,A,-0.77,-0.41,True,True,0.77,['ES2011b.A.dialog-act.dharshi.90'],False, That was that was me.,5,task,Inform
+ES2011b,A,1076.11,1078.63,2.52,ES2011b.A.dialog-act.dharshi.90,A,C,0.74,-0.77,True,False,0.0,[],False," yeah you you did um,",5,task,Assess
+ES2011b,A,1078.63,1079.37,0.74,ES2011b.A.dialog-act.dharshi.91,,,,,,,,,False, they're,1,minor,Stall
+ES2011b,A,1079.37,1084.77,5.4,ES2011b.A.dialog-act.dharshi.92,C,A,-0.7,0.74,False,True,0.7,['ES2011b.C.dialog-act.dharshi.81'],False," I mean one looked like it was for V_C_R_ type thing, and the other looked like just television.",18,task,Inform
+ES2011b,C,1084.07,1089.34,5.27,ES2011b.C.dialog-act.dharshi.81,A,A,0.07,-0.7,True,False,0.0,[],False, I think w I think they're both sort of just like general remo they're both general remotes.,17,task,Inform
+ES2011b,A,1087.64,1088.21,0.57,ES2011b.A.dialog-act.dharshi.93,,,,,,,,,False, Oh really.,2,task,Assess
+ES2011b,C,1089.34,1089.94,0.6,ES2011b.C.dialog-act.dharshi.82,,,,,,,,,False, And uh,2,minor,Fragment
+ES2011b,A,1089.41,1094.94,5.53,ES2011b.A.dialog-act.dharshi.94,B,C,0.49,0.07,True,False,0.0,[],True," 'Cause that that is something we have to decide, is whether we want to have V_C_R_ capabilities.",17,task,Suggest
+ES2011b,C,1095.08,1095.55,0.47,ES2011b.C.dialog-act.dharshi.83,,,,,,,,,False, Yeah.,1,task,Assess
+ES2011b,B,1095.43,1099.4,3.97,ES2011b.B.dialog-act.dharshi.80,B,A,2.01,0.49,True,False,0.0,[],True, Does anyone know if V_C_R_s are the same across international?,10,elicit,Elicit-Inform
+ES2011b,A,1099.99,1101.76,1.77,ES2011b.A.dialog-act.dharshi.95,,,,,,,,,False, They're not no.,3,task,Inform
+ES2011b,D,1100.57,1101.42,0.85,ES2011b.D.dialog-act.dharshi.112,,,,,,,,,False," They're not, no.",3,task,Inform
+ES2011b,B,1101.41,1105.2,3.79,ES2011b.B.dialog-act.dharshi.81,A,B,-2.22,2.01,False,True,1.762,"['ES2011b.A.dialog-act.dharshi.96', 'ES2011b.D.dialog-act.dharshi.113', 'ES2011b.A.dialog-act.dharshi.97']",False," Okay, so you'd need like a whole different set of buttons for everybody's V_C_R_s.",14,task,Assess
+ES2011b,C,1101.79,1102.1,0.31,ES2011b.C.dialog-act.dharshi.84,,,,,,,,,False, S,1,minor,Fragment
+ES2011b,A,1102.98,1104.62,1.64,ES2011b.A.dialog-act.dharshi.96,D,B,-1.272,-2.22,True,True,1.272,['ES2011b.D.dialog-act.dharshi.113'],False," Yeah, that's right, yeah.",4,task,Assess
+ES2011b,D,1103.348,1105.11,1.762,ES2011b.D.dialog-act.dharshi.113,A,A,-0.49,-1.272,True,True,0.49,['ES2011b.A.dialog-act.dharshi.97'],False, It not V_H_S_ here?,4,elicit,Elicit-Inform
+ES2011b,A,1104.62,1106.23,1.61,ES2011b.A.dialog-act.dharshi.97,B,D,1.23,-0.49,True,False,0.0,[],False, But D_V_D_ probably is.,4,task,Inform
+ES2011b,B,1107.46,1109.33,1.87,ES2011b.B.dialog-act.dharshi.83,A,A,1.36,1.23,True,False,0.0,[],True," Yeah, other than that region and coding thing.",8,task,Assess
+ES2011b,C,1109.48,1110.352,0.872,ES2011b.C.dialog-act.dharshi.85,,,,,,,,,False, Um,1,minor,Stall
+ES2011b,D,1110.29,1111.598,1.308,ES2011b.D.dialog-act.dharshi.114,,,,,,,,,False, But V_C_R_s,2,minor,Fragment
+ES2011b,A,1110.69,1118.67,7.98,ES2011b.A.dialog-act.dharshi.99,D,B,-2.64,1.36,True,True,1.71,['ES2011b.D.dialog-act.dharshi.115'],True," And and if we're if we're targeting young professionals and teenagers, I mean it's gonna be D_V_D_ type, that's the the technology these days.",24,task,Assess
+ES2011b,D,1116.03,1117.74,1.71,ES2011b.D.dialog-act.dharshi.115,C,A,2.49,-2.64,True,False,0.0,[],False," Yeah. Yeah, for sure.",4,task,Assess
+ES2011b,C,1117.7,1118.86,1.16,ES2011b.C.dialog-act.dharshi.86,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,B,1117.83,1118.31,0.48,ES2011b.B.dialog-act.dharshi.84,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2011b,C,1118.86,1120.23,1.37,ES2011b.C.dialog-act.dharshi.87,,,,,,,,,False," So. Okay,",2,minor,Stall
+ES2011b,C,1120.23,1122.6,2.37,ES2011b.C.dialog-act.dharshi.88,C,D,0.0,2.49,True,False,0.0,[],True, let's see if I can,5,other,Other
+ES2011b,C,1122.6,1127.99,5.39,ES2011b.C.dialog-act.dharshi.89,C,C,0.0,0.0,False,False,0.0,[],False," I think still though, it shouldn't be that hard to take like just reduce the number of buttons you know,",20,task,Assess
+ES2011b,A,1127.64,1128.03,0.39,ES2011b.A.dialog-act.dharshi.101,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,C,1127.99,1132.38,4.39,ES2011b.C.dialog-act.dharshi.90,C,C,1.14,0.0,False,False,0.0,[],False," like 'cause if you just have like one menu button, that works like with a",15,task,Inform
+ES2011b,C,1133.52,1139.01,5.49,ES2011b.C.dialog-act.dharshi.91,D,C,1.21,1.14,False,False,0.0,[],False," you know, or you can just kind of scroll through the options u that come up on the T_V_.",19,task,Inform
+ES2011b,A,1136.63,1137.03,0.4,ES2011b.A.dialog-act.dharshi.102,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,D,1137.78,1140.22,2.44,ES2011b.D.dialog-act.dharshi.116,,,,,,,,,False, Well for sure we need the um,7,minor,Fragment
+ES2011b,D,1140.22,1145.87,5.65,ES2011b.D.dialog-act.dharshi.117,D,C,0.0,1.21,True,False,0.0,[],True, I think we can just design the channels?,8,task,Suggest
+ES2011b,D,1145.87,1149.85,3.98,ES2011b.D.dialog-act.dharshi.118,D,D,0.0,0.0,False,False,0.0,[],False," I mean power's just a button, and it's not used that much,",12,task,Inform
+ES2011b,A,1146.51,1146.89,0.38,ES2011b.A.dialog-act.dharshi.100,,,,,,,,,False, S,1,minor,Fragment
+ES2011b,C,1147.54,1147.99,0.45,ES2011b.C.dialog-act.dharshi.92,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,B,1147.84,1148.1,0.26,ES2011b.B.dialog-act.dharshi.85,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2011b,A,1148.22,1148.51,0.29,ES2011b.A.dialog-act.dharshi.103,,,,,,,,,False, Huh.,1,minor,Backchannel
+ES2011b,D,1149.85,1151.89,2.04,ES2011b.D.dialog-act.dharshi.119,D,D,0.0,0.0,False,False,0.0,[],False, s and it's usually that red,6,task,Inform
+ES2011b,C,1150.07,1150.4,0.33,ES2011b.C.dialog-act.dharshi.93,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,C,1151.66,1152.16,0.5,ES2011b.C.dialog-act.dharshi.94,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,D,1151.89,1154.83,2.94,ES2011b.D.dialog-act.dharshi.120,A,D,0.15,0.0,False,False,0.0,[],False, and I think it's quite nice to keep it like red.,11,task,Assess
+ES2011b,C,1154.12,1154.63,0.51,ES2011b.C.dialog-act.dharshi.95,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,A,1154.98,1159.72,4.74,ES2011b.A.dialog-act.dharshi.104,A,D,0.0,0.15,True,False,0.0,[],True," You know, I've seen some remotes that where you just hold one,",12,task,Inform
+ES2011b,A,1159.72,1164.18,4.46,ES2011b.A.dialog-act.dharshi.105,A,A,0.0,0.0,False,False,0.0,[],False, like if you hold one down it's it's a different colour than the other buttons but that turns it on.,20,task,Inform
+ES2011b,A,1164.18,1167.584,3.404,ES2011b.A.dialog-act.dharshi.106,C,A,0.136,0.0,False,False,0.0,[],False," So you don't actually have a separate power button, it's just",11,task,Inform
+ES2011b,D,1166.52,1168.02,1.5,ES2011b.D.dialog-act.dharshi.121,,,,,,,,,False," Oh okay, yeah.",3,task,Assess
+ES2011b,C,1167.72,1169.07,1.35,ES2011b.C.dialog-act.dharshi.96,A,A,2.51,0.136,True,False,0.0,[],True, It seems like that would be hard though.,8,task,Assess
+ES2011b,A,1168.44,1168.734,0.294,ES2011b.A.dialog-act.dharshi.107,,,,,,,,,False, But,1,minor,Fragment
+ES2011b,C,1169.07,1172.66,3.59,ES2011b.C.dialog-act.dharshi.97,,,,,,,,,False," I mean, like because unless you know",7,minor,Stall
+ES2011b,A,1171.58,1172.96,1.38,ES2011b.A.dialog-act.dharshi.108,C,C,1.32,2.51,True,False,0.0,[],True, It might be confusing.,4,task,Assess
+ES2011b,C,1172.66,1173.65,0.99,ES2011b.C.dialog-act.dharshi.98,,,,,,,,,False, yeah.,1,task,Assess
+ES2011b,A,1172.96,1173.35,0.39,ES2011b.A.dialog-act.dharshi.109,,,,,,,,,False, Yeah.,1,task,Assess
+ES2011b,C,1173.65,1174.28,0.63,ES2011b.C.dialog-act.dharshi.99,,,,,,,,,False, Just 'cause I wouldn't,4,minor,Stall
+ES2011b,C,1174.28,1179.4,5.12,ES2011b.C.dialog-act.dharshi.100,A,A,-2.13,1.32,True,True,1.99,"['ES2011b.A.dialog-act.dharshi.111', 'ES2011b.B.dialog-act.dharshi.86', 'ES2011b.A.dialog-act.dharshi.112']",True, I would probably pick it up and just be like uh why is there no on button.,17,task,Assess
+ES2011b,A,1175.44,1176.02,0.58,ES2011b.A.dialog-act.dharshi.110,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,A,1177.27,1179.26,1.99,ES2011b.A.dialog-act.dharshi.111,B,C,-1.14,-2.13,True,True,1.14,['ES2011b.B.dialog-act.dharshi.86'],False, Besides you like to be able to go power.,9,task,Assess
+ES2011b,B,1178.12,1181.621,3.501,ES2011b.B.dialog-act.dharshi.86,A,A,-2.361,-1.14,True,True,2.361,['ES2011b.A.dialog-act.dharshi.112'],False," Yeah, I never think to hold something down.",8,task,Assess
+ES2011b,D,1178.41,1178.99,0.58,ES2011b.D.dialog-act.dharshi.122,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,A,1179.26,1182.56,3.3,ES2011b.A.dialog-act.dharshi.112,A,B,0.39,-2.361,True,False,0.0,[],False, I have the power,4,other,Be-Positive
+ES2011b,C,1179.4,1179.97,0.57,ES2011b.C.dialog-act.dharshi.101,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,C,1179.97,1182.52,2.55,ES2011b.C.dialog-act.dharshi.102,,,,,,,,,False, B Yeah.,2,minor,Backchannel
+ES2011b,A,1182.56,1182.95,0.39,ES2011b.A.dialog-act.dharshi.113,,,,,,,,,False, I guess.,2,task,Assess
+ES2011b,A,1182.95,1186.23,3.28,ES2011b.A.dialog-act.dharshi.114,D,A,0.25,0.39,False,False,0.0,[],False, So we definitely want a power button and numbers.,9,task,Assess
+ES2011b,C,1185.97,1186.45,0.48,ES2011b.C.dialog-act.dharshi.103,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,A,1186.23,1186.49,0.26,ES2011b.A.dialog-act.dharshi.115,,,,,,,,,False, Right.,1,task,Assess
+ES2011b,D,1186.48,1189.01,2.53,ES2011b.D.dialog-act.dharshi.123,D,A,0.8,0.25,True,False,0.0,[],True," Well even um iPod thing,",5,task,Suggest
+ES2011b,D,1189.01,1189.81,0.8,ES2011b.D.dialog-act.dharshi.124,,,,,,,,,False," like um,",2,minor,Stall
+ES2011b,D,1189.81,1191.94,2.13,ES2011b.D.dialog-act.dharshi.125,D,D,0.0,0.8,False,False,0.0,[],False, I don't know if people like this,7,elicit,Elicit-Assessment
+ES2011b,D,1191.94,1201.19,9.25,ES2011b.D.dialog-act.dharshi.126,C,D,0.86,0.0,False,False,0.0,[],False," but if you want to reduce the number, of buttons, instead of having like one to nine, have a sort of",21,task,Suggest
+ES2011b,C,1202.05,1205.63,3.58,ES2011b.C.dialog-act.dharshi.104,D,D,1.13,0.86,True,False,0.0,[],True," That sort of like joystick flat touch thing, yeah.",9,task,Suggest
+ES2011b,D,1202.34,1202.98,0.64,ES2011b.D.dialog-act.dharshi.128,,,,,,,,,False, scrolling,1,task,Suggest
+ES2011b,D,1202.98,1204.16,1.18,ES2011b.D.dialog-act.dharshi.129,,,,,,,,,False, I don't know.,3,task,Inform
+ES2011b,A,1203.94,1205.232,1.292,ES2011b.A.dialog-act.dharshi.116,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2011b,B,1204.018,1205.278,1.26,ES2011b.B.dialog-act.dharshi.87,,,,,,,,,False,,0,minor,Fragment
+ES2011b,D,1204.16,1205.36,1.2,ES2011b.D.dialog-act.dharshi.127,,,,,,,,,False, Yeah.,1,task,Assess
+ES2011b,D,1205.36,1206.76,1.4,ES2011b.D.dialog-act.dharshi.130,,,,,,,,,False, Because people li seem,4,minor,Stall
+ES2011b,D,1206.76,1210.272,3.512,ES2011b.D.dialog-act.dharshi.131,D,C,1.708,1.13,True,False,0.0,[],True, now the iPod's out people seem to like this thing that there's no,13,task,Inform
+ES2011b,D,1211.98,1214.323,2.343,ES2011b.D.dialog-act.dharshi.132,C,D,-0.843,1.708,False,True,0.843,['ES2011b.C.dialog-act.dharshi.106'],False, Know you don't have one two three four five,9,task,Inform
+ES2011b,C,1212.93,1213.48,0.55,ES2011b.C.dialog-act.dharshi.105,,,,,,,,,False," Yeah, yeah.",2,task,Assess
+ES2011b,C,1213.48,1215.89,2.41,ES2011b.C.dialog-act.dharshi.106,C,D,2.16,-0.843,True,False,0.0,[],False," I think that's an interesting idea, 'cause it's cool,",9,task,Assess
+ES2011b,A,1214.72,1214.95,0.23,ES2011b.A.dialog-act.dharshi.117,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2011b,C,1215.89,1218.05,2.16,ES2011b.C.dialog-act.dharshi.107,,,,,,,,,False, it's it's funny like you f like I just,9,minor,Stall
+ES2011b,C,1218.05,1222.13,4.08,ES2011b.C.dialog-act.dharshi.108,C,C,1.88,2.16,False,False,0.0,[],False," I don't have an iPod but like I, you know, I just like started messing around with one of my friend's the other day,",24,task,Inform
+ES2011b,C,1222.13,1224.01,1.88,ES2011b.C.dialog-act.dharshi.109,,,,,,,,,False, and you just sort of and,6,minor,Stall
+ES2011b,C,1224.01,1226.57,2.56,ES2011b.C.dialog-act.dharshi.110,C,C,0.0,1.88,False,False,0.0,[],False," it's funny how you pick it up and you just figure out how to use it quite easily,",18,task,Inform
+ES2011b,C,1226.57,1227.98,1.41,ES2011b.C.dialog-act.dharshi.111,D,C,0.01,0.0,False,False,0.0,[],False," like it's not that hard, you know.",7,task,Inform
+ES2011b,A,1227.65,1227.98,0.33,ES2011b.A.dialog-act.dharshi.118,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,D,1227.99,1231.27,3.28,ES2011b.D.dialog-act.dharshi.133,C,C,-1.54,0.01,True,True,1.54,['ES2011b.C.dialog-act.dharshi.112'],True," Yeah yeah, it's just and it's one thing which has everything.",11,task,Assess
+ES2011b,C,1229.73,1231.77,2.04,ES2011b.C.dialog-act.dharshi.112,C,D,0.51,-1.54,True,False,0.0,[],False," Yeah, and it is yeah.",5,task,Assess
+ES2011b,C,1231.77,1232.28,0.51,ES2011b.C.dialog-act.dharshi.113,,,,,,,,,False, It is really,3,minor,Fragment
+ES2011b,C,1232.28,1234.85,2.57,ES2011b.C.dialog-act.dharshi.114,B,C,2.98,0.51,False,False,0.0,[],False," but do you need a screen then, do you have to have a screen then?",15,elicit,Elicit-Inform
+ES2011b,D,1234.82,1239.01,4.19,ES2011b.D.dialog-act.dharshi.134,,,,,,,,,False, Well can't it tell the like can't you if you,10,minor,Stall
+ES2011b,B,1237.83,1240.36,2.53,ES2011b.B.dialog-act.dharshi.88,D,C,-1.35,2.98,True,True,1.35,['ES2011b.D.dialog-act.dharshi.135'],True," Yeah, you can have the number going around in the corner.",11,task,Suggest
+ES2011b,D,1239.01,1243.717,4.707,ES2011b.D.dialog-act.dharshi.135,C,B,-0.897,-1.35,True,True,0.897,['ES2011b.C.dialog-act.dharshi.115'],False, you can have the number on the telly going like one two three four five once you scroll and then,20,task,Suggest
+ES2011b,C,1239.1,1240.6,1.5,ES2011b.C.dialog-act.dharshi.116,,,,,,,,,False, Yeah. Okay.,2,minor,Backchannel
+ES2011b,C,1240.6,1241.72,1.12,ES2011b.C.dialog-act.dharshi.117,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,C,1241.72,1242.82,1.1,ES2011b.C.dialog-act.dharshi.118,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,C,1242.82,1245.65,2.83,ES2011b.C.dialog-act.dharshi.115,A,D,0.05,-0.897,True,False,0.0,[],False, Okay so we have this like scrolling sort of button.,10,task,Assess
+ES2011b,A,1243.36,1244.301,0.941,ES2011b.A.dialog-act.dharshi.119,,,,,,,,,False, Oh that's gonna,3,minor,Fragment
+ES2011b,A,1245.7,1249.27,3.57,ES2011b.A.dialog-act.dharshi.120,C,C,-0.98,0.05,True,True,0.98,['ES2011b.C.dialog-act.dharshi.120'],True, Is that like on on a mouse pad where like kind of,12,elicit,Elicit-Inform
+ES2011b,C,1246.34,1247.12,0.78,ES2011b.C.dialog-act.dharshi.119,,,,,,,,,False, Like a disc.,3,task,Inform
+ES2011b,C,1248.29,1252.63,4.34,ES2011b.C.dialog-act.dharshi.120,A,A,-1.75,-0.98,True,True,1.66,"['ES2011b.A.dialog-act.dharshi.121', 'ES2011b.D.dialog-act.dharshi.136']",False, Yeah. Yeah. It's like it's just like the same technology as a mouse pad.,14,task,Inform
+ES2011b,A,1249.27,1249.64,0.37,ES2011b.A.dialog-act.dharshi.122,,,,,,,,,False, okay.,1,task,Assess
+ES2011b,A,1250.88,1252.25,1.37,ES2011b.A.dialog-act.dharshi.121,D,C,-1.28,-1.75,True,True,1.28,['ES2011b.D.dialog-act.dharshi.136'],False, I've never used one. No.,5,task,Inform
+ES2011b,D,1250.97,1254.97,4.0,ES2011b.D.dialog-act.dharshi.136,D,A,5.45,-1.28,True,False,0.0,[],False," It's like l this like that, and then you do that.",11,task,Inform
+ES2011b,A,1253.67,1254.01,0.34,ES2011b.A.dialog-act.dharshi.123,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2011b,C,1255.35,1255.72,0.37,ES2011b.C.dialog-act.dharshi.121,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,A,1255.35,1255.94,0.59,ES2011b.A.dialog-act.dharshi.124,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2011b,C,1256.87,1257.49,0.62,ES2011b.C.dialog-act.dharshi.122,,,,,,,,,False, Yeah and then.,3,minor,Fragment
+ES2011b,D,1256.92,1260.42,3.5,ES2011b.D.dialog-act.dharshi.137,,,,,,,,,False, And then you can have um,6,minor,Stall
+ES2011b,D,1260.42,1271.7,11.28,ES2011b.D.dialog-act.dharshi.138,C,D,0.8,5.45,False,False,0.0,[],False," if you actually just want to zap, you can have like a thing like that, and that, and then it can just be plus and minus.",26,task,Suggest
+ES2011b,C,1271.47,1272.5,1.03,ES2011b.C.dialog-act.dharshi.123,,,,,,,,,False, Okay.,1,task,Assess
+ES2011b,C,1272.5,1275.456,2.956,ES2011b.C.dialog-act.dharshi.124,C,D,1.994,0.8,True,False,0.0,[],True, So like it's like a little part of the circle that,11,task,Assess
+ES2011b,C,1276.55,1277.45,0.9,ES2011b.C.dialog-act.dharshi.125,,,,,,,,,False, Or it,2,minor,Stall
+ES2011b,D,1277.25,1277.58,0.33,ES2011b.D.dialog-act.dharshi.139,,,,,,,,,False," Yeah,",1,task,Assess
+ES2011b,C,1277.45,1279.76,2.31,ES2011b.C.dialog-act.dharshi.126,D,C,0.84,1.994,False,False,0.0,[],False, oh so it's just a region of the circle that you can,12,task,Assess
+ES2011b,D,1277.58,1278.27,0.69,ES2011b.D.dialog-act.dharshi.140,,,,,,,,,False, you can,2,minor,Fragment
+ES2011b,A,1278.16,1278.59,0.43,ES2011b.A.dialog-act.dharshi.125,,,,,,,,,False, Well i,2,minor,Fragment
+ES2011b,D,1280.6,1283.217,2.617,ES2011b.D.dialog-act.dharshi.141,A,C,-1.197,0.84,True,True,1.197,['ES2011b.A.dialog-act.dharshi.126'],True," Yeah, click o actually click on to have",8,task,Inform
+ES2011b,C,1280.98,1281.51,0.53,ES2011b.C.dialog-act.dharshi.127,,,,,,,,,False, zap.,1,task,Assess
+ES2011b,C,1281.51,1281.97,0.46,ES2011b.C.dialog-act.dharshi.128,,,,,,,,,False, Okay.,1,task,Assess
+ES2011b,A,1282.02,1284.93,2.91,ES2011b.A.dialog-act.dharshi.126,A,D,0.0,-1.197,True,False,0.0,[],False," We could we could even have four buttons,",8,task,Suggest
+ES2011b,A,1284.93,1292.26,7.33,ES2011b.A.dialog-act.dharshi.127,C,A,-0.74,0.0,False,True,0.74,['ES2011b.C.dialog-act.dharshi.130'],False," like, if that's the if that's the mouse, you could have the volume and the channel changers just like on that as well.",23,task,Suggest
+ES2011b,D,1289.33,1289.71,0.38,ES2011b.D.dialog-act.dharshi.142,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,C,1290.74,1291.52,0.78,ES2011b.C.dialog-act.dharshi.129,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,C,1291.52,1294.24,2.72,ES2011b.C.dialog-act.dharshi.130,B,A,0.64,-0.74,True,False,0.0,[],False, So volume could be like the top it and the bottom,11,task,Suggest
+ES2011b,C,1294.24,1295.11,0.87,ES2011b.C.dialog-act.dharshi.131,,,,,,,,,False, So do you need to,5,minor,Fragment
+ES2011b,B,1294.88,1295.81,0.93,ES2011b.B.dialog-act.dharshi.89,B,C,0.0,0.64,True,False,0.0,[],True," Doesn't it rotate though,",4,elicit,Elicit-Inform
+ES2011b,C,1295.11,1295.44,0.33,ES2011b.C.dialog-act.dharshi.132,,,,,,,,,False, okay.,1,task,Assess
+ES2011b,B,1295.81,1297.63,1.82,ES2011b.B.dialog-act.dharshi.90,C,B,-0.86,0.0,False,True,0.86,['ES2011b.C.dialog-act.dharshi.133'],False, so it'll be moving around.,5,task,Inform
+ES2011b,C,1296.77,1300.256,3.486,ES2011b.C.dialog-act.dharshi.133,D,B,1.504,-0.86,True,False,0.0,[],False, Well y you have to you have to like be able to change the function of it to like,19,task,Inform
+ES2011b,D,1301.76,1302.75,0.99,ES2011b.D.dialog-act.dharshi.143,C,C,4.89,1.504,True,False,0.0,[],True, What do you mean the function?,6,elicit,Elicit-Inform
+ES2011b,C,1302.73,1304.432,1.702,ES2011b.C.dialog-act.dharshi.134,,,,,,,,,False," I mean like okay, 'cause so",6,minor,Stall
+ES2011b,C,1306.58,1307.64,1.06,ES2011b.C.dialog-act.dharshi.135,,,,,,,,,False," I dunno, I guess Okay",5,minor,Stall
+ES2011b,C,1307.64,1313.18,5.54,ES2011b.C.dialog-act.dharshi.136,C,D,0.0,4.89,True,False,0.0,[],True," so when you g scroll your thumb like around it, it'll s like say you're go you're going clockwise.",19,task,Inform
+ES2011b,C,1313.18,1315.35,2.17,ES2011b.C.dialog-act.dharshi.137,C,C,0.0,0.0,False,False,0.0,[],False," That that means you're gonna go up the channels,",9,task,Inform
+ES2011b,C,1315.35,1317.5,2.15,ES2011b.C.dialog-act.dharshi.138,C,C,0.52,0.0,False,False,0.0,[],False, and then you scroll the other way and it'll go down.,11,task,Inform
+ES2011b,D,1315.67,1315.9,0.23,ES2011b.D.dialog-act.dharshi.145,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,D,1317.14,1317.44,0.3,ES2011b.D.dialog-act.dharshi.146,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,B,1317.44,1317.68,0.24,ES2011b.B.dialog-act.dharshi.91,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2011b,C,1317.5,1318.02,0.52,ES2011b.C.dialog-act.dharshi.139,,,,,,,,,False, But then,2,minor,Stall
+ES2011b,C,1318.02,1321.08,3.06,ES2011b.C.dialog-act.dharshi.140,C,C,1.23,0.52,False,False,0.0,[],False, so if you wanna switch to the to u do you have to switch to a function where,18,task,Inform
+ES2011b,C,1322.31,1330.82,8.51,ES2011b.C.dialog-act.dharshi.141,D,C,0.8,1.23,False,False,0.0,[],False," like y so you're either in that mode or you're in the mode where like it just has like the four like you know this is channel that way, that's that way and volume is up and down.",38,task,Inform
+ES2011b,D,1331.62,1333.75,2.13,ES2011b.D.dialog-act.dharshi.147,C,C,0.78,0.8,True,False,0.0,[],True, Yeah but it knows for some reason.,7,task,Inform
+ES2011b,C,1332.88,1333.432,0.552,ES2011b.C.dialog-act.dharshi.142,,,,,,,,,False, It just,2,minor,Fragment
+ES2011b,D,1333.75,1334.89,1.14,ES2011b.D.dialog-act.dharshi.148,,,,,,,,,False, The iPod knows.,3,task,Inform
+ES2011b,C,1334.53,1336.67,2.14,ES2011b.C.dialog-act.dharshi.143,B,D,-1.454,0.78,True,True,1.454,['ES2011b.B.dialog-act.dharshi.92'],True, It just kno the iPod knows. S,7,task,Assess
+ES2011b,B,1335.216,1337.87,2.654,ES2011b.B.dialog-act.dharshi.92,C,C,0.48,-1.454,True,False,0.0,[],False, If it works on an iPod then it works.,9,task,Assess
+ES2011b,A,1335.68,1337.351,1.671,ES2011b.A.dialog-act.dharshi.128,,,,,,,,,False,,0,minor,Fragment
+ES2011b,D,1336.094,1337.413,1.319,ES2011b.D.dialog-act.dharshi.144,,,,,,,,,False,,0,minor,Fragment
+ES2011b,C,1337.78,1338.35,0.57,ES2011b.C.dialog-act.dharshi.144,,,,,,,,,False, Yeah.,1,task,Assess
+ES2011b,A,1338.22,1338.45,0.23,ES2011b.A.dialog-act.dharshi.129,,,,,,,,,False, Huh.,1,minor,Backchannel
+ES2011b,C,1338.35,1341.79,3.44,ES2011b.C.dialog-act.dharshi.145,B,B,-2.37,0.48,True,True,0.89,"['ES2011b.B.dialog-act.dharshi.93', 'ES2011b.D.dialog-act.dharshi.149']",True, So you just you just can either do this or like you can just touch it if you want.,19,elicit,Elicit-Inform
+ES2011b,B,1339.42,1340.31,0.89,ES2011b.B.dialog-act.dharshi.93,D,C,1.45,-2.37,True,False,0.0,[],False, I don't have one.,4,task,Inform
+ES2011b,D,1341.76,1346.33,4.57,ES2011b.D.dialog-act.dharshi.149,C,B,-1.97,1.45,True,True,1.48,['ES2011b.C.dialog-act.dharshi.146'],True," Well for the volume you have to press the middle, and then go up.",14,task,Inform
+ES2011b,C,1344.36,1345.84,1.48,ES2011b.C.dialog-act.dharshi.146,C,D,1.0,-1.97,True,False,0.0,[],False, Okay. That's what I mean. Okay.,6,task,Assess
+ES2011b,C,1346.84,1351.49,4.65,ES2011b.C.dialog-act.dharshi.147,D,C,-0.4,1.0,False,True,0.4,['ES2011b.D.dialog-act.dharshi.150'],False," Okay so you have to like press this middle region and then you can scroll up, go up and down.",20,elicit,Elicit-Inform
+ES2011b,B,1348.05,1348.46,0.41,ES2011b.B.dialog-act.dharshi.94,,,,,,,,,False, Oh.,1,other,Other
+ES2011b,D,1351.09,1352.9,1.81,ES2011b.D.dialog-act.dharshi.150,D,C,0.0,-0.4,True,False,0.0,[],False," And then well if you do that it goes,",9,task,Inform
+ES2011b,A,1351.36,1352.704,1.344,ES2011b.A.dialog-act.dharshi.130,,,,,,,,,False, So it's like holding,4,minor,Fragment
+ES2011b,D,1352.9,1355.07,2.17,ES2011b.D.dialog-act.dharshi.151,D,D,0.0,0.0,False,False,0.0,[],False, but if you like that makes more sense,8,task,Assess
+ES2011b,D,1355.07,1359.02,3.95,ES2011b.D.dialog-act.dharshi.152,A,D,2.1,0.0,False,False,0.0,[],False," 'cause there's already ones with up and down here, that I've seen.",12,task,Inform
+ES2011b,A,1356.88,1357.63,0.75,ES2011b.A.dialog-act.dharshi.131,,,,,,,,,False, You can o,3,minor,Fragment
+ES2011b,A,1359.25,1359.78,0.53,ES2011b.A.dialog-act.dharshi.132,,,,,,,,,False, And you,2,minor,Fragment
+ES2011b,A,1360.92,1361.12,0.2,ES2011b.A.dialog-act.dharshi.133,,,,,,,,,False, you,1,minor,Fragment
+ES2011b,A,1361.12,1362.87,1.75,ES2011b.A.dialog-act.dharshi.134,A,D,0.0,2.1,True,False,0.0,[],True, is there an extra actual button?,6,elicit,Elicit-Inform
+ES2011b,A,1362.87,1366.82,3.95,ES2011b.A.dialog-act.dharshi.135,D,A,1.71,0.0,False,False,0.0,[],False, Or are you actually you're just using the mouse to go up and down.,14,elicit,Elicit-Inform
+ES2011b,D,1366.29,1366.94,0.65,ES2011b.D.dialog-act.dharshi.153,,,,,,,,,False, Well what you,3,minor,Stall
+ES2011b,A,1366.82,1367.072,0.252,ES2011b.A.dialog-act.dharshi.136,,,,,,,,,False, Like,1,minor,Fragment
+ES2011b,D,1366.94,1368.53,1.59,ES2011b.D.dialog-act.dharshi.154,,,,,,,,,False, for the iPod you press an,6,minor,Stall
+ES2011b,C,1367.24,1367.64,0.4,ES2011b.C.dialog-act.dharshi.148,,,,,,,,,False, It's like a b,4,minor,Fragment
+ES2011b,D,1368.53,1376.15,7.62,ES2011b.D.dialog-act.dharshi.155,A,A,6.01,1.71,True,False,0.0,[],True," w right if you're on the channel let's say, then you press on the middle and then if you do that again the volume goes up, and if you do that it goes down.",34,task,Inform
+ES2011b,A,1370.19,1370.51,0.32,ES2011b.A.dialog-act.dharshi.137,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2011b,A,1372.11,1372.39,0.28,ES2011b.A.dialog-act.dharshi.138,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2011b,A,1374.57,1374.92,0.35,ES2011b.A.dialog-act.dharshi.140,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2011b,A,1375.89,1376.16,0.27,ES2011b.A.dialog-act.dharshi.139,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2011b,D,1376.15,1381.84,5.69,ES2011b.D.dialog-act.dharshi.156,,,,,,,,,False," But if you wanna keep it with volume here and here, I'm pretty sure",14,minor,Fragment
+ES2011b,A,1382.16,1388.94,6.78,ES2011b.A.dialog-act.dharshi.141,D,D,2.56,6.01,True,False,0.0,[],True," Well I mean if if you're gonna this for channels, right, then y wouldn't the volume need to be separate somehow?",21,elicit,Elicit-Inform
+ES2011b,D,1385.43,1385.76,0.33,ES2011b.D.dialog-act.dharshi.157,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,A,1388.94,1389.904,0.964,ES2011b.A.dialog-act.dharshi.142,,,,,,,,,False, Like you could just have,5,minor,Fragment
+ES2011b,D,1391.06,1391.5,0.44,ES2011b.D.dialog-act.dharshi.158,,,,,,,,,False," I don't know,",3,task,Inform
+ES2011b,D,1391.5,1393.63,2.13,ES2011b.D.dialog-act.dharshi.159,C,A,2.1,2.56,True,False,0.0,[],True," you could click and then have it up and down,",10,task,Inform
+ES2011b,A,1391.62,1392.654,1.034,ES2011b.A.dialog-act.dharshi.143,,,,,,,,,False," Oh, like",2,minor,Fragment
+ES2011b,C,1393.18,1393.597,0.417,ES2011b.C.dialog-act.dharshi.149,,,,,,,,,False, Like,1,minor,Fragment
+ES2011b,D,1393.63,1394.404,0.774,ES2011b.D.dialog-act.dharshi.160,,,,,,,,,False, but I think,3,minor,Fragment
+ES2011b,A,1393.63,1394.816,1.186,ES2011b.A.dialog-act.dharshi.144,,,,,,,,,False, Oh you could actually,4,minor,Fragment
+ES2011b,C,1395.73,1398.7,2.97,ES2011b.C.dialog-act.dharshi.150,C,D,0.0,2.1,True,False,0.0,[],True, I think we can go on the fact that it does just work with the iPod.,16,task,Assess
+ES2011b,D,1397.97,1398.82,0.85,ES2011b.D.dialog-act.dharshi.161,,,,,,,,,False, Yeah yeah yeah.,3,task,Assess
+ES2011b,B,1398.45,1398.98,0.53,ES2011b.B.dialog-act.dharshi.95,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,A,1398.57,1398.9,0.33,ES2011b.A.dialog-act.dharshi.145,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,C,1398.7,1400.76,2.06,ES2011b.C.dialog-act.dharshi.151,C,C,1.81,0.0,False,False,0.0,[],False," But the only thing is like, iPods are so expensive,",10,task,Inform
+ES2011b,C,1400.76,1402.57,1.81,ES2011b.C.dialog-act.dharshi.152,,,,,,,,,False," like, it has to be",5,minor,Stall
+ES2011b,C,1402.57,1403.73,1.16,ES2011b.C.dialog-act.dharshi.153,A,C,-0.64,1.81,False,True,0.64,['ES2011b.A.dialog-act.dharshi.146'],False, is that part of,4,elicit,Elicit-Inform
+ES2011b,A,1403.09,1404.2,1.11,ES2011b.A.dialog-act.dharshi.146,B,C,-0.104,-0.64,True,True,0.104,['ES2011b.B.dialog-act.dharshi.96'],False, Is that what makes them expensi,6,elicit,Elicit-Inform
+ES2011b,C,1403.73,1404.37,0.64,ES2011b.C.dialog-act.dharshi.154,,,,,,,,,False," yeah,",1,minor,Backchannel
+ES2011b,B,1404.096,1406.04,1.944,ES2011b.B.dialog-act.dharshi.96,C,A,-1.67,-0.104,True,True,1.67,"['ES2011b.C.dialog-act.dharshi.155', 'ES2011b.A.dialog-act.dharshi.148']",False, I don't think so.,4,task,Inform
+ES2011b,A,1404.2,1405.16,0.96,ES2011b.A.dialog-act.dharshi.147,,,,,,,,,False, I think it's all of,5,minor,Fragment
+ES2011b,C,1404.37,1406.2,1.83,ES2011b.C.dialog-act.dharshi.155,A,B,-1.04,-1.67,True,True,1.04,['ES2011b.A.dialog-act.dharshi.148'],False," I dunno, I dunno.",4,task,Inform
+ES2011b,A,1405.16,1406.37,1.21,ES2011b.A.dialog-act.dharshi.148,C,C,-0.17,-1.04,True,True,0.17,['ES2011b.C.dialog-act.dharshi.156'],False," they have so much memory though,",6,task,Inform
+ES2011b,C,1406.2,1407.03,0.83,ES2011b.C.dialog-act.dharshi.156,B,A,0.0,-0.17,True,False,0.0,[],False, You don't think so?,4,elicit,Elicit-Inform
+ES2011b,A,1406.37,1407.653,1.283,ES2011b.A.dialog-act.dharshi.149,,,,,,,,,False, that's it's,2,minor,Fragment
+ES2011b,C,1407.03,1407.44,0.41,ES2011b.C.dialog-act.dharshi.157,,,,,,,,,False, Okay.,1,task,Assess
+ES2011b,B,1407.03,1409.33,2.3,ES2011b.B.dialog-act.dharshi.97,A,C,0.45,0.0,True,False,0.0,[],False, I don't think it's the wheel dealy.,7,task,Inform
+ES2011b,D,1408.12,1408.633,0.513,ES2011b.D.dialog-act.dharshi.162,,,,,,,,,False, I think it,3,minor,Fragment
+ES2011b,A,1409.16,1409.78,0.62,ES2011b.A.dialog-act.dharshi.150,,,,,,,,,False, Yeah.,1,task,Assess
+ES2011b,D,1409.72,1410.02,0.3,ES2011b.D.dialog-act.dharshi.163,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,A,1409.78,1415.8,6.02,ES2011b.A.dialog-act.dharshi.151,C,B,1.51,0.45,True,False,0.0,[],True, I think it's the uh h it's their capabili I mean they it can hold what like five thousand songs or something.,22,task,Inform
+ES2011b,C,1410.02,1410.56,0.54,ES2011b.C.dialog-act.dharshi.158,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2011b,B,1414.39,1414.71,0.32,ES2011b.B.dialog-act.dharshi.98,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,C,1414.75,1415.53,0.78,ES2011b.C.dialog-act.dharshi.159,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,B,1414.943,1414.943,0.0,ES2011b.B.dialog-act.dharshi.99,,,,,,,,,False,.,0,minor,Fragment
+ES2011b,C,1415.53,1416.21,0.68,ES2011b.C.dialog-act.dharshi.160,,,,,,,,,False, I'm thinking we could,4,minor,Stall
+ES2011b,C,1416.21,1417.31,1.1,ES2011b.C.dialog-act.dharshi.161,,,,,,,,,False, if if we're hav So ba,6,minor,Fragment
+ES2011b,C,1417.31,1420.13,2.82,ES2011b.C.dialog-act.dharshi.162,B,A,-2.15,1.51,True,True,1.49,"['ES2011b.B.dialog-act.dharshi.100', 'ES2011b.B.dialog-act.dharshi.101']",True, I mean but an iPod just has that circle thing you know.,12,task,Inform
+ES2011b,B,1417.98,1419.47,1.49,ES2011b.B.dialog-act.dharshi.100,B,C,0.0,-2.15,True,False,0.0,[],False, And they're re-programmable aren't they?,5,elicit,Elicit-Inform
+ES2011b,B,1419.47,1421.35,1.88,ES2011b.B.dialog-act.dharshi.101,B,B,0.0,0.0,False,False,0.0,[],False," You can put on your songs and then put on a different set,",13,task,Inform
+ES2011b,A,1419.59,1420.84,1.25,ES2011b.A.dialog-act.dharshi.152,,,,,,,,,False, Yeah.,1,task,Inform
+ES2011b,A,1420.84,1421.53,0.69,ES2011b.A.dialog-act.dharshi.153,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,B,1421.35,1424.13,2.78,ES2011b.B.dialog-act.dharshi.102,C,B,1.17,0.0,False,False,0.0,[],False," that's probably why they're expensive, they're like little computers.",9,task,Inform
+ES2011b,A,1421.53,1421.84,0.31,ES2011b.A.dialog-act.dharshi.154,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,C,1422.63,1423.99,1.36,ES2011b.C.dialog-act.dharshi.163,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,A,1423.41,1423.64,0.23,ES2011b.A.dialog-act.dharshi.155,,,,,,,,,False, S,1,minor,Fragment
+ES2011b,C,1423.99,1425.3,1.31,ES2011b.C.dialog-act.dharshi.164,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,C,1425.3,1429.4,4.1,ES2011b.C.dialog-act.dharshi.165,C,B,0.0,1.17,True,False,0.0,[],True," Well like since it just has the circle thing, you could make it a qui a kind of cool shape,",20,task,Suggest
+ES2011b,C,1429.4,1436.729,7.329,ES2011b.C.dialog-act.dharshi.166,D,C,-0.749,0.0,False,True,0.749,['ES2011b.D.dialog-act.dharshi.166'],False," like it could be a cool sort of you know, because it could be circular, you know, or something weird like that, just",23,task,Suggest
+ES2011b,D,1430.13,1430.53,0.4,ES2011b.D.dialog-act.dharshi.165,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,B,1431.4,1431.66,0.26,ES2011b.B.dialog-act.dharshi.104,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2011b,D,1434.25,1434.98,0.73,ES2011b.D.dialog-act.dharshi.164,,,,,,,,,False, Yeah yeah yeah.,3,task,Assess
+ES2011b,B,1434.456,1435.591,1.135,ES2011b.B.dialog-act.dharshi.103,,,,,,,,,False,,0,minor,Backchannel
+ES2011b,D,1435.98,1439.5,3.52,ES2011b.D.dialog-act.dharshi.166,D,C,0.0,-0.749,True,False,0.0,[],False, Well it could just be simple instead of being a l mass.,12,task,Suggest
+ES2011b,D,1439.5,1453.63,14.13,ES2011b.D.dialog-act.dharshi.167,D,D,0.0,0.0,False,False,0.0,[],False," Because, the other thing, I didn't tell you all my presentation, is that people find it find that it's a big waste of time to have to learn how to use your remote",33,task,Inform
+ES2011b,C,1453.59,1454.05,0.46,ES2011b.C.dialog-act.dharshi.167,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,D,1453.63,1457.24,3.61,ES2011b.D.dialog-act.dharshi.168,D,D,0.0,0.0,False,False,0.0,[],False, and that's another thing they complained about.,7,task,Inform
+ES2011b,A,1454.63,1455.31,0.68,ES2011b.A.dialog-act.dharshi.156,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2011b,C,1456.37,1456.78,0.41,ES2011b.C.dialog-act.dharshi.168,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,D,1457.24,1460.35,3.11,ES2011b.D.dialog-act.dharshi.169,D,D,0.89,0.0,False,False,0.0,[],False," Um, what other buttons were there?",6,elicit,Elicit-Inform
+ES2011b,D,1460.35,1461.24,0.89,ES2011b.D.dialog-act.dharshi.170,,,,,,,,,False, Volume,1,task,Inform
+ES2011b,D,1461.24,1462.5,1.26,ES2011b.D.dialog-act.dharshi.171,C,D,2.93,0.89,False,False,0.0,[],False, oh we've ts just said that.,6,task,Inform
+ES2011b,C,1464.59,1465.43,0.84,ES2011b.C.dialog-act.dharshi.169,,,,,,,,,False, So okay.,2,minor,Stall
+ES2011b,D,1464.84,1466.06,1.22,ES2011b.D.dialog-act.dharshi.172,,,,,,,,,False, Channel selection.,2,task,Inform
+ES2011b,C,1465.43,1469.344,3.914,ES2011b.C.dialog-act.dharshi.170,B,D,1.256,2.93,True,False,0.0,[],True," This is just for T_V_, it's not for or it is does need to be compatible with",17,elicit,Elicit-Inform
+ES2011b,B,1469.1,1469.495,0.395,ES2011b.B.dialog-act.dharshi.105,,,,,,,,,False, I,1,minor,Fragment
+ES2011b,A,1469.54,1470.432,0.892,ES2011b.A.dialog-act.dharshi.157,,,,,,,,,False, Um,1,minor,Stall
+ES2011b,B,1470.6,1474.59,3.99,ES2011b.B.dialog-act.dharshi.106,C,C,-0.91,1.256,True,True,0.91,"['ES2011b.C.dialog-act.dharshi.172', 'ES2011b.A.dialog-act.dharshi.158']",True," A D_V_D_ is simple, you just have play, pause, eject,",10,task,Inform
+ES2011b,C,1472.72,1473.68,0.96,ES2011b.C.dialog-act.dharshi.171,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,C,1473.68,1474.772,1.092,ES2011b.C.dialog-act.dharshi.172,A,B,-0.722,-0.91,True,True,0.722,['ES2011b.A.dialog-act.dharshi.158'],False, So how do you switch,5,elicit,Elicit-Inform
+ES2011b,D,1473.76,1474.3,0.54,ES2011b.D.dialog-act.dharshi.173,,,,,,,,,False, Menu.,1,task,Inform
+ES2011b,A,1474.05,1483.98,9.93,ES2011b.A.dialog-act.dharshi.158,A,C,0.0,-0.722,True,False,0.0,[],False," You know actually our our new project requirements, I'm not sure if they meant o onl use only for television as in not for D_V_D_ or just not internet type things.",31,task,Inform
+ES2011b,B,1476.44,1477.29,0.85,ES2011b.B.dialog-act.dharshi.107,,,,,,,,,False, and menu maybe.,3,task,Inform
+ES2011b,B,1482.52,1483.13,0.61,ES2011b.B.dialog-act.dharshi.108,,,,,,,,,False, Oh yeah.,2,minor,Backchannel
+ES2011b,A,1483.98,1487.32,3.34,ES2011b.A.dialog-act.dharshi.159,A,A,0.0,0.0,False,False,0.0,[],False, So I'll I'll check that and update you on the next,11,other,Offer
+ES2011b,C,1484.72,1485.13,0.41,ES2011b.C.dialog-act.dharshi.173,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2011b,C,1486.6,1487.984,1.384,ES2011b.C.dialog-act.dharshi.175,,,,,,,,,False, So like if we had that,6,minor,Fragment
+ES2011b,A,1487.32,1489.557,2.237,ES2011b.A.dialog-act.dharshi.160,D,A,1.433,0.0,False,False,0.0,[],False, But we'll hold off on that 'cause,7,task,Suggest
+ES2011b,C,1489.08,1489.74,0.66,ES2011b.C.dialog-act.dharshi.174,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,A,1490.29,1491.36,1.07,ES2011b.A.dialog-act.dharshi.161,,,,,,,,,False, But s yeah uh.,4,minor,Stall
+ES2011b,D,1490.99,1493.01,2.02,ES2011b.D.dialog-act.dharshi.174,B,A,3.21,1.433,True,False,0.0,[],True, But D_V_D_ players usually have their own remote.,8,task,Inform
+ES2011b,C,1493.6,1495.17,1.57,ES2011b.C.dialog-act.dharshi.176,,,,,,,,,False," That's true, yeah.",3,task,Assess
+ES2011b,A,1494.32,1494.73,0.41,ES2011b.A.dialog-act.dharshi.162,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,C,1495.17,1496.98,1.81,ES2011b.C.dialog-act.dharshi.177,,,,,,,,,False," So, I know I'm not c really clear on what",10,minor,Fragment
+ES2011b,B,1496.22,1497.48,1.26,ES2011b.B.dialog-act.dharshi.109,B,D,0.0,3.21,True,False,0.0,[],True," But it's cool to have it all on one,",9,task,Assess
+ES2011b,B,1497.48,1502.63,5.15,ES2011b.B.dialog-act.dharshi.111,C,B,-0.78,0.0,False,True,0.78,['ES2011b.C.dialog-act.dharshi.181'],False," because you wanna turn it on then you wanna turn up the volume, and then you wanna go to the menu, so you don't wanna switch.",26,task,Assess
+ES2011b,D,1497.7,1499.04,1.34,ES2011b.D.dialog-act.dharshi.175,,,,,,,,,False," Yeah, yeah, yeah.",3,task,Assess
+ES2011b,C,1497.76,1498.63,0.87,ES2011b.C.dialog-act.dharshi.179,,,,,,,,,False," Yeah, yeah.",2,minor,Backchannel
+ES2011b,A,1500.46,1501.26,0.8,ES2011b.A.dialog-act.dharshi.163,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2011b,D,1500.73,1501.35,0.62,ES2011b.D.dialog-act.dharshi.176,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,C,1500.88,1501.85,0.97,ES2011b.C.dialog-act.dharshi.180,,,,,,,,,False, So you'd have to have like,6,minor,Stall
+ES2011b,A,1501.26,1501.66,0.4,ES2011b.A.dialog-act.dharshi.164,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2011b,C,1501.85,1504.89,3.04,ES2011b.C.dialog-act.dharshi.181,C,B,0.0,-0.78,True,False,0.0,[],False," I think you would have to have like a function switch button,",12,task,Inform
+ES2011b,C,1504.89,1510.592,5.702,ES2011b.C.dialog-act.dharshi.182,B,C,-0.352,0.0,False,True,0.352,['ES2011b.B.dialog-act.dharshi.112'],False," you know somewhere so like you can you're either on T_V_, you're on D_V_D_ or you're on V_C_R_, or you're like. So",22,task,Inform
+ES2011b,A,1509.27,1509.77,0.5,ES2011b.A.dialog-act.dharshi.165,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,B,1510.24,1512.39,2.15,ES2011b.B.dialog-act.dharshi.112,D,C,0.13,-0.352,True,False,0.0,[],False, Well but D_V_D_ is only like four buttons.,8,task,Inform
+ES2011b,D,1512.52,1513.85,1.33,ES2011b.D.dialog-act.dharshi.177,C,B,-0.7,0.13,True,True,0.7,['ES2011b.C.dialog-act.dharshi.184'],True," Yeah, it is only fun",5,task,Assess
+ES2011b,C,1512.92,1513.15,0.23,ES2011b.C.dialog-act.dharshi.183,,,,,,,,,False," Yeah,",1,task,Assess
+ES2011b,C,1513.15,1518.99,5.84,ES2011b.C.dialog-act.dharshi.184,B,D,1.38,-0.7,True,False,0.0,[],False," but I mean like to switch the fun so like to switch the function of the little circle disc, the touch pad.",22,task,Inform
+ES2011b,A,1514.09,1514.68,0.59,ES2011b.A.dialog-act.dharshi.166,,,,,,,,,False, But i,2,minor,Fragment
+ES2011b,B,1518.49,1518.82,0.33,ES2011b.B.dialog-act.dharshi.113,,,,,,,,,False, Oh.,1,task,Assess
+ES2011b,A,1518.78,1519.31,0.53,ES2011b.A.dialog-act.dharshi.167,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2011b,B,1518.82,1520.37,1.55,ES2011b.B.dialog-act.dharshi.114,,,,,,,,,False, But I think the circle only does,7,minor,Stall
+ES2011b,B,1520.37,1524.22,3.85,ES2011b.B.dialog-act.dharshi.115,B,C,0.0,1.38,True,False,0.0,[],True, channel isn't applicable to D_V_D_ really 'cause you don't wanna,10,task,Inform
+ES2011b,C,1523.6,1524.918,1.318,ES2011b.C.dialog-act.dharshi.185,,,,,,,,,False, Yeah but it it would be,6,minor,Fragment
+ES2011b,B,1524.22,1527.48,3.26,ES2011b.B.dialog-act.dharshi.116,C,B,0.2,0.0,False,False,0.0,[],False, but volume is and volume is actually controlled on the T_V_ so you don't have to switch.,17,task,Inform
+ES2011b,C,1527.68,1531.52,3.84,ES2011b.C.dialog-act.dharshi.186,C,B,0.0,0.2,True,False,0.0,[],True," So but I'm saying like, does it make sense to have like some kind of a button,",17,elicit,Elicit-Assessment
+ES2011b,C,1531.52,1535.04,3.52,ES2011b.C.dialog-act.dharshi.188,C,C,0.0,0.0,False,False,0.0,[],False," so like you're if you're on T_V_, like you can switch channels,",12,task,Inform
+ES2011b,C,1535.04,1544.48,9.44,ES2011b.C.dialog-act.dharshi.189,C,C,1.85,0.0,False,False,0.0,[],False, but then if uh if you're on D_V_D_ then like the channel bu like the the region of the disc that was for channels is for like switching to different tracks,31,task,Inform
+ES2011b,C,1544.48,1546.33,1.85,ES2011b.C.dialog-act.dharshi.190,,,,,,,,,False," or s you know, to different",6,minor,Fragment
+ES2011b,C,1546.33,1547.75,1.42,ES2011b.C.dialog-act.dharshi.191,A,C,0.33,1.85,False,False,0.0,[],False," I mean do we need to think about that,",9,elicit,Elicit-Assessment
+ES2011b,C,1547.75,1548.18,0.43,ES2011b.C.dialog-act.dharshi.192,,,,,,,,,False, that like,2,minor,Fragment
+ES2011b,A,1548.08,1549.62,1.54,ES2011b.A.dialog-act.dharshi.169,B,C,-1.33,0.33,True,True,0.94,['ES2011b.B.dialog-act.dharshi.117'],True," Um, yeah, let's think about it",6,task,Assess
+ES2011b,B,1548.29,1549.23,0.94,ES2011b.B.dialog-act.dharshi.117,A,A,0.39,-1.33,True,False,0.0,[],False, Yes we can try that.,5,task,Assess
+ES2011b,A,1549.62,1550.99,1.37,ES2011b.A.dialog-act.dharshi.170,A,B,2.56,0.39,True,False,0.0,[],True, 'cause we need to wrap up.,6,task,Inform
+ES2011b,D,1550.899,1552.93,2.031,ES2011b.D.dialog-act.dharshi.179,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2011b,A,1550.99,1553.55,2.56,ES2011b.A.dialog-act.dharshi.171,,,,,,,,,False, Um let's see.,3,minor,Stall
+ES2011b,C,1551.188,1552.549,1.361,ES2011b.C.dialog-act.dharshi.187,,,,,,,,,False,,0,minor,Fragment
+ES2011b,A,1553.55,1557.86,4.31,ES2011b.A.dialog-act.dharshi.172,A,A,0.0,2.56,False,False,0.0,[],False," Um so everyone's gonna go finish their questionnaire,",8,task,Inform
+ES2011b,A,1557.86,1562.75,4.89,ES2011b.A.dialog-act.dharshi.173,A,A,0.0,0.0,False,False,0.0,[],False," uh then when we come back after lunch we'll have thirty minutes of individual work,",15,task,Inform
+ES2011b,A,1562.75,1570.94,8.19,ES2011b.A.dialog-act.dharshi.174,,A,,0.0,False,False,0.0,[],False," um yeah, so think about the things we've discussed and bring some new ideas to our next meeting.",18,task,Suggest
+ES2011b,A,1570.94,1571.53,0.59,ES2011b.A.dialog-act.dharshi.175,,,,,,,,,False, See you soon.,3,other,Be-Positive
+ES2011b,A,1576.528,1578.789,2.261,ES2011b.A.dialog-act.dharshi.168,,,,,,,,,False,,0,minor,Fragment
+ES2011b,D,1576.78,1577.563,0.783,ES2011b.D.dialog-act.dharshi.178,,,,,,,,,False,,0,minor,Fragment

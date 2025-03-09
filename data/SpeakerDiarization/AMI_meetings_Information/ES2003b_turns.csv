@@ -1,0 +1,790 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+ES2003b,C,4.35,6.51,2.16,ES2003b.C.dialog-act.vkaraisk.1,B,,0.79,,True,False,0.0,[],False, Just put it on the deskt desktop.,7,task,Suggest
+ES2003b,B,7.05,7.3,0.25,ES2003b.B.dialog-act.vkaraisk.1,,,,,,,,,False, No,1,task,Assess
+ES2003b,B,7.3,11.59,4.29,ES2003b.B.dialog-act.vkaraisk.2,B,C,6.98,0.79,True,False,0.0,[],True, on the desktop you'll find you should find that there's a project documents link.,14,task,Inform
+ES2003b,B,15.29,15.55,0.26,ES2003b.B.dialog-act.vkaraisk.3,,,,,,,,,False, A,1,minor,Fragment
+ES2003b,B,15.55,15.81,0.26,ES2003b.B.dialog-act.vkaraisk.4,,,,,,,,,False, well,1,minor,Stall
+ES2003b,B,15.81,17.49,1.68,ES2003b.B.dialog-act.vkaraisk.5,,,,,,,,,False, actually just there.,3,task,Inform
+ES2003b,C,16.4,17.17,0.77,ES2003b.C.dialog-act.vkaraisk.2,,,,,,,,,False," Project documents,",2,task,Inform
+ES2003b,C,17.17,17.52,0.35,ES2003b.C.dialog-act.vkaraisk.3,,,,,,,,,False, yeah.,1,other,Comment-About-Understanding
+ES2003b,B,17.49,18.57,1.08,ES2003b.B.dialog-act.vkaraisk.6,,,,,,,,,False, Yeah. That's it.,3,task,Assess
+ES2003b,B,18.57,19.41,0.84,ES2003b.B.dialog-act.vkaraisk.7,C,B,3.19,6.98,False,False,0.0,[],False, If you dump it in there.,6,task,Suggest
+ES2003b,C,19.59,20.32,0.73,ES2003b.C.dialog-act.vkaraisk.4,,,,,,,,,False, What's your username?,3,elicit,Elicit-Inform
+ES2003b,B,21.55,22.21,0.66,ES2003b.B.dialog-act.vkaraisk.8,,,,,,,,,False, Your username.,2,other,Comment-About-Understanding
+ES2003b,C,22.6,23.87,1.27,ES2003b.C.dialog-act.vkaraisk.5,B,B,21.64,3.19,True,False,0.0,[],True, What's your username and password?,5,elicit,Elicit-Inform
+ES2003b,C,29.12,29.49,0.37,ES2003b.C.dialog-act.vkaraisk.6,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,C,34.52,34.74,0.22,ES2003b.C.dialog-act.vkaraisk.7,,,,,,,,,False, Sorry.,1,other,Be-Positive
+ES2003b,C,39.45,40.28,0.83,ES2003b.C.dialog-act.vkaraisk.8,,,,,,,,,False, Okay.,1,task,Assess
+ES2003b,B,39.62,42.83,3.21,ES2003b.B.dialog-act.vkaraisk.9,,,,,,,,,False, Okay.,1,task,Assess
+ES2003b,C,41.82,42.21,0.39,ES2003b.C.dialog-act.vkaraisk.9,,,,,,,,,False, There we go.,3,task,Suggest
+ES2003b,B,42.83,43.34,0.51,ES2003b.B.dialog-act.vkaraisk.10,,,,,,,,,False, Excellent.,1,other,Be-Positive
+ES2003b,B,43.34,45.51,2.17,ES2003b.B.dialog-act.vkaraisk.11,,,,,,,,,False, Right.,1,minor,Stall
+ES2003b,B,45.51,48.6,3.09,ES2003b.B.dialog-act.vkaraisk.12,B,C,2.73,21.64,True,False,0.0,[],True, Hopefully that's us ready to uh to go.,8,task,Inform
+ES2003b,B,48.6,50.03,1.43,ES2003b.B.dialog-act.vkaraisk.13,,,,,,,,,False, So.,1,minor,Stall
+ES2003b,B,50.03,51.33,1.3,ES2003b.B.dialog-act.vkaraisk.14,,,,,,,,,False, Functional design meeting.,3,task,Inform
+ES2003b,B,51.33,54.85,3.52,ES2003b.B.dialog-act.vkaraisk.15,B,B,1.96,2.73,False,False,0.0,[],False, We'll have to flesh out some of the uh stuff. Um,11,task,Suggest
+ES2003b,B,56.81,59.46,2.65,ES2003b.B.dialog-act.vkaraisk.16,B,B,0.0,1.96,False,False,0.0,[],False, we'll start with the minutes of the last meeting.,9,task,Suggest
+ES2003b,B,59.46,61.01,1.55,ES2003b.B.dialog-act.vkaraisk.17,B,B,1.88,0.0,False,False,0.0,[],False, Not a lot thankfully to say.,6,task,Inform
+ES2003b,B,61.01,62.89,1.88,ES2003b.B.dialog-act.vkaraisk.18,,,,,,,,,False," We introduced ourselves,",3,task,Inform
+ES2003b,B,62.89,78.62,15.73,ES2003b.B.dialog-act.vkaraisk.19,B,B,0.0,1.88,False,False,0.0,[],False," discussed the possibility of a macro facility, interac interacting the T_V_ a bit more, um mentioning of bar-code, joystick for user manipulation, um and ergonomics of the remote control as well.",31,task,Inform
+ES2003b,B,78.62,83.14,4.52,ES2003b.B.dialog-act.vkaraisk.22,B,B,0.0,0.0,False,False,0.0,[],False, Um it's come to my attention the following.,8,task,Inform
+ES2003b,B,83.14,87.88,4.74,ES2003b.B.dialog-act.vkaraisk.23,B,B,0.0,0.0,False,False,0.0,[],False, Teletext has become outdated due to the populat popularity of the internet.,12,task,Inform
+ES2003b,B,87.88,97.04,9.16,ES2003b.B.dialog-act.vkaraisk.24,B,B,0.0,0.0,False,False,0.0,[],False, Remote control should only be used for the T_V_. Um due for uh time to market and possibly also cost issues.,21,task,Inform
+ES2003b,B,97.04,100.58,3.54,ES2003b.B.dialog-act.vkaraisk.25,B,B,0.0,0.0,False,False,0.0,[],False," Um also key is the corporate image should stay recognisable,",10,task,Inform
+ES2003b,B,100.58,107.12,6.54,ES2003b.B.dialog-act.vkaraisk.26,B,B,2.91,0.0,False,False,0.0,[],False, um f uh your colour and slogan of course is down at the bottom there.,15,task,Inform
+ES2003b,B,107.12,110.03,2.91,ES2003b.B.dialog-act.vkaraisk.27,,,,,,,,,False, Um. Now.,2,minor,Stall
+ES2003b,B,110.03,122.0,11.97,ES2003b.B.dialog-act.vkaraisk.28,B,B,0.0,2.91,False,False,0.0,[],False, Just to say quickly uh I would have thought that only being used for a television the macro facility may now not be required.,24,task,Inform
+ES2003b,A,121.21,121.63,0.42,ES2003b.A.dialog-act.vkaraisk.1,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,B,122.0,125.66,3.66,ES2003b.B.dialog-act.vkaraisk.29,B,B,0.53,0.0,False,False,0.0,[],False, Um or at l its functionality would have been of limited use.,12,task,Assess
+ES2003b,B,125.66,126.19,0.53,ES2003b.B.dialog-act.vkaraisk.30,,,,,,,,,False, So,1,minor,Stall
+ES2003b,B,126.19,130.85,4.66,ES2003b.B.dialog-act.vkaraisk.31,B,B,0.0,0.53,False,False,0.0,[],False, to the point in my opinion anyway that it might not be worth pursuing.,14,task,Suggest
+ES2003b,B,130.85,135.12,4.27,ES2003b.B.dialog-act.vkaraisk.32,B,B,0.0,0.0,False,False,0.0,[],False, Um if anybody disagrees we can uh definitely say so.,10,task,Suggest
+ES2003b,B,135.12,139.98,4.86,ES2003b.B.dialog-act.vkaraisk.33,B,B,0.0,0.0,False,False,0.0,[],False, Um and hopefully we'll just crack on and we'll get everything going.,12,task,Suggest
+ES2003b,B,139.98,144.53,4.55,ES2003b.B.dialog-act.vkaraisk.34,B,B,0.0,0.0,False,False,0.0,[],False," Um I'd like to if possible hear from our Marketing Expert first,",12,task,Suggest
+ES2003b,C,144.36,144.56,0.2,ES2003b.C.dialog-act.vkaraisk.10,,,,,,,,,False, 'Kay.,1,task,Assess
+ES2003b,B,144.53,147.35,2.82,ES2003b.B.dialog-act.vkaraisk.35,B,B,1.13,0.0,False,False,0.0,[],False, to help us gain an idea of where we're going to go.,12,task,Inform
+ES2003b,B,147.35,148.48,1.13,ES2003b.B.dialog-act.vkaraisk.36,,,,,,,,,False, So um,2,minor,Stall
+ES2003b,B,148.48,150.99,2.51,ES2003b.B.dialog-act.vkaraisk.37,C,B,7.86,1.13,False,False,0.0,[],False, I'll just load up your presentation from here if you want.,11,other,Offer
+ES2003b,C,151.21,151.62,0.41,ES2003b.C.dialog-act.vkaraisk.11,,,,,,,,,False, Sure.,1,task,Assess
+ES2003b,C,155.15,158.85,3.7,ES2003b.C.dialog-act.vkaraisk.12,,,,,,,,,False," Um, sh would you like to",6,minor,Fragment
+ES2003b,C,158.85,159.76,0.91,ES2003b.C.dialog-act.vkaraisk.13,B,B,2.07,7.86,True,False,0.0,[],True, I'll just do it from here.,6,other,Offer
+ES2003b,B,160.27,160.59,0.32,ES2003b.B.dialog-act.vkaraisk.38,,,,,,,,,False, Yep.,1,task,Assess
+ES2003b,B,160.59,161.83,1.24,ES2003b.B.dialog-act.vkaraisk.39,,,,,,,,,False, Sorry.,1,other,Be-Positive
+ES2003b,B,161.83,164.224,2.394,ES2003b.B.dialog-act.vkaraisk.40,C,C,2.146,2.07,True,False,0.0,[],True, Uh. Is yours the,4,elicit,Elicit-Inform
+ES2003b,C,166.37,168.38,2.01,ES2003b.C.dialog-act.vkaraisk.14,C,B,10.02,2.146,True,False,0.0,[],True," Um, try second one maybe.",5,task,Inform
+ES2003b,C,174.96,175.37,0.41,ES2003b.C.dialog-act.vkaraisk.15,,,,,,,,,False," Try it,",2,task,Suggest
+ES2003b,C,175.37,175.89,0.52,ES2003b.C.dialog-act.vkaraisk.16,,,,,,,,,False, yeah maybe.,2,task,Assess
+ES2003b,B,176.2,176.33,0.13,ES2003b.B.dialog-act.vkaraisk.43,,,,,,,,,False, Oh,1,other,Comment-About-Understanding
+ES2003b,B,176.33,177.37,1.04,ES2003b.B.dialog-act.vkaraisk.41,,,,,,,,,False, sorry.,1,other,Be-Positive
+ES2003b,C,176.89,178.4,1.51,ES2003b.C.dialog-act.vkaraisk.17,,,,,,,,,False, Yeah. Okay.,2,task,Assess
+ES2003b,B,177.37,178.28,0.91,ES2003b.B.dialog-act.vkaraisk.42,,,,,,,,,False," Okay, right.",2,task,Assess
+ES2003b,C,178.4,179.5,1.1,ES2003b.C.dialog-act.vkaraisk.18,B,C,3.94,10.02,False,False,0.0,[],False," Oh, I thought I put in my last name,",9,task,Inform
+ES2003b,C,179.5,180.38,0.88,ES2003b.C.dialog-act.vkaraisk.19,,,,,,,,,False," I guess not,",3,task,Inform
+ES2003b,C,180.38,181.02,0.64,ES2003b.C.dialog-act.vkaraisk.20,,,,,,,,,False, but.,1,minor,Fragment
+ES2003b,B,181.04,182.06,1.02,ES2003b.B.dialog-act.vkaraisk.44,,,,,,,,,False, Uh if you,3,minor,Fragment
+ES2003b,B,182.06,183.2,1.14,ES2003b.B.dialog-act.vkaraisk.45,,,,,,,,,False, that's all right.,3,other,Be-Positive
+ES2003b,C,183.08,184.192,1.112,ES2003b.C.dialog-act.vkaraisk.21,,,,,,,,,False, Okay.,1,minor,Stall
+ES2003b,B,183.2,183.44,0.24,ES2003b.B.dialog-act.vkaraisk.46,,,,,,,,,False, If you,2,minor,Fragment
+ES2003b,B,183.44,186.44,3.0,ES2003b.B.dialog-act.vkaraisk.47,C,C,-0.02,3.94,True,True,0.02,['ES2003b.C.dialog-act.vkaraisk.22'],True, do you want me to just cycle through it for you or?,12,elicit,Elicit-Assessment
+ES2003b,C,186.42,188.03,1.61,ES2003b.C.dialog-act.vkaraisk.22,C,B,0.9,-0.02,True,False,0.0,[],False," Oh yeah, that'd be fine, that'd be great.",8,task,Assess
+ES2003b,B,187.64,188.76,1.12,ES2003b.B.dialog-act.vkaraisk.48,,,,,,,,,False, Yeah?,1,other,Comment-About-Understanding
+ES2003b,C,188.03,188.93,0.9,ES2003b.C.dialog-act.vkaraisk.23,,,,,,,,,False, Okay.,1,minor,Stall
+ES2003b,C,188.93,192.273,3.343,ES2003b.C.dialog-act.vkaraisk.24,C,C,3.577,0.9,False,False,0.0,[],False, Functional requirement by me Ebenezer.,5,task,Inform
+ES2003b,B,192.78,193.84,1.06,ES2003b.B.dialog-act.vkaraisk.49,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2003b,C,194.65,195.85,1.2,ES2003b.C.dialog-act.vkaraisk.25,,,,,,,,,False," Okay, so um",3,minor,Stall
+ES2003b,C,195.85,197.4,1.55,ES2003b.C.dialog-act.vkaraisk.26,C,C,0.0,3.577,False,False,0.0,[],False," we did some research,",4,task,Inform
+ES2003b,C,197.4,201.71,4.31,ES2003b.C.dialog-act.vkaraisk.27,C,C,0.0,0.0,False,False,0.0,[],False, we asked one hundred people their opinions on remote controls.,10,task,Inform
+ES2003b,C,201.71,204.62,2.91,ES2003b.C.dialog-act.vkaraisk.28,C,C,0.0,0.0,False,False,0.0,[],False," We asked some uh open ended questions,",7,task,Inform
+ES2003b,C,204.62,207.9,3.28,ES2003b.C.dialog-act.vkaraisk.29,C,C,0.0,0.0,False,False,0.0,[],False," just, what are your opinions on the remote control,",9,task,Inform
+ES2003b,C,207.9,209.73,1.83,ES2003b.C.dialog-act.vkaraisk.30,C,C,0.0,0.0,False,False,0.0,[],False," got a lot of re responses,",6,task,Inform
+ES2003b,C,209.73,211.62,1.89,ES2003b.C.dialog-act.vkaraisk.31,C,C,0.0,0.0,False,False,0.0,[],False," and we asked some very specific questions,",7,task,Inform
+ES2003b,C,211.62,213.81,2.19,ES2003b.C.dialog-act.vkaraisk.32,C,C,0.0,0.0,False,False,0.0,[],False, and we got a lot of good feedback.,8,task,Inform
+ES2003b,C,213.81,216.83,3.02,ES2003b.C.dialog-act.vkaraisk.33,C,C,0.0,0.0,False,False,0.0,[],False," Please bear in mind this is only a hundred people,",10,task,Inform
+ES2003b,C,216.83,227.39,10.56,ES2003b.C.dialog-act.vkaraisk.34,C,C,3.09,0.0,False,False,0.0,[],False," so even when the groups are divided into fifteen to twenty five, twenty five to thirty five, there's only maybe ten people fifteen people in each group.",27,task,Inform
+ES2003b,C,227.39,227.84,0.45,ES2003b.C.dialog-act.vkaraisk.35,,,,,,,,,False, Okay.,1,minor,Stall
+ES2003b,B,227.45,227.77,0.32,ES2003b.B.dialog-act.vkaraisk.50,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2003b,C,229.088,230.21,1.122,ES2003b.C.dialog-act.vkaraisk.36,,,,,,,,,False, So,1,minor,Stall
+ES2003b,C,230.21,230.48,0.27,ES2003b.C.dialog-act.vkaraisk.37,,,,,,,,,False, we got,2,minor,Fragment
+ES2003b,C,230.48,232.13,1.65,ES2003b.C.dialog-act.vkaraisk.38,C,C,0.0,3.09,False,False,0.0,[],False," some the bad stuff we got,",6,task,Inform
+ES2003b,C,232.13,234.41,2.28,ES2003b.C.dialog-act.vkaraisk.39,C,C,0.0,0.0,False,False,0.0,[],False, remotes are often lost.,4,task,Inform
+ES2003b,C,234.41,238.17,3.76,ES2003b.C.dialog-act.vkaraisk.40,C,C,0.0,0.0,False,False,0.0,[],False," I often lose my remote control, the back of the couch, some place,",13,task,Inform
+ES2003b,C,238.17,243.65,5.48,ES2003b.C.dialog-act.vkaraisk.41,C,C,0.0,0.0,False,False,0.0,[],False," and even if it's not lost permanently, it takes me a few minutes to find it.",16,task,Inform
+ES2003b,C,243.65,245.44,1.79,ES2003b.C.dialog-act.vkaraisk.42,C,C,0.0,0.0,False,False,0.0,[],False," Most buttons are not used any more,",7,task,Inform
+ES2003b,C,245.44,248.23,2.79,ES2003b.C.dialog-act.vkaraisk.43,C,C,0.0,0.0,False,False,0.0,[],False," like you said, teletext is outdated now.",7,task,Inform
+ES2003b,C,248.23,252.08,3.85,ES2003b.C.dialog-act.vkaraisk.44,C,C,0.0,0.0,False,False,0.0,[],False," I remember trying to load a D_V_D_ player recently,",9,task,Inform
+ES2003b,C,252.08,253.54,1.46,ES2003b.C.dialog-act.vkaraisk.45,C,C,0.0,0.0,False,False,0.0,[],False," and there were so many buttons,",6,task,Inform
+ES2003b,C,253.54,256.75,3.21,ES2003b.C.dialog-act.vkaraisk.46,C,C,0.0,0.0,False,False,0.0,[],False," it took me I don't know maybe ten minutes to to go through each button,",15,task,Inform
+ES2003b,C,256.75,261.02,4.27,ES2003b.C.dialog-act.vkaraisk.47,C,C,0.17,0.0,False,False,0.0,[],False," 'cause you have to press the shift button to access the yellow buttons,",13,task,Inform
+ES2003b,C,261.02,261.19,0.17,ES2003b.C.dialog-act.vkaraisk.48,,,,,,,,,False, you know,2,minor,Stall
+ES2003b,C,261.19,263.66,2.47,ES2003b.C.dialog-act.vkaraisk.49,C,C,0.0,0.17,False,False,0.0,[],False, there's just a lot of stuff that no one really uses.,11,task,Inform
+ES2003b,C,263.66,265.11,1.45,ES2003b.C.dialog-act.vkaraisk.50,C,C,1.77,0.0,False,False,0.0,[],False," And if they do, not very often.",7,task,Inform
+ES2003b,C,266.88,269.35,2.47,ES2003b.C.dialog-act.vkaraisk.51,C,C,0.0,1.77,False,False,0.0,[],False, Takes too long to master the remote control.,8,task,Inform
+ES2003b,C,269.35,271.59,2.24,ES2003b.C.dialog-act.vkaraisk.52,C,C,0.0,0.0,False,False,0.0,[],False," I've seen some remote controls that are big,",8,task,Inform
+ES2003b,C,271.59,273.2,1.61,ES2003b.C.dialog-act.vkaraisk.53,C,C,0.0,0.0,False,False,0.0,[],False," they have a lot of buttons,",6,task,Inform
+ES2003b,C,273.2,276.37,3.17,ES2003b.C.dialog-act.vkaraisk.54,C,C,0.0,0.0,False,False,0.0,[],False," you have to hold down more than one key at one time to do something,",15,task,Inform
+ES2003b,C,276.37,278.61,2.24,ES2003b.C.dialog-act.vkaraisk.55,C,C,0.0,0.0,False,False,0.0,[],False, they're just not great to use.,6,task,Assess
+ES2003b,C,278.61,281.39,2.78,ES2003b.C.dialog-act.vkaraisk.56,C,C,0.0,0.0,False,False,0.0,[],False," We just got a lot of bad complaints about remote controls,",11,task,Inform
+ES2003b,C,281.39,284.15,2.76,ES2003b.C.dialog-act.vkaraisk.57,C,C,0.0,0.0,False,False,0.0,[],False, people do not like remote controls.,6,task,Inform
+ES2003b,C,284.15,286.58,2.43,ES2003b.C.dialog-act.vkaraisk.58,C,C,0.0,0.0,False,False,0.0,[],False, Some of the good stuff we got.,7,task,Inform
+ES2003b,C,286.58,294.26,7.68,ES2003b.C.dialog-act.vkaraisk.59,C,C,0.0,0.0,False,False,0.0,[],False," Between the age of uh fifteen and twenty five, most people would be willing to pay extra for voice recognition software.",21,task,Inform
+ES2003b,C,294.26,295.77,1.51,ES2003b.C.dialog-act.vkaraisk.60,C,C,0.0,0.0,False,False,0.0,[],False," Now don't get excited yet,",5,task,Suggest
+ES2003b,C,295.77,297.71,1.94,ES2003b.C.dialog-act.vkaraisk.61,C,C,0.0,0.0,False,False,0.0,[],False, I've got more to say on that.,7,other,Offer
+ES2003b,C,297.71,299.45,1.74,ES2003b.C.dialog-act.vkaraisk.62,C,C,0.0,0.0,False,False,0.0,[],False, Most people'd be willing to pay for that,8,task,Inform
+ES2003b,C,299.45,302.76,3.31,ES2003b.C.dialog-act.vkaraisk.63,C,C,0.0,0.0,False,False,0.0,[],False," um most people want remote controls to be pretty,",9,task,Inform
+ES2003b,C,302.76,305.15,2.39,ES2003b.C.dialog-act.vkaraisk.64,C,C,0.0,0.0,False,False,0.0,[],False," they want it to be fancy,",6,task,Inform
+ES2003b,C,305.15,306.77,1.62,ES2003b.C.dialog-act.vkaraisk.65,C,C,0.0,0.0,False,False,0.0,[],False," th they they want it to be different,",8,task,Inform
+ES2003b,C,306.77,312.35,5.58,ES2003b.C.dialog-act.vkaraisk.66,C,C,0.0,0.0,False,False,0.0,[],False," everybody has a white remote control with black buttons, and a red button and a green button,",17,task,Inform
+ES2003b,C,312.35,315.03,2.68,ES2003b.C.dialog-act.vkaraisk.67,C,C,3.28,0.0,False,False,0.0,[],False, not everybody wants that.,4,task,Inform
+ES2003b,C,315.03,316.3,1.27,ES2003b.C.dialog-act.vkaraisk.68,,,,,,,,,False," Finally, my opinion.",3,other,Offer
+ES2003b,B,316.9,317.21,0.31,ES2003b.B.dialog-act.vkaraisk.51,,,,,,,,,False, Yep.,1,minor,Backchannel
+ES2003b,C,318.31,320.89,2.58,ES2003b.C.dialog-act.vkaraisk.69,C,C,0.0,3.28,False,False,0.0,[],False, The voice recognition thing is cool.,6,task,Assess
+ES2003b,C,320.89,325.48,4.59,ES2003b.C.dialog-act.vkaraisk.70,C,C,0.0,0.0,False,False,0.0,[],False," And uh voice recognition, the software, open source software exist already.",11,task,Inform
+ES2003b,C,325.48,330.6,5.12,ES2003b.C.dialog-act.vkaraisk.71,C,C,3.37,0.0,False,False,0.0,[],False," It's a bit sketchy at some times, uh, you're not gonna get good always accurate results,",16,task,Inform
+ES2003b,C,330.6,333.34,2.74,ES2003b.C.dialog-act.vkaraisk.72,,,,,,,,,False," but for a very fixed number of words,",8,minor,Fragment
+ES2003b,C,333.34,333.63,0.29,ES2003b.C.dialog-act.vkaraisk.73,,,,,,,,,False, you know,2,minor,Stall
+ES2003b,C,333.63,333.97,0.34,ES2003b.C.dialog-act.vkaraisk.74,,,,,,,,,False," you have,",2,minor,Fragment
+ES2003b,C,333.97,336.27,2.3,ES2003b.C.dialog-act.vkaraisk.75,C,C,0.0,3.37,False,False,0.0,[],False," how many different words can you have for a remote control,",11,elicit,Elicit-Inform
+ES2003b,C,336.27,340.35,4.08,ES2003b.C.dialog-act.vkaraisk.76,C,C,0.41,0.0,False,False,0.0,[],False," up, down, left, right, channel five, channel seven,",8,task,Inform
+ES2003b,C,340.35,340.55,0.2,ES2003b.C.dialog-act.vkaraisk.77,,,,,,,,,False," you know,",2,minor,Stall
+ES2003b,C,340.55,340.76,0.21,ES2003b.C.dialog-act.vkaraisk.78,,,,,,,,,False," how many,",2,minor,Fragment
+ES2003b,C,340.76,342.3,1.54,ES2003b.C.dialog-act.vkaraisk.79,C,C,0.0,0.41,False,False,0.0,[],False, you can't have that many words.,6,task,Inform
+ES2003b,C,342.3,345.55,3.25,ES2003b.C.dialog-act.vkaraisk.80,C,C,0.0,0.0,False,False,0.0,[],False, For a fixed vocabulary it works quite well.,8,task,Inform
+ES2003b,C,345.55,347.46,1.91,ES2003b.C.dialog-act.vkaraisk.81,C,C,0.0,0.0,False,False,0.0,[],False, I'm pretty sure people would buy it.,7,task,Inform
+ES2003b,C,347.46,350.03,2.57,ES2003b.C.dialog-act.vkaraisk.82,C,C,3.58,0.0,False,False,0.0,[],False," But after a while people may wanna return it,",9,task,Inform
+ES2003b,C,350.03,353.61,3.58,ES2003b.C.dialog-act.vkaraisk.83,,,,,,,,,False, because if you have to to say som,8,minor,Fragment
+ES2003b,C,353.61,357.17,3.56,ES2003b.C.dialog-act.vkaraisk.84,C,C,0.0,3.58,False,False,0.0,[],False," I mean most people use a remote control for switching to channels,",12,task,Inform
+ES2003b,C,357.17,359.53,2.36,ES2003b.C.dialog-act.vkaraisk.85,C,C,0.0,0.0,False,False,0.0,[],False, and they say they do that about ninety eight percent of the time.,13,task,Inform
+ES2003b,C,359.53,362.47,2.94,ES2003b.C.dialog-act.vkaraisk.86,C,C,0.0,0.0,False,False,0.0,[],False," Using the remote control, ninety eight percent of the time for changing channels,",13,task,Inform
+ES2003b,C,362.47,364.47,2.0,ES2003b.C.dialog-act.vkaraisk.87,C,C,0.0,0.0,False,False,0.0,[],False, and that's for flickering through channels.,6,task,Inform
+ES2003b,C,364.47,372.58,8.11,ES2003b.C.dialog-act.vkaraisk.88,C,C,0.0,0.0,False,False,0.0,[],False," So if you have to say up, up, up, up, if you have to do that all the time, then people might get a bit fed up with that",29,task,Inform
+ES2003b,C,372.58,373.54,0.96,ES2003b.C.dialog-act.vkaraisk.89,C,C,0.844,0.0,False,False,0.0,[],False, and they may return it.,5,task,Inform
+ES2003b,C,374.384,380.23,5.846,ES2003b.C.dialog-act.vkaraisk.90,C,C,0.0,0.844,False,False,0.0,[],False," However, oh, because the voice recognition software exists already,",9,task,Inform
+ES2003b,C,380.23,383.39,3.16,ES2003b.C.dialog-act.vkaraisk.91,C,C,0.0,0.0,False,False,0.0,[],False," there's no need to spend money on research and development,",10,task,Inform
+ES2003b,C,383.39,388.5,5.11,ES2003b.C.dialog-act.vkaraisk.92,C,C,0.0,0.0,False,False,0.0,[],False," but this does mean the need for microphones in the in the remote control,",14,task,Inform
+ES2003b,C,388.5,391.17,2.67,ES2003b.C.dialog-act.vkaraisk.93,C,C,0.0,0.0,False,False,0.0,[],False, which is an unusual feature in my opinion.,8,task,Inform
+ES2003b,C,391.17,397.64,6.47,ES2003b.C.dialog-act.vkaraisk.94,C,C,1.36,0.0,False,False,0.0,[],False," But if we do have the voice recognition thing, there's a lot of stuff that you can uh get rid of.",21,task,Suggest
+ES2003b,C,397.64,398.35,0.71,ES2003b.C.dialog-act.vkaraisk.95,,,,,,,,,False," See, you could",3,minor,Fragment
+ES2003b,C,398.35,399.0,0.65,ES2003b.C.dialog-act.vkaraisk.96,,,,,,,,,False, there're two options.,3,task,Inform
+ES2003b,C,399.0,401.18,2.18,ES2003b.C.dialog-act.vkaraisk.97,C,C,0.0,1.36,False,False,0.0,[],False," Either you have voice recognition by itself,",7,task,Suggest
+ES2003b,C,401.18,406.89,5.71,ES2003b.C.dialog-act.vkaraisk.98,C,C,0.0,0.0,False,False,0.0,[],False," which I think is a bit impractical for like night time if you wanna be watching television and you wanna be quiet,",22,task,Assess
+ES2003b,C,406.89,414.18,7.29,ES2003b.C.dialog-act.vkaraisk.99,C,C,0.0,0.0,False,False,0.0,[],False," or I don't know you have a visitor coming round and the remote's only trained for you, it's a bit impractical to have just voice recognition by itself.",28,task,Assess
+ES2003b,C,414.18,418.02,3.84,ES2003b.C.dialog-act.vkaraisk.100,C,C,0.0,0.0,False,False,0.0,[],False, So you can have voice recognition and a regular remote.,10,task,Suggest
+ES2003b,C,418.02,424.61,6.59,ES2003b.C.dialog-act.vkaraisk.101,C,C,0.0,0.0,False,False,0.0,[],False," But imagine you got rid of the regular remote part, then you can design the remote to look any way you want it to look,",25,task,Inform
+ES2003b,C,424.61,429.26,4.65,ES2003b.C.dialog-act.vkaraisk.102,C,C,0.0,0.0,False,False,0.0,[],False," because there are no restrictions on physical size, or shape,",10,task,Inform
+ES2003b,C,429.26,431.57,2.31,ES2003b.C.dialog-act.vkaraisk.103,C,C,0.17,0.0,False,False,0.0,[],False," it it could be as fancy as you want it to be,",12,task,Inform
+ES2003b,C,431.57,431.74,0.17,ES2003b.C.dialog-act.vkaraisk.104,,,,,,,,,False," you know,",2,minor,Stall
+ES2003b,C,431.74,435.33,3.59,ES2003b.C.dialog-act.vkaraisk.105,C,C,0.0,0.17,False,False,0.0,[],False," it could be like a lollipop or something like that, something weird like that.",14,task,Inform
+ES2003b,C,435.33,438.42,3.09,ES2003b.C.dialog-act.vkaraisk.106,C,C,1.54,0.0,False,False,0.0,[],False," As long as the voice recognition stuff works, that's that's fine.",11,task,Assess
+ES2003b,B,438.88,439.69,0.81,ES2003b.B.dialog-act.vkaraisk.52,,,,,,,,,False," Okay, yep.",2,minor,Backchannel
+ES2003b,C,439.83,439.96,0.13,ES2003b.C.dialog-act.vkaraisk.107,,,,,,,,,False, So,1,minor,Stall
+ES2003b,C,439.96,440.76,0.8,ES2003b.C.dialog-act.vkaraisk.108,C,C,0.0,1.54,False,False,0.0,[],False," we have the three birds,",5,task,Inform
+ES2003b,C,440.76,442.38,1.62,ES2003b.C.dialog-act.vkaraisk.109,C,C,1.07,0.0,False,False,0.0,[],False," we have the design,",4,task,Inform
+ES2003b,C,442.38,443.45,1.07,ES2003b.C.dialog-act.vkaraisk.110,,,,,,,,,False, that,1,minor,Fragment
+ES2003b,C,443.45,445.43,1.98,ES2003b.C.dialog-act.vkaraisk.111,C,C,0.22,1.07,False,False,0.0,[],False," we have the the fancy bit,",6,task,Inform
+ES2003b,C,445.43,445.65,0.22,ES2003b.C.dialog-act.vkaraisk.112,,,,,,,,,False," right,",1,elicit,Elicit-Assessment
+ES2003b,C,445.65,447.04,1.39,ES2003b.C.dialog-act.vkaraisk.113,C,C,3.56,0.22,False,False,0.0,[],False," the voice recognition's fancy,",4,task,Assess
+ES2003b,C,447.04,447.81,0.77,ES2003b.C.dialog-act.vkaraisk.114,,,,,,,,,False," it's cool,",2,task,Assess
+ES2003b,C,447.81,448.6,0.79,ES2003b.C.dialog-act.vkaraisk.115,,,,,,,,,False," it's different,",2,task,Assess
+ES2003b,C,448.6,449.86,1.26,ES2003b.C.dialog-act.vkaraisk.116,,,,,,,,,False," it's radical,",2,task,Assess
+ES2003b,C,449.86,450.6,0.74,ES2003b.C.dialog-act.vkaraisk.117,,,,,,,,,False," so,",1,minor,Stall
+ES2003b,C,450.6,452.36,1.76,ES2003b.C.dialog-act.vkaraisk.118,C,C,2.85,3.56,False,False,0.0,[],False, and then we have an extra bit,7,task,Inform
+ES2003b,C,452.36,454.93,2.57,ES2003b.C.dialog-act.vkaraisk.119,,,,,,,,,False, I don't remember,3,task,Inform
+ES2003b,C,454.93,455.21,0.28,ES2003b.C.dialog-act.vkaraisk.120,,,,,,,,,False, so,1,minor,Stall
+ES2003b,C,455.21,457.02,1.81,ES2003b.C.dialog-act.vkaraisk.121,C,C,0.0,2.85,False,False,0.0,[],False," I'm pretty sure people will buy the remote,",8,task,Inform
+ES2003b,C,457.02,460.97,3.95,ES2003b.C.dialog-act.vkaraisk.122,C,C,0.0,0.0,False,False,0.0,[],False," but is it practical to have a voice recognition system in a remote control,",14,elicit,Elicit-Assessment
+ES2003b,C,460.97,462.81,1.84,ES2003b.C.dialog-act.vkaraisk.123,C,C,0.0,0.0,False,False,0.0,[],False, I think is a big question.,6,task,Assess
+ES2003b,C,462.81,470.03,7.22,ES2003b.C.dialog-act.vkaraisk.124,C,C,0.0,0.0,False,False,0.0,[],False," Um, will people will people be willing to wait for the the period that it'll take to train the remote,",20,elicit,Elicit-Inform
+ES2003b,C,470.03,475.88,5.85,ES2003b.C.dialog-act.vkaraisk.125,C,C,0.0,0.0,False,False,0.0,[],False," 'cause I think it will the remote will uh get better over time with the same user user,",18,task,Inform
+ES2003b,C,475.88,478.87,2.99,ES2003b.C.dialog-act.vkaraisk.126,C,C,0.0,0.0,False,False,0.0,[],False," but for the first week or for the first two weeks are you willing to wait,",16,elicit,Elicit-Inform
+ES2003b,C,478.87,482.62,3.75,ES2003b.C.dialog-act.vkaraisk.127,C,C,0.0,0.0,False,False,0.0,[],False, are you willing to have a bad remote control.,9,elicit,Elicit-Inform
+ES2003b,C,482.62,485.57,2.95,ES2003b.C.dialog-act.vkaraisk.128,C,C,0.0,0.0,False,False,0.0,[],False," And uh what if you have visitors come round,",9,elicit,Elicit-Inform
+ES2003b,C,485.57,486.21,0.64,ES2003b.C.dialog-act.vkaraisk.129,C,C,0.0,0.0,False,False,0.0,[],False," they stay the night,",4,task,Inform
+ES2003b,C,486.21,488.17,1.96,ES2003b.C.dialog-act.vkaraisk.130,C,C,0.0,0.0,False,False,0.0,[],False," they wanna use the T_V_, they can't use the remote",10,task,Inform
+ES2003b,C,488.17,490.92,2.75,ES2003b.C.dialog-act.vkaraisk.131,C,C,0.0,0.0,False,False,0.0,[],False, because they speak differently to you.,6,task,Inform
+ES2003b,C,490.92,494.54,3.62,ES2003b.C.dialog-act.vkaraisk.132,C,C,0.0,0.0,False,False,0.0,[],False," Um, how do you account for regional accents and stuff like that.",12,elicit,Elicit-Offer-Or-Suggestion
+ES2003b,C,494.54,497.57,3.03,ES2003b.C.dialog-act.vkaraisk.133,C,C,0.0,0.0,False,False,0.0,[],False," Uh, will people return the remote control,",7,elicit,Elicit-Inform
+ES2003b,C,497.57,500.85,3.28,ES2003b.C.dialog-act.vkaraisk.134,C,C,1.02,0.0,False,False,0.0,[],False," I think a lot of young people will buy the remote control, if they have the money,",17,task,Inform
+ES2003b,C,500.85,501.87,1.02,ES2003b.C.dialog-act.vkaraisk.135,,,,,,,,,False," you know, so,",3,minor,Stall
+ES2003b,B,501.84,511.3,9.46,ES2003b.B.dialog-act.vkaraisk.53,,,,,,,,,False, Mm-hmm. If you could uh,5,minor,Fragment
+ES2003b,C,501.87,503.41,1.54,ES2003b.C.dialog-act.vkaraisk.136,C,C,0.0,1.02,False,False,0.0,[],False," do our audience have the money,",6,task,Inform
+ES2003b,C,503.41,504.95,1.54,ES2003b.C.dialog-act.vkaraisk.137,C,C,0.0,0.0,False,False,0.0,[],False, but would they return it after a while,8,elicit,Elicit-Inform
+ES2003b,C,504.95,508.21,3.26,ES2003b.C.dialog-act.vkaraisk.138,C,C,0.0,0.0,False,False,0.0,[],False," because it's not as fast as pressing a button,",9,task,Inform
+ES2003b,C,508.21,509.19,0.98,ES2003b.C.dialog-act.vkaraisk.139,C,C,1.28,0.0,False,False,0.0,[],False, it's not a practical.,4,task,Inform
+ES2003b,C,509.19,510.47,1.28,ES2003b.C.dialog-act.vkaraisk.140,,,,,,,,,False, So.,1,minor,Stall
+ES2003b,C,510.47,512.53,2.06,ES2003b.C.dialog-act.vkaraisk.141,C,C,0.0,1.28,False,False,0.0,[],False, These are things I think we should consider.,8,task,Suggest
+ES2003b,C,512.53,513.43,0.9,ES2003b.C.dialog-act.vkaraisk.142,B,C,0.1,0.0,False,False,0.0,[],False," I think it's cool,",4,task,Assess
+ES2003b,B,512.6,513.53,0.93,ES2003b.B.dialog-act.vkaraisk.54,,,,,,,,,False, sor,1,other,Be-Positive
+ES2003b,B,513.53,515.62,2.09,ES2003b.B.dialog-act.vkaraisk.55,B,C,0.0,0.1,True,False,0.0,[],True," if you could speed it up a bit, yeah.",9,task,Suggest
+ES2003b,C,515.23,515.56,0.33,ES2003b.C.dialog-act.vkaraisk.143,,,,,,,,,False, I'm sorry?,2,other,Comment-About-Understanding
+ES2003b,B,515.62,517.8,2.18,ES2003b.B.dialog-act.vkaraisk.57,C,B,-0.19,0.0,False,True,0.19,['ES2003b.C.dialog-act.vkaraisk.145'],False," If you could uh speed it up a bit please, yeah.",11,task,Suggest
+ES2003b,C,517.28,517.61,0.33,ES2003b.C.dialog-act.vkaraisk.144,,,,,,,,,False, Sure.,1,task,Assess
+ES2003b,C,517.61,518.67,1.06,ES2003b.C.dialog-act.vkaraisk.145,C,B,0.0,-0.19,True,False,0.0,[],False," I'm about to end, yeah.",5,task,Inform
+ES2003b,B,517.8,518.33,0.53,ES2003b.B.dialog-act.vkaraisk.58,,,,,,,,,False, Sorry.,1,other,Be-Positive
+ES2003b,B,518.33,518.59,0.26,ES2003b.B.dialog-act.vkaraisk.59,,,,,,,,,False, Cool.,1,task,Assess
+ES2003b,C,518.67,519.53,0.86,ES2003b.C.dialog-act.vkaraisk.146,C,C,1.11,0.0,False,False,0.0,[],False, I think it's cool,4,task,Assess
+ES2003b,C,520.64,523.25,2.61,ES2003b.C.dialog-act.vkaraisk.147,B,C,6.01,1.11,False,False,0.0,[],False, but there are definitely some considerations.,6,task,Suggest
+ES2003b,B,524.05,525.37,1.32,ES2003b.B.dialog-act.vkaraisk.60,,,,,,,,,False, Okay. Excellent.,2,task,Assess
+ES2003b,C,524.08,524.72,0.64,ES2003b.C.dialog-act.vkaraisk.148,,,,,,,,,False," So,",1,minor,Stall
+ES2003b,C,524.72,524.87,0.15,ES2003b.C.dialog-act.vkaraisk.149,,,,,,,,,False, yeah.,1,task,Inform
+ES2003b,B,525.37,526.81,1.44,ES2003b.B.dialog-act.vkaraisk.61,,,,,,,,,False, Right. Um.,2,minor,Stall
+ES2003b,B,529.26,534.24,4.98,ES2003b.B.dialog-act.vkaraisk.62,B,C,0.0,6.01,True,False,0.0,[],True, Hear from the User Interface Designer now I think might be an idea.,13,task,Suggest
+ES2003b,A,533.28,533.77,0.49,ES2003b.A.dialog-act.vkaraisk.2,,,,,,,,,False, Okay.,1,task,Assess
+ES2003b,B,534.24,537.76,3.52,ES2003b.B.dialog-act.vkaraisk.63,A,B,0.27,0.0,False,False,0.0,[],False," Um, you've got your presentation now,",6,elicit,Elicit-Inform
+ES2003b,D,535.287,538.16,2.873,ES2003b.D.dialog-act.vkaraisk.1,,,,,,,,,False, How did where did,4,minor,Fragment
+ES2003b,A,537.66,538.03,0.37,ES2003b.A.dialog-act.vkaraisk.3,,,,,,,,,False," Yeah,",1,task,Inform
+ES2003b,B,537.76,539.17,1.41,ES2003b.B.dialog-act.vkaraisk.64,,,,,,,,,False, is it on the,4,minor,Fragment
+ES2003b,A,538.03,539.01,0.98,ES2003b.A.dialog-act.vkaraisk.4,D,B,-0.85,0.27,True,True,0.85,['ES2003b.D.dialog-act.vkaraisk.2'],True, it's in the it's in the folder,7,task,Inform
+ES2003b,D,538.16,540.77,2.61,ES2003b.D.dialog-act.vkaraisk.2,C,A,0.5,-0.85,True,False,0.0,[],False, where did you get all your in information?,8,elicit,Elicit-Inform
+ES2003b,A,539.01,539.23,0.22,ES2003b.A.dialog-act.vkaraisk.5,,,,,,,,,False, yeah.,1,task,Inform
+ES2003b,B,539.17,539.45,0.28,ES2003b.B.dialog-act.vkaraisk.65,,,,,,,,,False, is it?,2,elicit,Elicit-Inform
+ES2003b,B,539.45,540.03,0.58,ES2003b.B.dialog-act.vkaraisk.66,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+ES2003b,C,541.27,543.62,2.35,ES2003b.C.dialog-act.vkaraisk.150,A,D,14.0,0.5,True,False,0.0,[],True," There was uh a website, uh,",6,task,Inform
+ES2003b,D,542.72,543.11,0.39,ES2003b.D.dialog-act.vkaraisk.3,,,,,,,,,False, Oh.,1,other,Comment-About-Understanding
+ES2003b,B,543.53,547.85,4.32,ES2003b.B.dialog-act.vkaraisk.67,,,,,,,,,False, Technical functions?,2,elicit,Elicit-Inform
+ES2003b,C,544.84,545.21,0.37,ES2003b.C.dialog-act.vkaraisk.151,,,,,,,,,False, right here.,2,task,Inform
+ES2003b,D,545.28,545.76,0.48,ES2003b.D.dialog-act.vkaraisk.4,,,,,,,,,False," Ah, okay.",2,other,Comment-About-Understanding
+ES2003b,A,547.71,547.86,0.15,ES2003b.A.dialog-act.vkaraisk.6,,,,,,,,,False, Mm.,1,task,Inform
+ES2003b,B,547.85,548.66,0.81,ES2003b.B.dialog-act.vkaraisk.68,,,,,,,,,False, No. Yeah.,2,other,Other
+ES2003b,B,556.33,556.96,0.63,ES2003b.B.dialog-act.vkaraisk.69,,,,,,,,,False, Okay.,1,task,Assess
+ES2003b,A,557.36,557.62,0.26,ES2003b.A.dialog-act.vkaraisk.7,,,,,,,,,False," Okay,",1,minor,Stall
+ES2003b,A,557.62,562.51,4.89,ES2003b.A.dialog-act.vkaraisk.8,A,C,1.53,14.0,True,False,0.0,[],True, this is a brief run through of the um of the technical functions of the remote.,16,task,Inform
+ES2003b,A,562.51,564.04,1.53,ES2003b.A.dialog-act.vkaraisk.9,,,,,,,,,False, As um is uh the the,6,minor,Fragment
+ES2003b,A,564.04,566.5,2.46,ES2003b.A.dialog-act.vkaraisk.10,A,A,0.0,1.53,False,False,0.0,[],False, the presentation is uh already slightly obsolete,7,task,Assess
+ES2003b,A,566.5,572.84,6.34,ES2003b.A.dialog-act.vkaraisk.11,A,A,0.0,0.0,False,False,0.0,[],False, because I had in mind something that would uh be i be aimed at controlling multiple devices,17,task,Inform
+ES2003b,A,572.84,575.41,2.57,ES2003b.A.dialog-act.vkaraisk.12,A,A,2.57,0.0,False,False,0.0,[],False," but uh there's still stuff of relevance,",7,task,Inform
+ES2003b,A,575.41,575.65,0.24,ES2003b.A.dialog-act.vkaraisk.13,,,,,,,,,False, so,1,minor,Stall
+ES2003b,B,575.62,576.88,1.26,ES2003b.B.dialog-act.vkaraisk.70,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2003b,A,576.95,577.98,1.03,ES2003b.A.dialog-act.vkaraisk.14,,,,,,,,,False, press on.,2,other,Offer
+ES2003b,A,577.98,588.18,10.2,ES2003b.A.dialog-act.vkaraisk.15,A,A,1.39,2.57,False,False,0.0,[],False, I've looked at looked at a num uh couple of other uh remote control models just for an idea of basic design principles. Um,24,task,Inform
+ES2003b,A,589.57,593.48,3.91,ES2003b.A.dialog-act.vkaraisk.16,A,A,0.0,1.39,False,False,0.0,[],False, and wasn't really satisfied by what I saw I have to say,12,task,Assess
+ES2003b,A,593.48,598.0,4.52,ES2003b.A.dialog-act.vkaraisk.17,A,A,1.12,0.0,False,False,0.0,[],False, so this is more sort of springboard for uh how these could be improved on.,15,task,Inform
+ES2003b,A,599.12,607.11,7.99,ES2003b.A.dialog-act.vkaraisk.18,A,A,0.0,1.12,False,False,0.0,[],False," Um um basically the job of the device is to send commands to an appliance, in this case the television set.",21,task,Inform
+ES2003b,A,607.11,610.55,3.44,ES2003b.A.dialog-act.vkaraisk.19,A,A,0.0,0.0,False,False,0.0,[],False, Um to save you getting off your backside.,8,task,Inform
+ES2003b,A,610.55,616.51,5.96,ES2003b.A.dialog-act.vkaraisk.20,A,A,0.0,0.0,False,False,0.0,[],False, Um and there's two main trends in th in the sort of design practice.,14,task,Inform
+ES2003b,A,616.51,625.27,8.76,ES2003b.A.dialog-act.vkaraisk.22,A,A,0.0,0.0,False,False,0.0,[],False, On the one hand and this uh this particularly relates to its sort of earliest models where with you know i so so many buttons on it,27,task,Inform
+ES2003b,A,625.27,627.48,2.21,ES2003b.A.dialog-act.vkaraisk.23,A,A,0.0,0.0,False,False,0.0,[],False, so about the size of the television set.,8,task,Inform
+ES2003b,A,627.48,634.83,7.35,ES2003b.A.dialog-act.vkaraisk.24,A,A,0.0,0.0,False,False,0.0,[],False," Um giving you every possible function that the that the device has, the remote control controls.",16,task,Inform
+ES2003b,A,634.83,637.96,3.13,ES2003b.A.dialog-act.vkaraisk.25,A,A,0.0,0.0,False,False,0.0,[],False," And most of these functions are not going to be used,",11,task,Inform
+ES2003b,A,637.96,642.42,4.46,ES2003b.A.dialog-act.vkaraisk.26,A,A,0.0,0.0,False,False,0.0,[],False, it creates a rather user unfriendly interface.,7,task,Assess
+ES2003b,A,642.42,644.83,2.41,ES2003b.A.dialog-act.vkaraisk.27,A,A,0.0,0.0,False,False,0.0,[],False, And on the other hand there's a user focused approach,10,task,Inform
+ES2003b,A,644.83,650.48,5.65,ES2003b.A.dialog-act.vkaraisk.28,A,A,3.56,0.0,False,False,0.0,[],False, that pares things down to just what what is most likely to get used. Um,15,task,Inform
+ES2003b,A,651.88,654.04,2.16,ES2003b.A.dialog-act.vkaraisk.29,,,,,,,,,False, With uh a and a,5,minor,Fragment
+ES2003b,A,654.04,657.45,3.41,ES2003b.A.dialog-act.vkaraisk.30,A,A,0.0,3.56,False,False,0.0,[],False," and of course there is a certain amount of sort of loss of function here obviously,",16,task,Inform
+ES2003b,A,657.45,661.03,3.58,ES2003b.A.dialog-act.vkaraisk.31,A,A,0.0,0.0,False,False,0.0,[],False, but mostly that's relatively peripheral functions.,6,task,Inform
+ES2003b,A,661.03,664.36,3.33,ES2003b.A.dialog-act.vkaraisk.33,A,A,0.0,0.0,False,False,0.0,[],False," And so you go for something that's fairly intuitive to use,",11,task,Inform
+ES2003b,A,664.36,672.15,7.79,ES2003b.A.dialog-act.vkaraisk.32,A,A,0.0,0.0,False,False,0.0,[],False, and um well f the for the most part for T_V_ remote it's uh tha that would be channel control and volume.,22,task,Inform
+ES2003b,A,672.15,688.33,16.18,ES2003b.A.dialog-act.vkaraisk.34,A,A,1.93,0.0,False,False,0.0,[],False," Um and if you if you if you are wanting to incorporate uh control of a D_V_ D_V_D_ or uh V_C_R_ presumably into that then there's a play, pause, stop, rewind, fast-forward, record, so forth. Um.",36,task,Inform
+ES2003b,A,690.26,694.3,4.04,ES2003b.A.dialog-act.vkaraisk.35,A,A,0.0,1.93,False,False,0.0,[],False, My own view is that we should definitely be going for a user focused design.,15,task,Suggest
+ES2003b,A,694.3,706.24,11.94,ES2003b.A.dialog-act.vkaraisk.36,A,A,0.0,0.0,False,False,0.0,[],False, Um but uh the pro I think the problem with a lot of the sort of user focused designs that are about is that they sort of make assumptions in advance,31,task,Assess
+ES2003b,A,706.24,713.98,7.74,ES2003b.A.dialog-act.vkaraisk.37,A,A,1.63,0.0,False,False,0.0,[],False, about what uh what a given user's going to uh want mo want to do from want it to do most.,21,task,Inform
+ES2003b,A,713.98,715.61,1.63,ES2003b.A.dialog-act.vkaraisk.38,,,,,,,,,False," So,",1,minor,Stall
+ES2003b,A,715.61,720.99,5.38,ES2003b.A.dialog-act.vkaraisk.39,A,A,0.0,1.63,False,False,0.0,[],False," something that's uh something that is more programmable,",8,task,Suggest
+ES2003b,A,720.99,725.39,4.4,ES2003b.A.dialog-act.vkaraisk.40,A,A,0.0,0.0,False,False,0.0,[],False, that uh perh perhaps has the full range of functions available to it,13,task,Suggest
+ES2003b,A,725.39,729.58,4.19,ES2003b.A.dialog-act.vkaraisk.41,A,A,1.04,0.0,False,False,0.0,[],False, but you can then specify yourself what you're most likely to want.,12,task,Suggest
+ES2003b,A,730.62,736.52,5.9,ES2003b.A.dialog-act.vkaraisk.42,A,A,0.0,1.04,False,False,0.0,[],False," Um so that those are then immediately accessible through fairly minimal number of controls,",14,task,Suggest
+ES2003b,A,736.52,744.15,7.63,ES2003b.A.dialog-act.vkaraisk.43,A,A,1.34,0.0,False,False,0.0,[],False," um I liked Ebenezer's idea of including a joystick in that and uh possibly a sort of fairly minimal number of sort of function buttons,",25,task,Assess
+ES2003b,A,744.15,745.49,1.34,ES2003b.A.dialog-act.vkaraisk.45,,,,,,,,,False, and have a disp,4,minor,Fragment
+ES2003b,A,745.49,748.13,2.64,ES2003b.A.dialog-act.vkaraisk.46,A,A,0.0,1.34,False,False,0.0,[],False, you then have some sort of basic display on it,10,task,Suggest
+ES2003b,A,748.13,765.65,17.52,ES2003b.A.dialog-act.vkaraisk.47,A,A,0.0,0.0,False,False,0.0,[],False, so that if you're um sort of cha changing from different modes for the device it'll tell you just exactly what uh you know each direction of the uh of the um joystick's going to do or wha or what each function button's going to do.,46,task,Suggest
+ES2003b,A,765.65,771.11,5.46,ES2003b.A.dialog-act.vkaraisk.48,A,A,0.13,0.0,False,False,0.0,[],False," Um, this is actually a again slightly taking inspiration off of uh games controllers,",14,task,Inform
+ES2003b,C,770.95,771.08,0.13,ES2003b.C.dialog-act.vkaraisk.152,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,A,771.11,771.24,0.13,ES2003b.A.dialog-act.vkaraisk.49,,,,,,,,,False, you know,2,minor,Stall
+ES2003b,A,771.24,775.32,4.08,ES2003b.A.dialog-act.vkaraisk.50,A,A,0.0,0.13,False,False,0.0,[],False, the Playstation control where you have four basic function buttons,10,task,Inform
+ES2003b,A,775.32,780.12,4.8,ES2003b.A.dialog-act.vkaraisk.51,A,A,0.69,0.0,False,False,0.0,[],False, that are just marked with um distinctive uh geometrical shapes,10,task,Inform
+ES2003b,A,780.12,780.81,0.69,ES2003b.A.dialog-act.vkaraisk.52,,,,,,,,,False, but the,2,minor,Fragment
+ES2003b,A,780.81,788.26,7.45,ES2003b.A.dialog-act.vkaraisk.53,A,A,0.0,0.69,False,False,0.0,[],False, and then dependent on what you're doing with it what game and so on um those uh those functions are then sort of further specified.,25,task,Inform
+ES2003b,A,788.26,790.84,2.58,ES2003b.A.dialog-act.vkaraisk.54,B,A,7.12,0.0,False,False,0.0,[],False, And so it's taking taking the lead from that.,9,task,Inform
+ES2003b,A,792.39,792.74,0.35,ES2003b.A.dialog-act.vkaraisk.55,,,,,,,,,False, Um.,1,minor,Backchannel
+ES2003b,B,792.41,792.98,0.57,ES2003b.B.dialog-act.vkaraisk.71,,,,,,,,,False, Okay. Yeah.,2,minor,Backchannel
+ES2003b,A,793.627,795.93,2.303,ES2003b.A.dialog-act.vkaraisk.56,,,,,,,,,False, That's it.,2,task,Inform
+ES2003b,B,795.04,797.96,2.92,ES2003b.B.dialog-act.vkaraisk.72,,,,,,,,,False," Right. Um,",2,minor,Stall
+ES2003b,B,797.96,801.32,3.36,ES2003b.B.dialog-act.vkaraisk.73,D,A,0.36,7.12,True,False,0.0,[],True," if we could hear from our Industrial engineer, or Designer.",10,task,Suggest
+ES2003b,D,800.37,801.0,0.63,ES2003b.D.dialog-act.vkaraisk.5,,,,,,,,,False, Yeah.,1,task,Assess
+ES2003b,D,801.68,803.1,1.42,ES2003b.D.dialog-act.vkaraisk.6,D,B,0.0,0.36,True,False,0.0,[],True," Uh, I was still working on stuff,",7,task,Inform
+ES2003b,D,803.1,804.42,1.32,ES2003b.D.dialog-act.vkaraisk.7,D,D,2.72,0.0,False,False,0.0,[],False, I hadn't got it finished.,5,task,Inform
+ES2003b,D,804.42,805.93,1.51,ES2003b.D.dialog-act.vkaraisk.8,,,,,,,,,False," Um, alright.",2,minor,Stall
+ES2003b,D,807.14,809.07,1.93,ES2003b.D.dialog-act.vkaraisk.9,D,D,0.0,2.72,False,False,0.0,[],False, Click to save in,4,other,Other
+ES2003b,D,809.07,809.98,0.91,ES2003b.D.dialog-act.vkaraisk.10,B,D,0.12,0.0,False,False,0.0,[],False, where do I have to save it?,7,elicit,Elicit-Inform
+ES2003b,B,810.1,816.59,6.49,ES2003b.B.dialog-act.vkaraisk.74,B,D,0.0,0.12,True,False,0.0,[],True," If you look on the desktop you'll find that there's a link to the project folder, or project documents.",19,task,Inform
+ES2003b,B,816.59,818.65,2.06,ES2003b.B.dialog-act.vkaraisk.75,D,B,2.033,0.0,False,False,0.0,[],False, If you save it in there we can open it up from here.,13,task,Inform
+ES2003b,D,820.683,825.12,4.437,ES2003b.D.dialog-act.vkaraisk.11,B,B,30.44,2.033,True,False,0.0,[],True," Um, what I've done with it,",6,elicit,Elicit-Inform
+ES2003b,D,825.12,825.73,0.61,ES2003b.D.dialog-act.vkaraisk.12,,,,,,,,,False, I'm sorry.,2,other,Be-Positive
+ES2003b,D,836.13,836.5,0.37,ES2003b.D.dialog-act.vkaraisk.13,,,,,,,,,False, Shit.,1,other,Be-Negative
+ES2003b,D,843.19,845.072,1.882,ES2003b.D.dialog-act.vkaraisk.14,,,,,,,,,False, Um,1,minor,Stall
+ES2003b,B,855.56,856.74,1.18,ES2003b.B.dialog-act.vkaraisk.76,D,D,1.05,30.44,True,False,0.0,[],True, Are you finding it okay,5,elicit,Elicit-Inform
+ES2003b,B,856.74,857.23,0.49,ES2003b.B.dialog-act.vkaraisk.77,,,,,,,,,False, or?,1,minor,Fragment
+ES2003b,D,857.79,859.67,1.88,ES2003b.D.dialog-act.vkaraisk.15,D,B,0.0,1.05,True,False,0.0,[],True, I'm just closing it now.,5,other,Offer
+ES2003b,D,859.67,860.53,0.86,ES2003b.D.dialog-act.vkaraisk.16,C,D,0.92,0.0,False,False,0.0,[],False, where I've saved it.,4,task,Inform
+ES2003b,C,861.18,861.45,0.27,ES2003b.C.dialog-act.vkaraisk.153,,,,,,,,,False, Well like,2,minor,Stall
+ES2003b,C,861.45,865.9,4.45,ES2003b.C.dialog-act.vkaraisk.154,C,D,0.28,0.92,True,False,0.0,[],True," if you go to one, uh whichever one you were working",11,task,Suggest
+ES2003b,D,864.402,865.6,1.198,ES2003b.D.dialog-act.vkaraisk.17,,,,,,,,,False," that's it there,",3,task,Inform
+ES2003b,D,865.6,865.82,0.22,ES2003b.D.dialog-act.vkaraisk.18,,,,,,,,,False, yeah.,1,task,Assess
+ES2003b,C,865.9,866.18,0.28,ES2003b.C.dialog-act.vkaraisk.155,,,,,,,,,False," yeah,",1,minor,Stall
+ES2003b,C,866.18,867.86,1.68,ES2003b.C.dialog-act.vkaraisk.156,D,C,19.62,0.28,False,False,0.0,[],False, and you just click file save as.,7,task,Suggest
+ES2003b,D,876.52,877.969,1.449,ES2003b.D.dialog-act.vkaraisk.19,,,,,,,,,False, Oh right.,2,task,Assess
+ES2003b,B,879.22,879.56,0.34,ES2003b.B.dialog-act.vkaraisk.78,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2003b,D,886.28,887.48,1.2,ES2003b.D.dialog-act.vkaraisk.20,,,,,,,,,False," Uh, right",2,minor,Stall
+ES2003b,D,887.48,889.5,2.02,ES2003b.D.dialog-act.vkaraisk.21,D,C,0.0,19.62,True,False,0.0,[],True," I'm responsible for working design,",5,task,Inform
+ES2003b,D,889.5,896.0,6.5,ES2003b.D.dialog-act.vkaraisk.22,D,D,0.0,0.0,False,False,0.0,[],False," uh, this is basically the inside going on of the the uh remote control.",14,task,Inform
+ES2003b,D,896.0,897.86,1.86,ES2003b.D.dialog-act.vkaraisk.23,D,D,0.0,0.0,False,False,0.0,[],False," So we have the energy source,",6,task,Inform
+ES2003b,D,897.86,899.04,1.18,ES2003b.D.dialog-act.vkaraisk.24,D,D,0.0,0.0,False,False,0.0,[],False," we have the user interface,",5,task,Inform
+ES2003b,D,899.04,900.7,1.66,ES2003b.D.dialog-act.vkaraisk.25,D,D,0.0,0.0,False,False,0.0,[],False, this this is what I've seen.,6,task,Inform
+ES2003b,D,900.7,903.89,3.19,ES2003b.D.dialog-act.vkaraisk.26,D,D,0.0,0.0,False,False,0.0,[],False," Uh the sender will push the button,",7,task,Inform
+ES2003b,D,903.89,905.82,1.93,ES2003b.D.dialog-act.vkaraisk.27,D,D,0.0,0.0,False,False,0.0,[],False," the chip will respond,",4,task,Inform
+ES2003b,D,905.82,909.49,3.67,ES2003b.D.dialog-act.vkaraisk.28,D,D,2.62,0.0,False,False,0.0,[],False, uh and then the dig digital signal is sent to the T_V_.,12,task,Inform
+ES2003b,D,909.49,912.11,2.62,ES2003b.D.dialog-act.vkaraisk.29,,,,,,,,,False," So uh uh,",3,minor,Stall
+ES2003b,D,912.11,913.13,1.02,ES2003b.D.dialog-act.vkaraisk.30,D,D,0.0,2.62,False,False,0.0,[],False," if you go to next slide,",6,task,Suggest
+ES2003b,D,913.13,918.67,5.54,ES2003b.D.dialog-act.vkaraisk.31,D,D,0.0,0.0,False,False,0.0,[],False, you'll see you'll see uh what do we need on the user interface.,13,task,Inform
+ES2003b,D,918.67,921.53,2.86,ES2003b.D.dialog-act.vkaraisk.32,D,D,0.0,0.0,False,False,0.0,[],False," Do we need uh many buttons,",6,elicit,Elicit-Assessment
+ES2003b,D,921.53,923.22,1.69,ES2003b.D.dialog-act.vkaraisk.33,D,D,0.0,0.0,False,False,0.0,[],False, or do we need l many light bulbs,8,elicit,Elicit-Assessment
+ES2003b,D,923.22,929.12,5.9,ES2003b.D.dialog-act.vkaraisk.34,D,D,0.0,0.0,False,False,0.0,[],False, that could be easier to uh to realise which appliances are on or not.,14,task,Assess
+ES2003b,D,929.12,931.74,2.62,ES2003b.D.dialog-act.vkaraisk.35,D,D,0.0,0.0,False,False,0.0,[],False," Um,, or would that take too much power,",8,elicit,Elicit-Inform
+ES2003b,D,931.74,936.85,5.11,ES2003b.D.dialog-act.vkaraisk.36,D,D,0.0,0.0,False,False,0.0,[],False, would we need more um components in there to supply the power?,12,elicit,Elicit-Inform
+ES2003b,D,936.85,940.12,3.27,ES2003b.D.dialog-act.vkaraisk.37,D,D,0.0,0.0,False,False,0.0,[],False," Um, the joystick is another thing,",6,task,Inform
+ES2003b,D,940.12,945.64,5.52,ES2003b.D.dialog-act.vkaraisk.38,D,D,6.18,0.0,False,False,0.0,[],False," if we were gonna add that, um, there'd be more components to deal with that.",15,task,Inform
+ES2003b,B,945.25,945.93,0.68,ES2003b.B.dialog-act.vkaraisk.79,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,D,945.64,949.06,3.42,ES2003b.D.dialog-act.vkaraisk.39,,,,,,,,,False," Um, so uh",3,minor,Stall
+ES2003b,D,949.06,951.82,2.76,ES2003b.D.dialog-act.vkaraisk.40,,,,,,,,,False, we need to,3,minor,Fragment
+ES2003b,D,951.82,953.296,1.476,ES2003b.D.dialog-act.vkaraisk.41,D,D,2.484,6.18,False,False,0.0,[],False, I dunno exactly what,4,task,Inform
+ES2003b,D,955.78,961.35,5.57,ES2003b.D.dialog-act.vkaraisk.42,D,D,0.27,2.484,False,False,0.0,[],False," That's the design of the the the layout of the uh electronic design,",13,task,Inform
+ES2003b,D,961.62,967.27,5.65,ES2003b.D.dialog-act.vkaraisk.43,D,D,0.78,0.27,False,False,0.0,[],False, um obviously there'll be more details once we've decided what we're putting on the user interface.,16,task,Inform
+ES2003b,B,966.96,967.54,0.58,ES2003b.B.dialog-act.vkaraisk.80,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2003b,D,967.27,968.05,0.78,ES2003b.D.dialog-act.vkaraisk.44,,,,,,,,,False," So,",1,minor,Stall
+ES2003b,D,968.05,969.81,1.76,ES2003b.D.dialog-act.vkaraisk.45,D,D,1.774,0.78,False,False,0.0,[],False," that'll be decided, I guess.",5,task,Suggest
+ES2003b,D,971.584,973.2,1.616,ES2003b.D.dialog-act.vkaraisk.46,D,D,4.84,1.774,False,False,0.0,[],False," Uh, and the next slide.",5,task,Suggest
+ES2003b,D,974.47,978.04,3.57,ES2003b.D.dialog-act.vkaraisk.47,,,,,,,,,False," Oh, yeah Um,",3,minor,Stall
+ES2003b,D,978.04,979.51,1.47,ES2003b.D.dialog-act.vkaraisk.48,D,D,1.94,4.84,False,False,0.0,[],False, if you go to the next slide then.,8,task,Suggest
+ES2003b,B,979.25,979.42,0.17,ES2003b.B.dialog-act.vkaraisk.82,,,,,,,,,False, Oh.,1,other,Comment-About-Understanding
+ES2003b,C,979.312,981.456,2.144,ES2003b.C.dialog-act.vkaraisk.157,,,,,,,,,False,,0,minor,Fragment
+ES2003b,B,979.42,979.71,0.29,ES2003b.B.dialog-act.vkaraisk.81,,,,,,,,,False, Yeah.,1,task,Assess
+ES2003b,D,979.51,981.45,1.94,ES2003b.D.dialog-act.vkaraisk.49,,,,,,,,,False, I just used the,4,minor,Fragment
+ES2003b,D,981.45,982.26,0.81,ES2003b.D.dialog-act.vkaraisk.50,D,D,0.0,1.94,False,False,0.0,[],False," it was a mess,",4,other,Be-Negative
+ES2003b,D,982.26,986.48,4.22,ES2003b.D.dialog-act.vkaraisk.51,B,D,-0.74,0.0,False,True,0.74,['ES2003b.B.dialog-act.vkaraisk.84'],False, uh I was just putting adding it together at the end there. Uh,13,task,Inform
+ES2003b,B,985.51,985.74,0.23,ES2003b.B.dialog-act.vkaraisk.83,,,,,,,,,False," Ah,",1,minor,Stall
+ES2003b,B,985.74,987.664,1.924,ES2003b.B.dialog-act.vkaraisk.84,D,D,0.766,-0.74,True,False,0.0,[],False, don't worry about it at all mate.,7,other,Be-Positive
+ES2003b,D,987.28,988.43,1.15,ES2003b.D.dialog-act.vkaraisk.52,,,,,,,,,False, Uh so,2,minor,Stall
+ES2003b,D,988.43,991.92,3.49,ES2003b.D.dialog-act.vkaraisk.53,D,B,0.0,0.766,True,False,0.0,[],True," you have the energy source obviously connected to the chip,",10,task,Inform
+ES2003b,D,991.92,994.78,2.86,ES2003b.D.dialog-act.vkaraisk.54,D,D,0.3,0.0,False,False,0.0,[],False, and the user interface obviously contains everything.,7,task,Inform
+ES2003b,D,995.08,996.38,1.3,ES2003b.D.dialog-act.vkaraisk.55,D,D,0.0,0.3,False,False,0.0,[],False," You have the switch turn it on,",7,task,Inform
+ES2003b,D,996.38,1000.68,4.3,ES2003b.D.dialog-act.vkaraisk.56,D,D,0.0,0.0,False,False,0.0,[],False," infrared bulb, uh will contact the T_V_",7,task,Inform
+ES2003b,D,1000.68,1006.59,5.91,ES2003b.D.dialog-act.vkaraisk.57,D,D,1.35,0.0,False,False,0.0,[],False," and will have whatever device or D_V_D_ player, the bulb will turn on to say it's on.",17,task,Inform
+ES2003b,D,1007.4,1007.94,0.54,ES2003b.D.dialog-act.vkaraisk.58,,,,,,,,,False," Uh, so",2,minor,Stall
+ES2003b,D,1007.94,1013.38,5.44,ES2003b.D.dialog-act.vkaraisk.59,D,D,0.0,1.35,False,False,0.0,[],False," do we need on the control uh different buttons to decide, or different light bulbs,",15,elicit,Elicit-Assessment
+ES2003b,D,1013.38,1015.09,1.71,ES2003b.D.dialog-act.vkaraisk.60,D,D,0.0,0.0,False,False,0.0,[],False, would it be easier?,4,elicit,Elicit-Assessment
+ES2003b,D,1015.09,1017.56,2.47,ES2003b.D.dialog-act.vkaraisk.61,B,D,3.02,0.0,False,False,0.0,[],False," Um, I dunno what we should decide on that.",9,task,Assess
+ES2003b,B,1018.35,1020.04,1.69,ES2003b.B.dialog-act.vkaraisk.85,,,,,,,,,False, Okay. Well.,2,minor,Stall
+ES2003b,B,1020.04,1020.58,0.54,ES2003b.B.dialog-act.vkaraisk.86,,,,,,,,,False," Oh sorry,",2,other,Be-Positive
+ES2003b,B,1020.58,1021.58,1.0,ES2003b.B.dialog-act.vkaraisk.87,B,D,10.57,3.02,True,False,0.0,[],True, I'm I'm interrupting you.,4,elicit,Elicit-Inform
+ES2003b,B,1021.58,1022.73,1.15,ES2003b.B.dialog-act.vkaraisk.88,,,,,,,,,False, Are you is it,4,minor,Fragment
+ES2003b,D,1021.73,1021.91,0.18,ES2003b.D.dialog-act.vkaraisk.62,,,,,,,,,False," No,",1,task,Inform
+ES2003b,D,1021.91,1022.74,0.83,ES2003b.D.dialog-act.vkaraisk.63,,,,,,,,,False," it's finished, yeah.",3,task,Inform
+ES2003b,B,1022.73,1023.88,1.15,ES2003b.B.dialog-act.vkaraisk.89,,,,,,,,,False, yeah?,1,other,Comment-About-Understanding
+ES2003b,B,1023.88,1032.15,8.27,ES2003b.B.dialog-act.vkaraisk.90,,,,,,,,,False," Okay. Right. Um, right",4,minor,Stall
+ES2003b,B,1032.15,1033.88,1.73,ES2003b.B.dialog-act.vkaraisk.91,B,B,0.83,10.57,False,False,0.0,[],False, we can probably skip that for now.,7,task,Suggest
+ES2003b,B,1033.88,1034.71,0.83,ES2003b.B.dialog-act.vkaraisk.92,,,,,,,,,False," So,",1,minor,Stall
+ES2003b,B,1034.71,1037.37,2.66,ES2003b.B.dialog-act.vkaraisk.93,B,B,1.23,0.83,False,False,0.0,[],False," we've had some stuff put forward, um",7,task,Inform
+ES2003b,B,1038.6,1041.04,2.44,ES2003b.B.dialog-act.vkaraisk.94,B,B,4.37,1.23,False,False,0.0,[],False," along with the new user requirements,",6,task,Inform
+ES2003b,B,1045.41,1049.69,4.28,ES2003b.B.dialog-act.vkaraisk.95,B,B,1.45,4.37,False,False,0.0,[],False, um we've had a lot of kind of input I'd say so far. Um,14,task,Inform
+ES2003b,B,1051.14,1057.06,5.92,ES2003b.B.dialog-act.vkaraisk.96,B,B,0.0,1.45,False,False,0.0,[],False, I hear what the Marketing Expert's saying about um voice activated control.,12,task,Inform
+ES2003b,B,1057.06,1060.67,3.61,ES2003b.B.dialog-act.vkaraisk.97,B,B,0.0,0.0,False,False,0.0,[],False, However I've got a couple of worries about that.,9,task,Assess
+ES2003b,B,1060.67,1070.28,9.61,ES2003b.B.dialog-act.vkaraisk.98,B,B,0.0,0.0,False,False,0.0,[],False," The power required, um and the ability to the cost, it seems like for uh an embedded system, this could cause us issues.",23,task,Assess
+ES2003b,D,1063.32,1065.39,2.07,ES2003b.D.dialog-act.vkaraisk.65,,,,,,,,,False, Cost. Mm.,2,task,Assess
+ES2003b,B,1070.28,1077.24,6.96,ES2003b.B.dialog-act.vkaraisk.99,B,B,0.0,0.0,False,False,0.0,[],False," Um for example you see that there's fairly robust services on uh computers via uh via voice,",17,task,Inform
+ES2003b,B,1077.24,1080.32,3.08,ES2003b.B.dialog-act.vkaraisk.100,B,B,0.0,0.0,False,False,0.0,[],False," I_B_M_ do um drag and dictate,",6,task,Inform
+ES2003b,C,1079.9,1080.12,0.22,ES2003b.C.dialog-act.vkaraisk.158,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,B,1080.32,1082.83,2.51,ES2003b.B.dialog-act.vkaraisk.101,B,B,0.0,0.0,False,False,0.0,[],False, but these require a lot of memory,7,task,Inform
+ES2003b,B,1082.83,1087.92,5.09,ES2003b.B.dialog-act.vkaraisk.102,B,B,0.0,0.0,False,False,0.0,[],False, and usually um state quite advanced processor requirements.,8,task,Inform
+ES2003b,B,1087.92,1092.61,4.69,ES2003b.B.dialog-act.vkaraisk.103,B,B,0.0,0.0,False,False,0.0,[],False, Um voice activation could be an interesting idea,8,task,Assess
+ES2003b,B,1092.61,1101.8,9.19,ES2003b.B.dialog-act.vkaraisk.104,B,B,0.0,0.0,False,False,0.0,[],False, but I think that our Ind Industrial Designer would probably upon some research say that it's maybe not feasible.,19,task,Assess
+ES2003b,C,1100.72,1100.96,0.24,ES2003b.C.dialog-act.vkaraisk.159,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+ES2003b,B,1101.8,1104.55,2.75,ES2003b.B.dialog-act.vkaraisk.105,B,B,0.0,0.0,False,False,0.0,[],False," Um that's just my view right now,",7,task,Inform
+ES2003b,A,1103.18,1105.026,1.846,ES2003b.A.dialog-act.vkaraisk.57,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,B,1104.55,1110.43,5.88,ES2003b.B.dialog-act.vkaraisk.106,B,B,4.7,0.0,False,False,0.0,[],False," however the idea of a joystick and then maybe an L_C_D_ which has been kind of put forward so far,",20,task,Inform
+ES2003b,B,1110.43,1111.89,1.46,ES2003b.B.dialog-act.vkaraisk.107,,,,,,,,,False, it's almost like having a small,6,minor,Fragment
+ES2003b,B,1113.66,1115.13,1.47,ES2003b.B.dialog-act.vkaraisk.108,,,,,,,,,False," T_ not T_V_ to say,",5,minor,Fragment
+ES2003b,B,1115.13,1122.46,7.33,ES2003b.B.dialog-act.vkaraisk.109,B,B,0.0,4.7,False,False,0.0,[],False," but if you can control almost all of the functionality from the display, I don't know how much power an L_C_D_ would take,",23,task,Inform
+ES2003b,C,1122.19,1122.4,0.21,ES2003b.C.dialog-act.vkaraisk.160,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,B,1122.46,1124.29,1.83,ES2003b.B.dialog-act.vkaraisk.110,D,B,0.05,0.0,False,False,0.0,[],False, but it might be quite low?,6,elicit,Elicit-Inform
+ES2003b,D,1124.34,1130.544,6.204,ES2003b.D.dialog-act.vkaraisk.66,B,B,-1.464,0.05,True,True,1.464,['ES2003b.B.dialog-act.vkaraisk.112'],True," L_C_D_ on the remote just telling you what's on, or uh, interactive L_C_D_ or",14,elicit,Elicit-Offer-Or-Suggestion
+ES2003b,C,1124.41,1124.752,0.342,ES2003b.C.dialog-act.vkaraisk.161,,,,,,,,,False, I uh,2,minor,Fragment
+ES2003b,B,1128.91,1129.08,0.17,ES2003b.B.dialog-act.vkaraisk.111,,,,,,,,,False, Well,1,minor,Stall
+ES2003b,B,1129.08,1138.38,9.3,ES2003b.B.dialog-act.vkaraisk.112,B,D,0.0,-1.464,True,False,0.0,[],False," literally um if you can imagine the display maybe slightly larger than um those on a a mobile phone,",19,task,Suggest
+ES2003b,B,1138.38,1140.91,2.53,ES2003b.B.dialog-act.vkaraisk.113,B,B,0.0,0.0,False,False,0.0,[],False," something where you can read an an um fair amount of information,",12,task,Suggest
+ES2003b,A,1138.62,1138.99,0.37,ES2003b.A.dialog-act.vkaraisk.58,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,B,1140.91,1143.1,2.19,ES2003b.B.dialog-act.vkaraisk.114,B,B,0.0,0.0,False,False,0.0,[],False," traverse maybe quite a few menus,",6,task,Suggest
+ES2003b,B,1143.1,1145.88,2.78,ES2003b.B.dialog-act.vkaraisk.115,B,B,0.0,0.0,False,False,0.0,[],False," if we maybe used mobile phones as a good example,",10,task,Assess
+ES2003b,B,1145.88,1148.48,2.6,ES2003b.B.dialog-act.vkaraisk.116,B,B,0.0,0.0,False,False,0.0,[],False," they usually incorporate they have the keypad,",7,task,Inform
+ES2003b,B,1148.48,1153.46,4.98,ES2003b.B.dialog-act.vkaraisk.117,B,B,0.0,0.0,False,False,0.0,[],False, and then evr all the other functionality is usually associated inside by traversing around.,14,task,Inform
+ES2003b,C,1152.82,1153.02,0.2,ES2003b.C.dialog-act.vkaraisk.162,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,B,1153.46,1155.84,2.38,ES2003b.B.dialog-act.vkaraisk.118,B,B,0.0,0.0,False,False,0.0,[],False, That could be one possibility.,5,task,Suggest
+ES2003b,B,1155.84,1163.2,7.36,ES2003b.B.dialog-act.vkaraisk.119,A,B,0.112,0.0,False,False,0.0,[],False," Um and then we could have like say the common buttons as you say, volume control, changing channels",18,task,Suggest
+ES2003b,A,1160.62,1160.87,0.25,ES2003b.A.dialog-act.vkaraisk.59,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,A,1163.312,1172.08,8.768,ES2003b.A.dialog-act.vkaraisk.60,D,B,1.39,0.112,True,False,0.0,[],True," I I was thinking that the remote the um sort of default functions for the joystick would be up and down for uh volume, left and right for channels.",29,task,Suggest
+ES2003b,B,1173.4,1173.933,0.533,ES2003b.B.dialog-act.vkaraisk.120,,,,,,,,,False, We,1,minor,Fragment
+ES2003b,D,1173.47,1175.18,1.71,ES2003b.D.dialog-act.vkaraisk.68,D,A,0.8,1.39,True,False,0.0,[],True," Do you think that people will get mixed up,",9,elicit,Elicit-Assessment
+ES2003b,D,1175.18,1175.98,0.8,ES2003b.D.dialog-act.vkaraisk.69,,,,,,,,,False," like,",1,minor,Stall
+ES2003b,D,1175.98,1177.64,1.66,ES2003b.D.dialog-act.vkaraisk.71,D,D,0.0,0.8,False,False,0.0,[],False, they'll be looking at this screen and that screen,9,task,Inform
+ES2003b,D,1177.64,1181.66,4.02,ES2003b.D.dialog-act.vkaraisk.72,D,D,0.0,0.0,False,False,0.0,[],False," and then, you know, trying to get everything working,",9,task,Inform
+ES2003b,D,1181.66,1182.74,1.08,ES2003b.D.dialog-act.vkaraisk.70,A,D,0.33,0.0,False,False,0.0,[],False, would it be a bit confusing?,6,elicit,Elicit-Assessment
+ES2003b,A,1183.07,1188.51,5.44,ES2003b.A.dialog-act.vkaraisk.61,A,D,0.0,0.33,True,False,0.0,[],True, Um I think probably for the first couple of hours of using it,13,task,Assess
+ES2003b,D,1187.97,1188.19,0.22,ES2003b.D.dialog-act.vkaraisk.73,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2003b,A,1188.51,1192.94,4.43,ES2003b.A.dialog-act.vkaraisk.62,A,A,1.3,0.0,False,False,0.0,[],False," um but you know muscle memory's a wonderful thing, um.",10,task,Assess
+ES2003b,C,1193.87,1194.01,0.14,ES2003b.C.dialog-act.vkaraisk.163,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,A,1194.24,1199.54,5.3,ES2003b.A.dialog-act.vkaraisk.63,A,A,9.04,1.3,False,False,0.0,[],False, And I think and I think that size of uh display was about what I had in mind.,18,task,Assess
+ES2003b,A,1199.54,1208.58,9.04,ES2003b.A.dialog-act.vkaraisk.64,,,,,,,,,False, Um though I mean I w I would say that uh we could probably probably be required to um mo,20,minor,Fragment
+ES2003b,A,1208.58,1211.81,3.23,ES2003b.A.dialog-act.vkaraisk.65,A,A,0.0,9.04,False,False,0.0,[],False, most of the mobile phone displays you see these days are colour,12,task,Inform
+ES2003b,A,1211.81,1214.67,2.86,ES2003b.A.dialog-act.vkaraisk.66,B,A,-1.194,0.0,False,True,1.194,['ES2003b.B.dialog-act.vkaraisk.121'],False, but we should probably try to stick to black and white.,11,task,Suggest
+ES2003b,B,1213.476,1215.41,1.934,ES2003b.B.dialog-act.vkaraisk.121,A,A,-0.74,-1.194,True,True,0.74,['ES2003b.A.dialog-act.vkaraisk.67'],False, I would agree with you.,5,task,Assess
+ES2003b,A,1214.67,1217.54,2.87,ES2003b.A.dialog-act.vkaraisk.67,A,B,0.6,-0.74,True,False,0.0,[],False, Si si simply to keep m keep the unit cost down.,11,task,Inform
+ES2003b,A,1218.14,1223.14,5.0,ES2003b.A.dialog-act.vkaraisk.68,A,A,0.0,0.6,False,False,0.0,[],False, Um I mean colour could be a sort of subsequent development,11,task,Suggest
+ES2003b,A,1223.14,1226.18,3.04,ES2003b.A.dialog-act.vkaraisk.69,A,A,1.47,0.0,False,False,0.0,[],False, but uh you know cost a bit of extra money,10,task,Inform
+ES2003b,A,1226.18,1227.65,1.47,ES2003b.A.dialog-act.vkaraisk.70,,,,,,,,,False, f w w w w w,6,minor,Fragment
+ES2003b,A,1227.65,1230.7,3.05,ES2003b.A.dialog-act.vkaraisk.73,A,A,1.03,1.47,False,False,0.0,[],False," once everyone's got the first, you know, oh colour's out, we'll have to replace it",15,task,Suggest
+ES2003b,B,1230.27,1233.46,3.19,ES2003b.B.dialog-act.vkaraisk.122,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,A,1230.7,1231.73,1.03,ES2003b.A.dialog-act.vkaraisk.74,,,,,,,,,False, won't we.,2,elicit,Elicit-Assessment
+ES2003b,A,1231.73,1232.85,1.12,ES2003b.A.dialog-act.vkaraisk.72,B,A,0.61,1.03,False,False,0.0,[],False, It does nothing extra.,4,task,Assess
+ES2003b,B,1233.46,1234.89,1.43,ES2003b.B.dialog-act.vkaraisk.123,B,A,0.0,0.61,True,False,0.0,[],True," That would be my feeling as well,",7,task,Assess
+ES2003b,B,1234.89,1238.74,3.85,ES2003b.B.dialog-act.vkaraisk.124,C,B,0.89,0.0,False,False,0.0,[],False, I think we could possibly create quite a useful user interface.,11,task,Assess
+ES2003b,B,1238.74,1239.66,0.92,ES2003b.B.dialog-act.vkaraisk.125,,,,,,,,,False, Um now I mean,4,minor,Stall
+ES2003b,C,1239.21,1239.63,0.42,ES2003b.C.dialog-act.vkaraisk.164,,,,,,,,,False, Sure,1,minor,Stall
+ES2003b,C,1239.63,1250.5,10.87,ES2003b.C.dialog-act.vkaraisk.165,C,B,0.0,0.89,True,False,0.0,[],True," but the idea of a remote with a menu or and a joystick I think like I h if I was in the habit of buying remote controls then I would want one,",33,task,Assess
+ES2003b,B,1239.66,1240.29,0.63,ES2003b.B.dialog-act.vkaraisk.126,,,,,,,,,False, I don't,2,minor,Fragment
+ES2003b,B,1240.29,1240.66,0.37,ES2003b.B.dialog-act.vkaraisk.127,,,,,,,,,False," sorry,",1,other,Be-Positive
+ES2003b,B,1240.66,1241.69,1.03,ES2003b.B.dialog-act.vkaraisk.128,,,,,,,,,False, go for it.,3,task,Suggest
+ES2003b,C,1250.5,1253.99,3.49,ES2003b.C.dialog-act.vkaraisk.166,C,C,0.67,0.0,False,False,0.0,[],False," but I think we don't have a specific audience,",9,task,Inform
+ES2003b,C,1253.99,1254.66,0.67,ES2003b.C.dialog-act.vkaraisk.167,,,,,,,,,False," you know,",2,minor,Stall
+ES2003b,C,1254.66,1256.21,1.55,ES2003b.C.dialog-act.vkaraisk.168,C,C,0.0,0.67,False,False,0.0,[],False," like what is our target audience,",6,elicit,Elicit-Offer-Or-Suggestion
+ES2003b,C,1256.21,1260.3,4.09,ES2003b.C.dialog-act.vkaraisk.169,C,C,0.45,0.0,False,False,0.0,[],False, what niche are niche are we trying to market and corner.,11,elicit,Elicit-Offer-Or-Suggestion
+ES2003b,C,1260.3,1260.75,0.45,ES2003b.C.dialog-act.vkaraisk.172,,,,,,,,,False," You know,",2,minor,Stall
+ES2003b,C,1260.75,1261.56,0.81,ES2003b.C.dialog-act.vkaraisk.173,C,C,0.97,0.45,False,False,0.0,[],False," you know what I'm saying,",5,elicit,Elicit-Comment-Understanding
+ES2003b,C,1261.56,1262.53,0.97,ES2003b.C.dialog-act.vkaraisk.174,,,,,,,,,False," like,",1,minor,Stall
+ES2003b,C,1262.53,1263.73,1.2,ES2003b.C.dialog-act.vkaraisk.170,B,C,4.494,0.97,False,False,0.0,[],False, for whom is this intended?,5,elicit,Elicit-Offer-Or-Suggestion
+ES2003b,C,1263.73,1264.35,0.62,ES2003b.C.dialog-act.vkaraisk.171,,,,,,,,,False, Everybody?,1,elicit,Elicit-Assessment
+ES2003b,B,1268.224,1273.34,5.116,ES2003b.B.dialog-act.vkaraisk.129,B,C,0.0,4.494,True,False,0.0,[],True, I think it could probably be aimed at most people who've used a mobile.,14,task,Suggest
+ES2003b,B,1273.34,1277.58,4.24,ES2003b.B.dialog-act.vkaraisk.130,B,B,0.0,0.0,False,False,0.0,[],False, And that might be just another way of saying try to target most people.,14,task,Suggest
+ES2003b,C,1276.64,1277.41,0.77,ES2003b.C.dialog-act.vkaraisk.175,,,,,,,,,False," Most people, yeah.",3,other,Comment-About-Understanding
+ES2003b,B,1277.58,1288.23,10.65,ES2003b.B.dialog-act.vkaraisk.131,B,B,0.0,0.0,False,False,0.0,[],False," Um, if we are if we were to follow that avenue, we might be s you know um we're kind of almost relying on their experience with a mobile phone I suppose.",32,task,Inform
+ES2003b,A,1277.76,1278.15,0.39,ES2003b.A.dialog-act.vkaraisk.75,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,C,1287.74,1287.95,0.21,ES2003b.C.dialog-act.vkaraisk.176,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,B,1288.23,1291.59,3.36,ES2003b.B.dialog-act.vkaraisk.132,C,B,0.02,0.0,False,False,0.0,[],False, But that does cover a very large section of the people out there.,13,task,Inform
+ES2003b,C,1291.61,1293.54,1.93,ES2003b.C.dialog-act.vkaraisk.177,B,B,1.67,0.02,True,False,0.0,[],True, Sure. I think that's fair yeah.,6,task,Assess
+ES2003b,B,1293.13,1295.21,2.08,ES2003b.B.dialog-act.vkaraisk.133,,,,,,,,,False," Um, I mean",3,minor,Stall
+ES2003b,A,1293.26,1293.71,0.45,ES2003b.A.dialog-act.vkaraisk.76,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,B,1295.21,1303.37,8.16,ES2003b.B.dialog-act.vkaraisk.134,B,C,0.0,1.67,True,False,0.0,[],True, I imagine as well that the actual L_C_D_ and maybe to a certain extent the joystick as well would be for the additional functionality.,24,task,Suggest
+ES2003b,B,1303.37,1305.08,1.71,ES2003b.B.dialog-act.vkaraisk.135,B,B,0.0,0.0,False,False,0.0,[],False," Which maybe doesn't get used as often,",7,task,Inform
+ES2003b,B,1305.08,1314.68,9.6,ES2003b.B.dialog-act.vkaraisk.136,B,B,0.0,0.0,False,False,0.0,[],False, maybe it makes it easy for them to figure out how to um change the channels as in the frequencies and such for reprogramming it.,25,task,Assess
+ES2003b,C,1314.05,1314.29,0.24,ES2003b.C.dialog-act.vkaraisk.178,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,B,1314.68,1321.21,6.53,ES2003b.B.dialog-act.vkaraisk.137,B,B,1.07,0.0,False,False,0.0,[],False," Um and you can still have the main buttons that allow the people to turn the machine on and off, d up and down,",24,task,Suggest
+ES2003b,B,1321.21,1322.05,0.84,ES2003b.B.dialog-act.vkaraisk.138,,,,,,,,,False," it depends,",2,other,Other
+ES2003b,B,1322.05,1322.28,0.23,ES2003b.B.dialog-act.vkaraisk.139,,,,,,,,,False, I mean,2,minor,Stall
+ES2003b,B,1322.28,1326.3,4.02,ES2003b.B.dialog-act.vkaraisk.140,B,B,0.0,1.07,False,False,0.0,[],False," maybe we have the fol um the joystick as a separate one for the other functions then,",17,task,Suggest
+ES2003b,B,1326.3,1333.13,6.83,ES2003b.B.dialog-act.vkaraisk.141,B,B,0.4,0.0,False,False,0.0,[],False, that there's just a a small number of as you were saying uh buttons that have already been defined.,19,task,Suggest
+ES2003b,C,1332.12,1332.31,0.19,ES2003b.C.dialog-act.vkaraisk.179,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,B,1333.13,1333.53,0.4,ES2003b.B.dialog-act.vkaraisk.142,,,,,,,,,False, So like,2,minor,Stall
+ES2003b,B,1333.53,1338.53,5.0,ES2003b.B.dialog-act.vkaraisk.143,B,B,0.0,0.4,False,False,0.0,[],False, we go for the nice standard um up and down for and volume control.,14,task,Suggest
+ES2003b,B,1338.53,1342.74,4.21,ES2003b.B.dialog-act.vkaraisk.144,B,B,0.0,0.0,False,False,0.0,[],False," So that literally anybody can come along, pick up the remote and still know what do do.",17,task,Inform
+ES2003b,B,1342.74,1350.24,7.5,ES2003b.B.dialog-act.vkaraisk.145,B,B,0.0,0.0,False,False,0.0,[],False, And they can completely ignore most of the functionality which would be for say the o actual owner of the the T_V_,22,task,Suggest
+ES2003b,C,1342.88,1343.12,0.24,ES2003b.C.dialog-act.vkaraisk.180,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,B,1350.24,1352.71,2.47,ES2003b.B.dialog-act.vkaraisk.146,A,B,-0.19,0.0,False,True,0.19,['ES2003b.A.dialog-act.vkaraisk.77'],False, and who would normally use the unit.,7,task,Inform
+ES2003b,C,1352.27,1352.51,0.24,ES2003b.C.dialog-act.vkaraisk.181,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,A,1352.52,1360.99,8.47,ES2003b.A.dialog-act.vkaraisk.77,A,B,10.9,-0.19,True,False,0.0,[],False, Mm. I th the thing I like about the uh the uh joystick,13,task,Assess
+ES2003b,B,1352.71,1353.17,0.46,ES2003b.B.dialog-act.vkaraisk.147,,,,,,,,,False, I dunno.,2,task,Assess
+ES2003b,A,1360.99,1368.72,7.73,ES2003b.A.dialog-act.vkaraisk.78,,,,,,,,,False," is that uh you you you then basically you can then basically put it I mean for for T_ T_ for T_V_ remote alone, you could put",27,minor,Fragment
+ES2003b,A,1369.84,1371.89,2.05,ES2003b.A.dialog-act.vkaraisk.79,,,,,,,,,False, um I mean there are like I say the the,10,minor,Fragment
+ES2003b,A,1371.89,1375.68,3.79,ES2003b.A.dialog-act.vkaraisk.80,A,A,0.0,10.9,False,False,0.0,[],False, the main things people do with a T_V_ remote control is the volume and the channel.,16,task,Inform
+ES2003b,A,1375.68,1379.65,3.97,ES2003b.A.dialog-act.vkaraisk.81,A,A,6.93,0.0,False,False,0.0,[],False, You can pack all that onto was onto a single control. Um.,12,task,Assess
+ES2003b,B,1378.6,1380.01,1.41,ES2003b.B.dialog-act.vkaraisk.148,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,A,1380.87,1384.68,3.81,ES2003b.A.dialog-act.vkaraisk.82,,,,,,,,,False, But uh but the but then o uh obviously if,10,minor,Fragment
+ES2003b,A,1384.68,1386.58,1.9,ES2003b.A.dialog-act.vkaraisk.83,,,,,,,,,False, uh you know,3,minor,Stall
+ES2003b,A,1386.58,1392.13,5.55,ES2003b.A.dialog-act.vkaraisk.84,A,A,0.0,6.93,False,False,0.0,[],False, if you i if you wanted to access further functions i you you then get to sort of menu navigation.,20,task,Suggest
+ES2003b,A,1392.13,1406.75,14.62,ES2003b.A.dialog-act.vkaraisk.85,A,A,0.0,0.0,False,False,0.0,[],False," I mean with things like ch with things like tuning and channels um you know adjusting brightn uh brightness and fiddly things that no one really bothers with, most T_V_s these days actually have menus anyway",36,task,Inform
+ES2003b,A,1406.75,1410.144,3.394,ES2003b.A.dialog-act.vkaraisk.86,A,A,1.156,0.0,False,False,0.0,[],False, so this would be a fairly rational way of integra,10,task,Assess
+ES2003b,B,1406.83,1407.57,0.74,ES2003b.B.dialog-act.vkaraisk.149,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,A,1411.3,1416.49,5.19,ES2003b.A.dialog-act.vkaraisk.87,A,A,1.27,1.156,False,False,0.0,[],False, integrating the uh the remote with the device it's controlling. Um,11,task,Assess
+ES2003b,A,1417.76,1421.15,3.39,ES2003b.A.dialog-act.vkaraisk.88,A,A,2.62,1.27,False,False,0.0,[],False, concern about our market.,4,task,Assess
+ES2003b,A,1421.15,1423.77,2.62,ES2003b.A.dialog-act.vkaraisk.89,,,,,,,,,False," Um, if we are",4,minor,Fragment
+ES2003b,A,1423.77,1433.67,9.9,ES2003b.A.dialog-act.vkaraisk.90,A,A,0.0,2.62,False,False,0.0,[],False, I mean most of the uh of the replacement remote market is sort of remote control rationalisation.,17,task,Inform
+ES2003b,A,1433.67,1438.14,4.47,ES2003b.A.dialog-act.vkaraisk.91,A,A,0.0,0.0,False,False,0.0,[],False," Um, you've got twenty different devices in your living room,",10,task,Inform
+ES2003b,C,1436.68,1437.94,1.26,ES2003b.C.dialog-act.vkaraisk.182,,,,,,,,,False, Yeah. Mm-hmm.,2,minor,Backchannel
+ES2003b,A,1438.14,1443.89,5.75,ES2003b.A.dialog-act.vkaraisk.92,A,A,0.0,0.0,False,False,0.0,[],False, you want one wo y you want one that'll do the job of all of them.,16,task,Inform
+ES2003b,B,1443.71,1444.62,0.91,ES2003b.B.dialog-act.vkaraisk.150,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,A,1443.89,1454.34,10.45,ES2003b.A.dialog-act.vkaraisk.93,B,A,1.56,0.0,False,False,0.0,[],False," Um, if all you're replacing is one of the you know however many remotes you have in your living room, um you know you still need separate remotes for everything else.",31,task,Inform
+ES2003b,A,1454.34,1457.51,3.17,ES2003b.A.dialog-act.vkaraisk.94,,,,,,,,,False, I just think that uh possibly,6,minor,Fragment
+ES2003b,B,1455.63,1455.9,0.27,ES2003b.B.dialog-act.vkaraisk.151,,,,,,,,,False, Well,1,minor,Stall
+ES2003b,B,1455.9,1458.78,2.88,ES2003b.B.dialog-act.vkaraisk.152,B,A,0.0,1.56,True,False,0.0,[],True," this is a requirement that we have to stick to I'm afraid,",12,task,Inform
+ES2003b,A,1457.51,1457.91,0.4,ES2003b.A.dialog-act.vkaraisk.95,,,,,,,,,False, mm.,1,minor,Backchannel
+ES2003b,B,1458.78,1462.1,3.32,ES2003b.B.dialog-act.vkaraisk.153,B,B,1.41,0.0,False,False,0.0,[],False, this isn't one that I've just arbitrarily decided on.,9,task,Inform
+ES2003b,A,1462.02,1462.52,0.5,ES2003b.A.dialog-act.vkaraisk.96,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,B,1462.1,1463.51,1.41,ES2003b.B.dialog-act.vkaraisk.154,,,,,,,,,False, So um,2,minor,Stall
+ES2003b,B,1463.51,1470.11,6.6,ES2003b.B.dialog-act.vkaraisk.155,B,B,0.41,1.41,False,False,0.0,[],False," this is this is one of the solid ones that has to be obeyed, for now.",16,task,Inform
+ES2003b,A,1468.85,1469.3,0.45,ES2003b.A.dialog-act.vkaraisk.97,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,B,1470.11,1470.52,0.41,ES2003b.B.dialog-act.vkaraisk.156,,,,,,,,,False, So,1,minor,Stall
+ES2003b,B,1470.52,1471.91,1.39,ES2003b.B.dialog-act.vkaraisk.157,B,B,0.0,0.41,False,False,0.0,[],False," I can understand your point,",5,other,Comment-About-Understanding
+ES2003b,B,1471.91,1473.37,1.46,ES2003b.B.dialog-act.vkaraisk.158,B,B,0.0,0.0,False,False,0.0,[],False," and I would agree with you,",6,task,Assess
+ES2003b,B,1473.37,1477.81,4.44,ES2003b.B.dialog-act.vkaraisk.159,A,B,3.7,0.0,False,False,0.0,[],False, but this is our design spec for now.,8,task,Inform
+ES2003b,B,1477.81,1479.29,1.48,ES2003b.B.dialog-act.vkaraisk.160,,,,,,,,,False, 'Fraid to say.,3,other,Be-Positive
+ES2003b,B,1479.29,1479.984,0.694,ES2003b.B.dialog-act.vkaraisk.161,,,,,,,,,False, Um,1,minor,Stall
+ES2003b,A,1480.288,1481.51,1.222,ES2003b.A.dialog-act.vkaraisk.98,,,,,,,,,False, Does that,2,minor,Fragment
+ES2003b,A,1481.51,1487.22,5.71,ES2003b.A.dialog-act.vkaraisk.99,B,B,2.28,3.7,True,False,0.0,[],True, um would that include um access to say interactive functions on digital or cable?,14,elicit,Elicit-Inform
+ES2003b,C,1486.719,1487.88,1.161,ES2003b.C.dialog-act.vkaraisk.183,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2003b,B,1489.5,1491.18,1.68,ES2003b.B.dialog-act.vkaraisk.162,B,A,0.0,2.28,True,False,0.0,[],True," I would say so, yes,",5,task,Inform
+ES2003b,B,1491.18,1494.48,3.3,ES2003b.B.dialog-act.vkaraisk.163,B,B,0.0,0.0,False,False,0.0,[],False," because then we have to be able to control the remote boxes,",12,task,Inform
+ES2003b,B,1494.48,1497.12,2.64,ES2003b.B.dialog-act.vkaraisk.164,B,B,1.62,0.0,False,False,0.0,[],False, and that is a separate unit.,6,task,Inform
+ES2003b,B,1497.12,1498.74,1.62,ES2003b.B.dialog-act.vkaraisk.165,,,,,,,,,False, Um I think that it,5,minor,Fragment
+ES2003b,B,1498.74,1502.95,4.21,ES2003b.B.dialog-act.vkaraisk.166,B,B,0.0,1.62,False,False,0.0,[],False, I would say that the design spec we've been with is for the television only for now.,17,task,Inform
+ES2003b,A,1502.77,1503.02,0.25,ES2003b.A.dialog-act.vkaraisk.100,,,,,,,,,False, Mm-hmm.,1,task,Assess
+ES2003b,B,1502.95,1505.49,2.54,ES2003b.B.dialog-act.vkaraisk.167,C,B,-2.0,0.0,False,True,2.0,['ES2003b.C.dialog-act.vkaraisk.184'],False, And until we hear otherwise we should go with just that.,11,task,Suggest
+ES2003b,C,1503.49,1506.7,3.21,ES2003b.C.dialog-act.vkaraisk.184,B,B,0.45,-2.0,True,False,0.0,[],False," Hmm. Okay, specifically television.",4,other,Comment-About-Understanding
+ES2003b,A,1506.05,1506.38,0.33,ES2003b.A.dialog-act.vkaraisk.101,,,,,,,,,False, Okay.,1,task,Assess
+ES2003b,B,1506.68,1507.15,0.47,ES2003b.B.dialog-act.vkaraisk.168,,,,,,,,,False, Okay.,1,minor,Stall
+ES2003b,B,1507.15,1508.85,1.7,ES2003b.B.dialog-act.vkaraisk.169,C,C,0.55,0.45,True,False,0.0,[],True," Maybe we'll hear differently,",4,task,Inform
+ES2003b,B,1508.85,1509.996,1.146,ES2003b.B.dialog-act.vkaraisk.170,,,,,,,,,False, but for now,3,minor,Fragment
+ES2003b,C,1509.4,1513.6,4.2,ES2003b.C.dialog-act.vkaraisk.185,B,B,0.95,0.55,True,False,0.0,[],True, So the joystick is just for differentness.,7,elicit,Elicit-Inform
+ES2003b,A,1514.35,1514.63,0.28,ES2003b.A.dialog-act.vkaraisk.102,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,B,1514.55,1519.984,5.434,ES2003b.B.dialog-act.vkaraisk.171,A,C,0.128,0.95,True,False,0.0,[],True," It would be ease of manipulation of certain functions, yes. Um",11,task,Inform
+ES2003b,C,1517.33,1517.58,0.25,ES2003b.C.dialog-act.vkaraisk.186,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+ES2003b,A,1518.21,1519.02,0.81,ES2003b.A.dialog-act.vkaraisk.103,,,,,,,,,False, Just a thought.,3,other,Offer
+ES2003b,A,1520.112,1525.83,5.718,ES2003b.A.dialog-act.vkaraisk.104,A,B,1.79,0.128,True,False,0.0,[],True," Um maybe then our market should be T_V_ manufacturers, rather than the public.",13,task,Suggest
+ES2003b,A,1527.62,1532.703,5.083,ES2003b.A.dialog-act.vkaraisk.105,B,A,-0.703,1.79,False,True,0.703,['ES2003b.B.dialog-act.vkaraisk.172'],False, Try and sell it t sell it to them to supply with um,13,task,Suggest
+ES2003b,B,1532.0,1533.95,1.95,ES2003b.B.dialog-act.vkaraisk.172,B,A,0.08,-0.703,True,False,0.0,[],False," There is that possibility, yes.",5,task,Assess
+ES2003b,B,1533.95,1534.03,0.08,ES2003b.B.dialog-act.vkaraisk.173,,,,,,,,,False, B,1,minor,Fragment
+ES2003b,B,1534.03,1536.91,2.88,ES2003b.B.dialog-act.vkaraisk.174,B,B,0.0,0.08,False,False,0.0,[],False," However I don't know exactly where we'll be going with that,",11,task,Assess
+ES2003b,B,1536.91,1540.0,3.09,ES2003b.B.dialog-act.vkaraisk.175,B,B,0.0,0.0,False,False,0.0,[],False," but it might not even be the avenue of the Marketing Expert,",12,task,Inform
+ES2003b,C,1537.16,1538.872,1.712,ES2003b.C.dialog-act.vkaraisk.187,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,B,1540.0,1542.38,2.38,ES2003b.B.dialog-act.vkaraisk.176,B,B,0.0,0.0,False,False,0.0,[],False," that might be sales,",4,task,Inform
+ES2003b,C,1542.12,1542.31,0.19,ES2003b.C.dialog-act.vkaraisk.188,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,B,1542.38,1544.35,1.97,ES2003b.B.dialog-act.vkaraisk.177,C,B,-0.63,0.0,False,True,0.63,['ES2003b.C.dialog-act.vkaraisk.189'],False, who are not in this meeting.,6,task,Inform
+ES2003b,C,1543.72,1554.27,10.55,ES2003b.C.dialog-act.vkaraisk.189,C,B,0.0,-0.63,True,False,0.0,[],False," It's just, the way I figure it, twelve point five Euros per unit, we have to sell at least like three million or something like that,",26,task,Inform
+ES2003b,B,1549.6,1550.31,0.71,ES2003b.B.dialog-act.vkaraisk.178,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,C,1554.27,1558.87,4.6,ES2003b.C.dialog-act.vkaraisk.190,C,C,0.63,0.0,False,False,0.0,[],False," not to account for all the the money we waste on remotes that no one buys,",16,task,Inform
+ES2003b,C,1558.87,1559.5,0.63,ES2003b.C.dialog-act.vkaraisk.191,,,,,,,,,False," you know, like",3,minor,Stall
+ES2003b,C,1559.5,1567.23,7.73,ES2003b.C.dialog-act.vkaraisk.192,C,C,2.28,0.63,False,False,0.0,[],False," if we made a perf if we made a ks for every remote we made someone bought it, then we have to sell a lot of remote controls.",28,task,Inform
+ES2003b,B,1562.69,1563.46,0.77,ES2003b.B.dialog-act.vkaraisk.179,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,C,1567.23,1567.808,0.578,ES2003b.C.dialog-act.vkaraisk.193,,,,,,,,,False, We just,2,minor,Fragment
+ES2003b,C,1569.51,1571.41,1.9,ES2003b.C.dialog-act.vkaraisk.194,B,C,1.62,2.28,False,False,0.0,[],False, Is this gonna be enough to to sell?,8,elicit,Elicit-Assessment
+ES2003b,B,1572.78,1573.03,0.25,ES2003b.B.dialog-act.vkaraisk.180,,,,,,,,,False," Well,",1,minor,Stall
+ES2003b,B,1573.03,1576.87,3.84,ES2003b.B.dialog-act.vkaraisk.181,B,C,0.0,1.62,True,False,0.0,[],True," something else that you brought up was uh the ability to lose a remote,",14,task,Inform
+ES2003b,B,1576.87,1579.0,2.13,ES2003b.B.dialog-act.vkaraisk.182,B,B,0.0,0.0,False,False,0.0,[],False," which as you said you've done,",6,task,Inform
+ES2003b,B,1579.0,1581.3,2.3,ES2003b.B.dialog-act.vkaraisk.183,B,B,0.0,0.0,False,False,0.0,[],False, in fact we've probably all done.,6,task,Inform
+ES2003b,C,1580.53,1580.77,0.24,ES2003b.C.dialog-act.vkaraisk.195,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2003b,B,1581.3,1584.0,2.7,ES2003b.B.dialog-act.vkaraisk.185,B,B,0.0,0.0,False,False,0.0,[],False," Um, I don't know if it's a gimmick or not,",10,task,Assess
+ES2003b,B,1584.0,1586.6,2.6,ES2003b.B.dialog-act.vkaraisk.184,B,B,0.0,0.0,False,False,0.0,[],False, but have any of you ever seen those odd little key rings,12,elicit,Elicit-Inform
+ES2003b,B,1586.6,1590.22,3.62,ES2003b.B.dialog-act.vkaraisk.186,C,B,0.01,0.0,False,False,0.0,[],False," where if you whistle, it will beep and you tell you where it is.",14,task,Inform
+ES2003b,C,1590.23,1591.18,0.95,ES2003b.C.dialog-act.vkaraisk.196,A,B,-0.74,0.01,True,True,0.74,['ES2003b.A.dialog-act.vkaraisk.106'],True," I had one of those,",5,task,Inform
+ES2003b,A,1590.44,1592.01,1.57,ES2003b.A.dialog-act.vkaraisk.106,C,C,-0.83,-0.74,True,True,0.83,['ES2003b.C.dialog-act.vkaraisk.197'],False," Mm, yeah, I've seen them.",5,task,Inform
+ES2003b,C,1591.18,1594.09,2.91,ES2003b.C.dialog-act.vkaraisk.197,C,A,0.0,-0.83,True,False,0.0,[],False," and my brother, and my dad, could have beat me up",11,task,Inform
+ES2003b,B,1592.56,1597.64,5.08,ES2003b.B.dialog-act.vkaraisk.187,,,,,,,,,False, Um. Well,2,minor,Stall
+ES2003b,C,1594.09,1597.31,3.22,ES2003b.C.dialog-act.vkaraisk.198,B,C,0.33,0.0,False,False,0.0,[],False, because it it went off all the time accidentally.,9,task,Inform
+ES2003b,B,1597.64,1600.74,3.1,ES2003b.B.dialog-act.vkaraisk.188,B,C,0.12,0.33,True,False,0.0,[],True, the other option of course is that um the,9,task,Suggest
+ES2003b,C,1599.46,1600.962,1.502,ES2003b.C.dialog-act.vkaraisk.199,,,,,,,,,False, The clapping one.,3,task,Suggest
+ES2003b,B,1600.74,1600.86,0.12,ES2003b.B.dialog-act.vkaraisk.189,,,,,,,,,False, well,1,minor,Stall
+ES2003b,B,1600.86,1603.392,2.532,ES2003b.B.dialog-act.vkaraisk.190,B,B,8.148,0.12,False,False,0.0,[],False," I was going to say clapping, um",7,task,Inform
+ES2003b,B,1605.97,1611.54,5.57,ES2003b.B.dialog-act.vkaraisk.191,,,,,,,,,False," Um digital telephones, uh for example, one unit has",9,minor,Fragment
+ES2003b,B,1611.54,1613.1,1.56,ES2003b.B.dialog-act.vkaraisk.192,B,B,0.0,8.148,False,False,0.0,[],False," of course you have to have that base unit,",9,task,Inform
+ES2003b,B,1613.1,1614.15,1.05,ES2003b.B.dialog-act.vkaraisk.193,B,B,0.0,0.0,False,False,0.0,[],False," somewhere where there's a button,",5,task,Inform
+ES2003b,B,1614.15,1617.59,3.44,ES2003b.B.dialog-act.vkaraisk.194,B,B,0.0,0.0,False,False,0.0,[],False, but maybe it's a button that you attach to the T_V_.,11,task,Suggest
+ES2003b,C,1616.44,1617.53,1.09,ES2003b.C.dialog-act.vkaraisk.200,,,,,,,,,False, To a television.,3,task,Suggest
+ES2003b,A,1616.81,1617.19,0.38,ES2003b.A.dialog-act.vkaraisk.107,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,B,1617.59,1623.65,6.06,ES2003b.B.dialog-act.vkaraisk.195,B,B,0.0,0.0,False,False,0.0,[],False," Something which you when you press that, it would beep to give its location away, on the remote unit.",19,task,Suggest
+ES2003b,C,1623.33,1623.54,0.21,ES2003b.C.dialog-act.vkaraisk.201,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2003b,B,1623.65,1627.86,4.21,ES2003b.B.dialog-act.vkaraisk.196,A,B,-4.01,0.0,False,True,1.06,"['ES2003b.A.dialog-act.vkaraisk.108', 'ES2003b.C.dialog-act.vkaraisk.202']",False, And that could be something could um separate us a bit.,11,task,Assess
+ES2003b,A,1623.85,1624.91,1.06,ES2003b.A.dialog-act.vkaraisk.108,C,B,0.82,-4.01,True,False,0.0,[],False," Yeah, I think that's a good idea.",7,task,Assess
+ES2003b,C,1625.73,1626.45,0.72,ES2003b.C.dialog-act.vkaraisk.202,B,A,1.41,0.82,True,False,0.0,[],True," Yeah, that's a good idea.",5,task,Assess
+ES2003b,B,1627.86,1632.71,4.85,ES2003b.B.dialog-act.vkaraisk.197,B,C,0.0,1.41,True,False,0.0,[],True," And that way, because we're attaching what would be a small button to the T_V_,",15,task,Inform
+ES2003b,B,1632.71,1640.0,7.29,ES2003b.B.dialog-act.vkaraisk.198,B,B,0.0,0.0,False,False,0.0,[],False," again say what, it would be a small transmitter, um watch battery type scenario I would say,",17,task,Suggest
+ES2003b,B,1640.0,1649.02,9.02,ES2003b.B.dialog-act.vkaraisk.199,B,B,0.0,0.0,False,False,0.0,[],False, or something that if it was problems enough you could actually even just um I don't power,17,task,Suggest
+ES2003b,B,1649.02,1652.76,3.74,ES2003b.B.dialog-act.vkaraisk.200,B,B,0.98,0.0,False,False,0.0,[],False, that might be something that we could look into.,9,task,Suggest
+ES2003b,D,1652.19,1653.046,0.856,ES2003b.D.dialog-act.vkaraisk.74,,,,,,,,,False, Yeah,1,task,Assess
+ES2003b,B,1652.76,1653.59,0.83,ES2003b.B.dialog-act.vkaraisk.201,,,,,,,,,False, Yep.,1,elicit,Elicit-Assessment
+ES2003b,B,1653.59,1653.74,0.15,ES2003b.B.dialog-act.vkaraisk.202,,,,,,,,,False," Yeah,",1,minor,Stall
+ES2003b,B,1653.74,1655.08,1.34,ES2003b.B.dialog-act.vkaraisk.203,B,B,0.43,0.98,False,False,0.0,[],False," it's uh putting a lot on your shoulders there,",9,task,Inform
+ES2003b,B,1655.08,1655.51,0.43,ES2003b.B.dialog-act.vkaraisk.204,,,,,,,,,False, so I mean,3,minor,Stall
+ES2003b,B,1655.51,1658.17,2.66,ES2003b.B.dialog-act.vkaraisk.205,C,B,-1.932,0.43,False,True,1.932,['ES2003b.C.dialog-act.vkaraisk.203'],False, that could be something that separates us a bit from the market as well.,14,task,Assess
+ES2003b,C,1656.238,1658.53,2.292,ES2003b.C.dialog-act.vkaraisk.203,B,B,4.87,-1.932,True,False,0.0,[],False," I think so, yeah.",4,task,Assess
+ES2003b,D,1658.212,1660.688,2.476,ES2003b.D.dialog-act.vkaraisk.75,,,,,,,,,False,,0,minor,Fragment
+ES2003b,B,1661.1,1661.89,0.79,ES2003b.B.dialog-act.vkaraisk.206,,,,,,,,,False, So.,1,minor,Stall
+ES2003b,B,1663.4,1664.53,1.13,ES2003b.B.dialog-act.vkaraisk.207,B,C,0.0,4.87,True,False,0.0,[],True, To go on from here.,5,task,Suggest
+ES2003b,B,1664.53,1668.65,4.12,ES2003b.B.dialog-act.vkaraisk.208,B,B,0.0,0.0,False,False,0.0,[],False, Um we have to decide exactly what we're going to do with the remote.,14,task,Suggest
+ES2003b,B,1668.65,1671.4,2.75,ES2003b.B.dialog-act.vkaraisk.209,B,B,0.0,0.0,False,False,0.0,[],False," Before we leave this meeting, it would be best to say this is what we're going",16,task,Suggest
+ES2003b,B,1671.4,1673.41,2.01,ES2003b.B.dialog-act.vkaraisk.210,B,B,0.0,0.0,False,False,0.0,[],False," this is the design we're gonna try and get,",9,task,Suggest
+ES2003b,B,1673.41,1675.22,1.81,ES2003b.B.dialog-act.vkaraisk.211,B,B,6.72,0.0,False,False,0.0,[],False, this is how we're gonna make ourselves look unique.,9,task,Suggest
+ES2003b,B,1678.59,1680.53,1.94,ES2003b.B.dialog-act.vkaraisk.212,,,,,,,,,False, Do we go for maybe a remote contro,8,minor,Fragment
+ES2003b,A,1679.04,1679.23,0.19,ES2003b.A.dialog-act.vkaraisk.109,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,B,1680.53,1681.94,1.41,ES2003b.B.dialog-act.vkaraisk.213,,,,,,,,,False," uh sorry,",2,other,Be-Positive
+ES2003b,B,1681.94,1683.75,1.81,ES2003b.B.dialog-act.vkaraisk.214,B,B,0.0,6.72,False,False,0.0,[],False," we're gonna go for a remote control obviously,",8,task,Inform
+ES2003b,B,1683.75,1689.39,5.64,ES2003b.B.dialog-act.vkaraisk.215,B,B,0.0,0.0,False,False,0.0,[],False," do we go for a small joystick that would operate say changing channels, up and down,",16,elicit,Elicit-Assessment
+ES2003b,B,1689.39,1694.41,5.02,ES2003b.B.dialog-act.vkaraisk.216,D,B,3.26,0.0,False,False,0.0,[],False," and then, what, another button that would say that it's now being used to manoeuvre round the L_C_D_.",18,elicit,Elicit-Assessment
+ES2003b,A,1695.42,1696.21,0.79,ES2003b.A.dialog-act.vkaraisk.110,,,,,,,,,False, Mm yeah.,2,minor,Stall
+ES2003b,D,1697.67,1699.28,1.61,ES2003b.D.dialog-act.vkaraisk.76,D,B,0.0,3.26,True,False,0.0,[],True, We're just saying volume.,4,other,Other
+ES2003b,A,1697.77,1698.13,0.36,ES2003b.A.dialog-act.vkaraisk.111,,,,,,,,,False," Yeah,",1,minor,Stall
+ES2003b,A,1698.13,1698.928,0.798,ES2003b.A.dialog-act.vkaraisk.112,,,,,,,,,False, I think that's,3,minor,Fragment
+ES2003b,D,1699.28,1701.77,2.49,ES2003b.D.dialog-act.vkaraisk.77,B,D,0.25,0.0,False,False,0.0,[],False," Should volume be important in the joystick, do you think?",10,elicit,Elicit-Offer-Or-Suggestion
+ES2003b,B,1702.02,1704.82,2.8,ES2003b.B.dialog-act.vkaraisk.217,B,D,0.0,0.25,True,False,0.0,[],True, We could use say the left and right for changing channels,11,task,Suggest
+ES2003b,A,1702.36,1703.07,0.71,ES2003b.A.dialog-act.vkaraisk.113,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2003b,B,1704.82,1707.7,2.88,ES2003b.B.dialog-act.vkaraisk.218,C,B,-0.11,0.0,False,True,0.11,['ES2003b.C.dialog-act.vkaraisk.204'],False," and the up and down for volume,",7,task,Suggest
+ES2003b,A,1706.32,1706.89,0.57,ES2003b.A.dialog-act.vkaraisk.114,,,,,,,,,False, For volume.,2,task,Suggest
+ES2003b,D,1707.32,1707.45,0.13,ES2003b.D.dialog-act.vkaraisk.78,,,,,,,,,False, Yep.,1,other,Comment-About-Understanding
+ES2003b,C,1707.59,1713.27,5.68,ES2003b.C.dialog-act.vkaraisk.204,C,B,0.0,-0.11,True,False,0.0,[],False, But we have a frequency of how what people use a remote control for most.,15,task,Inform
+ES2003b,B,1707.7,1708.144,0.444,ES2003b.B.dialog-act.vkaraisk.219,,,,,,,,,False, and,1,minor,Fragment
+ES2003b,B,1713.26,1713.92,0.66,ES2003b.B.dialog-act.vkaraisk.220,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2003b,C,1713.27,1717.12,3.85,ES2003b.C.dialog-act.vkaraisk.205,C,C,0.0,0.0,False,False,0.0,[],False," Um, power is used like once per hour,",8,task,Inform
+ES2003b,D,1714.53,1714.67,0.14,ES2003b.D.dialog-act.vkaraisk.79,,,,,,,,,False, I,1,minor,Fragment
+ES2003b,C,1717.12,1720.83,3.71,ES2003b.C.dialog-act.vkaraisk.206,C,C,0.0,0.0,False,False,0.0,[],False," channel selection is used a hundred and sixty eight per hour,",11,task,Inform
+ES2003b,B,1720.02,1720.72,0.7,ES2003b.B.dialog-act.vkaraisk.221,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,C,1720.83,1723.48,2.65,ES2003b.C.dialog-act.vkaraisk.207,C,C,0.0,0.0,False,False,0.0,[],False," that's by far the biggest one,",6,task,Inform
+ES2003b,C,1723.48,1726.05,2.57,ES2003b.C.dialog-act.vkaraisk.208,B,C,1.57,0.0,False,False,0.0,[],False," and then teletext, is still here,",6,task,Inform
+ES2003b,C,1726.05,1728.25,2.2,ES2003b.C.dialog-act.vkaraisk.209,,,,,,,,,False," that's like fourteen,",3,task,Inform
+ES2003b,B,1727.62,1730.81,3.19,ES2003b.B.dialog-act.vkaraisk.222,B,C,0.0,1.57,True,False,0.0,[],True," Vol Volume selection okay, yep,",5,other,Comment-About-Understanding
+ES2003b,C,1728.25,1729.21,0.96,ES2003b.C.dialog-act.vkaraisk.210,,,,,,,,,False, and volume selection.,3,task,Inform
+ES2003b,B,1730.81,1732.26,1.45,ES2003b.B.dialog-act.vkaraisk.223,B,B,0.0,0.0,False,False,0.0,[],False," the teletext we're gambling with,",5,task,Assess
+ES2003b,B,1732.26,1735.728,3.468,ES2003b.B.dialog-act.vkaraisk.224,B,B,2.972,0.0,False,False,0.0,[],False," and we're gonna say it's dead, the way of the dodo",11,task,Suggest
+ES2003b,C,1733.14,1733.49,0.35,ES2003b.C.dialog-act.vkaraisk.213,,,,,,,,,False," No,",1,minor,Fragment
+ES2003b,C,1733.49,1734.07,0.58,ES2003b.C.dialog-act.vkaraisk.212,,,,,,,,,False," yeah,",1,minor,Stall
+ES2003b,C,1734.07,1734.67,0.6,ES2003b.C.dialog-act.vkaraisk.214,,,,,,,,,False, okay okay.,2,other,Comment-About-Understanding
+ES2003b,C,1735.71,1737.409,1.699,ES2003b.C.dialog-act.vkaraisk.215,,,,,,,,,False," Yeah, um",2,minor,Stall
+ES2003b,B,1737.1,1738.06,0.96,ES2003b.B.dialog-act.vkaraisk.225,,,,,,,,,False, So we,2,minor,Fragment
+ES2003b,B,1738.06,1738.38,0.32,ES2003b.B.dialog-act.vkaraisk.226,,,,,,,,,False," well,",1,minor,Stall
+ES2003b,B,1738.38,1738.7,0.32,ES2003b.B.dialog-act.vkaraisk.227,,,,,,,,,False," sorry,",1,other,Be-Positive
+ES2003b,B,1738.7,1745.62,6.92,ES2003b.B.dialog-act.vkaraisk.228,B,B,0.9,2.972,False,False,0.0,[],False," we could maybe even go as far as saying power button, small joystick, L_C_D_,",14,task,Suggest
+ES2003b,B,1745.62,1746.52,0.9,ES2003b.B.dialog-act.vkaraisk.229,,,,,,,,,False, and then what,3,elicit,Elicit-Offer-Or-Suggestion
+ES2003b,B,1746.52,1751.24,4.72,ES2003b.B.dialog-act.vkaraisk.230,B,B,0.0,0.9,False,False,0.0,[],False," maybe is it one more button to say that you're using the menu system,",14,task,Suggest
+ES2003b,B,1751.24,1754.92,3.68,ES2003b.B.dialog-act.vkaraisk.231,B,B,1.23,0.0,False,False,0.0,[],False, and with the possibility of pushing down on the joystick to say okay?,13,task,Suggest
+ES2003b,B,1756.15,1760.23,4.08,ES2003b.B.dialog-act.vkaraisk.232,B,B,0.0,1.23,False,False,0.0,[],False," So we're having very very few buttons involved,",8,task,Inform
+ES2003b,A,1760.08,1760.737,0.657,ES2003b.A.dialog-act.vkaraisk.115,,,,,,,,,False, Actually how,2,minor,Fragment
+ES2003b,B,1760.23,1762.98,2.75,ES2003b.B.dialog-act.vkaraisk.233,A,B,0.58,0.0,False,False,0.0,[],False, but navigation around a menu for most things.,8,task,Inform
+ES2003b,A,1763.56,1773.43,9.87,ES2003b.A.dialog-act.vkaraisk.116,A,B,0.0,0.58,True,False,0.0,[],True," Actually I would say maybe two two function buttons, the y we're now using the menus button and um and an og and an okay button.",26,task,Assess
+ES2003b,A,1773.43,1786.37,12.94,ES2003b.A.dialog-act.vkaraisk.117,A,A,1.6,0.0,False,False,0.0,[],False, I mean certainly something I've found with the joystick on mo the joysticks on mobile phones is that a lot of the time th the device mistakes you trying to move it in one direction or the other for pushing down for okay.,43,task,Inform
+ES2003b,B,1773.47,1773.91,0.44,ES2003b.B.dialog-act.vkaraisk.234,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2003b,B,1786.76,1787.2,0.44,ES2003b.B.dialog-act.vkaraisk.235,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2003b,A,1786.89,1787.97,1.08,ES2003b.A.dialog-act.vkaraisk.118,,,,,,,,,False, Or vice versa.,3,task,Inform
+ES2003b,A,1787.97,1789.37,1.4,ES2003b.A.dialog-act.vkaraisk.119,A,A,1.606,1.6,False,False,0.0,[],False, And that's really irritating.,4,task,Assess
+ES2003b,C,1789.35,1789.59,0.24,ES2003b.C.dialog-act.vkaraisk.216,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,A,1790.976,1799.84,8.864,ES2003b.A.dialog-act.vkaraisk.120,A,A,0.0,1.606,False,False,0.0,[],False," The o the o the other dis design constraint I think we should bear in mind is that people are you know very much used to using a remote control one handedly,",32,task,Inform
+ES2003b,A,1799.84,1806.82,6.98,ES2003b.A.dialog-act.vkaraisk.121,A,A,0.0,0.0,False,False,0.0,[],False," um, so we need to make sure that e even with the joystick, you know something that can just sit comfortably in the palm of the hand",27,task,Suggest
+ES2003b,A,1806.82,1808.88,2.06,ES2003b.A.dialog-act.vkaraisk.122,B,A,4.53,0.0,False,False,0.0,[],False, and have the joystick just controlled by the thumb.,9,task,Suggest
+ES2003b,B,1809.58,1811.22,1.64,ES2003b.B.dialog-act.vkaraisk.237,,,,,,,,,False, Okay.,1,task,Assess
+ES2003b,B,1811.22,1813.41,2.19,ES2003b.B.dialog-act.vkaraisk.236,,,,,,,,,False, So um,2,minor,Stall
+ES2003b,B,1813.41,1815.62,2.21,ES2003b.B.dialog-act.vkaraisk.238,B,A,0.0,4.53,True,False,0.0,[],True, we're actually that sounds like a rough idea.,8,task,Assess
+ES2003b,B,1815.62,1821.43,5.81,ES2003b.B.dialog-act.vkaraisk.239,C,B,1.81,0.0,False,False,0.0,[],False, Do we incorporate the idea of trying to f locate the remote control again via a beeping noise?,18,elicit,Elicit-Assessment
+ES2003b,D,1822.04,1822.89,0.85,ES2003b.D.dialog-act.vkaraisk.80,,,,,,,,,False," Yeah, think so.",3,task,Assess
+ES2003b,B,1823.062,1824.26,1.198,ES2003b.B.dialog-act.vkaraisk.240,,,,,,,,,False, Do you mind looking?,4,minor,Fragment
+ES2003b,C,1823.24,1824.81,1.57,ES2003b.C.dialog-act.vkaraisk.217,C,B,0.67,1.81,True,False,0.0,[],True," Um, I think because it's so small",7,task,Inform
+ES2003b,C,1824.81,1825.48,0.67,ES2003b.C.dialog-act.vkaraisk.218,,,,,,,,,False, it might be an,4,minor,Fragment
+ES2003b,C,1825.48,1831.091,5.611,ES2003b.C.dialog-act.vkaraisk.219,B,C,-0.631,0.67,False,True,0.631,['ES2003b.B.dialog-act.vkaraisk.241'],False, uh I mean if we only have like two three buttons it might be essential to have to have that,20,task,Assess
+ES2003b,B,1830.46,1833.49,3.03,ES2003b.B.dialog-act.vkaraisk.241,B,C,0.0,-0.631,True,False,0.0,[],False, The ability to locate it again.,6,elicit,Elicit-Inform
+ES2003b,C,1831.79,1833.22,1.43,ES2003b.C.dialog-act.vkaraisk.220,,,,,,,,,False, Yeah.,1,task,Inform
+ES2003b,B,1833.49,1838.71,5.22,ES2003b.B.dialog-act.vkaraisk.242,B,B,0.0,0.0,False,False,0.0,[],False," So that would require a um transmitter maybe attached to the T_V_,",12,task,Inform
+ES2003b,B,1838.71,1840.9,2.19,ES2003b.B.dialog-act.vkaraisk.243,B,B,0.0,0.0,False,False,0.0,[],False," just so that it says find me,",7,task,Inform
+ES2003b,B,1840.9,1846.89,5.99,ES2003b.B.dialog-act.vkaraisk.244,B,B,0.0,0.0,False,False,0.0,[],False," and what, a basically a small microphone um on the actual unit,",12,task,Inform
+ES2003b,B,1846.89,1849.22,2.33,ES2003b.B.dialog-act.vkaraisk.245,D,B,-1.47,0.0,False,True,0.88,['ES2003b.D.dialog-act.vkaraisk.81'],False, can maybe hide it in the base.,7,task,Suggest
+ES2003b,D,1847.75,1848.63,0.88,ES2003b.D.dialog-act.vkaraisk.81,A,B,1.32,-1.47,True,False,0.0,[],False," Light bulb as well,",4,task,Suggest
+ES2003b,A,1848.34,1849.95,1.61,ES2003b.A.dialog-act.vkaraisk.123,,,,,,,,,False, Oh. So so,3,minor,Stall
+ES2003b,D,1848.63,1848.85,0.22,ES2003b.D.dialog-act.vkaraisk.82,,,,,,,,,False, no?,1,elicit,Elicit-Assessment
+ES2003b,B,1849.22,1849.49,0.27,ES2003b.B.dialog-act.vkaraisk.246,,,,,,,,,False, Sorry?,1,other,Comment-About-Understanding
+ES2003b,A,1849.95,1850.91,0.96,ES2003b.A.dialog-act.vkaraisk.124,D,D,1.89,1.32,True,False,0.0,[],True, a small speaker you mean.,5,task,Assess
+ES2003b,C,1850.98,1852.11,1.13,ES2003b.C.dialog-act.vkaraisk.222,,,,,,,,,False, Speaker,1,task,Inform
+ES2003b,B,1851.16,1851.81,0.65,ES2003b.B.dialog-act.vkaraisk.247,,,,,,,,,False," Some speaker,",2,task,Inform
+ES2003b,B,1851.81,1852.04,0.23,ES2003b.B.dialog-act.vkaraisk.248,,,,,,,,,False," sorry,",1,other,Be-Positive
+ES2003b,B,1852.04,1852.61,0.57,ES2003b.B.dialog-act.vkaraisk.249,,,,,,,,,False, yeah.,1,task,Assess
+ES2003b,C,1852.11,1852.3,0.19,ES2003b.C.dialog-act.vkaraisk.223,,,,,,,,,False, yeah.,1,task,Assess
+ES2003b,D,1852.8,1853.56,0.76,ES2003b.D.dialog-act.vkaraisk.83,D,A,3.28,1.89,True,False,0.0,[],True, And a light bulb?,4,task,Suggest
+ES2003b,D,1853.56,1854.14,0.58,ES2003b.D.dialog-act.vkaraisk.84,,,,,,,,,False, No.,1,task,Assess
+ES2003b,D,1854.14,1854.74,0.6,ES2003b.D.dialog-act.vkaraisk.85,,,,,,,,,False, To flash.,2,task,Suggest
+ES2003b,D,1854.74,1854.98,0.24,ES2003b.D.dialog-act.vkaraisk.86,,,,,,,,,False, No.,1,task,Assess
+ES2003b,A,1855.647,1856.51,0.863,ES2003b.A.dialog-act.vkaraisk.125,,,,,,,,,False,,0,minor,Fragment
+ES2003b,B,1855.75,1856.672,0.922,ES2003b.B.dialog-act.vkaraisk.250,,,,,,,,,False, Um,1,minor,Stall
+ES2003b,D,1856.65,1856.84,0.19,ES2003b.D.dialog-act.vkaraisk.87,,,,,,,,,False," Nah,",1,task,Assess
+ES2003b,D,1856.84,1858.54,1.7,ES2003b.D.dialog-act.vkaraisk.88,B,D,1.28,3.28,False,False,0.0,[],False," you'd see it anyway, if you hear it.",8,task,Inform
+ES2003b,B,1857.931,1859.82,1.889,ES2003b.B.dialog-act.vkaraisk.251,,,,,,,,,False, E us,2,minor,Fragment
+ES2003b,B,1859.82,1861.94,2.12,ES2003b.B.dialog-act.vkaraisk.252,C,D,0.44,1.28,True,False,0.0,[],True, we might be better with the sound possibly,8,task,Assess
+ES2003b,C,1861.91,1862.38,0.47,ES2003b.C.dialog-act.vkaraisk.224,,,,,,,,,False, W,1,minor,Fragment
+ES2003b,D,1861.91,1862.3,0.39,ES2003b.D.dialog-act.vkaraisk.89,,,,,,,,,False, Yeah.,1,task,Assess
+ES2003b,B,1861.94,1863.13,1.19,ES2003b.B.dialog-act.vkaraisk.253,,,,,,,,,False, we could maybe incorporate,4,minor,Fragment
+ES2003b,C,1862.38,1864.78,2.4,ES2003b.C.dialog-act.vkaraisk.225,B,B,0.07,0.44,True,False,0.0,[],True," those little key-rings have both,",5,task,Inform
+ES2003b,C,1864.78,1865.264,0.484,ES2003b.C.dialog-act.vkaraisk.226,,,,,,,,,False, so,1,minor,Fragment
+ES2003b,B,1864.85,1870.32,5.47,ES2003b.B.dialog-act.vkaraisk.254,B,C,0.0,0.07,True,False,0.0,[],True," th e the true fact, considering the cost of an L_E_D_, we could just incorporate it anyway.",17,task,Assess
+ES2003b,C,1868.64,1868.85,0.21,ES2003b.C.dialog-act.vkaraisk.227,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2003b,C,1870.3,1870.68,0.38,ES2003b.C.dialog-act.vkaraisk.228,,,,,,,,,False, Yeah.,1,task,Assess
+ES2003b,B,1870.32,1872.35,2.03,ES2003b.B.dialog-act.vkaraisk.255,A,B,3.0,0.0,False,False,0.0,[],False, The L_E_D_s can be surprisingly bright now.,7,task,Inform
+ES2003b,C,1872.5,1872.73,0.23,ES2003b.C.dialog-act.vkaraisk.229,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2003b,D,1872.68,1872.89,0.21,ES2003b.D.dialog-act.vkaraisk.90,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,A,1873.49,1873.9,0.41,ES2003b.A.dialog-act.vkaraisk.126,,,,,,,,,False, Mm-hmm.,1,task,Assess
+ES2003b,B,1873.81,1878.11,4.3,ES2003b.B.dialog-act.vkaraisk.256,,,,,,,,,False, Um. So,2,minor,Stall
+ES2003b,A,1873.9,1875.35,1.45,ES2003b.A.dialog-act.vkaraisk.127,,,,,,,,,False, Blue ones particularly.,3,task,Inform
+ES2003b,A,1875.35,1876.96,1.61,ES2003b.A.dialog-act.vkaraisk.128,B,B,1.15,3.0,True,False,0.0,[],True, Plus that's a nice wee design touch.,7,task,Assess
+ES2003b,C,1877.24,1877.53,0.29,ES2003b.C.dialog-act.vkaraisk.230,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2003b,B,1878.11,1885.44,7.33,ES2003b.B.dialog-act.vkaraisk.257,B,A,0.0,1.15,True,False,0.0,[],True," by the sounds of it, with what we're suggesting so far, your design um the user interface is still quite open,",21,task,Inform
+ES2003b,B,1885.44,1888.09,2.65,ES2003b.B.dialog-act.vkaraisk.258,B,B,0.0,0.0,False,False,0.0,[],False, you could go for quite an interesting design.,8,task,Suggest
+ES2003b,B,1888.09,1889.78,1.69,ES2003b.B.dialog-act.vkaraisk.259,B,B,1.86,0.0,False,False,0.0,[],False, Because we're only going to have a very few key,10,task,Inform
+ES2003b,A,1888.16,1888.53,0.37,ES2003b.A.dialog-act.vkaraisk.129,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,B,1889.78,1890.28,0.5,ES2003b.B.dialog-act.vkaraisk.260,,,,,,,,,False, and you've got,3,task,Inform
+ES2003b,B,1891.64,1894.76,3.12,ES2003b.B.dialog-act.vkaraisk.261,B,B,0.15,1.86,False,False,0.0,[],False," you know a small L_C_D_, joystick,",6,task,Inform
+ES2003b,B,1894.76,1894.91,0.15,ES2003b.B.dialog-act.vkaraisk.262,,,,,,,,,False, e,1,minor,Fragment
+ES2003b,B,1894.91,1898.13,3.22,ES2003b.B.dialog-act.vkaraisk.263,B,B,0.0,0.15,False,False,0.0,[],False," I think it leaves you open to a a potential wide range of shapes,",14,task,Inform
+ES2003b,B,1898.13,1901.14,3.01,ES2003b.B.dialog-act.vkaraisk.264,B,B,0.0,0.0,False,False,0.0,[],False, something that can make it stand out slightly.,8,task,Inform
+ES2003b,A,1899.51,1899.89,0.38,ES2003b.A.dialog-act.vkaraisk.130,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,B,1901.14,1914.74,13.6,ES2003b.B.dialog-act.vkaraisk.265,B,B,1.92,0.0,False,False,0.0,[],False," Um if you could look into what we've suggested so far, the feasibility of um small transmitter, um and such, maybe if an L_C_D_ screen requires too much power, or such.",31,task,Suggest
+ES2003b,B,1916.66,1920.288,3.628,ES2003b.B.dialog-act.vkaraisk.266,C,B,0.572,1.92,False,False,0.0,[],False," Ebenezer, um, Marketing Expert",4,elicit,Elicit-Offer-Or-Suggestion
+ES2003b,C,1918.191,1920.86,2.669,ES2003b.C.dialog-act.vkaraisk.231,,,,,,,,,False, Well,1,minor,Stall
+ES2003b,C,1920.86,1925.8,4.94,ES2003b.C.dialog-act.vkaraisk.232,C,B,0.0,0.572,True,False,0.0,[],True," I can give you the frequency, what people what options people use most often,",14,task,Inform
+ES2003b,C,1925.8,1930.38,4.58,ES2003b.C.dialog-act.vkaraisk.233,C,C,0.85,0.0,False,False,0.0,[],False," I guess that's gonna be important in the ts defining the the software side of the interface,",17,task,Assess
+ES2003b,C,1930.38,1931.23,0.85,ES2003b.C.dialog-act.vkaraisk.234,,,,,,,,,False, right.,1,elicit,Elicit-Assessment
+ES2003b,C,1931.23,1931.86,0.63,ES2003b.C.dialog-act.vkaraisk.235,B,C,0.78,0.85,False,False,0.0,[],False, You want the stuff.,4,elicit,Elicit-Inform
+ES2003b,B,1931.29,1932.23,0.94,ES2003b.B.dialog-act.vkaraisk.267,,,,,,,,,False," If,",1,minor,Fragment
+ES2003b,B,1932.23,1932.64,0.41,ES2003b.B.dialog-act.vkaraisk.268,,,,,,,,,False, yeah,1,task,Inform
+ES2003b,B,1932.64,1937.47,4.83,ES2003b.B.dialog-act.vkaraisk.269,B,C,0.0,0.78,True,False,0.0,[],True," if you could maybe as well see what people think about the idea of this minimalist approach that we've taken,",20,task,Suggest
+ES2003b,B,1937.47,1941.36,3.89,ES2003b.B.dialog-act.vkaraisk.270,B,B,0.0,0.0,False,False,0.0,[],False," where of a joystick to control the very basic functions,",10,task,Suggest
+ES2003b,C,1941.0,1941.24,0.24,ES2003b.C.dialog-act.vkaraisk.236,,,,,,,,,False, Okay.,1,task,Assess
+ES2003b,B,1941.36,1945.23,3.87,ES2003b.B.dialog-act.vkaraisk.271,B,B,0.0,0.0,False,False,0.0,[],False, and then the idea of manipulating it like you would a mobile.,12,task,Suggest
+ES2003b,C,1944.93,1945.23,0.3,ES2003b.C.dialog-act.vkaraisk.237,,,,,,,,,False, Okay.,1,task,Assess
+ES2003b,B,1945.23,1947.34,2.11,ES2003b.B.dialog-act.vkaraisk.272,B,B,0.0,0.0,False,False,0.0,[],False," I don't know how easy that will be within the time frame,",12,task,Assess
+ES2003b,B,1947.34,1949.21,1.87,ES2003b.B.dialog-act.vkaraisk.273,B,B,3.1,0.0,False,False,0.0,[],False, but could be something we could maybe look into.,9,task,Suggest
+ES2003b,C,1947.86,1948.1,0.24,ES2003b.C.dialog-act.vkaraisk.238,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,C,1949.25,1950.6,1.35,ES2003b.C.dialog-act.vkaraisk.239,,,,,,,,,False, Sure. Sure.,2,task,Assess
+ES2003b,B,1951.37,1952.31,0.94,ES2003b.B.dialog-act.vkaraisk.274,,,,,,,,,False, Okay.,1,task,Assess
+ES2003b,B,1952.31,1955.3,2.99,ES2003b.B.dialog-act.vkaraisk.275,B,B,0.0,3.1,False,False,0.0,[],False, Um any last comments that anybody would like to put forward?,11,elicit,Elicit-Inform
+ES2003b,B,1955.3,1958.44,3.14,ES2003b.B.dialog-act.vkaraisk.276,B,B,0.0,0.0,False,False,0.0,[],False, Anything that they think has been missed out.,8,elicit,Elicit-Inform
+ES2003b,B,1958.44,1960.21,1.77,ES2003b.B.dialog-act.vkaraisk.277,B,B,6.79,0.0,False,False,0.0,[],False, Bit of a wide open question there of course.,9,task,Inform
+ES2003b,C,1963.16,1963.37,0.21,ES2003b.C.dialog-act.vkaraisk.240,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,B,1967.0,1972.7,5.7,ES2003b.B.dialog-act.vkaraisk.278,D,B,3.22,6.79,False,False,0.0,[],False, Feel free to email me if you think that uh we've screwed something up and wanna get it rectified as soon as possible.,23,task,Suggest
+ES2003b,C,1973.06,1975.38,2.32,ES2003b.C.dialog-act.vkaraisk.241,,,,,,,,,False, Sure. 'Kay. Yeah.,3,task,Assess
+ES2003b,B,1974.61,1975.25,0.64,ES2003b.B.dialog-act.vkaraisk.279,,,,,,,,,False, Right.,1,task,Assess
+ES2003b,D,1975.74,1975.92,0.18,ES2003b.D.dialog-act.vkaraisk.91,,,,,,,,,False, So,1,minor,Stall
+ES2003b,D,1975.92,1980.76,4.84,ES2003b.D.dialog-act.vkaraisk.92,B,B,0.02,3.22,True,False,0.0,[],True," I should just look at um the speaker, the speaker and an L_E_D_.",13,elicit,Elicit-Assessment
+ES2003b,A,1980.571,1981.874,1.303,ES2003b.A.dialog-act.vkaraisk.131,,,,,,,,,False,,0,minor,Fragment
+ES2003b,D,1980.76,1981.202,0.442,ES2003b.D.dialog-act.vkaraisk.93,,,,,,,,,False, And,1,minor,Fragment
+ES2003b,B,1980.78,1983.33,2.55,ES2003b.B.dialog-act.vkaraisk.280,A,D,2.98,0.02,True,False,0.0,[],True," Speaker and L_E_D_ for locating, um,",6,task,Assess
+ES2003b,D,1982.98,1983.98,1.0,ES2003b.D.dialog-act.vkaraisk.94,,,,,,,,,False," Yeah,",1,task,Assess
+ES2003b,C,1983.38,1984.11,0.73,ES2003b.C.dialog-act.vkaraisk.242,,,,,,,,,False, Transmitter.,1,task,Assess
+ES2003b,D,1983.98,1984.85,0.87,ES2003b.D.dialog-act.vkaraisk.95,,,,,,,,,False, and a transmitter.,3,task,Suggest
+ES2003b,B,1985.15,1986.304,1.154,ES2003b.B.dialog-act.vkaraisk.281,,,,,,,,,False, transmitter,1,task,Assess
+ES2003b,A,1986.31,1988.86,2.55,ES2003b.A.dialog-act.vkaraisk.132,A,B,0.0,2.98,True,False,0.0,[],True, Actually one one wee thought about that.,7,other,Offer
+ES2003b,A,1988.86,1998.51,9.65,ES2003b.A.dialog-act.vkaraisk.133,B,A,2.8,0.0,False,False,0.0,[],False," Um, if we do end up trying to market this to television manufacturers then the um then the transmitter could actually be built into the television.",26,task,Suggest
+ES2003b,B,1999.566,2001.31,1.744,ES2003b.B.dialog-act.vkaraisk.282,,,,,,,,,False," getting the external power source,",5,minor,Fragment
+ES2003b,B,2001.31,2002.87,1.56,ES2003b.B.dialog-act.vkaraisk.283,B,A,1.41,2.8,True,False,0.0,[],True," yep, that's quite true.",4,task,Assess
+ES2003b,B,2004.28,2010.82,6.54,ES2003b.B.dialog-act.vkaraisk.284,B,B,0.0,1.41,False,False,0.0,[],False," Um, and something that we can can easily be adopted at the last minute as well I'd say.",18,task,Inform
+ES2003b,A,2010.71,2011.02,0.31,ES2003b.A.dialog-act.vkaraisk.134,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2003b,B,2010.82,2014.55,3.73,ES2003b.B.dialog-act.vkaraisk.285,B,B,0.0,0.0,False,False,0.0,[],False," The electronics could be s either placed externally or internally,",10,task,Suggest
+ES2003b,B,2014.55,2017.47,2.92,ES2003b.B.dialog-act.vkaraisk.286,A,B,9.4,0.0,False,False,0.0,[],False," makes no difference to the final product of the actual remote control,",12,task,Inform
+ES2003b,A,2015.17,2015.44,0.27,ES2003b.A.dialog-act.vkaraisk.135,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,B,2017.47,2018.75,1.28,ES2003b.B.dialog-act.vkaraisk.287,,,,,,,,,False, so that's good.,3,task,Assess
+ES2003b,A,2024.42,2024.71,0.29,ES2003b.A.dialog-act.vkaraisk.136,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,B,2025.7,2026.28,0.58,ES2003b.B.dialog-act.vkaraisk.288,,,,,,,,,False, 'Kay.,1,elicit,Elicit-Assessment
+ES2003b,A,2026.116,2026.87,0.754,ES2003b.A.dialog-act.vkaraisk.137,,,,,,,,,False, You know I think,4,minor,Fragment
+ES2003b,D,2026.57,2026.91,0.34,ES2003b.D.dialog-act.vkaraisk.96,,,,,,,,,False, P,1,minor,Fragment
+ES2003b,A,2026.87,2036.91,10.04,ES2003b.A.dialog-act.vkaraisk.138,B,B,1.6,9.4,True,False,0.0,[],True," I mean if it w if we get a major television manufacturer to say y oh yeah we'll have that, save us the bother, then that's you know vast amounts of sales. Quite quickly.",34,task,Inform
+ES2003b,B,2037.74,2038.51,0.77,ES2003b.B.dialog-act.vkaraisk.289,,,,,,,,,False," Oh,",1,minor,Stall
+ES2003b,B,2038.51,2040.71,2.2,ES2003b.B.dialog-act.vkaraisk.290,B,A,0.0,1.6,True,False,0.0,[],True," one thing that we've almost not talked about at all,",10,task,Inform
+ES2003b,B,2040.71,2042.23,1.52,ES2003b.B.dialog-act.vkaraisk.291,B,B,0.0,0.0,False,False,0.0,[],False," my apologies for that,",4,other,Be-Positive
+ES2003b,B,2042.23,2046.31,4.08,ES2003b.B.dialog-act.vkaraisk.292,B,B,1.82,0.0,False,False,0.0,[],False," um, user interface, we also need to maybe get the slogan in here,",13,task,Inform
+ES2003b,B,2046.31,2048.13,1.82,ES2003b.B.dialog-act.vkaraisk.293,,,,,,,,,False," um it's,",2,minor,Fragment
+ES2003b,D,2047.56,2047.98,0.42,ES2003b.D.dialog-act.vkaraisk.97,,,,,,,,,False, Fashion.,1,task,Inform
+ES2003b,B,2048.13,2049.72,1.59,ES2003b.B.dialog-act.vkaraisk.295,B,B,3.5,1.82,False,False,0.0,[],False," I'm pointing at my laptop,",5,task,Inform
+ES2003b,B,2049.72,2051.44,1.72,ES2003b.B.dialog-act.vkaraisk.294,,,,,,,,,False, what in God,3,other,Be-Negative
+ES2003b,B,2053.22,2055.62,2.4,ES2003b.B.dialog-act.vkaraisk.296,D,B,2.85,3.5,False,False,0.0,[],False," Real reaction, and such.",4,task,Inform
+ES2003b,B,2055.62,2056.608,0.988,ES2003b.B.dialog-act.vkaraisk.297,,,,,,,,,False, So um,2,minor,Stall
+ES2003b,D,2057.23,2058.28,1.05,ES2003b.D.dialog-act.vkaraisk.98,,,,,,,,,False, The slogan is,3,minor,Fragment
+ES2003b,D,2058.28,2058.47,0.19,ES2003b.D.dialog-act.vkaraisk.99,,,,,,,,,False," yeah,",1,minor,Stall
+ES2003b,B,2058.33,2058.84,0.51,ES2003b.B.dialog-act.vkaraisk.298,,,,,,,,,False," Oh, sorry.",2,other,Be-Positive
+ES2003b,D,2058.47,2060.56,2.09,ES2003b.D.dialog-act.vkaraisk.100,B,B,1.98,2.85,True,False,0.0,[],True," the slogan's we put the fashion in electronics,",8,task,Inform
+ES2003b,D,2060.56,2061.22,0.66,ES2003b.D.dialog-act.vkaraisk.101,,,,,,,,,False, isn't it?,2,elicit,Elicit-Assessment
+ES2003b,B,2061.66,2062.35,0.69,ES2003b.B.dialog-act.vkaraisk.299,,,,,,,,,False, My apologies.,2,other,Be-Positive
+ES2003b,B,2062.35,2062.54,0.19,ES2003b.B.dialog-act.vkaraisk.300,,,,,,,,,False, No,1,minor,Stall
+ES2003b,B,2062.54,2063.23,0.69,ES2003b.B.dialog-act.vkaraisk.301,B,D,0.0,1.98,True,False,0.0,[],True," it could well be,",4,task,Assess
+ES2003b,B,2063.23,2064.53,1.3,ES2003b.B.dialog-act.vkaraisk.302,B,B,0.0,0.0,False,False,0.0,[],False, I've probably missed that.,4,task,Inform
+ES2003b,B,2064.53,2067.86,3.33,ES2003b.B.dialog-act.vkaraisk.303,D,B,-2.28,0.0,False,True,1.01,['ES2003b.D.dialog-act.vkaraisk.102'],False," Um, I think that's l almost the last minute thing",10,task,Inform
+ES2003b,D,2065.58,2066.59,1.01,ES2003b.D.dialog-act.vkaraisk.102,B,B,1.27,-2.28,True,False,0.0,[],False, 'S also look cool.,4,other,Other
+ES2003b,B,2067.86,2071.08,3.22,ES2003b.B.dialog-act.vkaraisk.304,B,D,0.0,1.27,True,False,0.0,[],True, we can just incorporate into the actual plastic on top.,10,task,Suggest
+ES2003b,B,2071.08,2075.91,4.83,ES2003b.B.dialog-act.vkaraisk.305,B,B,0.0,0.0,False,False,0.0,[],False, So I'm not too concerned a that we haven't gone into depth about that.,14,task,Assess
+ES2003b,A,2071.21,2071.75,0.54,ES2003b.A.dialog-act.vkaraisk.139,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2003b,B,2075.91,2078.45,2.54,ES2003b.B.dialog-act.vkaraisk.306,B,B,1.53,0.0,False,False,0.0,[],False, But it might be something you could consider when you're thinking about shapes?,13,task,Suggest
+ES2003b,B,2079.98,2081.75,1.77,ES2003b.B.dialog-act.vkaraisk.307,B,B,0.0,1.53,False,False,0.0,[],False," In fact we might like to put a slogan on,",10,task,Suggest
+ES2003b,A,2080.4,2080.9,0.5,ES2003b.A.dialog-act.vkaraisk.140,,,,,,,,,False, Mm-hmm.,1,task,Assess
+ES2003b,B,2081.75,2088.06,6.31,ES2003b.B.dialog-act.vkaraisk.308,A,B,0.53,0.0,False,False,0.0,[],False, and um possibly the two R_s to signify the company. Rather than real reaction.,14,task,Suggest
+ES2003b,A,2083.57,2083.84,0.27,ES2003b.A.dialog-act.vkaraisk.141,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2003b,A,2087.55,2088.59,1.04,ES2003b.A.dialog-act.vkaraisk.142,,,,,,,,,False, Mm. Yeah.,2,task,Assess
+ES2003b,A,2088.59,2094.81,6.22,ES2003b.A.dialog-act.vkaraisk.143,B,B,2.58,0.53,True,False,0.0,[],True, I thought the uh the d the double arc could perhaps uh be the uh the enter button.,18,task,Suggest
+ES2003b,B,2095.91,2097.39,1.48,ES2003b.B.dialog-act.vkaraisk.309,,,,,,,,,False, Sounds good.,2,task,Assess
+ES2003b,B,2097.39,2099.82,2.43,ES2003b.B.dialog-act.vkaraisk.310,,A,,2.58,True,False,0.0,[],True, And I'd say that that's us for now.,8,task,Suggest
+ES2003b,A,2097.596,2098.737,1.141,ES2003b.A.dialog-act.vkaraisk.144,,,,,,,,,False,.,0,minor,Fragment
+ES2003b,B,2099.82,2100.45,0.63,ES2003b.B.dialog-act.vkaraisk.311,,,,,,,,,False, Okay.,1,task,Assess

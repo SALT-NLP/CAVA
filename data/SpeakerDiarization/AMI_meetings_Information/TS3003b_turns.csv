@@ -1,0 +1,747 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+TS3003b,A,57.11,57.51,0.4,TS3003b.A.dialog-act.vkaraisk.1,,,,,,,,,False, Okay.,1,minor,Stall
+TS3003b,A,57.51,61.24,3.73,TS3003b.A.dialog-act.vkaraisk.2,A,,3.65,,True,False,0.0,[],False, Everybody found his place again? Yeah?,6,elicit,Elicit-Inform
+TS3003b,D,60.55,60.96,0.41,TS3003b.D.dialog-act.vkaraisk.1,,,,,,,,,False, Yes.,1,task,Inform
+TS3003b,A,61.24,63.7,2.46,TS3003b.A.dialog-act.vkaraisk.3,,,,,,,,,False, That's nice.,2,other,Be-Positive
+TS3003b,A,63.7,64.89,1.19,TS3003b.A.dialog-act.vkaraisk.4,,,,,,,,,False, Okay so,2,minor,Stall
+TS3003b,A,64.89,67.77,2.88,TS3003b.A.dialog-act.vkaraisk.5,A,A,4.99,3.65,False,False,0.0,[],False, this is our second meeting.,5,task,Inform
+TS3003b,A,67.77,69.58,1.81,TS3003b.A.dialog-act.vkaraisk.6,,,,,,,,,False, And uh,2,minor,Stall
+TS3003b,A,69.58,71.139,1.559,TS3003b.A.dialog-act.vkaraisk.7,,,,,,,,,False, still failing?,2,elicit,Elicit-Inform
+TS3003b,D,71.8,72.11,0.31,TS3003b.D.dialog-act.vkaraisk.2,,,,,,,,,False, Yeah.,1,task,Inform
+TS3003b,A,72.76,77.26,4.5,TS3003b.A.dialog-act.vkaraisk.8,A,A,0.0,4.99,False,False,0.0,[],False, Uh now we're going um into the functional design.,9,task,Inform
+TS3003b,A,77.26,97.19,19.93,TS3003b.A.dialog-act.vkaraisk.9,A,A,0.0,0.0,False,False,0.0,[],False," Um important thing of this phase is that we're going to uh try to get an agreement about the user requirements, technical function design, and the working design. So that we can move onto the second uh phase.",38,task,Assess
+TS3003b,A,97.19,99.59,2.4,TS3003b.A.dialog-act.vkaraisk.10,A,A,0.0,0.0,False,False,0.0,[],False, But first this phase.,4,task,Suggest
+TS3003b,A,99.59,102.73,3.14,TS3003b.A.dialog-act.vkaraisk.11,A,A,0.0,0.0,False,False,0.0,[],False, Um first an announcement.,4,other,Offer
+TS3003b,A,102.73,107.05,4.32,TS3003b.A.dialog-act.vkaraisk.12,A,A,2.09,0.0,False,False,0.0,[],False, There's a little adaptation in the air conditioning system.,9,task,Inform
+TS3003b,A,107.05,107.776,0.726,TS3003b.A.dialog-act.vkaraisk.13,,,,,,,,,False, So,1,minor,Stall
+TS3003b,D,108.597,109.54,0.943,TS3003b.D.dialog-act.vkaraisk.3,,,,,,,,,False,,0,minor,Fragment
+TS3003b,A,109.14,112.88,3.74,TS3003b.A.dialog-act.vkaraisk.14,A,A,0.0,2.09,False,False,0.0,[],False, There's our ghost mouse again.,5,task,Inform
+TS3003b,A,112.88,118.35,5.47,TS3003b.A.dialog-act.vkaraisk.15,A,A,3.22,0.0,False,False,0.0,[],False," That that means that you can have a little trouble with, little trouble with the air conditioning,",17,task,Inform
+TS3003b,A,118.35,120.184,1.834,TS3003b.A.dialog-act.vkaraisk.16,,,,,,,,,False, that's because of this uh,5,minor,Fragment
+TS3003b,B,120.38,120.74,0.36,TS3003b.B.dialog-act.vkaraisk.1,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+TS3003b,D,121.11,121.48,0.37,TS3003b.D.dialog-act.vkaraisk.4,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+TS3003b,A,121.57,123.39,1.82,TS3003b.A.dialog-act.vkaraisk.17,A,A,0.42,3.22,False,False,0.0,[],False, It's in wing C_ and E_.,6,task,Inform
+TS3003b,A,123.39,123.81,0.42,TS3003b.A.dialog-act.vkaraisk.18,,,,,,,,,False, So,1,minor,Stall
+TS3003b,A,123.81,128.53,4.72,TS3003b.A.dialog-act.vkaraisk.19,A,A,0.0,0.42,False,False,0.0,[],False," it should be over in a in a while, couple of days.",12,task,Inform
+TS3003b,A,128.53,129.9,1.37,TS3003b.A.dialog-act.vkaraisk.20,A,A,0.0,0.0,False,False,0.0,[],False," But it's going to be cold anyway,",7,task,Inform
+TS3003b,A,129.9,134.39,4.49,TS3003b.A.dialog-act.vkaraisk.21,A,A,3.08,0.0,False,False,0.0,[],False, so I don't think you're gonna need it.,8,task,Inform
+TS3003b,B,129.959,131.649,1.69,TS3003b.B.dialog-act.vkaraisk.2,,,,,,,,,False,,0,minor,Fragment
+TS3003b,D,132.84,133.18,0.34,TS3003b.D.dialog-act.vkaraisk.5,,,,,,,,,False, No.,1,task,Assess
+TS3003b,A,134.39,135.84,1.45,TS3003b.A.dialog-act.vkaraisk.22,,,,,,,,,False, Then our agenda.,3,task,Inform
+TS3003b,A,135.84,136.04,0.2,TS3003b.A.dialog-act.vkaraisk.23,,,,,,,,,False, Now,1,minor,Stall
+TS3003b,A,136.04,137.47,1.43,TS3003b.A.dialog-act.vkaraisk.24,,,,,,,,,False, first the opening.,3,task,Inform
+TS3003b,A,137.47,139.11,1.64,TS3003b.A.dialog-act.vkaraisk.25,A,A,1.25,3.08,False,False,0.0,[],False, Uh this time I will take the minutes.,8,other,Offer
+TS3003b,A,140.36,145.02,4.66,TS3003b.A.dialog-act.vkaraisk.26,A,A,0.0,1.25,False,False,0.0,[],False, Uh you're going to have a presentation. All of you.,10,task,Inform
+TS3003b,A,145.02,153.65,8.63,TS3003b.A.dialog-act.vkaraisk.27,A,A,0.0,0.0,False,False,0.0,[],False, Um and we've got forty minutes for the whole uh prese for the whole uh presentations.,16,task,Inform
+TS3003b,A,153.65,157.69,4.04,TS3003b.A.dialog-act.vkaraisk.28,A,A,0.0,0.0,False,False,0.0,[],False," So uh I suggest we take about seven minutes per presentation,",11,task,Suggest
+TS3003b,A,157.69,162.23,4.54,TS3003b.A.dialog-act.vkaraisk.29,A,A,0.0,0.0,False,False,0.0,[],False, and then we can have a little discussion about the new project requirements,13,task,Inform
+TS3003b,A,162.23,163.54,1.31,TS3003b.A.dialog-act.vkaraisk.30,A,A,0.85,0.0,False,False,0.0,[],False, uh which have been sent to me.,7,task,Inform
+TS3003b,A,164.39,172.91,8.52,TS3003b.A.dialog-act.vkaraisk.31,A,A,0.1,0.85,False,False,0.0,[],False, And then the decision on the control functions uh which we wanna include and those which we don't wanna include.,20,task,Inform
+TS3003b,A,172.91,173.01,0.1,TS3003b.A.dialog-act.vkaraisk.32,,,,,,,,,False, So,1,minor,Stall
+TS3003b,A,173.01,175.11,2.1,TS3003b.A.dialog-act.vkaraisk.33,A,A,0.3,0.1,False,False,0.0,[],False, we've got forty minutes for all of it.,8,task,Inform
+TS3003b,A,175.11,175.41,0.3,TS3003b.A.dialog-act.vkaraisk.34,,,,,,,,,False, So,1,minor,Stall
+TS3003b,A,175.41,179.47,4.06,TS3003b.A.dialog-act.vkaraisk.35,A,A,0.0,0.3,False,False,0.0,[],False, I suggest um let's start with the first presentation.,9,task,Suggest
+TS3003b,D,178.78,179.07,0.29,TS3003b.D.dialog-act.vkaraisk.6,,,,,,,,,False, Yes.,1,task,Assess
+TS3003b,A,179.47,181.34,1.87,TS3003b.A.dialog-act.vkaraisk.36,D,A,1.42,0.0,False,False,0.0,[],False, Um who wants to be first?,6,elicit,Elicit-Offer-Or-Suggestion
+TS3003b,D,182.76,183.55,0.79,TS3003b.D.dialog-act.vkaraisk.7,A,A,7.36,1.42,True,False,0.0,[],True, Think I'll go first.,4,other,Offer
+TS3003b,A,183.74,185.62,1.88,TS3003b.A.dialog-act.vkaraisk.37,,,,,,,,,False, Okay.,1,task,Assess
+TS3003b,A,185.62,186.215,0.595,TS3003b.A.dialog-act.vkaraisk.38,,,,,,,,,False, So,1,minor,Stall
+TS3003b,D,185.758,186.566,0.808,TS3003b.D.dialog-act.vkaraisk.8,,,,,,,,,False,,0,minor,Fragment
+TS3003b,A,187.94,190.47,2.53,TS3003b.A.dialog-act.vkaraisk.39,,,,,,,,,False, Just maybe it's easier if you um,7,minor,Fragment
+TS3003b,A,190.47,190.91,0.44,TS3003b.A.dialog-act.vkaraisk.40,,,,,,,,,False, Yeah,1,minor,Stall
+TS3003b,A,190.91,194.6,3.69,TS3003b.A.dialog-act.vkaraisk.41,A,D,0.0,7.36,True,False,0.0,[],True, I think you will tell your presentation as well. Just which function you have,14,task,Suggest
+TS3003b,A,194.6,199.775,5.175,TS3003b.A.dialog-act.vkaraisk.42,D,A,7.075,0.0,False,False,0.0,[],False, and what you're gonna talk about.,6,task,Suggest
+TS3003b,D,206.59,206.85,0.26,TS3003b.D.dialog-act.vkaraisk.9,,,,,,,,,False, 'Kay.,1,task,Assess
+TS3003b,D,206.85,208.13,1.28,TS3003b.D.dialog-act.vkaraisk.10,D,A,0.0,7.075,True,False,0.0,[],True, My name is Freek Van Ponnen.,6,task,Inform
+TS3003b,D,208.13,209.65,1.52,TS3003b.D.dialog-act.vkaraisk.11,D,D,0.0,0.0,False,False,0.0,[],False, I'm the Market Expert.,4,task,Inform
+TS3003b,D,209.65,210.91,1.26,TS3003b.D.dialog-act.vkaraisk.12,D,D,1.19,0.0,False,False,0.0,[],False, But you already knew that.,5,task,Inform
+TS3003b,D,212.1,214.26,2.16,TS3003b.D.dialog-act.vkaraisk.13,D,D,0.0,1.19,False,False,0.0,[],False, Um I've done some research.,5,task,Inform
+TS3003b,D,214.26,217.58,3.32,TS3003b.D.dialog-act.vkaraisk.14,D,D,0.0,0.0,False,False,0.0,[],False, We have we uh have been doing research in a usability lab,12,task,Inform
+TS3003b,D,217.58,223.02,5.44,TS3003b.D.dialog-act.vkaraisk.15,D,D,0.0,0.0,False,False,0.0,[],False, where we observed um users operating remote controls.,8,task,Inform
+TS3003b,D,223.02,225.56,2.54,TS3003b.D.dialog-act.vkaraisk.16,D,D,0.0,0.0,False,False,0.0,[],False, Uh we let them fill out a questionnaire.,8,task,Inform
+TS3003b,D,225.56,228.22,2.66,TS3003b.D.dialog-act.vkaraisk.17,D,D,1.14,0.0,False,False,0.0,[],False, We had one hundred of these uh test subjects.,9,task,Inform
+TS3003b,D,229.36,236.64,7.28,TS3003b.D.dialog-act.vkaraisk.18,D,D,2.49,1.14,False,False,0.0,[],False, Uh in addition we did some market research. Uh see what the market consists of. What ages are involved.,19,task,Inform
+TS3003b,D,238.9,239.13,0.23,TS3003b.D.dialog-act.vkaraisk.19,,,,,,,,,False, Well,1,minor,Stall
+TS3003b,D,239.13,244.6,5.47,TS3003b.D.dialog-act.vkaraisk.21,D,D,0.0,2.49,False,False,0.0,[],False," these are three quite astonishing results, I thought.",8,task,Assess
+TS3003b,D,244.6,247.53,2.93,TS3003b.D.dialog-act.vkaraisk.22,D,D,0.31,0.0,False,False,0.0,[],False, Um remotes are being considered ugly.,6,task,Inform
+TS3003b,D,247.53,247.84,0.31,TS3003b.D.dialog-act.vkaraisk.23,,,,,,,,,False, F,1,minor,Fragment
+TS3003b,D,247.84,256.33,8.49,TS3003b.D.dialog-act.vkaraisk.24,D,D,0.0,0.31,False,False,0.0,[],False, uh seventy five percent of the um people questioned uh indicated that they thought their remote were was ugly.,19,task,Inform
+TS3003b,D,256.33,262.85,6.52,TS3003b.D.dialog-act.vkaraisk.25,D,D,1.82,0.0,False,False,0.0,[],False, Um and an additional eighty percent indicated that they would spend more money on a fancy-looking remote control.,18,task,Inform
+TS3003b,D,262.85,263.361,0.511,TS3003b.D.dialog-act.vkaraisk.26,,,,,,,,,False, So,1,minor,Stall
+TS3003b,D,264.67,267.33,2.66,TS3003b.D.dialog-act.vkaraisk.27,D,D,0.0,1.82,False,False,0.0,[],False, Um in addition remotes were not very functional.,8,task,Inform
+TS3003b,D,267.33,273.32,5.99,TS3003b.D.dialog-act.vkaraisk.28,D,D,1.76,0.0,False,False,0.0,[],False, Fifty percent of the people indicated they only loo used about ten percent of the buttons on a remote control.,20,task,Inform
+TS3003b,D,275.08,279.39,4.31,TS3003b.D.dialog-act.vkaraisk.29,D,D,5.95,1.76,False,False,0.0,[],False, And fifty percent of the people indicated that their remote tended to get lost in their room.,17,task,Inform
+TS3003b,D,280.47,280.8,0.33,TS3003b.D.dialog-act.vkaraisk.30,,,,,,,,,False, So,1,minor,Stall
+TS3003b,B,281.83,282.08,0.25,TS3003b.B.dialog-act.vkaraisk.3,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3003b,D,282.33,283.07,0.74,TS3003b.D.dialog-act.vkaraisk.31,,,,,,,,,False, some things.,2,other,Other
+TS3003b,D,285.34,288.94,3.6,TS3003b.D.dialog-act.vkaraisk.32,D,D,0.0,5.95,False,False,0.0,[],False, Then we did some research to the most relevant functions.,10,task,Inform
+TS3003b,D,288.94,296.65,7.71,TS3003b.D.dialog-act.vkaraisk.33,D,D,0.0,0.0,False,False,0.0,[],False, Channel selection and volume selection um both got a ten on a scale of one to ten for relevancy.,19,task,Inform
+TS3003b,D,296.65,298.67,2.02,TS3003b.D.dialog-act.vkaraisk.34,D,D,0.0,0.0,False,False,0.0,[],False, The power button got a nine.,6,task,Inform
+TS3003b,D,298.67,301.17,2.5,TS3003b.D.dialog-act.vkaraisk.35,D,D,0.0,0.0,False,False,0.0,[],False, And teletext got a six and a half.,8,task,Inform
+TS3003b,D,301.17,307.0,5.83,TS3003b.D.dialog-act.vkaraisk.36,D,D,0.0,0.0,False,False,0.0,[],False, So these are the most most uh important functions on a remote control.,13,task,Inform
+TS3003b,D,307.0,309.28,2.28,TS3003b.D.dialog-act.vkaraisk.37,D,D,0.0,0.0,False,False,0.0,[],False, Then there are some one-time use function.,7,task,Inform
+TS3003b,D,309.28,310.87,1.59,TS3003b.D.dialog-act.vkaraisk.38,D,D,0.0,0.0,False,False,0.0,[],False, That's what I like to call them.,7,task,Inform
+TS3003b,D,310.87,315.5,4.63,TS3003b.D.dialog-act.vkaraisk.39,D,D,0.0,0.0,False,False,0.0,[],False," That uh audio settings, video settings, and channel settings buttons.",10,task,Inform
+TS3003b,D,315.5,318.62,3.12,TS3003b.D.dialog-act.vkaraisk.40,D,D,0.0,0.0,False,False,0.0,[],False," Which are not really used very frequently,",7,task,Inform
+TS3003b,D,318.62,320.74,2.12,TS3003b.D.dialog-act.vkaraisk.41,D,D,1.36,0.0,False,False,0.0,[],False, but are still considered to be of some importance.,9,task,Inform
+TS3003b,D,322.1,329.43,7.33,TS3003b.D.dialog-act.vkaraisk.42,D,D,3.95,1.36,False,False,0.0,[],False, Um channel selection was also indicated to be used very frequently. One hundred and sixty eight times per hour.,19,task,Inform
+TS3003b,D,332.14,333.38,1.24,TS3003b.D.dialog-act.vkaraisk.43,,,,,,,,,False, Then these are the,4,minor,Fragment
+TS3003b,D,333.38,335.02,1.64,TS3003b.D.dialog-act.vkaraisk.44,D,D,0.0,3.95,False,False,0.0,[],False, This is the market.,4,task,Inform
+TS3003b,D,335.02,341.15,6.13,TS3003b.D.dialog-act.vkaraisk.45,D,D,0.98,0.0,False,False,0.0,[],False, Um sixty percent of the market consists of users between the ages sixteen and forty f six.,17,task,Inform
+TS3003b,D,342.13,348.74,6.61,TS3003b.D.dialog-act.vkaraisk.46,D,D,0.0,0.98,False,False,0.0,[],False, Um Main characteristic of this group is that they're very critical on the remote control.,15,task,Inform
+TS3003b,D,348.74,352.85,4.11,TS3003b.D.dialog-act.vkaraisk.47,D,D,0.0,0.0,False,False,0.0,[],False, Um they like to use new f new functions.,9,task,Inform
+TS3003b,D,352.85,354.38,1.53,TS3003b.D.dialog-act.vkaraisk.48,D,D,0.0,0.0,False,False,0.0,[],False, But they also are very critical.,6,task,Inform
+TS3003b,D,354.38,356.37,1.99,TS3003b.D.dialog-act.vkaraisk.49,D,D,2.26,0.0,False,False,0.0,[],False, They won't spend their money very easily.,7,task,Inform
+TS3003b,D,356.37,358.63,2.26,TS3003b.D.dialog-act.vkaraisk.50,,,,,,,,,False, So Um,2,minor,Stall
+TS3003b,D,358.63,364.23,5.6,TS3003b.D.dialog-act.vkaraisk.51,D,D,1.01,2.26,False,False,0.0,[],False, the users of forty six to sixty five years cons The make up forty percent of the market.,18,task,Inform
+TS3003b,D,365.24,367.31,2.07,TS3003b.D.dialog-act.vkaraisk.52,D,D,0.0,1.01,False,False,0.0,[],False, They are not really very interested in features.,8,task,Inform
+TS3003b,D,367.31,369.97,2.66,TS3003b.D.dialog-act.vkaraisk.53,D,D,5.38,0.0,False,False,0.0,[],False, But they do tend to spend their money a lot easier.,11,task,Inform
+TS3003b,D,375.35,383.36,8.01,TS3003b.D.dialog-act.vkaraisk.54,D,D,0.0,5.38,False,False,0.0,[],False, What I think this indicates for our um design. I think we should make a remote for the future.,19,task,Suggest
+TS3003b,D,383.36,389.84,6.48,TS3003b.D.dialog-act.vkaraisk.55,D,D,0.98,0.0,False,False,0.0,[],False, And this means we would um have to focus on the age ages sixteen to forty five.,17,task,Suggest
+TS3003b,D,390.82,394.16,3.34,TS3003b.D.dialog-act.vkaraisk.56,D,D,0.0,0.98,False,False,0.0,[],False," Uh this also makes up most the biggest part of the market,",12,task,Inform
+TS3003b,D,394.16,399.38,5.22,TS3003b.D.dialog-act.vkaraisk.57,D,D,1.09,0.0,False,False,0.0,[],False, so that will also be where our main profit would be gettable.,12,task,Inform
+TS3003b,D,400.47,403.42,2.95,TS3003b.D.dialog-act.vkaraisk.58,D,D,1.43,1.09,False,False,0.0,[],False, Um this would mean we would have to make a fancy design.,12,task,Suggest
+TS3003b,D,404.85,416.14,11.29,TS3003b.D.dialog-act.vkaraisk.59,D,D,1.43,1.43,False,False,0.0,[],False, Um The results also indicated that um about one quarter of the people questioned thought that the remote control caused R_S_ R_S_I_.,22,task,Inform
+TS3003b,D,417.57,422.17,4.6,TS3003b.D.dialog-act.vkaraisk.60,D,D,0.0,1.43,False,False,0.0,[],False, Um this is certainly something to take into account.,9,task,Suggest
+TS3003b,D,422.17,429.21,7.04,TS3003b.D.dialog-act.vkaraisk.61,D,D,0.0,0.0,False,False,0.0,[],False," And thirty four percent thought that it was hard to learn a n how to operate a new control, remote control.",21,task,Inform
+TS3003b,D,429.21,433.79,4.58,TS3003b.D.dialog-act.vkaraisk.62,D,D,0.0,0.0,False,False,0.0,[],False, So these are two factors that I think should be included in the design.,14,task,Suggest
+TS3003b,D,433.79,436.72,2.93,TS3003b.D.dialog-act.vkaraisk.63,D,D,1.35,0.0,False,False,0.0,[],False, Besides of course that the remote must look very nice.,10,task,Suggest
+TS3003b,D,438.07,444.07,6.0,TS3003b.D.dialog-act.vkaraisk.64,D,D,0.0,1.35,False,False,0.0,[],False," And the functionality As a lot of people indicated, they only use about ten percent of the buttons,",18,task,Inform
+TS3003b,D,444.07,447.27,3.2,TS3003b.D.dialog-act.vkaraisk.65,D,D,0.0,0.0,False,False,0.0,[],False, I think we should make very few buttons.,8,task,Suggest
+TS3003b,D,447.27,451.75,4.48,TS3003b.D.dialog-act.vkaraisk.66,D,D,1.52,0.0,False,False,0.0,[],False, Uh this will also be uh beneficial to the design of the remote.,13,task,Assess
+TS3003b,D,453.27,461.62,8.35,TS3003b.D.dialog-act.vkaraisk.67,D,D,0.0,1.52,False,False,0.0,[],False, Uh I think the most frequently used buttons should be emphasised. Especially the channel selection and audio uh selection buttons.,20,task,Suggest
+TS3003b,D,461.62,462.79,1.17,TS3003b.D.dialog-act.vkaraisk.68,D,D,0.0,0.0,False,False,0.0,[],False, 'Cause they're used most,4,task,Inform
+TS3003b,D,462.79,465.39,2.6,TS3003b.D.dialog-act.vkaraisk.69,D,D,0.0,0.0,False,False,0.0,[],False, and so they should be robust.,6,task,Suggest
+TS3003b,D,465.39,466.95,1.56,TS3003b.D.dialog-act.vkaraisk.70,D,D,2.21,0.0,False,False,0.0,[],False, They shouldn't break down easily.,5,task,Suggest
+TS3003b,D,469.16,477.95,8.79,TS3003b.D.dialog-act.vkaraisk.71,D,D,1.67,2.21,False,False,0.0,[],False," Um Then as mo as a lot of people indicated that their um remote got lost in the room,",19,task,Inform
+TS3003b,D,477.95,478.51,0.56,TS3003b.D.dialog-act.vkaraisk.74,,,,,,,,,False, it might be,3,minor,Fragment
+TS3003b,D,479.62,480.53,0.91,TS3003b.D.dialog-act.vkaraisk.75,D,D,0.0,1.67,False,False,0.0,[],False, and I say might be,5,task,Inform
+TS3003b,D,480.53,486.78,6.25,TS3003b.D.dialog-act.vkaraisk.72,D,D,0.0,0.0,False,False,0.0,[],False, because it would um certainly boost the uh production costs a lot.,12,task,Assess
+TS3003b,D,486.78,489.85,3.07,TS3003b.D.dialog-act.vkaraisk.76,D,D,0.0,0.0,False,False,0.0,[],False, But it might be a good idea to make a docking station.,12,task,Suggest
+TS3003b,D,489.85,493.15,3.3,TS3003b.D.dialog-act.vkaraisk.77,D,D,0.0,0.0,False,False,0.0,[],False," And this would, could get a button in it",9,task,Suggest
+TS3003b,D,493.15,495.44,2.29,TS3003b.D.dialog-act.vkaraisk.78,D,D,0.0,0.0,False,False,0.0,[],False, which would send a signal to the remote,8,task,Suggest
+TS3003b,D,495.44,496.29,0.85,TS3003b.D.dialog-act.vkaraisk.79,D,D,0.26,0.0,False,False,0.0,[],False, which would then beep.,4,task,Suggest
+TS3003b,D,496.55,498.9,2.35,TS3003b.D.dialog-act.vkaraisk.80,D,D,0.0,0.26,False,False,0.0,[],False, So you'd know where it is in the room.,9,task,Inform
+TS3003b,D,498.9,503.92,5.02,TS3003b.D.dialog-act.vkaraisk.81,D,D,1.79,0.0,False,False,0.0,[],False, And in addition to this it could um recharge the batteries in the remote if you put it in.,19,task,Suggest
+TS3003b,D,505.71,517.11,11.4,TS3003b.D.dialog-act.vkaraisk.82,D,D,0.0,1.79,False,False,0.0,[],False, Then um a surprisingly great deal of people w indicated that um an L_C_D_ screen in the remote control would be preferred.,22,task,Inform
+TS3003b,D,517.11,524.36,7.25,TS3003b.D.dialog-act.vkaraisk.83,D,D,0.0,0.0,False,False,0.0,[],False, This was um mostly people in the age of sixteen to twenty five.,13,task,Inform
+TS3003b,D,524.36,528.06,3.7,TS3003b.D.dialog-act.vkaraisk.84,D,D,0.0,0.0,False,False,0.0,[],False, But up till forty five it remains feasible.,8,task,Inform
+TS3003b,D,528.06,530.86,2.8,TS3003b.D.dialog-act.vkaraisk.85,D,D,0.0,0.0,False,False,0.0,[],False, This would also greatly increase the production costs,8,task,Assess
+TS3003b,D,530.86,535.74,4.88,TS3003b.D.dialog-act.vkaraisk.86,D,D,2.85,0.0,False,False,0.0,[],False, but I think these are just some small factors we could consider.,12,task,Suggest
+TS3003b,A,538.03,538.34,0.31,TS3003b.A.dialog-act.vkaraisk.43,,,,,,,,,False, Okay.,1,task,Assess
+TS3003b,D,538.59,539.25,0.66,TS3003b.D.dialog-act.vkaraisk.87,A,D,2.79,2.85,False,False,0.0,[],False, That would be all.,4,task,Inform
+TS3003b,A,540.04,541.03,0.99,TS3003b.A.dialog-act.vkaraisk.44,,,,,,,,,False, Thank you.,2,other,Be-Positive
+TS3003b,A,541.03,542.04,1.01,TS3003b.A.dialog-act.vkaraisk.45,,,,,,,,,False, So,1,minor,Fragment
+TS3003b,A,542.04,545.16,3.12,TS3003b.A.dialog-act.vkaraisk.46,A,D,4.77,2.79,True,False,0.0,[],True, anybody have um any questions until now?,7,elicit,Elicit-Inform
+TS3003b,D,544.2,544.9,0.7,TS3003b.D.dialog-act.vkaraisk.88,,,,,,,,,False, Any questions?,2,elicit,Elicit-Inform
+TS3003b,B,546.16,546.78,0.62,TS3003b.B.dialog-act.vkaraisk.4,,,,,,,,,False, Mm-hmm.,1,task,Inform
+TS3003b,A,546.23,548.29,2.06,TS3003b.A.dialog-act.vkaraisk.47,,,,,,,,,False, About functional requirements?,3,elicit,Elicit-Inform
+TS3003b,C,547.87,548.25,0.38,TS3003b.C.dialog-act.vkaraisk.1,,,,,,,,,False, No.,1,task,Inform
+TS3003b,A,548.29,548.51,0.22,TS3003b.A.dialog-act.vkaraisk.49,,,,,,,,,False, Okay,1,other,Comment-About-Understanding
+TS3003b,A,548.51,549.06,0.55,TS3003b.A.dialog-act.vkaraisk.48,,,,,,,,,False, that's clear.,2,task,Assess
+TS3003b,A,549.93,551.6,1.67,TS3003b.A.dialog-act.vkaraisk.50,B,A,10.84,4.77,False,False,0.0,[],False, Now to the second.,4,task,Suggest
+TS3003b,D,550.33,550.53,0.2,TS3003b.D.dialog-act.vkaraisk.89,,,,,,,,,False, 'Kay.,1,other,Comment-About-Understanding
+TS3003b,D,552.656,553.695,1.039,TS3003b.D.dialog-act.vkaraisk.90,,,,,,,,,False,,0,minor,Fragment
+TS3003b,A,553.929,554.577,0.648,TS3003b.A.dialog-act.vkaraisk.51,,,,,,,,,False,,0,minor,Fragment
+TS3003b,B,560.28,562.44,2.16,TS3003b.B.dialog-act.vkaraisk.5,,,,,,,,,False, Uh okay. Um,3,minor,Stall
+TS3003b,B,562.44,572.736,10.296,TS3003b.B.dialog-act.vkaraisk.6,A,A,2.114,10.84,True,False,0.0,[],True, I've been looking at uh the user interface of it. Um f for the techno f functions uh of of it. Um,22,task,Inform
+TS3003b,A,567.51,567.66,0.15,TS3003b.A.dialog-act.vkaraisk.52,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,A,574.62,574.85,0.23,TS3003b.A.dialog-act.vkaraisk.53,,,,,,,,,False, Yeah,1,minor,Stall
+TS3003b,A,574.85,575.71,0.86,TS3003b.A.dialog-act.vkaraisk.54,A,B,0.0,2.114,True,False,0.0,[],True, you can take your time.,5,task,Suggest
+TS3003b,B,574.97,575.43,0.46,TS3003b.B.dialog-act.vkaraisk.7,,,,,,,,,False, Okay.,1,other,Other
+TS3003b,A,575.71,578.05,2.34,TS3003b.A.dialog-act.vkaraisk.55,D,A,-0.49,0.0,False,True,0.49,['TS3003b.D.dialog-act.vkaraisk.92'],False," We've got uh plenty of time,",6,task,Inform
+TS3003b,B,576.96,577.16,0.2,TS3003b.B.dialog-act.vkaraisk.8,,,,,,,,,False, Mm?,1,other,Comment-About-Understanding
+TS3003b,D,577.42,577.56,0.14,TS3003b.D.dialog-act.vkaraisk.91,,,,,,,,,False, Yeah,1,minor,Stall
+TS3003b,D,577.56,581.5,3.94,TS3003b.D.dialog-act.vkaraisk.92,A,A,0.08,-0.49,True,False,0.0,[],False, you should go to the top thingy. Slide show.,9,task,Suggest
+TS3003b,A,578.05,578.6,0.55,TS3003b.A.dialog-act.vkaraisk.56,,,,,,,,,False, so,1,minor,Fragment
+TS3003b,B,578.52,578.91,0.39,TS3003b.B.dialog-act.vkaraisk.9,,,,,,,,,False, Oh.,1,other,Comment-About-Understanding
+TS3003b,A,579.44,580.282,0.842,TS3003b.A.dialog-act.vkaraisk.57,,,,,,,,,False,,0,minor,Fragment
+TS3003b,B,580.1,580.52,0.42,TS3003b.B.dialog-act.vkaraisk.10,,,,,,,,,False, Uh.,1,minor,Backchannel
+TS3003b,D,581.5,581.87,0.37,TS3003b.D.dialog-act.vkaraisk.93,,,,,,,,,False, Oh yeah.,2,task,Assess
+TS3003b,A,581.58,583.37,1.79,TS3003b.A.dialog-act.vkaraisk.58,B,D,3.21,0.08,True,False,0.0,[],True, Yeah. There it is. Yeah.,5,task,Assess
+TS3003b,B,581.65,581.91,0.26,TS3003b.B.dialog-act.vkaraisk.11,,,,,,,,,False, Okay.,1,task,Assess
+TS3003b,B,584.44,586.58,2.14,TS3003b.B.dialog-act.vkaraisk.12,,,,,,,,,False, Um yeah.,2,minor,Stall
+TS3003b,B,586.58,592.15,5.57,TS3003b.B.dialog-act.vkaraisk.13,B,A,0.0,3.21,True,False,0.0,[],True, I think uh we uh must use the general functions uh of the uh remote control.,16,task,Suggest
+TS3003b,B,592.15,599.89,7.74,TS3003b.B.dialog-act.vkaraisk.14,B,B,0.0,0.0,False,False,0.0,[],False, Uh uh I've do I've uh done a little uh research on the internet,14,task,Inform
+TS3003b,B,599.89,606.88,6.99,TS3003b.B.dialog-act.vkaraisk.15,B,B,5.45,0.0,False,False,0.0,[],False," and not much information about it, Um about uh interface",10,task,Inform
+TS3003b,B,606.88,612.33,5.45,TS3003b.B.dialog-act.vkaraisk.16,,,,,,,,,False, but uh Uh Yeah,4,minor,Stall
+TS3003b,B,612.33,621.13,8.8,TS3003b.B.dialog-act.vkaraisk.17,B,B,0.0,5.45,False,False,0.0,[],False, I I've been thinking about a simple manner uh to put a lot of functions uh uh in one um in one uh remote control.,25,task,Inform
+TS3003b,B,621.13,628.44,7.31,TS3003b.B.dialog-act.vkaraisk.18,B,B,1.5,0.0,False,False,0.0,[],False," Uh so uh you've got a lot of devi uh devices like uh D_V_D_ uh uh television, uh stereo.",19,task,Inform
+TS3003b,B,628.44,629.482,1.042,TS3003b.B.dialog-act.vkaraisk.19,,,,,,,,,False, So um,2,minor,Stall
+TS3003b,B,629.94,633.18,3.24,TS3003b.B.dialog-act.vkaraisk.20,B,B,1.33,1.5,False,False,0.0,[],False, But uh it must be uh user-friendly.,7,task,Inform
+TS3003b,B,633.18,634.51,1.33,TS3003b.B.dialog-act.vkaraisk.21,,,,,,,,,False, So um uh,3,minor,Stall
+TS3003b,B,634.51,645.88,11.37,TS3003b.B.dialog-act.vkaraisk.22,B,B,8.92,1.33,False,False,0.0,[],False, you c you can't put a a lot of uh functions uh in one uh Yeah. Uh uh uh Yeah. In one um remote control.,25,task,Suggest
+TS3003b,A,645.36,646.38,1.02,TS3003b.A.dialog-act.vkaraisk.59,,,,,,,,,False, One remote.,2,task,Inform
+TS3003b,B,645.88,646.767,0.887,TS3003b.B.dialog-act.vkaraisk.23,,,,,,,,,False, But um,2,minor,Stall
+TS3003b,B,648.56,648.94,0.38,TS3003b.B.dialog-act.vkaraisk.24,,,,,,,,,False, Yeah.,1,minor,Stall
+TS3003b,A,650.263,651.605,1.342,TS3003b.A.dialog-act.vkaraisk.60,,,,,,,,,False,,0,minor,Fragment
+TS3003b,B,651.28,654.8,3.52,TS3003b.B.dialog-act.vkaraisk.25,,,,,,,,,False, Um yeah.,2,minor,Stall
+TS3003b,B,654.8,658.01,3.21,TS3003b.B.dialog-act.vkaraisk.26,B,B,2.05,8.92,False,False,0.0,[],False," Got uh many functions in one uh remote control,",9,task,Inform
+TS3003b,B,658.01,660.06,2.05,TS3003b.B.dialog-act.vkaraisk.27,,,,,,,,,False, um but um yeah,4,minor,Stall
+TS3003b,B,660.06,663.18,3.12,TS3003b.B.dialog-act.vkaraisk.28,B,B,0.36,2.05,False,False,0.0,[],False," you can see, this is uh quite simple uh remote control.",11,task,Inform
+TS3003b,B,663.54,665.02,1.48,TS3003b.B.dialog-act.vkaraisk.29,B,B,0.0,0.36,False,False,0.0,[],False, Um few uh buttons,4,task,Inform
+TS3003b,A,663.576,664.186,0.61,TS3003b.A.dialog-act.vkaraisk.61,,,,,,,,,False,,0,minor,Fragment
+TS3003b,B,665.02,670.14,5.12,TS3003b.B.dialog-act.vkaraisk.30,B,B,0.0,0.0,False,False,0.0,[],False, but uh This uh re uh remote control got a a lot of uh buttons.,15,task,Inform
+TS3003b,B,670.14,673.77,3.63,TS3003b.B.dialog-act.vkaraisk.31,B,B,2.74,0.0,False,False,0.0,[],False," Um uh people uh don't like it,",7,task,Inform
+TS3003b,B,673.77,675.023,1.253,TS3003b.B.dialog-act.vkaraisk.32,,,,,,,,,False, uh so um,3,minor,Stall
+TS3003b,B,676.08,676.51,0.43,TS3003b.B.dialog-act.vkaraisk.33,,,,,,,,,False, Well,1,minor,Stall
+TS3003b,B,676.51,683.47,6.96,TS3003b.B.dialog-act.vkaraisk.34,B,B,0.46,2.74,False,False,0.0,[],False, what uh I was uh thinking about was um uh keep the general functions uh like they are.,18,task,Suggest
+TS3003b,B,683.47,683.93,0.46,TS3003b.B.dialog-act.vkaraisk.35,,,,,,,,,False, So uh,2,minor,Stall
+TS3003b,B,683.93,689.74,5.81,TS3003b.B.dialog-act.vkaraisk.36,B,B,0.0,0.46,False,False,0.0,[],False, like uh the on-off uh button. Uh keep it uh yeah l like a red button.,16,task,Suggest
+TS3003b,B,689.74,691.72,1.98,TS3003b.B.dialog-act.vkaraisk.37,B,B,0.0,0.0,False,False,0.0,[],False, Uh everybody everybody knows it,5,task,Inform
+TS3003b,B,691.72,696.951,5.231,TS3003b.B.dialog-act.vkaraisk.38,B,B,2.079,0.0,False,False,0.0,[],False, so uh uh you don't have to change that. Um,10,task,Suggest
+TS3003b,B,699.03,701.83,2.8,TS3003b.B.dialog-act.vkaraisk.39,B,B,0.0,2.079,False,False,0.0,[],False, My personal uh preferences um.,5,task,Inform
+TS3003b,B,701.83,707.06,5.23,TS3003b.B.dialog-act.vkaraisk.40,B,B,1.89,0.0,False,False,0.0,[],False, Use a display for uh specific uh functions of the different uh device.,13,task,Suggest
+TS3003b,B,707.06,707.92,0.86,TS3003b.B.dialog-act.vkaraisk.41,,,,,,,,,False, So um,2,minor,Stall
+TS3003b,B,708.95,729.56,20.61,TS3003b.B.dialog-act.vkaraisk.42,B,B,0.0,1.89,False,False,0.0,[],False, Wh what I was th uh thinking about was um you've got um Uh this the remote control uh,19,task,Inform
+TS3003b,A,728.563,729.943,1.38,TS3003b.A.dialog-act.vkaraisk.62,,,,,,,,,False,,0,minor,Fragment
+TS3003b,C,728.704,729.392,0.688,TS3003b.C.dialog-act.vkaraisk.2,,,,,,,,,False,,0,minor,Fragment
+TS3003b,B,729.56,737.89,8.33,TS3003b.B.dialog-act.vkaraisk.43,B,B,0.0,0.0,False,False,0.0,[],False," and uh you got here the general functions, uh like uh the on-off button uh sound uh I dunno um",20,task,Suggest
+TS3003b,B,737.89,741.45,3.56,TS3003b.B.dialog-act.vkaraisk.44,B,B,4.93,0.0,False,False,0.0,[],False, And um here you've got a s kind of a display.,11,task,Suggest
+TS3003b,B,742.76,744.38,1.62,TS3003b.B.dialog-act.vkaraisk.45,,,,,,,,,False, It's a touchscreen.,3,task,Suggest
+TS3003b,B,744.38,746.38,2.0,TS3003b.B.dialog-act.vkaraisk.46,,,,,,,,,False, So um yeah,3,minor,Stall
+TS3003b,B,746.38,759.19,12.81,TS3003b.B.dialog-act.vkaraisk.47,B,B,0.0,4.93,False,False,0.0,[],False, you got a general f uh f the functions of the device uh for a D_V_D_ player or uh so um the pl yeah um f for uh playing uh reverse uh.,32,task,Suggest
+TS3003b,B,759.19,764.52,5.33,TS3003b.B.dialog-act.vkaraisk.48,B,B,2.32,0.0,False,False,0.0,[],False, And um you got here uh real buttons for uh selecting uh a device.,14,task,Suggest
+TS3003b,B,765.86,766.84,0.98,TS3003b.B.dialog-act.vkaraisk.49,,,,,,,,,False, So um,2,minor,Stall
+TS3003b,B,766.84,768.11,1.27,TS3003b.B.dialog-act.vkaraisk.50,B,B,3.01,2.32,False,False,0.0,[],False, this button is for a D_V_D_,6,task,Suggest
+TS3003b,B,768.11,769.75,1.64,TS3003b.B.dialog-act.vkaraisk.51,,,,,,,,,False, or,1,minor,Fragment
+TS3003b,B,769.75,771.12,1.37,TS3003b.B.dialog-act.vkaraisk.52,,,,,,,,,False, So um,2,minor,Stall
+TS3003b,B,771.12,780.34,9.22,TS3003b.B.dialog-act.vkaraisk.53,B,B,1.34,3.01,False,False,0.0,[],False, for every um device you've got a uh a f a b a part uh display of a part buttons.,20,task,Inform
+TS3003b,B,780.34,781.68,1.34,TS3003b.B.dialog-act.vkaraisk.54,,,,,,,,,False, So uh,2,minor,Stall
+TS3003b,B,781.68,786.21,4.53,TS3003b.B.dialog-act.vkaraisk.55,B,B,1.21,1.34,False,False,0.0,[],False, you you never got uh all the buttons uh on w one device.,13,task,Inform
+TS3003b,B,786.21,787.42,1.21,TS3003b.B.dialog-act.vkaraisk.56,,,,,,,,,False, So uh,2,minor,Stall
+TS3003b,A,786.48,787.735,1.255,TS3003b.A.dialog-act.vkaraisk.63,,,,,,,,,False, Hmm.,1,minor,Backchannel
+TS3003b,B,787.42,790.45,3.03,TS3003b.B.dialog-act.vkaraisk.57,B,B,9.0,1.21,False,False,0.0,[],False, that's uh my uh idea about it.,7,task,Inform
+TS3003b,A,790.17,790.44,0.27,TS3003b.A.dialog-act.vkaraisk.64,,,,,,,,,False, 'Kay.,1,other,Comment-About-Understanding
+TS3003b,B,790.45,793.232,2.782,TS3003b.B.dialog-act.vkaraisk.58,,,,,,,,,False, Um yeah and,3,minor,Stall
+TS3003b,B,794.56,798.38,3.82,TS3003b.B.dialog-act.vkaraisk.59,,,,,,,,,False, Uh let's see. Uh yeah. So,6,minor,Stall
+TS3003b,B,798.38,799.45,1.07,TS3003b.B.dialog-act.vkaraisk.60,,,,,,,,,False, a touchscreen.,2,task,Suggest
+TS3003b,B,799.45,803.95,4.5,TS3003b.B.dialog-act.vkaraisk.61,B,B,0.0,9.0,False,False,0.0,[],False, Uh and um th the buttons uh the real buttons uh we have to use um.,16,task,Inform
+TS3003b,B,803.95,808.95,5.0,TS3003b.B.dialog-act.vkaraisk.62,B,B,0.99,0.0,False,False,0.0,[],False, We better c um uh use uh quite uh large buttons uh,12,task,Suggest
+TS3003b,B,808.95,809.4,0.45,TS3003b.B.dialog-act.vkaraisk.63,,,,,,,,,False, for,1,minor,Fragment
+TS3003b,B,809.4,809.94,0.54,TS3003b.B.dialog-act.vkaraisk.64,,,,,,,,,False, um yeah.,2,minor,Stall
+TS3003b,B,809.94,816.64,6.7,TS3003b.B.dialog-act.vkaraisk.65,B,B,0.64,0.99,False,False,0.0,[],False, Everybody uh have to use it so Uh ol even even old people um young people.,16,task,Inform
+TS3003b,B,816.64,817.28,0.64,TS3003b.B.dialog-act.vkaraisk.66,,,,,,,,,False, So uh,2,minor,Stall
+TS3003b,B,817.28,822.68,5.4,TS3003b.B.dialog-act.vkaraisk.67,B,B,7.74,0.64,False,False,0.0,[],False, we must keep uh buttons uh quite s uh simple and quite large.,13,task,Suggest
+TS3003b,B,822.68,825.776,3.096,TS3003b.B.dialog-act.vkaraisk.68,,,,,,,,,False, So uh Um,3,minor,Stall
+TS3003b,A,823.58,823.86,0.28,TS3003b.A.dialog-act.vkaraisk.65,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,B,826.98,828.96,1.98,TS3003b.B.dialog-act.vkaraisk.69,,,,,,,,,False, Yeah. Uh yeah.,3,minor,Stall
+TS3003b,B,830.42,832.37,1.95,TS3003b.B.dialog-act.vkaraisk.70,A,B,0.69,7.74,False,False,0.0,[],False, That was uh my uh part of it.,8,task,Inform
+TS3003b,A,831.72,833.06,1.34,TS3003b.A.dialog-act.vkaraisk.66,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+TS3003b,B,832.37,832.948,0.578,TS3003b.B.dialog-act.vkaraisk.71,,,,,,,,,False, So,1,minor,Fragment
+TS3003b,A,833.06,836.1,3.04,TS3003b.A.dialog-act.vkaraisk.67,C,B,0.49,0.69,True,False,0.0,[],True, Anybody has questions about the technical functions?,7,elicit,Elicit-Inform
+TS3003b,C,836.31,836.59,0.28,TS3003b.C.dialog-act.vkaraisk.3,,,,,,,,,False, Well,1,minor,Stall
+TS3003b,C,836.59,842.32,5.73,TS3003b.C.dialog-act.vkaraisk.4,B,A,0.19,0.49,True,False,0.0,[],True, I think if we are gonna use a touchscreen uh we're gonna go way above the twelve and a half Euros.,21,task,Assess
+TS3003b,A,837.037,837.946,0.909,TS3003b.A.dialog-act.vkaraisk.68,,,,,,,,,False,,0,minor,Fragment
+TS3003b,B,842.51,844.27,1.76,TS3003b.B.dialog-act.vkaraisk.72,B,C,0.0,0.19,True,False,0.0,[],True, N I I don't think so.,6,task,Assess
+TS3003b,A,842.62,842.95,0.33,TS3003b.A.dialog-act.vkaraisk.69,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,B,844.27,850.69,6.42,TS3003b.B.dialog-act.vkaraisk.73,B,B,6.99,0.0,False,False,0.0,[],False, Uh you got uh quite a cheap uh touchscreen. S um it's uh not uh in colour or something.,19,task,Suggest
+TS3003b,A,847.05,847.51,0.46,TS3003b.A.dialog-act.vkaraisk.70,,,,,,,,,False, Touchscreen.,1,task,Inform
+TS3003b,B,850.69,855.51,4.82,TS3003b.B.dialog-act.vkaraisk.74,,,,,,,,,False, Uh it's just uh um one colo Uh,8,minor,Fragment
+TS3003b,B,855.51,856.48,0.97,TS3003b.B.dialog-act.vkaraisk.75,,,,,,,,,False, yeah.,1,task,Assess
+TS3003b,B,857.68,866.83,9.15,TS3003b.B.dialog-act.vkaraisk.76,B,B,0.0,6.99,False,False,0.0,[],False, Uh I seen uh w uh something on the internet uh not today but uh a few uh weeks ago.,20,task,Inform
+TS3003b,B,866.83,882.87,16.04,TS3003b.B.dialog-act.vkaraisk.77,A,B,2.07,0.0,False,False,0.0,[],False, Uh you got uh yeah quite an uh a kind of uh touchscreen um and it's uh for uh twenty uh Euros or uh less uh.,26,task,Inform
+TS3003b,A,882.6,883.14,0.54,TS3003b.A.dialog-act.vkaraisk.71,,,,,,,,,False, Huh.,1,minor,Backchannel
+TS3003b,B,882.87,885.15,2.28,TS3003b.B.dialog-act.vkaraisk.78,,,,,,,,,False, So it's possible.,3,task,Inform
+TS3003b,D,883.3,883.56,0.26,TS3003b.D.dialog-act.vkaraisk.94,,,,,,,,,False, Hmm.,1,minor,Backchannel
+TS3003b,A,884.94,887.269,2.329,TS3003b.A.dialog-act.vkaraisk.72,D,B,-0.849,2.07,True,True,0.849,['TS3003b.D.dialog-act.vkaraisk.96'],True, 'Kay. That's nice. Uh,4,task,Assess
+TS3003b,D,886.27,886.42,0.15,TS3003b.D.dialog-act.vkaraisk.95,,,,,,,,,False, Well,1,minor,Stall
+TS3003b,D,886.42,888.37,1.95,TS3003b.D.dialog-act.vkaraisk.96,C,A,1.31,-0.849,True,False,0.0,[],False, it would certainly make a fancy design.,7,task,Assess
+TS3003b,B,888.56,888.78,0.22,TS3003b.B.dialog-act.vkaraisk.79,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,A,889.59,889.99,0.4,TS3003b.A.dialog-act.vkaraisk.73,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,C,889.68,892.66,2.98,TS3003b.C.dialog-act.vkaraisk.5,C,D,1.0,1.31,True,False,0.0,[],True, But the It wouldn't be very robust.,7,task,Assess
+TS3003b,D,889.9,890.602,0.702,TS3003b.D.dialog-act.vkaraisk.97,,,,,,,,,False, So,1,minor,Stall
+TS3003b,C,892.66,893.66,1.0,TS3003b.C.dialog-act.vkaraisk.6,,,,,,,,,False, It's very fragile,3,task,Assess
+TS3003b,C,893.66,895.31,1.65,TS3003b.C.dialog-act.vkaraisk.7,D,C,1.78,1.0,False,False,0.0,[],False, and you can get scratches on it.,7,task,Assess
+TS3003b,D,895.44,896.06,0.62,TS3003b.D.dialog-act.vkaraisk.98,,,,,,,,,False, That is true.,3,task,Assess
+TS3003b,A,896.05,897.27,1.22,TS3003b.A.dialog-act.vkaraisk.74,,,,,,,,,False, That's right.,2,task,Assess
+TS3003b,B,896.62,897.61,0.99,TS3003b.B.dialog-act.vkaraisk.80,,,,,,,,,False, Yeah that's true.,3,task,Assess
+TS3003b,D,897.09,898.19,1.1,TS3003b.D.dialog-act.vkaraisk.99,A,C,-0.92,1.78,True,True,0.92,['TS3003b.A.dialog-act.vkaraisk.75'],True, We would have to look into that.,7,task,Suggest
+TS3003b,A,897.27,901.3,4.03,TS3003b.A.dialog-act.vkaraisk.75,A,D,0.0,-0.92,True,False,0.0,[],False, Uh maybe we can first um listen to your presentation?,10,elicit,Elicit-Assessment
+TS3003b,A,901.3,906.69,5.39,TS3003b.A.dialog-act.vkaraisk.76,A,A,15.13,0.0,False,False,0.0,[],False, Uh And then we have a little discussion about the requirements and uh design.,14,task,Suggest
+TS3003b,B,901.6,901.99,0.39,TS3003b.B.dialog-act.vkaraisk.81,,,,,,,,,False, Uh.,1,task,Assess
+TS3003b,D,901.66,901.87,0.21,TS3003b.D.dialog-act.vkaraisk.100,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,C,901.68,905.33,3.65,TS3003b.C.dialog-act.vkaraisk.8,,,,,,,,,False, That's. Okay.,2,task,Assess
+TS3003b,A,908.663,909.303,0.64,TS3003b.A.dialog-act.vkaraisk.77,,,,,,,,,False,,0,minor,Fragment
+TS3003b,D,917.454,920.182,2.728,TS3003b.D.dialog-act.vkaraisk.101,,,,,,,,,False,,0,minor,Fragment
+TS3003b,A,920.01,921.82,1.81,TS3003b.A.dialog-act.vkaraisk.78,,,,,,,,,False, I think it's going to,5,minor,Fragment
+TS3003b,A,921.82,923.51,1.69,TS3003b.A.dialog-act.vkaraisk.79,C,A,0.62,15.13,False,False,0.0,[],False, Uh it's not too much.,5,task,Assess
+TS3003b,A,923.51,923.923,0.413,TS3003b.A.dialog-act.vkaraisk.80,,,,,,,,,False, Okay.,1,task,Assess
+TS3003b,C,923.73,924.13,0.4,TS3003b.C.dialog-act.vkaraisk.9,,,,,,,,,False, Okay,1,minor,Stall
+TS3003b,C,924.13,927.77,3.64,TS3003b.C.dialog-act.vkaraisk.10,C,A,0.0,0.62,True,False,0.0,[],True, I've got a presentation about the working design.,8,other,Offer
+TS3003b,C,927.77,930.03,2.26,TS3003b.C.dialog-act.vkaraisk.11,C,C,0.0,0.0,False,False,0.0,[],False, Um first about how it works.,6,other,Offer
+TS3003b,C,930.03,930.99,0.96,TS3003b.C.dialog-act.vkaraisk.12,C,C,0.0,0.0,False,False,0.0,[],False, It's really simple of course.,5,task,Inform
+TS3003b,C,930.99,932.85,1.86,TS3003b.C.dialog-act.vkaraisk.13,C,C,0.0,0.0,False,False,0.0,[],False, Everybody knows how a remote works.,6,task,Inform
+TS3003b,C,932.85,934.68,1.83,TS3003b.C.dialog-act.vkaraisk.14,C,C,0.0,0.0,False,False,0.0,[],False, The user presses a button.,5,task,Inform
+TS3003b,C,934.68,936.65,1.97,TS3003b.C.dialog-act.vkaraisk.15,C,C,0.0,0.0,False,False,0.0,[],False," The remote determines what button it is,",7,task,Inform
+TS3003b,C,936.65,939.99,3.34,TS3003b.C.dialog-act.vkaraisk.16,C,C,0.0,0.0,False,False,0.0,[],False, uses the infrared to send a signal to the T_V_.,10,task,Inform
+TS3003b,C,939.99,943.01,3.02,TS3003b.C.dialog-act.vkaraisk.17,C,C,2.12,0.0,False,False,0.0,[],False," The T_V_ switches to the frequency, or what function it is.",11,task,Inform
+TS3003b,C,944.22,945.13,0.91,TS3003b.C.dialog-act.vkaraisk.18,,,,,,,,,False, So,1,minor,Stall
+TS3003b,C,945.13,948.11,2.98,TS3003b.C.dialog-act.vkaraisk.19,C,C,0.0,2.12,False,False,0.0,[],False, we've got um the the plate.,6,task,Inform
+TS3003b,C,948.11,952.06,3.95,TS3003b.C.dialog-act.vkaraisk.20,C,C,0.0,0.0,False,False,0.0,[],False, It gots conductive disks for every button.,7,task,Inform
+TS3003b,C,952.06,955.13,3.07,TS3003b.C.dialog-act.vkaraisk.21,C,C,0.0,0.0,False,False,0.0,[],False," When the user presses a button, a signal got sent,",10,task,Inform
+TS3003b,C,955.13,956.21,1.08,TS3003b.C.dialog-act.vkaraisk.22,C,C,0.0,0.0,False,False,0.0,[],False, goes to the LED,4,task,Inform
+TS3003b,C,956.21,959.83,3.62,TS3003b.C.dialog-act.vkaraisk.23,C,C,0.22,0.0,False,False,0.0,[],False, and transmits tranmi transmits its to the T_V_.,8,task,Inform
+TS3003b,C,960.05,963.4,3.35,TS3003b.C.dialog-act.vkaraisk.24,C,C,0.18,0.22,False,False,0.0,[],False," It's a very simple device, technically speaking.",7,task,Inform
+TS3003b,C,963.4,963.58,0.18,TS3003b.C.dialog-act.vkaraisk.25,,,,,,,,,False, So,1,minor,Stall
+TS3003b,C,963.58,966.14,2.56,TS3003b.C.dialog-act.vkaraisk.26,C,C,0.0,0.18,False,False,0.0,[],False, this is a schematic overview.,5,task,Inform
+TS3003b,C,966.14,968.02,1.88,TS3003b.C.dialog-act.vkaraisk.27,C,C,2.15,0.0,False,False,0.0,[],False, You've got the buttons.,4,task,Inform
+TS3003b,C,968.02,970.17,2.15,TS3003b.C.dialog-act.vkaraisk.28,,,,,,,,,False, The power source.,3,task,Inform
+TS3003b,C,970.17,974.68,4.51,TS3003b.C.dialog-act.vkaraisk.29,C,C,0.0,2.15,False,False,0.0,[],False," And uh when a button gets pressed, its goes to the chip.",12,task,Inform
+TS3003b,C,974.68,980.59,5.91,TS3003b.C.dialog-act.vkaraisk.30,C,C,0.0,0.0,False,False,0.0,[],False, The chip uh controls the infrared bulb and perf perhaps a normal bulb.,13,task,Inform
+TS3003b,C,980.59,983.24,2.65,TS3003b.C.dialog-act.vkaraisk.31,C,C,3.66,0.0,False,False,0.0,[],False, When you press a button you can actually see your pressed button.,12,task,Inform
+TS3003b,C,985.58,986.9,1.32,TS3003b.C.dialog-act.vkaraisk.32,,,,,,,,,False, Well um,2,minor,Stall
+TS3003b,C,986.9,990.94,4.04,TS3003b.C.dialog-act.vkaraisk.33,C,C,0.0,3.66,False,False,0.0,[],False," I think we should use default materials, simple plastics.",9,task,Suggest
+TS3003b,C,990.94,992.24,1.3,TS3003b.C.dialog-act.vkaraisk.34,C,C,2.17,0.0,False,False,0.0,[],False," Keep the inner workings simple,",5,task,Suggest
+TS3003b,C,992.24,994.41,2.17,TS3003b.C.dialog-act.vkaraisk.35,,,,,,,,,False, so it's robust.,3,task,Inform
+TS3003b,C,994.41,998.41,4.0,TS3003b.C.dialog-act.vkaraisk.36,C,C,0.0,2.17,False,False,0.0,[],False," Uh I think we should focus on aesthetics, the design and the user interface,",14,task,Suggest
+TS3003b,C,998.41,1003.01,4.6,TS3003b.C.dialog-act.vkaraisk.37,C,C,1.87,0.0,False,False,0.0,[],False, because if you're going to use high-tech materials the price is going to go sky-high.,15,task,Assess
+TS3003b,C,1004.88,1008.29,3.41,TS3003b.C.dialog-act.vkaraisk.38,C,C,0.0,1.87,False,False,0.0,[],False," And uh you only have to design a remote once,",10,task,Inform
+TS3003b,C,1008.29,1011.05,2.76,TS3003b.C.dialog-act.vkaraisk.39,C,C,1.33,0.0,False,False,0.0,[],False, and if you use high-tech materials it come back in every product.,12,task,Inform
+TS3003b,C,1012.08,1012.38,0.3,TS3003b.C.dialog-act.vkaraisk.40,,,,,,,,,False, So,1,minor,Stall
+TS3003b,C,1012.38,1020.46,8.08,TS3003b.C.dialog-act.vkaraisk.41,A,C,21.64,1.33,False,False,0.0,[],False," it's, in my idea, it's uh it's gonna be smart to invest in di in design and not in uh in the product itself.",24,task,Assess
+TS3003b,C,1021.92,1022.5,0.58,TS3003b.C.dialog-act.vkaraisk.42,,,,,,,,,False, That's it.,2,task,Inform
+TS3003b,A,1023.16,1023.58,0.42,TS3003b.A.dialog-act.vkaraisk.81,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+TS3003b,A,1023.58,1024.01,0.43,TS3003b.A.dialog-act.vkaraisk.82,,,,,,,,,False, Thank you.,2,other,Be-Positive
+TS3003b,A,1031.07,1031.57,0.5,TS3003b.A.dialog-act.vkaraisk.83,,,,,,,,,False, Okay.,1,minor,Stall
+TS3003b,D,1031.598,1032.53,0.932,TS3003b.D.dialog-act.vkaraisk.102,,,,,,,,,False,,0,minor,Fragment
+TS3003b,A,1038.37,1042.1,3.73,TS3003b.A.dialog-act.vkaraisk.84,,,,,,,,,False, Uh Okay,2,minor,Stall
+TS3003b,A,1042.1,1046.79,4.69,TS3003b.A.dialog-act.vkaraisk.85,A,C,0.0,21.64,True,False,0.0,[],True, now I hope everybody has a little bit more insight in the functions we all have,16,task,Inform
+TS3003b,A,1046.79,1049.26,2.47,TS3003b.A.dialog-act.vkaraisk.86,A,A,0.0,0.0,False,False,0.0,[],False, and what we are doing right now.,7,task,Inform
+TS3003b,A,1049.26,1051.56,2.3,TS3003b.A.dialog-act.vkaraisk.87,A,A,0.0,0.0,False,False,0.0,[],False, Um I'm the Project Manager,5,task,Inform
+TS3003b,A,1051.56,1053.38,1.82,TS3003b.A.dialog-act.vkaraisk.88,A,A,0.0,0.0,False,False,0.0,[],False, so I'm here to mess things up,7,other,Offer
+TS3003b,B,1053.308,1055.248,1.94,TS3003b.B.dialog-act.vkaraisk.82,,,,,,,,,False,,0,minor,Fragment
+TS3003b,A,1053.38,1057.24,3.86,TS3003b.A.dialog-act.vkaraisk.89,A,A,3.93,0.0,False,False,0.0,[],False, and uh tell you some new uh requirements.,8,other,Offer
+TS3003b,C,1053.938,1054.847,0.909,TS3003b.C.dialog-act.vkaraisk.43,,,,,,,,,False,,0,minor,Fragment
+TS3003b,D,1054.128,1055.475,1.347,TS3003b.D.dialog-act.vkaraisk.103,,,,,,,,,False,,0,minor,Fragment
+TS3003b,A,1058.24,1061.17,2.93,TS3003b.A.dialog-act.vkaraisk.90,,,,,,,,,False," Um that's,",2,minor,Fragment
+TS3003b,A,1061.17,1067.39,6.22,TS3003b.A.dialog-act.vkaraisk.91,A,A,0.0,3.93,False,False,0.0,[],False, we've uh got to design a um remote which is only suitable for T_V_.,14,task,Inform
+TS3003b,A,1067.39,1072.59,5.2,TS3003b.A.dialog-act.vkaraisk.92,A,A,0.0,0.0,False,False,0.0,[],False, Um that's because uh it will be too complex,9,task,Assess
+TS3003b,B,1068.8,1069.17,0.37,TS3003b.B.dialog-act.vkaraisk.83,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3003b,A,1072.59,1078.27,5.68,TS3003b.A.dialog-act.vkaraisk.93,A,A,0.51,0.0,False,False,0.0,[],False," and the time to market will be too big, if we wanna have it uh for more functions.",18,task,Assess
+TS3003b,B,1078.3,1078.53,0.23,TS3003b.B.dialog-act.vkaraisk.84,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3003b,A,1078.78,1080.96,2.18,TS3003b.A.dialog-act.vkaraisk.94,A,A,0.0,0.51,False,False,0.0,[],False, So it has to be simple.,6,task,Inform
+TS3003b,A,1080.96,1086.0,5.04,TS3003b.A.dialog-act.vkaraisk.95,A,A,0.0,0.0,False,False,0.0,[],False," Uh another point is we have to skip the teletext,",10,task,Inform
+TS3003b,A,1086.0,1096.01,10.01,TS3003b.A.dialog-act.vkaraisk.96,A,A,0.0,0.0,False,False,0.0,[],False, because in the world of uh upcoming internet uh we think teletext is going to be uh a thing of the past.,22,task,Inform
+TS3003b,A,1096.01,1100.69,4.68,TS3003b.A.dialog-act.vkaraisk.97,A,A,1.14,0.0,False,False,0.0,[],False, And uh it's a function we don't need in our remote control.,12,task,Inform
+TS3003b,D,1097.491,1098.198,0.707,TS3003b.D.dialog-act.vkaraisk.104,,,,,,,,,False,,0,minor,Fragment
+TS3003b,A,1101.83,1107.39,5.56,TS3003b.A.dialog-act.vkaraisk.98,A,A,0.0,1.14,False,False,0.0,[],False, Um internet is also mentioned in a function we can use.,11,task,Suggest
+TS3003b,A,1107.39,1110.63,3.24,TS3003b.A.dialog-act.vkaraisk.99,A,A,1.2,0.0,False,False,0.0,[],False, Uh maybe also on televisions it will be available as well.,11,task,Inform
+TS3003b,A,1111.83,1119.93,8.1,TS3003b.A.dialog-act.vkaraisk.100,A,A,0.0,1.2,False,False,0.0,[],False," Another one is uh the customer is uh forty plus. Uh that's the the market we have to to to target,",21,task,Inform
+TS3003b,A,1119.93,1125.78,5.85,TS3003b.A.dialog-act.vkaraisk.101,A,A,0.88,0.0,False,False,0.0,[],False, because we are going to develop a new product which is specially designed for the younger customers.,17,task,Inform
+TS3003b,A,1126.66,1132.57,5.91,TS3003b.A.dialog-act.vkaraisk.102,A,A,0.0,0.88,False,False,0.0,[],False, Um this is uh a bit pity for the Marketing uh Expert.,12,other,Be-Positive
+TS3003b,D,1130.701,1132.898,2.197,TS3003b.D.dialog-act.vkaraisk.105,,,,,,,,,False,,0,minor,Fragment
+TS3003b,B,1131.236,1132.305,1.069,TS3003b.B.dialog-act.vkaraisk.85,,,,,,,,,False,,0,minor,Fragment
+TS3003b,A,1132.57,1136.82,4.25,TS3003b.A.dialog-act.vkaraisk.103,A,A,0.0,0.0,False,False,0.0,[],False, Because he was uh aiming on the the younger persons.,10,task,Inform
+TS3003b,A,1136.82,1140.08,3.26,TS3003b.A.dialog-act.vkaraisk.104,A,A,0.0,0.0,False,False,0.0,[],False, So we have to find a market which is above forty plus,12,task,Inform
+TS3003b,A,1140.08,1142.0,1.92,TS3003b.A.dialog-act.vkaraisk.105,A,A,2.15,0.0,False,False,0.0,[],False, uh but which will suit our,6,task,Inform
+TS3003b,A,1143.04,1144.15,1.11,TS3003b.A.dialog-act.vkaraisk.106,,,,,,,,,False," uh remote control,",3,task,Inform
+TS3003b,A,1144.15,1146.48,2.33,TS3003b.A.dialog-act.vkaraisk.107,A,A,0.0,2.15,False,False,0.0,[],False, and the other way round.,5,task,Inform
+TS3003b,A,1146.48,1154.49,8.01,TS3003b.A.dialog-act.vkaraisk.108,A,A,0.0,0.0,False,False,0.0,[],False, And we have to be very uh attent in uh putting the corporate image uh in our product.,18,task,Inform
+TS3003b,A,1154.49,1160.26,5.77,TS3003b.A.dialog-act.vkaraisk.109,A,A,0.0,0.0,False,False,0.0,[],False," So it has to be visible in our design, in the way our device works.",15,task,Inform
+TS3003b,A,1160.26,1165.72,5.46,TS3003b.A.dialog-act.vkaraisk.110,A,A,0.6,0.0,False,False,0.0,[],False, And uh we have to be uh very clear on this point as well.,14,task,Inform
+TS3003b,A,1165.72,1166.32,0.6,TS3003b.A.dialog-act.vkaraisk.111,,,,,,,,,False, So,1,minor,Stall
+TS3003b,A,1166.32,1172.15,5.83,TS3003b.A.dialog-act.vkaraisk.112,D,A,2.98,0.6,False,False,0.0,[],False, I suggest let's have a discussion on the control functions.,10,task,Suggest
+TS3003b,A,1173.66,1173.99,0.33,TS3003b.A.dialog-act.vkaraisk.113,,,,,,,,,False, Yeah.,1,other,Other
+TS3003b,D,1174.94,1175.13,0.19,TS3003b.D.dialog-act.vkaraisk.106,,,,,,,,,False, So,1,minor,Stall
+TS3003b,D,1175.13,1177.96,2.83,TS3003b.D.dialog-act.vkaraisk.107,A,A,-1.631,2.98,True,True,1.631,['TS3003b.A.dialog-act.vkaraisk.114'],True, is there any discussion possible about the new product requirement?,10,elicit,Elicit-Inform
+TS3003b,A,1176.329,1190.033,13.704,TS3003b.A.dialog-act.vkaraisk.114,D,D,-0.513,-1.631,True,True,0.513,['TS3003b.D.dialog-act.vkaraisk.109'],False, Uh we can see if we can find a way uh between the functions we wanna use and the market we wanna reach with our product. Um,27,task,Suggest
+TS3003b,B,1176.784,1179.008,2.224,TS3003b.B.dialog-act.vkaraisk.86,,,,,,,,,False,,0,minor,Fragment
+TS3003b,B,1188.77,1188.95,0.18,TS3003b.B.dialog-act.vkaraisk.87,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3003b,D,1189.34,1189.52,0.18,TS3003b.D.dialog-act.vkaraisk.108,,,,,,,,,False, Yeah,1,minor,Stall
+TS3003b,D,1189.52,1194.96,5.44,TS3003b.D.dialog-act.vkaraisk.109,D,A,0.0,-0.513,True,False,0.0,[],False, 'cause you're you're saying that teletext is gonna be an old feature,12,task,Inform
+TS3003b,D,1194.96,1198.96,4.0,TS3003b.D.dialog-act.vkaraisk.110,D,D,0.0,0.0,False,False,0.0,[],False, and it's not gonna be used anymore anyway pretty soon.,10,task,Inform
+TS3003b,D,1198.96,1201.97,3.01,TS3003b.D.dialog-act.vkaraisk.111,D,D,0.0,0.0,False,False,0.0,[],False, And new T_V_s will have internet access on them.,9,task,Inform
+TS3003b,A,1201.721,1202.773,1.052,TS3003b.A.dialog-act.vkaraisk.115,,,,,,,,,False,,0,minor,Fragment
+TS3003b,D,1201.97,1208.63,6.66,TS3003b.D.dialog-act.vkaraisk.112,D,D,1.13,0.0,False,False,0.0,[],False," But I think if you're targeting people of forty plus, the chance that they will have a T_V_ with internet access",21,task,Inform
+TS3003b,D,1209.76,1212.78,3.02,TS3003b.D.dialog-act.vkaraisk.113,D,D,1.36,1.13,False,False,0.0,[],False, within the next like twenty years is very slim.,9,task,Inform
+TS3003b,D,1214.14,1221.33,7.19,TS3003b.D.dialog-act.vkaraisk.114,D,D,0.0,1.36,False,False,0.0,[],False, In addition people indicated that teletext simply was an important feature for the remote control.,15,task,Inform
+TS3003b,B,1214.21,1214.61,0.4,TS3003b.B.dialog-act.vkaraisk.88,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,D,1221.33,1225.43,4.1,TS3003b.D.dialog-act.vkaraisk.115,D,D,1.94,0.0,False,False,0.0,[],False, So I think it's pretty dumb to put no teletext feature on it.,13,task,Assess
+TS3003b,D,1227.37,1228.4,1.03,TS3003b.D.dialog-act.vkaraisk.116,A,D,1.16,1.94,False,False,0.0,[],False, I'm pretty much against it.,5,task,Assess
+TS3003b,A,1229.56,1230.91,1.35,TS3003b.A.dialog-act.vkaraisk.116,D,D,4.42,1.16,True,False,0.0,[],True, Against the no teletext?,4,other,Comment-About-Understanding
+TS3003b,B,1230.07,1230.44,0.37,TS3003b.B.dialog-act.vkaraisk.89,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3003b,D,1230.95,1233.039,2.089,TS3003b.D.dialog-act.vkaraisk.117,,,,,,,,,False, Yes.,1,task,Inform
+TS3003b,A,1232.98,1234.367,1.387,TS3003b.A.dialog-act.vkaraisk.117,,,,,,,,,False, Um,1,minor,Stall
+TS3003b,D,1235.33,1240.63,5.3,TS3003b.D.dialog-act.vkaraisk.118,D,A,2.57,4.42,True,False,0.0,[],True," Besides that, I think the market for forty plus is like pretty small.",13,task,Assess
+TS3003b,D,1243.2,1248.73,5.53,TS3003b.D.dialog-act.vkaraisk.119,A,D,6.78,2.57,False,False,0.0,[],False," But I mean if I s if I see this, it's I think we're just gonna go for another",19,task,Inform
+TS3003b,B,1244.067,1245.931,1.864,TS3003b.B.dialog-act.vkaraisk.90,,,,,,,,,False, forty,1,minor,Fragment
+TS3003b,A,1244.22,1244.56,0.34,TS3003b.A.dialog-act.vkaraisk.118,,,,,,,,,False, Yeah,1,minor,Stall
+TS3003b,A,1244.56,1245.594,1.034,TS3003b.A.dialog-act.vkaraisk.119,,,,,,,,,False, it's it is,3,minor,Fragment
+TS3003b,A,1249.59,1251.07,1.48,TS3003b.A.dialog-act.vkaraisk.120,,,,,,,,,False, Standard remote.,2,task,Inform
+TS3003b,D,1250.42,1250.83,0.41,TS3003b.D.dialog-act.vkaraisk.120,,,,,,,,,False, pretty,1,task,Inform
+TS3003b,A,1252.41,1252.69,0.28,TS3003b.A.dialog-act.vkaraisk.121,,,,,,,,,False, No,1,task,Assess
+TS3003b,A,1252.69,1253.84,1.15,TS3003b.A.dialog-act.vkaraisk.122,,,,,,,,,False, I think we can,4,minor,Fragment
+TS3003b,D,1252.92,1254.39,1.47,TS3003b.D.dialog-act.vkaraisk.121,,,,,,,,,False, and not innovative,3,task,Inform
+TS3003b,A,1255.51,1260.52,5.01,TS3003b.A.dialog-act.vkaraisk.123,A,D,0.0,6.78,True,False,0.0,[],True, I think we can do a lot with the design and the simple buttons,14,task,Suggest
+TS3003b,D,1255.65,1256.38,0.73,TS3003b.D.dialog-act.vkaraisk.122,,,,,,,,,False, remote control.,2,task,Inform
+TS3003b,A,1260.52,1262.38,1.86,TS3003b.A.dialog-act.vkaraisk.124,A,A,0.0,0.0,False,False,0.0,[],False, which were also mentioned.,4,task,Inform
+TS3003b,A,1262.38,1273.28,10.9,TS3003b.A.dialog-act.vkaraisk.125,A,A,0.0,0.0,False,False,0.0,[],False," Uh if we put a lot of effort in those, we can make a remote control with uh just two or three buttons. Or just a remote which is suitable for the market we wanna reach",36,task,Suggest
+TS3003b,A,1273.28,1275.77,2.49,TS3003b.A.dialog-act.vkaraisk.127,A,A,2.42,0.0,False,False,0.0,[],False, because it is forty percent of the market.,8,task,Inform
+TS3003b,B,1273.57,1274.15,0.58,TS3003b.B.dialog-act.vkaraisk.91,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,A,1276.61,1278.19,1.58,TS3003b.A.dialog-act.vkaraisk.128,,,,,,,,,False, And um,2,minor,Stall
+TS3003b,A,1278.19,1289.92,11.73,TS3003b.A.dialog-act.vkaraisk.129,D,A,1.45,2.42,False,False,0.0,[],False," if you look in Holland at the whole generation of forty plus, fifty plus, it it's the the biggest share of the of the whole population now.",27,task,Inform
+TS3003b,D,1291.04,1291.37,0.33,TS3003b.D.dialog-act.vkaraisk.123,,,,,,,,,False, Yes,1,task,Assess
+TS3003b,D,1291.37,1294.57,3.2,TS3003b.D.dialog-act.vkaraisk.124,D,A,1.01,1.45,True,False,0.0,[],True, but it's not the biggest part of the market.,9,task,Inform
+TS3003b,A,1295.49,1295.85,0.36,TS3003b.A.dialog-act.vkaraisk.130,,,,,,,,,False, No.,1,task,Assess
+TS3003b,D,1295.58,1297.46,1.88,TS3003b.D.dialog-act.vkaraisk.125,D,D,1.14,1.01,False,False,0.0,[],False," And besides that, they're not very critical",7,task,Inform
+TS3003b,D,1297.46,1298.6,1.14,TS3003b.D.dialog-act.vkaraisk.126,,,,,,,,,False, so,1,minor,Fragment
+TS3003b,D,1298.6,1303.15,4.55,TS3003b.D.dialog-act.vkaraisk.127,D,D,0.0,1.14,False,False,0.0,[],False, I mean they don't really care what the remote control is like.,12,task,Inform
+TS3003b,D,1303.15,1306.88,3.73,TS3003b.D.dialog-act.vkaraisk.128,A,D,1.85,0.0,False,False,0.0,[],False, They'll just pretty much take the first thing they see and which looks acceptable.,14,task,Inform
+TS3003b,B,1308.683,1309.489,0.806,TS3003b.B.dialog-act.vkaraisk.92,,,,,,,,,False,,0,minor,Fragment
+TS3003b,A,1308.73,1324.56,15.83,TS3003b.A.dialog-act.vkaraisk.132,D,D,3.66,1.85,True,False,0.0,[],True," But don't you think that if we make a remote which is uh typically made for this market, that people think the people think that's the the device I've looked for although I didn't realise it.",36,elicit,Elicit-Assessment
+TS3003b,A,1324.56,1325.24,0.68,TS3003b.A.dialog-act.vkaraisk.133,,,,,,,,,False, So,1,minor,Stall
+TS3003b,A,1325.24,1326.04,0.8,TS3003b.A.dialog-act.vkaraisk.134,,,,,,,,,False, let's try it.,3,task,Suggest
+TS3003b,D,1326.95,1327.22,0.27,TS3003b.D.dialog-act.vkaraisk.129,,,,,,,,,False, No.,1,task,Assess
+TS3003b,D,1328.22,1334.14,5.92,TS3003b.D.dialog-act.vkaraisk.130,D,A,2.12,3.66,True,False,0.0,[],True, I think that would be the case in the sixteen to forty five age category.,15,task,Inform
+TS3003b,D,1336.26,1337.38,1.12,TS3003b.D.dialog-act.vkaraisk.131,D,D,0.0,2.12,False,False,0.0,[],False, because they are critical,4,task,Inform
+TS3003b,D,1337.38,1340.77,3.39,TS3003b.D.dialog-act.vkaraisk.132,D,D,1.19,0.0,False,False,0.0,[],False, and they they want to have a fancy remote control.,10,task,Inform
+TS3003b,B,1340.71,1340.91,0.2,TS3003b.B.dialog-act.vkaraisk.93,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,D,1341.96,1345.6,3.64,TS3003b.D.dialog-act.vkaraisk.133,D,D,0.0,1.19,False,False,0.0,[],False," People of forty plus, I mean they want it to work,",11,task,Inform
+TS3003b,D,1345.6,1349.76,4.16,TS3003b.D.dialog-act.vkaraisk.134,C,D,3.01,0.0,False,False,0.0,[],False, but as soo as soon as it works it's okay with them.,12,task,Inform
+TS3003b,B,1351.56,1351.91,0.35,TS3003b.B.dialog-act.vkaraisk.94,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3003b,A,1351.65,1352.06,0.41,TS3003b.A.dialog-act.vkaraisk.135,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,C,1352.77,1362.81,10.04,TS3003b.C.dialog-act.vkaraisk.44,A,D,0.72,3.01,True,False,0.0,[],True," I think that if we're If we put our marketing right um we can sell this just like um I don't know if you've heard about it in the news, the the elderly mobile phone?",35,task,Suggest
+TS3003b,D,1353.21,1353.795,0.585,TS3003b.D.dialog-act.vkaraisk.135,,,,,,,,,False, So,1,minor,Stall
+TS3003b,A,1362.98,1363.53,0.55,TS3003b.A.dialog-act.vkaraisk.136,,,,,,,,,False, Yeah.,1,task,Inform
+TS3003b,A,1363.53,1364.47,0.94,TS3003b.A.dialog-act.vkaraisk.137,C,C,0.48,0.72,True,False,0.0,[],True, It's a big success.,4,task,Inform
+TS3003b,C,1364.66,1364.95,0.29,TS3003b.C.dialog-act.vkaraisk.45,,,,,,,,,False, Yeah,1,minor,Stall
+TS3003b,C,1364.95,1372.49,7.54,TS3003b.C.dialog-act.vkaraisk.46,D,A,-7.4,0.48,True,True,1.01,"['TS3003b.D.dialog-act.vkaraisk.136', 'TS3003b.A.dialog-act.vkaraisk.140']",True," if we if we make a remote control just l with that idea in mind, we could make tons of money, I think.",23,task,Assess
+TS3003b,D,1365.09,1366.1,1.01,TS3003b.D.dialog-act.vkaraisk.136,A,C,5.85,-7.4,True,False,0.0,[],False, I haven't heard of it.,5,task,Inform
+TS3003b,A,1365.52,1367.31,1.79,TS3003b.A.dialog-act.vkaraisk.138,,,,,,,,,False, Very big success.,3,task,Inform
+TS3003b,A,1367.31,1367.68,0.37,TS3003b.A.dialog-act.vkaraisk.139,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,D,1371.93,1372.15,0.22,TS3003b.D.dialog-act.vkaraisk.137,,,,,,,,,False, Hmm.,1,minor,Backchannel
+TS3003b,A,1371.95,1373.67,1.72,TS3003b.A.dialog-act.vkaraisk.140,C,D,-1.18,5.85,True,True,1.18,['TS3003b.C.dialog-act.vkaraisk.47'],True, Uh. I think so as well.,6,task,Assess
+TS3003b,B,1372.27,1372.64,0.37,TS3003b.B.dialog-act.vkaraisk.95,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3003b,C,1372.49,1378.72,6.23,TS3003b.C.dialog-act.vkaraisk.47,C,A,1.96,-1.18,True,False,0.0,[],False, We don't have to focus on on on the on the design then but on functionality.,16,task,Suggest
+TS3003b,C,1378.72,1379.4,0.68,TS3003b.C.dialog-act.vkaraisk.48,,,,,,,,,False, We just,2,task,Suggest
+TS3003b,C,1380.68,1382.98,2.3,TS3003b.C.dialog-act.vkaraisk.49,C,C,0.0,1.96,False,False,0.0,[],False," change our focus on the project,",6,task,Suggest
+TS3003b,C,1382.98,1386.36,3.38,TS3003b.C.dialog-act.vkaraisk.50,A,C,0.86,0.0,False,False,0.0,[],False, and I think we can uh we can sell this.,10,task,Assess
+TS3003b,A,1387.22,1390.11,2.89,TS3003b.A.dialog-act.vkaraisk.141,A,C,3.01,0.86,True,False,0.0,[],True, Uh I simply think um,5,task,Inform
+TS3003b,B,1387.607,1388.89,1.283,TS3003b.B.dialog-act.vkaraisk.96,,,,,,,,,False,,0,minor,Fragment
+TS3003b,A,1393.12,1402.99,9.87,TS3003b.A.dialog-act.vkaraisk.142,A,A,0.0,3.01,False,False,0.0,[],False," uh that the new products we are gonna make, uh spef specifically design, are designed for uh younger people,",19,task,Inform
+TS3003b,A,1402.99,1407.26,4.27,TS3003b.A.dialog-act.vkaraisk.143,A,A,1.34,0.0,False,False,0.0,[],False, uh so maybe we can focus ourself on the elderly people.,11,task,Suggest
+TS3003b,A,1408.6,1419.18,10.58,TS3003b.A.dialog-act.vkaraisk.144,A,A,0.0,1.34,False,False,0.0,[],False, And I think we have to um see what requirements we need for those um remote controls.,17,task,Suggest
+TS3003b,A,1419.18,1428.09,8.91,TS3003b.A.dialog-act.vkaraisk.145,D,A,2.26,0.0,False,False,0.0,[],False," 'Cause what you told is the channel selection is important. Volume selection, power and teletext.",15,task,Inform
+TS3003b,D,1420.322,1421.4,1.078,TS3003b.D.dialog-act.vkaraisk.138,,,,,,,,,False,,0,minor,Fragment
+TS3003b,D,1423.96,1424.26,0.3,TS3003b.D.dialog-act.vkaraisk.139,,,,,,,,,False, Yes.,1,task,Assess
+TS3003b,B,1424.61,1425.0,0.39,TS3003b.B.dialog-act.vkaraisk.97,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3003b,D,1427.46,1427.89,0.43,TS3003b.D.dialog-act.vkaraisk.140,,,,,,,,,False, Yes.,1,task,Assess
+TS3003b,B,1427.632,1428.82,1.188,TS3003b.B.dialog-act.vkaraisk.98,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,A,1428.09,1430.4,2.31,TS3003b.A.dialog-act.vkaraisk.146,,,,,,,,,False, Okay. Um,2,minor,Stall
+TS3003b,D,1430.35,1432.75,2.4,TS3003b.D.dialog-act.vkaraisk.141,A,A,0.85,2.26,True,False,0.0,[],True, But obviously the board tends to disagree.,7,task,Inform
+TS3003b,A,1433.23,1433.6,0.37,TS3003b.A.dialog-act.vkaraisk.147,,,,,,,,,False, No,1,task,Assess
+TS3003b,A,1433.6,1435.15,1.55,TS3003b.A.dialog-act.vkaraisk.148,A,D,1.88,0.85,True,False,0.0,[],True," we we haven't voted yet,",5,task,Inform
+TS3003b,A,1435.15,1437.03,1.88,TS3003b.A.dialog-act.vkaraisk.149,,,,,,,,,False, so,1,minor,Fragment
+TS3003b,B,1435.418,1436.697,1.279,TS3003b.B.dialog-act.vkaraisk.99,,,,,,,,,False,,0,minor,Fragment
+TS3003b,A,1437.03,1440.55,3.52,TS3003b.A.dialog-act.vkaraisk.150,A,A,1.42,1.88,False,False,0.0,[],False, Uh I think teletext can be uh,7,task,Suggest
+TS3003b,A,1441.97,1451.34,9.37,TS3003b.A.dialog-act.vkaraisk.151,A,A,0.0,1.42,False,False,0.0,[],False," um can be a function as well. But only if uh if it won't higher the the cost,",18,task,Suggest
+TS3003b,A,1451.34,1455.42,4.08,TS3003b.A.dialog-act.vkaraisk.152,A,A,0.0,0.0,False,False,0.0,[],False," because I don't know if it will be a lot more money to implement teletext as well,",17,task,Inform
+TS3003b,A,1455.42,1457.05,1.63,TS3003b.A.dialog-act.vkaraisk.153,B,A,1.98,0.0,False,False,0.0,[],False, but I don't think it will be a problem.,9,task,Inform
+TS3003b,A,1458.56,1460.194,1.634,TS3003b.A.dialog-act.vkaraisk.154,,,,,,,,,False, Or is teletext a,4,minor,Fragment
+TS3003b,B,1459.03,1463.95,4.92,TS3003b.B.dialog-act.vkaraisk.100,D,A,2.69,1.98,True,False,0.0,[],True, But um deaf people need uh teletext for uh for subtitles.,11,task,Inform
+TS3003b,A,1463.25,1463.55,0.3,TS3003b.A.dialog-act.vkaraisk.155,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,D,1463.51,1464.43,0.92,TS3003b.D.dialog-act.vkaraisk.142,,,,,,,,,False," Yeah, also.",2,task,Assess
+TS3003b,B,1463.95,1464.78,0.83,TS3003b.B.dialog-act.vkaraisk.101,,,,,,,,,False, So it's,2,minor,Fragment
+TS3003b,B,1464.78,1465.06,0.28,TS3003b.B.dialog-act.vkaraisk.102,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,A,1465.48,1465.97,0.49,TS3003b.A.dialog-act.vkaraisk.156,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,A,1465.97,1466.21,0.24,TS3003b.A.dialog-act.vkaraisk.157,,,,,,,,,False, So,1,minor,Stall
+TS3003b,A,1466.21,1467.515,1.305,TS3003b.A.dialog-act.vkaraisk.158,,,,,,,,,False, I suggest uh,3,minor,Fragment
+TS3003b,D,1466.64,1469.71,3.07,TS3003b.D.dialog-act.vkaraisk.143,A,B,0.86,2.69,True,False,0.0,[],True, I think it'd definitely be a bad idea not to include teletext.,12,task,Assess
+TS3003b,B,1467.47,1468.002,0.532,TS3003b.B.dialog-act.vkaraisk.103,,,,,,,,,False, It's,1,minor,Fragment
+TS3003b,B,1469.03,1469.34,0.31,TS3003b.B.dialog-act.vkaraisk.104,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3003b,A,1469.07,1469.45,0.38,TS3003b.A.dialog-act.vkaraisk.159,,,,,,,,,False, Yeah.,1,other,Comment-About-Understanding
+TS3003b,A,1470.57,1473.74,3.17,TS3003b.A.dialog-act.vkaraisk.160,A,D,1.85,0.86,True,False,0.0,[],True, Is anybody um really against teletext?,6,elicit,Elicit-Assessment
+TS3003b,C,1474.4,1474.64,0.24,TS3003b.C.dialog-act.vkaraisk.51,,,,,,,,,False, No.,1,task,Assess
+TS3003b,A,1475.0,1475.59,0.59,TS3003b.A.dialog-act.vkaraisk.161,,,,,,,,,False, No?,1,other,Comment-About-Understanding
+TS3003b,A,1475.59,1479.56,3.97,TS3003b.A.dialog-act.vkaraisk.162,A,A,2.11,1.85,False,False,0.0,[],False," Just that, that we just keep the teletext.",8,task,Inform
+TS3003b,A,1481.67,1484.77,3.1,TS3003b.A.dialog-act.vkaraisk.163,A,A,2.03,2.11,False,False,0.0,[],False," I think that's a good idea as well, especially for the subtitles.",12,task,Assess
+TS3003b,A,1486.8,1503.92,17.12,TS3003b.A.dialog-act.vkaraisk.164,A,A,0.0,2.03,False,False,0.0,[],False," Maybe we can make that um another point of advantage in our remote control, if we uh make a k a button ex for example for big subtitles,",28,task,Suggest
+TS3003b,A,1503.92,1505.87,1.95,TS3003b.A.dialog-act.vkaraisk.165,A,A,0.0,0.0,False,False,0.0,[],False, which is instantly on the remote control.,7,task,Suggest
+TS3003b,B,1505.85,1506.6,0.75,TS3003b.B.dialog-act.vkaraisk.105,,,,,,,,,False, Yeah yeah.,2,minor,Backchannel
+TS3003b,A,1505.87,1508.59,2.72,TS3003b.A.dialog-act.vkaraisk.166,A,A,0.0,0.0,False,False,0.0,[],False," For elderly people they can think, oh I wanna have subtitles,",11,task,Inform
+TS3003b,A,1508.59,1509.4,0.81,TS3003b.A.dialog-act.vkaraisk.167,A,A,0.0,0.0,False,False,0.0,[],False, and they push the button,5,task,Inform
+TS3003b,A,1509.4,1511.73,2.33,TS3003b.A.dialog-act.vkaraisk.168,C,A,0.47,0.0,False,False,0.0,[],False, and they get the big subtitles.,6,task,Inform
+TS3003b,C,1512.2,1513.3,1.1,TS3003b.C.dialog-act.vkaraisk.52,A,A,2.46,0.47,True,False,0.0,[],True, Uh that's a good idea.,5,task,Assess
+TS3003b,B,1512.45,1513.75,1.3,TS3003b.B.dialog-act.vkaraisk.106,,,,,,,,,False, Yeah. Yeah.,2,task,Assess
+TS3003b,A,1514.02,1515.76,1.74,TS3003b.A.dialog-act.vkaraisk.169,,,,,,,,,False, Um so,2,minor,Stall
+TS3003b,A,1515.76,1521.68,5.92,TS3003b.A.dialog-act.vkaraisk.170,A,C,1.56,2.46,True,False,0.0,[],True, I think teletext can v can be very useful in our advantage. Um,13,task,Assess
+TS3003b,A,1523.24,1526.17,2.93,TS3003b.A.dialog-act.vkaraisk.171,A,A,2.12,1.56,False,False,0.0,[],False," Functionality should be few buttons, you said.",7,task,Inform
+TS3003b,D,1527.62,1527.99,0.37,TS3003b.D.dialog-act.vkaraisk.144,,,,,,,,,False, Yes.,1,task,Assess
+TS3003b,A,1528.29,1532.39,4.1,TS3003b.A.dialog-act.vkaraisk.172,A,A,2.93,2.12,False,False,0.0,[],False, I think uh that's very important we have a few buttons.,11,task,Assess
+TS3003b,B,1528.52,1528.65,0.13,TS3003b.B.dialog-act.vkaraisk.107,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,D,1533.07,1533.33,0.26,TS3003b.D.dialog-act.vkaraisk.145,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3003b,A,1535.32,1537.01,1.69,TS3003b.A.dialog-act.vkaraisk.173,D,A,-1.06,2.93,False,True,1.06,['TS3003b.D.dialog-act.vkaraisk.146'],False, So to keep it simple.,5,task,Inform
+TS3003b,D,1535.95,1539.82,3.87,TS3003b.D.dialog-act.vkaraisk.146,D,A,4.35,-1.06,True,False,0.0,[],False, But I don't think that's really an issue any more,10,task,Assess
+TS3003b,D,1539.82,1540.384,0.564,TS3003b.D.dialog-act.vkaraisk.147,,,,,,,,,False, 'cause,1,minor,Fragment
+TS3003b,D,1541.63,1542.15,0.52,TS3003b.D.dialog-act.vkaraisk.148,,,,,,,,,False, Well,1,minor,Stall
+TS3003b,D,1542.15,1542.63,0.48,TS3003b.D.dialog-act.vkaraisk.149,,,,,,,,,False, might be.,2,task,Assess
+TS3003b,B,1543.91,1545.66,1.75,TS3003b.B.dialog-act.vkaraisk.108,,,,,,,,,False, If it's only for televi,5,minor,Fragment
+TS3003b,D,1544.17,1548.58,4.41,TS3003b.D.dialog-act.vkaraisk.150,D,D,0.0,4.35,False,False,0.0,[],False," But I mean it, if it's only for T_V_ you're not gonna need a lot of buttons anyway.",18,task,Inform
+TS3003b,B,1545.66,1546.17,0.51,TS3003b.B.dialog-act.vkaraisk.109,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,B,1547.15,1547.36,0.21,TS3003b.B.dialog-act.vkaraisk.110,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,D,1548.58,1553.29,4.71,TS3003b.D.dialog-act.vkaraisk.151,D,D,1.12,0.0,False,False,0.0,[],False," You need a one to zero button, next channel, previous channel,",11,task,Inform
+TS3003b,A,1548.69,1549.13,0.44,TS3003b.A.dialog-act.vkaraisk.174,,,,,,,,,False, No.,1,task,Assess
+TS3003b,B,1551.76,1552.25,0.49,TS3003b.B.dialog-act.vkaraisk.111,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,D,1554.41,1557.63,3.22,TS3003b.D.dialog-act.vkaraisk.152,B,D,4.88,1.12,False,False,0.0,[],False," volume up, volume down, and some teletext buttons",8,task,Inform
+TS3003b,D,1557.63,1558.213,0.583,TS3003b.D.dialog-act.vkaraisk.153,,,,,,,,,False, but,1,minor,Fragment
+TS3003b,A,1559.52,1559.77,0.25,TS3003b.A.dialog-act.vkaraisk.175,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,A,1562.0,1563.186,1.186,TS3003b.A.dialog-act.vkaraisk.176,,,,,,,,,False, But do you need,4,minor,Fragment
+TS3003b,D,1562.13,1563.6,1.47,TS3003b.D.dialog-act.vkaraisk.154,,,,,,,,,False, I think if you if you only l,8,minor,Fragment
+TS3003b,B,1562.51,1565.62,3.11,TS3003b.B.dialog-act.vkaraisk.112,B,D,0.0,4.88,True,False,0.0,[],True," So we can s we can skip the display,",9,task,Suggest
+TS3003b,B,1565.62,1567.13,1.51,TS3003b.B.dialog-act.vkaraisk.113,A,B,-0.59,0.0,False,True,0.59,['TS3003b.A.dialog-act.vkaraisk.177'],False, so uh we don't need it.,6,task,Inform
+TS3003b,A,1566.54,1572.19,5.65,TS3003b.A.dialog-act.vkaraisk.177,D,B,0.39,-0.59,True,False,0.0,[],False, But do you need the buttons for one to zero.,10,elicit,Elicit-Inform
+TS3003b,D,1567.41,1568.11,0.7,TS3003b.D.dialog-act.vkaraisk.156,,,,,,,,,False, Nah.,1,task,Assess
+TS3003b,A,1572.19,1573.393,1.203,TS3003b.A.dialog-act.vkaraisk.178,,,,,,,,,False, Maybe c we can,4,minor,Fragment
+TS3003b,B,1572.47,1573.297,0.827,TS3003b.B.dialog-act.vkaraisk.114,,,,,,,,,False, Uh,1,minor,Stall
+TS3003b,D,1572.58,1575.08,2.5,TS3003b.D.dialog-act.vkaraisk.155,D,A,0.0,0.39,True,False,0.0,[],True, Think if you're gonna include teletext you do.,8,task,Inform
+TS3003b,D,1575.08,1577.4,2.32,TS3003b.D.dialog-act.vkaraisk.157,D,D,0.0,0.0,False,False,0.0,[],False, I think many people like to use that.,8,task,Inform
+TS3003b,A,1577.11,1579.117,2.007,TS3003b.A.dialog-act.vkaraisk.179,,,,,,,,,False, Maybe we can use uh,5,minor,Fragment
+TS3003b,D,1577.4,1585.06,7.66,TS3003b.D.dialog-act.vkaraisk.158,A,D,0.12,0.0,False,False,0.0,[],False," 'Cause if you should, if you want to switch from channel one to like thirty five, you don't wanna push the next channel button thirty five times.",27,task,Inform
+TS3003b,B,1577.63,1577.92,0.29,TS3003b.B.dialog-act.vkaraisk.115,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,B,1584.22,1584.39,0.17,TS3003b.B.dialog-act.vkaraisk.116,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,A,1584.91,1585.18,0.27,TS3003b.A.dialog-act.vkaraisk.180,,,,,,,,,False," No,",1,task,Assess
+TS3003b,A,1585.18,1587.97,2.79,TS3003b.A.dialog-act.vkaraisk.181,A,D,1.87,0.12,True,False,0.0,[],True, maybe we can implement the scroll button?,7,elicit,Elicit-Assessment
+TS3003b,A,1589.84,1591.54,1.7,TS3003b.A.dialog-act.vkaraisk.182,A,A,1.5,1.87,False,False,0.0,[],False, Or a joystick like?,4,elicit,Elicit-Assessment
+TS3003b,B,1590.32,1590.72,0.4,TS3003b.B.dialog-act.vkaraisk.117,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3003b,A,1593.04,1594.5,1.46,TS3003b.A.dialog-act.vkaraisk.183,A,A,0.0,1.5,False,False,0.0,[],False, There are other ways too.,5,task,Inform
+TS3003b,A,1594.5,1601.682,7.182,TS3003b.A.dialog-act.vkaraisk.184,D,A,2.128,0.0,False,False,0.0,[],False, Just look if you look at telephones. The Sony telephone has a scroll button which is very useful in searching names or,22,task,Inform
+TS3003b,B,1595.7,1596.13,0.43,TS3003b.B.dialog-act.vkaraisk.118,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,B,1597.73,1598.1,0.37,TS3003b.B.dialog-act.vkaraisk.119,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3003b,B,1600.07,1600.29,0.22,TS3003b.B.dialog-act.vkaraisk.120,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,D,1603.26,1603.81,0.55,TS3003b.D.dialog-act.vkaraisk.159,,,,,,,,,False, That's true,2,task,Assess
+TS3003b,D,1603.81,1610.89,7.08,TS3003b.D.dialog-act.vkaraisk.160,D,A,0.0,2.128,True,False,0.0,[],True, but um I don't think there are many T_V_s that can switch channels that fast.,15,task,Inform
+TS3003b,D,1610.89,1618.99,8.1,TS3003b.D.dialog-act.vkaraisk.161,D,D,1.26,0.0,False,False,0.0,[],False, And so you would need like the T_V_ would need an a function where you can actually view all channels and scroll through it.,24,task,Inform
+TS3003b,D,1620.25,1626.12,5.87,TS3003b.D.dialog-act.vkaraisk.162,C,D,3.15,1.26,False,False,0.0,[],False, And I dunno if many channels would do have that. If many T_V_s have that.,15,task,Inform
+TS3003b,C,1626.06,1626.93,0.87,TS3003b.C.dialog-act.vkaraisk.53,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,B,1626.83,1627.25,0.42,TS3003b.B.dialog-act.vkaraisk.121,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3003b,C,1626.93,1629.27,2.34,TS3003b.C.dialog-act.vkaraisk.54,,,,,,,,,False, And besides that it's um,5,minor,Fragment
+TS3003b,C,1629.27,1632.75,3.48,TS3003b.C.dialog-act.vkaraisk.55,C,D,0.0,3.15,True,False,0.0,[],True, If we're gonna focus on elderly people they'll have to adapt.,11,task,Inform
+TS3003b,C,1632.75,1635.48,2.73,TS3003b.C.dialog-act.vkaraisk.56,C,C,0.0,0.0,False,False,0.0,[],False, They're not used to using scroll buttons.,7,task,Inform
+TS3003b,A,1635.36,1635.9,0.54,TS3003b.A.dialog-act.vkaraisk.185,,,,,,,,,False, That's right.,2,task,Assess
+TS3003b,C,1635.48,1638.6,3.12,TS3003b.C.dialog-act.vkaraisk.57,A,C,3.93,0.0,False,False,0.0,[],False, So perhaps we should s stick to the basic layout.,10,task,Suggest
+TS3003b,D,1635.81,1636.11,0.3,TS3003b.D.dialog-act.vkaraisk.163,,,,,,,,,False, Mm-hmm.,1,task,Assess
+TS3003b,B,1635.98,1636.18,0.2,TS3003b.B.dialog-act.vkaraisk.122,,,,,,,,,False, Mm.,1,task,Assess
+TS3003b,A,1640.054,1642.36,2.306,TS3003b.A.dialog-act.vkaraisk.186,,,,,,,,,False, the numbers yeah.,3,other,Comment-About-Understanding
+TS3003b,A,1642.36,1642.53,0.17,TS3003b.A.dialog-act.vkaraisk.187,,,,,,,,,False, Yeah,1,minor,Stall
+TS3003b,A,1642.53,1646.56,4.03,TS3003b.A.dialog-act.vkaraisk.188,A,C,0.0,3.93,True,False,0.0,[],True," they can see how much buttons there are going to be on on the display,",15,task,Suggest
+TS3003b,A,1646.56,1650.76,4.2,TS3003b.A.dialog-act.vkaraisk.189,A,A,0.0,0.0,False,False,0.0,[],False, and if it's too much we can uh reconsider it.,10,task,Suggest
+TS3003b,A,1650.76,1653.28,2.52,TS3003b.A.dialog-act.vkaraisk.190,A,A,0.0,0.0,False,False,0.0,[],False, But I think there won't be very much buttons.,9,task,Inform
+TS3003b,B,1651.31,1651.63,0.32,TS3003b.B.dialog-act.vkaraisk.123,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,A,1653.28,1654.93,1.65,TS3003b.A.dialog-act.vkaraisk.191,D,A,-0.92,0.0,False,True,0.92,['TS3003b.D.dialog-act.vkaraisk.164'],False, Or there don't have to be a lot.,8,task,Inform
+TS3003b,D,1654.01,1664.97,10.96,TS3003b.D.dialog-act.vkaraisk.164,D,A,0.0,-0.92,True,False,0.0,[],False," But I don't think I think if you're gonna make a remote control only to operate a T_V_, you there's not much you can gain on um having as few buttons as possible.",33,task,Assess
+TS3003b,D,1664.97,1669.07,4.1,TS3003b.D.dialog-act.vkaraisk.165,D,D,0.0,0.0,False,False,0.0,[],False," 'Cause I think there are pretty many remote controls that can only operate a T_V_,",15,task,Inform
+TS3003b,D,1669.07,1673.13,4.06,TS3003b.D.dialog-act.vkaraisk.166,D,D,0.0,0.0,False,False,0.0,[],False, which already only have the minimum number of buttons.,9,task,Inform
+TS3003b,D,1673.13,1675.4,2.27,TS3003b.D.dialog-act.vkaraisk.167,A,D,0.78,0.0,False,False,0.0,[],False, I don't think there's much to be gained in that area.,11,task,Assess
+TS3003b,A,1676.18,1678.13,1.95,TS3003b.A.dialog-act.vkaraisk.192,A,D,0.0,0.78,True,False,0.0,[],True, The number of buttons?,4,elicit,Elicit-Inform
+TS3003b,B,1676.2,1676.8,0.6,TS3003b.B.dialog-act.vkaraisk.124,,,,,,,,,False, Hmm.,1,minor,Backchannel
+TS3003b,D,1677.79,1678.03,0.24,TS3003b.D.dialog-act.vkaraisk.168,,,,,,,,,False, Yeah.,1,task,Inform
+TS3003b,A,1678.13,1680.82,2.69,TS3003b.A.dialog-act.vkaraisk.193,A,A,1.11,0.0,False,False,0.0,[],False, I think it's very important in the in the design.,10,task,Assess
+TS3003b,A,1681.93,1687.63,5.7,TS3003b.A.dialog-act.vkaraisk.194,D,A,4.47,1.11,False,False,0.0,[],False, You can make a very fancy design uh with putting the buttons on the right places.,16,task,Inform
+TS3003b,A,1687.63,1690.415,2.785,TS3003b.A.dialog-act.vkaraisk.195,,,,,,,,,False, And if you have less buttons you can do a lot more with,13,minor,Fragment
+TS3003b,D,1691.61,1692.1,0.49,TS3003b.D.dialog-act.vkaraisk.169,,,,,,,,,False, That is true,3,task,Assess
+TS3003b,D,1692.1,1700.01,7.91,TS3003b.D.dialog-act.vkaraisk.170,A,A,1.65,4.47,True,False,0.0,[],True, but I think there's simply not much to gain on the competition when you when you're making a remote control only for to operate only the T_V_.,27,task,Assess
+TS3003b,A,1701.66,1703.39,1.73,TS3003b.A.dialog-act.vkaraisk.196,D,D,-1.22,1.65,True,True,1.22,['TS3003b.D.dialog-act.vkaraisk.171'],True, To operate only the T_V_ yeah.,6,other,Comment-About-Understanding
+TS3003b,D,1702.17,1708.97,6.8,TS3003b.D.dialog-act.vkaraisk.171,D,A,1.09,-1.22,True,False,0.0,[],False, 'Cause if you have a a remote control only to operate a T_V_ there's simply not a lot of buttons required.,21,task,Inform
+TS3003b,D,1710.06,1711.46,1.4,TS3003b.D.dialog-act.vkaraisk.172,D,D,0.0,1.09,False,False,0.0,[],False, There's not a lot of functions required,7,task,Inform
+TS3003b,D,1711.46,1715.53,4.07,TS3003b.D.dialog-act.vkaraisk.173,D,D,2.24,0.0,False,False,0.0,[],False, so most existing remote controls simply don't have a lot of buttons either.,13,task,Inform
+TS3003b,A,1715.8,1716.11,0.31,TS3003b.A.dialog-act.vkaraisk.197,,,,,,,,,False, No.,1,task,Assess
+TS3003b,B,1716.14,1716.37,0.23,TS3003b.B.dialog-act.vkaraisk.125,,,,,,,,,False, No.,1,task,Assess
+TS3003b,A,1717.28,1717.91,0.63,TS3003b.A.dialog-act.vkaraisk.198,,,,,,,,,False, So.,1,minor,Stall
+TS3003b,D,1717.66,1717.77,0.11,TS3003b.D.dialog-act.vkaraisk.174,,,,,,,,,False, So,1,minor,Stall
+TS3003b,D,1717.77,1721.84,4.07,TS3003b.D.dialog-act.vkaraisk.175,D,D,1.2,2.24,False,False,0.0,[],False, I think it would be very hard to actually gain on the competition here.,14,task,Assess
+TS3003b,A,1722.53,1722.85,0.32,TS3003b.A.dialog-act.vkaraisk.199,,,,,,,,,False, 'Kay.,1,other,Comment-About-Understanding
+TS3003b,A,1722.85,1723.04,0.19,TS3003b.A.dialog-act.vkaraisk.200,,,,,,,,,False, So,1,minor,Stall
+TS3003b,A,1723.04,1723.932,0.892,TS3003b.A.dialog-act.vkaraisk.201,,,,,,,,,False, we can,2,minor,Fragment
+TS3003b,D,1723.04,1728.83,5.79,TS3003b.D.dialog-act.vkaraisk.176,D,D,1.57,1.2,False,False,0.0,[],False, That would that would cost a a big marketing expedition,10,task,Inform
+TS3003b,A,1728.17,1730.31,2.14,TS3003b.A.dialog-act.vkaraisk.202,,,,,,,,,False, Yeah. That's right.,3,task,Assess
+TS3003b,D,1730.4,1733.96,3.56,TS3003b.D.dialog-act.vkaraisk.177,D,D,0.0,1.57,False,False,0.0,[],False, which was one of the arguments to make it only for the T_V_,13,task,Inform
+TS3003b,D,1733.96,1736.63,2.67,TS3003b.D.dialog-act.vkaraisk.178,A,D,1.6,0.0,False,False,0.0,[],False, because we didn't have the time to market a lot.,10,task,Inform
+TS3003b,A,1737.0,1738.0,1.0,TS3003b.A.dialog-act.vkaraisk.203,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,A,1738.0,1738.23,0.23,TS3003b.A.dialog-act.vkaraisk.204,,,,,,,,,False, So,1,minor,Stall
+TS3003b,A,1738.23,1744.34,6.11,TS3003b.A.dialog-act.vkaraisk.205,A,D,1.36,1.6,True,False,0.0,[],True, you suggest we could better um focus on for example the docking station.,13,elicit,Elicit-Assessment
+TS3003b,B,1738.327,1739.048,0.721,TS3003b.B.dialog-act.vkaraisk.126,,,,,,,,,False,,0,minor,Fragment
+TS3003b,A,1745.7,1752.1,6.4,TS3003b.A.dialog-act.vkaraisk.206,D,A,2.41,1.36,False,False,0.0,[],False, Uh uh like other functions. Instead of f of less buttons.,11,elicit,Elicit-Assessment
+TS3003b,D,1749.74,1750.34,0.6,TS3003b.D.dialog-act.vkaraisk.179,,,,,,,,,False, Maybe.,1,task,Assess
+TS3003b,D,1752.79,1754.51,1.72,TS3003b.D.dialog-act.vkaraisk.180,,,,,,,,,False, Well yeah,2,minor,Stall
+TS3003b,D,1754.51,1758.17,3.66,TS3003b.D.dialog-act.vkaraisk.181,D,A,1.22,2.41,True,False,0.0,[],True," I think, mean we obviously need a good way to position all the buttons",14,task,Assess
+TS3003b,D,1758.17,1758.452,0.282,TS3003b.D.dialog-act.vkaraisk.182,,,,,,,,,False, and,1,minor,Fragment
+TS3003b,D,1759.39,1761.53,2.14,TS3003b.D.dialog-act.vkaraisk.183,A,D,3.03,1.22,False,False,0.0,[],False, But I don't think we should spend very much time in that.,12,task,Suggest
+TS3003b,A,1762.38,1764.56,2.18,TS3003b.A.dialog-act.vkaraisk.207,,,,,,,,,False, Mm. No.,2,other,Comment-About-Understanding
+TS3003b,A,1764.56,1771.15,6.59,TS3003b.A.dialog-act.vkaraisk.208,C,D,1.46,3.03,True,False,0.0,[],True, Do you think the docking station will uh is allowed in the budget we have?,15,elicit,Elicit-Inform
+TS3003b,C,1772.61,1776.04,3.43,TS3003b.C.dialog-act.vkaraisk.58,C,A,0.0,1.46,True,False,0.0,[],True, It should be possible yes. If it's not too fancy.,10,task,Inform
+TS3003b,A,1774.03,1775.04,1.01,TS3003b.A.dialog-act.vkaraisk.209,,,,,,,,,False, 'Cause it can be,4,minor,Fragment
+TS3003b,B,1774.35,1775.08,0.73,TS3003b.B.dialog-act.vkaraisk.127,,,,,,,,,False, No.,1,minor,Backchannel
+TS3003b,C,1776.04,1778.81,2.77,TS3003b.C.dialog-act.vkaraisk.59,A,C,3.75,0.0,False,False,0.0,[],False," And if the remote stays rather small, it should be possible",11,task,Inform
+TS3003b,A,1776.19,1776.6,0.41,TS3003b.A.dialog-act.vkaraisk.210,,,,,,,,,False, No.,1,minor,Backchannel
+TS3003b,C,1778.81,1779.13,0.32,TS3003b.C.dialog-act.vkaraisk.60,,,,,,,,,False, yeah.,1,task,Assess
+TS3003b,A,1778.99,1779.91,0.92,TS3003b.A.dialog-act.vkaraisk.211,,,,,,,,,False, Yeah.,1,minor,Stall
+TS3003b,B,1779.4,1779.57,0.17,TS3003b.B.dialog-act.vkaraisk.128,,,,,,,,,False, No.,1,minor,Backchannel
+TS3003b,A,1779.91,1781.532,1.622,TS3003b.A.dialog-act.vkaraisk.212,,,,,,,,,False, Because I think that's uh,5,minor,Fragment
+TS3003b,A,1782.56,1787.24,4.68,TS3003b.A.dialog-act.vkaraisk.213,A,C,4.99,3.75,True,False,0.0,[],True, That's a good advantage point as well. If we have a fancy-looking docking station,14,task,Assess
+TS3003b,C,1785.69,1786.12,0.43,TS3003b.C.dialog-act.vkaraisk.61,,,,,,,,,False, Yes.,1,task,Assess
+TS3003b,A,1787.24,1792.23,4.99,TS3003b.A.dialog-act.vkaraisk.214,,,,,,,,,False, or very,2,minor,Fragment
+TS3003b,B,1789.09,1789.25,0.16,TS3003b.B.dialog-act.vkaraisk.129,,,,,,,,,False, Hmm.,1,task,Assess
+TS3003b,A,1792.23,1793.63,1.4,TS3003b.A.dialog-act.vkaraisk.215,C,A,3.59,4.99,False,False,0.0,[],False, That's a nice requirement.,4,task,Assess
+TS3003b,A,1794.83,1795.8,0.97,TS3003b.A.dialog-act.vkaraisk.216,,,,,,,,,False, Docking station.,2,other,Other
+TS3003b,D,1796.224,1797.356,1.132,TS3003b.D.dialog-act.vkaraisk.184,,,,,,,,,False,,0,minor,Fragment
+TS3003b,C,1797.0,1797.22,0.22,TS3003b.C.dialog-act.vkaraisk.62,,,,,,,,,False, So,1,minor,Stall
+TS3003b,C,1797.22,1799.02,1.8,TS3003b.C.dialog-act.vkaraisk.63,D,A,3.11,3.59,True,False,0.0,[],True, we're just gonna focus on the extras?,7,elicit,Elicit-Assessment
+TS3003b,A,1800.46,1801.12,0.66,TS3003b.A.dialog-act.vkaraisk.217,,,,,,,,,False, I think so.,3,task,Assess
+TS3003b,C,1801.24,1801.42,0.18,TS3003b.C.dialog-act.vkaraisk.64,,,,,,,,,False, Yeah.,1,other,Comment-About-Understanding
+TS3003b,B,1801.82,1802.0,0.18,TS3003b.B.dialog-act.vkaraisk.130,,,,,,,,,False, Mm.,1,other,Comment-About-Understanding
+TS3003b,D,1801.92,1802.13,0.21,TS3003b.D.dialog-act.vkaraisk.185,,,,,,,,,False, Yeah,1,minor,Stall
+TS3003b,D,1802.13,1807.33,5.2,TS3003b.D.dialog-act.vkaraisk.186,D,C,1.17,3.11,True,False,0.0,[],True, I think maybe we should do some research into what elderly people like to have in a,17,task,Suggest
+TS3003b,A,1808.23,1808.65,0.42,TS3003b.A.dialog-act.vkaraisk.218,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,D,1808.5,1810.39,1.89,TS3003b.D.dialog-act.vkaraisk.187,A,D,0.78,1.17,False,False,0.0,[],False, like to have extra in a new remote control.,9,task,Suggest
+TS3003b,A,1811.17,1813.904,2.734,TS3003b.A.dialog-act.vkaraisk.219,A,D,2.516,0.78,True,False,0.0,[],True, That's a good point. Um,5,task,Assess
+TS3003b,A,1816.42,1818.68,2.26,TS3003b.A.dialog-act.vkaraisk.220,D,A,1.68,2.516,False,False,0.0,[],False, You said they easily get lost as well.,8,task,Inform
+TS3003b,D,1820.0,1820.24,0.24,TS3003b.D.dialog-act.vkaraisk.188,,,,,,,,,False, Yes,1,task,Assess
+TS3003b,D,1820.24,1820.36,0.12,TS3003b.D.dialog-act.vkaraisk.189,,,,,,,,,False, well,1,minor,Stall
+TS3003b,D,1820.36,1824.43,4.07,TS3003b.D.dialog-act.vkaraisk.190,A,A,0.14,1.68,True,False,0.0,[],True, fifty percent of the people indicated that remote control tended to get lost.,13,task,Inform
+TS3003b,A,1822.91,1823.22,0.31,TS3003b.A.dialog-act.vkaraisk.221,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,A,1824.57,1829.39,4.82,TS3003b.A.dialog-act.vkaraisk.222,D,D,0.49,0.14,True,False,0.0,[],True," So maybe we should implement the audio sign, or something.",10,task,Suggest
+TS3003b,D,1829.65,1829.88,0.23,TS3003b.D.dialog-act.vkaraisk.191,,,,,,,,,False, Yeah,1,task,Assess
+TS3003b,D,1829.88,1831.88,2.0,TS3003b.D.dialog-act.vkaraisk.192,C,A,-0.3,0.49,True,True,0.3,['TS3003b.C.dialog-act.vkaraisk.65'],True, that was what I suggested.,5,task,Inform
+TS3003b,A,1831.03,1831.46,0.43,TS3003b.A.dialog-act.vkaraisk.223,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,C,1831.58,1835.48,3.9,TS3003b.C.dialog-act.vkaraisk.65,D,D,-0.8,-0.3,True,True,0.8,['TS3003b.D.dialog-act.vkaraisk.195'],False," Like with your key-chain, if you whistle it goes uh it makes a sound.",14,task,Inform
+TS3003b,D,1831.88,1833.53,1.65,TS3003b.D.dialog-act.vkaraisk.193,,,,,,,,,False, You have it on,4,minor,Fragment
+TS3003b,A,1832.88,1833.49,0.61,TS3003b.A.dialog-act.vkaraisk.224,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,D,1833.53,1834.68,1.15,TS3003b.D.dialog-act.vkaraisk.194,,,,,,,,,False, Yeah,1,task,Assess
+TS3003b,B,1834.41,1834.71,0.3,TS3003b.B.dialog-act.vkaraisk.131,,,,,,,,,False, Hm.,1,minor,Backchannel
+TS3003b,D,1834.68,1837.42,2.74,TS3003b.D.dialog-act.vkaraisk.195,D,C,0.0,-0.8,True,False,0.0,[],False," you have it's on some phones too,",7,task,Inform
+TS3003b,D,1837.42,1839.19,1.77,TS3003b.D.dialog-act.vkaraisk.196,D,D,0.0,0.0,False,False,0.0,[],False, which have a docking station.,5,task,Inform
+TS3003b,C,1839.11,1839.36,0.25,TS3003b.C.dialog-act.vkaraisk.66,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,D,1839.19,1841.04,1.85,TS3003b.D.dialog-act.vkaraisk.197,D,D,0.0,0.0,False,False,0.0,[],False, And you just press a button,6,task,Inform
+TS3003b,D,1841.04,1842.52,1.48,TS3003b.D.dialog-act.vkaraisk.198,D,D,0.76,0.0,False,False,0.0,[],False, and the phone goes ringing.,5,task,Inform
+TS3003b,A,1842.67,1844.0,1.33,TS3003b.A.dialog-act.vkaraisk.225,,,,,,,,,False, Yeah. So,2,minor,Stall
+TS3003b,D,1843.28,1844.03,0.75,TS3003b.D.dialog-act.vkaraisk.199,A,D,-0.03,0.76,False,True,0.03,['TS3003b.A.dialog-act.vkaraisk.226'],False, So you know where it is.,6,task,Inform
+TS3003b,A,1844.0,1847.06,3.06,TS3003b.A.dialog-act.vkaraisk.226,A,D,0.0,-0.03,True,False,0.0,[],False, audio signal should be possible as well.,7,task,Assess
+TS3003b,A,1847.06,1851.26,4.2,TS3003b.A.dialog-act.vkaraisk.227,A,A,3.04,0.0,False,False,0.0,[],False, I think it's not too expensive.,6,task,Inform
+TS3003b,B,1848.31,1848.83,0.52,TS3003b.B.dialog-act.vkaraisk.132,,,,,,,,,False, No.,1,task,Assess
+TS3003b,A,1851.26,1852.79,1.53,TS3003b.A.dialog-act.vkaraisk.228,,,,,,,,,False, Uh another,2,elicit,Elicit-Assessment
+TS3003b,A,1854.3,1856.92,2.62,TS3003b.A.dialog-act.vkaraisk.229,A,A,2.28,3.04,False,False,0.0,[],False, point is the L_C_D_ screen.,5,elicit,Elicit-Assessment
+TS3003b,A,1859.2,1865.37,6.17,TS3003b.A.dialog-act.vkaraisk.230,C,A,0.6,2.28,False,False,0.0,[],False," Um I don't know if that will rise the cost too much,",12,task,Assess
+TS3003b,C,1865.23,1865.97,0.74,TS3003b.C.dialog-act.vkaraisk.67,,,,,,,,,False, Y i,2,minor,Fragment
+TS3003b,A,1865.37,1865.913,0.543,TS3003b.A.dialog-act.vkaraisk.231,,,,,,,,,False, because,1,minor,Fragment
+TS3003b,C,1865.97,1869.41,3.44,TS3003b.C.dialog-act.vkaraisk.68,A,A,2.25,0.6,True,False,0.0,[],True," um I think we'll have to choose between the docking station or the screen,",14,task,Inform
+TS3003b,C,1869.41,1869.74,0.33,TS3003b.C.dialog-act.vkaraisk.69,,,,,,,,,False, 'cause,1,minor,Fragment
+TS3003b,A,1870.82,1871.66,0.84,TS3003b.A.dialog-act.vkaraisk.232,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,C,1871.19,1871.916,0.726,TS3003b.C.dialog-act.vkaraisk.70,,,,,,,,,False, it's uh,2,minor,Fragment
+TS3003b,B,1871.5,1871.8,0.3,TS3003b.B.dialog-act.vkaraisk.133,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3003b,A,1871.66,1872.91,1.25,TS3003b.A.dialog-act.vkaraisk.233,D,C,0.24,2.25,True,False,0.0,[],True, It will be too much as well.,7,task,Assess
+TS3003b,C,1872.521,1873.159,0.638,TS3003b.C.dialog-act.vkaraisk.71,,,,,,,,,False,,0,minor,Fragment
+TS3003b,D,1873.15,1877.01,3.86,TS3003b.D.dialog-act.vkaraisk.200,D,A,0.0,0.24,True,False,0.0,[],True," I think since a lot of people indicated that a new remote control is hard to learn,",17,task,Inform
+TS3003b,D,1877.01,1879.12,2.11,TS3003b.D.dialog-act.vkaraisk.201,D,D,0.0,0.0,False,False,0.0,[],False, and we're focusing on elderly people here,7,task,Inform
+TS3003b,D,1879.12,1883.55,4.43,TS3003b.D.dialog-act.vkaraisk.202,D,D,0.0,0.0,False,False,0.0,[],False," which tend to have a hard time understanding new devices,",10,task,Inform
+TS3003b,D,1883.55,1886.62,3.07,TS3003b.D.dialog-act.vkaraisk.203,D,D,0.0,0.0,False,False,0.0,[],False," it might be a good idea to have just a little screen on it,",14,task,Suggest
+TS3003b,D,1886.62,1889.28,2.66,TS3003b.D.dialog-act.vkaraisk.204,D,D,0.0,0.0,False,False,0.0,[],False, which would explain a button if you press it.,9,task,Suggest
+TS3003b,D,1889.28,1890.68,1.4,TS3003b.D.dialog-act.vkaraisk.205,D,D,2.43,0.0,False,False,0.0,[],False, Which would tell you what it does.,7,task,Suggest
+TS3003b,A,1892.2,1892.48,0.28,TS3003b.A.dialog-act.vkaraisk.234,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,D,1893.11,1897.02,3.91,TS3003b.D.dialog-act.vkaraisk.206,A,D,3.13,2.43,False,False,0.0,[],False," And it wouldn't have to be touchscreen or a very expensive screen,",12,task,Suggest
+TS3003b,A,1895.66,1896.1,0.44,TS3003b.A.dialog-act.vkaraisk.235,,,,,,,,,False, Based.,1,task,Inform
+TS3003b,B,1895.96,1897.56,1.6,TS3003b.B.dialog-act.vkaraisk.134,,,,,,,,,False, Okay. Yeah.,2,task,Assess
+TS3003b,D,1897.02,1897.476,0.456,TS3003b.D.dialog-act.vkaraisk.207,,,,,,,,,False, but,1,minor,Fragment
+TS3003b,A,1898.96,1900.15,1.19,TS3003b.A.dialog-act.vkaraisk.236,,,,,,,,,False, Just the L_C_D_.,3,elicit,Elicit-Inform
+TS3003b,A,1900.15,1901.7,1.55,TS3003b.A.dialog-act.vkaraisk.237,D,D,0.68,3.13,True,False,0.0,[],True, Oh just the normal screen.,5,elicit,Elicit-Inform
+TS3003b,D,1902.38,1903.75,1.37,TS3003b.D.dialog-act.vkaraisk.208,A,A,-0.58,0.68,True,True,0.58,['TS3003b.A.dialog-act.vkaraisk.238'],True, Just a small screen,4,task,Inform
+TS3003b,A,1903.17,1904.17,1.0,TS3003b.A.dialog-act.vkaraisk.238,A,D,1.23,-0.58,True,False,0.0,[],False, That's a good idea.,4,task,Assess
+TS3003b,D,1903.75,1904.697,0.947,TS3003b.D.dialog-act.vkaraisk.209,,,,,,,,,False, with two,2,minor,Fragment
+TS3003b,A,1904.17,1905.4,1.23,TS3003b.A.dialog-act.vkaraisk.239,,,,,,,,,False, So,1,minor,Fragment
+TS3003b,A,1905.4,1907.43,2.03,TS3003b.A.dialog-act.vkaraisk.240,A,A,1.55,1.23,False,False,0.0,[],False, Some extra info. Feedback.,4,elicit,Elicit-Inform
+TS3003b,D,1906.96,1907.36,0.4,TS3003b.D.dialog-act.vkaraisk.210,,,,,,,,,False, Yeah.,1,task,Inform
+TS3003b,A,1908.98,1910.6,1.62,TS3003b.A.dialog-act.vkaraisk.241,D,A,0.91,1.55,False,False,0.0,[],False, Yeah. I think that's a good idea as well.,9,task,Assess
+TS3003b,B,1909.01,1909.28,0.27,TS3003b.B.dialog-act.vkaraisk.135,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,D,1911.51,1913.07,1.56,TS3003b.D.dialog-act.vkaraisk.211,A,A,1.57,0.91,True,False,0.0,[],True, But I dunno if that would,6,task,Assess
+TS3003b,A,1914.64,1915.84,1.2,TS3003b.A.dialog-act.vkaraisk.242,D,D,-0.65,1.57,True,True,0.65,['TS3003b.D.dialog-act.vkaraisk.212'],True, As the small screen.,4,other,Other
+TS3003b,D,1915.19,1920.28,5.09,TS3003b.D.dialog-act.vkaraisk.212,A,A,9.13,-0.65,True,False,0.0,[],False, that would fit into the costs.,6,task,Assess
+TS3003b,A,1924.27,1925.8,1.53,TS3003b.A.dialog-act.vkaraisk.243,,,,,,,,,False, Extra button info.,3,other,Other
+TS3003b,A,1929.41,1932.7,3.29,TS3003b.A.dialog-act.vkaraisk.244,A,D,0.0,9.13,True,False,0.0,[],True, I think that should be possible as well.,8,task,Assess
+TS3003b,A,1932.7,1938.69,5.99,TS3003b.A.dialog-act.vkaraisk.245,A,A,0.0,0.0,False,False,0.0,[],False, Um let's see what did we say. Mm. More.,9,elicit,Elicit-Inform
+TS3003b,A,1938.69,1942.33,3.64,TS3003b.A.dialog-act.vkaraisk.246,A,A,0.0,0.0,False,False,0.0,[],False," Should be fancy to, fancy design, easy to learn.",9,task,Inform
+TS3003b,A,1942.33,1950.877,8.547,TS3003b.A.dialog-act.vkaraisk.247,A,A,9.493,0.0,False,False,0.0,[],False," Few buttons, we talked about that. Docking station, L_C_D_. Um general functions",12,task,Inform
+TS3003b,A,1952.5,1956.46,3.96,TS3003b.A.dialog-act.vkaraisk.248,,,,,,,,,False, Yeah. 'Kay.,2,minor,Stall
+TS3003b,A,1960.37,1966.14,5.77,TS3003b.A.dialog-act.vkaraisk.249,A,A,0.0,9.493,False,False,0.0,[],False," And default materials. I think that's a good idea as well,",11,task,Assess
+TS3003b,A,1966.14,1974.89,8.75,TS3003b.A.dialog-act.vkaraisk.250,A,A,0.0,0.0,False,False,0.0,[],False, because um elderly people don't mind if it's a titanium cover or just a plastic one.,16,task,Inform
+TS3003b,B,1972.384,1974.266,1.882,TS3003b.B.dialog-act.vkaraisk.137,,,,,,,,,False,,0,minor,Fragment
+TS3003b,A,1974.89,1976.88,1.99,TS3003b.A.dialog-act.vkaraisk.251,D,A,2.11,0.0,False,False,0.0,[],False, So that doesn't really matter.,5,task,Assess
+TS3003b,D,1975.2,1975.79,0.59,TS3003b.D.dialog-act.vkaraisk.213,,,,,,,,,False, No.,1,task,Assess
+TS3003b,B,1975.67,1975.91,0.24,TS3003b.B.dialog-act.vkaraisk.136,,,,,,,,,False, Mm.,1,task,Assess
+TS3003b,A,1976.88,1978.81,1.93,TS3003b.A.dialog-act.vkaraisk.252,,,,,,,,,False, So,1,minor,Stall
+TS3003b,A,1978.81,1979.44,0.63,TS3003b.A.dialog-act.vkaraisk.253,,,,,,,,,False, I think we nee,4,minor,Fragment
+TS3003b,D,1978.99,1986.1,7.11,TS3003b.D.dialog-act.vkaraisk.214,A,A,2.7,2.11,True,False,0.0,[],True, I think probably elderly people would be a little bit more careful with their remote controls than youngsters.,18,task,Inform
+TS3003b,A,1988.8,1993.16,4.36,TS3003b.A.dialog-act.vkaraisk.254,A,D,0.0,2.7,True,False,0.0,[],True, Uh let's um specify the target group.,7,task,Suggest
+TS3003b,A,1993.16,1999.66,6.5,TS3003b.A.dialog-act.vkaraisk.255,A,A,0.0,0.0,False,False,0.0,[],False, Because are we talking about elderly elderly people or people from forty to eighty.,14,elicit,Elicit-Inform
+TS3003b,A,1999.66,2006.87,7.21,TS3003b.A.dialog-act.vkaraisk.256,A,A,3.56,0.0,False,False,0.0,[],False," Because I think what we're going to design now is for people above sixty, maybe.",15,task,Inform
+TS3003b,B,2009.07,2009.7,0.63,TS3003b.B.dialog-act.vkaraisk.138,,,,,,,,,False, Mm. Yeah.,2,other,Comment-About-Understanding
+TS3003b,D,2009.37,2009.54,0.17,TS3003b.D.dialog-act.vkaraisk.215,,,,,,,,,False, Yeah.,1,other,Comment-About-Understanding
+TS3003b,A,2010.43,2011.35,0.92,TS3003b.A.dialog-act.vkaraisk.257,A,A,0.0,3.56,False,False,0.0,[],False, Uh what do we want?,5,elicit,Elicit-Offer-Or-Suggestion
+TS3003b,D,2011.08,2011.836,0.756,TS3003b.D.dialog-act.vkaraisk.216,,,,,,,,,False, I think,2,minor,Fragment
+TS3003b,A,2011.35,2019.25,7.9,TS3003b.A.dialog-act.vkaraisk.258,A,A,1.26,0.0,False,False,0.0,[],False," If we want um a with uh for example the the telephone for elderly people, we can",17,task,Suggest
+TS3003b,A,2020.51,2022.52,2.01,TS3003b.A.dialog-act.vkaraisk.259,D,A,3.53,1.26,False,False,0.0,[],False, target the real elderly people.,5,task,Suggest
+TS3003b,D,2024.27,2026.05,1.78,TS3003b.D.dialog-act.vkaraisk.217,,,,,,,,,False, I think that would be a,6,minor,Fragment
+TS3003b,D,2026.05,2031.98,5.93,TS3003b.D.dialog-act.vkaraisk.218,D,A,1.81,3.53,True,False,0.0,[],True," If we should do something like that it would be a, I think it would be really good for uh for the image of the company.",26,task,Assess
+TS3003b,A,2033.23,2033.52,0.29,TS3003b.A.dialog-act.vkaraisk.260,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,D,2033.79,2036.81,3.02,TS3003b.D.dialog-act.vkaraisk.219,D,D,1.69,1.81,False,False,0.0,[],False," And I think, I think there would be a good market for it.",13,task,Assess
+TS3003b,A,2038.01,2038.27,0.26,TS3003b.A.dialog-act.vkaraisk.262,,,,,,,,,False, So,1,minor,Stall
+TS3003b,A,2038.27,2039.056,0.786,TS3003b.A.dialog-act.vkaraisk.261,,,,,,,,,False, that's the,2,minor,Fragment
+TS3003b,D,2038.5,2042.11,3.61,TS3003b.D.dialog-act.vkaraisk.220,A,D,-1.992,1.69,False,True,1.992,['TS3003b.A.dialog-act.vkaraisk.263'],False, If we're able to really bring an innovative product.,9,task,Assess
+TS3003b,A,2040.118,2045.35,5.232,TS3003b.A.dialog-act.vkaraisk.263,D,D,2.95,-1.992,True,False,0.0,[],False, Now you're talking about sixty to eighty for example.,9,elicit,Elicit-Inform
+TS3003b,D,2045.1,2046.489,1.389,TS3003b.D.dialog-act.vkaraisk.221,,,,,,,,,False, Yeah the really,3,task,Inform
+TS3003b,A,2046.81,2048.72,1.91,TS3003b.A.dialog-act.vkaraisk.264,,,,,,,,,False, Yeah.,1,other,Comment-About-Understanding
+TS3003b,B,2047.35,2047.49,0.14,TS3003b.B.dialog-act.vkaraisk.139,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3003b,D,2048.3,2051.96,3.66,TS3003b.D.dialog-act.vkaraisk.222,A,A,1.48,2.95,True,False,0.0,[],True, But I'd have to look into that a little more.,10,task,Suggest
+TS3003b,A,2048.72,2049.39,0.67,TS3003b.A.dialog-act.vkaraisk.265,,,,,,,,,False, Sixty.,1,other,Other
+TS3003b,A,2052.34,2053.44,1.1,TS3003b.A.dialog-act.vkaraisk.266,,,,,,,,,False, Okay.,1,task,Assess
+TS3003b,A,2053.44,2057.137,3.697,TS3003b.A.dialog-act.vkaraisk.267,C,D,1.253,1.48,True,False,0.0,[],True, And different cultures. Are we,5,elicit,Elicit-Offer-Or-Suggestion
+TS3003b,C,2057.39,2058.39,1.0,TS3003b.C.dialog-act.vkaraisk.72,,,,,,,,,False, Well,1,minor,Stall
+TS3003b,C,2058.39,2060.94,2.55,TS3003b.C.dialog-act.vkaraisk.73,C,A,1.4,1.253,True,False,0.0,[],True, I don't think they have different television sets uh,9,task,Inform
+TS3003b,B,2062.02,2062.55,0.53,TS3003b.B.dialog-act.vkaraisk.140,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3003b,A,2062.21,2062.74,0.53,TS3003b.A.dialog-act.vkaraisk.268,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3003b,C,2062.34,2063.44,1.1,TS3003b.C.dialog-act.vkaraisk.74,A,C,4.17,1.4,False,False,0.0,[],False, in uh every country.,4,task,Inform
+TS3003b,A,2064.19,2064.62,0.43,TS3003b.A.dialog-act.vkaraisk.269,,,,,,,,,False, No.,1,task,Assess
+TS3003b,B,2064.8,2065.16,0.36,TS3003b.B.dialog-act.vkaraisk.141,,,,,,,,,False, No.,1,task,Assess
+TS3003b,C,2065.47,2066.026,0.556,TS3003b.C.dialog-act.vkaraisk.75,,,,,,,,,False, 'Cause,1,minor,Fragment
+TS3003b,A,2067.61,2070.08,2.47,TS3003b.A.dialog-act.vkaraisk.270,D,C,0.5,4.17,True,False,0.0,[],True, We've got five minutes left just now.,7,task,Inform
+TS3003b,B,2068.43,2069.37,0.94,TS3003b.B.dialog-act.vkaraisk.142,,,,,,,,,False, So,1,minor,Stall
+TS3003b,B,2069.37,2070.0,0.63,TS3003b.B.dialog-act.vkaraisk.143,,,,,,,,,False, 'Kay.,1,other,Comment-About-Understanding
+TS3003b,D,2069.67,2070.58,0.91,TS3003b.D.dialog-act.vkaraisk.223,,,,,,,,,False, 'Kay.,1,other,Comment-About-Understanding
+TS3003b,A,2070.08,2070.94,0.86,TS3003b.A.dialog-act.vkaraisk.271,,,,,,,,,False, Small warning.,2,task,Inform
+TS3003b,D,2070.58,2077.95,7.37,TS3003b.D.dialog-act.vkaraisk.224,D,A,1.0,0.5,True,False,0.0,[],True," And with uh the little screen in it, which explains the buttons. You could I think we n it would be a lot easier to",25,task,Assess
+TS3003b,A,2075.16,2075.672,0.512,TS3003b.A.dialog-act.vkaraisk.272,,,,,,,,,False, Should,1,minor,Fragment
+TS3003b,D,2078.95,2081.13,2.18,TS3003b.D.dialog-act.vkaraisk.225,A,D,0.96,1.0,False,False,0.0,[],False, adapt it to different cultures.,5,task,Assess
+TS3003b,A,2081.65,2082.09,0.44,TS3003b.A.dialog-act.vkaraisk.273,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,A,2082.09,2083.6,1.51,TS3003b.A.dialog-act.vkaraisk.274,A,D,1.62,0.96,True,False,0.0,[],True," In different languages, you know.",5,task,Inform
+TS3003b,D,2083.18,2083.47,0.29,TS3003b.D.dialog-act.vkaraisk.226,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,C,2083.37,2083.66,0.29,TS3003b.C.dialog-act.vkaraisk.76,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,A,2083.6,2083.97,0.37,TS3003b.A.dialog-act.vkaraisk.275,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,B,2083.9,2084.14,0.24,TS3003b.B.dialog-act.vkaraisk.144,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,A,2085.22,2087.94,2.72,TS3003b.A.dialog-act.vkaraisk.276,A,A,0.0,1.62,False,False,0.0,[],False," or you have to put a language button in it,",10,task,Suggest
+TS3003b,B,2086.12,2086.47,0.35,TS3003b.B.dialog-act.vkaraisk.145,,,,,,,,,False, Right.,1,minor,Backchannel
+TS3003b,A,2087.94,2090.85,2.91,TS3003b.A.dialog-act.vkaraisk.277,A,A,0.0,0.0,False,False,0.0,[],False, but that will be a bit unnecessary I think.,9,task,Assess
+TS3003b,B,2089.03,2090.19,1.16,TS3003b.B.dialog-act.vkaraisk.146,,,,,,,,,False, No. Yeah.,2,task,Assess
+TS3003b,D,2090.25,2090.57,0.32,TS3003b.D.dialog-act.vkaraisk.227,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,A,2090.85,2094.64,3.79,TS3003b.A.dialog-act.vkaraisk.278,A,A,1.51,0.0,False,False,0.0,[],False, It's better to put it on different markets with it all.,11,task,Suggest
+TS3003b,B,2093.64,2094.06,0.42,TS3003b.B.dialog-act.vkaraisk.147,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,C,2094.57,2094.82,0.25,TS3003b.C.dialog-act.vkaraisk.77,,,,,,,,,False, Yeah.,1,task,Assess
+TS3003b,A,2094.64,2096.15,1.51,TS3003b.A.dialog-act.vkaraisk.279,,,,,,,,,False, Okay. So,2,minor,Stall
+TS3003b,A,2096.15,2098.8,2.65,TS3003b.A.dialog-act.vkaraisk.280,A,A,0.0,1.51,False,False,0.0,[],False, that's the the target.,4,task,Inform
+TS3003b,A,2098.8,2103.24,4.44,TS3003b.A.dialog-act.vkaraisk.281,A,A,4.84,0.0,False,False,0.0,[],False, Uh then a few small things.,6,task,Suggest
+TS3003b,D,2104.016,2105.139,1.123,TS3003b.D.dialog-act.vkaraisk.228,,,,,,,,,False,,0,minor,Fragment
+TS3003b,A,2105.96,2108.08,2.12,TS3003b.A.dialog-act.vkaraisk.282,,,,,,,,,False, Uh okay.,2,minor,Stall
+TS3003b,A,2108.08,2112.26,4.18,TS3003b.A.dialog-act.vkaraisk.283,A,A,0.0,4.84,False,False,0.0,[],False, I will put the minutes in the project uh project document folder.,12,task,Inform
+TS3003b,A,2112.26,2121.02,8.76,TS3003b.A.dialog-act.vkaraisk.284,A,A,0.0,0.0,False,False,0.0,[],False," Um what we're going to do for the next meeting is the Industrial Designer will do the components concept,",19,task,Inform
+TS3003b,A,2121.02,2123.31,2.29,TS3003b.A.dialog-act.vkaraisk.285,A,A,1.55,0.0,False,False,0.0,[],False," User Interface Designer the user interface concept,",7,task,Inform
+TS3003b,A,2123.31,2124.32,1.01,TS3003b.A.dialog-act.vkaraisk.286,,,,,,,,,False, and the trend-watching.,3,task,Inform
+TS3003b,A,2124.58,2124.86,0.28,TS3003b.A.dialog-act.vkaraisk.287,,,,,,,,,False, So,1,minor,Stall
+TS3003b,A,2124.86,2134.93,10.07,TS3003b.A.dialog-act.vkaraisk.288,A,A,0.0,1.55,False,False,0.0,[],False," just keep in mind the things we've said about the target group, uh requirements, and the trends which are uh going on.",22,task,Suggest
+TS3003b,A,2134.93,2139.55,4.62,TS3003b.A.dialog-act.vkaraisk.289,A,A,2.44,0.0,False,False,0.0,[],False, And uh specific instructions will be sent to you by uh the personal coach.,14,task,Inform
+TS3003b,D,2140.48,2140.62,0.14,TS3003b.D.dialog-act.vkaraisk.229,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+TS3003b,A,2140.81,2141.99,1.18,TS3003b.A.dialog-act.vkaraisk.290,,,,,,,,,False, So um,2,minor,Stall
+TS3003b,A,2141.99,2143.85,1.86,TS3003b.A.dialog-act.vkaraisk.291,A,A,0.0,2.44,False,False,0.0,[],False, I thank you for this meeting.,6,other,Be-Positive
+TS3003b,A,2143.85,2146.56,2.71,TS3003b.A.dialog-act.vkaraisk.292,A,A,1.6,0.0,False,False,0.0,[],False, And I think we have a lunch-break now.,8,task,Suggest
+TS3003b,D,2147.13,2147.75,0.62,TS3003b.D.dialog-act.vkaraisk.230,,,,,,,,,False, That's good.,2,task,Assess
+TS3003b,B,2147.68,2147.86,0.18,TS3003b.B.dialog-act.vkaraisk.148,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3003b,A,2147.94,2148.16,0.22,TS3003b.A.dialog-act.vkaraisk.293,,,,,,,,,False, So,1,minor,Stall
+TS3003b,A,2148.16,2149.36,1.2,TS3003b.A.dialog-act.vkaraisk.294,,A,,1.6,False,False,0.0,[],False, that's a good thing.,4,task,Assess
+TS3003b,D,2166.179,2166.785,0.606,TS3003b.D.dialog-act.vkaraisk.231,,,,,,,,,False,,0,minor,Fragment

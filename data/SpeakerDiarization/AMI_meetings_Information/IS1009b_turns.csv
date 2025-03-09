@@ -1,0 +1,706 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+IS1009b,A,37.32,38.65,1.33,IS1009b.A.dialog-act.dharshi.1,D,,1.08,,True,False,0.0,[],False," Okay, is everybody ready?",4,elicit,Elicit-Inform
+IS1009b,C,39.06,39.27,0.21,IS1009b.C.dialog-act.dharshi.1,,,,,,,,,False, Yeah?,1,task,Inform
+IS1009b,D,39.73,42.79,3.06,IS1009b.D.dialog-act.dharshi.1,A,A,6.54,1.08,True,False,0.0,[],True, Yeah I'd to just put on my microphone here and I'll be right with you.,15,task,Inform
+IS1009b,A,43.16,43.5,0.34,IS1009b.A.dialog-act.dharshi.2,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,D,45.13,45.35,0.22,IS1009b.D.dialog-act.dharshi.2,,,,,,,,,False, Okay?,1,task,Inform
+IS1009b,A,47.17,49.33,2.16,IS1009b.A.dialog-act.dharshi.3,,,,,,,,,False, Um,1,minor,Stall
+IS1009b,A,49.33,56.55,7.22,IS1009b.A.dialog-act.dharshi.4,A,D,4.24,6.54,True,False,0.0,[],True, I take it you all have received instructions as to what you were supposed to do,16,task,Inform
+IS1009b,C,55.21,55.44,0.23,IS1009b.C.dialog-act.dharshi.2,,,,,,,,,False, Mm?,1,minor,Backchannel
+IS1009b,B,55.71,56.11,0.4,IS1009b.B.dialog-act.dharshi.1,,,,,,,,,False, Yes.,1,task,Assess
+IS1009b,A,56.55,58.69,2.14,IS1009b.A.dialog-act.dharshi.5,,,,,,,,,False, and um,2,minor,Stall
+IS1009b,A,60.79,67.33,6.54,IS1009b.A.dialog-act.dharshi.6,D,A,8.83,4.24,False,False,0.0,[],False," I think the Marketing Manager probably should go first, addressing the needs and desires.",14,task,Suggest
+IS1009b,D,75.391,76.16,0.769,IS1009b.D.dialog-act.dharshi.3,,,,,,,,,False, Okay,1,task,Assess
+IS1009b,D,76.16,77.03,0.87,IS1009b.D.dialog-act.dharshi.4,D,A,2.95,8.83,True,False,0.0,[],True, you want me to start right now?,7,elicit,Elicit-Inform
+IS1009b,A,78.43,79.03,0.6,IS1009b.A.dialog-act.dharshi.7,,,,,,,,,False," Yeah, mm-hmm.",2,task,Inform
+IS1009b,D,79.32,79.98,0.66,IS1009b.D.dialog-act.dharshi.5,,,,,,,,,False, Okay.,1,task,Assess
+IS1009b,A,79.93,80.292,0.362,IS1009b.A.dialog-act.dharshi.8,,,,,,,,,False,,0,minor,Fragment
+IS1009b,D,79.98,82.03,2.05,IS1009b.D.dialog-act.dharshi.6,D,D,0.0,2.95,False,False,0.0,[],False," Well, could you um put my slides up",8,task,Suggest
+IS1009b,D,82.03,86.44,4.41,IS1009b.D.dialog-act.dharshi.7,D,D,10.38,0.0,False,False,0.0,[],False, 'cause I think it might be helpful if uh we looked at the slides at the same time.,18,task,Inform
+IS1009b,A,86.28,86.64,0.36,IS1009b.A.dialog-act.dharshi.9,,,,,,,,,False, Okay.,1,other,Offer
+IS1009b,A,95.59,97.05,1.46,IS1009b.A.dialog-act.dharshi.10,,,,,,,,,False, You're participant four.,3,elicit,Elicit-Inform
+IS1009b,D,96.82,98.86,2.04,IS1009b.D.dialog-act.dharshi.8,A,D,2.1,10.38,False,False,0.0,[],False, I'm participant four I believe. Yes uh-huh.,7,task,Inform
+IS1009b,D,100.69,101.13,0.44,IS1009b.D.dialog-act.dharshi.9,,,,,,,,,False, 'Kay.,1,task,Assess
+IS1009b,A,100.96,103.73,2.77,IS1009b.A.dialog-act.dharshi.11,D,D,5.9,2.1,True,False,0.0,[],True," Okay, and now I can uh full screen.",8,other,Other
+IS1009b,C,104.21,104.61,0.4,IS1009b.C.dialog-act.dharshi.3,,,,,,,,,False, Open.,1,task,Inform
+IS1009b,A,106.29,107.53,1.24,IS1009b.A.dialog-act.dharshi.12,,,,,,,,,False," Uh, okay, okay.",3,task,Assess
+IS1009b,D,108.47,109.63,1.16,IS1009b.D.dialog-act.dharshi.10,,,,,,,,,False, There we go.,3,other,Other
+IS1009b,D,109.63,112.87,3.24,IS1009b.D.dialog-act.dharshi.11,C,A,-2.48,5.9,True,True,0.78,['IS1009b.C.dialog-act.dharshi.4'],True," Okay well I think we have introduced ourselves,",8,task,Inform
+IS1009b,C,110.39,111.17,0.78,IS1009b.C.dialog-act.dharshi.4,D,D,1.7,-2.48,True,False,0.0,[],False, And then full screen.,4,task,Inform
+IS1009b,D,112.87,117.67,4.8,IS1009b.D.dialog-act.dharshi.12,D,C,0.0,1.7,True,False,0.0,[],True, so the functional requirements are is is part of my goal,11,task,Inform
+IS1009b,D,117.67,119.58,1.91,IS1009b.D.dialog-act.dharshi.13,D,D,1.11,0.0,False,False,0.0,[],False, but why don't we pass right to the second slide.,10,task,Suggest
+IS1009b,D,120.69,123.34,2.65,IS1009b.D.dialog-act.dharshi.14,D,D,0.0,1.11,False,False,0.0,[],False, Cause that's where m my discussion starts.,7,task,Inform
+IS1009b,D,123.34,130.3,6.96,IS1009b.D.dialog-act.dharshi.15,D,D,0.0,0.0,False,False,0.0,[],False, Right well um since I'm in charge of trying to figure out what we should put on this thing since I have to try to sell it.,27,task,Inform
+IS1009b,C,130.02,130.29,0.27,IS1009b.C.dialog-act.dharshi.5,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,D,130.3,136.19,5.89,IS1009b.D.dialog-act.dharshi.16,D,D,0.0,0.0,False,False,0.0,[],False," Um I thought that the method I should follow would be gather suggestions from everybody,",15,task,Inform
+IS1009b,D,136.19,146.73,10.54,IS1009b.D.dialog-act.dharshi.17,D,D,0.0,0.0,False,False,0.0,[],False, and th the reason I just put that there like that is that uh in the init in the initial stage I think I should just be open to lots of suggestions.,32,task,Inform
+IS1009b,D,146.73,149.4,2.67,IS1009b.D.dialog-act.dharshi.18,D,D,0.0,0.0,False,False,0.0,[],False, You know you can say anything you want no matter how silly it sounds,14,task,Suggest
+IS1009b,D,149.4,154.0,4.6,IS1009b.D.dialog-act.dharshi.19,D,D,0.0,0.0,False,False,0.0,[],False," you know it should run your car, it should heat up your motor if should um turn on your C_D_",20,task,Suggest
+IS1009b,D,154.0,156.14,2.14,IS1009b.D.dialog-act.dharshi.20,D,D,0.0,0.0,False,False,0.0,[],False, whatever you want it to do,6,task,Suggest
+IS1009b,C,155.16,155.39,0.23,IS1009b.C.dialog-act.dharshi.6,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+IS1009b,D,156.14,165.31,9.17,IS1009b.D.dialog-act.dharshi.21,D,D,0.31,0.0,False,False,0.0,[],False, um and then as we go on what we'll have to do is accept and eliminate these suggestions according to um design and budget feasibility.,25,task,Suggest
+IS1009b,D,165.62,180.11,14.49,IS1009b.D.dialog-act.dharshi.22,D,D,0.0,0.31,False,False,0.0,[],False," So I'll be coming to you um frequently as the Industrial Expert to tell me how hard it's gonna be to add a feature or how expensive it's gonna be or if your time, if it takes five years to develop this it's just something we can't do.",48,other,Offer
+IS1009b,C,169.39,169.6,0.21,IS1009b.C.dialog-act.dharshi.7,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,171.69,172.05,0.36,IS1009b.C.dialog-act.dharshi.8,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,C,173.86,173.98,0.12,IS1009b.C.dialog-act.dharshi.9,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,C,174.57,175.03,0.46,IS1009b.C.dialog-act.dharshi.10,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,C,177.46,178.4,0.94,IS1009b.C.dialog-act.dharshi.11,,,,,,,,,False, Hmm hmm.,2,minor,Backchannel
+IS1009b,C,179.12,179.32,0.2,IS1009b.C.dialog-act.dharshi.12,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1009b,D,180.11,185.39,5.28,IS1009b.D.dialog-act.dharshi.23,D,D,0.0,0.0,False,False,0.0,[],False, So in the beginning just have a big puddle of things that we anybody can th throw anything in,19,task,Suggest
+IS1009b,C,182.06,182.36,0.3,IS1009b.C.dialog-act.dharshi.13,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,D,185.39,189.21,3.82,IS1009b.D.dialog-act.dharshi.24,D,D,0.0,0.0,False,False,0.0,[],False," and then just weed things out that can't be done for one reason or another,",15,task,Suggest
+IS1009b,D,189.21,197.78,8.57,IS1009b.D.dialog-act.dharshi.25,D,D,0.0,0.0,False,False,0.0,[],False, and then the things that seem the most attractive that to uh to a customer we'll try to then prioritise those.,21,task,Suggest
+IS1009b,C,195.35,195.62,0.27,IS1009b.C.dialog-act.dharshi.14,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,197.33,197.65,0.32,IS1009b.C.dialog-act.dharshi.15,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,D,197.78,200.47,2.69,IS1009b.D.dialog-act.dharshi.26,D,D,0.0,0.0,False,False,0.0,[],False," So that was um what I meant there,",8,task,Inform
+IS1009b,D,200.47,205.33,4.86,IS1009b.D.dialog-act.dharshi.27,D,D,0.0,0.0,False,False,0.0,[],False, and as I said on the slide there consulting the Industrial Engineer about that,14,task,Inform
+IS1009b,D,205.33,208.87,3.54,IS1009b.D.dialog-act.dharshi.28,D,D,0.0,0.0,False,False,0.0,[],False," and the other thing is timing is really gonna be as important as money,",14,task,Assess
+IS1009b,D,208.87,213.22,4.35,IS1009b.D.dialog-act.dharshi.29,D,D,0.42,0.0,False,False,0.0,[],False," because if we're gonna sell this thing, I think the best time to sell it is as a Christmas present.",20,task,Assess
+IS1009b,D,213.64,216.14,2.5,IS1009b.D.dialog-act.dharshi.30,D,D,0.0,0.42,False,False,0.0,[],False," Twenty five Euros makes a nice little present,",8,task,Inform
+IS1009b,D,216.14,218.01,1.87,IS1009b.D.dialog-act.dharshi.31,D,D,0.0,0.0,False,False,0.0,[],False," and we want it to be an impulse purchase,",9,task,Inform
+IS1009b,D,218.01,222.22,4.21,IS1009b.D.dialog-act.dharshi.32,D,D,0.0,0.0,False,False,0.0,[],False," we want somebody to see it and think it's, gee I just gotta have that.",15,task,Inform
+IS1009b,C,218.1,218.41,0.31,IS1009b.C.dialog-act.dharshi.16,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1009b,D,222.22,224.06,1.84,IS1009b.D.dialog-act.dharshi.33,D,D,0.0,0.0,False,False,0.0,[],False, And take out their wallet and buy it.,8,task,Inform
+IS1009b,D,224.06,225.84,1.78,IS1009b.D.dialog-act.dharshi.34,D,D,0.7,0.0,False,False,0.0,[],False, So it's gotta be really attractive,6,task,Suggest
+IS1009b,D,225.84,226.54,0.7,IS1009b.D.dialog-act.dharshi.35,,,,,,,,,False, and it,2,minor,Stall
+IS1009b,D,226.54,228.28,1.74,IS1009b.D.dialog-act.dharshi.36,D,D,0.0,0.7,False,False,0.0,[],False," but it's gotta go to market by September,",8,task,Suggest
+IS1009b,D,228.28,234.85,6.57,IS1009b.D.dialog-act.dharshi.37,D,D,0.0,0.0,False,False,0.0,[],False," 'cause anything that you don't already have out there in September showing it around, isn't gonna sell for Christmas.",19,task,Inform
+IS1009b,C,232.67,233.02,0.35,IS1009b.C.dialog-act.dharshi.17,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,D,234.85,247.06,12.21,IS1009b.D.dialog-act.dharshi.38,D,D,0.0,0.0,False,False,0.0,[],False, Um and then I'll be coming to you as the User Interface person to try to tell me from your point of view what are the most friendly features that we could put on it,35,other,Offer
+IS1009b,D,247.06,256.14,9.08,IS1009b.D.dialog-act.dharshi.39,D,D,0.0,0.0,False,False,0.0,[],False, and try to prior help me with that prioritising of uh of the features and of the the look and the colour,22,task,Suggest
+IS1009b,B,250.63,250.89,0.26,IS1009b.B.dialog-act.dharshi.2,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1009b,D,256.14,261.02,4.88,IS1009b.D.dialog-act.dharshi.40,D,D,0.29,0.0,False,False,0.0,[],False, and I'll be coming back to you to help weed out those suggestions from that point of view.,18,other,Offer
+IS1009b,B,260.98,261.32,0.34,IS1009b.B.dialog-act.dharshi.3,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1009b,D,261.31,265.63,4.32,IS1009b.D.dialog-act.dharshi.41,D,D,0.0,0.29,False,False,0.0,[],False," So I'll be coming to you for how much is it gonna cost us and how long is it gonna take you,",22,other,Offer
+IS1009b,C,264.84,265.54,0.7,IS1009b.C.dialog-act.dharshi.18,,,,,,,,,False, Mm mm-hmm.,2,minor,Backchannel
+IS1009b,D,265.63,271.01,5.38,IS1009b.D.dialog-act.dharshi.42,D,D,0.0,0.0,False,False,0.0,[],False," and I'll be coming to you to tell me what's gonna make somebody take out their wallet you know,",19,other,Offer
+IS1009b,B,269.25,269.98,0.73,IS1009b.B.dialog-act.dharshi.5,,,,,,,,,False, What features.,2,task,Assess
+IS1009b,D,271.01,275.24,4.23,IS1009b.D.dialog-act.dharshi.43,D,D,0.0,0.0,False,False,0.0,[],False," what what's what's gonna really be what they call a sizzle,",11,task,Inform
+IS1009b,D,275.24,278.51,3.27,IS1009b.D.dialog-act.dharshi.44,D,D,0.0,0.0,False,False,0.0,[],False, 'cause we gotta sell this sizzle.,6,task,Inform
+IS1009b,B,275.7,277.41,1.71,IS1009b.B.dialog-act.dharshi.4,,,,,,,,,False, S sellable. Yes.,3,task,Assess
+IS1009b,C,277.375,278.245,0.87,IS1009b.C.dialog-act.dharshi.19,,,,,,,,,False,,0,minor,Fragment
+IS1009b,D,278.51,290.54,12.03,IS1009b.D.dialog-act.dharshi.45,D,D,0.0,0.0,False,False,0.0,[],False, A lot of times the thing that works the best from an engineering point of view isn't the thing that somebody's really just gonna take out their wallet and buy for Christmas for for their child or for their husband or whatever.,42,task,Inform
+IS1009b,B,289.01,289.27,0.26,IS1009b.B.dialog-act.dharshi.6,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1009b,D,290.54,292.06,1.52,IS1009b.D.dialog-act.dharshi.46,D,D,2.8,0.0,False,False,0.0,[],False, Okay can we go to the next slide please?,9,task,Suggest
+IS1009b,D,294.86,299.51,4.65,IS1009b.D.dialog-act.dharshi.47,D,D,0.0,2.8,False,False,0.0,[],False, Alright I I already did a little bit of research after our first meeting where we threw out some ideas,20,task,Inform
+IS1009b,D,299.51,306.25,6.74,IS1009b.D.dialog-act.dharshi.48,D,D,0.0,0.0,False,False,0.0,[],False, and it looks to me that within the budget that we're looking at the uh the whole house idea really isn't gonna be possible.,24,task,Inform
+IS1009b,D,306.25,311.75,5.5,IS1009b.D.dialog-act.dharshi.49,D,D,0.0,0.0,False,False,0.0,[],False, So I'd like your suggestions to come back to the other slide where I was saying we we could suggest anything.,21,task,Suggest
+IS1009b,A,310.144,310.528,0.384,IS1009b.A.dialog-act.dharshi.13,,,,,,,,,False,,0,minor,Fragment
+IS1009b,D,311.75,319.95,8.2,IS1009b.D.dialog-act.dharshi.50,D,D,1.3,0.0,False,False,0.0,[],False," I'd like the suggestions to be really specific, so that we'll have a list of things we can cross off, not something like you know whole house control",28,task,Suggest
+IS1009b,D,319.95,321.25,1.3,IS1009b.D.dialog-act.dharshi.51,,,,,,,,,False, what'll be,2,minor,Fragment
+IS1009b,D,321.25,329.24,7.99,IS1009b.D.dialog-act.dharshi.52,D,D,0.0,1.3,False,False,0.0,[],False, And then I found on the internet from from my research that some extended electronic entertainment control should be possible.,20,task,Inform
+IS1009b,D,329.24,343.81,14.57,IS1009b.D.dialog-act.dharshi.53,A,D,-2.504,0.0,False,True,2.504,['IS1009b.A.dialog-act.dharshi.14'],False," At the budget that we're looking at and at the price point we're looking at, we should be able to make it work the T_V_, the V_C_R_, the stereo set um maybe something else cute like a coffee pot or one other appliance or maybe a lamp.",47,task,Inform
+IS1009b,A,341.306,346.86,5.554,IS1009b.A.dialog-act.dharshi.14,D,D,-3.05,-2.504,True,True,0.78,['IS1009b.D.dialog-act.dharshi.54'],False," Uh okay, can can I at this point interject um something?",11,other,Offer
+IS1009b,D,343.81,344.59,0.78,IS1009b.D.dialog-act.dharshi.54,A,A,2.27,-3.05,True,False,0.0,[],False, I have to wind up?,5,elicit,Elicit-Inform
+IS1009b,D,345.68,346.38,0.7,IS1009b.D.dialog-act.dharshi.55,,,,,,,,,False," Yeah, sure.",2,task,Assess
+IS1009b,A,346.86,353.55,6.69,IS1009b.A.dialog-act.dharshi.15,A,D,0.0,2.27,True,False,0.0,[],True, Um we have received instruction from higher up that certain things should not be uh considered.,16,task,Inform
+IS1009b,D,353.2,353.6,0.4,IS1009b.D.dialog-act.dharshi.56,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1009b,A,353.55,358.85,5.3,IS1009b.A.dialog-act.dharshi.16,A,A,0.0,0.0,False,False,0.0,[],False," Um the one thing for example something to eliminate maybe that's the teletext,",13,task,Inform
+IS1009b,A,358.85,362.62,3.77,IS1009b.A.dialog-act.dharshi.19,A,A,0.0,0.0,False,False,0.0,[],False," because that's sort of outdated with the internet,",8,task,Inform
+IS1009b,D,361.11,361.46,0.35,IS1009b.D.dialog-act.dharshi.57,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1009b,C,361.5,361.68,0.18,IS1009b.C.dialog-act.dharshi.20,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,A,362.62,370.62,8.0,IS1009b.A.dialog-act.dharshi.18,A,A,0.0,0.0,False,False,0.0,[],False," and according to to higher management the it should only control the T_V_,",13,task,Inform
+IS1009b,D,362.632,363.296,0.664,IS1009b.D.dialog-act.dharshi.58,,,,,,,,,False,,0,minor,Fragment
+IS1009b,A,370.62,378.64,8.02,IS1009b.A.dialog-act.dharshi.20,C,A,-4.25,0.0,False,True,1.43,['IS1009b.C.dialog-act.dharshi.21'],False," mostly because they feel that it's too comp complex a task to um to to include other things,",18,task,Inform
+IS1009b,C,374.39,375.82,1.43,IS1009b.C.dialog-act.dharshi.21,A,A,2.82,-4.25,True,False,0.0,[],False," Complicated, yeah, of course.",4,task,Assess
+IS1009b,A,378.64,381.07,2.43,IS1009b.A.dialog-act.dharshi.21,A,C,3.37,2.82,True,False,0.0,[],True, and they are concerned with the time to market.,9,task,Inform
+IS1009b,C,381.27,381.44,0.17,IS1009b.C.dialog-act.dharshi.22,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,D,381.32,382.12,0.8,IS1009b.D.dialog-act.dharshi.59,,,,,,,,,False," Of course, yeah.",3,task,Assess
+IS1009b,B,381.85,382.38,0.53,IS1009b.B.dialog-act.dharshi.7,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1009b,A,381.97,382.85,0.88,IS1009b.A.dialog-act.dharshi.22,,,,,,,,,False, Okay.,1,minor,Stall
+IS1009b,A,382.85,384.44,1.59,IS1009b.A.dialog-act.dharshi.23,,,,,,,,,False, Um and the,3,minor,Stall
+IS1009b,D,383.08,384.4,1.32,IS1009b.D.dialog-act.dharshi.60,,,,,,,,,False," Okay, so that's something",4,minor,Fragment
+IS1009b,A,384.44,395.08,10.64,IS1009b.A.dialog-act.dharshi.24,A,A,0.0,3.37,False,False,0.0,[],False," and the third thing that they wanna make sure um that their that the corporate image is being maintained, and that the corporate colour and design are being used on the product,",32,task,Inform
+IS1009b,A,395.08,407.04,11.96,IS1009b.A.dialog-act.dharshi.25,A,A,0.0,0.0,False,False,0.0,[],False," so that it's easy that that that they can be easily identified as a product of of of the company, and that there's no mistake that it could be somebody else who is bringing this out.",36,task,Inform
+IS1009b,C,404.12,404.34,0.22,IS1009b.C.dialog-act.dharshi.23,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,A,407.04,413.53,6.49,IS1009b.A.dialog-act.dharshi.26,A,A,0.0,0.0,False,False,0.0,[],False, So I just wanted to interject this here so we're not getting too much off track here with uh with the things we wanna look at.,26,task,Inform
+IS1009b,A,413.53,418.07,4.54,IS1009b.A.dialog-act.dharshi.27,A,A,0.0,0.0,False,False,0.0,[],False," These were instructions from higher up so we have to eliminate uh these things,",14,task,Inform
+IS1009b,A,418.07,419.95,1.88,IS1009b.A.dialog-act.dharshi.28,A,A,0.0,0.0,False,False,0.0,[],False," so it's only gonna be T_V_,",6,task,Inform
+IS1009b,D,418.2,418.57,0.37,IS1009b.D.dialog-act.dharshi.61,,,,,,,,,False, Okay,1,task,Assess
+IS1009b,D,418.57,418.959,0.389,IS1009b.D.dialog-act.dharshi.62,,,,,,,,,False, so,1,minor,Fragment
+IS1009b,A,419.95,425.1,5.15,IS1009b.A.dialog-act.dharshi.29,D,A,3.28,0.0,False,False,0.0,[],False, but the one thing maybe that could be um eliminated is the teletext uh idea.,15,task,Inform
+IS1009b,D,425.4,425.74,0.34,IS1009b.D.dialog-act.dharshi.63,,,,,,,,,False, Okay.,1,task,Assess
+IS1009b,A,426.38,427.29,0.91,IS1009b.A.dialog-act.dharshi.30,,,,,,,,,False, Mm 'kay.,2,elicit,Elicit-Assessment
+IS1009b,B,426.99,427.55,0.56,IS1009b.B.dialog-act.dharshi.8,,,,,,,,,False, Okay.,1,task,Assess
+IS1009b,D,427.0,427.41,0.41,IS1009b.D.dialog-act.dharshi.64,,,,,,,,,False," Alright,",1,task,Assess
+IS1009b,D,427.41,428.38,0.97,IS1009b.D.dialog-act.dharshi.65,,,,,,,,,False, thanks for that.,3,other,Be-Positive
+IS1009b,D,428.38,437.38,9.0,IS1009b.D.dialog-act.dharshi.66,D,A,0.0,3.28,True,False,0.0,[],True, Um alright now other things that I found out on in my research is that the complaints that people have about the remote controls that are out there now.,29,task,Inform
+IS1009b,D,437.38,440.93,3.55,IS1009b.D.dialog-act.dharshi.67,D,D,0.0,0.0,False,False,0.0,[],False," 'Cause a lot of them take too much time to learn how to use,",14,task,Inform
+IS1009b,D,440.93,443.17,2.24,IS1009b.D.dialog-act.dharshi.68,D,D,0.0,0.0,False,False,0.0,[],False, and that was thirty four percent,6,task,Inform
+IS1009b,D,443.17,449.0,5.83,IS1009b.D.dialog-act.dharshi.69,D,D,0.0,0.0,False,False,0.0,[],False, but even more important the thing that we did address in our last meeting that frequently it's lost somewhere in the room.,22,task,Inform
+IS1009b,D,449.0,453.88,4.88,IS1009b.D.dialog-act.dharshi.70,D,D,0.0,0.0,False,False,0.0,[],False," Um so those are two things that we definitely do wanna address,",12,task,Suggest
+IS1009b,D,453.88,456.44,2.56,IS1009b.D.dialog-act.dharshi.71,D,D,0.0,0.0,False,False,0.0,[],False," uh we wanna s make it as simple as possible,",10,task,Suggest
+IS1009b,D,456.44,460.99,4.55,IS1009b.D.dialog-act.dharshi.72,D,D,0.0,0.0,False,False,0.0,[],False," we wanna make it um obvious and intuitive to use,",10,task,Suggest
+IS1009b,D,460.99,465.99,5.0,IS1009b.D.dialog-act.dharshi.73,D,D,0.0,0.0,False,False,0.0,[],False, and then the things about finding it,7,task,Inform
+IS1009b,D,465.99,471.6,5.61,IS1009b.D.dialog-act.dharshi.74,D,D,0.0,0.0,False,False,0.0,[],False," we talked about the a light emitting thing as well as uh maybe a beep,",15,task,Inform
+IS1009b,D,471.6,477.34,5.74,IS1009b.D.dialog-act.dharshi.75,D,D,0.0,0.0,False,False,0.0,[],False, and I think that those are things after my research that we definitely wanna try to incorporate.,17,task,Suggest
+IS1009b,D,477.34,478.73,1.39,IS1009b.D.dialog-act.dharshi.76,D,D,0.92,0.0,False,False,0.0,[],False, 'Kay can we go to the next slide please?,9,task,Suggest
+IS1009b,D,479.65,487.37,7.72,IS1009b.D.dialog-act.dharshi.77,D,D,0.0,0.92,False,False,0.0,[],False," Okay, so, my personal preferences in this um project are really have to concentrate on the sizzle.",17,task,Suggest
+IS1009b,D,487.37,491.69,4.32,IS1009b.D.dialog-act.dharshi.78,D,D,0.0,0.0,False,False,0.0,[],False," That is the selling point, the thing that's gonna make it an impulse purchase.",14,task,Inform
+IS1009b,D,491.69,494.53,2.84,IS1009b.D.dialog-act.dharshi.79,D,D,0.0,0.0,False,False,0.0,[],False," Uh because once there's no be-back,",6,task,Inform
+IS1009b,D,494.53,498.02,3.49,IS1009b.D.dialog-act.dharshi.80,D,D,0.0,0.0,False,False,0.0,[],False," well in sales they always say you know, be-backs don't come back.",12,task,Inform
+IS1009b,C,497.664,498.0,0.336,IS1009b.C.dialog-act.dharshi.24,,,,,,,,,False,,0,minor,Fragment
+IS1009b,D,498.02,501.07,3.05,IS1009b.D.dialog-act.dharshi.81,D,D,0.0,0.0,False,False,0.0,[],False," If somebody says, oh I'll come back and get it next week you're dead.",14,task,Inform
+IS1009b,D,501.07,502.5,1.43,IS1009b.D.dialog-act.dharshi.82,D,D,0.0,0.0,False,False,0.0,[],False, They're never gonna come back and buy it.,8,task,Inform
+IS1009b,D,502.5,505.9,3.4,IS1009b.D.dialog-act.dharshi.83,D,D,0.0,0.0,False,False,0.0,[],False, You've gotta make it attractive enough so they buy it now now now w,14,task,Inform
+IS1009b,D,505.9,509.83,3.93,IS1009b.D.dialog-act.dharshi.84,D,D,0.71,0.0,False,False,0.0,[],False, now is a big word in in my book for selling this thing.,13,task,Inform
+IS1009b,D,510.54,518.32,7.78,IS1009b.D.dialog-act.dharshi.85,D,D,0.0,0.71,False,False,0.0,[],False," And, in order to make it really sellable we've gotta shorten the learning curve, make sure it's really intuitive and easy to use.",23,task,Suggest
+IS1009b,D,518.32,521.45,3.13,IS1009b.D.dialog-act.dharshi.87,D,D,0.0,0.0,False,False,0.0,[],False," We have to have as few buttons as possible,",9,task,Suggest
+IS1009b,D,521.45,523.76,2.31,IS1009b.D.dialog-act.dharshi.88,D,D,0.0,0.0,False,False,0.0,[],False," because more buttons is more confusion,",6,task,Inform
+IS1009b,D,523.76,526.03,2.27,IS1009b.D.dialog-act.dharshi.89,D,D,0.0,0.0,False,False,0.0,[],False," so that's why I'm saying, simplicity is good.",8,task,Assess
+IS1009b,D,526.03,528.95,2.92,IS1009b.D.dialog-act.dharshi.90,D,D,0.0,0.0,False,False,0.0,[],False," Finding it's important, obviously you can't use it if you can't find it.",13,task,Inform
+IS1009b,D,528.95,532.27,3.32,IS1009b.D.dialog-act.dharshi.91,D,D,0.0,0.0,False,False,0.0,[],False," So we've gotta concentrate on the features that help you find it,",12,task,Suggest
+IS1009b,D,532.27,535.66,3.39,IS1009b.D.dialog-act.dharshi.92,D,D,0.0,0.0,False,False,0.0,[],False," and I've already said this several times but I put it down in writing here,",15,task,Inform
+IS1009b,D,535.66,539.11,3.45,IS1009b.D.dialog-act.dharshi.93,D,D,0.0,0.0,False,False,0.0,[],False, it should be an attractive impulse purchase at twenty five Euros.,11,task,Inform
+IS1009b,D,539.11,544.76,5.65,IS1009b.D.dialog-act.dharshi.94,D,D,0.0,0.0,False,False,0.0,[],False," So it has to have enough value that when somebody looks at it they say, uh twenty five Euros I'm not gonna take that.",24,task,Inform
+IS1009b,D,544.76,549.21,4.45,IS1009b.D.dialog-act.dharshi.95,D,D,0.0,0.0,False,False,0.0,[],False," Has to be so great that they're gonna say, uh twenty five Euros isn't much.",15,task,Inform
+IS1009b,D,549.21,556.96,7.75,IS1009b.D.dialog-act.dharshi.96,D,D,0.0,0.0,False,False,0.0,[],False," Um and then maybe a motto, like we put fashion in electronics might be something we can use in our marketing campaign.",22,task,Suggest
+IS1009b,C,556.58,556.82,0.24,IS1009b.C.dialog-act.dharshi.25,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,D,556.96,558.95,1.99,IS1009b.D.dialog-act.dharshi.97,A,D,7.04,0.0,False,False,0.0,[],False, Okay that's uh about it for me right now.,9,task,Inform
+IS1009b,A,559.536,560.07,0.534,IS1009b.A.dialog-act.dharshi.31,,,,,,,,,False, Okay.,1,task,Assess
+IS1009b,A,563.03,564.6,1.57,IS1009b.A.dialog-act.dharshi.32,,,,,,,,,False, And uh,2,minor,Stall
+IS1009b,A,565.99,568.13,2.14,IS1009b.A.dialog-act.dharshi.33,A,D,0.0,7.04,True,False,0.0,[],True," who would be next, uh,",5,other,Other
+IS1009b,A,568.13,571.57,3.44,IS1009b.A.dialog-act.dharshi.34,A,A,0.72,0.0,False,False,0.0,[],False, I guess that would be you.,6,task,Inform
+IS1009b,C,571.19,571.88,0.69,IS1009b.C.dialog-act.dharshi.26,,,,,,,,,False, Yeah 'kay.,2,other,Offer
+IS1009b,A,571.57,572.29,0.72,IS1009b.A.dialog-act.dharshi.35,,,,,,,,,False, Mm-hmm.,1,task,Assess
+IS1009b,A,572.29,574.49,2.2,IS1009b.A.dialog-act.dharshi.36,A,A,6.33,0.72,False,False,0.0,[],False, You want me to get your slide show up?,9,other,Offer
+IS1009b,C,573.35,574.55,1.2,IS1009b.C.dialog-act.dharshi.27,,,,,,,,,False, Yeah yeah sure.,3,task,Assess
+IS1009b,A,574.49,574.8,0.31,IS1009b.A.dialog-act.dharshi.37,,,,,,,,,False, Mm-hmm.,1,task,Assess
+IS1009b,C,574.55,574.98,0.43,IS1009b.C.dialog-act.dharshi.28,,,,,,,,,False, Thank you.,2,other,Be-Positive
+IS1009b,A,580.82,583.19,2.37,IS1009b.A.dialog-act.dharshi.38,C,A,10.57,6.33,False,False,0.0,[],False, And you are number three?,5,elicit,Elicit-Inform
+IS1009b,C,582.47,583.23,0.76,IS1009b.C.dialog-act.dharshi.29,,,,,,,,,False," Number two,",2,task,Inform
+IS1009b,A,583.19,583.66,0.47,IS1009b.A.dialog-act.dharshi.39,,,,,,,,,False, Number two.,2,other,Comment-About-Understanding
+IS1009b,C,583.23,583.8,0.57,IS1009b.C.dialog-act.dharshi.30,,,,,,,,,False, yeah.,1,task,Assess
+IS1009b,C,590.93,591.58,0.65,IS1009b.C.dialog-act.dharshi.31,,,,,,,,,False, Yeah exactly.,2,task,Assess
+IS1009b,A,591.62,592.17,0.55,IS1009b.A.dialog-act.dharshi.40,,,,,,,,,False, Okay.,1,task,Assess
+IS1009b,C,593.76,595.94,2.18,IS1009b.C.dialog-act.dharshi.32,C,A,3.59,10.57,True,False,0.0,[],True, Uh can you make it uh full screen please?,9,task,Suggest
+IS1009b,A,594.24,594.66,0.42,IS1009b.A.dialog-act.dharshi.41,,,,,,,,,False, Okay.,1,other,Offer
+IS1009b,A,595.82,596.14,0.32,IS1009b.A.dialog-act.dharshi.42,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,A,598.28,598.62,0.34,IS1009b.A.dialog-act.dharshi.43,,,,,,,,,False, Yep.,1,minor,Backchannel
+IS1009b,C,598.41,598.69,0.28,IS1009b.C.dialog-act.dharshi.33,,,,,,,,,False," No,",1,task,Inform
+IS1009b,C,598.69,599.53,0.84,IS1009b.C.dialog-act.dharshi.34,,,,,,,,,False, it's like a,3,minor,Stall
+IS1009b,C,599.53,601.25,1.72,IS1009b.C.dialog-act.dharshi.35,C,C,1.2,3.59,False,False,0.0,[],False, well you you have to press here.,7,task,Inform
+IS1009b,D,602.16,602.662,0.502,IS1009b.D.dialog-act.dharshi.98,,,,,,,,,False,,0,minor,Fragment
+IS1009b,C,602.45,605.21,2.76,IS1009b.C.dialog-act.dharshi.36,C,C,4.73,1.2,False,False,0.0,[],False, The cup cup shape here?,5,elicit,Elicit-Comment-Understanding
+IS1009b,A,604.55,605.26,0.71,IS1009b.A.dialog-act.dharshi.44,,,,,,,,,False," Yeah yeah, uh-huh.",3,other,Comment-About-Understanding
+IS1009b,C,605.21,605.93,0.72,IS1009b.C.dialog-act.dharshi.37,,,,,,,,,False, The thir third.,3,task,Inform
+IS1009b,C,607.71,609.94,2.23,IS1009b.C.dialog-act.dharshi.38,,,,,,,,,False, Yeah exactly.,2,task,Assess
+IS1009b,A,607.98,608.71,0.73,IS1009b.A.dialog-act.dharshi.45,,,,,,,,,False," There, mm-hmm.",2,task,Assess
+IS1009b,C,609.94,613.73,3.79,IS1009b.C.dialog-act.dharshi.39,C,C,0.0,4.73,False,False,0.0,[],False, Uh so today I'm going to talk about the working design of the remote controller.,15,task,Inform
+IS1009b,D,613.3,613.63,0.33,IS1009b.D.dialog-act.dharshi.99,,,,,,,,,False, Okay.,1,task,Assess
+IS1009b,C,613.73,616.44,2.71,IS1009b.C.dialog-act.dharshi.40,C,C,3.21,0.0,False,False,0.0,[],False, Um can you go to the next sli slide please?,10,task,Suggest
+IS1009b,A,616.32,616.63,0.31,IS1009b.A.dialog-act.dharshi.46,,,,,,,,,False, Mm-hmm.,1,other,Offer
+IS1009b,C,618.32,619.65,1.33,IS1009b.C.dialog-act.dharshi.41,,,,,,,,,False, The metal is like uh,5,minor,Fragment
+IS1009b,C,619.65,625.93,6.28,IS1009b.C.dialog-act.dharshi.42,C,C,0.0,3.21,False,False,0.0,[],False, in a remote controller you have a chip integrated circuit which is like a brain of the remote controller.,19,task,Inform
+IS1009b,C,625.93,628.26,2.33,IS1009b.C.dialog-act.dharshi.43,C,C,0.0,0.0,False,False,0.0,[],False, It takes the power from a battery,7,task,Inform
+IS1009b,C,628.26,639.41,11.15,IS1009b.C.dialog-act.dharshi.44,C,C,0.0,0.0,False,False,0.0,[],False, say a battery it it can be a elec an electric supply like you have to uh like uh switch connec connect connect your remote controller to uh power supply from the you know electricity or something like that.,39,task,Inform
+IS1009b,C,639.41,646.12,6.71,IS1009b.C.dialog-act.dharshi.45,C,C,1.91,0.0,False,False,0.0,[],False, It should be a battery because uh uh remote controller should be like you you you should take it t to wherever you want,24,task,Inform
+IS1009b,D,645.78,646.16,0.38,IS1009b.D.dialog-act.dharshi.100,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,646.12,648.03,1.91,IS1009b.C.dialog-act.dharshi.46,,,,,,,,,False, and then um uh th,5,minor,Stall
+IS1009b,C,648.03,651.48,3.45,IS1009b.C.dialog-act.dharshi.47,C,C,0.0,1.91,False,False,0.0,[],False, this integrated circuitry takes energy from the power source,9,task,Inform
+IS1009b,C,651.48,656.2,4.72,IS1009b.C.dialog-act.dharshi.48,C,C,0.0,0.0,False,False,0.0,[],False, and whatever like if you press a button it's like a input for the remote controller,16,task,Inform
+IS1009b,C,656.2,666.01,9.81,IS1009b.C.dialog-act.dharshi.49,C,C,0.42,0.0,False,False,0.0,[],False," and it takes the input and it it transforms into a infro infrared bits and it sends it into the device, like a T_V_ or a air conditioner, something like that so.",32,task,Inform
+IS1009b,C,666.43,670.27,3.84,IS1009b.C.dialog-act.dharshi.50,C,C,0.0,0.42,False,False,0.0,[],False, Uh a remote controller is specifically designed to a single device.,11,task,Inform
+IS1009b,C,670.27,676.81,6.54,IS1009b.C.dialog-act.dharshi.51,C,C,0.0,0.0,False,False,0.0,[],False, If you want to design it for multiple devices then you should make all the devices compatible with the frequency,20,task,Inform
+IS1009b,C,676.81,683.73,6.92,IS1009b.C.dialog-act.dharshi.52,C,C,0.0,0.0,False,False,0.0,[],False, like uh th the remote controller it sends some bits some uh waves like with a particular frequency,18,task,Inform
+IS1009b,C,683.73,686.29,2.56,IS1009b.C.dialog-act.dharshi.53,C,C,0.0,0.0,False,False,0.0,[],False, the device should know what the frequency is.,8,task,Inform
+IS1009b,C,686.29,692.97,6.68,IS1009b.C.dialog-act.dharshi.54,C,C,0.0,0.0,False,False,0.0,[],False, It should re re recognise the uh waves which are coming from the remote controller and it should take the action,21,task,Inform
+IS1009b,C,692.97,701.47,8.5,IS1009b.C.dialog-act.dharshi.55,C,C,0.0,0.0,False,False,0.0,[],False," like if you press a button channel or something like that then uh the remote uh remote controller will send a send a se send a signal,",27,task,Inform
+IS1009b,D,699.776,700.61,0.834,IS1009b.D.dialog-act.dharshi.101,,,,,,,,,False, Signal.,1,task,Inform
+IS1009b,C,701.47,709.46,7.99,IS1009b.C.dialog-act.dharshi.56,C,C,0.0,0.0,False,False,0.0,[],False," and the T_V_ it should translate that into like change the channel or something like that, change the volume control",20,task,Inform
+IS1009b,B,703.62,704.2,0.58,IS1009b.B.dialog-act.dharshi.9,,,,,,,,,False, Receive.,1,task,Inform
+IS1009b,D,707.08,707.38,0.3,IS1009b.D.dialog-act.dharshi.102,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,A,708.64,708.93,0.29,IS1009b.A.dialog-act.dharshi.47,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,709.46,716.0,6.54,IS1009b.C.dialog-act.dharshi.57,D,C,0.5,0.0,False,False,0.0,[],False, and uh so uh I think it's hard to design a remote controller for multiple uh devices.,17,task,Inform
+IS1009b,B,715.86,716.43,0.57,IS1009b.B.dialog-act.dharshi.10,,,,,,,,,False, Multi-purpose.,1,minor,Backchannel
+IS1009b,D,716.5,722.92,6.42,IS1009b.D.dialog-act.dharshi.103,C,C,3.36,0.5,True,False,0.0,[],True," Yeah well that's already been eliminated by management, so we're off the hook.",13,task,Assess
+IS1009b,A,716.92,718.19,1.27,IS1009b.A.dialog-act.dharshi.48,,,,,,,,,False, Yo and it's,3,minor,Fragment
+IS1009b,A,718.19,718.98,0.79,IS1009b.A.dialog-act.dharshi.49,,,,,,,,,False, yeah,1,task,Assess
+IS1009b,C,718.51,719.05,0.54,IS1009b.C.dialog-act.dharshi.58,,,,,,,,,False, Uh yeah.,2,task,Assess
+IS1009b,A,718.98,722.5,3.52,IS1009b.A.dialog-act.dharshi.50,,,,,,,,,False, but it's so.,3,minor,Fragment
+IS1009b,C,719.831,722.179,2.348,IS1009b.C.dialog-act.dharshi.59,,,,,,,,,False,,0,minor,Fragment
+IS1009b,C,723.52,724.03,0.51,IS1009b.C.dialog-act.dharshi.60,,,,,,,,,False, Um.,1,minor,Stall
+IS1009b,A,723.57,723.92,0.35,IS1009b.A.dialog-act.dharshi.51,,,,,,,,,False, Yep.,1,minor,Backchannel
+IS1009b,C,726.28,729.97,3.69,IS1009b.C.dialog-act.dharshi.61,C,D,0.0,3.36,True,False,0.0,[],True, So uh user interface controls the chip and accordingly the messages,11,task,Inform
+IS1009b,C,729.97,732.76,2.79,IS1009b.C.dialog-act.dharshi.62,C,C,0.0,0.0,False,False,0.0,[],False, like there should be a user user in interface,9,task,Inform
+IS1009b,C,732.76,736.53,3.77,IS1009b.C.dialog-act.dharshi.63,C,C,0.0,0.0,False,False,0.0,[],False, like you know switch pad or something like that buttons should be there.,13,task,Inform
+IS1009b,C,736.53,738.67,2.14,IS1009b.C.dialog-act.dharshi.64,C,C,0.0,0.0,False,False,0.0,[],False," So uh you can control whatever you want,",8,task,Inform
+IS1009b,C,738.67,753.63,14.96,IS1009b.C.dialog-act.dharshi.65,C,C,0.0,0.0,False,False,0.0,[],False, you want to change the channel you want to control the volume you you want to uh mute uh mute the uh T_V_ or you want to have a child lock or you want to do some operations there's a there should be some device to tell what to do to the uh in uh integrated circuit,57,task,Inform
+IS1009b,C,753.63,760.4,6.77,IS1009b.C.dialog-act.dharshi.66,C,C,0.71,0.0,False,False,0.0,[],False, so that the integrated circuit can s send the signals and T_V_ can perform the actions.,16,task,Inform
+IS1009b,D,753.99,754.59,0.6,IS1009b.D.dialog-act.dharshi.104,,,,,,,,,False, Mm okay.,2,minor,Backchannel
+IS1009b,C,761.11,763.15,2.04,IS1009b.C.dialog-act.dharshi.67,C,C,0.67,0.71,False,False,0.0,[],False, So can you go to the next slide please?,9,task,Suggest
+IS1009b,D,762.34,762.95,0.61,IS1009b.D.dialog-act.dharshi.105,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1009b,C,763.82,768.71,4.89,IS1009b.C.dialog-act.dharshi.68,C,C,0.0,0.67,False,False,0.0,[],False, So I I just would like to uh add some extra features to the remote controller,16,other,Offer
+IS1009b,D,768.59,769.11,0.52,IS1009b.D.dialog-act.dharshi.106,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,768.71,777.21,8.5,IS1009b.C.dialog-act.dharshi.69,C,C,0.0,0.0,False,False,0.0,[],False," um I think these are the very simple features and uh they don't take much uh uh much of the um um investment also,",24,task,Assess
+IS1009b,C,777.21,787.96,10.75,IS1009b.C.dialog-act.dharshi.70,C,C,0.0,0.0,False,False,0.0,[],False, it's like el the text or buttons which uh which are there on the uh remote controller they those we can make uh um like fluorescent,26,task,Suggest
+IS1009b,D,787.47,787.8,0.33,IS1009b.D.dialog-act.dharshi.107,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,787.96,794.12,6.16,IS1009b.C.dialog-act.dharshi.71,C,C,0.94,0.0,False,False,0.0,[],False, uh they'll be like light emitting if it is dark so that you can find your remote controller if it is dark.,22,task,Inform
+IS1009b,C,795.06,798.51,3.45,IS1009b.C.dialog-act.dharshi.72,C,C,0.0,0.94,False,False,0.0,[],False, And ther there should be a beep if many buttons are pressed,12,task,Suggest
+IS1009b,C,798.51,815.15,16.64,IS1009b.C.dialog-act.dharshi.73,C,C,0.0,0.0,False,False,0.0,[],False," if suppose a child is playing with the remote controller and a and she she or he is pressing the buttons all at the time then there should be a beep saying that it's this this is not a a you know a a action, there can be no action taking to that so.",54,task,Inform
+IS1009b,C,815.15,816.9,1.75,IS1009b.C.dialog-act.dharshi.74,C,C,0.0,0.0,False,False,0.0,[],False," And there should be a child lock,",7,task,Suggest
+IS1009b,C,816.9,831.82,14.92,IS1009b.C.dialog-act.dharshi.75,C,C,0.0,0.0,False,False,0.0,[],False, like uh uh you should be able to lock your remote controller so that uh um whatever buttons are pressed by a child they can't be like y you i you if you have ki kids and all then they'll be pl playing with the remote controllers so can lock the remote controller.,53,task,Inform
+IS1009b,C,831.82,837.15,5.33,IS1009b.C.dialog-act.dharshi.76,A,C,-0.22,0.0,False,True,0.22,"['IS1009b.A.dialog-act.dharshi.53', 'IS1009b.D.dialog-act.dharshi.108']",False, If make it useable for more than one device it's a it's hard but I think it's possible,18,task,Assess
+IS1009b,A,835.85,836.93,1.08,IS1009b.A.dialog-act.dharshi.52,,,,,,,,,False, Yeah well,2,minor,Stall
+IS1009b,A,836.93,842.36,5.43,IS1009b.A.dialog-act.dharshi.53,D,C,-5.26,-0.22,True,True,2.7,"['IS1009b.D.dialog-act.dharshi.108', 'IS1009b.C.dialog-act.dharshi.80']",False," yeah well that has been e that has been eliminated, so that's that's unfortunately a moot point now. Mm-hmm.",19,task,Inform
+IS1009b,D,837.1,839.26,2.16,IS1009b.D.dialog-act.dharshi.108,C,A,0.4,-5.26,True,False,0.0,[],False, Well we already eliminated that.,5,task,Inform
+IS1009b,C,837.15,837.82,0.67,IS1009b.C.dialog-act.dharshi.77,,,,,,,,,False, but it uh,3,minor,Stall
+IS1009b,C,837.82,839.66,1.84,IS1009b.C.dialog-act.dharshi.79,,,,,,,,,False, yeah yeah yeah,3,task,Assess
+IS1009b,B,838.76,839.27,0.51,IS1009b.B.dialog-act.dharshi.11,,,,,,,,,False, Eliminated.,1,minor,Backchannel
+IS1009b,C,839.66,842.45,2.79,IS1009b.C.dialog-act.dharshi.80,C,D,0.0,0.4,True,False,0.0,[],True," so it's it's okay, yeah, yeah.",6,task,Assess
+IS1009b,C,842.45,844.59,2.14,IS1009b.C.dialog-act.dharshi.81,C,C,0.0,0.0,False,False,0.0,[],False, And uh different shapes that we can do,8,task,Suggest
+IS1009b,C,844.59,851.71,7.12,IS1009b.C.dialog-act.dharshi.83,D,C,1.29,0.0,False,False,0.0,[],False, like uh we can have you know a all animals shapes or you know comfortable uh whi which can fit into your hands,23,task,Suggest
+IS1009b,A,849.152,849.607,0.455,IS1009b.A.dialog-act.dharshi.54,,,,,,,,,False,,0,minor,Fragment
+IS1009b,C,851.71,853.648,1.938,IS1009b.C.dialog-act.dharshi.85,,,,,,,,,False, and um so that uh,5,minor,Fragment
+IS1009b,D,853.0,857.0,4.0,IS1009b.D.dialog-act.dharshi.109,C,C,-1.05,1.29,True,True,1.05,['IS1009b.C.dialog-act.dharshi.87'],True," Now that's good from a marketing point of view, the fun the fun shape.",14,task,Assess
+IS1009b,C,854.88,855.95,1.07,IS1009b.C.dialog-act.dharshi.86,,,,,,,,,False," Yeah, yeah, yeah",3,task,Assess
+IS1009b,C,855.95,858.06,2.11,IS1009b.C.dialog-act.dharshi.87,D,D,-0.69,-1.05,True,True,0.69,['IS1009b.D.dialog-act.dharshi.111'],False," and colours also, different colours, and",6,task,Suggest
+IS1009b,A,857.0,857.44,0.44,IS1009b.A.dialog-act.dharshi.55,,,,,,,,,False, Yeah I,2,minor,Fragment
+IS1009b,D,857.0,857.37,0.37,IS1009b.D.dialog-act.dharshi.110,,,,,,,,,False, And that,2,minor,Stall
+IS1009b,B,857.27,857.77,0.5,IS1009b.B.dialog-act.dharshi.12,,,,,,,,,False, Mm-hmm colours.,2,minor,Backchannel
+IS1009b,D,857.37,859.82,2.45,IS1009b.D.dialog-act.dharshi.111,C,C,0.27,-0.69,True,False,0.0,[],False, you you say that won't add too much to the budget?,11,elicit,Elicit-Inform
+IS1009b,D,859.82,861.728,1.908,IS1009b.D.dialog-act.dharshi.112,,,,,,,,,False, To d the shape is uh,6,minor,Fragment
+IS1009b,C,860.09,862.37,2.28,IS1009b.C.dialog-act.dharshi.88,A,D,2.0,0.27,True,False,0.0,[],True," No no no, it won't uh I don't think it will be like,",13,task,Inform
+IS1009b,C,862.37,865.779,3.409,IS1009b.C.dialog-act.dharshi.89,,,,,,,,,False, you can have you know for uh if you want ther there to be more,15,minor,Fragment
+IS1009b,A,864.37,867.48,3.11,IS1009b.A.dialog-act.dharshi.56,C,C,-0.65,2.0,True,True,0.65,['IS1009b.C.dialog-act.dharshi.91'],True, It just build a mould basically and uh you know.,10,task,Inform
+IS1009b,C,866.27,866.83,0.56,IS1009b.C.dialog-act.dharshi.90,,,,,,,,,False, Yeah yeah.,2,task,Assess
+IS1009b,C,866.83,869.26,2.43,IS1009b.C.dialog-act.dharshi.91,A,A,0.02,-0.65,True,False,0.0,[],False, It's it's just a s shape so it doesn't matter.,10,task,Inform
+IS1009b,B,867.14,868.06,0.92,IS1009b.B.dialog-act.dharshi.13,,,,,,,,,False, Yes exactly.,2,task,Assess
+IS1009b,A,869.28,874.688,5.408,IS1009b.A.dialog-act.dharshi.57,D,C,0.882,0.02,True,False,0.0,[],True, As the budget we're looking at if you build one mould I don't think that's going to make a big difference whether it's gonna be square or,27,task,Inform
+IS1009b,C,871.8,872.32,0.52,IS1009b.C.dialog-act.dharshi.92,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,D,875.57,882.67,7.1,IS1009b.D.dialog-act.dharshi.113,C,A,0.33,0.882,True,False,0.0,[],True, Do you think there's any chance of um having ser in having basically the same machine with the same buttons but maybe several different shapes?,25,elicit,Elicit-Assessment
+IS1009b,C,883.0,885.7,2.7,IS1009b.C.dialog-act.dharshi.93,D,D,-1.54,0.33,True,True,0.88,"['IS1009b.D.dialog-act.dharshi.114', 'IS1009b.D.dialog-act.dharshi.115']",True, Yeah that is also possible I uh yeah I I yeah.,11,task,Assess
+IS1009b,A,883.57,884.05,0.48,IS1009b.A.dialog-act.dharshi.58,,,,,,,,,False, Oh yes.,2,task,Assess
+IS1009b,D,884.16,885.04,0.88,IS1009b.D.dialog-act.dharshi.114,D,C,0.0,-1.54,True,False,0.0,[],False, Is that gonna be a possible?,6,elicit,Elicit-Assessment
+IS1009b,B,884.66,885.05,0.39,IS1009b.B.dialog-act.dharshi.14,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1009b,D,885.04,886.82,1.78,IS1009b.D.dialog-act.dharshi.115,A,D,-0.83,0.0,False,True,0.83,['IS1009b.A.dialog-act.dharshi.60'],False, 'Cause that might help with the marketing.,7,task,Inform
+IS1009b,A,885.31,885.99,0.68,IS1009b.A.dialog-act.dharshi.59,,,,,,,,,False, I think,2,minor,Stall
+IS1009b,A,885.99,888.17,2.18,IS1009b.A.dialog-act.dharshi.60,A,D,0.0,-0.83,True,False,0.0,[],False, I think we will have to look at the budget on that,12,task,Suggest
+IS1009b,C,887.13,887.925,0.795,IS1009b.C.dialog-act.dharshi.95,,,,,,,,,False, Yeah that will be,4,minor,Fragment
+IS1009b,A,888.17,891.83,3.66,IS1009b.A.dialog-act.dharshi.61,D,A,-0.39,0.0,False,True,0.39,['IS1009b.D.dialog-act.dharshi.116'],False," but I think in principle that that would be that would be kind of fun, you know.",17,task,Assess
+IS1009b,C,891.2,892.05,0.85,IS1009b.C.dialog-act.dharshi.94,,,,,,,,,False, Yeah yeah.,2,task,Assess
+IS1009b,D,891.44,896.09,4.65,IS1009b.D.dialog-act.dharshi.116,C,A,0.26,-0.39,True,False,0.0,[],False, Because we had something sort of sexy for adults and we could have something sort of,16,task,Suggest
+IS1009b,C,892.83,893.09,0.26,IS1009b.C.dialog-act.dharshi.96,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,B,893.872,894.806,0.934,IS1009b.B.dialog-act.dharshi.15,,,,,,,,,False,,0,minor,Fragment
+IS1009b,A,894.05,894.33,0.28,IS1009b.A.dialog-act.dharshi.62,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,A,895.49,896.61,1.12,IS1009b.A.dialog-act.dharshi.63,,,,,,,,,False, Silly for children.,3,task,Suggest
+IS1009b,D,896.09,897.39,1.3,IS1009b.D.dialog-act.dharshi.117,,,,,,,,,False, silly for children,3,task,Assess
+IS1009b,C,896.35,898.84,2.49,IS1009b.C.dialog-act.dharshi.97,A,D,-1.51,0.26,True,True,1.45,"['IS1009b.A.dialog-act.dharshi.64', 'IS1009b.D.dialog-act.dharshi.118', 'IS1009b.B.dialog-act.dharshi.17']",True," Yeah, for children, yeah exactly.",5,task,Assess
+IS1009b,B,896.752,897.105,0.353,IS1009b.B.dialog-act.dharshi.16,,,,,,,,,False,,0,minor,Fragment
+IS1009b,A,897.33,898.751,1.421,IS1009b.A.dialog-act.dharshi.64,D,C,-1.361,-1.51,True,True,1.361,"['IS1009b.D.dialog-act.dharshi.118', 'IS1009b.B.dialog-act.dharshi.17']",False, Like an animal or,4,task,Suggest
+IS1009b,D,897.39,903.552,6.162,IS1009b.D.dialog-act.dharshi.118,B,A,-5.422,-1.361,True,True,1.566,"['IS1009b.B.dialog-act.dharshi.17', 'IS1009b.C.dialog-act.dharshi.98']",False, or a little animal shape or in a or a little elephant so they can remember where it is.,19,task,Suggest
+IS1009b,B,898.13,899.696,1.566,IS1009b.B.dialog-act.dharshi.17,C,D,-0.856,-5.422,True,True,0.856,['IS1009b.C.dialog-act.dharshi.98'],False," Like a doll, or",4,task,Suggest
+IS1009b,C,898.84,900.28,1.44,IS1009b.C.dialog-act.dharshi.98,C,B,4.12,-0.856,True,False,0.0,[],False," Yeah, that's what, yeah.",4,task,Assess
+IS1009b,A,899.65,900.04,0.39,IS1009b.A.dialog-act.dharshi.65,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,C,902.1,904.4,2.3,IS1009b.C.dialog-act.dharshi.99,,,,,,,,,False," Yeah, exactly. Yeah.",3,task,Assess
+IS1009b,B,902.65,903.49,0.84,IS1009b.B.dialog-act.dharshi.18,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1009b,C,904.4,911.06,6.66,IS1009b.C.dialog-act.dharshi.100,C,C,0.0,4.12,False,False,0.0,[],False, And and the butto buttons also I think if you want to have more features in your remote controller then there should be more buttons.,25,task,Suggest
+IS1009b,C,911.06,913.92,2.86,IS1009b.C.dialog-act.dharshi.101,C,C,0.0,0.0,False,False,0.0,[],False, If there are more buttons then it will be more complicated.,11,task,Inform
+IS1009b,C,913.92,917.48,3.56,IS1009b.C.dialog-act.dharshi.102,C,C,0.0,0.0,False,False,0.0,[],False," If you have less features then your remote controller won't be attractive,",12,task,Inform
+IS1009b,C,917.48,925.61,8.13,IS1009b.C.dialog-act.dharshi.103,C,C,0.0,0.0,False,False,0.0,[],False," so I think uh we need to make some buttons which are which are like um uh f in uh in intended for two or three operations,",27,task,Suggest
+IS1009b,C,925.61,932.99,7.38,IS1009b.C.dialog-act.dharshi.104,C,C,0.0,0.0,False,False,0.0,[],False," like if you press one button in one mode then it will change the channel, if you press the other button in another mode it will change the colour.",29,task,Inform
+IS1009b,C,932.99,939.01,6.02,IS1009b.C.dialog-act.dharshi.105,D,C,-0.4,0.0,False,True,0.4,['IS1009b.D.dialog-act.dharshi.120'],False, So if you want to have less buttons we can have that option but I think it will complicate the matter more I think so.,25,task,Assess
+IS1009b,D,934.25,934.97,0.72,IS1009b.D.dialog-act.dharshi.119,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1009b,D,938.61,944.03,5.42,IS1009b.D.dialog-act.dharshi.120,D,C,0.0,-0.4,True,False,0.0,[],False," Well, I think I think that that's something that we'll have to discuss um with the User Interface person",19,task,Suggest
+IS1009b,C,941.96,943.11,1.15,IS1009b.C.dialog-act.dharshi.106,,,,,,,,,False," Yep, yeah.",2,minor,Backchannel
+IS1009b,B,942.0,942.48,0.48,IS1009b.B.dialog-act.dharshi.19,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1009b,D,944.03,949.3,5.27,IS1009b.D.dialog-act.dharshi.121,D,D,0.0,0.0,False,False,0.0,[],False, because I think there's a lot of argument to be made for one button for one feature.,17,task,Assess
+IS1009b,D,949.3,957.05,7.75,IS1009b.D.dialog-act.dharshi.122,D,D,0.0,0.0,False,False,0.0,[],False, Because I think one of the things were complaining about in my what I found out in my research is when they complained about how hard it is to learn a new one.,33,task,Inform
+IS1009b,A,951.01,951.868,0.858,IS1009b.A.dialog-act.dharshi.66,,,,,,,,,False,,0,minor,Fragment
+IS1009b,C,956.55,956.91,0.36,IS1009b.C.dialog-act.dharshi.107,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,D,957.05,959.72,2.67,IS1009b.D.dialog-act.dharshi.123,C,D,-0.93,0.0,False,True,0.93,['IS1009b.C.dialog-act.dharshi.108'],False, The changing modes was something,5,task,Inform
+IS1009b,C,958.79,960.45,1.66,IS1009b.C.dialog-act.dharshi.108,D,D,-0.73,-0.93,True,True,0.73,['IS1009b.D.dialog-act.dharshi.124'],False," Yeah, it's like you know yeah.",6,task,Assess
+IS1009b,D,959.72,963.16,3.44,IS1009b.D.dialog-act.dharshi.124,D,C,0.0,-0.73,True,False,0.0,[],False," I mean you and I, all f all four of us we work with computers all the time,",18,task,Inform
+IS1009b,C,961.79,962.01,0.22,IS1009b.C.dialog-act.dharshi.109,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,C,962.56,963.37,0.81,IS1009b.C.dialog-act.dharshi.110,,,,,,,,,False," Yeah, yeah.",2,minor,Backchannel
+IS1009b,D,963.16,965.17,2.01,IS1009b.D.dialog-act.dharshi.125,A,D,1.54,0.0,False,False,0.0,[],False," changing modes is nothing for us,",6,task,Assess
+IS1009b,B,963.2,963.79,0.59,IS1009b.B.dialog-act.dharshi.20,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1009b,D,965.17,966.72,1.55,IS1009b.D.dialog-act.dharshi.126,,,,,,,,,False, but people who,3,task,Inform
+IS1009b,A,966.71,969.35,2.64,IS1009b.A.dialog-act.dharshi.67,A,D,0.0,1.54,True,False,0.0,[],True," Yeah, a little elderly, a little arthritic hand you know,",10,task,Inform
+IS1009b,D,968.459,969.545,1.086,IS1009b.D.dialog-act.dharshi.127,,,,,,,,,False, N and,2,minor,Fragment
+IS1009b,C,968.98,969.58,0.6,IS1009b.C.dialog-act.dharshi.111,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,A,969.35,973.18,3.83,IS1009b.A.dialog-act.dharshi.68,A,A,0.0,0.0,False,False,0.0,[],False, and and it's a small button and and it they don't press it exactly,14,task,Inform
+IS1009b,C,971.7,972.23,0.53,IS1009b.C.dialog-act.dharshi.112,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,A,973.18,977.07,3.89,IS1009b.A.dialog-act.dharshi.69,A,A,0.0,0.0,False,False,0.0,[],False, you know something else happens n not their favourite channel comes up but something else,15,task,Inform
+IS1009b,C,976.47,977.8,1.33,IS1009b.C.dialog-act.dharshi.113,,,,,,,,,False," Yeah, yes.",2,minor,Backchannel
+IS1009b,B,976.99,977.54,0.55,IS1009b.B.dialog-act.dharshi.21,,,,,,,,,False, Something else.,2,minor,Backchannel
+IS1009b,A,977.07,978.75,1.68,IS1009b.A.dialog-act.dharshi.70,D,A,-1.23,0.0,False,True,1.23,['IS1009b.D.dialog-act.dharshi.128'],False, and they're very frustrated you know.,6,task,Inform
+IS1009b,D,977.52,980.79,3.27,IS1009b.D.dialog-act.dharshi.128,D,A,0.0,-1.23,True,False,0.0,[],False," And that's and that's the kind of thing people learn by feel,",12,task,Inform
+IS1009b,D,980.79,985.2,4.41,IS1009b.D.dialog-act.dharshi.129,C,D,-3.44,0.0,False,True,1.89,"['IS1009b.C.dialog-act.dharshi.114', 'IS1009b.C.dialog-act.dharshi.115']",False, and um you don't feel the mode change.,8,task,Assess
+IS1009b,C,981.76,983.31,1.55,IS1009b.C.dialog-act.dharshi.114,C,D,0.0,-3.44,True,False,0.0,[],False," Yeah, yeah you don't",4,task,Assess
+IS1009b,C,983.31,985.22,1.91,IS1009b.C.dialog-act.dharshi.115,D,C,-0.02,0.0,False,True,0.02,['IS1009b.D.dialog-act.dharshi.130'],False," us yeah yeah, usually. Yeah.",5,task,Assess
+IS1009b,D,985.2,991.18,5.98,IS1009b.D.dialog-act.dharshi.130,C,C,-1.16,-0.02,True,True,1.16,['IS1009b.C.dialog-act.dharshi.116'],False, So um maybe having buttons be various shapes might be a help too.,13,task,Suggest
+IS1009b,C,990.02,992.08,2.06,IS1009b.C.dialog-act.dharshi.116,D,D,-0.9,-1.16,True,True,0.9,['IS1009b.D.dialog-act.dharshi.131'],False," Yeah shapes also, different shapes.",5,task,Assess
+IS1009b,D,991.18,1000.76,9.58,IS1009b.D.dialog-act.dharshi.131,D,C,0.0,-0.9,True,False,0.0,[],False," You know, like the a triangle is for the volume and a square is for changing channels, so that people can uh develop a tactile sense of it.",28,task,Suggest
+IS1009b,C,992.08,992.902,0.822,IS1009b.C.dialog-act.dharshi.117,,,,,,,,,False, Yeah that will,3,minor,Fragment
+IS1009b,C,993.71,994.06,0.35,IS1009b.C.dialog-act.dharshi.118,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,B,996.23,996.87,0.64,IS1009b.B.dialog-act.dharshi.22,,,,,,,,,False, Channels.,1,minor,Backchannel
+IS1009b,C,996.41,996.77,0.36,IS1009b.C.dialog-act.dharshi.119,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,C,998.44,998.73,0.29,IS1009b.C.dialog-act.dharshi.120,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,D,1000.76,1002.51,1.75,IS1009b.D.dialog-act.dharshi.132,C,D,-0.44,0.0,False,True,0.44,['IS1009b.C.dialog-act.dharshi.123'],False, But we'll get to that with you.,7,task,Suggest
+IS1009b,C,1000.79,1001.7,0.91,IS1009b.C.dialog-act.dharshi.121,,,,,,,,,False," Yeah,",1,minor,Backchannel
+IS1009b,A,1000.99,1001.91,0.92,IS1009b.A.dialog-act.dharshi.71,,,,,,,,,False," Mm, mm-hmm.",2,minor,Backchannel
+IS1009b,C,1001.7,1002.07,0.37,IS1009b.C.dialog-act.dharshi.122,,,,,,,,,False," yeah,",1,minor,Backchannel
+IS1009b,C,1002.07,1006.466,4.396,IS1009b.C.dialog-act.dharshi.123,D,D,-0.596,-0.44,True,True,0.596,['IS1009b.D.dialog-act.dharshi.133'],False, and also text should be very clear so that there there won't be any ambiguities and uh,17,task,Suggest
+IS1009b,B,1002.09,1002.43,0.34,IS1009b.B.dialog-act.dharshi.23,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1009b,D,1005.87,1007.88,2.01,IS1009b.D.dialog-act.dharshi.133,C,C,1.05,-0.596,True,False,0.0,[],False," That's right, yeah. Now that's a good point. Yeah.",9,task,Assess
+IS1009b,C,1007.06,1007.88,0.82,IS1009b.C.dialog-act.dharshi.124,,,,,,,,,False, So yeah.,2,minor,Stall
+IS1009b,B,1007.39,1007.74,0.35,IS1009b.B.dialog-act.dharshi.24,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1009b,A,1008.51,1008.847,0.337,IS1009b.A.dialog-act.dharshi.72,,,,,,,,,False,,0,minor,Fragment
+IS1009b,C,1008.93,1013.21,4.28,IS1009b.C.dialog-act.dharshi.125,C,D,0.0,1.05,True,False,0.0,[],True, And uh display clock i if you want more features then we can display a clock,16,task,Suggest
+IS1009b,C,1013.21,1022.014,8.804,IS1009b.C.dialog-act.dharshi.126,D,C,-0.584,0.0,False,True,0.584,['IS1009b.D.dialog-act.dharshi.134'],False, it I I don't think it will take any money extra money because anyway we have an integrated circuit I think we can just definitely fit that feature into the circuit so it's,33,task,Inform
+IS1009b,D,1021.43,1023.35,1.92,IS1009b.D.dialog-act.dharshi.134,C,C,-0.22,-0.584,True,True,0.22,['IS1009b.C.dialog-act.dharshi.127'],False," Yeah, that's that's a good that's a good one,",9,task,Assess
+IS1009b,A,1022.84,1024.87,2.03,IS1009b.A.dialog-act.dharshi.73,,,,,,,,,False," Mm-hmm, mm-hmm.",2,minor,Backchannel
+IS1009b,C,1023.13,1024.4,1.27,IS1009b.C.dialog-act.dharshi.127,D,D,-1.05,-0.22,True,True,1.05,['IS1009b.D.dialog-act.dharshi.135'],False," Yeah, and we display a clock.",6,task,Inform
+IS1009b,B,1023.34,1023.75,0.41,IS1009b.B.dialog-act.dharshi.25,,,,,,,,,False, Mm yeah.,2,minor,Backchannel
+IS1009b,D,1023.35,1025.09,1.74,IS1009b.D.dialog-act.dharshi.135,D,C,0.0,-1.05,True,False,0.0,[],False," because the clock would be really friendly,",7,task,Assess
+IS1009b,A,1024.87,1025.29,0.42,IS1009b.A.dialog-act.dharshi.74,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1009b,D,1025.09,1028.6,3.51,IS1009b.D.dialog-act.dharshi.136,C,D,-1.07,0.0,False,True,1.07,"['IS1009b.C.dialog-act.dharshi.129', 'IS1009b.A.dialog-act.dharshi.76']",False, and and when is your favourite show coming on,9,task,Inform
+IS1009b,C,1025.62,1025.91,0.29,IS1009b.C.dialog-act.dharshi.128,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,A,1026.92,1028.09,1.17,IS1009b.A.dialog-act.dharshi.75,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1009b,C,1027.53,1031.195,3.665,IS1009b.C.dialog-act.dharshi.129,A,D,-3.105,-1.07,True,True,3.105,"['IS1009b.A.dialog-act.dharshi.76', 'IS1009b.D.dialog-act.dharshi.139']",False," Yeah, and then you can just see your remote controller yeah yeah yeah so",14,task,Assess
+IS1009b,B,1028.08,1029.4,1.32,IS1009b.B.dialog-act.dharshi.26,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1009b,A,1028.09,1031.54,3.45,IS1009b.A.dialog-act.dharshi.76,D,C,-0.69,-3.105,True,True,0.69,['IS1009b.D.dialog-act.dharshi.139'],False, Yeah you're sitting there already or maybe you have no other uh,12,task,Inform
+IS1009b,D,1028.6,1029.056,0.456,IS1009b.D.dialog-act.dharshi.137,,,,,,,,,False, and,1,minor,Fragment
+IS1009b,D,1030.85,1035.6,4.75,IS1009b.D.dialog-act.dharshi.139,D,A,0.0,-0.69,True,False,0.0,[],False," Yeah, and a lot of time there's not a clock on the screen, and you have to go somewhere but you just wanna look at the news for a minute.",30,task,Inform
+IS1009b,C,1033.16,1033.4,0.24,IS1009b.C.dialog-act.dharshi.130,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,D,1035.6,1037.74,2.14,IS1009b.D.dialog-act.dharshi.140,C,D,0.38,0.0,False,False,0.0,[],False," Yeah that's that's good, the clock is good.",8,task,Assess
+IS1009b,C,1037.11,1038.12,1.01,IS1009b.C.dialog-act.dharshi.131,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,A,1037.574,1039.39,1.816,IS1009b.A.dialog-act.dharshi.77,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,D,1037.74,1038.11,0.37,IS1009b.D.dialog-act.dharshi.141,,,,,,,,,False, Okay.,1,minor,Stall
+IS1009b,C,1038.12,1040.56,2.44,IS1009b.C.dialog-act.dharshi.132,C,D,0.0,0.38,True,False,0.0,[],True, Uh can you go to the next slide please?,9,task,Suggest
+IS1009b,C,1040.56,1048.8,8.24,IS1009b.C.dialog-act.dharshi.133,C,C,1.5,0.0,False,False,0.0,[],False, Uh components uh the main components we need for uh it ha like buttons and uh underneath that there should be switch.,22,task,Inform
+IS1009b,C,1048.8,1050.3,1.5,IS1009b.C.dialog-act.dharshi.134,,,,,,,,,False, And uh bulbs.,3,task,Inform
+IS1009b,C,1050.3,1058.51,8.21,IS1009b.C.dialog-act.dharshi.135,C,C,0.0,1.5,False,False,0.0,[],False," Like uh we can have a bulb like whenever we are operating a remote controller or uh whenever the T_V_ is on suppose,",23,task,Inform
+IS1009b,B,1058.33,1058.74,0.41,IS1009b.B.dialog-act.dharshi.27,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IS1009b,C,1058.51,1062.65,4.14,IS1009b.C.dialog-act.dharshi.136,C,C,1.2,0.0,False,False,0.0,[],False, then the remote controller should automatically have a b s light.,11,task,Inform
+IS1009b,D,1063.18,1063.51,0.33,IS1009b.D.dialog-act.dharshi.142,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,1063.85,1074.56,10.71,IS1009b.C.dialog-act.dharshi.137,C,C,0.0,1.2,False,False,0.0,[],False," Then it will be like if you switch on your T_V_ through anoth another source, not from through a remote remote controller and you you lost your remote controller maybe you can find with the light.",36,task,Inform
+IS1009b,D,1073.83,1074.15,0.32,IS1009b.D.dialog-act.dharshi.143,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,1074.56,1078.8,4.24,IS1009b.C.dialog-act.dharshi.138,C,C,1.4,0.0,False,False,0.0,[],False," Maybe we can have that. Whenever the T_V_ is on, remote controller will have a light.",16,task,Suggest
+IS1009b,D,1079.18,1079.53,0.35,IS1009b.D.dialog-act.dharshi.144,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,1080.2,1082.77,2.57,IS1009b.C.dialog-act.dharshi.139,C,C,0.0,1.4,False,False,0.0,[],False, And then uh infrared bulbs.,5,task,Inform
+IS1009b,D,1082.71,1083.06,0.35,IS1009b.D.dialog-act.dharshi.145,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,1082.77,1085.76,2.99,IS1009b.C.dialog-act.dharshi.140,C,C,0.92,0.0,False,False,0.0,[],False, Um this is like uh when it is dark.,9,task,Inform
+IS1009b,A,1085.56,1086.35,0.79,IS1009b.A.dialog-act.dharshi.78,,,,,,,,,False," Yeah, mm-hmm.",2,minor,Backchannel
+IS1009b,D,1086.32,1086.57,0.25,IS1009b.D.dialog-act.dharshi.146,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,1086.68,1090.22,3.54,IS1009b.C.dialog-act.dharshi.141,C,C,1.21,0.92,False,False,0.0,[],False," And battery, there should be a battery for power supply,",10,task,Inform
+IS1009b,C,1090.22,1091.43,1.21,IS1009b.C.dialog-act.dharshi.142,,,,,,,,,False," and a chip,",3,task,Inform
+IS1009b,D,1090.23,1090.61,0.38,IS1009b.D.dialog-act.dharshi.147,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,1091.43,1095.21,3.78,IS1009b.C.dialog-act.dharshi.143,C,C,0.0,1.21,False,False,0.0,[],False," chip which is like a brain to the remote controller which does all the operations,",15,task,Inform
+IS1009b,A,1093.0,1093.27,0.27,IS1009b.A.dialog-act.dharshi.79,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,1095.21,1099.49,4.28,IS1009b.C.dialog-act.dharshi.144,C,C,0.0,0.0,False,False,0.0,[],False," and wires connecting all chips, which is uh lights, everything,",10,task,Inform
+IS1009b,A,1099.19,1099.43,0.24,IS1009b.A.dialog-act.dharshi.80,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,C,1099.49,1100.74,1.25,IS1009b.C.dialog-act.dharshi.145,C,C,0.93,0.0,False,False,0.0,[],False, so there should be wires.,5,task,Inform
+IS1009b,B,1099.88,1100.29,0.41,IS1009b.B.dialog-act.dharshi.28,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1009b,C,1101.67,1106.3,4.63,IS1009b.C.dialog-act.dharshi.146,C,C,0.0,0.93,False,False,0.0,[],False, And uh uh of course there should be a case where we can keep all the things,17,task,Inform
+IS1009b,C,1106.3,1111.83,5.53,IS1009b.C.dialog-act.dharshi.147,B,C,-1.15,0.0,False,True,1.15,['IS1009b.B.dialog-act.dharshi.29'],False," and, you know different shapes or whatever it is there should be a case to put to give a shape.",20,task,Inform
+IS1009b,B,1110.68,1111.85,1.17,IS1009b.B.dialog-act.dharshi.29,B,C,2.26,-1.15,True,False,0.0,[],False, To keep the remote?,4,elicit,Elicit-Inform
+IS1009b,C,1111.83,1112.03,0.2,IS1009b.C.dialog-act.dharshi.148,,,,,,,,,False, Yeah.,1,task,Inform
+IS1009b,B,1111.85,1112.46,0.61,IS1009b.B.dialog-act.dharshi.30,,,,,,,,,False, Yeah.,1,other,Comment-About-Understanding
+IS1009b,D,1113.09,1113.52,0.43,IS1009b.D.dialog-act.dharshi.148,,,,,,,,,False, Case.,1,other,Other
+IS1009b,B,1114.11,1116.49,2.38,IS1009b.B.dialog-act.dharshi.31,C,B,3.68,2.26,False,False,0.0,[],False, A case holder. A holder remote holder.,7,task,Inform
+IS1009b,C,1115.1,1115.79,0.69,IS1009b.C.dialog-act.dharshi.149,,,,,,,,,False," Yeah, holder.",2,minor,Backchannel
+IS1009b,A,1116.13,1117.38,1.25,IS1009b.A.dialog-act.dharshi.81,,,,,,,,,False," Holder, yeah, mm-hmm.",3,minor,Backchannel
+IS1009b,C,1120.17,1121.92,1.75,IS1009b.C.dialog-act.dharshi.150,C,B,0.95,3.68,True,False,0.0,[],True, Um uh can you move onto the next slide.,9,task,Suggest
+IS1009b,C,1122.87,1124.64,1.77,IS1009b.C.dialog-act.dharshi.151,C,C,1.48,0.95,False,False,0.0,[],False, Um next sli slide please.,5,task,Suggest
+IS1009b,C,1126.12,1138.5,12.38,IS1009b.C.dialog-act.dharshi.152,C,C,1.71,1.48,False,False,0.0,[],False," Um I have referred the site uh the homepage of the um our website, uh from where I have uh uh I got s few points.",26,task,Inform
+IS1009b,A,1139.48,1139.8,0.32,IS1009b.A.dialog-act.dharshi.82,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,1140.21,1141.47,1.26,IS1009b.C.dialog-act.dharshi.153,D,C,5.68,1.71,False,False,0.0,[],False," That's it, that's it from me now.",7,task,Inform
+IS1009b,A,1141.76,1142.16,0.4,IS1009b.A.dialog-act.dharshi.83,,,,,,,,,False, Okay.,1,task,Assess
+IS1009b,D,1147.15,1151.468,4.318,IS1009b.D.dialog-act.dharshi.149,A,C,0.152,5.68,True,False,0.0,[],True, So it um we should visit this site and have a look at uh what's up there? Or,18,elicit,Elicit-Offer-Or-Suggestion
+IS1009b,C,1149.758,1151.39,1.632,IS1009b.C.dialog-act.dharshi.154,,,,,,,,,False, Um.,1,minor,Stall
+IS1009b,A,1151.62,1152.74,1.12,IS1009b.A.dialog-act.dharshi.84,C,D,0.01,0.152,True,False,0.0,[],True," Well, you don't have to.",5,task,Suggest
+IS1009b,C,1152.75,1161.72,8.97,IS1009b.C.dialog-act.dharshi.155,D,A,-0.44,0.01,True,True,0.44,['IS1009b.D.dialog-act.dharshi.151'],True," Uh it's not like that, I have referred the page to get new ideas or like what can be the working design to how it works and all and so and so.",32,task,Inform
+IS1009b,D,1157.46,1157.87,0.41,IS1009b.D.dialog-act.dharshi.150,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1009b,D,1161.28,1163.75,2.47,IS1009b.D.dialog-act.dharshi.151,C,C,0.75,-0.44,True,False,0.0,[],False, Okay. So it might be helpful if we had a look at that.,13,task,Assess
+IS1009b,C,1164.5,1165.14,0.64,IS1009b.C.dialog-act.dharshi.156,D,D,7.71,0.75,True,False,0.0,[],True, Yeah if you want.,4,task,Assess
+IS1009b,D,1165.4,1166.03,0.63,IS1009b.D.dialog-act.dharshi.153,,,,,,,,,False," Okay,",1,task,Assess
+IS1009b,C,1165.68,1166.46,0.78,IS1009b.C.dialog-act.dharshi.157,,,,,,,,,False," Yeah, it's okay.",3,task,Assess
+IS1009b,D,1166.03,1166.35,0.32,IS1009b.D.dialog-act.dharshi.154,,,,,,,,,False, thank you.,2,other,Be-Positive
+IS1009b,D,1172.85,1176.07,3.22,IS1009b.D.dialog-act.dharshi.155,C,C,0.3,7.71,True,False,0.0,[],True, Could you go back to that slide where she had that uh s slide up Betsy?,16,task,Suggest
+IS1009b,C,1176.37,1179.26,2.89,IS1009b.C.dialog-act.dharshi.158,A,D,21.14,0.3,True,False,0.0,[],True," Uh, it's actually there now, there on the screen.",9,task,Inform
+IS1009b,A,1179.44,1179.79,0.35,IS1009b.A.dialog-act.dharshi.85,,,,,,,,,False, This one?,2,elicit,Elicit-Inform
+IS1009b,D,1180.12,1180.8,0.68,IS1009b.D.dialog-act.dharshi.156,,,,,,,,,False," Yeah, okay,",2,task,Inform
+IS1009b,D,1180.8,1181.11,0.31,IS1009b.D.dialog-act.dharshi.157,,,,,,,,,False, thank you.,2,other,Be-Positive
+IS1009b,A,1197.41,1199.18,1.77,IS1009b.A.dialog-act.dharshi.86,,,,,,,,,False, And Francine?,2,elicit,Elicit-Inform
+IS1009b,B,1199.03,1199.72,0.69,IS1009b.B.dialog-act.dharshi.32,,,,,,,,,False, Participant two.,2,task,Inform
+IS1009b,A,1200.4,1201.61,1.21,IS1009b.A.dialog-act.dharshi.87,B,C,0.48,21.14,True,False,0.0,[],True, You are number two?,4,other,Comment-About-Understanding
+IS1009b,B,1201.07,1202.09,1.02,IS1009b.B.dialog-act.dharshi.33,,,,,,,,,False, Yes.,1,task,Inform
+IS1009b,B,1202.09,1202.73,0.64,IS1009b.B.dialog-act.dharshi.34,B,A,7.64,0.48,True,False,0.0,[],True," No no, I'm three.",4,task,Inform
+IS1009b,A,1203.06,1203.41,0.35,IS1009b.A.dialog-act.dharshi.88,,,,,,,,,False, You're three.,2,other,Comment-About-Understanding
+IS1009b,B,1210.37,1211.46,1.09,IS1009b.B.dialog-act.dharshi.35,A,B,-0.75,7.64,False,True,0.75,['IS1009b.A.dialog-act.dharshi.89'],False, I can make it full?,5,task,Suggest
+IS1009b,A,1210.71,1212.45,1.74,IS1009b.A.dialog-act.dharshi.89,B,B,1.97,-0.75,True,False,0.0,[],False, Would you want it full full screen?,7,elicit,Elicit-Inform
+IS1009b,B,1211.46,1213.71,2.25,IS1009b.B.dialog-act.dharshi.36,,,,,,,,,False, Yes yes yes.,3,task,Inform
+IS1009b,A,1212.45,1213.55,1.1,IS1009b.A.dialog-act.dharshi.90,,,,,,,,,False, Mm-hmm? Okay.,2,task,Assess
+IS1009b,B,1213.71,1214.42,0.71,IS1009b.B.dialog-act.dharshi.37,,,,,,,,,False, Okay.,1,minor,Stall
+IS1009b,B,1214.42,1224.22,9.8,IS1009b.B.dialog-act.dharshi.38,B,A,0.0,1.97,True,False,0.0,[],True, As uh User Interface Designer I did a little research to find out what are the features which a user would like to have on their remote.,27,task,Inform
+IS1009b,A,1223.66,1224.0,0.34,IS1009b.A.dialog-act.dharshi.91,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,B,1224.22,1226.97,2.75,IS1009b.B.dialog-act.dharshi.39,B,B,0.0,0.0,False,False,0.0,[],False, Yeah can you please go onto the next slide?,9,task,Suggest
+IS1009b,A,1225.44,1225.78,0.34,IS1009b.A.dialog-act.dharshi.92,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,B,1226.97,1238.22,11.25,IS1009b.B.dialog-act.dharshi.40,B,B,1.66,0.0,False,False,0.0,[],False, So I found out that uh but uh the main purpose of a remote is to uh f control the function of a television at a far off distance at remote distance.,32,task,Inform
+IS1009b,D,1239.408,1239.712,0.304,IS1009b.D.dialog-act.dharshi.158,,,,,,,,,False,,0,minor,Fragment
+IS1009b,B,1239.88,1253.32,13.44,IS1009b.B.dialog-act.dharshi.41,B,B,0.0,1.66,False,False,0.0,[],False," Now for that, uh a remote controller should have a switch on off button by which a user can sit anywhere in the room in front of the T_V_ and he can control the functionalities different functionalities of the T_V_.",40,task,Inform
+IS1009b,A,1247.85,1248.09,0.24,IS1009b.A.dialog-act.dharshi.93,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,B,1253.32,1254.89,1.57,IS1009b.B.dialog-act.dharshi.44,B,B,0.0,0.0,False,False,0.0,[],False, There should be a signal,5,task,Inform
+IS1009b,B,1254.89,1262.88,7.99,IS1009b.B.dialog-act.dharshi.45,B,B,0.0,0.0,False,False,0.0,[],False, uh something like a radio wave or a infrared light or a LED which can be used to change the different functionalities in the television,25,task,Inform
+IS1009b,B,1262.88,1267.93,5.05,IS1009b.B.dialog-act.dharshi.43,B,B,1.85,0.0,False,False,0.0,[],False, if the user wants to uh change the channels or increase the volume he can change it.,17,task,Inform
+IS1009b,D,1268.25,1268.57,0.32,IS1009b.D.dialog-act.dharshi.159,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,B,1269.78,1279.65,9.87,IS1009b.B.dialog-act.dharshi.46,A,B,-0.64,1.85,False,True,0.64,['IS1009b.A.dialog-act.dharshi.94'],False, Now there should be some timer to set for viewing a particular a particular programme or switching on and off a uh a particular programme according to the user choice.,30,task,Inform
+IS1009b,A,1279.01,1281.12,2.11,IS1009b.A.dialog-act.dharshi.94,B,B,2.76,-0.64,True,False,0.0,[],False, On the on on the remote.,6,elicit,Elicit-Inform
+IS1009b,B,1280.74,1281.95,1.21,IS1009b.B.dialog-act.dharshi.47,,,,,,,,,False, Yes. Yes.,2,task,Inform
+IS1009b,A,1281.12,1281.68,0.56,IS1009b.A.dialog-act.dharshi.95,,,,,,,,,False," Yeah, mm-hmm.",2,task,Assess
+IS1009b,B,1283.88,1293.89,10.01,IS1009b.B.dialog-act.dharshi.48,B,A,0.0,2.76,True,False,0.0,[],True," So if if he want to view a particular programme at say nine o'clock he can set the time, and the T_V_ will automatically it will switch on at that particular time.",32,task,Inform
+IS1009b,A,1286.43,1286.64,0.21,IS1009b.A.dialog-act.dharshi.96,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,A,1287.71,1288.12,0.41,IS1009b.A.dialog-act.dharshi.97,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,A,1289.44,1289.65,0.21,IS1009b.A.dialog-act.dharshi.98,,,,,,,,,False, Right.,1,minor,Backchannel
+IS1009b,A,1293.07,1293.44,0.37,IS1009b.A.dialog-act.dharshi.99,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,B,1293.89,1298.02,4.13,IS1009b.B.dialog-act.dharshi.49,B,B,0.0,0.0,False,False,0.0,[],False, So he can use that kind of uh uh properties of features,12,task,Inform
+IS1009b,B,1298.02,1313.16,15.14,IS1009b.B.dialog-act.dharshi.50,A,B,-8.3,0.0,False,True,1.12,['IS1009b.A.dialog-act.dharshi.101'],False," and then there should be a child lock system if a particular channel is not to be viewed by a particular uh for a certain age, then the parents can lock that particular channel so that the ch children cannot view that channel.",43,task,Inform
+IS1009b,A,1302.87,1303.25,0.38,IS1009b.A.dialog-act.dharshi.100,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1009b,A,1304.86,1305.98,1.12,IS1009b.A.dialog-act.dharshi.101,B,B,10.6,-8.3,True,False,0.0,[],False," By your child, mm-hmm.",4,task,Inform
+IS1009b,D,1311.53,1311.82,0.29,IS1009b.D.dialog-act.dharshi.160,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,A,1312.63,1313.07,0.44,IS1009b.A.dialog-act.dharshi.102,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,B,1313.16,1316.58,3.42,IS1009b.B.dialog-act.dharshi.51,,,,,,,,,False, And uh the uh the uh and the,8,minor,Stall
+IS1009b,B,1316.58,1321.53,4.95,IS1009b.B.dialog-act.dharshi.52,B,A,2.3,10.6,True,False,0.0,[],True, one of the feature a user would like to have is the compactness of the co remote.,17,task,Inform
+IS1009b,A,1322.64,1323.12,0.48,IS1009b.A.dialog-act.dharshi.103,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,D,1323.11,1323.49,0.38,IS1009b.D.dialog-act.dharshi.161,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,B,1323.83,1325.52,1.69,IS1009b.B.dialog-act.dharshi.53,B,B,0.0,2.3,False,False,0.0,[],False, Uh t the remote should be compact,7,task,Inform
+IS1009b,B,1325.52,1333.47,7.95,IS1009b.B.dialog-act.dharshi.54,B,B,0.0,0.0,False,False,0.0,[],False, and it should ha it should have as many buttons as possible for controlling different functionalities of the T_V_ television.,20,task,Inform
+IS1009b,B,1333.47,1342.09,8.62,IS1009b.B.dialog-act.dharshi.55,B,B,2.65,0.0,False,False,0.0,[],False, And um uh as uh uh this is my personal preference that it should be in the shape of a T_ in alphabet for more compactability.,26,task,Suggest
+IS1009b,A,1342.32,1342.7,0.38,IS1009b.A.dialog-act.dharshi.104,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,B,1343.53,1344.74,1.21,IS1009b.B.dialog-act.dharshi.56,,,,,,,,,False, And uh and uh,4,minor,Stall
+IS1009b,B,1344.74,1348.16,3.42,IS1009b.B.dialog-act.dharshi.57,B,B,0.0,2.65,False,False,0.0,[],False," and it is one more point which I noted it down,",11,task,Inform
+IS1009b,B,1348.16,1352.66,4.5,IS1009b.B.dialog-act.dharshi.58,B,B,0.0,0.0,False,False,0.0,[],False, like uh the material which which which is used for remotes should be human friendly,15,task,Inform
+IS1009b,B,1352.66,1359.89,7.23,IS1009b.B.dialog-act.dharshi.59,B,B,0.0,0.0,False,False,0.0,[],False, it should not cause any skin disease or something some al allergy to either children or to um ad adult person.,21,task,Inform
+IS1009b,A,1356.24,1356.53,0.29,IS1009b.A.dialog-act.dharshi.105,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,A,1358.24,1358.86,0.62,IS1009b.A.dialog-act.dharshi.106,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,D,1358.33,1358.85,0.52,IS1009b.D.dialog-act.dharshi.162,,,,,,,,,False," Mm, 'kay.",2,minor,Backchannel
+IS1009b,A,1358.86,1359.25,0.39,IS1009b.A.dialog-act.dharshi.107,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,B,1359.89,1363.7,3.81,IS1009b.B.dialog-act.dharshi.60,B,B,0.0,0.0,False,False,0.0,[],False, And it should have an uh it can have an alarm clock,12,task,Suggest
+IS1009b,B,1363.7,1371.24,7.54,IS1009b.B.dialog-act.dharshi.61,B,B,0.0,0.0,False,False,0.0,[],False," a a person if some if somebody wants to get up at around eight eight P_M_ then he can set the time and it can be used as an alarm clock,",31,task,Inform
+IS1009b,C,1366.95,1367.25,0.3,IS1009b.C.dialog-act.dharshi.159,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1009b,A,1371.17,1371.47,0.3,IS1009b.A.dialog-act.dharshi.108,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,B,1371.24,1375.23,3.99,IS1009b.B.dialog-act.dharshi.62,C,B,1.19,0.0,False,False,0.0,[],False, and I don't think it will cost much to set an alarm clock inside a remote.,16,task,Inform
+IS1009b,C,1374.91,1376.42,1.51,IS1009b.C.dialog-act.dharshi.160,,,,,,,,,False," Yeah, sure.",2,task,Assess
+IS1009b,A,1376.1,1376.9,0.8,IS1009b.A.dialog-act.dharshi.109,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,1376.42,1378.9,2.48,IS1009b.C.dialog-act.dharshi.161,D,B,-0.88,1.19,True,True,0.88,['IS1009b.D.dialog-act.dharshi.163'],True, If there is a clock then there can be a alarm clock.,12,task,Inform
+IS1009b,D,1378.02,1380.3,2.28,IS1009b.D.dialog-act.dharshi.163,B,C,-1.28,-0.88,True,True,1.28,['IS1009b.B.dialog-act.dharshi.65'],False," And an alarm clock, yeah that should that should be okay.",11,task,Assess
+IS1009b,B,1378.3,1379.02,0.72,IS1009b.B.dialog-act.dharshi.64,,,,,,,,,False," Yes,",1,task,Assess
+IS1009b,B,1379.02,1391.84,12.82,IS1009b.B.dialog-act.dharshi.65,B,D,0.0,-1.28,True,False,0.0,[],False," and as John Reece said the buttons can be, uh can me we can use the fluorescence to light up the buttons so different uh buttons will glow differently.",29,task,Suggest
+IS1009b,B,1391.84,1397.73,5.89,IS1009b.B.dialog-act.dharshi.66,B,B,1.41,0.0,False,False,0.0,[],False, So in even in the dark the user can know what buttons to use to switch on a particular channel.,20,task,Inform
+IS1009b,B,1399.14,1406.01,6.87,IS1009b.B.dialog-act.dharshi.67,B,B,0.0,1.41,False,False,0.0,[],False, And uh uh the design of the uh um remote should be in such a way that there should not be any sharp projections,24,task,Suggest
+IS1009b,B,1406.01,1411.38,5.37,IS1009b.B.dialog-act.dharshi.68,B,B,3.9,0.0,False,False,0.0,[],False," so that if a child plays with a remote, he uh he should not be harmed in any way.",19,task,Inform
+IS1009b,C,1408.89,1409.25,0.36,IS1009b.C.dialog-act.dharshi.162,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IS1009b,B,1415.28,1424.12,8.84,IS1009b.B.dialog-act.dharshi.69,B,B,0.0,3.9,False,False,0.0,[],False," And findings, uh I found out uh y um on different sites that uh there are different remotes which can be used,",22,task,Inform
+IS1009b,B,1424.12,1428.99,4.87,IS1009b.B.dialog-act.dharshi.70,B,B,0.0,0.0,False,False,0.0,[],False," there are remotes which use the infrared for controlling the different functionalities,",12,task,Inform
+IS1009b,B,1428.99,1433.0,4.01,IS1009b.B.dialog-act.dharshi.71,B,B,3.08,0.0,False,False,0.0,[],False, there are remotes which use the radio waves to control the functions,12,task,Inform
+IS1009b,B,1433.0,1434.432,1.432,IS1009b.B.dialog-act.dharshi.72,,,,,,,,,False, and there are uh,4,minor,Fragment
+IS1009b,B,1436.08,1445.13,9.05,IS1009b.B.dialog-act.dharshi.73,B,B,11.19,3.08,False,False,0.0,[],False, So uh there you have different uh types of remotes for different light source which are used which can be used for controlling the different functionalities of a television.,29,task,Inform
+IS1009b,B,1453.25,1454.07,0.82,IS1009b.B.dialog-act.dharshi.74,,,,,,,,,False, Next slide.,2,task,Suggest
+IS1009b,B,1456.32,1459.07,2.75,IS1009b.B.dialog-act.dharshi.75,B,B,0.0,11.19,False,False,0.0,[],False, And these are my few personal preferences,7,task,Inform
+IS1009b,B,1459.07,1461.51,2.44,IS1009b.B.dialog-act.dharshi.76,B,B,0.99,0.0,False,False,0.0,[],False, like it can be used for a multipurpose use.,9,task,Suggest
+IS1009b,B,1461.51,1462.5,0.99,IS1009b.B.dialog-act.dharshi.79,,,,,,,,,False," Not, uh no",3,task,Assess
+IS1009b,B,1462.5,1469.05,6.55,IS1009b.B.dialog-act.dharshi.80,B,B,0.0,0.99,False,False,0.0,[],False, uh like it can it can be used as a T_V_ control as plus an alarm clock to set an alarm a timing,23,task,Suggest
+IS1009b,B,1469.05,1471.93,2.88,IS1009b.B.dialog-act.dharshi.78,B,B,0.0,0.0,False,False,0.0,[],False," and it should have a child lock,",7,task,Suggest
+IS1009b,B,1471.93,1479.88,7.95,IS1009b.B.dialog-act.dharshi.81,B,B,0.0,0.0,False,False,0.0,[],False, and then to save electricity uh there should not be uh much s move uh lots of circuits and all that.,21,task,Suggest
+IS1009b,B,1479.88,1492.28,12.4,IS1009b.B.dialog-act.dharshi.82,C,B,-1.04,0.0,False,True,1.04,['IS1009b.C.dialog-act.dharshi.163'],False," And if a person if if if parents wants the television to be switched off by ten o'clock then it should be switched off ten o at ten o'clock automatically, so that nobody else comes later and use it.",39,task,Suggest
+IS1009b,C,1491.24,1496.78,5.54,IS1009b.C.dialog-act.dharshi.163,A,B,-3.03,-1.04,True,True,2.46,"['IS1009b.A.dialog-act.dharshi.110', 'IS1009b.B.dialog-act.dharshi.83']",False," It's like a t okay, it's like a timer it's like a lock to the television.",16,task,Assess
+IS1009b,A,1493.75,1495.15,1.4,IS1009b.A.dialog-act.dharshi.110,B,C,-0.83,-3.03,True,True,0.83,['IS1009b.B.dialog-act.dharshi.83'],False," Timer, yeah, mm-hmm, mm-hmm.",4,task,Assess
+IS1009b,B,1494.32,1497.71,3.39,IS1009b.B.dialog-act.dharshi.83,A,A,36.13,-0.83,True,False,0.0,[],False, Timer. Yeah and then you can use a timer as well.,11,task,Assess
+IS1009b,B,1499.36,1499.76,0.4,IS1009b.B.dialog-act.dharshi.84,,,,,,,,,False, Yes.,1,task,Assess
+IS1009b,B,1501.48,1501.98,0.5,IS1009b.B.dialog-act.dharshi.85,,,,,,,,,False, Yeah that's it.,3,task,Inform
+IS1009b,A,1502.88,1504.25,1.37,IS1009b.A.dialog-act.dharshi.111,,,,,,,,,False," Uh okay,",2,task,Assess
+IS1009b,A,1504.25,1506.027,1.777,IS1009b.A.dialog-act.dharshi.112,,,,,,,,,False, now I have,3,other,Other
+IS1009b,A,1533.84,1537.62,3.78,IS1009b.A.dialog-act.dharshi.113,A,B,0.0,36.13,True,False,0.0,[],True," On my slide show basically we already we have already done the agenda,",13,task,Inform
+IS1009b,A,1537.62,1542.75,5.13,IS1009b.A.dialog-act.dharshi.114,A,A,0.0,0.0,False,False,0.0,[],False, and uh on the closing uh basically there will be lunch break and all that.,15,task,Inform
+IS1009b,A,1542.75,1550.7,7.95,IS1009b.A.dialog-act.dharshi.115,A,A,0.0,0.0,False,False,0.0,[],False, However uh the decision we have to take in this meeting is who is our target group.,17,task,Inform
+IS1009b,B,1550.283,1550.95,0.667,IS1009b.B.dialog-act.dharshi.86,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1009b,A,1550.7,1557.34,6.64,IS1009b.A.dialog-act.dharshi.116,A,A,0.0,0.0,False,False,0.0,[],False," And uh what function, working design, how how does it work.",11,task,Inform
+IS1009b,A,1557.34,1560.64,3.3,IS1009b.A.dialog-act.dharshi.117,A,A,0.0,0.0,False,False,0.0,[],False, So these are the two things we should come up wit with.,12,task,Inform
+IS1009b,A,1560.64,1566.54,5.9,IS1009b.A.dialog-act.dharshi.118,A,A,4.39,0.0,False,False,0.0,[],False, So uh the first thing is pro maybe a little easier on uh who is our target group.,18,task,Inform
+IS1009b,A,1568.21,1568.83,0.62,IS1009b.A.dialog-act.dharshi.119,,,,,,,,,False, Um.,1,minor,Stall
+IS1009b,A,1570.93,1572.63,1.7,IS1009b.A.dialog-act.dharshi.120,A,A,1.85,4.39,False,False,0.0,[],False, I guess in many ways everybody.,6,task,Inform
+IS1009b,A,1574.48,1576.21,1.73,IS1009b.A.dialog-act.dharshi.121,B,A,0.36,1.85,False,False,0.0,[],False, Everybody who has a T_V_.,5,task,Inform
+IS1009b,C,1574.82,1576.85,2.03,IS1009b.C.dialog-act.dharshi.165,,,,,,,,,False," Mm, T_V_, yeah.",3,minor,Backchannel
+IS1009b,B,1576.57,1577.92,1.35,IS1009b.B.dialog-act.dharshi.87,A,A,0.61,0.36,True,False,0.0,[],True, T_V_ television we was.,4,task,Assess
+IS1009b,A,1577.98,1578.53,0.55,IS1009b.A.dialog-act.dharshi.122,,,,,,,,,False," Yeah,",1,task,Assess
+IS1009b,A,1578.53,1583.14,4.61,IS1009b.A.dialog-act.dharshi.123,A,B,0.0,0.61,True,False,0.0,[],True, and I think today there are probably not many people who don't have a T_V_.,15,task,Inform
+IS1009b,C,1581.7,1583.48,1.78,IS1009b.C.dialog-act.dharshi.164,,,,,,,,,False," Don't T_V_, yeah.",3,minor,Backchannel
+IS1009b,A,1583.14,1584.96,1.82,IS1009b.A.dialog-act.dharshi.124,A,A,1.77,0.0,False,False,0.0,[],False, There are a few but in general not.,8,task,Inform
+IS1009b,A,1586.73,1591.49,4.76,IS1009b.A.dialog-act.dharshi.125,A,A,0.0,1.77,False,False,0.0,[],False," Now, talking about the target group which is in a sense everybody,",12,task,Inform
+IS1009b,A,1591.49,1595.2,3.71,IS1009b.A.dialog-act.dharshi.126,A,A,0.51,0.0,False,False,0.0,[],False, but I think within the target group we have subgroups.,10,task,Inform
+IS1009b,A,1595.2,1595.71,0.51,IS1009b.A.dialog-act.dharshi.127,,,,,,,,,False, We have,2,minor,Stall
+IS1009b,A,1595.71,1605.19,9.48,IS1009b.A.dialog-act.dharshi.128,A,A,0.0,0.51,False,False,0.0,[],False," we have earlier it was mentioned about um for example elderly people who have limited function with their fingers and hands,",21,task,Inform
+IS1009b,B,1601.54,1601.9,0.36,IS1009b.B.dialog-act.dharshi.88,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,1604.76,1605.06,0.3,IS1009b.C.dialog-act.dharshi.166,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IS1009b,A,1605.19,1609.75,4.56,IS1009b.A.dialog-act.dharshi.129,A,A,0.0,0.0,False,False,0.0,[],False, so I think that's uh one group that's certainly important.,10,task,Assess
+IS1009b,A,1609.75,1618.45,8.7,IS1009b.A.dialog-act.dharshi.130,A,A,0.0,0.0,False,False,0.0,[],False, Um then we have just the nervous people who can never press a little button on anything um unless it's really very clear.,23,task,Inform
+IS1009b,C,1617.66,1617.96,0.3,IS1009b.C.dialog-act.dharshi.167,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,A,1618.45,1624.55,6.1,IS1009b.A.dialog-act.dharshi.131,A,A,0.0,0.0,False,False,0.0,[],False, And uh I don't know how much we want to cater to children's use.,14,task,Assess
+IS1009b,A,1624.55,1632.23,7.68,IS1009b.A.dialog-act.dharshi.132,A,A,2.24,0.0,False,False,0.0,[],False, I mean that's a question um whether that's important that children can really use it or not.,17,task,Assess
+IS1009b,C,1632.09,1632.3,0.21,IS1009b.C.dialog-act.dharshi.168,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1009b,A,1634.47,1637.14,2.67,IS1009b.A.dialog-act.dharshi.133,A,A,0.0,2.24,False,False,0.0,[],False," So this these are just some thoughts I have on it,",11,task,Inform
+IS1009b,D,1637.07,1637.63,0.56,IS1009b.D.dialog-act.dharshi.164,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,A,1637.14,1648.85,11.71,IS1009b.A.dialog-act.dharshi.134,A,A,0.0,0.0,False,False,0.0,[],False, and um I dunno what you feel about whether we can just say we have one target group and for this one target group we're gonna design this one thing,30,elicit,Elicit-Assessment
+IS1009b,C,1647.59,1647.74,0.15,IS1009b.C.dialog-act.dharshi.169,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,A,1648.85,1662.25,13.4,IS1009b.A.dialog-act.dharshi.135,D,A,0.51,0.0,False,False,0.0,[],False," or whether we're looking at what we like we we talking about different shapes, whether that different shape also includes maybe different uh buttons uh for different groups.",28,elicit,Elicit-Assessment
+IS1009b,D,1653.08,1653.51,0.43,IS1009b.D.dialog-act.dharshi.165,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,B,1653.255,1653.648,0.393,IS1009b.B.dialog-act.dharshi.89,,,,,,,,,False,,0,minor,Fragment
+IS1009b,C,1658.74,1659.03,0.29,IS1009b.C.dialog-act.dharshi.170,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,D,1658.95,1659.33,0.38,IS1009b.D.dialog-act.dharshi.166,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,D,1662.76,1667.37,4.61,IS1009b.D.dialog-act.dharshi.167,D,A,0.0,0.51,True,False,0.0,[],True," Well you know there's the old motto, children under six never shop alone.",13,task,Inform
+IS1009b,A,1666.88,1667.27,0.39,IS1009b.A.dialog-act.dharshi.136,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,D,1667.37,1680.94,13.57,IS1009b.D.dialog-act.dharshi.168,A,D,-2.18,0.0,False,True,2.18,['IS1009b.A.dialog-act.dharshi.137'],False, So if you've designed something that's very attractive to children um the mummy please mummy please um you know we want it now we wanna go to the store and see it um that has uh a lot of marketing pull.,41,task,Inform
+IS1009b,B,1672.864,1673.701,0.837,IS1009b.B.dialog-act.dharshi.90,,,,,,,,,False,,0,minor,Fragment
+IS1009b,A,1678.76,1682.07,3.31,IS1009b.A.dialog-act.dharshi.137,A,D,0.0,-2.18,True,False,0.0,[],False, That has a lot of that has a lot of appeal,11,task,Assess
+IS1009b,C,1681.65,1681.7,0.05,IS1009b.C.dialog-act.dharshi.171,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1009b,A,1682.07,1688.47,6.4,IS1009b.A.dialog-act.dharshi.138,A,A,0.0,0.0,False,False,0.0,[],False, but I think uh I'm I'm talking about the functionality now on it whether we're looking at different groups.,19,task,Inform
+IS1009b,A,1688.47,1693.22,4.75,IS1009b.A.dialog-act.dharshi.139,A,A,0.0,0.0,False,False,0.0,[],False, I think the children issue can be addressed with the shape and with colours.,14,task,Assess
+IS1009b,D,1691.42,1691.81,0.39,IS1009b.D.dialog-act.dharshi.169,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,D,1692.74,1693.14,0.4,IS1009b.D.dialog-act.dharshi.170,,,,,,,,,False, That's right.,2,task,Assess
+IS1009b,C,1692.92,1693.23,0.31,IS1009b.C.dialog-act.dharshi.172,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,B,1692.95,1693.74,0.79,IS1009b.B.dialog-act.dharshi.91,,,,,,,,,False, Different colours.,2,minor,Backchannel
+IS1009b,A,1693.22,1699.43,6.21,IS1009b.A.dialog-act.dharshi.142,D,A,-1.81,0.0,False,True,1.81,['IS1009b.D.dialog-act.dharshi.171'],False," You know, like you make it nice and pink, fluorescent, banana colour or whatever you know",16,task,Suggest
+IS1009b,B,1696.48,1696.91,0.43,IS1009b.B.dialog-act.dharshi.92,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1009b,D,1697.62,1700.032,2.412,IS1009b.D.dialog-act.dharshi.171,A,A,-0.602,-1.81,True,True,0.602,['IS1009b.A.dialog-act.dharshi.141'],False, You can make a banana shaped one.,7,task,Suggest
+IS1009b,C,1699.07,1699.42,0.35,IS1009b.C.dialog-act.dharshi.173,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,B,1699.282,1699.812,0.53,IS1009b.B.dialog-act.dharshi.93,,,,,,,,,False,,0,minor,Fragment
+IS1009b,A,1699.43,1701.78,2.35,IS1009b.A.dialog-act.dharshi.141,A,D,0.0,-0.602,True,False,0.0,[],False," yeah, for example you know.",5,task,Assess
+IS1009b,C,1701.2,1701.59,0.39,IS1009b.C.dialog-act.dharshi.174,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1009b,A,1701.78,1704.67,2.89,IS1009b.A.dialog-act.dharshi.140,A,A,1.569,0.0,False,False,0.0,[],False," But the question is really, who is our target group.",10,task,Inform
+IS1009b,D,1705.2,1705.71,0.51,IS1009b.D.dialog-act.dharshi.172,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,A,1706.239,1708.67,2.431,IS1009b.A.dialog-act.dharshi.143,A,A,1.17,1.569,False,False,0.0,[],False, Do we look at one target group?,7,elicit,Elicit-Assessment
+IS1009b,A,1709.84,1715.78,5.94,IS1009b.A.dialog-act.dharshi.144,A,A,0.0,1.17,False,False,0.0,[],False, And with the twenty five Euros you know can we can we afford to have,15,elicit,Elicit-Assessment
+IS1009b,A,1715.78,1727.82,12.04,IS1009b.A.dialog-act.dharshi.145,A,A,0.0,0.0,False,False,0.0,[],False, uh I'm asking the technical people here whether um to look at sort of subgroups with maybe different buttons for each group,22,task,Suggest
+IS1009b,A,1727.82,1733.9,6.08,IS1009b.A.dialog-act.dharshi.146,B,A,3.06,0.0,False,False,0.0,[],False, how much would that throw us out of the cost we are supposed to,14,elicit,Elicit-Inform
+IS1009b,D,1733.47,1734.63,1.16,IS1009b.D.dialog-act.dharshi.173,,,,,,,,,False, Respect.,1,elicit,Elicit-Inform
+IS1009b,A,1733.9,1734.9,1.0,IS1009b.A.dialog-act.dharshi.147,,,,,,,,,False, respect?,1,elicit,Elicit-Inform
+IS1009b,B,1733.926,1735.028,1.102,IS1009b.B.dialog-act.dharshi.94,,,,,,,,,False,,0,minor,Fragment
+IS1009b,D,1734.63,1734.97,0.34,IS1009b.D.dialog-act.dharshi.174,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1009b,B,1735.87,1736.96,1.09,IS1009b.B.dialog-act.dharshi.95,,,,,,,,,False, Okay.,1,minor,Stall
+IS1009b,B,1736.96,1747.62,10.66,IS1009b.B.dialog-act.dharshi.96,B,A,0.0,3.06,True,False,0.0,[],True, No uh generally we can we can design a remote which is mainly for people with uh f age from ten to um forty,24,task,Suggest
+IS1009b,A,1747.14,1747.51,0.37,IS1009b.A.dialog-act.dharshi.150,,,,,,,,,False, Right.,1,minor,Backchannel
+IS1009b,B,1747.62,1757.77,10.15,IS1009b.B.dialog-act.dharshi.97,C,B,-0.1,0.0,False,True,0.1,['IS1009b.C.dialog-act.dharshi.176'],False," and and then we can add on uh specific functional buttons for children as well as the elderly people or the people wit with who have nervous problems, yes.",29,task,Suggest
+IS1009b,A,1755.38,1756.288,0.908,IS1009b.A.dialog-act.dharshi.149,,,,,,,,,False, With with,2,minor,Fragment
+IS1009b,A,1757.29,1757.65,0.36,IS1009b.A.dialog-act.dharshi.148,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,1757.67,1764.17,6.5,IS1009b.C.dialog-act.dharshi.176,B,B,-0.17,-0.1,True,True,0.17,['IS1009b.B.dialog-act.dharshi.99'],False," We can design different remotes for different people, like for aged people there will be big buttons and you know.",20,task,Suggest
+IS1009b,A,1762.98,1763.997,1.017,IS1009b.A.dialog-act.dharshi.151,,,,,,,,,False, Well that's that's,3,minor,Fragment
+IS1009b,B,1763.0,1764.0,1.0,IS1009b.B.dialog-act.dharshi.98,,,,,,,,,False, But in a family,4,minor,Stall
+IS1009b,B,1764.0,1770.29,6.29,IS1009b.B.dialog-act.dharshi.99,C,C,-3.63,-0.17,True,True,1.43,['IS1009b.C.dialog-act.dharshi.177'],False," in a family there will be a aged person, children and a middle aged but they cannot buy three different remotes.",21,task,Assess
+IS1009b,C,1764.17,1764.45,0.28,IS1009b.C.dialog-act.dharshi.175,,,,,,,,,False, yeah.,1,minor,Backchannel
+IS1009b,C,1766.66,1768.09,1.43,IS1009b.C.dialog-act.dharshi.177,B,B,2.2,-3.63,True,False,0.0,[],False," Children and everybody, yeah.",4,task,Assess
+IS1009b,B,1770.29,1776.256,5.966,IS1009b.B.dialog-act.dharshi.100,C,C,-0.476,2.2,True,True,0.476,['IS1009b.C.dialog-act.dharshi.178'],True, They would like to buy just one and um just one which can be used all the three uh,19,task,Assess
+IS1009b,C,1775.78,1777.28,1.5,IS1009b.C.dialog-act.dharshi.178,C,B,0.0,-0.476,True,False,0.0,[],False," Yeah of course that we can do,",7,task,Assess
+IS1009b,C,1777.28,1791.23,13.95,IS1009b.C.dialog-act.dharshi.179,D,C,-1.16,0.0,False,True,1.16,['IS1009b.D.dialog-act.dharshi.175'],False," but specifically if y if like elderly people want big buttons then you can't really make a bi big remote controller so maybe specifically you can design a big con remote controller for elderly and for children, like in a different you know.",43,task,Suggest
+IS1009b,D,1790.07,1793.23,3.16,IS1009b.D.dialog-act.dharshi.175,C,C,-0.28,-1.16,True,True,0.28,['IS1009b.C.dialog-act.dharshi.180'],False," What about the electronics? That's not really gonna change much, is it?",12,elicit,Elicit-Inform
+IS1009b,A,1791.56,1792.08,0.52,IS1009b.A.dialog-act.dharshi.152,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,B,1792.21,1793.23,1.02,IS1009b.B.dialog-act.dharshi.101,,,,,,,,,False, Cost effective.,2,task,Inform
+IS1009b,C,1792.95,1794.46,1.51,IS1009b.C.dialog-act.dharshi.180,D,D,-0.4,-0.28,True,True,0.4,['IS1009b.D.dialog-act.dharshi.176'],False," No, it it doesn't cost, yeah.",6,task,Inform
+IS1009b,D,1794.06,1796.88,2.82,IS1009b.D.dialog-act.dharshi.176,C,C,-0.46,-0.4,True,True,0.46,['IS1009b.C.dialog-act.dharshi.181'],False," That that w that won't change much, will it uh?",10,task,Assess
+IS1009b,A,1794.14,1795.023,0.883,IS1009b.A.dialog-act.dharshi.153,,,,,,,,,False, No,1,minor,Backchannel
+IS1009b,C,1796.42,1798.72,2.3,IS1009b.C.dialog-act.dharshi.181,A,D,-0.87,-0.46,True,True,0.87,"['IS1009b.A.dialog-act.dharshi.154', 'IS1009b.D.dialog-act.dharshi.177']",False, Yeah. Doesn't doesn't doesn't matter.,5,task,Assess
+IS1009b,A,1797.85,1803.8,5.95,IS1009b.A.dialog-act.dharshi.154,D,C,-5.72,-0.87,True,True,1.03,['IS1009b.D.dialog-act.dharshi.177'],False," The the quest the question to be addressed here is only who is the target group and how will it function,",21,task,Inform
+IS1009b,D,1798.08,1799.11,1.03,IS1009b.D.dialog-act.dharshi.177,A,A,4.69,-5.72,True,False,0.0,[],False, I d I wouldn't think so.,6,task,Assess
+IS1009b,D,1803.33,1803.73,0.4,IS1009b.D.dialog-act.dharshi.178,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,A,1803.8,1812.72,8.92,IS1009b.A.dialog-act.dharshi.155,A,D,0.0,4.69,True,False,0.0,[],True," and I think the how will it function is probably the question of the buttons you know, within the target group or subgroups.",23,task,Inform
+IS1009b,D,1809.47,1809.8,0.33,IS1009b.D.dialog-act.dharshi.179,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,A,1812.72,1822.18,9.46,IS1009b.A.dialog-act.dharshi.156,A,A,0.0,0.0,False,False,0.0,[],False, The question is only whether our budget will allow to have more than one design in a sense.,18,task,Inform
+IS1009b,D,1821.76,1822.11,0.35,IS1009b.D.dialog-act.dharshi.180,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,A,1822.18,1824.31,2.13,IS1009b.A.dialog-act.dharshi.157,A,A,0.0,0.0,False,False,0.0,[],False," I mean the basic design I understand will be the same,",11,task,Inform
+IS1009b,A,1824.31,1834.28,9.97,IS1009b.A.dialog-act.dharshi.158,A,A,1.05,0.0,False,False,0.0,[],False, but the question is how much will that set us back if let's say uh forty percent we make large buttons and the rest we make regular buttons for example.,30,task,Inform
+IS1009b,B,1832.06,1832.46,0.4,IS1009b.B.dialog-act.dharshi.102,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1009b,C,1832.99,1833.3,0.31,IS1009b.C.dialog-act.dharshi.182,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,C,1834.272,1834.948,0.676,IS1009b.C.dialog-act.dharshi.183,,,,,,,,,False,,0,minor,Fragment
+IS1009b,D,1834.47,1834.81,0.34,IS1009b.D.dialog-act.dharshi.181,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,A,1835.33,1837.12,1.79,IS1009b.A.dialog-act.dharshi.159,A,A,0.0,1.05,False,False,0.0,[],False, So that remains to s to be seen,8,task,Assess
+IS1009b,A,1837.12,1843.53,6.41,IS1009b.A.dialog-act.dharshi.160,D,A,1.62,0.0,False,False,0.0,[],False, but uh the target group as a whole is is basically everybody with a T_V_.,15,task,Inform
+IS1009b,D,1843.62,1844.57,0.95,IS1009b.D.dialog-act.dharshi.182,,,,,,,,,False," That's right,",2,task,Assess
+IS1009b,B,1844.23,1844.54,0.31,IS1009b.B.dialog-act.dharshi.103,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1009b,D,1844.57,1845.15,0.58,IS1009b.D.dialog-act.dharshi.183,,,,,,,,,False, and can we,3,minor,Stall
+IS1009b,D,1845.15,1856.58,11.43,IS1009b.D.dialog-act.dharshi.184,A,A,-1.05,1.62,True,True,1.05,['IS1009b.A.dialog-act.dharshi.161'],True," can we is it even feasible to make one one remote control with something for everyone, or would we have to use the same electronics and make three different shapes?",30,elicit,Elicit-Assessment
+IS1009b,A,1855.53,1857.47,1.94,IS1009b.A.dialog-act.dharshi.161,D,D,-0.89,-1.05,True,True,0.89,['IS1009b.D.dialog-act.dharshi.185'],False," Yeah, well that's that's the question.",6,task,Assess
+IS1009b,D,1856.58,1861.2,4.62,IS1009b.D.dialog-act.dharshi.185,D,A,2.02,-0.89,True,False,0.0,[],False, Um the same electronics and basically all that's gonna be different is the plastic case.,15,task,Inform
+IS1009b,C,1859.47,1860.82,1.35,IS1009b.C.dialog-act.dharshi.184,,,,,,,,,False, Hmm hmm.,2,minor,Backchannel
+IS1009b,D,1861.2,1863.22,2.02,IS1009b.D.dialog-act.dharshi.186,,,,,,,,,False, And in that case we could probabl,7,minor,Fragment
+IS1009b,D,1863.22,1865.75,2.53,IS1009b.D.dialog-act.dharshi.187,D,D,0.0,2.02,False,False,0.0,[],False, moulded plastic isn't all that expensive is it?,8,elicit,Elicit-Inform
+IS1009b,D,1865.75,1867.54,1.79,IS1009b.D.dialog-act.dharshi.188,C,D,-1.4,0.0,False,True,1.4,['IS1009b.C.dialog-act.dharshi.185'],False, Um you as an industrial person?,6,elicit,Elicit-Inform
+IS1009b,C,1866.14,1870.15,4.01,IS1009b.C.dialog-act.dharshi.185,A,D,-0.67,-1.4,True,True,0.67,['IS1009b.A.dialog-act.dharshi.165'],False," Uh no. Mm, I I I don't think no. It's not.",11,task,Inform
+IS1009b,A,1868.47,1869.48,1.01,IS1009b.A.dialog-act.dharshi.162,,,,,,,,,False, Well maybe there's,3,minor,Stall
+IS1009b,A,1869.48,1874.26,4.78,IS1009b.A.dialog-act.dharshi.165,A,C,0.0,-0.67,True,False,0.0,[],False, there's an idea you know t the new for example new portable phones?,13,task,Inform
+IS1009b,D,1873.63,1874.03,0.4,IS1009b.D.dialog-act.dharshi.189,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,A,1874.26,1882.77,8.51,IS1009b.A.dialog-act.dharshi.166,A,A,0.0,0.0,False,False,0.0,[],False," They have like removable plastic cases, so you can have a striped one or you can have a fluorescent blue one, or whatever,",23,task,Inform
+IS1009b,D,1877.89,1878.21,0.32,IS1009b.D.dialog-act.dharshi.190,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,D,1882.22,1882.55,0.33,IS1009b.D.dialog-act.dharshi.191,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,B,1882.63,1882.97,0.34,IS1009b.B.dialog-act.dharshi.104,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1009b,A,1882.77,1884.77,2.0,IS1009b.A.dialog-act.dharshi.167,A,A,0.0,0.0,False,False,0.0,[],False," and maybe something like that,",5,task,Suggest
+IS1009b,A,1884.77,1900.4,15.63,IS1009b.A.dialog-act.dharshi.168,D,A,-13.15,0.0,False,True,1.55,['IS1009b.D.dialog-act.dharshi.192'],False, that in each package you know you have you you have you have for example uh you have let's say a fluorescent blue on it but then you have uh another colour or stripe whatever that already comes in a package.,41,task,Suggest
+IS1009b,D,1887.25,1888.8,1.55,IS1009b.D.dialog-act.dharshi.192,A,A,11.6,-13.15,True,False,0.0,[],False, Well there's a real idea yeah.,6,task,Assess
+IS1009b,D,1894.73,1895.05,0.32,IS1009b.D.dialog-act.dharshi.193,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,C,1899.66,1899.95,0.29,IS1009b.C.dialog-act.dharshi.186,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IS1009b,A,1900.4,1903.71,3.31,IS1009b.A.dialog-act.dharshi.169,C,D,0.91,11.6,True,False,0.0,[],True, And then if people really want more colours they can buy it separately.,13,task,Inform
+IS1009b,D,1900.42,1900.67,0.25,IS1009b.D.dialog-act.dharshi.194,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,D,1904.39,1904.7,0.31,IS1009b.D.dialog-act.dharshi.195,,,,,,,,,False, Right.,1,minor,Backchannel
+IS1009b,C,1904.62,1911.33,6.71,IS1009b.C.dialog-act.dharshi.187,A,A,-1.27,0.91,True,True,1.27,['IS1009b.A.dialog-act.dharshi.174'],True," Yeah, like for mobile phones we have uh different you know covers, like designs and all so that w we can have that.",23,task,Assess
+IS1009b,A,1905.07,1906.15,1.08,IS1009b.A.dialog-act.dharshi.170,,,,,,,,,False," You know,",2,elicit,Elicit-Assessment
+IS1009b,B,1905.21,1905.705,0.495,IS1009b.B.dialog-act.dharshi.106,,,,,,,,,False, Um,1,minor,Fragment
+IS1009b,A,1906.15,1906.5,0.35,IS1009b.A.dialog-act.dharshi.171,,,,,,,,,False, yes.,1,task,Assess
+IS1009b,D,1908.64,1909.09,0.45,IS1009b.D.dialog-act.dharshi.196,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,B,1909.04,1909.29,0.25,IS1009b.B.dialog-act.dharshi.105,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1009b,A,1909.27,1909.82,0.55,IS1009b.A.dialog-act.dharshi.172,,,,,,,,,False," That's right,",2,task,Assess
+IS1009b,A,1909.82,1910.06,0.24,IS1009b.A.dialog-act.dharshi.173,,,,,,,,,False, and,1,minor,Stall
+IS1009b,A,1910.06,1916.94,6.88,IS1009b.A.dialog-act.dharshi.174,A,C,0.0,-1.27,True,False,0.0,[],False," but like if if then everybody is is is tired of the fluorescent blue and of the striped or whatever they have as another one in the package,",28,task,Inform
+IS1009b,D,1910.56,1911.12,0.56,IS1009b.D.dialog-act.dharshi.197,,,,,,,,,False, Uh yeah.,2,minor,Backchannel
+IS1009b,A,1916.94,1923.02,6.08,IS1009b.A.dialog-act.dharshi.175,A,A,0.0,0.0,False,False,0.0,[],False, then they can go to the store and for a few uh Francs or Euros whatever they can buy,19,task,Inform
+IS1009b,C,1919.19,1919.42,0.23,IS1009b.C.dialog-act.dharshi.188,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,D,1922.28,1923.22,0.94,IS1009b.D.dialog-act.dharshi.198,,,,,,,,,False, An alternate package.,3,task,Inform
+IS1009b,A,1923.02,1926.96,3.94,IS1009b.A.dialog-act.dharshi.176,B,A,0.79,0.0,False,False,0.0,[],False, an alternate package with another two colours in it you know for example you know.,15,task,Inform
+IS1009b,D,1926.34,1927.25,0.91,IS1009b.D.dialog-act.dharshi.199,,,,,,,,,False, Yeah. Okay.,2,task,Assess
+IS1009b,B,1927.75,1929.7,1.95,IS1009b.B.dialog-act.dharshi.107,B,A,0.0,0.79,True,False,0.0,[],True, But uh yeah I I have a doubt,8,task,Assess
+IS1009b,B,1929.7,1945.36,15.66,IS1009b.B.dialog-act.dharshi.108,A,B,0.13,0.0,False,False,0.0,[],False, like will it be cost wise effective if we if we design a remote having all the uh different features for different people or designing three different um remotes for three different categories of people.,35,elicit,Elicit-Assessment
+IS1009b,A,1945.49,1950.29,4.8,IS1009b.A.dialog-act.dharshi.177,A,B,0.0,0.13,True,False,0.0,[],True, Well I think I think the idea here is to uh to to d design one remote,17,task,Assess
+IS1009b,C,1945.88,1946.684,0.804,IS1009b.C.dialog-act.dharshi.189,,,,,,,,,False," Yeah, but uh",3,minor,Fragment
+IS1009b,D,1946.15,1947.98,1.83,IS1009b.D.dialog-act.dharshi.200,,,,,,,,,False," Well I think we can only aff,",7,minor,Fragment
+IS1009b,D,1947.98,1948.41,0.43,IS1009b.D.dialog-act.dharshi.201,,,,,,,,,False, yeah.,1,minor,Backchannel
+IS1009b,B,1949.7,1950.09,0.39,IS1009b.B.dialog-act.dharshi.109,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1009b,C,1950.04,1950.47,0.43,IS1009b.C.dialog-act.dharshi.190,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1009b,A,1950.29,1953.91,3.62,IS1009b.A.dialog-act.dharshi.178,A,A,2.71,0.0,False,False,0.0,[],False, and what the only change is gonna be um,9,task,Inform
+IS1009b,A,1953.91,1956.62,2.71,IS1009b.A.dialog-act.dharshi.179,,,,,,,,,False, the funct d t yeah uh,6,minor,Stall
+IS1009b,D,1954.03,1954.73,0.7,IS1009b.D.dialog-act.dharshi.202,,,,,,,,,False, Cosmetic.,1,task,Inform
+IS1009b,B,1955.75,1956.59,0.84,IS1009b.B.dialog-act.dharshi.110,,,,,,,,,False, Of th okay.,3,task,Assess
+IS1009b,A,1956.62,1961.11,4.49,IS1009b.A.dialog-act.dharshi.180,A,A,0.0,2.71,False,False,0.0,[],False," the functional functional cosmetics if you want to put it that way,",12,task,Inform
+IS1009b,B,1959.47,1959.98,0.51,IS1009b.B.dialog-act.dharshi.111,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1009b,B,1960.82,1961.16,0.34,IS1009b.B.dialog-act.dharshi.112,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,A,1961.11,1970.66,9.55,IS1009b.A.dialog-act.dharshi.181,A,A,2.21,0.0,False,False,0.0,[],False, um having maybe larger buttons or buttons that light up or buttons that are slightly differently shaped for people uh either for children um,24,task,Suggest
+IS1009b,A,1972.87,1975.56,2.69,IS1009b.A.dialog-act.dharshi.182,D,A,2.0,2.21,False,False,0.0,[],False, Five minutes that was I guess tha that's the old message.,11,task,Inform
+IS1009b,D,1977.56,1979.16,1.6,IS1009b.D.dialog-act.dharshi.203,A,A,-0.88,2.0,True,True,0.88,['IS1009b.A.dialog-act.dharshi.183'],True," Warning, finish meeting now.",4,task,Inform
+IS1009b,A,1978.28,1982.41,4.13,IS1009b.A.dialog-act.dharshi.183,D,D,2.65,-0.88,True,False,0.0,[],False, Finish meeting now. Um um.,5,task,Inform
+IS1009b,C,1979.448,1980.736,1.288,IS1009b.C.dialog-act.dharshi.191,,,,,,,,,False,,0,minor,Fragment
+IS1009b,B,1979.452,1981.301,1.849,IS1009b.B.dialog-act.dharshi.113,,,,,,,,,False,,0,minor,Fragment
+IS1009b,D,1985.06,1989.181,4.121,IS1009b.D.dialog-act.dharshi.204,C,A,-2.501,2.65,True,True,2.501,['IS1009b.C.dialog-act.dharshi.192'],True, Well we may have to come back to one or two of these points at our next meeting but um,20,task,Suggest
+IS1009b,C,1986.68,1989.31,2.63,IS1009b.C.dialog-act.dharshi.192,C,D,0.0,-2.501,True,False,0.0,[],False," Yeah, maybe, yeah, yeah.",4,task,Assess
+IS1009b,A,1988.92,1990.54,1.62,IS1009b.A.dialog-act.dharshi.186,,,,,,,,,False, But I think,3,minor,Stall
+IS1009b,C,1989.31,1991.44,2.13,IS1009b.C.dialog-act.dharshi.193,A,C,-0.9,0.0,False,True,0.9,['IS1009b.A.dialog-act.dharshi.184'],False," If we do some more research, maybe we.",8,task,Suggest
+IS1009b,A,1990.54,1994.52,3.98,IS1009b.A.dialog-act.dharshi.184,A,C,0.0,-0.9,True,False,0.0,[],False, I I think to sum it up the target group is basically everybody.,13,task,Assess
+IS1009b,A,1994.52,2000.23,5.71,IS1009b.A.dialog-act.dharshi.185,C,A,1.2,0.0,False,False,0.0,[],False, If money permits we can address some features for some subgroups within that.,13,task,Suggest
+IS1009b,D,1999.16,1999.45,0.29,IS1009b.D.dialog-act.dharshi.205,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,B,1999.39,2000.31,0.92,IS1009b.B.dialog-act.dharshi.114,,,,,,,,,False," Okay,",1,minor,Backchannel
+IS1009b,C,2000.29,2001.43,1.14,IS1009b.C.dialog-act.dharshi.194,,,,,,,,,False," Hmm yeah,",2,task,Assess
+IS1009b,B,2000.31,2000.79,0.48,IS1009b.B.dialog-act.dharshi.115,,,,,,,,,False, mm-hmm.,1,minor,Backchannel
+IS1009b,D,2001.14,2002.01,0.87,IS1009b.D.dialog-act.dharshi.206,,,,,,,,,False, Okay but we have to l,6,minor,Fragment
+IS1009b,C,2001.43,2007.53,6.1,IS1009b.C.dialog-act.dharshi.195,A,A,-6.08,1.2,True,True,2.79,"['IS1009b.A.dialog-act.dharshi.187', 'IS1009b.A.dialog-act.dharshi.188']",True, I think maybe seventy percent is a unique uh uh remote controller and thirty percent is yeah it's sort of like yeah.,22,task,Assess
+IS1009b,A,2001.45,2002.47,1.02,IS1009b.A.dialog-act.dharshi.187,A,C,2.27,-6.08,True,False,0.0,[],False," Do we agree, do we?",5,elicit,Elicit-Assessment
+IS1009b,A,2004.74,2010.28,5.54,IS1009b.A.dialog-act.dharshi.188,C,A,-2.03,2.27,False,True,1.66,['IS1009b.C.dialog-act.dharshi.196'],False," Do we agree on on that in principle, like money will tell whether we will be able to do that or not.",22,elicit,Elicit-Assessment
+IS1009b,C,2008.25,2009.91,1.66,IS1009b.C.dialog-act.dharshi.196,A,A,2.16,-2.03,True,False,0.0,[],False," Yeah, yeah, of course, yeah.",5,task,Assess
+IS1009b,D,2010.29,2011.59,1.3,IS1009b.D.dialog-act.dharshi.207,,,,,,,,,False," Okay, fair enough.",3,task,Assess
+IS1009b,B,2010.48,2010.93,0.45,IS1009b.B.dialog-act.dharshi.116,,,,,,,,,False, Yes.,1,task,Assess
+IS1009b,A,2011.26,2012.07,0.81,IS1009b.A.dialog-act.dharshi.189,,,,,,,,,False, Okay?,1,elicit,Elicit-Assessment
+IS1009b,C,2011.99,2012.19,0.2,IS1009b.C.dialog-act.dharshi.197,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1009b,A,2012.07,2014.47,2.4,IS1009b.A.dialog-act.dharshi.190,A,C,3.31,2.16,True,False,0.0,[],True, So now I understand it's lunch break.,7,task,Inform
+IS1009b,A,2015.48,2016.31,0.83,IS1009b.A.dialog-act.dharshi.191,,,,,,,,,False, And um.,2,minor,Stall
+IS1009b,A,2017.78,2019.22,1.44,IS1009b.A.dialog-act.dharshi.192,A,A,2.98,3.31,False,False,0.0,[],False, So that's what we will do.,6,task,Suggest
+IS1009b,D,2019.24,2019.68,0.44,IS1009b.D.dialog-act.dharshi.208,,,,,,,,,False, Okay.,1,task,Assess
+IS1009b,B,2020.18,2020.44,0.26,IS1009b.B.dialog-act.dharshi.117,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1009b,A,2022.2,2023.24,1.04,IS1009b.A.dialog-act.dharshi.193,A,A,1.15,2.98,False,False,0.0,[],False, So hank you very much.,5,other,Be-Positive
+IS1009b,C,2022.8,2023.26,0.46,IS1009b.C.dialog-act.dharshi.198,,,,,,,,,False, Thank you.,2,other,Be-Positive
+IS1009b,A,2024.39,2026.9,2.51,IS1009b.A.dialog-act.dharshi.194,,A,,1.15,False,False,0.0,[],False, And we'll see you after lunch.,6,task,Inform

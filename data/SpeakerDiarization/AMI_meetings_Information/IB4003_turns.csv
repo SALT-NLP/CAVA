@@ -1,0 +1,867 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+IB4003,D,45.41,45.71,0.3,IB4003.D.dialog-act.s9553330.1,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+IB4003,C,48.68,49.616,0.936,IB4003.C.dialog-act.s9553330.1,A,,5.154,,True,False,0.0,[],False, And don't forget the,4,other,Other
+IB4003,D,50.32,50.51,0.19,IB4003.D.dialog-act.s9553330.2,,,,,,,,,False, Oh yeah.,2,minor,Backchannel
+IB4003,A,54.77,56.68,1.91,IB4003.A.dialog-act.s9553330.1,A,C,0.0,5.154,True,False,0.0,[],True," Um, so hi everyone.",4,other,Be-Positive
+IB4003,A,56.68,59.36,2.68,IB4003.A.dialog-act.s9553330.2,A,A,0.0,0.0,False,False,0.0,[],False, Thanks for coming to this meeting.,6,other,Be-Positive
+IB4003,A,59.36,69.19,9.83,IB4003.A.dialog-act.s9553330.3,A,A,0.0,0.0,False,False,0.0,[],False, Um well as you all know the topic of this morning's meeting is uh the fact that we're moving and we are going to get more space.,27,task,Inform
+IB4003,A,69.19,71.99,2.8,IB4003.A.dialog-act.s9553330.4,A,A,0.0,0.0,False,False,0.0,[],False, So that's a very good piece of news.,8,task,Assess
+IB4003,A,71.99,75.56,3.57,IB4003.A.dialog-act.s9553330.5,A,A,1.12,0.0,False,False,0.0,[],False, Uh but we also have to find out how we use this space.,13,task,Inform
+IB4003,A,76.68,83.16,6.48,IB4003.A.dialog-act.s9553330.6,A,A,0.0,1.12,False,False,0.0,[],False," So um if you want, I'll just give a brief overview of what's happening",14,other,Offer
+IB4003,A,83.16,89.99,6.83,IB4003.A.dialog-act.s9553330.7,A,A,0.0,0.0,False,False,0.0,[],False," and then we can uh talk about, well, arranging these new uh the new office space.",16,task,Suggest
+IB4003,A,89.99,101.55,11.56,IB4003.A.dialog-act.s9553330.8,A,A,2.44,0.0,False,False,0.0,[],False, So um in case you haven't seen the the documents uh let me just uh show you very briefly the the configuration of the the space.,26,other,Offer
+IB4003,A,103.99,107.5,3.51,IB4003.A.dialog-act.s9553330.9,A,A,0.0,2.44,False,False,0.0,[],False," So um well, there is nothing much to say.",9,task,Inform
+IB4003,A,107.5,110.44,2.94,IB4003.A.dialog-act.s9553330.10,A,A,0.0,0.0,False,False,0.0,[],False, Well you know how many of us are are present,10,task,Inform
+IB4003,A,110.44,115.54,5.1,IB4003.A.dialog-act.s9553330.11,A,A,0.0,0.0,False,False,0.0,[],False, and you know that we are um a bit tight actually in our present location.,15,task,Inform
+IB4003,A,115.54,124.09,8.55,IB4003.A.dialog-act.s9553330.12,A,A,0.0,0.0,False,False,0.0,[],False, Uh that's why actually the university finally um allocated us this uh this part of uh the Unimail building.,19,task,Inform
+IB4003,A,124.09,126.38,2.29,IB4003.A.dialog-act.s9553330.13,A,A,0.0,0.0,False,False,0.0,[],False, So it's at the sixth floor.,6,task,Inform
+IB4003,A,126.38,132.33,5.95,IB4003.A.dialog-act.s9553330.14,A,A,0.0,0.0,False,False,0.0,[],False, And it's uh sort of contiguous rooms as you you can all see from uh from here.,17,task,Inform
+IB4003,A,132.33,138.82,6.49,IB4003.A.dialog-act.s9553330.15,A,A,0.0,0.0,False,False,0.0,[],False," Um so the the the one P_, two P_, three P_ means the the number of persons.",17,task,Inform
+IB4003,A,138.82,152.01,13.19,IB4003.A.dialog-act.s9553330.16,A,A,0.0,0.0,False,False,0.0,[],False," As you can see we have several corridor um with a number of uh of uh of rooms, of one person rooms, two person room and and three person rooms.",30,task,Inform
+IB4003,A,152.01,156.04,4.03,IB4003.A.dialog-act.s9553330.17,A,A,0.0,0.0,False,False,0.0,[],False, Um actually I think Agnes did this nice drawing,9,task,Inform
+IB4003,A,156.04,158.1,2.06,IB4003.A.dialog-act.s9553330.18,A,A,0.0,0.0,False,False,0.0,[],False," so she even put the the view,",7,task,Inform
+IB4003,A,158.1,160.0,1.9,IB4003.A.dialog-act.s9553330.19,A,A,0.0,0.0,False,False,0.0,[],False," so we have the old town on one side,",9,task,Inform
+IB4003,A,160.0,162.95,2.95,IB4003.A.dialog-act.s9553330.20,A,A,0.0,0.0,False,False,0.0,[],False, and the mountains on the other two sides.,8,task,Inform
+IB4003,A,162.95,165.96,3.01,IB4003.A.dialog-act.s9553330.21,A,A,0.0,0.0,False,False,0.0,[],False, Uh we have some bathrooms for us.,7,task,Inform
+IB4003,A,165.96,169.53,3.57,IB4003.A.dialog-act.s9553330.22,A,A,0.0,0.0,False,False,0.0,[],False," Uh and a courtyard which actually means a sort of uh shaft,",12,task,Inform
+IB4003,A,169.53,173.59,4.06,IB4003.A.dialog-act.s9553330.23,D,A,-0.63,0.0,False,True,0.63,['IB4003.D.dialog-act.s9553330.3'],False, because uh the court is uh down at uh the first floor.,12,task,Inform
+IB4003,D,172.96,175.45,2.49,IB4003.D.dialog-act.s9553330.3,D,A,0.0,-0.63,True,False,0.0,[],False," Andre, just, yeah, just a a clarification question,",8,other,Offer
+IB4003,D,175.45,180.29,4.84,IB4003.D.dialog-act.s9553330.4,D,D,0.0,0.0,False,False,0.0,[],False," are they number of people per room indicated strict, or can we play around with?",15,elicit,Elicit-Inform
+IB4003,D,180.29,186.77,6.48,IB4003.D.dialog-act.s9553330.5,D,D,0.0,0.0,False,False,0.0,[],False," I mean if there are two people, is it really that you can't put three or uh two and a half or uh",23,elicit,Elicit-Inform
+IB4003,D,186.77,188.45,1.68,IB4003.D.dialog-act.s9553330.6,A,D,-0.96,0.0,False,True,0.96,['IB4003.A.dialog-act.s9553330.24'],False, how how was it calculated?,5,elicit,Elicit-Inform
+IB4003,A,187.49,189.45,1.96,IB4003.A.dialog-act.s9553330.24,A,D,0.0,-0.96,True,False,0.0,[],False," Well, it's a bit difficult to say,",7,task,Inform
+IB4003,A,189.45,194.02,4.57,IB4003.A.dialog-act.s9553330.25,A,A,0.0,0.0,False,False,0.0,[],False, because um in fact we have some constraints in terms of furniture.,12,task,Inform
+IB4003,A,194.02,195.4,1.38,IB4003.A.dialog-act.s9553330.26,A,A,0.0,0.0,False,False,0.0,[],False, Uh they are here.,4,task,Inform
+IB4003,D,194.84,195.09,0.25,IB4003.D.dialog-act.s9553330.7,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+IB4003,A,195.4,201.57,6.17,IB4003.A.dialog-act.s9553330.27,A,A,0.0,0.0,False,False,0.0,[],False," So um well, your your person Your your question actually is answered maybe by the third item.",17,task,Inform
+IB4003,A,201.57,205.99,4.42,IB4003.A.dialog-act.s9553330.28,A,A,0.0,0.0,False,False,0.0,[],False," So each person should get um, well, it's a sort of desk,",12,task,Inform
+IB4003,A,205.99,207.06,1.07,IB4003.A.dialog-act.s9553330.29,A,A,0.0,0.0,False,False,0.0,[],False, it's made of two pieces,5,task,Inform
+IB4003,A,207.06,208.63,1.57,IB4003.A.dialog-act.s9553330.30,A,A,0.0,0.0,False,False,0.0,[],False, and it looks like a corner.,6,task,Inform
+IB4003,A,208.63,210.15,1.52,IB4003.A.dialog-act.s9553330.31,A,A,0.0,0.0,False,False,0.0,[],False," With, of course, a chair.",5,task,Inform
+IB4003,A,210.15,214.48,4.33,IB4003.A.dialog-act.s9553330.32,A,A,0.0,0.0,False,False,0.0,[],False, Uh a filing cabinet that goes under the desk uh,10,task,Inform
+IB4003,A,214.48,218.79,4.31,IB4003.A.dialog-act.s9553330.33,A,A,0.0,0.0,False,False,0.0,[],False," and, well, we can put hanging shelves over the the desks.",11,task,Suggest
+IB4003,A,218.79,225.94,7.15,IB4003.A.dialog-act.s9553330.34,A,A,0.0,0.0,False,False,0.0,[],False, So I'm not really sure it's possible to get three um three desks in a two person office.,18,task,Inform
+IB4003,A,225.94,228.41,2.47,IB4003.A.dialog-act.s9553330.35,A,A,4.66,0.0,False,False,0.0,[],False, But um we could try.,5,task,Suggest
+IB4003,D,227.38,227.58,0.2,IB4003.D.dialog-act.s9553330.8,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,A,228.41,230.19,1.78,IB4003.A.dialog-act.s9553330.36,,,,,,,,,False," What's What should be said here,",6,minor,Fragment
+IB4003,A,230.19,233.07,2.88,IB4003.A.dialog-act.s9553330.37,,,,,,,,,False," I don't know if, well, you",6,minor,Fragment
+IB4003,A,233.07,236.78,3.71,IB4003.A.dialog-act.s9553330.38,A,A,0.99,4.66,False,False,0.0,[],False, I I will maybe distribute now documents if you don't have them.,12,other,Offer
+IB4003,A,236.78,237.77,0.99,IB4003.A.dialog-act.s9553330.39,,,,,,,,,False, Maybe it's easier.,3,task,Assess
+IB4003,A,237.77,239.45,1.68,IB4003.A.dialog-act.s9553330.40,A,A,0.0,0.99,False,False,0.0,[],False," Do you need something, Martin?",5,elicit,Elicit-Inform
+IB4003,D,239.3,240.21,0.91,IB4003.D.dialog-act.s9553330.9,,,,,,,,,False, I have everything.,3,task,Inform
+IB4003,A,239.45,242.28,2.83,IB4003.A.dialog-act.s9553330.41,C,A,0.73,0.0,False,False,0.0,[],False," Um, I can keep this for you.",7,other,Offer
+IB4003,D,241.19,241.919,0.729,IB4003.D.dialog-act.s9553330.10,,,,,,,,,False," Okay, so",2,minor,Backchannel
+IB4003,A,242.28,243.52,1.24,IB4003.A.dialog-act.s9553330.42,,,,,,,,,False, Uh so it's it's,4,minor,Fragment
+IB4003,C,243.01,243.58,0.57,IB4003.C.dialog-act.s9553330.2,A,A,0.28,0.73,True,False,0.0,[],True, I have a copy.,4,task,Inform
+IB4003,A,243.52,243.86,0.34,IB4003.A.dialog-act.s9553330.43,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,A,243.86,245.17,1.31,IB4003.A.dialog-act.s9553330.44,A,C,0.0,0.28,True,False,0.0,[],True," you have a copy, Susan.",5,task,Inform
+IB4003,A,245.17,248.02,2.85,IB4003.A.dialog-act.s9553330.45,A,A,0.0,0.0,False,False,0.0,[],False," You too David, I think.",5,task,Inform
+IB4003,B,246.63,246.86,0.23,IB4003.B.dialog-act.s9553330.1,,,,,,,,,False, Mm-hmm.,1,task,Assess
+IB4003,A,248.02,250.29,2.27,IB4003.A.dialog-act.s9553330.46,A,A,0.0,0.0,False,False,0.0,[],False," So in fact there are more places than people,",9,task,Inform
+IB4003,A,250.29,252.62,2.33,IB4003.A.dialog-act.s9553330.47,A,A,0.0,0.0,False,False,0.0,[],False, so we won't be that constrained.,6,task,Inform
+IB4003,A,252.62,258.34,5.72,IB4003.A.dialog-act.s9553330.48,A,A,0.0,0.0,False,False,0.0,[],False," Uh as you know some of us and some of you here actually, Martin and David are part-time.",18,task,Inform
+IB4003,A,258.34,261.15,2.81,IB4003.A.dialog-act.s9553330.49,A,A,0.0,0.0,False,False,0.0,[],False, So it it's for the moment quite comfortable.,8,task,Assess
+IB4003,A,261.15,269.6,8.45,IB4003.A.dialog-act.s9553330.50,D,A,-1.82,0.0,False,True,0.6,['IB4003.D.dialog-act.s9553330.11'],False," Normally we should even get an extra uh an extra place for, you know, temporary people coming to work on uh on projects.",23,task,Inform
+IB4003,D,267.78,268.38,0.6,IB4003.D.dialog-act.s9553330.11,A,A,1.22,-1.82,True,False,0.0,[],False, Are you sure of that?,5,elicit,Elicit-Inform
+IB4003,A,269.6,270.85,1.25,IB4003.A.dialog-act.s9553330.51,A,D,0.0,1.22,True,False,0.0,[],True," Uh yeah, I uh yeah,",5,task,Inform
+IB4003,A,270.85,277.14,6.29,IB4003.A.dialog-act.s9553330.52,A,A,0.0,0.0,False,False,0.0,[],False, I counted so we have um fifteen pers physical persons,10,task,Inform
+IB4003,D,276.66,276.83,0.17,IB4003.D.dialog-act.s9553330.12,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,A,277.14,284.44,7.3,IB4003.A.dialog-act.s9553330.53,C,A,-0.45,0.0,False,True,0.45,['IB4003.C.dialog-act.s9553330.4'],False," and about uh sixteen, I think, uh persons oh, actually, eighteen persons in the offices.",15,task,Inform
+IB4003,C,281.97,282.173,0.203,IB4003.C.dialog-act.s9553330.3,,,,,,,,,False, Two,1,other,Other
+IB4003,C,283.99,287.95,3.96,IB4003.C.dialog-act.s9553330.4,D,A,-3.27,-0.45,True,True,1.73,"['IB4003.D.dialog-act.s9553330.14', 'IB4003.A.dialog-act.s9553330.55']",False, Six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen.,13,other,Other
+IB4003,D,284.48,284.68,0.2,IB4003.D.dialog-act.s9553330.13,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,D,284.68,286.41,1.73,IB4003.D.dialog-act.s9553330.14,A,C,1.07,-3.27,True,False,0.0,[],False, but counting the rea the the reading room.,8,task,Inform
+IB4003,A,286.98,287.48,0.5,IB4003.A.dialog-act.s9553330.54,,,,,,,,,False," Exactly,",1,task,Assess
+IB4003,A,287.48,299.92,12.44,IB4003.A.dialog-act.s9553330.55,A,D,0.0,1.07,True,False,0.0,[],True," it so one of the issues uh here, it's probably not on the slides, is that we would like to have uh, unlike what had until now, a lounge or reading room uh in one of the the offices.",39,task,Inform
+IB4003,D,297.33,297.55,0.22,IB4003.D.dialog-act.s9553330.15,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,A,299.92,301.15,1.23,IB4003.A.dialog-act.s9553330.56,C,A,0.25,0.0,False,False,0.0,[],False, So in one of the rooms.,6,task,Inform
+IB4003,C,301.4,302.21,0.81,IB4003.C.dialog-act.s9553330.5,A,A,1.08,0.25,True,False,0.0,[],True, Do we really need that?,5,elicit,Elicit-Inform
+IB4003,A,303.29,307.26,3.97,IB4003.A.dialog-act.s9553330.57,A,C,0.0,1.08,True,False,0.0,[],True," Um, I think quite a lot of people e expressed the need for that.",14,task,Inform
+IB4003,A,307.26,311.67,4.41,IB4003.A.dialog-act.s9553330.58,D,A,2.22,0.0,False,False,0.0,[],False," So if we could do it, then I think it would be much nicer.",14,task,Inform
+IB4003,A,311.67,314.97,3.3,IB4003.A.dialog-act.s9553330.59,,,,,,,,,False, Um let me also uh st say something,8,minor,Fragment
+IB4003,D,313.89,319.55,5.66,IB4003.D.dialog-act.s9553330.16,D,A,0.0,2.22,True,False,0.0,[],True," And Susan, don't forget the time we spend to for discussions about that room,",14,task,Inform
+IB4003,A,314.97,315.33,0.36,IB4003.A.dialog-act.s9553330.60,,,,,,,,,False, Yep.,1,minor,Backchannel
+IB4003,D,319.55,323.04,3.49,IB4003.D.dialog-act.s9553330.17,A,D,0.39,0.0,False,False,0.0,[],False, so you should be able to valorize this if possible.,10,task,Inform
+IB4003,A,320.356,320.976,0.62,IB4003.A.dialog-act.s9553330.61,,,,,,,,,False,,0,minor,Fragment
+IB4003,C,322.6,322.91,0.31,IB4003.C.dialog-act.s9553330.6,,,,,,,,,False, Okay.,1,minor,Backchannel
+IB4003,A,323.43,325.45,2.02,IB4003.A.dialog-act.s9553330.62,D,D,-1.42,0.39,True,True,1.42,['IB4003.D.dialog-act.s9553330.18'],True," Yeah, I I think so.",5,task,Assess
+IB4003,D,324.03,329.12,5.09,IB4003.D.dialog-act.s9553330.18,D,A,0.0,-1.42,True,False,0.0,[],False," But I still agree with you that the b the we are not so we are not so large, as far as space is concerned.",25,task,Inform
+IB4003,C,328.41,328.77,0.36,IB4003.C.dialog-act.s9553330.7,,,,,,,,,False, Yeah.,1,task,Assess
+IB4003,D,329.12,335.5,6.38,IB4003.D.dialog-act.s9553330.19,D,D,0.0,0.0,False,False,0.0,[],False," Uh because fifteen people to put in there eighteen positions,",10,task,Inform
+IB4003,A,334.65,335.04,0.39,IB4003.A.dialog-act.s9553330.63,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,335.5,345.6,10.1,IB4003.D.dialog-act.s9553330.20,A,D,-2.62,0.0,False,True,2.62,['IB4003.A.dialog-act.s9553330.64'],False," so uh to the best uh if you take uh two people room for the reading room, then you have uh sixteen places. Mm.",24,task,Suggest
+IB4003,A,342.98,346.36,3.38,IB4003.A.dialog-act.s9553330.64,A,D,0.0,-2.62,True,False,0.0,[],False," Well, sixteen slots for fifteen people.",6,task,Inform
+IB4003,A,346.36,348.33,1.97,IB4003.A.dialog-act.s9553330.65,D,A,0.3,0.0,False,False,0.0,[],False, So it's still should be feasible.,6,task,Assess
+IB4003,D,348.63,351.36,2.73,IB4003.D.dialog-act.s9553330.22,A,A,1.25,0.3,True,False,0.0,[],True," Yeah, that that also means that the growth will be zero.",11,task,Inform
+IB4003,A,349.46,350.192,0.732,IB4003.A.dialog-act.s9553330.66,,,,,,,,,False, That's,1,minor,Fragment
+IB4003,A,352.42,352.61,0.19,IB4003.A.dialog-act.s9553330.67,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,A,352.61,355.26,2.65,IB4003.A.dialog-act.s9553330.68,A,D,0.0,1.25,True,False,0.0,[],True, I think that's quite important to manage some space.,9,task,Inform
+IB4003,A,355.26,360.66,5.4,IB4003.A.dialog-act.s9553330.69,D,A,-3.0,0.0,False,True,2.24,"['IB4003.D.dialog-act.s9553330.23', 'IB4003.D.dialog-act.s9553330.24']",False," Maybe we can think of, yeah, some two or three, yeah, for visiting people.",14,task,Suggest
+IB4003,D,357.66,359.9,2.24,IB4003.D.dialog-act.s9553330.23,D,A,0.0,-3.0,True,False,0.0,[],False," Visiting visiti visiting researchers,",4,task,Suggest
+IB4003,D,359.9,362.56,2.66,IB4003.D.dialog-act.s9553330.24,A,D,1.36,0.0,False,False,0.0,[],False, students coming for exchange students et cetera.,7,task,Suggest
+IB4003,A,360.66,361.15,0.49,IB4003.A.dialog-act.s9553330.70,,,,,,,,,False, Correct.,1,task,Assess
+IB4003,C,362.16,362.47,0.31,IB4003.C.dialog-act.s9553330.8,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,A,362.86,363.92,1.06,IB4003.A.dialog-act.s9553330.71,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,A,363.92,368.2,4.28,IB4003.A.dialog-act.s9553330.72,A,D,0.0,1.36,True,False,0.0,[],True," Okay, so let me finish with the the constraints which are almost done.",13,other,Offer
+IB4003,A,368.2,374.07,5.87,IB4003.A.dialog-act.s9553330.73,A,A,0.0,0.0,False,False,0.0,[],False," So we also need to to find the a spot for the photocopier, the fax machine, and the printer.",19,task,Inform
+IB4003,A,374.07,375.47,1.4,IB4003.A.dialog-act.s9553330.74,A,A,0.0,0.0,False,False,0.0,[],False," The fax, you know, is very small,",7,task,Inform
+IB4003,A,375.47,378.36,2.89,IB4003.A.dialog-act.s9553330.75,A,A,0.0,0.0,False,False,0.0,[],False," but um the photocopier is quite huge,",7,task,Inform
+IB4003,A,378.36,381.86,3.5,IB4003.A.dialog-act.s9553330.76,A,A,0.98,0.0,False,False,0.0,[],False, and the printer is uh well ab this size.,9,task,Inform
+IB4003,A,381.86,382.84,0.98,IB4003.A.dialog-act.s9553330.77,,,,,,,,,False," Um okay,",2,minor,Stall
+IB4003,A,382.84,385.08,2.24,IB4003.A.dialog-act.s9553330.78,A,A,0.0,0.98,False,False,0.0,[],False, the offices comes with white boards.,6,task,Inform
+IB4003,A,385.08,387.14,2.06,IB4003.A.dialog-act.s9553330.79,A,A,0.0,0.0,False,False,0.0,[],False, Not very uh very important.,5,task,Assess
+IB4003,A,387.14,391.28,4.14,IB4003.A.dialog-act.s9553330.80,A,A,0.0,0.0,False,False,0.0,[],False, Uh the furniture that w each each person has,9,task,Inform
+IB4003,A,391.28,393.4,2.12,IB4003.A.dialog-act.s9553330.81,A,A,1.33,0.0,False,False,0.0,[],False, and uh you have a list of people.,8,task,Inform
+IB4003,A,394.73,405.71,10.98,IB4003.A.dialog-act.s9553330.82,A,A,0.0,1.33,False,False,0.0,[],False," So the thing uh you you ought to know is that we're not the only ones that w we're thin that that are thinking about uh for well, about putting people i in these rooms.",35,task,Inform
+IB4003,A,405.71,409.32,3.61,IB4003.A.dialog-act.s9553330.83,A,A,0.0,0.0,False,False,0.0,[],False, Um there is another group that is also having discussions.,10,task,Inform
+IB4003,A,409.32,415.89,6.57,IB4003.A.dialog-act.s9553330.84,A,A,0.0,0.0,False,False,0.0,[],False, So the idea is that today we'll just try to f start seeing the main constraints,16,task,Inform
+IB4003,A,415.89,420.03,4.14,IB4003.A.dialog-act.s9553330.85,A,A,0.0,0.0,False,False,0.0,[],False, and then you have time to to go and think about it uh,13,task,Inform
+IB4003,A,420.03,423.55,3.52,IB4003.A.dialog-act.s9553330.86,A,A,0.0,0.0,False,False,0.0,[],False," ask the people you know, your assistants, for instance,",9,task,Suggest
+IB4003,A,423.55,427.99,4.44,IB4003.A.dialog-act.s9553330.87,A,A,0.0,0.0,False,False,0.0,[],False, and at the next meeting we'll try to to come with one solution.,13,task,Suggest
+IB4003,A,427.99,430.79,2.8,IB4003.A.dialog-act.s9553330.88,A,A,0.0,0.0,False,False,0.0,[],False," Uh, the other group will also propose a solution",9,task,Inform
+IB4003,A,430.79,433.08,2.29,IB4003.A.dialog-act.s9553330.89,C,A,0.41,0.0,False,False,0.0,[],False, and then there will be another negotiation.,7,task,Inform
+IB4003,C,433.49,435.99,2.5,IB4003.C.dialog-act.s9553330.9,A,A,1.37,0.41,True,False,0.0,[],True, And if we don't get this space then what happens?,10,elicit,Elicit-Inform
+IB4003,A,437.36,440.11,2.75,IB4003.A.dialog-act.s9553330.90,A,C,0.0,1.37,True,False,0.0,[],True, Uh if i if we don't get these?,8,elicit,Elicit-Inform
+IB4003,C,439.12,439.89,0.77,IB4003.C.dialog-act.s9553330.10,,,,,,,,,False," These, yeah.",2,task,Inform
+IB4003,A,440.11,444.53,4.42,IB4003.A.dialog-act.s9553330.91,D,A,-3.31,0.0,False,True,1.58,['IB4003.D.dialog-act.s9553330.25'],False," Um, well basically they are promised to us so uh",10,task,Inform
+IB4003,D,441.22,442.8,1.58,IB4003.D.dialog-act.s9553330.25,A,A,1.73,-3.31,True,False,0.0,[],False, We j we stay where we are.,7,task,Inform
+IB4003,A,444.53,449.504,4.974,IB4003.A.dialog-act.s9553330.92,D,D,4.056,1.73,True,False,0.0,[],True, Do do you think there are chances that they take from us one of the rooms or uh,18,elicit,Elicit-Inform
+IB4003,C,450.08,450.44,0.36,IB4003.C.dialog-act.s9553330.11,,,,,,,,,False, Okay.,1,minor,Backchannel
+IB4003,A,450.97,454.81,3.84,IB4003.A.dialog-act.s9553330.93,,,,,,,,,False," Yeah, I I I think it's uh Uh, yeah.",9,minor,Fragment
+IB4003,D,453.56,456.84,3.28,IB4003.D.dialog-act.s9553330.26,A,A,1.02,4.056,True,False,0.0,[],True, No the the the chances might be that there are more people to put in that space.,17,task,Inform
+IB4003,A,456.98,457.86,0.88,IB4003.A.dialog-act.s9553330.94,,,,,,,,,False," Yeah i yeah,",3,task,Assess
+IB4003,A,457.86,459.32,1.46,IB4003.A.dialog-act.s9553330.95,A,D,0.0,1.02,True,False,0.0,[],True, that's one of the the problems.,6,task,Inform
+IB4003,A,459.32,461.75,2.43,IB4003.A.dialog-act.s9553330.96,A,A,0.0,0.0,False,False,0.0,[],False, I think maybe we should take this into account,9,task,Suggest
+IB4003,A,461.75,465.33,3.58,IB4003.A.dialog-act.s9553330.97,A,A,0.0,0.0,False,False,0.0,[],False," and maybe think of some of the bigger rooms with four people,",12,task,Suggest
+IB4003,A,465.33,468.3,2.97,IB4003.A.dialog-act.s9553330.98,A,A,0.0,0.0,False,False,0.0,[],False, one being temporary or or part-time.,6,task,Inform
+IB4003,A,468.3,476.79,8.49,IB4003.A.dialog-act.s9553330.99,A,A,0.0,0.0,False,False,0.0,[],False," Um okay, so maybe we could try to to see now what would be the main options.",17,task,Suggest
+IB4003,A,476.79,480.73,3.94,IB4003.A.dialog-act.s9553330.100,A,A,0.0,0.0,False,False,0.0,[],False," Say the general uh, well, arrangement options.",7,task,Inform
+IB4003,A,480.73,486.71,5.98,IB4003.A.dialog-act.s9553330.101,A,A,0.0,0.0,False,False,0.0,[],False," Do you think that we should put people, say, according to projects for instance?",14,task,Suggest
+IB4003,A,486.71,495.69,8.98,IB4003.A.dialog-act.s9553330.102,D,A,1.14,0.0,False,False,0.0,[],False," In in the table that um that we have, uh we also have the uh uh the p the main projects on which the people are working.",27,task,Inform
+IB4003,A,495.69,497.38,1.69,IB4003.A.dialog-act.s9553330.103,,,,,,,,,False, So how,2,minor,Fragment
+IB4003,D,496.83,497.98,1.15,IB4003.D.dialog-act.s9553330.27,D,A,0.0,1.14,True,False,0.0,[],True," Andre, sorry for interrupting,",4,other,Be-Positive
+IB4003,A,497.38,498.64,1.26,IB4003.A.dialog-act.s9553330.104,,,,,,,,,False, Yeah. Mm-hmm.,2,minor,Backchannel
+IB4003,D,497.98,500.47,2.49,IB4003.D.dialog-act.s9553330.28,D,D,0.0,0.0,False,False,0.0,[],False," but uh one again clarification question,",6,other,Offer
+IB4003,D,500.47,503.9,3.43,IB4003.D.dialog-act.s9553330.29,D,D,0.0,0.0,False,False,0.0,[],False," what is the real margin of manoeuvre that we have for these discussions,",13,elicit,Elicit-Inform
+IB4003,D,503.9,508.57,4.67,IB4003.D.dialog-act.s9553330.30,D,D,0.0,0.0,False,False,0.0,[],False, because uh at least we are half per cent uh fifty per cent of from E_P_F_L_,16,task,Inform
+IB4003,D,508.57,514.03,5.46,IB4003.D.dialog-act.s9553330.31,D,D,0.0,0.0,False,False,0.0,[],False," and uh sometimes you have meetings where w y the the decision is already taken,",15,task,Inform
+IB4003,D,514.03,518.22,4.19,IB4003.D.dialog-act.s9553330.32,D,D,0.0,0.0,False,False,0.0,[],False," so uh um you can spend quite a lot of time discussing things,",13,task,Inform
+IB4003,D,518.22,524.01,5.79,IB4003.D.dialog-act.s9553330.33,A,D,-1.09,0.0,False,True,1.09,['IB4003.A.dialog-act.s9553330.105'],False, so what what will be the impact of what we will come out come up with?,16,elicit,Elicit-Inform
+IB4003,A,522.92,527.04,4.12,IB4003.A.dialog-act.s9553330.105,A,D,0.0,-1.09,True,False,0.0,[],False," Oh, actually what is fixed is the n the number of rooms.",12,task,Inform
+IB4003,A,527.04,528.61,1.57,IB4003.A.dialog-act.s9553330.106,A,A,0.0,0.0,False,False,0.0,[],False, This we cannot really change.,5,task,Inform
+IB4003,A,528.61,530.6,1.99,IB4003.A.dialog-act.s9553330.107,A,A,0.0,0.0,False,False,0.0,[],False," I mean at least not us,",6,task,Inform
+IB4003,A,530.6,534.51,3.91,IB4003.A.dialog-act.s9553330.108,A,A,0.0,0.0,False,False,0.0,[],False, it would be much more difficult to get another another room for instance.,13,task,Inform
+IB4003,A,534.51,539.91,5.4,IB4003.A.dialog-act.s9553330.109,A,A,0.0,0.0,False,False,0.0,[],False, But what is absolutely n not fixed is the arrangement of the people in the rooms.,16,task,Inform
+IB4003,A,539.91,544.12,4.21,IB4003.A.dialog-act.s9553330.110,D,A,-0.32,0.0,False,True,0.32,['IB4003.D.dialog-act.s9553330.35'],False, So basically we are all the permutations are possible at the moment.,12,task,Inform
+IB4003,D,539.91,541.34,1.43,IB4003.D.dialog-act.s9553330.34,,,,,,,,,False," So, another way of a",5,minor,Fragment
+IB4003,D,543.8,550.94,7.14,IB4003.D.dialog-act.s9553330.35,D,A,0.0,-0.32,True,False,0.0,[],False," Another way of asking the question, is there any other group already working on uh on the how this should be uh should be allocated?",25,elicit,Elicit-Inform
+IB4003,D,550.94,555.12,4.18,IB4003.D.dialog-act.s9553330.36,A,D,0.29,0.0,False,False,0.0,[],False, Or are we the the one that is supposed to do the p the the p position for it?,19,elicit,Elicit-Inform
+IB4003,A,551.81,552.286,0.476,IB4003.A.dialog-act.s9553330.111,,,,,,,,,False, Um,1,minor,Backchannel
+IB4003,A,555.41,559.03,3.62,IB4003.A.dialog-act.s9553330.112,A,D,0.0,0.29,True,False,0.0,[],True," Well, what we are looking for is a solution that suits everyone",12,task,Inform
+IB4003,A,559.03,561.46,2.43,IB4003.A.dialog-act.s9553330.113,A,A,0.0,0.0,False,False,0.0,[],False, and that makes the maximum of people happy.,8,task,Inform
+IB4003,A,561.46,566.07,4.61,IB4003.A.dialog-act.s9553330.114,A,A,0.0,0.0,False,False,0.0,[],False," So uh the other group is, uh I don't think we have to see them as competitors,",17,task,Inform
+IB4003,A,566.07,569.29,3.22,IB4003.A.dialog-act.s9553330.115,D,A,0.15,0.0,False,False,0.0,[],False, but they are just trying to to find another local optimum.,11,task,Inform
+IB4003,A,569.29,570.304,1.014,IB4003.A.dialog-act.s9553330.116,,,,,,,,,False, Or l uh,3,minor,Fragment
+IB4003,D,569.44,571.79,2.35,IB4003.D.dialog-act.s9553330.37,C,A,0.99,0.15,True,False,0.0,[],True, But wha why why don't they have any representative here.,10,elicit,Elicit-Inform
+IB4003,D,571.79,572.56,0.77,IB4003.D.dialog-act.s9553330.40,,,,,,,,,False, I mean,2,minor,Fragment
+IB4003,C,572.6,572.78,0.18,IB4003.C.dialog-act.s9553330.12,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,C,572.78,574.1,1.32,IB4003.C.dialog-act.s9553330.13,B,D,0.47,0.99,True,False,0.0,[],True, why didn't we have a meeting together?,7,elicit,Elicit-Inform
+IB4003,D,574.21,574.86,0.65,IB4003.D.dialog-act.s9553330.38,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,B,574.57,575.67,1.1,IB4003.B.dialog-act.s9553330.2,D,C,-0.81,0.47,True,True,0.81,['IB4003.D.dialog-act.s9553330.39'],True," Uh, they have another group",5,task,Inform
+IB4003,D,574.86,576.05,1.19,IB4003.D.dialog-act.s9553330.39,B,B,-0.38,-0.81,True,True,0.38,['IB4003.B.dialog-act.s9553330.3'],False, why do we do it separately?,6,elicit,Elicit-Inform
+IB4003,A,574.9,575.457,0.557,IB4003.A.dialog-act.s9553330.117,,,,,,,,,False, Uh,1,minor,Backchannel
+IB4003,B,575.67,581.15,5.48,IB4003.B.dialog-act.s9553330.3,B,D,0.0,-0.38,True,False,0.0,[],False, and then uh uh uh Andre and Agnes will discuss about it with.,13,task,Inform
+IB4003,B,581.15,583.61,2.46,IB4003.B.dialog-act.s9553330.4,A,B,-1.56,0.0,False,True,1.56,['IB4003.A.dialog-act.s9553330.118'],False, You are the rep representative of this group actually.,9,task,Inform
+IB4003,A,582.05,584.51,2.46,IB4003.A.dialog-act.s9553330.118,A,B,0.92,-1.56,True,False,0.0,[],False, Yeah. Yeah uh uh we Yeah.,6,task,Assess
+IB4003,A,584.51,585.43,0.92,IB4003.A.dialog-act.s9553330.119,,,,,,,,,False, I I think that's,4,minor,Fragment
+IB4003,A,585.43,587.97,2.54,IB4003.A.dialog-act.s9553330.120,A,A,0.0,0.92,False,False,0.0,[],False," Yeah, there is no real competition between the two,",9,task,Inform
+IB4003,A,587.97,593.75,5.78,IB4003.A.dialog-act.s9553330.122,A,A,0.0,0.0,False,False,0.0,[],False," but we'll just try to find at least two solutions and see how how close they are, actually.",18,task,Inform
+IB4003,A,593.75,604.54,10.79,IB4003.A.dialog-act.s9553330.123,A,A,0.0,0.0,False,False,0.0,[],False," It's it's I think well the m the people who who decided this thought it was the best solution to, mm well, you know, find two two kinds of opinions.",30,task,Inform
+IB4003,A,604.54,608.7,4.16,IB4003.A.dialog-act.s9553330.124,A,A,0.0,0.0,False,False,0.0,[],False," Yeah. Well, we could have been eight h sitting around here and and talking,",14,task,Inform
+IB4003,D,604.91,605.11,0.2,IB4003.D.dialog-act.s9553330.41,,,,,,,,,False, Okay.,1,minor,Backchannel
+IB4003,A,608.7,610.36,1.66,IB4003.A.dialog-act.s9553330.125,D,A,0.44,0.0,False,False,0.0,[],False, but I think it's it's more difficult.,7,task,Assess
+IB4003,D,610.7,610.8,0.1,IB4003.D.dialog-act.s9553330.42,,,,,,,,,False," No,",1,task,Assess
+IB4003,D,610.8,612.19,1.39,IB4003.D.dialog-act.s9553330.43,D,A,0.47,0.44,True,False,0.0,[],True, but you know that that's a standard thing.,8,task,Inform
+IB4003,D,612.19,612.66,0.47,IB4003.D.dialog-act.s9553330.44,,,,,,,,,False, It's,1,minor,Fragment
+IB4003,D,612.66,618.86,6.2,IB4003.D.dialog-act.s9553330.45,D,D,0.0,0.47,False,False,0.0,[],False," Suppose that somebody for some strange reasons want to be in the corner and we don't know about that,",19,task,Inform
+IB4003,B,617.348,617.829,0.481,IB4003.B.dialog-act.s9553330.5,,,,,,,,,False,,0,minor,Fragment
+IB4003,D,618.86,621.9,3.04,IB4003.D.dialog-act.s9553330.46,D,D,0.0,0.0,False,False,0.0,[],False," we'll put them put her or him somewhere else,",9,task,Inform
+IB4003,D,621.9,624.87,2.97,IB4003.D.dialog-act.s9553330.47,D,D,0.0,0.0,False,False,0.0,[],False," then we will do plenty of work for nothing,",9,task,Inform
+IB4003,A,624.68,625.01,0.33,IB4003.A.dialog-act.s9553330.126,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,624.87,626.45,1.58,IB4003.D.dialog-act.s9553330.48,D,D,0.0,0.0,False,False,0.0,[],False, because we'll not have this constraint.,6,task,Inform
+IB4003,D,626.45,627.74,1.29,IB4003.D.dialog-act.s9553330.49,A,D,1.31,0.0,False,False,0.0,[],False, We'll not be aware of this constraint.,7,task,Inform
+IB4003,A,626.6,627.031,0.431,IB4003.A.dialog-act.s9553330.127,,,,,,,,,False, Well,1,minor,Fragment
+IB4003,A,628.36,628.8,0.44,IB4003.A.dialog-act.s9553330.128,,,,,,,,,False," Exactly,",1,task,Assess
+IB4003,A,628.8,629.05,0.25,IB4003.A.dialog-act.s9553330.129,,,,,,,,,False, I think,2,minor,Fragment
+IB4003,A,629.05,633.84,4.79,IB4003.A.dialog-act.s9553330.130,A,D,0.0,1.31,True,False,0.0,[],True," So so today the goal is not to to find the solution today, but to set some constraints",18,task,Inform
+IB4003,D,631.54,632.3,0.76,IB4003.D.dialog-act.s9553330.50,,,,,,,,,False," Oh, okay.",2,minor,Backchannel
+IB4003,D,633.72,633.92,0.2,IB4003.D.dialog-act.s9553330.51,,,,,,,,,False, Okay.,1,minor,Backchannel
+IB4003,A,633.84,638.83,4.99,IB4003.A.dialog-act.s9553330.132,A,A,0.0,0.0,False,False,0.0,[],False, and then go and see the people and find out if they have any preferences.,15,task,Inform
+IB4003,C,638.163,638.57,0.407,IB4003.C.dialog-act.s9553330.14,,,,,,,,,False,,0,minor,Fragment
+IB4003,A,638.83,642.08,3.25,IB4003.A.dialog-act.s9553330.133,A,A,0.0,0.0,False,False,0.0,[],False," Obviously we won't be able to accommodate all the the preferences,",11,task,Inform
+IB4003,A,642.08,645.37,3.29,IB4003.A.dialog-act.s9553330.134,C,A,0.22,0.0,False,False,0.0,[],False, but at least we'll find the most uh the most important ones.,12,task,Inform
+IB4003,C,645.59,649.26,3.67,IB4003.C.dialog-act.s9553330.15,C,A,0.0,0.22,True,False,0.0,[],True," Well, certainly we have to ask uh Pierrette and uh and Maggie,",12,task,Inform
+IB4003,A,646.75,647.599,0.849,IB4003.A.dialog-act.s9553330.135,,,,,,,,,False, P s I think,4,minor,Fragment
+IB4003,C,649.26,650.58,1.32,IB4003.C.dialog-act.s9553330.16,C,C,0.0,0.0,False,False,0.0,[],False," since they're not here,",4,task,Inform
+IB4003,C,650.58,653.54,2.96,IB4003.C.dialog-act.s9553330.17,C,C,0.0,0.0,False,False,0.0,[],False," because they also have a lot of students that they have to see as we do,",16,task,Inform
+IB4003,A,650.77,652.11,1.34,IB4003.A.dialog-act.s9553330.136,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,651.41,651.71,0.3,IB4003.D.dialog-act.s9553330.52,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,C,653.54,655.72,2.18,IB4003.C.dialog-act.s9553330.18,A,C,1.05,0.0,False,False,0.0,[],False," and so that's another consideration, too.",6,task,Inform
+IB4003,D,653.68,653.98,0.3,IB4003.D.dialog-act.s9553330.53,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,A,656.52,656.77,0.25,IB4003.A.dialog-act.s9553330.137,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,A,656.77,660.39,3.62,IB4003.A.dialog-act.s9553330.138,A,C,0.0,1.05,True,False,0.0,[],True," I think so that's one of the things I think we know that they have students,",16,task,Inform
+IB4003,A,660.39,670.48,10.09,IB4003.A.dialog-act.s9553330.139,A,A,0.0,0.0,False,False,0.0,[],False," we don't know exactly if they prefer for instance to be alone, or to well, to be with their assistant, or even with another person working on the project.",29,task,Inform
+IB4003,A,670.48,677.0,6.52,IB4003.A.dialog-act.s9553330.140,A,A,0.0,0.0,False,False,0.0,[],False," So that would have been maybe, yeah, another solution is to ask everyone to provide uh an arrangement,",18,task,Suggest
+IB4003,A,677.0,681.89,4.89,IB4003.A.dialog-act.s9553330.141,A,A,0.0,0.0,False,False,0.0,[],False, but uh I think that's a bit uh a bit hard then to to work out.,16,task,Assess
+IB4003,A,681.89,695.02,13.13,IB4003.A.dialog-act.s9553330.142,A,A,0.0,0.0,False,False,0.0,[],False," Um so since all of you have a copy of the uh, well, of the drawing, I think for the next time, m maybe you could come with a concrete proposal with uh names on it.",36,task,Suggest
+IB4003,A,695.02,703.65,8.63,IB4003.A.dialog-act.s9553330.143,A,A,0.0,0.0,False,False,0.0,[],False," But let us try to see today whether we prefer to organise people, say, by projects or just professor and assistant.",21,task,Inform
+IB4003,A,703.65,706.79,3.14,IB4003.A.dialog-act.s9553330.144,A,A,0.66,0.0,False,False,0.0,[],False," So what would be f, say, first your preferences,",9,elicit,Elicit-Inform
+IB4003,A,706.79,707.45,0.66,IB4003.A.dialog-act.s9553330.145,,,,,,,,,False, since,1,minor,Fragment
+IB4003,A,707.45,709.83,2.38,IB4003.A.dialog-act.s9553330.146,A,A,0.0,0.66,False,False,0.0,[],False," Let's let's start with us, maybe today.",7,task,Suggest
+IB4003,A,709.83,711.79,1.96,IB4003.A.dialog-act.s9553330.147,A,A,0.0,0.0,False,False,0.0,[],False, Um what do you think about it?,7,elicit,Elicit-Inform
+IB4003,A,711.79,713.19,1.4,IB4003.A.dialog-act.s9553330.148,A,A,0.0,0.0,False,False,0.0,[],False," Would you prefer to be alone,",6,elicit,Elicit-Inform
+IB4003,A,713.19,715.6,2.41,IB4003.A.dialog-act.s9553330.149,A,A,0.0,0.0,False,False,0.0,[],False, would you prefer to be with your assistant.,8,elicit,Elicit-Inform
+IB4003,A,715.6,725.44,9.84,IB4003.A.dialog-act.s9553330.150,B,A,1.59,0.0,False,False,0.0,[],False," You who are part-time, do you think you can come here on a very w well regular schedule or is it part-time, but variable during the week?",27,elicit,Elicit-Inform
+IB4003,B,717.24,717.41,0.17,IB4003.B.dialog-act.s9553330.6,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IB4003,B,727.03,728.62,1.59,IB4003.B.dialog-act.s9553330.7,B,A,0.0,1.59,True,False,0.0,[],True," Yeah uh, okay uh,",4,other,Offer
+IB4003,B,728.62,732.37,3.75,IB4003.B.dialog-act.s9553330.8,B,B,0.0,0.0,False,False,0.0,[],False, me personally I would like to to to share the other peopl n uh the room with assistants,18,task,Inform
+IB4003,B,732.37,739.89,7.52,IB4003.B.dialog-act.s9553330.9,B,B,0.0,0.0,False,False,0.0,[],False," as when you have problems of normal life, like uh the printer doesn't work, uh I don't want to ask this to my supervisor,",24,task,Inform
+IB4003,B,739.89,743.33,3.44,IB4003.B.dialog-act.s9553330.10,A,B,2.43,0.0,False,False,0.0,[],False, so it's better to to be with a with an assistant to share the room.,15,task,Inform
+IB4003,A,744.69,745.76,1.07,IB4003.A.dialog-act.s9553330.151,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+IB4003,A,745.76,756.81,11.05,IB4003.A.dialog-act.s9553330.152,B,B,-1.35,2.43,True,True,1.35,['IB4003.B.dialog-act.s9553330.12'],True," And since you're coming on the uh half-time, do you think you will be able to group your presence here, say Monday, Tuesday and Wednesday morning, or is it going to be m much more random?",36,elicit,Elicit-Inform
+IB4003,B,749.77,750.01,0.24,IB4003.B.dialog-act.s9553330.11,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,B,755.46,761.51,6.05,IB4003.B.dialog-act.s9553330.12,B,A,0.0,-1.35,True,False,0.0,[],False, What uh I don't think it's a good idea to share uh t to ha to share the same desk.,20,task,Inform
+IB4003,A,758.977,759.632,0.655,IB4003.A.dialog-act.s9553330.154,,,,,,,,,False,,0,minor,Fragment
+IB4003,A,760.8,761.2,0.4,IB4003.A.dialog-act.s9553330.153,,,,,,,,,False, Okay.,1,task,Assess
+IB4003,B,761.51,764.61,3.1,IB4003.B.dialog-act.s9553330.13,A,B,1.17,0.0,False,False,0.0,[],False, Uh I still would like to have my drawers and these things.,12,task,Inform
+IB4003,A,765.78,767.12,1.34,IB4003.A.dialog-act.s9553330.155,A,B,0.0,1.17,True,False,0.0,[],True," Yeah, I think so too.",5,task,Assess
+IB4003,A,767.12,773.52,6.4,IB4003.A.dialog-act.s9553330.156,A,A,0.0,0.0,False,False,0.0,[],False," Um so Martin, you are also uh half-time and, well, the third person is Gisella.",15,task,Inform
+IB4003,A,773.52,778.99,5.47,IB4003.A.dialog-act.s9553330.157,D,A,-0.3,0.0,False,True,0.3,['IB4003.D.dialog-act.s9553330.54'],False, I think it's quite clear that mm each person should have their own desk and,15,task,Inform
+IB4003,D,778.69,779.36,0.67,IB4003.D.dialog-act.s9553330.54,A,A,0.06,-0.3,True,False,0.0,[],False, I agree with that.,4,task,Assess
+IB4003,A,778.99,779.42,0.43,IB4003.A.dialog-act.s9553330.158,,,,,,,,,False, Yeah.,1,task,Assess
+IB4003,D,779.36,779.853,0.493,IB4003.D.dialog-act.s9553330.55,,,,,,,,,False, That's,1,minor,Fragment
+IB4003,A,779.42,782.88,3.46,IB4003.A.dialog-act.s9553330.159,D,D,0.58,0.06,True,False,0.0,[],True, It's no no way we we could put two persons at the same desk.,14,task,Inform
+IB4003,D,783.46,787.65,4.19,IB4003.D.dialog-act.s9553330.56,D,A,0.0,0.58,True,False,0.0,[],True," Whe whe where part-time is important is that it's n an overlo load on a room,",16,task,Inform
+IB4003,D,787.65,794.63,6.98,IB4003.D.dialog-act.s9553330.57,D,D,0.0,0.0,False,False,0.0,[],False," so um for sure if you have a part-time person, it reduces the the ranges of time where too many people in the room.",24,task,Inform
+IB4003,A,794.28,794.47,0.19,IB4003.A.dialog-act.s9553330.160,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,A,794.47,795.667,1.197,IB4003.A.dialog-act.s9553330.161,,,,,,,,,False, I think grouping,3,minor,Fragment
+IB4003,D,794.63,802.58,7.95,IB4003.D.dialog-act.s9553330.58,D,D,0.0,0.0,False,False,0.0,[],False, As far as I am concerned I probably might be able to have a kind of a regular presence here.,20,other,Offer
+IB4003,D,802.58,808.77,6.19,IB4003.D.dialog-act.s9553330.59,D,D,0.0,0.0,False,False,0.0,[],False," Um, the uh the thing that f in my case has to be taken into account is that I will have a lot of phone calls.",26,task,Inform
+IB4003,D,808.77,812.22,3.45,IB4003.D.dialog-act.s9553330.60,D,D,3.35,0.0,False,False,0.0,[],False, So I'll be talking o o o over the phone all the time.,13,task,Inform
+IB4003,A,808.89,809.26,0.37,IB4003.A.dialog-act.s9553330.162,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,C,810.0,811.44,1.44,IB4003.C.dialog-act.s9553330.19,,,,,,,,,False, Oh great.,2,other,Be-Positive
+IB4003,D,812.22,814.46,2.24,IB4003.D.dialog-act.s9553330.61,,,,,,,,,False, So that's not necessary,4,minor,Fragment
+IB4003,D,814.46,815.57,1.11,IB4003.D.dialog-act.s9553330.62,,,,,,,,,False," Well, it depends on",4,minor,Fragment
+IB4003,D,815.57,818.77,3.2,IB4003.D.dialog-act.s9553330.63,D,D,0.0,3.35,False,False,0.0,[],False, I I have nothing against sharing a a an office with somebody.,12,task,Inform
+IB4003,D,818.77,820.4,1.63,IB4003.D.dialog-act.s9553330.64,D,D,0.0,0.0,False,False,0.0,[],False," I d already did it before, so",7,task,Inform
+IB4003,D,820.4,822.16,1.76,IB4003.D.dialog-act.s9553330.65,D,D,1.24,0.0,False,False,0.0,[],False, and it was perfectly fine.,5,task,Assess
+IB4003,D,823.4,832.69,9.29,IB4003.D.dialog-act.s9553330.66,D,D,0.0,1.24,False,False,0.0,[],False," It just has to be somebody who can work while somebody else is having phone calls in the in the room, which is very d much dependent on people.",29,task,Suggest
+IB4003,D,832.69,835.72,3.03,IB4003.D.dialog-act.s9553330.67,D,D,0.0,0.0,False,False,0.0,[],False, Some people are not disturb at all by this.,9,task,Inform
+IB4003,A,835.6,836.35,0.75,IB4003.A.dialog-act.s9553330.163,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,835.72,836.84,1.12,IB4003.D.dialog-act.s9553330.68,A,D,1.2,0.0,False,False,0.0,[],False, Some people just can't work.,5,task,Inform
+IB4003,A,838.04,841.44,3.4,IB4003.A.dialog-act.s9553330.164,D,D,0.27,1.2,True,False,0.0,[],True, Are you disturbed by the phone calls of other people?,10,elicit,Elicit-Inform
+IB4003,D,840.64,841.71,1.07,IB4003.D.dialog-act.s9553330.69,,,,,,,,,False, I'm not.,2,task,Inform
+IB4003,A,841.44,841.83,0.39,IB4003.A.dialog-act.s9553330.165,,,,,,,,,False, Okay.,1,task,Assess
+IB4003,D,841.71,850.74,9.03,IB4003.D.dialog-act.s9553330.70,D,A,0.0,0.27,True,False,0.0,[],True," But uh and uh what might happen, but it uh it will not be so heavy here uh at ISSCO is visitors.",22,task,Inform
+IB4003,D,850.74,857.0,6.26,IB4003.D.dialog-act.s9553330.71,D,D,0.0,0.0,False,False,0.0,[],False," So that I will have more at E_P_F_L_, uh typically students coming in um or asking for things.",18,task,Inform
+IB4003,A,853.21,853.51,0.3,IB4003.A.dialog-act.s9553330.166,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,857.0,861.78,4.78,IB4003.D.dialog-act.s9553330.72,D,D,1.38,0.0,False,False,0.0,[],False," As I'm not teaching here, I'm teaching at E_P_F_L_, this should shouldn't be a such a big load.",18,task,Inform
+IB4003,D,863.16,868.23,5.07,IB4003.D.dialog-act.s9553330.73,D,D,0.0,1.38,False,False,0.0,[],False," So for me it it will be essentially I will not be I will not be able to be silent in the room,",23,task,Inform
+IB4003,A,865.08,865.73,0.65,IB4003.A.dialog-act.s9553330.167,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,868.23,871.872,3.642,IB4003.D.dialog-act.s9553330.74,C,D,0.948,0.0,False,False,0.0,[],False," because I will be communicating also through vocal means, so",10,task,Inform
+IB4003,A,869.008,869.312,0.304,IB4003.A.dialog-act.s9553330.168,,,,,,,,,False,,0,minor,Fragment
+IB4003,A,871.86,872.45,0.59,IB4003.A.dialog-act.s9553330.169,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,C,872.82,884.32,11.5,IB4003.C.dialog-act.s9553330.20,C,D,0.0,0.948,True,False,0.0,[],True," Ye mm before um talking more about individual preferences, is there any possibility, what they have done in the uh faculty of law, for example, that they actually split rooms?",30,task,Suggest
+IB4003,C,884.32,887.82,3.5,IB4003.C.dialog-act.s9553330.21,C,C,0.0,0.0,False,False,0.0,[],False, And so we would take uh uh one of the two people rooms and split it.,16,task,Suggest
+IB4003,D,887.11,887.51,0.4,IB4003.D.dialog-act.s9553330.75,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IB4003,C,887.82,890.03,2.21,IB4003.C.dialog-act.s9553330.22,C,C,0.0,0.0,False,False,0.0,[],False," And you would see that you would have the same size office,",12,task,Inform
+IB4003,D,888.64,889.02,0.38,IB4003.D.dialog-act.s9553330.76,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,C,890.03,891.95,1.92,IB4003.C.dialog-act.s9553330.23,C,C,0.0,0.0,False,False,0.0,[],False, but that would give the privacy.,6,task,Inform
+IB4003,A,891.69,892.22,0.53,IB4003.A.dialog-act.s9553330.170,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,C,891.95,899.53,7.58,IB4003.C.dialog-act.s9553330.24,C,C,0.0,0.0,False,False,0.0,[],False," Um insofar as in just about every other faculty in the building, every professor has their own office.",18,task,Inform
+IB4003,A,899.42,900.11,0.69,IB4003.A.dialog-act.s9553330.171,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,C,899.53,905.44,5.91,IB4003.C.dialog-act.s9553330.25,C,C,0.0,0.0,False,False,0.0,[],False, And it's it's really it goes a bit far that uh we have to have this uh all this sharing uh.,21,task,Assess
+IB4003,D,899.95,900.21,0.26,IB4003.D.dialog-act.s9553330.77,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IB4003,C,905.44,910.096,4.656,IB4003.C.dialog-act.s9553330.26,D,C,0.434,0.0,False,False,0.0,[],False, So one option and that but that we would need to ask about if we could uh split one of the rooms uh,23,task,Suggest
+IB4003,D,910.53,912.75,2.22,IB4003.D.dialog-act.s9553330.78,D,C,0.0,0.434,True,False,0.0,[],True, Do you go for boxes for instance?,7,task,Suggest
+IB4003,D,912.75,916.62,3.87,IB4003.D.dialog-act.s9553330.79,C,D,0.86,0.0,False,False,0.0,[],False," In the in the bigger rooms where, yeah You know like uh cubicles? Yeah",14,task,Suggest
+IB4003,A,914.7,915.92,1.22,IB4003.A.dialog-act.s9553330.172,,,,,,,,,False, Like cubicles.,2,task,Suggest
+IB4003,C,917.48,919.084,1.604,IB4003.C.dialog-act.s9553330.27,C,D,0.796,0.86,True,False,0.0,[],True, That doesn't really solve it uh,6,task,Assess
+IB4003,C,919.88,923.09,3.21,IB4003.C.dialog-act.s9553330.28,D,C,-2.69,0.796,False,True,1.67,['IB4003.D.dialog-act.s9553330.80'],False, I mean there's there's really a difference to having to have your own,13,task,Inform
+IB4003,D,920.4,922.07,1.67,IB4003.D.dialog-act.s9553330.80,C,C,1.22,-2.69,True,False,0.0,[],False," You mean, you really want to have walls.",8,task,Inform
+IB4003,A,921.22,922.17,0.95,IB4003.A.dialog-act.s9553330.173,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,C,923.09,923.29,0.2,IB4003.C.dialog-act.s9553330.29,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,C,923.29,929.056,5.766,IB4003.C.dialog-act.s9553330.30,A,D,0.23,1.22,True,False,0.0,[],True," and sometimes you have uh you need to have private uh discussions with somebody or whatever, so",17,task,Inform
+IB4003,D,923.63,924.1,0.47,IB4003.D.dialog-act.s9553330.83,,,,,,,,,False, Four walls.,2,task,Inform
+IB4003,D,924.94,925.15,0.21,IB4003.D.dialog-act.s9553330.82,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,D,926.75,927.55,0.8,IB4003.D.dialog-act.s9553330.81,,,,,,,,,False," Yeah, sure sure.",3,minor,Backchannel
+IB4003,A,929.286,932.6,3.314,IB4003.A.dialog-act.s9553330.174,A,C,0.0,0.23,True,False,0.0,[],True," Yeah, I I I will try to find out whether we can separate.",13,other,Offer
+IB4003,D,930.031,930.577,0.546,IB4003.D.dialog-act.s9553330.84,,,,,,,,,False,,0,minor,Fragment
+IB4003,A,932.6,935.41,2.81,IB4003.A.dialog-act.s9553330.175,A,A,0.0,0.0,False,False,0.0,[],False," I think for the moment the answer at least is no,",11,task,Inform
+IB4003,A,935.41,941.05,5.64,IB4003.A.dialog-act.s9553330.176,A,A,0.0,0.0,False,False,0.0,[],False," because um it's not only, well, making a wall, but also b mm making a new door.",17,task,Inform
+IB4003,A,941.05,943.03,1.98,IB4003.A.dialog-act.s9553330.177,A,A,0.0,0.0,False,False,0.0,[],False," So it's quite a lot of uh of work,",9,task,Inform
+IB4003,A,943.03,946.33,3.3,IB4003.A.dialog-act.s9553330.178,A,A,0.0,0.0,False,False,0.0,[],False, but uh I will try to find this out for the next time.,13,other,Offer
+IB4003,A,946.33,952.24,5.91,IB4003.A.dialog-act.s9553330.179,A,A,0.0,0.0,False,False,0.0,[],False," Um, so at least for the moment, as you can see there are uh I can show them here on the screen.",22,other,Offer
+IB4003,A,952.24,957.68,5.44,IB4003.A.dialog-act.s9553330.180,A,A,0.0,0.0,False,False,0.0,[],False, So there are these two rooms on the left that uh accommodate one person.,14,task,Inform
+IB4003,D,957.28,957.45,0.17,IB4003.D.dialog-act.s9553330.85,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,A,957.68,965.64,7.96,IB4003.A.dialog-act.s9553330.181,A,A,0.0,0.0,False,False,0.0,[],False," So at least some of the professors, since you are four, uh could could go uh well, could take these uh these rooms.",23,task,Suggest
+IB4003,D,958.15,958.44,0.29,IB4003.D.dialog-act.s9553330.86,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,A,965.64,968.08,2.44,IB4003.A.dialog-act.s9553330.182,A,A,0.0,0.0,False,False,0.0,[],False, And quite a lot of rooms with two persons.,9,task,Inform
+IB4003,A,968.08,975.97,7.89,IB4003.A.dialog-act.s9553330.183,C,A,0.03,0.0,False,False,0.0,[],False, Uh how do you feel Susan about the professor sharing the room with her assistants or the one which is the most involved in in the teaching?,27,elicit,Elicit-Inform
+IB4003,C,976.0,979.09,3.09,IB4003.C.dialog-act.s9553330.31,C,A,0.0,0.03,True,False,0.0,[],True," Well, I I think it's uh really a matter of personal preference.",12,task,Inform
+IB4003,C,979.09,982.71,3.62,IB4003.C.dialog-act.s9553330.32,C,C,0.0,0.0,False,False,0.0,[],False," As you know um, I prefer to have uh my own office.",12,task,Inform
+IB4003,A,981.2,981.67,0.47,IB4003.A.dialog-act.s9553330.184,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IB4003,D,982.32,982.49,0.17,IB4003.D.dialog-act.s9553330.87,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IB4003,C,982.71,985.36,2.65,IB4003.C.dialog-act.s9553330.33,C,C,0.0,0.0,False,False,0.0,[],False," Um, I also have uh a lot of phone calls",10,task,Inform
+IB4003,C,985.36,987.71,2.35,IB4003.C.dialog-act.s9553330.34,C,C,0.0,0.0,False,False,0.0,[],False," and y you know, have to see people,",8,task,Inform
+IB4003,C,987.71,996.83,9.12,IB4003.C.dialog-act.s9553330.35,C,C,0.0,0.0,False,False,0.0,[],False," and with the other work that I'm doing with the rectorate uh, that is really confidential information that I'm treating. So I That I have to be really careful about too.",31,task,Inform
+IB4003,A,992.66,993.57,0.91,IB4003.A.dialog-act.s9553330.185,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,992.69,993.95,1.26,IB4003.D.dialog-act.s9553330.88,,,,,,,,,False, Yeah. Yeah.,2,minor,Backchannel
+IB4003,C,996.83,998.89,2.06,IB4003.C.dialog-act.s9553330.36,C,C,0.0,0.0,False,False,0.0,[],False, But it's a personal preference uh.,6,task,Inform
+IB4003,C,998.89,1004.43,5.54,IB4003.C.dialog-act.s9553330.37,C,C,0.0,0.0,False,False,0.0,[],False," Insofar as what we've had up until now, both Maggie and Pierrette have been happy to share with others.",19,task,Inform
+IB4003,C,1004.43,1006.656,2.226,IB4003.C.dialog-act.s9553330.38,D,C,-0.146,0.0,False,True,0.146,['IB4003.D.dialog-act.s9553330.89'],False, So I mean I think that we should still check with them,12,task,Suggest
+IB4003,A,1005.12,1005.44,0.32,IB4003.A.dialog-act.s9553330.186,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1006.51,1007.4,0.89,IB4003.D.dialog-act.s9553330.89,D,C,0.0,-0.146,True,False,0.0,[],False, I fully agree with that.,5,task,Assess
+IB4003,D,1007.4,1014.649,7.249,IB4003.D.dialog-act.s9553330.90,C,D,-0.679,0.0,False,True,0.679,['IB4003.C.dialog-act.s9553330.39'],False," That's uh it's much easier to me to uh to foresee having two people of the same position sharing a room, than uh",23,task,Assess
+IB4003,C,1013.97,1015.56,1.59,IB4003.C.dialog-act.s9553330.39,C,D,0.0,-0.679,True,False,0.0,[],False," Well, not sharing with each other.",6,task,Inform
+IB4003,C,1015.56,1017.33,1.77,IB4003.C.dialog-act.s9553330.40,D,C,-1.63,0.0,False,True,1.33,['IB4003.D.dialog-act.s9553330.91'],False, They each share with an assistant.,6,task,Inform
+IB4003,D,1015.7,1017.03,1.33,IB4003.D.dialog-act.s9553330.91,D,C,0.57,-1.63,True,False,0.0,[],False, Oh sharing with their students.,5,other,Comment-About-Understanding
+IB4003,A,1016.208,1017.21,1.002,IB4003.A.dialog-act.s9553330.187,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,D,1017.03,1017.6,0.57,IB4003.D.dialog-act.s9553330.93,,,,,,,,,False," Oh sorry,",2,other,Be-Positive
+IB4003,C,1017.33,1017.86,0.53,IB4003.C.dialog-act.s9553330.41,,,,,,,,,False, Yeah.,1,task,Assess
+IB4003,D,1017.6,1022.7,5.1,IB4003.D.dialog-act.s9553330.94,D,D,0.0,0.57,False,False,0.0,[],False," because but that that's uh it's it's tricky because of confidentiality reasons, as you said.",15,task,Inform
+IB4003,D,1022.7,1027.43,4.73,IB4003.D.dialog-act.s9553330.95,D,D,0.0,0.0,False,False,0.0,[],False," Yeah, you you you are discussing a budget on the on the project, you over the phone typically",18,task,Inform
+IB4003,D,1027.43,1035.216,7.786,IB4003.D.dialog-act.s9553330.96,A,D,2.344,0.0,False,False,0.0,[],False," you don't necessary want to have somebody who will be dependent on that budget being part of the discussion, so",20,task,Inform
+IB4003,C,1031.46,1032.75,1.29,IB4003.C.dialog-act.s9553330.42,,,,,,,,,False, Paid on that,3,task,Inform
+IB4003,A,1031.96,1032.37,0.41,IB4003.A.dialog-act.s9553330.188,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,C,1034.43,1034.89,0.46,IB4003.C.dialog-act.s9553330.43,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,A,1037.56,1039.97,2.41,IB4003.A.dialog-act.s9553330.189,A,D,1.54,2.344,True,False,0.0,[],True," Yeah, that's um that's true.",5,task,Assess
+IB4003,A,1039.97,1041.51,1.54,IB4003.A.dialog-act.s9553330.190,,,,,,,,,False," Um, okay.",2,minor,Stall
+IB4003,A,1041.51,1044.28,2.77,IB4003.A.dialog-act.s9553330.191,A,A,0.0,1.54,False,False,0.0,[],False," Um, maybe we could s look a bit at the projects.",11,task,Suggest
+IB4003,A,1044.28,1050.23,5.95,IB4003.A.dialog-act.s9553330.192,A,A,0.0,0.0,False,False,0.0,[],False," Do you think it's a good idea to put together in the same room as much as possible people from the same project,",23,elicit,Elicit-Assessment
+IB4003,D,1048.04,1048.24,0.2,IB4003.D.dialog-act.s9553330.97,,,,,,,,,False, No.,1,task,Assess
+IB4003,A,1050.23,1052.48,2.25,IB4003.A.dialog-act.s9553330.193,D,A,-1.29,0.0,False,True,1.29,['IB4003.D.dialog-act.s9553330.99'],False, since they talk quite a lot of to each other?,10,task,Inform
+IB4003,D,1051.01,1051.19,0.18,IB4003.D.dialog-act.s9553330.98,,,,,,,,,False," No,",1,task,Assess
+IB4003,D,1051.19,1054.48,3.29,IB4003.D.dialog-act.s9553330.99,D,A,2.43,-1.29,True,False,0.0,[],False, because pro project doesn't last in time.,7,task,Inform
+IB4003,D,1054.48,1055.17,0.69,IB4003.D.dialog-act.s9553330.100,,,,,,,,,False, They will change.,3,task,Inform
+IB4003,A,1055.41,1056.91,1.5,IB4003.A.dialog-act.s9553330.194,,,,,,,,,False, Mm-hmm. Okay.,2,minor,Backchannel
+IB4003,D,1056.43,1056.91,0.48,IB4003.D.dialog-act.s9553330.101,,,,,,,,,False, That's what,2,minor,Fragment
+IB4003,D,1056.91,1062.65,5.74,IB4003.D.dialog-act.s9553330.102,A,D,1.29,2.43,False,False,0.0,[],False, The only thing that will not or that will change only progressively in time is the status of the people. Mm.,21,task,Inform
+IB4003,A,1063.28,1063.94,0.66,IB4003.A.dialog-act.s9553330.195,,,,,,,,,False," Well, yeah,",2,task,Assess
+IB4003,A,1063.94,1070.147,6.207,IB4003.A.dialog-act.s9553330.196,D,D,-3.857,1.29,True,True,1.715,['IB4003.D.dialog-act.s9553330.104'],True, and some of the P_H_D_ students will hopefully finish their P_H_D_ at some point.,14,task,Inform
+IB4003,D,1066.12,1066.29,0.17,IB4003.D.dialog-act.s9553330.103,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,D,1066.29,1068.005,1.715,IB4003.D.dialog-act.s9553330.104,C,A,4.065,-3.857,True,False,0.0,[],False, they will promote that.,4,task,Inform
+IB4003,D,1068.85,1071.34,2.49,IB4003.D.dialog-act.s9553330.105,,,,,,,,,False," But still, th some things Well, yeah.",7,minor,Fragment
+IB4003,A,1070.98,1071.56,0.58,IB4003.A.dialog-act.s9553330.197,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,C,1072.07,1077.616,5.546,IB4003.C.dialog-act.s9553330.44,C,D,1.414,4.065,True,False,0.0,[],True," Yeah, and also some of our the people mentioned here are working on more than one project too. So",19,task,Inform
+IB4003,D,1076.33,1076.54,0.21,IB4003.D.dialog-act.s9553330.106,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,C,1079.03,1083.47,4.44,IB4003.C.dialog-act.s9553330.45,C,C,1.33,1.414,False,False,0.0,[],False," For example, uh Marianne de uh, she's also working with me on the virtual campus project,",16,task,Inform
+IB4003,A,1079.3,1079.72,0.42,IB4003.A.dialog-act.s9553330.198,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,C,1083.47,1084.8,1.33,IB4003.C.dialog-act.s9553330.46,,,,,,,,,False, so she,2,minor,Fragment
+IB4003,A,1084.11,1084.76,0.65,IB4003.A.dialog-act.s9553330.200,,,,,,,,,False, Uh-huh.,1,other,Comment-About-Understanding
+IB4003,C,1084.8,1085.93,1.13,IB4003.C.dialog-act.s9553330.47,C,C,0.0,1.33,False,False,0.0,[],False," that one wasn't mentioned,",4,task,Inform
+IB4003,C,1085.93,1089.0,3.07,IB4003.C.dialog-act.s9553330.48,C,C,0.0,0.0,False,False,0.0,[],False," but I'm not saying that I necessarily want to be with her in the office,",15,task,Inform
+IB4003,A,1086.77,1087.35,0.58,IB4003.A.dialog-act.s9553330.199,,,,,,,,,False," Okay, yeah.",2,other,Comment-About-Understanding
+IB4003,C,1089.0,1093.472,4.472,IB4003.C.dialog-act.s9553330.49,D,C,0.038,0.0,False,False,0.0,[],False, but uh it's just to say people are working on uh sometimes more than one project uh,17,task,Inform
+IB4003,A,1089.14,1089.73,0.59,IB4003.A.dialog-act.s9553330.201,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1093.51,1098.72,5.21,IB4003.D.dialog-act.s9553330.107,D,C,0.0,0.038,True,False,0.0,[],True," If if it if i if projects are what you have in mind, I think that uh meeting room is the the tool for that.",25,task,Suggest
+IB4003,D,1098.72,1102.54,3.82,IB4003.D.dialog-act.s9553330.108,D,D,0.0,0.0,False,False,0.0,[],False," If you need to have people in a projects talking together, they just have a meeting room",17,task,Inform
+IB4003,C,1098.72,1098.81,0.09,IB4003.C.dialog-act.s9553330.51,,,,,,,,,False, Yeah.,1,task,Assess
+IB4003,A,1098.93,1099.21,0.28,IB4003.A.dialog-act.s9553330.203,,,,,,,,,False, Yeah.,1,task,Assess
+IB4003,D,1102.54,1105.74,3.2,IB4003.D.dialog-act.s9553330.109,A,D,-0.15,0.0,False,True,0.15,['IB4003.A.dialog-act.s9553330.204'],False, if it's not too far away then then it's a very good good practice.,14,task,Assess
+IB4003,C,1102.56,1102.94,0.38,IB4003.C.dialog-act.s9553330.50,,,,,,,,,False, Yep.,1,minor,Backchannel
+IB4003,A,1105.19,1105.59,0.4,IB4003.A.dialog-act.s9553330.202,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,A,1105.59,1108.99,3.4,IB4003.A.dialog-act.s9553330.204,A,D,0.0,-0.15,True,False,0.0,[],False," Well, actually, so the lounge could serve as some kind of meeting room,",13,task,Assess
+IB4003,A,1108.99,1114.36,5.37,IB4003.A.dialog-act.s9553330.205,D,A,-0.54,0.0,False,True,0.54,['IB4003.D.dialog-act.s9553330.111'],False," but there are also more formal meeting rooms available in in the building, as we now know.",17,task,Inform
+IB4003,D,1111.12,1111.36,0.24,IB4003.D.dialog-act.s9553330.110,,,,,,,,,False, Yes.,1,minor,Backchannel
+IB4003,D,1113.82,1119.6,5.78,IB4003.D.dialog-act.s9553330.111,D,A,0.0,-0.54,True,False,0.0,[],False, That's why I was quite receptive to uh Susan's remark at the beginning is,14,task,Inform
+IB4003,D,1119.6,1124.15,4.55,IB4003.D.dialog-act.s9553330.112,D,D,0.0,0.0,False,False,0.0,[],False," I wouldn't formulate it in a such a an extreme way as, do we really need the lounge?",18,task,Inform
+IB4003,D,1124.15,1132.35,8.2,IB4003.D.dialog-act.s9553330.113,D,D,1.08,0.0,False,False,0.0,[],False," But uh I would p probably formulate it in the way that uh, do we want to have only a lounge or s something that can be used only as a reading room?",33,task,Inform
+IB4003,A,1124.82,1125.38,0.56,IB4003.A.dialog-act.s9553330.206,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1133.43,1138.17,4.74,IB4003.D.dialog-act.s9553330.114,D,D,1.18,1.08,False,False,0.0,[],False, Because because meeting rooms to me are very important tools to do uh collaborative work.,15,task,Inform
+IB4003,A,1138.33,1139.64,1.31,IB4003.A.dialog-act.s9553330.207,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1139.35,1141.711,2.361,IB4003.D.dialog-act.s9553330.115,A,D,0.459,1.18,False,False,0.0,[],False," But on the other hand we also have to relax, so that's",12,task,Inform
+IB4003,A,1139.64,1140.608,0.968,IB4003.A.dialog-act.s9553330.208,,,,,,,,,False, So I think we need a,6,minor,Fragment
+IB4003,A,1141.89,1142.17,0.28,IB4003.A.dialog-act.s9553330.209,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,A,1142.17,1146.53,4.36,IB4003.A.dialog-act.s9553330.210,A,D,0.0,0.459,True,False,0.0,[],True," and and I think also we need a separate discussion on the furnishing of the lounge,",16,task,Suggest
+IB4003,D,1145.83,1146.22,0.39,IB4003.D.dialog-act.s9553330.116,,,,,,,,,False, Yes.,1,task,Assess
+IB4003,C,1146.5,1147.05,0.55,IB4003.C.dialog-act.s9553330.52,,,,,,,,,False," Well, yeah,",2,task,Assess
+IB4003,A,1146.53,1149.581,3.051,IB4003.A.dialog-act.s9553330.211,C,A,-2.531,0.0,False,True,2.531,['IB4003.C.dialog-act.s9553330.53'],False, which is a whole other topic.,6,task,Inform
+IB4003,C,1147.05,1149.84,2.79,IB4003.C.dialog-act.s9553330.53,C,A,0.65,-2.531,True,False,0.0,[],False, we'll skip that for now.,5,task,Suggest
+IB4003,D,1148.37,1148.72,0.35,IB4003.D.dialog-act.s9553330.117,,,,,,,,,False, Yes.,1,minor,Backchannel
+IB4003,C,1149.84,1150.49,0.65,IB4003.C.dialog-act.s9553330.54,,,,,,,,,False, No I d,3,minor,Fragment
+IB4003,C,1150.49,1151.71,1.22,IB4003.C.dialog-act.s9553330.55,C,C,0.0,0.65,False,False,0.0,[],False," um the lounge okay,",4,task,Assess
+IB4003,C,1151.71,1159.51,7.8,IB4003.C.dialog-act.s9553330.56,D,C,0.16,0.0,False,False,0.0,[],False," but I think we need to also see it as a overflow place when we have um uh visitors for any length of time, so they actually have a place to work.",32,task,Suggest
+IB4003,D,1155.41,1155.64,0.23,IB4003.D.dialog-act.s9553330.118,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,D,1158.03,1158.12,0.09,IB4003.D.dialog-act.s9553330.119,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,D,1159.67,1168.22,8.55,IB4003.D.dialog-act.s9553330.120,D,C,1.03,0.16,True,False,0.0,[],True, 'Cause that's really my one of my worries with the plan that we have here is that it's it pr provides no possible possibilities of expansion.,26,task,Inform
+IB4003,A,1161.0,1162.13,1.13,IB4003.A.dialog-act.s9553330.212,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+IB4003,D,1169.25,1170.0,0.75,IB4003.D.dialog-act.s9553330.121,D,D,0.0,1.03,False,False,0.0,[],False, And this will happen.,4,task,Inform
+IB4003,A,1169.36,1169.96,0.6,IB4003.A.dialog-act.s9553330.213,,,,,,,,,False, Um,1,minor,Backchannel
+IB4003,D,1170.0,1172.71,2.71,IB4003.D.dialog-act.s9553330.122,C,D,1.51,0.0,False,False,0.0,[],False, I mean you can't you can't prevent having visitors.,9,task,Inform
+IB4003,D,1172.71,1173.54,0.83,IB4003.D.dialog-act.s9553330.123,,,,,,,,,False, And you shouldn't.,3,task,Inform
+IB4003,C,1173.64,1174.22,0.58,IB4003.C.dialog-act.s9553330.57,,,,,,,,,False," No,",1,task,Assess
+IB4003,A,1173.93,1174.81,0.88,IB4003.A.dialog-act.s9553330.214,,,,,,,,,False," Yeah, yeah,",2,task,Assess
+IB4003,C,1174.22,1175.36,1.14,IB4003.C.dialog-act.s9553330.58,A,D,-0.55,1.51,True,True,0.55,['IB4003.A.dialog-act.s9553330.215'],True, you want to have visitors. Yeah.,6,task,Inform
+IB4003,A,1174.81,1178.99,4.18,IB4003.A.dialog-act.s9553330.215,D,C,0.05,-0.55,True,False,0.0,[],False, for the moment actually I think only one slot would be fully free.,13,task,Inform
+IB4003,A,1178.99,1180.16,1.17,IB4003.A.dialog-act.s9553330.216,,,,,,,,,False, Uh that is Yeah.,4,minor,Fragment
+IB4003,D,1179.04,1181.5,2.46,IB4003.D.dialog-act.s9553330.124,A,A,0.15,0.05,True,False,0.0,[],True, Which for for fifteen people it's not enough.,8,task,Inform
+IB4003,A,1181.48,1181.65,0.17,IB4003.A.dialog-act.s9553330.217,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,D,1181.5,1182.263,0.763,IB4003.D.dialog-act.s9553330.125,,,,,,,,,False, I mean uh,3,minor,Fragment
+IB4003,A,1181.65,1183.51,1.86,IB4003.A.dialog-act.s9553330.218,D,D,1.53,0.15,True,False,0.0,[],True, that means one visitor at a time.,7,task,Inform
+IB4003,C,1182.96,1183.29,0.33,IB4003.C.dialog-act.s9553330.59,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,A,1183.51,1184.77,1.26,IB4003.A.dialog-act.s9553330.219,,,,,,,,,False, Or one intern.,3,task,Inform
+IB4003,D,1183.93,1185.04,1.11,IB4003.D.dialog-act.s9553330.126,,,,,,,,,False, Yeah it's,2,minor,Fragment
+IB4003,A,1184.77,1186.08,1.31,IB4003.A.dialog-act.s9553330.220,,,,,,,,,False," Yeah, that's Mm-hmm.",3,minor,Fragment
+IB4003,D,1185.04,1190.44,5.4,IB4003.D.dialog-act.s9553330.127,B,A,-2.11,1.53,True,True,2.11,['IB4003.B.dialog-act.s9553330.15'],True, We have we have four professors here and and and two researchers.,12,task,Inform
+IB4003,B,1185.77,1186.738,0.968,IB4003.B.dialog-act.s9553330.14,,,,,,,,,False, It's,1,minor,Fragment
+IB4003,B,1188.33,1193.28,4.95,IB4003.B.dialog-act.s9553330.15,C,D,1.37,-2.11,True,False,0.0,[],False, It's funny that uh we move to another building because we run out of uh space and we will have the same problem.,23,task,Assess
+IB4003,A,1188.71,1189.02,0.31,IB4003.A.dialog-act.s9553330.221,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1193.9,1194.04,0.14,IB4003.D.dialog-act.s9553330.128,,,,,,,,,False, Mm.,1,minor,Backchannel
+IB4003,C,1194.4,1194.65,0.25,IB4003.C.dialog-act.s9553330.60,,,,,,,,,False," Yes,",1,task,Assess
+IB4003,C,1194.65,1197.49,2.84,IB4003.C.dialog-act.s9553330.61,A,B,0.04,1.37,True,False,0.0,[],True," but we have more space here than what we currently have,",11,task,Inform
+IB4003,B,1196.4,1196.81,0.41,IB4003.B.dialog-act.s9553330.16,,,,,,,,,False, Ah okay.,2,other,Comment-About-Understanding
+IB4003,A,1197.3,1197.53,0.23,IB4003.A.dialog-act.s9553330.222,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,C,1197.49,1199.328,1.838,IB4003.C.dialog-act.s9553330.62,,,,,,,,,False, so it's at least some,5,minor,Fragment
+IB4003,A,1197.53,1199.22,1.69,IB4003.A.dialog-act.s9553330.223,D,C,-0.4,0.04,True,True,0.4,['IB4003.D.dialog-act.s9553330.130'],True, it's already in progress.,4,task,Inform
+IB4003,D,1198.82,1200.71,1.89,IB4003.D.dialog-act.s9553330.130,A,A,2.74,-0.4,True,False,0.0,[],False, It's bad it's bad.,4,task,Assess
+IB4003,B,1198.94,1201.859,2.919,IB4003.B.dialog-act.s9553330.17,,,,,,,,,False,,0,minor,Fragment
+IB4003,A,1199.22,1201.51,2.29,IB4003.A.dialog-act.s9553330.224,,,,,,,,,False, And you're you're working,4,minor,Fragment
+IB4003,C,1199.328,1203.176,3.848,IB4003.C.dialog-act.s9553330.63,,,,,,,,,False,,0,minor,Fragment
+IB4003,D,1201.427,1203.647,2.22,IB4003.D.dialog-act.s9553330.129,,,,,,,,,False,,0,minor,Fragment
+IB4003,A,1201.51,1203.45,1.94,IB4003.A.dialog-act.s9553330.225,,,,,,,,,False," Uh I think, yeah, w Okay,",6,minor,Stall
+IB4003,A,1203.45,1209.915,6.465,IB4003.A.dialog-act.s9553330.226,D,D,-0.995,2.74,True,True,0.995,['IB4003.D.dialog-act.s9553330.131'],True, so one of the things I have to do for the next time is fin find out about the separations between rooms and,23,other,Offer
+IB4003,D,1208.92,1211.7,2.78,IB4003.D.dialog-act.s9553330.131,D,A,0.0,-0.995,True,False,0.0,[],False, Because this is really related with security uh regulation as well.,11,task,Inform
+IB4003,D,1211.7,1217.09,5.39,IB4003.D.dialog-act.s9553330.132,A,D,-2.32,0.0,False,True,2.32,['IB4003.A.dialog-act.s9553330.228'],False, I mean you can't just put walls in in rooms without any specific authoris Yeah.,15,task,Inform
+IB4003,A,1214.45,1214.77,0.32,IB4003.A.dialog-act.s9553330.227,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,A,1214.77,1217.43,2.66,IB4003.A.dialog-act.s9553330.228,D,D,-0.34,-2.32,True,True,0.34,['IB4003.D.dialog-act.s9553330.133'],False, I think it's quite a heavy transformation of the building.,10,task,Inform
+IB4003,D,1217.09,1219.45,2.36,IB4003.D.dialog-act.s9553330.133,D,A,0.0,-0.34,True,False,0.0,[],False, Uh it's not necessary heavy in terms of work.,9,task,Assess
+IB4003,D,1219.45,1222.02,2.57,IB4003.D.dialog-act.s9553330.134,D,D,1.46,0.0,False,False,0.0,[],False, It's heavy in terms of administrative authorisation.,7,task,Inform
+IB4003,A,1219.91,1220.28,0.37,IB4003.A.dialog-act.s9553330.229,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,A,1222.25,1223.1,0.85,IB4003.A.dialog-act.s9553330.230,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,A,1223.1,1224.61,1.51,IB4003.A.dialog-act.s9553330.231,,,,,,,,,False," And okay,",2,minor,Stall
+IB4003,D,1223.48,1224.17,0.69,IB4003.D.dialog-act.s9553330.135,A,D,0.44,1.46,False,False,0.0,[],False, At least at E_P_F_L_.,4,task,Inform
+IB4003,A,1224.61,1226.0,1.39,IB4003.A.dialog-act.s9553330.232,A,D,0.0,0.44,True,False,0.0,[],True, I'll try to find out.,5,other,Offer
+IB4003,A,1226.0,1234.28,8.28,IB4003.A.dialog-act.s9553330.233,D,A,0.43,0.0,False,False,0.0,[],False," And the other question is, can we squeeze maybe four people in the uh or at least four places in the three three P_ room?",25,task,Suggest
+IB4003,D,1234.2,1234.71,0.51,IB4003.D.dialog-act.s9553330.136,,,,,,,,,False, I think so.,3,task,Assess
+IB4003,D,1234.71,1238.76,4.05,IB4003.D.dialog-act.s9553330.137,A,A,1.27,0.43,True,False,0.0,[],True, If you organise the desks in a in a intelligent way.,11,task,Inform
+IB4003,C,1238.88,1239.15,0.27,IB4003.C.dialog-act.s9553330.64,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,A,1239.76,1240.03,0.27,IB4003.A.dialog-act.s9553330.234,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,A,1240.03,1245.65,5.62,IB4003.A.dialog-act.s9553330.235,D,D,-1.04,1.27,True,True,0.85,['IB4003.D.dialog-act.s9553330.138'],True," hopefully visitors don't need as much say filing space, or um",11,task,Inform
+IB4003,D,1242.53,1242.94,0.41,IB4003.D.dialog-act.s9553330.140,,,,,,,,,False, Yep.,1,minor,Backchannel
+IB4003,D,1244.61,1245.46,0.85,IB4003.D.dialog-act.s9553330.138,A,A,0.19,-1.04,True,False,0.0,[],False," Yeah, right, that's the point.",5,task,Assess
+IB4003,A,1245.65,1247.77,2.12,IB4003.A.dialog-act.s9553330.236,A,D,0.69,0.19,True,False,0.0,[],True," Yeah, they don't have that many papers.",7,task,Inform
+IB4003,A,1247.77,1248.46,0.69,IB4003.A.dialog-act.s9553330.237,,,,,,,,,False, Uh okay.,2,minor,Stall
+IB4003,A,1248.46,1251.25,2.79,IB4003.A.dialog-act.s9553330.238,A,A,0.0,0.69,False,False,0.0,[],False," So that's uh I have to to ask,",8,task,Inform
+IB4003,A,1251.25,1257.48,6.23,IB4003.A.dialog-act.s9553330.239,C,A,1.59,0.0,False,False,0.0,[],False, so you don't really feel um very strongly attached to this uh grouping by projects idea?,16,elicit,Elicit-Inform
+IB4003,D,1256.24,1256.4,0.16,IB4003.D.dialog-act.s9553330.139,,,,,,,,,False, No.,1,task,Inform
+IB4003,C,1256.92,1257.15,0.23,IB4003.C.dialog-act.s9553330.65,,,,,,,,,False, No.,1,task,Inform
+IB4003,A,1257.48,1259.904,2.424,IB4003.A.dialog-act.s9553330.240,,,,,,,,,False, Mm-hmm. Um,2,minor,Backchannel
+IB4003,C,1258.82,1259.07,0.25,IB4003.C.dialog-act.s9553330.66,,,,,,,,,False," No,",1,task,Inform
+IB4003,C,1259.07,1262.2,3.13,IB4003.C.dialog-act.s9553330.67,D,A,0.22,1.59,True,False,0.0,[],True," because they can share their ideas across the project, yeah, I would say.",13,task,Suggest
+IB4003,D,1262.42,1264.03,1.61,IB4003.D.dialog-act.s9553330.141,B,C,1.26,0.22,True,False,0.0,[],True, Coffee machines are that made for that.,7,task,Inform
+IB4003,A,1265.28,1266.08,0.8,IB4003.A.dialog-act.s9553330.241,,,,,,,,,False," Yeah, exactly.",2,task,Assess
+IB4003,B,1265.29,1273.93,8.64,IB4003.B.dialog-act.s9553330.18,D,D,1.14,1.26,True,False,0.0,[],True," But uh usually, whe when new assistants come, they would like to share the room with someone that knows uh l uh it's related with the project,",27,task,Inform
+IB4003,A,1268.26,1268.6,0.34,IB4003.A.dialog-act.s9553330.242,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,B,1273.93,1275.632,1.702,IB4003.B.dialog-act.s9553330.19,,,,,,,,,False, so he can,3,minor,Fragment
+IB4003,D,1274.75,1275.07,0.32,IB4003.D.dialog-act.s9553330.142,,,,,,,,,False," No,",1,task,Assess
+IB4003,A,1275.01,1275.56,0.55,IB4003.A.dialog-act.s9553330.243,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1275.07,1278.67,3.6,IB4003.D.dialog-act.s9553330.143,A,B,0.37,1.14,True,False,0.0,[],True, that's that's proximity doesn't play a big role there.,9,task,Inform
+IB4003,D,1278.67,1280.09,1.42,IB4003.D.dialog-act.s9553330.144,,,,,,,,,False, We can discuss with people that,6,minor,Fragment
+IB4003,A,1279.04,1281.0,1.96,IB4003.A.dialog-act.s9553330.244,D,D,-0.91,0.37,True,True,0.91,['IB4003.D.dialog-act.s9553330.145'],True," Yeah, they they can change.",5,task,Assess
+IB4003,D,1280.09,1281.59,1.5,IB4003.D.dialog-act.s9553330.145,D,A,2.89,-0.91,True,False,0.0,[],False," the the space is very small,",6,task,Inform
+IB4003,D,1281.59,1283.171,1.581,IB4003.D.dialog-act.s9553330.146,,,,,,,,,False," I mean, altogether it's",4,minor,Fragment
+IB4003,B,1282.95,1283.08,0.13,IB4003.B.dialog-act.s9553330.20,,,,,,,,,False, Mm.,1,minor,Backchannel
+IB4003,A,1284.08,1284.52,0.44,IB4003.A.dialog-act.s9553330.245,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1284.48,1287.16,2.68,IB4003.D.dialog-act.s9553330.147,D,D,0.0,2.89,False,False,0.0,[],False," And uh you don't y you don't need to discuss about the projects,",13,task,Inform
+IB4003,B,1284.77,1285.39,0.62,IB4003.B.dialog-act.s9553330.21,,,,,,,,,False," No, okay.",2,minor,Backchannel
+IB4003,D,1287.16,1297.63,10.47,IB4003.D.dialog-act.s9553330.148,D,D,0.0,0.0,False,False,0.0,[],False," you f more need about th to discuss about where is the printer, how do I get furniture, I'm I don't have a a pencil, where is the the box with the pencils, and so on.",36,task,Inform
+IB4003,C,1295.449,1295.926,0.477,IB4003.C.dialog-act.s9553330.68,,,,,,,,,False,,0,minor,Fragment
+IB4003,D,1297.63,1299.05,1.42,IB4003.D.dialog-act.s9553330.149,C,D,3.19,0.0,False,False,0.0,[],False, This is not project related.,5,task,Inform
+IB4003,A,1300.9,1301.3,0.4,IB4003.A.dialog-act.s9553330.246,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,B,1301.64,1301.87,0.23,IB4003.B.dialog-act.s9553330.22,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,C,1302.13,1302.24,0.11,IB4003.C.dialog-act.s9553330.69,,,,,,,,,False," No,",1,task,Assess
+IB4003,C,1302.24,1309.26,7.02,IB4003.C.dialog-act.s9553330.70,C,D,0.0,3.19,True,False,0.0,[],True," and if you look now at their uh the the current division of the offices, for example, uh Bruno and Agnes are sharing an office",25,task,Inform
+IB4003,C,1309.26,1311.03,1.77,IB4003.C.dialog-act.s9553330.71,C,C,0.0,0.0,False,False,0.0,[],False, and they're working on totally different projects,7,task,Inform
+IB4003,C,1311.03,1313.27,2.24,IB4003.C.dialog-act.s9553330.72,A,C,1.17,0.0,False,False,0.0,[],False, and and they're they're just fine with that.,8,task,Inform
+IB4003,A,1311.12,1311.69,0.57,IB4003.A.dialog-act.s9553330.247,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1311.52,1311.82,0.3,IB4003.D.dialog-act.s9553330.150,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,A,1314.44,1325.16,10.72,IB4003.A.dialog-act.s9553330.248,A,C,0.0,1.17,True,False,0.0,[],True," Yeah, I think that's that's going to be one of the the main things we'll have to ask is whether people have strong preferences either in staying with someone or in uh not staying.",34,task,Suggest
+IB4003,A,1325.16,1330.352,5.192,IB4003.A.dialog-act.s9553330.249,C,A,0.068,0.0,False,False,0.0,[],False," Um, are you aware f of any strong constraints right now?",11,elicit,Elicit-Inform
+IB4003,C,1326.113,1330.4,4.287,IB4003.C.dialog-act.s9553330.73,,,,,,,,,False,,0,minor,Fragment
+IB4003,B,1329.2,1330.865,1.665,IB4003.B.dialog-act.s9553330.23,,,,,,,,,False,,0,minor,Fragment
+IB4003,C,1330.42,1331.21,0.79,IB4003.C.dialog-act.s9553330.74,C,A,0.0,0.068,True,False,0.0,[],True," Well, there there were,",4,task,Inform
+IB4003,C,1331.21,1336.0,4.79,IB4003.C.dialog-act.s9553330.75,C,C,0.0,0.0,False,False,0.0,[],False," but they sort of disappeared as of October when the no smoking rule came in,",15,task,Inform
+IB4003,A,1332.057,1333.359,1.302,IB4003.A.dialog-act.s9553330.250,,,,,,,,,False,,0,minor,Fragment
+IB4003,B,1335.872,1338.152,2.28,IB4003.B.dialog-act.s9553330.24,,,,,,,,,False,,0,minor,Fragment
+IB4003,C,1336.0,1337.88,1.88,IB4003.C.dialog-act.s9553330.76,C,C,0.0,0.0,False,False,0.0,[],False, because before we were grouping the smokers,7,task,Inform
+IB4003,A,1336.85,1337.08,0.23,IB4003.A.dialog-act.s9553330.251,,,,,,,,,False, Oh.,1,minor,Backchannel
+IB4003,D,1337.19,1337.75,0.56,IB4003.D.dialog-act.s9553330.151,,,,,,,,,False," Yeah, that's true.",3,task,Assess
+IB4003,C,1337.88,1342.248,4.368,IB4003.C.dialog-act.s9553330.77,A,C,0.272,0.0,False,False,0.0,[],False," and now that there's no smoking, uh I guess that's not very important option, though",15,task,Inform
+IB4003,A,1342.52,1343.46,0.94,IB4003.A.dialog-act.s9553330.252,A,C,0.0,0.272,True,False,0.0,[],True," Okay, yeah, that's true.",4,task,Assess
+IB4003,A,1343.46,1348.272,4.812,IB4003.A.dialog-act.s9553330.253,C,A,-1.152,0.0,False,True,1.152,['IB4003.C.dialog-act.s9553330.78'],False, So smoking is now um no longer a constraint.,9,task,Inform
+IB4003,C,1347.12,1351.744,4.624,IB4003.C.dialog-act.s9553330.78,B,A,1.026,-1.152,True,False,0.0,[],False," Well, except for that maybe you don't even want anybody smoking on your balcony, so",15,task,Suggest
+IB4003,A,1352.62,1352.97,0.35,IB4003.A.dialog-act.s9553330.254,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,B,1352.77,1355.9,3.13,IB4003.B.dialog-act.s9553330.25,B,C,0.0,1.026,True,False,0.0,[],True," Is it allowed to smoke inside an office, if it's a one person",13,elicit,Elicit-Inform
+IB4003,C,1355.26,1355.57,0.31,IB4003.C.dialog-act.s9553330.79,,,,,,,,,False, No.,1,task,Inform
+IB4003,B,1355.9,1356.64,0.74,IB4003.B.dialog-act.s9553330.26,C,B,0.51,0.0,False,False,0.0,[],False," No, not any more.",4,task,Inform
+IB4003,D,1356.4,1356.47,0.07,IB4003.D.dialog-act.s9553330.152,,,,,,,,,False, No.,1,task,Inform
+IB4003,C,1356.84,1357.15,0.31,IB4003.C.dialog-act.s9553330.80,,,,,,,,,False," No,",1,task,Inform
+IB4003,C,1357.15,1360.26,3.11,IB4003.C.dialog-act.s9553330.81,C,B,0.0,0.51,True,False,0.0,[],True, n it's in in principle it's a it's a no smoking building.,12,task,Inform
+IB4003,D,1357.27,1358.52,1.25,IB4003.D.dialog-act.s9553330.153,,,,,,,,,False, It's non-smoking campus.,3,task,Inform
+IB4003,C,1360.26,1361.54,1.28,IB4003.C.dialog-act.s9553330.82,C,C,0.0,0.0,False,False,0.0,[],False, You can smoke outside.,4,task,Inform
+IB4003,B,1361.44,1361.63,0.19,IB4003.B.dialog-act.s9553330.27,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,C,1361.54,1364.54,3.0,IB4003.C.dialog-act.s9553330.83,D,C,-1.67,0.0,False,True,1.67,['IB4003.D.dialog-act.s9553330.154'],False, So you can go outside onto the balcony to smoke.,10,task,Inform
+IB4003,D,1362.87,1364.92,2.05,IB4003.D.dialog-act.s9553330.154,C,C,-0.38,-1.67,True,True,0.38,['IB4003.C.dialog-act.s9553330.84'],False, Not even in the cafeteria?,5,elicit,Elicit-Inform
+IB4003,C,1364.54,1365.72,1.18,IB4003.C.dialog-act.s9553330.84,C,D,0.59,-0.38,True,False,0.0,[],False, Not even in the cafeteria.,5,task,Inform
+IB4003,D,1364.92,1365.43,0.51,IB4003.D.dialog-act.s9553330.155,,,,,,,,,False, Downstairs?,1,elicit,Elicit-Inform
+IB4003,C,1365.72,1365.88,0.16,IB4003.C.dialog-act.s9553330.85,,,,,,,,,False, No.,1,task,Inform
+IB4003,C,1366.31,1370.3,3.99,IB4003.C.dialog-act.s9553330.86,A,C,-3.63,0.59,False,True,2.016,"['IB4003.A.dialog-act.s9553330.256', 'IB4003.D.dialog-act.s9553330.158']",False, Full no smoking building for all of the six thousand students.,11,task,Inform
+IB4003,A,1366.44,1366.67,0.23,IB4003.A.dialog-act.s9553330.255,,,,,,,,,False, Yeah.,1,task,Assess
+IB4003,A,1366.67,1368.5,1.83,IB4003.A.dialog-act.s9553330.256,D,C,-0.216,-3.63,True,True,0.216,['IB4003.D.dialog-act.s9553330.158'],False, That's the new regulation.,4,task,Inform
+IB4003,D,1366.83,1367.15,0.32,IB4003.D.dialog-act.s9553330.156,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+IB4003,D,1367.91,1368.16,0.25,IB4003.D.dialog-act.s9553330.157,,,,,,,,,False, Wow.,1,task,Assess
+IB4003,D,1368.284,1371.12,2.836,IB4003.D.dialog-act.s9553330.158,A,A,1.33,-0.216,True,False,0.0,[],False, On the roof maybe.,4,task,Suggest
+IB4003,A,1372.45,1374.22,1.77,IB4003.A.dialog-act.s9553330.257,C,D,1.08,1.33,True,False,0.0,[],True," Uh on the balcony, actually.",5,task,Inform
+IB4003,C,1373.46,1374.27,0.81,IB4003.C.dialog-act.s9553330.88,,,,,,,,,False, Yeah. Yep.,2,minor,Backchannel
+IB4003,D,1373.62,1374.41,0.79,IB4003.D.dialog-act.s9553330.159,,,,,,,,,False," The balcony, okay.",3,other,Comment-About-Understanding
+IB4003,A,1374.22,1374.69,0.47,IB4003.A.dialog-act.s9553330.259,,,,,,,,,False, Yeah.,1,task,Assess
+IB4003,A,1374.69,1375.25,0.56,IB4003.A.dialog-act.s9553330.260,,,,,,,,,False, Normally.,1,task,Inform
+IB4003,C,1375.3,1376.58,1.28,IB4003.C.dialog-act.s9553330.87,B,A,0.92,1.08,True,False,0.0,[],True, There is the there's that terrace.,6,task,Inform
+IB4003,D,1376.82,1377.942,1.122,IB4003.D.dialog-act.s9553330.160,,,,,,,,,False," But Andre, uh just a",5,minor,Fragment
+IB4003,B,1376.88,1377.5,0.62,IB4003.B.dialog-act.s9553330.28,,,,,,,,,False," Wow,",1,task,Assess
+IB4003,B,1377.5,1380.29,2.79,IB4003.B.dialog-act.s9553330.29,B,C,0.36,0.92,True,False,0.0,[],True, there there's no place in inside the building?,8,elicit,Elicit-Inform
+IB4003,C,1379.39,1379.53,0.14,IB4003.C.dialog-act.s9553330.89,,,,,,,,,False, No.,1,task,Inform
+IB4003,B,1380.29,1380.65,0.36,IB4003.B.dialog-act.s9553330.30,,,,,,,,,False," Wow,",1,task,Assess
+IB4003,B,1380.65,1383.12,2.47,IB4003.B.dialog-act.s9553330.31,B,B,0.0,0.36,False,False,0.0,[],False," E_T_P_F_L_ is a c it's a non-smoking campus,",8,task,Inform
+IB4003,B,1383.12,1384.2,1.08,IB4003.B.dialog-act.s9553330.32,D,B,0.76,0.0,False,False,0.0,[],False, but there are some places tha,6,task,Inform
+IB4003,D,1384.96,1387.72,2.76,IB4003.D.dialog-act.s9553330.161,D,B,0.0,0.76,True,False,0.0,[],True, Still some places where smokers can survive.,7,task,Inform
+IB4003,C,1384.993,1385.4,0.407,IB4003.C.dialog-act.s9553330.90,,,,,,,,,False,,0,minor,Fragment
+IB4003,B,1386.083,1388.302,2.219,IB4003.B.dialog-act.s9553330.37,,,,,,,,,False, Yeah yeah yeah.,3,minor,Backchannel
+IB4003,D,1387.72,1390.82,3.1,IB4003.D.dialog-act.s9553330.162,D,D,0.0,0.0,False,False,0.0,[],False," But Andre, just a comment abou about your your previous uh request.",12,other,Offer
+IB4003,A,1388.21,1388.96,0.75,IB4003.A.dialog-act.s9553330.262,,,,,,,,,False, Yeah. Mm-hmm.,2,task,Assess
+IB4003,B,1388.302,1388.302,0.0,IB4003.B.dialog-act.s9553330.33,,,,,,,,,False,,0,minor,Fragment
+IB4003,D,1390.82,1395.67,4.85,IB4003.D.dialog-act.s9553330.163,D,D,0.0,0.0,False,False,0.0,[],False, I I don't think that anyone will provide you information such as who doesn't want to be with whom.,19,task,Inform
+IB4003,B,1394.624,1395.872,1.248,IB4003.B.dialog-act.s9553330.34,,,,,,,,,False,,0,minor,Fragment
+IB4003,D,1395.67,1400.97,5.3,IB4003.D.dialog-act.s9553330.164,D,D,0.0,0.0,False,False,0.0,[],False, That's a typical uh output of ex uh research in expert systems.,12,task,Inform
+IB4003,A,1400.592,1401.84,1.248,IB4003.A.dialog-act.s9553330.261,,,,,,,,,False,,0,minor,Fragment
+IB4003,D,1400.97,1402.47,1.5,IB4003.D.dialog-act.s9553330.165,D,D,0.0,0.0,False,False,0.0,[],False, These are the rules that you never get.,8,task,Inform
+IB4003,D,1402.47,1405.29,2.82,IB4003.D.dialog-act.s9553330.166,D,D,0.0,0.0,False,False,0.0,[],False, But uh you can get them through a proposal.,9,task,Inform
+IB4003,C,1404.18,1404.55,0.37,IB4003.C.dialog-act.s9553330.91,,,,,,,,,False, The other way.,3,task,Inform
+IB4003,B,1405.168,1405.424,0.256,IB4003.B.dialog-act.s9553330.35,,,,,,,,,False,,0,minor,Fragment
+IB4003,D,1405.29,1409.83,4.54,IB4003.D.dialog-act.s9553330.167,D,D,0.0,0.0,False,False,0.0,[],False," So you propose a set-up, where people are with other peoples",11,task,Suggest
+IB4003,A,1406.55,1407.31,0.76,IB4003.A.dialog-act.s9553330.263,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1409.83,1416.7,6.87,IB4003.D.dialog-act.s9553330.168,D,D,0.0,0.0,False,False,0.0,[],False," and they will find politically correct ways to tell you that uh they don't want to have a view on the mountains, but they prefer to have view on the old town,",32,task,Suggest
+IB4003,B,1415.359,1419.72,4.361,IB4003.B.dialog-act.s9553330.36,,,,,,,,,False,,0,minor,Fragment
+IB4003,D,1416.7,1419.68,2.98,IB4003.D.dialog-act.s9553330.169,A,D,-2.31,0.0,False,True,2.31,['IB4003.A.dialog-act.s9553330.264'],False, so they would be in the toilets.,7,task,Suggest
+IB4003,A,1417.37,1421.824,4.454,IB4003.A.dialog-act.s9553330.264,D,D,-2.144,-2.31,True,True,2.144,['IB4003.D.dialog-act.s9553330.170'],False, O on the toilets or,5,task,Suggest
+IB4003,D,1419.68,1422.12,2.44,IB4003.D.dialog-act.s9553330.170,C,A,0.79,-2.144,True,False,0.0,[],False, They would um p prefer to be in another room.,10,task,Suggest
+IB4003,B,1421.789,1423.503,1.714,IB4003.B.dialog-act.s9553330.38,,,,,,,,,False,,0,minor,Fragment
+IB4003,A,1421.85,1422.26,0.41,IB4003.A.dialog-act.s9553330.265,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,C,1422.47,1422.91,0.44,IB4003.C.dialog-act.s9553330.92,,,,,,,,,False," No,",1,minor,Backchannel
+IB4003,C,1422.91,1426.32,3.41,IB4003.C.dialog-act.s9553330.93,C,D,0.0,0.79,True,False,0.0,[],True," we we do have one constraint that's difficult, which is uh Gisella,",12,task,Inform
+IB4003,C,1426.32,1428.14,1.82,IB4003.C.dialog-act.s9553330.94,C,C,0.95,0.0,False,False,0.0,[],False, because when she's there she's very noisy.,7,task,Inform
+IB4003,D,1426.81,1427.02,0.21,IB4003.D.dialog-act.s9553330.171,,,,,,,,,False, Yeah.,1,task,Assess
+IB4003,A,1427.0,1428.12,1.12,IB4003.A.dialog-act.s9553330.266,,,,,,,,,False, Yeah.,1,task,Assess
+IB4003,D,1428.17,1428.43,0.26,IB4003.D.dialog-act.s9553330.172,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,C,1429.09,1430.21,1.12,IB4003.C.dialog-act.s9553330.95,D,C,-0.8,0.95,False,True,0.8,['IB4003.D.dialog-act.s9553330.173'],False, She's on the phone a lot,6,task,Inform
+IB4003,D,1429.41,1433.22,3.81,IB4003.D.dialog-act.s9553330.173,C,C,-1.1,-0.8,True,True,1.1,['IB4003.C.dialog-act.s9553330.98'],False, But that's a sec s that's the admin that's the admin uh so it's part of the work. Yeah.,19,task,Inform
+IB4003,C,1430.21,1431.65,1.44,IB4003.C.dialog-act.s9553330.96,,,,,,,,,False, It's just it's by,4,minor,Fragment
+IB4003,C,1431.65,1432.12,0.47,IB4003.C.dialog-act.s9553330.97,,,,,,,,,False, Yeah.,1,task,Assess
+IB4003,C,1432.12,1437.65,5.53,IB4003.C.dialog-act.s9553330.98,A,D,-1.14,-1.1,True,True,1.14,['IB4003.A.dialog-act.s9553330.268'],False, It's by nat uh by the nature of her work that uh a lot of it is communication. Yeah.,19,task,Inform
+IB4003,A,1435.37,1436.51,1.14,IB4003.A.dialog-act.s9553330.267,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,A,1436.51,1438.58,2.07,IB4003.A.dialog-act.s9553330.268,A,C,0.0,-1.14,True,False,0.0,[],False," Yes, Martin said also for him",6,task,Inform
+IB4003,A,1438.58,1440.44,1.86,IB4003.A.dialog-act.s9553330.269,A,A,0.0,0.0,False,False,0.0,[],False," and, yeah, especially for her.",5,task,Inform
+IB4003,C,1439.83,1439.92,0.09,IB4003.C.dialog-act.s9553330.99,,,,,,,,,False, Yep.,1,minor,Backchannel
+IB4003,A,1440.44,1444.23,3.79,IB4003.A.dialog-act.s9553330.270,D,A,-1.52,0.0,False,True,1.19,"['IB4003.D.dialog-act.s9553330.174', 'IB4003.D.dialog-act.s9553330.175']",False, Yeah the in she's the interface. So,7,task,Inform
+IB4003,D,1442.71,1443.9,1.19,IB4003.D.dialog-act.s9553330.174,D,A,0.0,-1.52,True,False,0.0,[],False," And that that's a problem, you're right,",7,task,Inform
+IB4003,D,1443.9,1452.26,8.36,IB4003.D.dialog-act.s9553330.175,D,D,0.0,0.0,False,False,0.0,[],False, because because we don't have a one person we d we don't have enough one person rooms for uh accommodating the uh the admin place.,25,task,Inform
+IB4003,A,1444.23,1444.58,0.35,IB4003.A.dialog-act.s9553330.271,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,A,1448.57,1448.81,0.24,IB4003.A.dialog-act.s9553330.272,,,,,,,,,False, Yep.,1,task,Assess
+IB4003,D,1452.26,1458.51,6.25,IB4003.D.dialog-act.s9553330.176,D,D,1.25,0.0,False,False,0.0,[],False," And uh if you put two person persons or three persons for the admin space, who who who else would you put in there?",24,elicit,Elicit-Inform
+IB4003,A,1459.1,1459.69,0.59,IB4003.A.dialog-act.s9553330.273,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1459.76,1461.71,1.95,IB4003.D.dialog-act.s9553330.177,D,D,0.0,1.25,False,False,0.0,[],False, Because we don't have any assistant manager,7,task,Inform
+IB4003,D,1461.71,1466.84,5.13,IB4003.D.dialog-act.s9553330.178,D,D,0.0,0.0,False,False,0.0,[],False, or we don't have We have only one half part half-time uh admin,13,task,Inform
+IB4003,D,1466.84,1470.15,3.31,IB4003.D.dialog-act.s9553330.179,D,D,0.0,0.0,False,False,0.0,[],False," and no other non-researcher positions, if I'm not mistaken.",9,task,Inform
+IB4003,D,1470.15,1471.98,1.83,IB4003.D.dialog-act.s9553330.180,D,D,0.0,0.0,False,False,0.0,[],False, And this is really a piece of a problem.,9,task,Assess
+IB4003,A,1470.61,1472.51,1.9,IB4003.A.dialog-act.s9553330.274,,,,,,,,,False, Yep. Yeah.,2,minor,Backchannel
+IB4003,D,1471.98,1479.026,7.046,IB4003.D.dialog-act.s9553330.181,A,D,-1.166,0.0,False,True,1.166,['IB4003.A.dialog-act.s9553330.277'],False," Maybe you could put some visitors, but um I know. It's not very uh realistic in a in a in an admin room, but uh",25,task,Suggest
+IB4003,A,1475.1,1476.24,1.14,IB4003.A.dialog-act.s9553330.275,,,,,,,,,False," Yeah, I think",3,minor,Fragment
+IB4003,A,1476.24,1477.86,1.62,IB4003.A.dialog-act.s9553330.276,,,,,,,,,False, Yeah. Mm-hmm.,2,minor,Backchannel
+IB4003,A,1477.86,1482.01,4.15,IB4003.A.dialog-act.s9553330.277,C,D,-0.174,-1.166,True,True,0.174,['IB4003.C.dialog-act.s9553330.100'],False," I think putting Gisella with the other admin of the school is not an option,",15,task,Inform
+IB4003,C,1481.836,1485.05,3.214,IB4003.C.dialog-act.s9553330.100,A,A,-3.04,-0.174,True,True,2.18,"['IB4003.A.dialog-act.s9553330.278', 'IB4003.A.dialog-act.s9553330.279']",False, I think that's a excellent idea.,6,task,Assess
+IB4003,A,1482.01,1484.19,2.18,IB4003.A.dialog-act.s9553330.278,A,C,0.0,-3.04,True,False,0.0,[],False, because we weren't offered,4,task,Inform
+IB4003,A,1484.19,1485.14,0.95,IB4003.A.dialog-act.s9553330.279,C,A,-0.09,0.0,False,True,0.09,['IB4003.C.dialog-act.s9553330.101'],False," Yeah, it would be nice,",5,task,Assess
+IB4003,C,1485.05,1486.43,1.38,IB4003.C.dialog-act.s9553330.101,D,A,0.05,-0.09,True,False,0.0,[],False, Why don't we ask about that?,6,task,Suggest
+IB4003,A,1485.14,1486.57,1.43,IB4003.A.dialog-act.s9553330.280,,,,,,,,,False, but uh,2,minor,Fragment
+IB4003,D,1486.48,1489.67,3.19,IB4003.D.dialog-act.s9553330.182,A,C,-3.1,0.05,True,True,1.45,['IB4003.A.dialog-act.s9553330.281'],True," Yeah, because You can't put a researcher there.",8,task,Inform
+IB4003,A,1486.57,1488.02,1.45,IB4003.A.dialog-act.s9553330.281,D,D,2.46,-3.1,True,False,0.0,[],False," Okay, I'll try to find out,",6,other,Offer
+IB4003,A,1488.02,1488.672,0.652,IB4003.A.dialog-act.s9553330.282,,,,,,,,,False, but uh,2,minor,Fragment
+IB4003,D,1489.67,1490.48,0.81,IB4003.D.dialog-act.s9553330.183,,,,,,,,,False, That's just,2,minor,Fragment
+IB4003,D,1490.48,1494.54,4.06,IB4003.D.dialog-act.s9553330.184,C,A,2.04,2.46,True,False,0.0,[],True, Either you lose one position or you find another admin or assistant manager.,13,task,Inform
+IB4003,A,1491.7,1492.13,0.43,IB4003.A.dialog-act.s9553330.283,,,,,,,,,False, I th,2,minor,Fragment
+IB4003,A,1495.83,1496.35,0.52,IB4003.A.dialog-act.s9553330.284,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,C,1496.58,1500.05,3.47,IB4003.C.dialog-act.s9553330.102,C,D,0.0,2.04,True,False,0.0,[],True," I mean there is certainly enough space uh down the hall,",11,task,Inform
+IB4003,C,1500.05,1506.656,6.606,IB4003.C.dialog-act.s9553330.103,A,C,0.864,0.0,False,False,0.0,[],False," wi if all of those uh uh offices that are, where half of them are also half time, and they're very under-used. So um",24,task,Inform
+IB4003,D,1500.2,1500.37,0.17,IB4003.D.dialog-act.s9553330.186,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,D,1506.192,1506.812,0.62,IB4003.D.dialog-act.s9553330.185,,,,,,,,,False,,0,minor,Fragment
+IB4003,A,1506.6,1507.52,0.92,IB4003.A.dialog-act.s9553330.285,,,,,,,,,False," Okay, we'll try,",3,task,Inform
+IB4003,A,1507.52,1514.5,6.98,IB4003.A.dialog-act.s9553330.286,A,C,0.0,0.864,True,False,0.0,[],True," but all these, yeah, are say sort of difficult questions because they involve changing also the offices of the school",20,task,Inform
+IB4003,D,1513.73,1513.88,0.15,IB4003.D.dialog-act.s9553330.187,,,,,,,,,False, Yep.,1,minor,Backchannel
+IB4003,A,1514.5,1517.42,2.92,IB4003.A.dialog-act.s9553330.287,A,A,0.0,0.0,False,False,0.0,[],False," and, you know, people just don't wanna change in general.",10,task,Inform
+IB4003,A,1517.42,1523.2,5.78,IB4003.A.dialog-act.s9553330.288,A,A,0.0,0.0,False,False,0.0,[],False," Um, let's see, maybe we can find some temporary well, at least a proposal for Gisella.",16,task,Suggest
+IB4003,A,1523.2,1531.16,7.96,IB4003.A.dialog-act.s9553330.289,D,A,-1.41,0.0,False,True,1.41,['IB4003.D.dialog-act.s9553330.188'],False," So, since the one-person rooms are quite, well, sort of um desired by a lot of people, she should probably",20,task,Inform
+IB4003,D,1529.75,1531.2,1.45,IB4003.D.dialog-act.s9553330.188,D,A,0.0,-1.41,True,False,0.0,[],False, No that's not sure that's not sure.,7,task,Assess
+IB4003,A,1531.16,1532.66,1.5,IB4003.A.dialog-act.s9553330.290,,,,,,,,,False," No, y Yeah. Okay.",4,minor,Backchannel
+IB4003,D,1531.2,1533.92,2.72,IB4003.D.dialog-act.s9553330.189,D,D,0.0,0.0,False,False,0.0,[],False, Uh the there are To me there are two options possible,11,task,Inform
+IB4003,D,1533.92,1539.52,5.6,IB4003.D.dialog-act.s9553330.190,D,D,0.0,0.0,False,False,0.0,[],False," is either you we can take one of the one person rooms for the admin,",15,task,Suggest
+IB4003,D,1539.52,1545.44,5.92,IB4003.D.dialog-act.s9553330.191,D,D,0.0,0.0,False,False,0.0,[],False," because some of, typically, the professors have good reasons for sharing.",11,task,Inform
+IB4003,A,1539.54,1539.97,0.43,IB4003.A.dialog-act.s9553330.291,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,A,1545.15,1545.61,0.46,IB4003.A.dialog-act.s9553330.292,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1545.44,1551.84,6.4,IB4003.D.dialog-act.s9553330.192,D,D,0.0,0.0,False,False,0.0,[],False, Sharing either with a colleague or sharing uh with some of their uh one of their P_H_D_ students.,18,task,Inform
+IB4003,D,1551.84,1553.34,1.5,IB4003.D.dialog-act.s9553330.193,D,D,0.0,0.0,False,False,0.0,[],False, In that case it's it's realistic.,6,task,Inform
+IB4003,D,1553.34,1559.21,5.87,IB4003.D.dialog-act.s9553330.194,D,D,0.0,0.0,False,False,0.0,[],False, Then we could very very simply uh allocate the one pers one of the one person rooms for the admin.,20,task,Inform
+IB4003,D,1559.21,1561.05,1.84,IB4003.D.dialog-act.s9553330.195,D,D,0.0,0.0,False,False,0.0,[],False, And that would solve the problem.,6,task,Inform
+IB4003,D,1561.05,1563.6,2.55,IB4003.D.dialog-act.s9553330.196,D,D,0.0,0.0,False,False,0.0,[],False, The other thing is to take a two person room for the admin.,13,task,Suggest
+IB4003,D,1563.6,1570.26,6.66,IB4003.D.dialog-act.s9553330.197,A,D,-0.93,0.0,False,True,0.93,['IB4003.A.dialog-act.s9553330.294'],False, That could be the one uh close to the uh close to the here in the centre so uh the,20,task,Suggest
+IB4003,A,1563.92,1564.42,0.5,IB4003.A.dialog-act.s9553330.293,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,A,1569.33,1570.97,1.64,IB4003.A.dialog-act.s9553330.294,D,D,-0.07,-0.93,True,True,0.07,['IB4003.D.dialog-act.s9553330.199'],False," Uh, the the middle one here?",6,elicit,Elicit-Inform
+IB4003,D,1570.26,1570.42,0.16,IB4003.D.dialog-act.s9553330.198,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,D,1570.9,1571.58,0.68,IB4003.D.dialog-act.s9553330.199,D,A,0.0,-0.07,True,False,0.0,[],False," But tha No no no,",5,task,Inform
+IB4003,A,1570.97,1571.27,0.3,IB4003.A.dialog-act.s9553330.295,,,,,,,,,False, Okay.,1,minor,Backchannel
+IB4003,D,1571.58,1574.66,3.08,IB4003.D.dialog-act.s9553330.200,D,D,0.0,0.0,False,False,0.0,[],False," the other one, the the one op Yeah, here, this one.",11,task,Inform
+IB4003,A,1573.43,1574.32,0.89,IB4003.A.dialog-act.s9553330.296,,,,,,,,,False, This one. Okay.,3,task,Assess
+IB4003,D,1574.66,1580.42,5.76,IB4003.D.dialog-act.s9553330.201,D,D,1.14,0.0,False,False,0.0,[],False, But then uh that the the question of what do we do with the second position there remains fully open.,20,task,Inform
+IB4003,A,1580.62,1581.71,1.09,IB4003.A.dialog-act.s9553330.297,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1581.56,1606.33,24.77,IB4003.D.dialog-act.s9553330.202,D,D,0.0,1.14,False,False,0.0,[],False," So I would be I would be more of the opinion to to see whether it's it's so evident that, let's say the at least the two full full-time professors that are here on the list, we have one here, but uh Maggie is is not present. If they really Yeah, and Pierrette. If if if because of personal preferences they would be happy with a two person room, which might or might not be the case.",77,task,Suggest
+IB4003,A,1581.71,1582.327,0.617,IB4003.A.dialog-act.s9553330.298,,,,,,,,,False, Well,1,minor,Fragment
+IB4003,A,1592.64,1592.9,0.26,IB4003.A.dialog-act.s9553330.299,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,A,1594.23,1594.72,0.49,IB4003.A.dialog-act.s9553330.300,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,C,1595.284,1596.43,1.146,IB4003.C.dialog-act.s9553330.104,,,,,,,,,False, And Pierrette too.,3,task,Inform
+IB4003,A,1597.24,1598.16,0.92,IB4003.A.dialog-act.s9553330.301,,,,,,,,,False," Yeah. Yeah, well",3,minor,Backchannel
+IB4003,A,1604.73,1605.03,0.3,IB4003.A.dialog-act.s9553330.302,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1606.33,1609.73,3.4,IB4003.D.dialog-act.s9553330.203,D,D,0.0,0.0,False,False,0.0,[],False," I mean it's it's certainly not uh something that we should impose,",12,task,Inform
+IB4003,A,1607.24,1607.48,0.24,IB4003.A.dialog-act.s9553330.303,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,A,1609.38,1610.76,1.38,IB4003.A.dialog-act.s9553330.304,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1609.73,1610.53,0.8,IB4003.D.dialog-act.s9553330.204,A,D,0.23,0.0,False,False,0.0,[],False, but we can ask.,4,task,Suggest
+IB4003,A,1610.76,1615.44,4.68,IB4003.A.dialog-act.s9553330.305,A,D,0.0,0.23,True,False,0.0,[],True," Yeah, because in this case, yeah, Gisella could take one of the the two person rooms",16,task,Suggest
+IB4003,A,1615.44,1618.38,2.94,IB4003.A.dialog-act.s9553330.306,D,A,-0.38,0.0,False,True,0.38,['IB4003.D.dialog-act.s9553330.205'],False," and the other place would be for some kind of visitor,",11,task,Suggest
+IB4003,D,1618.0,1619.41,1.41,IB4003.D.dialog-act.s9553330.205,D,A,0.0,-0.38,True,False,0.0,[],False," Yeah, but that's not realistic either.",6,task,Assess
+IB4003,A,1618.38,1618.87,0.49,IB4003.A.dialog-act.s9553330.307,,,,,,,,,False, that,1,minor,Fragment
+IB4003,D,1619.41,1625.2,5.79,IB4003.D.dialog-act.s9553330.206,D,D,2.1,0.0,False,False,0.0,[],False," I mean, you have you have a fore foreign researcher coming visiting you and you will put put him in the admin office?",23,task,Assess
+IB4003,A,1620.83,1622.084,1.254,IB4003.A.dialog-act.s9553330.309,,,,,,,,,False, I or,2,minor,Fragment
+IB4003,A,1625.17,1627.25,2.08,IB4003.A.dialog-act.s9553330.308,,,,,,,,,False, Ah. Okay.,2,other,Comment-About-Understanding
+IB4003,A,1627.25,1628.43,1.18,IB4003.A.dialog-act.s9553330.310,,,,,,,,,False, Uh.,1,minor,Fragment
+IB4003,D,1627.3,1628.48,1.18,IB4003.D.dialog-act.s9553330.207,D,D,0.0,2.1,False,False,0.0,[],False, Uh you'll not do that.,5,task,Inform
+IB4003,D,1628.48,1631.869,3.389,IB4003.D.dialog-act.s9553330.208,C,D,0.561,0.0,False,False,0.0,[],False," I mean uh, maybe you can do that with an exchange student, that's",13,task,Suggest
+IB4003,C,1632.13,1632.43,0.3,IB4003.C.dialog-act.s9553330.105,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,A,1632.21,1632.42,0.21,IB4003.A.dialog-act.s9553330.311,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,A,1632.42,1634.31,1.89,IB4003.A.dialog-act.s9553330.312,,,,,,,,,False, or an intern.,3,task,Suggest
+IB4003,C,1632.43,1633.68,1.25,IB4003.C.dialog-act.s9553330.107,D,D,0.6,0.561,True,False,0.0,[],True," with with younger people,",4,task,Suggest
+IB4003,C,1633.68,1633.9,0.22,IB4003.C.dialog-act.s9553330.106,,,,,,,,,False, yeah.,1,task,Assess
+IB4003,D,1634.28,1639.06,4.78,IB4003.D.dialog-act.s9553330.209,C,C,-0.74,0.6,True,True,0.74,['IB4003.C.dialog-act.s9553330.109'],True, But you can't take a senior visitor and uh him in the in the secretary.,15,task,Inform
+IB4003,A,1634.31,1634.83,0.52,IB4003.A.dialog-act.s9553330.313,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,C,1636.73,1636.94,0.21,IB4003.C.dialog-act.s9553330.108,,,,,,,,,False, No.,1,task,Assess
+IB4003,C,1638.32,1644.593,6.273,IB4003.C.dialog-act.s9553330.109,A,D,1.117,-0.74,True,False,0.0,[],False," So we we invite invite and then we say, okay you can sit with Gisella.",15,other,Be-Positive
+IB4003,D,1640.669,1645.893,5.224,IB4003.D.dialog-act.s9553330.210,,,,,,,,,False, Uh you're here.,3,other,Be-Positive
+IB4003,A,1643.82,1645.71,1.89,IB4003.A.dialog-act.s9553330.314,,,,,,,,,False, Yeah. Okay.,2,minor,Stall
+IB4003,C,1644.593,1644.593,0.0,IB4003.C.dialog-act.s9553330.111,,,,,,,,,False,,0,minor,Fragment
+IB4003,A,1645.71,1650.08,4.37,IB4003.A.dialog-act.s9553330.315,A,C,0.0,1.117,True,False,0.0,[],True, Okay so this sets a bit the stage for uh for Gisella then.,13,task,Inform
+IB4003,A,1650.08,1652.92,2.84,IB4003.A.dialog-act.s9553330.316,A,A,0.0,0.0,False,False,0.0,[],False, Uh yeah we'll try to to find out.,8,task,Inform
+IB4003,A,1652.92,1660.13,7.21,IB4003.A.dialog-act.s9553330.317,A,A,0.0,0.0,False,False,0.0,[],False," Um, actually, yeah, maybe we should remind that quite a lot of professors at the at the school actually share their office with their assistant.",25,task,Inform
+IB4003,A,1660.13,1663.43,3.3,IB4003.A.dialog-act.s9553330.318,A,A,0.0,0.0,False,False,0.0,[],False, So b it looks like sort of an implicit tradition.,10,task,Inform
+IB4003,C,1662.95,1663.312,0.362,IB4003.C.dialog-act.s9553330.112,,,,,,,,,False, Um,1,minor,Fragment
+IB4003,A,1663.43,1665.883,2.453,IB4003.A.dialog-act.s9553330.319,C,A,-1.803,0.0,False,True,1.803,['IB4003.C.dialog-act.s9553330.110'],False, Maybe not to be followed.,5,task,Suggest
+IB4003,D,1663.7,1664.7,1.0,IB4003.D.dialog-act.s9553330.211,,,,,,,,,False," As Susan said, p",4,minor,Fragment
+IB4003,C,1664.08,1666.56,2.48,IB4003.C.dialog-act.s9553330.110,C,A,2.25,-1.803,True,False,0.0,[],False, Except for in every other faculty.,6,task,Inform
+IB4003,B,1666.8,1668.572,1.772,IB4003.B.dialog-act.s9553330.39,,,,,,,,,False,,0,minor,Fragment
+IB4003,A,1667.14,1668.544,1.404,IB4003.A.dialog-act.s9553330.320,,,,,,,,,False, Okay.,1,minor,Backchannel
+IB4003,D,1667.396,1668.5,1.104,IB4003.D.dialog-act.s9553330.212,,,,,,,,,False, Yeah?,1,other,Comment-About-Understanding
+IB4003,D,1668.5,1668.87,0.37,IB4003.D.dialog-act.s9553330.213,,,,,,,,,False, Is that so?,3,elicit,Elicit-Inform
+IB4003,C,1668.81,1670.1,1.29,IB4003.C.dialog-act.s9553330.113,C,C,0.0,2.25,False,False,0.0,[],False," Yes, it is so.",4,task,Inform
+IB4003,D,1669.93,1670.06,0.13,IB4003.D.dialog-act.s9553330.214,,,,,,,,,False, Oh.,1,minor,Backchannel
+IB4003,C,1670.1,1682.99,12.89,IB4003.C.dialog-act.s9553330.114,C,C,0.0,0.0,False,False,0.0,[],False," Every other faculty as far as I have seen their offices and the people that I know and that's in um in law, uh socio-economics, uh okay?",27,task,Inform
+IB4003,A,1674.96,1675.31,0.35,IB4003.A.dialog-act.s9553330.321,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1679.68,1679.84,0.16,IB4003.D.dialog-act.s9553330.215,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,D,1681.76,1682.13,0.37,IB4003.D.dialog-act.s9553330.216,,,,,,,,,False, Okay.,1,minor,Backchannel
+IB4003,C,1682.99,1685.69,2.7,IB4003.C.dialog-act.s9553330.115,C,C,0.0,0.0,False,False,0.0,[],False, It's a They all have their own office.,8,task,Inform
+IB4003,C,1685.69,1689.46,3.77,IB4003.C.dialog-act.s9553330.116,D,C,0.28,0.0,False,False,0.0,[],False, I mean in in the in the law faculty they're at best there half time.,15,task,Inform
+IB4003,D,1686.48,1687.06,0.58,IB4003.D.dialog-act.s9553330.218,,,,,,,,,False," No no, that's it.",4,minor,Fragment
+IB4003,D,1689.74,1692.08,2.34,IB4003.D.dialog-act.s9553330.219,D,C,0.0,0.28,True,False,0.0,[],True," As we said, it's it's really a matter of personal preference,",11,task,Inform
+IB4003,A,1690.33,1690.93,0.6,IB4003.A.dialog-act.s9553330.322,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1692.08,1693.23,1.15,IB4003.D.dialog-act.s9553330.220,D,D,0.0,0.0,False,False,0.0,[],False, it cannot be something else.,5,task,Inform
+IB4003,D,1693.23,1694.66,1.43,IB4003.D.dialog-act.s9553330.221,A,D,1.73,0.0,False,False,0.0,[],False, It cannot be imposed for sure.,6,task,Inform
+IB4003,A,1693.35,1693.53,0.18,IB4003.A.dialog-act.s9553330.323,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,D,1694.66,1695.024,0.364,IB4003.D.dialog-act.s9553330.222,,,,,,,,,False, It's uh,2,minor,Fragment
+IB4003,A,1696.39,1701.98,5.59,IB4003.A.dialog-act.s9553330.324,A,D,3.35,1.73,True,False,0.0,[],True," Um, okay so I think Well, this sets a bit uh the stage.",13,task,Inform
+IB4003,A,1701.98,1705.33,3.35,IB4003.A.dialog-act.s9553330.325,,,,,,,,,False, Uh could we try So could you try please to uh,11,minor,Fragment
+IB4003,A,1705.33,1707.85,2.52,IB4003.A.dialog-act.s9553330.326,A,A,0.0,3.35,False,False,0.0,[],False, Do you want an extra uh piece of paper?,9,elicit,Elicit-Inform
+IB4003,A,1707.85,1713.56,5.71,IB4003.A.dialog-act.s9553330.327,D,A,0.24,0.0,False,False,0.0,[],False," Maybe try to, well, think on your own and then talk a little bit just to the people around you.",20,task,Suggest
+IB4003,D,1708.342,1708.88,0.538,IB4003.D.dialog-act.s9553330.223,,,,,,,,,False, job.,1,minor,Fragment
+IB4003,D,1713.8,1720.17,6.37,IB4003.D.dialog-act.s9553330.224,D,A,0.0,0.24,True,False,0.0,[],True," Again uh uh um, Andre, I think that the only realistic way we can do is to speak for our for ourselves.",22,task,Inform
+IB4003,D,1720.17,1727.72,7.55,IB4003.D.dialog-act.s9553330.225,D,D,0.0,0.0,False,False,0.0,[],False," I can tell you according to what I know now where I would like or would be ready to be,",20,task,Inform
+IB4003,A,1720.95,1721.39,0.44,IB4003.A.dialog-act.s9553330.328,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1727.72,1735.84,8.12,IB4003.D.dialog-act.s9553330.226,A,D,-1.58,0.0,False,True,1.58,"['IB4003.A.dialog-act.s9553330.330', 'IB4003.C.dialog-act.s9553330.117']",False," but I really don't see how I could decide for uh Maggie or Pierrette or whoever else on the list, that they should be there.",25,task,Inform
+IB4003,A,1733.01,1734.26,1.25,IB4003.A.dialog-act.s9553330.329,,,,,,,,,False, Yeah.,1,minor,Stall
+IB4003,A,1734.26,1739.568,5.308,IB4003.A.dialog-act.s9553330.330,C,D,-4.988,-1.58,True,True,2.238,"['IB4003.C.dialog-act.s9553330.117', 'IB4003.D.dialog-act.s9553330.227']",False," No the point was to try to, well, just talk to them, to David, or",15,task,Inform
+IB4003,C,1734.58,1735.45,0.87,IB4003.C.dialog-act.s9553330.117,D,A,1.88,-4.988,True,False,0.0,[],False, We're gonna have to.,4,task,Inform
+IB4003,D,1737.33,1741.65,4.32,IB4003.D.dialog-act.s9553330.227,D,C,1.1,1.88,True,False,0.0,[],True," Yeah, b why why couldn't we do like couldn't we do it like for for the the set-up of meetings.",20,task,Suggest
+IB4003,D,1741.65,1742.75,1.1,IB4003.D.dialog-act.s9553330.228,,,,,,,,,False, You you,2,minor,Fragment
+IB4003,D,1742.75,1747.73,4.98,IB4003.D.dialog-act.s9553330.229,D,D,0.0,1.1,False,False,0.0,[],False," everyone received that and uh should provide Yeah, I would like to be here.",14,task,Inform
+IB4003,A,1745.86,1746.99,1.13,IB4003.A.dialog-act.s9553330.332,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,C,1747.024,1756.381,9.357,IB4003.C.dialog-act.s9553330.118,,,,,,,,,False,,0,minor,Fragment
+IB4003,D,1747.73,1751.28,3.55,IB4003.D.dialog-act.s9553330.230,D,D,0.0,0.0,False,False,0.0,[],False, And then you will have this multi-constraint problem,8,task,Inform
+IB4003,A,1748.16,1749.433,1.273,IB4003.A.dialog-act.s9553330.331,,,,,,,,,False,,0,minor,Fragment
+IB4003,D,1751.28,1755.26,3.98,IB4003.D.dialog-act.s9553330.231,A,D,-1.9,0.0,False,True,1.9,['IB4003.A.dialog-act.s9553330.334'],False, and uh you work during two hours and you come up with the optimal solution.,15,task,Inform
+IB4003,A,1752.37,1753.36,0.99,IB4003.A.dialog-act.s9553330.333,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,A,1753.36,1759.44,6.08,IB4003.A.dialog-act.s9553330.334,D,D,-2.81,-1.9,True,True,2.29,"['IB4003.D.dialog-act.s9553330.233', 'IB4003.D.dialog-act.s9553330.234']",False, So w w w will you ask people just for their place or also for the other people's place?,19,elicit,Elicit-Inform
+IB4003,D,1756.39,1756.63,0.24,IB4003.D.dialog-act.s9553330.232,,,,,,,,,False," Yeah,",1,task,Inform
+IB4003,D,1756.63,1758.92,2.29,IB4003.D.dialog-act.s9553330.233,D,A,0.0,-2.81,True,False,0.0,[],False, I would I would ask for their place.,8,task,Inform
+IB4003,D,1758.92,1761.32,2.4,IB4003.D.dialog-act.s9553330.234,B,D,0.46,0.0,False,False,0.0,[],False, I mean that's that's that's the important thing you want to know.,12,task,Inform
+IB4003,A,1759.44,1760.22,0.78,IB4003.A.dialog-act.s9553330.336,,,,,,,,,False, Because,1,minor,Fragment
+IB4003,C,1759.451,1762.965,3.514,IB4003.C.dialog-act.s9553330.119,,,,,,,,,False,,0,minor,Fragment
+IB4003,A,1760.22,1760.64,0.42,IB4003.A.dialog-act.s9553330.337,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+IB4003,B,1761.78,1763.76,1.98,IB4003.B.dialog-act.s9553330.40,B,D,0.0,0.46,True,False,0.0,[],True, W what abou what about the the the cafeteria?,9,elicit,Elicit-Inform
+IB4003,A,1761.78,1762.724,0.944,IB4003.A.dialog-act.s9553330.335,,,,,,,,,False," Well, but that's",3,minor,Fragment
+IB4003,B,1763.76,1768.76,5.0,IB4003.B.dialog-act.s9553330.41,D,B,-1.39,0.0,False,True,0.72,['IB4003.D.dialog-act.s9553330.235'],False," I mean, we are going to purchase a cafeteria with a projector and all this altogether or",17,task,Inform
+IB4003,D,1767.37,1768.09,0.72,IB4003.D.dialog-act.s9553330.235,D,B,1.52,-1.39,True,False,0.0,[],False, Uh it's a reading room.,5,task,Inform
+IB4003,B,1768.76,1769.5,0.74,IB4003.B.dialog-act.s9553330.42,,,,,,,,,False," Reading room, yeah.",3,task,Assess
+IB4003,B,1769.5,1770.21,0.71,IB4003.B.dialog-act.s9553330.43,,,,,,,,,False, It's altogether.,2,task,Inform
+IB4003,D,1769.61,1771.18,1.57,IB4003.D.dialog-act.s9553330.236,D,D,1.13,1.52,False,False,0.0,[],False," Reading room, it's not a cafeteria.",6,task,Inform
+IB4003,B,1771.81,1773.104,1.294,IB4003.B.dialog-act.s9553330.44,,,,,,,,,False, So in the living room,5,minor,Fragment
+IB4003,D,1772.31,1773.36,1.05,IB4003.D.dialog-act.s9553330.237,D,D,0.0,1.13,False,False,0.0,[],False, But that that's an open question,6,task,Inform
+IB4003,D,1773.36,1775.29,1.93,IB4003.D.dialog-act.s9553330.238,D,D,0.0,0.0,False,False,0.0,[],False, whether it's a it's a it's a it,8,task,Inform
+IB4003,D,1775.29,1782.43,7.14,IB4003.D.dialog-act.s9553330.239,D,D,0.0,0.0,False,False,0.0,[],False," At the origin it was supposed to be a f pure reading room for relaxing, uh reading the newspapers, et cetera, et cetera.",23,task,Inform
+IB4003,A,1781.84,1782.1,0.26,IB4003.A.dialog-act.s9553330.338,,,,,,,,,False, Mm-hmm.,1,task,Assess
+IB4003,D,1782.43,1784.79,2.36,IB4003.D.dialog-act.s9553330.240,D,D,0.0,0.0,False,False,0.0,[],False, Uh there has been a very long discussion about that.,10,task,Inform
+IB4003,D,1784.79,1795.88,11.09,IB4003.D.dialog-act.s9553330.241,D,D,0.0,0.0,False,False,0.0,[],False," I stinct uh this discussion is still vivid, that some of the people, I bel belong to these people, would like to have a mixed room where you can have a reading room for sure, but also meeting room if necessary.",41,task,Inform
+IB4003,D,1795.88,1805.64,9.76,IB4003.D.dialog-act.s9553330.242,D,D,0.0,0.0,False,False,0.0,[],False," Or, as uh Susan said, a room an emergency room where you can put uh some visitors in a decent environment for for for for work,",26,task,Inform
+IB4003,A,1804.13,1804.51,0.38,IB4003.A.dialog-act.s9553330.339,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,D,1805.64,1807.44,1.8,IB4003.D.dialog-act.s9553330.243,D,D,0.0,0.0,False,False,0.0,[],False, because you don't have any other place to do it.,10,task,Inform
+IB4003,D,1807.44,1809.27,1.83,IB4003.D.dialog-act.s9553330.244,D,D,0.0,0.0,False,False,0.0,[],False, But that's that's really an open discussion,7,task,Inform
+IB4003,D,1809.27,1814.38,5.11,IB4003.D.dialog-act.s9553330.245,A,D,-0.14,0.0,False,True,0.14,['IB4003.A.dialog-act.s9553330.342'],False," and that d I think no decision, no final decision has been taken about that.",15,task,Inform
+IB4003,A,1810.53,1810.78,0.25,IB4003.A.dialog-act.s9553330.340,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,A,1812.604,1814.24,1.636,IB4003.A.dialog-act.s9553330.341,,,,,,,,,False," Okay, th then",3,minor,Stall
+IB4003,A,1814.24,1819.24,5.0,IB4003.A.dialog-act.s9553330.342,A,D,0.0,-0.14,True,False,0.0,[],False," Okay then for the next time, um try to come up either with your own preferences,",16,task,Suggest
+IB4003,A,1819.24,1822.8,3.56,IB4003.A.dialog-act.s9553330.343,A,A,0.0,0.0,False,False,0.0,[],False," that's quite easy probably to state now that you know the constraints,",12,task,Assess
+IB4003,D,1819.26,1819.52,0.26,IB4003.D.dialog-act.s9553330.246,,,,,,,,,False, Yes.,1,minor,Backchannel
+IB4003,D,1822.7,1823.16,0.46,IB4003.D.dialog-act.s9553330.247,,,,,,,,,False, Yes.,1,minor,Backchannel
+IB4003,A,1822.8,1825.78,2.98,IB4003.A.dialog-act.s9553330.344,D,A,1.086,0.0,False,False,0.0,[],False," or if you can poll a little bit the people around you,",12,task,Suggest
+IB4003,A,1825.78,1828.212,2.432,IB4003.A.dialog-act.s9553330.345,,,,,,,,,False," that would be I mean, even",6,minor,Fragment
+IB4003,D,1826.866,1830.176,3.31,IB4003.D.dialog-act.s9553330.248,A,A,-0.056,1.086,True,True,0.056,['IB4003.A.dialog-act.s9553330.346'],True, The one that I don't want to have in the next room?,12,task,Suggest
+IB4003,A,1830.12,1831.32,1.2,IB4003.A.dialog-act.s9553330.346,A,D,1.39,-0.056,True,False,0.0,[],False," Well, just discuss i Yeah,",5,task,Inform
+IB4003,D,1831.28,1832.132,0.852,IB4003.D.dialog-act.s9553330.249,,,,,,,,,False,,0,minor,Fragment
+IB4003,A,1831.32,1832.45,1.13,IB4003.A.dialog-act.s9553330.347,,,,,,,,,False," for instance, I mean",4,minor,Fragment
+IB4003,A,1832.45,1832.71,0.26,IB4003.A.dialog-act.s9553330.348,,,,,,,,,False," No, no,",2,task,Assess
+IB4003,A,1832.71,1836.69,3.98,IB4003.A.dialog-act.s9553330.349,A,A,0.0,1.39,False,False,0.0,[],False, I was thinking just ask people around you what they think about this.,13,task,Suggest
+IB4003,D,1834.6,1834.89,0.29,IB4003.D.dialog-act.s9553330.250,,,,,,,,,False, Okay.,1,minor,Backchannel
+IB4003,A,1836.69,1841.01,4.32,IB4003.A.dialog-act.s9553330.350,A,A,0.0,0.0,False,False,0.0,[],False," And I think, yeah, it will be nice to to come with maybe a sketch of of these.",18,task,Suggest
+IB4003,A,1841.01,1842.82,1.81,IB4003.A.dialog-act.s9553330.351,A,A,0.0,0.0,False,False,0.0,[],False," If you can do slides, it's even better,",8,task,Suggest
+IB4003,A,1842.82,1844.94,2.12,IB4003.A.dialog-act.s9553330.352,A,A,0.0,0.0,False,False,0.0,[],False, but uh don't be that formal.,6,task,Suggest
+IB4003,A,1844.94,1849.4,4.46,IB4003.A.dialog-act.s9553330.353,A,A,0.0,0.0,False,False,0.0,[],False," And uh we'll try to at least build up one coherent proposal,",12,task,Inform
+IB4003,A,1849.4,1854.25,4.85,IB4003.A.dialog-act.s9553330.354,C,A,0.72,0.0,False,False,0.0,[],False, and we'll merge it with the other one when the other one uh is available.,15,task,Inform
+IB4003,D,1853.84,1854.13,0.29,IB4003.D.dialog-act.s9553330.251,,,,,,,,,False, Okay.,1,minor,Backchannel
+IB4003,C,1854.52,1854.97,0.45,IB4003.C.dialog-act.s9553330.120,,,,,,,,,False," Okay,",1,minor,Backchannel
+IB4003,C,1854.97,1860.73,5.76,IB4003.C.dialog-act.s9553330.121,D,A,-3.05,0.72,True,True,1.04,"['IB4003.D.dialog-act.s9553330.252', 'IB4003.D.dialog-act.s9553330.253']",True, I'll ask um uh Maggie and Pierrette uh if they have uh any preferences.,14,other,Offer
+IB4003,A,1855.3,1858.2,2.9,IB4003.A.dialog-act.s9553330.355,,,,,,,,,False, Um.,1,minor,Backchannel
+IB4003,D,1857.68,1858.72,1.04,IB4003.D.dialog-act.s9553330.252,D,C,0.0,-3.05,True,False,0.0,[],False, That would be great.,4,task,Assess
+IB4003,A,1858.2,1858.9,0.7,IB4003.A.dialog-act.s9553330.356,,,,,,,,,False," Oh, great.",2,task,Assess
+IB4003,D,1858.72,1859.75,1.03,IB4003.D.dialog-act.s9553330.253,D,D,1.33,0.0,False,False,0.0,[],False, That would be great.,4,task,Assess
+IB4003,A,1860.14,1861.54,1.4,IB4003.A.dialog-act.s9553330.357,,,,,,,,,False, Mm-hmm. Perfect.,2,task,Assess
+IB4003,D,1861.08,1867.85,6.77,IB4003.D.dialog-act.s9553330.254,C,D,-0.59,1.33,False,True,0.59,['IB4003.C.dialog-act.s9553330.124'],False, C that that of course is one of the main well not main but one of the important features that we need to know about.,25,task,Inform
+IB4003,C,1862.53,1862.72,0.19,IB4003.C.dialog-act.s9553330.122,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,A,1864.56,1864.81,0.25,IB4003.A.dialog-act.s9553330.358,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IB4003,C,1865.77,1865.95,0.18,IB4003.C.dialog-act.s9553330.123,,,,,,,,,False, No.,1,minor,Backchannel
+IB4003,C,1867.26,1872.29,5.03,IB4003.C.dialog-act.s9553330.124,B,D,-0.54,-0.59,True,True,0.54,['IB4003.B.dialog-act.s9553330.45'],False," Yeah, since they're not at the meeting I think it's in out of courtesy we should first ask them.",19,task,Inform
+IB4003,D,1868.86,1869.26,0.4,IB4003.D.dialog-act.s9553330.256,,,,,,,,,False, Yes.,1,minor,Backchannel
+IB4003,A,1870.18,1871.44,1.26,IB4003.A.dialog-act.s9553330.359,,,,,,,,,False, And I'll try to,4,minor,Fragment
+IB4003,D,1871.24,1871.72,0.48,IB4003.D.dialog-act.s9553330.255,,,,,,,,,False, Yes.,1,minor,Backchannel
+IB4003,B,1871.75,1876.08,4.33,IB4003.B.dialog-act.s9553330.45,D,C,0.51,-0.54,True,False,0.0,[],False," Bu I ju just before finishing uh, I mean, we have a cafeteria or we don't eat at all?",19,elicit,Elicit-Inform
+IB4003,A,1872.51,1872.73,0.22,IB4003.A.dialog-act.s9553330.360,,,,,,,,,False, Fine.,1,minor,Backchannel
+IB4003,D,1876.59,1877.99,1.4,IB4003.D.dialog-act.s9553330.257,A,B,-0.96,0.51,True,True,0.96,['IB4003.A.dialog-act.s9553330.361'],True, We don't have cafeteria.,4,task,Inform
+IB4003,A,1877.03,1879.32,2.29,IB4003.A.dialog-act.s9553330.361,C,D,-1.16,-0.96,True,True,0.9,"['IB4003.C.dialog-act.s9553330.125', 'IB4003.B.dialog-act.s9553330.46']",False, What do you mean by cafeteria exactly?,7,elicit,Elicit-Inform
+IB4003,C,1878.16,1879.06,0.9,IB4003.C.dialog-act.s9553330.125,B,A,-0.16,-1.16,True,True,0.16,['IB4003.B.dialog-act.s9553330.46'],False, He means reading room.,4,task,Inform
+IB4003,B,1878.9,1882.03,3.13,IB4003.B.dialog-act.s9553330.46,D,C,0.66,-0.16,True,False,0.0,[],False, A place n what mm uh we can take a coffee also.,12,task,Inform
+IB4003,A,1880.81,1881.123,0.313,IB4003.A.dialog-act.s9553330.362,,,,,,,,,False, What,1,minor,Fragment
+IB4003,D,1882.69,1884.33,1.64,IB4003.D.dialog-act.s9553330.258,A,B,0.7,0.66,True,False,0.0,[],True," No, there is no coffee in the reading room.",9,task,Inform
+IB4003,B,1884.58,1884.71,0.13,IB4003.B.dialog-act.s9553330.47,,,,,,,,,False, No?,1,other,Comment-About-Understanding
+IB4003,A,1885.03,1887.83,2.8,IB4003.A.dialog-act.s9553330.363,D,D,-2.02,0.7,True,True,2.02,['IB4003.D.dialog-act.s9553330.260'],True," Yeah, w we can bring your coffee in the reading room,",11,task,Inform
+IB4003,D,1885.21,1885.81,0.6,IB4003.D.dialog-act.s9553330.259,,,,,,,,,False, That was the wrong,4,minor,Fragment
+IB4003,D,1885.81,1890.244,4.434,IB4003.D.dialog-act.s9553330.260,A,A,-0.574,-2.02,True,True,0.574,['IB4003.A.dialog-act.s9553330.365'],False," We we did not have any money for buying the coffee machines, so",13,task,Inform
+IB4003,A,1887.83,1888.333,0.503,IB4003.A.dialog-act.s9553330.364,,,,,,,,,False, but,1,minor,Fragment
+IB4003,A,1889.67,1897.98,8.31,IB4003.A.dialog-act.s9553330.365,A,D,0.0,-0.574,True,False,0.0,[],False," So so since maybe, you're a part-time here, and part-ti part-time at E_P_F_L_, there are at least two um coffee machines in the building,",24,task,Inform
+IB4003,B,1890.907,1891.351,0.444,IB4003.B.dialog-act.s9553330.51,,,,,,,,,False,,0,minor,Fragment
+IB4003,A,1897.98,1899.16,1.18,IB4003.A.dialog-act.s9553330.366,A,A,0.0,0.0,False,False,0.0,[],False," one at the third floor,",5,task,Inform
+IB4003,A,1899.16,1900.55,1.39,IB4003.A.dialog-act.s9553330.367,B,A,-0.19,0.0,False,True,0.19,['IB4003.B.dialog-act.s9553330.48'],False, one at the first floor.,5,task,Inform
+IB4003,B,1900.36,1902.44,2.08,IB4003.B.dialog-act.s9553330.48,A,A,-1.89,-0.19,True,True,1.76,"['IB4003.A.dialog-act.s9553330.368', 'IB4003.A.dialog-act.s9553330.369']",False, But they close at five or?,6,elicit,Elicit-Inform
+IB4003,A,1900.55,1902.31,1.76,IB4003.A.dialog-act.s9553330.368,A,B,0.0,-1.89,True,False,0.0,[],False, And we can bring our coffee.,6,task,Inform
+IB4003,A,1902.31,1904.92,2.61,IB4003.A.dialog-act.s9553330.369,C,A,1.1,0.0,False,False,0.0,[],False, No uh automatic uh coffee machines.,6,task,Inform
+IB4003,B,1902.44,1903.45,1.01,IB4003.B.dialog-act.s9553330.49,,,,,,,,,False, Ah okay.,2,other,Comment-About-Understanding
+IB4003,C,1903.18,1904.06,0.88,IB4003.C.dialog-act.s9553330.126,,,,,,,,,False, No. Coffee machines.,3,task,Inform
+IB4003,B,1904.32,1904.96,0.64,IB4003.B.dialog-act.s9553330.50,,,,,,,,,False," Okay, okay.",2,minor,Backchannel
+IB4003,A,1904.92,1907.744,2.824,IB4003.A.dialog-act.s9553330.370,,,,,,,,,False," So uh yeah. But, in",5,minor,Fragment
+IB4003,C,1906.02,1908.42,2.4,IB4003.C.dialog-act.s9553330.127,C,A,0.0,1.1,True,False,0.0,[],True," No, there's the cafeteria is downstairs,",6,task,Inform
+IB4003,B,1908.05,1909.04,0.99,IB4003.B.dialog-act.s9553330.53,,,,,,,,,False," Yeah, yeah, this.",3,other,Unlabelled
+IB4003,C,1908.42,1910.15,1.73,IB4003.C.dialog-act.s9553330.128,B,C,0.03,0.0,False,False,0.0,[],False, but they close at five.,5,task,Inform
+IB4003,A,1908.79,1908.9,0.11,IB4003.A.dialog-act.s9553330.371,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+IB4003,D,1910.04,1910.52,0.48,IB4003.D.dialog-act.s9553330.261,,,,,,,,,False, Five.,1,task,Inform
+IB4003,B,1910.18,1913.051,2.871,IB4003.B.dialog-act.s9553330.52,C,C,-1.081,0.03,True,True,1.081,['IB4003.C.dialog-act.s9553330.130'],True, Ah that's the main problem.,5,task,Assess
+IB4003,C,1911.35,1911.97,0.62,IB4003.C.dialog-act.s9553330.129,,,,,,,,,False," Yeah,",1,task,Assess
+IB4003,A,1911.88,1912.17,0.29,IB4003.A.dialog-act.s9553330.372,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,C,1911.97,1913.26,1.29,IB4003.C.dialog-act.s9553330.130,C,B,0.0,-1.081,True,False,0.0,[],False," but there's the two machines,",5,task,Inform
+IB4003,C,1913.26,1916.5,3.24,IB4003.C.dialog-act.s9553330.131,D,C,0.69,0.0,False,False,0.0,[],False, and they're uh the vending machines where you just put the money,12,task,Inform
+IB4003,B,1913.813,1914.235,0.422,IB4003.B.dialog-act.s9553330.54,,,,,,,,,False,,0,minor,Fragment
+IB4003,A,1915.76,1917.21,1.45,IB4003.A.dialog-act.s9553330.373,,,,,,,,,False," Yeah, vending machines.",3,task,Assess
+IB4003,C,1916.5,1918.06,1.56,IB4003.C.dialog-act.s9553330.132,,,,,,,,,False, and and you can get,5,minor,Fragment
+IB4003,D,1917.19,1919.31,2.12,IB4003.D.dialog-act.s9553330.262,A,C,0.37,0.69,True,False,0.0,[],True, And you can bring your coffee in the reading room.,10,task,Inform
+IB4003,A,1917.21,1919.68,2.47,IB4003.A.dialog-act.s9553330.374,,,,,,,,,False, Mm-hmm. Okay.,2,minor,Backchannel
+IB4003,B,1917.29,1917.57,0.28,IB4003.B.dialog-act.s9553330.55,,,,,,,,,False, Okay.,1,minor,Backchannel
+IB4003,C,1918.06,1919.63,1.57,IB4003.C.dialog-act.s9553330.133,,,,,,,,,False, Yeah. Yeah.,2,minor,Backchannel
+IB4003,A,1919.68,1922.05,2.37,IB4003.A.dialog-act.s9553330.375,A,D,0.0,0.37,True,False,0.0,[],True," Yeah, maybe this is not a very bad timing.",9,task,Inform
+IB4003,A,1922.05,1926.8,4.75,IB4003.A.dialog-act.s9553330.376,D,A,-4.28,0.0,False,True,1.859,['IB4003.D.dialog-act.s9553330.263'],False, Could we try to meet uh next Tuesday?,8,task,Suggest
+IB4003,D,1922.52,1924.379,1.859,IB4003.D.dialog-act.s9553330.263,A,A,2.421,-4.28,True,False,0.0,[],False, T to try the coffee?,5,other,Be-Positive
+IB4003,C,1926.65,1926.81,0.16,IB4003.C.dialog-act.s9553330.134,,,,,,,,,False, Wait.,1,task,Suggest
+IB4003,A,1926.8,1930.12,3.32,IB4003.A.dialog-act.s9553330.377,A,D,0.0,2.421,True,False,0.0,[],True," Um, next Tuesday maybe at t maybe a bit later?",10,task,Suggest
+IB4003,A,1930.12,1931.75,1.63,IB4003.A.dialog-act.s9553330.378,D,A,-0.79,0.0,False,True,0.79,['IB4003.D.dialog-act.s9553330.264'],False, Maybe at eleven o'clock?,4,task,Suggest
+IB4003,D,1930.96,1931.83,0.87,IB4003.D.dialog-act.s9553330.264,A,A,2.77,-0.79,True,False,0.0,[],False," Wait, wai wai wai wait.",5,task,Suggest
+IB4003,C,1931.7,1932.34,0.64,IB4003.C.dialog-act.s9553330.135,,,,,,,,,False," Wait, wait.",2,task,Suggest
+IB4003,D,1931.83,1932.6,0.77,IB4003.D.dialog-act.s9553330.265,,,,,,,,,False, Next Tuesday.,2,other,Other
+IB4003,C,1932.34,1933.616,1.276,IB4003.C.dialog-act.s9553330.136,,,,,,,,,False, Tuesday um,2,other,Other
+IB4003,A,1934.6,1936.11,1.51,IB4003.A.dialog-act.s9553330.379,D,D,2.33,2.77,True,False,0.0,[],True," Come on, try try to be nice.",7,task,Suggest
+IB4003,B,1936.208,1937.488,1.28,IB4003.B.dialog-act.s9553330.57,,,,,,,,,False,,0,minor,Fragment
+IB4003,D,1936.44,1938.44,2.0,IB4003.D.dialog-act.s9553330.267,,,,,,,,,False," Uh, well well well well,",5,minor,Backchannel
+IB4003,D,1938.44,1939.31,0.87,IB4003.D.dialog-act.s9553330.266,A,A,-0.81,2.33,True,True,0.81,"['IB4003.A.dialog-act.s9553330.380', 'IB4003.B.dialog-act.s9553330.56']",True," not so easy, eh?",4,task,Assess
+IB4003,A,1938.5,1940.52,2.02,IB4003.A.dialog-act.s9553330.380,B,D,-1.63,-0.81,True,True,1.63,['IB4003.B.dialog-act.s9553330.56'],False, Gi give me a reasonable date.,6,elicit,Elicit-Offer-Or-Suggestion
+IB4003,B,1938.89,1942.58,3.69,IB4003.B.dialog-act.s9553330.56,C,A,-1.932,-1.63,True,True,1.932,['IB4003.C.dialog-act.s9553330.138'],False," Yes, I ha I have no constraints, so it's fine.",10,task,Inform
+IB4003,C,1940.42,1940.52,0.1,IB4003.C.dialog-act.s9553330.137,,,,,,,,,False, Ch,1,minor,Fragment
+IB4003,C,1940.648,1945.8,5.152,IB4003.C.dialog-act.s9553330.138,A,B,-3.19,-1.932,True,True,1.73,['IB4003.A.dialog-act.s9553330.381'],False," Um we have the don't forget we have the other meeting the M_D_M_ meeting in the morning,",17,task,Inform
+IB4003,A,1942.61,1944.34,1.73,IB4003.A.dialog-act.s9553330.381,C,C,1.46,-3.19,True,False,0.0,[],False," Yeah, for me it's a good timing.",7,task,Inform
+IB4003,C,1945.8,1947.35,1.55,IB4003.C.dialog-act.s9553330.139,D,A,0.97,1.46,True,False,0.0,[],True, so it would have to be in the afternoon.,9,task,Suggest
+IB4003,A,1947.72,1948.95,1.23,IB4003.A.dialog-act.s9553330.382,,,,,,,,,False," Uh-huh, okay.",2,task,Assess
+IB4003,D,1948.32,1950.16,1.84,IB4003.D.dialog-act.s9553330.268,D,C,1.43,0.97,True,False,0.0,[],True," Next Tuesday we have a meeting, yeah.",7,task,Inform
+IB4003,C,1949.36,1950.32,0.96,IB4003.C.dialog-act.s9553330.140,,,,,,,,,False, Yeah. Exactly.,2,task,Assess
+IB4003,D,1950.16,1951.59,1.43,IB4003.D.dialog-act.s9553330.269,,,,,,,,,False, That might be,3,minor,Fragment
+IB4003,D,1951.59,1952.31,0.72,IB4003.D.dialog-act.s9553330.270,C,D,4.98,1.43,False,False,0.0,[],False, Where is the meeting?,4,elicit,Elicit-Inform
+IB4003,D,1952.31,1953.52,1.21,IB4003.D.dialog-act.s9553330.271,,,,,,,,,False, It's Unimail?,2,elicit,Elicit-Inform
+IB4003,C,1953.89,1953.98,0.09,IB4003.C.dialog-act.s9553330.141,,,,,,,,,False, Yeah.,1,task,Inform
+IB4003,D,1954.99,1957.637,2.647,IB4003.D.dialog-act.s9553330.272,,,,,,,,,False," Okay, so, yeah yeah, then it could be that",9,minor,Fragment
+IB4003,C,1956.76,1957.29,0.53,IB4003.C.dialog-act.s9553330.142,,,,,,,,,False," At nine thirty,",3,task,Inform
+IB4003,C,1957.29,1959.66,2.37,IB4003.C.dialog-act.s9553330.143,D,D,-0.56,4.98,True,True,0.56,['IB4003.D.dialog-act.s9553330.274'],True, but we could do we could have this meeting then in the afternoon.,13,task,Suggest
+IB4003,D,1958.04,1959.1,1.06,IB4003.D.dialog-act.s9553330.273,,,,,,,,,False, That yeah.,2,task,Assess
+IB4003,D,1959.1,1960.33,1.23,IB4003.D.dialog-act.s9553330.274,D,C,0.0,-0.56,True,False,0.0,[],False," That that would be great,",5,task,Assess
+IB4003,A,1959.65,1960.26,0.61,IB4003.A.dialog-act.s9553330.384,,,,,,,,,False, Okay.,1,minor,Backchannel
+IB4003,C,1959.66,1960.29,0.63,IB4003.C.dialog-act.s9553330.144,,,,,,,,,False, Nah?,1,minor,Backchannel
+IB4003,D,1960.33,1964.61,4.28,IB4003.D.dialog-act.s9553330.275,C,D,-0.7,0.0,False,True,0.7,"['IB4003.C.dialog-act.s9553330.145', 'IB4003.A.dialog-act.s9553330.386']",False," because that would allow us not to move, or not to travel twice.",13,task,Inform
+IB4003,A,1961.36,1961.6,0.24,IB4003.A.dialog-act.s9553330.385,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IB4003,A,1963.23,1964.11,0.88,IB4003.A.dialog-act.s9553330.383,,,,,,,,,False, Very well.,2,task,Assess
+IB4003,C,1963.91,1967.66,3.75,IB4003.C.dialog-act.s9553330.145,A,D,-3.55,-0.7,True,True,1.28,"['IB4003.A.dialog-act.s9553330.386', 'IB4003.A.dialog-act.s9553330.387', 'IB4003.D.dialog-act.s9553330.276', 'IB4003.A.dialog-act.s9553330.389']",False, Yep. Okay. Yeah. Okay.,4,task,Assess
+IB4003,A,1964.11,1965.28,1.17,IB4003.A.dialog-act.s9553330.386,A,C,0.0,-3.55,True,False,0.0,[],False, So about two o'clock?,4,task,Suggest
+IB4003,A,1965.28,1966.2,0.92,IB4003.A.dialog-act.s9553330.387,D,A,0.18,0.0,False,False,0.0,[],False, Would that be okay?,4,elicit,Elicit-Assessment
+IB4003,A,1966.2,1967.26,1.06,IB4003.A.dialog-act.s9553330.388,,,,,,,,,False, After lunch.,2,task,Inform
+IB4003,D,1966.38,1969.41,3.03,IB4003.D.dialog-act.s9553330.276,A,A,-2.15,0.18,True,True,2.15,['IB4003.A.dialog-act.s9553330.389'],True," Yeah, after lunch. Right. Yep. Okay.",6,task,Assess
+IB4003,A,1967.26,1970.59,3.33,IB4003.A.dialog-act.s9553330.389,A,D,0.84,-2.15,True,False,0.0,[],False," It's not a very demanding meeting, so um",8,task,Inform
+IB4003,A,1970.59,1971.43,0.84,IB4003.A.dialog-act.s9553330.390,,,,,,,,,False, Perfect.,1,task,Assess
+IB4003,A,1971.43,1975.4,3.97,IB4003.A.dialog-act.s9553330.391,A,A,1.672,0.84,False,False,0.0,[],False," Um, then let me close this.",6,other,Offer
+IB4003,A,1977.072,1982.432,5.36,IB4003.A.dialog-act.s9553330.392,,A,,1.672,False,False,0.0,[],False, And uh good luck for your arrangement games.,8,other,Be-Positive
+IB4003,D,1981.59,1981.83,0.24,IB4003.D.dialog-act.s9553330.277,,,,,,,,,False, Thank you.,2,other,Be-Positive
+IB4003,C,1983.352,1984.166,0.814,IB4003.C.dialog-act.s9553330.146,,,,,,,,,False,,0,minor,Fragment

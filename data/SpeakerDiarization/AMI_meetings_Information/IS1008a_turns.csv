@@ -1,0 +1,264 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+IS1008a,C,34.29,34.77,0.48,IS1008a.C.dialog-act.s9553330.1,,,,,,,,,False, Oops,1,other,Other
+IS1008a,C,38.76,40.62,1.86,IS1008a.C.dialog-act.s9553330.2,A,,9.29,,True,False,0.0,[],False, That's as far as it goes.,6,task,Inform
+IS1008a,A,49.14,49.91,0.77,IS1008a.A.dialog-act.s9553330.1,,,,,,,,,False, Hi guys,2,other,Be-Positive
+IS1008a,A,49.91,51.58,1.67,IS1008a.A.dialog-act.s9553330.2,A,C,1.5,9.29,True,False,0.0,[],True, uh good morning everybody here.,5,other,Be-Positive
+IS1008a,A,53.08,55.18,2.1,IS1008a.A.dialog-act.s9553330.3,A,A,0.0,1.5,False,False,0.0,[],False," And uh I want to introduce myself,",7,other,Offer
+IS1008a,A,55.18,57.56,2.38,IS1008a.A.dialog-act.s9553330.4,A,A,0.0,0.0,False,False,0.0,[],False, uh my name is uh Shrida Daseri,7,task,Inform
+IS1008a,A,57.56,62.78,5.22,IS1008a.A.dialog-act.s9553330.5,A,A,0.96,0.0,False,False,0.0,[],False, and uh I'm a project manager for this new project which we are going to discuss now.,17,task,Inform
+IS1008a,A,63.74,68.49,4.75,IS1008a.A.dialog-act.s9553330.6,A,A,3.18,0.96,False,False,0.0,[],False, So I want to introduce first of all uh the names and the colleagues here.,15,task,Suggest
+IS1008a,A,71.67,73.29,1.62,IS1008a.A.dialog-act.s9553330.7,B,A,1.05,3.18,False,False,0.0,[],False, And what you're uh drawing?,5,task,Suggest
+IS1008a,B,72.56,74.34,1.78,IS1008a.B.dialog-act.s9553330.1,,,,,,,,,False, Uh sure,2,task,Assess
+IS1008a,B,74.34,75.46,1.12,IS1008a.B.dialog-act.s9553330.2,B,A,0.0,1.05,True,False,0.0,[],True, my name is Agnes,4,task,Inform
+IS1008a,B,75.46,80.25,4.79,IS1008a.B.dialog-act.s9553330.3,D,B,5.238,0.0,False,False,0.0,[],False, and I'm an user usability user interface designer.,8,task,Inform
+IS1008a,D,85.488,86.43,0.942,IS1008a.D.dialog-act.s9553330.1,D,B,0.0,5.238,True,False,0.0,[],True, My name is Ed,4,task,Inform
+IS1008a,D,86.43,87.42,0.99,IS1008a.D.dialog-act.s9553330.2,A,D,1.02,0.0,False,False,0.0,[],False, and I do accounting.,4,task,Inform
+IS1008a,A,88.44,89.97,1.53,IS1008a.A.dialog-act.s9553330.8,C,D,5.49,1.02,True,False,0.0,[],True, Uh how you spell your name uh?,7,elicit,Elicit-Inform
+IS1008a,D,89.97,90.42,0.45,IS1008a.D.dialog-act.s9553330.3,,,,,,,,,False, E_D_.,1,task,Inform
+IS1008a,A,90.63,91.42,0.79,IS1008a.A.dialog-act.s9553330.9,,,,,,,,,False, E_D_ okay.,2,other,Comment-About-Understanding
+IS1008a,D,91.63,91.75,0.12,IS1008a.D.dialog-act.s9553330.4,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1008a,A,93.27,93.63,0.36,IS1008a.A.dialog-act.s9553330.10,,,,,,,,,False, And?,1,task,Suggest
+IS1008a,C,95.46,96.53,1.07,IS1008a.C.dialog-act.s9553330.3,C,A,8.65,5.49,True,False,0.0,[],True, Do you also do marketing?,5,elicit,Elicit-Inform
+IS1008a,D,96.679,98.6,1.921,IS1008a.D.dialog-act.s9553330.5,,,,,,,,,False, No.,1,task,Inform
+IS1008a,A,99.28,100.34,1.06,IS1008a.A.dialog-act.s9553330.11,,,,,,,,,False, So only accounting?,3,elicit,Elicit-Inform
+IS1008a,D,100.86,101.69,0.83,IS1008a.D.dialog-act.s9553330.6,,,,,,,,,False," Accounting, yes.",2,task,Inform
+IS1008a,A,101.31,101.65,0.34,IS1008a.A.dialog-act.s9553330.12,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1008a,A,102.84,103.16,0.32,IS1008a.A.dialog-act.s9553330.13,,,,,,,,,False, And?,1,task,Suggest
+IS1008a,C,103.41,105.18,1.77,IS1008a.C.dialog-act.s9553330.4,,,,,,,,,False," And I'm Christine,",3,task,Inform
+IS1008a,A,104.64,104.97,0.33,IS1008a.A.dialog-act.s9553330.14,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,C,105.18,109.34,4.16,IS1008a.C.dialog-act.s9553330.5,C,C,2.25,8.65,False,False,0.0,[],False, and my role in this uh scenario is to be the industrial designer.,13,task,Inform
+IS1008a,A,109.84,110.77,0.93,IS1008a.A.dialog-act.s9553330.15,,,,,,,,,False, Industrial designer.,2,other,Comment-About-Understanding
+IS1008a,C,111.59,112.49,0.9,IS1008a.C.dialog-act.s9553330.6,A,C,3.18,2.25,False,False,0.0,[],False, But I'm not really one.,5,task,Inform
+IS1008a,A,115.67,117.86,2.19,IS1008a.A.dialog-act.s9553330.16,D,C,-0.62,3.18,True,True,0.62,['IS1008a.D.dialog-act.s9553330.7'],True," So who is uh marketing, nobody in the market",9,elicit,Elicit-Inform
+IS1008a,D,117.24,120.7,3.46,IS1008a.D.dialog-act.s9553330.7,A,A,0.86,-0.62,True,False,0.0,[],False," Marketing is uh, is me.",5,task,Inform
+IS1008a,A,119.14,120.06,0.92,IS1008a.A.dialog-act.s9553330.17,,,,,,,,,False," It's you, okay.",3,task,Assess
+IS1008a,A,121.56,125.41,3.85,IS1008a.A.dialog-act.s9553330.19,A,D,0.0,0.86,True,False,0.0,[],True," So thanks for coming for the meeting first of all,",10,other,Be-Positive
+IS1008a,A,125.41,134.27,8.86,IS1008a.A.dialog-act.s9553330.20,A,A,0.85,0.0,False,False,0.0,[],False," and uh we have a long time, just twenty-five minutes to discuss about uh this project and the the project initiation.",21,task,Inform
+IS1008a,A,135.12,143.915,8.795,IS1008a.A.dialog-act.s9553330.21,D,A,-0.881,0.85,False,True,0.881,['IS1008a.D.dialog-act.s9553330.8'],False, First of all I want to ask uh Mister Ed about your uh marketing plan and your product plan and uh,21,task,Suggest
+IS1008a,D,143.034,151.18,8.146,IS1008a.D.dialog-act.s9553330.8,D,A,0.8,-0.881,True,False,0.0,[],False, Well I think that we'll see that throughout the day in how we're going to put this together as a marketing to to market the product.,26,task,Inform
+IS1008a,D,151.98,156.09,4.11,IS1008a.D.dialog-act.s9553330.9,A,D,1.06,0.8,False,False,0.0,[],False, We'll have to see on a through discussion on where we're gonna go from here and from with this.,19,task,Suggest
+IS1008a,A,156.23,157.15,0.92,IS1008a.A.dialog-act.s9553330.22,,,,,,,,,False, Mm-hmm,1,other,Comment-About-Understanding
+IS1008a,A,157.15,162.008,4.858,IS1008a.A.dialog-act.s9553330.23,D,D,-1.625,1.06,True,True,1.625,['IS1008a.D.dialog-act.s9553330.11'],True, but uh do you already have like a functional design or a technical design or,15,elicit,Elicit-Inform
+IS1008a,D,160.383,162.78,2.397,IS1008a.D.dialog-act.s9553330.11,A,A,0.46,-1.625,True,False,0.0,[],False, Uh for the moment not yet.,6,task,Inform
+IS1008a,A,163.24,165.14,1.9,IS1008a.A.dialog-act.s9553330.24,A,D,1.71,0.46,True,False,0.0,[],True," Oh for the moment not yet, okay,",7,task,Assess
+IS1008a,A,165.14,166.85,1.71,IS1008a.A.dialog-act.s9553330.25,,,,,,,,,False, but uh what's what's your uh,6,minor,Fragment
+IS1008a,A,166.85,170.368,3.518,IS1008a.A.dialog-act.s9553330.26,D,A,3.732,1.71,False,False,0.0,[],False," do you have some project plan, something with you or",10,elicit,Elicit-Inform
+IS1008a,D,168.912,173.02,4.108,IS1008a.D.dialog-act.s9553330.12,,,,,,,,,False, Good question.,2,task,Assess
+IS1008a,D,173.93,174.1,0.17,IS1008a.D.dialog-act.s9553330.13,,,,,,,,,False," No,",1,task,Inform
+IS1008a,D,174.1,177.47,3.37,IS1008a.D.dialog-act.s9553330.14,D,A,0.0,3.732,True,False,0.0,[],True, this is like I said that we have to be discussed between all of us and we'll go from there.,20,task,Inform
+IS1008a,D,177.47,179.9,2.43,IS1008a.D.dialog-act.s9553330.15,A,D,0.98,0.0,False,False,0.0,[],False, We'll have to simply we'll have to work on it together.,11,task,Inform
+IS1008a,A,178.28,178.64,0.36,IS1008a.A.dialog-act.s9553330.27,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,A,180.11,180.88,0.77,IS1008a.A.dialog-act.s9553330.28,,,,,,,,,False," Okay,",1,other,Comment-About-Understanding
+IS1008a,A,180.88,187.77,6.89,IS1008a.A.dialog-act.s9553330.29,D,D,0.65,0.98,True,False,0.0,[],True," so uh by when you think you can uh give me some kind of uh project plan, okay,",18,elicit,Elicit-Inform
+IS1008a,A,187.77,188.848,1.078,IS1008a.A.dialog-act.s9553330.30,,,,,,,,,False, a discussion with uh,4,minor,Fragment
+IS1008a,D,188.42,189.74,1.32,IS1008a.D.dialog-act.s9553330.16,A,A,0.12,0.65,True,False,0.0,[],True, Certainly by the next meeting.,5,task,Inform
+IS1008a,A,189.86,191.87,2.01,IS1008a.A.dialog-act.s9553330.31,A,D,8.94,0.12,True,False,0.0,[],True," By next meeting, okay that will be great.",8,task,Assess
+IS1008a,A,197.58,200.81,3.23,IS1008a.A.dialog-act.s9553330.32,,,,,,,,,False," Uh Okay,",2,minor,Stall
+IS1008a,A,200.81,206.33,5.52,IS1008a.A.dialog-act.s9553330.33,C,A,0.63,8.94,False,False,0.0,[],False, so there's any questions or uh first of all about uh this project?,13,elicit,Elicit-Inform
+IS1008a,C,206.96,208.37,1.41,IS1008a.C.dialog-act.s9553330.7,A,A,1.17,0.63,True,False,0.0,[],True, What is the goal of the project?,7,elicit,Elicit-Inform
+IS1008a,A,209.54,214.04,4.5,IS1008a.A.dialog-act.s9553330.34,A,C,0.0,1.17,True,False,0.0,[],True," Uh the goal of the project I think maybe I'll uh hand out to the Ed, okay,",17,task,Suggest
+IS1008a,D,213.6,217.136,3.536,IS1008a.D.dialog-act.s9553330.17,,,,,,,,,False,,0,minor,Fragment
+IS1008a,A,214.04,218.69,4.65,IS1008a.A.dialog-act.s9553330.35,D,A,-0.45,0.0,False,True,0.45,['IS1008a.D.dialog-act.s9553330.18'],False, so to explain uh what is the project because he's in the sales and the accounting.,16,task,Suggest
+IS1008a,C,214.848,215.848,1.0,IS1008a.C.dialog-act.s9553330.8,,,,,,,,,False,,0,minor,Fragment
+IS1008a,D,218.24,221.7,3.46,IS1008a.D.dialog-act.s9553330.18,D,A,0.0,-0.45,True,False,0.0,[],False, I'm in the sales I'm supposed to explain them what to do.,12,task,Assess
+IS1008a,D,221.7,224.672,2.972,IS1008a.D.dialog-act.s9553330.19,A,D,3.368,0.0,False,False,0.0,[],False," We have to define exactly what our product is, from uh",11,task,Inform
+IS1008a,A,227.65,228.04,0.39,IS1008a.A.dialog-act.s9553330.36,,,,,,,,,False," Yes,",1,task,Assess
+IS1008a,A,228.04,231.36,3.32,IS1008a.A.dialog-act.s9553330.37,D,D,0.56,3.368,True,False,0.0,[],True, so can you explain uh what exactly the product is?,10,task,Suggest
+IS1008a,D,231.92,235.88,3.96,IS1008a.D.dialog-act.s9553330.20,A,A,2.39,0.56,True,False,0.0,[],True," From what I had in mind we're supposed to be marketing coffee,",12,task,Inform
+IS1008a,D,235.88,236.53,0.65,IS1008a.D.dialog-act.s9553330.21,,,,,,,,,False, is that right?,3,elicit,Elicit-Assessment
+IS1008a,A,238.27,241.92,3.65,IS1008a.A.dialog-act.s9553330.38,D,D,0.88,2.39,True,False,0.0,[],True," Oh I think uh, if I'm not wrong, we're making the remote control.",13,task,Inform
+IS1008a,B,238.65,239.456,0.806,IS1008a.B.dialog-act.s9553330.4,,,,,,,,,False, Um I was wondering,4,minor,Fragment
+IS1008a,D,241.99,242.8,0.81,IS1008a.D.dialog-act.s9553330.22,,,,,,,,,False," Remote controls,",2,other,Comment-About-Understanding
+IS1008a,D,242.8,244.26,1.46,IS1008a.D.dialog-act.s9553330.23,D,A,0.0,0.88,True,False,0.0,[],True, 'cause I had two different things.,6,task,Inform
+IS1008a,D,244.26,249.44,5.18,IS1008a.D.dialog-act.s9553330.24,D,D,0.0,0.0,False,False,0.0,[],False," I had a first part of mine was to make a remote control for a new f remote control for television,",21,task,Inform
+IS1008a,D,249.44,254.24,4.8,IS1008a.D.dialog-act.s9553330.25,D,D,0.0,0.0,False,False,0.0,[],False, and afterward I had a discussion about coffee so,9,task,Inform
+IS1008a,A,252.368,254.31,1.942,IS1008a.A.dialog-act.s9553330.39,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008a,D,254.24,256.33,2.09,IS1008a.D.dialog-act.s9553330.26,D,D,1.74,0.0,False,False,0.0,[],False, we'll start with the remote control for television then.,9,task,Suggest
+IS1008a,D,258.07,260.67,2.6,IS1008a.D.dialog-act.s9553330.27,D,D,0.83,1.74,False,False,0.0,[],False, So we're have to design something that is very user friendly.,11,task,Inform
+IS1008a,A,261.19,261.44,0.25,IS1008a.A.dialog-act.s9553330.40,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,B,261.23,261.62,0.39,IS1008a.B.dialog-act.s9553330.5,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,D,261.5,269.95,8.45,IS1008a.D.dialog-act.s9553330.28,D,D,0.0,0.83,False,False,0.0,[],False," Something uh visual that has something that will will draw people to buy the product,",15,task,Inform
+IS1008a,A,268.76,269.68,0.92,IS1008a.A.dialog-act.s9553330.41,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,D,269.95,272.85,2.9,IS1008a.D.dialog-act.s9553330.29,D,D,0.0,0.0,False,False,0.0,[],False," because I think everybody's experienced with uh remote controls,",9,task,Inform
+IS1008a,D,272.85,276.24,3.39,IS1008a.D.dialog-act.s9553330.30,D,D,4.9,0.0,False,False,0.0,[],False, and some remote controls are are worth uh throwing out the window.,12,task,Inform
+IS1008a,D,278.14,280.9,2.76,IS1008a.D.dialog-act.s9553330.31,,,,,,,,,False, Uh th most of them ar,6,minor,Fragment
+IS1008a,D,280.9,281.14,0.24,IS1008a.D.dialog-act.s9553330.32,,,,,,,,,False, I don't know,3,minor,Stall
+IS1008a,D,281.14,287.03,5.89,IS1008a.D.dialog-act.s9553330.33,D,D,0.0,4.9,False,False,0.0,[],False," we're have to come up with a new idea on how to make it a lot easier to use,",19,task,Inform
+IS1008a,A,286.53,286.85,0.32,IS1008a.A.dialog-act.s9553330.42,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,D,287.03,292.49,5.46,IS1008a.D.dialog-act.s9553330.34,A,D,3.83,0.0,False,False,0.0,[],False, 'cause a lot of times uh spend uh half a day through the instruction book trying to figure out how to use it.,23,task,Inform
+IS1008a,A,292.76,293.06,0.3,IS1008a.A.dialog-act.s9553330.43,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,B,293.3,293.54,0.24,IS1008a.B.dialog-act.s9553330.6,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1008a,A,294.28,296.32,2.04,IS1008a.A.dialog-act.s9553330.44,,,,,,,,,False, And uh what abo uh,5,minor,Fragment
+IS1008a,A,296.32,299.82,3.5,IS1008a.A.dialog-act.s9553330.45,A,D,0.76,3.83,True,False,0.0,[],True," Christine, what about your uh the industrial design plan?",9,elicit,Elicit-Offer-Or-Suggestion
+IS1008a,A,300.58,305.99,5.41,IS1008a.A.dialog-act.s9553330.46,C,A,1.51,0.76,False,False,0.0,[],False, Are you have a design already on this product or uh you're still working on the design?,17,elicit,Elicit-Inform
+IS1008a,C,307.5,312.33,4.83,IS1008a.C.dialog-act.s9553330.9,C,A,2.71,1.51,True,False,0.0,[],True," Um no, I I have not begun working on the design,",11,task,Inform
+IS1008a,A,311.44,311.77,0.33,IS1008a.A.dialog-act.s9553330.47,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,C,312.33,315.04,2.71,IS1008a.C.dialog-act.s9553330.10,,,,,,,,,False, and um I uh,4,minor,Stall
+IS1008a,C,315.04,318.0,2.96,IS1008a.C.dialog-act.s9553330.11,C,C,0.0,2.71,False,False,0.0,[],False," I actually didn't know we were designing a remote control,",10,task,Inform
+IS1008a,C,318.0,321.19,3.19,IS1008a.C.dialog-act.s9553330.12,C,C,0.0,0.0,False,False,0.0,[],False, I thought we were designing a new monitor.,8,task,Inform
+IS1008a,C,321.19,333.85,12.66,IS1008a.C.dialog-act.s9553330.13,C,C,0.0,0.0,False,False,0.0,[],False," Um the website I went to look at had some announcements about an introduction of a um uh some sort of a seven inch um monitor,",26,task,Inform
+IS1008a,C,333.85,338.08,4.23,IS1008a.C.dialog-act.s9553330.14,C,C,0.31,0.0,False,False,0.0,[],False, and um I understood that that was the project goal.,10,task,Inform
+IS1008a,C,338.39,342.77,4.38,IS1008a.C.dialog-act.s9553330.15,C,C,0.0,0.31,False,False,0.0,[],False, So um I'm glad I didn't d do any work um ahead of time,14,task,Inform
+IS1008a,C,342.77,345.77,3.0,IS1008a.C.dialog-act.s9553330.16,C,C,0.78,0.0,False,False,0.0,[],False, because uh I clearly didn't understand the project goal.,9,task,Inform
+IS1008a,A,345.98,346.35,0.37,IS1008a.A.dialog-act.s9553330.48,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1008a,C,346.55,351.18,4.63,IS1008a.C.dialog-act.s9553330.17,C,C,0.0,0.78,False,False,0.0,[],False, Um I just did s see that we were starting a new project together,14,task,Inform
+IS1008a,C,351.18,354.78,3.6,IS1008a.C.dialog-act.s9553330.18,C,C,0.0,0.0,False,False,0.0,[],False," and there was going to be a four member team composed of these people,",14,task,Inform
+IS1008a,C,354.78,358.72,3.94,IS1008a.C.dialog-act.s9553330.19,C,C,0.0,0.0,False,False,0.0,[],False, and um that's about uh that's,6,task,Inform
+IS1008a,A,358.4,358.71,0.31,IS1008a.A.dialog-act.s9553330.49,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,C,358.72,363.58,4.86,IS1008a.C.dialog-act.s9553330.20,A,C,0.18,0.0,False,False,0.0,[],False," and I I read through the different steps, and what my responsibilities were relative to the steps.",17,task,Inform
+IS1008a,A,363.76,369.65,5.89,IS1008a.A.dialog-act.s9553330.50,C,C,-1.06,0.18,True,True,1.06,['IS1008a.C.dialog-act.s9553330.21'],True," So uh you'll be leading the team for your design team or how many members is working in the team, for the design?",23,elicit,Elicit-Inform
+IS1008a,C,368.59,371.48,2.89,IS1008a.C.dialog-act.s9553330.21,C,A,0.7,-1.06,True,False,0.0,[],False, Uh for the industrial design?,5,elicit,Elicit-Inform
+IS1008a,A,371.2,371.49,0.29,IS1008a.A.dialog-act.s9553330.51,,,,,,,,,False, Yes.,1,task,Inform
+IS1008a,C,372.18,375.81,3.63,IS1008a.C.dialog-act.s9553330.22,C,C,1.93,0.7,False,False,0.0,[],False," Um well, I would th think that depends on how much money you give us.",15,task,Inform
+IS1008a,D,375.984,377.408,1.424,IS1008a.D.dialog-act.s9553330.35,,,,,,,,,False,,0,minor,Fragment
+IS1008a,A,376.23,376.53,0.3,IS1008a.A.dialog-act.s9553330.52,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1008a,A,377.53,378.51,0.98,IS1008a.A.dialog-act.s9553330.53,,,,,,,,,False, That's,1,minor,Fragment
+IS1008a,C,377.74,386.46,8.72,IS1008a.C.dialog-act.s9553330.23,A,C,-0.24,1.93,False,True,0.24,['IS1008a.A.dialog-act.s9553330.54'],False," Um because uh, you know, you can uh you can make it uh you have different choices with different financial models.",21,task,Inform
+IS1008a,A,386.22,394.94,8.72,IS1008a.A.dialog-act.s9553330.54,A,C,0.0,-0.24,True,False,0.0,[],False," Yeah, but uh before we talk about uh the finance, okay, uh do you have some idea how we can uh sell this product or project in the market",29,elicit,Elicit-Offer-Or-Suggestion
+IS1008a,A,394.94,399.67,4.73,IS1008a.A.dialog-act.s9553330.55,C,A,4.83,0.0,False,False,0.0,[],False, and how much is going to benefit to the company and uh of course it's to the individual also.,19,elicit,Elicit-Offer-Or-Suggestion
+IS1008a,C,401.536,404.5,2.964,IS1008a.C.dialog-act.s9553330.24,,,,,,,,,False," Well, you know um,",4,minor,Stall
+IS1008a,C,404.5,423.78,19.28,IS1008a.C.dialog-act.s9553330.25,C,A,3.88,4.83,True,False,0.0,[],True," I kind of think that in general you have to do uh um y you have to have something that's very fashionable, that's uh very attractive that um people see and recognize uh its goal, and uh they immediately wanna have it uh have one of their own.",48,task,Suggest
+IS1008a,C,423.78,427.66,3.88,IS1008a.C.dialog-act.s9553330.26,,,,,,,,,False, So it would really would need to um,8,minor,Fragment
+IS1008a,C,427.66,431.58,3.92,IS1008a.C.dialog-act.s9553330.27,C,C,2.76,3.88,False,False,0.0,[],False," something like the iPod would be good, seems to have caught on fairly well,",14,task,Suggest
+IS1008a,C,431.58,434.34,2.76,IS1008a.C.dialog-act.s9553330.28,,,,,,,,,False, so um d uh,4,minor,Stall
+IS1008a,A,431.87,432.03,0.16,IS1008a.A.dialog-act.s9553330.56,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,C,434.34,436.47,2.13,IS1008a.C.dialog-act.s9553330.29,A,C,1.72,2.76,False,False,0.0,[],False," you know, I don't care what it does, just so it looks cool.",13,task,Inform
+IS1008a,A,436.88,438.19,1.31,IS1008a.A.dialog-act.s9553330.57,,,,,,,,,False," Okay,",1,minor,Stall
+IS1008a,A,438.19,446.4,8.21,IS1008a.A.dialog-act.s9553330.58,C,C,-0.2,1.72,True,True,0.2,['IS1008a.C.dialog-act.s9553330.30'],True, but uh uh when you think you can give me like a kind of design on the functional design or the technical design?,23,elicit,Elicit-Inform
+IS1008a,C,446.2,451.65,5.45,IS1008a.C.dialog-act.s9553330.30,C,A,0.0,-0.2,True,False,0.0,[],False," Well, uh I've got a lot of other projects I'm doing right now um",14,task,Inform
+IS1008a,C,451.65,455.39,3.74,IS1008a.C.dialog-act.s9553330.31,C,C,0.0,0.0,False,False,0.0,[],False, and so I'll have to wait and see how those uh how those go.,14,task,Inform
+IS1008a,C,455.39,458.77,3.38,IS1008a.C.dialog-act.s9553330.32,C,C,0.0,0.0,False,False,0.0,[],False, If they uh go quickly then uh it could be a month.,12,task,Inform
+IS1008a,C,458.77,463.71,4.94,IS1008a.C.dialog-act.s9553330.33,A,C,0.61,0.0,False,False,0.0,[],False, If um if I run into any problems in my other projects it might be six months.,17,task,Inform
+IS1008a,A,464.32,466.59,2.27,IS1008a.A.dialog-act.s9553330.59,A,C,0.0,0.61,True,False,0.0,[],True," Yeah, but uh I need something in the writing,",9,task,Inform
+IS1008a,A,466.59,482.28,15.69,IS1008a.A.dialog-act.s9553330.60,A,A,0.0,0.0,False,False,0.0,[],False," so like uh what's your functional design, what's your technical design, and uh how many people you need for this project, and what's the time frame you're looking, okay, and what is the budget, maybe uh initial budget you're looking, okay, and uh how is going to the market, okay,",50,task,Suggest
+IS1008a,C,473.23,473.52,0.29,IS1008a.C.dialog-act.s9553330.34,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,C,475.31,476.04,0.73,IS1008a.C.dialog-act.s9553330.35,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,A,482.28,488.6,6.32,IS1008a.A.dialog-act.s9553330.61,A,A,0.0,0.0,False,False,0.0,[],False," so you've you've had to meet with the marketing team and how they're going to market and what are the marketing strategic plan, okay,",24,task,Suggest
+IS1008a,A,488.6,494.84,6.24,IS1008a.A.dialog-act.s9553330.62,A,A,0.0,0.0,False,False,0.0,[],False," when are you going to introduce, okay, and by the time you introduce the product and uh you know there there would be a competition,",25,task,Suggest
+IS1008a,A,494.84,500.37,5.53,IS1008a.A.dialog-act.s9553330.63,C,A,0.816,0.0,False,False,0.0,[],False," okay, so I need some kind of uh uh the plan in the writing from you.",16,task,Inform
+IS1008a,C,501.186,503.22,2.034,IS1008a.C.dialog-act.s9553330.36,A,A,1.0,0.816,True,False,0.0,[],True, And when would you like that?,6,elicit,Elicit-Inform
+IS1008a,A,501.29,502.38,1.09,IS1008a.A.dialog-act.s9553330.64,,,,,,,,,False," Okay, and it's po",4,minor,Fragment
+IS1008a,A,504.22,505.25,1.03,IS1008a.A.dialog-act.s9553330.65,C,C,1.464,1.0,True,False,0.0,[],True, B as soon as possible.,5,task,Inform
+IS1008a,C,506.714,516.59,9.876,IS1008a.C.dialog-act.s9553330.37,A,A,0.63,1.464,True,False,0.0,[],True, Uh well if uh if we have enough time uh then d do you think um two weeks is a is close enough?,23,elicit,Elicit-Assessment
+IS1008a,A,517.22,518.53,1.31,IS1008a.A.dialog-act.s9553330.66,A,C,0.0,0.63,True,False,0.0,[],True," Yes I think uh that would be good,",8,task,Assess
+IS1008a,A,518.53,526.96,8.43,IS1008a.A.dialog-act.s9553330.67,A,A,0.0,0.0,False,False,0.0,[],False," because I need to go to the management and uh tell them what we are going to do, and uh what cost is, okay, and what's the time frame and what's the project plan,",34,task,Inform
+IS1008a,A,526.96,533.21,6.25,IS1008a.A.dialog-act.s9553330.68,A,A,0.32,0.0,False,False,0.0,[],False," because uh without any uh documentations, I cannot go to the management and say, so we are going to do this and we need this much money,",27,task,Inform
+IS1008a,A,533.53,541.32,7.79,IS1008a.A.dialog-act.s9553330.69,A,A,0.0,0.32,False,False,0.0,[],False," okay, so then it's it's difficult for me to say, okay, that's the reason I need uh some kind of plan from you, initially, okay,",25,task,Inform
+IS1008a,A,541.32,543.49,2.17,IS1008a.A.dialog-act.s9553330.70,C,A,1.67,0.0,False,False,0.0,[],False, then we can have the further discussion again.,8,task,Inform
+IS1008a,C,545.16,548.72,3.56,IS1008a.C.dialog-act.s9553330.38,A,A,1.24,1.67,True,False,0.0,[],True, Uh are there other people who will be contributing to the plan?,12,elicit,Elicit-Inform
+IS1008a,A,549.32,549.96,0.64,IS1008a.A.dialog-act.s9553330.71,,,,,,,,,False," Yes, of course,",3,task,Inform
+IS1008a,A,549.96,551.88,1.92,IS1008a.A.dialog-act.s9553330.72,A,C,0.26,1.24,True,False,0.0,[],True," if you need some help, uh so let me know.",10,task,Suggest
+IS1008a,A,552.14,563.09,10.95,IS1008a.A.dialog-act.s9553330.73,A,A,0.0,0.26,False,False,0.0,[],False," So, who are the people you need uh from the marketing or uh the technical side or uh the administration point of view, okay, to add in any documentation, or some technical point of view,",35,task,Suggest
+IS1008a,C,555.124,555.568,0.444,IS1008a.C.dialog-act.s9553330.39,,,,,,,,,False,,0,minor,Fragment
+IS1008a,A,563.09,565.7,2.61,IS1008a.A.dialog-act.s9553330.74,C,A,-0.08,0.0,False,True,0.08,['IS1008a.C.dialog-act.s9553330.40'],False, so just let me know so I can uh coordinate all the teams.,13,task,Suggest
+IS1008a,C,565.62,567.1,1.48,IS1008a.C.dialog-act.s9553330.40,A,A,1.84,-0.08,True,False,0.0,[],False," Okay, I'll get back to you on that.",8,task,Inform
+IS1008a,A,567.03,567.35,0.32,IS1008a.A.dialog-act.s9553330.75,,,,,,,,,False, Yes.,1,task,Assess
+IS1008a,A,567.35,567.66,0.31,IS1008a.A.dialog-act.s9553330.76,,,,,,,,,False, Thank you.,2,other,Be-Positive
+IS1008a,A,568.12,568.34,0.22,IS1008a.A.dialog-act.s9553330.77,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1008a,A,568.94,575.68,6.74,IS1008a.A.dialog-act.s9553330.78,A,C,0.0,1.84,True,False,0.0,[],True, And uh Ed uh so what's what do you think about uh this uh project for the remote control,19,elicit,Elicit-Assessment
+IS1008a,A,575.68,580.79,5.11,IS1008a.A.dialog-act.s9553330.79,D,A,0.39,0.0,False,False,0.0,[],False, and d do you have some already planned something for your marketing strategy or uh the sales strategy?,18,elicit,Elicit-Inform
+IS1008a,D,581.18,591.46,10.28,IS1008a.D.dialog-act.s9553330.36,D,A,0.0,0.39,True,False,0.0,[],True," Well not yet other than uh doing research and taking remote controls and looking what other companies have to do uh, what they're building, their designs, their ideas,",28,task,Inform
+IS1008a,A,582.678,582.993,0.315,IS1008a.A.dialog-act.s9553330.80,,,,,,,,,False,,0,minor,Fragment
+IS1008a,A,587.55,587.87,0.32,IS1008a.A.dialog-act.s9553330.82,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IS1008a,D,591.46,595.4,3.94,IS1008a.D.dialog-act.s9553330.37,D,D,0.0,0.0,False,False,0.0,[],False, uh also have to pinpoint which market we're gonna go into.,11,task,Inform
+IS1008a,A,591.771,592.238,0.467,IS1008a.A.dialog-act.s9553330.81,,,,,,,,,False,,0,minor,Fragment
+IS1008a,A,594.68,595.04,0.36,IS1008a.A.dialog-act.s9553330.83,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,D,595.4,601.28,5.88,IS1008a.D.dialog-act.s9553330.38,D,D,0.0,0.0,False,False,0.0,[],False," It should be a fairly large market because uh the number of people that uh the competition,",17,task,Inform
+IS1008a,A,600.19,600.67,0.48,IS1008a.A.dialog-act.s9553330.84,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,D,601.28,604.61,3.33,IS1008a.D.dialog-act.s9553330.39,D,D,0.0,0.0,False,False,0.0,[],False," uh th I agree it has to be something it has to be something new,",15,task,Assess
+IS1008a,D,604.61,608.99,4.38,IS1008a.D.dialog-act.s9553330.40,D,D,0.68,0.0,False,False,0.0,[],False," it has to be something that that draws people saying eh, I like this.",14,task,Inform
+IS1008a,D,609.67,613.54,3.87,IS1008a.D.dialog-act.s9553330.41,D,D,0.0,0.68,False,False,0.0,[],False," Whether it works or not, they have to first say I like this, I like the design,",17,task,Inform
+IS1008a,D,613.54,614.96,1.42,IS1008a.D.dialog-act.s9553330.42,A,D,0.2,0.0,False,False,0.0,[],False, and then it's gotta be simple to use.,8,task,Inform
+IS1008a,A,615.16,621.41,6.25,IS1008a.A.dialog-act.s9553330.85,A,D,0.0,0.2,True,False,0.0,[],True," Yes, so what I uh prefer maybe uh you need to interact uh more with the Christine, okay,",18,task,Suggest
+IS1008a,A,621.41,625.5,4.09,IS1008a.A.dialog-act.s9553330.86,A,A,0.0,0.0,False,False,0.0,[],False," because you know what she is going to do it, okay,",11,task,Inform
+IS1008a,A,625.5,628.31,2.81,IS1008a.A.dialog-act.s9553330.87,A,A,0.0,0.0,False,False,0.0,[],False," and you know how to sell it. Okay,",8,task,Inform
+IS1008a,A,628.31,630.63,2.32,IS1008a.A.dialog-act.s9553330.88,A,A,0.0,0.0,False,False,0.0,[],False," because uh she is doing the design,",7,task,Inform
+IS1008a,A,630.63,633.26,2.63,IS1008a.A.dialog-act.s9553330.89,A,A,0.0,0.0,False,False,0.0,[],False," but you are the core because you are in the marketing, okay,",12,task,Inform
+IS1008a,D,630.68,630.93,0.25,IS1008a.D.dialog-act.s9553330.43,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008a,A,633.26,638.75,5.49,IS1008a.A.dialog-act.s9553330.90,A,A,0.41,0.0,False,False,0.0,[],False," so because you need to sell and you're the responsible for the all the money, the finance, okay, tomorrow.",19,task,Inform
+IS1008a,D,637.86,638.15,0.29,IS1008a.D.dialog-act.s9553330.44,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,A,639.16,648.35,9.19,IS1008a.A.dialog-act.s9553330.91,A,A,0.0,0.41,False,False,0.0,[],False," So, what I prefer, okay, so you need to interact with the Christine more and uh within her team, okay, who is using the functional design or technical design, okay,",30,task,Suggest
+IS1008a,D,647.52,647.74,0.22,IS1008a.D.dialog-act.s9553330.45,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,A,648.35,654.91,6.56,IS1008a.A.dialog-act.s9553330.92,D,A,-0.25,0.0,False,True,0.25,['IS1008a.D.dialog-act.s9553330.46'],False," and uh you need to come up with some kind of plan, okay, how we are going to do the your sales plan, okay,",24,task,Suggest
+IS1008a,D,654.66,662.27,7.61,IS1008a.D.dialog-act.s9553330.46,D,A,0.0,-0.25,True,False,0.0,[],False," Do we already have a cost limit on this, th an idea of how much uh we want to market this for, how much it's gonna sell for,",28,elicit,Elicit-Inform
+IS1008a,A,654.91,655.03,0.12,IS1008a.A.dialog-act.s9553330.93,,,,,,,,,False, th,1,minor,Fragment
+IS1008a,A,659.7,661.92,2.22,IS1008a.A.dialog-act.s9553330.94,,,,,,,,,False, Th That that's,3,minor,Fragment
+IS1008a,D,662.27,664.931,2.661,IS1008a.D.dialog-act.s9553330.48,A,D,-0.951,0.0,False,True,0.951,['IS1008a.A.dialog-act.s9553330.95'],False," that's up that's up to us to decide, eh?",9,elicit,Elicit-Inform
+IS1008a,A,663.98,665.91,1.93,IS1008a.A.dialog-act.s9553330.95,A,D,0.0,-0.951,True,False,0.0,[],False," Yes, that's you have to decide, okay,",7,task,Inform
+IS1008a,A,665.91,673.58,7.67,IS1008a.A.dialog-act.s9553330.96,A,A,0.0,0.0,False,False,0.0,[],False," so the best thing is you uh both of uh the Christine and you discuss with yourself, okay, and come up with the cost,",24,task,Suggest
+IS1008a,A,673.58,681.81,8.23,IS1008a.A.dialog-act.s9553330.97,A,A,0.37,0.0,False,False,0.0,[],False," and how we are going to compete in the market, okay, in the the technically, or in the sales wise, okay, the commercial wise, okay.",25,task,Suggest
+IS1008a,A,682.18,690.22,8.04,IS1008a.A.dialog-act.s9553330.98,A,A,0.86,0.37,False,False,0.0,[],False," Then uh we have to design, okay, how long it will take the whole project, okay, how much is going to cost us, and how much we are going to benefit for the company.",34,task,Inform
+IS1008a,A,691.08,695.66,4.58,IS1008a.A.dialog-act.s9553330.99,A,A,0.87,0.86,False,False,0.0,[],False," Okay, of course it's it's uh of benefit for everybody individually.",11,task,Inform
+IS1008a,A,696.53,713.43,16.9,IS1008a.A.dialog-act.s9553330.100,A,A,1.67,0.87,False,False,0.0,[],False," Okay, so I think it's uh maybe if we can uh give me some kind of your uh the sales plan, okay, including the technical what uh she's going to talk to you within the team, okay, then it will help me to discuss with the management for further, okay, and put it in the the proper project plan.",59,task,Suggest
+IS1008a,D,714.903,715.79,0.887,IS1008a.D.dialog-act.s9553330.49,,,,,,,,,False, Very good.,2,task,Assess
+IS1008a,A,715.1,728.08,12.98,IS1008a.A.dialog-act.s9553330.101,A,A,0.77,1.67,False,False,0.0,[],False," Okay, and if you need uh any coordination in between uh compared to the maybe the some technical vendors or commercial vendors, okay, depends if you want to have some uh uh marketing plan or technical plan, okay, so you let me know.",43,task,Inform
+IS1008a,A,728.85,730.51,1.66,IS1008a.A.dialog-act.s9553330.102,A,A,0.0,0.77,False,False,0.0,[],False," Okay, I can coordinate,",4,task,Inform
+IS1008a,D,729.44,729.77,0.33,IS1008a.D.dialog-act.s9553330.50,,,,,,,,,False, Very good.,2,minor,Backchannel
+IS1008a,A,730.51,734.84,4.33,IS1008a.A.dialog-act.s9553330.103,B,A,2.57,0.0,False,False,0.0,[],False," or maybe uh, you are my coordinator, am I right?",10,elicit,Elicit-Inform
+IS1008a,B,735.27,735.9,0.63,IS1008a.B.dialog-act.s9553330.7,,,,,,,,,False, Mm.,1,minor,Stall
+IS1008a,A,735.92,737.93,2.01,IS1008a.A.dialog-act.s9553330.104,,,,,,,,,False, Between uh all the coor,5,minor,Fragment
+IS1008a,B,737.41,739.14,1.73,IS1008a.B.dialog-act.s9553330.8,B,A,0.0,2.57,True,False,0.0,[],True," Well, no, not exactly.",4,task,Inform
+IS1008a,B,739.14,751.15,12.01,IS1008a.B.dialog-act.s9553330.9,B,B,0.32,0.0,False,False,0.0,[],False," I mean my job from what I understood was to look at the usability requirements and make sure that the product is usable, it's acceptable to the people who are gonna use it and look at the best ways to do that.",42,task,Inform
+IS1008a,A,750.98,751.2,0.22,IS1008a.A.dialog-act.s9553330.105,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008a,B,751.47,761.4,9.93,IS1008a.B.dialog-act.s9553330.10,B,B,0.0,0.32,False,False,0.0,[],False," So I think I'll have to interact with Christine and discuss with her, so that she's not designing something that my studies will show right off the bat that it's not going to work,",34,other,Offer
+IS1008a,A,753.58,755.43,1.85,IS1008a.A.dialog-act.s9553330.106,,,,,,,,,False," Th Christine, yeah.",3,minor,Backchannel
+IS1008a,A,757.93,758.454,0.524,IS1008a.A.dialog-act.s9553330.107,,,,,,,,,False, Which is,2,minor,Fragment
+IS1008a,B,761.4,763.89,2.49,IS1008a.B.dialog-act.s9553330.11,B,B,0.0,0.0,False,False,0.0,[],False," and so it's sort of it's a loop that feeds in,",11,task,Inform
+IS1008a,B,763.89,772.22,8.33,IS1008a.B.dialog-act.s9553330.12,A,B,-0.71,0.0,False,True,0.71,['IS1008a.A.dialog-act.s9553330.109'],False, but I don't think necessarily that I'm in a coordinating position for it.,13,task,Inform
+IS1008a,A,768.96,769.34,0.38,IS1008a.A.dialog-act.s9553330.108,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008a,A,771.51,780.31,8.8,IS1008a.A.dialog-act.s9553330.109,B,B,0.37,-0.71,True,False,0.0,[],False," Yeah, so basically you need to interact with Christine more, okay, for the user acceptability, okay, and the testing, okay,",20,task,Inform
+IS1008a,B,777.88,778.1,0.22,IS1008a.B.dialog-act.s9553330.13,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008a,B,779.7,780.68,0.98,IS1008a.B.dialog-act.s9553330.14,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,A,780.31,781.021,0.711,IS1008a.A.dialog-act.s9553330.110,,,,,,,,,False, then you will,3,minor,Fragment
+IS1008a,B,780.68,782.31,1.63,IS1008a.B.dialog-act.s9553330.15,B,A,0.0,0.37,True,False,0.0,[],True," Which will also feed into the marketing,",7,task,Inform
+IS1008a,A,782.25,782.73,0.48,IS1008a.A.dialog-act.s9553330.111,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008a,B,782.31,791.63,9.32,IS1008a.B.dialog-act.s9553330.16,B,B,0.0,0.0,False,False,0.0,[],False," because depending on what users want, depends on how you sell it, what tag lines you attach to it, how you try to make it more attractive to users.",29,task,Inform
+IS1008a,A,785.9,786.24,0.34,IS1008a.A.dialog-act.s9553330.112,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008a,A,787.09,787.25,0.16,IS1008a.A.dialog-act.s9553330.113,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008a,A,788.97,789.27,0.3,IS1008a.A.dialog-act.s9553330.114,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008a,A,791.03,791.27,0.24,IS1008a.A.dialog-act.s9553330.115,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008a,B,791.63,796.98,5.35,IS1008a.B.dialog-act.s9553330.17,B,B,3.5,0.0,False,False,0.0,[],False, So I think all three groups will need to interact quite a bit.,13,task,Inform
+IS1008a,B,797.2,800.48,3.28,IS1008a.B.dialog-act.s9553330.18,,,,,,,,,False," Um, and then",3,minor,Stall
+IS1008a,B,800.48,802.66,2.18,IS1008a.B.dialog-act.s9553330.19,B,B,0.0,3.5,False,False,0.0,[],False," I guess build the plan based on all of that,",10,task,Suggest
+IS1008a,B,802.66,805.33,2.67,IS1008a.B.dialog-act.s9553330.20,A,B,0.46,0.0,False,False,0.0,[],False, because I think you need to take all the factors into account.,12,task,Inform
+IS1008a,A,805.18,805.52,0.34,IS1008a.A.dialog-act.s9553330.116,,,,,,,,,False, Yep.,1,minor,Backchannel
+IS1008a,A,805.79,813.97,8.18,IS1008a.A.dialog-act.s9553330.117,B,B,0.31,0.46,True,False,0.0,[],True," But what I request, okay, keep Ed in the loop, okay, in between your uh meeting and Christine meeting, because uh he should know what's happening.",26,task,Inform
+IS1008a,B,808.72,810.37,1.65,IS1008a.B.dialog-act.s9553330.21,,,,,,,,,False," Yeah, of course.",3,task,Assess
+IS1008a,B,814.28,818.17,3.89,IS1008a.B.dialog-act.s9553330.22,A,A,-2.34,0.31,True,True,2.34,['IS1008a.A.dialog-act.s9553330.119'],True," Yeah, we can C_C_ him on any discussions or documents that are passed around.",14,other,Offer
+IS1008a,A,815.11,815.49,0.38,IS1008a.A.dialog-act.s9553330.118,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008a,A,815.83,820.24,4.41,IS1008a.A.dialog-act.s9553330.119,A,B,0.0,-2.34,True,False,0.0,[],False," Okay and please please copy all the mails, okay, all the discussions to me, okay,",15,task,Suggest
+IS1008a,B,820.23,820.44,0.21,IS1008a.B.dialog-act.s9553330.23,,,,,,,,,False, Sure.,1,task,Assess
+IS1008a,A,820.24,821.99,1.75,IS1008a.A.dialog-act.s9553330.120,A,A,3.76,0.0,False,False,0.0,[],False, so I need to submit to the management.,8,task,Inform
+IS1008a,B,822.24,822.64,0.4,IS1008a.B.dialog-act.s9553330.24,,,,,,,,,False, No problem.,2,task,Assess
+IS1008a,A,825.75,827.98,2.23,IS1008a.A.dialog-act.s9553330.121,B,A,6.53,3.76,False,False,0.0,[],False, So any questions for uh time being?,7,elicit,Elicit-Inform
+IS1008a,C,830.142,830.882,0.74,IS1008a.C.dialog-act.s9553330.41,,,,,,,,,False,,0,minor,Fragment
+IS1008a,D,833.49,833.6,0.11,IS1008a.D.dialog-act.s9553330.51,,,,,,,,,False, No.,1,task,Inform
+IS1008a,B,834.51,840.39,5.88,IS1008a.B.dialog-act.s9553330.25,A,A,3.42,6.53,True,False,0.0,[],True," So, the immediate next step is to start determining the functional design, or",13,elicit,Elicit-Inform
+IS1008a,A,839.54,839.93,0.39,IS1008a.A.dialog-act.s9553330.122,,,,,,,,,False, Yes.,1,task,Inform
+IS1008a,B,840.39,840.7,0.31,IS1008a.B.dialog-act.s9553330.26,,,,,,,,,False, okay.,1,task,Assess
+IS1008a,A,841.59,841.85,0.26,IS1008a.A.dialog-act.s9553330.123,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1008a,A,843.81,848.91,5.1,IS1008a.A.dialog-act.s9553330.124,A,B,0.0,3.42,True,False,0.0,[],True," To come up with the functional design and uh to discuss with Ed, okay, and how it's going to be work,",21,task,Inform
+IS1008a,A,848.91,856.87,7.96,IS1008a.A.dialog-act.s9553330.125,A,A,0.0,0.0,False,False,0.0,[],False," and uh first of all with your user acceptance, okay, how it looks like and how it's going to be work in the market, okay,",25,task,Inform
+IS1008a,B,852.26,852.48,0.22,IS1008a.B.dialog-act.s9553330.27,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008a,A,856.87,859.74,2.87,IS1008a.A.dialog-act.s9553330.126,A,A,0.09,0.0,False,False,0.0,[],False, so then we can discuss about uh further things.,9,task,Inform
+IS1008a,B,859.6,859.86,0.26,IS1008a.B.dialog-act.s9553330.28,,,,,,,,,False, Okay.,1,task,Assess
+IS1008a,A,859.83,862.61,2.78,IS1008a.A.dialog-act.s9553330.127,C,A,4.37,0.09,False,False,0.0,[],False," So, we'll meet when the we'll discuss on the further meeting.",11,task,Inform
+IS1008a,A,864.74,865.08,0.34,IS1008a.A.dialog-act.s9553330.128,,,,,,,,,False, It's okay?,2,elicit,Elicit-Comment-Understanding
+IS1008a,B,865.66,865.76,0.1,IS1008a.B.dialog-act.s9553330.29,,,,,,,,,False, Mm-hmm.,1,other,Comment-About-Understanding
+IS1008a,A,866.15,866.81,0.66,IS1008a.A.dialog-act.s9553330.129,,,,,,,,,False, Thanks for coming.,3,other,Be-Positive
+IS1008a,C,866.98,872.04,5.06,IS1008a.C.dialog-act.s9553330.42,A,A,0.67,4.37,True,False,0.0,[],True, Would you mind um at the conclusion of our meeting could could you send us a copy of your slides?,20,elicit,Elicit-Offer-Or-Suggestion
+IS1008a,A,872.71,874.89,2.18,IS1008a.A.dialog-act.s9553330.130,B,C,-1.23,0.67,True,True,1.03,['IS1008a.B.dialog-act.s9553330.31'],True," Yes, I will. Yes.",4,other,Offer
+IS1008a,B,873.27,873.66,0.39,IS1008a.B.dialog-act.s9553330.30,,,,,,,,,False," Mm-hmm,",1,minor,Backchannel
+IS1008a,B,873.66,874.69,1.03,IS1008a.B.dialog-act.s9553330.31,A,A,2.17,-1.23,True,False,0.0,[],False," yeah, that would be useful.",5,task,Inform
+IS1008a,A,875.56,876.86,1.3,IS1008a.A.dialog-act.s9553330.131,,,,,,,,,False," I'll copy, uh",3,minor,Fragment
+IS1008a,A,876.86,884.77,7.91,IS1008a.A.dialog-act.s9553330.132,A,B,2.03,2.17,True,False,0.0,[],True," le let us keep all the emails and all the copies, okay, share each other, okay, so you know everybody what's happening, okay?",23,task,Suggest
+IS1008a,B,884.07,884.25,0.18,IS1008a.B.dialog-act.s9553330.32,,,,,,,,,False, Sure.,1,task,Assess
+IS1008a,A,886.8,894.2,7.4,IS1008a.A.dialog-act.s9553330.133,A,A,0.0,2.03,False,False,0.0,[],False," And if anything you need anytime so please either you can call me, or just send me email, or uh just come and uh knock my door, okay,",28,task,Suggest
+IS1008a,A,894.2,895.69,1.49,IS1008a.A.dialog-act.s9553330.134,A,A,2.04,0.0,False,False,0.0,[],False, so I'm available here.,4,task,Inform
+IS1008a,A,896.61,897.45,0.84,IS1008a.A.dialog-act.s9553330.135,,,,,,,,,False, It's good?,2,elicit,Elicit-Comment-Understanding
+IS1008a,B,897.3,897.51,0.21,IS1008a.B.dialog-act.s9553330.33,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+IS1008a,A,897.73,901.18,3.45,IS1008a.A.dialog-act.s9553330.136,A,A,0.71,2.04,False,False,0.0,[],False," Okay, thanks for coming and uh I wish you a nice time then.",13,other,Be-Positive
+IS1008a,C,898.15,898.54,0.39,IS1008a.C.dialog-act.s9553330.43,,,,,,,,,False, Thank you.,2,other,Be-Positive
+IS1008a,B,898.72,899.29,0.57,IS1008a.B.dialog-act.s9553330.35,,,,,,,,,False, Thanks.,1,other,Be-Positive
+IS1008a,B,901.54,901.8,0.26,IS1008a.B.dialog-act.s9553330.34,,,,,,,,,False, Thank you.,2,other,Be-Positive
+IS1008a,A,901.89,903.5,1.61,IS1008a.A.dialog-act.s9553330.137,,A,,0.71,False,False,0.0,[],False," Okay, see you later. Bye.",5,other,Be-Positive

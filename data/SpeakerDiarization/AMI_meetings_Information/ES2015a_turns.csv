@@ -1,0 +1,448 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+ES2015a,A,62.51,63.43,0.92,ES2015a.A.dialog-act.dharshi.1,A,,1.2,,True,False,0.0,[],False," Alright, that did nothing.",4,task,Inform
+ES2015a,A,63.43,64.63,1.2,ES2015a.A.dialog-act.dharshi.2,,,,,,,,,False, Okay.,1,task,Assess
+ES2015a,A,64.63,65.82,1.19,ES2015a.A.dialog-act.dharshi.3,A,A,2.07,1.2,False,False,0.0,[],False, Welcome to the meeting everyone.,5,other,Be-Positive
+ES2015a,A,67.89,70.02,2.13,ES2015a.A.dialog-act.dharshi.4,D,A,14.81,2.07,False,False,0.0,[],False, Just gonna attempt to make this into a slide show.,10,other,Offer
+ES2015a,A,83.27,84.37,1.1,ES2015a.A.dialog-act.dharshi.5,,,,,,,,,False, Sorry guys.,2,other,Be-Positive
+ES2015a,D,84.83,87.42,2.59,ES2015a.D.dialog-act.dharshi.1,A,A,6.15,14.81,True,False,0.0,[],True, You may have to do the function F_ eight thing.,10,task,Suggest
+ES2015a,A,86.81,88.15,1.34,ES2015a.A.dialog-act.dharshi.6,,,,,,,,,False, I did. Twice.,3,task,Inform
+ES2015a,D,87.42,89.822,2.402,ES2015a.D.dialog-act.dharshi.2,,,,,,,,,False," Oh, okay.",2,task,Assess
+ES2015a,A,93.57,97.168,3.598,ES2015a.A.dialog-act.dharshi.7,A,D,25.952,6.15,True,False,0.0,[],True, This'll just take a moment.,5,task,Inform
+ES2015a,C,94.143,96.363,2.22,ES2015a.C.dialog-act.dharshi.1,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,94.66,96.622,1.962,ES2015a.B.dialog-act.dharshi.1,,,,,,,,,False, Okay okay,2,task,Assess
+ES2015a,D,94.706,97.158,2.452,ES2015a.D.dialog-act.dharshi.3,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,102.17,102.8,0.63,ES2015a.A.dialog-act.dharshi.8,,,,,,,,,False, Or it won't.,3,task,Inform
+ES2015a,D,117.176,118.507,1.331,ES2015a.D.dialog-act.dharshi.4,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,123.12,126.43,3.31,ES2015a.A.dialog-act.dharshi.9,A,A,1.62,25.952,False,False,0.0,[],False, Okay we'll have to deal with it like this then.,10,task,Inform
+ES2015a,B,124.71,126.63,1.92,ES2015a.B.dialog-act.dharshi.2,,,,,,,,,False, Okay.,1,task,Assess
+ES2015a,A,126.43,128.05,1.62,ES2015a.A.dialog-act.dharshi.10,,,,,,,,,False, Alright. Um.,2,minor,Stall
+ES2015a,A,128.05,135.79,7.74,ES2015a.A.dialog-act.dharshi.11,A,A,0.0,1.62,False,False,0.0,[],False," This is the first meeting uh for developing our, our new product.",12,task,Inform
+ES2015a,A,135.79,137.34,1.55,ES2015a.A.dialog-act.dharshi.12,A,A,4.33,0.0,False,False,0.0,[],False," I'm Heather, I'm your Project Manager.",6,task,Inform
+ES2015a,C,137.888,139.595,1.707,ES2015a.C.dialog-act.dharshi.2,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,137.98,139.409,1.429,ES2015a.B.dialog-act.dharshi.3,,,,,,,,,False, Hello.,1,other,Be-Positive
+ES2015a,A,139.08,141.67,2.59,ES2015a.A.dialog-act.dharshi.13,,,,,,,,,False, Okay. So um.,3,minor,Stall
+ES2015a,A,141.67,142.99,1.32,ES2015a.A.dialog-act.dharshi.14,A,A,0.0,4.33,False,False,0.0,[],False, So that was the opening.,5,task,Inform
+ES2015a,D,142.06,142.934,0.874,ES2015a.D.dialog-act.dharshi.5,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,142.99,146.51,3.52,ES2015a.A.dialog-act.dharshi.15,A,A,0.0,0.0,False,False,0.0,[],False, The first thing we'll do is get acquainted with one another.,11,task,Suggest
+ES2015a,A,146.51,150.89,4.38,ES2015a.A.dialog-act.dharshi.16,B,A,2.87,0.0,False,False,0.0,[],False," If everyone could go around and explain their role and um, and their name.",14,task,Suggest
+ES2015a,C,149.691,151.059,1.368,ES2015a.C.dialog-act.dharshi.3,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,152.51,152.85,0.34,ES2015a.B.dialog-act.dharshi.4,,,,,,,,,False, Okay.,1,task,Assess
+ES2015a,B,152.85,153.76,0.91,ES2015a.B.dialog-act.dharshi.5,,,,,,,,,False, My name's Poppy.,3,task,Inform
+ES2015a,B,153.76,156.66,2.9,ES2015a.B.dialog-act.dharshi.6,B,A,0.0,2.87,True,False,0.0,[],True, I'm the Industrial Designer for this project.,7,task,Inform
+ES2015a,B,156.66,160.81,4.15,ES2015a.B.dialog-act.dharshi.7,B,B,0.0,0.0,False,False,0.0,[],False," Um, I'm going to be responsible for the functional design phase.",11,other,Offer
+ES2015a,B,160.81,165.33,4.52,ES2015a.B.dialog-act.dharshi.8,A,B,1.32,0.0,False,False,0.0,[],False, Also the conceptual design and the detailed design for the final product.,12,other,Offer
+ES2015a,A,166.65,168.15,1.5,ES2015a.A.dialog-act.dharshi.17,C,B,-1.03,1.32,True,True,1.03,['ES2015a.C.dialog-act.dharshi.4'],True, Nice to meet you Poppy.,5,other,Be-Positive
+ES2015a,C,167.12,173.41,6.29,ES2015a.C.dialog-act.dharshi.4,C,A,0.0,-1.03,True,False,0.0,[],False, My name's Tara and I'm the User Interface Designer.,9,task,Inform
+ES2015a,D,167.335,169.795,2.46,ES2015a.D.dialog-act.dharshi.6,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,167.55,169.126,1.576,ES2015a.B.dialog-act.dharshi.9,,,,,,,,,False, Okay.,1,task,Assess
+ES2015a,C,173.41,184.832,11.422,ES2015a.C.dialog-act.dharshi.5,D,C,1.688,0.0,False,False,0.0,[],False," I will also be responsible for the functional design phase, the conceptual design phase and the detailed design phase of the user interface design.",24,other,Offer
+ES2015a,A,185.01,185.8,0.79,ES2015a.A.dialog-act.dharshi.18,,,,,,,,,False, Alright.,1,task,Assess
+ES2015a,D,185.73,185.96,0.23,ES2015a.D.dialog-act.dharshi.7,,,,,,,,,False," Hi,",1,other,Be-Positive
+ES2015a,D,185.96,186.52,0.56,ES2015a.D.dialog-act.dharshi.8,,,,,,,,,False, I'm Genevieve.,2,task,Inform
+ES2015a,D,186.52,188.81,2.29,ES2015a.D.dialog-act.dharshi.9,D,C,0.0,1.688,True,False,0.0,[],True, I'm the Marketing Expert.,4,task,Inform
+ES2015a,D,188.81,190.22,1.41,ES2015a.D.dialog-act.dharshi.10,D,D,0.0,0.0,False,False,0.0,[],False, I'm an expert at marketing.,5,task,Inform
+ES2015a,B,189.746,192.304,2.558,ES2015a.B.dialog-act.dharshi.10,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,190.22,194.78,4.56,ES2015a.D.dialog-act.dharshi.11,D,D,0.0,0.0,False,False,0.0,[],False," Um, I'll be telling you guys about the user requirement specifications for our new product.",15,other,Offer
+ES2015a,A,190.64,192.337,1.697,ES2015a.A.dialog-act.dharshi.19,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,194.78,202.27,7.49,ES2015a.D.dialog-act.dharshi.12,A,D,1.97,0.0,False,False,0.0,[],False," Um, I'll be doing some trend-watching in the conceptual design, and product evaluation for the design phase.",17,other,Offer
+ES2015a,A,203.11,204.24,1.13,ES2015a.A.dialog-act.dharshi.20,,,,,,,,,False, Alright I'm Heather,3,task,Inform
+ES2015a,A,204.24,207.47,3.23,ES2015a.A.dialog-act.dharshi.21,A,D,0.0,1.97,True,False,0.0,[],True," and I've I said I'm your Project Manager,",8,task,Inform
+ES2015a,A,207.47,212.48,5.01,ES2015a.A.dialog-act.dharshi.22,A,A,8.18,0.0,False,False,0.0,[],False, um Well you can pretty much read what it is that I'm doing.,13,task,Inform
+ES2015a,D,212.08,212.884,0.804,ES2015a.D.dialog-act.dharshi.13,,,,,,,,,False,,0,minor,Fragment
+ES2015a,C,212.255,213.301,1.046,ES2015a.C.dialog-act.dharshi.6,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,212.48,215.124,2.644,ES2015a.A.dialog-act.dharshi.23,,,,,,,,,False, But um um,3,minor,Stall
+ES2015a,A,217.42,218.03,0.61,ES2015a.A.dialog-act.dharshi.24,,,,,,,,,False, Yeah.,1,minor,Stall
+ES2015a,A,220.66,224.84,4.18,ES2015a.A.dialog-act.dharshi.25,A,A,0.0,8.18,False,False,0.0,[],False," And uh tool training is one thing that we're going to be doing today,",14,task,Inform
+ES2015a,A,224.84,228.45,3.61,ES2015a.A.dialog-act.dharshi.26,A,A,0.0,0.0,False,False,0.0,[],False," um um as well as planning the project,",8,task,Inform
+ES2015a,A,228.45,232.39,3.94,ES2015a.A.dialog-act.dharshi.27,A,A,0.0,0.0,False,False,0.0,[],False," how we're going to, uh, create this product,",8,task,Inform
+ES2015a,A,232.39,237.68,5.29,ES2015a.A.dialog-act.dharshi.28,A,A,1.43,0.0,False,False,0.0,[],False," and, um, discuss, um, our aims and objects of this,",10,task,Inform
+ES2015a,A,239.11,241.01,1.9,ES2015a.A.dialog-act.dharshi.29,A,A,1.93,1.43,False,False,0.0,[],False," Which brings us to our next subject,",7,task,Inform
+ES2015a,B,240.273,242.336,2.063,ES2015a.B.dialog-act.dharshi.11,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,240.816,241.894,1.078,ES2015a.D.dialog-act.dharshi.14,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,241.01,242.94,1.93,ES2015a.A.dialog-act.dharshi.30,,,,,,,,,False," is, um, um,",3,minor,Stall
+ES2015a,A,242.94,248.28,5.34,ES2015a.A.dialog-act.dharshi.31,A,A,1.08,1.93,False,False,0.0,[],False, as a team we're going to be designing and creating a new kind of remote control.,16,task,Inform
+ES2015a,A,249.36,255.51,6.15,ES2015a.A.dialog-act.dharshi.32,A,A,0.0,1.08,False,False,0.0,[],False," Um, we want this to be a marketable product that can be trendy,",13,task,Inform
+ES2015a,A,255.51,268.73,13.22,ES2015a.A.dialog-act.dharshi.33,A,A,0.0,0.0,False,False,0.0,[],False," um, a completely new style, so that, um, can really appeal to a, to a generation that doesn't want a simple plain kind of, uh, channel-changer.",26,task,Inform
+ES2015a,A,268.73,277.82,9.09,ES2015a.A.dialog-act.dharshi.34,A,A,0.0,0.0,False,False,0.0,[],False," And, um, it needs to be user-friendly for, um, maybe, for an example, for people that, um, can't see the numbers as well,",23,task,Inform
+ES2015a,A,277.82,280.66,2.84,ES2015a.A.dialog-act.dharshi.35,B,A,2.38,0.0,False,False,0.0,[],False," or, um, perhaps an ergonomic design.",6,task,Inform
+ES2015a,B,280.91,281.79,0.88,ES2015a.B.dialog-act.dharshi.12,,,,,,,,,False, Okay.,1,task,Assess
+ES2015a,B,283.04,285.85,2.81,ES2015a.B.dialog-act.dharshi.13,A,A,-0.23,2.38,True,True,0.23,['ES2015a.A.dialog-act.dharshi.36'],True, So this is a television remote control?,7,elicit,Elicit-Inform
+ES2015a,A,285.62,287.94,2.32,ES2015a.A.dialog-act.dharshi.36,A,B,4.33,-0.23,True,False,0.0,[],False," Yes, it's a television remote control.",6,task,Inform
+ES2015a,B,285.85,286.72,0.87,ES2015a.B.dialog-act.dharshi.14,,,,,,,,,False, Yeah.,1,task,Assess
+ES2015a,A,290.89,292.27,1.38,ES2015a.A.dialog-act.dharshi.37,,,,,,,,,False, Right.,1,minor,Stall
+ES2015a,A,292.27,296.93,4.66,ES2015a.A.dialog-act.dharshi.38,A,A,12.14,4.33,False,False,0.0,[],False, I believe I should be taking minutes on this right now.,11,task,Inform
+ES2015a,A,296.93,298.59,1.66,ES2015a.A.dialog-act.dharshi.39,,,,,,,,,False," So, alright.",2,minor,Stall
+ES2015a,B,298.35,299.13,0.78,ES2015a.B.dialog-act.dharshi.15,,,,,,,,,False, Okay.,1,task,Assess
+ES2015a,A,302.95,304.02,1.07,ES2015a.A.dialog-act.dharshi.40,,,,,,,,,False," Um, yeah.",2,minor,Stall
+ES2015a,A,309.07,322.11,13.04,ES2015a.A.dialog-act.dharshi.41,A,A,0.0,12.14,False,False,0.0,[],False," Um, the way that we're going to go about this is, um, we'll have a time where we can, um come up with new ideas alone, and, and work on the project",32,task,Suggest
+ES2015a,A,322.11,332.97,10.86,ES2015a.A.dialog-act.dharshi.42,A,A,0.0,0.0,False,False,0.0,[],False," and then, um, after we've brainstormed and, and thought about, we can come together in a meeting and, and discuss what, what um, what kind of functional design we want to use.",32,task,Suggest
+ES2015a,A,332.97,335.81,2.84,ES2015a.A.dialog-act.dharshi.43,A,A,2.87,0.0,False,False,0.0,[],False, Same with conceptual design and detailed design.,7,task,Inform
+ES2015a,A,336.92,337.55,0.63,ES2015a.A.dialog-act.dharshi.44,,,,,,,,,False," So, um,",2,minor,Stall
+ES2015a,A,338.68,340.97,2.29,ES2015a.A.dialog-act.dharshi.45,A,A,3.37,2.87,False,False,0.0,[],False," making sure that it, it's usable,",6,task,Inform
+ES2015a,A,340.97,343.2,2.23,ES2015a.A.dialog-act.dharshi.46,,,,,,,,,False," that as a, um",4,minor,Stall
+ES2015a,A,344.34,346.06,1.72,ES2015a.A.dialog-act.dharshi.47,A,A,0.0,3.37,False,False,0.0,[],False," and that it's, it's feasible to create,",7,task,Inform
+ES2015a,A,346.06,352.73,6.67,ES2015a.A.dialog-act.dharshi.48,A,A,2.03,0.0,False,False,0.0,[],False," and uh, to come up with a concept of it want, what we want it to look like.",18,task,Inform
+ES2015a,A,352.73,354.76,2.03,ES2015a.A.dialog-act.dharshi.49,,,,,,,,,False," Um, tool training.",3,task,Inform
+ES2015a,A,354.76,356.0,1.24,ES2015a.A.dialog-act.dharshi.50,A,A,7.07,2.03,False,False,0.0,[],False," Is, is everyone, um",4,elicit,Elicit-Assessment
+ES2015a,A,357.121,358.81,1.689,ES2015a.A.dialog-act.dharshi.51,,,,,,,,,False, Okay.,1,task,Assess
+ES2015a,B,357.47,357.92,0.45,ES2015a.B.dialog-act.dharshi.16,,,,,,,,,False, Yeah.,1,task,Assess
+ES2015a,B,357.92,358.89,0.97,ES2015a.B.dialog-act.dharshi.17,,,,,,,,,False, Got those notes.,3,task,Inform
+ES2015a,D,358.02,358.57,0.55,ES2015a.D.dialog-act.dharshi.15,,,,,,,,,False, Yeah.,1,task,Assess
+ES2015a,D,358.57,359.48,0.91,ES2015a.D.dialog-act.dharshi.16,,,,,,,,,False, Thank you.,2,other,Be-Positive
+ES2015a,A,358.81,360.7,1.89,ES2015a.A.dialog-act.dharshi.52,,,,,,,,,False, Great. Great.,2,task,Assess
+ES2015a,A,360.7,361.29,0.59,ES2015a.A.dialog-act.dharshi.53,,,,,,,,,False, Um,1,minor,Stall
+ES2015a,A,363.07,371.38,8.31,ES2015a.A.dialog-act.dharshi.54,A,A,0.0,7.07,False,False,0.0,[],False," One thing that, uh, we're going to do is become more acquainted with the, the tools that we have access to for our project.",24,task,Suggest
+ES2015a,A,371.38,373.94,2.56,ES2015a.A.dialog-act.dharshi.55,A,A,0.0,0.0,False,False,0.0,[],False," Um, one of them is our whiteboard.",7,task,Inform
+ES2015a,A,373.94,388.15,14.21,ES2015a.A.dialog-act.dharshi.56,A,A,0.0,0.0,False,False,0.0,[],False," And, um, as a sort of team-building moment, um, I, I'd like us to, um, try out the whiteboard by expressing our favourite animal and the charac characteristics of that animal.",31,task,Suggest
+ES2015a,B,376.427,377.499,1.072,ES2015a.B.dialog-act.dharshi.18,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,377.748,378.673,0.925,ES2015a.D.dialog-act.dharshi.17,,,,,,,,,False,,0,minor,Fragment
+ES2015a,C,386.037,388.7,2.663,ES2015a.C.dialog-act.dharshi.7,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,388.15,392.34,4.19,ES2015a.A.dialog-act.dharshi.57,A,A,2.2,0.0,False,False,0.0,[],False," Um, why that, why that should be your favourite animal.",10,task,Inform
+ES2015a,A,392.34,394.54,2.2,ES2015a.A.dialog-act.dharshi.59,,,,,,,,,False," So, um, I,",3,minor,Stall
+ES2015a,A,394.54,396.3,1.76,ES2015a.A.dialog-act.dharshi.60,A,A,3.27,2.2,False,False,0.0,[],False, I'm assuming that we should do that now.,8,task,Suggest
+ES2015a,D,396.384,397.294,0.91,ES2015a.D.dialog-act.dharshi.18,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,396.62,397.58,0.96,ES2015a.B.dialog-act.dharshi.19,,,,,,,,,False, Okay.,1,task,Assess
+ES2015a,C,397.771,399.251,1.48,ES2015a.C.dialog-act.dharshi.8,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,398.02,399.57,1.55,ES2015a.A.dialog-act.dharshi.61,,,,,,,,,False, 'Kay.,1,minor,Stall
+ES2015a,D,398.181,399.217,1.036,ES2015a.D.dialog-act.dharshi.19,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,399.57,401.64,2.07,ES2015a.A.dialog-act.dharshi.62,A,A,11.27,3.27,False,False,0.0,[],False, With our microphones still attached to our bodies.,8,task,Inform
+ES2015a,B,401.2,401.72,0.52,ES2015a.B.dialog-act.dharshi.20,,,,,,,,,False, Okay.,1,task,Assess
+ES2015a,C,401.39,402.36,0.97,ES2015a.C.dialog-act.dharshi.9,,,,,,,,,False, Gosh.,1,other,Other
+ES2015a,A,401.64,403.232,1.592,ES2015a.A.dialog-act.dharshi.63,,,,,,,,,False, Okay.,1,minor,Stall
+ES2015a,C,405.44,406.168,0.728,ES2015a.C.dialog-act.dharshi.10,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,412.91,414.41,1.5,ES2015a.A.dialog-act.dharshi.64,B,A,6.43,11.27,False,False,0.0,[],False," 'Kay, what's my favourite animal?",5,other,Other
+ES2015a,B,414.352,415.552,1.2,ES2015a.B.dialog-act.dharshi.21,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,417.4,420.144,2.744,ES2015a.A.dialog-act.dharshi.65,,,,,,,,,False, Do come up.,3,task,Suggest
+ES2015a,C,417.969,420.982,3.013,ES2015a.C.dialog-act.dharshi.11,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,418.3,419.14,0.84,ES2015a.B.dialog-act.dharshi.22,,,,,,,,,False," Oh,",1,other,Other
+ES2015a,B,419.14,420.69,1.55,ES2015a.B.dialog-act.dharshi.23,,,,,,,,,False, to go first.,3,elicit,Elicit-Inform
+ES2015a,B,420.69,420.84,0.15,ES2015a.B.dialog-act.dharshi.24,,,,,,,,,False," Oh,",1,other,Other
+ES2015a,B,420.84,422.48,1.64,ES2015a.B.dialog-act.dharshi.25,A,A,-1.24,6.43,True,True,1.24,['ES2015a.A.dialog-act.dharshi.66'],True, are we all doing it individually?,6,elicit,Elicit-Inform
+ES2015a,A,421.24,423.06,1.82,ES2015a.A.dialog-act.dharshi.66,B,B,0.75,-1.24,True,False,0.0,[],False, This is a team-building time,5,task,Inform
+ES2015a,C,422.556,428.808,6.252,ES2015a.C.dialog-act.dharshi.12,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2015a,A,423.06,425.91,2.85,ES2015a.A.dialog-act.dharshi.67,,,,,,,,,False," where, um,,",2,minor,Fragment
+ES2015a,B,423.42,423.81,0.39,ES2015a.B.dialog-act.dharshi.26,,,,,,,,,False," Okay,",1,task,Assess
+ES2015a,B,423.81,426.368,2.558,ES2015a.B.dialog-act.dharshi.27,A,A,2.992,0.75,True,False,0.0,[],True, let's stand up and support you,6,task,Suggest
+ES2015a,A,425.91,428.064,2.154,ES2015a.A.dialog-act.dharshi.68,,,,,,,,,False," okay cool, um",3,task,Assess
+ES2015a,B,428.534,429.393,0.859,ES2015a.B.dialog-act.dharshi.28,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,429.36,433.6,4.24,ES2015a.A.dialog-act.dharshi.69,A,B,2.66,2.992,True,False,0.0,[],True," My favourite animal, which changes all the time, okay,",9,task,Inform
+ES2015a,C,432.1,433.025,0.925,ES2015a.C.dialog-act.dharshi.13,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,432.176,432.99,0.814,ES2015a.B.dialog-act.dharshi.29,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,436.26,440.59,4.33,ES2015a.A.dialog-act.dharshi.70,A,A,4.52,2.66,False,False,0.0,[],False, right now it is an elk.,6,task,Inform
+ES2015a,C,439.18,440.62,1.44,ES2015a.C.dialog-act.dharshi.14,,,,,,,,,False, An elk?,2,other,Other
+ES2015a,B,439.274,440.64,1.366,ES2015a.B.dialog-act.dharshi.30,,,,,,,,,False, Okay.,1,task,Assess
+ES2015a,D,439.921,442.066,2.145,ES2015a.D.dialog-act.dharshi.20,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,440.59,442.272,1.682,ES2015a.A.dialog-act.dharshi.71,,,,,,,,,False," alright, so",2,minor,Stall
+ES2015a,C,440.62,442.568,1.948,ES2015a.C.dialog-act.dharshi.15,,,,,,,,,False, A vicious,2,minor,Fragment
+ES2015a,A,445.11,446.368,1.258,ES2015a.A.dialog-act.dharshi.72,A,A,4.172,4.52,False,False,0.0,[],False, And it goes like,4,task,Inform
+ES2015a,A,450.54,453.23,2.69,ES2015a.A.dialog-act.dharshi.73,A,A,7.09,4.172,False,False,0.0,[],False," Yeah it's got like big antlers,",6,task,Inform
+ES2015a,C,451.442,452.663,1.221,ES2015a.C.dialog-act.dharshi.16,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,453.23,454.03,0.8,ES2015a.A.dialog-act.dharshi.74,,,,,,,,,False, yeah.,1,task,Assess
+ES2015a,A,460.32,463.39,3.07,ES2015a.A.dialog-act.dharshi.75,B,A,3.84,7.09,False,False,0.0,[],False," Looks kinda like, like it has holly growing out of its head.",12,task,Inform
+ES2015a,B,463.248,464.157,0.909,ES2015a.B.dialog-act.dharshi.31,,,,,,,,,False,,0,minor,Fragment
+ES2015a,C,463.351,464.682,1.331,ES2015a.C.dialog-act.dharshi.17,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,463.448,465.187,1.739,ES2015a.D.dialog-act.dharshi.21,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,467.23,469.11,1.88,ES2015a.B.dialog-act.dharshi.32,D,A,1.8,3.84,True,False,0.0,[],True, Do you have elk where you come from?,8,elicit,Elicit-Inform
+ES2015a,A,469.65,470.91,1.26,ES2015a.A.dialog-act.dharshi.76,,,,,,,,,False, Yes.,1,task,Inform
+ES2015a,B,470.34,471.08,0.74,ES2015a.B.dialog-act.dharshi.33,,,,,,,,,False, You do.,2,other,Comment-About-Understanding
+ES2015a,D,470.91,476.202,5.292,ES2015a.D.dialog-act.dharshi.22,A,B,-3.992,1.8,True,True,1.51,['ES2015a.A.dialog-act.dharshi.78'],True, We have moose too.,4,task,Inform
+ES2015a,A,470.91,472.21,1.3,ES2015a.A.dialog-act.dharshi.77,,,,,,,,,False, Yeah,1,task,Inform
+ES2015a,A,472.21,473.72,1.51,ES2015a.A.dialog-act.dharshi.78,B,D,10.14,-3.992,True,False,0.0,[],False, we have moose and we have deer.,7,task,Inform
+ES2015a,B,472.4,472.96,0.56,ES2015a.B.dialog-act.dharshi.34,,,,,,,,,False, Okay.,1,task,Assess
+ES2015a,C,472.672,474.608,1.936,ES2015a.C.dialog-act.dharshi.18,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,475.14,475.488,0.348,ES2015a.A.dialog-act.dharshi.79,,,,,,,,,False, Do you have,3,elicit,Elicit-Inform
+ES2015a,C,476.34,480.7,4.36,ES2015a.C.dialog-act.dharshi.19,,,,,,,,,False, We have sheep.,3,task,Inform
+ES2015a,B,476.854,478.78,1.926,ES2015a.B.dialog-act.dharshi.35,,,,,,,,,False," Sheep. Yeah,",2,task,Assess
+ES2015a,A,477.246,481.08,3.834,ES2015a.A.dialog-act.dharshi.80,,,,,,,,,False," 'Kay, um.",2,minor,Stall
+ES2015a,D,477.386,480.256,2.87,ES2015a.D.dialog-act.dharshi.23,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,478.78,479.39,0.61,ES2015a.B.dialog-act.dharshi.36,,,,,,,,,False, cows.,1,task,Inform
+ES2015a,A,482.784,484.587,1.803,ES2015a.A.dialog-act.dharshi.81,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,483.86,486.07,2.21,ES2015a.B.dialog-act.dharshi.37,D,A,-1.86,10.14,True,True,1.86,"['ES2015a.D.dialog-act.dharshi.25', 'ES2015a.C.dialog-act.dharshi.20']",True, That's a great elk.,4,task,Assess
+ES2015a,D,484.21,489.001,4.791,ES2015a.D.dialog-act.dharshi.25,C,B,-4.141,-1.86,True,True,1.99,['ES2015a.C.dialog-act.dharshi.20'],False," Uh-oh, we have a good artist.",6,task,Assess
+ES2015a,C,484.86,486.85,1.99,ES2015a.C.dialog-act.dharshi.20,A,D,8.83,-4.141,True,False,0.0,[],False, That is really good.,4,task,Assess
+ES2015a,B,486.07,488.025,1.955,ES2015a.B.dialog-act.dharshi.38,,,,,,,,,False, Yeah.,1,task,Assess
+ES2015a,A,486.304,490.35,4.046,ES2015a.A.dialog-act.dharshi.82,,,,,,,,,False, Thanks.,1,other,Be-Positive
+ES2015a,C,486.85,489.328,2.478,ES2015a.C.dialog-act.dharshi.21,,,,,,,,,False, I'm quite,2,minor,Fragment
+ES2015a,A,490.35,491.456,1.106,ES2015a.A.dialog-act.dharshi.83,,,,,,,,,False, This is my,3,minor,Fragment
+ES2015a,C,492.256,493.175,0.919,ES2015a.C.dialog-act.dharshi.22,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,492.87,493.65,0.78,ES2015a.D.dialog-act.dharshi.26,,,,,,,,,False," Oh,",1,other,Other
+ES2015a,D,493.65,494.57,0.92,ES2015a.D.dialog-act.dharshi.27,,,,,,,,,False, very shapely.,2,task,Assess
+ES2015a,A,494.62,495.68,1.06,ES2015a.A.dialog-act.dharshi.84,,,,,,,,,False, Okay.,1,minor,Stall
+ES2015a,B,494.84,495.72,0.88,ES2015a.B.dialog-act.dharshi.39,,,,,,,,,False, Brilliant.,1,task,Assess
+ES2015a,A,495.68,497.83,2.15,ES2015a.A.dialog-act.dharshi.85,A,C,0.0,8.83,True,False,0.0,[],True," That's a sketching of my my elk,",7,task,Inform
+ES2015a,C,497.724,498.871,1.147,ES2015a.C.dialog-act.dharshi.23,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,497.83,503.86,6.03,ES2015a.A.dialog-act.dharshi.86,A,A,3.76,0.0,False,False,0.0,[],False," and it, it is my favourite animal right now, 'cause it is a large beautiful majestic creature,",17,task,Inform
+ES2015a,C,503.532,504.901,1.369,ES2015a.C.dialog-act.dharshi.24,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,503.86,507.62,3.76,ES2015a.A.dialog-act.dharshi.87,,,,,,,,,False," that um, that um",4,minor,Fragment
+ES2015a,A,507.62,510.09,2.47,ES2015a.A.dialog-act.dharshi.88,A,A,1.0,3.76,False,False,0.0,[],False," In a way it looks kind of awkward, because it's on spindly legs",13,task,Inform
+ES2015a,A,510.09,511.09,1.0,ES2015a.A.dialog-act.dharshi.89,,,,,,,,,False, and it uh,3,minor,Fragment
+ES2015a,C,510.487,511.966,1.479,ES2015a.C.dialog-act.dharshi.25,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,511.09,514.9,3.81,ES2015a.A.dialog-act.dharshi.90,A,A,0.0,1.0,False,False,0.0,[],False," But it can really overcome harsh terrain,",7,task,Inform
+ES2015a,A,514.9,521.97,7.07,ES2015a.A.dialog-act.dharshi.91,A,A,2.11,0.0,False,False,0.0,[],False," and although it's gorgeous it's also very dangerous, because it has um strong antlers,",14,task,Inform
+ES2015a,A,521.97,522.67,0.7,ES2015a.A.dialog-act.dharshi.92,,,,,,,,,False, and uh,2,minor,Stall
+ES2015a,A,524.08,532.32,8.24,ES2015a.A.dialog-act.dharshi.93,A,A,18.15,2.11,False,False,0.0,[],False," it can really combat its enemies, even like it it's a it's an herbivore but, uh, it can really defend itself.",21,task,Inform
+ES2015a,B,532.52,532.69,0.17,ES2015a.B.dialog-act.dharshi.40,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2015a,B,533.94,534.86,0.92,ES2015a.B.dialog-act.dharshi.41,,,,,,,,,False, Very nice.,2,task,Assess
+ES2015a,A,534.02,535.56,1.54,ES2015a.A.dialog-act.dharshi.94,,,,,,,,,False, Yeah.,1,task,Assess
+ES2015a,B,534.86,535.25,0.39,ES2015a.B.dialog-act.dharshi.42,,,,,,,,,False, Okay.,1,minor,Stall
+ES2015a,A,535.56,535.91,0.35,ES2015a.A.dialog-act.dharshi.95,,,,,,,,,False, Right.,1,minor,Stall
+ES2015a,B,536.233,537.01,0.777,ES2015a.B.dialog-act.dharshi.43,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,550.35,550.47,0.12,ES2015a.A.dialog-act.dharshi.96,,,,,,,,,False," Right,",1,minor,Stall
+ES2015a,A,550.47,551.32,0.85,ES2015a.A.dialog-act.dharshi.97,A,A,0.0,18.15,False,False,0.0,[],False, I'm gonna take minutes,4,other,Offer
+ES2015a,A,551.32,556.08,4.76,ES2015a.A.dialog-act.dharshi.98,B,A,-2.83,0.0,False,True,2.83,['ES2015a.B.dialog-act.dharshi.44'],False," while, um, you guys express your favourite animals.",8,task,Suggest
+ES2015a,C,552.209,554.444,2.235,ES2015a.C.dialog-act.dharshi.26,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,553.25,557.54,4.29,ES2015a.B.dialog-act.dharshi.44,B,A,0.0,-2.83,True,False,0.0,[],False," Okay, I'll go next.",4,other,Offer
+ES2015a,B,557.54,559.47,1.93,ES2015a.B.dialog-act.dharshi.45,B,B,0.09,0.0,False,False,0.0,[],False, I am a big animal lover.,6,task,Inform
+ES2015a,B,559.56,566.992,7.432,ES2015a.B.dialog-act.dharshi.46,B,B,3.818,0.09,False,False,0.0,[],False," like all sorts of animals, but for the moment I'm gonna draw a cat, in memory of my poor cat that died recently.",23,task,Inform
+ES2015a,D,565.069,565.86,0.791,ES2015a.D.dialog-act.dharshi.28,,,,,,,,,False, Oh.,1,other,Other
+ES2015a,A,566.02,566.67,0.65,ES2015a.A.dialog-act.dharshi.99,,,,,,,,,False, Oh.,1,other,Other
+ES2015a,B,570.81,572.86,2.05,ES2015a.B.dialog-act.dharshi.48,B,B,18.61,3.818,False,False,0.0,[],False," It's gonna be a bit of a strange drawing,",9,task,Inform
+ES2015a,B,572.86,574.0,1.14,ES2015a.B.dialog-act.dharshi.49,,,,,,,,,False, but never mind.,3,task,Assess
+ES2015a,C,573.645,574.681,1.036,ES2015a.C.dialog-act.dharshi.27,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,587.925,589.405,1.48,ES2015a.B.dialog-act.dharshi.47,,,,,,,,,False,,0,minor,Fragment
+ES2015a,C,590.596,591.225,0.629,ES2015a.C.dialog-act.dharshi.28,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,591.47,593.3,1.83,ES2015a.B.dialog-act.dharshi.50,B,B,0.0,18.61,False,False,0.0,[],False, Not as artistic as Heather's drawing.,6,task,Assess
+ES2015a,C,592.16,596.026,3.866,ES2015a.C.dialog-act.dharshi.29,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,592.645,593.607,0.962,ES2015a.A.dialog-act.dharshi.100,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,593.3,595.13,1.83,ES2015a.B.dialog-act.dharshi.51,B,B,0.0,0.0,False,False,0.0,[],False, Bit more cartoon style.,4,task,Assess
+ES2015a,A,594.273,595.419,1.146,ES2015a.A.dialog-act.dharshi.101,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,595.13,599.24,4.11,ES2015a.B.dialog-act.dharshi.52,B,B,0.0,0.0,False,False,0.0,[],False," But I like cats because they're so independent,",8,task,Inform
+ES2015a,B,599.24,601.85,2.61,ES2015a.B.dialog-act.dharshi.53,B,B,0.0,0.0,False,False,0.0,[],False, and they always seem to be doing what they want to be doing.,13,task,Inform
+ES2015a,B,601.85,608.72,6.87,ES2015a.B.dialog-act.dharshi.54,B,B,0.0,0.0,False,False,0.0,[],False," Um, but that doesn't mean they're completely not sociable, 'cause they enjoy interacting with humans as well,",17,task,Inform
+ES2015a,B,608.72,614.63,5.91,ES2015a.B.dialog-act.dharshi.55,B,B,0.0,0.0,False,False,0.0,[],False," and they seem to enjoy the good things like sunshine and, um, running around outside",15,task,Inform
+ES2015a,B,614.63,617.79,3.16,ES2015a.B.dialog-act.dharshi.56,B,B,0.0,0.0,False,False,0.0,[],False," as well as being inside, and enjoying their food,",9,task,Inform
+ES2015a,B,617.79,624.8,7.01,ES2015a.B.dialog-act.dharshi.57,B,B,0.0,0.0,False,False,0.0,[],False," and generally just, they just seemed so cool and they just know what they're doing.",15,task,Inform
+ES2015a,C,617.941,618.829,0.888,ES2015a.C.dialog-act.dharshi.30,,,,,,,,,False,,0,minor,Fragment
+ES2015a,C,622.75,625.229,2.479,ES2015a.C.dialog-act.dharshi.31,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,624.8,627.55,2.75,ES2015a.B.dialog-act.dharshi.58,B,B,0.0,0.0,False,False,0.0,[],False," Uh I reckon they're sort of, they got it sorted.",10,task,Inform
+ES2015a,B,627.55,629.41,1.86,ES2015a.B.dialog-act.dharshi.59,B,B,0.0,0.0,False,False,0.0,[],False, They know what they want.,5,task,Inform
+ES2015a,C,628.288,629.472,1.184,ES2015a.C.dialog-act.dharshi.32,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,629.41,631.456,2.046,ES2015a.B.dialog-act.dharshi.60,B,B,0.869,0.0,False,False,0.0,[],False," Basically, that's why I like cats.",6,task,Inform
+ES2015a,C,631.67,633.948,2.278,ES2015a.C.dialog-act.dharshi.33,,,,,,,,,False, Very good.,2,task,Assess
+ES2015a,A,632.21,632.63,0.42,ES2015a.A.dialog-act.dharshi.102,,,,,,,,,False, Great.,1,task,Assess
+ES2015a,B,632.325,634.7,2.375,ES2015a.B.dialog-act.dharshi.61,C,B,8.6,0.869,False,False,0.0,[],False, I'll rub that out.,4,other,Offer
+ES2015a,B,640.31,642.793,2.483,ES2015a.B.dialog-act.dharshi.62,,,,,,,,,False, There you go.,3,other,Other
+ES2015a,C,642.49,643.3,0.81,ES2015a.C.dialog-act.dharshi.34,,,,,,,,,False, Okay.,1,minor,Stall
+ES2015a,C,643.3,645.82,2.52,ES2015a.C.dialog-act.dharshi.35,C,B,0.0,8.6,True,False,0.0,[],True," I think my favourite animal would be a dog,",9,task,Inform
+ES2015a,C,645.82,649.91,4.09,ES2015a.C.dialog-act.dharshi.36,C,C,0.0,0.0,False,False,0.0,[],False, but I'm not really sure how to draw one.,9,task,Inform
+ES2015a,B,649.21,649.67,0.46,ES2015a.B.dialog-act.dharshi.63,,,,,,,,,False, Ooh.,1,other,Other
+ES2015a,C,649.91,653.23,3.32,ES2015a.C.dialog-act.dharshi.37,C,C,0.0,0.0,False,False,0.0,[],False," I, I've never drawn a dog, I don't think.",9,task,Inform
+ES2015a,C,653.23,659.14,5.91,ES2015a.C.dialog-act.dharshi.38,A,C,1.82,0.0,False,False,0.0,[],False, I'm tempted to draw a snail 'cause I draw them sometimes and they're really easy to draw.,17,task,Inform
+ES2015a,D,655.769,658.464,2.695,ES2015a.D.dialog-act.dharshi.29,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,656.443,658.071,1.628,ES2015a.B.dialog-act.dharshi.64,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,656.528,658.672,2.144,ES2015a.A.dialog-act.dharshi.103,,,,,,,,,False,,0,minor,Fragment
+ES2015a,C,659.14,659.86,0.72,ES2015a.C.dialog-act.dharshi.39,,,,,,,,,False," Um,",1,minor,Stall
+ES2015a,A,660.96,661.69,0.73,ES2015a.A.dialog-act.dharshi.104,C,C,0.44,1.82,True,False,0.0,[],True, I forget her name.,4,elicit,Elicit-Inform
+ES2015a,C,661.89,662.13,0.24,ES2015a.C.dialog-act.dharshi.40,,,,,,,,,False, right,1,minor,Stall
+ES2015a,C,662.13,667.33,5.2,ES2015a.C.dialog-act.dharshi.41,B,A,0.01,0.44,True,False,0.0,[],True," it's gonna be a really funny dog, 'cause I'm not sure how to draw a dog.",16,task,Inform
+ES2015a,D,662.2,662.87,0.67,ES2015a.D.dialog-act.dharshi.30,,,,,,,,,False, Tara,1,task,Inform
+ES2015a,A,663.232,663.616,0.384,ES2015a.A.dialog-act.dharshi.105,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,663.74,664.4,0.66,ES2015a.D.dialog-act.dharshi.31,,,,,,,,,False, or Tara.,2,task,Inform
+ES2015a,B,667.34,672.091,4.751,ES2015a.B.dialog-act.dharshi.65,C,C,-0.631,0.01,True,True,0.631,['ES2015a.C.dialog-act.dharshi.43'],True," Well there are loads of different types of dogs, so I'm sure it'll represent one kind of dog.",18,task,Assess
+ES2015a,C,669.024,670.363,1.339,ES2015a.C.dialog-act.dharshi.42,,,,,,,,,False,,0,minor,Fragment
+ES2015a,C,671.46,674.44,2.98,ES2015a.C.dialog-act.dharshi.43,C,B,4.13,-0.631,True,False,0.0,[],False, It's a cartoon dog I think.,6,task,Inform
+ES2015a,A,672.4,674.88,2.48,ES2015a.A.dialog-act.dharshi.106,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,672.96,673.44,0.48,ES2015a.B.dialog-act.dharshi.66,,,,,,,,,False,,0,minor,Fragment
+ES2015a,C,674.44,675.68,1.24,ES2015a.C.dialog-act.dharshi.44,,,,,,,,,False, A s I don't ev,5,minor,Fragment
+ES2015a,C,675.68,678.57,2.89,ES2015a.C.dialog-act.dharshi.45,,,,,,,,,False," Oh, oh well.",3,other,Other
+ES2015a,C,678.57,681.44,2.87,ES2015a.C.dialog-act.dharshi.46,C,C,4.51,4.13,False,False,0.0,[],False, It's a scary cartoon dog.,5,task,Inform
+ES2015a,C,684.11,685.95,1.84,ES2015a.C.dialog-act.dharshi.47,,,,,,,,,False," That This,",2,minor,Stall
+ES2015a,B,685.878,686.617,0.739,ES2015a.B.dialog-act.dharshi.67,,,,,,,,,False,,0,minor,Fragment
+ES2015a,C,685.95,688.01,2.06,ES2015a.C.dialog-act.dharshi.48,A,C,-0.346,4.51,False,True,0.346,['ES2015a.A.dialog-act.dharshi.107'],False, that does not look like a dog.,7,task,Assess
+ES2015a,B,687.472,696.336,8.864,ES2015a.B.dialog-act.dharshi.68,,,,,,,,,False, We can pretend.,3,task,Suggest
+ES2015a,A,687.664,694.512,6.848,ES2015a.A.dialog-act.dharshi.107,C,C,-0.08,-0.346,True,True,0.08,['ES2015a.C.dialog-act.dharshi.51'],False, It looks kinda like a person.,6,task,Assess
+ES2015a,C,688.01,691.96,3.95,ES2015a.C.dialog-act.dharshi.49,,,,,,,,,False, I'm sorry.,2,other,Be-Positive
+ES2015a,D,690.032,692.98,2.948,ES2015a.D.dialog-act.dharshi.32,,,,,,,,,False, That's Pinocchio.,2,task,Assess
+ES2015a,C,691.96,692.181,0.221,ES2015a.C.dialog-act.dharshi.50,,,,,,,,,False,,0,minor,Fragment
+ES2015a,C,694.432,696.4,1.968,ES2015a.C.dialog-act.dharshi.51,C,A,3.41,-0.08,True,False,0.0,[],False, How do you draw a dog?,6,elicit,Elicit-Inform
+ES2015a,C,696.4,697.66,1.26,ES2015a.C.dialog-act.dharshi.52,,,,,,,,,False, I suppose it has a lon,6,minor,Fragment
+ES2015a,C,697.66,698.92,1.26,ES2015a.C.dialog-act.dharshi.53,,,,,,,,,False, Oh my god.,3,other,Other
+ES2015a,C,698.92,699.81,0.89,ES2015a.C.dialog-act.dharshi.54,,,,,,,,,False, Right.,1,minor,Stall
+ES2015a,C,699.81,704.0,4.19,ES2015a.C.dialog-act.dharshi.55,C,C,3.64,3.41,False,False,0.0,[],False, Yous know what it's supposed to be.,7,task,Inform
+ES2015a,B,700.859,707.65,6.791,ES2015a.B.dialog-act.dharshi.71,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2015a,C,704.0,707.64,3.64,ES2015a.C.dialog-act.dharshi.56,,,,,,,,,False, It's a dog.,3,task,Inform
+ES2015a,C,707.64,713.08,5.44,ES2015a.C.dialog-act.dharshi.57,C,C,0.0,3.64,False,False,0.0,[],False,". Um, I like dogs because, um, they're so good to humans,",11,task,Inform
+ES2015a,C,713.08,717.14,4.06,ES2015a.C.dialog-act.dharshi.58,C,C,0.0,0.0,False,False,0.0,[],False," like they can be trained to be police dogs and seeing-eye dogs,",12,task,Inform
+ES2015a,C,717.14,719.75,2.61,ES2015a.C.dialog-act.dharshi.59,C,C,0.0,0.0,False,False,0.0,[],False, and they're just such friendly animals.,6,task,Inform
+ES2015a,C,719.75,724.57,4.82,ES2015a.C.dialog-act.dharshi.60,C,C,0.0,0.0,False,False,0.0,[],False," And, like they're more of a companion than cats.",9,task,Inform
+ES2015a,C,724.57,725.74,1.17,ES2015a.C.dialog-act.dharshi.61,C,C,0.0,0.0,False,False,0.0,[],False, I've nothing against cats.,4,task,Inform
+ES2015a,B,724.64,725.85,1.21,ES2015a.B.dialog-act.dharshi.70,,,,,,,,,False," Yeah, that's true.",3,task,Assess
+ES2015a,C,725.74,729.58,3.84,ES2015a.C.dialog-act.dharshi.62,C,C,0.0,0.0,False,False,0.0,[],False," Cats don't really like me, so I can't like them.",10,task,Inform
+ES2015a,A,728.512,729.552,1.04,ES2015a.A.dialog-act.dharshi.108,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,728.97,729.636,0.666,ES2015a.D.dialog-act.dharshi.33,,,,,,,,,False,,0,minor,Fragment
+ES2015a,C,729.58,735.5,5.92,ES2015a.C.dialog-act.dharshi.63,C,C,0.0,0.0,False,False,0.0,[],False," But they're just so friendly and warm and nice animals,",10,task,Inform
+ES2015a,A,734.096,734.528,0.432,ES2015a.A.dialog-act.dharshi.109,,,,,,,,,False,,0,minor,Fragment
+ES2015a,C,735.5,737.612,2.112,ES2015a.C.dialog-act.dharshi.64,D,C,9.888,0.0,False,False,0.0,[],False, that don't look like that.,5,task,Inform
+ES2015a,B,736.944,737.504,0.56,ES2015a.B.dialog-act.dharshi.69,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,737.236,738.64,1.404,ES2015a.D.dialog-act.dharshi.34,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,745.9,747.5,1.6,ES2015a.D.dialog-act.dharshi.35,,,,,,,,,False, Alrighty.,1,other,Other
+ES2015a,D,747.5,750.03,2.53,ES2015a.D.dialog-act.dharshi.36,D,C,2.27,9.888,True,False,0.0,[],True, I feel like a robot.,5,task,Inform
+ES2015a,C,748.8,750.835,2.035,ES2015a.C.dialog-act.dharshi.65,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,749.824,750.608,0.784,ES2015a.B.dialog-act.dharshi.72,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,750.03,752.3,2.27,ES2015a.D.dialog-act.dharshi.37,,,,,,,,,False," Okay. Um,",2,minor,Stall
+ES2015a,A,750.256,751.12,0.864,ES2015a.A.dialog-act.dharshi.110,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,752.3,753.82,1.52,ES2015a.D.dialog-act.dharshi.38,D,D,0.0,2.27,False,False,0.0,[],False, well I guess I had the most time to think about it.,12,task,Inform
+ES2015a,D,753.82,755.79,1.97,ES2015a.D.dialog-act.dharshi.39,D,D,0.0,0.0,False,False,0.0,[],False," I'm going to draw a butterfly,",6,other,Offer
+ES2015a,D,755.79,760.12,4.33,ES2015a.D.dialog-act.dharshi.40,D,D,0.0,0.0,False,False,0.0,[],False," because I saw a butterfly yesterday, that seemed to be like the symbol of Spring arriving.",16,task,Inform
+ES2015a,D,760.12,762.31,2.19,ES2015a.D.dialog-act.dharshi.41,D,D,0.0,0.0,False,False,0.0,[],False," And it was actually the prettiest butterfly I've ever seen out in the wild,",14,task,Inform
+ES2015a,D,762.31,763.62,1.31,ES2015a.D.dialog-act.dharshi.42,D,D,0.0,0.0,False,False,0.0,[],False, and I though that was pretty cool in Scotland.,9,task,Inform
+ES2015a,D,763.62,767.33,3.71,ES2015a.D.dialog-act.dharshi.43,D,D,3.44,0.0,False,False,0.0,[],False," It was like, well it was a little pointier than that.",11,task,Inform
+ES2015a,D,770.77,772.73,1.96,ES2015a.D.dialog-act.dharshi.44,D,D,0.0,3.44,False,False,0.0,[],False, At first I thought it was a dead leaf.,9,task,Inform
+ES2015a,C,772.088,773.013,0.925,ES2015a.C.dialog-act.dharshi.66,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,772.73,775.08,2.35,ES2015a.D.dialog-act.dharshi.45,D,D,0.0,0.0,False,False,0.0,[],False, And then it landed on the wall next to me.,10,task,Inform
+ES2015a,D,775.08,780.22,5.14,ES2015a.D.dialog-act.dharshi.46,D,D,0.53,0.0,False,False,0.0,[],False, But this part was all brown and then it has these big blue dots like this.,16,task,Inform
+ES2015a,D,780.22,780.75,0.53,ES2015a.D.dialog-act.dharshi.47,,,,,,,,,False, And then it kinda,4,minor,Stall
+ES2015a,D,780.75,782.71,1.96,ES2015a.D.dialog-act.dharshi.48,D,D,0.0,0.53,False,False,0.0,[],False," there was a green, I think it was a green ring,",11,task,Inform
+ES2015a,D,782.71,784.92,2.21,ES2015a.D.dialog-act.dharshi.49,A,D,0.35,0.0,False,False,0.0,[],False, and there was like red going out like this.,9,task,Inform
+ES2015a,A,785.27,786.41,1.14,ES2015a.A.dialog-act.dharshi.111,D,D,0.66,0.35,True,False,0.0,[],True, It's kinda like a peacock.,5,task,Assess
+ES2015a,C,786.256,787.772,1.516,ES2015a.C.dialog-act.dharshi.67,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,787.07,788.11,1.04,ES2015a.D.dialog-act.dharshi.50,D,A,0.54,0.66,True,False,0.0,[],True," Yeah, it kinda was actually,",5,task,Assess
+ES2015a,D,788.11,788.65,0.54,ES2015a.D.dialog-act.dharshi.51,,,,,,,,,False, 'cause it was,3,minor,Stall
+ES2015a,D,788.65,793.14,4.49,ES2015a.D.dialog-act.dharshi.52,D,D,0.0,0.54,False,False,0.0,[],False," This part of the body was really dull, and then it was the most colourful exotic butterfly ever,",18,task,Inform
+ES2015a,D,793.14,795.78,2.64,ES2015a.D.dialog-act.dharshi.53,D,D,0.0,0.0,False,False,0.0,[],False," and I'm like, wow this is the middle of Scotland in like March.",13,task,Inform
+ES2015a,A,794.688,796.229,1.541,ES2015a.A.dialog-act.dharshi.112,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,795.232,797.087,1.855,ES2015a.B.dialog-act.dharshi.73,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,795.78,796.89,1.11,ES2015a.D.dialog-act.dharshi.54,D,D,0.0,0.0,False,False,0.0,[],False, So I thought that was pretty cool.,7,task,Inform
+ES2015a,D,796.89,799.18,2.29,ES2015a.D.dialog-act.dharshi.55,D,D,0.0,0.0,False,False,0.0,[],False, And it landed by a wall and let me look at it for about two minutes.,16,task,Inform
+ES2015a,D,799.18,800.74,1.56,ES2015a.D.dialog-act.dharshi.56,D,D,0.0,0.0,False,False,0.0,[],False, I wish I'd had my camera.,6,task,Inform
+ES2015a,D,800.74,806.64,5.9,ES2015a.D.dialog-act.dharshi.57,A,D,10.22,0.0,False,False,0.0,[],False, So that's gonna be my favourite animal because after all the snow it seemed to say that like Spring is finally here.,22,task,Inform
+ES2015a,D,806.64,807.08,0.44,ES2015a.D.dialog-act.dharshi.58,,,,,,,,,False, Yeah.,1,task,Assess
+ES2015a,D,807.08,807.78,0.7,ES2015a.D.dialog-act.dharshi.59,,,,,,,,,False, There you go.,3,other,Other
+ES2015a,B,807.2,808.998,1.798,ES2015a.B.dialog-act.dharshi.74,,,,,,,,,False, Very nice.,2,task,Assess
+ES2015a,A,808.49,808.9,0.41,ES2015a.A.dialog-act.dharshi.113,,,,,,,,,False, Great.,1,task,Assess
+ES2015a,D,809.136,810.54,1.404,ES2015a.D.dialog-act.dharshi.60,,,,,,,,,False," Uh, what do we",4,minor,Fragment
+ES2015a,D,810.54,810.65,0.11,ES2015a.D.dialog-act.dharshi.61,,,,,,,,,False, Oh.,1,other,Other
+ES2015a,A,816.86,818.9,2.04,ES2015a.A.dialog-act.dharshi.114,A,D,7.88,10.22,True,False,0.0,[],True, Do you hear the eraser buzzing while you do that?,10,elicit,Elicit-Inform
+ES2015a,D,819.44,824.24,4.8,ES2015a.D.dialog-act.dharshi.62,,,,,,,,,False, Yes I do.,3,elicit,Elicit-Inform
+ES2015a,A,820.04,820.81,0.77,ES2015a.A.dialog-act.dharshi.115,,,,,,,,,False, Yea,1,task,Assess
+ES2015a,A,823.12,823.47,0.35,ES2015a.A.dialog-act.dharshi.116,,,,,,,,,False, Right.,1,minor,Stall
+ES2015a,D,825.392,826.624,1.232,ES2015a.D.dialog-act.dharshi.63,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,826.78,830.73,3.95,ES2015a.A.dialog-act.dharshi.117,A,A,0.0,7.88,False,False,0.0,[],False," So, now that we know how to use the whiteboard,",10,task,Inform
+ES2015a,B,830.07,830.97,0.9,ES2015a.B.dialog-act.dharshi.75,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2015a,A,830.73,840.5,9.77,ES2015a.A.dialog-act.dharshi.118,A,A,0.0,0.0,False,False,0.0,[],False," um, the next, um, thing we need to address is our financial department, to meet our our budget,",18,task,Suggest
+ES2015a,A,840.5,847.79,7.29,ES2015a.A.dialog-act.dharshi.119,A,A,0.0,0.0,False,False,0.0,[],False," um or not meet our budget but more, um, like what kind of, uh, selling range we'll be looking at,",20,task,Inform
+ES2015a,A,847.79,854.49,6.7,ES2015a.A.dialog-act.dharshi.120,A,A,0.0,0.0,False,False,0.0,[],False," um, wanna make this um selling price of twenty five Euros.",11,task,Inform
+ES2015a,A,854.49,862.46,7.97,ES2015a.A.dialog-act.dharshi.121,A,A,1.2,0.0,False,False,0.0,[],False," And so we have to, um, come up with a way to, to create a, a uh remote control, where um",21,task,Suggest
+ES2015a,A,863.66,868.47,4.81,ES2015a.A.dialog-act.dharshi.122,A,A,0.0,1.2,False,False,0.0,[],False, we can like the price to create it will be significantly less.,12,task,Suggest
+ES2015a,A,868.47,874.1,5.63,ES2015a.A.dialog-act.dharshi.123,A,A,0.0,0.0,False,False,0.0,[],False," Um, we'd like to, um to, uh, make fifty million Euro.",11,task,Inform
+ES2015a,A,874.1,876.18,2.08,ES2015a.A.dialog-act.dharshi.124,A,A,0.0,0.0,False,False,0.0,[],False, I'm assuming that's what the M_ means.,7,task,Inform
+ES2015a,A,876.18,880.41,4.23,ES2015a.A.dialog-act.dharshi.125,A,A,0.0,0.0,False,False,0.0,[],False," Um, and make it for an international market.",8,task,Inform
+ES2015a,A,880.41,887.66,7.25,ES2015a.A.dialog-act.dharshi.126,A,A,0.0,0.0,False,False,0.0,[],False," Um, one thing we'd have to think about internationally is in the design of, um, like different kinds of, uh, V_C_R_s.",21,task,Suggest
+ES2015a,A,887.66,890.1,2.44,ES2015a.A.dialog-act.dharshi.127,A,A,0.0,0.0,False,False,0.0,[],False," Things like that, depending on which country you are.",9,task,Inform
+ES2015a,A,890.1,892.61,2.51,ES2015a.A.dialog-act.dharshi.128,A,A,0.0,0.0,False,False,0.0,[],False, Another thing for the design team to think about.,9,task,Inform
+ES2015a,A,892.61,900.2,7.59,ES2015a.A.dialog-act.dharshi.129,D,A,4.49,0.0,False,False,0.0,[],False," Um, we want it to cost, uh, absolute maximum of twelve Euro and fifty cents.",15,task,Inform
+ES2015a,D,904.42,904.69,0.27,ES2015a.D.dialog-act.dharshi.64,,,,,,,,,False," Okay,",1,task,Assess
+ES2015a,D,904.69,908.04,3.35,ES2015a.D.dialog-act.dharshi.65,A,A,2.21,4.49,True,False,0.0,[],True, so we'll have a hundred percent profit then?,8,elicit,Elicit-Inform
+ES2015a,D,908.04,909.45,1.41,ES2015a.D.dialog-act.dharshi.66,,,,,,,,,False, Twelve fifty.,2,other,Other
+ES2015a,A,910.25,911.86,1.61,ES2015a.A.dialog-act.dharshi.130,A,D,2.91,2.21,True,False,0.0,[],True, I'm bad at math.,4,task,Inform
+ES2015a,D,911.3,911.94,0.64,ES2015a.D.dialog-act.dharshi.67,,,,,,,,,False, Okay.,1,task,Assess
+ES2015a,A,911.86,914.77,2.91,ES2015a.A.dialog-act.dharshi.131,,,,,,,,,False," 'Kay. Um,",2,minor,Stall
+ES2015a,B,912.439,913.585,1.146,ES2015a.B.dialog-act.dharshi.76,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,914.77,919.57,4.8,ES2015a.A.dialog-act.dharshi.132,A,A,1.95,2.91,False,False,0.0,[],False," so now that, um, that is underway, um",8,task,Inform
+ES2015a,B,920.24,921.317,1.077,ES2015a.B.dialog-act.dharshi.77,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,921.52,922.9,1.38,ES2015a.A.dialog-act.dharshi.133,A,A,0.0,1.95,False,False,0.0,[],False, it is discussion time.,4,task,Inform
+ES2015a,A,922.9,930.15,7.25,ES2015a.A.dialog-act.dharshi.134,A,A,0.0,0.0,False,False,0.0,[],False," So this is time for us to bring our initial ideas, any um suggestions that you may have so far,",20,task,Inform
+ES2015a,A,930.15,940.63,10.48,ES2015a.A.dialog-act.dharshi.135,A,A,1.88,0.0,False,False,0.0,[],False," a um your personal experiences with remote controls, and um, um, areas you see that, uh, could be improved in your experience with them.",24,task,Inform
+ES2015a,A,942.51,943.92,1.41,ES2015a.A.dialog-act.dharshi.136,D,A,1.74,1.88,False,False,0.0,[],False, Does anyone have any initial thoughts?,6,elicit,Elicit-Offer-Or-Suggestion
+ES2015a,D,945.66,948.85,3.19,ES2015a.D.dialog-act.dharshi.68,A,A,1.38,1.74,True,False,0.0,[],True, I find that in the dark it's often hard to know what button you're pushing.,15,task,Inform
+ES2015a,A,949.19,950.23,1.04,ES2015a.A.dialog-act.dharshi.137,,,,,,,,,False, Mm-hmm.,1,task,Assess
+ES2015a,B,950.141,950.723,0.582,ES2015a.B.dialog-act.dharshi.78,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,950.188,951.187,0.999,ES2015a.D.dialog-act.dharshi.69,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,950.23,953.72,3.49,ES2015a.A.dialog-act.dharshi.138,B,D,2.45,1.38,True,False,0.0,[],True," So what's something we could, uh, do to remedy that?",10,elicit,Elicit-Offer-Or-Suggestion
+ES2015a,B,953.97,954.76,0.79,ES2015a.B.dialog-act.dharshi.79,,,,,,,,,False, Okay.,1,other,Unlabelled
+ES2015a,D,955.36,957.568,2.208,ES2015a.D.dialog-act.dharshi.70,,,,,,,,,False, Um,1,minor,Stall
+ES2015a,B,956.17,961.07,4.9,ES2015a.B.dialog-act.dharshi.80,B,A,0.0,2.45,True,False,0.0,[],True, I always find that in our house the remote control always goes missing.,13,task,Inform
+ES2015a,B,961.07,963.68,2.61,ES2015a.B.dialog-act.dharshi.81,B,B,0.0,0.0,False,False,0.0,[],False," It's always, where is the remote control?",7,task,Inform
+ES2015a,C,961.2,962.7,1.5,ES2015a.C.dialog-act.dharshi.68,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2015a,A,961.244,962.391,1.147,ES2015a.A.dialog-act.dharshi.139,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,963.68,965.57,1.89,ES2015a.B.dialog-act.dharshi.82,B,B,1.07,0.0,False,False,0.0,[],False, So maybe if you could have some kind of,9,task,Suggest
+ES2015a,B,966.64,972.53,5.89,ES2015a.B.dialog-act.dharshi.83,B,B,0.72,1.07,False,False,0.0,[],False, tracking device for the remote control or some signal that you could find out where it was.,17,task,Suggest
+ES2015a,A,967.866,969.789,1.923,ES2015a.A.dialog-act.dharshi.140,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,972.53,973.25,0.72,ES2015a.B.dialog-act.dharshi.84,,,,,,,,,False," I dunno,",2,task,Inform
+ES2015a,B,973.25,974.59,1.34,ES2015a.B.dialog-act.dharshi.85,B,B,0.0,0.72,False,False,0.0,[],False, some kind of alarm.,4,task,Suggest
+ES2015a,B,974.59,978.25,3.66,ES2015a.B.dialog-act.dharshi.86,A,B,-1.79,0.0,False,True,1.79,['ES2015a.A.dialog-act.dharshi.142'],False," You can press a button on your wall, signal,",9,task,Suggest
+ES2015a,A,976.46,978.98,2.52,ES2015a.A.dialog-act.dharshi.142,B,B,-0.73,-1.79,True,True,0.73,['ES2015a.B.dialog-act.dharshi.87'],False, Yeah. It's a great idea. It's a great idea.,9,task,Assess
+ES2015a,C,976.567,977.603,1.036,ES2015a.C.dialog-act.dharshi.69,,,,,,,,,False,,0,minor,Fragment
+ES2015a,B,978.25,979.77,1.52,ES2015a.B.dialog-act.dharshi.87,C,A,1.61,-0.73,True,False,0.0,[],False, 'cause it always gets lost.,5,task,Inform
+ES2015a,C,981.38,990.08,8.7,ES2015a.C.dialog-act.dharshi.72,B,B,-1.24,1.61,True,True,1.24,['ES2015a.B.dialog-act.dharshi.89'],True," Do yous not find that, um, like, there's a lot of, um, buttons on your remote control, and you don't know what half of them do.",26,elicit,Elicit-Inform
+ES2015a,B,987.57,988.84,1.27,ES2015a.B.dialog-act.dharshi.88,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2015a,D,988.06,988.64,0.58,ES2015a.D.dialog-act.dharshi.71,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2015a,B,988.84,993.68,4.84,ES2015a.B.dialog-act.dharshi.89,C,C,-3.6,-1.24,True,True,3.296,['ES2015a.C.dialog-act.dharshi.71'],False," Yeah, that you don't use half of them.",8,task,Assess
+ES2015a,A,989.523,992.667,3.144,ES2015a.A.dialog-act.dharshi.143,,,,,,,,,False,,0,minor,Fragment
+ES2015a,C,990.08,993.376,3.296,ES2015a.C.dialog-act.dharshi.71,D,B,3.584,-3.6,True,False,0.0,[],False," Yeah, I don't know what they do.",7,task,Inform
+ES2015a,D,991.35,991.67,0.32,ES2015a.D.dialog-act.dharshi.72,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2015a,D,996.96,1002.72,5.76,ES2015a.D.dialog-act.dharshi.73,B,C,0.63,3.584,True,False,0.0,[],True," There's some remote controls where there's kind of a hidden panel, so all those buttons that you don't really use unless you're programming or something.",25,task,Inform
+ES2015a,C,1000.87,1002.17,1.3,ES2015a.C.dialog-act.dharshi.73,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2015a,B,1001.37,1001.73,0.36,ES2015a.B.dialog-act.dharshi.91,,,,,,,,,False," Yeah,",1,minor,Backchannel
+ES2015a,B,1001.73,1003.35,1.62,ES2015a.B.dialog-act.dharshi.92,,,,,,,,,False," that's, that's",2,minor,Fragment
+ES2015a,D,1002.72,1004.26,1.54,ES2015a.D.dialog-act.dharshi.76,,,,,,,,,False, That's useful.,2,task,Assess
+ES2015a,B,1003.35,1004.9,1.55,ES2015a.B.dialog-act.dharshi.93,D,D,-0.64,0.63,True,True,0.64,['ES2015a.D.dialog-act.dharshi.77'],True," Yeah, it is. Yeah.",4,task,Assess
+ES2015a,D,1004.26,1008.02,3.76,ES2015a.D.dialog-act.dharshi.77,A,B,2.79,-0.64,True,False,0.0,[],False," So you just have like the number buttons, power button, T_V_ video button.",13,task,Inform
+ES2015a,C,1006.94,1007.58,0.64,ES2015a.C.dialog-act.dharshi.74,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2015a,B,1008.12,1009.16,1.04,ES2015a.B.dialog-act.dharshi.90,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2015a,A,1010.23,1010.81,0.58,ES2015a.A.dialog-act.dharshi.144,,,,,,,,,False, Alright.,1,minor,Stall
+ES2015a,A,1010.81,1017.39,6.58,ES2015a.A.dialog-act.dharshi.145,A,D,0.0,2.79,True,False,0.0,[],True," Anything about, um, the look of the, uh, remote control that you might have ideas about.",16,elicit,Elicit-Offer-Or-Suggestion
+ES2015a,A,1017.39,1025.31,7.92,ES2015a.A.dialog-act.dharshi.146,A,A,0.96,0.0,False,False,0.0,[],False," Maybe it could be, instead of like a standard rectangular shape, it could be, um, something more interesting like",19,task,Suggest
+ES2015a,D,1020.928,1021.68,0.752,ES2015a.D.dialog-act.dharshi.78,,,,,,,,,False,,0,minor,Fragment
+ES2015a,A,1026.27,1027.93,1.66,ES2015a.A.dialog-act.dharshi.147,D,A,0.64,0.96,False,False,0.0,[],False, Any ideas will do that you have at this point.,10,task,Inform
+ES2015a,D,1028.57,1030.61,2.04,ES2015a.D.dialog-act.dharshi.80,D,A,1.46,0.64,True,False,0.0,[],True," Could be shaped like a conch,",6,task,Suggest
+ES2015a,B,1028.63,1029.23,0.6,ES2015a.B.dialog-act.dharshi.94,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2015a,C,1030.341,1034.595,4.254,ES2015a.C.dialog-act.dharshi.75,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,1030.61,1032.07,1.46,ES2015a.D.dialog-act.dharshi.81,,,,,,,,,False, you know.,2,other,Other
+ES2015a,A,1030.64,1035.62,4.98,ES2015a.A.dialog-act.dharshi.149,,,,,,,,,False, Can hold it.,3,task,Assess
+ES2015a,B,1030.652,1035.34,4.688,ES2015a.B.dialog-act.dharshi.95,,,,,,,,,False, A novelty.,2,task,Assess
+ES2015a,D,1032.07,1035.44,3.37,ES2015a.D.dialog-act.dharshi.82,B,D,-0.1,1.46,False,True,0.1,['ES2015a.B.dialog-act.dharshi.96'],False, Be like a shell-shaped remote.,5,task,Suggest
+ES2015a,B,1035.34,1037.67,2.33,ES2015a.B.dialog-act.dharshi.96,A,D,0.8,-0.1,True,False,0.0,[],False, Are we going into kind of novelty factors here.,9,elicit,Elicit-Assessment
+ES2015a,A,1035.62,1035.8,0.18,ES2015a.A.dialog-act.dharshi.148,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2015a,B,1037.67,1040.52,2.85,ES2015a.B.dialog-act.dharshi.97,,,,,,,,,False," Like, I've seen phones like a",6,minor,Fragment
+ES2015a,A,1038.47,1042.05,3.58,ES2015a.A.dialog-act.dharshi.150,A,B,0.0,0.8,True,False,0.0,[],True," Well if it's a trendy original, um, aspect we're going for.",11,task,Assess
+ES2015a,B,1040.52,1041.38,0.86,ES2015a.B.dialog-act.dharshi.98,,,,,,,,,False, Okay.,1,task,Assess
+ES2015a,A,1042.05,1047.29,5.24,ES2015a.A.dialog-act.dharshi.151,A,A,0.0,0.0,False,False,0.0,[],False," I mean, you're the designers, you c, you can um decide what kind of, um, direction you wanna go in,",20,task,Suggest
+ES2015a,B,1043.23,1043.67,0.44,ES2015a.B.dialog-act.dharshi.99,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2015a,B,1044.73,1045.13,0.4,ES2015a.B.dialog-act.dharshi.100,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2015a,C,1044.99,1045.78,0.79,ES2015a.C.dialog-act.dharshi.76,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2015a,A,1047.29,1052.26,4.97,ES2015a.A.dialog-act.dharshi.152,B,A,0.06,0.0,False,False,0.0,[],False," but at this point in the, in the first meeting it can be any ideas that we just throw out there.",21,task,Inform
+ES2015a,B,1050.27,1050.74,0.47,ES2015a.B.dialog-act.dharshi.101,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2015a,B,1052.32,1060.25,7.93,ES2015a.B.dialog-act.dharshi.102,B,A,0.0,0.06,True,False,0.0,[],True," I suppose, if we're he heading to have it, like make a huge profit out of this, it needs to be quite a universally accepted thing.",26,task,Suggest
+ES2015a,B,1060.25,1068.22,7.97,ES2015a.B.dialog-act.dharshi.103,B,B,0.0,0.0,False,False,0.0,[],False," Like, a novelty thing might only sell a few things rather than, like, a general kind of more acceptable",19,task,Inform
+ES2015a,C,1060.66,1061.3,0.64,ES2015a.C.dialog-act.dharshi.77,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2015a,D,1062.037,1062.799,0.762,ES2015a.D.dialog-act.dharshi.83,,,,,,,,,False,,0,minor,Fragment
+ES2015a,D,1062.799,1106.166,43.367,ES2015a.D.dialog-act.dharshi.84,,,,,,,,,False,.,0,minor,Fragment
+ES2015a,B,1068.22,1071.29,3.07,ES2015a.B.dialog-act.dharshi.104,A,B,1.41,0.0,False,False,0.0,[],False," But we don't wanna go towards boring, 'cause that wouldn't sell either.",12,task,Suggest
+ES2015a,A,1068.42,1068.8,0.38,ES2015a.A.dialog-act.dharshi.153,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2015a,B,1071.29,1072.38,1.09,ES2015a.B.dialog-act.dharshi.105,,,,,,,,,False," So, hmm.",2,minor,Stall
+ES2015a,A,1071.35,1071.66,0.31,ES2015a.A.dialog-act.dharshi.154,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2015a,A,1072.7,1075.84,3.14,ES2015a.A.dialog-act.dharshi.155,A,B,0.0,1.41,True,False,0.0,[],True," And the key issue here is, is being trendy and original.",11,task,Inform
+ES2015a,B,1075.68,1075.9,0.22,ES2015a.B.dialog-act.dharshi.106,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2015a,A,1075.84,1079.26,3.42,ES2015a.A.dialog-act.dharshi.156,A,A,1.75,0.0,False,False,0.0,[],False," Um, that does not necessarily mean it needs to be outrageous.",11,task,Inform
+ES2015a,B,1079.24,1080.08,0.84,ES2015a.B.dialog-act.dharshi.107,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2015a,A,1080.39,1081.01,0.62,ES2015a.A.dialog-act.dharshi.157,,,,,,,,,False, Right.,1,minor,Stall
+ES2015a,A,1081.01,1083.21,2.2,ES2015a.A.dialog-act.dharshi.158,A,A,3.43,1.75,False,False,0.0,[],False, Okay we have five minutes left.,6,task,Inform
+ES2015a,A,1083.21,1086.64,3.43,ES2015a.A.dialog-act.dharshi.159,,,,,,,,,False," So, just to cover",4,minor,Fragment
+ES2015a,A,1086.64,1089.28,2.64,ES2015a.A.dialog-act.dharshi.160,A,A,0.0,3.43,False,False,0.0,[],False, We have one more thing.,5,task,Inform
+ES2015a,A,1089.28,1092.95,3.67,ES2015a.A.dialog-act.dharshi.161,A,A,0.0,0.0,False,False,0.0,[],False," Um, like you can go over your ideas, of course, in your own personal times.",15,task,Suggest
+ES2015a,B,1092.94,1093.33,0.39,ES2015a.B.dialog-act.dharshi.108,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2015a,A,1092.95,1095.76,2.81,ES2015a.A.dialog-act.dharshi.162,A,A,0.0,0.0,False,False,0.0,[],False," Um, our next meeting will be in half an hour.",10,task,Inform
+ES2015a,A,1095.76,1099.87,4.11,ES2015a.A.dialog-act.dharshi.163,A,A,0.0,0.0,False,False,0.0,[],False," So you have half an hour to, uh, think about what you want to present.",15,task,Suggest
+ES2015a,A,1099.87,1102.67,2.8,ES2015a.A.dialog-act.dharshi.164,A,A,0.0,0.0,False,False,0.0,[],False, Or not present but bring to the meeting.,8,task,Inform
+ES2015a,A,1102.67,1106.15,3.48,ES2015a.A.dialog-act.dharshi.165,A,A,2.07,0.0,False,False,0.0,[],False," Um, I_D_, whatever that stands for.",6,elicit,Elicit-Inform
+ES2015a,D,1106.35,1107.5,1.15,ES2015a.D.dialog-act.dharshi.85,,,,,,,,,False, Interface?,1,elicit,Elicit-Inform
+ES2015a,B,1106.42,1107.53,1.11,ES2015a.B.dialog-act.dharshi.109,,,,,,,,,False, Industrial Designer.,2,task,Inform
+ES2015a,A,1107.36,1108.22,0.86,ES2015a.A.dialog-act.dharshi.166,,,,,,,,,False, Industrial Designer.,2,other,Comment-About-Understanding
+ES2015a,D,1107.5,1108.42,0.92,ES2015a.D.dialog-act.dharshi.86,,,,,,,,,False," Oh, industrial.",2,other,Comment-About-Understanding
+ES2015a,B,1107.53,1109.512,1.982,ES2015a.B.dialog-act.dharshi.110,,,,,,,,,False, That's me.,2,task,Inform
+ES2015a,A,1108.22,1110.57,2.35,ES2015a.A.dialog-act.dharshi.167,A,A,1.1,2.07,False,False,0.0,[],False, I have to remember these things. Um.,7,other,Offer
+ES2015a,A,1111.67,1114.43,2.76,ES2015a.A.dialog-act.dharshi.168,A,A,0.0,1.1,False,False,0.0,[],False," You'll be beginning your, your working design.",7,task,Suggest
+ES2015a,B,1113.65,1113.98,0.33,ES2015a.B.dialog-act.dharshi.111,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2015a,A,1114.43,1119.66,5.23,ES2015a.A.dialog-act.dharshi.169,A,A,0.0,0.0,False,False,0.0,[],False," Um, U_I_D_ the technical functions design will, will be worked on the next thirty minutes.",15,task,Suggest
+ES2015a,A,1119.66,1123.02,3.36,ES2015a.A.dialog-act.dharshi.170,A,A,0.0,0.0,False,False,0.0,[],False," Um, maybe how this can be achieved,",7,task,Inform
+ES2015a,A,1123.02,1129.06,6.04,ES2015a.A.dialog-act.dharshi.171,A,A,2.11,0.0,False,False,0.0,[],False," and, um, we need the user requirements from the manag",10,task,Inform
+ES2015a,D,1128.95,1131.34,2.39,ES2015a.D.dialog-act.dharshi.87,,,,,,,,,False, Marketing Expert.,2,task,Inform
+ES2015a,A,1129.06,1131.17,2.11,ES2015a.A.dialog-act.dharshi.176,,,,,,,,,False, Marketing Expert.,2,other,Comment-About-Understanding
+ES2015a,A,1131.17,1136.51,5.34,ES2015a.A.dialog-act.dharshi.172,A,A,0.0,2.11,False,False,0.0,[],False," Um, you will get specific instructions, um, of what to do in the next half an hour.",17,task,Inform
+ES2015a,A,1136.51,1138.27,1.76,ES2015a.A.dialog-act.dharshi.173,,A,,0.0,False,False,0.0,[],False," And I'll see you in half an hour,",8,task,Inform
+ES2015a,A,1138.27,1139.33,1.06,ES2015a.A.dialog-act.dharshi.174,,,,,,,,,False, okay?,1,elicit,Elicit-Assessment
+ES2015a,B,1138.77,1139.39,0.62,ES2015a.B.dialog-act.dharshi.112,,,,,,,,,False, Okay.,1,task,Assess
+ES2015a,A,1139.33,1140.01,0.68,ES2015a.A.dialog-act.dharshi.175,,,,,,,,,False, 'Kay.,1,task,Assess
+ES2015a,B,1139.39,1139.81,0.42,ES2015a.B.dialog-act.dharshi.113,,,,,,,,,False, Thank you.,2,other,Be-Positive
+ES2015a,C,1139.888,1141.455,1.567,ES2015a.C.dialog-act.dharshi.78,,,,,,,,,False,,0,minor,Fragment

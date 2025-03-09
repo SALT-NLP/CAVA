@@ -1,0 +1,990 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+IS1000b,C,202.26,203.91,1.65,IS1000b.C.dialog-act.vkaraisk.1,,,,,,,,,False, Okay.,1,task,Assess
+IS1000b,B,202.93,203.14,0.21,IS1000b.B.dialog-act.vkaraisk.1,,,,,,,,,False, So,1,minor,Stall
+IS1000b,B,203.14,204.79,1.65,IS1000b.B.dialog-act.vkaraisk.2,B,,1.56,,True,False,0.0,[],False," I see all everybody's here,",5,task,Inform
+IS1000b,B,204.79,205.01,0.22,IS1000b.B.dialog-act.vkaraisk.3,,,,,,,,,False, 'kay.,1,task,Assess
+IS1000b,A,205.67,205.88,0.21,IS1000b.A.dialog-act.vkaraisk.1,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,D,205.68,207.37,1.69,IS1000b.D.dialog-act.vkaraisk.1,,,,,,,,,False, Yep.,1,minor,Backchannel
+IS1000b,B,206.35,207.78,1.43,IS1000b.B.dialog-act.vkaraisk.4,A,B,2.62,1.56,False,False,0.0,[],False, And we can start meeting.,5,task,Suggest
+IS1000b,C,209.43,210.84,1.41,IS1000b.C.dialog-act.vkaraisk.2,,,,,,,,,False, Okay.,1,minor,Stall
+IS1000b,A,210.4,211.52,1.12,IS1000b.A.dialog-act.vkaraisk.2,B,B,1.19,2.62,True,False,0.0,[],True, What's the agenda for this meeting?,6,elicit,Elicit-Inform
+IS1000b,B,211.98,212.71,0.73,IS1000b.B.dialog-act.vkaraisk.5,,,,,,,,,False, The,1,minor,Fragment
+IS1000b,B,212.71,219.37,6.66,IS1000b.B.dialog-act.vkaraisk.6,B,A,0.0,1.19,True,False,0.0,[],True, I will uh present here agenda with with with with slides to you.,13,other,Offer
+IS1000b,A,217.35,217.59,0.24,IS1000b.A.dialog-act.vkaraisk.3,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1000b,B,219.37,221.97,2.6,IS1000b.B.dialog-act.vkaraisk.7,B,B,4.94,0.0,False,False,0.0,[],False, Um as you can see here.,6,task,Inform
+IS1000b,D,221.551,222.45,0.899,IS1000b.D.dialog-act.vkaraisk.2,,,,,,,,,False,,0,minor,Fragment
+IS1000b,C,222.19,225.67,3.48,IS1000b.C.dialog-act.vkaraisk.3,,,,,,,,,False,,0,minor,Fragment
+IS1000b,D,223.89,224.22,0.33,IS1000b.D.dialog-act.vkaraisk.3,,,,,,,,,False, Perfect.,1,other,Be-Positive
+IS1000b,B,225.35,226.91,1.56,IS1000b.B.dialog-act.vkaraisk.8,,,,,,,,,False, So,1,minor,Stall
+IS1000b,B,226.91,234.72,7.81,IS1000b.B.dialog-act.vkaraisk.9,B,B,0.0,4.94,False,False,0.0,[],False, first uh just to mention I will take notes uh of this meeting,13,task,Inform
+IS1000b,A,233.42,233.64,0.22,IS1000b.A.dialog-act.vkaraisk.4,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,B,234.72,236.37,1.65,IS1000b.B.dialog-act.vkaraisk.10,B,B,0.0,0.0,False,False,0.0,[],False, and uh I will try to work them out,9,other,Offer
+IS1000b,B,236.37,237.22,0.85,IS1000b.B.dialog-act.vkaraisk.11,B,B,0.0,0.0,False,False,0.0,[],False, and give them to you.,5,other,Offer
+IS1000b,B,237.22,240.06,2.84,IS1000b.B.dialog-act.vkaraisk.12,B,B,0.0,0.0,False,False,0.0,[],False, I've also made notes of the previous meeting,8,task,Inform
+IS1000b,B,240.06,242.98,2.92,IS1000b.B.dialog-act.vkaraisk.13,B,B,0.0,0.0,False,False,0.0,[],False, and um I was about to send them you,9,task,Inform
+IS1000b,B,242.98,247.33,4.35,IS1000b.B.dialog-act.vkaraisk.14,B,B,0.0,0.0,False,False,0.0,[],False, but then uh I had to go to this uh meeting,11,task,Inform
+IS1000b,B,247.33,248.59,1.26,IS1000b.B.dialog-act.vkaraisk.15,D,B,4.12,0.0,False,False,0.0,[],False, so you will get them too uh,7,other,Offer
+IS1000b,A,249.32,250.13,0.81,IS1000b.A.dialog-act.vkaraisk.5,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,C,249.45,250.14,0.69,IS1000b.C.dialog-act.vkaraisk.4,,,,,,,,,False, Next.,1,other,Other
+IS1000b,B,250.48,251.39,0.91,IS1000b.B.dialog-act.vkaraisk.16,,,,,,,,,False, Um.,1,minor,Stall
+IS1000b,D,252.71,255.47,2.76,IS1000b.D.dialog-act.vkaraisk.4,B,B,6.13,4.12,True,False,0.0,[],True, So y you are the secretary also.,7,task,Inform
+IS1000b,B,255.3,256.79,1.49,IS1000b.B.dialog-act.vkaraisk.17,,,,,,,,,False, Yes. Indeed.,2,task,Assess
+IS1000b,D,255.47,255.82,0.35,IS1000b.D.dialog-act.vkaraisk.5,,,,,,,,,False, Right?,1,elicit,Elicit-Assessment
+IS1000b,D,255.82,256.12,0.3,IS1000b.D.dialog-act.vkaraisk.6,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+IS1000b,B,261.6,276.66,15.06,IS1000b.B.dialog-act.vkaraisk.18,D,D,-10.64,6.13,True,True,1.87,['IS1000b.D.dialog-act.vkaraisk.7'],True, Then I hope you all have uh worked out some some uh some some presentations about uh about well you the the task given to you in the previous meeting.,30,elicit,Elicit-Inform
+IS1000b,D,266.02,267.89,1.87,IS1000b.D.dialog-act.vkaraisk.7,B,B,8.77,-10.64,True,False,0.0,[],False, Perfectly yeah yeah of course uh-huh.,6,task,Inform
+IS1000b,C,267.12,267.696,0.576,IS1000b.C.dialog-act.vkaraisk.5,,,,,,,,,False,,0,minor,Fragment
+IS1000b,B,276.66,285.53,8.87,IS1000b.B.dialog-act.vkaraisk.19,B,D,0.0,8.77,True,False,0.0,[],True, Um. W We will uh in a minute we will uh start with them.,14,task,Suggest
+IS1000b,B,285.53,290.29,4.76,IS1000b.B.dialog-act.vkaraisk.20,B,B,0.0,0.0,False,False,0.0,[],False," Um, we will see in which order we will handle them of.",12,task,Suggest
+IS1000b,B,290.29,295.69,5.4,IS1000b.B.dialog-act.vkaraisk.21,B,B,0.0,0.0,False,False,0.0,[],False, Um then I will uh bring in some some some new requirements,12,task,Inform
+IS1000b,B,295.69,298.86,3.17,IS1000b.B.dialog-act.vkaraisk.22,B,B,0.0,0.0,False,False,0.0,[],False," I I got uh from the uh account manager,",9,task,Inform
+IS1000b,B,298.86,300.57,1.71,IS1000b.B.dialog-act.vkaraisk.23,B,B,0.0,0.0,False,False,0.0,[],False," I try to work them out,",6,other,Offer
+IS1000b,B,300.57,301.7,1.13,IS1000b.B.dialog-act.vkaraisk.24,B,B,0.0,0.0,False,False,0.0,[],False," they were quite abstract,",4,task,Assess
+IS1000b,B,301.7,307.73,6.03,IS1000b.B.dialog-act.vkaraisk.25,B,B,0.87,0.0,False,False,0.0,[],False, and we can have maybe have com some discussion about it. Uh Um about the functions,16,task,Inform
+IS1000b,A,302.26,302.59,0.33,IS1000b.A.dialog-act.vkaraisk.6,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,B,307.73,308.38,0.65,IS1000b.B.dialog-act.vkaraisk.26,,,,,,,,,False, and,1,minor,Fragment
+IS1000b,B,308.38,308.6,0.22,IS1000b.B.dialog-act.vkaraisk.27,,,,,,,,,False, Well,1,minor,Stall
+IS1000b,B,308.6,318.656,10.056,IS1000b.B.dialog-act.vkaraisk.28,D,B,0.374,0.87,False,False,0.0,[],False, in this meeting we should really try to reach a decision about the target group and the functionality of the,20,task,Inform
+IS1000b,A,316.26,316.5,0.24,IS1000b.A.dialog-act.vkaraisk.7,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,D,319.03,322.64,3.61,IS1000b.D.dialog-act.vkaraisk.8,B,B,-1.47,0.374,True,True,1.47,['IS1000b.B.dialog-act.vkaraisk.29'],True, You mean the social target group who we wants to target?,11,elicit,Elicit-Inform
+IS1000b,B,321.17,326.61,5.44,IS1000b.B.dialog-act.vkaraisk.29,D,D,-1.07,-1.47,True,True,1.07,['IS1000b.D.dialog-act.vkaraisk.9'],False," Yes I mean well yes w who are we going to uh to well to sell this,",17,task,Inform
+IS1000b,A,325.32,325.57,0.25,IS1000b.A.dialog-act.vkaraisk.8,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,C,325.336,326.38,1.044,IS1000b.C.dialog-act.vkaraisk.6,,,,,,,,,False,,0,minor,Fragment
+IS1000b,D,325.54,326.7,1.16,IS1000b.D.dialog-act.vkaraisk.9,B,B,-0.09,-1.07,True,True,0.09,['IS1000b.B.dialog-act.vkaraisk.30'],False," Oh the customers, okay.",4,other,Comment-About-Understanding
+IS1000b,B,326.61,328.0,1.39,IS1000b.B.dialog-act.vkaraisk.30,B,D,1.64,-0.09,True,False,0.0,[],False," the customers, indeed yes.",4,task,Assess
+IS1000b,A,326.93,327.18,0.25,IS1000b.A.dialog-act.vkaraisk.9,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,B,329.64,331.42,1.78,IS1000b.B.dialog-act.vkaraisk.31,A,B,-0.62,1.64,False,True,0.62,['IS1000b.A.dialog-act.vkaraisk.10'],False, Think that's that's important matter.,5,task,Assess
+IS1000b,A,330.8,331.62,0.82,IS1000b.A.dialog-act.vkaraisk.10,B,B,5.54,-0.62,True,False,0.0,[],False, That's the big question,4,task,Assess
+IS1000b,A,331.62,331.86,0.24,IS1000b.A.dialog-act.vkaraisk.11,,,,,,,,,False, yeah.,1,task,Assess
+IS1000b,B,333.09,337.16,4.07,IS1000b.B.dialog-act.vkaraisk.32,,,,,,,,,False, Uh. So,2,minor,Stall
+IS1000b,C,336.903,339.365,2.462,IS1000b.C.dialog-act.vkaraisk.7,,,,,,,,,False,,0,minor,Fragment
+IS1000b,B,337.16,339.35,2.19,IS1000b.B.dialog-act.vkaraisk.33,B,A,0.0,5.54,True,False,0.0,[],True, And then uh we will close this meeting uh,9,task,Inform
+IS1000b,B,339.35,344.03,4.68,IS1000b.B.dialog-act.vkaraisk.34,B,B,9.21,0.0,False,False,0.0,[],False, and after this meeting we'll uh we'll have a lunch.,10,task,Inform
+IS1000b,B,344.03,344.28,0.25,IS1000b.B.dialog-act.vkaraisk.35,,,,,,,,,False, Good.,1,other,Be-Positive
+IS1000b,B,346.53,350.05,3.52,IS1000b.B.dialog-act.vkaraisk.36,,,,,,,,,False, Um. Maybe um,3,minor,Stall
+IS1000b,B,352.92,353.24,0.32,IS1000b.B.dialog-act.vkaraisk.37,,,,,,,,,False, why,1,minor,Fragment
+IS1000b,B,353.24,356.47,3.23,IS1000b.B.dialog-act.vkaraisk.38,B,B,0.0,9.21,False,False,0.0,[],False, uh Anna can you c do you have a presentations?,10,elicit,Elicit-Inform
+IS1000b,A,355.66,357.11,1.45,IS1000b.A.dialog-act.vkaraisk.12,,,,,,,,,False," No, I don't.",3,task,Inform
+IS1000b,B,356.47,357.49,1.02,IS1000b.B.dialog-act.vkaraisk.39,A,B,3.86,0.0,False,False,0.0,[],False, You don't have presentation?,4,elicit,Elicit-Inform
+IS1000b,A,357.11,359.26,2.15,IS1000b.A.dialog-act.vkaraisk.13,,,,,,,,,False, I wasn't. No.,3,task,Inform
+IS1000b,B,359.49,361.37,1.88,IS1000b.B.dialog-act.vkaraisk.40,,,,,,,,,False, Uh you want a table to to uh,8,minor,Fragment
+IS1000b,A,361.35,362.24,0.89,IS1000b.A.dialog-act.vkaraisk.14,A,B,0.0,3.86,True,False,0.0,[],True, I c I can talk about it,7,other,Offer
+IS1000b,A,362.24,363.34,1.1,IS1000b.A.dialog-act.vkaraisk.15,B,A,-0.74,0.0,False,True,0.74,['IS1000b.B.dialog-act.vkaraisk.41'],False, but I have no slides or anything.,7,task,Inform
+IS1000b,B,362.6,365.65,3.05,IS1000b.B.dialog-act.vkaraisk.41,B,A,0.0,-0.74,True,False,0.0,[],False, Yes yes maybe maybe you can uh can just talk about it,12,task,Assess
+IS1000b,B,365.65,367.93,2.28,IS1000b.B.dialog-act.vkaraisk.42,A,B,1.35,0.0,False,False,0.0,[],False, or maybe you can use the whiteboard if necessary um.,10,task,Suggest
+IS1000b,A,367.92,369.05,1.13,IS1000b.A.dialog-act.vkaraisk.16,,,,,,,,,False, Mm-hmm.,1,task,Assess
+IS1000b,A,369.05,369.28,0.23,IS1000b.A.dialog-act.vkaraisk.17,,,,,,,,,False, Well,1,minor,Stall
+IS1000b,A,369.28,373.31,4.03,IS1000b.A.dialog-act.vkaraisk.18,A,B,0.14,1.35,True,False,0.0,[],True, I've just been um presented with some research we've done in a small focus group,15,task,Inform
+IS1000b,A,373.31,373.45,0.14,IS1000b.A.dialog-act.vkaraisk.19,,,,,,,,,False," so,",1,minor,Stall
+IS1000b,A,373.45,380.35,6.9,IS1000b.A.dialog-act.vkaraisk.20,A,A,3.05,0.14,False,False,0.0,[],False," a hundred people, just asked them about their remote control usage habits and what they want in a remote control. Um.",21,task,Inform
+IS1000b,A,381.73,383.4,1.67,IS1000b.A.dialog-act.vkaraisk.21,,,,,,,,,False, It's,1,minor,Fragment
+IS1000b,A,383.4,384.85,1.45,IS1000b.A.dialog-act.vkaraisk.22,A,A,0.0,3.05,False,False,0.0,[],False," probably can't email this to you,",6,task,Inform
+IS1000b,A,384.85,387.43,2.58,IS1000b.A.dialog-act.vkaraisk.23,A,A,0.0,0.0,False,False,0.0,[],False, I've just got a web page with some data on it.,11,task,Inform
+IS1000b,A,387.43,394.82,7.39,IS1000b.A.dialog-act.vkaraisk.24,A,A,0.0,0.0,False,False,0.0,[],False, Um basically it's saying that users generally dislike the look and feel of their remote controls.,16,task,Inform
+IS1000b,A,394.82,401.73,6.91,IS1000b.A.dialog-act.vkaraisk.25,A,A,1.27,0.0,False,False,0.0,[],False, Um seventy five u seventy five percent of users find most remote controls ugly. Um.,15,task,Inform
+IS1000b,B,400.84,401.17,0.33,IS1000b.B.dialog-act.vkaraisk.43,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,A,403.0,407.58,4.58,IS1000b.A.dialog-act.vkaraisk.26,A,A,0.0,1.27,False,False,0.0,[],False, Eighty percent of users would spend more money when a remote control would look fancy.,15,task,Inform
+IS1000b,A,407.58,413.52,5.94,IS1000b.A.dialog-act.vkaraisk.27,A,A,0.0,0.0,False,False,0.0,[],False, Um. Current remote controls do not match well the operating behaviour of the user.,14,task,Inform
+IS1000b,A,413.52,416.46,2.94,IS1000b.A.dialog-act.vkaraisk.28,A,A,0.0,0.0,False,False,0.0,[],False," Uh seventy five percent of users said they zap a lot,",11,task,Inform
+IS1000b,A,416.46,420.72,4.26,IS1000b.A.dialog-act.vkaraisk.29,A,A,0.0,0.0,False,False,0.0,[],False, so they use their remote control quite frequently while they're watching television.,12,task,Inform
+IS1000b,A,420.72,424.81,4.09,IS1000b.A.dialog-act.vkaraisk.30,A,A,0.0,0.0,False,False,0.0,[],False," Uh. Fifty percent of users say that they only use ten percent of the buttons,",15,task,Inform
+IS1000b,A,424.81,427.08,2.27,IS1000b.A.dialog-act.vkaraisk.31,A,A,0.0,0.0,False,False,0.0,[],False, so they've got a remote control with a lot of functionality,11,task,Inform
+IS1000b,A,427.08,429.93,2.85,IS1000b.A.dialog-act.vkaraisk.32,B,A,3.9,0.0,False,False,0.0,[],False, but really most of the time they only use a small part of that.,14,task,Inform
+IS1000b,B,430.0,430.33,0.33,IS1000b.B.dialog-act.vkaraisk.44,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,A,431.9,432.35,0.45,IS1000b.A.dialog-act.vkaraisk.33,,,,,,,,,False, Um.,1,minor,Stall
+IS1000b,B,433.83,436.42,2.59,IS1000b.B.dialog-act.vkaraisk.45,A,A,-0.42,3.9,True,True,0.42,['IS1000b.A.dialog-act.vkaraisk.34'],True, Do you Do you have this uh information on the web page you said?,14,elicit,Elicit-Inform
+IS1000b,A,436.0,437.39,1.39,IS1000b.A.dialog-act.vkaraisk.34,B,B,0.31,-0.42,True,False,0.0,[],False, I have an a web page yes.,7,task,Inform
+IS1000b,B,437.43,437.7,0.27,IS1000b.B.dialog-act.vkaraisk.46,,,,,,,,,False," Yes,",1,minor,Stall
+IS1000b,B,437.7,444.47,6.77,IS1000b.B.dialog-act.vkaraisk.47,A,A,-3.68,0.31,True,True,3.68,['IS1000b.A.dialog-act.vkaraisk.35'],True, mayb maybe you can can send an email to me later uh. Uh about this.,15,task,Suggest
+IS1000b,A,440.79,444.82,4.03,IS1000b.A.dialog-act.vkaraisk.35,A,B,1.37,-3.68,True,False,0.0,[],False," Yep. Yep, sure. Mm-hmm.",4,task,Assess
+IS1000b,A,444.82,446.19,1.37,IS1000b.A.dialog-act.vkaraisk.36,,,,,,,,,False, So basically um,3,minor,Stall
+IS1000b,A,446.19,450.35,4.16,IS1000b.A.dialog-act.vkaraisk.37,A,A,0.0,1.37,False,False,0.0,[],False, there's a breakdown of how much they use the different functions on a rem remote control.,16,task,Inform
+IS1000b,A,450.35,457.84,7.49,IS1000b.A.dialog-act.vkaraisk.38,A,A,0.0,0.0,False,False,0.0,[],False," Um, power and volume selection are only used a few times within this uh per hour.",16,task,Inform
+IS1000b,A,457.84,463.62,5.78,IS1000b.A.dialog-act.vkaraisk.39,A,A,0.0,0.0,False,False,0.0,[],False," Um, channel selection is used a hundred and sixty eight times um",12,task,Inform
+IS1000b,A,463.62,468.27,4.65,IS1000b.A.dialog-act.vkaraisk.40,A,A,0.0,0.0,False,False,0.0,[],False," and then there's things like channel settings, audio settings, which are only used very infrequently.",15,task,Inform
+IS1000b,B,467.73,468.09,0.36,IS1000b.B.dialog-act.vkaraisk.48,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,A,468.27,473.31,5.04,IS1000b.A.dialog-act.vkaraisk.41,A,A,0.0,0.0,False,False,0.0,[],False," Um. Teletext is used um fourteen times in the hour,",10,task,Inform
+IS1000b,A,473.31,479.13,5.82,IS1000b.A.dialog-act.vkaraisk.42,A,A,1.66,0.0,False,False,0.0,[],False, so it is used but not nearly as much as the channel selection is used. Um.,16,task,Inform
+IS1000b,B,475.16,475.42,0.26,IS1000b.B.dialog-act.vkaraisk.49,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,A,480.79,483.02,2.23,IS1000b.A.dialog-act.vkaraisk.43,A,A,0.0,1.66,False,False,0.0,[],False, An interesting thing that this report has brought up,9,task,Assess
+IS1000b,A,483.02,490.35,7.33,IS1000b.A.dialog-act.vkaraisk.44,A,A,0.0,0.0,False,False,0.0,[],False," is that um fifty fifty percent of users report that the remote control gets lost a lot of the time in the room,",23,task,Inform
+IS1000b,B,490.21,490.74,0.53,IS1000b.B.dialog-act.vkaraisk.50,,,,,,,,,False," Yes yes,",2,task,Assess
+IS1000b,A,490.35,497.51,7.16,IS1000b.A.dialog-act.vkaraisk.45,B,A,-6.77,0.0,False,True,1.09,['IS1000b.B.dialog-act.vkaraisk.51'],False, so some way of some way of locating the remote control would be very useful to a lot of users. Um.,21,task,Assess
+IS1000b,B,490.74,491.83,1.09,IS1000b.B.dialog-act.vkaraisk.51,A,A,5.68,-6.77,True,False,0.0,[],False, I have that too.,4,task,Inform
+IS1000b,D,491.635,492.469,0.834,IS1000b.D.dialog-act.vkaraisk.10,,,,,,,,,False,,0,minor,Fragment
+IS1000b,A,497.51,502.31,4.8,IS1000b.A.dialog-act.vkaraisk.46,A,B,0.0,5.68,True,False,0.0,[],True," Thirty four percent said it takes too long to learn to use a remote control,",15,task,Inform
+IS1000b,A,502.31,505.34,3.03,IS1000b.A.dialog-act.vkaraisk.47,D,A,1.32,0.0,False,False,0.0,[],False," they want something that's easier to use straight away, more intuitive perhaps.",12,task,Inform
+IS1000b,B,505.75,506.05,0.3,IS1000b.B.dialog-act.vkaraisk.52,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,A,506.39,506.93,0.54,IS1000b.A.dialog-act.vkaraisk.48,,,,,,,,,False, Um.,1,minor,Stall
+IS1000b,D,506.66,509.436,2.776,IS1000b.D.dialog-act.vkaraisk.11,A,A,-0.186,1.32,True,True,0.186,['IS1000b.A.dialog-act.vkaraisk.49'],True, It's it's easy to learn or how do you say it's,11,other,Comment-About-Understanding
+IS1000b,A,509.25,513.3,4.05,IS1000b.A.dialog-act.vkaraisk.49,D,D,-1.31,-0.186,True,True,1.31,['IS1000b.D.dialog-act.vkaraisk.12'],False, Thirty four percent said it took too much time to learn to use a new one. Yep.,17,task,Inform
+IS1000b,D,511.99,513.7,1.71,IS1000b.D.dialog-act.vkaraisk.12,A,A,0.58,-1.31,True,False,0.0,[],False, Okay too much time to learn. Okay.,7,other,Comment-About-Understanding
+IS1000b,A,514.28,520.32,6.04,IS1000b.A.dialog-act.vkaraisk.50,A,D,0.0,0.58,True,False,0.0,[],True, Um. And thirty twenty six percent said remote controls are bad for R_S_I_.,13,task,Inform
+IS1000b,D,515.06,516.56,1.5,IS1000b.D.dialog-act.vkaraisk.13,,,,,,,,,False, Not enough,2,minor,Fragment
+IS1000b,A,520.32,523.56,3.24,IS1000b.A.dialog-act.vkaraisk.51,C,A,-1.752,0.0,False,True,1.732,['IS1000b.C.dialog-act.vkaraisk.8'],False, I don't know how we'd go about combating that.,9,elicit,Elicit-Offer-Or-Suggestion
+IS1000b,C,521.808,523.54,1.732,IS1000b.C.dialog-act.vkaraisk.8,A,A,0.8,-1.752,True,False,0.0,[],False,. What do you mean there?,5,elicit,Elicit-Inform
+IS1000b,A,523.56,524.34,0.78,IS1000b.A.dialog-act.vkaraisk.52,,,,,,,,,False, For R_S_I_?,2,other,Comment-About-Understanding
+IS1000b,A,524.34,526.0,1.66,IS1000b.A.dialog-act.vkaraisk.53,B,C,3.16,0.8,True,False,0.0,[],True, Respet Repetitive strain injury.,4,task,Inform
+IS1000b,C,526.05,526.5,0.45,IS1000b.C.dialog-act.vkaraisk.9,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+IS1000b,B,526.94,527.18,0.24,IS1000b.B.dialog-act.vkaraisk.53,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,A,527.43,529.216,1.786,IS1000b.A.dialog-act.vkaraisk.54,,,,,,,,,False, So. But,2,minor,Stall
+IS1000b,B,529.16,532.71,3.55,IS1000b.B.dialog-act.vkaraisk.54,B,A,0.0,3.16,True,False,0.0,[],True, They think that or do their doctor the doctor says?,10,other,Other
+IS1000b,A,531.96,532.31,0.35,IS1000b.A.dialog-act.vkaraisk.55,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,B,532.71,535.39,2.68,IS1000b.B.dialog-act.vkaraisk.55,A,B,-0.55,0.0,False,True,0.55,['IS1000b.A.dialog-act.vkaraisk.56'],False, But it's it's the opinion of the uh of the users huh?,12,elicit,Elicit-Inform
+IS1000b,A,534.84,538.01,3.17,IS1000b.A.dialog-act.vkaraisk.56,A,B,0.0,-0.55,True,False,0.0,[],False, Yeah. That's what the report says yeah.,7,task,Inform
+IS1000b,B,536.89,537.74,0.85,IS1000b.B.dialog-act.vkaraisk.56,,,,,,,,,False, So mm.,2,minor,Backchannel
+IS1000b,A,538.01,540.7,2.69,IS1000b.A.dialog-act.vkaraisk.57,D,A,-0.14,0.0,False,True,0.14,['IS1000b.D.dialog-act.vkaraisk.14'],False, Um and then it's got a demographic breakdown,8,task,Inform
+IS1000b,D,540.56,544.64,4.08,IS1000b.D.dialog-act.vkaraisk.14,A,A,-0.04,-0.14,True,True,0.04,['IS1000b.A.dialog-act.vkaraisk.59'],False, Maybe y y you cannot put this webpage online on the,11,elicit,Elicit-Assessment
+IS1000b,A,540.7,541.088,0.388,IS1000b.A.dialog-act.vkaraisk.58,,,,,,,,,False, on,1,minor,Fragment
+IS1000b,A,544.6,547.13,2.53,IS1000b.A.dialog-act.vkaraisk.59,C,D,-0.15,-0.04,True,True,0.15,['IS1000b.C.dialog-act.vkaraisk.10'],False," Uh I should be able to actually, if I email it to you now.",14,task,Assess
+IS1000b,C,546.98,548.18,1.2,IS1000b.C.dialog-act.vkaraisk.10,D,A,2.63,-0.15,True,False,0.0,[],False, You can disconnect it there,5,task,Suggest
+IS1000b,B,547.76,549.456,1.696,IS1000b.B.dialog-act.vkaraisk.57,,,,,,,,,False, You can maybe just just,5,minor,Fragment
+IS1000b,C,548.18,548.32,0.14,IS1000b.C.dialog-act.vkaraisk.11,,,,,,,,,False, no?,1,elicit,Elicit-Assessment
+IS1000b,D,549.4,549.59,0.19,IS1000b.D.dialog-act.vkaraisk.15,,,,,,,,,False, Ah,1,minor,Stall
+IS1000b,D,549.59,550.46,0.87,IS1000b.D.dialog-act.vkaraisk.16,,,,,,,,,False, it's it,2,minor,Fragment
+IS1000b,A,549.6,550.31,0.71,IS1000b.A.dialog-act.vkaraisk.60,,,,,,,,,False," Oh no, yeah.",3,other,Other
+IS1000b,D,550.46,550.81,0.35,IS1000b.D.dialog-act.vkaraisk.17,,,,,,,,,False, okay,1,minor,Stall
+IS1000b,D,550.81,553.18,2.37,IS1000b.D.dialog-act.vkaraisk.18,D,C,0.77,2.63,True,False,0.0,[],True, it's a webpage on the C_ it's a file,9,elicit,Elicit-Inform
+IS1000b,A,552.37,554.16,1.79,IS1000b.A.dialog-act.vkaraisk.61,,,,,,,,,False, Yeah.,1,task,Inform
+IS1000b,D,553.18,553.95,0.77,IS1000b.D.dialog-act.vkaraisk.19,,,,,,,,,False, okay.,1,other,Comment-About-Understanding
+IS1000b,D,553.95,558.49,4.54,IS1000b.D.dialog-act.vkaraisk.20,A,D,-4.33,0.77,False,True,2.54,"['IS1000b.A.dialog-act.vkaraisk.62', 'IS1000b.C.dialog-act.vkaraisk.12']",False, O otherwise you yeah. You can connect this one.,9,task,Suggest
+IS1000b,A,554.16,554.94,0.78,IS1000b.A.dialog-act.vkaraisk.62,C,D,1.01,-4.33,True,False,0.0,[],False," Um, s hang on.",4,task,Suggest
+IS1000b,B,555.066,556.408,1.342,IS1000b.B.dialog-act.vkaraisk.58,,,,,,,,,False,,0,minor,Fragment
+IS1000b,C,555.95,558.61,2.66,IS1000b.C.dialog-act.vkaraisk.12,C,A,1.46,1.01,True,False,0.0,[],True, Then you can connect this one or this one,9,task,Suggest
+IS1000b,C,558.61,558.88,0.27,IS1000b.C.dialog-act.vkaraisk.13,,,,,,,,,False, yeah.,1,task,Assess
+IS1000b,B,559.696,559.92,0.224,IS1000b.B.dialog-act.vkaraisk.59,,,,,,,,,False,,0,minor,Fragment
+IS1000b,C,560.07,562.46,2.39,IS1000b.C.dialog-act.vkaraisk.14,D,C,7.26,1.46,False,False,0.0,[],False, All to your computer.,4,other,Other
+IS1000b,D,565.66,565.75,0.09,IS1000b.D.dialog-act.vkaraisk.21,,,,,,,,,False, Yeah.,1,other,Other
+IS1000b,A,567.52,567.73,0.21,IS1000b.A.dialog-act.vkaraisk.63,,,,,,,,,False, Well.,1,minor,Stall
+IS1000b,D,569.56,569.72,0.16,IS1000b.D.dialog-act.vkaraisk.22,,,,,,,,,False, So,1,minor,Stall
+IS1000b,D,569.72,571.52,1.8,IS1000b.D.dialog-act.vkaraisk.23,D,C,0.0,7.26,True,False,0.0,[],True, these are important numbers,4,task,Assess
+IS1000b,D,571.52,577.883,6.363,IS1000b.D.dialog-act.vkaraisk.24,A,D,-2.373,0.0,False,True,1.38,"['IS1000b.A.dialog-act.vkaraisk.65', 'IS1000b.A.dialog-act.vkaraisk.66']",False, that Matthew and I need to take into account for our functional um,13,task,Suggest
+IS1000b,C,573.84,575.68,1.84,IS1000b.C.dialog-act.vkaraisk.15,,,,,,,,,False, Oh yeah.,2,task,Assess
+IS1000b,B,574.689,576.224,1.535,IS1000b.B.dialog-act.vkaraisk.60,,,,,,,,,False,,0,minor,Fragment
+IS1000b,A,575.36,575.51,0.15,IS1000b.A.dialog-act.vkaraisk.64,,,,,,,,,False, Oh,1,minor,Stall
+IS1000b,A,575.51,576.89,1.38,IS1000b.A.dialog-act.vkaraisk.65,A,D,0.0,-2.373,True,False,0.0,[],False, I need to muck around with this.,7,task,Inform
+IS1000b,A,576.89,578.49,1.6,IS1000b.A.dialog-act.vkaraisk.66,A,A,0.0,0.0,False,False,0.0,[],False, It's probably easier if you put it on yours,9,task,Suggest
+IS1000b,A,578.49,579.92,1.43,IS1000b.A.dialog-act.vkaraisk.67,A,A,0.0,0.0,False,False,0.0,[],False, and then I'll just email it to you.,8,other,Offer
+IS1000b,B,579.67,579.93,0.26,IS1000b.B.dialog-act.vkaraisk.61,,,,,,,,,False, Hmm.,1,task,Assess
+IS1000b,A,579.92,580.74,0.82,IS1000b.A.dialog-act.vkaraisk.68,D,A,11.05,0.0,False,False,0.0,[],False, It's just a web link.,5,task,Inform
+IS1000b,D,580.13,581.008,0.878,IS1000b.D.dialog-act.vkaraisk.25,,,,,,,,,False, Yeah,1,minor,Backchannel
+IS1000b,C,590.53,591.18,0.65,IS1000b.C.dialog-act.vkaraisk.16,,,,,,,,,False, Okay.,1,task,Assess
+IS1000b,D,591.54,591.79,0.25,IS1000b.D.dialog-act.vkaraisk.26,,,,,,,,,False, Yeah,1,minor,Stall
+IS1000b,D,591.79,600.49,8.7,IS1000b.D.dialog-act.vkaraisk.27,A,A,0.48,11.05,True,False,0.0,[],True, these numbers have have to be have to be taken into account for the uh both yeah user interface and functional design.,22,task,Suggest
+IS1000b,C,595.13,596.304,1.174,IS1000b.C.dialog-act.vkaraisk.17,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IS1000b,C,599.14,599.55,0.41,IS1000b.C.dialog-act.vkaraisk.18,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,A,600.97,603.43,2.46,IS1000b.A.dialog-act.vkaraisk.69,D,D,2.79,0.48,True,False,0.0,[],True," One thing it goes on to talk about, which is interesting,",11,task,Assess
+IS1000b,A,603.43,605.72,2.29,IS1000b.A.dialog-act.vkaraisk.70,,,,,,,,,False, is the,2,minor,Fragment
+IS1000b,A,605.72,606.08,0.36,IS1000b.A.dialog-act.vkaraisk.71,,,,,,,,,False, hang on a minute.,4,task,Suggest
+IS1000b,D,606.22,607.52,1.3,IS1000b.D.dialog-act.vkaraisk.28,D,A,0.0,2.79,True,False,0.0,[],True, Because if there are many numbers,6,task,Inform
+IS1000b,D,607.52,614.58,7.06,IS1000b.D.dialog-act.vkaraisk.29,A,D,1.51,0.0,False,False,0.0,[],False, and we need to select to to constraint uh our design based on what is more important.,17,task,Suggest
+IS1000b,A,613.17,613.43,0.26,IS1000b.A.dialog-act.vkaraisk.72,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,B,614.76,615.21,0.45,IS1000b.B.dialog-act.vkaraisk.62,,,,,,,,,False, Mm-hmm.,1,task,Assess
+IS1000b,A,615.03,616.09,1.06,IS1000b.A.dialog-act.vkaraisk.73,,,,,,,,,False, Yep.,1,task,Assess
+IS1000b,A,616.09,625.33,9.24,IS1000b.A.dialog-act.vkaraisk.74,A,D,1.49,1.51,True,False,0.0,[],True," Um, one thing is interesting is talking about um speech recognition in a remote control.",15,task,Assess
+IS1000b,D,625.52,626.88,1.36,IS1000b.D.dialog-act.vkaraisk.30,,,,,,,,,False, Speech recognition in,3,other,Comment-About-Understanding
+IS1000b,A,626.82,629.88,3.06,IS1000b.A.dialog-act.vkaraisk.75,B,A,0.04,1.49,False,False,0.0,[],False, And who would pay more for that and whether people would find it useful.,14,task,Inform
+IS1000b,B,629.92,631.39,1.47,IS1000b.B.dialog-act.vkaraisk.63,A,A,0.68,0.04,True,False,0.0,[],True, D do you have numbers o o on that?,9,elicit,Elicit-Inform
+IS1000b,D,630.42,631.01,0.59,IS1000b.D.dialog-act.vkaraisk.31,,,,,,,,,False, Ah okay.,2,other,Comment-About-Understanding
+IS1000b,A,631.65,632.07,0.42,IS1000b.A.dialog-act.vkaraisk.77,,,,,,,,,False," Yes,",1,task,Inform
+IS1000b,A,632.07,633.6,1.53,IS1000b.A.dialog-act.vkaraisk.78,D,B,3.02,0.68,True,False,0.0,[],True, I'll just get this up.,5,other,Offer
+IS1000b,D,635.73,636.62,0.89,IS1000b.D.dialog-act.vkaraisk.32,,,,,,,,,False, So that we don't,4,minor,Fragment
+IS1000b,D,636.62,639.88,3.26,IS1000b.D.dialog-act.vkaraisk.33,D,A,0.0,3.02,True,False,0.0,[],True, Do we not need any button on the remote control,10,elicit,Elicit-Inform
+IS1000b,C,638.755,640.729,1.974,IS1000b.C.dialog-act.vkaraisk.19,,,,,,,,,False,,0,minor,Fragment
+IS1000b,B,639.011,640.473,1.462,IS1000b.B.dialog-act.vkaraisk.64,,,,,,,,,False,,0,minor,Fragment
+IS1000b,A,639.06,639.2,0.14,IS1000b.A.dialog-act.vkaraisk.79,,,,,,,,,False, Well,1,minor,Stall
+IS1000b,A,639.2,640.688,1.488,IS1000b.A.dialog-act.vkaraisk.80,,,,,,,,,False," potentially yeah, um",3,task,Inform
+IS1000b,D,639.88,642.31,2.43,IS1000b.D.dialog-act.vkaraisk.34,A,D,2.87,0.0,False,False,0.0,[],False, it would be all based on speech.,7,elicit,Elicit-Inform
+IS1000b,D,642.31,642.54,0.23,IS1000b.D.dialog-act.vkaraisk.35,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+IS1000b,A,642.63,644.84,2.21,IS1000b.A.dialog-act.vkaraisk.81,,,,,,,,,False, I think even for interesti,5,minor,Fragment
+IS1000b,D,643.75,644.51,0.76,IS1000b.D.dialog-act.vkaraisk.36,,,,,,,,,False, Interesting idea.,2,task,Assess
+IS1000b,A,644.84,645.18,0.34,IS1000b.A.dialog-act.vkaraisk.82,,,,,,,,,False, yeah,1,minor,Stall
+IS1000b,A,645.18,647.06,1.88,IS1000b.A.dialog-act.vkaraisk.83,A,D,0.0,2.87,True,False,0.0,[],True, I think that would not work so well.,8,task,Assess
+IS1000b,A,647.06,649.55,2.49,IS1000b.A.dialog-act.vkaraisk.84,B,A,7.61,0.0,False,False,0.0,[],False, You wanna have both options.,5,task,Suggest
+IS1000b,D,648.69,649.05,0.36,IS1000b.D.dialog-act.vkaraisk.37,,,,,,,,,False, Okay.,1,task,Assess
+IS1000b,B,656.92,657.16,0.24,IS1000b.B.dialog-act.vkaraisk.65,,,,,,,,,False, Well,1,minor,Stall
+IS1000b,B,657.16,664.18,7.02,IS1000b.B.dialog-act.vkaraisk.66,B,A,0.0,7.61,True,False,0.0,[],True," it would it would be a solution for uh when your remote control is lost,",15,task,Suggest
+IS1000b,B,664.18,672.74,8.56,IS1000b.B.dialog-act.vkaraisk.67,B,B,0.0,0.0,False,False,0.0,[],False," I mean when it has speech recognition then uh i then it doesn't matter where it is, my well it's we should be in range,",25,task,Inform
+IS1000b,A,664.61,664.9,0.29,IS1000b.A.dialog-act.vkaraisk.85,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,D,667.59,667.97,0.38,IS1000b.D.dialog-act.vkaraisk.38,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,A,671.74,672.02,0.28,IS1000b.A.dialog-act.vkaraisk.86,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,B,672.74,677.28,4.54,IS1000b.B.dialog-act.vkaraisk.70,B,B,0.0,0.0,False,False,0.0,[],False," or maybe it can respond and produce sound, so say where it is.",13,task,Suggest
+IS1000b,D,677.05,677.29,0.24,IS1000b.D.dialog-act.vkaraisk.39,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,B,677.28,679.75,2.47,IS1000b.B.dialog-act.vkaraisk.71,B,B,0.0,0.0,False,False,0.0,[],False, But the these are all quite fancy features,8,task,Assess
+IS1000b,B,679.75,686.57,6.82,IS1000b.B.dialog-act.vkaraisk.72,D,B,1.31,0.0,False,False,0.0,[],False, I'm not sure whether we will we can make this for for twelve Euro fi and fifty cents.,18,task,Assess
+IS1000b,C,682.07,682.18,0.11,IS1000b.C.dialog-act.vkaraisk.20,,,,,,,,,False, Well,1,minor,Stall
+IS1000b,C,682.18,682.93,0.75,IS1000b.C.dialog-act.vkaraisk.21,,,,,,,,,False, it would be f,4,minor,Fragment
+IS1000b,D,685.66,686.09,0.43,IS1000b.D.dialog-act.vkaraisk.40,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,A,686.08,686.3,0.22,IS1000b.A.dialog-act.vkaraisk.87,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,C,687.33,688.08,0.75,IS1000b.C.dialog-act.vkaraisk.22,,,,,,,,,False, No you can't.,3,task,Assess
+IS1000b,D,687.88,691.2,3.32,IS1000b.D.dialog-act.vkaraisk.41,C,B,6.71,1.31,True,False,0.0,[],True," And we don't know where the state of the art of speech recognition is,",14,task,Inform
+IS1000b,D,691.2,692.16,0.96,IS1000b.D.dialog-act.vkaraisk.42,,,,,,,,,False, maybe you know?,3,elicit,Elicit-Inform
+IS1000b,C,692.71,695.65,2.94,IS1000b.C.dialog-act.vkaraisk.23,,,,,,,,,False," Oh. Well,",2,minor,Stall
+IS1000b,C,695.65,696.25,0.6,IS1000b.C.dialog-act.vkaraisk.24,,,,,,,,,False, it depends,2,task,Inform
+IS1000b,C,696.25,696.78,0.53,IS1000b.C.dialog-act.vkaraisk.25,,,,,,,,,False, you know like,3,minor,Stall
+IS1000b,C,697.91,709.74,11.83,IS1000b.C.dialog-act.vkaraisk.26,D,D,-2.6,6.71,True,True,2.6,['IS1000b.D.dialog-act.vkaraisk.43'],True," there is uh it's a very small vocabulary that you want to do the operations like you want to say on, off, one, two, twenty three,",26,task,Inform
+IS1000b,B,705.78,706.29,0.51,IS1000b.B.dialog-act.vkaraisk.73,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,D,707.14,711.64,4.5,IS1000b.D.dialog-act.vkaraisk.43,C,C,-0.21,-2.6,True,True,0.21,['IS1000b.C.dialog-act.vkaraisk.29'],False, But it's quite noisy if there is the T_V_ uh shouting.,11,task,Inform
+IS1000b,A,708.72,709.01,0.29,IS1000b.A.dialog-act.vkaraisk.88,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,C,709.74,710.38,0.64,IS1000b.C.dialog-act.vkaraisk.27,,,,,,,,,False, yeah.,1,task,Assess
+IS1000b,A,710.32,710.59,0.27,IS1000b.A.dialog-act.vkaraisk.89,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,C,710.38,711.43,1.05,IS1000b.C.dialog-act.vkaraisk.28,,,,,,,,,False, It's it's going to be li,6,minor,Fragment
+IS1000b,B,710.84,711.21,0.37,IS1000b.B.dialog-act.vkaraisk.74,,,,,,,,,False," Yes,",1,task,Assess
+IS1000b,B,711.21,713.02,1.81,IS1000b.B.dialog-act.vkaraisk.75,,,,,,,,,False, that that that that's mm.,5,minor,Fragment
+IS1000b,C,711.43,713.62,2.19,IS1000b.C.dialog-act.vkaraisk.29,C,D,0.0,-0.21,True,False,0.0,[],False, it's not going to be s so easy,8,task,Assess
+IS1000b,C,713.62,720.06,6.44,IS1000b.C.dialog-act.vkaraisk.30,B,C,-0.94,0.0,False,True,0.94,['IS1000b.B.dialog-act.vkaraisk.76'],False, but u usually it's going to be more of an isolated case,12,task,Inform
+IS1000b,B,719.12,720.85,1.73,IS1000b.B.dialog-act.vkaraisk.76,B,C,0.0,-0.94,True,False,0.0,[],False, Do you have some more important facts,7,elicit,Elicit-Inform
+IS1000b,C,720.06,722.86,2.8,IS1000b.C.dialog-act.vkaraisk.31,,,,,,,,,False, but it's but I don't know with twenty fi,9,minor,Fragment
+IS1000b,D,720.74,720.93,0.19,IS1000b.D.dialog-act.vkaraisk.44,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1000b,B,720.85,723.85,3.0,IS1000b.B.dialog-act.vkaraisk.77,D,B,-1.09,0.0,False,True,1.09,['IS1000b.D.dialog-act.vkaraisk.46'],False, or can we go to the next presentation?,8,elicit,Elicit-Assessment
+IS1000b,A,721.0,721.472,0.472,IS1000b.A.dialog-act.vkaraisk.90,,,,,,,,,False, Um,1,minor,Stall
+IS1000b,D,722.54,722.76,0.22,IS1000b.D.dialog-act.vkaraisk.45,,,,,,,,,False, So,1,minor,Stall
+IS1000b,D,722.76,725.04,2.28,IS1000b.D.dialog-act.vkaraisk.46,A,B,0.33,-1.09,True,False,0.0,[],False, you had to to to summarise maybe the,8,task,Suggest
+IS1000b,A,723.08,723.488,0.408,IS1000b.A.dialog-act.vkaraisk.91,,,,,,,,,False, Well,1,minor,Stall
+IS1000b,A,725.37,731.5,6.13,IS1000b.A.dialog-act.vkaraisk.92,A,D,1.37,0.33,True,False,0.0,[],True," This is now talking about um who would pay for speech recognition in a remote control, who would pay more for it, um.",23,task,Inform
+IS1000b,A,732.87,737.59,4.72,IS1000b.A.dialog-act.vkaraisk.93,A,A,0.0,1.37,False,False,0.0,[],False," Ninety percent of the fifteen to twenty five year old market said that they would pay more,",17,task,Inform
+IS1000b,A,737.59,738.5,0.91,IS1000b.A.dialog-act.vkaraisk.94,A,A,0.0,0.0,False,False,0.0,[],False," it goes down from there,",5,task,Inform
+IS1000b,A,738.5,741.37,2.87,IS1000b.A.dialog-act.vkaraisk.95,A,A,0.0,0.0,False,False,0.0,[],False," seventy six percent for twenty five to thirty five,",9,task,Inform
+IS1000b,A,741.37,743.95,2.58,IS1000b.A.dialog-act.vkaraisk.96,A,A,0.0,0.0,False,False,0.0,[],False," thirty five percent for thirty five to forty five,",9,task,Inform
+IS1000b,A,743.95,746.67,2.72,IS1000b.A.dialog-act.vkaraisk.97,A,A,0.0,0.0,False,False,0.0,[],False, um twenty two percent for forty five to fifty five,10,task,Inform
+IS1000b,A,746.67,749.96,3.29,IS1000b.A.dialog-act.vkaraisk.98,B,A,0.25,0.0,False,False,0.0,[],False, and then eight percent for fifty five to sixty five.,10,task,Inform
+IS1000b,B,747.03,747.26,0.23,IS1000b.B.dialog-act.vkaraisk.78,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,C,747.83,748.19,0.36,IS1000b.C.dialog-act.vkaraisk.32,,,,,,,,,False, Okay,1,other,Comment-About-Understanding
+IS1000b,C,748.19,749.73,1.54,IS1000b.C.dialog-act.vkaraisk.33,,,,,,,,,False, it's uh decline.,3,task,Inform
+IS1000b,C,749.73,750.0,0.27,IS1000b.C.dialog-act.vkaraisk.34,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+IS1000b,A,749.96,750.48,0.52,IS1000b.A.dialog-act.vkaraisk.99,,,,,,,,,False, Yeah.,1,task,Assess
+IS1000b,B,750.21,751.96,1.75,IS1000b.B.dialog-act.vkaraisk.79,A,A,0.08,0.25,True,False,0.0,[],True," Mm-hmm. Decline with age, mm.",5,task,Assess
+IS1000b,A,750.48,751.09,0.61,IS1000b.A.dialog-act.vkaraisk.100,,,,,,,,,False, But we sh,3,minor,Fragment
+IS1000b,A,751.09,752.04,0.95,IS1000b.A.dialog-act.vkaraisk.101,,,,,,,,,False," Yeah,",1,task,Assess
+IS1000b,C,751.866,752.56,0.694,IS1000b.C.dialog-act.vkaraisk.35,,,,,,,,,False,,0,minor,Fragment
+IS1000b,A,752.04,756.26,4.22,IS1000b.A.dialog-act.vkaraisk.102,A,B,0.0,0.08,True,False,0.0,[],True," it really depends where we're gonna be targeting this product, um,",11,task,Inform
+IS1000b,B,755.73,756.496,0.766,IS1000b.B.dialog-act.vkaraisk.80,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,D,755.89,756.03,0.14,IS1000b.D.dialog-act.vkaraisk.47,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,A,756.26,757.8,1.54,IS1000b.A.dialog-act.vkaraisk.103,B,A,-0.02,0.0,False,True,0.02,['IS1000b.B.dialog-act.vkaraisk.81'],False, which we'll be talking about later I think.,8,task,Inform
+IS1000b,B,757.78,760.41,2.63,IS1000b.B.dialog-act.vkaraisk.81,A,A,-0.03,-0.02,True,True,0.03,['IS1000b.A.dialog-act.vkaraisk.104'],False, Yes. We will talk about it later.,7,task,Assess
+IS1000b,A,760.38,761.09,0.71,IS1000b.A.dialog-act.vkaraisk.104,A,B,9.36,-0.03,True,False,0.0,[],False, Did you get the email?,5,elicit,Elicit-Inform
+IS1000b,B,760.41,760.7,0.29,IS1000b.B.dialog-act.vkaraisk.82,,,,,,,,,False, Okay.,1,minor,Stall
+IS1000b,B,763.837,765.312,1.475,IS1000b.B.dialog-act.vkaraisk.83,,,,,,,,,False,,0,minor,Fragment
+IS1000b,A,767.67,767.86,0.19,IS1000b.A.dialog-act.vkaraisk.105,,,,,,,,,False," Yep,",1,task,Inform
+IS1000b,D,767.82,768.22,0.4,IS1000b.D.dialog-act.vkaraisk.48,,,,,,,,,False, Mm-hmm.,1,other,Other
+IS1000b,A,767.86,770.45,2.59,IS1000b.A.dialog-act.vkaraisk.106,,,,,,,,,False, that one.,2,task,Inform
+IS1000b,A,770.45,771.36,0.91,IS1000b.A.dialog-act.vkaraisk.107,A,A,5.56,9.36,False,False,0.0,[],False, Just follow that link.,4,task,Suggest
+IS1000b,D,772.208,772.576,0.368,IS1000b.D.dialog-act.vkaraisk.49,,,,,,,,,False,,0,minor,Fragment
+IS1000b,D,775.77,777.25,1.48,IS1000b.D.dialog-act.vkaraisk.50,,,,,,,,,False, I thi You us,4,minor,Fragment
+IS1000b,A,776.92,778.07,1.15,IS1000b.A.dialog-act.vkaraisk.108,A,A,10.23,5.56,False,False,0.0,[],False," It'll be in a different window, yep.",7,task,Inform
+IS1000b,D,777.25,777.92,0.67,IS1000b.D.dialog-act.vkaraisk.51,,,,,,,,,False, yeah yeah.,2,other,Other
+IS1000b,A,779.28,780.11,0.83,IS1000b.A.dialog-act.vkaraisk.109,,,,,,,,,False, That's,1,minor,Fragment
+IS1000b,A,780.11,781.47,1.36,IS1000b.A.dialog-act.vkaraisk.110,,,,,,,,,False, left,1,task,Suggest
+IS1000b,B,781.328,781.802,0.474,IS1000b.B.dialog-act.vkaraisk.84,,,,,,,,,False,,0,minor,Fragment
+IS1000b,A,781.47,781.69,0.22,IS1000b.A.dialog-act.vkaraisk.111,,,,,,,,,False, that one.,2,task,Inform
+IS1000b,A,782.85,782.99,0.14,IS1000b.A.dialog-act.vkaraisk.112,,,,,,,,,False, Yep.,1,task,Assess
+IS1000b,D,783.36,797.997,14.637,IS1000b.D.dialog-act.vkaraisk.52,,,,,,,,,False, Okay perfect. ...,3,task,Assess
+IS1000b,A,788.02,788.3,0.28,IS1000b.A.dialog-act.vkaraisk.113,,,,,,,,,False, Mm. So,2,minor,Stall
+IS1000b,A,788.3,792.14,3.84,IS1000b.A.dialog-act.vkaraisk.114,A,A,0.0,10.23,False,False,0.0,[],False," that's the figure that I was just talking about there, with the different demographics.",14,task,Inform
+IS1000b,C,790.31,790.72,0.41,IS1000b.C.dialog-act.vkaraisk.36,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1000b,A,792.14,795.49,3.35,IS1000b.A.dialog-act.vkaraisk.115,A,A,0.0,0.0,False,False,0.0,[],False, Another thing it's talking about there is the L_C_D_ screen,10,task,Inform
+IS1000b,A,795.49,798.79,3.3,IS1000b.A.dialog-act.vkaraisk.116,B,A,5.26,0.0,False,False,0.0,[],False, but there's no figures apparently on that.,7,task,Inform
+IS1000b,B,798.06,800.89,2.83,IS1000b.B.dialog-act.vkaraisk.85,,,,,,,,,False, Mm. Okay. um,3,other,Comment-About-Understanding
+IS1000b,D,798.07,798.62,0.55,IS1000b.D.dialog-act.vkaraisk.54,,,,,,,,,False, Mm 'kay.,2,other,Comment-About-Understanding
+IS1000b,B,804.05,810.84,6.79,IS1000b.B.dialog-act.vkaraisk.86,C,A,8.19,5.26,True,False,0.0,[],True, Uh maybe uh Mael c c can you give uh uh your presentation uh?,14,elicit,Elicit-Assessment
+IS1000b,D,807.35,808.36,1.01,IS1000b.D.dialog-act.vkaraisk.55,,,,,,,,,False, Yeah.,1,task,Assess
+IS1000b,D,813.27,815.25,1.98,IS1000b.D.dialog-act.vkaraisk.56,,,,,,,,,False, Mm I okay,3,minor,Stall
+IS1000b,D,815.25,816.016,0.766,IS1000b.D.dialog-act.vkaraisk.57,,,,,,,,,False, I stay,2,other,Offer
+IS1000b,B,815.64,815.95,0.31,IS1000b.B.dialog-act.vkaraisk.87,,,,,,,,,False," Oh,",1,minor,Stall
+IS1000b,B,815.95,816.529,0.579,IS1000b.B.dialog-act.vkaraisk.88,,,,,,,,,False, this is,2,minor,Fragment
+IS1000b,C,819.03,820.1,1.07,IS1000b.C.dialog-act.vkaraisk.37,D,B,0.332,8.19,True,False,0.0,[],True, Now you can move I think,6,task,Inform
+IS1000b,C,820.1,820.27,0.17,IS1000b.C.dialog-act.vkaraisk.38,,,,,,,,,False, yeah.,1,task,Assess
+IS1000b,D,820.432,826.992,6.56,IS1000b.D.dialog-act.vkaraisk.58,B,C,-6.262,0.332,True,True,1.77,['IS1000b.B.dialog-act.vkaraisk.89'],True, I can move as far as,6,task,Inform
+IS1000b,B,820.73,822.5,1.77,IS1000b.B.dialog-act.vkaraisk.89,D,D,5.66,-6.262,True,False,0.0,[],False," Mm-hmm, y y you can move, uh.",7,task,Assess
+IS1000b,D,828.16,829.95,1.79,IS1000b.D.dialog-act.vkaraisk.59,B,B,0.13,5.66,True,False,0.0,[],True, Maybe I take your chair?,5,elicit,Elicit-Assessment
+IS1000b,D,829.95,830.41,0.46,IS1000b.D.dialog-act.vkaraisk.60,,,,,,,,,False, I,1,minor,Fragment
+IS1000b,B,830.08,831.99,1.91,IS1000b.B.dialog-act.vkaraisk.90,C,D,0.89,0.13,True,False,0.0,[],True, Yes. You can you can sa take my chair.,9,task,Assess
+IS1000b,D,830.41,830.89,0.48,IS1000b.D.dialog-act.vkaraisk.61,,,,,,,,,False, okay.,1,other,Comment-About-Understanding
+IS1000b,C,832.88,836.76,3.88,IS1000b.C.dialog-act.vkaraisk.39,D,B,3.24,0.89,True,False,0.0,[],True," It's a channel selection, a module, this and this function,",10,task,Suggest
+IS1000b,A,835.65,837.0,1.35,IS1000b.A.dialog-act.vkaraisk.117,,,,,,,,,False, Sorry?,1,other,Comment-About-Understanding
+IS1000b,C,836.76,837.66,0.9,IS1000b.C.dialog-act.vkaraisk.40,,,,,,,,,False, go to the.,3,task,Suggest
+IS1000b,A,837.0,837.19,0.19,IS1000b.A.dialog-act.vkaraisk.118,,,,,,,,,False, Oh.,1,other,Comment-About-Understanding
+IS1000b,C,838.79,839.07,0.28,IS1000b.C.dialog-act.vkaraisk.41,,,,,,,,,False, Yeah.,1,task,Assess
+IS1000b,D,839.86,840.0,0.14,IS1000b.D.dialog-act.vkaraisk.62,,,,,,,,,False, So,1,minor,Stall
+IS1000b,D,840.0,846.37,6.37,IS1000b.D.dialog-act.vkaraisk.63,D,C,2.71,3.24,True,False,0.0,[],True, I think as everybody knows uh I'm the uh Industrial Designer.,11,task,Inform
+IS1000b,D,849.08,859.28,10.2,IS1000b.D.dialog-act.vkaraisk.64,D,D,0.0,2.71,False,False,0.0,[],False, And uh in this presentation uh this group presentation um is gonna focus on the working design of the the remote control.,22,other,Offer
+IS1000b,D,859.28,865.06,5.78,IS1000b.D.dialog-act.vkaraisk.65,D,D,0.0,0.0,False,False,0.0,[],False," Um I'd like first to give a quick a very simple introduction, how does it work,",16,other,Offer
+IS1000b,D,865.06,873.12,8.06,IS1000b.D.dialog-act.vkaraisk.66,D,D,2.58,0.0,False,False,0.0,[],False, so that everybody knows even if you don't have a very uh technical background uh what is it because I think in the product it is important.,27,task,Inform
+IS1000b,A,870.17,871.616,1.446,IS1000b.A.dialog-act.vkaraisk.119,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,D,873.46,875.7,2.24,IS1000b.D.dialog-act.vkaraisk.68,,,,,,,,,False, So basically um,3,minor,Stall
+IS1000b,D,875.7,882.82,7.12,IS1000b.D.dialog-act.vkaraisk.69,D,D,1.21,2.58,False,False,0.0,[],False, the basic function of a remote control is to send uh messages to another system that is fixed.,18,task,Inform
+IS1000b,A,881.91,882.13,0.22,IS1000b.A.dialog-act.vkaraisk.120,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,D,882.82,884.03,1.21,IS1000b.D.dialog-act.vkaraisk.70,,,,,,,,,False, And so,2,minor,Stall
+IS1000b,D,884.03,888.09,4.06,IS1000b.D.dialog-act.vkaraisk.71,D,D,0.0,1.21,False,False,0.0,[],False," an energy source feeds an integrated circuit, the chip,",9,task,Inform
+IS1000b,D,888.09,894.26,6.17,IS1000b.D.dialog-act.vkaraisk.72,D,D,0.0,0.0,False,False,0.0,[],False," that can compose messages, usually uh through a um infrared bit",11,task,Inform
+IS1000b,A,893.47,893.68,0.21,IS1000b.A.dialog-act.vkaraisk.121,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,D,894.26,900.64,6.38,IS1000b.D.dialog-act.vkaraisk.73,D,D,11.17,0.0,False,False,0.0,[],False," and uh the user interface controls the chip and accordingly the the messages,",13,task,Inform
+IS1000b,D,900.64,901.24,0.6,IS1000b.D.dialog-act.vkaraisk.74,,,,,,,,,False, alright.,1,elicit,Elicit-Comment-Understanding
+IS1000b,D,901.71,903.11,1.4,IS1000b.D.dialog-act.vkaraisk.75,,,,,,,,,False, So,1,minor,Stall
+IS1000b,D,903.11,911.81,8.7,IS1000b.D.dialog-act.vkaraisk.76,,,,,,,,,False, my method for um designing the yeah the work design uh yeah first the,14,minor,Fragment
+IS1000b,D,911.81,917.39,5.58,IS1000b.D.dialog-act.vkaraisk.77,D,D,0.0,11.17,False,False,0.0,[],False, the main point is that I would wish to to make a really functional product.,15,other,Offer
+IS1000b,D,917.39,926.22,8.83,IS1000b.D.dialog-act.vkaraisk.78,D,D,1.94,0.0,False,False,0.0,[],False, I would prefer to have very functional um capabilities rather than fancy stuff that in fact is not used and doesn't work.,22,task,Suggest
+IS1000b,B,925.29,925.37,0.08,IS1000b.B.dialog-act.vkaraisk.91,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,A,925.35,925.57,0.22,IS1000b.A.dialog-act.vkaraisk.122,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,D,926.22,927.06,0.84,IS1000b.D.dialog-act.vkaraisk.79,,,,,,,,,False, So,1,minor,Stall
+IS1000b,D,927.06,927.71,0.65,IS1000b.D.dialog-act.vkaraisk.80,,,,,,,,,False, for that,2,minor,Fragment
+IS1000b,D,927.71,928.16,0.45,IS1000b.D.dialog-act.vkaraisk.81,,,,,,,,,False, yeah,1,minor,Fragment
+IS1000b,D,928.16,935.32,7.16,IS1000b.D.dialog-act.vkaraisk.82,D,D,5.09,1.94,False,False,0.0,[],False, as it's important to take into account the user requirements from the Marketing uh Expert uh Anna,17,task,Suggest
+IS1000b,A,934.53,934.72,0.19,IS1000b.A.dialog-act.vkaraisk.123,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,D,935.32,940.41,5.09,IS1000b.D.dialog-act.vkaraisk.83,,,,,,,,,False, and um w to to,5,minor,Fragment
+IS1000b,D,940.41,946.14,5.73,IS1000b.D.dialog-act.vkaraisk.84,D,D,0.0,5.09,False,False,0.0,[],False, we should agree on what are the technical functions uh for this remote control,14,task,Suggest
+IS1000b,D,946.14,948.58,2.44,IS1000b.D.dialog-act.vkaraisk.85,D,D,4.56,0.0,False,False,0.0,[],False, and I show you the the working design.,8,other,Offer
+IS1000b,D,948.58,953.14,4.56,IS1000b.D.dialog-act.vkaraisk.86,,,,,,,,,False, So um basically uh,4,minor,Stall
+IS1000b,D,953.14,957.34,4.2,IS1000b.D.dialog-act.vkaraisk.87,D,D,0.0,4.56,False,False,0.0,[],False, here is a really large view of what we want.,10,task,Inform
+IS1000b,D,957.34,959.41,2.07,IS1000b.D.dialog-act.vkaraisk.88,D,D,2.24,0.0,False,False,0.0,[],False," Uh we want an on off button,",7,task,Inform
+IS1000b,D,959.41,961.07,1.66,IS1000b.D.dialog-act.vkaraisk.89,,,,,,,,,False, it can be uh,4,minor,Fragment
+IS1000b,D,961.07,961.65,0.58,IS1000b.D.dialog-act.vkaraisk.90,,,,,,,,,False, it's simple,2,task,Inform
+IS1000b,D,961.65,970.93,9.28,IS1000b.D.dialog-act.vkaraisk.91,D,D,2.67,2.24,False,False,0.0,[],False," but it's it's important, and also uh the to both channels as well as other buttons that come after,",19,task,Inform
+IS1000b,A,963.02,963.18,0.16,IS1000b.A.dialog-act.vkaraisk.124,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,D,970.93,971.22,0.29,IS1000b.D.dialog-act.vkaraisk.93,,,,,,,,,False, right.,1,elicit,Elicit-Comment-Understanding
+IS1000b,D,972.37,973.6,1.23,IS1000b.D.dialog-act.vkaraisk.94,,,,,,,,,False, So,1,minor,Stall
+IS1000b,D,973.6,976.48,2.88,IS1000b.D.dialog-act.vkaraisk.95,D,D,1.19,2.67,False,False,0.0,[],False," the components I quickly draw here,",6,task,Inform
+IS1000b,D,976.48,977.67,1.19,IS1000b.D.dialog-act.vkaraisk.96,,,,,,,,,False, is that,2,minor,Fragment
+IS1000b,D,977.67,984.53,6.86,IS1000b.D.dialog-act.vkaraisk.97,D,D,4.81,1.19,False,False,0.0,[],False, in this part you have the remote control the the sender and on the other part the receiver,18,task,Inform
+IS1000b,D,984.53,985.83,1.3,IS1000b.D.dialog-act.vkaraisk.98,,,,,,,,,False, so that's,2,minor,Fragment
+IS1000b,D,985.83,989.15,3.32,IS1000b.D.dialog-act.vkaraisk.99,,,,,,,,,False, my method is um will be to,7,minor,Fragment
+IS1000b,D,989.15,989.34,0.19,IS1000b.D.dialog-act.vkaraisk.100,,,,,,,,,False, well,1,minor,Stall
+IS1000b,D,989.34,998.42,9.08,IS1000b.D.dialog-act.vkaraisk.101,D,D,2.55,4.81,False,False,0.0,[],False, my aim would be to uh design the and choose the chips and the infrared um components to build the remote control,22,other,Offer
+IS1000b,D,998.42,998.54,0.12,IS1000b.D.dialog-act.vkaraisk.102,,,,,,,,,False, right.,1,elicit,Elicit-Comment-Understanding
+IS1000b,A,998.52,998.73,0.21,IS1000b.A.dialog-act.vkaraisk.125,,,,,,,,,False, Mm-hmm.,1,other,Comment-About-Understanding
+IS1000b,B,999.14,999.35,0.21,IS1000b.B.dialog-act.vkaraisk.92,,,,,,,,,False, Mm-hmm.,1,other,Comment-About-Understanding
+IS1000b,D,999.71,1000.97,1.26,IS1000b.D.dialog-act.vkaraisk.103,,,,,,,,,False, So,1,minor,Stall
+IS1000b,D,1000.97,1007.72,6.75,IS1000b.D.dialog-act.vkaraisk.104,D,D,0.0,2.55,False,False,0.0,[],False, of course we need energy sources and uh uh the receiver a a receiver.,14,task,Inform
+IS1000b,D,1007.72,1010.41,2.69,IS1000b.D.dialog-act.vkaraisk.105,D,D,0.0,0.0,False,False,0.0,[],False," This is very quick uh design,",6,task,Inform
+IS1000b,D,1010.41,1014.37,3.96,IS1000b.D.dialog-act.vkaraisk.106,D,D,3.61,0.0,False,False,0.0,[],False, uh you stop me or interrupt me if uh you don't agree on it on that.,16,task,Suggest
+IS1000b,B,1014.48,1014.94,0.46,IS1000b.B.dialog-act.vkaraisk.93,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,D,1015.96,1017.98,2.02,IS1000b.D.dialog-act.vkaraisk.107,,,,,,,,,False, And um so,3,minor,Stall
+IS1000b,D,1017.98,1027.43,9.45,IS1000b.D.dialog-act.vkaraisk.108,D,D,0.0,3.61,False,False,0.0,[],False, what I have found and after a lot of work actually I I draw this I draw for you this uh schema,22,task,Inform
+IS1000b,A,1021.754,1022.73,0.976,IS1000b.A.dialog-act.vkaraisk.126,,,,,,,,,False, Well.,1,minor,Stall
+IS1000b,A,1025.805,1026.384,0.579,IS1000b.A.dialog-act.vkaraisk.127,,,,,,,,,False,,0,minor,Fragment
+IS1000b,B,1027.41,1027.77,0.36,IS1000b.B.dialog-act.vkaraisk.94,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+IS1000b,D,1027.43,1030.57,3.14,IS1000b.D.dialog-act.vkaraisk.109,D,D,0.0,0.0,False,False,0.0,[],False, that can be maybe too technical for you,8,task,Inform
+IS1000b,D,1030.57,1032.13,1.56,IS1000b.D.dialog-act.vkaraisk.110,A,D,0.48,0.0,False,False,0.0,[],False, but is very important for me,6,task,Assess
+IS1000b,D,1032.13,1034.25,2.12,IS1000b.D.dialog-act.vkaraisk.111,,,,,,,,,False, you know.,2,elicit,Elicit-Comment-Understanding
+IS1000b,A,1032.61,1033.51,0.9,IS1000b.A.dialog-act.vkaraisk.128,D,D,0.74,0.48,True,False,0.0,[],True, You drew it a long time ago?,7,task,Inform
+IS1000b,B,1033.91,1034.31,0.4,IS1000b.B.dialog-act.vkaraisk.95,,,,,,,,,False, Is huh,2,minor,Fragment
+IS1000b,D,1034.25,1042.96,8.71,IS1000b.D.dialog-act.vkaraisk.112,D,A,0.0,0.74,True,False,0.0,[],True, And uh that's it so I won't go into details about that,12,other,Offer
+IS1000b,A,1034.64,1038.032,3.392,IS1000b.A.dialog-act.vkaraisk.129,,,,,,,,,False, Ninety one.,2,task,Inform
+IS1000b,B,1035.51,1036.56,1.05,IS1000b.B.dialog-act.vkaraisk.96,,,,,,,,,False, overwhelming.,1,task,Assess
+IS1000b,A,1042.953,1044.402,1.449,IS1000b.A.dialog-act.vkaraisk.130,,,,,,,,,False,,0,minor,Fragment
+IS1000b,D,1042.96,1047.82,4.86,IS1000b.D.dialog-act.vkaraisk.113,B,D,0.228,0.0,False,False,0.0,[],False, but uh these are my preferences to use uh that kind of components.,13,task,Inform
+IS1000b,B,1043.19,1043.6,0.41,IS1000b.B.dialog-act.vkaraisk.97,,,,,,,,,False, No.,1,minor,Backchannel
+IS1000b,B,1048.048,1050.64,2.592,IS1000b.B.dialog-act.vkaraisk.98,B,D,0.0,0.228,True,False,0.0,[],True, And and why do you want these kind of component?,10,elicit,Elicit-Inform
+IS1000b,D,1049.12,1057.89,8.77,IS1000b.D.dialog-act.vkaraisk.114,,,,,,,,,False, So. So,2,minor,Stall
+IS1000b,B,1050.64,1051.76,1.12,IS1000b.B.dialog-act.vkaraisk.99,B,B,0.0,0.0,False,False,0.0,[],False," I mean, are they cheap,",5,elicit,Elicit-Inform
+IS1000b,B,1051.76,1053.68,1.92,IS1000b.B.dialog-act.vkaraisk.100,D,B,8.44,0.0,False,False,0.0,[],False, or are they uh reliable?,5,elicit,Elicit-Inform
+IS1000b,B,1053.68,1055.536,1.856,IS1000b.B.dialog-act.vkaraisk.101,,,,,,,,,False, What were your,3,minor,Fragment
+IS1000b,D,1061.7,1062.12,0.42,IS1000b.D.dialog-act.vkaraisk.115,,,,,,,,,False, found,1,task,Inform
+IS1000b,D,1062.12,1069.58,7.46,IS1000b.D.dialog-act.vkaraisk.116,D,B,2.7,8.44,True,False,0.0,[],True," and yeah th you have always a compromise with uh reliability and uh i if it's expensive,",17,task,Inform
+IS1000b,B,1067.99,1068.32,0.33,IS1000b.B.dialog-act.vkaraisk.102,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,D,1069.58,1072.28,2.7,IS1000b.D.dialog-act.vkaraisk.117,,,,,,,,,False, but uh this one was not,6,minor,Fragment
+IS1000b,D,1072.28,1075.04,2.76,IS1000b.D.dialog-act.vkaraisk.118,D,D,4.92,2.7,False,False,0.0,[],False, this one also really uh reliable,6,task,Inform
+IS1000b,D,1075.04,1079.96,4.92,IS1000b.D.dialog-act.vkaraisk.119,,,,,,,,,False, um so yeah,3,minor,Stall
+IS1000b,D,1079.96,1081.62,1.66,IS1000b.D.dialog-act.vkaraisk.120,D,D,0.0,4.92,False,False,0.0,[],False," that's it for the working design,",6,task,Inform
+IS1000b,D,1081.62,1091.32,9.7,IS1000b.D.dialog-act.vkaraisk.121,B,D,-1.46,0.0,False,True,1.46,['IS1000b.B.dialog-act.vkaraisk.103'],False, uh I hope you get clearer view on uh what what a remote control is uh in terms of uh technical components,22,elicit,Elicit-Assessment
+IS1000b,B,1089.86,1097.37,7.51,IS1000b.B.dialog-act.vkaraisk.103,C,D,2.88,-1.46,True,False,0.0,[],False, Yes. It it it's more clear now I think.,9,task,Assess
+IS1000b,D,1091.32,1092.29,0.97,IS1000b.D.dialog-act.vkaraisk.122,,,,,,,,,False, but maybe,2,minor,Fragment
+IS1000b,D,1092.29,1092.704,0.414,IS1000b.D.dialog-act.vkaraisk.123,,,,,,,,,False, yeah,1,other,Other
+IS1000b,B,1098.6,1099.072,0.472,IS1000b.B.dialog-act.vkaraisk.105,,,,,,,,,False, So,1,minor,Stall
+IS1000b,C,1099.52,1100.25,0.73,IS1000b.C.dialog-act.vkaraisk.42,,,,,,,,,False, But is it,3,minor,Fragment
+IS1000b,C,1100.25,1103.77,3.52,IS1000b.C.dialog-act.vkaraisk.43,D,B,2.3,2.88,True,False,0.0,[],True, uh can you just buy it on the market and f plug it in,14,elicit,Elicit-Inform
+IS1000b,C,1103.77,1104.44,0.67,IS1000b.C.dialog-act.vkaraisk.44,,,,,,,,,False, or you want to ma,5,minor,Fragment
+IS1000b,D,1104.32,1104.82,0.5,IS1000b.D.dialog-act.vkaraisk.124,,,,,,,,,False, No no no no,4,task,Inform
+IS1000b,D,1104.82,1106.07,1.25,IS1000b.D.dialog-act.vkaraisk.125,,,,,,,,,False, we we will uh,4,minor,Fragment
+IS1000b,D,1106.07,1107.16,1.09,IS1000b.D.dialog-act.vkaraisk.126,D,C,0.0,2.3,True,False,0.0,[],True, This is a preference,4,task,Inform
+IS1000b,D,1107.16,1110.24,3.08,IS1000b.D.dialog-act.vkaraisk.127,B,D,0.2,0.0,False,False,0.0,[],False, but we can always change uh,6,task,Inform
+IS1000b,B,1109.12,1109.37,0.25,IS1000b.B.dialog-act.vkaraisk.106,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,B,1110.44,1116.37,5.93,IS1000b.B.dialog-act.vkaraisk.107,B,D,0.18,0.2,True,False,0.0,[],True," What I w what I was thinking about uh the the the schema uh about uh the sender and the receiver,",21,task,Inform
+IS1000b,B,1116.37,1116.55,0.18,IS1000b.B.dialog-act.vkaraisk.108,,,,,,,,,False, I mean,2,minor,Stall
+IS1000b,B,1116.55,1118.17,1.62,IS1000b.B.dialog-act.vkaraisk.109,B,B,3.99,0.18,False,False,0.0,[],False, can you can you get back to it?,8,elicit,Elicit-Assessment
+IS1000b,D,1117.2,1117.36,0.16,IS1000b.D.dialog-act.vkaraisk.128,,,,,,,,,False, Yeah.,1,task,Assess
+IS1000b,B,1121.248,1122.16,0.912,IS1000b.B.dialog-act.vkaraisk.110,,,,,,,,,False," Yeah uh,",2,minor,Stall
+IS1000b,B,1122.16,1125.68,3.52,IS1000b.B.dialog-act.vkaraisk.111,B,B,0.0,3.99,False,False,0.0,[],False, the receiver is of course already in the television,9,task,Inform
+IS1000b,B,1125.68,1129.48,3.8,IS1000b.B.dialog-act.vkaraisk.112,B,B,0.0,0.0,False,False,0.0,[],False, and we are not uh able to change it.,9,task,Inform
+IS1000b,D,1129.4,1130.07,0.67,IS1000b.D.dialog-act.vkaraisk.129,,,,,,,,,False, Of course yeah.,3,task,Assess
+IS1000b,B,1129.48,1132.53,3.05,IS1000b.B.dialog-act.vkaraisk.113,B,B,0.0,0.0,False,False,0.0,[],False, So we we must adapt to the to the receiver.,10,task,Inform
+IS1000b,B,1132.53,1137.15,4.62,IS1000b.B.dialog-act.vkaraisk.114,D,B,1.14,0.0,False,False,0.0,[],False, I I suppose there is a standard uh way of communicating to televisions uh.,14,elicit,Elicit-Inform
+IS1000b,D,1138.04,1138.29,0.25,IS1000b.D.dialog-act.vkaraisk.130,,,,,,,,,False, Yeah.,1,task,Inform
+IS1000b,D,1138.29,1144.42,6.13,IS1000b.D.dialog-act.vkaraisk.131,D,B,2.84,1.14,True,False,0.0,[],True, We will use uh infrared protocol uh using yeah infrared,10,task,Inform
+IS1000b,D,1144.42,1145.72,1.3,IS1000b.D.dialog-act.vkaraisk.132,,,,,,,,,False, and uh,2,minor,Stall
+IS1000b,D,1147.26,1151.26,4.0,IS1000b.D.dialog-act.vkaraisk.133,D,D,0.36,2.84,False,False,0.0,[],False, and of course we need to adapt to that protocol that already exists,13,task,Inform
+IS1000b,B,1150.17,1150.63,0.46,IS1000b.B.dialog-act.vkaraisk.115,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,D,1151.26,1151.62,0.36,IS1000b.D.dialog-act.vkaraisk.134,,,,,,,,,False, and,1,minor,Fragment
+IS1000b,D,1151.62,1162.84,11.22,IS1000b.D.dialog-act.vkaraisk.135,C,D,8.45,0.36,False,False,0.0,[],False, but we what we can do is uh uh adapting the the chips inside uh to the best uh chips and uh infrared bubbles.,24,task,Suggest
+IS1000b,B,1160.0,1160.99,0.99,IS1000b.B.dialog-act.vkaraisk.116,,,,,,,,,False, Mm. Mm. Mm. Mm.,4,minor,Backchannel
+IS1000b,B,1163.27,1164.11,0.84,IS1000b.B.dialog-act.vkaraisk.117,,,,,,,,,False, Yes. Okay.,2,other,Comment-About-Understanding
+IS1000b,D,1164.66,1171.779,7.119,IS1000b.D.dialog-act.vkaraisk.136,,,,,,,,,False, Um. Okay.,2,elicit,Elicit-Comment-Understanding
+IS1000b,B,1170.02,1170.28,0.26,IS1000b.B.dialog-act.vkaraisk.118,,,,,,,,,False, Thank you.,2,other,Be-Positive
+IS1000b,C,1170.28,1170.81,0.53,IS1000b.C.dialog-act.vkaraisk.45,,,,,,,,,False, Well,1,minor,Stall
+IS1000b,C,1170.81,1171.29,0.48,IS1000b.C.dialog-act.vkaraisk.46,,,,,,,,,False, it to du,3,minor,Fragment
+IS1000b,C,1171.29,1173.05,1.76,IS1000b.C.dialog-act.vkaraisk.47,D,D,2.17,8.45,True,False,0.0,[],True, it's just you had to change the frequencies.,8,task,Inform
+IS1000b,D,1174.56,1175.22,0.66,IS1000b.D.dialog-act.vkaraisk.137,,,,,,,,,False, The frequencies?,2,other,Comment-About-Understanding
+IS1000b,D,1175.22,1176.95,1.73,IS1000b.D.dialog-act.vkaraisk.138,C,C,0.397,2.17,True,False,0.0,[],True, Yeah yeah. Of course yeah,5,task,Assess
+IS1000b,C,1175.31,1175.8,0.49,IS1000b.C.dialog-act.vkaraisk.48,,,,,,,,,False, Yeah.,1,task,Inform
+IS1000b,D,1176.95,1178.14,1.19,IS1000b.D.dialog-act.vkaraisk.139,,,,,,,,,False, in the chip you have it,6,minor,Fragment
+IS1000b,C,1177.347,1179.82,2.473,IS1000b.C.dialog-act.vkaraisk.49,C,D,0.0,0.397,True,False,0.0,[],True," But you should be careful,",5,task,Suggest
+IS1000b,D,1178.14,1178.47,0.33,IS1000b.D.dialog-act.vkaraisk.140,,,,,,,,,False, yeah.,1,task,Assess
+IS1000b,C,1179.82,1182.59,2.77,IS1000b.C.dialog-act.vkaraisk.50,C,C,0.0,0.0,False,False,0.0,[],False," people are sometime becoming problem,",5,task,Inform
+IS1000b,C,1182.59,1187.04,4.45,IS1000b.C.dialog-act.vkaraisk.51,C,C,0.0,0.0,False,False,0.0,[],False, like a guy has recently designed a remote,8,task,Inform
+IS1000b,C,1187.04,1194.25,7.21,IS1000b.C.dialog-act.vkaraisk.52,D,C,-6.74,0.0,False,True,1.7,['IS1000b.D.dialog-act.vkaraisk.141'],False," uh uh uh which could switch off any other T_V_s, so basically through all the things.",16,task,Inform
+IS1000b,D,1187.51,1189.21,1.7,IS1000b.D.dialog-act.vkaraisk.141,D,C,8.39,-6.74,True,False,0.0,[],False, That can control o other things.,6,task,Inform
+IS1000b,D,1190.65,1191.39,0.74,IS1000b.D.dialog-act.vkaraisk.142,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,B,1192.56,1192.79,0.23,IS1000b.B.dialog-act.vkaraisk.119,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,A,1192.6,1192.97,0.37,IS1000b.A.dialog-act.vkaraisk.131,,,,,,,,,False, Ah.,1,other,Other
+IS1000b,C,1194.25,1199.37,5.12,IS1000b.C.dialog-act.vkaraisk.53,,,,,,,,,False, So maybe we should think of,6,minor,Fragment
+IS1000b,A,1195.488,1196.736,1.248,IS1000b.A.dialog-act.vkaraisk.132,,,,,,,,,False,,0,minor,Fragment
+IS1000b,D,1197.01,1197.6,0.59,IS1000b.D.dialog-act.vkaraisk.143,,,,,,,,,False, Of course yeah,3,task,Assess
+IS1000b,D,1197.6,1199.64,2.04,IS1000b.D.dialog-act.vkaraisk.144,A,D,-0.12,8.39,False,True,0.12,['IS1000b.A.dialog-act.vkaraisk.134'],False, we should take that into account,6,task,Suggest
+IS1000b,B,1198.34,1199.42,1.08,IS1000b.B.dialog-act.vkaraisk.120,,,,,,,,,False, Yeah yes,2,minor,Stall
+IS1000b,A,1198.49,1199.52,1.03,IS1000b.A.dialog-act.vkaraisk.133,,,,,,,,,False, That's handy.,2,other,Be-Positive
+IS1000b,C,1199.37,1199.76,0.39,IS1000b.C.dialog-act.vkaraisk.54,,,,,,,,,False, yeah.,1,task,Assess
+IS1000b,B,1199.42,1200.192,0.772,IS1000b.B.dialog-act.vkaraisk.121,,,,,,,,,False, I I I,3,minor,Fragment
+IS1000b,A,1199.52,1203.0,3.48,IS1000b.A.dialog-act.vkaraisk.134,C,D,-1.29,-0.12,True,True,1.29,['IS1000b.C.dialog-act.vkaraisk.56'],False," So if the b T_V_ in the next apartment's really loud, you can just turn it off.",17,task,Inform
+IS1000b,D,1199.64,1200.336,0.696,IS1000b.D.dialog-act.vkaraisk.145,,,,,,,,,False, in the uh,3,minor,Fragment
+IS1000b,C,1200.457,1201.71,1.253,IS1000b.C.dialog-act.vkaraisk.55,,,,,,,,,False, Yeah,1,task,Assess
+IS1000b,C,1201.71,1203.31,1.6,IS1000b.C.dialog-act.vkaraisk.56,C,A,0.0,-1.29,True,False,0.0,[],False, so you can just go on the street,8,task,Inform
+IS1000b,C,1203.31,1205.33,2.02,IS1000b.C.dialog-act.vkaraisk.57,C,C,0.0,0.0,False,False,0.0,[],False, and then switch off everyone's T_V_,6,task,Inform
+IS1000b,C,1205.33,1207.67,2.34,IS1000b.C.dialog-act.vkaraisk.58,C,C,0.0,0.0,False,False,0.0,[],False, and you can just walk away,6,task,Inform
+IS1000b,D,1205.982,1207.707,1.725,IS1000b.D.dialog-act.vkaraisk.146,,,,,,,,,False,,0,minor,Fragment
+IS1000b,C,1207.67,1211.3,3.63,IS1000b.C.dialog-act.vkaraisk.59,A,C,-1.22,0.0,False,True,0.89,['IS1000b.A.dialog-act.vkaraisk.136'],False, You don't have to be near the T_V_ at all.,10,task,Inform
+IS1000b,A,1208.73,1209.0,0.27,IS1000b.A.dialog-act.vkaraisk.135,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,B,1210.07,1211.68,1.61,IS1000b.B.dialog-act.vkaraisk.122,,,,,,,,,False, I I feel I I,5,minor,Fragment
+IS1000b,A,1210.08,1210.97,0.89,IS1000b.A.dialog-act.vkaraisk.136,B,C,0.71,-1.22,True,False,0.0,[],False, I like that idea.,4,other,Be-Positive
+IS1000b,B,1211.68,1215.26,3.58,IS1000b.B.dialog-act.vkaraisk.123,B,A,0.0,0.71,True,False,0.0,[],True, I think M Mael will will consider this uh th these things.,12,task,Suggest
+IS1000b,C,1214.0,1216.32,2.32,IS1000b.C.dialog-act.vkaraisk.62,,,,,,,,,False,,0,minor,Fragment
+IS1000b,B,1215.26,1219.05,3.79,IS1000b.B.dialog-act.vkaraisk.124,B,B,0.0,0.0,False,False,0.0,[],False, Maybe Maybe we can go to to your presentation uh Matthew.,11,task,Suggest
+IS1000b,C,1218.28,1218.66,0.38,IS1000b.C.dialog-act.vkaraisk.60,,,,,,,,,False, Yeah,1,task,Assess
+IS1000b,C,1218.66,1219.66,1.0,IS1000b.C.dialog-act.vkaraisk.61,,,,,,,,,False, so.,1,minor,Stall
+IS1000b,B,1219.05,1221.25,2.2,IS1000b.B.dialog-act.vkaraisk.125,C,B,4.58,0.0,False,False,0.0,[],False, I I I assume you were finished here.,8,elicit,Elicit-Inform
+IS1000b,D,1220.66,1220.97,0.31,IS1000b.D.dialog-act.vkaraisk.147,,,,,,,,,False, Yes.,1,task,Inform
+IS1000b,B,1221.25,1221.74,0.49,IS1000b.B.dialog-act.vkaraisk.126,,,,,,,,,False, Uh okay.,2,other,Comment-About-Understanding
+IS1000b,C,1221.52,1225.83,4.31,IS1000b.C.dialog-act.vkaraisk.63,,,,,,,,,False, Okay. So,2,minor,Stall
+IS1000b,C,1225.83,1229.32,3.49,IS1000b.C.dialog-act.vkaraisk.64,C,B,3.09,4.58,True,False,0.0,[],True, I can take I think mine now there.,8,other,Offer
+IS1000b,D,1227.83,1228.06,0.23,IS1000b.D.dialog-act.vkaraisk.149,,,,,,,,,False, Okay.,1,task,Assess
+IS1000b,C,1229.32,1231.42,2.1,IS1000b.C.dialog-act.vkaraisk.65,,,,,,,,,False, Okay so,2,minor,Stall
+IS1000b,C,1231.42,1232.41,0.99,IS1000b.C.dialog-act.vkaraisk.66,,,,,,,,,False, voila.,1,task,Assess
+IS1000b,A,1231.952,1232.816,0.864,IS1000b.A.dialog-act.vkaraisk.137,,,,,,,,,False,,0,minor,Fragment
+IS1000b,C,1232.41,1237.62,5.21,IS1000b.C.dialog-act.vkaraisk.67,B,C,15.88,3.09,False,False,0.0,[],False," Hmm I can take mine it's okay,",7,task,Inform
+IS1000b,C,1237.62,1239.9,2.28,IS1000b.C.dialog-act.vkaraisk.68,,,,,,,,,False," voila,",1,task,Assess
+IS1000b,C,1239.9,1243.6,3.7,IS1000b.C.dialog-act.vkaraisk.69,,,,,,,,,False, mm so mm.,3,minor,Stall
+IS1000b,C,1248.2,1248.81,0.61,IS1000b.C.dialog-act.vkaraisk.70,,,,,,,,,False, Okay.,1,minor,Stall
+IS1000b,B,1250.08,1251.04,0.96,IS1000b.B.dialog-act.vkaraisk.127,,,,,,,,,False, Oh. I,2,other,Other
+IS1000b,B,1252.1,1253.5,1.4,IS1000b.B.dialog-act.vkaraisk.128,,,,,,,,,False," Uh, sorry?",2,other,Other
+IS1000b,B,1253.5,1254.59,1.09,IS1000b.B.dialog-act.vkaraisk.129,C,C,0.12,15.88,True,False,0.0,[],True, I know where it is.,5,task,Inform
+IS1000b,C,1254.71,1255.58,0.87,IS1000b.C.dialog-act.vkaraisk.71,C,B,9.38,0.12,True,False,0.0,[],True, It's on the desktop.,4,task,Inform
+IS1000b,B,1255.78,1257.056,1.276,IS1000b.B.dialog-act.vkaraisk.130,,,,,,,,,False, It's uh,2,minor,Fragment
+IS1000b,C,1256.85,1259.1,2.25,IS1000b.C.dialog-act.vkaraisk.72,,,,,,,,,False, Technical function.,2,task,Inform
+IS1000b,B,1259.0,1259.13,0.13,IS1000b.B.dialog-act.vkaraisk.131,,,,,,,,,False, Yes.,1,other,Comment-About-Understanding
+IS1000b,C,1259.1,1260.06,0.96,IS1000b.C.dialog-act.vkaraisk.73,,,,,,,,,False, Okay.,1,task,Assess
+IS1000b,B,1260.1,1261.056,0.956,IS1000b.B.dialog-act.vkaraisk.132,,,,,,,,,False, It's uh,2,minor,Fragment
+IS1000b,C,1261.48,1262.71,1.23,IS1000b.C.dialog-act.vkaraisk.74,,,,,,,,,False, Like so.,2,task,Assess
+IS1000b,B,1262.416,1262.656,0.24,IS1000b.B.dialog-act.vkaraisk.133,,,,,,,,,False,,0,minor,Fragment
+IS1000b,C,1262.71,1264.96,2.25,IS1000b.C.dialog-act.vkaraisk.75,,,,,,,,,False, Well. So um,3,minor,Stall
+IS1000b,C,1264.96,1267.85,2.89,IS1000b.C.dialog-act.vkaraisk.76,C,C,0.0,9.38,False,False,0.0,[],False, I'm going to talk a little bit about the technical function,11,other,Offer
+IS1000b,C,1267.85,1272.33,4.48,IS1000b.C.dialog-act.vkaraisk.77,C,C,0.0,0.0,False,False,0.0,[],False," so wha what actually it's about what is the user going to do,",13,task,Inform
+IS1000b,C,1272.33,1275.53,3.2,IS1000b.C.dialog-act.vkaraisk.78,C,C,0.0,0.0,False,False,0.0,[],False," I think my last presented what is going inside,",9,task,Inform
+IS1000b,A,1273.33,1273.52,0.19,IS1000b.A.dialog-act.vkaraisk.138,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,A,1275.08,1275.23,0.15,IS1000b.A.dialog-act.vkaraisk.139,,,,,,,,,False, Yep.,1,minor,Backchannel
+IS1000b,C,1275.53,1278.73,3.2,IS1000b.C.dialog-act.vkaraisk.79,C,C,0.0,0.0,False,False,0.0,[],False, so what's the user is going to see from the outside,11,task,Inform
+IS1000b,C,1278.73,1280.62,1.89,IS1000b.C.dialog-act.vkaraisk.80,C,C,5.05,0.0,False,False,0.0,[],False, and how he is going to use it.,8,task,Inform
+IS1000b,C,1280.62,1282.21,1.59,IS1000b.C.dialog-act.vkaraisk.81,,,,,,,,,False, So well,2,minor,Stall
+IS1000b,C,1282.21,1284.41,2.2,IS1000b.C.dialog-act.vkaraisk.82,,,,,,,,,False, the approach is that uh,5,minor,Fragment
+IS1000b,C,1285.67,1288.82,3.15,IS1000b.C.dialog-act.vkaraisk.83,C,C,0.0,5.05,False,False,0.0,[],False," basically the idea is to send a message to the T_V_ set,",12,task,Inform
+IS1000b,C,1288.82,1290.02,1.2,IS1000b.C.dialog-act.vkaraisk.84,C,C,0.0,0.0,False,False,0.0,[],False," as Mael has pointed,",4,task,Inform
+IS1000b,C,1290.02,1292.83,2.81,IS1000b.C.dialog-act.vkaraisk.85,C,C,0.0,0.0,False,False,0.0,[],False, and it will be decoded by the T_V_,8,task,Inform
+IS1000b,C,1292.83,1298.24,5.41,IS1000b.C.dialog-act.vkaraisk.86,C,C,0.0,0.0,False,False,0.0,[],False, and usually we it is easier to have uh keys or buttons,12,task,Inform
+IS1000b,C,1298.24,1300.68,2.44,IS1000b.C.dialog-act.vkaraisk.87,C,C,0.0,0.0,False,False,0.0,[],False, with which people can uh press,6,task,Inform
+IS1000b,C,1300.68,1308.45,7.77,IS1000b.C.dialog-act.vkaraisk.88,C,C,2.59,0.0,False,False,0.0,[],False, and then um changing a button will basically uh change the message which is being sent to the T_V_,19,task,Inform
+IS1000b,D,1308.33,1308.42,0.09,IS1000b.D.dialog-act.vkaraisk.150,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,C,1308.45,1311.04,2.59,IS1000b.C.dialog-act.vkaraisk.89,,,,,,,,,False, and uh um,3,minor,Stall
+IS1000b,C,1311.04,1313.41,2.37,IS1000b.C.dialog-act.vkaraisk.90,C,C,0.0,2.59,False,False,0.0,[],False, a and basically it sends an internal signal,8,task,Inform
+IS1000b,C,1313.41,1314.76,1.35,IS1000b.C.dialog-act.vkaraisk.91,C,C,0.89,0.0,False,False,0.0,[],False, and decoded by the receiver.,5,task,Inform
+IS1000b,C,1314.83,1315.35,0.52,IS1000b.C.dialog-act.vkaraisk.92,,,,,,,,,False, So,1,minor,Stall
+IS1000b,C,1315.35,1315.65,0.3,IS1000b.C.dialog-act.vkaraisk.93,,,,,,,,,False, p,1,minor,Fragment
+IS1000b,C,1315.65,1325.08,9.43,IS1000b.C.dialog-act.vkaraisk.94,C,C,0.0,0.89,False,False,0.0,[],False," as um Anna has said that this ki people are interested in things which are you don't need to k press the keys,",23,task,Inform
+IS1000b,C,1325.08,1327.05,1.97,IS1000b.C.dialog-act.vkaraisk.95,C,C,0.0,0.0,False,False,0.0,[],False, people are can have a speech recognition,7,task,Suggest
+IS1000b,C,1327.05,1331.34,4.29,IS1000b.C.dialog-act.vkaraisk.96,C,C,0.0,0.0,False,False,0.0,[],False, but this is uh s a question which will we have to see later.,14,task,Suggest
+IS1000b,C,1331.34,1334.83,3.49,IS1000b.C.dialog-act.vkaraisk.97,C,C,0.0,0.0,False,False,0.0,[],False, But in the present scenario is that you have certain keys,11,task,Inform
+IS1000b,B,1331.63,1331.85,0.22,IS1000b.B.dialog-act.vkaraisk.134,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,C,1334.83,1338.03,3.2,IS1000b.C.dialog-act.vkaraisk.98,C,C,0.0,0.0,False,False,0.0,[],False," and you press it like your mobile phone,",8,task,Inform
+IS1000b,C,1338.03,1343.3,5.27,IS1000b.C.dialog-act.vkaraisk.99,C,C,3.71,0.0,False,False,0.0,[],False, and it sends a message to the T_V_.,8,task,Inform
+IS1000b,B,1341.62,1341.73,0.11,IS1000b.B.dialog-act.vkaraisk.135,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,D,1342.37,1342.51,0.14,IS1000b.D.dialog-act.vkaraisk.151,,,,,,,,,False, Yep.,1,minor,Backchannel
+IS1000b,C,1343.3,1347.01,3.71,IS1000b.C.dialog-act.vkaraisk.100,,,,,,,,,False, And um so generally mm,5,minor,Stall
+IS1000b,C,1347.01,1347.98,0.97,IS1000b.C.dialog-act.vkaraisk.101,C,C,1.67,3.71,False,False,0.0,[],False, I don't have some figures,5,task,Inform
+IS1000b,C,1347.98,1348.27,0.29,IS1000b.C.dialog-act.vkaraisk.102,,,,,,,,,False, sorry,1,other,Be-Positive
+IS1000b,C,1348.27,1349.65,1.38,IS1000b.C.dialog-act.vkaraisk.103,,,,,,,,,False, but um so,3,minor,Stall
+IS1000b,C,1349.65,1354.34,4.69,IS1000b.C.dialog-act.vkaraisk.104,C,C,0.75,1.67,False,False,0.0,[],False," there are two kinds of uh remote if you popularly in the household,",13,task,Inform
+IS1000b,C,1354.34,1355.09,0.75,IS1000b.C.dialog-act.vkaraisk.105,,,,,,,,,False, actually so,2,minor,Stall
+IS1000b,C,1355.09,1356.66,1.57,IS1000b.C.dialog-act.vkaraisk.106,C,C,0.0,0.75,False,False,0.0,[],False, you have a standard T_V_ remote,6,task,Inform
+IS1000b,C,1356.66,1365.38,8.72,IS1000b.C.dialog-act.vkaraisk.107,C,C,0.46,0.0,False,False,0.0,[],False," where you have just a on, off button and play, uh volume change and uh keys for the number and more than one digit option.",25,task,Inform
+IS1000b,C,1365.84,1376.21,10.37,IS1000b.C.dialog-act.vkaraisk.108,C,C,0.0,0.46,False,False,0.0,[],False," And if you see for example righ right now uh uh even the one uh on more than one digit option is for two digit channel which is like ninety nine,",31,task,Inform
+IS1000b,C,1376.21,1383.07,6.86,IS1000b.C.dialog-act.vkaraisk.109,C,C,3.14,0.0,False,False,0.0,[],False," but tomorrow you might have one fifty channels you know to browse or two hundred channels to browse who knows,",20,task,Inform
+IS1000b,C,1383.07,1384.5,1.43,IS1000b.C.dialog-act.vkaraisk.110,,,,,,,,,False, but uh uh.,3,minor,Stall
+IS1000b,C,1384.5,1386.21,1.71,IS1000b.C.dialog-act.vkaraisk.111,,,,,,,,,False, Then there is uh,4,minor,Fragment
+IS1000b,C,1386.21,1388.88,2.67,IS1000b.C.dialog-act.vkaraisk.112,C,C,0.24,3.14,False,False,0.0,[],False, this is the standard one with without any fancy thing,10,task,Inform
+IS1000b,C,1388.88,1389.12,0.24,IS1000b.C.dialog-act.vkaraisk.113,,,,,,,,,False, you know,2,minor,Stall
+IS1000b,C,1389.12,1391.27,2.15,IS1000b.C.dialog-act.vkaraisk.114,C,C,1.88,0.24,False,False,0.0,[],False," like i it doesn't have teletext option,",7,task,Inform
+IS1000b,C,1391.27,1393.15,1.88,IS1000b.C.dialog-act.vkaraisk.115,,,,,,,,,False," it can without any,",4,minor,Fragment
+IS1000b,C,1393.15,1395.18,2.03,IS1000b.C.dialog-act.vkaraisk.116,C,C,0.0,1.88,False,False,0.0,[],False," it's a very simple thing,",5,task,Inform
+IS1000b,C,1395.18,1397.6,2.42,IS1000b.C.dialog-act.vkaraisk.117,C,C,0.53,0.0,False,False,0.0,[],False, um which which you can vouch.,6,task,Inform
+IS1000b,C,1398.13,1403.01,4.88,IS1000b.C.dialog-act.vkaraisk.118,C,C,1.36,0.53,False,False,0.0,[],False, And then you have uh what's the v video remote file,11,task,Inform
+IS1000b,C,1403.01,1404.37,1.36,IS1000b.C.dialog-act.vkaraisk.119,,,,,,,,,False, which is like,3,minor,Fragment
+IS1000b,C,1404.37,1406.95,2.58,IS1000b.C.dialog-act.vkaraisk.120,C,C,0.22,1.36,False,False,0.0,[],False, usually it has almost all the keys over there,9,task,Inform
+IS1000b,C,1406.95,1407.17,0.22,IS1000b.C.dialog-act.vkaraisk.121,,,,,,,,,False," and,",1,minor,Fragment
+IS1000b,C,1407.17,1419.11,11.94,IS1000b.C.dialog-act.vkaraisk.122,C,C,0.12,0.22,False,False,0.0,[],False, but it then it has other options like stop uh and then you play the movie or uh or fo fast forward the movie or something like that so i it has those,33,task,Inform
+IS1000b,A,1416.0,1416.37,0.37,IS1000b.A.dialog-act.vkaraisk.140,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,C,1419.11,1419.23,0.12,IS1000b.C.dialog-act.vkaraisk.124,,,,,,,,,False, so,1,minor,Stall
+IS1000b,C,1419.23,1426.53,7.3,IS1000b.C.dialog-act.vkaraisk.125,C,C,2.39,0.12,False,False,0.0,[],False, these are the standard uh commonly found remote controls in the uh market.,13,task,Inform
+IS1000b,C,1427.42,1428.92,1.5,IS1000b.C.dialog-act.vkaraisk.126,,,,,,,,,False, And then whi,3,minor,Fragment
+IS1000b,C,1428.92,1430.62,1.7,IS1000b.C.dialog-act.vkaraisk.127,C,C,3.14,2.39,False,False,0.0,[],False, which is generally used by the people.,7,task,Inform
+IS1000b,C,1430.62,1432.43,1.81,IS1000b.C.dialog-act.vkaraisk.128,,,,,,,,,False, And then,2,minor,Fragment
+IS1000b,C,1432.43,1432.64,0.21,IS1000b.C.dialog-act.vkaraisk.129,,,,,,,,,False, well,1,minor,Stall
+IS1000b,C,1432.64,1433.76,1.12,IS1000b.C.dialog-act.vkaraisk.130,,,,,,,,,False, personal preferences,2,other,Offer
+IS1000b,C,1433.76,1440.89,7.13,IS1000b.C.dialog-act.vkaraisk.131,C,C,0.0,3.14,False,False,0.0,[],False, I would uh basically think of having a kind of aim for the next generation thing,16,task,Suggest
+IS1000b,C,1440.89,1448.51,7.62,IS1000b.C.dialog-act.vkaraisk.132,C,C,0.0,0.0,False,False,0.0,[],False, where the we could have both the uh the f a T_V_ and the remote video remote control,18,task,Suggest
+IS1000b,C,1448.51,1454.24,5.73,IS1000b.C.dialog-act.vkaraisk.133,A,C,9.54,0.0,False,False,0.0,[],False, because uh some of the keys in the video's remote control and the T_V_ they could be integrated together,19,task,Suggest
+IS1000b,C,1454.24,1463.808,9.568,IS1000b.C.dialog-act.vkaraisk.134,,,,,,,,,False, so that uh we could um aim for the like in the f coming future um that type of uh applications with,22,minor,Fragment
+IS1000b,A,1463.09,1463.78,0.69,IS1000b.A.dialog-act.vkaraisk.141,,,,,,,,,False, Okay.,1,minor,Stall
+IS1000b,A,1463.78,1464.48,0.7,IS1000b.A.dialog-act.vkaraisk.142,A,C,0.2,9.54,True,False,0.0,[],True, How would that work?,4,elicit,Elicit-Inform
+IS1000b,A,1464.48,1464.68,0.2,IS1000b.A.dialog-act.vkaraisk.143,,,,,,,,,False, So,1,minor,Stall
+IS1000b,A,1464.68,1467.89,3.21,IS1000b.A.dialog-act.vkaraisk.144,A,A,0.36,0.2,False,False,0.0,[],False," you've got say maybe a V_C_R_ and a T_V_ which are separate,",12,task,Inform
+IS1000b,C,1466.288,1469.201,2.913,IS1000b.C.dialog-act.vkaraisk.135,,,,,,,,,False,,0,minor,Fragment
+IS1000b,A,1467.89,1468.25,0.36,IS1000b.A.dialog-act.vkaraisk.145,,,,,,,,,False, so you,2,minor,Fragment
+IS1000b,A,1468.25,1470.73,2.48,IS1000b.A.dialog-act.vkaraisk.146,A,A,0.0,0.36,False,False,0.0,[],False, on my one at home I've got a V_C_R_ remote,10,task,Inform
+IS1000b,A,1470.73,1473.31,2.58,IS1000b.A.dialog-act.vkaraisk.147,A,A,0.0,0.0,False,False,0.0,[],False, which then changes the channel on the V_C_R_,8,task,Inform
+IS1000b,C,1473.08,1473.31,0.23,IS1000b.C.dialog-act.vkaraisk.136,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,A,1473.31,1474.8,1.49,IS1000b.A.dialog-act.vkaraisk.148,A,A,0.0,0.0,False,False,0.0,[],False," and doesn't do anything on the T_V_,",7,task,Inform
+IS1000b,C,1474.64,1474.88,0.24,IS1000b.C.dialog-act.vkaraisk.137,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,A,1474.8,1479.34,4.54,IS1000b.A.dialog-act.vkaraisk.149,A,A,0.0,0.0,False,False,0.0,[],False, so is it gonna be like a switch on the remote that says t use the T_V_ or use the V_C_R_?,21,elicit,Elicit-Inform
+IS1000b,A,1479.34,1481.1,1.76,IS1000b.A.dialog-act.vkaraisk.150,C,A,6.75,0.0,False,False,0.0,[],False, or does it know which one you want to use?,10,elicit,Elicit-Inform
+IS1000b,C,1481.66,1483.83,2.17,IS1000b.C.dialog-act.vkaraisk.138,,,,,,,,,False, Um actually um,3,minor,Stall
+IS1000b,C,1483.83,1487.85,4.02,IS1000b.C.dialog-act.vkaraisk.139,,,,,,,,,False, you could you could think of um having s a y,11,minor,Fragment
+IS1000b,C,1487.85,1492.55,4.7,IS1000b.C.dialog-act.vkaraisk.140,C,A,4.95,6.75,True,False,0.0,[],True, you can have a key which could tell y it could go to the video thing,16,task,Suggest
+IS1000b,A,1491.43,1491.68,0.25,IS1000b.A.dialog-act.vkaraisk.151,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,C,1492.55,1494.77,2.22,IS1000b.C.dialog-act.vkaraisk.141,,,,,,,,,False, but um uh,3,minor,Stall
+IS1000b,C,1494.77,1497.5,2.73,IS1000b.C.dialog-act.vkaraisk.142,,,,,,,,,False, yo you you you still can't um,7,minor,Fragment
+IS1000b,C,1497.5,1503.61,6.11,IS1000b.C.dialog-act.vkaraisk.143,C,C,0.0,4.95,False,False,0.0,[],False, in that case when it you use that the function should be able to take up the V_C_R_ option,19,task,Suggest
+IS1000b,A,1502.15,1502.42,0.27,IS1000b.A.dialog-act.vkaraisk.152,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,C,1503.61,1505.28,1.67,IS1000b.C.dialog-act.vkaraisk.144,C,C,5.29,0.0,False,False,0.0,[],False, and you could play it or,6,task,Suggest
+IS1000b,C,1505.28,1507.11,1.83,IS1000b.C.dialog-act.vkaraisk.146,,,,,,,,,False, You can also think about having,6,minor,Fragment
+IS1000b,C,1507.11,1508.606,1.496,IS1000b.C.dialog-act.vkaraisk.147,,,,,,,,,False, like um,2,minor,Stall
+IS1000b,C,1508.75,1510.57,1.82,IS1000b.C.dialog-act.vkaraisk.148,,,,,,,,,False, I in a few days you will be ha,9,minor,Fragment
+IS1000b,C,1510.57,1516.86,6.29,IS1000b.C.dialog-act.vkaraisk.149,C,C,5.02,5.29,False,False,0.0,[],False, in in few ye coming years you might even have a system where you have a separate uh sitting setup box,21,task,Inform
+IS1000b,C,1516.86,1521.88,5.02,IS1000b.C.dialog-act.vkaraisk.150,,,,,,,,,False, and uh you have uh um something like uh uh you do you do you,15,minor,Fragment
+IS1000b,A,1517.03,1517.3,0.27,IS1000b.A.dialog-act.vkaraisk.153,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,C,1521.88,1526.95,5.07,IS1000b.C.dialog-act.vkaraisk.151,C,C,3.15,5.02,False,False,0.0,[],False, suppose you are not able to watch some programme and actually it downloading all the time for you,18,task,Inform
+IS1000b,A,1524.08,1524.24,0.16,IS1000b.A.dialog-act.vkaraisk.154,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,A,1526.73,1527.01,0.28,IS1000b.A.dialog-act.vkaraisk.155,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,C,1526.95,1529.0,2.05,IS1000b.C.dialog-act.vkaraisk.153,,,,,,,,,False, and uh you can just,5,minor,Fragment
+IS1000b,C,1529.0,1530.1,1.1,IS1000b.C.dialog-act.vkaraisk.154,,,,,,,,,False, you know uh,3,minor,Fragment
+IS1000b,C,1530.1,1534.44,4.34,IS1000b.C.dialog-act.vkaraisk.152,C,C,0.0,3.15,False,False,0.0,[],False, when you come back you could just switch on that thing and uh watch a program.,16,task,Inform
+IS1000b,A,1533.3,1533.5,0.2,IS1000b.A.dialog-act.vkaraisk.156,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,C,1534.44,1541.03,6.59,IS1000b.C.dialog-act.vkaraisk.155,D,C,-0.67,0.0,False,True,0.67,['IS1000b.D.dialog-act.vkaraisk.152'],False," In that case you want to browse faster, browse slow, you want to have those kind of functionalities.",18,task,Suggest
+IS1000b,A,1537.72,1537.96,0.24,IS1000b.A.dialog-act.vkaraisk.157,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,B,1538.35,1540.06,1.71,IS1000b.B.dialog-act.vkaraisk.136,,,,,,,,,False, Mm mm mm mm mm.,5,minor,Backchannel
+IS1000b,A,1540.16,1540.38,0.22,IS1000b.A.dialog-act.vkaraisk.158,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,D,1540.36,1544.15,3.79,IS1000b.D.dialog-act.vkaraisk.152,C,C,-1.99,-0.67,True,True,1.28,"['IS1000b.C.dialog-act.vkaraisk.156', 'IS1000b.C.dialog-act.vkaraisk.157']",False, These are kind of next generation functionalities.,7,task,Inform
+IS1000b,C,1542.16,1543.44,1.28,IS1000b.C.dialog-act.vkaraisk.156,C,D,0.0,-1.99,True,False,0.0,[],False," It's the next generation thing,",5,task,Assess
+IS1000b,C,1543.44,1545.53,2.09,IS1000b.C.dialog-act.vkaraisk.157,B,C,-0.09,0.0,False,True,0.09,['IS1000b.B.dialog-act.vkaraisk.138'],False, but it is going to come in couple of years.,10,task,Inform
+IS1000b,B,1543.88,1545.44,1.56,IS1000b.B.dialog-act.vkaraisk.137,,,,,,,,,False," Mm yes,",2,minor,Stall
+IS1000b,A,1544.58,1544.81,0.23,IS1000b.A.dialog-act.vkaraisk.159,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,B,1545.44,1547.49,2.05,IS1000b.B.dialog-act.vkaraisk.138,B,C,0.0,-0.09,True,False,0.0,[],False," but I think it's i i it's already there,",9,task,Assess
+IS1000b,C,1545.53,1545.92,0.39,IS1000b.C.dialog-act.vkaraisk.158,,,,,,,,,False, It's goi,2,minor,Fragment
+IS1000b,B,1547.49,1551.14,3.65,IS1000b.B.dialog-act.vkaraisk.139,C,B,0.78,0.0,False,False,0.0,[],False, I mean the hard disk uh recorders uh I I've seen them in the shop.,15,task,Inform
+IS1000b,C,1547.8,1548.01,0.21,IS1000b.C.dialog-act.vkaraisk.159,,,,,,,,,False, Yeah,1,task,Assess
+IS1000b,C,1548.01,1548.369,0.359,IS1000b.C.dialog-act.vkaraisk.160,,,,,,,,,False, it's,1,minor,Fragment
+IS1000b,A,1549.43,1549.55,0.12,IS1000b.A.dialog-act.vkaraisk.160,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,C,1549.52,1549.76,0.24,IS1000b.C.dialog-act.vkaraisk.161,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,C,1550.93,1551.61,0.68,IS1000b.C.dialog-act.vkaraisk.164,,,,,,,,,False, Yeah.,1,task,Assess
+IS1000b,A,1551.28,1551.51,0.23,IS1000b.A.dialog-act.vkaraisk.161,,,,,,,,,False, Yeah.,1,task,Assess
+IS1000b,D,1551.3,1551.65,0.35,IS1000b.D.dialog-act.vkaraisk.153,,,,,,,,,False, Mm 'kay.,2,minor,Backchannel
+IS1000b,C,1551.61,1551.92,0.31,IS1000b.C.dialog-act.vkaraisk.162,,,,,,,,,False, So,1,minor,Stall
+IS1000b,C,1551.92,1553.52,1.6,IS1000b.C.dialog-act.vkaraisk.163,C,B,0.0,0.78,True,False,0.0,[],True, it's going to record your things,6,task,Inform
+IS1000b,C,1553.52,1561.28,7.76,IS1000b.C.dialog-act.vkaraisk.165,A,C,-0.04,0.0,False,True,0.04,['IS1000b.A.dialog-act.vkaraisk.166'],False, and you and you you need basically the functionalities what you need in both uh uh video as well as in the standard T_V_ thing.,25,task,Inform
+IS1000b,A,1554.32,1554.52,0.2,IS1000b.A.dialog-act.vkaraisk.162,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,A,1556.95,1557.13,0.18,IS1000b.A.dialog-act.vkaraisk.163,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,A,1558.52,1559.1,0.58,IS1000b.A.dialog-act.vkaraisk.164,,,,,,,,,False, That's fair enough.,3,task,Assess
+IS1000b,A,1560.34,1561.24,0.9,IS1000b.A.dialog-act.vkaraisk.165,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,A,1561.24,1564.92,3.68,IS1000b.A.dialog-act.vkaraisk.166,C,C,-0.4,-0.04,True,True,0.4,['IS1000b.C.dialog-act.vkaraisk.166'],False, But I don't think we're trying to make a universal remote here.,12,task,Inform
+IS1000b,C,1564.52,1566.3,1.78,IS1000b.C.dialog-act.vkaraisk.166,C,A,0.0,-0.4,True,False,0.0,[],False," No no we are not making a universal remote,",9,task,Assess
+IS1000b,A,1564.92,1565.44,0.52,IS1000b.A.dialog-act.vkaraisk.167,,,,,,,,,False," That's,",1,minor,Fragment
+IS1000b,A,1565.44,1565.75,0.31,IS1000b.A.dialog-act.vkaraisk.168,,,,,,,,,False, yeah.,1,minor,Backchannel
+IS1000b,C,1566.3,1569.93,3.63,IS1000b.C.dialog-act.vkaraisk.167,C,C,0.0,0.0,False,False,0.0,[],False," we are just looking at uh giving a scenario, I have a T_V_",13,task,Inform
+IS1000b,C,1569.93,1571.75,1.82,IS1000b.C.dialog-act.vkaraisk.168,C,C,0.0,0.0,False,False,0.0,[],False, and tomorrow I am going to have set up box,10,task,Inform
+IS1000b,A,1571.66,1571.97,0.31,IS1000b.A.dialog-act.vkaraisk.169,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,C,1571.75,1575.8,4.05,IS1000b.C.dialog-act.vkaraisk.169,B,C,-0.44,0.0,False,True,0.44,['IS1000b.B.dialog-act.vkaraisk.140'],False, which is going to sit there and uh it's going to do that job for me.,16,task,Inform
+IS1000b,A,1573.79,1575.39,1.6,IS1000b.A.dialog-act.vkaraisk.170,,,,,,,,,False, Mm. Because y,3,minor,Fragment
+IS1000b,B,1575.36,1580.75,5.39,IS1000b.B.dialog-act.vkaraisk.140,B,C,1.29,-0.44,True,False,0.0,[],False, W w w w we need to decide on on on on in how far we go to in this.,20,task,Suggest
+IS1000b,A,1581.0,1581.32,0.32,IS1000b.A.dialog-act.vkaraisk.171,,,,,,,,,False, Mm-hmm.,1,task,Assess
+IS1000b,B,1582.04,1589.76,7.72,IS1000b.B.dialog-act.vkaraisk.141,B,B,1.43,1.29,False,False,0.0,[],False," Mean, you can go pretty far I f I think with with with functions and possible uh future p uh prospects",21,task,Inform
+IS1000b,A,1582.51,1582.9,0.39,IS1000b.A.dialog-act.vkaraisk.172,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,A,1586.89,1587.14,0.25,IS1000b.A.dialog-act.vkaraisk.173,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,A,1589.33,1589.52,0.19,IS1000b.A.dialog-act.vkaraisk.174,,,,,,,,,False, Yep.,1,minor,Backchannel
+IS1000b,B,1589.76,1589.89,0.13,IS1000b.B.dialog-act.vkaraisk.142,,,,,,,,,False, yes.,1,task,Assess
+IS1000b,C,1590.21,1591.547,1.337,IS1000b.C.dialog-act.vkaraisk.170,,,,,,,,,False, Yeah. So,2,minor,Stall
+IS1000b,B,1591.19,1592.43,1.24,IS1000b.B.dialog-act.vkaraisk.143,C,B,1.49,1.43,False,False,0.0,[],False, But it's good to keep in mind.,7,task,Assess
+IS1000b,A,1592.75,1593.02,0.27,IS1000b.A.dialog-act.vkaraisk.175,,,,,,,,,False, Mm.,1,task,Assess
+IS1000b,C,1593.38,1593.92,0.54,IS1000b.C.dialog-act.vkaraisk.171,,,,,,,,,False, Okay so,2,minor,Stall
+IS1000b,C,1593.92,1595.78,1.86,IS1000b.C.dialog-act.vkaraisk.172,C,B,3.56,1.49,True,False,0.0,[],True, that p ends my presentation.,5,task,Inform
+IS1000b,B,1596.43,1597.24,0.81,IS1000b.B.dialog-act.vkaraisk.144,,,,,,,,,False, Mm. Very well.,3,other,Be-Positive
+IS1000b,C,1596.96,1599.34,2.38,IS1000b.C.dialog-act.vkaraisk.173,,,,,,,,,False, Well. So,2,minor,Stall
+IS1000b,C,1599.34,1601.01,1.67,IS1000b.C.dialog-act.vkaraisk.174,C,C,0.0,3.56,False,False,0.0,[],False, we can always discuss about it,6,task,Suggest
+IS1000b,C,1601.01,1613.62,12.61,IS1000b.C.dialog-act.vkaraisk.175,C,C,1.3,0.0,False,False,0.0,[],False," for example uh the presently the video market actually uh this demand, video over-demand or what we call it as, it's presently booming up actually",25,task,Inform
+IS1000b,D,1609.51,1609.87,0.36,IS1000b.D.dialog-act.vkaraisk.154,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,A,1610.28,1610.53,0.25,IS1000b.A.dialog-act.vkaraisk.176,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,A,1612.88,1613.13,0.25,IS1000b.A.dialog-act.vkaraisk.177,,,,,,,,,False, Yeah.,1,task,Assess
+IS1000b,C,1613.62,1614.41,0.79,IS1000b.C.dialog-act.vkaraisk.176,,,,,,,,,False, so,1,minor,Stall
+IS1000b,C,1614.41,1614.92,0.51,IS1000b.C.dialog-act.vkaraisk.177,,,,,,,,,False, it i,2,minor,Fragment
+IS1000b,C,1614.92,1619.76,4.84,IS1000b.C.dialog-act.vkaraisk.178,C,C,0.0,1.3,False,False,0.0,[],False," like people are providing like uh things like uh uh movies,",11,task,Inform
+IS1000b,C,1619.76,1621.8,2.04,IS1000b.C.dialog-act.vkaraisk.179,C,C,0.86,0.0,False,False,0.0,[],False, you can select actually,4,task,Inform
+IS1000b,C,1621.8,1622.66,0.86,IS1000b.C.dialog-act.vkaraisk.180,,,,,,,,,False, so,1,minor,Stall
+IS1000b,C,1622.66,1629.18,6.52,IS1000b.C.dialog-act.vkaraisk.181,C,C,1.82,0.86,False,False,0.0,[],False," you want to watch a movie and uh your p your provider gives a list of movies, and then you select those list.",23,task,Inform
+IS1000b,A,1628.75,1628.96,0.21,IS1000b.A.dialog-act.vkaraisk.178,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,D,1628.94,1629.16,0.22,IS1000b.D.dialog-act.vkaraisk.155,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,C,1629.18,1629.75,0.57,IS1000b.C.dialog-act.vkaraisk.182,,,,,,,,,False, And it,2,minor,Fragment
+IS1000b,C,1629.75,1630.3,0.55,IS1000b.C.dialog-act.vkaraisk.183,,,,,,,,,False, basically,1,minor,Stall
+IS1000b,C,1630.3,1631.0,0.7,IS1000b.C.dialog-act.vkaraisk.184,,,,,,,,,False," you go off,",3,task,Inform
+IS1000b,C,1631.0,1633.72,2.72,IS1000b.C.dialog-act.vkaraisk.185,C,C,0.0,1.82,False,False,0.0,[],False," it downloads the movie, it gives for you",8,task,Inform
+IS1000b,D,1633.12,1633.56,0.44,IS1000b.D.dialog-act.vkaraisk.156,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,A,1633.2,1633.42,0.22,IS1000b.A.dialog-act.vkaraisk.179,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,C,1633.72,1637.99,4.27,IS1000b.C.dialog-act.vkaraisk.186,C,C,0.0,0.0,False,False,0.0,[],False, and then when you come you want to loo watch it on your T_V_.,14,task,Inform
+IS1000b,C,1637.99,1639.12,1.13,IS1000b.C.dialog-act.vkaraisk.187,D,C,-0.09,0.0,False,True,0.09,['IS1000b.D.dialog-act.vkaraisk.157'],False, And thi this is going to come.,7,task,Inform
+IS1000b,B,1638.04,1638.3,0.26,IS1000b.B.dialog-act.vkaraisk.145,,,,,,,,,False, Good.,1,other,Be-Positive
+IS1000b,D,1639.03,1644.47,5.44,IS1000b.D.dialog-act.vkaraisk.157,C,C,-1.62,-0.09,True,True,1.62,['IS1000b.C.dialog-act.vkaraisk.188'],False," Or even you don't need to download it, it's streamed uh online uh yeah. Yeah.",15,task,Inform
+IS1000b,C,1642.85,1644.91,2.06,IS1000b.C.dialog-act.vkaraisk.188,C,D,0.0,-1.62,True,False,0.0,[],False, Yeah it can be streamed online for you,8,task,Assess
+IS1000b,C,1644.91,1647.36,2.45,IS1000b.C.dialog-act.vkaraisk.189,B,C,5.02,0.0,False,False,0.0,[],False, and you can say what time I want to watch the movie,12,task,Inform
+IS1000b,D,1646.9,1647.05,0.15,IS1000b.D.dialog-act.vkaraisk.158,,,,,,,,,False, Yeah.,1,task,Assess
+IS1000b,A,1647.27,1647.48,0.21,IS1000b.A.dialog-act.vkaraisk.180,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,C,1647.36,1647.694,0.334,IS1000b.C.dialog-act.vkaraisk.190,,,,,,,,,False, and,1,minor,Fragment
+IS1000b,B,1647.456,1647.856,0.4,IS1000b.B.dialog-act.vkaraisk.146,,,,,,,,,False,,0,minor,Fragment
+IS1000b,C,1648.36,1648.92,0.56,IS1000b.C.dialog-act.vkaraisk.191,,,,,,,,,False, Yeah,1,task,Assess
+IS1000b,C,1648.92,1649.24,0.32,IS1000b.C.dialog-act.vkaraisk.192,,,,,,,,,False, so.,1,minor,Fragment
+IS1000b,B,1648.98,1652.38,3.4,IS1000b.B.dialog-act.vkaraisk.147,,,,,,,,,False," Um, so u um",4,minor,Stall
+IS1000b,C,1650.36,1650.57,0.21,IS1000b.C.dialog-act.vkaraisk.193,,,,,,,,,False, Yeah.,1,task,Assess
+IS1000b,B,1652.38,1658.99,6.61,IS1000b.B.dialog-act.vkaraisk.148,B,C,0.0,5.02,True,False,0.0,[],True, I have uh received some some some some well points of of thinking over of my account manager,18,task,Inform
+IS1000b,B,1658.99,1661.5,2.51,IS1000b.B.dialog-act.vkaraisk.149,B,B,1.18,0.0,False,False,0.0,[],False, and uh I would like to share them with you. Um,11,other,Offer
+IS1000b,A,1661.11,1661.31,0.2,IS1000b.A.dialog-act.vkaraisk.181,,,,,,,,,False, Mm-hmm.,1,task,Assess
+IS1000b,D,1661.52,1661.75,0.23,IS1000b.D.dialog-act.vkaraisk.159,,,,,,,,,False, Mm-hmm.,1,task,Assess
+IS1000b,B,1662.68,1667.21,4.53,IS1000b.B.dialog-act.vkaraisk.150,B,B,0.0,1.18,False,False,0.0,[],False, first thing is uh teletext is a well known feature of televisions,12,task,Inform
+IS1000b,B,1667.21,1670.64,3.43,IS1000b.B.dialog-act.vkaraisk.151,B,B,1.35,0.0,False,False,0.0,[],False, but it's it's getting used less and less.,8,task,Inform
+IS1000b,A,1667.59,1667.82,0.23,IS1000b.A.dialog-act.vkaraisk.182,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,C,1671.024,1672.2,1.176,IS1000b.C.dialog-act.vkaraisk.194,,,,,,,,,False, Yeah.,1,task,Assess
+IS1000b,B,1671.99,1676.35,4.36,IS1000b.B.dialog-act.vkaraisk.152,B,B,0.0,1.35,False,False,0.0,[],False, That's that's especially because of the internet of course.,9,task,Inform
+IS1000b,A,1675.21,1675.46,0.25,IS1000b.A.dialog-act.vkaraisk.183,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IS1000b,B,1676.35,1680.3,3.95,IS1000b.B.dialog-act.vkaraisk.153,B,B,0.0,0.0,False,False,0.0,[],False, So we should think about it um.,7,task,Suggest
+IS1000b,B,1680.3,1689.89,9.59,IS1000b.B.dialog-act.vkaraisk.154,B,B,1.5,0.0,False,False,0.0,[],False," Do we include it, and do we give it a prominent uh prominent uh place on on on the on well huh on the remote mot control itself.",28,elicit,Elicit-Assessment
+IS1000b,A,1688.8,1689.02,0.22,IS1000b.A.dialog-act.vkaraisk.184,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,B,1691.39,1696.37,4.98,IS1000b.B.dialog-act.vkaraisk.155,B,B,0.0,1.5,False,False,0.0,[],False," Uh as uh a in any case it's it's not used, well very much,",14,task,Inform
+IS1000b,B,1696.37,1700.81,4.44,IS1000b.B.dialog-act.vkaraisk.156,B,B,1.34,0.0,False,False,0.0,[],False, but it's it is still used. Um,7,task,Inform
+IS1000b,A,1697.9,1698.16,0.26,IS1000b.A.dialog-act.vkaraisk.185,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,C,1699.91,1700.81,0.9,IS1000b.C.dialog-act.vkaraisk.195,,,,,,,,,False, Um.,1,minor,Backchannel
+IS1000b,B,1702.15,1713.77,11.62,IS1000b.B.dialog-act.vkaraisk.157,B,B,1.03,1.34,False,False,0.0,[],False," further yes we must think, uh do we stay uh to to television only, the television as we as we all know it with with broadcasting signals and you can't go back",32,elicit,Elicit-Assessment
+IS1000b,B,1713.77,1714.8,1.03,IS1000b.B.dialog-act.vkaraisk.158,,,,,,,,,False," uh huh,",2,minor,Stall
+IS1000b,B,1714.8,1722.87,8.07,IS1000b.B.dialog-act.vkaraisk.159,B,B,5.29,1.03,False,False,0.0,[],False, or do we uh uh go further as Matthew indicated by supporting uh uh recording uh devices?,17,elicit,Elicit-Assessment
+IS1000b,C,1724.24,1725.302,1.062,IS1000b.C.dialog-act.vkaraisk.196,,,,,,,,,False,,0,minor,Fragment
+IS1000b,B,1725.32,1728.16,2.84,IS1000b.B.dialog-act.vkaraisk.160,,,,,,,,,False, Uh indeed indeed.,3,task,Inform
+IS1000b,A,1725.35,1725.48,0.13,IS1000b.A.dialog-act.vkaraisk.186,,,,,,,,,False, So,1,minor,Stall
+IS1000b,A,1725.48,1727.76,2.28,IS1000b.A.dialog-act.vkaraisk.187,,,,,,,,,False, D_V_D_s and V_C_R_s?,3,elicit,Elicit-Inform
+IS1000b,A,1727.76,1727.94,0.18,IS1000b.A.dialog-act.vkaraisk.188,,,,,,,,,False, Mm.,1,other,Comment-About-Understanding
+IS1000b,B,1728.16,1730.04,1.88,IS1000b.B.dialog-act.vkaraisk.161,B,B,2.02,5.29,False,False,0.0,[],False, And and and the hard disk recorders.,7,task,Inform
+IS1000b,B,1732.06,1741.03,8.97,IS1000b.B.dialog-act.vkaraisk.162,B,B,0.0,2.02,False,False,0.0,[],False," Um, furthermore, uh, w we need really need to interest uh y younger customers",14,task,Inform
+IS1000b,B,1741.03,1748.17,7.14,IS1000b.B.dialog-act.vkaraisk.163,B,B,1.13,0.0,False,False,0.0,[],False," and then with younger customers I mean people uh below the age of forty,",14,task,Inform
+IS1000b,A,1749.07,1750.0,0.93,IS1000b.A.dialog-act.vkaraisk.189,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,B,1749.3,1754.54,5.24,IS1000b.B.dialog-act.vkaraisk.164,B,B,5.87,1.13,False,False,0.0,[],False, and our our current customers are mainly forty plus,9,task,Inform
+IS1000b,B,1754.54,1756.32,1.78,IS1000b.B.dialog-act.vkaraisk.165,,,,,,,,,False, uh which,2,minor,Fragment
+IS1000b,A,1754.82,1755.09,0.27,IS1000b.A.dialog-act.vkaraisk.190,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,B,1756.32,1756.92,0.6,IS1000b.B.dialog-act.vkaraisk.166,,,,,,,,,False, well,1,minor,Stall
+IS1000b,D,1756.32,1756.98,0.66,IS1000b.D.dialog-act.vkaraisk.160,,,,,,,,,False, Fourteen,1,other,Comment-About-Understanding
+IS1000b,B,1756.92,1757.66,0.74,IS1000b.B.dialog-act.vkaraisk.167,,,,,,,,,False, Forty.,1,task,Inform
+IS1000b,D,1756.98,1758.07,1.09,IS1000b.D.dialog-act.vkaraisk.161,,,,,,,,,False, or for O,3,minor,Fragment
+IS1000b,D,1758.07,1758.77,0.7,IS1000b.D.dialog-act.vkaraisk.162,,,,,,,,,False, okay.,1,other,Comment-About-Understanding
+IS1000b,D,1758.77,1759.251,0.481,IS1000b.D.dialog-act.vkaraisk.163,,,,,,,,,False, So,1,minor,Fragment
+IS1000b,B,1758.82,1759.46,0.64,IS1000b.B.dialog-act.vkaraisk.168,,,,,,,,,False, So,1,minor,Stall
+IS1000b,B,1759.46,1760.41,0.95,IS1000b.B.dialog-act.vkaraisk.169,,,,,,,,,False, that's to that's,3,minor,Fragment
+IS1000b,B,1760.41,1761.67,1.26,IS1000b.B.dialog-act.vkaraisk.170,B,B,0.0,5.87,False,False,0.0,[],False, I mean there's a market,5,task,Inform
+IS1000b,B,1761.67,1765.29,3.62,IS1000b.B.dialog-act.vkaraisk.171,B,B,0.0,0.0,False,False,0.0,[],False, but uh they will grow older older,7,task,Inform
+IS1000b,B,1765.29,1771.26,5.97,IS1000b.B.dialog-act.vkaraisk.172,B,B,2.849,0.0,False,False,0.0,[],False, and you'll al always need to have the the future with younger people.,13,task,Inform
+IS1000b,A,1765.44,1767.776,2.336,IS1000b.A.dialog-act.vkaraisk.191,,,,,,,,,False,,0,minor,Fragment
+IS1000b,A,1770.33,1770.55,0.22,IS1000b.A.dialog-act.vkaraisk.192,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,B,1771.26,1773.29,2.03,IS1000b.B.dialog-act.vkaraisk.173,,,,,,,,,False," Um therefore,",2,minor,Fragment
+IS1000b,B,1774.109,1777.7,3.591,IS1000b.B.dialog-act.vkaraisk.174,B,B,0.0,2.849,False,False,0.0,[],False," younger people like trendy trendy designs,",6,task,Inform
+IS1000b,B,1777.7,1784.79,7.09,IS1000b.B.dialog-act.vkaraisk.175,B,B,0.0,0.0,False,False,0.0,[],False, so that's w we should make our our our R_C_ as trendy as possible,14,task,Suggest
+IS1000b,B,1784.79,1789.25,4.46,IS1000b.B.dialog-act.vkaraisk.176,B,B,0.0,0.0,False,False,0.0,[],False," but it should also be uh have a reliable image,",10,task,Suggest
+IS1000b,B,1789.25,1795.68,6.43,IS1000b.B.dialog-act.vkaraisk.177,C,B,3.39,0.0,False,False,0.0,[],False, so when it looks too too spacey or too fancy people will think well does it work at all.,19,task,Inform
+IS1000b,B,1796.24,1796.57,0.33,IS1000b.B.dialog-act.vkaraisk.178,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IS1000b,A,1796.29,1796.56,0.27,IS1000b.A.dialog-act.vkaraisk.193,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,C,1796.56,1796.97,0.41,IS1000b.C.dialog-act.vkaraisk.197,,,,,,,,,False, Yeah,1,minor,Stall
+IS1000b,C,1796.97,1797.17,0.2,IS1000b.C.dialog-act.vkaraisk.198,,,,,,,,,False, it's,1,minor,Fragment
+IS1000b,C,1797.17,1799.07,1.9,IS1000b.C.dialog-act.vkaraisk.199,,,,,,,,,False, uh well,2,minor,Stall
+IS1000b,C,1799.07,1802.68,3.61,IS1000b.C.dialog-act.vkaraisk.200,C,B,0.27,3.39,True,False,0.0,[],True," you you can follow the ideas how you want to keep the keys,",13,elicit,Elicit-Offer-Or-Suggestion
+IS1000b,C,1802.68,1802.95,0.27,IS1000b.C.dialog-act.vkaraisk.201,,,,,,,,,False, you know,2,minor,Stall
+IS1000b,C,1802.95,1809.39,6.44,IS1000b.C.dialog-act.vkaraisk.202,C,C,0.0,0.27,False,False,0.0,[],False," right now if you take it you have like zero, one, two, three like a keys separately,",17,task,Inform
+IS1000b,A,1809.03,1809.37,0.34,IS1000b.A.dialog-act.vkaraisk.194,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,C,1809.39,1816.86,7.47,IS1000b.C.dialog-act.vkaraisk.203,C,C,0.0,0.0,False,False,0.0,[],False, but suppose if you take the the present trend of mobile phones there are like big thick keys,18,task,Suggest
+IS1000b,A,1814.79,1814.99,0.2,IS1000b.A.dialog-act.vkaraisk.195,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,C,1816.86,1818.99,2.13,IS1000b.C.dialog-act.vkaraisk.205,C,C,0.0,0.0,False,False,0.0,[],False," you press on the top, it takes one number,",9,task,Inform
+IS1000b,C,1818.99,1821.6,2.61,IS1000b.C.dialog-act.vkaraisk.206,C,C,0.0,0.0,False,False,0.0,[],False," you press on the bottom it takes another number,",9,task,Inform
+IS1000b,C,1821.6,1824.15,2.55,IS1000b.C.dialog-act.vkaraisk.207,C,C,2.08,0.0,False,False,0.0,[],False, and uh basically uh uh,5,task,Inform
+IS1000b,C,1824.15,1826.23,2.08,IS1000b.C.dialog-act.vkaraisk.208,,,,,,,,,False, so the space covered,4,minor,Fragment
+IS1000b,C,1826.23,1830.02,3.79,IS1000b.C.dialog-act.vkaraisk.209,B,C,4.61,2.08,False,False,0.0,[],False, so that you don't see two separate keys there actually,10,task,Inform
+IS1000b,D,1826.499,1827.601,1.102,IS1000b.D.dialog-act.vkaraisk.164,,,,,,,,,False,,0,minor,Fragment
+IS1000b,D,1829.36,1829.62,0.26,IS1000b.D.dialog-act.vkaraisk.165,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,C,1830.02,1834.24,4.22,IS1000b.C.dialog-act.vkaraisk.210,,,,,,,,,False, so it it is like uh um i i it is like uh,13,minor,Fragment
+IS1000b,A,1830.96,1831.19,0.23,IS1000b.A.dialog-act.vkaraisk.196,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,B,1834.63,1837.168,2.538,IS1000b.B.dialog-act.vkaraisk.179,A,C,-0.928,4.61,True,True,0.928,['IS1000b.A.dialog-act.vkaraisk.197'],True, Ma Maybe Maybe you can draw it on the on the board uh,13,task,Suggest
+IS1000b,A,1836.24,1843.86,7.62,IS1000b.A.dialog-act.vkaraisk.197,D,B,-0.09,-0.928,True,True,0.09,['IS1000b.D.dialog-act.vkaraisk.167'],False," Mm. But I think taking the idea of getting inspiration from mobile phones is interesting, especially if we're going after a younger market,",23,task,Assess
+IS1000b,C,1836.64,1836.98,0.34,IS1000b.C.dialog-act.vkaraisk.211,,,,,,,,,False, Yeah,1,task,Assess
+IS1000b,C,1836.98,1837.31,0.33,IS1000b.C.dialog-act.vkaraisk.212,,,,,,,,,False, so.,1,minor,Stall
+IS1000b,D,1841.03,1841.31,0.28,IS1000b.D.dialog-act.vkaraisk.166,,,,,,,,,False, Yeah.,1,task,Assess
+IS1000b,B,1841.85,1842.15,0.3,IS1000b.B.dialog-act.vkaraisk.180,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IS1000b,B,1843.27,1843.79,0.52,IS1000b.B.dialog-act.vkaraisk.181,,,,,,,,,False, Yes yes,2,task,Assess
+IS1000b,D,1843.77,1846.24,2.47,IS1000b.D.dialog-act.vkaraisk.167,A,A,-2.38,-0.09,True,True,2.38,['IS1000b.A.dialog-act.vkaraisk.198'],False," Because they are already used to that, you know, product.",10,task,Inform
+IS1000b,B,1843.79,1844.02,0.23,IS1000b.B.dialog-act.vkaraisk.182,,,,,,,,,False, mo,1,minor,Fragment
+IS1000b,A,1843.86,1846.32,2.46,IS1000b.A.dialog-act.vkaraisk.198,A,D,1.66,-2.38,True,False,0.0,[],False," that's the the the mm the new and the funky things,",11,task,Inform
+IS1000b,B,1846.23,1846.41,0.18,IS1000b.B.dialog-act.vkaraisk.183,,,,,,,,,False, Yes,1,task,Assess
+IS1000b,D,1846.24,1846.44,0.2,IS1000b.D.dialog-act.vkaraisk.168,,,,,,,,,False, Yeah.,1,task,Assess
+IS1000b,A,1846.32,1847.4,1.08,IS1000b.A.dialog-act.vkaraisk.199,,,,,,,,,False," that's,",1,minor,Fragment
+IS1000b,B,1846.41,1848.302,1.892,IS1000b.B.dialog-act.vkaraisk.184,,,,,,,,,False, it's recognisable,2,task,Inform
+IS1000b,A,1847.4,1847.98,0.58,IS1000b.A.dialog-act.vkaraisk.200,,,,,,,,,False," yeah,",1,task,Assess
+IS1000b,A,1847.98,1849.99,2.01,IS1000b.A.dialog-act.vkaraisk.201,A,A,0.0,1.66,False,False,0.0,[],False," there's lot there's lots of pretty mobile phones,",8,task,Assess
+IS1000b,A,1849.99,1852.31,2.32,IS1000b.A.dialog-act.vkaraisk.202,B,A,0.3,0.0,False,False,0.0,[],False, not too many pretty remote controls.,6,task,Assess
+IS1000b,B,1850.34,1850.83,0.49,IS1000b.B.dialog-act.vkaraisk.185,,,,,,,,,False, Mm mm.,2,minor,Backchannel
+IS1000b,A,1852.31,1852.592,0.282,IS1000b.A.dialog-act.vkaraisk.203,,,,,,,,,False, That's,1,minor,Fragment
+IS1000b,B,1852.61,1855.23,2.62,IS1000b.B.dialog-act.vkaraisk.186,C,A,7.48,0.3,True,False,0.0,[],True, And and they are skilled uh by using it.,9,task,Inform
+IS1000b,A,1855.38,1855.64,0.26,IS1000b.A.dialog-act.vkaraisk.204,,,,,,,,,False, Mm.,1,task,Assess
+IS1000b,C,1855.92,1861.39,5.47,IS1000b.C.dialog-act.vkaraisk.213,,,,,,,,,False, So for example uh Well uh,6,minor,Stall
+IS1000b,D,1858.73,1859.03,0.3,IS1000b.D.dialog-act.vkaraisk.169,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,D,1859.072,1868.809,9.737,IS1000b.D.dialog-act.vkaraisk.170,,,,,,,,,False, ...,1,minor,Fragment
+IS1000b,C,1862.71,1866.82,4.11,IS1000b.C.dialog-act.vkaraisk.214,C,B,0.72,7.48,True,False,0.0,[],True," Okay, it works. Fine.",4,task,Assess
+IS1000b,C,1866.82,1867.54,0.72,IS1000b.C.dialog-act.vkaraisk.215,,,,,,,,,False," So,",1,minor,Stall
+IS1000b,C,1867.54,1888.38,20.84,IS1000b.C.dialog-act.vkaraisk.216,B,C,-20.19,0.72,False,True,1.96,['IS1000b.B.dialog-act.vkaraisk.187'],False," for example you have uh presently uh keys like one, two, three like this, actually, and uh uh four five six like that and uh you can have keys like this in form like uh keys like that",38,task,Inform
+IS1000b,B,1868.19,1870.15,1.96,IS1000b.B.dialog-act.vkaraisk.187,A,C,18.85,-20.19,True,False,0.0,[],False, Mael can you hand me over this uh?,8,elicit,Elicit-Assessment
+IS1000b,D,1868.85,1869.23,0.38,IS1000b.D.dialog-act.vkaraisk.171,,,,,,,,,False, Yes.,1,task,Assess
+IS1000b,D,1871.066,1871.916,0.85,IS1000b.D.dialog-act.vkaraisk.172,,,,,,,,,False,,0,minor,Fragment
+IS1000b,B,1874.1,1874.56,0.46,IS1000b.B.dialog-act.vkaraisk.188,,,,,,,,,False, Uh thank you.,3,other,Be-Positive
+IS1000b,A,1875.65,1875.8,0.15,IS1000b.A.dialog-act.vkaraisk.206,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,A,1886.63,1886.99,0.36,IS1000b.A.dialog-act.vkaraisk.205,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1000b,A,1889.0,1891.47,2.47,IS1000b.A.dialog-act.vkaraisk.207,B,B,-0.34,18.85,True,True,0.34,['IS1000b.B.dialog-act.vkaraisk.190'],True, How much longer have we got for the meeting by the way?,12,elicit,Elicit-Inform
+IS1000b,B,1890.61,1891.13,0.52,IS1000b.B.dialog-act.vkaraisk.189,,,,,,,,,False, Mm well,2,minor,Stall
+IS1000b,B,1891.13,1894.07,2.94,IS1000b.B.dialog-act.vkaraisk.190,A,A,-2.6,-0.34,True,True,1.3,"['IS1000b.A.dialog-act.vkaraisk.208', 'IS1000b.A.dialog-act.vkaraisk.209']",False, I think fi five min,5,task,Inform
+IS1000b,A,1891.47,1892.77,1.3,IS1000b.A.dialog-act.vkaraisk.208,A,B,0.0,-2.6,True,False,0.0,[],False, 'Cause we haven't talked about demographic at all,8,task,Inform
+IS1000b,C,1891.59,1892.16,0.57,IS1000b.C.dialog-act.vkaraisk.217,,,,,,,,,False, Forty minutes?,2,other,Other
+IS1000b,A,1892.77,1893.79,1.02,IS1000b.A.dialog-act.vkaraisk.209,C,A,1.76,0.0,False,False,0.0,[],False, and it's a very important issue.,6,task,Assess
+IS1000b,C,1894.0,1895.55,1.55,IS1000b.C.dialog-act.vkaraisk.218,,,,,,,,,False, Yeah so,2,minor,Stall
+IS1000b,B,1894.07,1894.42,0.35,IS1000b.B.dialog-act.vkaraisk.191,,,,,,,,,False, Mm-hmm.,1,task,Assess
+IS1000b,C,1895.55,1902.04,6.49,IS1000b.C.dialog-act.vkaraisk.219,C,A,4.47,1.76,True,False,0.0,[],True, you you you can have uh keys like uh which are which are like so.,15,task,Suggest
+IS1000b,C,1905.391,1906.51,1.119,IS1000b.C.dialog-act.vkaraisk.220,,,,,,,,,False," too sorry,",2,other,Be-Positive
+IS1000b,C,1906.51,1912.12,5.61,IS1000b.C.dialog-act.vkaraisk.221,C,C,0.0,4.47,False,False,0.0,[],False, so we basically don't change the uh original order of them,11,task,Suggest
+IS1000b,D,1909.083,1913.927,4.844,IS1000b.D.dialog-act.vkaraisk.173,,,,,,,,,False,,0,minor,Fragment
+IS1000b,C,1912.12,1915.11,2.99,IS1000b.C.dialog-act.vkaraisk.222,C,C,4.83,0.0,False,False,0.0,[],False," but then the keys are more spacious,",7,task,Inform
+IS1000b,A,1914.67,1914.95,0.28,IS1000b.A.dialog-act.vkaraisk.210,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,C,1915.11,1919.94,4.83,IS1000b.C.dialog-act.vkaraisk.223,,,,,,,,,False," they don't look uh so there there is a very sligh thing,",12,minor,Fragment
+IS1000b,C,1919.94,1928.2,8.26,IS1000b.C.dialog-act.vkaraisk.224,C,C,0.0,4.83,False,False,0.0,[],False," so if you press on the top it takes the one, it takes the three, uh four, sorry four here uh five and six,",24,task,Inform
+IS1000b,A,1921.8,1921.95,0.15,IS1000b.A.dialog-act.vkaraisk.211,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,A,1927.54,1927.74,0.2,IS1000b.A.dialog-act.vkaraisk.212,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,C,1928.2,1933.91,5.71,IS1000b.C.dialog-act.vkaraisk.225,C,C,0.0,0.0,False,False,0.0,[],False, so the keys can be it looks you know not very much cluttered,13,task,Assess
+IS1000b,D,1933.43,1933.84,0.41,IS1000b.D.dialog-act.vkaraisk.174,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,C,1933.91,1934.96,1.05,IS1000b.C.dialog-act.vkaraisk.226,C,C,0.0,0.0,False,False,0.0,[],False, but it looks nice,4,task,Assess
+IS1000b,C,1934.96,1937.45,2.49,IS1000b.C.dialog-act.vkaraisk.227,C,C,0.0,0.0,False,False,0.0,[],False, for you don't have too many keys,7,task,Inform
+IS1000b,A,1936.41,1936.62,0.21,IS1000b.A.dialog-act.vkaraisk.213,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,C,1937.45,1940.84,3.39,IS1000b.C.dialog-act.vkaraisk.228,B,C,-0.36,0.0,False,True,0.36,['IS1000b.B.dialog-act.vkaraisk.194'],False, but you can have a lot of options t if you press on the to,15,task,Suggest
+IS1000b,B,1938.91,1939.43,0.52,IS1000b.B.dialog-act.vkaraisk.192,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1000b,B,1940.28,1940.48,0.2,IS1000b.B.dialog-act.vkaraisk.193,,,,,,,,,False, 'Kay,1,minor,Stall
+IS1000b,B,1940.48,1943.14,2.66,IS1000b.B.dialog-act.vkaraisk.194,B,C,0.0,-0.36,True,False,0.0,[],False, I I think now that the idea's clear.,8,task,Assess
+IS1000b,D,1941.68,1942.1,0.42,IS1000b.D.dialog-act.vkaraisk.175,,,,,,,,,False, Yep.,1,minor,Backchannel
+IS1000b,C,1942.66,1942.87,0.21,IS1000b.C.dialog-act.vkaraisk.229,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,A,1943.01,1943.18,0.17,IS1000b.A.dialog-act.vkaraisk.214,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,B,1943.14,1951.02,7.88,IS1000b.B.dialog-act.vkaraisk.195,A,B,0.88,0.0,False,False,0.0,[],False, Uh we should now uh try to decide um on our target group.,13,task,Suggest
+IS1000b,A,1951.3,1951.9,0.6,IS1000b.A.dialog-act.vkaraisk.215,,,,,,,,,False, Yeah.,1,task,Assess
+IS1000b,A,1951.9,1953.87,1.97,IS1000b.A.dialog-act.vkaraisk.216,A,B,0.0,0.88,True,False,0.0,[],True, Which I think is quite tricky.,6,task,Assess
+IS1000b,D,1952.689,1954.461,1.772,IS1000b.D.dialog-act.vkaraisk.176,,,,,,,,,False,,0,minor,Fragment
+IS1000b,C,1953.67,1953.85,0.18,IS1000b.C.dialog-act.vkaraisk.230,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,A,1953.87,1958.47,4.6,IS1000b.A.dialog-act.vkaraisk.217,A,A,0.0,0.0,False,False,0.0,[],False," Um, basically we're trying to get people to buy a remote control",12,task,Inform
+IS1000b,A,1958.47,1961.21,2.74,IS1000b.A.dialog-act.vkaraisk.218,B,A,0.42,0.0,False,False,0.0,[],False, wouldn't they already have a remote control with their television when they buy one?,14,elicit,Elicit-Inform
+IS1000b,C,1960.589,1962.904,2.315,IS1000b.C.dialog-act.vkaraisk.231,,,,,,,,,False,,0,minor,Fragment
+IS1000b,B,1961.63,1963.0,1.37,IS1000b.B.dialog-act.vkaraisk.196,B,A,0.0,0.42,True,False,0.0,[],True, Of course they have already one.,6,task,Inform
+IS1000b,B,1963.0,1965.42,2.42,IS1000b.B.dialog-act.vkaraisk.197,A,B,0.47,0.0,False,False,0.0,[],False, So our our our remote control has to be better.,10,task,Suggest
+IS1000b,A,1965.89,1967.2,1.31,IS1000b.A.dialog-act.vkaraisk.219,A,B,0.0,0.47,True,False,0.0,[],True," But it's not going to have more functionality,",8,task,Inform
+IS1000b,C,1965.96,1966.25,0.29,IS1000b.C.dialog-act.vkaraisk.232,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,A,1967.2,1971.11,3.91,IS1000b.A.dialog-act.vkaraisk.220,A,A,0.0,0.0,False,False,0.0,[],False," 'cause it's only a low market, it's a cheap-end remote control,",11,task,Inform
+IS1000b,A,1971.11,1973.2,2.09,IS1000b.A.dialog-act.vkaraisk.221,A,A,0.0,0.0,False,False,0.0,[],False," we can't beat modern functionality,",5,task,Inform
+IS1000b,A,1973.2,1977.22,4.02,IS1000b.A.dialog-act.vkaraisk.222,A,A,0.0,0.0,False,False,0.0,[],False," we might we'll be able to beat them on th the look of it, th the design of it",19,task,Inform
+IS1000b,A,1977.22,1979.08,1.86,IS1000b.A.dialog-act.vkaraisk.223,A,A,0.57,0.0,False,False,0.0,[],False," but that's not a big seller,",6,task,Inform
+IS1000b,A,1979.08,1979.65,0.57,IS1000b.A.dialog-act.vkaraisk.224,,,,,,,,,False, if,1,minor,Fragment
+IS1000b,A,1979.65,1983.01,3.36,IS1000b.A.dialog-act.vkaraisk.225,A,A,0.0,0.57,False,False,0.0,[],False," they're not just going to buy a new remote control just 'cause it looks pretty,",15,task,Inform
+IS1000b,B,1982.56,1982.89,0.33,IS1000b.B.dialog-act.vkaraisk.198,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,A,1983.01,1985.3,2.29,IS1000b.A.dialog-act.vkaraisk.226,A,A,0.0,0.0,False,False,0.0,[],False, they have to actually need it as well.,8,task,Inform
+IS1000b,A,1985.3,1987.87,2.57,IS1000b.A.dialog-act.vkaraisk.227,B,A,2.8,0.0,False,False,0.0,[],False, So I'm not sure how we can get people to buy this thing.,13,elicit,Elicit-Offer-Or-Suggestion
+IS1000b,B,1989.02,1990.67,1.65,IS1000b.B.dialog-act.vkaraisk.199,,,,,,,,,False, Mm. I well,3,minor,Stall
+IS1000b,B,1990.67,2002.2,11.53,IS1000b.B.dialog-act.vkaraisk.200,A,A,0.39,2.8,True,False,0.0,[],True, I think many people said uh in your in in your research uh uh uh the appearance of the uh R_C_ is is important when they are buying one,29,task,Inform
+IS1000b,A,1996.05,1996.26,0.21,IS1000b.A.dialog-act.vkaraisk.228,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,A,2001.91,2002.59,0.68,IS1000b.A.dialog-act.vkaraisk.229,,,,,,,,,False, Yeah.,1,task,Assess
+IS1000b,B,2002.2,2002.672,0.472,IS1000b.B.dialog-act.vkaraisk.201,,,,,,,,,False, but,1,minor,Fragment
+IS1000b,A,2002.59,2004.27,1.68,IS1000b.A.dialog-act.vkaraisk.230,B,B,2.56,0.39,True,False,0.0,[],True, But why are they buying one in the first place?,10,elicit,Elicit-Inform
+IS1000b,B,2004.47,2004.79,0.32,IS1000b.B.dialog-act.vkaraisk.202,,,,,,,,,False, Indeed.,1,task,Assess
+IS1000b,B,2006.05,2006.83,0.78,IS1000b.B.dialog-act.vkaraisk.203,,,,,,,,,False, So,1,minor,Stall
+IS1000b,B,2006.83,2010.816,3.986,IS1000b.B.dialog-act.vkaraisk.204,A,A,1.774,2.56,True,False,0.0,[],True, that will be about functionality,5,task,Inform
+IS1000b,A,2012.59,2017.58,4.99,IS1000b.A.dialog-act.vkaraisk.231,A,B,0.0,1.774,True,False,0.0,[],True, Mm. But if people are buying a new remote control for functionality they'll buy a universal remote.,17,task,Inform
+IS1000b,A,2017.58,2020.69,3.11,IS1000b.A.dialog-act.vkaraisk.232,A,A,0.0,0.0,False,False,0.0,[],False," I've got friends who've got so many things they need a universal remote,",13,task,Inform
+IS1000b,A,2020.69,2023.93,3.24,IS1000b.A.dialog-act.vkaraisk.233,A,A,0.0,0.0,False,False,0.0,[],False, otherwise they're using five different remotes for their all their things.,11,task,Inform
+IS1000b,B,2022.53,2023.54,1.01,IS1000b.B.dialog-act.vkaraisk.205,,,,,,,,,False, Mm. Mm-hmm. Mm.,3,minor,Backchannel
+IS1000b,A,2023.93,2025.33,1.4,IS1000b.A.dialog-act.vkaraisk.234,A,A,0.0,0.0,False,False,0.0,[],False," In that case they wouldn't buy our product,",8,task,Inform
+IS1000b,A,2025.33,2027.87,2.54,IS1000b.A.dialog-act.vkaraisk.235,B,A,0.31,0.0,False,False,0.0,[],False, because it doesn't give them what they need in terms of functionality.,12,task,Inform
+IS1000b,B,2028.18,2034.299,6.119,IS1000b.B.dialog-act.vkaraisk.206,A,A,-0.619,0.31,True,True,0.619,['IS1000b.A.dialog-act.vkaraisk.237'],True, So your you think we should go for a more u universal high-performance,13,elicit,Elicit-Assessment
+IS1000b,A,2033.44,2033.68,0.24,IS1000b.A.dialog-act.vkaraisk.236,,,,,,,,,False," Well,",1,minor,Stall
+IS1000b,A,2033.68,2035.82,2.14,IS1000b.A.dialog-act.vkaraisk.237,A,B,0.0,-0.619,True,False,0.0,[],False," we can't, with the price range.",6,task,Inform
+IS1000b,A,2035.82,2037.57,1.75,IS1000b.A.dialog-act.vkaraisk.238,B,A,-0.06,0.0,False,True,0.06,['IS1000b.B.dialog-act.vkaraisk.207'],False," We We're not building a universal remote,",7,task,Inform
+IS1000b,B,2037.51,2040.29,2.78,IS1000b.B.dialog-act.vkaraisk.207,A,A,-2.72,-0.06,True,True,1.13,['IS1000b.A.dialog-act.vkaraisk.239'],False, What do What do you think about,7,elicit,Elicit-Offer-Or-Suggestion
+IS1000b,A,2037.57,2038.7,1.13,IS1000b.A.dialog-act.vkaraisk.239,D,B,1.64,-2.72,True,False,0.0,[],False, we're not building a high end product.,7,task,Inform
+IS1000b,D,2040.04,2040.34,0.3,IS1000b.D.dialog-act.vkaraisk.177,,,,,,,,,False, Yeah,1,minor,Stall
+IS1000b,B,2040.29,2040.89,0.6,IS1000b.B.dialog-act.vkaraisk.208,,,,,,,,,False, What componen,2,minor,Fragment
+IS1000b,D,2040.34,2047.81,7.47,IS1000b.D.dialog-act.vkaraisk.178,D,A,2.25,1.64,True,False,0.0,[],True, we have yeah twelve point five Euros uh per uh per R_ s R_C_,14,task,Inform
+IS1000b,A,2043.14,2043.42,0.28,IS1000b.A.dialog-act.vkaraisk.240,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,D,2047.81,2050.06,2.25,IS1000b.D.dialog-act.vkaraisk.179,,,,,,,,,False, and I think uh with this,6,minor,Fragment
+IS1000b,D,2050.06,2053.52,3.46,IS1000b.D.dialog-act.vkaraisk.180,D,D,0.0,2.25,False,False,0.0,[],False, now you know that chips are very uh cheaps,9,task,Inform
+IS1000b,A,2052.77,2053.0,0.23,IS1000b.A.dialog-act.vkaraisk.241,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,D,2053.52,2059.67,6.15,IS1000b.D.dialog-act.vkaraisk.181,A,D,3.52,0.0,False,False,0.0,[],False, and uh we can include it in our control some new new features.,13,task,Suggest
+IS1000b,A,2059.67,2059.94,0.27,IS1000b.A.dialog-act.vkaraisk.242,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,D,2059.67,2063.25,3.58,IS1000b.D.dialog-act.vkaraisk.182,,,,,,,,,False, Yeah. And um But yeah,5,minor,Stall
+IS1000b,A,2061.28,2061.7,0.42,IS1000b.A.dialog-act.vkaraisk.243,,,,,,,,,False, But,1,minor,Fragment
+IS1000b,A,2061.7,2062.04,0.34,IS1000b.A.dialog-act.vkaraisk.244,,,,,,,,,False, yeah.,1,minor,Backchannel
+IS1000b,A,2063.19,2067.28,4.09,IS1000b.A.dialog-act.vkaraisk.245,A,D,0.0,3.52,True,False,0.0,[],True," If we're getting into universal remote territory, we're getting to L_C_D_ screens and things like that",16,task,Suggest
+IS1000b,D,2063.25,2063.588,0.338,IS1000b.D.dialog-act.vkaraisk.183,,,,,,,,,False, that's,1,minor,Fragment
+IS1000b,A,2067.28,2068.7,1.42,IS1000b.A.dialog-act.vkaraisk.246,B,A,-0.02,0.0,False,True,0.02,['IS1000b.B.dialog-act.vkaraisk.209'],False, which would drive the cost up a lot.,8,task,Inform
+IS1000b,B,2068.68,2070.94,2.26,IS1000b.B.dialog-act.vkaraisk.209,D,A,0.48,-0.02,True,False,0.0,[],False, I don't know. I don't know whether that's necessary.,9,task,Assess
+IS1000b,D,2068.71,2069.08,0.37,IS1000b.D.dialog-act.vkaraisk.184,,,,,,,,,False, Ye,1,minor,Fragment
+IS1000b,B,2070.94,2072.011,1.071,IS1000b.B.dialog-act.vkaraisk.210,,,,,,,,,False, Is the L_C_D_ screen,4,minor,Fragment
+IS1000b,D,2071.42,2076.81,5.39,IS1000b.D.dialog-act.vkaraisk.185,B,B,-1.3,0.48,True,True,1.3,['IS1000b.B.dialog-act.vkaraisk.211'],True," I don't think L_C_D_ is not necessary well, th for long term.",12,task,Assess
+IS1000b,A,2071.68,2072.496,0.816,IS1000b.A.dialog-act.vkaraisk.247,,,,,,,,,False, For universal remotes,3,elicit,Elicit-Inform
+IS1000b,A,2074.0,2075.12,1.12,IS1000b.A.dialog-act.vkaraisk.248,,,,,,,,,False, If you mm.,3,minor,Fragment
+IS1000b,B,2075.51,2078.26,2.75,IS1000b.B.dialog-act.vkaraisk.211,B,D,0.0,-1.3,True,False,0.0,[],False, I think thi this could be this could be a market,11,task,Inform
+IS1000b,B,2078.26,2083.66,5.4,IS1000b.B.dialog-act.vkaraisk.212,A,B,0.31,0.0,False,False,0.0,[],False, because uh universal remote controls uh tend to be uh quite expensive.,12,task,Inform
+IS1000b,A,2083.97,2085.22,1.25,IS1000b.A.dialog-act.vkaraisk.249,B,B,-0.93,0.31,True,True,0.93,['IS1000b.B.dialog-act.vkaraisk.213'],True," And quite complicated to use,",5,task,Inform
+IS1000b,B,2084.29,2087.9,3.61,IS1000b.B.dialog-act.vkaraisk.213,B,A,0.0,-0.93,True,False,0.0,[],False," S so we can try to go in between,",9,task,Suggest
+IS1000b,A,2085.22,2085.53,0.31,IS1000b.A.dialog-act.vkaraisk.250,,,,,,,,,False, yes.,1,task,Assess
+IS1000b,B,2087.9,2093.02,5.12,IS1000b.B.dialog-act.vkaraisk.214,A,B,-0.49,0.0,False,True,0.49,['IS1000b.A.dialog-act.vkaraisk.252'],False, and offer a product which is not as expensive and not as complicated,13,task,Suggest
+IS1000b,A,2091.44,2092.53,1.09,IS1000b.A.dialog-act.vkaraisk.251,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,A,2092.53,2093.62,1.09,IS1000b.A.dialog-act.vkaraisk.252,B,B,0.59,-0.49,True,False,0.0,[],False," Not as flexible maybe,",4,task,Suggest
+IS1000b,D,2093.54,2094.04,0.5,IS1000b.D.dialog-act.vkaraisk.186,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,A,2093.62,2093.84,0.22,IS1000b.A.dialog-act.vkaraisk.253,,,,,,,,,False," yeah,",1,task,Assess
+IS1000b,A,2093.84,2094.66,0.82,IS1000b.A.dialog-act.vkaraisk.254,,,,,,,,,False, but s,2,minor,Fragment
+IS1000b,B,2094.21,2102.78,8.57,IS1000b.B.dialog-act.vkaraisk.215,B,A,0.0,0.59,True,False,0.0,[],True, but but still but still people have the idea this is more functional than a normal uh uh R_C_,19,task,Suggest
+IS1000b,A,2094.66,2094.83,0.17,IS1000b.A.dialog-act.vkaraisk.255,,,,,,,,,False, yeah.,1,minor,Backchannel
+IS1000b,D,2100.828,2101.58,0.752,IS1000b.D.dialog-act.vkaraisk.187,,,,,,,,,False, Universal.,1,task,Inform
+IS1000b,B,2102.78,2106.62,3.84,IS1000b.B.dialog-act.vkaraisk.216,A,B,2.06,0.0,False,False,0.0,[],False, because it has more uh it it is in some kind universal.,12,task,Inform
+IS1000b,D,2102.94,2103.24,0.3,IS1000b.D.dialog-act.vkaraisk.188,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,A,2103.02,2103.29,0.27,IS1000b.A.dialog-act.vkaraisk.256,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,A,2106.64,2106.93,0.29,IS1000b.A.dialog-act.vkaraisk.257,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,B,2108.02,2108.632,0.612,IS1000b.B.dialog-act.vkaraisk.217,,,,,,,,,False,,0,minor,Fragment
+IS1000b,A,2108.68,2116.19,7.51,IS1000b.A.dialog-act.vkaraisk.258,B,B,1.43,2.06,True,False,0.0,[],True, But if we're going for the say fifteen to twenty five age group then not many of them would actually own T_V_s to use a remote control on.,28,task,Inform
+IS1000b,B,2116.95,2117.62,0.67,IS1000b.B.dialog-act.vkaraisk.218,,,,,,,,,False, Mm yes,2,task,Assess
+IS1000b,B,2117.62,2122.62,5.0,IS1000b.B.dialog-act.vkaraisk.219,B,A,2.81,1.43,True,False,0.0,[],True, but w we're targeting I think on more on the on the twenty to forty group.,16,task,Inform
+IS1000b,A,2122.9,2124.33,1.43,IS1000b.A.dialog-act.vkaraisk.259,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+IS1000b,A,2124.33,2124.82,0.49,IS1000b.A.dialog-act.vkaraisk.260,,,,,,,,,False, So,1,minor,Stall
+IS1000b,A,2124.82,2125.87,1.05,IS1000b.A.dialog-act.vkaraisk.261,,,,,,,,,False, they're,1,minor,Fragment
+IS1000b,B,2125.43,2138.61,13.18,IS1000b.B.dialog-act.vkaraisk.220,A,B,-0.35,2.81,False,True,0.35,['IS1000b.A.dialog-act.vkaraisk.265'],False, People yes. Who just have or already have a job and have the money but may not want to spend that much money on a on a universal universal control.,30,task,Suggest
+IS1000b,A,2125.87,2126.24,0.37,IS1000b.A.dialog-act.vkaraisk.262,,,,,,,,,False, yeah.,1,minor,Backchannel
+IS1000b,A,2131.01,2131.28,0.27,IS1000b.A.dialog-act.vkaraisk.263,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,A,2135.59,2136.38,0.79,IS1000b.A.dialog-act.vkaraisk.264,,,,,,,,,False, Mm-hmm. Yep.,2,other,Comment-About-Understanding
+IS1000b,A,2138.26,2141.33,3.07,IS1000b.A.dialog-act.vkaraisk.265,A,B,0.0,-0.35,True,False,0.0,[],False, I don't know really what the the price range for remote controls is.,13,elicit,Elicit-Inform
+IS1000b,A,2141.33,2143.66,2.33,IS1000b.A.dialog-act.vkaraisk.266,A,A,0.0,0.0,False,False,0.0,[],False," Are we gonna be at the very bottom of the price range,",12,elicit,Elicit-Inform
+IS1000b,A,2143.66,2146.04,2.38,IS1000b.A.dialog-act.vkaraisk.267,B,A,5.42,0.0,False,False,0.0,[],False, or are we kind of middle to bottom?,8,elicit,Elicit-Inform
+IS1000b,A,2146.04,2146.54,0.5,IS1000b.A.dialog-act.vkaraisk.268,,,,,,,,,False, I don't know.,3,task,Inform
+IS1000b,B,2146.53,2148.17,1.64,IS1000b.B.dialog-act.vkaraisk.222,,,,,,,,,False, Uh well,2,minor,Stall
+IS1000b,D,2147.24,2148.2,0.96,IS1000b.D.dialog-act.vkaraisk.189,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,B,2149.36,2151.46,2.1,IS1000b.B.dialog-act.vkaraisk.223,,,,,,,,,False, I think,2,minor,Fragment
+IS1000b,B,2151.46,2159.2,7.74,IS1000b.B.dialog-act.vkaraisk.224,B,A,4.89,5.42,True,False,0.0,[],True, uh when we think it over I thi I think we are trying to offer the a kind of universal control for for less money.,25,task,Inform
+IS1000b,D,2151.781,2153.143,1.362,IS1000b.D.dialog-act.vkaraisk.190,,,,,,,,,False,,0,minor,Fragment
+IS1000b,A,2153.1,2153.41,0.31,IS1000b.A.dialog-act.vkaraisk.269,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,A,2159.4,2159.67,0.27,IS1000b.A.dialog-act.vkaraisk.270,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,D,2160.49,2160.84,0.35,IS1000b.D.dialog-act.vkaraisk.191,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,B,2163.0,2164.09,1.09,IS1000b.B.dialog-act.vkaraisk.226,,,,,,,,,False, So,1,minor,Stall
+IS1000b,B,2164.09,2165.87,1.78,IS1000b.B.dialog-act.vkaraisk.225,C,B,-1.13,4.89,False,True,1.13,['IS1000b.C.dialog-act.vkaraisk.233'],False, d Do you agree?,4,elicit,Elicit-Assessment
+IS1000b,C,2164.74,2171.25,6.51,IS1000b.C.dialog-act.vkaraisk.233,D,B,0.92,-1.13,True,False,0.0,[],False, Well Well I it's fine with me like the price as long as it is uh not too expensive.,19,task,Assess
+IS1000b,D,2171.4,2172.17,0.77,IS1000b.D.dialog-act.vkaraisk.192,,,,,,,,,False, Yeah,1,minor,Stall
+IS1000b,D,2172.17,2179.3,7.13,IS1000b.D.dialog-act.vkaraisk.193,D,C,0.0,0.92,True,False,0.0,[],True, because we have to take into account that we are gonna b we are gonna sell uh four aro around four million,22,task,Inform
+IS1000b,C,2172.26,2175.08,2.82,IS1000b.C.dialog-act.vkaraisk.234,,,,,,,,,False, Uh and it d uh Our provin,7,minor,Fragment
+IS1000b,D,2179.3,2188.6,9.3,IS1000b.D.dialog-act.vkaraisk.194,D,D,0.83,0.0,False,False,0.0,[],False, so when we speak about these numbers uh the price of a chip is uh price of a chip is very cheap.,22,task,Inform
+IS1000b,A,2187.52,2187.77,0.25,IS1000b.A.dialog-act.vkaraisk.271,,,,,,,,,False, Mm.,1,task,Assess
+IS1000b,C,2187.76,2188.04,0.28,IS1000b.C.dialog-act.vkaraisk.235,,,,,,,,,False, Mm.,1,task,Assess
+IS1000b,D,2188.6,2189.43,0.83,IS1000b.D.dialog-act.vkaraisk.195,,,,,,,,,False, So,1,minor,Stall
+IS1000b,D,2189.43,2197.75,8.32,IS1000b.D.dialog-act.vkaraisk.196,B,D,0.03,0.83,False,False,0.0,[],False, I'm okay for designing um a ne uh less yeah a a kind of universal uh R_C_ yeah.,18,task,Assess
+IS1000b,B,2197.11,2197.78,0.67,IS1000b.B.dialog-act.vkaraisk.227,,,,,,,,,False, Mm-hmm.,1,other,Comment-About-Understanding
+IS1000b,B,2197.78,2200.17,2.39,IS1000b.B.dialog-act.vkaraisk.228,B,D,5.15,0.03,True,False,0.0,[],True, You think it's possible for the twelve Euro fifty?,9,elicit,Elicit-Inform
+IS1000b,D,2200.73,2200.95,0.22,IS1000b.D.dialog-act.vkaraisk.197,,,,,,,,,False, Yeah.,1,task,Inform
+IS1000b,B,2201.36,2204.23,2.87,IS1000b.B.dialog-act.vkaraisk.229,,,,,,,,,False, Okay. Um so,3,minor,Stall
+IS1000b,B,2205.32,2210.75,5.43,IS1000b.B.dialog-act.vkaraisk.230,C,B,0.32,5.15,False,False,0.0,[],False, then we we decide on on on going to this more universal kind of control.,15,task,Inform
+IS1000b,C,2210.59,2211.07,0.48,IS1000b.C.dialog-act.vkaraisk.236,,,,,,,,,False," Uh yeah,",2,task,Assess
+IS1000b,C,2211.07,2212.96,1.89,IS1000b.C.dialog-act.vkaraisk.237,C,B,1.31,0.32,True,False,0.0,[],True, that's that's what we needed basically.,6,task,Inform
+IS1000b,A,2213.18,2213.66,0.48,IS1000b.A.dialog-act.vkaraisk.272,,,,,,,,,False, Mm-hmm.,1,task,Assess
+IS1000b,B,2213.3,2214.25,0.95,IS1000b.B.dialog-act.vkaraisk.231,,,,,,,,,False, Mm. Mm. Okay.,3,minor,Stall
+IS1000b,C,2214.27,2215.77,1.5,IS1000b.C.dialog-act.vkaraisk.238,D,C,0.01,1.31,False,False,0.0,[],False, Uh that's needed right now.,5,task,Inform
+IS1000b,C,2215.77,2218.944,3.174,IS1000b.C.dialog-act.vkaraisk.239,,,,,,,,,False, And uh basically you can look to the standards of other,11,minor,Fragment
+IS1000b,D,2215.78,2218.07,2.29,IS1000b.D.dialog-act.vkaraisk.198,D,C,0.0,0.01,True,False,0.0,[],True," Yeah that's needed, yeah.",4,task,Assess
+IS1000b,A,2217.03,2217.25,0.22,IS1000b.A.dialog-act.vkaraisk.273,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,D,2218.07,2220.48,2.41,IS1000b.D.dialog-act.vkaraisk.199,A,D,0.62,0.0,False,False,0.0,[],False," And if we want to get the market, we really need that.",12,task,Suggest
+IS1000b,A,2218.42,2218.68,0.26,IS1000b.A.dialog-act.vkaraisk.274,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,A,2219.81,2220.82,1.01,IS1000b.A.dialog-act.vkaraisk.275,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,A,2220.82,2221.1,0.28,IS1000b.A.dialog-act.vkaraisk.276,,,,,,,,,False, So,1,minor,Stall
+IS1000b,A,2221.1,2229.31,8.21,IS1000b.A.dialog-act.vkaraisk.277,A,D,1.06,0.62,True,False,0.0,[],True," I guess what I'd like from a universal remote is maybe choosing between three devices, being able to switch between them, there may be stereo, V_C_R_ and T_V_.",28,task,Suggest
+IS1000b,C,2221.11,2221.27,0.16,IS1000b.C.dialog-act.vkaraisk.240,,,,,,,,,False, Actu,1,minor,Fragment
+IS1000b,D,2225.55,2230.583,5.033,IS1000b.D.dialog-act.vkaraisk.200,,,,,,,,,False, Yes. Exactly.,2,task,Assess
+IS1000b,C,2229.28,2229.44,0.16,IS1000b.C.dialog-act.vkaraisk.241,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,A,2230.37,2233.76,3.39,IS1000b.A.dialog-act.vkaraisk.278,C,A,0.03,1.06,False,False,0.0,[],False," And just be able to s use them all from the same remote, but not at the same time.",19,task,Suggest
+IS1000b,B,2230.79,2231.1,0.31,IS1000b.B.dialog-act.vkaraisk.232,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1000b,C,2231.291,2233.79,2.499,IS1000b.C.dialog-act.vkaraisk.242,,,,,,,,,False, Yeah,1,minor,Stall
+IS1000b,C,2233.79,2240.94,7.15,IS1000b.C.dialog-act.vkaraisk.243,D,A,-7.01,0.03,True,True,0.86,['IS1000b.D.dialog-act.vkaraisk.201'],True," you can also browse through all the standards you know, where are the limit of standards for all of them and you can just browse through them.",27,task,Suggest
+IS1000b,D,2233.93,2234.79,0.86,IS1000b.D.dialog-act.vkaraisk.201,B,C,7.03,-7.01,True,False,0.0,[],False, Is that okay for you?,5,elicit,Elicit-Assessment
+IS1000b,D,2234.79,2234.89,0.1,IS1000b.D.dialog-act.vkaraisk.202,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,B,2235.99,2237.04,1.05,IS1000b.B.dialog-act.vkaraisk.233,,,,,,,,,False, Mm mm mm mm.,4,minor,Backchannel
+IS1000b,D,2237.23,2237.54,0.31,IS1000b.D.dialog-act.vkaraisk.203,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,D,2240.83,2241.23,0.4,IS1000b.D.dialog-act.vkaraisk.204,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,B,2241.48,2241.82,0.34,IS1000b.B.dialog-act.vkaraisk.234,,,,,,,,,False, So,1,minor,Stall
+IS1000b,B,2241.82,2246.38,4.56,IS1000b.B.dialog-act.vkaraisk.235,B,D,0.0,7.03,True,False,0.0,[],True, given we are going for this uh uh universal type,10,task,Inform
+IS1000b,B,2246.38,2251.98,5.6,IS1000b.B.dialog-act.vkaraisk.236,B,B,0.0,0.0,False,False,0.0,[],False, uh m maybe it is good when you try to find out which components you therefore need,17,task,Inform
+IS1000b,B,2251.98,2258.27,6.29,IS1000b.B.dialog-act.vkaraisk.237,B,B,0.0,0.0,False,False,0.0,[],False, and y you will try to get more specific uh user interface content,13,task,Inform
+IS1000b,D,2252.24,2252.65,0.41,IS1000b.D.dialog-act.vkaraisk.205,,,,,,,,,False, Yes.,1,task,Assess
+IS1000b,A,2253.56,2253.77,0.21,IS1000b.A.dialog-act.vkaraisk.279,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1000b,C,2257.3,2258.56,1.26,IS1000b.C.dialog-act.vkaraisk.244,,,,,,,,,False, Okay. Okay.,2,task,Assess
+IS1000b,B,2258.27,2263.13,4.86,IS1000b.B.dialog-act.vkaraisk.238,B,B,7.86,0.0,False,False,0.0,[],False, and uh maybe you can look on on what trends are in this uh in this type of market.,19,task,Inform
+IS1000b,A,2261.06,2262.06,1.0,IS1000b.A.dialog-act.vkaraisk.280,,,,,,,,,False, Mm-hmm yep.,2,task,Assess
+IS1000b,C,2265.08,2265.99,0.91,IS1000b.C.dialog-act.vkaraisk.245,,,,,,,,,False, Voila.,1,other,Other
+IS1000b,C,2268.42,2268.73,0.31,IS1000b.C.dialog-act.vkaraisk.247,,,,,,,,,False, Hmm.,1,other,Other
+IS1000b,B,2269.89,2270.99,1.1,IS1000b.B.dialog-act.vkaraisk.239,,,,,,,,,False, So,1,minor,Stall
+IS1000b,C,2270.5,2270.91,0.41,IS1000b.C.dialog-act.vkaraisk.246,,,,,,,,,False, So.,1,minor,Backchannel
+IS1000b,B,2270.99,2274.71,3.72,IS1000b.B.dialog-act.vkaraisk.240,C,B,0.8,7.86,False,False,0.0,[],False, anyone uh has a point to bring in,8,elicit,Elicit-Inform
+IS1000b,C,2273.54,2273.74,0.2,IS1000b.C.dialog-act.vkaraisk.248,,,,,,,,,False, Well.,1,minor,Stall
+IS1000b,B,2274.71,2275.65,0.94,IS1000b.B.dialog-act.vkaraisk.241,,,,,,,,,False, or shall we,3,elicit,Elicit-Assessment
+IS1000b,C,2275.24,2275.51,0.27,IS1000b.C.dialog-act.vkaraisk.249,,,,,,,,,False, Oh,1,minor,Stall
+IS1000b,C,2275.51,2277.32,1.81,IS1000b.C.dialog-act.vkaraisk.250,C,B,0.0,0.8,True,False,0.0,[],True, I don't have anything right now.,6,task,Inform
+IS1000b,B,2275.65,2275.87,0.22,IS1000b.B.dialog-act.vkaraisk.242,,,,,,,,,False, no.,1,other,Comment-About-Understanding
+IS1000b,C,2277.32,2279.64,2.32,IS1000b.C.dialog-act.vkaraisk.251,D,C,-1.63,0.0,False,True,1.07,['IS1000b.D.dialog-act.vkaraisk.207'],False, We can we'll we'll go,5,task,Suggest
+IS1000b,D,2277.84,2278.01,0.17,IS1000b.D.dialog-act.vkaraisk.206,,,,,,,,,False, Oh,1,minor,Stall
+IS1000b,D,2278.01,2279.08,1.07,IS1000b.D.dialog-act.vkaraisk.207,C,C,0.56,-1.63,True,False,0.0,[],False, that's that's fine then.,4,other,Other
+IS1000b,B,2278.41,2278.81,0.4,IS1000b.B.dialog-act.vkaraisk.243,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1000b,C,2279.64,2283.22,3.58,IS1000b.C.dialog-act.vkaraisk.252,B,D,0.86,0.56,True,False,0.0,[],True, and we'll I'm sure we'll up something good,8,task,Suggest
+IS1000b,A,2282.62,2282.98,0.36,IS1000b.A.dialog-act.vkaraisk.281,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1000b,B,2282.69,2283.43,0.74,IS1000b.B.dialog-act.vkaraisk.244,,,,,,,,,False, W,1,minor,Fragment
+IS1000b,C,2283.22,2286.608,3.388,IS1000b.C.dialog-act.vkaraisk.253,,,,,,,,,False, for the,2,minor,Fragment
+IS1000b,B,2283.43,2284.08,0.65,IS1000b.B.dialog-act.vkaraisk.245,,,,,,,,,False," yes,",1,task,Assess
+IS1000b,D,2283.9,2284.08,0.18,IS1000b.D.dialog-act.vkaraisk.208,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1000b,B,2284.08,2286.53,2.45,IS1000b.B.dialog-act.vkaraisk.246,B,C,6.36,0.86,True,False,0.0,[],True, we uh we can have lunch now.,7,task,Suggest
+IS1000b,A,2286.04,2286.22,0.18,IS1000b.A.dialog-act.vkaraisk.282,,,,,,,,,False, Mm-hmm.,1,task,Assess
+IS1000b,B,2286.53,2287.7,1.17,IS1000b.B.dialog-act.vkaraisk.247,,,,,,,,,False, So um,2,minor,Stall
+IS1000b,C,2288.28,2288.75,0.47,IS1000b.C.dialog-act.vkaraisk.254,,,,,,,,,False, Yeah so,2,minor,Stall
+IS1000b,C,2288.75,2291.168,2.418,IS1000b.C.dialog-act.vkaraisk.255,,,,,,,,,False, we meet in well what are our,7,minor,Fragment
+IS1000b,B,2288.76,2292.89,4.13,IS1000b.B.dialog-act.vkaraisk.248,,,,,,,,,False, Then th th the next meeting will uh,8,minor,Fragment
+IS1000b,B,2292.89,2299.76,6.87,IS1000b.B.dialog-act.vkaraisk.249,B,B,0.0,6.36,False,False,0.0,[],False, after lunch you have uh we have uh thirty minutes of work,12,task,Inform
+IS1000b,B,2299.76,2302.02,2.26,IS1000b.B.dialog-act.vkaraisk.250,B,B,0.0,0.0,False,False,0.0,[],False, and then we have the next meeting.,7,task,Inform
+IS1000b,B,2302.02,2305.93,3.91,IS1000b.B.dialog-act.vkaraisk.251,C,B,1.22,0.0,False,False,0.0,[],False, But you will be informed via the computer.,8,task,Inform
+IS1000b,C,2305.14,2306.5,1.36,IS1000b.C.dialog-act.vkaraisk.256,,,,,,,,,False, Okay.,1,minor,Stall
+IS1000b,B,2305.93,2306.28,0.35,IS1000b.B.dialog-act.vkaraisk.252,,,,,,,,,False, Okay.,1,task,Inform
+IS1000b,C,2306.5,2307.15,0.65,IS1000b.C.dialog-act.vkaraisk.257,,,,,,,,,False, Cool.,1,other,Be-Positive
+IS1000b,D,2306.832,2307.81,0.978,IS1000b.D.dialog-act.vkaraisk.209,,,,,,,,,False, Okay perfect.,2,other,Be-Positive
+IS1000b,C,2307.15,2309.24,2.09,IS1000b.C.dialog-act.vkaraisk.258,,B,,1.22,True,False,0.0,[],True, So see you later.,4,other,Be-Positive

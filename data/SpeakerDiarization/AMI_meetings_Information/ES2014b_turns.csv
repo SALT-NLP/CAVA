@@ -1,0 +1,868 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+ES2014b,A,57.32,59.0,1.68,ES2014b.A.dialog-act.s9553330.1,,,,,,,,,False, Right uh.,2,minor,Stall
+ES2014b,A,62.7,64.35,1.65,ES2014b.A.dialog-act.s9553330.2,,,,,,,,,False, So um.,2,minor,Stall
+ES2014b,A,69.88,73.71,3.83,ES2014b.A.dialog-act.s9553330.3,A,,34.93,,True,False,0.0,[],False, So where's the PowerPoint presentation?,5,elicit,Elicit-Inform
+ES2014b,A,76.68,78.22,1.54,ES2014b.A.dialog-act.s9553330.4,,,,,,,,,False, Sorry?,1,other,Be-Positive
+ES2014b,A,81.37,83.22,1.85,ES2014b.A.dialog-act.s9553330.5,,,,,,,,,False," Microsoft PowerPoint, right.",3,other,Comment-About-Understanding
+ES2014b,A,88.79,92.28,3.49,ES2014b.A.dialog-act.s9553330.6,,,,,,,,,False," Right, okay. So.",3,minor,Stall
+ES2014b,A,97.74,98.16,0.42,ES2014b.A.dialog-act.s9553330.7,,,,,,,,,False, Right.,1,minor,Stall
+ES2014b,A,101.49,103.51,2.02,ES2014b.A.dialog-act.s9553330.8,,,,,,,,,False," Okay, so we've got uh",5,minor,Fragment
+ES2014b,A,108.64,111.36,2.72,ES2014b.A.dialog-act.s9553330.9,A,A,4.84,34.93,False,False,0.0,[],False, so we've got new project requirements.,6,task,Inform
+ES2014b,A,111.36,112.16,0.8,ES2014b.A.dialog-act.s9553330.10,,,,,,,,,False, Um.,1,minor,Stall
+ES2014b,A,116.2,117.48,1.28,ES2014b.A.dialog-act.s9553330.11,A,A,0.0,4.84,False,False,0.0,[],False," So basically we've got three things,",6,task,Inform
+ES2014b,A,117.48,124.82,7.34,ES2014b.A.dialog-act.s9553330.12,B,A,6.83,0.0,False,False,0.0,[],False, and we've got forty minutes in which to uh for this meeting to uh to discuss the various options.,19,task,Inform
+ES2014b,A,124.82,125.4,0.58,ES2014b.A.dialog-act.s9553330.13,,,,,,,,,False, Um.,1,minor,Stall
+ES2014b,A,127.29,128.73,1.44,ES2014b.A.dialog-act.s9553330.14,,,,,,,,,False, Three presentations.,2,other,Comment-About-Understanding
+ES2014b,B,130.86,131.65,0.79,ES2014b.B.dialog-act.s9553330.1,,,,,,,,,False, We have a,3,minor,Fragment
+ES2014b,B,131.65,133.1,1.45,ES2014b.B.dialog-act.s9553330.2,B,A,0.0,6.83,True,False,0.0,[],True," I guess we have a presentation each,",7,task,Inform
+ES2014b,B,133.1,134.41,1.31,ES2014b.B.dialog-act.s9553330.3,D,B,0.11,0.0,False,False,0.0,[],False, 'cause I've got one. Um.,5,task,Inform
+ES2014b,C,134.08,134.22,0.14,ES2014b.C.dialog-act.s9553330.1,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,D,134.2,134.52,0.32,ES2014b.D.dialog-act.s9553330.1,,,,,,,,,False," Yeah,",1,task,Assess
+ES2014b,D,134.52,135.54,1.02,ES2014b.D.dialog-act.s9553330.2,A,B,0.63,0.11,True,False,0.0,[],True, I've got one too.,4,task,Inform
+ES2014b,A,134.79,136.17,1.38,ES2014b.A.dialog-act.s9553330.15,,,,,,,,,False," I see, right.",3,other,Comment-About-Understanding
+ES2014b,A,136.17,136.74,0.57,ES2014b.A.dialog-act.s9553330.16,A,D,0.0,0.63,True,False,0.0,[],True," That's nice to know,",4,task,Assess
+ES2014b,A,136.74,137.97,1.23,ES2014b.A.dialog-act.s9553330.17,A,A,0.0,0.0,False,False,0.0,[],False, one from each of you.,5,task,Inform
+ES2014b,A,137.97,140.38,2.41,ES2014b.A.dialog-act.s9553330.18,A,A,0.0,0.0,False,False,0.0,[],False, Um new project requirements.,4,task,Inform
+ES2014b,A,140.38,142.75,2.37,ES2014b.A.dialog-act.s9553330.19,A,A,4.65,0.0,False,False,0.0,[],False," Um so do we want to do the presentation first,",10,elicit,Elicit-Inform
+ES2014b,A,142.75,145.872,3.122,ES2014b.A.dialog-act.s9553330.20,,,,,,,,,False, or do we want to um,6,minor,Fragment
+ES2014b,A,147.4,156.61,9.21,ES2014b.A.dialog-act.s9553330.21,A,A,0.0,4.65,False,False,0.0,[],False," W I I got um or or three things basically, um relating to the remote being only for T_V_.",19,task,Inform
+ES2014b,A,156.61,159.28,2.67,ES2014b.A.dialog-act.s9553330.22,A,A,0.0,0.0,False,False,0.0,[],False, We discussed that last time,5,task,Inform
+ES2014b,B,158.58,159.05,0.47,ES2014b.B.dialog-act.s9553330.4,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,159.28,163.84,4.56,ES2014b.A.dialog-act.s9553330.23,A,A,0.0,0.0,False,False,0.0,[],False, and in actual fact that was pr pretty well what we came up with anyway.,15,task,Inform
+ES2014b,D,159.55,159.89,0.34,ES2014b.D.dialog-act.s9553330.3,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,163.84,169.32,5.48,ES2014b.A.dialog-act.s9553330.24,A,A,0.0,0.0,False,False,0.0,[],False, So in fact it actually f we won't be forestalled in a sense.,13,task,Inform
+ES2014b,D,164.08,164.55,0.47,ES2014b.D.dialog-act.s9553330.4,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,C,167.84,168.144,0.304,ES2014b.C.dialog-act.s9553330.2,,,,,,,,,False,,0,minor,Fragment
+ES2014b,B,168.736,169.749,1.013,ES2014b.B.dialog-act.s9553330.5,,,,,,,,,False,,0,minor,Fragment
+ES2014b,A,169.32,172.48,3.16,ES2014b.A.dialog-act.s9553330.25,A,A,0.0,0.0,False,False,0.0,[],False, Um we've got uh teletext outdated.,6,task,Inform
+ES2014b,A,172.48,177.69,5.21,ES2014b.A.dialog-act.s9553330.26,B,A,-2.15,0.0,False,True,1.05,['ES2014b.B.dialog-act.s9553330.6'],False, Um did you get any information on that?,8,elicit,Elicit-Inform
+ES2014b,B,175.54,176.59,1.05,ES2014b.B.dialog-act.s9553330.6,A,A,1.1,-2.15,True,False,0.0,[],False," Uh we didn't, no.",4,task,Inform
+ES2014b,C,176.65,176.94,0.29,ES2014b.C.dialog-act.s9553330.4,,,,,,,,,False, No.,1,task,Inform
+ES2014b,A,177.69,182.11,4.42,ES2014b.A.dialog-act.s9553330.27,B,B,-4.27,1.1,True,True,1.21,['ES2014b.B.dialog-act.s9553330.7'],True, Right and the corporate image was the uh final thing.,10,task,Inform
+ES2014b,B,177.84,179.05,1.21,ES2014b.B.dialog-act.s9553330.7,A,A,3.06,-4.27,True,False,0.0,[],False, I d I didn't personally.,5,task,Inform
+ES2014b,D,179.07,179.45,0.38,ES2014b.D.dialog-act.s9553330.5,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2014b,A,182.11,187.32,5.21,ES2014b.A.dialog-act.s9553330.28,A,B,5.07,3.06,True,False,0.0,[],True, So I I got that in email form.,8,task,Inform
+ES2014b,C,183.44,183.776,0.336,ES2014b.C.dialog-act.s9553330.3,,,,,,,,,False,,0,minor,Fragment
+ES2014b,A,187.32,190.94,3.62,ES2014b.A.dialog-act.s9553330.29,,,,,,,,,False, Um. Right okay. So,4,minor,Stall
+ES2014b,A,192.39,197.72,5.33,ES2014b.A.dialog-act.s9553330.30,A,A,0.0,5.07,False,False,0.0,[],False, I guess if we go ahead with the uh with the three presentations.,13,task,Inform
+ES2014b,A,197.72,201.12,3.4,ES2014b.A.dialog-act.s9553330.31,B,A,3.21,0.0,False,False,0.0,[],False, So we'll start with yourself,5,task,Inform
+ES2014b,B,200.99,201.79,0.8,ES2014b.B.dialog-act.s9553330.8,,,,,,,,,False, Okay that's fine.,3,task,Assess
+ES2014b,A,201.12,204.384,3.264,ES2014b.A.dialog-act.s9553330.32,,,,,,,,,False, on the basis that uh,5,minor,Fragment
+ES2014b,B,204.33,208.41,4.08,ES2014b.B.dialog-act.s9553330.9,B,A,32.41,3.21,True,False,0.0,[],True, I'll just um I'll grab the wire out the back of this one.,13,other,Offer
+ES2014b,A,208.54,208.98,0.44,ES2014b.A.dialog-act.s9553330.33,,,,,,,,,False," Sorry,",1,other,Be-Positive
+ES2014b,A,208.98,209.34,0.36,ES2014b.A.dialog-act.s9553330.34,,,,,,,,,False, yep.,1,task,Assess
+ES2014b,B,222.318,225.334,3.016,ES2014b.B.dialog-act.s9553330.10,,,,,,,,,False,,0,minor,Fragment
+ES2014b,C,232.832,233.216,0.384,ES2014b.C.dialog-act.s9553330.5,,,,,,,,,False,,0,minor,Fragment
+ES2014b,A,236.86,238.56,1.7,ES2014b.A.dialog-act.s9553330.35,,,,,,,,,False, Oh.,1,other,Other
+ES2014b,C,237.61,238.11,0.5,ES2014b.C.dialog-act.s9553330.6,,,,,,,,,False, What is it?,3,elicit,Elicit-Inform
+ES2014b,B,240.82,242.388,1.568,ES2014b.B.dialog-act.s9553330.11,C,B,-1.108,32.41,False,True,1.108,['ES2014b.C.dialog-act.s9553330.7'],False, I'm not quite sure how it,6,task,Inform
+ES2014b,C,241.28,243.35,2.07,ES2014b.C.dialog-act.s9553330.7,B,B,7.68,-1.108,True,False,0.0,[],False, I think you've got to do um control F_ eight.,10,task,Suggest
+ES2014b,B,243.9,245.952,2.052,ES2014b.B.dialog-act.s9553330.12,,,,,,,,,False, Control,1,other,Other
+ES2014b,B,251.03,252.79,1.76,ES2014b.B.dialog-act.s9553330.13,B,C,3.71,7.68,True,False,0.0,[],True, Doesn't seem to be quite working at the moment.,9,task,Inform
+ES2014b,C,252.55,254.97,2.42,ES2014b.C.dialog-act.s9553330.8,,,,,,,,,False, Shift F_ eight.,3,task,Suggest
+ES2014b,C,254.97,255.136,0.166,ES2014b.C.dialog-act.s9553330.9,,,,,,,,,False,,0,minor,Fragment
+ES2014b,B,256.5,257.49,0.99,ES2014b.B.dialog-act.s9553330.14,B,B,3.022,3.71,False,False,0.0,[],False, Alt function F_ eight.,4,task,Suggest
+ES2014b,B,260.512,262.59,2.078,ES2014b.B.dialog-act.s9553330.15,D,B,0.354,3.022,False,False,0.0,[],False, Again not doing anything.,4,task,Inform
+ES2014b,D,262.944,265.72,2.776,ES2014b.D.dialog-act.s9553330.6,D,B,0.57,0.354,True,False,0.0,[],True, There's usually a little thing in the top right for the,11,task,Inform
+ES2014b,D,265.72,266.29,0.57,ES2014b.D.dialog-act.s9553330.7,,,,,,,,,False," Oh hang on,",3,task,Inform
+ES2014b,B,265.75,265.87,0.12,ES2014b.B.dialog-act.s9553330.16,,,,,,,,,False, Oh.,1,minor,Backchannel
+ES2014b,C,265.77,266.45,0.68,ES2014b.C.dialog-act.s9553330.10,,,,,,,,,False," Ah there,",2,task,Inform
+ES2014b,D,266.29,267.05,0.76,ES2014b.D.dialog-act.s9553330.8,B,D,0.086,0.57,False,False,0.0,[],False, it's just coming on.,4,task,Inform
+ES2014b,C,266.45,267.27,0.82,ES2014b.C.dialog-act.s9553330.11,,,,,,,,,False, it's doing something.,3,task,Inform
+ES2014b,B,267.136,270.25,3.114,ES2014b.B.dialog-act.s9553330.17,B,D,35.62,0.086,True,False,0.0,[],True, pressed about five times now.,5,task,Inform
+ES2014b,C,270.416,270.896,0.48,ES2014b.C.dialog-act.s9553330.12,,,,,,,,,False,,0,minor,Fragment
+ES2014b,D,273.584,274.16,0.576,ES2014b.D.dialog-act.s9553330.9,,,,,,,,,False,,0,minor,Fragment
+ES2014b,B,278.17,279.61,1.44,ES2014b.B.dialog-act.s9553330.18,,,,,,,,,False," Okay, that's me.",3,task,Inform
+ES2014b,B,305.87,307.97,2.1,ES2014b.B.dialog-act.s9553330.19,B,B,11.55,35.62,False,False,0.0,[],False," Okay, um I have to go again.",7,task,Inform
+ES2014b,A,315.293,316.62,1.327,ES2014b.A.dialog-act.s9553330.36,,,,,,,,,False, it going?,2,elicit,Elicit-Assessment
+ES2014b,B,319.52,320.67,1.15,ES2014b.B.dialog-act.s9553330.20,B,B,8.44,11.55,False,False,0.0,[],False, Hopefully that should be it this time.,7,task,Assess
+ES2014b,B,329.11,330.16,1.05,ES2014b.B.dialog-act.s9553330.21,B,B,8.92,8.44,False,False,0.0,[],False," Okay, I think we're there.",5,task,Inform
+ES2014b,B,330.16,330.54,0.38,ES2014b.B.dialog-act.s9553330.22,,,,,,,,,False, That's good.,2,task,Assess
+ES2014b,B,332.07,333.456,1.386,ES2014b.B.dialog-act.s9553330.23,,,,,,,,,False," Okay, um",2,minor,Stall
+ES2014b,B,339.08,341.89,2.81,ES2014b.B.dialog-act.s9553330.24,B,B,0.0,8.92,False,False,0.0,[],False, Okay I'm gonna be looking at the working design.,9,task,Inform
+ES2014b,B,341.89,345.95,4.06,ES2014b.B.dialog-act.s9553330.25,B,B,0.0,0.0,False,False,0.0,[],False, Um of the of the remote control.,7,task,Inform
+ES2014b,B,345.95,347.88,1.93,ES2014b.B.dialog-act.s9553330.26,B,B,0.0,0.0,False,False,0.0,[],False," Um I've just got three sections,",6,task,Inform
+ES2014b,B,347.88,353.61,5.73,ES2014b.B.dialog-act.s9553330.27,B,B,0.0,0.0,False,False,0.0,[],False, first is the research I made on the on the remote control itself um.,14,task,Inform
+ES2014b,B,353.61,359.7,6.09,ES2014b.B.dialog-act.s9553330.28,B,B,1.46,0.0,False,False,0.0,[],False, And then that involves the components required in it and the systems uh design of the actual the actual remote.,20,task,Inform
+ES2014b,B,361.16,373.06,11.9,ES2014b.B.dialog-act.s9553330.29,B,B,0.0,1.46,False,False,0.0,[],False," Um so having researched the existing models within the market, um I found my research off the internet. Um I've established what the components required for the remote control to function, actually are.",33,task,Inform
+ES2014b,B,373.06,379.84,6.78,ES2014b.B.dialog-act.s9553330.30,B,B,0.0,0.0,False,False,0.0,[],False, And then also the methods in which these components interact together for the remote to actually do what you want it to do,23,task,Inform
+ES2014b,B,379.84,382.75,2.91,ES2014b.B.dialog-act.s9553330.31,B,B,0.0,0.0,False,False,0.0,[],False, and how it connects with the television.,7,task,Inform
+ES2014b,B,382.75,386.72,3.97,ES2014b.B.dialog-act.s9553330.32,B,B,0.0,0.0,False,False,0.0,[],False, Um the basic components are an energy source,8,task,Inform
+ES2014b,B,386.72,390.61,3.89,ES2014b.B.dialog-act.s9553330.33,B,B,0.56,0.0,False,False,0.0,[],False, which I guess um in most existing models would be a battery supply.,13,task,Inform
+ES2014b,B,391.17,396.11,4.94,ES2014b.B.dialog-act.s9553330.34,B,B,0.0,0.56,False,False,0.0,[],False," Whether that'll be sort of two batteries, four batteries, um it may vary.",13,task,Inform
+ES2014b,B,396.11,401.46,5.35,ES2014b.B.dialog-act.s9553330.35,B,B,0.0,0.0,False,False,0.0,[],False," We then have the user interface, which is basically the like the the buttons on the actual remote.",18,task,Inform
+ES2014b,A,396.51,396.71,0.2,ES2014b.A.dialog-act.s9553330.37,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2014b,B,401.46,407.9,6.44,ES2014b.B.dialog-act.s9553330.36,B,B,0.0,0.0,False,False,0.0,[],False," Um the various functions used for changing channel, uh channel up and down, volume, things like that.",17,task,Inform
+ES2014b,B,407.9,413.85,5.95,ES2014b.B.dialog-act.s9553330.37,B,B,0.0,0.0,False,False,0.0,[],False, Um there's also a chip inside the remote which does all the computer type things.,15,task,Inform
+ES2014b,B,413.85,426.86,13.01,ES2014b.B.dialog-act.s9553330.38,B,B,0.0,0.0,False,False,0.0,[],False," And then the sender, which um is usually, I've found, an infra-red device which sends a signal to the actual television.",21,task,Inform
+ES2014b,B,426.86,429.56,2.7,ES2014b.B.dialog-act.s9553330.39,B,B,0.0,0.0,False,False,0.0,[],False, Um and the last part is receiver which is important in the system,13,task,Inform
+ES2014b,B,429.56,431.03,1.47,ES2014b.B.dialog-act.s9553330.40,B,B,0.0,0.0,False,False,0.0,[],False," but is not actually part of the remote itself,",9,task,Inform
+ES2014b,B,431.03,435.02,3.99,ES2014b.B.dialog-act.s9553330.41,B,B,0.0,0.0,False,False,0.0,[],False, because that's obviously found in the television.,7,task,Inform
+ES2014b,B,435.02,435.02,0.0,ES2014b.B.dialog-act.s9553330.42,,,,,,,,,False,.,0,minor,Fragment
+ES2014b,B,435.02,438.14,3.12,ES2014b.B.dialog-act.s9553330.43,B,B,0.0,0.0,False,False,0.0,[],False, Um I'm gonna have to actually draw on the board,10,task,Inform
+ES2014b,B,438.14,441.04,2.9,ES2014b.B.dialog-act.s9553330.44,B,B,0.0,0.0,False,False,0.0,[],False," because uh it was a little tricky on PowerPoint to get this working,",13,task,Inform
+ES2014b,B,441.04,443.57,2.53,ES2014b.B.dialog-act.s9553330.45,B,B,1.27,0.0,False,False,0.0,[],False, so. I'll just go through there.,6,other,Offer
+ES2014b,B,444.84,448.32,3.48,ES2014b.B.dialog-act.s9553330.46,C,B,0.58,1.27,False,False,0.0,[],False," S um um do we have a cloth to wipe this down with, or?",14,elicit,Elicit-Inform
+ES2014b,B,448.32,449.4,1.08,ES2014b.B.dialog-act.s9553330.47,,,,,,,,,False, Oh I'll j,3,minor,Fragment
+ES2014b,C,448.9,450.366,1.466,ES2014b.C.dialog-act.s9553330.13,A,B,-1.366,0.58,True,True,1.366,['ES2014b.A.dialog-act.s9553330.38'],True, I think it's that little,5,task,Inform
+ES2014b,A,449.0,454.99,5.99,ES2014b.A.dialog-act.s9553330.38,B,C,-0.68,-1.366,True,True,0.68,['ES2014b.B.dialog-act.s9553330.50'],False," Uh there's the rubber on the right, I think.",9,task,Inform
+ES2014b,B,451.62,452.29,0.67,ES2014b.B.dialog-act.s9553330.48,,,,,,,,,False, Oh I see.,3,task,Assess
+ES2014b,B,452.29,454.31,2.02,ES2014b.B.dialog-act.s9553330.49,,,,,,,,,False, Oh okay.,2,minor,Backchannel
+ES2014b,B,454.31,456.46,2.15,ES2014b.B.dialog-act.s9553330.50,B,A,9.72,-0.68,True,False,0.0,[],False, I'll get rid of the bear,6,other,Offer
+ES2014b,A,454.99,458.32,3.33,ES2014b.A.dialog-act.s9553330.39,,,,,,,,,False, it's magic.,2,other,Be-Positive
+ES2014b,D,455.564,456.682,1.118,ES2014b.D.dialog-act.s9553330.10,,,,,,,,,False,,0,minor,Fragment
+ES2014b,B,462.58,463.22,0.64,ES2014b.B.dialog-act.s9553330.51,,,,,,,,,False, Okay that's great.,3,task,Assess
+ES2014b,B,466.18,470.5,4.32,ES2014b.B.dialog-act.s9553330.52,B,B,2.18,9.72,False,False,0.0,[],False," Okay, so we start off with a um battery suppl",10,task,Inform
+ES2014b,B,470.5,470.79,0.29,ES2014b.B.dialog-act.s9553330.53,,,,,,,,,False," Uh no,",2,task,Assess
+ES2014b,B,470.79,471.43,0.64,ES2014b.B.dialog-act.s9553330.57,,,,,,,,,False, a power supply,3,task,Inform
+ES2014b,B,471.43,472.68,1.25,ES2014b.B.dialog-act.s9553330.54,,,,,,,,,False, which we'd probably get,4,minor,Fragment
+ES2014b,B,472.68,474.36,1.68,ES2014b.B.dialog-act.s9553330.55,B,B,2.08,2.18,False,False,0.0,[],False, it's probably gonna be the battery.,6,task,Inform
+ES2014b,B,474.36,474.67,0.31,ES2014b.B.dialog-act.s9553330.56,,,,,,,,,False, Um,1,minor,Stall
+ES2014b,B,476.44,479.98,3.54,ES2014b.B.dialog-act.s9553330.58,B,B,1.31,2.08,False,False,0.0,[],False," we then have a particular button,",6,task,Inform
+ES2014b,B,479.98,481.29,1.31,ES2014b.B.dialog-act.s9553330.60,,,,,,,,,False, which may be,3,minor,Fragment
+ES2014b,B,481.29,484.19,2.9,ES2014b.B.dialog-act.s9553330.61,B,B,0.0,1.31,False,False,0.0,[],False, that's obviously there's lots and lots of different buttons.,9,task,Inform
+ES2014b,B,484.19,487.14,2.95,ES2014b.B.dialog-act.s9553330.62,B,B,1.16,0.0,False,False,0.0,[],False, Um but this is how the basic system works.,9,task,Inform
+ES2014b,B,487.14,488.3,1.16,ES2014b.B.dialog-act.s9553330.63,,,,,,,,,False, Um that sends,3,minor,Fragment
+ES2014b,B,488.3,492.06,3.76,ES2014b.B.dialog-act.s9553330.64,B,B,4.68,1.16,False,False,0.0,[],False," after you press that that sends the message to the chip,",11,task,Inform
+ES2014b,B,492.06,495.44,3.38,ES2014b.B.dialog-act.s9553330.65,,,,,,,,,False, which um then sends,4,minor,Fragment
+ES2014b,B,496.74,498.42,1.68,ES2014b.B.dialog-act.s9553330.66,B,B,0.0,4.68,False,False,0.0,[],False, It sort of interprets which button you've pressed,8,task,Inform
+ES2014b,B,498.42,503.248,4.828,ES2014b.B.dialog-act.s9553330.67,B,B,12.772,0.0,False,False,0.0,[],False, and then sends the appropriate message to the sender.,9,task,Inform
+ES2014b,B,514.23,514.87,0.64,ES2014b.B.dialog-act.s9553330.68,,,,,,,,,False, Um.,1,minor,Stall
+ES2014b,B,516.02,518.23,2.21,ES2014b.B.dialog-act.s9553330.69,B,B,0.0,12.772,False,False,0.0,[],False," So that's. That's the remote in itself,",7,task,Inform
+ES2014b,B,518.23,519.23,1.0,ES2014b.B.dialog-act.s9553330.70,B,B,0.0,0.0,False,False,0.0,[],False, that's the components of the remote,6,task,Inform
+ES2014b,B,519.23,520.47,1.24,ES2014b.B.dialog-act.s9553330.71,B,B,0.0,0.0,False,False,0.0,[],False, and how they work together.,5,task,Inform
+ES2014b,B,520.47,525.05,4.58,ES2014b.B.dialog-act.s9553330.72,B,B,3.37,0.0,False,False,0.0,[],False, So this is the uh user interface.,7,task,Inform
+ES2014b,B,528.42,530.72,2.3,ES2014b.B.dialog-act.s9553330.73,B,B,0.0,3.37,False,False,0.0,[],False," Um this is the chip itself,",6,task,Inform
+ES2014b,B,530.72,537.64,6.92,ES2014b.B.dialog-act.s9553330.74,B,B,0.0,0.0,False,False,0.0,[],False," which then, and that's the that's the infra-red sender.",9,task,Inform
+ES2014b,B,537.64,547.33,9.69,ES2014b.B.dialog-act.s9553330.75,B,B,2.21,0.0,False,False,0.0,[],False, And then on the separate thing we have on the on the television we have a a receiver.,18,task,Inform
+ES2014b,B,549.54,552.76,3.22,ES2014b.B.dialog-act.s9553330.76,A,B,5.69,2.21,False,False,0.0,[],False, And the sender sends a message to the receiver.,9,task,Inform
+ES2014b,B,552.76,553.2,0.44,ES2014b.B.dialog-act.s9553330.77,,,,,,,,,False, 'Kay.,1,task,Inform
+ES2014b,A,558.45,565.6,7.15,ES2014b.A.dialog-act.s9553330.40,B,B,-5.11,5.69,True,True,3.0,"['ES2014b.B.dialog-act.s9553330.78', 'ES2014b.B.dialog-act.s9553330.80']",True," So the the top bit's the power source, yes?.",9,elicit,Elicit-Inform
+ES2014b,B,560.49,563.49,3.0,ES2014b.B.dialog-act.s9553330.78,B,A,1.998,-5.11,True,False,0.0,[],False," Ah yes, that's the power source.",6,task,Inform
+ES2014b,B,563.49,564.23,0.74,ES2014b.B.dialog-act.s9553330.79,,,,,,,,,False, Um.,1,minor,Stall
+ES2014b,B,565.488,570.45,4.962,ES2014b.B.dialog-act.s9553330.80,B,B,0.0,1.998,False,False,0.0,[],False," going on to personal preferences, I've said that battery seems the best option for the actual remote,",17,task,Inform
+ES2014b,B,570.45,571.57,1.12,ES2014b.B.dialog-act.s9553330.81,B,B,0.0,0.0,False,False,0.0,[],False, just because of the size.,5,task,Inform
+ES2014b,B,571.57,576.98,5.41,ES2014b.B.dialog-act.s9553330.82,B,B,0.0,0.0,False,False,0.0,[],False, You don't want a a cable attached to the remote otherwise it's not it's not really a remote.,18,task,Inform
+ES2014b,D,576.699,577.732,1.033,ES2014b.D.dialog-act.s9553330.11,,,,,,,,,False,,0,minor,Fragment
+ES2014b,B,576.98,578.1,1.12,ES2014b.B.dialog-act.s9553330.83,B,B,0.0,0.0,False,False,0.0,[],False," Um and then the sender,",5,task,Inform
+ES2014b,B,578.1,581.58,3.48,ES2014b.B.dialog-act.s9553330.84,B,B,0.0,0.0,False,False,0.0,[],False, and infra-red um has been used quite successfully.,8,task,Inform
+ES2014b,B,581.58,584.73,3.15,ES2014b.B.dialog-act.s9553330.85,B,B,0.0,0.0,False,False,0.0,[],False," If the battery's on reasonable power, they always seem to work fairly well.",13,task,Inform
+ES2014b,B,584.73,587.62,2.89,ES2014b.B.dialog-act.s9553330.86,A,B,-0.15,0.0,False,True,0.15,['ES2014b.A.dialog-act.s9553330.41'],False, You don't have to be point directly at the television itself.,11,task,Inform
+ES2014b,A,587.47,590.2,2.73,ES2014b.A.dialog-act.s9553330.41,B,B,1.68,-0.15,True,False,0.0,[],False, So the battery is the in the sender.,8,task,Inform
+ES2014b,B,587.62,588.109,0.489,ES2014b.B.dialog-act.s9553330.87,,,,,,,,,False, Um,1,minor,Backchannel
+ES2014b,B,590.07,590.36,0.29,ES2014b.B.dialog-act.s9553330.88,,,,,,,,,False, Yes.,1,task,Assess
+ES2014b,B,591.88,593.74,1.86,ES2014b.B.dialog-act.s9553330.89,A,A,4.31,1.68,True,False,0.0,[],True, 'Kay and that's it for the moment.,7,task,Inform
+ES2014b,D,593.88,594.22,0.34,ES2014b.D.dialog-act.s9553330.12,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2014b,A,596.93,598.05,1.12,ES2014b.A.dialog-act.s9553330.43,,,,,,,,,False, Okay.,1,task,Assess
+ES2014b,A,598.05,603.124,5.074,ES2014b.A.dialog-act.s9553330.44,C,B,6.066,4.31,True,False,0.0,[],True," So, now more design.",4,task,Inform
+ES2014b,C,601.21,601.53,0.32,ES2014b.C.dialog-act.s9553330.15,,,,,,,,,False, Right.,1,task,Assess
+ES2014b,C,604.37,604.78,0.41,ES2014b.C.dialog-act.s9553330.14,,,,,,,,,False, Thank you.,2,other,Be-Positive
+ES2014b,C,609.19,612.52,3.33,ES2014b.C.dialog-act.s9553330.17,A,A,-0.728,6.066,True,True,0.728,['ES2014b.A.dialog-act.s9553330.45'],True, Mine's not quite as complicated as all that.,8,task,Inform
+ES2014b,A,611.792,617.392,5.6,ES2014b.A.dialog-act.s9553330.45,C,C,2.698,-0.728,True,False,0.0,[],False, That's what we like to hear.,6,task,Assess
+ES2014b,C,613.861,615.28,1.419,ES2014b.C.dialog-act.s9553330.16,,,,,,,,,False,,0,minor,Fragment
+ES2014b,C,620.09,621.24,1.15,ES2014b.C.dialog-act.s9553330.18,A,A,9.08,2.698,True,False,0.0,[],True, Did I press function?,4,elicit,Elicit-Inform
+ES2014b,C,621.24,622.96,1.72,ES2014b.C.dialog-act.s9553330.19,,,,,,,,,False, Yeah.,1,task,Inform
+ES2014b,A,630.32,631.39,1.07,ES2014b.A.dialog-act.s9553330.46,A,C,0.0,9.08,True,False,0.0,[],True, Is it control function,4,elicit,Elicit-Inform
+ES2014b,C,631.25,631.4,0.15,ES2014b.C.dialog-act.s9553330.20,,,,,,,,,False, Oh.,1,other,Other
+ES2014b,A,631.39,634.65,3.26,ES2014b.A.dialog-act.s9553330.47,C,A,-1.95,0.0,False,True,1.95,['ES2014b.C.dialog-act.s9553330.21'],False," ei Oh, th there you go.",6,task,Assess
+ES2014b,C,632.7,638.28,5.58,ES2014b.C.dialog-act.s9553330.21,C,A,0.0,-1.95,True,False,0.0,[],False, Um. Okay so I'm gonna talk a bit about the technical functions design.,13,task,Inform
+ES2014b,C,638.28,642.19,3.91,ES2014b.C.dialog-act.s9553330.22,C,C,0.0,0.0,False,False,0.0,[],False," I'm Louisa, the User Interface Designer, as you know.",9,task,Inform
+ES2014b,C,642.19,651.83,9.64,ES2014b.C.dialog-act.s9553330.24,C,C,0.0,0.0,False,False,0.0,[],False," Um so the m basic method of this is to send a signal from the remote to the television set, so that a desired function is performed.",27,task,Inform
+ES2014b,C,651.83,656.57,4.74,ES2014b.C.dialog-act.s9553330.25,C,C,0.0,0.0,False,False,0.0,[],False," Um an example of the function could be to change the volume up or down,",15,task,Inform
+ES2014b,C,656.57,658.87,2.3,ES2014b.C.dialog-act.s9553330.26,C,C,0.54,0.0,False,False,0.0,[],False, uh so obviously you need two different buttons for that.,10,task,Inform
+ES2014b,C,659.41,666.1,6.69,ES2014b.C.dialog-act.s9553330.27,C,C,0.0,0.54,False,False,0.0,[],False," Um to change the channel, either by pressing the number that you want or by channel up or down.",19,task,Inform
+ES2014b,C,666.1,669.78,3.68,ES2014b.C.dialog-act.s9553330.28,C,C,0.0,0.0,False,False,0.0,[],False," Um to switch the television on or off, maybe a standby button.",12,task,Inform
+ES2014b,C,669.78,673.28,3.5,ES2014b.C.dialog-act.s9553330.29,C,C,0.0,0.0,False,False,0.0,[],False, Um here are two example remotes.,6,task,Inform
+ES2014b,C,673.28,678.88,5.6,ES2014b.C.dialog-act.s9553330.30,C,C,0.0,0.0,False,False,0.0,[],False," Um by the look of it they both have um kind of play and fast forward, rewind functions,",18,task,Inform
+ES2014b,C,678.88,685.14,6.26,ES2014b.C.dialog-act.s9553330.31,C,C,0.0,0.0,False,False,0.0,[],False, so I think they incorporate a kind of video function which we won't have to worry about.,17,task,Inform
+ES2014b,C,685.14,691.39,6.25,ES2014b.C.dialog-act.s9553330.32,C,C,0.0,0.0,False,False,0.0,[],False," Uh but as you can see, the left remote is quite um quite busy looking, quite complicated.",17,task,Inform
+ES2014b,C,691.39,695.34,3.95,ES2014b.C.dialog-act.s9553330.33,C,C,0.0,0.0,False,False,0.0,[],False," Um whereas the right remote is much simpler,",8,task,Inform
+ES2014b,C,695.34,697.22,1.88,ES2014b.C.dialog-act.s9553330.34,C,C,1.63,0.0,False,False,0.0,[],False, it looks much more user friendly.,6,task,Inform
+ES2014b,C,698.85,702.72,3.87,ES2014b.C.dialog-act.s9553330.35,C,C,0.0,1.63,False,False,0.0,[],False, Um so my personal preference would be the right remote.,10,task,Inform
+ES2014b,C,702.72,704.28,1.56,ES2014b.C.dialog-act.s9553330.36,C,C,0.0,0.0,False,False,0.0,[],False," So, it's got nice big buttons,",6,task,Inform
+ES2014b,C,704.28,706.63,2.35,ES2014b.C.dialog-act.s9553330.37,C,C,3.29,0.0,False,False,0.0,[],False, it's got a very limited number of buttons.,8,task,Inform
+ES2014b,C,706.63,707.96,1.33,ES2014b.C.dialog-act.s9553330.38,,,,,,,,,False," Um they're nice,",3,task,Inform
+ES2014b,C,707.96,709.92,1.96,ES2014b.C.dialog-act.s9553330.39,,,,,,,,,False, kinda clearly labelled.,3,task,Inform
+ES2014b,C,709.92,720.97,11.05,ES2014b.C.dialog-act.s9553330.40,C,C,0.0,3.29,False,False,0.0,[],False, Um I like the use of the kind of um symbols like the triangles and the squares and the arrows as well as the words on the um kind of play functions and all that.,35,task,Inform
+ES2014b,C,720.97,723.08,2.11,ES2014b.C.dialog-act.s9553330.41,C,C,0.0,0.0,False,False,0.0,[],False," So it's very very user friendly,",6,task,Inform
+ES2014b,C,723.08,724.82,1.74,ES2014b.C.dialog-act.s9553330.42,C,C,0.0,0.0,False,False,0.0,[],False, and it's got a little splash of colour.,8,task,Inform
+ES2014b,C,724.82,726.68,1.86,ES2014b.C.dialog-act.s9553330.43,A,C,1.17,0.0,False,False,0.0,[],False, Could maybe do with some more colour.,7,task,Assess
+ES2014b,C,726.68,727.36,0.68,ES2014b.C.dialog-act.s9553330.44,,,,,,,,,False, Um.,1,minor,Fragment
+ES2014b,A,727.85,730.66,2.81,ES2014b.A.dialog-act.s9553330.48,A,C,0.0,1.17,True,False,0.0,[],True, Well there's a couple of things there.,7,task,Inform
+ES2014b,A,730.66,738.69,8.03,ES2014b.A.dialog-act.s9553330.49,A,A,0.0,0.0,False,False,0.0,[],False, Um we have to remember that we have our own um logo and colour scheme.,15,task,Inform
+ES2014b,A,738.69,747.81,9.12,ES2014b.A.dialog-act.s9553330.50,C,A,0.59,0.0,False,False,0.0,[],False, So basically we'd have to uh we'd have to be putting that on um the the product.,17,task,Inform
+ES2014b,C,747.83,748.4,0.57,ES2014b.C.dialog-act.s9553330.45,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2014b,C,748.4,749.82,1.42,ES2014b.C.dialog-act.s9553330.46,A,A,-0.14,0.59,True,True,0.14,['ES2014b.A.dialog-act.s9553330.51'],True, Do we get to see that?,6,elicit,Elicit-Inform
+ES2014b,A,749.68,754.21,4.53,ES2014b.A.dialog-act.s9553330.51,C,C,-4.39,-0.14,True,True,4.022,['ES2014b.C.dialog-act.s9553330.47'],False," I haven't as yet, no.",5,task,Inform
+ES2014b,C,749.82,753.842,4.022,ES2014b.C.dialog-act.s9553330.47,A,A,0.368,-4.39,True,False,0.0,[],False, Will you be presenting that in a bit?,8,elicit,Elicit-Inform
+ES2014b,A,754.21,767.25,13.04,ES2014b.A.dialog-act.s9553330.52,A,C,5.44,0.368,True,False,0.0,[],True, But uh I got uh I got an email that basically said to uh make sure that uh whatever device we come up with at the end of the day had to incorporate um the corporate colour and slogan.,39,task,Inform
+ES2014b,A,767.25,772.69,5.44,ES2014b.A.dialog-act.s9553330.53,,,,,,,,,False, So uh I'm guessing that uh uh,7,minor,Fragment
+ES2014b,A,772.69,774.8,2.11,ES2014b.A.dialog-act.s9553330.54,A,A,3.49,5.44,False,False,0.0,[],False, I notice on the bottom there it's got uh,9,task,Inform
+ES2014b,A,776.16,776.68,0.52,ES2014b.A.dialog-act.s9553330.55,,,,,,,,,False, what's that?,2,elicit,Elicit-Inform
+ES2014b,A,776.68,778.29,1.61,ES2014b.A.dialog-act.s9553330.56,,,,,,,,,False, A_P_O_G_E_E_,1,task,Inform
+ES2014b,A,778.29,785.33,7.04,ES2014b.A.dialog-act.s9553330.57,A,A,0.0,3.49,False,False,0.0,[],False," that might be the corporate colour scheme,",7,task,Suggest
+ES2014b,A,785.33,790.0,4.67,ES2014b.A.dialog-act.s9553330.58,B,A,0.51,0.0,False,False,0.0,[],False, although the only the only colour I can see in that is the red.,14,task,Inform
+ES2014b,B,785.38,786.142,0.762,ES2014b.B.dialog-act.s9553330.90,,,,,,,,,False,,0,minor,Fragment
+ES2014b,C,789.39,789.65,0.26,ES2014b.C.dialog-act.s9553330.48,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2014b,B,790.51,794.43,3.92,ES2014b.B.dialog-act.s9553330.91,B,A,0.0,0.51,True,False,0.0,[],True," Would you be able to get rid of the the extra buttons here, the the sort of circular section,",19,elicit,Elicit-Inform
+ES2014b,B,794.43,796.51,2.08,ES2014b.B.dialog-act.s9553330.92,B,B,0.0,0.0,False,False,0.0,[],False, because that seems to be for a video as well.,10,task,Inform
+ES2014b,B,796.51,799.18,2.67,ES2014b.B.dialog-act.s9553330.93,B,B,0.0,0.0,False,False,0.0,[],False, So we could dispense with that little bit as well,10,task,Suggest
+ES2014b,B,799.18,801.84,2.66,ES2014b.B.dialog-act.s9553330.94,C,B,-0.01,0.0,False,True,0.01,['ES2014b.C.dialog-act.s9553330.49'],False, and just get it down to just the numbers and the volume.,12,task,Suggest
+ES2014b,C,801.83,803.11,1.28,ES2014b.C.dialog-act.s9553330.49,C,B,0.0,-0.01,True,False,0.0,[],False, What do you mean by the circular section?,8,elicit,Elicit-Inform
+ES2014b,B,801.84,802.46,0.62,ES2014b.B.dialog-act.s9553330.95,,,,,,,,,False, Possibly?,1,elicit,Elicit-Assessment
+ES2014b,C,803.11,804.19,1.08,ES2014b.C.dialog-act.s9553330.50,B,C,-0.9,0.0,False,True,0.9,['ES2014b.B.dialog-act.s9553330.96'],False, Like all of that bottom bit?,6,elicit,Elicit-Inform
+ES2014b,B,803.29,804.25,0.96,ES2014b.B.dialog-act.s9553330.96,B,C,0.0,-0.9,True,False,0.0,[],False, J yeah yeah yeah j yeah,6,task,Inform
+ES2014b,A,803.935,805.43,1.495,ES2014b.A.dialog-act.s9553330.59,,,,,,,,,False,,0,minor,Fragment
+ES2014b,B,804.25,804.95,0.7,ES2014b.B.dialog-act.s9553330.97,B,B,0.4,0.0,False,False,0.0,[],False, just this little bit,4,task,Inform
+ES2014b,B,804.95,805.35,0.4,ES2014b.B.dialog-act.s9553330.98,,,,,,,,,False, is that,2,minor,Fragment
+ES2014b,B,805.35,808.06,2.71,ES2014b.B.dialog-act.s9553330.99,B,B,0.0,0.4,False,False,0.0,[],False," I think that's still um a video remote part,",9,task,Inform
+ES2014b,C,807.3,807.57,0.27,ES2014b.C.dialog-act.s9553330.51,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,B,808.06,809.42,1.36,ES2014b.B.dialog-act.s9553330.100,C,B,0.68,0.0,False,False,0.0,[],False, so maybe we could get rid of that as well.,10,task,Suggest
+ES2014b,C,809.67,810.1,0.43,ES2014b.C.dialog-act.s9553330.52,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,C,810.1,813.12,3.02,ES2014b.C.dialog-act.s9553330.53,C,B,0.0,0.68,True,False,0.0,[],True, And I don't really think that you need nine numbers.,10,task,Inform
+ES2014b,A,810.72,812.33,1.61,ES2014b.A.dialog-act.s9553330.60,,,,,,,,,False, Well b uh w,4,minor,Fragment
+ES2014b,C,813.12,815.19,2.07,ES2014b.C.dialog-act.s9553330.54,C,C,0.0,0.0,False,False,0.0,[],False," I mean how often do you use seven, eight and nine?",11,elicit,Elicit-Inform
+ES2014b,C,815.19,818.91,3.72,ES2014b.C.dialog-act.s9553330.55,C,C,0.86,0.0,False,False,0.0,[],False, I think just one to six and then channel up and down should be enough.,15,task,Suggest
+ES2014b,A,819.51,821.57,2.06,ES2014b.A.dialog-act.s9553330.61,,,,,,,,,False, Well th the on the,5,minor,Fragment
+ES2014b,C,819.77,821.06,1.29,ES2014b.C.dialog-act.s9553330.56,A,C,0.51,0.86,False,False,0.0,[],False, Like how often do you hit nine?,7,elicit,Elicit-Inform
+ES2014b,D,821.31,821.61,0.3,ES2014b.D.dialog-act.s9553330.13,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,821.57,828.15,6.58,ES2014b.A.dialog-act.s9553330.62,A,C,0.0,0.51,True,False,0.0,[],True," Well uh for for general television purposes obviously you have channels one to five at this point in time,",19,task,Inform
+ES2014b,A,828.15,833.91,5.76,ES2014b.A.dialog-act.s9553330.63,B,A,-0.08,0.0,False,True,0.08,['ES2014b.B.dialog-act.s9553330.101'],False, and we'd have to have some room for uh future such channels.,12,task,Inform
+ES2014b,B,833.83,835.1,1.27,ES2014b.B.dialog-act.s9553330.101,B,A,0.0,-0.08,True,False,0.0,[],False," It's just people are used to seeing that,",8,task,Inform
+ES2014b,A,833.91,835.447,1.537,ES2014b.A.dialog-act.s9553330.64,,,,,,,,,False, But but,2,minor,Fragment
+ES2014b,B,835.1,838.368,3.268,ES2014b.B.dialog-act.s9553330.102,A,B,0.472,0.0,False,False,0.0,[],False, so if we didn't have them then they might think it's,11,task,Inform
+ES2014b,A,836.62,837.77,1.15,ES2014b.A.dialog-act.s9553330.65,,,,,,,,,False," But,",1,minor,Fragment
+ES2014b,A,837.77,838.84,1.07,ES2014b.A.dialog-act.s9553330.66,,,,,,,,,False, well possibly,2,task,Assess
+ES2014b,A,838.84,849.3,10.46,ES2014b.A.dialog-act.s9553330.67,A,B,0.0,0.472,True,False,0.0,[],True," but the the other thing is that with um the current expansion of uh channels uh in the process of taking place, certainly the button up and down,",28,task,Inform
+ES2014b,A,849.3,857.67,8.37,ES2014b.A.dialog-act.s9553330.68,A,A,0.0,0.0,False,False,0.0,[],False, but uh I mean how many channels do we have to um actual television channels do we have to uh prepare for?,22,elicit,Elicit-Inform
+ES2014b,A,857.67,862.4,4.73,ES2014b.A.dialog-act.s9553330.69,A,A,0.0,0.0,False,False,0.0,[],False, I would have thought that uh it's forever expanding,9,task,Inform
+ES2014b,A,862.4,868.54,6.14,ES2014b.A.dialog-act.s9553330.70,A,A,0.0,0.0,False,False,0.0,[],False," and at the moment we've got although you've onl you've got the five standard, you've got the B_B_C_ have come up with a further six",25,task,Inform
+ES2014b,B,863.227,863.912,0.685,ES2014b.B.dialog-act.s9553330.103,,,,,,,,,False,,0,minor,Fragment
+ES2014b,A,868.54,881.46,12.92,ES2014b.A.dialog-act.s9553330.71,A,A,4.02,0.0,False,False,0.0,[],False, and uh there's uh I don't know exactly how many channels there are on uh when you take into account uh Sky and various other um various others.,28,task,Inform
+ES2014b,D,870.53,870.89,0.36,ES2014b.D.dialog-act.s9553330.14,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,B,877.76,878.18,0.42,ES2014b.B.dialog-act.s9553330.105,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2014b,A,881.46,885.48,4.02,ES2014b.A.dialog-act.s9553330.72,,,,,,,,,False," So I would've thought that we wouldn't, you know, rather",10,minor,Fragment
+ES2014b,C,881.51,881.76,0.25,ES2014b.C.dialog-act.s9553330.59,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2014b,A,885.48,887.76,2.28,ES2014b.A.dialog-act.s9553330.73,A,A,0.0,4.02,False,False,0.0,[],False," Okay, if the time of flicking from one to other,",10,task,Inform
+ES2014b,A,887.76,889.37,1.61,ES2014b.A.dialog-act.s9553330.74,A,A,0.0,0.0,False,False,0.0,[],False, but presumably it'll take a second,6,task,Inform
+ES2014b,C,888.238,889.325,1.087,ES2014b.C.dialog-act.s9553330.57,,,,,,,,,False,,0,minor,Fragment
+ES2014b,A,889.37,891.09,1.72,ES2014b.A.dialog-act.s9553330.75,A,A,0.0,0.0,False,False,0.0,[],False, 'cause you have to be able to stop it.,9,task,Inform
+ES2014b,A,891.09,894.18,3.09,ES2014b.A.dialog-act.s9553330.76,A,A,0.31,0.0,False,False,0.0,[],False, Maybe you could have a fast forward on the on the channels,12,task,Suggest
+ES2014b,A,894.18,894.49,0.31,ES2014b.A.dialog-act.s9553330.77,,,,,,,,,False, that w,2,minor,Fragment
+ES2014b,A,894.49,897.68,3.19,ES2014b.A.dialog-act.s9553330.78,A,A,0.0,0.31,False,False,0.0,[],False, and then you could dispense with more otherwise.,8,task,Suggest
+ES2014b,A,897.68,901.36,3.68,ES2014b.A.dialog-act.s9553330.79,C,A,1.44,0.0,False,False,0.0,[],False, Y you'd want you'd want to get fairly quickly to the channel that you wanted.,15,task,Inform
+ES2014b,C,900.909,901.883,0.974,ES2014b.C.dialog-act.s9553330.58,,,,,,,,,False,,0,minor,Fragment
+ES2014b,B,901.001,901.719,0.718,ES2014b.B.dialog-act.s9553330.104,,,,,,,,,False,,0,minor,Fragment
+ES2014b,C,902.8,905.76,2.96,ES2014b.C.dialog-act.s9553330.60,C,A,0.0,1.44,True,False,0.0,[],True, Um some remotes have kind of favourite options,8,task,Inform
+ES2014b,C,905.76,912.96,7.2,ES2014b.C.dialog-act.s9553330.61,A,C,0.98,0.0,False,False,0.0,[],False," where if you always flick from channel one to channel six, um if that's a favourite you just like by-pass two to five.",23,task,Inform
+ES2014b,A,911.68,912.53,0.85,ES2014b.A.dialog-act.s9553330.80,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,B,912.08,912.73,0.65,ES2014b.B.dialog-act.s9553330.106,,,,,,,,,False,,0,minor,Fragment
+ES2014b,A,913.94,926.03,12.09,ES2014b.A.dialog-act.s9553330.81,A,C,0.0,0.98,True,False,0.0,[],True," Yeah, I s I suppose in a sense you could have um if you've got a hundred channels then if you had sort of an easy way of getting rather than having to go one to a hundred, you could go one to one to ten, ten to twenty",49,task,Suggest
+ES2014b,B,914.605,915.395,0.79,ES2014b.B.dialog-act.s9553330.107,,,,,,,,,False,,0,minor,Fragment
+ES2014b,C,925.45,925.62,0.17,ES2014b.C.dialog-act.s9553330.62,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2014b,A,926.03,930.96,4.93,ES2014b.A.dialog-act.s9553330.82,A,A,0.0,0.0,False,False,0.0,[],False, and then have a second button to get you to the actual channel you want,15,task,Suggest
+ES2014b,D,929.13,929.4,0.27,ES2014b.D.dialog-act.s9553330.15,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,930.96,934.41,3.45,ES2014b.A.dialog-act.s9553330.83,C,A,0.8,0.0,False,False,0.0,[],False, and that would cut down your time.,7,task,Inform
+ES2014b,C,933.26,935.21,1.95,ES2014b.C.dialog-act.s9553330.63,,,,,,,,,False, Mm. Um.,2,minor,Backchannel
+ES2014b,A,934.41,936.04,1.63,ES2014b.A.dialog-act.s9553330.84,,,,,,,,,False, Anyway.,1,other,Other
+ES2014b,C,935.21,938.83,3.62,ES2014b.C.dialog-act.s9553330.64,C,A,0.0,0.8,True,False,0.0,[],True," But I think a lot of um like Cable and Sky and stuff, that would be tuned to one channel,",20,task,Inform
+ES2014b,C,938.83,942.88,4.05,ES2014b.C.dialog-act.s9553330.65,C,C,0.0,0.0,False,False,0.0,[],False, and then you'd have another remote for all of those channels.,11,task,Inform
+ES2014b,C,942.88,945.36,2.48,ES2014b.C.dialog-act.s9553330.66,A,C,4.4,0.0,False,False,0.0,[],False, Like to get to fifty five and the higher numbers,10,task,Inform
+ES2014b,B,942.96,943.61,0.65,ES2014b.B.dialog-act.s9553330.108,,,,,,,,,False," Okay, yeah.",2,other,Comment-About-Understanding
+ES2014b,A,944.545,947.54,2.995,ES2014b.A.dialog-act.s9553330.85,,,,,,,,,False, Whatever.,1,other,Other
+ES2014b,C,946.45,947.14,0.69,ES2014b.C.dialog-act.s9553330.67,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,D,946.928,947.536,0.608,ES2014b.D.dialog-act.s9553330.16,,,,,,,,,False,,0,minor,Fragment
+ES2014b,A,947.54,949.76,2.22,ES2014b.A.dialog-act.s9553330.86,,,,,,,,,False, Okay. Okay.,2,minor,Stall
+ES2014b,A,949.76,951.12,1.36,ES2014b.A.dialog-act.s9553330.87,C,C,1.5,4.4,True,False,0.0,[],True," Limit the number of buttons,",5,task,Inform
+ES2014b,A,951.12,951.98,0.86,ES2014b.A.dialog-act.s9553330.88,,,,,,,,,False, user friendly.,2,task,Inform
+ES2014b,C,952.62,954.83,2.21,ES2014b.C.dialog-act.s9553330.68,B,A,-0.23,1.5,True,True,0.23,['ES2014b.B.dialog-act.s9553330.109'],True, But I suppose nine's not really excessive.,7,task,Assess
+ES2014b,B,954.6,961.32,6.72,ES2014b.B.dialog-act.s9553330.109,C,C,-6.49,-0.23,True,True,1.72,['ES2014b.C.dialog-act.s9553330.69'],False, I suppose with nine you've got the the like the last one which makes the tenth means you uh it's like uh multiples you can put them together so you can make any number.,34,task,Inform
+ES2014b,C,954.83,956.55,1.72,ES2014b.C.dialog-act.s9553330.69,B,B,4.77,-6.49,True,False,0.0,[],False, I suppose it does make a good pattern.,8,task,Assess
+ES2014b,B,961.32,963.488,2.168,ES2014b.B.dialog-act.s9553330.110,A,C,0.532,4.77,True,False,0.0,[],True, So with that we'd kind of by-pass any problems with,10,task,Inform
+ES2014b,A,962.26,962.59,0.33,ES2014b.A.dialog-act.s9553330.89,,,,,,,,,False, Yeah,1,task,Assess
+ES2014b,A,964.02,964.81,0.79,ES2014b.A.dialog-act.s9553330.90,A,B,0.0,0.532,True,False,0.0,[],True," Well that's true, yeah,",4,task,Assess
+ES2014b,B,964.81,965.16,0.35,ES2014b.B.dialog-act.s9553330.111,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,A,964.81,966.94,2.13,ES2014b.A.dialog-act.s9553330.91,A,A,0.0,0.0,False,False,0.0,[],False," you could get fifty by five and a zero or whatever,",11,task,Inform
+ES2014b,B,966.83,967.85,1.02,ES2014b.B.dialog-act.s9553330.112,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,A,966.94,967.92,0.98,ES2014b.A.dialog-act.s9553330.92,B,A,-0.07,0.0,False,True,0.07,['ES2014b.B.dialog-act.s9553330.113'],False, that that makes sense.,4,task,Assess
+ES2014b,B,967.85,970.32,2.47,ES2014b.B.dialog-act.s9553330.113,A,A,3.94,-0.07,True,False,0.0,[],False, 'Cause that facilitates having all the numbers you could ever need.,11,task,Inform
+ES2014b,A,970.84,971.09,0.25,ES2014b.A.dialog-act.s9553330.93,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,B,971.49,971.85,0.36,ES2014b.B.dialog-act.s9553330.114,,,,,,,,,False, Um.,1,minor,Backchannel
+ES2014b,D,972.45,972.73,0.28,ES2014b.D.dialog-act.s9553330.17,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,972.53,972.77,0.24,ES2014b.A.dialog-act.s9553330.94,,,,,,,,,False, Does.,1,task,Inform
+ES2014b,C,974.16,975.05,0.89,ES2014b.C.dialog-act.s9553330.70,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+ES2014b,A,974.26,977.056,2.796,ES2014b.A.dialog-act.s9553330.95,C,B,-0.016,3.94,True,True,0.016,['ES2014b.C.dialog-act.s9553330.71'],True, So w so what was the circular thing that you were,11,elicit,Elicit-Inform
+ES2014b,C,977.04,979.02,1.98,ES2014b.C.dialog-act.s9553330.71,C,A,0.0,-0.016,True,False,0.0,[],False," Um I think that's just for a video,",8,task,Inform
+ES2014b,C,979.02,980.75,1.73,ES2014b.C.dialog-act.s9553330.72,B,C,0.65,0.0,False,False,0.0,[],False, so we wouldn't need any of that at all.,9,task,Inform
+ES2014b,B,981.4,982.94,1.54,ES2014b.B.dialog-act.s9553330.115,A,C,-1.02,0.65,True,True,1.02,['ES2014b.A.dialog-act.s9553330.96'],True, So we could get it down to what?,8,elicit,Elicit-Inform
+ES2014b,A,981.92,985.85,3.93,ES2014b.A.dialog-act.s9553330.96,B,B,1.93,-1.02,True,False,0.0,[],False," If it's just for T_V_, which is what it is at the moment.",13,task,Inform
+ES2014b,C,986.41,986.65,0.24,ES2014b.C.dialog-act.s9553330.73,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,B,987.3,987.78,0.48,ES2014b.B.dialog-act.s9553330.116,,,,,,,,,False, So we get to,4,minor,Fragment
+ES2014b,B,987.78,988.65,0.87,ES2014b.B.dialog-act.s9553330.117,B,A,0.0,1.93,True,False,0.0,[],True, How many buttons have we got?,6,elicit,Elicit-Inform
+ES2014b,B,988.65,990.67,2.02,ES2014b.B.dialog-act.s9553330.118,B,B,0.0,0.0,False,False,0.0,[],False," We've just got ten, eleven twelve th",7,task,Inform
+ES2014b,B,990.67,993.44,2.77,ES2014b.B.dialog-act.s9553330.119,B,B,1.21,0.0,False,False,0.0,[],False, We got fourteen that we need. I guess.,8,task,Inform
+ES2014b,D,993.81,994.11,0.3,ES2014b.D.dialog-act.s9553330.18,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,B,994.65,995.92,1.27,ES2014b.B.dialog-act.s9553330.120,B,B,0.0,1.21,False,False,0.0,[],False, Um which isn't really too many.,6,task,Inform
+ES2014b,B,995.92,999.07,3.15,ES2014b.B.dialog-act.s9553330.121,A,B,1.2,0.0,False,False,0.0,[],False, That'll be quite easy to make a user guide for a fourteen button remote.,14,task,Inform
+ES2014b,A,998.08,998.35,0.27,ES2014b.A.dialog-act.s9553330.97,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,1000.27,1013.85,13.58,ES2014b.A.dialog-act.s9553330.98,A,B,0.0,1.2,True,False,0.0,[],True, Well we've we've got um that it's remote for T_V_ only otherwise project would become too complex with uh which would endanger the time to market was one of the considerations.,31,task,Inform
+ES2014b,B,1012.35,1012.56,0.21,ES2014b.B.dialog-act.s9553330.122,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+ES2014b,A,1013.85,1017.37,3.52,ES2014b.A.dialog-act.s9553330.99,A,A,0.0,0.0,False,False,0.0,[],False," I'm I don't know d did you have that information behind the marketing,",13,elicit,Elicit-Inform
+ES2014b,D,1014.82,1015.02,0.2,ES2014b.D.dialog-act.s9553330.19,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,1017.37,1019.45,2.08,ES2014b.A.dialog-act.s9553330.100,D,A,0.98,0.0,False,False,0.0,[],False, or was I meant to give you that information?,9,elicit,Elicit-Inform
+ES2014b,D,1017.65,1018.2,0.55,ES2014b.D.dialog-act.s9553330.20,,,,,,,,,False, Um,1,minor,Stall
+ES2014b,D,1019.67,1020.43,0.76,ES2014b.D.dialog-act.s9553330.21,,,,,,,,,False, I'm not sure.,3,elicit,Elicit-Inform
+ES2014b,D,1020.43,1022.84,2.41,ES2014b.D.dialog-act.s9553330.22,D,A,0.0,0.98,True,False,0.0,[],True," I had I've had some market information,",7,task,Inform
+ES2014b,D,1022.84,1024.54,1.7,ES2014b.D.dialog-act.s9553330.23,A,D,1.03,0.0,False,False,0.0,[],False," but not from the company, no.",6,task,Inform
+ES2014b,A,1022.92,1023.43,0.51,ES2014b.A.dialog-act.s9553330.101,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2014b,A,1024.93,1025.57,0.64,ES2014b.A.dialog-act.s9553330.102,,,,,,,,,False," Right, okay,",2,minor,Stall
+ES2014b,A,1025.57,1028.16,2.59,ES2014b.A.dialog-act.s9553330.103,A,D,0.0,1.03,True,False,0.0,[],True," so basically time to market seems to be important,",9,task,Inform
+ES2014b,A,1028.16,1031.28,3.12,ES2014b.A.dialog-act.s9553330.104,A,A,0.0,0.0,False,False,0.0,[],False, therefore speed of delivery.,4,task,Inform
+ES2014b,B,1028.64,1028.86,0.22,ES2014b.B.dialog-act.s9553330.123,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+ES2014b,A,1031.28,1036.71,5.43,ES2014b.A.dialog-act.s9553330.105,C,A,-0.02,0.0,False,True,0.02,['ES2014b.C.dialog-act.s9553330.75'],False, We've only got about another four hours left.,8,task,Inform
+ES2014b,B,1032.968,1033.94,0.972,ES2014b.B.dialog-act.s9553330.124,,,,,,,,,False,,0,minor,Fragment
+ES2014b,C,1033.149,1034.912,1.763,ES2014b.C.dialog-act.s9553330.74,,,,,,,,,False,,0,minor,Fragment
+ES2014b,D,1033.904,1034.448,0.544,ES2014b.D.dialog-act.s9553330.24,,,,,,,,,False,,0,minor,Fragment
+ES2014b,C,1036.69,1038.75,2.06,ES2014b.C.dialog-act.s9553330.75,B,A,0.28,-0.02,True,False,0.0,[],False," Okay, so is everyone happy with that?",7,elicit,Elicit-Assessment
+ES2014b,B,1039.03,1040.3,1.27,ES2014b.B.dialog-act.s9553330.125,C,C,1.03,0.28,True,False,0.0,[],True," Ah yes yes, that seems good.",6,task,Assess
+ES2014b,D,1039.32,1039.62,0.3,ES2014b.D.dialog-act.s9553330.25,,,,,,,,,False, Okay.,1,task,Assess
+ES2014b,C,1041.33,1043.85,2.52,ES2014b.C.dialog-act.s9553330.76,D,B,7.13,1.03,True,False,0.0,[],True, Right well that's the end of my presentation.,8,task,Inform
+ES2014b,D,1044.54,1044.71,0.17,ES2014b.D.dialog-act.s9553330.26,,,,,,,,,False, 'Kay.,1,task,Assess
+ES2014b,D,1050.98,1052.63,1.65,ES2014b.D.dialog-act.s9553330.27,B,C,32.83,7.13,True,False,0.0,[],True, I'm gonna pull this off.,5,other,Offer
+ES2014b,D,1076.385,1077.935,1.55,ES2014b.D.dialog-act.s9553330.28,,,,,,,,,False,,0,minor,Fragment
+ES2014b,B,1085.46,1088.71,3.25,ES2014b.B.dialog-act.s9553330.126,A,D,-1.03,32.83,True,True,1.03,['ES2014b.A.dialog-act.s9553330.107'],True, I think if you just give it a second to maybe catch up.,13,task,Suggest
+ES2014b,A,1087.41,1087.68,0.27,ES2014b.A.dialog-act.s9553330.106,,,,,,,,,False," Yeah,",1,task,Assess
+ES2014b,A,1087.68,1090.128,2.448,ES2014b.A.dialog-act.s9553330.107,B,B,1.842,-1.03,True,False,0.0,[],False, I think she said twenty seconds to um,8,task,Inform
+ES2014b,D,1089.59,1090.06,0.47,ES2014b.D.dialog-act.s9553330.29,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+ES2014b,D,1091.63,1092.09,0.46,ES2014b.D.dialog-act.s9553330.30,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2014b,B,1091.97,1093.19,1.22,ES2014b.B.dialog-act.s9553330.127,D,A,4.72,1.842,True,False,0.0,[],True, I'm sure we'll have by the end of today.,9,task,Inform
+ES2014b,D,1093.584,1094.368,0.784,ES2014b.D.dialog-act.s9553330.31,,,,,,,,,False,,0,minor,Fragment
+ES2014b,D,1097.91,1099.06,1.15,ES2014b.D.dialog-act.s9553330.32,D,B,10.37,4.72,True,False,0.0,[],True, I'll give it another go.,5,other,Offer
+ES2014b,D,1109.43,1110.8,1.37,ES2014b.D.dialog-act.s9553330.33,D,D,5.42,10.37,False,False,0.0,[],False," Yeah, there we go.",4,task,Assess
+ES2014b,B,1110.245,1111.077,0.832,ES2014b.B.dialog-act.s9553330.128,,,,,,,,,False,,0,minor,Fragment
+ES2014b,D,1116.08,1116.22,0.14,ES2014b.D.dialog-act.s9553330.34,,,,,,,,,False," Right,",1,minor,Stall
+ES2014b,D,1116.22,1122.88,6.66,ES2014b.D.dialog-act.s9553330.35,D,D,0.0,5.42,False,False,0.0,[],False, we've done some research into the functional requirements that people want out of their remote control.,16,task,Inform
+ES2014b,D,1122.88,1128.13,5.25,ES2014b.D.dialog-act.s9553330.36,D,D,1.09,0.0,False,False,0.0,[],False, And first off we should state that th the remote control's for controlling the T_V_,15,task,Inform
+ES2014b,D,1129.22,1131.81,2.59,ES2014b.D.dialog-act.s9553330.37,D,D,0.0,1.09,False,False,0.0,[],False, and um how do people use it?,7,elicit,Elicit-Inform
+ES2014b,D,1131.81,1134.73,2.92,ES2014b.D.dialog-act.s9553330.38,D,D,0.0,0.0,False,False,0.0,[],False, We asked them sort of which buttons were useful for them.,11,task,Inform
+ES2014b,D,1134.73,1137.91,3.18,ES2014b.D.dialog-act.s9553330.39,D,D,0.0,0.0,False,False,0.0,[],False," Um how d how does a remote control look and feel for them,",13,task,Inform
+ES2014b,D,1137.91,1142.59,4.68,ES2014b.D.dialog-act.s9553330.40,D,D,0.0,0.0,False,False,0.0,[],False, and what improvements would would they like to remote control.,10,task,Inform
+ES2014b,D,1142.59,1148.27,5.68,ES2014b.D.dialog-act.s9553330.41,D,D,2.02,0.0,False,False,0.0,[],False, And we did that by sort of giving them a questionnaire that we'd prepared and asking them to fill in the answers.,22,task,Inform
+ES2014b,D,1150.29,1154.06,3.77,ES2014b.D.dialog-act.s9553330.42,D,D,0.0,2.02,False,False,0.0,[],False, And three quarters of them found that remote controls are ugly,11,task,Inform
+ES2014b,D,1154.06,1161.21,7.15,ES2014b.D.dialog-act.s9553330.43,D,D,1.71,0.0,False,False,0.0,[],False, and that a sort of even higher proportion would spend more for a sort of s uh a fancier remote control,21,task,Inform
+ES2014b,D,1162.92,1176.93,14.01,ES2014b.D.dialog-act.s9553330.44,D,D,0.0,1.71,False,False,0.0,[],False," And that of all the buttons on the remote control, the sort of setting buttons for sort of the picture picture and brightness and the audio settings, um they weren't used very often at all.",35,task,Inform
+ES2014b,D,1176.93,1182.52,5.59,ES2014b.D.dialog-act.s9553330.45,D,D,0.0,0.0,False,False,0.0,[],False, People concentrated on the channel buttons and the volume buttons and the power buttons.,14,task,Inform
+ES2014b,D,1182.52,1187.61,5.09,ES2014b.D.dialog-act.s9553330.46,D,D,0.0,0.0,False,False,0.0,[],False, Uh we also asked them about speech recognition uh for remote control.,12,task,Inform
+ES2014b,D,1187.61,1190.4,2.79,ES2014b.D.dialog-act.s9553330.47,D,D,0.0,0.0,False,False,0.0,[],False," And young people were quite receptive to this,",8,task,Inform
+ES2014b,D,1190.4,1200.93,10.53,ES2014b.D.dialog-act.s9553330.48,D,D,0.0,0.0,False,False,0.0,[],False," but as soon as we got sort of over about into a thirty five to forty age forty five age group and older, people people weren't quite so keen on speech recognition.",32,task,Inform
+ES2014b,D,1200.93,1206.81,5.88,ES2014b.D.dialog-act.s9553330.49,D,D,0.0,0.0,False,False,0.0,[],False, There's a lot more th there's a lot lot more older people who didn't know whether they wanted it or not as well.,23,task,Inform
+ES2014b,D,1206.81,1210.73,3.92,ES2014b.D.dialog-act.s9553330.50,D,D,0.0,0.0,False,False,0.0,[],False, Um we also asked what frustrated people about remote controls,10,task,Inform
+ES2014b,D,1210.73,1218.55,7.82,ES2014b.D.dialog-act.s9553330.51,D,D,0.0,0.0,False,False,0.0,[],False, and the number one frustration was that the remote was lost somewhere else in the room and that they couldn't find it.,22,task,Inform
+ES2014b,D,1218.55,1230.66,12.11,ES2014b.D.dialog-act.s9553330.52,D,D,2.67,0.0,False,False,0.0,[],False," And the second second biggest frustration what that if they got a new remote control, it was difficult to learn um all the buttons and all the functions, and to find your way around it.",35,task,Inform
+ES2014b,D,1230.66,1232.464,1.804,ES2014b.D.dialog-act.s9553330.53,,,,,,,,,False," Okay, so",2,minor,Stall
+ES2014b,D,1233.33,1241.44,8.11,ES2014b.D.dialog-act.s9553330.54,D,D,0.0,2.67,False,False,0.0,[],False, My personal preferences from the marketing is that we need to come up with some sort of sleek sort of good looking high high-tech,24,task,Inform
+ES2014b,D,1241.44,1244.63,3.19,ES2014b.D.dialog-act.s9553330.55,D,D,0.0,0.0,False,False,0.0,[],False," A design which looks high-tech, basically.",6,task,Inform
+ES2014b,D,1244.63,1249.65,5.02,ES2014b.D.dialog-act.s9553330.56,D,D,0.0,0.0,False,False,0.0,[],False," Um and that we should come up with fewer buttons than most of the controls on the market,",18,task,Inform
+ES2014b,D,1249.65,1258.64,8.99,ES2014b.D.dialog-act.s9553330.57,D,D,0.0,0.0,False,False,0.0,[],False," and we should sort of concentrate on the channels and sort of power, and also volume and that sort of thing, as as Louisa said.",25,task,Inform
+ES2014b,D,1258.64,1266.64,8.0,ES2014b.D.dialog-act.s9553330.58,D,D,0.0,0.0,False,False,0.0,[],False," Um we could maybe come up with a menu, a sort of a an L_C_D_ menu for other functions on the remote control.",23,task,Suggest
+ES2014b,D,1266.64,1268.38,1.74,ES2014b.D.dialog-act.s9553330.59,D,D,0.0,0.0,False,False,0.0,[],False, That's worth thinking about.,4,task,Inform
+ES2014b,D,1268.38,1272.09,3.71,ES2014b.D.dialog-act.s9553330.60,D,D,0.0,0.0,False,False,0.0,[],False," Um and maybe we could think about speech recognition as well,",11,task,Suggest
+ES2014b,D,1272.09,1281.87,9.78,ES2014b.D.dialog-act.s9553330.61,D,D,1.35,0.0,False,False,0.0,[],False, because um sort of young people are perhaps the ones that are gonna buy buy our new product if we aim it at sort of you know sort of a high-tech design.,32,task,Inform
+ES2014b,D,1283.22,1285.73,2.51,ES2014b.D.dialog-act.s9553330.62,D,D,1.52,1.35,False,False,0.0,[],False, That that might be the market that we're we're looking for.,11,task,Inform
+ES2014b,D,1287.25,1299.63,12.38,ES2014b.D.dialog-act.s9553330.63,D,D,0.0,1.52,False,False,0.0,[],False," And we could maybe think about using speech recogniti recognition as a way to find the remote control if it's lost in a room, rather than sort of um having it to speech recognition to change the channels.",38,task,Inform
+ES2014b,D,1299.63,1302.06,2.43,ES2014b.D.dialog-act.s9553330.64,D,D,0.0,0.0,False,False,0.0,[],False," 'Cause there's a problem with that in that the television makes noise,",12,task,Inform
+ES2014b,D,1302.06,1306.38,4.32,ES2014b.D.dialog-act.s9553330.65,D,D,1.34,0.0,False,False,0.0,[],False, so it could end up talking to itself and changing its channel.,12,task,Inform
+ES2014b,B,1304.85,1305.12,0.27,ES2014b.B.dialog-act.s9553330.129,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2014b,D,1306.38,1307.72,1.34,ES2014b.D.dialog-act.s9553330.66,,,,,,,,,False," Okay um,",2,minor,Stall
+ES2014b,D,1307.72,1309.31,1.59,ES2014b.D.dialog-act.s9553330.67,A,D,2.26,1.34,False,False,0.0,[],False, and that's the end of the slide show.,8,task,Inform
+ES2014b,D,1309.31,1310.1,0.79,ES2014b.D.dialog-act.s9553330.68,,,,,,,,,False, That's it.,2,task,Inform
+ES2014b,D,1310.1,1310.28,0.18,ES2014b.D.dialog-act.s9553330.69,,,,,,,,,False, Cool.,1,other,Be-Positive
+ES2014b,C,1311.52,1312.765,1.245,ES2014b.C.dialog-act.s9553330.77,,,,,,,,,False, Do a lot of um,5,minor,Fragment
+ES2014b,A,1311.57,1314.85,3.28,ES2014b.A.dialog-act.s9553330.108,D,D,-1.45,2.26,True,True,1.45,['ES2014b.D.dialog-act.s9553330.70'],True, What was that last wee bit there?,7,elicit,Elicit-Inform
+ES2014b,D,1313.4,1316.2,2.8,ES2014b.D.dialog-act.s9553330.70,A,A,0.54,-1.45,True,False,0.0,[],False, Um about speech recognition?,4,task,Inform
+ES2014b,A,1314.85,1316.03,1.18,ES2014b.A.dialog-act.s9553330.109,,,,,,,,,False," Speech recognition,",2,task,Inform
+ES2014b,C,1315.637,1316.654,1.017,ES2014b.C.dialog-act.s9553330.78,,,,,,,,,False,,0,minor,Fragment
+ES2014b,D,1316.2,1316.51,0.31,ES2014b.D.dialog-act.s9553330.71,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,A,1316.74,1320.21,3.47,ES2014b.A.dialog-act.s9553330.110,D,D,-0.19,0.54,True,True,0.19,['ES2014b.D.dialog-act.s9553330.72'],True," But that was only for young people that preferred it, older people didn't.",13,elicit,Elicit-Inform
+ES2014b,D,1320.02,1320.99,0.97,ES2014b.D.dialog-act.s9553330.72,D,A,0.21,-0.19,True,False,0.0,[],False, Youn young people pref,4,elicit,Elicit-Inform
+ES2014b,D,1320.99,1321.2,0.21,ES2014b.D.dialog-act.s9553330.73,,,,,,,,,False," Yeah,",1,task,Inform
+ES2014b,D,1321.2,1325.06,3.86,ES2014b.D.dialog-act.s9553330.74,D,D,0.0,0.21,False,False,0.0,[],False, they s they said that they'd be interested in a remote control which offered that possibility,16,task,Inform
+ES2014b,D,1325.06,1331.6,6.54,ES2014b.D.dialog-act.s9553330.75,B,D,0.63,0.0,False,False,0.0,[],False," and as you go up through the age groups, people got less and less interested in sort of a a remote control that you could talk to, so.",28,task,Inform
+ES2014b,B,1332.23,1336.52,4.29,ES2014b.B.dialog-act.s9553330.130,B,D,0.0,0.63,True,False,0.0,[],True, No what I maybe think is um it seems the technology would be quite advanced for that,17,task,Inform
+ES2014b,B,1336.52,1343.04,6.52,ES2014b.B.dialog-act.s9553330.131,B,B,4.76,0.0,False,False,0.0,[],False, and they might end up costing more than our twelve fifty budget for for the speech recognition. Um.,18,task,Inform
+ES2014b,D,1339.7,1340.94,1.24,ES2014b.D.dialog-act.s9553330.76,,,,,,,,,False, Yeah. Yeah.,2,task,Assess
+ES2014b,A,1340.05,1340.85,0.8,ES2014b.A.dialog-act.s9553330.111,,,,,,,,,False, Well that's right.,3,task,Assess
+ES2014b,D,1342.15,1342.33,0.18,ES2014b.D.dialog-act.s9553330.77,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,B,1344.12,1347.8,3.68,ES2014b.B.dialog-act.s9553330.132,,,,,,,,,False, And possibly the thing about the about the remote being lost we could have,14,minor,Fragment
+ES2014b,B,1347.8,1349.73,1.93,ES2014b.B.dialog-act.s9553330.133,B,B,0.0,4.76,False,False,0.0,[],False," You know with your mobile phone, you lose that and you can ring it.",14,task,Inform
+ES2014b,B,1349.73,1354.38,4.65,ES2014b.B.dialog-act.s9553330.134,B,B,0.0,0.0,False,False,0.0,[],False, Maybe we can have some kind of sensor which is kept somewhere where you can some kind of buzzer system between the two.,23,task,Suggest
+ES2014b,D,1354.07,1354.4,0.33,ES2014b.D.dialog-act.s9553330.78,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,B,1354.38,1356.56,2.18,ES2014b.B.dialog-act.s9553330.135,B,B,0.0,0.0,False,False,0.0,[],False, So you can press a button which is always kept in one place,13,task,Inform
+ES2014b,B,1356.56,1360.83,4.27,ES2014b.B.dialog-act.s9553330.136,D,B,0.39,0.0,False,False,0.0,[],False," and then it maybe buzzes to somewhere else, wherever the remote actually is.",13,task,Inform
+ES2014b,D,1357.19,1357.49,0.3,ES2014b.D.dialog-act.s9553330.79,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+ES2014b,D,1358.85,1359.12,0.27,ES2014b.D.dialog-act.s9553330.80,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,D,1361.22,1364.65,3.43,ES2014b.D.dialog-act.s9553330.81,D,B,0.0,0.39,True,False,0.0,[],True," Yeah, we'd have t that would mean we'd have to put two products together as well,",16,task,Inform
+ES2014b,D,1364.65,1367.744,3.094,ES2014b.D.dialog-act.s9553330.82,B,D,-2.924,0.0,False,True,1.0,['ES2014b.B.dialog-act.s9553330.137'],False," which which again would probably be a bit expensive, but",10,task,Inform
+ES2014b,B,1364.82,1365.82,1.0,ES2014b.B.dialog-act.s9553330.137,C,D,2.06,-2.924,True,False,0.0,[],False," That is true, yes.",4,task,Assess
+ES2014b,B,1367.02,1367.26,0.24,ES2014b.B.dialog-act.s9553330.138,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2014b,C,1367.88,1371.01,3.13,ES2014b.C.dialog-act.s9553330.79,C,B,1.03,2.06,True,False,0.0,[],True," There's key rings um that you kind of whistle at or clap at,",13,task,Inform
+ES2014b,C,1371.01,1372.04,1.03,ES2014b.C.dialog-act.s9553330.80,,,,,,,,,False," I can't remember,",3,task,Inform
+ES2014b,D,1371.64,1371.98,0.34,ES2014b.D.dialog-act.s9553330.83,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,C,1372.04,1374.17,2.13,ES2014b.C.dialog-act.s9553330.81,C,C,0.0,1.03,False,False,0.0,[],False," and then they whistle back, or something like that.",9,task,Inform
+ES2014b,A,1373.97,1374.84,0.87,ES2014b.A.dialog-act.s9553330.112,,,,,,,,,False, Sounds reasonable.,2,task,Assess
+ES2014b,D,1374.1,1374.35,0.25,ES2014b.D.dialog-act.s9553330.84,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,C,1374.17,1375.28,1.11,ES2014b.C.dialog-act.s9553330.82,B,C,2.96,0.0,False,False,0.0,[],False," That'd probably be really simple,",5,task,Inform
+ES2014b,C,1375.28,1375.87,0.59,ES2014b.C.dialog-act.s9553330.83,,,,,,,,,False, they're cheap.,2,task,Inform
+ES2014b,D,1375.96,1376.24,0.28,ES2014b.D.dialog-act.s9553330.85,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,1376.12,1376.46,0.34,ES2014b.A.dialog-act.s9553330.113,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,1378.24,1379.691,1.451,ES2014b.A.dialog-act.s9553330.114,,,,,,,,,False, Yeah. So,2,minor,Fragment
+ES2014b,B,1378.24,1380.26,2.02,ES2014b.B.dialog-act.s9553330.139,B,C,0.0,2.96,True,False,0.0,[],True, So I guess it'd be something we could like attach to the,12,task,Suggest
+ES2014b,B,1380.26,1384.57,4.31,ES2014b.B.dialog-act.s9553330.140,A,B,-0.9,0.0,False,True,0.9,['ES2014b.A.dialog-act.s9553330.116'],False, or like the same technology could be put inside the inside the remote.,13,task,Suggest
+ES2014b,A,1383.67,1394.77,11.1,ES2014b.A.dialog-act.s9553330.116,A,B,4.07,-0.9,True,False,0.0,[],False," Well if you're trying to avoid having a second product 'cause obviously you could have a second product that gave you the right pitch which would set the remote off to say here I am sort of thing, you know without sound recognition.",43,task,Suggest
+ES2014b,A,1394.77,1396.384,1.614,ES2014b.A.dialog-act.s9553330.117,,,,,,,,,False, But if you,3,minor,Fragment
+ES2014b,A,1398.3,1398.84,0.54,ES2014b.A.dialog-act.s9553330.118,,,,,,,,,False, I know.,2,minor,Fragment
+ES2014b,A,1398.84,1403.43,4.59,ES2014b.A.dialog-act.s9553330.119,A,A,1.674,4.07,False,False,0.0,[],False," Um I was gonna say a sharp noise, you know a clapping of hand or whatever.",16,task,Inform
+ES2014b,A,1405.104,1408.62,3.516,ES2014b.A.dialog-act.s9553330.120,B,A,3.67,1.674,False,False,0.0,[],False, You'd want to try and av just have the one product,11,task,Inform
+ES2014b,A,1408.62,1411.261,2.641,ES2014b.A.dialog-act.s9553330.121,,,,,,,,,False, that if,2,minor,Fragment
+ES2014b,B,1409.01,1409.29,0.28,ES2014b.B.dialog-act.s9553330.141,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,B,1412.29,1416.88,4.59,ES2014b.B.dialog-act.s9553330.142,A,A,4.42,3.67,True,False,0.0,[],True, Yeah if we if we could have it in the actual remote like everything in one one device.,18,task,Inform
+ES2014b,D,1412.8,1413.02,0.22,ES2014b.D.dialog-act.s9553330.86,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,D,1415.43,1415.69,0.26,ES2014b.D.dialog-act.s9553330.87,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,A,1416.52,1417.39,0.87,ES2014b.A.dialog-act.s9553330.122,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,A,1417.39,1421.3,3.91,ES2014b.A.dialog-act.s9553330.123,,,,,,,,,False, Um I dunno um talking about vo,7,minor,Fragment
+ES2014b,A,1421.3,1425.77,4.47,ES2014b.A.dialog-act.s9553330.124,A,B,0.0,4.42,True,False,0.0,[],True, I mean obviously if you've got voice recognition then you can do it in that way,16,task,Inform
+ES2014b,A,1425.77,1427.41,1.64,ES2014b.A.dialog-act.s9553330.125,A,A,0.0,0.0,False,False,0.0,[],False, because it'll recognise the voice,5,task,Inform
+ES2014b,A,1427.41,1428.64,1.23,ES2014b.A.dialog-act.s9553330.126,A,A,0.0,0.0,False,False,0.0,[],False," and you can give it a command,",7,task,Inform
+ES2014b,A,1428.64,1431.57,2.93,ES2014b.A.dialog-act.s9553330.127,A,A,0.0,0.0,False,False,0.0,[],False, a set command whatever that happened to be.,8,task,Inform
+ES2014b,B,1429.484,1430.289,0.805,ES2014b.B.dialog-act.s9553330.143,,,,,,,,,False,,0,minor,Fragment
+ES2014b,D,1430.84,1431.12,0.28,ES2014b.D.dialog-act.s9553330.88,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,A,1431.57,1435.904,4.334,ES2014b.A.dialog-act.s9553330.128,B,A,-0.08,0.0,False,True,0.08,['ES2014b.B.dialog-act.s9553330.144'],False, But you've then got the point if if you're not going with uh voice recognition then,16,task,Inform
+ES2014b,B,1435.824,1438.432,2.608,ES2014b.B.dialog-act.s9553330.144,B,A,3.918,-0.08,True,False,0.0,[],False, you could have an option to turn it off. Or,10,task,Suggest
+ES2014b,D,1435.86,1436.04,0.18,ES2014b.D.dialog-act.s9553330.89,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,B,1439.78,1441.25,1.47,ES2014b.B.dialog-act.s9553330.145,,,,,,,,,False," Perhaps, um.",2,task,Suggest
+ES2014b,D,1441.56,1442.07,0.51,ES2014b.D.dialog-act.s9553330.90,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,B,1442.35,1446.14,3.79,ES2014b.B.dialog-act.s9553330.146,D,B,6.88,3.918,False,False,0.0,[],False, So that would solve the problems with the T_V_ kind of speaking to the remote and changing its own channels.,20,task,Inform
+ES2014b,A,1445.78,1447.21,1.43,ES2014b.A.dialog-act.s9553330.129,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2014b,D,1445.889,1447.222,1.333,ES2014b.D.dialog-act.s9553330.91,,,,,,,,,False,,0,minor,Fragment
+ES2014b,A,1447.21,1450.4,3.19,ES2014b.A.dialog-act.s9553330.130,,,,,,,,,False, So uh,2,minor,Stall
+ES2014b,A,1450.4,1451.06,0.66,ES2014b.A.dialog-act.s9553330.131,,,,,,,,,False, Any sugges,2,minor,Fragment
+ES2014b,A,1451.06,1452.7,1.64,ES2014b.A.dialog-act.s9553330.132,,,,,,,,,False," Well, any conclusions?",3,elicit,Elicit-Inform
+ES2014b,D,1453.02,1460.08,7.06,ES2014b.D.dialog-act.s9553330.92,A,B,0.16,6.88,True,False,0.0,[],True, Um would it take quite a while to sort of develop the speech recognition software in the remote control?,19,elicit,Elicit-Inform
+ES2014b,C,1459.04,1459.264,0.224,ES2014b.C.dialog-act.s9553330.84,,,,,,,,,False,,0,minor,Fragment
+ES2014b,B,1459.81,1459.98,0.17,ES2014b.B.dialog-act.s9553330.147,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2014b,D,1460.08,1460.624,0.544,ES2014b.D.dialog-act.s9553330.93,,,,,,,,,False, Considering,1,minor,Fragment
+ES2014b,A,1460.24,1462.63,2.39,ES2014b.A.dialog-act.s9553330.133,A,D,0.97,0.16,True,False,0.0,[],True, Well if it does then we can't.,7,task,Inform
+ES2014b,D,1462.31,1462.49,0.18,ES2014b.D.dialog-act.s9553330.94,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,A,1462.63,1463.6,0.97,ES2014b.A.dialog-act.s9553330.134,,,,,,,,,False," It's that simple,",3,task,Inform
+ES2014b,A,1463.6,1475.94,12.34,ES2014b.A.dialog-act.s9553330.135,A,A,0.0,0.97,False,False,0.0,[],False, because we've got uh th th three um primary um uh requisites from uh from and email uh that was sent to me,23,task,Inform
+ES2014b,A,1475.94,1480.11,4.17,ES2014b.A.dialog-act.s9553330.136,A,A,0.0,0.0,False,False,0.0,[],False," whereby we had The design logo was one, which we've already mentioned.",12,task,Inform
+ES2014b,A,1480.11,1483.36,3.25,ES2014b.A.dialog-act.s9553330.137,A,A,0.82,0.0,False,False,0.0,[],False, We've got um the remote was only for the television,10,task,Inform
+ES2014b,A,1483.36,1484.18,0.82,ES2014b.A.dialog-act.s9553330.138,,,,,,,,,False, and not for,3,minor,Fragment
+ES2014b,A,1484.18,1485.52,1.34,ES2014b.A.dialog-act.s9553330.139,A,A,0.0,0.82,False,False,0.0,[],False, because that would make it too complex,7,task,Inform
+ES2014b,A,1485.52,1487.66,2.14,ES2014b.A.dialog-act.s9553330.140,A,A,0.0,0.0,False,False,0.0,[],False, and we have to get it market quickly.,8,task,Inform
+ES2014b,D,1487.04,1487.28,0.24,ES2014b.D.dialog-act.s9553330.95,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,1487.66,1499.52,11.86,ES2014b.A.dialog-act.s9553330.141,A,A,4.27,0.0,False,False,0.0,[],False," And the uh third thing was that um teletext uh as far as uh the management is concerned, um is becoming dated uh due to the popularity of the internet.",30,task,Inform
+ES2014b,D,1500.0,1500.63,0.63,ES2014b.D.dialog-act.s9553330.96,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2014b,A,1500.02,1503.79,3.77,ES2014b.A.dialog-act.s9553330.142,,,,,,,,,False, So that means that uh,5,minor,Fragment
+ES2014b,B,1500.1,1500.49,0.39,ES2014b.B.dialog-act.s9553330.148,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+ES2014b,A,1503.79,1510.76,6.97,ES2014b.A.dialog-act.s9553330.143,A,A,0.0,4.27,False,False,0.0,[],False, so these are the sort of three um extra parameters that have been put on this uh project.,18,task,Inform
+ES2014b,D,1510.18,1510.45,0.27,ES2014b.D.dialog-act.s9553330.97,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,1510.76,1516.01,5.25,ES2014b.A.dialog-act.s9553330.144,A,A,0.0,0.0,False,False,0.0,[],False, So we're being focused effectively directly at a television,9,task,Inform
+ES2014b,A,1516.01,1523.12,7.11,ES2014b.A.dialog-act.s9553330.145,A,A,0.0,0.0,False,False,0.0,[],False, and it seems to me that the management is uh wanting us to go down a narrow path and not opening out.,22,task,Inform
+ES2014b,B,1516.14,1516.55,0.41,ES2014b.B.dialog-act.s9553330.149,,,,,,,,,False, Yes.,1,minor,Backchannel
+ES2014b,A,1523.12,1533.67,10.55,ES2014b.A.dialog-act.s9553330.146,B,A,-4.91,0.0,False,True,1.336,['ES2014b.B.dialog-act.s9553330.150'],False," So anything that uh is to be added, such as voice recognition et cetera has to be very simple and has to be very quick",25,task,Inform
+ES2014b,B,1528.76,1530.096,1.336,ES2014b.B.dialog-act.s9553330.150,A,A,3.574,-4.91,True,False,0.0,[],False, Has to be simple enough to,6,task,Inform
+ES2014b,A,1533.67,1539.9,6.23,ES2014b.A.dialog-act.s9553330.147,B,B,-2.716,3.574,True,True,2.716,['ES2014b.B.dialog-act.s9553330.152'],True, because time to market is is critical. S,8,task,Inform
+ES2014b,B,1535.656,1536.373,0.717,ES2014b.B.dialog-act.s9553330.151,,,,,,,,,False,,0,minor,Fragment
+ES2014b,B,1537.184,1544.11,6.926,ES2014b.B.dialog-act.s9553330.152,A,A,0.63,-2.716,True,False,0.0,[],False, I suppose if we could get something in which was quite quick and simple that would give us an advantage over the other remotes. Um.,25,task,Inform
+ES2014b,D,1537.58,1537.84,0.26,ES2014b.D.dialog-act.s9553330.98,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,1542.92,1544.74,1.82,ES2014b.A.dialog-act.s9553330.148,,,,,,,,,False, It would.,2,task,Assess
+ES2014b,A,1544.74,1551.46,6.72,ES2014b.A.dialog-act.s9553330.149,A,B,0.0,0.63,True,False,0.0,[],True, But probably quick and simple is primary rather than added extras.,11,task,Inform
+ES2014b,B,1549.65,1550.45,0.8,ES2014b.B.dialog-act.s9553330.153,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+ES2014b,A,1551.46,1552.96,1.5,ES2014b.A.dialog-act.s9553330.150,A,A,0.0,0.0,False,False,0.0,[],False," Added extras would be nice,",5,task,Inform
+ES2014b,A,1552.96,1559.42,6.46,ES2014b.A.dialog-act.s9553330.151,A,A,0.0,0.0,False,False,0.0,[],False," but the primary consideration is to get the project finished within uh this short time window,",16,task,Inform
+ES2014b,D,1559.4,1559.6,0.2,ES2014b.D.dialog-act.s9553330.99,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,1559.42,1562.71,3.29,ES2014b.A.dialog-act.s9553330.152,A,A,2.31,0.0,False,False,0.0,[],False, which effectively now is sort of four hours.,8,task,Inform
+ES2014b,A,1562.71,1565.02,2.31,ES2014b.A.dialog-act.s9553330.153,,,,,,,,,False, So and if,3,minor,Fragment
+ES2014b,A,1565.02,1566.58,1.56,ES2014b.A.dialog-act.s9553330.154,A,A,0.0,2.31,False,False,0.0,[],False, and we've gotta get to the end.,7,task,Inform
+ES2014b,A,1566.58,1569.76,3.18,ES2014b.A.dialog-act.s9553330.155,A,A,0.0,0.0,False,False,0.0,[],False, Uh d d I think I think first and foremost we've gotta get to the end,16,task,Inform
+ES2014b,A,1569.76,1573.03,3.27,ES2014b.A.dialog-act.s9553330.156,A,A,15.58,0.0,False,False,0.0,[],False, and then get to the end with um added extras if possible.,12,task,Inform
+ES2014b,B,1573.33,1573.5,0.17,ES2014b.B.dialog-act.s9553330.154,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,D,1573.57,1573.82,0.25,ES2014b.D.dialog-act.s9553330.100,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,1574.89,1578.87,3.98,ES2014b.A.dialog-act.s9553330.157,,,,,,,,,False, Okay.,1,minor,Stall
+ES2014b,D,1578.16,1578.94,0.78,ES2014b.D.dialog-act.s9553330.101,,,,,,,,,False, So,1,minor,Stall
+ES2014b,A,1578.87,1578.87,0.0,ES2014b.A.dialog-act.s9553330.158,,,,,,,,,False,,0,minor,Fragment
+ES2014b,A,1578.87,1583.952,5.082,ES2014b.A.dialog-act.s9553330.159,,,,,,,,,False," Right okay, uh so I need to",7,minor,Stall
+ES2014b,A,1587.04,1588.61,1.57,ES2014b.A.dialog-act.s9553330.160,,,,,,,,,False, Right. So,2,minor,Stall
+ES2014b,A,1588.61,1592.9,4.29,ES2014b.A.dialog-act.s9553330.161,A,A,0.0,15.58,False,False,0.0,[],False, I don't know how long we have left of our uh time.,12,task,Inform
+ES2014b,A,1592.9,1599.01,6.11,ES2014b.A.dialog-act.s9553330.162,A,A,1.17,0.0,False,False,0.0,[],False, But we have to make the decisions on uh the remote control functions,13,task,Inform
+ES2014b,D,1593.29,1594.29,1.0,ES2014b.D.dialog-act.s9553330.102,,,,,,,,,False, About five minutes.,3,task,Inform
+ES2014b,A,1600.18,1615.8,15.62,ES2014b.A.dialog-act.s9553330.163,A,A,0.0,1.17,False,False,0.0,[],False, and how we were planning to proceed so that at the next uh meeting each person that's got a a a task to do is clear from this meeting what that task is.,33,task,Inform
+ES2014b,B,1610.72,1611.08,0.36,ES2014b.B.dialog-act.s9553330.155,,,,,,,,,False, Yes.,1,minor,Backchannel
+ES2014b,D,1613.19,1613.44,0.25,ES2014b.D.dialog-act.s9553330.103,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,B,1615.79,1616.784,0.994,ES2014b.B.dialog-act.s9553330.156,,,,,,,,,False, Um.,1,minor,Backchannel
+ES2014b,A,1615.8,1618.63,2.83,ES2014b.A.dialog-act.s9553330.164,A,A,0.0,0.0,False,False,0.0,[],False, We'll also know w when the next meeting is,9,task,Inform
+ES2014b,A,1618.63,1623.47,4.84,ES2014b.A.dialog-act.s9553330.165,A,A,0.0,0.0,False,False,0.0,[],False, I um so we'll know how long we've got to complete that task.,13,task,Inform
+ES2014b,A,1623.47,1625.29,1.82,ES2014b.A.dialog-act.s9553330.166,A,A,0.0,0.0,False,False,0.0,[],False, And then we can report back at the next meeting,10,task,Inform
+ES2014b,A,1625.29,1630.45,5.16,ES2014b.A.dialog-act.s9553330.167,A,A,0.0,0.0,False,False,0.0,[],False," and say right okay yes, we've achieved this or we haven't achieved this, this is how far we've progressed.",19,task,Inform
+ES2014b,C,1630.438,1632.0,1.562,ES2014b.C.dialog-act.s9553330.86,,,,,,,,,False,,0,minor,Fragment
+ES2014b,A,1630.45,1635.15,4.7,ES2014b.A.dialog-act.s9553330.168,B,A,-1.87,0.0,False,True,1.0,['ES2014b.B.dialog-act.s9553330.157'],False, Does that make reasonable sense?,5,elicit,Elicit-Comment-Understanding
+ES2014b,D,1630.54,1630.8,0.26,ES2014b.D.dialog-act.s9553330.105,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,B,1633.28,1634.28,1.0,ES2014b.B.dialog-act.s9553330.157,A,A,0.87,-1.87,True,False,0.0,[],False, Yes that seems right.,4,other,Comment-About-Understanding
+ES2014b,C,1633.78,1633.99,0.21,ES2014b.C.dialog-act.s9553330.85,,,,,,,,,False, Yeah.,1,other,Comment-About-Understanding
+ES2014b,D,1633.88,1634.67,0.79,ES2014b.D.dialog-act.s9553330.104,,,,,,,,,False," Okay, yeah.",2,other,Comment-About-Understanding
+ES2014b,A,1635.15,1642.97,7.82,ES2014b.A.dialog-act.s9553330.169,A,B,0.91,0.87,True,False,0.0,[],True, So we have to come effectively to the decision on the remote functions so that you can decide what you're gonna be doing.,23,task,Inform
+ES2014b,A,1643.88,1666.17,22.29,ES2014b.A.dialog-act.s9553330.170,A,A,0.1,0.91,False,False,0.0,[],False," And if dur between the time of this meeting finishing and the next meeting starting, if you get any additional information that uh only you have at that point in time you'd think would be relevant to other people in terms of their des decision making um process, then we should communicate that as quickly as possible and not wait until the next meeting.",64,task,Suggest
+ES2014b,B,1654.5,1654.88,0.38,ES2014b.B.dialog-act.s9553330.158,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,D,1663.58,1663.78,0.2,ES2014b.D.dialog-act.s9553330.106,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,1666.27,1668.77,2.5,ES2014b.A.dialog-act.s9553330.171,A,A,2.65,0.1,False,False,0.0,[],False, Do it via the email,5,task,Inform
+ES2014b,D,1667.04,1668.09,1.05,ES2014b.D.dialog-act.s9553330.107,,,,,,,,,False, Okay. Yep.,2,other,Comment-About-Understanding
+ES2014b,A,1668.77,1671.42,2.65,ES2014b.A.dialog-act.s9553330.172,,,,,,,,,False, so that rather than coming you know,7,minor,Fragment
+ES2014b,A,1671.42,1674.1,2.68,ES2014b.A.dialog-act.s9553330.173,A,A,0.0,2.65,False,False,0.0,[],False, If you get the information just before the next meeting that's fine.,12,task,Inform
+ES2014b,A,1674.1,1675.21,1.11,ES2014b.A.dialog-act.s9553330.174,A,A,0.0,0.0,False,False,0.0,[],False," Come along with it in the next meeting,",8,task,Inform
+ES2014b,A,1675.21,1676.02,0.81,ES2014b.A.dialog-act.s9553330.175,A,A,0.0,0.0,False,False,0.0,[],False, we can discuss it then,5,task,Inform
+ES2014b,A,1676.02,1678.38,2.36,ES2014b.A.dialog-act.s9553330.176,A,A,0.0,0.0,False,False,0.0,[],False, and take whatever action is appropriate.,6,task,Inform
+ES2014b,B,1676.67,1677.14,0.47,ES2014b.B.dialog-act.s9553330.159,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2014b,A,1678.38,1681.65,3.27,ES2014b.A.dialog-act.s9553330.177,A,A,0.0,0.0,False,False,0.0,[],False," But if you get it well before the next meeting, let everybody else know",14,task,Inform
+ES2014b,A,1681.65,1689.75,8.1,ES2014b.A.dialog-act.s9553330.178,D,A,4.19,0.0,False,False,0.0,[],False, 'cause that might have an impact on their uh on what they come up with effectively at the next meeting.,20,task,Inform
+ES2014b,D,1684.21,1684.43,0.22,ES2014b.D.dialog-act.s9553330.108,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,A,1689.75,1690.59,0.84,ES2014b.A.dialog-act.s9553330.179,,,,,,,,,False, Okay.,1,minor,Stall
+ES2014b,D,1690.55,1690.76,0.21,ES2014b.D.dialog-act.s9553330.109,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,1692.14,1693.28,1.14,ES2014b.A.dialog-act.s9553330.180,,,,,,,,,False," Right, is there",3,minor,Fragment
+ES2014b,D,1693.94,1696.4,2.46,ES2014b.D.dialog-act.s9553330.110,A,A,0.51,4.19,True,False,0.0,[],True, So do we need to decide on the functions now? S,11,elicit,Elicit-Inform
+ES2014b,A,1696.91,1699.57,2.66,ES2014b.A.dialog-act.s9553330.181,C,D,0.82,0.51,True,False,0.0,[],True, I would guess so.,4,task,Inform
+ES2014b,C,1700.39,1708.85,8.46,ES2014b.C.dialog-act.s9553330.87,C,A,0.0,0.82,True,False,0.0,[],True, Well I think it'd be really easy and it'd be a big advantage if we did have some sort of um kind of whistle back kind of function.,28,task,Inform
+ES2014b,D,1706.97,1707.24,0.27,ES2014b.D.dialog-act.s9553330.111,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,D,1708.45,1708.73,0.28,ES2014b.D.dialog-act.s9553330.112,,,,,,,,,False, Yeah,1,task,Assess
+ES2014b,D,1708.73,1708.976,0.246,ES2014b.D.dialog-act.s9553330.113,,,,,,,,,False, and,1,minor,Fragment
+ES2014b,C,1708.85,1711.46,2.61,ES2014b.C.dialog-act.s9553330.88,D,C,0.27,0.0,False,False,0.0,[],False, 'Cause that'll solve kind of the frustration of losing it.,10,task,Inform
+ES2014b,D,1711.73,1715.04,3.31,ES2014b.D.dialog-act.s9553330.114,D,C,1.22,0.27,True,False,0.0,[],True," Yeah and that was that was the number one sort of frustration that people said, so.",16,task,Inform
+ES2014b,A,1713.96,1714.99,1.03,ES2014b.A.dialog-act.s9553330.182,,,,,,,,,False, Yep.,1,task,Assess
+ES2014b,C,1714.567,1715.321,0.754,ES2014b.C.dialog-act.s9553330.89,,,,,,,,,False,,0,minor,Fragment
+ES2014b,D,1716.26,1718.8,2.54,ES2014b.D.dialog-act.s9553330.115,C,D,2.16,1.22,False,False,0.0,[],False," I don't think there's anything else on the market that does that, so.",13,task,Inform
+ES2014b,C,1719.0,1719.32,0.32,ES2014b.C.dialog-act.s9553330.90,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,C,1720.96,1723.64,2.68,ES2014b.C.dialog-act.s9553330.91,B,D,4.54,2.16,True,False,0.0,[],True, I don't really know about the voice recognition thing.,9,task,Assess
+ES2014b,A,1725.46,1727.8,2.34,ES2014b.A.dialog-act.s9553330.183,,,,,,,,,False, I w well uh i,5,minor,Fragment
+ES2014b,B,1728.18,1731.01,2.83,ES2014b.B.dialog-act.s9553330.160,B,C,0.0,4.54,True,False,0.0,[],True," Maybe we should concentrate just on the whistle back function at the moment,",13,task,Suggest
+ES2014b,A,1730.36,1731.32,0.96,ES2014b.A.dialog-act.s9553330.184,,,,,,,,,False, Something simple.,2,task,Inform
+ES2014b,B,1731.01,1732.528,1.518,ES2014b.B.dialog-act.s9553330.161,A,B,-1.208,0.0,False,True,1.208,['ES2014b.A.dialog-act.s9553330.185'],False, and if something comes back,5,task,Suggest
+ES2014b,A,1731.32,1736.54,5.22,ES2014b.A.dialog-act.s9553330.185,A,B,0.0,-1.208,True,False,0.0,[],False," Uh if if our primary consideration is to get it there in time, time's short,",15,task,Inform
+ES2014b,A,1736.54,1744.03,7.49,ES2014b.A.dialog-act.s9553330.186,A,A,0.0,0.0,False,False,0.0,[],False," you want something to meet the major concerns of the consumer so that we can have that as a selling point for the product,",24,task,Inform
+ES2014b,C,1740.04,1740.28,0.24,ES2014b.C.dialog-act.s9553330.92,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,D,1741.84,1742.24,0.4,ES2014b.D.dialog-act.s9553330.116,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,1744.03,1746.64,2.61,ES2014b.A.dialog-act.s9553330.187,C,A,0.54,0.0,False,False,0.0,[],False, something that's quick and simple.,5,task,Inform
+ES2014b,C,1746.28,1747.18,0.9,ES2014b.C.dialog-act.s9553330.93,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,A,1746.64,1747.41,0.77,ES2014b.A.dialog-act.s9553330.188,,,,,,,,,False," So,",1,minor,Stall
+ES2014b,C,1747.18,1749.78,2.6,ES2014b.C.dialog-act.s9553330.94,C,A,0.0,0.54,True,False,0.0,[],True," And that wouldn't put off the kind of older generation either,",11,task,Inform
+ES2014b,A,1747.41,1747.9,0.49,ES2014b.A.dialog-act.s9553330.189,,,,,,,,,False, sounds good.,2,task,Assess
+ES2014b,C,1749.78,1751.51,1.73,ES2014b.C.dialog-act.s9553330.95,C,C,0.0,0.0,False,False,0.0,[],False," 'cause everyone can whistle or clap,",6,task,Inform
+ES2014b,C,1751.51,1753.89,2.38,ES2014b.C.dialog-act.s9553330.96,A,C,-0.45,0.0,False,True,0.45,['ES2014b.A.dialog-act.s9553330.190'],False, and they wouldn't have to be kind of scared of this new technology.,13,task,Inform
+ES2014b,A,1753.44,1756.81,3.37,ES2014b.A.dialog-act.s9553330.190,A,C,0.0,-0.45,True,False,0.0,[],False," Well, so maybe a clap rather than a whistle would be",11,task,Suggest
+ES2014b,D,1754.45,1754.8,0.35,ES2014b.D.dialog-act.s9553330.117,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,1756.81,1765.65,8.84,ES2014b.A.dialog-act.s9553330.191,D,A,1.23,0.0,False,False,0.0,[],False," On the basis that if we've got if we're catering to the whole age range, you want something that's easy to do,",22,task,Inform
+ES2014b,B,1756.912,1757.232,0.32,ES2014b.B.dialog-act.s9553330.162,,,,,,,,,False,,0,minor,Fragment
+ES2014b,A,1765.65,1768.16,2.51,ES2014b.A.dialog-act.s9553330.192,,,,,,,,,False, now something that doesn't like whis uh,7,minor,Fragment
+ES2014b,D,1766.88,1769.821,2.941,ES2014b.D.dialog-act.s9553330.118,A,A,-1.661,1.23,True,True,1.18,"['ES2014b.A.dialog-act.s9553330.193', 'ES2014b.A.dialog-act.s9553330.194']",True," No not everyone can whistle, can they, though?",8,task,Inform
+ES2014b,A,1768.16,1769.34,1.18,ES2014b.A.dialog-act.s9553330.193,A,D,0.0,-1.661,True,False,0.0,[],False, Well I I I don't know.,6,task,Assess
+ES2014b,A,1769.34,1773.32,3.98,ES2014b.A.dialog-act.s9553330.194,A,A,0.42,0.0,False,False,0.0,[],False," Well If you think that more people can whistle than clap then that's fine, then go for that option,",19,task,Inform
+ES2014b,C,1769.576,1770.788,1.212,ES2014b.C.dialog-act.s9553330.97,,,,,,,,,False,,0,minor,Fragment
+ES2014b,A,1773.32,1773.74,0.42,ES2014b.A.dialog-act.s9553330.195,,,,,,,,,False, but if,2,minor,Fragment
+ES2014b,A,1773.74,1777.02,3.28,ES2014b.A.dialog-act.s9553330.196,D,A,-2.5,0.42,False,True,1.35,"['ES2014b.D.dialog-act.s9553330.120', 'ES2014b.B.dialog-act.s9553330.165']",False," I would have thought that more people could clap rather than whistle,",12,task,Inform
+ES2014b,D,1773.92,1774.52,0.6,ES2014b.D.dialog-act.s9553330.119,,,,,,,,,False," No,",1,task,Assess
+ES2014b,D,1774.52,1775.87,1.35,ES2014b.D.dialog-act.s9553330.120,B,A,-0.37,-2.5,True,True,0.37,['ES2014b.B.dialog-act.s9553330.165'],False," clapping, I think clapping,",4,task,Inform
+ES2014b,B,1774.54,1775.13,0.59,ES2014b.B.dialog-act.s9553330.163,,,,,,,,,False, I'd go more,3,minor,Fragment
+ES2014b,B,1775.13,1775.5,0.37,ES2014b.B.dialog-act.s9553330.164,,,,,,,,,False," Yeah,",1,task,Assess
+ES2014b,B,1775.5,1776.6,1.1,ES2014b.B.dialog-act.s9553330.165,A,D,0.42,-0.37,True,False,0.0,[],False, f more for clap.,4,task,Inform
+ES2014b,D,1775.87,1777.21,1.34,ES2014b.D.dialog-act.s9553330.121,,,,,,,,,False, yeah. Yeah.,2,task,Assess
+ES2014b,A,1777.02,1780.19,3.17,ES2014b.A.dialog-act.s9553330.197,C,B,10.37,0.42,True,False,0.0,[],True, so uh so clap option.,5,task,Inform
+ES2014b,D,1779.92,1780.38,0.46,ES2014b.D.dialog-act.s9553330.122,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,A,1789.74,1790.26,0.52,ES2014b.A.dialog-act.s9553330.198,,,,,,,,,False, Okay.,1,minor,Stall
+ES2014b,C,1790.56,1793.24,2.68,ES2014b.C.dialog-act.s9553330.98,C,A,1.93,10.37,True,False,0.0,[],True," 'Kay we've already decided that we don't need a teletext button, haven't we?",13,elicit,Elicit-Inform
+ES2014b,A,1794.2,1795.45,1.25,ES2014b.A.dialog-act.s9553330.199,,,,,,,,,False, Uh.,1,minor,Fragment
+ES2014b,C,1795.17,1795.904,0.734,ES2014b.C.dialog-act.s9553330.99,A,C,-0.454,1.93,False,True,0.454,['ES2014b.A.dialog-act.s9553330.200'],False, Is that one of the,5,elicit,Elicit-Inform
+ES2014b,A,1795.45,1797.72,2.27,ES2014b.A.dialog-act.s9553330.200,A,C,0.0,-0.454,True,False,0.0,[],False," Ef effectively that's what the that's what they're saying,",9,task,Inform
+ES2014b,A,1797.72,1801.13,3.41,ES2014b.A.dialog-act.s9553330.201,D,A,-0.137,0.0,False,True,0.137,['ES2014b.D.dialog-act.s9553330.124'],False," that uh if uh if people are now using the internet then you don't need teletext,",16,task,Inform
+ES2014b,D,1798.097,1798.859,0.762,ES2014b.D.dialog-act.s9553330.123,,,,,,,,,False,,0,minor,Fragment
+ES2014b,C,1798.24,1798.51,0.27,ES2014b.C.dialog-act.s9553330.100,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2014b,D,1800.993,1802.95,1.957,ES2014b.D.dialog-act.s9553330.124,A,A,-1.82,-0.137,True,True,1.82,['ES2014b.A.dialog-act.s9553330.202'],False," Taking out teletext, okay.",4,other,Comment-About-Understanding
+ES2014b,A,1801.13,1803.9,2.77,ES2014b.A.dialog-act.s9553330.202,B,D,0.84,-1.82,True,False,0.0,[],False, so so take out teletext.,5,task,Inform
+ES2014b,B,1804.74,1808.95,4.21,ES2014b.B.dialog-act.s9553330.166,B,A,0.0,0.84,True,False,0.0,[],True, Did we decide on having the ten um the ten numbers,11,elicit,Elicit-Inform
+ES2014b,C,1805.01,1805.37,0.36,ES2014b.C.dialog-act.s9553330.102,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2014b,B,1808.95,1813.4,4.45,ES2014b.B.dialog-act.s9553330.167,C,B,-3.59,0.0,False,True,1.0,"['ES2014b.C.dialog-act.s9553330.101', 'ES2014b.C.dialog-act.s9553330.103']",False, and then the the little digit next to it which kind of enabled you to put them together.,18,elicit,Elicit-Inform
+ES2014b,C,1809.81,1810.66,0.85,ES2014b.C.dialog-act.s9553330.101,C,B,0.0,-3.59,True,False,0.0,[],False," Yeah, I think so,",4,task,Inform
+ES2014b,C,1810.66,1811.66,1.0,ES2014b.C.dialog-act.s9553330.103,D,C,2.03,0.0,False,False,0.0,[],False, so zero to nine.,4,task,Inform
+ES2014b,D,1812.2,1812.35,0.15,ES2014b.D.dialog-act.s9553330.125,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2014b,D,1813.69,1819.55,5.86,ES2014b.D.dialog-act.s9553330.126,D,C,0.0,2.03,True,False,0.0,[],True," I think nowadays you can just get ones where it gives you a sort of a second or two to press another number,",23,task,Inform
+ES2014b,A,1819.49,1819.73,0.24,ES2014b.A.dialog-act.s9553330.203,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,D,1819.55,1821.43,1.88,ES2014b.D.dialog-act.s9553330.127,D,D,0.0,0.0,False,False,0.0,[],False, so you can press any two,6,task,Inform
+ES2014b,D,1821.43,1822.97,1.54,ES2014b.D.dialog-act.s9553330.128,B,D,1.22,0.0,False,False,0.0,[],False, and it'll sort of put them together.,7,task,Inform
+ES2014b,B,1823.4,1824.19,0.79,ES2014b.B.dialog-act.s9553330.168,,,,,,,,,False," Okay, ten numbers",3,task,Inform
+ES2014b,C,1823.622,1824.498,0.876,ES2014b.C.dialog-act.s9553330.104,,,,,,,,,False,,0,minor,Fragment
+ES2014b,B,1824.19,1826.32,2.13,ES2014b.B.dialog-act.s9553330.169,B,D,1.62,1.22,True,False,0.0,[],True, and then some kind of device to allow uh,9,task,Inform
+ES2014b,D,1826.78,1827.12,0.34,ES2014b.D.dialog-act.s9553330.129,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,B,1827.94,1831.41,3.47,ES2014b.B.dialog-act.s9553330.170,B,B,6.39,1.62,False,False,0.0,[],False, I'll put delay to allow um multiple numbers.,8,task,Inform
+ES2014b,D,1829.81,1830.03,0.22,ES2014b.D.dialog-act.s9553330.130,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,B,1832.89,1833.79,0.9,ES2014b.B.dialog-act.s9553330.171,,,,,,,,,False, Or multiple digits.,3,task,Inform
+ES2014b,D,1834.34,1834.49,0.15,ES2014b.D.dialog-act.s9553330.131,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,B,1837.8,1841.65,3.85,ES2014b.B.dialog-act.s9553330.172,B,B,0.0,6.39,False,False,0.0,[],False, Did we decide anything about um the other functions?,9,elicit,Elicit-Inform
+ES2014b,B,1841.65,1846.31,4.66,ES2014b.B.dialog-act.s9553330.173,B,B,0.0,0.0,False,False,0.0,[],False, As in setting the audio and tuning it and stuff like that?,12,elicit,Elicit-Inform
+ES2014b,B,1846.31,1848.07,1.76,ES2014b.B.dialog-act.s9553330.174,D,B,0.62,0.0,False,False,0.0,[],False, You had an had an idea about the menu?,9,elicit,Elicit-Inform
+ES2014b,D,1848.69,1852.78,4.09,ES2014b.D.dialog-act.s9553330.132,D,B,0.0,0.62,True,False,0.0,[],True," Uh we could possibly put an L_ a sort of a L_C_D_ menu in,",14,task,Suggest
+ES2014b,D,1852.78,1856.208,3.428,ES2014b.D.dialog-act.s9553330.133,B,D,2.592,0.0,False,False,0.0,[],False, but that again is probably an expense that,8,task,Inform
+ES2014b,B,1856.33,1858.23,1.9,ES2014b.B.dialog-act.s9553330.175,,,,,,,,,False, But just thinking um people probably,6,minor,Fragment
+ES2014b,B,1858.23,1858.8,0.57,ES2014b.B.dialog-act.s9553330.176,,,,,,,,,False, I mean you don't have,5,minor,Fragment
+ES2014b,B,1858.8,1860.53,1.73,ES2014b.B.dialog-act.s9553330.177,B,D,0.0,2.592,True,False,0.0,[],True," you only have to probably tune in the T_V_ once,",10,task,Inform
+ES2014b,B,1860.53,1862.84,2.31,ES2014b.B.dialog-act.s9553330.178,B,B,0.0,0.0,False,False,0.0,[],False, but you have to be able to tune it that once.,11,task,Inform
+ES2014b,D,1862.13,1862.41,0.28,ES2014b.D.dialog-act.s9553330.134,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,B,1862.84,1866.46,3.62,ES2014b.B.dialog-act.s9553330.179,B,B,0.0,0.0,False,False,0.0,[],False," So and if finally the T_V_ breaks, you get a new one, you're gonna have to be able to tune it.",21,task,Inform
+ES2014b,B,1866.46,1867.94,1.48,ES2014b.B.dialog-act.s9553330.180,B,B,0.0,0.0,False,False,0.0,[],False, You can't really avoid that.,5,task,Inform
+ES2014b,D,1867.01,1867.24,0.23,ES2014b.D.dialog-act.s9553330.135,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,C,1867.57,1867.74,0.17,ES2014b.C.dialog-act.s9553330.105,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2014b,A,1867.74,1868.1,0.36,ES2014b.A.dialog-act.s9553330.204,,,,,,,,,False, No.,1,minor,Backchannel
+ES2014b,B,1867.94,1870.45,2.51,ES2014b.B.dialog-act.s9553330.181,A,B,1.46,0.0,False,False,0.0,[],False, Except the new digital markets which do it by themselves.,10,task,Inform
+ES2014b,D,1871.33,1871.61,0.28,ES2014b.D.dialog-act.s9553330.136,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,B,1871.62,1873.154,1.534,ES2014b.B.dialog-act.s9553330.182,,,,,,,,,False, So that'll be in,4,minor,Fragment
+ES2014b,A,1871.91,1877.76,5.85,ES2014b.A.dialog-act.s9553330.205,A,B,0.0,1.46,True,False,0.0,[],True, But the but that's relying on the television market changing to an automatic,13,task,Inform
+ES2014b,B,1876.65,1877.28,0.63,ES2014b.B.dialog-act.s9553330.183,,,,,,,,,False, Yes.,1,minor,Backchannel
+ES2014b,A,1877.76,1880.54,2.78,ES2014b.A.dialog-act.s9553330.206,A,A,0.0,0.0,False,False,0.0,[],False," and if it is at the moment, that's fine.",9,task,Inform
+ES2014b,A,1880.54,1881.84,1.3,ES2014b.A.dialog-act.s9553330.207,A,A,0.0,0.0,False,False,0.0,[],False," But at the moment it's not,",6,task,Inform
+ES2014b,A,1881.84,1885.0,3.16,ES2014b.A.dialog-act.s9553330.208,A,A,0.0,0.0,False,False,0.0,[],False," so it seems to me that you have to have a device that caters,",14,task,Inform
+ES2014b,A,1885.0,1892.89,7.89,ES2014b.A.dialog-act.s9553330.209,A,A,0.0,0.0,False,False,0.0,[],False," 'cause otherwise it would make it uh your device would become inoperable, or only operable in certain circumstances",18,task,Inform
+ES2014b,B,1885.17,1885.51,0.34,ES2014b.B.dialog-act.s9553330.184,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,B,1890.13,1890.41,0.28,ES2014b.B.dialog-act.s9553330.185,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,B,1892.55,1893.34,0.79,ES2014b.B.dialog-act.s9553330.186,,,,,,,,,False, Yeah yeah.,2,minor,Backchannel
+ES2014b,A,1892.89,1895.58,2.69,ES2014b.A.dialog-act.s9553330.210,A,A,3.44,0.0,False,False,0.0,[],False, and the idea is to have an international market,9,task,Inform
+ES2014b,C,1893.42,1893.56,0.14,ES2014b.C.dialog-act.s9553330.106,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2014b,A,1895.58,1897.34,1.76,ES2014b.A.dialog-act.s9553330.211,,,,,,,,,False, which is,2,minor,Fragment
+ES2014b,D,1896.79,1897.1,0.31,ES2014b.D.dialog-act.s9553330.137,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,A,1897.34,1899.02,1.68,ES2014b.A.dialog-act.s9553330.212,,,,,,,,,False, And it's also m it's,5,minor,Fragment
+ES2014b,A,1899.02,1904.75,5.73,ES2014b.A.dialog-act.s9553330.213,A,A,0.0,3.44,False,False,0.0,[],False," the the product we've got is something that's at the I would have said the lower end of the s of the cost scale,",24,task,Inform
+ES2014b,A,1904.75,1910.58,5.83,ES2014b.A.dialog-act.s9553330.214,D,A,0.7,0.0,False,False,0.0,[],False, so we're not really going for something that's uh terribly high-tech.,11,task,Inform
+ES2014b,D,1904.77,1905.01,0.24,ES2014b.D.dialog-act.s9553330.138,,,,,,,,,False, Yeah.,1,minor,Fragment
+ES2014b,D,1908.63,1909.92,1.29,ES2014b.D.dialog-act.s9553330.139,,,,,,,,,False, I s I suppose um,5,minor,Fragment
+ES2014b,D,1911.28,1915.99,4.71,ES2014b.D.dialog-act.s9553330.140,D,A,0.0,0.7,True,False,0.0,[],True," if people are buying remotes, then they're probably buying it to replace another remote",14,task,Inform
+ES2014b,A,1915.86,1916.41,0.55,ES2014b.A.dialog-act.s9553330.215,,,,,,,,,False, Possibly.,1,task,Assess
+ES2014b,D,1915.99,1918.32,2.33,ES2014b.D.dialog-act.s9553330.141,D,D,0.0,0.0,False,False,0.0,[],False," 'cause all most tellies come with remotes, so.",8,task,Inform
+ES2014b,D,1918.32,1922.49,4.17,ES2014b.D.dialog-act.s9553330.142,D,D,0.0,0.0,False,False,0.0,[],False," I mean we're maybe talking about replacing remotes for slightly older televisions,",12,task,Inform
+ES2014b,A,1918.33,1918.77,0.44,ES2014b.A.dialog-act.s9553330.216,,,,,,,,,False, That's right.,2,task,Assess
+ES2014b,D,1922.49,1927.12,4.63,ES2014b.D.dialog-act.s9553330.143,B,D,0.12,0.0,False,False,0.0,[],False, so we maybe need to keep the the tuning function in.,11,task,Suggest
+ES2014b,B,1926.58,1927.24,0.66,ES2014b.B.dialog-act.s9553330.187,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,C,1927.06,1927.31,0.25,ES2014b.C.dialog-act.s9553330.107,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,B,1927.24,1928.58,1.34,ES2014b.B.dialog-act.s9553330.188,B,D,0.0,0.12,True,False,0.0,[],True, So how would this menu function work?,7,elicit,Elicit-Inform
+ES2014b,B,1928.58,1934.78,6.2,ES2014b.B.dialog-act.s9553330.189,D,B,0.58,0.0,False,False,0.0,[],False," Would you maybe have like one menu button, then you'd use the other buttons, maybe the number buttons to actually do the separate functions.",24,task,Suggest
+ES2014b,C,1928.765,1929.473,0.708,ES2014b.C.dialog-act.s9553330.108,,,,,,,,,False,,0,minor,Fragment
+ES2014b,D,1935.0,1935.36,0.36,ES2014b.D.dialog-act.s9553330.144,,,,,,,,,False," Yeah,",1,task,Assess
+ES2014b,C,1935.35,1935.57,0.22,ES2014b.C.dialog-act.s9553330.109,,,,,,,,,False," Yeah,",1,task,Assess
+ES2014b,D,1935.36,1936.4,1.04,ES2014b.D.dialog-act.s9553330.145,C,B,-0.83,0.58,True,True,0.83,['ES2014b.C.dialog-act.s9553330.110'],True," that would be a good idea, yeah.",7,task,Assess
+ES2014b,C,1935.57,1936.62,1.05,ES2014b.C.dialog-act.s9553330.110,C,D,1.83,-0.83,True,False,0.0,[],False, like the volume or something.,5,task,Suggest
+ES2014b,B,1936.89,1937.22,0.33,ES2014b.B.dialog-act.s9553330.190,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2014b,C,1938.45,1941.93,3.48,ES2014b.C.dialog-act.s9553330.111,C,C,0.0,1.83,False,False,0.0,[],False," Yeah, 'cause you do need um kind of brightness and contrast and everything as well.",15,task,Inform
+ES2014b,C,1941.93,1943.67,1.74,ES2014b.C.dialog-act.s9553330.112,C,C,0.0,0.0,False,False,0.0,[],False, My dad was watching a film the other week,9,task,Inform
+ES2014b,D,1942.05,1942.23,0.18,ES2014b.D.dialog-act.s9553330.146,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,C,1943.67,1944.51,0.84,ES2014b.C.dialog-act.s9553330.113,C,C,0.0,0.0,False,False,0.0,[],False," and it was too dark,",5,task,Inform
+ES2014b,C,1944.51,1947.14,2.63,ES2014b.C.dialog-act.s9553330.114,B,C,0.252,0.0,False,False,0.0,[],False, so I had to go through it and turn the brightness up.,12,task,Inform
+ES2014b,B,1945.584,1945.792,0.208,ES2014b.B.dialog-act.s9553330.191,,,,,,,,,False,,0,minor,Fragment
+ES2014b,B,1947.392,1950.06,2.668,ES2014b.B.dialog-act.s9553330.192,B,C,0.0,0.252,True,False,0.0,[],True, we're gonna have the the individual numbers,7,task,Inform
+ES2014b,D,1947.66,1947.83,0.17,ES2014b.D.dialog-act.s9553330.147,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2014b,B,1950.06,1951.47,1.41,ES2014b.B.dialog-act.s9553330.193,B,B,0.0,0.0,False,False,0.0,[],False, and then a menu function,5,task,Inform
+ES2014b,B,1951.47,1956.81,5.34,ES2014b.B.dialog-act.s9553330.194,B,B,0.38,0.0,False,False,0.0,[],False," and maybe sort of a slightly more advanced um instruction booklet to come with it, to guide",17,task,Inform
+ES2014b,B,1956.81,1957.19,0.38,ES2014b.B.dialog-act.s9553330.195,,,,,,,,,False, Presu uh,2,minor,Fragment
+ES2014b,B,1957.19,1963.3,6.11,ES2014b.B.dialog-act.s9553330.196,B,B,0.0,0.38,False,False,0.0,[],False, I think it'd be quite hard just for people to grasp um just off like the menu use different buttons,20,task,Inform
+ES2014b,B,1963.3,1966.89,3.59,ES2014b.B.dialog-act.s9553330.197,D,B,0.46,0.0,False,False,0.0,[],False, you maybe have to have like some better instructions of how that would actually work.,15,task,Suggest
+ES2014b,D,1965.88,1966.272,0.392,ES2014b.D.dialog-act.s9553330.148,,,,,,,,,False, Uh,1,minor,Stall
+ES2014b,D,1967.35,1971.02,3.67,ES2014b.D.dialog-act.s9553330.149,D,B,0.0,0.46,True,False,0.0,[],True, I'm not sure whether the sort of having people have a booklet,12,task,Assess
+ES2014b,D,1971.02,1975.74,4.72,ES2014b.D.dialog-act.s9553330.150,D,D,0.0,0.0,False,False,0.0,[],False, 'cause one the second most annoying thing that people found was having to learn the new one.,17,task,Inform
+ES2014b,A,1973.456,1974.24,0.784,ES2014b.A.dialog-act.s9553330.217,,,,,,,,,False,,0,task,Inform
+ES2014b,B,1974.96,1976.17,1.21,ES2014b.B.dialog-act.s9553330.198,,,,,,,,,False," Right, okay um.",3,other,Comment-About-Understanding
+ES2014b,D,1975.74,1982.52,6.78,ES2014b.D.dialog-act.s9553330.151,B,D,2.312,0.0,False,False,0.0,[],False," So maybe next to each of the buttons, you know each of them could have a number and then also a function written next to it,",26,task,Suggest
+ES2014b,D,1982.52,1984.24,1.72,ES2014b.D.dialog-act.s9553330.152,,,,,,,,,False, so you're basically pressing,4,minor,Fragment
+ES2014b,B,1984.832,1987.56,2.728,ES2014b.B.dialog-act.s9553330.199,B,D,0.0,2.312,True,False,0.0,[],True," that also goes back to the original design when we saw those two,",13,task,Inform
+ES2014b,B,1987.56,1990.78,3.22,ES2014b.B.dialog-act.s9553330.200,B,B,0.0,0.0,False,False,0.0,[],False, and there was the one on the left hand side which had all like the double functions and stuff,19,task,Inform
+ES2014b,B,1990.78,1993.57,2.79,ES2014b.B.dialog-act.s9553330.201,C,B,1.38,0.0,False,False,0.0,[],False," which kind of looked too busy and had too much on it, so.",13,task,Assess
+ES2014b,D,1992.72,1992.91,0.19,ES2014b.D.dialog-act.s9553330.153,,,,,,,,,False, Right.,1,other,Comment-About-Understanding
+ES2014b,D,1994.63,1994.97,0.34,ES2014b.D.dialog-act.s9553330.154,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2014b,C,1994.95,2003.32,8.37,ES2014b.C.dialog-act.s9553330.115,C,B,0.0,1.38,True,False,0.0,[],True," Well, if we're trying to keep it slee sleek and sexy as well, have you seen those remotes where kind of um the bottom bit slides down, so there's kind of um everything else revealed?",35,elicit,Elicit-Inform
+ES2014b,A,1995.11,1996.21,1.1,ES2014b.A.dialog-act.s9553330.218,,,,,,,,,False," Okay, well.",2,minor,Fragment
+ES2014b,A,1998.87,1999.69,0.82,ES2014b.A.dialog-act.s9553330.220,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2014b,D,2001.72,2001.95,0.23,ES2014b.D.dialog-act.s9553330.155,,,,,,,,,False, Yeah.,1,task,Inform
+ES2014b,A,2002.61,2003.69,1.08,ES2014b.A.dialog-act.s9553330.219,,,,,,,,,False, So y,2,minor,Fragment
+ES2014b,C,2003.32,2004.36,1.04,ES2014b.C.dialog-act.s9553330.116,A,C,-0.67,0.0,False,True,0.67,['ES2014b.A.dialog-act.s9553330.221'],False," So you don't use it that much,",7,task,Inform
+ES2014b,A,2003.69,2010.16,6.47,ES2014b.A.dialog-act.s9553330.221,C,C,-5.8,-0.67,True,True,1.9,"['ES2014b.C.dialog-act.s9553330.117', 'ES2014b.C.dialog-act.s9553330.118', 'ES2014b.B.dialog-act.s9553330.202', 'ES2014b.B.dialog-act.s9553330.203']",False, Ah That's a very good idea.,6,task,Assess
+ES2014b,C,2004.36,2006.0,1.64,ES2014b.C.dialog-act.s9553330.117,C,A,0.0,-5.8,True,False,0.0,[],False, you don't have to see it all the time.,9,task,Inform
+ES2014b,C,2006.0,2007.43,1.43,ES2014b.C.dialog-act.s9553330.118,B,C,-0.71,0.0,False,True,0.71,['ES2014b.B.dialog-act.s9553330.202'],False, But it's all there if you need it.,8,task,Inform
+ES2014b,B,2006.72,2008.62,1.9,ES2014b.B.dialog-act.s9553330.202,B,C,0.0,-0.71,True,False,0.0,[],False, That is that is a good idea actually.,8,task,Assess
+ES2014b,D,2006.93,2008.3,1.37,ES2014b.D.dialog-act.s9553330.156,,,,,,,,,False," Yeah, yeah.",2,minor,Backchannel
+ES2014b,B,2008.62,2009.95,1.33,ES2014b.B.dialog-act.s9553330.203,C,B,1.85,0.0,False,False,0.0,[],False, Sor sort of a second.,5,task,Inform
+ES2014b,A,2010.16,2012.37,2.21,ES2014b.A.dialog-act.s9553330.222,,,,,,,,,False, So you keep um,4,minor,Fragment
+ES2014b,C,2011.8,2012.77,0.97,ES2014b.C.dialog-act.s9553330.119,A,B,-0.4,1.85,True,True,0.4,['ES2014b.A.dialog-act.s9553330.223'],True, Like a hidden panel.,4,task,Inform
+ES2014b,A,2012.37,2016.69,4.32,ES2014b.A.dialog-act.s9553330.223,A,C,0.0,-0.4,True,False,0.0,[],False," Right we've got five minutes before we wind up this meeting, so I've been told.",15,task,Inform
+ES2014b,B,2016.61,2017.09,0.48,ES2014b.B.dialog-act.s9553330.205,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2014b,A,2016.69,2019.21,2.52,ES2014b.A.dialog-act.s9553330.224,B,A,-0.69,0.0,False,True,0.69,['ES2014b.B.dialog-act.s9553330.204'],False, I don't know if you've got the same.,8,elicit,Elicit-Inform
+ES2014b,B,2018.52,2020.0,1.48,ES2014b.B.dialog-act.s9553330.204,A,A,0.21,-0.69,True,False,0.0,[],False," Uh not quite, but I guess.",6,task,Inform
+ES2014b,A,2019.21,2020.21,1.0,ES2014b.A.dialog-act.s9553330.225,,,,,,,,,False, Okay.,1,minor,Stall
+ES2014b,A,2020.21,2031.57,11.36,ES2014b.A.dialog-act.s9553330.226,B,B,-9.47,0.21,True,True,1.97,['ES2014b.B.dialog-act.s9553330.206'],True, So so keep um keep detailed functions um hidden at the back.,12,task,Inform
+ES2014b,B,2022.1,2024.07,1.97,ES2014b.B.dialog-act.s9553330.206,C,A,8.68,-9.47,True,False,0.0,[],False, Keep the other buttons but hide them away.,8,task,Inform
+ES2014b,C,2032.24,2032.75,0.51,ES2014b.C.dialog-act.s9553330.120,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2014b,C,2032.75,2034.74,1.99,ES2014b.C.dialog-act.s9553330.121,C,B,0.0,8.68,True,False,0.0,[],True, And that'll be better for the older generation as well,10,task,Inform
+ES2014b,C,2034.74,2040.08,5.34,ES2014b.C.dialog-act.s9553330.122,C,C,0.0,0.0,False,False,0.0,[],False," 'cause, well my dad doesn't like anything that you've got to kinda flick through a menu,",16,task,Inform
+ES2014b,A,2037.68,2038.65,0.97,ES2014b.A.dialog-act.s9553330.227,,,,,,,,,False, Ah.,1,minor,Backchannel
+ES2014b,D,2040.0,2040.22,0.22,ES2014b.D.dialog-act.s9553330.157,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,C,2040.08,2043.65,3.57,ES2014b.C.dialog-act.s9553330.123,B,C,0.37,0.0,False,False,0.0,[],False, but he can pretty much read a button if it's displayed properly.,12,task,Inform
+ES2014b,A,2042.09,2042.96,0.87,ES2014b.A.dialog-act.s9553330.228,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,B,2042.18,2042.512,0.332,ES2014b.B.dialog-act.s9553330.207,,,,,,,,,False, So,1,minor,Fragment
+ES2014b,D,2042.21,2042.35,0.14,ES2014b.D.dialog-act.s9553330.158,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,B,2044.02,2049.63,5.61,ES2014b.B.dialog-act.s9553330.208,B,C,0.0,0.37,True,False,0.0,[],True, So um we're gonna have to have to work out what's gonna be on these other functions as as well.,20,task,Inform
+ES2014b,B,2049.63,2052.67,3.04,ES2014b.B.dialog-act.s9553330.209,A,B,1.455,0.0,False,False,0.0,[],False," So we're gonna have like two separate two separate lists, I guess.",12,task,Inform
+ES2014b,D,2049.78,2050.12,0.34,ES2014b.D.dialog-act.s9553330.159,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,A,2050.79,2051.78,0.99,ES2014b.A.dialog-act.s9553330.229,,,,,,,,,False, That's right.,2,task,Assess
+ES2014b,D,2053.01,2053.34,0.33,ES2014b.D.dialog-act.s9553330.160,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,A,2054.125,2056.42,2.295,ES2014b.A.dialog-act.s9553330.230,A,B,0.0,1.455,True,False,0.0,[],True, data functions hidden at back.,5,task,Inform
+ES2014b,D,2056.07,2057.149,1.079,ES2014b.D.dialog-act.s9553330.161,,,,,,,,,False, So th the,3,minor,Fragment
+ES2014b,A,2056.42,2058.68,2.26,ES2014b.A.dialog-act.s9553330.231,D,A,-0.05,0.0,False,True,0.05,['ES2014b.D.dialog-act.s9553330.162'],False, Can bring out when needed.,5,task,Inform
+ES2014b,D,2058.63,2062.84,4.21,ES2014b.D.dialog-act.s9553330.162,A,A,2.82,-0.05,True,False,0.0,[],False," The detailed ones would be sort of brightness,",8,task,Inform
+ES2014b,C,2062.64,2063.06,0.42,ES2014b.C.dialog-act.s9553330.124,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,D,2062.84,2064.261,1.421,ES2014b.D.dialog-act.s9553330.163,,,,,,,,,False, uh sorta,2,minor,Fragment
+ES2014b,A,2063.92,2064.42,0.5,ES2014b.A.dialog-act.s9553330.232,,,,,,,,,False, That's right,2,task,Assess
+ES2014b,A,2064.42,2065.66,1.24,ES2014b.A.dialog-act.s9553330.233,,,,,,,,,False, so we're dis,3,minor,Fragment
+ES2014b,A,2065.66,2067.29,1.63,ES2014b.A.dialog-act.s9553330.234,A,D,0.0,2.82,True,False,0.0,[],True, So you've got which ones are gonna be on the front,11,task,Inform
+ES2014b,A,2067.29,2069.36,2.07,ES2014b.A.dialog-act.s9553330.235,A,A,0.0,0.0,False,False,0.0,[],False, and which ones are gonna be on the back.,9,task,Inform
+ES2014b,B,2068.9,2069.66,0.76,ES2014b.B.dialog-act.s9553330.210,,,,,,,,,False, So sh,2,minor,Fragment
+ES2014b,A,2069.36,2070.71,1.35,ES2014b.A.dialog-act.s9553330.236,B,A,0.24,0.0,False,False,0.0,[],False, We have to decide.,4,task,Inform
+ES2014b,B,2070.95,2072.704,1.754,ES2014b.B.dialog-act.s9553330.211,B,A,11.166,0.24,True,False,0.0,[],True," Should we decide in the next couple of minutes, and then",11,task,Suggest
+ES2014b,D,2071.13,2071.36,0.23,ES2014b.D.dialog-act.s9553330.165,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,D,2072.84,2073.01,0.17,ES2014b.D.dialog-act.s9553330.164,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,A,2073.26,2074.23,0.97,ES2014b.A.dialog-act.s9553330.237,,,,,,,,,False, I guess so.,3,task,Assess
+ES2014b,B,2074.75,2075.648,0.898,ES2014b.B.dialog-act.s9553330.212,,,,,,,,,False, So on the,3,minor,Fragment
+ES2014b,A,2076.54,2078.66,2.12,ES2014b.A.dialog-act.s9553330.238,,,,,,,,,False," So on front,",3,elicit,Elicit-Inform
+ES2014b,B,2078.592,2080.37,1.778,ES2014b.B.dialog-act.s9553330.213,,,,,,,,,False, about the number.,3,task,Inform
+ES2014b,A,2081.27,2082.81,1.54,ES2014b.A.dialog-act.s9553330.239,,,,,,,,,False," numbers,",1,task,Inform
+ES2014b,B,2083.87,2086.08,2.21,ES2014b.B.dialog-act.s9553330.214,B,B,1.72,11.166,False,False,0.0,[],False, Um the volume up and down.,6,task,Inform
+ES2014b,C,2084.39,2085.1,0.71,ES2014b.C.dialog-act.s9553330.125,,,,,,,,,False, And the volume?,3,task,Suggest
+ES2014b,A,2085.179,2087.46,2.281,ES2014b.A.dialog-act.s9553330.240,,,,,,,,,False, volume.,1,task,Inform
+ES2014b,B,2087.8,2089.07,1.27,ES2014b.B.dialog-act.s9553330.215,B,B,1.08,1.72,False,False,0.0,[],False, Shall we have a mute button as well?,8,elicit,Elicit-Inform
+ES2014b,C,2087.91,2088.28,0.37,ES2014b.C.dialog-act.s9553330.126,,,,,,,,,False, Um.,1,minor,Backchannel
+ES2014b,A,2089.75,2090.12,0.37,ES2014b.A.dialog-act.s9553330.241,,,,,,,,,False, Sorry?,1,other,Comment-About-Understanding
+ES2014b,B,2090.15,2091.12,0.97,ES2014b.B.dialog-act.s9553330.216,C,B,2.62,1.08,False,False,0.0,[],False, A mute button as well.,5,task,Suggest
+ES2014b,C,2091.09,2091.44,0.35,ES2014b.C.dialog-act.s9553330.127,,,,,,,,,False, Yeah.,1,task,Inform
+ES2014b,A,2092.34,2092.98,0.64,ES2014b.A.dialog-act.s9553330.242,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2014b,B,2093.17,2093.66,0.49,ES2014b.B.dialog-act.s9553330.217,,,,,,,,,False, Yeah.,1,elicit,Elicit-Inform
+ES2014b,C,2093.54,2093.74,0.2,ES2014b.C.dialog-act.s9553330.128,,,,,,,,,False, Yeah,1,task,Inform
+ES2014b,B,2093.66,2094.208,0.548,ES2014b.B.dialog-act.s9553330.218,,,,,,,,,False, Or,1,elicit,Elicit-Offer-Or-Suggestion
+ES2014b,C,2093.74,2094.52,0.78,ES2014b.C.dialog-act.s9553330.129,D,B,0.82,2.62,True,False,0.0,[],True, I think they're handy.,4,task,Assess
+ES2014b,D,2094.78,2095.34,0.56,ES2014b.D.dialog-act.s9553330.166,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,D,2095.34,2098.03,2.69,ES2014b.D.dialog-act.s9553330.167,C,C,4.74,0.82,True,False,0.0,[],True, And probably a power one as well.,7,task,Inform
+ES2014b,D,2098.03,2098.65,0.62,ES2014b.D.dialog-act.s9553330.168,,,,,,,,,False, Dunno.,1,minor,Backchannel
+ES2014b,C,2102.77,2113.51,10.74,ES2014b.C.dialog-act.s9553330.130,C,D,0.0,4.74,True,False,0.0,[],True," I know it's probably like um not an issue to raise here, but um the whole thing about not using your standby uh because of the like waste of electricity.",30,task,Inform
+ES2014b,C,2113.51,2115.0,1.49,ES2014b.C.dialog-act.s9553330.131,C,C,0.0,0.0,False,False,0.0,[],False, Have you seen the adverts?,5,elicit,Elicit-Inform
+ES2014b,C,2115.0,2116.79,1.79,ES2014b.C.dialog-act.s9553330.132,C,C,0.0,0.0,False,False,0.0,[],False, Like if you boil the kettle that's full that's a waste.,11,task,Inform
+ES2014b,D,2115.21,2115.37,0.16,ES2014b.D.dialog-act.s9553330.169,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,D,2116.53,2116.73,0.2,ES2014b.D.dialog-act.s9553330.170,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,A,2116.58,2117.43,0.85,ES2014b.A.dialog-act.s9553330.243,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,C,2116.79,2120.53,3.74,ES2014b.C.dialog-act.s9553330.133,C,C,0.0,0.0,False,False,0.0,[],False, If you leave your telly on standby it powers Blackpool for a certain amount of time.,16,task,Inform
+ES2014b,D,2119.776,2121.202,1.426,ES2014b.D.dialog-act.s9553330.171,,,,,,,,,False,,0,minor,Fragment
+ES2014b,C,2120.53,2122.89,2.36,ES2014b.C.dialog-act.s9553330.134,B,C,0.19,0.0,False,False,0.0,[],False, Like we should maybe try to discourage people from standby.,10,task,Suggest
+ES2014b,B,2123.08,2125.15,2.07,ES2014b.B.dialog-act.s9553330.219,B,C,0.0,0.19,True,False,0.0,[],True, But then they might not buy it if they haven't got one.,12,task,Inform
+ES2014b,B,2125.15,2127.28,2.13,ES2014b.B.dialog-act.s9553330.220,C,B,-1.64,0.0,False,True,1.64,['ES2014b.C.dialog-act.s9553330.135'],False, 'Cause people might just be too fickle and not want to change.,12,task,Inform
+ES2014b,D,2125.22,2125.53,0.31,ES2014b.D.dialog-act.s9553330.172,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,C,2125.64,2130.65,5.01,ES2014b.C.dialog-act.s9553330.135,A,B,-2.81,-1.64,True,True,2.81,"['ES2014b.A.dialog-act.s9553330.244', 'ES2014b.B.dialog-act.s9553330.221']",False," Yeah, it's maybe too much of a big issue for here.",11,task,Inform
+ES2014b,D,2127.62,2130.213,2.593,ES2014b.D.dialog-act.s9553330.173,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,A,2127.84,2132.79,4.95,ES2014b.A.dialog-act.s9553330.244,B,C,-4.46,-2.81,True,True,2.99,['ES2014b.B.dialog-act.s9553330.221'],False," So so are you having the stand-by on the front, then?",11,elicit,Elicit-Inform
+ES2014b,B,2128.33,2131.32,2.99,ES2014b.B.dialog-act.s9553330.221,B,A,1.47,-4.46,True,False,0.0,[],False, We can send out a flier with the device saying that you shouldn't leave it on stand-by.,17,task,Suggest
+ES2014b,C,2130.65,2131.68,1.03,ES2014b.C.dialog-act.s9553330.136,,,,,,,,,False, Uh-oh danger sign.,3,other,Be-Positive
+ES2014b,B,2132.79,2133.64,0.85,ES2014b.B.dialog-act.s9553330.222,C,B,0.44,1.47,False,False,0.0,[],False, I think you probably should.,5,task,Inform
+ES2014b,C,2133.87,2134.08,0.21,ES2014b.C.dialog-act.s9553330.137,,,,,,,,,False," Yeah,",1,task,Inform
+ES2014b,A,2134.064,2134.368,0.304,ES2014b.A.dialog-act.s9553330.245,,,,,,,,,False,,0,minor,Fragment
+ES2014b,C,2134.08,2136.82,2.74,ES2014b.C.dialog-act.s9553330.138,B,B,2.26,0.44,True,False,0.0,[],True, but a little bit smaller.,5,task,Suggest
+ES2014b,D,2135.664,2138.6,2.936,ES2014b.D.dialog-act.s9553330.174,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2014b,C,2136.82,2140.44,3.62,ES2014b.C.dialog-act.s9553330.139,,,,,,,,,False, Compromise.,1,task,Suggest
+ES2014b,A,2137.75,2139.23,1.48,ES2014b.A.dialog-act.s9553330.246,,,,,,,,,False, Well.,1,minor,Fragment
+ES2014b,B,2139.08,2141.85,2.77,ES2014b.B.dialog-act.s9553330.223,D,C,0.47,2.26,True,False,0.0,[],True, Um are we gonna have the channel up and down as well as the number buttons?,16,elicit,Elicit-Inform
+ES2014b,D,2142.32,2149.21,6.89,ES2014b.D.dialog-act.s9553330.175,B,B,3.27,0.47,True,False,0.0,[],True," Um 'cause yeah the market research said there is quite a lot of people do just zap around and flick, so.",21,task,Inform
+ES2014b,B,2148.2,2149.504,1.304,ES2014b.B.dialog-act.s9553330.225,,,,,,,,,False," Okay, so we'll have um",5,minor,Fragment
+ES2014b,C,2149.46,2149.63,0.17,ES2014b.C.dialog-act.s9553330.140,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2014b,B,2152.48,2156.22,3.74,ES2014b.B.dialog-act.s9553330.224,A,D,1.66,3.27,True,False,0.0,[],True, So we've got ten eleven twelve thirteen fourteen fifteen sixteen there?,11,task,Inform
+ES2014b,D,2157.54,2157.92,0.38,ES2014b.D.dialog-act.s9553330.176,,,,,,,,,False, Um.,1,minor,Backchannel
+ES2014b,A,2157.88,2158.74,0.86,ES2014b.A.dialog-act.s9553330.247,A,B,0.0,1.66,True,False,0.0,[],True, Channel up and down.,4,task,Inform
+ES2014b,A,2158.74,2160.0,1.26,ES2014b.A.dialog-act.s9553330.248,A,A,0.0,0.0,False,False,0.0,[],False, What else have we got?,5,elicit,Elicit-Inform
+ES2014b,A,2160.0,2160.85,0.85,ES2014b.A.dialog-act.s9553330.249,A,A,4.4,0.0,False,False,0.0,[],False," What was that, sixteen?",4,elicit,Elicit-Inform
+ES2014b,D,2160.66,2161.67,1.01,ES2014b.D.dialog-act.s9553330.177,,,,,,,,,False," Numbers is ten,",3,task,Inform
+ES2014b,D,2161.67,2164.8,3.13,ES2014b.D.dialog-act.s9553330.178,,,,,,,,,False," volume is twelve,",3,task,Inform
+ES2014b,D,2164.8,2167.65,2.85,ES2014b.D.dialog-act.s9553330.179,,,,,,,,,False, th Yeah si,3,minor,Fragment
+ES2014b,A,2165.25,2166.94,1.69,ES2014b.A.dialog-act.s9553330.250,D,A,0.71,4.4,False,False,0.0,[],False, Volume button. How many volumes?,5,elicit,Elicit-Inform
+ES2014b,D,2167.65,2168.42,0.77,ES2014b.D.dialog-act.s9553330.180,D,A,4.68,0.71,True,False,0.0,[],True," One up, one down.",4,task,Inform
+ES2014b,A,2168.94,2169.88,0.94,ES2014b.A.dialog-act.s9553330.251,,,,,,,,,False, Right okay.,2,task,Assess
+ES2014b,C,2171.67,2172.21,0.54,ES2014b.C.dialog-act.s9553330.141,,,,,,,,,False, On mute.,2,task,Inform
+ES2014b,D,2173.1,2173.95,0.85,ES2014b.D.dialog-act.s9553330.181,D,D,0.0,4.68,False,False,0.0,[],False," And a mute, yeah.",4,task,Inform
+ES2014b,D,2173.95,2175.02,1.07,ES2014b.D.dialog-act.s9553330.182,B,D,0.09,0.0,False,False,0.0,[],False," That's sixteen isn't it, yeah.",5,task,Inform
+ES2014b,B,2175.11,2176.27,1.16,ES2014b.B.dialog-act.s9553330.226,D,D,2.43,0.09,True,False,0.0,[],True, Is there anything else?,4,elicit,Elicit-Inform
+ES2014b,B,2176.27,2176.78,0.51,ES2014b.B.dialog-act.s9553330.227,,,,,,,,,False, Um.,1,minor,Backchannel
+ES2014b,D,2178.7,2179.64,0.94,ES2014b.D.dialog-act.s9553330.183,A,B,0.79,2.43,True,False,0.0,[],True," I don't think so, no.",5,task,Inform
+ES2014b,A,2180.43,2184.63,4.2,ES2014b.A.dialog-act.s9553330.252,A,D,0.0,0.79,True,False,0.0,[],True," Power button, stand-by, channel, up and down.",7,task,Inform
+ES2014b,A,2184.63,2185.29,0.66,ES2014b.A.dialog-act.s9553330.253,A,A,2.55,0.0,False,False,0.0,[],False, So is that it?,4,elicit,Elicit-Inform
+ES2014b,C,2185.562,2186.35,0.788,ES2014b.C.dialog-act.s9553330.142,,,,,,,,,False, so.,1,minor,Fragment
+ES2014b,B,2185.616,2186.32,0.704,ES2014b.B.dialog-act.s9553330.228,,,,,,,,,False,,0,minor,Fragment
+ES2014b,A,2186.82,2187.84,1.02,ES2014b.A.dialog-act.s9553330.254,,,,,,,,,False, Okay.,1,task,Assess
+ES2014b,A,2187.84,2190.02,2.18,ES2014b.A.dialog-act.s9553330.255,A,A,0.0,2.55,False,False,0.0,[],False," That's sixteen buttons, you reckon.",5,task,Inform
+ES2014b,A,2190.02,2191.62,1.6,ES2014b.A.dialog-act.s9553330.256,D,A,1.3,0.0,False,False,0.0,[],False, And then at the back?,5,elicit,Elicit-Inform
+ES2014b,D,2192.92,2197.01,4.09,ES2014b.D.dialog-act.s9553330.184,B,A,1.3,1.3,True,False,0.0,[],True, You've got brightness and contrast.,5,task,Inform
+ES2014b,B,2198.31,2204.74,6.43,ES2014b.B.dialog-act.s9553330.229,A,D,0.98,1.3,True,False,0.0,[],True," Maybe if we're gonna run out of time, one of us should come up with a list of these and then get back at the next meeting just at the start and say what they're gonna be.",37,task,Suggest
+ES2014b,C,2198.34,2199.068,0.728,ES2014b.C.dialog-act.s9553330.143,,,,,,,,,False, And then,2,minor,Fragment
+ES2014b,A,2204.77,2205.72,0.95,ES2014b.A.dialog-act.s9553330.257,,,,,,,,,False, Okay.,1,minor,Stall
+ES2014b,D,2205.3,2205.52,0.22,ES2014b.D.dialog-act.s9553330.185,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,A,2205.72,2210.55,4.83,ES2014b.A.dialog-act.s9553330.258,C,B,1.57,0.98,True,False,0.0,[],True," So on the back it'll have brightness, contrast,",8,task,Inform
+ES2014b,C,2205.74,2205.97,0.23,ES2014b.C.dialog-act.s9553330.144,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,A,2210.55,2212.19,1.64,ES2014b.A.dialog-act.s9553330.259,,,,,,,,,False, anything else?,2,elicit,Elicit-Inform
+ES2014b,C,2212.12,2213.88,1.76,ES2014b.C.dialog-act.s9553330.145,A,A,-1.69,1.57,True,True,1.69,['ES2014b.A.dialog-act.s9553330.260'],True, Uh there's audio functions.,4,task,Inform
+ES2014b,A,2212.19,2215.49,3.3,ES2014b.A.dialog-act.s9553330.260,B,C,-0.21,-1.69,True,True,0.21,['ES2014b.B.dialog-act.s9553330.230'],False," You're also gonna have the channel tuner, as it were.",10,task,Inform
+ES2014b,D,2214.82,2215.41,0.59,ES2014b.D.dialog-act.s9553330.186,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,B,2215.28,2217.37,2.09,ES2014b.B.dialog-act.s9553330.230,A,A,2.35,-0.21,True,False,0.0,[],False," So tuner up and down, I guess.",7,task,Inform
+ES2014b,C,2218.08,2218.4,0.32,ES2014b.C.dialog-act.s9553330.146,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,A,2219.72,2222.24,2.52,ES2014b.A.dialog-act.s9553330.261,B,B,-0.6,2.35,True,True,0.6,['ES2014b.B.dialog-act.s9553330.231'],True," Tuner, would that have up and down?.",7,elicit,Elicit-Inform
+ES2014b,B,2221.64,2224.23,2.59,ES2014b.B.dialog-act.s9553330.231,C,A,-1.25,-0.6,True,True,0.94,['ES2014b.C.dialog-act.s9553330.147'],False," Um up Tune one way, tune the o",8,task,Inform
+ES2014b,C,2222.98,2223.92,0.94,ES2014b.C.dialog-act.s9553330.147,B,B,0.31,-1.25,True,False,0.0,[],False, I think they normally do.,5,task,Inform
+ES2014b,A,2223.904,2227.13,3.226,ES2014b.A.dialog-act.s9553330.262,,,,,,,,,False, okay. Okay.,2,task,Assess
+ES2014b,B,2224.23,2225.64,1.41,ES2014b.B.dialog-act.s9553330.232,D,C,3.15,0.31,True,False,0.0,[],True, I I dunno I dunno possibly.,6,task,Inform
+ES2014b,D,2224.84,2225.01,0.17,ES2014b.D.dialog-act.s9553330.187,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,C,2225.35,2225.71,0.36,ES2014b.C.dialog-act.s9553330.148,,,,,,,,,False, Yeah.,1,task,Assess
+ES2014b,D,2228.79,2238.23,9.44,ES2014b.D.dialog-act.s9553330.188,D,B,0.0,3.15,True,False,0.0,[],True," And then maybe sort of an enter button for sort of s you know, saying that you want that particular thing tuned in.",23,task,Suggest
+ES2014b,D,2238.23,2243.53,5.3,ES2014b.D.dialog-act.s9553330.189,B,D,-3.56,0.0,False,True,1.8,['ES2014b.B.dialog-act.s9553330.234'],False," So you go up and down and then it pick it finds something and then you wanna press enter to select it, yeah.",23,task,Suggest
+ES2014b,B,2239.6,2239.97,0.37,ES2014b.B.dialog-act.s9553330.233,,,,,,,,,False, Oh yeah,2,task,Assess
+ES2014b,B,2239.97,2241.77,1.8,ES2014b.B.dialog-act.s9553330.234,B,D,5.91,-3.56,True,False,0.0,[],False, and th and a enter button just to select.,9,task,Suggest
+ES2014b,B,2241.77,2242.45,0.68,ES2014b.B.dialog-act.s9553330.235,,,,,,,,,False," Yeah, okay.",2,minor,Backchannel
+ES2014b,B,2247.68,2250.0,2.32,ES2014b.B.dialog-act.s9553330.236,B,B,0.0,5.91,False,False,0.0,[],False, Um I guess we're keeping s it simple.,8,task,Inform
+ES2014b,B,2250.0,2252.08,2.08,ES2014b.B.dialog-act.s9553330.237,B,B,0.0,0.0,False,False,0.0,[],False, We don't really need any other audio funct uh functions,10,task,Inform
+ES2014b,B,2252.08,2254.26,2.18,ES2014b.B.dialog-act.s9553330.238,A,B,-0.41,0.0,False,True,0.41,['ES2014b.A.dialog-act.s9553330.263'],False," because it's just volume up, volume down.",7,task,Inform
+ES2014b,A,2253.85,2255.53,1.68,ES2014b.A.dialog-act.s9553330.263,C,B,1.86,-0.41,True,False,0.0,[],False," Um up volume, yeah, I would have thought so.",9,task,Assess
+ES2014b,B,2255.51,2255.81,0.3,ES2014b.B.dialog-act.s9553330.239,,,,,,,,,False, Um.,1,minor,Backchannel
+ES2014b,D,2256.09,2256.44,0.35,ES2014b.D.dialog-act.s9553330.190,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,C,2257.39,2264.09,6.7,ES2014b.C.dialog-act.s9553330.149,B,A,0.74,1.86,True,False,0.0,[],True," So I think um there's quite a lot of like Dolby surround studio, surround sort of things.",17,task,Inform
+ES2014b,D,2264.39,2264.76,0.37,ES2014b.D.dialog-act.s9553330.191,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2014b,A,2264.83,2265.11,0.28,ES2014b.A.dialog-act.s9553330.264,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2014b,B,2264.83,2268.86,4.03,ES2014b.B.dialog-act.s9553330.240,C,C,-3.97,0.74,True,True,2.09,['ES2014b.C.dialog-act.s9553330.150'],True," Do they have their own do they have their own controls on their actual products, then,",16,elicit,Elicit-Inform
+ES2014b,C,2264.89,2266.98,2.09,ES2014b.C.dialog-act.s9553330.150,B,B,1.88,-3.97,True,False,0.0,[],False, Um maybe for the younger market.,6,task,Inform
+ES2014b,B,2268.86,2270.88,2.02,ES2014b.B.dialog-act.s9553330.241,C,C,0.82,1.88,True,False,0.0,[],True, or do you have to do it via the remote?,10,elicit,Elicit-Inform
+ES2014b,C,2271.7,2275.37,3.67,ES2014b.C.dialog-act.s9553330.151,B,B,0.06,0.82,True,False,0.0,[],True, Um I think they've got their own controls in this kind of like hidden panel.,15,task,Inform
+ES2014b,B,2275.43,2279.21,3.78,ES2014b.B.dialog-act.s9553330.242,C,C,1.21,0.06,True,False,0.0,[],True, Yeah I suppose if we've got their if they've got their own controls then we can avoid it for ours just to keep it simple.,25,task,Inform
+ES2014b,A,2278.31,2279.83,1.52,ES2014b.A.dialog-act.s9553330.265,,,,,,,,,False, Yeah. Yeah.,2,task,Assess
+ES2014b,C,2280.42,2286.54,6.12,ES2014b.C.dialog-act.s9553330.152,C,B,0.0,1.21,True,False,0.0,[],True," Oh no, I mean um like there's kind of individual buttons for them, like on the T_V_ remote.",18,task,Inform
+ES2014b,B,2283.44,2283.87,0.43,ES2014b.B.dialog-act.s9553330.243,,,,,,,,,False," Oh, okay.",2,other,Comment-About-Understanding
+ES2014b,B,2285.81,2286.03,0.22,ES2014b.B.dialog-act.s9553330.244,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2014b,D,2286.46,2286.59,0.13,ES2014b.D.dialog-act.s9553330.192,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2014b,C,2286.54,2287.54,1.0,ES2014b.C.dialog-act.s9553330.153,C,C,0.0,0.0,False,False,0.0,[],False," But I don't really know what they're for,",8,task,Inform
+ES2014b,C,2287.54,2288.84,1.3,ES2014b.C.dialog-act.s9553330.154,C,C,0.0,0.0,False,False,0.0,[],False, I've never used them.,4,task,Inform
+ES2014b,B,2288.76,2289.18,0.42,ES2014b.B.dialog-act.s9553330.245,,,,,,,,,False, Um.,1,minor,Backchannel
+ES2014b,C,2288.84,2291.43,2.59,ES2014b.C.dialog-act.s9553330.155,B,C,-1.15,0.0,False,True,1.15,['ES2014b.B.dialog-act.s9553330.246'],False, I just know they're something to do with Dolby.,9,task,Inform
+ES2014b,B,2290.28,2293.298,3.018,ES2014b.B.dialog-act.s9553330.246,A,C,-0.978,-1.15,True,True,0.978,['ES2014b.A.dialog-act.s9553330.266'],False, Maybe unless something comes up then we should I think,10,task,Inform
+ES2014b,A,2292.32,2296.512,4.192,ES2014b.A.dialog-act.s9553330.266,B,B,0.168,-0.978,True,False,0.0,[],False, Well you might get some research.,6,other,Be-Positive
+ES2014b,C,2293.441,2295.171,1.73,ES2014b.C.dialog-act.s9553330.156,,,,,,,,,False,,0,minor,Fragment
+ES2014b,B,2296.68,2299.21,2.53,ES2014b.B.dialog-act.s9553330.247,A,A,1.21,0.168,True,False,0.0,[],True, Well shall we look into that and just get back together.,11,task,Suggest
+ES2014b,A,2299.43,2300.42,0.99,ES2014b.A.dialog-act.s9553330.267,,,,,,,,,False, Okay.,1,task,Assess
+ES2014b,D,2299.59,2300.16,0.57,ES2014b.D.dialog-act.s9553330.193,,,,,,,,,False, Okay.,1,task,Assess
+ES2014b,C,2300.3,2300.39,0.09,ES2014b.C.dialog-act.s9553330.157,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2014b,A,2300.42,2304.6,4.18,ES2014b.A.dialog-act.s9553330.268,A,B,0.0,1.21,True,False,0.0,[],True, Right so I'll do the minutes of uh this meeting.,10,other,Offer
+ES2014b,D,2300.96,2301.1,0.14,ES2014b.D.dialog-act.s9553330.194,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2014b,A,2304.6,2309.43,4.83,ES2014b.A.dialog-act.s9553330.269,A,A,0.0,0.0,False,False,0.0,[],False, And we'll meet back at I'm not sure.,8,task,Inform
+ES2014b,A,2309.43,2313.17,3.74,ES2014b.A.dialog-act.s9553330.270,,A,,0.0,False,False,0.0,[],False," Um forty minutes, I believe is the time.",8,task,Inform
+ES2014b,B,2313.11,2313.32,0.21,ES2014b.B.dialog-act.s9553330.248,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+ES2014b,D,2314.98,2317.39,2.41,ES2014b.D.dialog-act.s9553330.195,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2014b,A,2316.72,2317.31,0.59,ES2014b.A.dialog-act.s9553330.271,,,,,,,,,False, Come on.,2,other,Other

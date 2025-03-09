@@ -1,0 +1,522 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+ES2016a,A,10.93,12.03,1.1,ES2016a.A.dialog-act.vkaraisk.1,,,,,,,,,False, Okay.,1,minor,Stall
+ES2016a,A,12.03,23.568,11.538,ES2016a.A.dialog-act.vkaraisk.2,A,,44.312,,True,False,0.0,[],False," Oh, that's not gonna work.",5,other,Other
+ES2016a,A,28.01,29.25,1.24,ES2016a.A.dialog-act.vkaraisk.3,,,,,,,,,False," Oh, alright.",2,other,Comment-About-Understanding
+ES2016a,A,35.424,35.88,0.456,ES2016a.A.dialog-act.vkaraisk.4,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+ES2016a,A,60.49,62.85,2.36,ES2016a.A.dialog-act.vkaraisk.5,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+ES2016a,A,62.85,64.88,2.03,ES2016a.A.dialog-act.vkaraisk.6,,,,,,,,,False, Um alright.,2,minor,Stall
+ES2016a,D,63.8,64.54,0.74,ES2016a.D.dialog-act.vkaraisk.1,,,,,,,,,False," Uh, uh, um.",3,other,Other
+ES2016a,A,67.88,70.24,2.36,ES2016a.A.dialog-act.vkaraisk.7,A,A,0.0,44.312,False,False,0.0,[],False, I'll just put that there.,5,other,Other
+ES2016a,A,70.24,75.1,4.86,ES2016a.A.dialog-act.vkaraisk.8,A,A,0.0,0.0,False,False,0.0,[],False, Uh as you all know we're here to create a brand new fantastic remote.,14,task,Inform
+ES2016a,A,75.1,78.09,2.99,ES2016a.A.dialog-act.vkaraisk.9,A,A,0.0,0.0,False,False,0.0,[],False," Uh I'm Nick Debusk,",4,task,Inform
+ES2016a,A,78.09,80.27,2.18,ES2016a.A.dialog-act.vkaraisk.10,A,A,0.0,0.0,False,False,0.0,[],False, I'm the Project Manager.,4,task,Inform
+ES2016a,A,80.27,92.09,11.82,ES2016a.A.dialog-act.vkaraisk.11,D,A,2.8,0.0,False,False,0.0,[],False," Uh we'll just get started with everyone kind of letting each other know who they are and what you're doing, what your what your role is um.",27,task,Suggest
+ES2016a,A,93.67,94.21,0.54,ES2016a.A.dialog-act.vkaraisk.12,,,,,,,,,False, Go ahead.,2,task,Suggest
+ES2016a,D,94.29,94.89,0.6,ES2016a.D.dialog-act.vkaraisk.2,,,,,,,,,False, Okay.,1,task,Assess
+ES2016a,D,94.89,96.66,1.77,ES2016a.D.dialog-act.vkaraisk.3,D,A,0.0,2.8,True,False,0.0,[],True, I am Corinne Whiting,4,task,Inform
+ES2016a,D,96.66,99.45,2.79,ES2016a.D.dialog-act.vkaraisk.4,D,D,0.0,0.0,False,False,0.0,[],False, and I will be the Marketing Expert,7,task,Inform
+ES2016a,D,99.45,103.0,3.55,ES2016a.D.dialog-act.vkaraisk.5,D,D,0.0,0.0,False,False,0.0,[],False, and in each of the three phases I will have a different role.,13,task,Inform
+ES2016a,D,103.0,110.93,7.93,ES2016a.D.dialog-act.vkaraisk.6,D,D,0.0,0.0,False,False,0.0,[],False," In the function design phase I will be talking about user requirement specification,",13,task,Inform
+ES2016a,D,110.93,115.21,4.28,ES2016a.D.dialog-act.vkaraisk.7,D,D,0.0,0.0,False,False,0.0,[],False," and this means what needs and desires are to be fulfilled,",11,task,Inform
+ES2016a,D,115.21,117.9,2.69,ES2016a.D.dialog-act.vkaraisk.8,D,D,0.0,0.0,False,False,0.0,[],False, and I'll be doing research to figure this out.,9,task,Inform
+ES2016a,D,117.9,122.55,4.65,ES2016a.D.dialog-act.vkaraisk.9,D,D,0.0,0.0,False,False,0.0,[],False, In the conceptual design phase I will be dealing with trend watching,12,task,Inform
+ES2016a,D,122.55,125.21,2.66,ES2016a.D.dialog-act.vkaraisk.10,D,D,0.0,0.0,False,False,0.0,[],False, and I'll be doing marketing research on the web.,9,task,Inform
+ES2016a,D,125.21,132.21,7.0,ES2016a.D.dialog-act.vkaraisk.11,D,D,0.0,0.0,False,False,0.0,[],False, And then finally in the um detailed design phase I will be doing product evaluation,15,task,Inform
+ES2016a,D,132.21,135.03,2.82,ES2016a.D.dialog-act.vkaraisk.12,D,D,0.0,0.0,False,False,0.0,[],False, and so I will be collecting the requirements,8,task,Inform
+ES2016a,D,135.03,138.13,3.1,ES2016a.D.dialog-act.vkaraisk.13,C,D,2.57,0.0,False,False,0.0,[],False, and ranking all the requirements to see how we did.,10,task,Inform
+ES2016a,A,138.82,139.22,0.4,ES2016a.A.dialog-act.vkaraisk.13,,,,,,,,,False, 'Kay.,1,task,Suggest
+ES2016a,C,139.55,140.03,0.48,ES2016a.C.dialog-act.vkaraisk.2,,,,,,,,,False, Hiya,1,other,Be-Positive
+ES2016a,C,140.03,140.7,0.67,ES2016a.C.dialog-act.vkaraisk.1,,,,,,,,,False,", I'm Ryan.",2,task,Inform
+ES2016a,C,140.7,143.23,2.53,ES2016a.C.dialog-act.vkaraisk.3,C,D,0.0,2.57,True,False,0.0,[],True, Um I'm the User Interface Designer.,6,task,Inform
+ES2016a,C,143.23,148.49,5.26,ES2016a.C.dialog-act.vkaraisk.4,C,C,0.0,0.0,False,False,0.0,[],False, Um likewise I've three different roles for each stage of design.,11,task,Inform
+ES2016a,C,148.49,153.65,5.16,ES2016a.C.dialog-act.vkaraisk.5,C,C,0.0,0.0,False,False,0.0,[],False, Um the functional design is looking at the tex technical functions of a remote control.,15,task,Inform
+ES2016a,C,153.65,157.47,3.82,ES2016a.C.dialog-act.vkaraisk.6,C,C,0.0,0.0,False,False,0.0,[],False," Um in the concept design, the user interface,",8,task,Inform
+ES2016a,C,157.47,160.23,2.76,ES2016a.C.dialog-act.vkaraisk.7,C,C,0.0,0.0,False,False,0.0,[],False, how the user reacts with the the product.,8,task,Inform
+ES2016a,C,160.23,164.84,4.61,ES2016a.C.dialog-act.vkaraisk.8,C,C,0.0,0.0,False,False,0.0,[],False," And the detailed design um sort of like the user interface design,",12,task,Inform
+ES2016a,C,164.84,168.08,3.24,ES2016a.C.dialog-act.vkaraisk.9,C,C,0.96,0.0,False,False,0.0,[],False," what they might be looking for, uh things like fashions,",10,task,Inform
+ES2016a,C,168.08,169.04,0.96,ES2016a.C.dialog-act.vkaraisk.10,,,,,,,,,False, what makes wha,3,minor,Fragment
+ES2016a,C,169.04,169.93,0.89,ES2016a.C.dialog-act.vkaraisk.11,B,C,4.52,0.96,False,False,0.0,[],False, how we're gonna make it special.,6,task,Inform
+ES2016a,C,171.73,172.24,0.51,ES2016a.C.dialog-act.vkaraisk.12,,,,,,,,,False, That's about it.,3,task,Inform
+ES2016a,B,172.464,173.43,0.966,ES2016a.B.dialog-act.vkaraisk.1,,,,,,,,,False, Right.,1,minor,Stall
+ES2016a,B,173.43,174.45,1.02,ES2016a.B.dialog-act.vkaraisk.2,,,,,,,,,False, I'm Manuel,2,task,Inform
+ES2016a,B,174.45,180.16,5.71,ES2016a.B.dialog-act.vkaraisk.3,B,C,0.0,4.52,True,False,0.0,[],True, and I'm the Industrial Designer in in this project um.,10,task,Inform
+ES2016a,B,180.16,184.77,4.61,ES2016a.B.dialog-act.vkaraisk.4,B,B,0.0,0.0,False,False,0.0,[],False," In the functional design phase I'm I'll be dealing mostly with the requirements,",13,task,Inform
+ES2016a,B,184.77,192.01,7.24,ES2016a.B.dialog-act.vkaraisk.5,B,B,0.0,0.0,False,False,0.0,[],False, um we'll discuss what the prog what functions the the product has to fulfil and so and so on.,19,task,Inform
+ES2016a,B,192.01,195.3,3.29,ES2016a.B.dialog-act.vkaraisk.6,B,B,0.0,0.0,False,False,0.0,[],False, Um I suppose we'll work pretty much together on that one.,11,task,Suggest
+ES2016a,B,195.3,204.03,8.73,ES2016a.B.dialog-act.vkaraisk.7,B,B,0.0,0.0,False,False,0.0,[],False, Um um in the conceptual design um I'll be pro mostly dealing with properties and materials um of our product.,20,task,Inform
+ES2016a,C,202.18,202.58,0.4,ES2016a.C.dialog-act.vkaraisk.13,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,B,204.03,212.79,8.76,ES2016a.B.dialog-act.vkaraisk.8,B,B,0.0,0.0,False,False,0.0,[],False," And uh the detailed design in the detailed design I'll be concerned with the look and feel of the product itself,",21,task,Inform
+ES2016a,B,212.79,222.584,9.794,ES2016a.B.dialog-act.vkaraisk.9,A,B,3.786,0.0,False,False,0.0,[],False, um so we're pretty much working together obviously on the design front here. Okay.,14,task,Inform
+ES2016a,A,221.21,221.77,0.56,ES2016a.A.dialog-act.vkaraisk.14,,,,,,,,,False, Okay.,1,task,Assess
+ES2016a,A,224.06,226.37,2.31,ES2016a.A.dialog-act.vkaraisk.15,,,,,,,,,False, Um so,2,minor,Stall
+ES2016a,A,226.37,228.13,1.76,ES2016a.A.dialog-act.vkaraisk.16,A,B,0.0,3.786,True,False,0.0,[],True," we've got our opening,",4,task,Inform
+ES2016a,A,228.13,238.69,10.56,ES2016a.A.dialog-act.vkaraisk.17,A,A,0.0,0.0,False,False,0.0,[],False," our our agenda is the opening, uh acquaintance which we've kinda done. Uh tool training, project plan discussion and then closing.",21,task,Inform
+ES2016a,D,233.549,235.228,1.679,ES2016a.D.dialog-act.vkaraisk.14,,,,,,,,,False,,0,minor,Fragment
+ES2016a,C,233.656,234.436,0.78,ES2016a.C.dialog-act.vkaraisk.14,,,,,,,,,False,,0,minor,Fragment
+ES2016a,A,238.69,242.52,3.83,ES2016a.A.dialog-act.vkaraisk.18,A,A,2.52,0.0,False,False,0.0,[],False, Uh grand total of twenty five minutes we have here.,10,task,Inform
+ES2016a,A,242.52,245.04,2.52,ES2016a.A.dialog-act.vkaraisk.19,,,,,,,,,False, Um so,2,minor,Stall
+ES2016a,A,245.04,248.19,3.15,ES2016a.A.dialog-act.vkaraisk.20,A,A,0.0,2.52,False,False,0.0,[],False, we are putting together a new remote control.,8,task,Inform
+ES2016a,A,248.19,251.5,3.31,ES2016a.A.dialog-act.vkaraisk.21,A,A,0.0,0.0,False,False,0.0,[],False, Um we want it to be something original.,8,task,Inform
+ES2016a,A,251.5,257.06,5.56,ES2016a.A.dialog-act.vkaraisk.22,A,A,1.22,0.0,False,False,0.0,[],False, Um of course we're a not only a electronics company but a,12,task,Inform
+ES2016a,A,258.28,261.9,3.62,ES2016a.A.dialog-act.vkaraisk.23,A,A,0.0,1.22,False,False,0.0,[],False," fashion um conscious electronics company,",5,task,Inform
+ES2016a,A,261.9,265.59,3.69,ES2016a.A.dialog-act.vkaraisk.24,A,A,0.0,0.0,False,False,0.0,[],False, so we want it to be trendy um,8,task,Inform
+ES2016a,A,265.59,267.55,1.96,ES2016a.A.dialog-act.vkaraisk.25,A,A,1.522,0.0,False,False,0.0,[],False, and we want it to be easy to use.,9,task,Inform
+ES2016a,A,269.072,278.53,9.458,ES2016a.A.dialog-act.vkaraisk.26,A,A,0.0,1.522,False,False,0.0,[],False," Um we've got the functional design, conceptual design and detailed design",11,task,Inform
+ES2016a,A,278.53,284.7,6.17,ES2016a.A.dialog-act.vkaraisk.27,A,A,28.02,0.0,False,False,0.0,[],False, um which basically is is the three of you um.,10,task,Inform
+ES2016a,A,287.68,296.76,9.08,ES2016a.A.dialog-act.vkaraisk.28,,,,,,,,,False, And w uh well um,5,minor,Stall
+ES2016a,A,296.76,298.82,2.06,ES2016a.A.dialog-act.vkaraisk.29,,,,,,,,,False, functional design um.,3,minor,Fragment
+ES2016a,A,303.04,312.72,9.68,ES2016a.A.dialog-act.vkaraisk.30,,,,,,,,,False, Um do we have um any ideas of of maybe d,11,minor,Fragment
+ES2016a,A,312.72,319.34,6.62,ES2016a.A.dialog-act.vkaraisk.31,A,A,0.0,28.02,False,False,0.0,[],False," let's just throw out some ideas of what kind of remote control we want to have,",16,task,Suggest
+ES2016a,A,319.34,321.89,2.55,ES2016a.A.dialog-act.vkaraisk.32,A,A,0.0,0.0,False,False,0.0,[],False, and then we can go into how we're gonna design it,11,task,Suggest
+ES2016a,A,321.89,326.54,4.65,ES2016a.A.dialog-act.vkaraisk.33,C,A,4.71,0.0,False,False,0.0,[],False, and and how we're gonna do the detailing on it.,10,task,Suggest
+ES2016a,C,326.84,328.54,1.7,ES2016a.C.dialog-act.vkaraisk.15,,,,,,,,,False, Yeah. Well uh,3,minor,Stall
+ES2016a,C,328.54,329.59,1.05,ES2016a.C.dialog-act.vkaraisk.16,,,,,,,,,False, s,1,minor,Fragment
+ES2016a,C,329.59,331.08,1.49,ES2016a.C.dialog-act.vkaraisk.17,,,,,,,,,False, function of remote control is just just,7,minor,Fragment
+ES2016a,C,331.08,331.25,0.17,ES2016a.C.dialog-act.vkaraisk.18,,,,,,,,,False," you know,",2,minor,Stall
+ES2016a,C,331.25,333.32,2.07,ES2016a.C.dialog-act.vkaraisk.19,A,A,0.43,4.71,True,False,0.0,[],True, change channels is its main function.,6,task,Inform
+ES2016a,A,333.56,333.75,0.19,ES2016a.A.dialog-act.vkaraisk.34,,,,,,,,,False, So,1,minor,Stall
+ES2016a,A,333.75,338.55,4.8,ES2016a.A.dialog-act.vkaraisk.35,A,C,0.0,0.43,True,False,0.0,[],True, we want it to be um a T_V_ remote or,10,elicit,Elicit-Assessment
+ES2016a,A,338.55,343.05,4.5,ES2016a.A.dialog-act.vkaraisk.36,C,A,0.45,0.0,False,False,0.0,[],False, I I mean do we want it to to do other things besides just be a a television remote?,19,elicit,Elicit-Assessment
+ES2016a,C,343.25,343.5,0.25,ES2016a.C.dialog-act.vkaraisk.20,,,,,,,,,False, Oh right.,2,other,Comment-About-Understanding
+ES2016a,C,343.5,348.89,5.39,ES2016a.C.dialog-act.vkaraisk.21,C,A,1.17,0.45,True,False,0.0,[],True, I suppose you c try make it a universal remote,10,task,Suggest
+ES2016a,A,348.59,348.81,0.22,ES2016a.A.dialog-act.vkaraisk.37,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+ES2016a,C,348.89,350.06,1.17,ES2016a.C.dialog-act.vkaraisk.22,,,,,,,,,False, for,1,minor,Fragment
+ES2016a,C,350.06,352.56,2.5,ES2016a.C.dialog-act.vkaraisk.23,C,C,1.07,1.17,False,False,0.0,[],False, could work on all sort of electrical,7,task,Suggest
+ES2016a,C,353.63,356.43,2.8,ES2016a.C.dialog-act.vkaraisk.24,C,C,0.0,1.07,False,False,0.0,[],False, products in in one person's house.,6,task,Suggest
+ES2016a,D,356.11,356.32,0.21,ES2016a.D.dialog-act.vkaraisk.15,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2016a,C,356.43,361.57,5.14,ES2016a.C.dialog-act.vkaraisk.26,C,C,4.37,0.0,False,False,0.0,[],False," But, you know, they all sorta have the same role changing channels, volumes and then programming.",16,task,Inform
+ES2016a,B,357.617,358.211,0.594,ES2016a.B.dialog-act.vkaraisk.10,,,,,,,,,False,,0,minor,Fragment
+ES2016a,A,361.79,362.91,1.12,ES2016a.A.dialog-act.vkaraisk.38,,,,,,,,,False, Mm-hmm. 'Kay.,2,minor,Backchannel
+ES2016a,C,365.94,368.08,2.14,ES2016a.C.dialog-act.vkaraisk.27,C,C,0.79,4.37,False,False,0.0,[],False, I think they all work on the same prin principle as well,12,task,Inform
+ES2016a,B,366.2,366.45,0.25,ES2016a.B.dialog-act.vkaraisk.11,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2016a,C,368.08,368.87,0.79,ES2016a.C.dialog-act.vkaraisk.28,,,,,,,,,False, sorta like,2,minor,Fragment
+ES2016a,C,368.87,370.34,1.47,ES2016a.C.dialog-act.vkaraisk.29,C,C,0.0,0.79,False,False,0.0,[],False, I don't actually know.,4,task,Inform
+ES2016a,C,370.34,371.37,1.03,ES2016a.C.dialog-act.vkaraisk.30,A,C,1.37,0.0,False,False,0.0,[],False, But is it just infra-red?,5,elicit,Elicit-Inform
+ES2016a,C,371.37,372.02,0.65,ES2016a.C.dialog-act.vkaraisk.31,,,,,,,,,False, Is that standard?,3,elicit,Elicit-Inform
+ES2016a,A,372.74,376.86,4.12,ES2016a.A.dialog-act.vkaraisk.39,A,C,0.0,1.37,True,False,0.0,[],True," I I think yeah, yeah, r universal remote.",8,task,Assess
+ES2016a,C,372.9,374.04,1.14,ES2016a.C.dialog-act.vkaraisk.32,,,,,,,,,False, Ye yeah.,2,minor,Backchannel
+ES2016a,A,376.86,381.17,4.31,ES2016a.A.dialog-act.vkaraisk.40,A,A,3.73,0.0,False,False,0.0,[],False," Um this is my first uh go-round with creating a remote control,",12,task,Inform
+ES2016a,D,379.04,379.13,0.09,ES2016a.D.dialog-act.vkaraisk.17,,,,,,,,,False, Huh.,1,minor,Backchannel
+ES2016a,D,380.438,381.871,1.433,ES2016a.D.dialog-act.vkaraisk.18,,,,,,,,,False,,0,minor,Fragment
+ES2016a,A,381.17,384.9,3.73,ES2016a.A.dialog-act.vkaraisk.41,,,,,,,,,False, so,1,minor,Stall
+ES2016a,D,382.544,386.625,4.081,ES2016a.D.dialog-act.vkaraisk.16,,,,,,,,,False, Ours too.,2,task,Inform
+ES2016a,C,383.637,384.27,0.633,ES2016a.C.dialog-act.vkaraisk.33,,,,,,,,,False,,0,minor,Fragment
+ES2016a,A,384.9,386.42,1.52,ES2016a.A.dialog-act.vkaraisk.42,C,A,5.02,3.73,False,False,0.0,[],False, I think we're all in the same boat here.,9,other,Be-Positive
+ES2016a,A,387.984,388.928,0.944,ES2016a.A.dialog-act.vkaraisk.43,,,,,,,,,False, Um,1,minor,Stall
+ES2016a,C,391.44,395.01,3.57,ES2016a.C.dialog-act.vkaraisk.34,C,A,1.54,5.02,True,False,0.0,[],True, Um one thing I thought of with the remote control is you always lose 'em.,15,task,Inform
+ES2016a,A,395.64,396.18,0.54,ES2016a.A.dialog-act.vkaraisk.44,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2016a,D,396.23,396.52,0.29,ES2016a.D.dialog-act.vkaraisk.19,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2016a,C,396.55,401.79,5.24,ES2016a.C.dialog-act.vkaraisk.35,A,C,-1.63,1.54,False,True,1.63,['ES2016a.A.dialog-act.vkaraisk.45'],False," So if there's a g a way of finding it quite easily, I thought that'd be quite good quite a good feature.",22,task,Assess
+ES2016a,D,397.95,398.29,0.34,ES2016a.D.dialog-act.vkaraisk.20,,,,,,,,,False, Ch,1,minor,Fragment
+ES2016a,A,400.16,404.45,4.29,ES2016a.A.dialog-act.vkaraisk.45,D,C,2.23,-1.63,True,False,0.0,[],False, So we should we should set our remote control up to where it has a uh,16,task,Suggest
+ES2016a,D,406.68,408.664,1.984,ES2016a.D.dialog-act.vkaraisk.21,A,A,-1.234,2.23,True,True,1.234,['ES2016a.A.dialog-act.vkaraisk.46'],True, Like a tracking device?,4,task,Suggest
+ES2016a,A,407.43,408.83,1.4,ES2016a.A.dialog-act.vkaraisk.46,C,D,-0.07,-1.234,True,True,0.07,['ES2016a.C.dialog-act.vkaraisk.36'],False, like a tracking device,4,task,Suggest
+ES2016a,C,408.76,410.75,1.99,ES2016a.C.dialog-act.vkaraisk.36,C,A,0.85,-0.07,True,False,0.0,[],False, Oh you can get those key,6,task,Inform
+ES2016a,A,408.83,411.13,2.3,ES2016a.A.dialog-act.vkaraisk.47,,,,,,,,,False, or or like a a,5,minor,Fragment
+ES2016a,C,410.75,410.89,0.14,ES2016a.C.dialog-act.vkaraisk.37,,,,,,,,,False, well,1,minor,Stall
+ES2016a,C,410.89,411.6,0.71,ES2016a.C.dialog-act.vkaraisk.38,,,,,,,,,False, you could whistle,3,task,Suggest
+ES2016a,C,411.6,412.49,0.89,ES2016a.C.dialog-act.vkaraisk.39,A,C,-0.12,0.85,False,True,0.12,['ES2016a.A.dialog-act.vkaraisk.48'],False, or make a noise,4,task,Suggest
+ES2016a,A,412.37,413.34,0.97,ES2016a.A.dialog-act.vkaraisk.48,A,C,0.0,-0.12,True,False,0.0,[],False," It makes a noise,",4,task,Suggest
+ES2016a,C,412.49,413.26,0.77,ES2016a.C.dialog-act.vkaraisk.40,,,,,,,,,False, and it'd beep.,3,task,Suggest
+ES2016a,A,413.34,415.55,2.21,ES2016a.A.dialog-act.vkaraisk.49,C,A,7.11,0.0,False,False,0.0,[],False, there's a button on the T_V_ that you press,9,task,Suggest
+ES2016a,B,413.81,413.98,0.17,ES2016a.B.dialog-act.vkaraisk.12,,,,,,,,,False," Mm, mm.",2,minor,Backchannel
+ES2016a,D,415.22,415.4,0.18,ES2016a.D.dialog-act.vkaraisk.22,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2016a,C,415.52,415.78,0.26,ES2016a.C.dialog-act.vkaraisk.41,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,A,415.55,415.92,0.37,ES2016a.A.dialog-act.vkaraisk.50,,,,,,,,,False, and,1,minor,Fragment
+ES2016a,B,416.39,416.78,0.39,ES2016a.B.dialog-act.vkaraisk.13,,,,,,,,,False, Right.,1,other,Comment-About-Understanding
+ES2016a,A,417.58,417.85,0.27,ES2016a.A.dialog-act.vkaraisk.51,,,,,,,,,False, 'Kay.,1,task,Assess
+ES2016a,D,417.92,418.4,0.48,ES2016a.D.dialog-act.vkaraisk.23,,,,,,,,,False, Be good.,2,task,Assess
+ES2016a,B,419.41,420.048,0.638,ES2016a.B.dialog-act.vkaraisk.14,,,,,,,,,False, So,1,minor,Fragment
+ES2016a,C,422.66,428.32,5.66,ES2016a.C.dialog-act.vkaraisk.42,A,A,2.35,7.11,True,False,0.0,[],True," Generally, all remotes are sort of quite similar in their appearance.",11,task,Inform
+ES2016a,A,428.68,429.79,1.11,ES2016a.A.dialog-act.vkaraisk.52,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,C,429.52,430.34,0.82,ES2016a.C.dialog-act.vkaraisk.43,,,,,,,,,False, Just long.,2,task,Inform
+ES2016a,A,429.79,430.67,0.88,ES2016a.A.dialog-act.vkaraisk.53,,,,,,,,,False, Do we want,3,minor,Fragment
+ES2016a,A,430.67,433.48,2.81,ES2016a.A.dialog-act.vkaraisk.54,A,C,0.0,2.35,True,False,0.0,[],True, so they're kinda like long and rectangular.,7,task,Inform
+ES2016a,C,432.231,433.49,1.259,ES2016a.C.dialog-act.vkaraisk.44,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,A,433.48,435.46,1.98,ES2016a.A.dialog-act.vkaraisk.55,A,A,0.29,0.0,False,False,0.0,[],False, Do we want something crazy?,5,elicit,Elicit-Assessment
+ES2016a,C,433.49,434.18,0.69,ES2016a.C.dialog-act.vkaraisk.45,,,,,,,,,False, Black usually.,2,task,Inform
+ES2016a,A,435.46,435.75,0.29,ES2016a.A.dialog-act.vkaraisk.56,,,,,,,,,False," You know,",2,minor,Stall
+ES2016a,C,435.67,436.14,0.47,ES2016a.C.dialog-act.vkaraisk.46,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,A,435.75,438.63,2.88,ES2016a.A.dialog-act.vkaraisk.57,C,A,2.82,0.29,False,False,0.0,[],False, we want something new that's gonna stand out.,8,elicit,Elicit-Assessment
+ES2016a,D,436.86,438.18,1.32,ES2016a.D.dialog-act.vkaraisk.24,,,,,,,,,False, Lot more modern.,3,task,Suggest
+ES2016a,C,438.56,439.17,0.61,ES2016a.C.dialog-act.vkaraisk.47,,,,,,,,,False, I think so.,3,task,Assess
+ES2016a,A,438.63,441.904,3.274,ES2016a.A.dialog-act.vkaraisk.58,,,,,,,,,False, A m a modern so our remote should be,9,minor,Fragment
+ES2016a,C,441.45,443.98,2.53,ES2016a.C.dialog-act.vkaraisk.48,D,A,4.22,2.82,True,False,0.0,[],True, Maybe sorta spherical or something. A ball.,7,task,Suggest
+ES2016a,B,442.744,443.616,0.872,ES2016a.B.dialog-act.vkaraisk.15,,,,,,,,,False,,0,minor,Fragment
+ES2016a,D,444.77,445.97,1.2,ES2016a.D.dialog-act.vkaraisk.25,,,,,,,,,False," Maybe like user-friendly,",3,task,Suggest
+ES2016a,D,445.97,446.62,0.65,ES2016a.D.dialog-act.vkaraisk.26,,,,,,,,,False, like a little,3,minor,Fragment
+ES2016a,C,447.13,447.54,0.41,ES2016a.C.dialog-act.vkaraisk.49,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,D,447.99,448.2,0.21,ES2016a.D.dialog-act.vkaraisk.27,,,,,,,,,False," you know,",2,minor,Stall
+ES2016a,D,448.2,450.73,2.53,ES2016a.D.dialog-act.vkaraisk.28,C,C,0.32,4.22,True,False,0.0,[],True," where you can use both hands, like a little keyboard type thing.",12,task,Suggest
+ES2016a,C,450.25,451.05,0.8,ES2016a.C.dialog-act.vkaraisk.50,,,,,,,,,False, People,1,minor,Fragment
+ES2016a,B,450.95,451.35,0.4,ES2016a.B.dialog-act.vkaraisk.16,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2016a,C,451.05,456.49,5.44,ES2016a.C.dialog-act.vkaraisk.51,C,D,0.0,0.32,True,False,0.0,[],True," I thought maybe, because people always tend to throw a remote control about the place to one another",18,task,Inform
+ES2016a,C,456.49,458.48,1.99,ES2016a.C.dialog-act.vkaraisk.52,C,C,0.0,0.0,False,False,0.0,[],False," if it was in a ball,",6,task,Suggest
+ES2016a,C,458.48,460.79,2.31,ES2016a.C.dialog-act.vkaraisk.53,B,C,1.87,0.0,False,False,0.0,[],False, and maybe the actual controls are inside or something.,9,task,Suggest
+ES2016a,A,458.87,459.58,0.71,ES2016a.A.dialog-act.vkaraisk.59,,,,,,,,,False, 'Kay.,1,other,Comment-About-Understanding
+ES2016a,D,461.61,461.77,0.16,ES2016a.D.dialog-act.vkaraisk.29,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2016a,A,462.17,462.45,0.28,ES2016a.A.dialog-act.vkaraisk.60,,,,,,,,,False, Um.,1,minor,Backchannel
+ES2016a,B,462.5,462.66,0.16,ES2016a.B.dialog-act.vkaraisk.17,,,,,,,,,False, Well,1,minor,Stall
+ES2016a,B,462.66,464.43,1.77,ES2016a.B.dialog-act.vkaraisk.18,B,C,0.0,1.87,True,False,0.0,[],True," there are of course certain restrictions,",6,task,Inform
+ES2016a,B,464.43,469.53,5.1,ES2016a.B.dialog-act.vkaraisk.19,B,B,0.0,0.0,False,False,0.0,[],False," you can't have it be any form and fulfil all functions at the same time,",15,task,Inform
+ES2016a,C,468.84,469.12,0.28,ES2016a.C.dialog-act.vkaraisk.54,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2016a,B,469.53,471.48,1.95,ES2016a.B.dialog-act.vkaraisk.20,B,B,0.0,0.0,False,False,0.0,[],False, so there are always the some restrictions,7,task,Inform
+ES2016a,B,471.48,473.95,2.47,ES2016a.B.dialog-act.vkaraisk.21,B,B,0.0,0.0,False,False,0.0,[],False, we have to apply here.,5,task,Suggest
+ES2016a,B,473.95,479.86,5.91,ES2016a.B.dialog-act.vkaraisk.22,B,B,0.0,0.0,False,False,0.0,[],False," Um however um one question is how stable is that thing supposed to be,",14,elicit,Elicit-Offer-Or-Suggestion
+ES2016a,B,479.86,483.02,3.16,ES2016a.B.dialog-act.vkaraisk.23,B,B,0.0,0.0,False,False,0.0,[],False," that refers to the material, pretty much um.",8,task,Inform
+ES2016a,D,482.58,482.89,0.31,ES2016a.D.dialog-act.vkaraisk.30,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2016a,B,483.02,485.14,2.12,ES2016a.B.dialog-act.vkaraisk.24,B,B,0.0,0.0,False,False,0.0,[],False, What are we gonna build that thing out of?,9,elicit,Elicit-Offer-Or-Suggestion
+ES2016a,B,485.14,486.28,1.14,ES2016a.B.dialog-act.vkaraisk.25,B,B,0.0,0.0,False,False,0.0,[],False, How sturdy is it gonna be?,6,elicit,Elicit-Offer-Or-Suggestion
+ES2016a,B,486.28,490.64,4.36,ES2016a.B.dialog-act.vkaraisk.26,B,B,0.0,0.0,False,False,0.0,[],False, Do we want it to last longer,7,elicit,Elicit-Assessment
+ES2016a,B,490.64,492.99,2.35,ES2016a.B.dialog-act.vkaraisk.27,B,B,1.73,0.0,False,False,0.0,[],False, or rather have people,4,elicit,Elicit-Assessment
+ES2016a,B,494.72,497.94,3.22,ES2016a.B.dialog-act.vkaraisk.28,A,B,-0.94,1.73,False,True,0.94,['ES2016a.A.dialog-act.vkaraisk.62'],False," whatever, have to buy one every half a year?",9,elicit,Elicit-Assessment
+ES2016a,A,495.376,497.0,1.624,ES2016a.A.dialog-act.vkaraisk.61,,,,,,,,,False," Okay so yeah,",3,minor,Stall
+ES2016a,A,497.0,498.24,1.24,ES2016a.A.dialog-act.vkaraisk.62,A,B,0.0,-0.94,True,False,0.0,[],False," so we want it to be sturdy,",7,task,Suggest
+ES2016a,C,497.15,497.42,0.27,ES2016a.C.dialog-act.vkaraisk.55,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2016a,A,498.24,504.35,6.11,ES2016a.A.dialog-act.vkaraisk.63,A,A,0.0,0.0,False,False,0.0,[],False," we want it to to hold up to somebody's child, you know, throwing it across the room",17,task,Suggest
+ES2016a,A,504.35,505.3,0.95,ES2016a.A.dialog-act.vkaraisk.64,A,A,0.0,0.0,False,False,0.0,[],False," or, as you said,",4,task,Inform
+ES2016a,A,505.3,506.21,0.91,ES2016a.A.dialog-act.vkaraisk.65,A,A,0.0,0.0,False,False,0.0,[],False," people kinda throw it,",4,task,Inform
+ES2016a,A,506.21,511.26,5.05,ES2016a.A.dialog-act.vkaraisk.66,C,A,-0.1,0.0,False,True,0.1,['ES2016a.C.dialog-act.vkaraisk.57'],False," so ball-shaped, uh you know, if it were ball-shaped maybe,",10,task,Suggest
+ES2016a,C,506.33,506.64,0.31,ES2016a.C.dialog-act.vkaraisk.56,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2016a,C,511.16,512.34,1.18,ES2016a.C.dialog-act.vkaraisk.57,C,A,0.0,-0.1,True,False,0.0,[],False, It could be cased on the outside,7,task,Suggest
+ES2016a,A,511.26,511.504,0.244,ES2016a.A.dialog-act.vkaraisk.67,,,,,,,,,False, then it,2,minor,Fragment
+ES2016a,C,512.34,514.33,1.99,ES2016a.C.dialog-act.vkaraisk.58,A,C,4.12,0.0,False,False,0.0,[],False, and t everything could be inside.,6,task,Suggest
+ES2016a,A,514.46,516.28,1.82,ES2016a.A.dialog-act.vkaraisk.68,,,,,,,,,False, 'Kay.,1,other,Comment-About-Understanding
+ES2016a,A,516.28,518.45,2.17,ES2016a.A.dialog-act.vkaraisk.69,,,,,,,,,False, Um so,2,minor,Stall
+ES2016a,A,518.45,521.64,3.19,ES2016a.A.dialog-act.vkaraisk.70,A,C,7.01,4.12,True,False,0.0,[],True," we want it to be modern, fun, sturdy,",8,task,Suggest
+ES2016a,A,523.88,524.928,1.048,ES2016a.A.dialog-act.vkaraisk.71,,,,,,,,,False, um,1,minor,Stall
+ES2016a,A,528.65,530.83,2.18,ES2016a.A.dialog-act.vkaraisk.72,A,A,0.0,7.01,False,False,0.0,[],False, So our form and our function.,6,task,Inform
+ES2016a,A,530.83,539.44,8.61,ES2016a.A.dialog-act.vkaraisk.73,A,A,20.17,0.0,False,False,0.0,[],False, Um we want it to be um easy to find.,10,task,Suggest
+ES2016a,A,553.47,557.616,4.146,ES2016a.A.dialog-act.vkaraisk.74,,,,,,,,,False, Um,1,minor,Stall
+ES2016a,A,559.61,566.09,6.48,ES2016a.A.dialog-act.vkaraisk.75,A,A,0.0,20.17,False,False,0.0,[],False, What else it what else do we want it to to do?,12,task,Inform
+ES2016a,A,566.09,569.71,3.62,ES2016a.A.dialog-act.vkaraisk.76,A,A,2.79,0.0,False,False,0.0,[],False, So we want it to be universal.,7,task,Inform
+ES2016a,A,572.5,577.45,4.95,ES2016a.A.dialog-act.vkaraisk.77,A,A,6.05,2.79,False,False,0.0,[],False, It's something that we're supposed to sell for about twenty five Euros,12,task,Inform
+ES2016a,A,577.45,583.5,6.05,ES2016a.A.dialog-act.vkaraisk.78,,,,,,,,,False," um and you know,",4,minor,Stall
+ES2016a,A,583.5,591.13,7.63,ES2016a.A.dialog-act.vkaraisk.79,D,A,4.94,6.05,False,False,0.0,[],False," goals for profits are I think somewhere around uh fifty million Euros, what they wanna make on it, so.",19,task,Inform
+ES2016a,D,591.24,591.45,0.21,ES2016a.D.dialog-act.vkaraisk.31,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2016a,D,596.07,600.37,4.3,ES2016a.D.dialog-act.vkaraisk.32,D,A,0.0,4.94,True,False,0.0,[],True," Also since we're partners of the International Remote Control Association,",10,task,Inform
+ES2016a,D,600.37,603.73,3.36,ES2016a.D.dialog-act.vkaraisk.33,D,D,1.7,0.0,False,False,0.0,[],False, maybe we wanna make it something that would globally appeal.,10,task,Suggest
+ES2016a,A,604.37,604.73,0.36,ES2016a.A.dialog-act.vkaraisk.80,,,,,,,,,False, 'Kay.,1,task,Assess
+ES2016a,D,605.43,608.23,2.8,ES2016a.D.dialog-act.vkaraisk.34,A,D,7.99,1.7,False,False,0.0,[],False," That's more on the research end, but the marketing.",9,task,Inform
+ES2016a,A,609.92,611.22,1.3,ES2016a.A.dialog-act.vkaraisk.81,,,,,,,,,False," So marketing,",2,minor,Fragment
+ES2016a,A,611.22,612.73,1.51,ES2016a.A.dialog-act.vkaraisk.82,,,,,,,,,False," you know,",2,minor,Stall
+ES2016a,A,612.73,614.72,1.99,ES2016a.A.dialog-act.vkaraisk.83,,,,,,,,,False, how maybe uh,3,minor,Fragment
+ES2016a,A,616.22,625.62,9.4,ES2016a.A.dialog-act.vkaraisk.84,D,D,2.04,7.99,True,False,0.0,[],True," marketing, you could s find out what is the most universally um appealing remote control out there.",17,task,Suggest
+ES2016a,D,624.609,625.98,1.371,ES2016a.D.dialog-act.vkaraisk.35,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,B,627.544,628.244,0.7,ES2016a.B.dialog-act.vkaraisk.29,,,,,,,,,False,,0,minor,Fragment
+ES2016a,D,627.66,633.95,6.29,ES2016a.D.dialog-act.vkaraisk.36,D,A,0.0,2.04,True,False,0.0,[],True," And maybe as far as design goes, maybe we could have different ones for different target audiences,",17,task,Suggest
+ES2016a,A,633.83,634.23,0.4,ES2016a.A.dialog-act.vkaraisk.85,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+ES2016a,D,633.95,638.4,4.45,ES2016a.D.dialog-act.vkaraisk.37,A,D,26.72,0.0,False,False,0.0,[],False, 'cause maybe one won't apply to all of the countries we're targeting.,12,task,Inform
+ES2016a,C,634.46,634.57,0.11,ES2016a.C.dialog-act.vkaraisk.59,,,,,,,,,False, Ye,1,minor,Fragment
+ES2016a,C,636.06,636.48,0.42,ES2016a.C.dialog-act.vkaraisk.60,,,,,,,,,False, Small.,1,other,Other
+ES2016a,B,640.04,640.57,0.53,ES2016a.B.dialog-act.vkaraisk.30,,,,,,,,,False, Right.,1,other,Comment-About-Understanding
+ES2016a,A,650.33,663.856,13.526,ES2016a.A.dialog-act.vkaraisk.86,,,,,,,,,False, Um,1,minor,Stall
+ES2016a,A,665.12,667.28,2.16,ES2016a.A.dialog-act.vkaraisk.87,A,D,0.0,26.72,True,False,0.0,[],True, Do you guys have any ideas for what it should look like?,12,elicit,Elicit-Offer-Or-Suggestion
+ES2016a,A,667.28,670.44,3.16,ES2016a.A.dialog-act.vkaraisk.88,A,A,5.78,0.0,False,False,0.0,[],False, Maybe we could draw it up on the on the board over there.,13,task,Suggest
+ES2016a,A,670.44,671.48,1.04,ES2016a.A.dialog-act.vkaraisk.89,,,,,,,,,False, Some ideas?,2,elicit,Elicit-Offer-Or-Suggestion
+ES2016a,A,676.22,678.65,2.43,ES2016a.A.dialog-act.vkaraisk.90,C,A,-0.66,5.78,False,True,0.66,['ES2016a.C.dialog-act.vkaraisk.62'],False," We want it to be a b a ball,",9,task,Suggest
+ES2016a,C,677.008,677.99,0.982,ES2016a.C.dialog-act.vkaraisk.61,,,,,,,,,False, I'd,1,minor,Fragment
+ES2016a,C,677.99,679.97,1.98,ES2016a.C.dialog-act.vkaraisk.62,A,A,-0.85,-0.66,True,True,0.85,['ES2016a.A.dialog-act.vkaraisk.92'],False, I could draw sorta the ball idea.,7,other,Offer
+ES2016a,A,678.65,679.12,0.47,ES2016a.A.dialog-act.vkaraisk.91,,,,,,,,,False," you know,",2,minor,Stall
+ES2016a,A,679.12,680.81,1.69,ES2016a.A.dialog-act.vkaraisk.92,A,C,0.0,-0.85,True,False,0.0,[],False, we'll draw up we'll draw up the ball,8,task,Suggest
+ES2016a,A,680.81,684.14,3.33,ES2016a.A.dialog-act.vkaraisk.93,C,A,4.93,0.0,False,False,0.0,[],False, and maybe th um where the buttons are located.,9,task,Suggest
+ES2016a,C,689.07,695.44,6.37,ES2016a.C.dialog-act.vkaraisk.63,C,A,4.12,4.93,True,False,0.0,[],True," My original idea was just simply sort of a sphere,",10,task,Inform
+ES2016a,C,695.44,696.321,0.881,ES2016a.C.dialog-act.vkaraisk.64,,,,,,,,,False, where maybe you,3,minor,Fragment
+ES2016a,C,699.56,701.62,2.06,ES2016a.C.dialog-act.vkaraisk.65,C,C,0.0,4.12,False,False,0.0,[],False," this is where it's connected together,",6,task,Suggest
+ES2016a,C,701.62,706.1,4.48,ES2016a.C.dialog-act.vkaraisk.66,C,C,4.56,0.0,False,False,0.0,[],False," and then when you open it out, it could fol it could be maybe flip, like a flip phone,",19,task,Suggest
+ES2016a,C,706.1,708.368,2.268,ES2016a.C.dialog-act.vkaraisk.67,,,,,,,,,False, and then when you fold it out the middle,9,minor,Fragment
+ES2016a,C,710.66,713.35,2.69,ES2016a.C.dialog-act.vkaraisk.68,C,C,2.68,4.56,False,False,0.0,[],False, Maybe a hinge that'll have to be the strongest part of it.,12,task,Suggest
+ES2016a,C,713.35,716.03,2.68,ES2016a.C.dialog-act.vkaraisk.69,,,,,,,,,False," If that if we did use a hinge, or if it was just two parts,",15,minor,Fragment
+ES2016a,B,715.472,716.603,1.131,ES2016a.B.dialog-act.vkaraisk.31,,,,,,,,,False,,0,minor,Fragment
+ES2016a,C,716.03,716.75,0.72,ES2016a.C.dialog-act.vkaraisk.70,C,C,1.27,2.68,False,False,0.0,[],False, and then you'd have,4,task,Suggest
+ES2016a,C,718.02,719.92,1.9,ES2016a.C.dialog-act.vkaraisk.71,C,C,4.09,1.27,False,False,0.0,[],False," just sorta you you you know, your buttons.",8,task,Suggest
+ES2016a,C,722.69,724.01,1.32,ES2016a.C.dialog-act.vkaraisk.72,,,,,,,,,False, Thing is inside,3,minor,Fragment
+ES2016a,C,724.01,727.6,3.59,ES2016a.C.dialog-act.vkaraisk.73,C,C,0.0,4.09,False,False,0.0,[],False," I think, sometimes remotes have too many buttons,",8,task,Inform
+ES2016a,C,727.6,729.84,2.24,ES2016a.C.dialog-act.vkaraisk.74,C,C,0.0,0.0,False,False,0.0,[],False," so maybe as simple as possible,",6,task,Suggest
+ES2016a,C,729.84,731.67,1.83,ES2016a.C.dialog-act.vkaraisk.75,C,C,1.32,0.0,False,False,0.0,[],False, um as few buttons inside as possible.,7,task,Suggest
+ES2016a,C,732.99,736.12,3.13,ES2016a.C.dialog-act.vkaraisk.76,C,C,1.36,1.32,False,False,0.0,[],False," Um, I dunno, what's the idea for.",7,task,Assess
+ES2016a,C,736.12,737.48,1.36,ES2016a.C.dialog-act.vkaraisk.77,,,,,,,,,False, Just something maybe if you ha,6,minor,Fragment
+ES2016a,C,737.48,742.86,5.38,ES2016a.C.dialog-act.vkaraisk.78,C,C,0.0,1.36,False,False,0.0,[],False, if it had like if some kind of like light or something or lights around it.,16,task,Suggest
+ES2016a,C,742.86,746.18,3.32,ES2016a.C.dialog-act.vkaraisk.79,C,C,2.58,0.0,False,False,0.0,[],False," It's looking a bit like something out of Star Wars at the moment though, to be fair.",17,other,Be-Positive
+ES2016a,D,744.752,745.552,0.8,ES2016a.D.dialog-act.vkaraisk.38,,,,,,,,,False,,0,minor,Fragment
+ES2016a,A,746.064,747.712,1.648,ES2016a.A.dialog-act.vkaraisk.94,,,,,,,,,False,,0,minor,Fragment
+ES2016a,C,746.18,746.73,0.55,ES2016a.C.dialog-act.vkaraisk.80,,,,,,,,,False, But yeah.,2,task,Inform
+ES2016a,D,746.51,747.6,1.09,ES2016a.D.dialog-act.vkaraisk.39,,,,,,,,,False, Futuristic.,1,task,Assess
+ES2016a,D,747.979,748.8,0.821,ES2016a.D.dialog-act.vkaraisk.41,,,,,,,,,False,,0,minor,Fragment
+ES2016a,C,748.76,750.76,2.0,ES2016a.C.dialog-act.vkaraisk.81,C,C,3.86,2.58,False,False,0.0,[],False, That was that was a sorta simple idea I had,10,task,Inform
+ES2016a,B,748.804,749.547,0.743,ES2016a.B.dialog-act.vkaraisk.32,,,,,,,,,False,,0,minor,Fragment
+ES2016a,A,750.15,750.52,0.37,ES2016a.A.dialog-act.vkaraisk.95,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+ES2016a,C,750.76,752.91,2.15,ES2016a.C.dialog-act.vkaraisk.82,,,,,,,,,False, and then you know you could about,7,minor,Fragment
+ES2016a,C,753.81,754.62,0.81,ES2016a.C.dialog-act.vkaraisk.83,,,,,,,,,False," Right,",1,minor,Stall
+ES2016a,C,754.62,756.01,1.39,ES2016a.C.dialog-act.vkaraisk.84,C,C,0.0,3.86,False,False,0.0,[],False, it would almost be like a ball.,7,task,Inform
+ES2016a,C,756.01,758.55,2.54,ES2016a.C.dialog-act.vkaraisk.85,C,C,0.0,0.0,False,False,0.0,[],False, So that was just just an idea I had.,9,task,Inform
+ES2016a,C,758.55,760.86,2.31,ES2016a.C.dialog-act.vkaraisk.86,B,C,3.25,0.0,False,False,0.0,[],False, I don't know whether anybody else has other ideas?,9,elicit,Elicit-Offer-Or-Suggestion
+ES2016a,B,761.55,761.89,0.34,ES2016a.B.dialog-act.vkaraisk.33,,,,,,,,,False, Right.,1,minor,Stall
+ES2016a,B,761.89,764.11,2.22,ES2016a.B.dialog-act.vkaraisk.34,,,,,,,,,False, One problem you'd get with this design is,8,minor,Fragment
+ES2016a,B,764.11,765.76,1.65,ES2016a.B.dialog-act.vkaraisk.35,B,C,0.0,3.25,True,False,0.0,[],True, um the ball is a nice idea,7,task,Assess
+ES2016a,B,765.76,767.68,1.92,ES2016a.B.dialog-act.vkaraisk.36,B,B,0.0,0.0,False,False,0.0,[],False," because of it's stability really,",5,task,Inform
+ES2016a,C,767.04,767.26,0.22,ES2016a.C.dialog-act.vkaraisk.87,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2016a,B,767.68,770.04,2.36,ES2016a.B.dialog-act.vkaraisk.37,B,B,0.83,0.0,False,False,0.0,[],False," but of course, since it's a ball,",7,task,Inform
+ES2016a,B,770.04,770.87,0.83,ES2016a.B.dialog-act.vkaraisk.38,,,,,,,,,False," it'll roll,",2,task,Assess
+ES2016a,B,770.87,775.06,4.19,ES2016a.B.dialog-act.vkaraisk.39,B,B,0.0,0.83,False,False,0.0,[],False," so we'd have to have it flat on one side at least, down here somewhere,",15,task,Suggest
+ES2016a,C,770.95,771.19,0.24,ES2016a.C.dialog-act.vkaraisk.88,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2016a,C,772.76,773.46,0.7,ES2016a.C.dialog-act.vkaraisk.89,,,,,,,,,False, Maybe f yeah.,3,task,Assess
+ES2016a,B,775.06,776.46,1.4,ES2016a.B.dialog-act.vkaraisk.40,B,B,0.0,0.0,False,False,0.0,[],False, take away that part.,4,task,Suggest
+ES2016a,B,776.46,778.81,2.35,ES2016a.B.dialog-act.vkaraisk.41,C,B,-0.19,0.0,False,True,0.19,['ES2016a.C.dialog-act.vkaraisk.90'],False, That's one of the big issues.,6,task,Inform
+ES2016a,C,778.62,779.76,1.14,ES2016a.C.dialog-act.vkaraisk.90,B,B,-0.95,-0.19,True,True,0.95,['ES2016a.B.dialog-act.vkaraisk.42'],False," Yeah, that's g that's a good idea.",7,task,Assess
+ES2016a,B,778.81,783.08,4.27,ES2016a.B.dialog-act.vkaraisk.42,C,C,-0.3,-0.95,True,True,0.3,['ES2016a.C.dialog-act.vkaraisk.93'],False, Also also you risk the hinges here. That's that's um a problem.,12,task,Assess
+ES2016a,C,781.43,782.42,0.99,ES2016a.C.dialog-act.vkaraisk.91,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,C,782.42,782.78,0.36,ES2016a.C.dialog-act.vkaraisk.92,,,,,,,,,False, The idea,2,minor,Fragment
+ES2016a,C,782.78,785.29,2.51,ES2016a.C.dialog-act.vkaraisk.93,B,B,-1.018,-0.3,True,True,1.018,['ES2016a.B.dialog-act.vkaraisk.43'],False," it didn't have to necessarily be f a hinge,",9,task,Suggest
+ES2016a,B,784.272,789.69,5.418,ES2016a.B.dialog-act.vkaraisk.43,C,C,-4.4,-1.018,True,True,1.15,['ES2016a.C.dialog-act.vkaraisk.94'],False," That's that's interesting of course,",5,task,Assess
+ES2016a,C,785.29,786.44,1.15,ES2016a.C.dialog-act.vkaraisk.94,B,B,3.25,-4.4,True,False,0.0,[],False, that was just one idea though.,6,task,Inform
+ES2016a,B,789.69,792.19,2.5,ES2016a.B.dialog-act.vkaraisk.44,A,C,11.45,3.25,True,False,0.0,[],True," but that's of course a weak point, yeah.",8,task,Assess
+ES2016a,C,791.98,792.37,0.39,ES2016a.C.dialog-act.vkaraisk.95,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,D,794.144,797.104,2.96,ES2016a.D.dialog-act.vkaraisk.42,,,,,,,,,False,,0,minor,Fragment
+ES2016a,A,803.64,810.96,7.32,ES2016a.A.dialog-act.vkaraisk.96,A,B,0.3,11.45,True,False,0.0,[],True, How would we go about um making you know getting rid of our weak points?,15,elicit,Elicit-Offer-Or-Suggestion
+ES2016a,A,810.96,811.26,0.3,ES2016a.A.dialog-act.vkaraisk.97,,,,,,,,,False, What,1,minor,Fragment
+ES2016a,A,811.26,817.05,5.79,ES2016a.A.dialog-act.vkaraisk.98,A,A,0.0,0.3,False,False,0.0,[],False, I mean would we just have a flat spot on the bottom of the ball?,15,elicit,Elicit-Assessment
+ES2016a,D,814.64,816.525,1.885,ES2016a.D.dialog-act.vkaraisk.43,,,,,,,,,False,,0,minor,Fragment
+ES2016a,C,814.81,815.856,1.046,ES2016a.C.dialog-act.vkaraisk.96,,,,,,,,,False,,0,minor,Fragment
+ES2016a,A,817.05,818.91,1.86,ES2016a.A.dialog-act.vkaraisk.99,A,A,3.53,0.0,False,False,0.0,[],False," Not to put you on the spot,",7,other,Be-Positive
+ES2016a,B,817.324,818.29,0.966,ES2016a.B.dialog-act.vkaraisk.45,,,,,,,,,False, E,1,minor,Fragment
+ES2016a,B,818.29,819.16,0.87,ES2016a.B.dialog-act.vkaraisk.46,,,,,,,,,False," No no,",2,other,Be-Positive
+ES2016a,A,818.91,819.552,0.642,ES2016a.A.dialog-act.vkaraisk.100,,,,,,,,,False, but,1,minor,Fragment
+ES2016a,B,819.16,820.33,1.17,ES2016a.B.dialog-act.vkaraisk.47,,,,,,,,,False, uh uh.,2,minor,Stall
+ES2016a,A,822.44,824.1,1.66,ES2016a.A.dialog-act.vkaraisk.101,B,A,0.93,3.53,False,False,0.0,[],False, What did you say your title was again?,8,elicit,Elicit-Inform
+ES2016a,B,823.08,823.81,0.73,ES2016a.B.dialog-act.vkaraisk.48,,,,,,,,,False, N n,2,minor,Fragment
+ES2016a,D,823.934,825.78,1.846,ES2016a.D.dialog-act.vkaraisk.44,,,,,,,,,False,,0,minor,Fragment
+ES2016a,B,825.03,827.69,2.66,ES2016a.B.dialog-act.vkaraisk.49,A,A,-2.28,0.93,True,True,2.28,['ES2016a.A.dialog-act.vkaraisk.102'],True," Uh, I'm your Industrial Designer,",5,task,Inform
+ES2016a,A,825.41,828.19,2.78,ES2016a.A.dialog-act.vkaraisk.102,B,B,14.48,-2.28,True,False,0.0,[],False, You're the the Industrial Designer.,5,other,Comment-About-Understanding
+ES2016a,D,827.048,828.233,1.185,ES2016a.D.dialog-act.vkaraisk.45,,,,,,,,,False,,0,minor,Fragment
+ES2016a,B,827.69,830.98,3.29,ES2016a.B.dialog-act.vkaraisk.50,,,,,,,,,False," so i b well,",4,minor,Stall
+ES2016a,A,829.769,831.57,1.801,ES2016a.A.dialog-act.vkaraisk.103,,,,,,,,,False,,0,minor,Fragment
+ES2016a,B,830.98,831.87,0.89,ES2016a.B.dialog-act.vkaraisk.51,,,,,,,,,False, the point is,3,minor,Fragment
+ES2016a,B,833.52,836.56,3.04,ES2016a.B.dialog-act.vkaraisk.52,,,,,,,,,False, that,1,minor,Fragment
+ES2016a,B,839.43,839.81,0.38,ES2016a.B.dialog-act.vkaraisk.53,,,,,,,,,False, well,1,minor,Stall
+ES2016a,B,839.81,842.67,2.86,ES2016a.B.dialog-act.vkaraisk.54,,,,,,,,,False, maybe I dunno.,3,task,Inform
+ES2016a,B,842.67,845.65,2.98,ES2016a.B.dialog-act.vkaraisk.55,B,A,0.0,14.48,True,False,0.0,[],True, The shape is perhaps not the most ideal.,8,task,Assess
+ES2016a,A,845.28,845.6,0.32,ES2016a.A.dialog-act.vkaraisk.104,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2016a,B,845.65,847.42,1.77,ES2016a.B.dialog-act.vkaraisk.56,B,B,0.0,0.0,False,False,0.0,[],False," As as stable as it is,",6,task,Assess
+ES2016a,B,847.42,854.05,6.63,ES2016a.B.dialog-act.vkaraisk.57,C,B,-3.45,0.0,False,True,2.96,['ES2016a.C.dialog-act.vkaraisk.98'],False," there must be a compromise between um stability and design here, so.",12,task,Suggest
+ES2016a,C,850.47,850.6,0.13,ES2016a.C.dialog-act.vkaraisk.97,,,,,,,,,False, Well,1,minor,Stall
+ES2016a,C,850.6,853.56,2.96,ES2016a.C.dialog-act.vkaraisk.98,C,B,1.44,-3.45,True,False,0.0,[],False, I I suppose that things become design.,7,task,Inform
+ES2016a,D,853.14,854.992,1.852,ES2016a.D.dialog-act.vkaraisk.46,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2016a,C,853.56,854.08,0.52,ES2016a.C.dialog-act.vkaraisk.99,,,,,,,,,False, But I mean i,4,minor,Fragment
+ES2016a,C,855.0,857.58,2.58,ES2016a.C.dialog-act.vkaraisk.100,C,C,0.0,1.44,False,False,0.0,[],False, I was trying to think of like the design of others.,11,task,Inform
+ES2016a,C,857.58,860.82,3.24,ES2016a.C.dialog-act.vkaraisk.101,C,C,0.0,0.0,False,False,0.0,[],False," I can't think of anything other than a long rectangle for remote,",12,task,Inform
+ES2016a,A,859.712,863.4,3.688,ES2016a.A.dialog-act.vkaraisk.105,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,C,860.82,862.46,1.64,ES2016a.C.dialog-act.vkaraisk.102,C,C,0.0,0.0,False,False,0.0,[],False," maybe small, sort of fatter ones,",6,task,Inform
+ES2016a,C,862.46,867.29,4.83,ES2016a.C.dialog-act.vkaraisk.103,A,C,1.46,0.0,False,False,0.0,[],False," but there's nothing being done sort of out of left field, yeah.",12,task,Inform
+ES2016a,A,865.98,866.68,0.7,ES2016a.A.dialog-act.vkaraisk.106,,,,,,,,,False," It's not new,",3,task,Assess
+ES2016a,A,866.68,867.59,0.91,ES2016a.A.dialog-act.vkaraisk.107,,,,,,,,,False," it's not innovative,",3,task,Assess
+ES2016a,A,867.59,868.13,0.54,ES2016a.A.dialog-act.vkaraisk.108,,,,,,,,,False, it's,1,minor,Stall
+ES2016a,A,868.13,868.75,0.62,ES2016a.A.dialog-act.vkaraisk.109,,,,,,,,,False," you know,",2,minor,Stall
+ES2016a,A,868.75,869.9,1.15,ES2016a.A.dialog-act.vkaraisk.110,A,C,1.44,1.46,True,False,0.0,[],True, everybody does long remote,4,task,Inform
+ES2016a,A,869.9,871.34,1.44,ES2016a.A.dialog-act.vkaraisk.111,,,,,,,,,False," because it's easy,",3,task,Inform
+ES2016a,C,870.25,870.56,0.31,ES2016a.C.dialog-act.vkaraisk.104,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,A,871.34,873.88,2.54,ES2016a.A.dialog-act.vkaraisk.112,D,A,8.26,1.44,False,False,0.0,[],False, it's it's stable um.,4,task,Inform
+ES2016a,D,876.06,876.32,0.26,ES2016a.D.dialog-act.vkaraisk.47,,,,,,,,,False," 'Kay,",1,minor,Stall
+ES2016a,D,876.32,878.34,2.02,ES2016a.D.dialog-act.vkaraisk.48,,,,,,,,,False, I'll draw something.,3,other,Offer
+ES2016a,A,877.3,879.29,1.99,ES2016a.A.dialog-act.vkaraisk.113,,,,,,,,,False, So if,2,minor,Fragment
+ES2016a,D,878.34,882.14,3.8,ES2016a.D.dialog-act.vkaraisk.49,,,,,,,,,False, What?,1,elicit,Elicit-Inform
+ES2016a,A,879.29,879.53,0.24,ES2016a.A.dialog-act.vkaraisk.114,,,,,,,,,False," no,",1,task,Inform
+ES2016a,A,879.53,880.25,0.72,ES2016a.A.dialog-act.vkaraisk.115,,,,,,,,,False, go ahead.,2,task,Suggest
+ES2016a,D,882.14,886.81,4.67,ES2016a.D.dialog-act.vkaraisk.50,D,A,1.26,8.26,True,False,0.0,[],True, My idea was just to have it be kind of like a,12,task,Suggest
+ES2016a,D,888.07,890.89,2.82,ES2016a.D.dialog-act.vkaraisk.51,D,D,2.43,1.26,False,False,0.0,[],False," keyboard type shape, you know, like video games",8,task,Suggest
+ES2016a,C,890.26,890.54,0.28,ES2016a.C.dialog-act.vkaraisk.105,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2016a,D,890.89,892.04,1.15,ES2016a.D.dialog-act.vkaraisk.52,,,,,,,,,False, l so.,2,minor,Fragment
+ES2016a,D,892.04,893.32,1.28,ES2016a.D.dialog-act.vkaraisk.53,,,,,,,,,False, But maybe,2,minor,Fragment
+ES2016a,D,893.32,894.82,1.5,ES2016a.D.dialog-act.vkaraisk.54,D,D,0.0,2.43,False,False,0.0,[],False, I mean that would be kinda big and bulky.,9,task,Assess
+ES2016a,D,894.82,897.15,2.33,ES2016a.D.dialog-act.vkaraisk.55,D,D,0.0,0.0,False,False,0.0,[],False," We could also try to do the hinge thing,",9,task,Suggest
+ES2016a,D,897.15,900.42,3.27,ES2016a.D.dialog-act.vkaraisk.56,C,D,5.03,0.0,False,False,0.0,[],False, so it could like flip out that way.,8,task,Suggest
+ES2016a,D,900.42,901.11,0.69,ES2016a.D.dialog-act.vkaraisk.57,,,,,,,,,False, I don't know.,3,task,Assess
+ES2016a,D,902.609,904.63,2.021,ES2016a.D.dialog-act.vkaraisk.58,,,,,,,,,False, That's my idea.,3,task,Inform
+ES2016a,C,905.45,907.44,1.99,ES2016a.C.dialog-act.vkaraisk.106,C,D,1.26,5.03,True,False,0.0,[],True, I think definitely doing something different,6,task,Assess
+ES2016a,D,907.7,908.09,0.39,ES2016a.D.dialog-act.vkaraisk.59,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,C,908.7,909.49,0.79,ES2016a.C.dialog-act.vkaraisk.107,C,C,19.59,1.26,False,False,0.0,[],False, is a good idea.,4,task,Assess
+ES2016a,B,921.04,921.22,0.18,ES2016a.B.dialog-act.vkaraisk.58,,,,,,,,,False, Mm.,1,other,Other
+ES2016a,C,922.18,928.11,5.93,ES2016a.C.dialog-act.vkaraisk.108,,,,,,,,,False," I mean maybe design something, that's sort of like",9,minor,Fragment
+ES2016a,C,929.08,931.01,1.93,ES2016a.C.dialog-act.vkaraisk.109,C,C,0.0,19.59,False,False,0.0,[],False," suppose not everybody's everybody's hand's the same,",7,task,Inform
+ES2016a,C,931.01,933.34,2.33,ES2016a.C.dialog-act.vkaraisk.110,A,C,0.14,0.0,False,False,0.0,[],False, but something that would maybe fit in the hand easier.,10,task,Suggest
+ES2016a,A,933.48,934.57,1.09,ES2016a.A.dialog-act.vkaraisk.116,C,C,-0.02,0.14,True,True,0.02,['ES2016a.C.dialog-act.vkaraisk.111'],True, Something with a grip.,4,task,Suggest
+ES2016a,D,933.59,934.96,1.37,ES2016a.D.dialog-act.vkaraisk.60,,,,,,,,,False, Mm. Yeah.,2,task,Assess
+ES2016a,C,934.55,935.44,0.89,ES2016a.C.dialog-act.vkaraisk.111,A,A,6.22,-0.02,True,False,0.0,[],False," Yeah, with a grip.",4,task,Assess
+ES2016a,A,939.154,941.66,2.506,ES2016a.A.dialog-act.vkaraisk.117,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,A,941.66,943.73,2.07,ES2016a.A.dialog-act.vkaraisk.118,C,C,1.79,6.22,True,False,0.0,[],True, Because even I suppose even with the ball,8,task,Assess
+ES2016a,C,944.44,945.52,1.08,ES2016a.C.dialog-act.vkaraisk.112,,,,,,,,,False, It still might be hard to,6,minor,Fragment
+ES2016a,A,945.49,946.02,0.53,ES2016a.A.dialog-act.vkaraisk.119,,,,,,,,,False, it's,1,minor,Fragment
+ES2016a,C,945.52,947.97,2.45,ES2016a.C.dialog-act.vkaraisk.113,A,A,-1.95,1.79,True,True,1.95,['ES2016a.A.dialog-act.vkaraisk.120'],True," it still not the ho easiest thing to hold, yeah.",10,task,Assess
+ES2016a,A,946.02,949.35,3.33,ES2016a.A.dialog-act.vkaraisk.120,A,C,2.35,-1.95,True,False,0.0,[],False, it might not be the easiest to hold onto um.,10,task,Assess
+ES2016a,B,948.85,948.89,0.04,ES2016a.B.dialog-act.vkaraisk.59,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2016a,A,951.7,959.62,7.92,ES2016a.A.dialog-act.vkaraisk.121,A,A,0.0,2.35,False,False,0.0,[],False, So perhaps the the joystick the the keyboard idea might work better.,12,task,Assess
+ES2016a,C,955.34,956.05,0.71,ES2016a.C.dialog-act.vkaraisk.114,,,,,,,,,False, Like,1,minor,Backchannel
+ES2016a,C,956.05,956.33,0.28,ES2016a.C.dialog-act.vkaraisk.115,,,,,,,,,False, yeah.,1,minor,Backchannel
+ES2016a,A,959.62,962.03,2.41,ES2016a.A.dialog-act.vkaraisk.122,A,A,0.0,0.0,False,False,0.0,[],False," But then again, people like to use one hand to flip",11,task,Inform
+ES2016a,A,962.03,964.84,2.81,ES2016a.A.dialog-act.vkaraisk.123,C,A,2.5,0.0,False,False,0.0,[],False," and one hand to hold their soda,",7,task,Inform
+ES2016a,D,964.56,965.63,1.07,ES2016a.D.dialog-act.vkaraisk.61,,,,,,,,,False, True.,1,task,Assess
+ES2016a,C,964.79,965.03,0.24,ES2016a.C.dialog-act.vkaraisk.116,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,A,964.84,967.447,2.607,ES2016a.A.dialog-act.vkaraisk.124,,,,,,,,,False, so maybe maybe we,4,minor,Fragment
+ES2016a,C,967.01,967.19,0.18,ES2016a.C.dialog-act.vkaraisk.117,,,,,,,,,False, It's d,2,minor,Fragment
+ES2016a,C,967.19,967.34,0.15,ES2016a.C.dialog-act.vkaraisk.118,,,,,,,,,False, yeah.,1,minor,Stall
+ES2016a,C,967.34,971.52,4.18,ES2016a.C.dialog-act.vkaraisk.119,A,A,2.86,2.5,True,False,0.0,[],True, I think it's definitely got to be a a one-handed a one-handed job.,13,task,Suggest
+ES2016a,D,970.28,970.69,0.41,ES2016a.D.dialog-act.vkaraisk.62,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2016a,A,974.38,976.7,2.32,ES2016a.A.dialog-act.vkaraisk.125,B,C,6.39,2.86,True,False,0.0,[],True, I feel like I'm just shooting everything down here.,9,other,Be-Negative
+ES2016a,D,976.07,978.61,2.54,ES2016a.D.dialog-act.vkaraisk.63,,,,,,,,,False, That's fine.,2,other,Be-Positive
+ES2016a,C,976.077,976.766,0.689,ES2016a.C.dialog-act.vkaraisk.120,,,,,,,,,False,,0,minor,Fragment
+ES2016a,A,976.7,978.688,1.988,ES2016a.A.dialog-act.vkaraisk.126,,,,,,,,,False, Uh um,2,minor,Stall
+ES2016a,D,978.61,979.2,0.59,ES2016a.D.dialog-act.vkaraisk.64,,,,,,,,,False," You're the boss,",3,task,Inform
+ES2016a,D,979.2,980.51,1.31,ES2016a.D.dialog-act.vkaraisk.65,,,,,,,,,False, you're allowed to.,3,other,Be-Positive
+ES2016a,B,982.89,983.09,0.2,ES2016a.B.dialog-act.vkaraisk.60,,,,,,,,,False, Well,1,minor,Stall
+ES2016a,B,983.09,986.89,3.8,ES2016a.B.dialog-act.vkaraisk.61,B,A,0.15,6.39,True,False,0.0,[],True, with the one-handed design you also have the the problem of the size,13,task,Assess
+ES2016a,B,986.89,987.04,0.15,ES2016a.B.dialog-act.vkaraisk.62,,,,,,,,,False, w,1,minor,Fragment
+ES2016a,B,987.04,989.85,2.81,ES2016a.B.dialog-act.vkaraisk.63,B,B,3.19,0.15,False,False,0.0,[],False," 'cause you know from cell phones, they can be too small.",11,task,Inform
+ES2016a,B,989.85,993.04,3.19,ES2016a.B.dialog-act.vkaraisk.64,,,,,,,,,False, So if the remote is too small it,8,minor,Fragment
+ES2016a,D,989.92,990.3,0.38,ES2016a.D.dialog-act.vkaraisk.66,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,A,990.47,990.81,0.34,ES2016a.A.dialog-act.vkaraisk.127,,,,,,,,,False, Yeah.,1,task,Inform
+ES2016a,B,993.04,995.08,2.04,ES2016a.B.dialog-act.vkaraisk.65,B,B,1.54,3.19,False,False,0.0,[],False," if it's small it probably looks better,",7,task,Assess
+ES2016a,B,995.08,995.26,0.18,ES2016a.B.dialog-act.vkaraisk.66,,,,,,,,,False, but,1,task,Assess
+ES2016a,B,996.62,997.93,1.31,ES2016a.B.dialog-act.vkaraisk.67,A,B,8.48,1.54,False,False,0.0,[],False, may not be th as functional.,6,task,Assess
+ES2016a,B,999.56,1000.496,0.936,ES2016a.B.dialog-act.vkaraisk.68,,,,,,,,,False, So for that there's,4,minor,Fragment
+ES2016a,A,1003.23,1006.41,3.18,ES2016a.A.dialog-act.vkaraisk.128,,,,,,,,,False," Okay, so",2,minor,Stall
+ES2016a,B,1004.94,1005.238,0.298,ES2016a.B.dialog-act.vkaraisk.69,,,,,,,,,False, So,1,minor,Fragment
+ES2016a,A,1006.41,1016.5,10.09,ES2016a.A.dialog-act.vkaraisk.129,A,B,0.0,8.48,True,False,0.0,[],True, unfortunately we've got about five minutes here to come up with our um remote control idea and start rolling with it.,21,task,Suggest
+ES2016a,A,1016.5,1019.31,2.81,ES2016a.A.dialog-act.vkaraisk.130,A,A,0.0,0.0,False,False,0.0,[],False, Um we've talked about our experiences with remote control,9,task,Inform
+ES2016a,A,1019.31,1025.64,6.33,ES2016a.A.dialog-act.vkaraisk.131,A,A,19.22,0.0,False,False,0.0,[],False, and um we've got a couple ideas um.,8,task,Inform
+ES2016a,A,1030.55,1031.92,1.37,ES2016a.A.dialog-act.vkaraisk.132,,,,,,,,,False, Let's see here.,3,other,Other
+ES2016a,A,1040.52,1044.86,4.34,ES2016a.A.dialog-act.vkaraisk.133,,,,,,,,,False, What if we had what if we had not only um,11,minor,Fragment
+ES2016a,A,1044.86,1048.2,3.34,ES2016a.A.dialog-act.vkaraisk.134,A,A,0.0,19.22,False,False,0.0,[],False, say we went with the ball the ball function,9,task,Suggest
+ES2016a,A,1048.2,1059.99,11.79,ES2016a.A.dialog-act.vkaraisk.135,A,A,0.0,0.0,False,False,0.0,[],False," um, but maybe we give it sort of grips along the side s um",14,task,Suggest
+ES2016a,A,1059.99,1063.72,3.73,ES2016a.A.dialog-act.vkaraisk.136,A,A,8.27,0.0,False,False,0.0,[],False, to make it easier to hold on to.,8,task,Assess
+ES2016a,A,1063.72,1071.99,8.27,ES2016a.A.dialog-act.vkaraisk.137,,,,,,,,,False, So you know um s so,6,minor,Stall
+ES2016a,C,1071.81,1072.2,0.39,ES2016a.C.dialog-act.vkaraisk.121,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2016a,A,1071.99,1074.04,2.05,ES2016a.A.dialog-act.vkaraisk.138,A,A,0.0,8.27,False,False,0.0,[],False, it's easier to hold onto that way.,7,task,Assess
+ES2016a,A,1074.04,1081.07,7.03,ES2016a.A.dialog-act.vkaraisk.139,A,A,1.61,0.0,False,False,0.0,[],False," Course that'll then remove some of our our ball. Unless this unless this part were raised,",16,task,Inform
+ES2016a,A,1081.07,1082.68,1.61,ES2016a.A.dialog-act.vkaraisk.140,,,,,,,,,False, so,1,minor,Stall
+ES2016a,A,1082.68,1084.12,1.44,ES2016a.A.dialog-act.vkaraisk.141,A,A,0.0,1.61,False,False,0.0,[],False, say the cover flips over,5,task,Suggest
+ES2016a,A,1084.12,1085.38,1.26,ES2016a.A.dialog-act.vkaraisk.142,A,A,4.6,0.0,False,False,0.0,[],False, and covers that part.,4,task,Suggest
+ES2016a,A,1086.48,1087.808,1.328,ES2016a.A.dialog-act.vkaraisk.143,,,,,,,,,False, So the grip is,4,minor,Fragment
+ES2016a,A,1089.98,1092.78,2.8,ES2016a.A.dialog-act.vkaraisk.144,A,A,3.94,4.6,False,False,0.0,[],False," No, that wouldn't work either um.",6,task,Assess
+ES2016a,A,1096.72,1102.02,5.3,ES2016a.A.dialog-act.vkaraisk.145,A,A,0.0,3.94,False,False,0.0,[],False," But if we're gonna make it flat on the bottom, then that eliminates our ball anyways.",16,task,Inform
+ES2016a,A,1102.02,1105.18,3.16,ES2016a.A.dialog-act.vkaraisk.146,A,A,0.0,0.0,False,False,0.0,[],False, So if it were flat on the bottom,8,task,Suggest
+ES2016a,A,1105.18,1110.26,5.08,ES2016a.A.dialog-act.vkaraisk.147,A,A,14.8,0.0,False,False,0.0,[],False," and then had the sorta grips on the side here I guess,",12,task,Suggest
+ES2016a,A,1113.1,1113.95,0.85,ES2016a.A.dialog-act.vkaraisk.149,,,,,,,,,False, um,1,minor,Stall
+ES2016a,A,1115.27,1118.724,3.454,ES2016a.A.dialog-act.vkaraisk.148,,,,,,,,,False, and then flat uh,4,minor,Fragment
+ES2016a,A,1125.06,1126.92,1.86,ES2016a.A.dialog-act.vkaraisk.150,A,A,1.37,14.8,False,False,0.0,[],False, And then we have the problem with the hinge.,9,task,Assess
+ES2016a,A,1128.29,1130.18,1.89,ES2016a.A.dialog-act.vkaraisk.151,A,A,0.0,1.37,False,False,0.0,[],False," So if we're flat on the bottom, it's not gonna roll away,",12,task,Inform
+ES2016a,A,1130.18,1131.21,1.03,ES2016a.A.dialog-act.vkaraisk.152,B,A,1.11,0.0,False,False,0.0,[],False, it'll stay where we want.,5,task,Inform
+ES2016a,B,1132.32,1138.04,5.72,ES2016a.B.dialog-act.vkaraisk.70,B,A,1.511,1.11,True,False,0.0,[],True," The question is also, I dunno, d do you really always want to open that thing when you have to use it?",22,task,Assess
+ES2016a,A,1138.79,1140.16,1.37,ES2016a.A.dialog-act.vkaraisk.153,,,,,,,,,False," Mm, that's true.",3,task,Assess
+ES2016a,B,1139.551,1143.19,3.639,ES2016a.B.dialog-act.vkaraisk.71,B,B,0.0,1.511,False,False,0.0,[],False," It's probably going to lie around opened all the time anyway,",11,task,Inform
+ES2016a,B,1143.19,1146.26,3.07,ES2016a.B.dialog-act.vkaraisk.72,B,B,0.0,0.0,False,False,0.0,[],False, so I don't know if a lid is a good idea.,11,task,Assess
+ES2016a,B,1146.26,1150.36,4.1,ES2016a.B.dialog-act.vkaraisk.73,B,B,0.0,0.0,False,False,0.0,[],False," From stabil stability point of view uh it certainly is,",10,task,Assess
+ES2016a,B,1150.36,1161.35,10.99,ES2016a.B.dialog-act.vkaraisk.74,B,B,1.64,0.0,False,False,0.0,[],False," but also you have to face it and take into account the more of these things break by accident, uh the more we sell.",24,task,Inform
+ES2016a,B,1161.35,1162.06,0.71,ES2016a.B.dialog-act.vkaraisk.75,,,,,,,,,False, So,1,minor,Stall
+ES2016a,B,1162.06,1162.99,0.93,ES2016a.B.dialog-act.vkaraisk.76,,,,,,,,,False, it's,1,minor,Fragment
+ES2016a,B,1162.99,1165.83,2.84,ES2016a.B.dialog-act.vkaraisk.77,A,B,-1.83,1.64,False,True,1.77,['ES2016a.A.dialog-act.vkaraisk.155'],False, don't make it too stable uh.,6,task,Suggest
+ES2016a,A,1163.72,1164.0,0.28,ES2016a.A.dialog-act.vkaraisk.154,,,,,,,,,False, So,1,minor,Stall
+ES2016a,A,1164.0,1165.77,1.77,ES2016a.A.dialog-act.vkaraisk.155,A,B,1.32,-1.83,True,False,0.0,[],False, we don't have it flip open.,6,task,Suggest
+ES2016a,A,1167.09,1169.16,2.07,ES2016a.A.dialog-act.vkaraisk.156,C,A,0.96,1.32,False,False,0.0,[],False, We just have a ball,5,task,Suggest
+ES2016a,C,1170.12,1174.84,4.72,ES2016a.C.dialog-act.vkaraisk.122,B,A,-1.05,0.96,True,True,0.79,['ES2016a.B.dialog-act.vkaraisk.78'],True, But then maybe to go back to the to th s something along those things then.,16,task,Suggest
+ES2016a,B,1173.79,1174.58,0.79,ES2016a.B.dialog-act.vkaraisk.78,A,C,2.33,-1.05,True,False,0.0,[],False, To the other design.,4,task,Suggest
+ES2016a,A,1175.2,1176.91,1.71,ES2016a.A.dialog-act.vkaraisk.157,,,,,,,,,False," Okay,",1,minor,Stall
+ES2016a,A,1176.91,1180.95,4.04,ES2016a.A.dialog-act.vkaraisk.158,A,B,0.65,2.33,True,False,0.0,[],True, so then we forget the ball.,6,task,Suggest
+ES2016a,B,1178.215,1182.672,4.457,ES2016a.B.dialog-act.vkaraisk.79,,,,,,,,,False, It looks cool.,3,task,Assess
+ES2016a,D,1178.384,1181.55,3.166,ES2016a.D.dialog-act.vkaraisk.67,,,,,,,,,False, Looks cool though.,3,task,Assess
+ES2016a,A,1180.95,1181.6,0.65,ES2016a.A.dialog-act.vkaraisk.159,,,,,,,,,False," It looks cool,",3,task,Assess
+ES2016a,D,1181.55,1182.59,1.04,ES2016a.D.dialog-act.vkaraisk.68,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,A,1181.6,1186.28,4.68,ES2016a.A.dialog-act.vkaraisk.160,A,A,0.0,0.65,False,False,0.0,[],False, but it's really not it's not functional um.,8,task,Assess
+ES2016a,B,1183.4,1184.13,0.73,ES2016a.B.dialog-act.vkaraisk.80,,,,,,,,,False, Uh functional.,2,task,Inform
+ES2016a,A,1186.28,1189.35,3.07,ES2016a.A.dialog-act.vkaraisk.161,A,A,0.0,0.0,False,False,0.0,[],False, So we've got our sort of keyboard kind.,8,task,Inform
+ES2016a,A,1189.35,1191.0,1.65,ES2016a.A.dialog-act.vkaraisk.162,A,A,7.03,0.0,False,False,0.0,[],False," What if we flipped it around here,",7,task,Suggest
+ES2016a,A,1191.0,1195.072,4.072,ES2016a.A.dialog-act.vkaraisk.163,,,,,,,,,False, so that it were um,5,minor,Fragment
+ES2016a,A,1197.68,1198.03,0.35,ES2016a.A.dialog-act.vkaraisk.164,,,,,,,,,False," Sorry,",1,other,Be-Positive
+ES2016a,A,1198.03,1200.8,2.77,ES2016a.A.dialog-act.vkaraisk.165,A,A,0.78,7.03,False,False,0.0,[],False, that doesn't look anything like what you had there.,9,task,Inform
+ES2016a,A,1200.8,1201.58,0.78,ES2016a.A.dialog-act.vkaraisk.166,,,,,,,,,False, Um so,2,minor,Stall
+ES2016a,A,1201.58,1202.23,0.65,ES2016a.A.dialog-act.vkaraisk.167,A,A,0.0,0.78,False,False,0.0,[],False," it's up and down,",4,task,Inform
+ES2016a,A,1202.23,1203.31,1.08,ES2016a.A.dialog-act.vkaraisk.168,A,A,2.34,0.0,False,False,0.0,[],False, you hold it this way.,5,task,Inform
+ES2016a,A,1205.65,1212.19,6.54,ES2016a.A.dialog-act.vkaraisk.169,A,A,0.0,2.34,False,False,0.0,[],False," Course then it's it's like the rectangular again, only with a couple of jutting out points.",16,task,Inform
+ES2016a,C,1205.65,1205.96,0.31,ES2016a.C.dialog-act.vkaraisk.123,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2016a,D,1208.274,1211.996,3.722,ES2016a.D.dialog-act.vkaraisk.69,,,,,,,,,False,,0,minor,Fragment
+ES2016a,B,1210.15,1212.07,1.92,ES2016a.B.dialog-act.vkaraisk.81,,,,,,,,,False, Right. Right.,2,other,Comment-About-Understanding
+ES2016a,A,1212.19,1215.4,3.21,ES2016a.A.dialog-act.vkaraisk.171,B,A,0.7,0.0,False,False,0.0,[],False, But it's one-handed um.,4,task,Inform
+ES2016a,B,1216.1,1219.28,3.18,ES2016a.B.dialog-act.vkaraisk.82,B,A,0.12,0.7,True,False,0.0,[],True, Question is what makes those game pads functional?,8,elicit,Elicit-Inform
+ES2016a,B,1219.28,1219.4,0.12,ES2016a.B.dialog-act.vkaraisk.83,,,,,,,,,False, W,1,minor,Fragment
+ES2016a,B,1219.4,1222.88,3.48,ES2016a.B.dialog-act.vkaraisk.84,B,B,0.0,0.12,False,False,0.0,[],False, I think that's pretty much the form for full hand.,10,task,Inform
+ES2016a,B,1222.88,1226.85,3.97,ES2016a.B.dialog-act.vkaraisk.85,B,B,1.56,0.0,False,False,0.0,[],False," So it's a round shape underneath that makes it comfy,",10,task,Inform
+ES2016a,D,1226.64,1226.98,0.34,ES2016a.D.dialog-act.vkaraisk.70,,,,,,,,,False, Mm.,1,task,Assess
+ES2016a,A,1226.7,1227.07,0.37,ES2016a.A.dialog-act.vkaraisk.172,,,,,,,,,False, Yeah.,1,task,Assess
+ES2016a,B,1226.85,1227.73,0.88,ES2016a.B.dialog-act.vkaraisk.86,,,,,,,,,False," right,",1,minor,Stall
+ES2016a,B,1227.73,1228.41,0.68,ES2016a.B.dialog-act.vkaraisk.87,,,,,,,,,False," makes it nice,",3,task,Inform
+ES2016a,B,1228.41,1229.66,1.25,ES2016a.B.dialog-act.vkaraisk.88,B,B,0.0,1.56,False,False,0.0,[],False, so that's the essential part.,5,task,Assess
+ES2016a,B,1229.66,1235.16,5.5,ES2016a.B.dialog-act.vkaraisk.89,B,B,2.14,0.0,False,False,0.0,[],False, Except for that I think we'll not probably not get a get away from some longer design.,17,task,Inform
+ES2016a,A,1230.92,1231.579,0.659,ES2016a.A.dialog-act.vkaraisk.173,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2016a,D,1235.36,1235.64,0.28,ES2016a.D.dialog-act.vkaraisk.71,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2016a,B,1237.3,1241.3,4.0,ES2016a.B.dialog-act.vkaraisk.90,A,B,2.52,2.14,False,False,0.0,[],False, 'Cause you also have to know which way around to point this thing.,13,task,Inform
+ES2016a,A,1243.07,1243.82,0.75,ES2016a.A.dialog-act.vkaraisk.174,,,,,,,,,False," Yeah,",1,task,Assess
+ES2016a,B,1243.14,1243.56,0.42,ES2016a.B.dialog-act.vkaraisk.91,,,,,,,,,False," You know, all",3,minor,Stall
+ES2016a,B,1243.56,1245.46,1.9,ES2016a.B.dialog-act.vkaraisk.92,,,,,,,,,False, that dif batteries,3,minor,Fragment
+ES2016a,A,1243.82,1246.95,3.13,ES2016a.A.dialog-act.vkaraisk.175,B,B,-1.13,2.52,True,True,1.13,['ES2016a.B.dialog-act.vkaraisk.94'],True," because it doesn't have a cord, like joysticks do.",9,task,Inform
+ES2016a,B,1245.46,1245.82,0.36,ES2016a.B.dialog-act.vkaraisk.93,,,,,,,,,False," right,",1,task,Assess
+ES2016a,B,1245.82,1248.48,2.66,ES2016a.B.dialog-act.vkaraisk.94,B,A,1.19,-1.13,True,False,0.0,[],False," and Batteries go weak as well,",6,task,Inform
+ES2016a,B,1248.48,1249.67,1.19,ES2016a.B.dialog-act.vkaraisk.95,,,,,,,,,False, so um,2,minor,Stall
+ES2016a,B,1249.67,1256.15,6.48,ES2016a.B.dialog-act.vkaraisk.96,B,B,0.38,1.19,False,False,0.0,[],False," after a while you have to point it towards the uh towards the equipment you wanna control with it,",19,task,Inform
+ES2016a,B,1256.15,1256.53,0.38,ES2016a.B.dialog-act.vkaraisk.97,,,,,,,,,False, right?,1,elicit,Elicit-Comment-Understanding
+ES2016a,B,1256.53,1261.06,4.53,ES2016a.B.dialog-act.vkaraisk.98,A,B,0.74,0.38,False,False,0.0,[],False," So, have to m show which is the front, which is the back.",13,task,Suggest
+ES2016a,A,1261.8,1266.8,5.0,ES2016a.A.dialog-act.vkaraisk.176,A,B,1.2,0.74,True,False,0.0,[],True, Is it possible to have it to where it would work with a like a sensor on either side?,19,elicit,Elicit-Assessment
+ES2016a,A,1268.0,1270.29,2.29,ES2016a.A.dialog-act.vkaraisk.177,B,A,-1.93,1.2,False,True,1.55,"['ES2016a.B.dialog-act.vkaraisk.99', 'ES2016a.B.dialog-act.vkaraisk.100']",False, So that either way you're pointing it it would work.,10,task,Inform
+ES2016a,B,1268.36,1269.91,1.55,ES2016a.B.dialog-act.vkaraisk.99,B,A,0.0,-1.93,True,False,0.0,[],False, I suppose you could do that.,6,task,Assess
+ES2016a,B,1269.91,1274.73,4.82,ES2016a.B.dialog-act.vkaraisk.100,A,B,-1.3,0.0,False,True,1.3,['ES2016a.A.dialog-act.vkaraisk.179'],False," O of course the more technology you stick in that, the more it'll cost, so.",15,task,Assess
+ES2016a,A,1273.43,1274.96,1.53,ES2016a.A.dialog-act.vkaraisk.179,B,B,0.89,-1.3,True,False,0.0,[],False, More expensive and yeah.,4,other,Comment-About-Understanding
+ES2016a,B,1275.85,1277.54,1.69,ES2016a.B.dialog-act.vkaraisk.101,B,A,11.25,0.89,True,False,0.0,[],True, Course you can do that.,5,task,Assess
+ES2016a,A,1278.457,1279.25,0.793,ES2016a.A.dialog-act.vkaraisk.180,,,,,,,,,False, 'Kay.,1,other,Comment-About-Understanding
+ES2016a,A,1281.27,1282.026,0.756,ES2016a.A.dialog-act.vkaraisk.181,,,,,,,,,False, Um,1,minor,Stall
+ES2016a,B,1286.36,1288.79,2.43,ES2016a.B.dialog-act.vkaraisk.102,,,,,,,,,False, I mean of course it'll be evident after a while or,11,minor,Fragment
+ES2016a,B,1288.79,1291.56,2.77,ES2016a.B.dialog-act.vkaraisk.103,B,B,0.0,11.25,False,False,0.0,[],False," if you look at it, it'll it'll be evident which way around to point it,",15,task,Inform
+ES2016a,B,1291.56,1295.55,3.99,ES2016a.B.dialog-act.vkaraisk.104,B,B,0.0,0.0,False,False,0.0,[],False," since you have the the numbers and the and the the buttons and stuff,",14,task,Inform
+ES2016a,A,1294.52,1295.14,0.62,ES2016a.A.dialog-act.vkaraisk.182,,,,,,,,,False, True.,1,task,Assess
+ES2016a,B,1295.55,1298.86,3.31,ES2016a.B.dialog-act.vkaraisk.105,B,B,0.0,0.0,False,False,0.0,[],False," but um it's rather about an instinctual thing,",8,task,Inform
+ES2016a,C,1297.74,1298.192,0.452,ES2016a.C.dialog-act.vkaraisk.124,,,,,,,,,False, Put it,2,minor,Fragment
+ES2016a,B,1298.86,1299.64,0.78,ES2016a.B.dialog-act.vkaraisk.106,B,B,0.0,0.0,False,False,0.0,[],False," like you just grab it,",5,task,Inform
+ES2016a,B,1299.64,1301.07,1.43,ES2016a.B.dialog-act.vkaraisk.107,B,B,0.41,0.0,False,False,0.0,[],False," you don't have to s look at it,",8,task,Inform
+ES2016a,B,1301.07,1301.48,0.41,ES2016a.B.dialog-act.vkaraisk.108,,,,,,,,,False," you know,",2,minor,Stall
+ES2016a,B,1301.48,1302.92,1.44,ES2016a.B.dialog-act.vkaraisk.109,B,B,0.0,0.41,False,False,0.0,[],False, which way around to point it.,6,task,Inform
+ES2016a,B,1302.92,1311.15,8.23,ES2016a.B.dialog-act.vkaraisk.110,C,B,0.41,0.0,False,False,0.0,[],False, Otherwise the design of or the the point of putting two sensors on both sides um would probably work.,19,task,Assess
+ES2016a,C,1311.56,1315.9,4.34,ES2016a.C.dialog-act.vkaraisk.125,C,B,0.0,0.41,True,False,0.0,[],True," Even if you designed it in some in a way that you know, isn't a rectangle,",16,task,Suggest
+ES2016a,C,1315.9,1318.76,2.86,ES2016a.C.dialog-act.vkaraisk.126,C,C,0.0,0.0,False,False,0.0,[],False, but still pointed in a direction that had definite points.,10,task,Suggest
+ES2016a,C,1318.76,1320.93,2.17,ES2016a.C.dialog-act.vkaraisk.127,C,C,0.0,0.0,False,False,0.0,[],False, So if that's your thing,5,task,Inform
+ES2016a,C,1320.93,1322.76,1.83,ES2016a.C.dialog-act.vkaraisk.128,C,C,1.01,0.0,False,False,0.0,[],False," and you got something like that instead,",7,task,Inform
+ES2016a,D,1321.05,1322.271,1.221,ES2016a.D.dialog-act.vkaraisk.72,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2016a,C,1322.76,1323.77,1.01,ES2016a.C.dialog-act.vkaraisk.129,,,,,,,,,False, and there's your s you kn,6,minor,Fragment
+ES2016a,C,1323.77,1325.41,1.64,ES2016a.C.dialog-act.vkaraisk.130,D,C,1.69,1.01,False,False,0.0,[],False, you know which way you're gonna pointing it.,8,task,Inform
+ES2016a,A,1325.73,1326.21,0.48,ES2016a.A.dialog-act.vkaraisk.183,,,,,,,,,False, 'Kay.,1,other,Comment-About-Understanding
+ES2016a,D,1326.29,1327.1,0.81,ES2016a.D.dialog-act.vkaraisk.73,,,,,,,,,False," Sorry to interrupt,",3,other,Be-Positive
+ES2016a,C,1326.4,1326.957,0.557,ES2016a.C.dialog-act.vkaraisk.131,,,,,,,,,False, Um,1,minor,Stall
+ES2016a,D,1327.1,1328.64,1.54,ES2016a.D.dialog-act.vkaraisk.74,A,C,-0.76,1.69,True,True,0.76,['ES2016a.A.dialog-act.vkaraisk.184'],True, but we have a warning to finish.,7,task,Inform
+ES2016a,A,1327.88,1331.26,3.38,ES2016a.A.dialog-act.vkaraisk.184,A,D,2.84,-0.76,True,False,0.0,[],False, Are we out of time?,5,elicit,Elicit-Inform
+ES2016a,D,1328.64,1329.25,0.61,ES2016a.D.dialog-act.vkaraisk.75,,,,,,,,,False, Yeah.,1,task,Inform
+ES2016a,B,1328.8,1329.06,0.26,ES2016a.B.dialog-act.vkaraisk.111,,,,,,,,,False, Mm.,1,task,Inform
+ES2016a,A,1331.26,1334.1,2.84,ES2016a.A.dialog-act.vkaraisk.185,,,,,,,,,False," Okay, well,",2,minor,Stall
+ES2016a,A,1334.1,1334.72,0.62,ES2016a.A.dialog-act.vkaraisk.186,A,A,0.0,2.84,False,False,0.0,[],False," just to finish up,",4,task,Suggest
+ES2016a,A,1334.72,1337.0,2.28,ES2016a.A.dialog-act.vkaraisk.187,C,A,15.35,0.0,False,False,0.0,[],False," should we s go with this plan,",7,elicit,Elicit-Assessment
+ES2016a,A,1337.0,1338.512,1.512,ES2016a.A.dialog-act.vkaraisk.188,,,,,,,,,False, start making some,3,minor,Fragment
+ES2016a,A,1349.28,1350.6,1.32,ES2016a.A.dialog-act.vkaraisk.189,,,,,,,,,False," Are good ideas, what are not.",6,minor,Fragment
+ES2016a,B,1351.04,1351.66,0.62,ES2016a.B.dialog-act.vkaraisk.112,,,,,,,,,False, Let's.,1,task,Assess
+ES2016a,C,1351.09,1352.35,1.26,ES2016a.C.dialog-act.vkaraisk.132,,,,,,,,,False, Does it say what does it say for n,9,minor,Fragment
+ES2016a,B,1351.66,1352.402,0.742,ES2016a.B.dialog-act.vkaraisk.113,,,,,,,,,False, Obviously,1,minor,Fragment
+ES2016a,C,1352.35,1354.44,2.09,ES2016a.C.dialog-act.vkaraisk.133,A,A,3.33,15.35,True,False,0.0,[],True," it says on there what we need to do for the next meeting, I think.",15,task,Inform
+ES2016a,A,1354.59,1355.45,0.86,ES2016a.A.dialog-act.vkaraisk.190,,,,,,,,,False, Uh.,1,minor,Stall
+ES2016a,A,1357.77,1360.86,3.09,ES2016a.A.dialog-act.vkaraisk.191,A,C,0.0,3.33,True,False,0.0,[],True," Must finish now, so.",4,task,Suggest
+ES2016a,C,1357.93,1358.1,0.17,ES2016a.C.dialog-act.vkaraisk.134,,,,,,,,,False, T,1,minor,Fragment
+ES2016a,A,1360.86,1364.88,4.02,ES2016a.A.dialog-act.vkaraisk.192,A,A,6.06,0.0,False,False,0.0,[],False, And then marketing will look and see what uh what people want.,12,task,Inform
+ES2016a,D,1364.45,1364.62,0.17,ES2016a.D.dialog-act.vkaraisk.76,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2016a,B,1366.11,1366.34,0.23,ES2016a.B.dialog-act.vkaraisk.114,,,,,,,,,False, Alright.,1,task,Assess
+ES2016a,D,1367.52,1368.08,0.56,ES2016a.D.dialog-act.vkaraisk.77,,,,,,,,,False, Great.,1,other,Be-Positive
+ES2016a,A,1369.66,1370.94,1.28,ES2016a.A.dialog-act.vkaraisk.193,,,,,,,,,False, Okay.,1,minor,Stall
+ES2016a,A,1370.94,1374.71,3.77,ES2016a.A.dialog-act.vkaraisk.194,A,A,0.0,6.06,False,False,0.0,[],False," And Project Manager will design a better meeting for next time around,",12,other,Be-Positive
+ES2016a,D,1374.287,1376.973,2.686,ES2016a.D.dialog-act.vkaraisk.78,,,,,,,,,False,,0,minor,Fragment
+ES2016a,B,1374.46,1376.35,1.89,ES2016a.B.dialog-act.vkaraisk.115,,,,,,,,,False,,0,minor,Fragment
+ES2016a,A,1374.71,1378.58,3.87,ES2016a.A.dialog-act.vkaraisk.195,,A,,0.0,False,False,0.0,[],False, be a little bit more prepared.,6,other,Offer
+ES2016a,A,1378.58,1379.98,1.4,ES2016a.A.dialog-act.vkaraisk.196,,,,,,,,,False," And uh alright,",3,minor,Stall
+ES2016a,A,1379.98,1381.7,1.72,ES2016a.A.dialog-act.vkaraisk.197,,,,,,,,,False, good meeting.,2,other,Be-Positive
+ES2016a,D,1380.762,1381.28,0.518,ES2016a.D.dialog-act.vkaraisk.79,,,,,,,,,False,,0,minor,Fragment

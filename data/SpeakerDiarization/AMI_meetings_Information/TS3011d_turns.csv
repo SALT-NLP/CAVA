@@ -1,0 +1,999 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+TS3011d,B,235.684,242.054,6.37,TS3011d.B.dialog-act.vkaraisk.1,B,,1.57,,True,False,0.0,[],False, That's the same as uh on the top of it uh with the the round uh button.,17,task,Inform
+TS3011d,C,240.644,241.194,0.55,TS3011d.C.dialog-act.vkaraisk.1,,,,,,,,,False, Like this one.,3,task,Inform
+TS3011d,B,242.054,243.624,1.57,TS3011d.B.dialog-act.vkaraisk.2,,,,,,,,,False, But uh we don't uh we don't uh,8,minor,Fragment
+TS3011d,B,243.624,252.654,9.03,TS3011d.B.dialog-act.vkaraisk.3,C,B,-0.95,1.57,False,True,0.95,['TS3011d.C.dialog-act.vkaraisk.3'],False," we do think it's um well what if with ease of use, w which prefers the which the the customer of the user prefers.",24,task,Inform
+TS3011d,C,246.644,247.444,0.8,TS3011d.C.dialog-act.vkaraisk.2,,,,,,,,,False, It's important.,2,task,Inform
+TS3011d,C,251.704,255.594,3.89,TS3011d.C.dialog-act.vkaraisk.3,C,B,0.0,-0.95,True,False,0.0,[],False, Uh I think th this is device which which has a learning curve.,13,task,Inform
+TS3011d,C,255.594,262.594,7.0,TS3011d.C.dialog-act.vkaraisk.4,C,C,0.0,0.0,False,False,0.0,[],False, Um novice users u use this device as uh normal users use uh a c a remote control.,18,task,Inform
+TS3011d,C,262.594,268.944,6.35,TS3011d.C.dialog-act.vkaraisk.5,C,C,0.0,0.0,False,False,0.0,[],False," And after a while they start to develop uh some skills in the the voice recognition functions,",17,task,Inform
+TS3011d,C,268.944,273.114,4.17,TS3011d.C.dialog-act.vkaraisk.6,C,C,0.0,0.0,False,False,0.0,[],False, and then they will not use this dial as often.,10,task,Inform
+TS3011d,C,273.114,276.794,3.68,TS3011d.C.dialog-act.vkaraisk.7,C,C,0.0,0.0,False,False,0.0,[],False, But other users who are new to this device need something like that.,13,task,Inform
+TS3011d,A,273.934,274.254,0.32,TS3011d.A.dialog-act.vkaraisk.1,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3011d,C,276.794,283.974,7.18,TS3011d.C.dialog-act.vkaraisk.8,C,C,0.0,0.0,False,False,0.0,[],False," They n they need to understand what uh how to change channels and uh change the volume,",17,task,Inform
+TS3011d,C,283.974,285.274,1.3,TS3011d.C.dialog-act.vkaraisk.9,A,C,0.21,0.0,False,False,0.0,[],False, so it's easier for them,5,task,Inform
+TS3011d,A,285.484,289.224,3.74,TS3011d.A.dialog-act.vkaraisk.2,C,C,0.76,0.21,True,False,0.0,[],True, Could could I see the scroll bar as uh as as a sort of shortcut?,15,elicit,Elicit-Inform
+TS3011d,C,289.984,291.244,1.26,TS3011d.C.dialog-act.vkaraisk.10,A,A,-0.96,0.76,True,True,0.96,['TS3011d.A.dialog-act.vkaraisk.3'],True," Yeah, maybe so. Yes,",4,task,Inform
+TS3011d,A,290.284,292.354,2.07,TS3011d.A.dialog-act.vkaraisk.3,C,C,1.62,-0.96,True,False,0.0,[],False," A a and the voice recognition as well,",8,elicit,Elicit-Inform
+TS3011d,C,291.244,291.721,0.477,TS3011d.C.dialog-act.vkaraisk.11,,,,,,,,,False, it's,1,minor,Fragment
+TS3011d,A,292.354,294.207,1.853,TS3011d.A.dialog-act.vkaraisk.4,,,,,,,,,False, th maybe you could uh could uh,7,minor,Fragment
+TS3011d,C,293.544,293.974,0.43,TS3011d.C.dialog-act.vkaraisk.12,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,C,293.974,295.464,1.49,TS3011d.C.dialog-act.vkaraisk.13,C,A,2.6,1.62,True,False,0.0,[],True," it's it's it's another approach,",5,task,Inform
+TS3011d,C,295.464,298.064,2.6,TS3011d.C.dialog-act.vkaraisk.14,,,,,,,,,False, it's more that our um.,5,minor,Fragment
+TS3011d,C,298.064,304.854,6.79,TS3011d.C.dialog-act.vkaraisk.15,C,C,0.0,2.6,False,False,0.0,[],False, There are there are many ways of doing uh things uh on such a device.,15,task,Inform
+TS3011d,A,299.437,299.996,0.559,TS3011d.A.dialog-act.vkaraisk.5,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,304.624,305.644,1.02,TS3011d.A.dialog-act.vkaraisk.6,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,304.854,306.554,1.7,TS3011d.C.dialog-act.vkaraisk.16,A,C,1.07,0.0,False,False,0.0,[],False, It's it's quite easy.,4,task,Inform
+TS3011d,A,305.644,307.104,1.46,TS3011d.A.dialog-act.vkaraisk.7,,,,,,,,,False," Okay. Okay,",2,minor,Stall
+TS3011d,A,307.104,307.624,0.52,TS3011d.A.dialog-act.vkaraisk.8,,,,,,,,,False, good.,1,other,Be-Positive
+TS3011d,A,307.624,309.164,1.54,TS3011d.A.dialog-act.vkaraisk.9,C,C,2.644,1.07,True,False,0.0,[],True, And and the case is is rubber?,7,elicit,Elicit-Inform
+TS3011d,C,309.434,310.034,0.6,TS3011d.C.dialog-act.vkaraisk.17,,,,,,,,,False," Yes, rubber?",2,task,Inform
+TS3011d,A,310.464,311.234,0.77,TS3011d.A.dialog-act.vkaraisk.10,,,,,,,,,False, And the buttons?,3,elicit,Elicit-Inform
+TS3011d,B,311.67,313.414,1.744,TS3011d.B.dialog-act.vkaraisk.4,,,,,,,,,False, Plastic or rubber.,3,task,Inform
+TS3011d,C,311.808,313.974,2.166,TS3011d.C.dialog-act.vkaraisk.18,A,A,0.78,2.644,True,False,0.0,[],True, There are plastic or rubber.,5,task,Inform
+TS3011d,B,313.414,313.754,0.34,TS3011d.B.dialog-act.vkaraisk.5,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,B,313.754,314.024,0.27,TS3011d.B.dialog-act.vkaraisk.6,,,,,,,,,False, yeah.,1,other,Other
+TS3011d,A,314.114,314.754,0.64,TS3011d.A.dialog-act.vkaraisk.11,,,,,,,,,False," Okay,",1,minor,Stall
+TS3011d,A,314.754,315.774,1.02,TS3011d.A.dialog-act.vkaraisk.12,C,C,0.66,0.78,True,False,0.0,[],True, and uh the colouring?,4,elicit,Elicit-Inform
+TS3011d,C,316.434,318.094,1.66,TS3011d.C.dialog-act.vkaraisk.19,A,A,0.306,0.66,True,False,0.0,[],True, Uh yellow with uh,4,task,Inform
+TS3011d,A,318.4,319.944,1.544,TS3011d.A.dialog-act.vkaraisk.13,C,C,0.2,0.306,True,False,0.0,[],True, with with grey or black.,5,elicit,Elicit-Inform
+TS3011d,C,320.144,327.228,7.084,TS3011d.C.dialog-act.vkaraisk.20,A,A,-0.134,0.2,True,True,0.134,['TS3011d.A.dialog-act.vkaraisk.15'],True, grey or black or something like that. Whatever cost uh cost uh the least.,14,task,Assess
+TS3011d,A,325.744,327.094,1.35,TS3011d.A.dialog-act.vkaraisk.14,,,,,,,,,False," Okay,",1,task,Assess
+TS3011d,B,325.824,326.832,1.008,TS3011d.B.dialog-act.vkaraisk.7,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,327.094,329.784,2.69,TS3011d.A.dialog-act.vkaraisk.15,A,C,3.17,-0.134,True,False,0.0,[],False, we'll we'll come to that later. Um,7,task,Suggest
+TS3011d,C,328.336,329.94,1.604,TS3011d.C.dialog-act.vkaraisk.21,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,331.494,332.954,1.46,TS3011d.A.dialog-act.vkaraisk.16,,,,,,,,,False, okay.,1,minor,Stall
+TS3011d,A,332.954,334.224,1.27,TS3011d.A.dialog-act.vkaraisk.17,C,A,1.59,3.17,False,False,0.0,[],False, Anything else to add,4,elicit,Elicit-Inform
+TS3011d,A,334.224,334.528,0.304,TS3011d.A.dialog-act.vkaraisk.18,,,,,,,,,False, or,1,minor,Fragment
+TS3011d,C,334.754,335.814,1.06,TS3011d.C.dialog-act.vkaraisk.22,,,,,,,,,False, No.,1,task,Inform
+TS3011d,C,335.814,339.974,4.16,TS3011d.C.dialog-act.vkaraisk.23,D,A,-0.01,1.59,True,True,0.01,['TS3011d.D.dialog-act.vkaraisk.2'],True, Uh maybe we should uh think about these buttons.,9,task,Suggest
+TS3011d,A,339.464,339.774,0.31,TS3011d.A.dialog-act.vkaraisk.19,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,D,339.824,339.964,0.14,TS3011d.D.dialog-act.vkaraisk.1,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,D,339.964,346.684,6.72,TS3011d.D.dialog-act.vkaraisk.2,D,C,0.0,-0.01,True,False,0.0,[],False," you could use two of them to programme the um channels on the two channel button,",16,task,Suggest
+TS3011d,C,339.974,340.388,0.414,TS3011d.C.dialog-act.vkaraisk.24,,,,,,,,,False, But,1,minor,Fragment
+TS3011d,D,346.684,349.384,2.7,TS3011d.D.dialog-act.vkaraisk.3,C,D,-2.11,0.0,False,True,2.11,['TS3011d.C.dialog-act.vkaraisk.27'],False, 'cause you have to assign two channel new channels.,9,task,Inform
+TS3011d,C,346.774,346.984,0.21,TS3011d.C.dialog-act.vkaraisk.25,,,,,,,,,False," Yes,",1,minor,Stall
+TS3011d,C,346.984,347.274,0.29,TS3011d.C.dialog-act.vkaraisk.26,,,,,,,,,False, but it,2,minor,Fragment
+TS3011d,C,347.274,351.384,4.11,TS3011d.C.dialog-act.vkaraisk.27,A,D,0.71,-2.11,True,False,0.0,[],False," but these are tasks that are only executed once, I think.",11,task,Inform
+TS3011d,A,350.834,351.424,0.59,TS3011d.A.dialog-act.vkaraisk.20,,,,,,,,,False, M uh,2,minor,Stall
+TS3011d,C,351.384,351.854,0.47,TS3011d.C.dialog-act.vkaraisk.28,,,,,,,,,False, Or not?,2,elicit,Elicit-Assessment
+TS3011d,A,351.424,352.094,0.67,TS3011d.A.dialog-act.vkaraisk.21,,,,,,,,,False, yeah.,1,elicit,Elicit-Inform
+TS3011d,A,352.094,359.974,7.88,TS3011d.A.dialog-act.vkaraisk.22,C,C,-1.64,0.71,True,True,1.64,['TS3011d.C.dialog-act.vkaraisk.30'],True," M m but maybe you do want a programme button to uh for example activate the voice recognition, or train the voice voice recognition.",24,task,Suggest
+TS3011d,D,353.084,353.358,0.274,TS3011d.D.dialog-act.vkaraisk.4,,,,,,,,,False, You,1,minor,Fragment
+TS3011d,C,358.064,358.334,0.27,TS3011d.C.dialog-act.vkaraisk.29,,,,,,,,,False, Well,1,minor,Stall
+TS3011d,C,358.334,361.824,3.49,TS3011d.C.dialog-act.vkaraisk.30,B,A,-0.64,-1.64,True,True,0.64,['TS3011d.B.dialog-act.vkaraisk.8'],False," okay. Okay, yeah, that's right. Or something li like that.",10,task,Assess
+TS3011d,B,361.184,363.814,2.63,TS3011d.B.dialog-act.vkaraisk.8,A,C,0.89,-0.64,True,False,0.0,[],False, And a button for disabling the voice recognition.,8,task,Suggest
+TS3011d,A,364.474,364.704,0.23,TS3011d.A.dialog-act.vkaraisk.23,,,,,,,,,False, Yeah,1,task,Assess
+TS3011d,A,364.704,374.644,9.94,TS3011d.A.dialog-act.vkaraisk.24,A,B,0.59,0.89,True,False,0.0,[],True," al although by pressing the button for I n don't know two, three seconds, you could also say it you'd disable it with a little beep and and",28,task,Suggest
+TS3011d,C,372.374,372.714,0.34,TS3011d.C.dialog-act.vkaraisk.31,,,,,,,,,False, Yes.,1,task,Assess
+TS3011d,B,373.734,374.064,0.33,TS3011d.B.dialog-act.vkaraisk.9,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,A,374.644,375.234,0.59,TS3011d.A.dialog-act.vkaraisk.25,,,,,,,,,False," but o okay,",3,minor,Stall
+TS3011d,A,375.234,377.324,2.09,TS3011d.A.dialog-act.vkaraisk.26,B,A,-0.458,0.59,False,True,0.458,['TS3011d.B.dialog-act.vkaraisk.10'],False, that that's not really really important.,6,task,Inform
+TS3011d,B,376.866,380.204,3.338,TS3011d.B.dialog-act.vkaraisk.10,A,A,2.89,-0.458,True,False,0.0,[],False," That's the basic idea, yeah. Of our prototype.",8,task,Inform
+TS3011d,C,377.275,377.753,0.478,TS3011d.C.dialog-act.vkaraisk.32,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,378.244,378.924,0.68,TS3011d.A.dialog-act.vkaraisk.27,,,,,,,,,False, The basic,2,minor,Fragment
+TS3011d,A,378.924,379.344,0.42,TS3011d.A.dialog-act.vkaraisk.28,,,,,,,,,False, okay.,1,task,Assess
+TS3011d,A,380.724,383.094,2.37,TS3011d.A.dialog-act.vkaraisk.29,,,,,,,,,False, Okay. Um,2,minor,Stall
+TS3011d,A,383.094,385.654,2.56,TS3011d.A.dialog-act.vkaraisk.30,D,B,17.6,2.89,True,False,0.0,[],True, you thought of some evaluation crit criteria?,7,elicit,Elicit-Inform
+TS3011d,D,386.594,386.894,0.3,TS3011d.D.dialog-act.vkaraisk.5,,,,,,,,,False, Yes.,1,task,Inform
+TS3011d,A,387.754,388.144,0.39,TS3011d.A.dialog-act.vkaraisk.31,,,,,,,,,False, Okay.,1,task,Suggest
+TS3011d,D,403.254,404.834,1.58,TS3011d.D.dialog-act.vkaraisk.6,D,A,5.07,17.6,True,False,0.0,[],True, Uh my name is not name,6,other,Be-Positive
+TS3011d,D,404.834,405.163,0.329,TS3011d.D.dialog-act.vkaraisk.7,,,,,,,,,False, but,1,minor,Fragment
+TS3011d,C,404.846,408.128,3.282,TS3011d.C.dialog-act.vkaraisk.33,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,405.102,409.968,4.866,TS3011d.A.dialog-act.vkaraisk.32,,,,,,,,,False, You are nameless.,3,other,Be-Positive
+TS3011d,B,405.445,406.453,1.008,TS3011d.B.dialog-act.vkaraisk.12,,,,,,,,,False,,0,minor,Fragment
+TS3011d,D,408.994,409.904,0.91,TS3011d.D.dialog-act.vkaraisk.8,,,,,,,,,False," Uh well,",2,minor,Stall
+TS3011d,D,409.904,413.084,3.18,TS3011d.D.dialog-act.vkaraisk.9,D,D,1.75,5.07,False,False,0.0,[],False, I used the the uh documents.,6,task,Inform
+TS3011d,D,414.834,419.214,4.38,TS3011d.D.dialog-act.vkaraisk.10,D,D,4.39,1.75,False,False,0.0,[],False, And these uh were the most important criteria.,8,task,Inform
+TS3011d,C,420.16,423.537,3.377,TS3011d.C.dialog-act.vkaraisk.34,,,,,,,,,False, Is it spongy?,3,other,Other
+TS3011d,D,420.314,420.754,0.44,TS3011d.D.dialog-act.vkaraisk.11,,,,,,,,,False, It should be.,3,minor,Fragment
+TS3011d,D,420.754,423.604,2.85,TS3011d.D.dialog-act.vkaraisk.12,,,,,,,,,False," yeah,",1,minor,Stall
+TS3011d,A,421.628,423.473,1.845,TS3011d.A.dialog-act.vkaraisk.33,,,,,,,,,False,,0,minor,Fragment
+TS3011d,B,422.141,424.029,1.888,TS3011d.B.dialog-act.vkaraisk.13,,,,,,,,,False,,0,minor,Fragment
+TS3011d,D,423.604,428.354,4.75,TS3011d.D.dialog-act.vkaraisk.13,D,D,0.0,4.39,False,False,0.0,[],False, that's uh how the fashion guys uh state it.,9,task,Inform
+TS3011d,D,428.354,429.724,1.37,TS3011d.D.dialog-act.vkaraisk.14,B,D,1.55,0.0,False,False,0.0,[],False, Fancy look and feel.,4,elicit,Elicit-Assessment
+TS3011d,D,429.724,430.159,0.435,TS3011d.D.dialog-act.vkaraisk.15,,,,,,,,,False, So,1,minor,Fragment
+TS3011d,B,430.954,431.274,0.32,TS3011d.B.dialog-act.vkaraisk.14,,,,,,,,,False, So,1,minor,Stall
+TS3011d,B,431.274,434.224,2.95,TS3011d.B.dialog-act.vkaraisk.15,B,D,0.0,1.55,True,False,0.0,[],True, just walk through it step by step.,7,elicit,Elicit-Assessment
+TS3011d,B,434.224,436.094,1.87,TS3011d.B.dialog-act.vkaraisk.16,B,B,3.34,0.0,False,False,0.0,[],False," I mean, is it fancy,",5,elicit,Elicit-Assessment
+TS3011d,B,436.094,438.384,2.29,TS3011d.B.dialog-act.vkaraisk.17,,,,,,,,,False, everything I believe uh,4,minor,Fragment
+TS3011d,D,439.254,439.494,0.24,TS3011d.D.dialog-act.vkaraisk.16,,,,,,,,,False, Uh well,2,minor,Stall
+TS3011d,B,439.434,440.746,1.312,TS3011d.B.dialog-act.vkaraisk.18,C,B,-0.362,3.34,False,True,0.362,['TS3011d.C.dialog-act.vkaraisk.35'],False, I believe it's fancy.,4,task,Assess
+TS3011d,D,439.494,439.854,0.36,TS3011d.D.dialog-act.vkaraisk.17,,,,,,,,,False, appar,1,minor,Fragment
+TS3011d,C,440.384,441.434,1.05,TS3011d.C.dialog-act.vkaraisk.35,D,B,0.18,-0.362,True,False,0.0,[],False, I believe it's fancy too.,5,task,Assess
+TS3011d,D,441.344,441.614,0.27,TS3011d.D.dialog-act.vkaraisk.18,,,,,,,,,False," Yeah,",1,minor,Stall
+TS3011d,D,441.614,445.294,3.68,TS3011d.D.dialog-act.vkaraisk.19,A,C,2.75,0.18,True,False,0.0,[],True, but apparently uh we shouldn't evaluate yet.,7,task,Suggest
+TS3011d,A,444.594,444.824,0.23,TS3011d.A.dialog-act.vkaraisk.34,,,,,,,,,False, No.,1,task,Assess
+TS3011d,B,444.954,445.314,0.36,TS3011d.B.dialog-act.vkaraisk.19,,,,,,,,,False," Oh,",1,other,Comment-About-Understanding
+TS3011d,D,445.294,445.792,0.498,TS3011d.D.dialog-act.vkaraisk.20,,,,,,,,,False, So,1,minor,Fragment
+TS3011d,B,445.314,445.704,0.39,TS3011d.B.dialog-act.vkaraisk.20,,,,,,,,,False, sorry.,1,other,Be-Positive
+TS3011d,C,446.844,447.364,0.52,TS3011d.C.dialog-act.vkaraisk.36,,,,,,,,,False, Okay.,1,task,Assess
+TS3011d,A,446.994,447.744,0.75,TS3011d.A.dialog-act.vkaraisk.35,,,,,,,,,False," Okay, so",2,minor,Stall
+TS3011d,A,447.744,448.044,0.3,TS3011d.A.dialog-act.vkaraisk.36,,,,,,,,,False, this,1,minor,Fragment
+TS3011d,A,448.044,449.724,1.68,TS3011d.A.dialog-act.vkaraisk.37,D,D,0.07,2.75,True,False,0.0,[],True, these are the cr uh the criteria.,7,elicit,Elicit-Inform
+TS3011d,D,449.704,449.794,0.09,TS3011d.D.dialog-act.vkaraisk.21,,,,,,,,,False," Yeah,",1,task,Inform
+TS3011d,D,449.794,452.174,2.38,TS3011d.D.dialog-act.vkaraisk.22,A,A,2.25,0.07,True,False,0.0,[],True, I think these are the most important criteria.,8,task,Inform
+TS3011d,A,451.784,453.136,1.352,TS3011d.A.dialog-act.vkaraisk.38,,,,,,,,,False," Okay, well",2,minor,Stall
+TS3011d,D,453.554,453.994,0.44,TS3011d.D.dialog-act.vkaraisk.23,,,,,,,,,False, So uh,2,minor,Stall
+TS3011d,D,453.994,454.594,0.6,TS3011d.D.dialog-act.vkaraisk.24,,,,,,,,,False, that's about it.,3,task,Inform
+TS3011d,A,454.424,457.984,3.56,TS3011d.A.dialog-act.vkaraisk.39,A,D,33.55,2.25,True,False,0.0,[],True, the then we'll switch to my presentation. Um,8,other,Offer
+TS3011d,A,468.204,471.694,3.49,TS3011d.A.dialog-act.vkaraisk.40,,,,,,,,,False, The production costs.,3,task,Inform
+TS3011d,A,471.694,488.304,16.61,TS3011d.A.dialog-act.vkaraisk.41,,,,,,,,,False, The costs are not under Can I Um this is the,11,minor,Fragment
+TS3011d,B,489.944,490.564,0.62,TS3011d.B.dialog-act.vkaraisk.21,,,,,,,,,False, Twenty two.,2,task,Inform
+TS3011d,A,490.934,491.534,0.6,TS3011d.A.dialog-act.vkaraisk.42,,,,,,,,,False," Yeah,",1,task,Assess
+TS3011d,A,491.534,497.564,6.03,TS3011d.A.dialog-act.vkaraisk.43,A,A,0.0,33.55,False,False,0.0,[],False, it's it's w way above um uh above the the the twelve Euro fifty.,14,task,Inform
+TS3011d,B,492.294,492.934,0.64,TS3011d.B.dialog-act.vkaraisk.22,,,,,,,,,False, Yikes.,1,task,Assess
+TS3011d,A,497.564,501.504,3.94,TS3011d.A.dialog-act.vkaraisk.44,A,A,0.0,0.0,False,False,0.0,[],False, And what makes it very expensive is uh for example the solar cell.,13,task,Inform
+TS3011d,C,501.314,501.424,0.11,TS3011d.C.dialog-act.vkaraisk.37,,,,,,,,,False, Well,1,minor,Stall
+TS3011d,C,501.424,502.454,1.03,TS3011d.C.dialog-act.vkaraisk.38,,,,,,,,,False, it's very expensive.,3,task,Inform
+TS3011d,A,501.504,504.484,2.98,TS3011d.A.dialog-act.vkaraisk.45,A,A,0.0,0.0,False,False,0.0,[],False," So I guess we should skip that,",7,task,Suggest
+TS3011d,A,504.484,506.194,1.71,TS3011d.A.dialog-act.vkaraisk.46,A,A,4.87,0.0,False,False,0.0,[],False, because it's not that important.,5,task,Inform
+TS3011d,C,506.724,507.124,0.4,TS3011d.C.dialog-act.vkaraisk.39,,,,,,,,,False, Okay.,1,task,Assess
+TS3011d,B,507.274,508.944,1.67,TS3011d.B.dialog-act.vkaraisk.23,,,,,,,,,False, Why does the price and and the s,8,minor,Fragment
+TS3011d,B,508.944,509.544,0.6,TS3011d.B.dialog-act.vkaraisk.24,,,,,,,,,False," oh,",1,other,Comment-About-Understanding
+TS3011d,B,509.544,511.144,1.6,TS3011d.B.dialog-act.vkaraisk.25,,,,,,,,,False, one uh exa,3,minor,Fragment
+TS3011d,A,510.844,511.064,0.22,TS3011d.A.dialog-act.vkaraisk.47,,,,,,,,,False," Yeah,",1,minor,Stall
+TS3011d,A,511.064,515.534,4.47,TS3011d.A.dialog-act.vkaraisk.48,A,A,0.93,4.87,False,False,0.0,[],False," the the price, the the number of items and the the sum.",12,task,Inform
+TS3011d,B,511.144,511.404,0.26,TS3011d.B.dialog-act.vkaraisk.26,,,,,,,,,False, yeah.,1,other,Comment-About-Understanding
+TS3011d,B,512.874,514.064,1.19,TS3011d.B.dialog-act.vkaraisk.27,,,,,,,,,False, The number of uh,4,minor,Fragment
+TS3011d,B,514.064,514.244,0.18,TS3011d.B.dialog-act.vkaraisk.28,,,,,,,,,False, yeah.,1,other,Comment-About-Understanding
+TS3011d,C,514.892,515.414,0.522,TS3011d.C.dialog-act.vkaraisk.40,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3011d,A,515.534,516.464,0.93,TS3011d.A.dialog-act.vkaraisk.49,,,,,,,,,False," Um well,",2,minor,Stall
+TS3011d,A,516.464,520.024,3.56,TS3011d.A.dialog-act.vkaraisk.50,A,A,2.99,0.93,False,False,0.0,[],False, this is what I would call our luxury model.,9,task,Inform
+TS3011d,A,520.024,522.534,2.51,TS3011d.A.dialog-act.vkaraisk.51,,,,,,,,,False, Um,1,minor,Stall
+TS3011d,B,522.144,523.026,0.882,TS3011d.B.dialog-act.vkaraisk.29,,,,,,,,,False, And and does it,4,minor,Fragment
+TS3011d,A,522.534,523.014,0.48,TS3011d.A.dialog-act.vkaraisk.52,,,,,,,,,False, if you would,3,minor,Fragment
+TS3011d,A,523.014,533.514,10.5,TS3011d.A.dialog-act.vkaraisk.55,A,A,0.0,2.99,False,False,0.0,[],False," if you look at the uh w w w what we could do to make it more um to make it just between the twelve Euro fifty,",27,task,Inform
+TS3011d,A,533.514,538.144,4.63,TS3011d.A.dialog-act.vkaraisk.56,A,A,0.0,0.0,False,False,0.0,[],False, um then I did the following changes.,7,task,Inform
+TS3011d,A,538.144,544.414,6.27,TS3011d.A.dialog-act.vkaraisk.57,A,A,0.0,0.0,False,False,0.0,[],False," Twelve Euro forty cents I came up with by leaving out the solar cells,",14,task,Suggest
+TS3011d,C,544.304,544.594,0.29,TS3011d.C.dialog-act.vkaraisk.41,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3011d,A,544.414,549.244,4.83,TS3011d.A.dialog-act.vkaraisk.58,A,A,0.0,0.0,False,False,0.0,[],False," um by not using the voice recognition feature,",8,task,Suggest
+TS3011d,C,548.804,549.114,0.31,TS3011d.C.dialog-act.vkaraisk.42,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3011d,A,549.244,555.444,6.2,TS3011d.A.dialog-act.vkaraisk.59,A,A,13.63,0.0,False,False,0.0,[],False, because it's uh it's a four Euro uh addition to the price.,12,task,Inform
+TS3011d,A,555.444,559.154,3.71,TS3011d.A.dialog-act.vkaraisk.60,,,,,,,,,False," Um Yeah,",2,minor,Stall
+TS3011d,A,559.154,559.68,0.526,TS3011d.A.dialog-act.vkaraisk.61,,,,,,,,,False, I believe,2,minor,Fragment
+TS3011d,A,561.424,563.724,2.3,TS3011d.A.dialog-act.vkaraisk.62,,,,,,,,,False," Uh, push-button,",2,minor,Fragment
+TS3011d,A,563.724,564.491,0.767,TS3011d.A.dialog-act.vkaraisk.63,,,,,,,,,False, well,1,minor,Stall
+TS3011d,A,565.784,566.964,1.18,TS3011d.A.dialog-act.vkaraisk.64,,,,,,,,,False, It makes it the thirteen,5,minor,Fragment
+TS3011d,A,566.964,567.314,0.35,TS3011d.A.dialog-act.vkaraisk.65,,,,,,,,,False, yeah.,1,minor,Stall
+TS3011d,A,569.074,572.784,3.71,TS3011d.A.dialog-act.vkaraisk.66,A,A,0.0,13.63,False,False,0.0,[],False," Push-buttons are buttons are are not the most expensive,",9,task,Inform
+TS3011d,A,572.784,575.454,2.67,TS3011d.A.dialog-act.vkaraisk.67,A,A,1.53,0.0,False,False,0.0,[],False, but do add extra cost.,5,task,Inform
+TS3011d,C,574.894,575.174,0.28,TS3011d.C.dialog-act.vkaraisk.43,,,,,,,,,False, Hmm.,1,minor,Backchannel
+TS3011d,A,575.454,576.984,1.53,TS3011d.A.dialog-act.vkaraisk.68,,,,,,,,,False," So um yeah,",3,minor,Stall
+TS3011d,A,576.984,581.944,4.96,TS3011d.A.dialog-act.vkaraisk.69,C,A,3.32,1.53,False,False,0.0,[],False, th this design is not um within our price model.,10,task,Inform
+TS3011d,C,582.784,583.194,0.41,TS3011d.C.dialog-act.vkaraisk.44,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3011d,A,584.024,584.8,0.776,TS3011d.A.dialog-act.vkaraisk.70,,,,,,,,,False, Um,1,minor,Stall
+TS3011d,C,585.264,588.474,3.21,TS3011d.C.dialog-act.vkaraisk.45,C,A,0.0,3.32,True,False,0.0,[],True, But I'm afraid it's not complete.,6,task,Inform
+TS3011d,C,588.474,593.294,4.82,TS3011d.C.dialog-act.vkaraisk.46,C,C,0.0,0.0,False,False,0.0,[],False," Because we use spec uh specic uh special materials, the last item.",12,task,Inform
+TS3011d,C,593.294,595.304,2.01,TS3011d.C.dialog-act.vkaraisk.47,C,C,4.57,0.0,False,False,0.0,[],False, And you have not added one item there.,8,task,Inform
+TS3011d,A,596.214,596.414,0.2,TS3011d.A.dialog-act.vkaraisk.71,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,C,599.874,601.874,2.0,TS3011d.C.dialog-act.vkaraisk.48,A,C,0.1,4.57,False,False,0.0,[],False, So it's c way too expensive.,6,task,Inform
+TS3011d,A,601.974,605.288,3.314,TS3011d.A.dialog-act.vkaraisk.72,B,C,-0.684,0.1,True,True,0.684,['TS3011d.B.dialog-act.vkaraisk.30'],True," It's still too expensive, yeah. Um",6,task,Assess
+TS3011d,B,604.604,606.494,1.89,TS3011d.B.dialog-act.vkaraisk.30,B,A,0.0,-0.684,True,False,0.0,[],False, But that's that's only for the buttons.,7,task,Inform
+TS3011d,B,606.494,608.474,1.98,TS3011d.B.dialog-act.vkaraisk.31,A,B,-1.95,0.0,False,True,1.95,['TS3011d.A.dialog-act.vkaraisk.73'],False, So the button we can use plastic.,7,task,Suggest
+TS3011d,A,606.524,610.634,4.11,TS3011d.A.dialog-act.vkaraisk.73,A,B,3.25,-1.95,True,False,0.0,[],False," I I guess if we leave the if we leave this one out, um",14,task,Suggest
+TS3011d,A,610.634,611.664,1.03,TS3011d.A.dialog-act.vkaraisk.75,,,,,,,,,False, oh.,1,other,Other
+TS3011d,C,611.936,612.736,0.8,TS3011d.C.dialog-act.vkaraisk.49,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,613.884,616.584,2.7,TS3011d.A.dialog-act.vkaraisk.76,B,A,0.73,3.25,False,False,0.0,[],False, And uh maybe not use the special form.,8,task,Suggest
+TS3011d,B,615.274,616.064,0.79,TS3011d.B.dialog-act.vkaraisk.32,,,,,,,,,False, And the pla uh,4,minor,Fragment
+TS3011d,B,617.314,620.674,3.36,TS3011d.B.dialog-act.vkaraisk.33,A,A,0.75,0.73,True,False,0.0,[],True," And a plastic b just plastic buttons, a plas uh instead of rubber.",13,elicit,Elicit-Assessment
+TS3011d,C,619.004,619.495,0.491,TS3011d.C.dialog-act.vkaraisk.50,,,,,,,,,False, But it,2,minor,Fragment
+TS3011d,A,621.424,625.144,3.72,TS3011d.A.dialog-act.vkaraisk.77,A,B,0.0,0.75,True,False,0.0,[],True," It becomes a very dull remote control, I know.",9,task,Assess
+TS3011d,C,623.874,624.234,0.36,TS3011d.C.dialog-act.vkaraisk.51,,,,,,,,,False, Yes.,1,task,Assess
+TS3011d,A,625.144,627.524,2.38,TS3011d.A.dialog-act.vkaraisk.78,C,A,10.33,0.0,False,False,0.0,[],False, But it's the board decision.,5,task,Inform
+TS3011d,A,627.524,632.834,5.31,TS3011d.A.dialog-act.vkaraisk.79,,,,,,,,,False, Um And um,3,minor,Stall
+TS3011d,A,632.834,633.204,0.37,TS3011d.A.dialog-act.vkaraisk.80,,,,,,,,,False, yeah.,1,task,Assess
+TS3011d,C,634.804,636.854,2.05,TS3011d.C.dialog-act.vkaraisk.52,,,,,,,,,False," Well, b basically",3,minor,Stall
+TS3011d,C,636.854,637.854,1.0,TS3011d.C.dialog-act.vkaraisk.53,,,,,,,,,False, it,1,minor,Fragment
+TS3011d,C,637.854,642.634,4.78,TS3011d.C.dialog-act.vkaraisk.54,C,A,0.0,10.33,True,False,0.0,[],True," when when this is our only option, we should even consider changing the casing,",14,task,Suggest
+TS3011d,C,642.634,650.124,7.49,TS3011d.C.dialog-act.vkaraisk.55,A,C,0.16,0.0,False,False,0.0,[],False, because I think there's very little added value in uh an enhanced case with these dull functions.,17,task,Inform
+TS3011d,A,646.024,646.274,0.25,TS3011d.A.dialog-act.vkaraisk.81,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,A,649.414,650.284,0.87,TS3011d.A.dialog-act.vkaraisk.82,,,,,,,,,False," Yeah, I know.",3,task,Assess
+TS3011d,C,650.124,650.799,0.675,TS3011d.C.dialog-act.vkaraisk.56,,,,,,,,,False, So,1,minor,Fragment
+TS3011d,A,650.284,653.2,2.916,TS3011d.A.dialog-act.vkaraisk.83,C,C,1.414,0.16,True,False,0.0,[],True, Maybe we should look at an uh focus on another uh,11,task,Suggest
+TS3011d,C,654.614,657.374,2.76,TS3011d.C.dialog-act.vkaraisk.57,A,A,-0.79,1.414,True,True,0.79,['TS3011d.A.dialog-act.vkaraisk.86'],True, Type of m maybe another market segment.,7,task,Suggest
+TS3011d,A,655.814,656.414,0.6,TS3011d.A.dialog-act.vkaraisk.84,,,,,,,,,False," Yeah,",1,task,Assess
+TS3011d,A,656.414,656.584,0.17,TS3011d.A.dialog-act.vkaraisk.85,,,,,,,,,False, m,1,minor,Fragment
+TS3011d,A,656.584,663.054,6.47,TS3011d.A.dialog-act.vkaraisk.86,A,C,0.0,-0.79,True,False,0.0,[],False," uh maybe not not all that fancy, but just way way more easy uh uh um basic",17,task,Suggest
+TS3011d,C,661.234,661.464,0.23,TS3011d.C.dialog-act.vkaraisk.58,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,662.624,662.894,0.27,TS3011d.C.dialog-act.vkaraisk.59,,,,,,,,,False, Yes.,1,task,Assess
+TS3011d,A,663.054,665.464,2.41,TS3011d.A.dialog-act.vkaraisk.87,C,A,1.78,0.0,False,False,0.0,[],False, and uh m maximise the profits,6,task,Suggest
+TS3011d,A,665.464,666.385,0.921,TS3011d.A.dialog-act.vkaraisk.88,,,,,,,,,False, and um,2,minor,Stall
+TS3011d,C,667.244,669.684,2.44,TS3011d.C.dialog-act.vkaraisk.60,C,A,0.0,1.78,True,False,0.0,[],True, That's maybe that's better.,4,task,Assess
+TS3011d,A,668.434,668.614,0.18,TS3011d.A.dialog-act.vkaraisk.89,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,C,669.684,673.564,3.88,TS3011d.C.dialog-act.vkaraisk.61,C,C,0.0,0.0,False,False,0.0,[],False," Maybe we could uh we should go for straight and simple,",11,task,Suggest
+TS3011d,A,672.944,673.144,0.2,TS3011d.A.dialog-act.vkaraisk.90,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,C,673.564,675.724,2.16,TS3011d.C.dialog-act.vkaraisk.62,A,C,0.72,0.0,False,False,0.0,[],False, but that's not what uh has been asked.,8,task,Inform
+TS3011d,A,676.444,677.374,0.93,TS3011d.A.dialog-act.vkaraisk.91,A,C,5.68,0.72,True,False,0.0,[],True," I know, I know.",4,task,Assess
+TS3011d,C,677.504,678.134,0.63,TS3011d.C.dialog-act.vkaraisk.63,,,,,,,,,False, So,1,minor,Stall
+TS3011d,C,678.134,679.424,1.29,TS3011d.C.dialog-act.vkaraisk.64,,,,,,,,,False, we should kick the board's,5,minor,Fragment
+TS3011d,C,679.424,682.112,2.688,TS3011d.C.dialog-act.vkaraisk.65,,,,,,,,,False, uh Well,2,minor,Stall
+TS3011d,A,680.181,683.054,2.873,TS3011d.A.dialog-act.vkaraisk.92,,,,,,,,,False, Yeah.,1,minor,Stall
+TS3011d,A,683.054,692.584,9.53,TS3011d.A.dialog-act.vkaraisk.93,A,A,0.0,5.68,False,False,0.0,[],False," Although I think we yeah, but we could still make uh a remote control that ap uh um applies um more to young people",24,task,Inform
+TS3011d,A,692.584,697.144,4.56,TS3011d.A.dialog-act.vkaraisk.96,A,A,1.47,0.0,False,False,0.0,[],False, uh by giving it another colour already.,7,task,Suggest
+TS3011d,C,696.284,696.544,0.26,TS3011d.C.dialog-act.vkaraisk.66,,,,,,,,,False, Hmm.,1,minor,Backchannel
+TS3011d,A,697.144,698.614,1.47,TS3011d.A.dialog-act.vkaraisk.94,,,,,,,,,False, Um so,2,minor,Stall
+TS3011d,A,698.614,703.394,4.78,TS3011d.A.dialog-act.vkaraisk.95,A,A,1.07,1.47,False,False,0.0,[],False, it is possible to make uh uh a device that attracts a little bit more to young people.,18,task,Inform
+TS3011d,C,703.734,704.054,0.32,TS3011d.C.dialog-act.vkaraisk.67,,,,,,,,,False, Yes.,1,minor,Backchannel
+TS3011d,A,704.464,710.754,6.29,TS3011d.A.dialog-act.vkaraisk.97,A,A,2.494,1.07,False,False,0.0,[],False," Um but uh I agree it's it's not a fancy high-tech uh device. Definitely not, no.",16,task,Assess
+TS3011d,C,713.238,714.393,1.155,TS3011d.C.dialog-act.vkaraisk.68,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,713.248,717.314,4.066,TS3011d.A.dialog-act.vkaraisk.98,A,A,0.0,2.494,False,False,0.0,[],False, It's not that innovative.,4,task,Assess
+TS3011d,B,716.304,716.691,0.387,TS3011d.B.dialog-act.vkaraisk.34,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,717.314,719.874,2.56,TS3011d.A.dialog-act.vkaraisk.99,A,A,8.06,0.0,False,False,0.0,[],False, Or however you s pronounce that.,6,elicit,Elicit-Inform
+TS3011d,C,719.812,721.536,1.724,TS3011d.C.dialog-act.vkaraisk.69,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,719.874,727.934,8.06,TS3011d.A.dialog-act.vkaraisk.100,,,,,,,,,False," Um so, okay. Um Oh,",5,minor,Stall
+TS3011d,B,719.874,721.127,1.253,TS3011d.B.dialog-act.vkaraisk.35,,,,,,,,,False," Yeah, too bad.",3,task,Assess
+TS3011d,A,727.934,728.734,0.8,TS3011d.A.dialog-act.vkaraisk.101,A,A,10.674,8.06,False,False,0.0,[],False, this is the wrong one.,5,task,Inform
+TS3011d,A,735.374,736.434,1.06,TS3011d.A.dialog-act.vkaraisk.102,,,,,,,,,False, So uh,2,minor,Stall
+TS3011d,A,736.434,737.904,1.47,TS3011d.A.dialog-act.vkaraisk.103,,,,,,,,,False, that means redesign.,3,task,Inform
+TS3011d,A,739.408,743.684,4.276,TS3011d.A.dialog-act.vkaraisk.104,A,A,0.0,10.674,False,False,0.0,[],False, We do not have the time o uh now to to redesign the product.,14,task,Inform
+TS3011d,B,742.914,743.334,0.42,TS3011d.B.dialog-act.vkaraisk.36,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3011d,A,743.684,756.064,12.38,TS3011d.A.dialog-act.vkaraisk.105,A,A,0.0,0.0,False,False,0.0,[],False, Um but we can evaluate the process and um uh uh the satisfaction on how things went.,17,task,Suggest
+TS3011d,A,756.064,761.324,5.26,TS3011d.A.dialog-act.vkaraisk.106,D,A,2.72,0.0,False,False,0.0,[],False, Um I'm not sure if we need to evaluate uh the device first.,13,elicit,Elicit-Assessment
+TS3011d,A,762.404,762.992,0.588,TS3011d.A.dialog-act.vkaraisk.107,,,,,,,,,False, I guess,2,minor,Fragment
+TS3011d,D,763.444,764.044,0.6,TS3011d.D.dialog-act.vkaraisk.25,,,,,,,,,False," Um well,",2,minor,Stall
+TS3011d,D,764.044,767.611,3.567,TS3011d.D.dialog-act.vkaraisk.26,C,A,2.473,2.72,True,False,0.0,[],True, since we're not gonna manufacture it anyway,7,task,Inform
+TS3011d,A,766.634,767.232,0.598,TS3011d.A.dialog-act.vkaraisk.108,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,B,767.38,767.737,0.357,TS3011d.B.dialog-act.vkaraisk.37,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,767.632,768.368,0.736,TS3011d.C.dialog-act.vkaraisk.70,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,768.584,769.244,0.66,TS3011d.A.dialog-act.vkaraisk.109,,,,,,,,,False," Yeah, that's true.",3,task,Assess
+TS3011d,C,769.684,770.084,0.4,TS3011d.C.dialog-act.vkaraisk.71,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,C,770.084,772.144,2.06,TS3011d.C.dialog-act.vkaraisk.72,C,D,0.0,2.473,True,False,0.0,[],True," maybe it's good to do it anyway,",7,task,Assess
+TS3011d,C,772.144,779.384,7.24,TS3011d.C.dialog-act.vkaraisk.73,A,C,-5.59,0.0,False,True,2.35,"['TS3011d.A.dialog-act.vkaraisk.110', 'TS3011d.A.dialog-act.vkaraisk.111']",False," because if we evaluate it, we we can also determine if our objectives are good.",15,task,Inform
+TS3011d,A,773.794,774.764,0.97,TS3011d.A.dialog-act.vkaraisk.110,A,C,2.27,-5.59,True,False,0.0,[],False, We l we can learn.,5,task,Inform
+TS3011d,A,777.034,782.334,5.3,TS3011d.A.dialog-act.vkaraisk.111,A,A,3.92,2.27,False,False,0.0,[],False, Yeah. Yeah. I agree.,4,task,Assess
+TS3011d,C,779.384,779.846,0.462,TS3011d.C.dialog-act.vkaraisk.74,,,,,,,,,False, So,1,minor,Fragment
+TS3011d,A,782.334,782.736,0.402,TS3011d.A.dialog-act.vkaraisk.112,,,,,,,,,False, Well,1,minor,Stall
+TS3011d,C,783.664,785.472,1.808,TS3011d.C.dialog-act.vkaraisk.75,,,,,,,,,False, Is it fancy?,3,elicit,Elicit-Assessment
+TS3011d,A,786.004,786.254,0.25,TS3011d.A.dialog-act.vkaraisk.113,,,,,,,,,False, I d,2,minor,Fragment
+TS3011d,A,786.254,788.044,1.79,TS3011d.A.dialog-act.vkaraisk.114,D,A,10.6,3.92,False,False,0.0,[],False, it is it is,4,task,Assess
+TS3011d,D,786.334,786.779,0.445,TS3011d.D.dialog-act.vkaraisk.27,,,,,,,,,False, Uh,1,minor,Fragment
+TS3011d,C,789.843,790.253,0.41,TS3011d.C.dialog-act.vkaraisk.76,,,,,,,,,False,,0,minor,Fragment
+TS3011d,D,796.134,796.474,0.34,TS3011d.D.dialog-act.vkaraisk.28,,,,,,,,,False, Yay.,1,task,Assess
+TS3011d,D,798.644,801.424,2.78,TS3011d.D.dialog-act.vkaraisk.29,A,A,1.03,10.6,True,False,0.0,[],True, Is it? Is it fancy?,5,elicit,Elicit-Assessment
+TS3011d,A,802.454,803.244,0.79,TS3011d.A.dialog-act.vkaraisk.115,B,D,-0.59,1.03,True,True,0.59,['TS3011d.B.dialog-act.vkaraisk.38'],True," Yeah, I think so.",4,task,Assess
+TS3011d,B,802.654,804.514,1.86,TS3011d.B.dialog-act.vkaraisk.38,A,A,0.846,-0.59,True,False,0.0,[],False," Um the yellow rubber, I think so.",7,task,Assess
+TS3011d,C,803.294,803.904,0.61,TS3011d.C.dialog-act.vkaraisk.77,,,,,,,,,False, I think so.,3,task,Assess
+TS3011d,A,805.36,806.874,1.514,TS3011d.A.dialog-act.vkaraisk.116,C,B,6.09,0.846,True,False,0.0,[],True," You like the rubber, uh Roo.",6,other,Be-Positive
+TS3011d,B,807.248,811.338,4.09,TS3011d.B.dialog-act.vkaraisk.39,,,,,,,,,False, I'm into it.,3,other,Be-Positive
+TS3011d,D,807.41,808.292,0.882,TS3011d.D.dialog-act.vkaraisk.30,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,807.744,810.325,2.581,TS3011d.A.dialog-act.vkaraisk.117,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,808.528,811.405,2.877,TS3011d.C.dialog-act.vkaraisk.78,,,,,,,,,False,,0,minor,Fragment
+TS3011d,D,810.744,811.604,0.86,TS3011d.D.dialog-act.vkaraisk.31,,,,,,,,,False, So uh,2,minor,Stall
+TS3011d,D,811.604,811.914,0.31,TS3011d.D.dialog-act.vkaraisk.32,,,,,,,,,False, one?,1,elicit,Elicit-Assessment
+TS3011d,C,812.964,814.134,1.17,TS3011d.C.dialog-act.vkaraisk.79,A,A,0.93,6.09,True,False,0.0,[],True, But it's not that fancy.,5,task,Assess
+TS3011d,A,812.984,814.784,1.8,TS3011d.A.dialog-act.vkaraisk.118,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,A,814.784,815.064,0.28,TS3011d.A.dialog-act.vkaraisk.119,,,,,,,,,False," No,",1,task,Assess
+TS3011d,C,814.974,815.454,0.48,TS3011d.C.dialog-act.vkaraisk.80,,,,,,,,,False, I mean,2,minor,Fragment
+TS3011d,A,815.064,816.224,1.16,TS3011d.A.dialog-act.vkaraisk.120,C,C,0.55,0.93,True,False,0.0,[],True, I'll I'll I'll give it a two.,7,task,Assess
+TS3011d,C,816.774,823.134,6.36,TS3011d.C.dialog-act.vkaraisk.81,C,A,2.18,0.55,True,False,0.0,[],True, I think uh I think it would have been more fancy if we used the titanium housing the casing.,19,task,Assess
+TS3011d,C,823.134,825.314,2.18,TS3011d.C.dialog-act.vkaraisk.82,,,,,,,,,False, It would be even more,5,minor,Fragment
+TS3011d,A,824.084,826.885,2.801,TS3011d.A.dialog-act.vkaraisk.121,,,,,,,,,False, You like tita,3,other,Be-Positive
+TS3011d,D,825.258,827.214,1.956,TS3011d.D.dialog-act.vkaraisk.33,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,825.314,829.74,4.426,TS3011d.C.dialog-act.vkaraisk.83,A,C,0.304,2.18,False,False,0.0,[],False," oh, you really like titanium. I'm I'm into it.",9,other,Be-Positive
+TS3011d,B,825.41,829.968,4.558,TS3011d.B.dialog-act.vkaraisk.40,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,830.044,831.264,1.22,TS3011d.A.dialog-act.vkaraisk.122,C,C,0.89,0.304,True,False,0.0,[],True, That's a flavour as well.,5,other,Other
+TS3011d,B,831.776,832.912,1.136,TS3011d.B.dialog-act.vkaraisk.41,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,832.154,836.001,3.847,TS3011d.C.dialog-act.vkaraisk.84,C,A,13.083,0.89,True,False,0.0,[],True," It has flavour. Yes, that's right. You should taste it.",10,other,Be-Positive
+TS3011d,A,833.68,836.864,3.184,TS3011d.A.dialog-act.vkaraisk.123,,,,,,,,,False, Right. Um,2,minor,Stall
+TS3011d,B,833.741,835.052,1.311,TS3011d.B.dialog-act.vkaraisk.42,,,,,,,,,False,,0,minor,Fragment
+TS3011d,D,838.914,839.751,0.837,TS3011d.D.dialog-act.vkaraisk.34,,,,,,,,,False, Is it uh,3,minor,Fragment
+TS3011d,A,839.234,839.604,0.37,TS3011d.A.dialog-act.vkaraisk.124,,,,,,,,,False," Yeah, I know,",3,minor,Stall
+TS3011d,A,839.604,840.254,0.65,TS3011d.A.dialog-act.vkaraisk.126,,,,,,,,,False, but but it,3,minor,Fragment
+TS3011d,A,840.254,848.8,8.546,TS3011d.A.dialog-act.vkaraisk.127,,,,,,,,,False, but that's fancy in the way um I mean fancy has has a lot of,15,minor,Fragment
+TS3011d,C,849.084,851.544,2.46,TS3011d.C.dialog-act.vkaraisk.85,B,C,0.46,13.083,False,False,0.0,[],False," It has to do with fashion, I guess.",8,task,Inform
+TS3011d,A,850.724,851.094,0.37,TS3011d.A.dialog-act.vkaraisk.128,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,C,851.544,851.964,0.42,TS3011d.C.dialog-act.vkaraisk.86,,,,,,,,,False, So,1,minor,Stall
+TS3011d,C,851.964,852.768,0.804,TS3011d.C.dialog-act.vkaraisk.87,,,,,,,,,False, do,1,minor,Fragment
+TS3011d,B,852.004,853.644,1.64,TS3011d.B.dialog-act.vkaraisk.43,D,C,0.17,0.46,True,False,0.0,[],True," It's trendy trendy, fun",4,task,Inform
+TS3011d,D,852.254,853.634,1.38,TS3011d.D.dialog-act.vkaraisk.36,,,,,,,,,False, And w,2,minor,Fragment
+TS3011d,D,853.634,853.814,0.18,TS3011d.D.dialog-act.vkaraisk.37,,,,,,,,,False," yeah,",1,minor,Stall
+TS3011d,B,853.644,854.014,0.37,TS3011d.B.dialog-act.vkaraisk.44,,,,,,,,,False, yeah.,1,task,Assess
+TS3011d,D,853.814,858.224,4.41,TS3011d.D.dialog-act.vkaraisk.38,D,B,0.0,0.17,True,False,0.0,[],True, w what they want wanted was uh colours and soft materials.,11,task,Inform
+TS3011d,D,858.224,862.164,3.94,TS3011d.D.dialog-act.vkaraisk.39,B,D,0.18,0.0,False,False,0.0,[],False, So in that way It it's fancy.,7,task,Assess
+TS3011d,A,858.244,858.514,0.27,TS3011d.A.dialog-act.vkaraisk.129,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,A,860.274,861.124,0.85,TS3011d.A.dialog-act.vkaraisk.130,,,,,,,,,False, It applies.,2,task,Inform
+TS3011d,A,861.124,861.404,0.28,TS3011d.A.dialog-act.vkaraisk.131,,,,,,,,,False, It,1,minor,Fragment
+TS3011d,A,861.404,861.804,0.4,TS3011d.A.dialog-act.vkaraisk.132,,,,,,,,,False, yeah.,1,task,Assess
+TS3011d,B,862.144,862.344,0.2,TS3011d.B.dialog-act.vkaraisk.45,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,B,862.344,863.864,1.52,TS3011d.B.dialog-act.vkaraisk.46,B,D,2.33,0.18,True,False,0.0,[],True, just give it a two.,5,elicit,Elicit-Assessment
+TS3011d,C,862.454,862.864,0.41,TS3011d.C.dialog-act.vkaraisk.88,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3011d,A,864.494,864.854,0.36,TS3011d.A.dialog-act.vkaraisk.133,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,C,865.364,866.054,0.69,TS3011d.C.dialog-act.vkaraisk.89,,,,,,,,,False, Yes.,1,minor,Stall
+TS3011d,C,866.054,869.414,3.36,TS3011d.C.dialog-act.vkaraisk.90,,,,,,,,,False, I think I th I think it would have been I would have think uh,15,minor,Fragment
+TS3011d,B,866.194,868.384,2.19,TS3011d.B.dialog-act.vkaraisk.47,C,B,1.03,2.33,False,False,0.0,[],False," It's not the ultimate uh fancy two, but",8,task,Assess
+TS3011d,C,869.414,874.574,5.16,TS3011d.C.dialog-act.vkaraisk.91,C,B,0.0,1.03,True,False,0.0,[],True," it could have been more fancy by using the double-curved case. It would have been even more fancy,",18,task,Assess
+TS3011d,C,874.574,876.684,2.11,TS3011d.C.dialog-act.vkaraisk.92,C,C,0.0,0.0,False,False,0.0,[],False," but we decided not to,",5,task,Inform
+TS3011d,C,876.684,880.984,4.3,TS3011d.C.dialog-act.vkaraisk.93,B,C,0.84,0.0,False,False,0.0,[],False," because if we use a double-curved case, we could not use solar.",12,task,Inform
+TS3011d,B,878.594,878.714,0.12,TS3011d.B.dialog-act.vkaraisk.48,,,,,,,,,False," Yeah,",1,minor,Stall
+TS3011d,B,878.714,879.664,0.95,TS3011d.B.dialog-act.vkaraisk.49,,,,,,,,,False, but that's sti that's uh,5,minor,Fragment
+TS3011d,C,880.984,881.474,0.49,TS3011d.C.dialog-act.vkaraisk.94,,,,,,,,,False, So,1,minor,Fragment
+TS3011d,B,881.824,890.874,9.05,TS3011d.B.dialog-act.vkaraisk.50,B,C,0.0,0.84,True,False,0.0,[],True," Looking at the user uh needs, we only uh don't we don't have the double-curved case.",16,task,Assess
+TS3011d,B,890.874,893.344,2.47,TS3011d.B.dialog-act.vkaraisk.51,B,B,0.0,0.0,False,False,0.0,[],False," We w we do have uh the rubber,",8,task,Inform
+TS3011d,B,893.344,894.974,1.63,TS3011d.B.dialog-act.vkaraisk.52,B,B,0.0,0.0,False,False,0.0,[],False, we do have the colours.,5,task,Inform
+TS3011d,B,894.974,896.064,1.09,TS3011d.B.dialog-act.vkaraisk.53,B,B,1.08,0.0,False,False,0.0,[],False, That's two out of three.,5,task,Inform
+TS3011d,C,896.784,897.084,0.3,TS3011d.C.dialog-act.vkaraisk.95,,,,,,,,,False, Yes.,1,minor,Backchannel
+TS3011d,B,897.144,899.514,2.37,TS3011d.B.dialog-act.vkaraisk.54,A,B,-0.5,1.08,False,True,0.5,['TS3011d.A.dialog-act.vkaraisk.134'],False, So I believe uh we are close uh to two.,10,task,Assess
+TS3011d,A,899.014,900.354,1.34,TS3011d.A.dialog-act.vkaraisk.134,C,B,0.32,-0.5,True,False,0.0,[],False," Yeah, I I agree.",4,task,Assess
+TS3011d,C,900.674,902.694,2.02,TS3011d.C.dialog-act.vkaraisk.96,A,A,7.64,0.32,True,False,0.0,[],True," Yes, I agree too. It's okay.",6,task,Assess
+TS3011d,C,902.694,903.434,0.74,TS3011d.C.dialog-act.vkaraisk.97,,,,,,,,,False, We did,2,minor,Fragment
+TS3011d,C,903.434,903.724,0.29,TS3011d.C.dialog-act.vkaraisk.98,,,,,,,,,False," yes,",1,minor,Stall
+TS3011d,C,903.724,904.144,0.42,TS3011d.C.dialog-act.vkaraisk.99,,,,,,,,,False, we did good.,3,task,Assess
+TS3011d,D,904.614,905.744,1.13,TS3011d.D.dialog-act.vkaraisk.40,,,,,,,,,False," Okay, and uh",3,minor,Stall
+TS3011d,D,905.744,907.964,2.22,TS3011d.D.dialog-act.vkaraisk.41,,,,,,,,,False, was it innovative?,3,elicit,Elicit-Assessment
+TS3011d,B,908.768,909.92,1.152,TS3011d.B.dialog-act.vkaraisk.55,,,,,,,,,False,,0,minor,Fragment
+TS3011d,D,909.801,912.579,2.778,TS3011d.D.dialog-act.vkaraisk.42,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,909.844,910.334,0.49,TS3011d.A.dialog-act.vkaraisk.135,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,A,910.334,912.184,1.85,TS3011d.A.dialog-act.vkaraisk.136,B,C,0.46,7.64,True,False,0.0,[],True, with the voice recognition feature,5,task,Inform
+TS3011d,A,912.184,913.179,0.995,TS3011d.A.dialog-act.vkaraisk.137,,,,,,,,,False, and uh,2,minor,Fragment
+TS3011d,B,912.644,914.504,1.86,TS3011d.B.dialog-act.vkaraisk.56,A,A,1.99,0.46,True,False,0.0,[],True, But that's not in it.,5,task,Assess
+TS3011d,D,914.464,914.694,0.23,TS3011d.D.dialog-act.vkaraisk.43,,,,,,,,,False, Yep.,1,minor,Backchannel
+TS3011d,B,914.504,915.856,1.352,TS3011d.B.dialog-act.vkaraisk.57,,,,,,,,,False, Ov or can we,4,minor,Fragment
+TS3011d,A,916.134,916.494,0.36,TS3011d.A.dialog-act.vkaraisk.138,,,,,,,,,False," No,",1,task,Assess
+TS3011d,C,916.194,916.524,0.33,TS3011d.C.dialog-act.vkaraisk.100,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,A,916.494,921.374,4.88,TS3011d.A.dialog-act.vkaraisk.139,C,B,-0.84,1.99,True,True,0.84,['TS3011d.C.dialog-act.vkaraisk.102'],True, we are evaluating this this uh design now. This prototype.,10,task,Inform
+TS3011d,C,916.524,918.314,1.79,TS3011d.C.dialog-act.vkaraisk.101,,,,,,,,,False, let's let's this product.,4,minor,Fragment
+TS3011d,B,918.944,919.374,0.43,TS3011d.B.dialog-act.vkaraisk.58,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+TS3011d,C,920.534,923.294,2.76,TS3011d.C.dialog-act.vkaraisk.102,B,A,0.364,-0.84,True,False,0.0,[],False, So I I I think it is. I think it's innovative.,11,task,Assess
+TS3011d,A,923.594,923.854,0.26,TS3011d.A.dialog-act.vkaraisk.140,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,B,923.658,926.754,3.096,TS3011d.B.dialog-act.vkaraisk.59,B,C,0.0,0.364,True,False,0.0,[],True, And the scroll uh wheel. The solar,7,task,Inform
+TS3011d,B,926.754,930.064,3.31,TS3011d.B.dialog-act.vkaraisk.60,C,B,0.52,0.0,False,False,0.0,[],False," not many remotes have the solar, I think.",8,task,Inform
+TS3011d,C,930.134,930.584,0.45,TS3011d.C.dialog-act.vkaraisk.103,,,,,,,,,False, No.,1,minor,Stall
+TS3011d,C,930.584,936.284,5.7,TS3011d.C.dialog-act.vkaraisk.104,A,B,1.0,0.52,True,False,0.0,[],True," It could have been a little bit more innovative u by using the kinetic uh energy source,",17,task,Assess
+TS3011d,D,936.204,937.169,0.965,TS3011d.D.dialog-act.vkaraisk.44,,,,,,,,,False," Yeah, and uh",3,minor,Stall
+TS3011d,C,936.284,938.744,2.46,TS3011d.C.dialog-act.vkaraisk.105,,,,,,,,,False, but it's it's way too,5,minor,Fragment
+TS3011d,A,937.284,938.444,1.16,TS3011d.A.dialog-act.vkaraisk.141,D,C,2.86,1.0,True,False,0.0,[],True, That would have been a thrill.,6,task,Assess
+TS3011d,C,938.744,939.954,1.21,TS3011d.C.dialog-act.vkaraisk.106,,,,,,,,,False," yes,",1,task,Assess
+TS3011d,C,939.954,940.464,0.51,TS3011d.C.dialog-act.vkaraisk.107,,,,,,,,,False, but,1,minor,Fragment
+TS3011d,D,940.644,941.304,0.66,TS3011d.D.dialog-act.vkaraisk.45,,,,,,,,,False, So uh,2,minor,Stall
+TS3011d,D,941.304,942.664,1.36,TS3011d.D.dialog-act.vkaraisk.46,C,A,-0.5,2.86,True,True,0.5,['TS3011d.C.dialog-act.vkaraisk.108'],True, also a uh two?,4,elicit,Elicit-Assessment
+TS3011d,C,942.164,943.684,1.52,TS3011d.C.dialog-act.vkaraisk.108,D,D,4.42,-0.5,True,False,0.0,[],False, I think uh it's a two.,6,task,Assess
+TS3011d,A,943.094,943.294,0.2,TS3011d.A.dialog-act.vkaraisk.142,,,,,,,,,False, Yep.,1,task,Assess
+TS3011d,D,948.104,949.024,0.92,TS3011d.D.dialog-act.vkaraisk.47,A,C,2.09,4.42,True,False,0.0,[],True, Is it easy to use?,5,elicit,Elicit-Assessment
+TS3011d,A,951.114,955.534,4.42,TS3011d.A.dialog-act.vkaraisk.143,B,D,2.18,2.09,True,False,0.0,[],True, I'm not sure. I'm not sure.,6,task,Assess
+TS3011d,B,951.174,951.604,0.43,TS3011d.B.dialog-act.vkaraisk.61,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,C,952.687,953.767,1.08,TS3011d.C.dialog-act.vkaraisk.109,,,,,,,,,False,,0,minor,Fragment
+TS3011d,D,952.828,954.8,1.972,TS3011d.D.dialog-act.vkaraisk.48,,,,,,,,,False,,0,minor,Fragment
+TS3011d,B,956.654,957.714,1.06,TS3011d.B.dialog-act.vkaraisk.62,,,,,,,,,False," Well yeah,",2,minor,Stall
+TS3011d,B,957.714,961.614,3.9,TS3011d.B.dialog-act.vkaraisk.63,B,A,3.17,2.18,True,False,0.0,[],True," the voice recognition of course is hard to learn, I think.",11,task,Inform
+TS3011d,B,963.544,963.774,0.23,TS3011d.B.dialog-act.vkaraisk.64,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,B,963.774,964.784,1.01,TS3011d.B.dialog-act.vkaraisk.65,,,,,,,,,False, hard,1,minor,Fragment
+TS3011d,B,964.784,966.754,1.97,TS3011d.B.dialog-act.vkaraisk.66,B,B,1.33,3.17,False,False,0.0,[],False, it's not for the for the e for the elderly.,10,task,Inform
+TS3011d,C,967.776,968.714,0.938,TS3011d.C.dialog-act.vkaraisk.110,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,B,968.084,968.854,0.77,TS3011d.B.dialog-act.vkaraisk.67,C,B,-0.14,1.33,False,True,0.14,['TS3011d.C.dialog-act.vkaraisk.111'],False, They won't use it.,4,task,Inform
+TS3011d,C,968.714,971.464,2.75,TS3011d.C.dialog-act.vkaraisk.111,C,B,0.0,-0.14,True,False,0.0,[],False, but there are two parts in this remote control.,9,task,Inform
+TS3011d,C,971.464,973.924,2.46,TS3011d.C.dialog-act.vkaraisk.112,C,C,0.0,0.0,False,False,0.0,[],False, What you see here is is the basic part.,9,task,Inform
+TS3011d,C,973.924,975.224,1.3,TS3011d.C.dialog-act.vkaraisk.113,C,C,0.0,0.0,False,False,0.0,[],False," Everybody can use it,",4,task,Inform
+TS3011d,C,975.224,977.044,1.82,TS3011d.C.dialog-act.vkaraisk.114,C,C,0.0,0.0,False,False,0.0,[],False, so that's easy to use.,5,task,Assess
+TS3011d,A,976.474,976.684,0.21,TS3011d.A.dialog-act.vkaraisk.144,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,977.044,978.964,1.92,TS3011d.C.dialog-act.vkaraisk.115,C,C,0.0,0.0,False,False,0.0,[],False, That's for a novice user.,5,task,Inform
+TS3011d,C,978.964,986.534,7.57,TS3011d.C.dialog-act.vkaraisk.116,C,C,2.19,0.0,False,False,0.0,[],False," When you have a more advanced, elaborate user, well, such a user really would like to explore all these additional functions.",21,task,Inform
+TS3011d,C,988.724,991.714,2.99,TS3011d.C.dialog-act.vkaraisk.117,C,C,1.09,2.19,False,False,0.0,[],False," So in that in that way it is advanced,",9,task,Inform
+TS3011d,A,992.044,992.254,0.21,TS3011d.A.dialog-act.vkaraisk.145,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,992.804,998.444,5.64,TS3011d.C.dialog-act.vkaraisk.118,B,C,2.44,1.09,False,False,0.0,[],False, and I think it's easy to use for for both uh types of users.,14,task,Assess
+TS3011d,C,1000.874,1001.407,0.533,TS3011d.C.dialog-act.vkaraisk.119,,,,,,,,,False, So uh,2,minor,Stall
+TS3011d,B,1000.884,1006.374,5.49,TS3011d.B.dialog-act.vkaraisk.68,B,C,0.0,2.44,True,False,0.0,[],True, I think I think a three.,6,task,Assess
+TS3011d,C,1002.504,1005.269,2.765,TS3011d.C.dialog-act.vkaraisk.120,,,,,,,,,False, It's maybe it's not very uh easy for,8,minor,Fragment
+TS3011d,B,1006.374,1007.184,0.81,TS3011d.B.dialog-act.vkaraisk.69,A,B,1.97,0.0,False,False,0.0,[],False, Wouldn't give it more.,4,other,Offer
+TS3011d,A,1009.154,1012.119,2.965,TS3011d.A.dialog-act.vkaraisk.146,D,B,1.045,1.97,True,False,0.0,[],True, Uh I'm doubting doubting as well. Um,7,task,Assess
+TS3011d,D,1012.484,1012.844,0.36,TS3011d.D.dialog-act.vkaraisk.49,,,,,,,,,False, Well,1,minor,Stall
+TS3011d,D,1012.844,1013.164,0.32,TS3011d.D.dialog-act.vkaraisk.50,,,,,,,,,False, the p,2,minor,Fragment
+TS3011d,D,1013.164,1020.204,7.04,TS3011d.D.dialog-act.vkaraisk.51,D,A,1.38,1.045,True,False,0.0,[],True," the most important function is easy to use. The the zapping, channel switching, volume.",14,task,Assess
+TS3011d,D,1021.584,1025.894,4.31,TS3011d.D.dialog-act.vkaraisk.52,A,D,5.13,1.38,False,False,0.0,[],False, But the more advanced functions are probably a bit harder.,10,task,Assess
+TS3011d,A,1028.394,1029.594,1.2,TS3011d.A.dialog-act.vkaraisk.147,,,,,,,,,False, Okay. Uh,2,minor,Stall
+TS3011d,A,1029.594,1029.904,0.31,TS3011d.A.dialog-act.vkaraisk.148,,,,,,,,,False, two,1,elicit,Elicit-Assessment
+TS3011d,A,1029.904,1031.024,1.12,TS3011d.A.dialog-act.vkaraisk.149,,,,,,,,,False, or three? Three?,3,elicit,Elicit-Assessment
+TS3011d,A,1031.024,1033.564,2.54,TS3011d.A.dialog-act.vkaraisk.150,A,D,0.0,5.13,True,False,0.0,[],True, Wha wh what would be your guess?,7,elicit,Elicit-Assessment
+TS3011d,A,1033.564,1038.794,5.23,TS3011d.A.dialog-act.vkaraisk.151,A,A,0.0,0.0,False,False,0.0,[],False, I mean ease of use um does not only apply to the most basic functions.,15,task,Inform
+TS3011d,C,1033.724,1034.114,0.39,TS3011d.C.dialog-act.vkaraisk.121,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3011d,A,1038.794,1040.414,1.62,TS3011d.A.dialog-act.vkaraisk.152,A,A,0.0,0.0,False,False,0.0,[],False, It's the uh it's it's overall.,6,task,Inform
+TS3011d,A,1040.414,1042.044,1.63,TS3011d.A.dialog-act.vkaraisk.153,C,A,-0.12,0.0,False,True,0.12,['TS3011d.C.dialog-act.vkaraisk.122'],False, Is the device easy to use?,6,elicit,Elicit-Assessment
+TS3011d,C,1041.924,1043.934,2.01,TS3011d.C.dialog-act.vkaraisk.122,C,A,0.0,-0.12,True,False,0.0,[],False," Yeah, that's right. You're right in that,",7,task,Assess
+TS3011d,C,1043.934,1049.974,6.04,TS3011d.C.dialog-act.vkaraisk.123,C,C,1.07,0.0,False,False,0.0,[],False," but I I guess uh an advanced user will will find the voice recognition function easy to use,",18,task,Inform
+TS3011d,A,1050.544,1050.714,0.17,TS3011d.A.dialog-act.vkaraisk.154,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1051.044,1055.114,4.07,TS3011d.C.dialog-act.vkaraisk.124,C,C,1.56,1.07,False,False,0.0,[],False, because he is already he or she is already an advanced user.,12,task,Inform
+TS3011d,A,1054.254,1054.584,0.33,TS3011d.A.dialog-act.vkaraisk.155,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1055.114,1055.504,0.39,TS3011d.C.dialog-act.vkaraisk.125,,,,,,,,,False, So,1,minor,Stall
+TS3011d,C,1056.674,1060.034,3.36,TS3011d.C.dialog-act.vkaraisk.126,A,C,1.11,1.56,False,False,0.0,[],False," After all, I think personally I would give a two.",10,task,Assess
+TS3011d,A,1056.694,1061.144,4.45,TS3011d.A.dialog-act.vkaraisk.156,,,,,,,,,False, Um Okay.,2,other,Comment-About-Understanding
+TS3011d,C,1060.034,1060.384,0.35,TS3011d.C.dialog-act.vkaraisk.127,,,,,,,,,False, But,1,minor,Fragment
+TS3011d,A,1061.144,1062.784,1.64,TS3011d.A.dialog-act.vkaraisk.157,D,C,6.98,1.11,True,False,0.0,[],True," Uh Roo, a three?",4,elicit,Elicit-Assessment
+TS3011d,B,1062.284,1062.684,0.4,TS3011d.B.dialog-act.vkaraisk.70,,,,,,,,,False, Yep.,1,task,Assess
+TS3011d,A,1062.784,1063.074,0.29,TS3011d.A.dialog-act.vkaraisk.158,,,,,,,,,False, Ruud?,1,elicit,Elicit-Assessment
+TS3011d,D,1067.284,1068.014,0.73,TS3011d.D.dialog-act.vkaraisk.53,,,,,,,,,False, Good question.,2,task,Assess
+TS3011d,D,1069.764,1072.574,2.81,TS3011d.D.dialog-act.vkaraisk.54,C,A,1.93,6.98,True,False,0.0,[],True, Uh I'll go uh for the two.,7,task,Assess
+TS3011d,A,1073.224,1075.692,2.468,TS3011d.A.dialog-act.vkaraisk.159,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+TS3011d,D,1073.819,1075.1,1.281,TS3011d.D.dialog-act.vkaraisk.55,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,1074.504,1077.974,3.47,TS3011d.C.dialog-act.vkaraisk.128,A,D,1.04,1.93,True,False,0.0,[],True," So, it's two, two and three. Two threes.",8,task,Inform
+TS3011d,B,1074.896,1076.544,1.648,TS3011d.B.dialog-act.vkaraisk.71,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,1077.974,1079.694,1.72,TS3011d.C.dialog-act.vkaraisk.129,,,,,,,,,False, So that's ten.,3,task,Inform
+TS3011d,A,1078.734,1079.014,0.28,TS3011d.A.dialog-act.vkaraisk.160,,,,,,,,,False, So,1,minor,Stall
+TS3011d,A,1079.014,1080.514,1.5,TS3011d.A.dialog-act.vkaraisk.161,B,C,-0.63,1.04,True,True,0.63,['TS3011d.B.dialog-act.vkaraisk.72'],True, I could make it e easy?,6,elicit,Elicit-Assessment
+TS3011d,B,1079.884,1083.024,3.14,TS3011d.B.dialog-act.vkaraisk.72,C,A,1.26,-0.63,True,False,0.0,[],False, If you make it a four it will be three in general.,12,task,Inform
+TS3011d,C,1081.224,1082.674,1.45,TS3011d.C.dialog-act.vkaraisk.130,,,,,,,,,False, So that's w,3,minor,Fragment
+TS3011d,C,1083.664,1084.284,0.62,TS3011d.C.dialog-act.vkaraisk.131,,,,,,,,,False," No,",1,task,Assess
+TS3011d,C,1084.284,1084.844,0.56,TS3011d.C.dialog-act.vkaraisk.132,B,B,0.87,1.26,True,False,0.0,[],True, two and a half.,4,task,Inform
+TS3011d,B,1085.714,1089.674,3.96,TS3011d.B.dialog-act.vkaraisk.73,C,C,-0.74,0.87,True,True,0.74,['TS3011d.C.dialog-act.vkaraisk.133'],True, If he makes it a four. Not a three.,9,task,Assess
+TS3011d,C,1088.934,1091.744,2.81,TS3011d.C.dialog-act.vkaraisk.133,C,B,0.0,-0.74,True,False,0.0,[],False, Six and four. Six and four is ten.,8,task,Inform
+TS3011d,C,1091.744,1093.274,1.53,TS3011d.C.dialog-act.vkaraisk.134,B,C,8.31,0.0,False,False,0.0,[],False, Divided by four is two and a half.,8,task,Inform
+TS3011d,C,1094.434,1094.994,0.56,TS3011d.C.dialog-act.vkaraisk.135,,,,,,,,,False, So,1,minor,Fragment
+TS3011d,B,1095.954,1096.694,0.74,TS3011d.B.dialog-act.vkaraisk.74,,,,,,,,,False, Darn.,1,other,Be-Negative
+TS3011d,B,1096.694,1097.014,0.32,TS3011d.B.dialog-act.vkaraisk.75,,,,,,,,,False, Nee.,1,task,Assess
+TS3011d,D,1097.174,1098.544,1.37,TS3011d.D.dialog-act.vkaraisk.56,,,,,,,,,False, Hmm? Huh?,2,other,Comment-About-Understanding
+TS3011d,C,1097.604,1100.89,3.286,TS3011d.C.dialog-act.vkaraisk.136,,,,,,,,,False, Yes.,1,task,Assess
+TS3011d,A,1098.224,1101.537,3.313,TS3011d.A.dialog-act.vkaraisk.162,,,,,,,,,False, Roo.,1,other,Other
+TS3011d,B,1098.434,1100.864,2.43,TS3011d.B.dialog-act.vkaraisk.76,,,,,,,,,False," A seven, a three",4,minor,Fragment
+TS3011d,B,1100.864,1101.584,0.72,TS3011d.B.dialog-act.vkaraisk.77,,,,,,,,,False, No.,1,task,Assess
+TS3011d,D,1100.944,1102.524,1.58,TS3011d.D.dialog-act.vkaraisk.57,,,,,,,,,False, Yeah. I yeah.,3,task,Assess
+TS3011d,B,1101.584,1104.354,2.77,TS3011d.B.dialog-act.vkaraisk.78,B,C,0.19,8.31,True,False,0.0,[],True, A four and a three together.,6,task,Inform
+TS3011d,C,1101.752,1104.064,2.312,TS3011d.C.dialog-act.vkaraisk.137,,,,,,,,,False, Four?,1,other,Comment-About-Understanding
+TS3011d,B,1104.354,1104.544,0.19,TS3011d.B.dialog-act.vkaraisk.79,,,,,,,,,False," Yeah,",1,task,Inform
+TS3011d,B,1104.544,1107.704,3.16,TS3011d.B.dialog-act.vkaraisk.81,A,B,0.52,0.19,False,False,0.0,[],False," you have a two, he has a two. Three?",9,task,Inform
+TS3011d,D,1104.664,1105.284,0.62,TS3011d.D.dialog-act.vkaraisk.58,,,,,,,,,False," Yeah,",1,task,Inform
+TS3011d,D,1105.284,1106.432,1.148,TS3011d.D.dialog-act.vkaraisk.59,,,,,,,,,False," two, two, three",3,task,Inform
+TS3011d,C,1105.694,1106.004,0.31,TS3011d.C.dialog-act.vkaraisk.138,,,,,,,,,False, Two?,1,task,Inform
+TS3011d,B,1107.704,1109.544,1.84,TS3011d.B.dialog-act.vkaraisk.82,,,,,,,,,False, And a three?,3,elicit,Elicit-Assessment
+TS3011d,A,1107.764,1108.224,0.46,TS3011d.A.dialog-act.vkaraisk.163,,,,,,,,,False," No,",1,task,Assess
+TS3011d,A,1108.224,1109.824,1.6,TS3011d.A.dialog-act.vkaraisk.164,A,B,1.18,0.52,True,False,0.0,[],True, I haven't said anything yet.,5,task,Inform
+TS3011d,D,1109.434,1114.096,4.662,TS3011d.D.dialog-act.vkaraisk.60,,,,,,,,,False, No.,1,task,Assess
+TS3011d,B,1109.544,1110.924,1.38,TS3011d.B.dialog-act.vkaraisk.83,,,,,,,,,False, Nee. I know.,3,task,Assess
+TS3011d,A,1110.704,1111.004,0.3,TS3011d.A.dialog-act.vkaraisk.165,,,,,,,,,False," Okay,",1,minor,Stall
+TS3011d,A,1111.004,1118.684,7.68,TS3011d.A.dialog-act.vkaraisk.166,B,A,0.25,1.18,False,False,0.0,[],False," but if I would say a three, then it's six, and four is ten. Divided by four is two point five.",21,task,Inform
+TS3011d,C,1115.814,1116.714,0.9,TS3011d.C.dialog-act.vkaraisk.139,,,,,,,,,False, Divided by four.,3,task,Inform
+TS3011d,B,1118.224,1118.934,0.71,TS3011d.B.dialog-act.vkaraisk.84,,,,,,,,,False, Yes.,1,task,Assess
+TS3011d,B,1118.934,1125.544,6.61,TS3011d.B.dialog-act.vkaraisk.85,A,A,2.1,0.25,True,False,0.0,[],True, So if you want to have the conclusion as a three three. Then you would make a four.,18,task,Inform
+TS3011d,B,1125.544,1130.776,5.232,TS3011d.B.dialog-act.vkaraisk.86,,,,,,,,,False, If you fill out a four,6,minor,Fragment
+TS3011d,C,1127.604,1128.535,0.931,TS3011d.C.dialog-act.vkaraisk.140,,,,,,,,,False, That's not even,3,minor,Fragment
+TS3011d,A,1127.644,1128.774,1.13,TS3011d.A.dialog-act.vkaraisk.167,A,B,0.59,2.1,True,False,0.0,[],True, But I'm filling in a three.,6,task,Inform
+TS3011d,A,1128.774,1129.364,0.59,TS3011d.A.dialog-act.vkaraisk.168,,,,,,,,,False, Does it will,3,minor,Fragment
+TS3011d,D,1129.087,1130.391,1.304,TS3011d.D.dialog-act.vkaraisk.61,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,1129.364,1131.134,1.77,TS3011d.A.dialog-act.vkaraisk.169,C,A,0.1,0.59,False,False,0.0,[],False, so it will be a two point five.,8,task,Inform
+TS3011d,C,1131.234,1132.624,1.39,TS3011d.C.dialog-act.vkaraisk.141,C,A,0.0,0.1,True,False,0.0,[],True," But that's not possible to fill in,",7,task,Inform
+TS3011d,A,1132.494,1134.524,2.03,TS3011d.A.dialog-act.vkaraisk.170,,,,,,,,,False," Yes, it is.",3,task,Assess
+TS3011d,C,1132.624,1137.168,4.544,TS3011d.C.dialog-act.vkaraisk.142,D,C,-3.758,0.0,False,True,3.758,"['TS3011d.D.dialog-act.vkaraisk.62', 'TS3011d.A.dialog-act.vkaraisk.171']",False, so we have to round it.,6,task,Suggest
+TS3011d,D,1133.41,1146.368,12.958,TS3011d.D.dialog-act.vkaraisk.62,A,C,-11.844,-3.758,True,True,3.37,"['TS3011d.A.dialog-act.vkaraisk.171', 'TS3011d.A.dialog-act.vkaraisk.173']",False, Is it easy to find?,5,elicit,Elicit-Assessment
+TS3011d,A,1134.524,1137.894,3.37,TS3011d.A.dialog-act.vkaraisk.171,A,D,2.34,-11.844,True,False,0.0,[],False, I have a veto.,4,other,Be-Positive
+TS3011d,A,1137.894,1140.234,2.34,TS3011d.A.dialog-act.vkaraisk.172,,,,,,,,,False, Exactly.,1,task,Assess
+TS3011d,A,1140.234,1141.994,1.76,TS3011d.A.dialog-act.vkaraisk.173,B,A,6.56,2.34,False,False,0.0,[],False," It's not about the content,",5,task,Inform
+TS3011d,A,1141.994,1143.384,1.39,TS3011d.A.dialog-act.vkaraisk.174,,,,,,,,,False, it's about,2,minor,Fragment
+TS3011d,A,1143.384,1144.734,1.35,TS3011d.A.dialog-act.vkaraisk.175,,,,,,,,,False," okay, um",2,minor,Stall
+TS3011d,A,1144.734,1145.494,0.76,TS3011d.A.dialog-act.vkaraisk.176,,,,,,,,,False, is it easy to f,5,minor,Fragment
+TS3011d,A,1146.864,1147.874,1.01,TS3011d.A.dialog-act.vkaraisk.177,,,,,,,,,False," Yeah, definitely.",2,task,Assess
+TS3011d,C,1148.054,1148.384,0.33,TS3011d.C.dialog-act.vkaraisk.143,,,,,,,,,False, Yes.,1,task,Assess
+TS3011d,B,1148.384,1148.554,0.17,TS3011d.B.dialog-act.vkaraisk.87,,,,,,,,,False," Yeah,",1,minor,Stall
+TS3011d,B,1148.554,1151.454,2.9,TS3011d.B.dialog-act.vkaraisk.88,B,A,0.0,6.56,True,False,0.0,[],True," we haven't re uh re uh really worked it out,",10,task,Inform
+TS3011d,B,1151.454,1156.074,4.62,TS3011d.B.dialog-act.vkaraisk.89,C,B,-3.73,0.0,False,True,2.29,['TS3011d.C.dialog-act.vkaraisk.144'],False, but you c you can you can just say find and he repeats find.,14,task,Suggest
+TS3011d,C,1152.344,1154.634,2.29,TS3011d.C.dialog-act.vkaraisk.144,B,B,3.8,-3.73,True,False,0.0,[],False, It it most definitely is it's very easy.,8,task,Assess
+TS3011d,A,1156.504,1156.644,0.14,TS3011d.A.dialog-act.vkaraisk.178,,,,,,,,,False," Yeah,",1,task,Assess
+TS3011d,A,1156.644,1157.204,0.56,TS3011d.A.dialog-act.vkaraisk.179,,,,,,,,,False, or beeps,2,task,Suggest
+TS3011d,A,1157.204,1157.654,0.45,TS3011d.A.dialog-act.vkaraisk.180,,,,,,,,,False, or,1,minor,Fragment
+TS3011d,A,1157.654,1157.984,0.33,TS3011d.A.dialog-act.vkaraisk.181,,,,,,,,,False, yeah.,1,task,Assess
+TS3011d,B,1158.284,1158.434,0.15,TS3011d.B.dialog-act.vkaraisk.90,,,,,,,,,False," Yeah,",1,minor,Stall
+TS3011d,B,1158.434,1162.096,3.662,TS3011d.B.dialog-act.vkaraisk.91,A,C,0.098,3.8,True,False,0.0,[],True, but that's the that's the the basic idea of the the speaker uh,13,task,Inform
+TS3011d,C,1158.484,1158.704,0.22,TS3011d.C.dialog-act.vkaraisk.145,,,,,,,,,False, Yes.,1,task,Assess
+TS3011d,C,1159.994,1160.594,0.6,TS3011d.C.dialog-act.vkaraisk.146,,,,,,,,,False, Maybe,1,minor,Fragment
+TS3011d,C,1160.594,1163.244,2.65,TS3011d.C.dialog-act.vkaraisk.149,,,,,,,,,False, Uh I I think I think,6,minor,Fragment
+TS3011d,A,1162.194,1163.44,1.246,TS3011d.A.dialog-act.vkaraisk.182,C,B,0.524,0.098,True,False,0.0,[],True," I'm here, I'm here.",4,task,Suggest
+TS3011d,C,1163.244,1163.964,0.72,TS3011d.C.dialog-act.vkaraisk.150,,,,,,,,,False, something like that.,3,task,Assess
+TS3011d,C,1163.964,1176.604,12.64,TS3011d.C.dialog-act.vkaraisk.148,A,A,1.06,0.524,True,False,0.0,[],True," Maybe you have to uh programme it once, so to that l respond to uh a certain word or a certain sentence, something like where are you, and then it will sing I'm here. So something like that.",38,task,Suggest
+TS3011d,A,1166.544,1166.754,0.21,TS3011d.A.dialog-act.vkaraisk.183,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,A,1169.844,1170.174,0.33,TS3011d.A.dialog-act.vkaraisk.184,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,B,1171.014,1172.274,1.26,TS3011d.B.dialog-act.vkaraisk.92,,,,,,,,,False, But even without it,4,minor,Fragment
+TS3011d,D,1174.981,1175.876,0.895,TS3011d.D.dialog-act.vkaraisk.63,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,1175.064,1175.384,0.32,TS3011d.A.dialog-act.vkaraisk.185,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1176.604,1176.974,0.37,TS3011d.C.dialog-act.vkaraisk.151,,,,,,,,,False," So,",1,minor,Stall
+TS3011d,A,1176.614,1177.664,1.05,TS3011d.A.dialog-act.vkaraisk.186,,,,,,,,,False," Well, I uh",3,minor,Stall
+TS3011d,C,1176.974,1177.114,0.14,TS3011d.C.dialog-act.vkaraisk.152,,,,,,,,,False, I th,2,minor,Fragment
+TS3011d,A,1177.664,1180.994,3.33,TS3011d.A.dialog-act.vkaraisk.187,A,C,0.0,1.06,True,False,0.0,[],True," we should not uh stay too long on this subject uh because of the time,",15,task,Suggest
+TS3011d,A,1180.994,1183.764,2.77,TS3011d.A.dialog-act.vkaraisk.188,A,A,6.14,0.0,False,False,0.0,[],False, but I personally give it a one.,7,task,Assess
+TS3011d,B,1181.124,1181.374,0.25,TS3011d.B.dialog-act.vkaraisk.93,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1183.296,1185.884,2.588,TS3011d.C.dialog-act.vkaraisk.153,,,,,,,,,False," Yeah, me too.",3,task,Assess
+TS3011d,A,1183.764,1185.064,1.3,TS3011d.A.dialog-act.vkaraisk.189,,,,,,,,,False, Um Sebastian?,2,elicit,Elicit-Assessment
+TS3011d,B,1186.174,1186.614,0.44,TS3011d.B.dialog-act.vkaraisk.94,,,,,,,,,False, Me too.,2,task,Assess
+TS3011d,D,1186.814,1187.434,0.62,TS3011d.D.dialog-act.vkaraisk.64,,,,,,,,,False," Yeah, I agree.",3,task,Assess
+TS3011d,A,1187.314,1189.904,2.59,TS3011d.A.dialog-act.vkaraisk.190,,,,,,,,,False," Right, well.",2,minor,Stall
+TS3011d,A,1189.904,1192.674,2.77,TS3011d.A.dialog-act.vkaraisk.191,A,A,0.44,6.14,False,False,0.0,[],False, The feel of the remote control is spongy.,8,elicit,Elicit-Assessment
+TS3011d,D,1192.198,1193.13,0.932,TS3011d.D.dialog-act.vkaraisk.65,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,1192.674,1193.114,0.44,TS3011d.A.dialog-act.vkaraisk.192,,,,,,,,,False," Well, uh",2,minor,Stall
+TS3011d,A,1193.114,1194.444,1.33,TS3011d.A.dialog-act.vkaraisk.193,C,A,2.8,0.44,False,False,0.0,[],False, it can't be more spongy.,5,task,Assess
+TS3011d,A,1194.444,1195.824,1.38,TS3011d.A.dialog-act.vkaraisk.194,,,,,,,,,False, So,1,minor,Fragment
+TS3011d,C,1195.884,1196.104,0.22,TS3011d.C.dialog-act.vkaraisk.154,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,C,1196.104,1197.244,1.14,TS3011d.C.dialog-act.vkaraisk.155,,,,,,,,,False, it can be.,3,task,Assess
+TS3011d,C,1197.244,1207.234,9.99,TS3011d.C.dialog-act.vkaraisk.156,B,A,-1.45,2.8,True,True,1.31,['TS3011d.B.dialog-act.vkaraisk.95'],True, There are cases um in which the outside casing is um can be uh how d how do you prono is is moldable.,23,task,Inform
+TS3011d,B,1205.784,1207.094,1.31,TS3011d.B.dialog-act.vkaraisk.95,C,C,0.14,-1.45,True,False,0.0,[],False, Was it one of our options?,6,elicit,Elicit-Inform
+TS3011d,C,1207.234,1208.994,1.76,TS3011d.C.dialog-act.vkaraisk.157,D,B,-0.23,0.14,True,True,0.23,['TS3011d.D.dialog-act.vkaraisk.67'],True," No, it's not one of our option,",7,task,Inform
+TS3011d,D,1207.614,1208.764,1.15,TS3011d.D.dialog-act.vkaraisk.66,,,,,,,,,False, No. Uh,2,minor,Stall
+TS3011d,A,1208.654,1209.094,0.44,TS3011d.A.dialog-act.vkaraisk.195,,,,,,,,,False," No okay,",2,minor,Stall
+TS3011d,D,1208.764,1211.917,3.153,TS3011d.D.dialog-act.vkaraisk.67,A,C,-1.093,-0.23,True,True,1.093,['TS3011d.A.dialog-act.vkaraisk.197'],False, this this was a most spongy option.,7,task,Inform
+TS3011d,C,1208.994,1211.387,2.393,TS3011d.C.dialog-act.vkaraisk.159,,,,,,,,,False," but when you look in the market, when you look",10,minor,Fragment
+TS3011d,B,1209.084,1210.027,0.943,TS3011d.B.dialog-act.vkaraisk.96,,,,,,,,,False," So, in the in",4,minor,Fragment
+TS3011d,A,1209.094,1209.624,0.53,TS3011d.A.dialog-act.vkaraisk.196,,,,,,,,,False, but but,2,minor,Fragment
+TS3011d,A,1210.824,1213.094,2.27,TS3011d.A.dialog-act.vkaraisk.197,C,D,0.2,-1.093,True,False,0.0,[],False," for the options given, it's the most spongy one.",9,task,Assess
+TS3011d,C,1212.484,1213.294,0.81,TS3011d.C.dialog-act.vkaraisk.158,,,,,,,,,False," Uh yes,",2,task,Assess
+TS3011d,C,1213.294,1216.674,3.38,TS3011d.C.dialog-act.vkaraisk.160,C,A,0.0,0.2,True,False,0.0,[],True," but that's not that's not uh what they are talking about, I think.",13,task,Inform
+TS3011d,B,1213.314,1213.534,0.22,TS3011d.B.dialog-act.vkaraisk.97,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,C,1216.674,1223.684,7.01,TS3011d.C.dialog-act.vkaraisk.161,C,C,0.55,0.0,False,False,0.0,[],False, Because we compare all these uh characteristics characteristics with uh market uh with with the real market.,17,task,Inform
+TS3011d,A,1222.704,1224.114,1.41,TS3011d.A.dialog-act.vkaraisk.198,,,,,,,,,False, Yeah. Yeah.,2,minor,Backchannel
+TS3011d,C,1223.684,1224.234,0.55,TS3011d.C.dialog-act.vkaraisk.163,,,,,,,,,False, So,1,minor,Stall
+TS3011d,C,1224.234,1233.274,9.04,TS3011d.C.dialog-act.vkaraisk.162,B,C,-4.426,0.55,False,True,4.326,['TS3011d.B.dialog-act.vkaraisk.98'],False, there are uh remote controls out there which are a lot more spongy. They're out there.,16,task,Inform
+TS3011d,A,1227.547,1233.294,5.747,TS3011d.A.dialog-act.vkaraisk.199,,,,,,,,,False, They're out there.,3,other,Be-Negative
+TS3011d,B,1228.848,1233.174,4.326,TS3011d.B.dialog-act.vkaraisk.98,C,C,0.1,-4.426,True,False,0.0,[],False, But I think in this case in this case we've done the best we could.,15,task,Assess
+TS3011d,D,1230.109,1231.499,1.39,TS3011d.D.dialog-act.vkaraisk.68,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,1233.274,1234.444,1.17,TS3011d.C.dialog-act.vkaraisk.164,C,B,0.0,0.1,True,False,0.0,[],True," Yes, but it's not good enough,",6,task,Assess
+TS3011d,A,1233.294,1233.564,0.27,TS3011d.A.dialog-act.vkaraisk.200,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,C,1234.444,1235.044,0.6,TS3011d.C.dialog-act.vkaraisk.165,A,C,-0.153,0.0,False,True,0.153,['TS3011d.A.dialog-act.vkaraisk.201'],False, so it's a two.,4,task,Assess
+TS3011d,A,1234.891,1236.944,2.053,TS3011d.A.dialog-act.vkaraisk.201,C,C,3.69,-0.153,True,False,0.0,[],False, I'll give it a one.,5,task,Assess
+TS3011d,B,1235.43,1237.544,2.114,TS3011d.B.dialog-act.vkaraisk.99,,,,,,,,,False, I wan,2,minor,Fragment
+TS3011d,B,1237.544,1238.334,0.79,TS3011d.B.dialog-act.vkaraisk.100,,,,,,,,,False, I'll take one.,3,task,Assess
+TS3011d,C,1239.364,1240.634,1.27,TS3011d.C.dialog-act.vkaraisk.166,,,,,,,,,False, You take one?,3,other,Comment-About-Understanding
+TS3011d,C,1240.634,1241.244,0.61,TS3011d.C.dialog-act.vkaraisk.167,D,A,3.72,3.69,True,False,0.0,[],True, What do you give it?,5,elicit,Elicit-Assessment
+TS3011d,D,1243.724,1244.154,0.43,TS3011d.D.dialog-act.vkaraisk.69,,,,,,,,,False," Well yeah,",2,minor,Stall
+TS3011d,D,1244.154,1244.964,0.81,TS3011d.D.dialog-act.vkaraisk.70,,,,,,,,,False," it depends,",2,task,Assess
+TS3011d,D,1244.964,1247.424,2.46,TS3011d.D.dialog-act.vkaraisk.71,A,C,-0.45,3.72,True,True,0.45,['TS3011d.A.dialog-act.vkaraisk.203'],True, 'cause it's the most spongy we could,7,task,Inform
+TS3011d,A,1246.464,1246.974,0.51,TS3011d.A.dialog-act.vkaraisk.202,,,,,,,,,False," Yeah, I know,",3,task,Assess
+TS3011d,A,1246.974,1249.28,2.306,TS3011d.A.dialog-act.vkaraisk.203,A,D,1.204,-0.45,True,False,0.0,[],False, but you have to name a fig uh a number.,10,task,Suggest
+TS3011d,D,1247.424,1248.384,0.96,TS3011d.D.dialog-act.vkaraisk.72,,,,,,,,,False, but,1,minor,Fragment
+TS3011d,D,1248.384,1248.934,0.55,TS3011d.D.dialog-act.vkaraisk.73,,,,,,,,,False, yeah.,1,task,Assess
+TS3011d,A,1250.484,1253.844,3.36,TS3011d.A.dialog-act.vkaraisk.204,D,A,1.92,1.204,False,False,0.0,[],False, Because we need to go on in for the time.,10,task,Inform
+TS3011d,D,1255.344,1255.764,0.42,TS3011d.D.dialog-act.vkaraisk.74,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,D,1255.764,1260.494,4.73,TS3011d.D.dialog-act.vkaraisk.75,B,A,-1.96,1.92,True,True,1.209,['TS3011d.B.dialog-act.vkaraisk.101'],True, if I give it a one there'll be one hell of a calculation.,13,task,Inform
+TS3011d,B,1258.534,1259.743,1.209,TS3011d.B.dialog-act.vkaraisk.101,D,D,0.751,-1.96,True,False,0.0,[],False, It will be a one.,5,task,Inform
+TS3011d,D,1260.494,1261.654,1.16,TS3011d.D.dialog-act.vkaraisk.76,D,B,0.0,0.751,True,False,0.0,[],True, So I'll just give it a two,7,task,Assess
+TS3011d,D,1261.654,1263.234,1.58,TS3011d.D.dialog-act.vkaraisk.77,C,D,1.04,0.0,False,False,0.0,[],False, and make this a one point five.,7,task,Inform
+TS3011d,C,1263.434,1264.274,0.84,TS3011d.C.dialog-act.vkaraisk.170,,,,,,,,,False, No no no.,3,task,Assess
+TS3011d,C,1264.274,1265.644,1.37,TS3011d.C.dialog-act.vkaraisk.169,C,D,0.78,1.04,True,False,0.0,[],True," Uh I'll I'll change it,",5,other,Offer
+TS3011d,C,1265.644,1266.424,0.78,TS3011d.C.dialog-act.vkaraisk.171,,,,,,,,,False, I'll make it m,4,minor,Fragment
+TS3011d,C,1266.424,1273.21,6.786,TS3011d.C.dialog-act.vkaraisk.172,A,C,-0.766,0.78,False,True,0.766,['TS3011d.A.dialog-act.vkaraisk.207'],False, my my mark will be a four.,7,other,Be-Positive
+TS3011d,A,1268.384,1269.394,1.01,TS3011d.A.dialog-act.vkaraisk.205,,,,,,,,,False, You are,2,minor,Fragment
+TS3011d,B,1268.722,1271.151,2.429,TS3011d.B.dialog-act.vkaraisk.102,,,,,,,,,False,,0,minor,Fragment
+TS3011d,D,1268.822,1271.316,2.494,TS3011d.D.dialog-act.vkaraisk.78,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,1269.394,1272.444,3.05,TS3011d.A.dialog-act.vkaraisk.206,,,,,,,,,False, okay.,1,minor,Stall
+TS3011d,B,1271.563,1274.207,2.644,TS3011d.B.dialog-act.vkaraisk.103,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,1272.444,1277.854,5.41,TS3011d.A.dialog-act.vkaraisk.207,A,C,0.29,-0.766,True,False,0.0,[],False, The remote control offers enough features.,6,elicit,Elicit-Assessment
+TS3011d,B,1274.544,1275.479,0.935,TS3011d.B.dialog-act.vkaraisk.104,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,1277.854,1278.144,0.29,TS3011d.A.dialog-act.vkaraisk.208,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,A,1278.144,1279.434,1.29,TS3011d.A.dialog-act.vkaraisk.209,D,A,2.54,0.29,False,False,0.0,[],False," Ruud, what what do you think about it?",8,elicit,Elicit-Assessment
+TS3011d,D,1281.724,1281.974,0.25,TS3011d.D.dialog-act.vkaraisk.79,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,D,1281.974,1284.954,2.98,TS3011d.D.dialog-act.vkaraisk.80,D,A,0.0,2.54,True,False,0.0,[],True," the basic layout doesn't offem offer much,",7,task,Inform
+TS3011d,D,1284.954,1286.984,2.03,TS3011d.D.dialog-act.vkaraisk.81,C,D,2.232,0.0,False,False,0.0,[],False, but the voice recognition could add a lot.,8,task,Inform
+TS3011d,D,1286.984,1287.569,0.585,TS3011d.D.dialog-act.vkaraisk.82,,,,,,,,,False, So,1,minor,Fragment
+TS3011d,C,1289.216,1292.064,2.848,TS3011d.C.dialog-act.vkaraisk.173,C,D,0.0,2.232,True,False,0.0,[],True, Basically it's it's completely programmable.,5,task,Inform
+TS3011d,D,1289.574,1289.724,0.15,TS3011d.D.dialog-act.vkaraisk.83,,,,,,,,,False," Yeah,",1,minor,Stall
+TS3011d,D,1289.724,1290.384,0.66,TS3011d.D.dialog-act.vkaraisk.84,,,,,,,,,False, depends.,1,task,Assess
+TS3011d,A,1291.794,1292.084,0.29,TS3011d.A.dialog-act.vkaraisk.210,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1292.064,1297.324,5.26,TS3011d.C.dialog-act.vkaraisk.174,C,C,1.39,0.0,False,False,0.0,[],False, You can add very m much functionality by uh using the voice recognition mode.,14,task,Inform
+TS3011d,A,1297.874,1300.154,2.28,TS3011d.A.dialog-act.vkaraisk.211,,,,,,,,,False," Yeah, I know.",3,task,Assess
+TS3011d,C,1298.714,1300.084,1.37,TS3011d.C.dialog-act.vkaraisk.175,B,C,1.13,1.39,False,False,0.0,[],False, So it's quite advanced.,4,task,Inform
+TS3011d,A,1300.154,1302.59,2.436,TS3011d.A.dialog-act.vkaraisk.212,,,,,,,,,False, What what we didn't talk about is um uh,9,minor,Fragment
+TS3011d,B,1301.074,1301.214,0.14,TS3011d.B.dialog-act.vkaraisk.105,,,,,,,,,False," Yeah,",1,minor,Stall
+TS3011d,B,1301.214,1304.314,3.1,TS3011d.B.dialog-act.vkaraisk.106,B,C,2.06,1.13,True,False,0.0,[],True, but it ha doesn't has the digits.,7,task,Inform
+TS3011d,B,1304.314,1305.328,1.014,TS3011d.B.dialog-act.vkaraisk.107,,,,,,,,,False, I believe it's,3,minor,Fragment
+TS3011d,B,1306.374,1317.564,11.19,TS3011d.B.dialog-act.vkaraisk.108,A,B,0.2,2.06,False,False,0.0,[],False," If you uh ask yourself it offers enough features, I don't I don't think it is it has all the features um a normal remote has.",26,task,Assess
+TS3011d,A,1317.764,1318.684,0.92,TS3011d.A.dialog-act.vkaraisk.213,D,B,-0.02,0.2,True,True,0.02,['TS3011d.D.dialog-act.vkaraisk.85'],True, I think it has.,4,task,Assess
+TS3011d,D,1318.664,1321.914,3.25,TS3011d.D.dialog-act.vkaraisk.85,A,A,0.82,-0.02,True,False,0.0,[],False, Uh depends on what you uh implement in the speech feat,11,task,Assess
+TS3011d,A,1319.864,1320.854,0.99,TS3011d.A.dialog-act.vkaraisk.214,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,A,1320.854,1322.734,1.88,TS3011d.A.dialog-act.vkaraisk.215,,,,,,,,,False, Bec because you can um,5,minor,Fragment
+TS3011d,A,1322.734,1323.744,1.01,TS3011d.A.dialog-act.vkaraisk.216,A,D,0.0,0.82,True,False,0.0,[],True," we didn't talk about it,",5,task,Inform
+TS3011d,A,1323.744,1328.904,5.16,TS3011d.A.dialog-act.vkaraisk.217,A,A,0.98,0.0,False,False,0.0,[],False, but you do have uh remote controls that are able to adapt another signal.,14,task,Inform
+TS3011d,C,1328.564,1328.904,0.34,TS3011d.C.dialog-act.vkaraisk.176,,,,,,,,,False, Yes.,1,minor,Backchannel
+TS3011d,A,1328.904,1329.884,0.98,TS3011d.A.dialog-act.vkaraisk.218,,,,,,,,,False," So,",1,minor,Stall
+TS3011d,A,1329.884,1344.624,14.74,TS3011d.A.dialog-act.vkaraisk.219,C,A,-2.36,0.98,False,True,2.02,['TS3011d.C.dialog-act.vkaraisk.177'],False," you place a a regular uh remote control in front of the other one, hit the one or the two or the three, whatever, and it r records the uh the um the the signals.",35,task,Inform
+TS3011d,C,1342.264,1344.284,2.02,TS3011d.C.dialog-act.vkaraisk.177,A,A,0.34,-2.36,True,False,0.0,[],False, Has uh the signals sent to it.,7,task,Inform
+TS3011d,D,1343.504,1343.814,0.31,TS3011d.D.dialog-act.vkaraisk.86,,,,,,,,,False, Signal.,1,task,Inform
+TS3011d,B,1343.874,1344.234,0.36,TS3011d.B.dialog-act.vkaraisk.109,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,A,1344.624,1355.774,11.15,TS3011d.A.dialog-act.vkaraisk.220,A,C,1.6,0.34,True,False,0.0,[],True," So you could uh uh uh enter any comment you like, as long it's able to as long as our device is able to reproduce the infrared signal.",28,task,Inform
+TS3011d,A,1357.374,1363.394,6.02,TS3011d.A.dialog-act.vkaraisk.221,A,A,0.0,1.6,False,False,0.0,[],False, So I think th this uh this is uh a a remote control with a very high level of features.,20,task,Assess
+TS3011d,C,1362.784,1363.314,0.53,TS3011d.C.dialog-act.vkaraisk.178,,,,,,,,,False, Absolutely.,1,task,Assess
+TS3011d,A,1363.394,1365.374,1.98,TS3011d.A.dialog-act.vkaraisk.222,A,A,0.0,0.0,False,False,0.0,[],False," Although there are i a few buttons,",7,task,Inform
+TS3011d,A,1365.374,1368.874,3.5,TS3011d.A.dialog-act.vkaraisk.223,C,A,-1.34,0.0,False,True,1.34,['TS3011d.C.dialog-act.vkaraisk.181'],False, but the inside is is quite uh advanced.,8,task,Inform
+TS3011d,C,1365.624,1365.914,0.29,TS3011d.C.dialog-act.vkaraisk.180,,,,,,,,,False, Yes.,1,minor,Backchannel
+TS3011d,C,1367.534,1369.254,1.72,TS3011d.C.dialog-act.vkaraisk.181,C,A,0.0,-1.34,True,False,0.0,[],False," But that that's its power, I guess,",7,task,Inform
+TS3011d,C,1369.254,1377.234,7.98,TS3011d.C.dialog-act.vkaraisk.182,C,C,0.0,0.0,False,False,0.0,[],False," because uh a regular programmable uh remote control contains, well, uh really a lot of buttons. At at least uh forty buttons.",22,task,Inform
+TS3011d,A,1374.594,1374.864,0.27,TS3011d.A.dialog-act.vkaraisk.224,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,A,1376.784,1377.084,0.3,TS3011d.A.dialog-act.vkaraisk.225,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1377.234,1382.094,4.86,TS3011d.C.dialog-act.vkaraisk.183,C,C,0.0,0.0,False,False,0.0,[],False, So it's it's quite s complicated to get uh to get used to.,13,task,Inform
+TS3011d,C,1382.094,1384.004,1.91,TS3011d.C.dialog-act.vkaraisk.184,C,C,0.0,0.0,False,False,0.0,[],False, And this is quite s simple.,6,task,Inform
+TS3011d,C,1384.004,1387.304,3.3,TS3011d.C.dialog-act.vkaraisk.185,A,C,2.79,0.0,False,False,0.0,[],False, You can use your voice to to programme it.,9,task,Inform
+TS3011d,A,1384.444,1384.634,0.19,TS3011d.A.dialog-act.vkaraisk.226,,,,,,,,,False, Yep.,1,minor,Backchannel
+TS3011d,C,1387.304,1387.795,0.491,TS3011d.C.dialog-act.vkaraisk.186,,,,,,,,,False, It's,1,minor,Fragment
+TS3011d,A,1388.194,1388.864,0.67,TS3011d.A.dialog-act.vkaraisk.227,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,A,1388.864,1390.094,1.23,TS3011d.A.dialog-act.vkaraisk.228,,,,,,,,,False," Okay, um",2,minor,Stall
+TS3011d,A,1390.094,1390.974,0.88,TS3011d.A.dialog-act.vkaraisk.229,A,C,0.0,2.79,True,False,0.0,[],True, let's give it a number.,5,elicit,Elicit-Assessment
+TS3011d,A,1390.974,1396.324,5.35,TS3011d.A.dialog-act.vkaraisk.230,B,A,1.34,0.0,False,False,0.0,[],False," I'll give it uh a one. For for the for this t uh type of market, I think it's a one.",21,task,Assess
+TS3011d,B,1397.664,1398.514,0.85,TS3011d.B.dialog-act.vkaraisk.110,C,A,0.878,1.34,True,False,0.0,[],True, I'll give a two.,4,task,Assess
+TS3011d,C,1399.392,1400.334,0.942,TS3011d.C.dialog-act.vkaraisk.187,D,B,2.0,0.878,True,False,0.0,[],True," Yeah, I'll give it a one.",6,task,Assess
+TS3011d,D,1402.334,1404.504,2.17,TS3011d.D.dialog-act.vkaraisk.87,D,C,0.0,2.0,True,False,0.0,[],True," Um I think think a one,",6,task,Assess
+TS3011d,D,1404.504,1407.874,3.37,TS3011d.D.dialog-act.vkaraisk.88,C,D,4.07,0.0,False,False,0.0,[],False," 'cause v with a voice recognition you could add anything you want,",12,task,Inform
+TS3011d,D,1407.874,1409.952,2.078,TS3011d.D.dialog-act.vkaraisk.89,,,,,,,,,False, so that's like um,4,minor,Fragment
+TS3011d,C,1411.564,1411.944,0.38,TS3011d.C.dialog-act.vkaraisk.188,,,,,,,,,False, Yes.,1,minor,Stall
+TS3011d,C,1411.944,1422.524,10.58,TS3011d.C.dialog-act.vkaraisk.189,A,D,0.62,4.07,True,False,0.0,[],True," I I've I think we've uh succe succeed in in developing a product that's actually quite good, but not for this kind of market, and not for this kind of price.",31,task,Assess
+TS3011d,B,1415.487,1417.504,2.017,TS3011d.B.dialog-act.vkaraisk.111,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,1422.524,1423.1,0.576,TS3011d.C.dialog-act.vkaraisk.190,,,,,,,,,False, So,1,minor,Fragment
+TS3011d,A,1422.754,1423.144,0.39,TS3011d.A.dialog-act.vkaraisk.231,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,A,1423.144,1425.394,2.25,TS3011d.A.dialog-act.vkaraisk.232,A,C,2.66,0.62,True,False,0.0,[],True," So high quality, low acceptance.",5,task,Assess
+TS3011d,C,1424.504,1424.724,0.22,TS3011d.C.dialog-act.vkaraisk.191,,,,,,,,,False, Hmm.,1,minor,Backchannel
+TS3011d,A,1428.054,1435.474,7.42,TS3011d.A.dialog-act.vkaraisk.233,A,A,0.0,2.66,False,False,0.0,[],False, The product is is is uh b high qua uh has a high quality and and is uh advanced.,19,task,Assess
+TS3011d,C,1435.124,1435.434,0.31,TS3011d.C.dialog-act.vkaraisk.192,,,,,,,,,False, Yes.,1,minor,Backchannel
+TS3011d,A,1435.474,1449.784,14.31,TS3011d.A.dialog-act.vkaraisk.234,A,A,0.0,0.0,False,False,0.0,[],False," But whether or not our clients are are um willing to pay twenty five Euros for this kind of device is doub is well, is not sure.",27,task,Inform
+TS3011d,C,1443.144,1443.444,0.3,TS3011d.C.dialog-act.vkaraisk.193,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3011d,C,1449.054,1449.334,0.28,TS3011d.C.dialog-act.vkaraisk.194,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3011d,A,1449.784,1450.544,0.76,TS3011d.A.dialog-act.vkaraisk.235,C,A,0.24,0.0,False,False,0.0,[],False, D do you agree?,4,elicit,Elicit-Assessment
+TS3011d,C,1450.784,1452.378,1.594,TS3011d.C.dialog-act.vkaraisk.195,D,A,-0.554,0.24,True,True,0.554,['TS3011d.D.dialog-act.vkaraisk.90'],True," Yes, I agree. I",4,task,Assess
+TS3011d,D,1451.824,1454.414,2.59,TS3011d.D.dialog-act.vkaraisk.90,A,C,3.68,-0.554,True,False,0.0,[],False, Maybe even because it doesn't look advanced.,7,task,Inform
+TS3011d,A,1455.712,1458.094,2.382,TS3011d.A.dialog-act.vkaraisk.236,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,D,1457.43,1462.905,5.475,TS3011d.D.dialog-act.vkaraisk.91,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,1457.784,1458.454,0.67,TS3011d.C.dialog-act.vkaraisk.196,,,,,,,,,False," Yeah, okay.",2,minor,Stall
+TS3011d,A,1458.094,1462.96,4.866,TS3011d.A.dialog-act.vkaraisk.237,B,D,0.844,3.68,True,False,0.0,[],True, Maybe we should have a radar uh function.,8,other,Be-Positive
+TS3011d,C,1458.454,1458.644,0.19,TS3011d.C.dialog-act.vkaraisk.197,,,,,,,,,False, But,1,minor,Fragment
+TS3011d,C,1460.125,1462.094,1.969,TS3011d.C.dialog-act.vkaraisk.198,,,,,,,,,False, Yes.,1,minor,Backchannel
+TS3011d,B,1462.074,1463.804,1.73,TS3011d.B.dialog-act.vkaraisk.112,,,,,,,,,False, But we could couldn't uh what,6,minor,Fragment
+TS3011d,B,1463.804,1464.724,0.92,TS3011d.B.dialog-act.vkaraisk.113,B,A,3.2,0.844,True,False,0.0,[],True, what's the selling price?,4,elicit,Elicit-Inform
+TS3011d,B,1464.724,1465.494,0.77,TS3011d.B.dialog-act.vkaraisk.114,,,,,,,,,False, Fifty?,1,elicit,Elicit-Inform
+TS3011d,A,1465.404,1466.404,1.0,TS3011d.A.dialog-act.vkaraisk.238,,,,,,,,,False, Twenty five Euros.,3,task,Inform
+TS3011d,B,1465.494,1466.764,1.27,TS3011d.B.dialog-act.vkaraisk.115,,,,,,,,,False, Uh twenty five.,3,other,Comment-About-Understanding
+TS3011d,B,1467.924,1469.904,1.98,TS3011d.B.dialog-act.vkaraisk.116,B,B,0.0,3.2,False,False,0.0,[],False, And costs were twelve fifty.,5,task,Inform
+TS3011d,A,1469.764,1469.944,0.18,TS3011d.A.dialog-act.vkaraisk.239,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,B,1469.904,1476.294,6.39,TS3011d.B.dialog-act.vkaraisk.117,B,B,1.33,0.0,False,False,0.0,[],False," But even now, if only our production costs w uh were exceeded the double,",14,task,Inform
+TS3011d,B,1477.624,1480.474,2.85,TS3011d.B.dialog-act.vkaraisk.118,B,B,1.78,1.33,False,False,0.0,[],False, Think. Production cost was were t uh was twenty two?,10,elicit,Elicit-Inform
+TS3011d,A,1480.714,1481.044,0.33,TS3011d.A.dialog-act.vkaraisk.240,,,,,,,,,False, Mm-hmm.,1,task,Inform
+TS3011d,B,1481.664,1482.254,0.59,TS3011d.B.dialog-act.vkaraisk.119,,,,,,,,,False, So uh,2,minor,Stall
+TS3011d,B,1482.254,1485.164,2.91,TS3011d.B.dialog-act.vkaraisk.120,C,B,-1.03,1.78,False,True,1.03,['TS3011d.C.dialog-act.vkaraisk.200'],False, selling price uh would be uh,6,task,Inform
+TS3011d,C,1484.134,1485.254,1.12,TS3011d.C.dialog-act.vkaraisk.200,C,B,2.78,-1.03,True,False,0.0,[],False, M about fifty Euros.,4,task,Inform
+TS3011d,B,1485.164,1485.514,0.35,TS3011d.B.dialog-act.vkaraisk.121,,,,,,,,,False, yeah.,1,task,Assess
+TS3011d,C,1486.914,1487.584,0.67,TS3011d.C.dialog-act.vkaraisk.201,,,,,,,,,False, That's quite ex,3,minor,Fragment
+TS3011d,B,1487.414,1488.424,1.01,TS3011d.B.dialog-act.vkaraisk.122,,,,,,,,,False," That's price, but w w",5,minor,Fragment
+TS3011d,C,1487.584,1488.034,0.45,TS3011d.C.dialog-act.vkaraisk.202,,,,,,,,,False," well,",1,minor,Stall
+TS3011d,C,1488.034,1492.624,4.59,TS3011d.C.dialog-act.vkaraisk.203,B,C,-0.62,2.78,False,True,0.62,['TS3011d.B.dialog-act.vkaraisk.124'],False, it's not it's not very expensive for a remote control that that has this functionality.,15,task,Inform
+TS3011d,B,1491.304,1492.004,0.7,TS3011d.B.dialog-act.vkaraisk.123,,,,,,,,,False, No.,1,task,Assess
+TS3011d,B,1492.004,1497.104,5.1,TS3011d.B.dialog-act.vkaraisk.124,C,C,-1.03,-0.62,True,True,1.03,['TS3011d.C.dialog-act.vkaraisk.205'],False," An original remote control of any T_V_ kind, uh a Phillips remote control, y you pay uh",17,task,Inform
+TS3011d,C,1495.634,1496.074,0.44,TS3011d.C.dialog-act.vkaraisk.204,,,,,,,,,False," Yes,",1,minor,Stall
+TS3011d,C,1496.074,1498.514,2.44,TS3011d.C.dialog-act.vkaraisk.205,C,B,0.0,-1.03,True,False,0.0,[],False, it's more than fifty Euros.,5,task,Inform
+TS3011d,C,1498.514,1499.874,1.36,TS3011d.C.dialog-act.vkaraisk.206,B,C,-0.33,0.0,False,True,0.33,['TS3011d.B.dialog-act.vkaraisk.126'],False," It's quite expensive, yes.",4,task,Inform
+TS3011d,B,1499.044,1499.544,0.5,TS3011d.B.dialog-act.vkaraisk.125,,,,,,,,,False," Yeah,",1,minor,Stall
+TS3011d,B,1499.544,1503.674,4.13,TS3011d.B.dialog-act.vkaraisk.126,A,C,0.63,-0.33,True,False,0.0,[],False," I kn I know uh from a few years ago, it it it costed hundred Gilders.",16,task,Inform
+TS3011d,A,1501.804,1503.744,1.94,TS3011d.A.dialog-act.vkaraisk.241,,,,,,,,,False, Bu but well,3,minor,Stall
+TS3011d,A,1503.744,1504.304,0.56,TS3011d.A.dialog-act.vkaraisk.242,,,,,,,,,False," yeah, I know,",3,task,Assess
+TS3011d,A,1504.304,1506.014,1.71,TS3011d.A.dialog-act.vkaraisk.243,A,B,0.0,0.63,True,False,0.0,[],True," but you're paying for th for the brand,",8,task,Inform
+TS3011d,A,1506.014,1514.494,8.48,TS3011d.A.dialog-act.vkaraisk.244,C,A,0.68,0.0,False,False,0.0,[],False," because there are uh remote controls which control your stereo, television, D_V_D_, C_D_ player, for under twenty five Euros.",19,task,Inform
+TS3011d,C,1511.804,1512.994,1.19,TS3011d.C.dialog-act.vkaraisk.207,,,,,,,,,False," Yes. Yes,",2,task,Assess
+TS3011d,C,1512.994,1513.834,0.84,TS3011d.C.dialog-act.vkaraisk.208,,,,,,,,,False, but you can you c,5,minor,Fragment
+TS3011d,C,1514.764,1515.174,0.41,TS3011d.C.dialog-act.vkaraisk.209,,,,,,,,,False," Yes,",1,task,Assess
+TS3011d,C,1515.174,1518.484,3.31,TS3011d.C.dialog-act.vkaraisk.210,C,A,0.0,0.68,True,False,0.0,[],True," but you can learn this thing, all these functions.",9,task,Inform
+TS3011d,C,1518.484,1519.654,1.17,TS3011d.C.dialog-act.vkaraisk.211,C,C,0.0,0.0,False,False,0.0,[],False, And it's easier to use,5,task,Inform
+TS3011d,A,1518.804,1519.034,0.23,TS3011d.A.dialog-act.vkaraisk.245,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1519.654,1523.614,3.96,TS3011d.C.dialog-act.vkaraisk.212,C,C,0.0,0.0,False,False,0.0,[],False, because those uh remote controls don't offer voice recognition,9,task,Inform
+TS3011d,A,1523.488,1523.793,0.305,TS3011d.A.dialog-act.vkaraisk.246,,,,,,,,,False,.,0,minor,Fragment
+TS3011d,C,1523.614,1524.914,1.3,TS3011d.C.dialog-act.vkaraisk.213,C,C,0.0,0.0,False,False,0.0,[],False, and this one does.,4,task,Inform
+TS3011d,A,1524.804,1524.964,0.16,TS3011d.A.dialog-act.vkaraisk.247,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1524.914,1526.704,1.79,TS3011d.C.dialog-act.vkaraisk.214,A,C,1.68,0.0,False,False,0.0,[],False, So I think it's worth its price.,7,task,Assess
+TS3011d,A,1527.234,1528.384,1.15,TS3011d.A.dialog-act.vkaraisk.248,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+TS3011d,A,1528.384,1532.08,3.696,TS3011d.A.dialog-act.vkaraisk.249,C,C,4.944,1.68,True,False,0.0,[],True, Um you had an overall rating. Um,7,elicit,Elicit-Inform
+TS3011d,D,1532.794,1533.184,0.39,TS3011d.D.dialog-act.vkaraisk.92,,,,,,,,,False," Yeah,",1,task,Inform
+TS3011d,D,1533.184,1536.464,3.28,TS3011d.D.dialog-act.vkaraisk.93,,,,,,,,,False, but uh with these ratings uh,6,minor,Fragment
+TS3011d,A,1534.914,1535.654,0.74,TS3011d.A.dialog-act.vkaraisk.250,,,,,,,,,False, That's counting.,2,task,Inform
+TS3011d,C,1536.764,1537.024,0.26,TS3011d.C.dialog-act.vkaraisk.215,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,C,1537.024,1541.214,4.19,TS3011d.C.dialog-act.vkaraisk.216,D,A,-3.38,4.944,True,True,3.21,"['TS3011d.D.dialog-act.vkaraisk.94', 'TS3011d.B.dialog-act.vkaraisk.127']",True, it's it's about one point five. Something like that.,9,task,Inform
+TS3011d,D,1537.834,1541.044,3.21,TS3011d.D.dialog-act.vkaraisk.94,B,C,-2.5,-3.38,True,True,2.1,['TS3011d.B.dialog-act.vkaraisk.127'],False," should be about one point s seven,",7,task,Inform
+TS3011d,B,1538.544,1540.644,2.1,TS3011d.B.dialog-act.vkaraisk.127,B,D,1.54,-2.5,True,False,0.0,[],False, Four six seven eight.,4,other,Other
+TS3011d,D,1541.044,1541.404,0.36,TS3011d.D.dialog-act.vkaraisk.95,,,,,,,,,False, yeah.,1,task,Assess
+TS3011d,A,1541.844,1542.214,0.37,TS3011d.A.dialog-act.vkaraisk.251,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3011d,B,1542.184,1544.474,2.29,TS3011d.B.dialog-act.vkaraisk.128,A,B,1.89,1.54,False,False,0.0,[],False, Nine divided by six.,4,other,Other
+TS3011d,A,1543.944,1546.364,2.42,TS3011d.A.dialog-act.vkaraisk.252,,,,,,,,,False, Okay. Um,2,minor,Stall
+TS3011d,A,1546.364,1559.194,12.83,TS3011d.A.dialog-act.vkaraisk.253,A,B,2.15,1.89,True,False,0.0,[],True," we'll go further on with the the rest of the evaluation. About the project itself, not about the product.",19,task,Suggest
+TS3011d,A,1561.344,1572.594,11.25,TS3011d.A.dialog-act.vkaraisk.254,A,A,11.838,2.15,False,False,0.0,[],False," Um What did you think about uh the process, the project process?",12,elicit,Elicit-Assessment
+TS3011d,A,1575.644,1575.854,0.21,TS3011d.A.dialog-act.vkaraisk.255,,,,,,,,,False, Ruud?,1,elicit,Elicit-Assessment
+TS3011d,D,1576.32,1576.976,0.656,TS3011d.D.dialog-act.vkaraisk.96,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,1581.072,1582.113,1.041,TS3011d.C.dialog-act.vkaraisk.217,,,,,,,,,False,,0,minor,Fragment
+TS3011d,D,1581.675,1582.432,0.757,TS3011d.D.dialog-act.vkaraisk.97,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,1584.432,1589.808,5.376,TS3011d.A.dialog-act.vkaraisk.256,B,A,6.851,11.838,False,False,0.0,[],False, Try to translate that.,4,task,Suggest
+TS3011d,C,1585.914,1589.216,3.302,TS3011d.C.dialog-act.vkaraisk.218,,,,,,,,,False, Well,1,minor,Stall
+TS3011d,D,1587.247,1588.328,1.081,TS3011d.D.dialog-act.vkaraisk.98,,,,,,,,,False,,0,minor,Fragment
+TS3011d,B,1587.73,1588.47,0.74,TS3011d.B.dialog-act.vkaraisk.129,,,,,,,,,False,,0,minor,Fragment
+TS3011d,B,1590.454,1591.328,0.874,TS3011d.B.dialog-act.vkaraisk.130,,,,,,,,,False, Hmm.,1,minor,Stall
+TS3011d,A,1592.664,1593.574,0.91,TS3011d.A.dialog-act.vkaraisk.257,,,,,,,,,False, Any any other,3,minor,Fragment
+TS3011d,A,1593.574,1594.254,0.68,TS3011d.A.dialog-act.vkaraisk.258,,,,,,,,,False," Uh, Roo?",2,elicit,Elicit-Assessment
+TS3011d,C,1593.804,1594.444,0.64,TS3011d.C.dialog-act.vkaraisk.219,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,B,1593.924,1594.234,0.31,TS3011d.B.dialog-act.vkaraisk.131,,,,,,,,,False," Yeah,",1,minor,Stall
+TS3011d,B,1594.234,1594.992,0.758,TS3011d.B.dialog-act.vkaraisk.132,,,,,,,,,False, I think uh,3,minor,Fragment
+TS3011d,C,1594.444,1595.1,0.656,TS3011d.C.dialog-act.vkaraisk.220,,,,,,,,,False, I think,2,minor,Fragment
+TS3011d,D,1594.744,1594.904,0.16,TS3011d.D.dialog-act.vkaraisk.99,,,,,,,,,False, Ye,1,minor,Fragment
+TS3011d,A,1595.952,1596.897,0.945,TS3011d.A.dialog-act.vkaraisk.259,,,,,,,,,False, Roo.,1,task,Suggest
+TS3011d,C,1596.203,1598.66,2.457,TS3011d.C.dialog-act.vkaraisk.221,,,,,,,,,False,,0,minor,Fragment
+TS3011d,B,1596.659,1598.454,1.795,TS3011d.B.dialog-act.vkaraisk.133,B,A,1.01,6.851,True,False,0.0,[],True, The process was good.,4,task,Assess
+TS3011d,B,1599.464,1603.224,3.76,TS3011d.B.dialog-act.vkaraisk.134,B,B,0.0,1.01,False,False,0.0,[],False, But w um we weren't aware of the prices of the costs.,12,task,Inform
+TS3011d,A,1602.894,1603.244,0.35,TS3011d.A.dialog-act.vkaraisk.260,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,B,1603.224,1605.664,2.44,TS3011d.B.dialog-act.vkaraisk.135,B,B,0.0,0.0,False,False,0.0,[],False, And and that was the the big deal.,8,task,Inform
+TS3011d,C,1605.474,1605.674,0.2,TS3011d.C.dialog-act.vkaraisk.222,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3011d,B,1605.664,1608.874,3.21,TS3011d.B.dialog-act.vkaraisk.136,C,B,1.69,0.0,False,False,0.0,[],False," I if we knew that before, we c we could have made",12,task,Inform
+TS3011d,C,1607.674,1608.024,0.35,TS3011d.C.dialog-act.vkaraisk.223,,,,,,,,,False," Actually,",1,minor,Stall
+TS3011d,C,1608.024,1608.378,0.354,TS3011d.C.dialog-act.vkaraisk.224,,,,,,,,,False, we had,2,minor,Fragment
+TS3011d,B,1608.874,1610.524,1.65,TS3011d.B.dialog-act.vkaraisk.137,,,,,,,,,False, the the choice between what,5,minor,Fragment
+TS3011d,A,1609.444,1610.254,0.81,TS3011d.A.dialog-act.vkaraisk.261,,,,,,,,,False, Better decision.,2,task,Inform
+TS3011d,C,1609.744,1610.564,0.82,TS3011d.C.dialog-act.vkaraisk.225,,,,,,,,,False, Yes.,1,task,Assess
+TS3011d,B,1610.524,1610.944,0.42,TS3011d.B.dialog-act.vkaraisk.138,,,,,,,,,False, yeah.,1,task,Assess
+TS3011d,C,1610.564,1612.564,2.0,TS3011d.C.dialog-act.vkaraisk.226,C,B,4.54,1.69,True,False,0.0,[],True, We had we had too little information actually.,8,task,Inform
+TS3011d,A,1612.354,1612.594,0.24,TS3011d.A.dialog-act.vkaraisk.262,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1612.564,1615.504,2.94,TS3011d.C.dialog-act.vkaraisk.227,,,,,,,,,False, So And uh um,4,minor,Stall
+TS3011d,C,1615.504,1616.614,1.11,TS3011d.C.dialog-act.vkaraisk.228,,,,,,,,,False, the the the,3,minor,Fragment
+TS3011d,C,1616.614,1617.104,0.49,TS3011d.C.dialog-act.vkaraisk.229,,,,,,,,,False," well,",1,minor,Stall
+TS3011d,C,1617.104,1624.804,7.7,TS3011d.C.dialog-act.vkaraisk.230,A,C,3.55,4.54,False,False,0.0,[],False," looking at room for creativity, there was w way too the the choice of components was way too narrow.",19,task,Inform
+TS3011d,A,1622.504,1622.834,0.33,TS3011d.A.dialog-act.vkaraisk.263,,,,,,,,,False, Less.,1,task,Inform
+TS3011d,C,1624.804,1627.616,2.812,TS3011d.C.dialog-act.vkaraisk.231,,,,,,,,,False, So there was not really a process of uh,9,minor,Fragment
+TS3011d,A,1625.014,1625.224,0.21,TS3011d.A.dialog-act.vkaraisk.264,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,A,1628.354,1638.444,10.09,TS3011d.A.dialog-act.vkaraisk.265,C,C,0.26,3.55,True,False,0.0,[],True, So we could we we could be we could've been creative. But um it was tempered by the choice of components and the the price.,25,task,Assess
+TS3011d,C,1632.534,1633.019,0.485,TS3011d.C.dialog-act.vkaraisk.232,,,,,,,,,False, Well,1,minor,Stall
+TS3011d,C,1637.054,1637.364,0.31,TS3011d.C.dialog-act.vkaraisk.233,,,,,,,,,False, Yes.,1,task,Assess
+TS3011d,D,1637.314,1638.094,0.78,TS3011d.D.dialog-act.vkaraisk.100,,,,,,,,,False, The prices.,2,task,Inform
+TS3011d,C,1638.564,1638.704,0.14,TS3011d.C.dialog-act.vkaraisk.234,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,C,1638.704,1641.554,2.85,TS3011d.C.dialog-act.vkaraisk.235,C,A,0.0,0.26,True,False,0.0,[],True, in the first meeting we we already were very creative.,10,task,Assess
+TS3011d,C,1641.554,1651.164,9.61,TS3011d.C.dialog-act.vkaraisk.236,C,C,2.81,0.0,False,False,0.0,[],False, We we thought of possibilities who are not possible uh with the the current uh offer of uh manufacturing components.,20,task,Inform
+TS3011d,A,1641.894,1642.114,0.22,TS3011d.A.dialog-act.vkaraisk.267,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1651.164,1651.672,0.508,TS3011d.C.dialog-act.vkaraisk.237,,,,,,,,,False, So,1,minor,Fragment
+TS3011d,A,1652.454,1652.644,0.19,TS3011d.A.dialog-act.vkaraisk.268,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1653.974,1655.164,1.19,TS3011d.C.dialog-act.vkaraisk.238,A,C,0.46,2.81,False,False,0.0,[],False," We're tempered by that, yes.",5,task,Assess
+TS3011d,A,1655.304,1655.624,0.32,TS3011d.A.dialog-act.vkaraisk.269,,,,,,,,,False," Okay,",1,minor,Stall
+TS3011d,A,1655.624,1658.384,2.76,TS3011d.A.dialog-act.vkaraisk.270,A,C,9.73,0.46,True,False,0.0,[],True, Roo? Any other thoughts on that?,6,elicit,Elicit-Assessment
+TS3011d,B,1658.884,1659.654,0.77,TS3011d.B.dialog-act.vkaraisk.139,,,,,,,,,False," No, no.",2,task,Inform
+TS3011d,A,1660.354,1660.484,0.13,TS3011d.A.dialog-act.vkaraisk.271,,,,,,,,,False, Ruud?,1,elicit,Elicit-Assessment
+TS3011d,D,1661.734,1662.214,0.48,TS3011d.D.dialog-act.vkaraisk.101,,,,,,,,,False, I agree.,2,task,Assess
+TS3011d,A,1662.694,1664.044,1.35,TS3011d.A.dialog-act.vkaraisk.272,,,,,,,,,False," You agree, okay.",3,other,Comment-About-Understanding
+TS3011d,A,1664.044,1668.114,4.07,TS3011d.A.dialog-act.vkaraisk.273,,,,,,,,,False, Uh leadership.,2,elicit,Elicit-Assessment
+TS3011d,B,1665.884,1668.749,2.865,TS3011d.B.dialog-act.vkaraisk.140,,,,,,,,,False, Fantastic.,1,other,Be-Positive
+TS3011d,C,1666.592,1673.196,6.604,TS3011d.C.dialog-act.vkaraisk.239,,,,,,,,,False,,0,minor,Fragment
+TS3011d,D,1667.284,1668.598,1.314,TS3011d.D.dialog-act.vkaraisk.102,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,1668.114,1674.912,6.798,TS3011d.A.dialog-act.vkaraisk.274,C,A,4.922,9.73,False,False,0.0,[],False," Okay, Roo's on for his promotion.",6,other,Be-Positive
+TS3011d,B,1670.071,1671.552,1.481,TS3011d.B.dialog-act.vkaraisk.141,,,,,,,,,False,,0,minor,Fragment
+TS3011d,D,1670.286,1671.648,1.362,TS3011d.D.dialog-act.vkaraisk.103,,,,,,,,,False,,0,minor,Fragment
+TS3011d,B,1672.898,1674.88,1.982,TS3011d.B.dialog-act.vkaraisk.142,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,1675.634,1676.794,1.16,TS3011d.C.dialog-act.vkaraisk.240,,,,,,,,,False," Yeah, okay.",2,task,Assess
+TS3011d,A,1677.494,1677.854,0.36,TS3011d.A.dialog-act.vkaraisk.275,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3011d,C,1679.834,1680.784,0.95,TS3011d.C.dialog-act.vkaraisk.241,A,A,1.41,4.922,True,False,0.0,[],True, I think we're a good team.,6,task,Assess
+TS3011d,A,1682.194,1682.864,0.67,TS3011d.A.dialog-act.vkaraisk.276,A,C,0.0,1.41,True,False,0.0,[],True," I think so too,",4,task,Assess
+TS3011d,A,1682.864,1687.284,4.42,TS3011d.A.dialog-act.vkaraisk.277,A,A,0.0,0.0,False,False,0.0,[],False, it's it's it's uh of course a laboratory environment.,9,task,Inform
+TS3011d,A,1687.284,1697.872,10.588,TS3011d.A.dialog-act.vkaraisk.278,C,A,0.902,0.0,False,False,0.0,[],False," I missed it um to be able to contact you in between and uh say uh, hey Roo uh. Um",20,task,Inform
+TS3011d,C,1691.304,1691.584,0.28,TS3011d.C.dialog-act.vkaraisk.242,,,,,,,,,False, Yes.,1,task,Assess
+TS3011d,B,1691.554,1691.844,0.29,TS3011d.B.dialog-act.vkaraisk.143,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,D,1692.278,1692.688,0.41,TS3011d.D.dialog-act.vkaraisk.104,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,1695.389,1696.432,1.043,TS3011d.C.dialog-act.vkaraisk.243,,,,,,,,,False,,0,minor,Fragment
+TS3011d,B,1695.604,1697.2,1.596,TS3011d.B.dialog-act.vkaraisk.144,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,1697.814,1698.124,0.31,TS3011d.C.dialog-act.vkaraisk.244,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,C,1698.124,1698.774,0.65,TS3011d.C.dialog-act.vkaraisk.245,,,,,,,,,False," I tried once,",3,task,Inform
+TS3011d,C,1698.774,1701.575,2.801,TS3011d.C.dialog-act.vkaraisk.246,A,A,4.769,0.902,True,False,0.0,[],True, but that was not allowed.,5,task,Inform
+TS3011d,B,1699.728,1702.072,2.344,TS3011d.B.dialog-act.vkaraisk.145,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,1699.914,1702.192,2.278,TS3011d.A.dialog-act.vkaraisk.279,,,,,,,,,False, Yeah. So um,3,minor,Stall
+TS3011d,D,1700.253,1701.185,0.932,TS3011d.D.dialog-act.vkaraisk.105,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,1703.654,1703.914,0.26,TS3011d.A.dialog-act.vkaraisk.280,,,,,,,,,False," Yeah,",1,minor,Stall
+TS3011d,A,1703.914,1706.344,2.43,TS3011d.A.dialog-act.vkaraisk.281,,,,,,,,,False, but but si uh w w w,7,minor,Fragment
+TS3011d,A,1706.344,1710.464,4.12,TS3011d.A.dialog-act.vkaraisk.282,C,C,0.18,4.769,True,False,0.0,[],True," when taken in account the the situation, uh I think we performed pretty well.",14,task,Assess
+TS3011d,C,1710.644,1711.404,0.76,TS3011d.C.dialog-act.vkaraisk.247,A,A,1.87,0.18,True,False,0.0,[],True, I think so too.,4,task,Assess
+TS3011d,B,1711.464,1711.664,0.2,TS3011d.B.dialog-act.vkaraisk.146,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,A,1711.494,1713.274,1.78,TS3011d.A.dialog-act.vkaraisk.283,,,,,,,,,False, Yeah. Um,2,minor,Stall
+TS3011d,A,1713.274,1716.524,3.25,TS3011d.A.dialog-act.vkaraisk.284,C,C,-0.607,1.87,True,True,0.607,['TS3011d.C.dialog-act.vkaraisk.248'],True," the means, the SMARTboard, the digital pen. Did you like 'em?",11,elicit,Elicit-Assessment
+TS3011d,C,1715.917,1718.054,2.137,TS3011d.C.dialog-act.vkaraisk.248,C,A,0.0,-0.607,True,False,0.0,[],False," Uh. The digital pen was okay,",6,task,Assess
+TS3011d,C,1718.054,1720.384,2.33,TS3011d.C.dialog-act.vkaraisk.249,A,C,0.1,0.0,False,False,0.0,[],False, but SMARTboard was really bad.,5,task,Assess
+TS3011d,B,1719.804,1720.124,0.32,TS3011d.B.dialog-act.vkaraisk.147,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,C,1720.384,1720.948,0.564,TS3011d.C.dialog-act.vkaraisk.250,,,,,,,,,False, It it's,2,minor,Fragment
+TS3011d,A,1720.484,1721.454,0.97,TS3011d.A.dialog-act.vkaraisk.285,C,C,0.36,0.1,True,False,0.0,[],True, Because of the response,4,elicit,Elicit-Inform
+TS3011d,A,1721.454,1721.792,0.338,TS3011d.A.dialog-act.vkaraisk.286,,,,,,,,,False, or,1,minor,Fragment
+TS3011d,C,1721.814,1723.664,1.85,TS3011d.C.dialog-act.vkaraisk.251,C,A,0.0,0.36,True,False,0.0,[],True, The response is very slow,5,task,Inform
+TS3011d,B,1721.954,1722.524,0.57,TS3011d.B.dialog-act.vkaraisk.148,,,,,,,,,False, Response,1,task,Inform
+TS3011d,B,1722.524,1722.975,0.451,TS3011d.B.dialog-act.vkaraisk.149,,,,,,,,,False, and,1,minor,Fragment
+TS3011d,C,1723.664,1726.054,2.39,TS3011d.C.dialog-act.vkaraisk.252,B,C,3.06,0.0,False,False,0.0,[],False, and the possibilities are very limited.,6,task,Inform
+TS3011d,C,1726.054,1726.804,0.75,TS3011d.C.dialog-act.vkaraisk.253,,,,,,,,,False, It's not accurate.,3,task,Inform
+TS3011d,A,1727.744,1728.034,0.29,TS3011d.A.dialog-act.vkaraisk.287,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3011d,B,1728.424,1729.114,0.69,TS3011d.B.dialog-act.vkaraisk.150,,,,,,,,,False, Uh it it has,4,minor,Fragment
+TS3011d,A,1728.714,1729.002,0.288,TS3011d.A.dialog-act.vkaraisk.288,,,,,,,,,False, Uh,1,minor,Fragment
+TS3011d,B,1729.114,1731.234,2.12,TS3011d.B.dialog-act.vkaraisk.151,B,C,0.0,3.06,True,False,0.0,[],True," yeah. Yeah, it's not accurate.",5,task,Assess
+TS3011d,B,1731.234,1736.944,5.71,TS3011d.B.dialog-act.vkaraisk.152,B,B,4.39,0.0,False,False,0.0,[],False, The p the pointing of the pen is not um the place where it it writes,16,task,Inform
+TS3011d,B,1736.944,1740.128,3.184,TS3011d.B.dialog-act.vkaraisk.153,,,,,,,,,False, its um uh where it uh,6,minor,Fragment
+TS3011d,D,1740.734,1741.214,0.48,TS3011d.D.dialog-act.vkaraisk.106,,,,,,,,,False, Draws.,1,task,Inform
+TS3011d,B,1741.334,1742.844,1.51,TS3011d.B.dialog-act.vkaraisk.154,B,B,0.58,4.39,False,False,0.0,[],False," Yeah, where it draws.",4,task,Assess
+TS3011d,B,1742.844,1743.424,0.58,TS3011d.B.dialog-act.vkaraisk.155,,,,,,,,,False, It's uh,2,minor,Fragment
+TS3011d,B,1743.424,1747.224,3.8,TS3011d.B.dialog-act.vkaraisk.156,A,B,1.27,0.58,False,False,0.0,[],False, the drawing on on the b on the board is r right from the pen.,15,task,Inform
+TS3011d,A,1747.934,1748.494,0.56,TS3011d.A.dialog-act.vkaraisk.289,,,,,,,,,False," Okay, so",2,minor,Stall
+TS3011d,A,1748.494,1753.184,4.69,TS3011d.A.dialog-act.vkaraisk.290,C,B,1.11,1.27,True,False,0.0,[],True," it it had to be um better aligned, or what's the word?",12,task,Suggest
+TS3011d,B,1748.494,1749.151,0.657,TS3011d.B.dialog-act.vkaraisk.157,,,,,,,,,False, So uh,2,minor,Stall
+TS3011d,B,1751.214,1753.294,2.08,TS3011d.B.dialog-act.vkaraisk.158,,,,,,,,,False, You to take in account that your you m,9,minor,Fragment
+TS3011d,A,1753.184,1754.014,0.83,TS3011d.A.dialog-act.vkaraisk.291,,,,,,,,,False, Uh yeah.,2,task,Assess
+TS3011d,B,1753.294,1754.099,0.805,TS3011d.B.dialog-act.vkaraisk.159,,,,,,,,,False, yeah uh,2,task,Assess
+TS3011d,C,1754.294,1756.014,1.72,TS3011d.C.dialog-act.vkaraisk.254,A,A,0.01,1.11,True,False,0.0,[],True, Maybe it's it needs to be calibrateds.,7,task,Inform
+TS3011d,B,1755.234,1756.219,0.985,TS3011d.B.dialog-act.vkaraisk.160,,,,,,,,,False, It's too slow,3,task,Inform
+TS3011d,A,1756.024,1760.394,4.37,TS3011d.A.dialog-act.vkaraisk.292,A,C,0.0,0.01,True,False,0.0,[],True," It it was calibrated just before this meeting. Uh the one before, the third meeting.",15,task,Inform
+TS3011d,C,1758.594,1759.974,1.38,TS3011d.C.dialog-act.vkaraisk.255,,,,,,,,,False, It is?,2,elicit,Elicit-Inform
+TS3011d,C,1759.974,1760.374,0.4,TS3011d.C.dialog-act.vkaraisk.256,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+TS3011d,A,1760.394,1762.164,1.77,TS3011d.A.dialog-act.vkaraisk.293,A,A,0.0,0.0,False,False,0.0,[],False," So uh it's not the calibration,",6,task,Inform
+TS3011d,A,1762.164,1764.934,2.77,TS3011d.A.dialog-act.vkaraisk.294,A,A,0.0,0.0,False,False,0.0,[],False," it's the thing itself, I think.",6,task,Inform
+TS3011d,B,1763.444,1763.684,0.24,TS3011d.B.dialog-act.vkaraisk.161,,,,,,,,,False, Hmm.,1,other,Comment-About-Understanding
+TS3011d,C,1763.484,1763.894,0.41,TS3011d.C.dialog-act.vkaraisk.257,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+TS3011d,A,1764.934,1768.224,3.29,TS3011d.A.dialog-act.vkaraisk.295,A,A,0.0,0.0,False,False,0.0,[],False," Uh Ruud, w uh did you use the pen a lot?",11,elicit,Elicit-Inform
+TS3011d,A,1768.224,1769.064,0.84,TS3011d.A.dialog-act.vkaraisk.296,A,A,2.67,0.0,False,False,0.0,[],False, Or not at all?,4,elicit,Elicit-Inform
+TS3011d,D,1768.234,1769.074,0.84,TS3011d.D.dialog-act.vkaraisk.107,,,,,,,,,False, No.,1,task,Inform
+TS3011d,A,1769.064,1769.524,0.46,TS3011d.A.dialog-act.vkaraisk.297,,,,,,,,,False, Not at all.,3,elicit,Elicit-Inform
+TS3011d,D,1769.074,1770.334,1.26,TS3011d.D.dialog-act.vkaraisk.108,,,,,,,,,False, Not really.,2,task,Inform
+TS3011d,A,1770.614,1771.734,1.12,TS3011d.A.dialog-act.vkaraisk.298,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+TS3011d,A,1771.734,1774.714,2.98,TS3011d.A.dialog-act.vkaraisk.299,C,A,-1.32,2.67,False,True,0.9,['TS3011d.C.dialog-act.vkaraisk.258'],False," I thought it was quite a handy uh thing,",9,task,Assess
+TS3011d,C,1773.394,1774.294,0.9,TS3011d.C.dialog-act.vkaraisk.258,A,A,0.42,-1.32,True,False,0.0,[],False, I I think so too.,5,task,Assess
+TS3011d,A,1774.714,1778.524,3.81,TS3011d.A.dialog-act.vkaraisk.300,B,C,2.2,0.42,True,False,0.0,[],True, although I would like to see um O_C_R_.,8,task,Suggest
+TS3011d,C,1778.724,1780.734,2.01,TS3011d.C.dialog-act.vkaraisk.259,,,,,,,,,False, Yes. Yes.,2,task,Assess
+TS3011d,B,1778.904,1779.124,0.22,TS3011d.B.dialog-act.vkaraisk.162,,,,,,,,,False, Yep.,1,task,Assess
+TS3011d,B,1780.724,1783.854,3.13,TS3011d.B.dialog-act.vkaraisk.163,B,A,0.0,2.2,True,False,0.0,[],True," If it has O_C_R_, uh I think uh I would use,",11,task,Inform
+TS3011d,B,1783.854,1789.234,5.38,TS3011d.B.dialog-act.vkaraisk.164,B,B,1.61,0.0,False,False,0.0,[],False, but uh I I just uh took notes for myself and and and that's it.,15,task,Inform
+TS3011d,A,1786.824,1787.014,0.19,TS3011d.A.dialog-act.vkaraisk.301,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,B,1789.234,1789.844,0.61,TS3011d.B.dialog-act.vkaraisk.165,,,,,,,,,False, It w it w,4,minor,Fragment
+TS3011d,B,1789.844,1790.844,1.0,TS3011d.B.dialog-act.vkaraisk.166,,,,,,,,,False, yeah.,1,minor,Stall
+TS3011d,B,1790.844,1792.784,1.94,TS3011d.B.dialog-act.vkaraisk.167,B,B,1.64,1.61,False,False,0.0,[],False, It was necessary for me to uh,7,task,Inform
+TS3011d,A,1793.144,1794.034,0.89,TS3011d.A.dialog-act.vkaraisk.302,,,,,,,,,False, To digitise them.,3,task,Inform
+TS3011d,B,1794.024,1794.424,0.4,TS3011d.B.dialog-act.vkaraisk.168,,,,,,,,,False," Yeah,",1,task,Assess
+TS3011d,B,1794.424,1798.324,3.9,TS3011d.B.dialog-act.vkaraisk.169,B,B,0.0,1.64,False,False,0.0,[],False," because if I want something on the computer, I just type it.",12,task,Inform
+TS3011d,A,1797.814,1798.064,0.25,TS3011d.A.dialog-act.vkaraisk.303,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1798.054,1798.274,0.22,TS3011d.C.dialog-act.vkaraisk.260,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3011d,B,1798.324,1799.834,1.51,TS3011d.B.dialog-act.vkaraisk.170,C,B,0.86,0.0,False,False,0.0,[],False, I type faster than I write.,6,task,Inform
+TS3011d,B,1799.834,1800.32,0.486,TS3011d.B.dialog-act.vkaraisk.171,,,,,,,,,False, So,1,minor,Fragment
+TS3011d,A,1800.074,1800.194,0.12,TS3011d.A.dialog-act.vkaraisk.304,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1800.694,1814.734,14.04,TS3011d.C.dialog-act.vkaraisk.261,C,B,0.0,0.86,True,False,0.0,[],True," But I think it's a great solution for uh for uh a known problem, uh writing down some notes, some some inf uh information, and then um forgetting your notebook somewhere and losing all that information.",36,task,Assess
+TS3011d,A,1812.144,1812.404,0.26,TS3011d.A.dialog-act.vkaraisk.305,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1814.734,1817.054,2.32,TS3011d.C.dialog-act.vkaraisk.262,C,C,2.45,0.0,False,False,0.0,[],False, Because you have everything in one place,7,task,Inform
+TS3011d,C,1817.054,1819.504,2.45,TS3011d.C.dialog-act.vkaraisk.263,,,,,,,,,False, and it's quite easy quite easy,6,minor,Fragment
+TS3011d,C,1819.504,1822.604,3.1,TS3011d.C.dialog-act.vkaraisk.264,C,C,0.0,2.45,False,False,0.0,[],False, it's it's possible to make this information digital,8,task,Inform
+TS3011d,C,1822.604,1825.884,3.28,TS3011d.C.dialog-act.vkaraisk.265,C,C,0.0,0.0,False,False,0.0,[],False, and share it with others in a quite easy way.,10,task,Inform
+TS3011d,A,1824.544,1824.754,0.21,TS3011d.A.dialog-act.vkaraisk.307,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1825.884,1827.674,1.79,TS3011d.C.dialog-act.vkaraisk.266,C,C,0.0,0.0,False,False,0.0,[],False, I think it's a good product.,6,task,Assess
+TS3011d,C,1827.674,1832.694,5.02,TS3011d.C.dialog-act.vkaraisk.267,C,C,0.0,0.0,False,False,0.0,[],False, I only think it's th the the shape of the pen is too big.,14,task,Inform
+TS3011d,A,1832.184,1832.464,0.28,TS3011d.A.dialog-act.vkaraisk.306,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,C,1832.694,1837.184,4.49,TS3011d.C.dialog-act.vkaraisk.268,A,C,8.48,0.0,False,False,0.0,[],False, It's not quite uh ergonomic. Eco ergonomic.,7,task,Inform
+TS3011d,B,1835.434,1835.924,0.49,TS3011d.B.dialog-act.vkaraisk.172,,,,,,,,,False, Economic.,1,task,Inform
+TS3011d,A,1837.094,1837.414,0.32,TS3011d.A.dialog-act.vkaraisk.308,,,,,,,,,False, I know.,2,other,Comment-About-Understanding
+TS3011d,B,1837.225,1838.256,1.031,TS3011d.B.dialog-act.vkaraisk.173,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,1839.254,1842.0,2.746,TS3011d.A.dialog-act.vkaraisk.309,,,,,,,,,False, Yeah. Okay. Um,3,minor,Stall
+TS3011d,A,1845.404,1845.664,0.26,TS3011d.A.dialog-act.vkaraisk.310,,,,,,,,,False, What w,2,minor,Fragment
+TS3011d,A,1845.664,1848.094,2.43,TS3011d.A.dialog-act.vkaraisk.311,D,C,0.94,8.48,True,False,0.0,[],True," Uh Ruud, what did you think about the SMARTboards?",9,elicit,Elicit-Assessment
+TS3011d,D,1848.744,1849.034,0.29,TS3011d.D.dialog-act.vkaraisk.109,,,,,,,,,False," Oh,",1,minor,Stall
+TS3011d,D,1849.034,1851.364,2.33,TS3011d.D.dialog-act.vkaraisk.110,A,A,-0.1,0.94,True,True,0.1,['TS3011d.A.dialog-act.vkaraisk.312'],True," I only use it to draw a rabbit,",8,task,Inform
+TS3011d,A,1851.264,1855.134,3.87,TS3011d.A.dialog-act.vkaraisk.312,D,D,-3.77,-0.1,True,True,3.11,['TS3011d.D.dialog-act.vkaraisk.111'],False," Yeah. Okay, you can't really decide. No.",7,other,Comment-About-Understanding
+TS3011d,D,1851.364,1854.474,3.11,TS3011d.D.dialog-act.vkaraisk.111,A,A,0.66,-3.77,True,False,0.0,[],False, so can't say much about it.,6,task,Assess
+TS3011d,B,1851.632,1852.382,0.75,TS3011d.B.dialog-act.vkaraisk.174,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,1855.134,1863.104,7.97,TS3011d.A.dialog-act.vkaraisk.313,A,D,0.0,0.66,True,False,0.0,[],True, I missed a feature to easily select uh a slide and uh distribute it to the laptops.,17,task,Inform
+TS3011d,A,1863.104,1869.414,6.31,TS3011d.A.dialog-act.vkaraisk.314,D,A,0.88,0.0,False,False,0.0,[],False," I think that would be very easy if you could say okay, I want to use this for my own work or my own presentation further on",27,task,Suggest
+TS3011d,A,1869.414,1869.806,0.392,TS3011d.A.dialog-act.vkaraisk.315,,,,,,,,,False, or,1,minor,Fragment
+TS3011d,C,1870.194,1870.484,0.29,TS3011d.C.dialog-act.vkaraisk.269,,,,,,,,,False, Yes.,1,task,Assess
+TS3011d,D,1870.214,1870.294,0.08,TS3011d.D.dialog-act.vkaraisk.112,,,,,,,,,False," No,",1,minor,Stall
+TS3011d,D,1870.294,1871.254,0.96,TS3011d.D.dialog-act.vkaraisk.113,A,A,0.48,0.88,True,False,0.0,[],True, or the other way around.,5,task,Suggest
+TS3011d,B,1870.644,1870.944,0.3,TS3011d.B.dialog-act.vkaraisk.175,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,A,1871.734,1872.714,0.98,TS3011d.A.dialog-act.vkaraisk.316,C,D,2.39,0.48,True,False,0.0,[],True," Or the other way around,",5,task,Assess
+TS3011d,A,1872.714,1874.904,2.19,TS3011d.A.dialog-act.vkaraisk.317,,,,,,,,,False, that you could show but m,6,minor,Fragment
+TS3011d,C,1872.924,1873.784,0.86,TS3011d.C.dialog-act.vkaraisk.270,,,,,,,,,False," Yes, yes.",2,minor,Backchannel
+TS3011d,C,1875.104,1877.014,1.91,TS3011d.C.dialog-act.vkaraisk.271,B,A,0.04,2.39,True,False,0.0,[],True, That's quite what PowerPoint does.,5,task,Inform
+TS3011d,B,1875.164,1877.054,1.89,TS3011d.B.dialog-act.vkaraisk.176,,,,,,,,,False, But y you can,4,minor,Fragment
+TS3011d,D,1875.834,1876.174,0.34,TS3011d.D.dialog-act.vkaraisk.114,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,B,1877.054,1882.104,5.05,TS3011d.B.dialog-act.vkaraisk.177,A,C,1.7,0.04,True,False,0.0,[],True," if you save this image, you can open it in your shared work folder.",14,task,Inform
+TS3011d,A,1877.224,1877.504,0.28,TS3011d.A.dialog-act.vkaraisk.318,,,,,,,,,False, I know.,2,task,Assess
+TS3011d,A,1881.514,1881.864,0.35,TS3011d.A.dialog-act.vkaraisk.319,,,,,,,,,False," I know,",2,task,Assess
+TS3011d,A,1881.864,1882.112,0.248,TS3011d.A.dialog-act.vkaraisk.320,,,,,,,,,False, but,1,minor,Fragment
+TS3011d,B,1882.104,1883.574,1.47,TS3011d.B.dialog-act.vkaraisk.178,,,,,,,,,False, So it's almost,3,task,Inform
+TS3011d,B,1883.574,1883.984,0.41,TS3011d.B.dialog-act.vkaraisk.179,,,,,,,,,False, yeah.,1,task,Assess
+TS3011d,A,1883.584,1883.804,0.22,TS3011d.A.dialog-act.vkaraisk.321,,,,,,,,,False," I know,",2,task,Assess
+TS3011d,A,1883.804,1885.194,1.39,TS3011d.A.dialog-act.vkaraisk.322,A,B,0.0,1.7,True,False,0.0,[],True," but we couldn't use that feature,",6,task,Inform
+TS3011d,A,1885.194,1885.904,0.71,TS3011d.A.dialog-act.vkaraisk.323,A,A,1.67,0.0,False,False,0.0,[],False, so I missed it.,4,task,Inform
+TS3011d,B,1886.674,1886.914,0.24,TS3011d.B.dialog-act.vkaraisk.180,,,,,,,,,False, Yep.,1,minor,Backchannel
+TS3011d,A,1887.574,1888.694,1.12,TS3011d.A.dialog-act.vkaraisk.324,A,A,1.47,1.67,False,False,0.0,[],False, We weren't able to do that.,6,task,Inform
+TS3011d,A,1890.164,1894.984,4.82,TS3011d.A.dialog-act.vkaraisk.325,B,A,-0.15,1.47,False,True,0.15,['TS3011d.B.dialog-act.vkaraisk.182'],False, At least the um I wasn't explained how to do such a th,13,task,Inform
+TS3011d,B,1893.644,1894.834,1.19,TS3011d.B.dialog-act.vkaraisk.181,,,,,,,,,False, Mm-hmm..,1,minor,Backchannel
+TS3011d,B,1894.834,1900.174,5.34,TS3011d.B.dialog-act.vkaraisk.182,C,A,-2.22,-0.15,True,True,2.22,['TS3011d.C.dialog-act.vkaraisk.272'],False, A and the function of of filling an an uh an oval or an an object.,16,task,Inform
+TS3011d,C,1897.954,1901.174,3.22,TS3011d.C.dialog-act.vkaraisk.272,C,B,0.0,-2.22,True,False,0.0,[],False," An object, yes. Yes.",4,task,Assess
+TS3011d,C,1901.174,1903.694,2.52,TS3011d.C.dialog-act.vkaraisk.273,C,C,1.04,0.0,False,False,0.0,[],False, The drawing cap capabilities are very limited.,7,task,Inform
+TS3011d,B,1901.524,1903.344,1.82,TS3011d.B.dialog-act.vkaraisk.183,,,,,,,,,False, I it's not possible,4,minor,Fragment
+TS3011d,B,1903.344,1903.634,0.29,TS3011d.B.dialog-act.vkaraisk.184,,,,,,,,,False, yeah.,1,task,Assess
+TS3011d,A,1904.274,1904.674,0.4,TS3011d.A.dialog-act.vkaraisk.326,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3011d,C,1904.734,1915.684,10.95,TS3011d.C.dialog-act.vkaraisk.274,C,C,0.0,1.04,False,False,0.0,[],False," And and uh w you were when you're using uh Windows, you're used to a certain interface and certain buttons, uh which you can use for drawing.",27,task,Inform
+TS3011d,A,1915.334,1915.564,0.23,TS3011d.A.dialog-act.vkaraisk.327,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1915.684,1917.864,2.18,TS3011d.C.dialog-act.vkaraisk.275,B,C,0.83,0.0,False,False,0.0,[],False, And a lot of these buttons don't appear here.,9,task,Inform
+TS3011d,C,1917.864,1919.267,1.403,TS3011d.C.dialog-act.vkaraisk.276,,,,,,,,,False, So it's,2,minor,Fragment
+TS3011d,B,1918.694,1921.374,2.68,TS3011d.B.dialog-act.vkaraisk.185,A,C,-0.76,0.83,True,True,0.76,['TS3011d.A.dialog-act.vkaraisk.330'],True, Oh it looks like paint actually.,6,task,Inform
+TS3011d,A,1919.304,1919.774,0.47,TS3011d.A.dialog-act.vkaraisk.328,,,,,,,,,False," Okay, so",2,minor,Stall
+TS3011d,A,1919.774,1920.614,0.84,TS3011d.A.dialog-act.vkaraisk.329,,,,,,,,,False, y it,2,minor,Fragment
+TS3011d,A,1920.614,1922.424,1.81,TS3011d.A.dialog-act.vkaraisk.330,C,B,0.06,-0.76,True,False,0.0,[],False, it's not even as advanced as paint.,7,task,Inform
+TS3011d,C,1922.484,1925.634,3.15,TS3011d.C.dialog-act.vkaraisk.277,C,A,0.0,0.06,True,False,0.0,[],True, Not not uh n not way.,6,task,Assess
+TS3011d,A,1924.564,1924.894,0.33,TS3011d.A.dialog-act.vkaraisk.331,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3011d,C,1925.634,1927.304,1.67,TS3011d.C.dialog-act.vkaraisk.278,A,C,9.29,0.0,False,False,0.0,[],False, It's quite uh limited.,4,task,Inform
+TS3011d,A,1927.984,1928.364,0.38,TS3011d.A.dialog-act.vkaraisk.332,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3011d,A,1934.124,1936.594,2.47,TS3011d.A.dialog-act.vkaraisk.333,,,,,,,,,False, Uh no.,2,other,Other
+TS3011d,C,1934.999,1936.048,1.049,TS3011d.C.dialog-act.vkaraisk.279,,,,,,,,,False,,0,minor,Fragment
+TS3011d,D,1935.219,1935.952,0.733,TS3011d.D.dialog-act.vkaraisk.115,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,1936.594,1939.044,2.45,TS3011d.A.dialog-act.vkaraisk.334,A,C,1.34,9.29,True,False,0.0,[],True," Yeah, the project is evaluated.",5,task,Inform
+TS3011d,A,1939.044,1940.384,1.34,TS3011d.A.dialog-act.vkaraisk.335,,,,,,,,,False," Um but, well,",3,minor,Stall
+TS3011d,A,1940.384,1943.004,2.62,TS3011d.A.dialog-act.vkaraisk.336,C,A,2.62,1.34,False,False,0.0,[],False, we need to redesign uh the product.,7,task,Inform
+TS3011d,C,1942.174,1943.604,1.43,TS3011d.C.dialog-act.vkaraisk.280,,,,,,,,,False," Okay. Oh,",2,minor,Stall
+TS3011d,C,1943.604,1943.954,0.35,TS3011d.C.dialog-act.vkaraisk.281,,,,,,,,,False," very good,",2,other,Be-Positive
+TS3011d,C,1943.954,1944.524,0.57,TS3011d.C.dialog-act.vkaraisk.282,,,,,,,,,False, celebration.,1,task,Suggest
+TS3011d,A,1945.334,1945.794,0.46,TS3011d.A.dialog-act.vkaraisk.337,,,,,,,,,False, Celebrate,1,other,Be-Positive
+TS3011d,C,1945.624,1948.344,2.72,TS3011d.C.dialog-act.vkaraisk.283,B,A,-0.53,2.62,True,True,0.53,['TS3011d.B.dialog-act.vkaraisk.187'],True, Pop uh pop up the champagne.,6,task,Suggest
+TS3011d,B,1945.734,1946.736,1.002,TS3011d.B.dialog-act.vkaraisk.186,,,,,,,,,False, Great.,1,other,Be-Positive
+TS3011d,B,1947.814,1951.248,3.434,TS3011d.B.dialog-act.vkaraisk.187,A,C,3.966,-0.53,True,False,0.0,[],False, It was a privilege working with you.,7,other,Be-Positive
+TS3011d,A,1947.854,1952.414,4.56,TS3011d.A.dialog-act.vkaraisk.338,,,,,,,,,False, Okay. Um,2,minor,Stall
+TS3011d,A,1952.414,1955.214,2.8,TS3011d.A.dialog-act.vkaraisk.339,,,,,,,,,False, you're dismissed.,2,task,Suggest
+TS3011d,B,1953.344,1953.919,0.575,TS3011d.B.dialog-act.vkaraisk.188,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,1955.214,1957.104,1.89,TS3011d.A.dialog-act.vkaraisk.340,C,B,6.16,3.966,True,False,0.0,[],True," No, I think we are uh ready.",7,task,Inform
+TS3011d,C,1958.464,1958.744,0.28,TS3011d.C.dialog-act.vkaraisk.284,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+TS3011d,B,1960.884,1962.192,1.308,TS3011d.B.dialog-act.vkaraisk.189,,,,,,,,,False, To private rooms?,3,elicit,Elicit-Inform
+TS3011d,C,1963.264,1964.684,1.42,TS3011d.C.dialog-act.vkaraisk.285,A,A,2.78,6.16,True,False,0.0,[],True, I see some action over there.,6,task,Inform
+TS3011d,A,1965.124,1966.184,1.06,TS3011d.A.dialog-act.vkaraisk.341,,,,,,,,,False," Private room, Roo.",3,task,Inform
+TS3011d,A,1967.464,1968.644,1.18,TS3011d.A.dialog-act.vkaraisk.342,C,C,12.876,2.78,True,False,0.0,[],True, That sounds quite scary.,4,task,Assess
+TS3011d,C,1968.887,1969.296,0.409,TS3011d.C.dialog-act.vkaraisk.286,,,,,,,,,False,,0,minor,Fragment
+TS3011d,B,1969.664,1971.287,1.623,TS3011d.B.dialog-act.vkaraisk.190,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,1972.394,1973.034,0.64,TS3011d.C.dialog-act.vkaraisk.287,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3011d,A,1973.284,1981.248,7.964,TS3011d.A.dialog-act.vkaraisk.343,,,,,,,,,False," No, let's find uh the way to..",7,minor,Fragment
+TS3011d,C,1977.626,1980.353,2.727,TS3011d.C.dialog-act.vkaraisk.288,,,,,,,,,False,,0,minor,Fragment
+TS3011d,B,1978.276,1979.137,0.861,TS3011d.B.dialog-act.vkaraisk.191,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,1981.52,1985.164,3.644,TS3011d.C.dialog-act.vkaraisk.289,C,A,1.46,12.876,True,False,0.0,[],True," uh we're done, we're finished, I believe.",7,task,Inform
+TS3011d,C,1985.164,1985.554,0.39,TS3011d.C.dialog-act.vkaraisk.290,,,,,,,,,False," So,",1,minor,Stall
+TS3011d,C,1986.624,1989.474,2.85,TS3011d.C.dialog-act.vkaraisk.291,A,C,0.66,1.46,False,False,0.0,[],False, are there any more cycles in this process?,8,elicit,Elicit-Inform
+TS3011d,C,1989.474,1989.924,0.45,TS3011d.C.dialog-act.vkaraisk.292,,,,,,,,,False, I think not.,3,task,Inform
+TS3011d,A,1990.134,1991.424,1.29,TS3011d.A.dialog-act.vkaraisk.344,A,C,0.14,0.66,True,False,0.0,[],True, I don't believe so.,4,task,Inform
+TS3011d,A,1991.424,1991.564,0.14,TS3011d.A.dialog-act.vkaraisk.345,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,A,1991.564,1996.896,5.332,TS3011d.A.dialog-act.vkaraisk.346,C,A,0.798,0.14,False,False,0.0,[],False, maybe we'd get an email. Thank you for your,9,task,Inform
+TS3011d,C,1997.694,2000.914,3.22,TS3011d.C.dialog-act.vkaraisk.293,C,A,1.13,0.798,True,False,0.0,[],True, But um how much time did we get for this meeting?,11,elicit,Elicit-Inform
+TS3011d,A,2000.884,2001.714,0.83,TS3011d.A.dialog-act.vkaraisk.349,,,,,,,,,False, Forty minutes.,2,task,Inform
+TS3011d,C,2002.044,2003.514,1.47,TS3011d.C.dialog-act.vkaraisk.294,A,C,0.87,1.13,False,False,0.0,[],False, And how much time is left?,6,elicit,Elicit-Inform
+TS3011d,A,2004.384,2006.114,1.73,TS3011d.A.dialog-act.vkaraisk.350,C,C,16.45,0.87,True,False,0.0,[],True, A minute or or ten maybe.,6,task,Inform
+TS3011d,A,2006.594,2007.224,0.63,TS3011d.A.dialog-act.vkaraisk.351,,,,,,,,,False, M,1,minor,Fragment
+TS3011d,C,2006.634,2007.134,0.5,TS3011d.C.dialog-act.vkaraisk.295,,,,,,,,,False, Ten minutes.,2,other,Comment-About-Understanding
+TS3011d,A,2007.224,2007.554,0.33,TS3011d.A.dialog-act.vkaraisk.352,,,,,,,,,False," Yeah,",1,task,Inform
+TS3011d,A,2007.554,2008.264,0.71,TS3011d.A.dialog-act.vkaraisk.353,,,,,,,,,False, ten or five.,3,task,Inform
+TS3011d,C,2009.244,2012.594,3.35,TS3011d.C.dialog-act.vkaraisk.296,,,,,,,,,False, Okay. Okay.,2,other,Comment-About-Understanding
+TS3011d,A,2012.884,2013.614,0.73,TS3011d.A.dialog-act.vkaraisk.354,,,,,,,,,False," So,",1,minor,Stall
+TS3011d,A,2013.614,2019.967,6.353,TS3011d.A.dialog-act.vkaraisk.355,,,,,,,,,False, we can uh redesign our uh Uh I would like to,11,minor,Fragment
+TS3011d,C,2020.258,2022.564,2.306,TS3011d.C.dialog-act.vkaraisk.297,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,C,2022.564,2028.124,5.56,TS3011d.C.dialog-act.vkaraisk.299,C,A,0.0,16.45,True,False,0.0,[],True, I think we we we all know what the redesign should be.,12,task,Inform
+TS3011d,C,2028.124,2032.204,4.08,TS3011d.C.dialog-act.vkaraisk.300,D,C,2.04,0.0,False,False,0.0,[],False," A simple, dull, uh one-coloured box.",6,task,Assess
+TS3011d,D,2034.244,2037.354,3.11,TS3011d.D.dialog-act.vkaraisk.116,C,C,-0.86,2.04,True,True,0.86,['TS3011d.C.dialog-act.vkaraisk.302'],True, And no added value. At all.,6,task,Inform
+TS3011d,C,2036.254,2036.494,0.24,TS3011d.C.dialog-act.vkaraisk.301,,,,,,,,,False," No,",1,task,Assess
+TS3011d,C,2036.494,2039.824,3.33,TS3011d.C.dialog-act.vkaraisk.302,B,D,7.63,-0.86,True,False,0.0,[],False, it's it's just the same product that is already on the market.,12,task,Inform
+TS3011d,D,2037.354,2037.705,0.351,TS3011d.D.dialog-act.vkaraisk.117,,,,,,,,,False, So,1,minor,Fragment
+TS3011d,A,2046.754,2048.264,1.51,TS3011d.A.dialog-act.vkaraisk.356,,,,,,,,,False, Oh.,1,minor,Backchannel
+TS3011d,B,2047.454,2048.254,0.8,TS3011d.B.dialog-act.vkaraisk.192,B,C,0.0,7.63,True,False,0.0,[],True," But you see the problem,",5,elicit,Elicit-Inform
+TS3011d,B,2048.254,2052.594,4.34,TS3011d.B.dialog-act.vkaraisk.193,C,B,12.91,0.0,False,False,0.0,[],False, y you can't continue your uh your line.,8,task,Inform
+TS3011d,A,2048.264,2048.634,0.37,TS3011d.A.dialog-act.vkaraisk.357,,,,,,,,,False, Yeah.,1,task,Inform
+TS3011d,B,2058.854,2059.104,0.25,TS3011d.B.dialog-act.vkaraisk.194,,,,,,,,,False," Well,",1,minor,Stall
+TS3011d,B,2059.104,2061.584,2.48,TS3011d.B.dialog-act.vkaraisk.195,,,,,,,,,False, it's fluffy alright.,3,task,Inform
+TS3011d,B,2061.584,2062.294,0.71,TS3011d.B.dialog-act.vkaraisk.197,,,,,,,,,False, Spongy.,1,task,Inform
+TS3011d,C,2063.794,2064.314,0.52,TS3011d.C.dialog-act.vkaraisk.303,,,,,,,,,False, What is that?,3,elicit,Elicit-Inform
+TS3011d,B,2064.104,2066.604,2.5,TS3011d.B.dialog-act.vkaraisk.198,,,,,,,,,False, A giraffe?,2,task,Inform
+TS3011d,A,2065.254,2065.84,0.586,TS3011d.A.dialog-act.vkaraisk.358,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,C,2065.504,2070.294,4.79,TS3011d.C.dialog-act.vkaraisk.304,A,B,4.68,12.91,True,False,0.0,[],True, It's a giraffe eating a eating leaves from a tree.,10,task,Inform
+TS3011d,A,2071.764,2072.574,0.81,TS3011d.A.dialog-act.vkaraisk.359,,,,,,,,,False, It's blue tongue.,3,task,Inform
+TS3011d,D,2072.174,2073.594,1.42,TS3011d.D.dialog-act.vkaraisk.118,,,,,,,,,False, In interesting design.,3,other,Be-Positive
+TS3011d,A,2073.824,2074.974,1.15,TS3011d.A.dialog-act.vkaraisk.360,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,A,2074.974,2076.234,1.26,TS3011d.A.dialog-act.vkaraisk.361,C,C,1.1,4.68,True,False,0.0,[],True, This is a new model.,5,other,Be-Positive
+TS3011d,D,2076.048,2076.72,0.672,TS3011d.D.dialog-act.vkaraisk.119,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,2076.234,2077.52,1.286,TS3011d.A.dialog-act.vkaraisk.362,,,,,,,,,False, But,1,minor,Fragment
+TS3011d,C,2077.334,2083.68,6.346,TS3011d.C.dialog-act.vkaraisk.305,D,A,-2.523,1.1,True,True,2.523,['TS3011d.D.dialog-act.vkaraisk.120'],True, So you're actually promoting Bluetooth. Or blue tongue.,8,other,Be-Positive
+TS3011d,A,2080.924,2082.55,1.626,TS3011d.A.dialog-act.vkaraisk.363,,,,,,,,,False, Blue tongue.,2,other,Comment-About-Understanding
+TS3011d,D,2081.157,2087.944,6.787,TS3011d.D.dialog-act.vkaraisk.120,C,C,30.98,-2.523,True,False,0.0,[],False, Oh uh it it does uh have a natural uh feeling.,11,other,Be-Positive
+TS3011d,B,2081.643,2084.038,2.395,TS3011d.B.dialog-act.vkaraisk.199,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,2087.76,2091.584,3.824,TS3011d.A.dialog-act.vkaraisk.364,,,,,,,,,False, It's spongy.,2,other,Be-Positive
+TS3011d,D,2087.944,2088.524,0.58,TS3011d.D.dialog-act.vkaraisk.121,,,,,,,,,False, So,1,minor,Fragment
+TS3011d,B,2090.192,2091.232,1.04,TS3011d.B.dialog-act.vkaraisk.200,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,2090.317,2090.994,0.677,TS3011d.C.dialog-act.vkaraisk.306,,,,,,,,,False,,0,minor,Fragment
+TS3011d,D,2090.344,2090.903,0.559,TS3011d.D.dialog-act.vkaraisk.122,,,,,,,,,False, Yeah.,1,task,Assess
+TS3011d,A,2101.984,2116.192,14.208,TS3011d.A.dialog-act.vkaraisk.365,,,,,,,,,False,. That is uh it's a new feature next to Bluetooth to um disable all Bluetooth devices. Um,17,minor,Fragment
+TS3011d,B,2102.672,2104.448,1.776,TS3011d.B.dialog-act.vkaraisk.201,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,2103.033,2105.594,2.561,TS3011d.C.dialog-act.vkaraisk.308,,,,,,,,,False, Blue tongue.,2,other,Other
+TS3011d,D,2105.721,2106.261,0.54,TS3011d.D.dialog-act.vkaraisk.123,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,2112.764,2113.284,0.52,TS3011d.C.dialog-act.vkaraisk.309,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3011d,B,2113.072,2116.034,2.962,TS3011d.B.dialog-act.vkaraisk.202,,,,,,,,,False, Right.,1,other,Other
+TS3011d,C,2118.924,2119.604,0.68,TS3011d.C.dialog-act.vkaraisk.310,A,D,10.7,30.98,True,False,0.0,[],True, Let's wrap it up.,4,task,Suggest
+TS3011d,A,2123.204,2123.954,0.75,TS3011d.A.dialog-act.vkaraisk.366,,,,,,,,,False," Yeah,",1,task,Assess
+TS3011d,A,2123.954,2124.714,0.76,TS3011d.A.dialog-act.vkaraisk.367,,,,,,,,,False, we're done here.,3,task,Inform
+TS3011d,C,2126.672,2127.347,0.675,TS3011d.C.dialog-act.vkaraisk.311,,,,,,,,,False,,0,minor,Fragment
+TS3011d,B,2126.9,2127.39,0.49,TS3011d.B.dialog-act.vkaraisk.203,,,,,,,,,False,,0,minor,Fragment
+TS3011d,A,2130.304,2132.354,2.05,TS3011d.A.dialog-act.vkaraisk.368,C,C,0.76,10.7,True,False,0.0,[],True," Gentlemen, thank you for your cooperation.",6,other,Be-Positive
+TS3011d,C,2133.114,2138.124,5.01,TS3011d.C.dialog-act.vkaraisk.312,C,A,0.0,0.76,True,False,0.0,[],True, Thank you Mister manager.,4,other,Be-Positive
+TS3011d,A,2134.528,2135.054,0.526,TS3011d.A.dialog-act.vkaraisk.369,,,,,,,,,False,,0,minor,Fragment
+TS3011d,D,2134.621,2135.801,1.18,TS3011d.D.dialog-act.vkaraisk.124,,,,,,,,,False,,0,minor,Fragment
+TS3011d,C,2138.124,2141.614,3.49,TS3011d.C.dialog-act.vkaraisk.313,,C,,0.0,False,False,0.0,[],False," Now, let's have uh a bottle of champagne.",8,other,Be-Positive
+TS3011d,B,2142.656,2148.094,5.438,TS3011d.B.dialog-act.vkaraisk.204,,,,,,,,,False,. Leave it here.,3,task,Suggest
+TS3011d,A,2148.584,2148.904,0.32,TS3011d.A.dialog-act.vkaraisk.371,,,,,,,,,False, Yes.,1,elicit,Elicit-Inform
+TS3011d,B,2152.234,2156.254,4.02,TS3011d.B.dialog-act.vkaraisk.205,,,,,,,,,False, That's alright.,2,task,Assess
+TS3011d,C,2152.322,2153.904,1.582,TS3011d.C.dialog-act.vkaraisk.314,,,,,,,,,False,.,0,minor,Fragment
+TS3011d,D,2153.553,2154.752,1.199,TS3011d.D.dialog-act.vkaraisk.125,,,,,,,,,False,.,0,minor,Fragment
+TS3011d,A,2154.672,2157.408,2.736,TS3011d.A.dialog-act.vkaraisk.370,,,,,,,,,False,,0,minor,Fragment

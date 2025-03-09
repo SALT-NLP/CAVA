@@ -1,0 +1,806 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+ES2005d,D,41.24,42.39,1.15,ES2005d.D.dialog-act.dharshi.1,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,A,41.74,43.09,1.35,ES2005d.A.dialog-act.dharshi.1,,,,,,,,,False," Okay, almost there.",3,task,Assess
+ES2005d,C,43.17,44.13,0.96,ES2005d.C.dialog-act.dharshi.1,,,,,,,,,False, Okay.,1,minor,Stall
+ES2005d,C,44.13,48.1,3.97,ES2005d.C.dialog-act.dharshi.2,C,,0.0,,True,False,0.0,[],False," We'll sta I'll use the PowerPoint, I guess.",8,task,Suggest
+ES2005d,C,48.1,49.82,1.72,ES2005d.C.dialog-act.dharshi.3,C,C,6.84,0.0,False,False,0.0,[],False," How was that, was that fun?",6,elicit,Elicit-Assessment
+ES2005d,D,50.32,52.69,2.37,ES2005d.D.dialog-act.dharshi.2,,,,,,,,,False, Mm. Very fun.,3,task,Assess
+ES2005d,A,51.06,51.73,0.67,ES2005d.A.dialog-act.dharshi.2,,,,,,,,,False," Yeah, yeah.",2,task,Assess
+ES2005d,C,52.768,54.82,2.052,ES2005d.C.dialog-act.dharshi.4,,,,,,,,,False, Okay.,1,minor,Stall
+ES2005d,C,56.66,58.64,1.98,ES2005d.C.dialog-act.dharshi.5,C,C,0.0,6.84,False,False,0.0,[],False," Uh oh I've forgotten to mail you the minutes,",9,task,Inform
+ES2005d,C,58.64,61.19,2.55,ES2005d.C.dialog-act.dharshi.6,C,C,12.0,0.0,False,False,0.0,[],False, but I will do.,4,other,Offer
+ES2005d,A,60.45,61.01,0.56,ES2005d.A.dialog-act.dharshi.3,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2005d,C,61.19,62.99,1.8,ES2005d.C.dialog-act.dharshi.7,,,,,,,,,False, Upsidaisy.,1,other,Other
+ES2005d,B,61.34,61.65,0.31,ES2005d.B.dialog-act.dharshi.1,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2005d,C,62.99,67.73,4.74,ES2005d.C.dialog-act.dharshi.8,,,,,,,,,False, Um Um we,3,minor,Stall
+ES2005d,B,66.73,67.64,0.91,ES2005d.B.dialog-act.dharshi.2,,,,,,,,,False, E excuse me,3,other,Be-Positive
+ES2005d,B,67.64,68.25,0.61,ES2005d.B.dialog-act.dharshi.3,,,,,,,,,False, I forgot my,3,task,Inform
+ES2005d,C,67.73,68.01,0.28,ES2005d.C.dialog-act.dharshi.9,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,C,69.48,70.44,0.96,ES2005d.C.dialog-act.dharshi.10,,,,,,,,,False," Alright, okay, yeah.",3,task,Assess
+ES2005d,B,69.71,74.592,4.882,ES2005d.B.dialog-act.dharshi.4,,,,,,,,,False, copy.,1,task,Inform
+ES2005d,A,71.824,72.288,0.464,ES2005d.A.dialog-act.dharshi.4,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,73.19,73.91,0.72,ES2005d.C.dialog-act.dharshi.11,C,C,1.65,12.0,False,False,0.0,[],False, He's gonna get his pen.,5,task,Inform
+ES2005d,D,74.52,75.21,0.69,ES2005d.D.dialog-act.dharshi.3,,,,,,,,,False, Oh right. Okay.,3,task,Assess
+ES2005d,C,75.56,85.29,9.73,ES2005d.C.dialog-act.dharshi.12,C,C,5.7,1.65,False,False,0.0,[],False, Um Will you guys first with your prototype um before we get to the good news?,16,task,Suggest
+ES2005d,A,86.23,86.5,0.27,ES2005d.A.dialog-act.dharshi.5,,,,,,,,,False," Yeah,",1,other,Offer
+ES2005d,A,86.5,87.92,1.42,ES2005d.A.dialog-act.dharshi.6,,,,,,,,,False, there's good news?,3,elicit,Elicit-Inform
+ES2005d,C,87.35,90.99,3.64,ES2005d.C.dialog-act.dharshi.13,,,,,,,,,False, Uh,1,minor,Stall
+ES2005d,A,87.92,88.25,0.33,ES2005d.A.dialog-act.dharshi.7,,,,,,,,,False, Oh.,1,task,Assess
+ES2005d,D,88.83,89.48,0.65,ES2005d.D.dialog-act.dharshi.4,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2005d,C,90.99,92.09,1.1,ES2005d.C.dialog-act.dharshi.14,C,C,2.28,5.7,False,False,0.0,[],False, we have budget problems.,4,task,Inform
+ES2005d,A,92.32,93.18,0.86,ES2005d.A.dialog-act.dharshi.8,,,,,,,,,False, Oh.,1,task,Assess
+ES2005d,C,94.37,95.38,1.01,ES2005d.C.dialog-act.dharshi.17,C,C,0.87,2.28,False,False,0.0,[],False, I'm afraid you're all sacked.,5,other,Be-Positive
+ES2005d,A,94.37,95.1,0.73,ES2005d.A.dialog-act.dharshi.11,,,,,,,,,False, Cutbacks.,1,other,Be-Positive
+ES2005d,C,95.38,96.25,0.87,ES2005d.C.dialog-act.dharshi.18,,,,,,,,,False, Oops.,1,other,Other
+ES2005d,A,96.144,96.56,0.416,ES2005d.A.dialog-act.dharshi.9,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,96.25,98.832,2.582,ES2005d.C.dialog-act.dharshi.19,C,C,21.298,0.87,False,False,0.0,[],False, I don't even have this on.,6,task,Inform
+ES2005d,A,98.8,99.21,0.41,ES2005d.A.dialog-act.dharshi.10,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2005d,C,102.16,103.056,0.896,ES2005d.C.dialog-act.dharshi.15,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,112.937,114.592,1.655,ES2005d.C.dialog-act.dharshi.16,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,120.13,123.05,2.92,ES2005d.C.dialog-act.dharshi.20,B,C,-0.43,21.298,False,True,0.43,['ES2005d.B.dialog-act.dharshi.5'],False," Okay, have you got a presentation to make?",8,elicit,Elicit-Inform
+ES2005d,A,120.92,121.59,0.67,ES2005d.A.dialog-act.dharshi.12,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2005d,B,122.62,123.86,1.24,ES2005d.B.dialog-act.dharshi.5,C,C,0.49,-0.43,True,False,0.0,[],False," No, not mine yet.",4,task,Inform
+ES2005d,C,123.05,124.35,1.3,ES2005d.C.dialog-act.dharshi.21,,,,,,,,,False, No. Okay,2,task,Assess
+ES2005d,C,124.35,125.82,1.47,ES2005d.C.dialog-act.dharshi.22,A,B,0.82,0.49,True,False,0.0,[],True, so it's just your your show.,6,task,Inform
+ES2005d,A,124.57,124.86,0.29,ES2005d.A.dialog-act.dharshi.13,,,,,,,,,False, Oh.,1,minor,Backchannel
+ES2005d,A,126.64,130.22,3.58,ES2005d.A.dialog-act.dharshi.14,D,C,5.54,0.82,True,False,0.0,[],True, Um maybe we should bring so that the camera can see. Yeah.,12,other,Offer
+ES2005d,C,129.252,129.868,0.616,ES2005d.C.dialog-act.dharshi.23,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,129.3,130.2,0.9,ES2005d.D.dialog-act.dharshi.5,,,,,,,,,False, Okay. Sure.,2,task,Assess
+ES2005d,C,130.912,132.32,1.408,ES2005d.C.dialog-act.dharshi.24,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,131.25,131.52,0.27,ES2005d.A.dialog-act.dharshi.15,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,D,135.76,138.03,2.27,ES2005d.D.dialog-act.dharshi.6,D,A,1.67,5.54,True,False,0.0,[],True, We made three for you.,5,task,Inform
+ES2005d,C,137.23,138.64,1.41,ES2005d.C.dialog-act.dharshi.25,,,,,,,,,False, Three? Oh.,2,task,Assess
+ES2005d,D,139.7,145.17,5.47,ES2005d.D.dialog-act.dharshi.8,C,D,2.39,1.67,False,False,0.0,[],False," Um one's based on the banana, one's based on the tomato",11,task,Inform
+ES2005d,D,145.17,147.36,2.19,ES2005d.D.dialog-act.dharshi.7,,,,,,,,,False, and the other one is st,6,minor,Fragment
+ES2005d,C,145.3,147.56,2.26,ES2005d.C.dialog-act.dharshi.27,,,,,,,,,False, Tomato? What tomato?,3,elicit,Elicit-Inform
+ES2005d,B,146.819,151.073,4.254,ES2005d.B.dialog-act.dharshi.6,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,147.504,151.239,3.735,ES2005d.A.dialog-act.dharshi.16,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,147.56,151.203,3.643,ES2005d.C.dialog-act.dharshi.28,D,D,-0.613,2.39,True,True,0.613,['ES2005d.D.dialog-act.dharshi.10'],True, I don't recall a tomato.,5,task,Inform
+ES2005d,D,149.88,150.59,0.71,ES2005d.D.dialog-act.dharshi.9,,,,,,,,,False, Look.,1,task,Suggest
+ES2005d,D,150.59,153.12,2.53,ES2005d.D.dialog-act.dharshi.10,C,C,0.01,-0.613,True,False,0.0,[],False," Oh yeah, well yeah, we had v some red left over.",11,task,Inform
+ES2005d,D,153.12,154.38,1.26,ES2005d.D.dialog-act.dharshi.11,,,,,,,,,False," So. Okay,",2,minor,Stall
+ES2005d,C,153.13,154.883,1.753,ES2005d.C.dialog-act.dharshi.29,D,D,-0.503,0.01,True,True,0.503,['ES2005d.D.dialog-act.dharshi.12'],True," Ah I see, okay.",4,task,Assess
+ES2005d,D,154.38,160.08,5.7,ES2005d.D.dialog-act.dharshi.12,D,C,0.0,-0.503,True,False,0.0,[],False," so this is the um non to non uh no buttons one,",12,task,Inform
+ES2005d,D,160.08,163.07,2.99,ES2005d.D.dialog-act.dharshi.13,D,D,1.21,0.0,False,False,0.0,[],False," or as mm few buttons as possible,",7,task,Inform
+ES2005d,C,162.14,162.49,0.35,ES2005d.C.dialog-act.dharshi.30,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,D,163.07,164.28,1.21,ES2005d.D.dialog-act.dharshi.14,,,,,,,,,False, mainly speak recognition.,3,task,Inform
+ES2005d,D,164.28,166.83,2.55,ES2005d.D.dialog-act.dharshi.15,D,D,1.4,1.21,False,False,0.0,[],False, The yellow there is the um,6,task,Inform
+ES2005d,C,166.79,167.36,0.57,ES2005d.C.dialog-act.dharshi.31,,,,,,,,,False, Logo.,1,task,Inform
+ES2005d,D,166.83,168.23,1.4,ES2005d.D.dialog-act.dharshi.16,,,,,,,,,False," the slogan, yeah,",3,task,Assess
+ES2005d,D,168.23,169.14,0.91,ES2005d.D.dialog-act.dharshi.17,D,D,1.26,1.4,False,False,0.0,[],False," that we need to incorporate,",5,task,Inform
+ES2005d,C,168.28,169.33,1.05,ES2005d.C.dialog-act.dharshi.32,,,,,,,,,False," Okay, brilliant.",2,task,Assess
+ES2005d,D,169.14,170.4,1.26,ES2005d.D.dialog-act.dharshi.18,,,,,,,,,False, it's very simple.,3,task,Inform
+ES2005d,D,170.4,174.73,4.33,ES2005d.D.dialog-act.dharshi.19,D,D,0.0,1.26,False,False,0.0,[],False," If you do need buttons, you can flip it over, and there's some there,",14,task,Inform
+ES2005d,C,174.28,174.69,0.41,ES2005d.C.dialog-act.dharshi.33,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2005d,D,174.73,177.63,2.9,ES2005d.D.dialog-act.dharshi.20,C,D,0.26,0.0,False,False,0.0,[],False, um but mainly it's speech recognition.,6,task,Inform
+ES2005d,C,177.89,181.64,3.75,ES2005d.C.dialog-act.dharshi.34,D,D,2.22,0.26,True,False,0.0,[],True," Okay, so the buttons would be like, you know individual users, or",12,elicit,Elicit-Inform
+ES2005d,D,181.14,181.47,0.33,ES2005d.D.dialog-act.dharshi.21,,,,,,,,,False, Yeah.,1,task,Inform
+ES2005d,C,181.64,181.98,0.34,ES2005d.C.dialog-act.dharshi.35,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,D,182.21,183.86,1.65,ES2005d.D.dialog-act.dharshi.22,,,,,,,,,False, Yeah and,2,minor,Stall
+ES2005d,D,183.86,187.96,4.1,ES2005d.D.dialog-act.dharshi.23,D,C,0.0,2.22,True,False,0.0,[],True, yeah they might project things onto the screen which you can do on there.,14,task,Inform
+ES2005d,C,187.01,187.66,0.65,ES2005d.C.dialog-act.dharshi.36,,,,,,,,,False," Alright, okay.",2,task,Assess
+ES2005d,D,187.96,189.89,1.93,ES2005d.D.dialog-act.dharshi.24,D,D,0.0,0.0,False,False,0.0,[],False, Mm I'm not sure about that.,6,task,Inform
+ES2005d,D,189.89,195.68,5.79,ES2005d.D.dialog-act.dharshi.25,D,D,0.0,0.0,False,False,0.0,[],False, Um and this one is the one w more like the one w that we looked at earlier.,18,task,Inform
+ES2005d,C,195.22,195.58,0.36,ES2005d.C.dialog-act.dharshi.37,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2005d,D,195.68,198.35,2.67,ES2005d.D.dialog-act.dharshi.26,C,D,1.707,0.0,False,False,0.0,[],False," Yeah, you guys can have a look at that if you want.",12,task,Suggest
+ES2005d,C,197.11,199.552,2.442,ES2005d.C.dialog-act.dharshi.38,,,,,,,,,False, That's groovy.,2,task,Assess
+ES2005d,B,197.8,198.768,0.968,ES2005d.B.dialog-act.dharshi.7,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,A,198.252,199.92,1.668,ES2005d.A.dialog-act.dharshi.17,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,200.057,203.25,3.193,ES2005d.C.dialog-act.dharshi.39,B,D,-3.04,1.707,True,True,1.838,['ES2005d.B.dialog-act.dharshi.8'],True," Well I like the feel of it, I like the feel of it.",13,task,Assess
+ES2005d,B,200.21,202.048,1.838,ES2005d.B.dialog-act.dharshi.8,D,C,4.122,-3.04,True,False,0.0,[],False, Uh can I have,4,other,Other
+ES2005d,D,201.99,204.91,2.92,ES2005d.D.dialog-act.dharshi.27,,,,,,,,,False," Yeah, sure.",2,task,Assess
+ES2005d,D,204.91,206.17,1.26,ES2005d.D.dialog-act.dharshi.28,,,,,,,,,False, Um that one is,4,minor,Fragment
+ES2005d,B,206.1,207.344,1.244,ES2005d.B.dialog-act.dharshi.9,,,,,,,,,False, Oh sorry s,3,other,Be-Positive
+ES2005d,D,206.17,207.84,1.67,ES2005d.D.dialog-act.dharshi.29,D,B,1.96,4.122,True,False,0.0,[],True," Oh no, it's delicate.",4,task,Inform
+ES2005d,C,206.76,209.44,2.68,ES2005d.C.dialog-act.dharshi.40,,,,,,,,,False, At Oh dear.,3,task,Assess
+ES2005d,A,207.812,210.988,3.176,ES2005d.A.dialog-act.dharshi.18,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,208.071,208.947,0.876,ES2005d.B.dialog-act.dharshi.10,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,209.8,211.77,1.97,ES2005d.D.dialog-act.dharshi.30,D,D,0.83,1.96,False,False,0.0,[],False, That's that's already got its stand that one.,8,task,Inform
+ES2005d,D,211.77,212.6,0.83,ES2005d.D.dialog-act.dharshi.31,,,,,,,,,False, That's it stand.,3,task,Inform
+ES2005d,C,212.54,213.14,0.6,ES2005d.C.dialog-act.dharshi.41,,,,,,,,,False," Alright, okay.",2,task,Assess
+ES2005d,D,212.6,214.94,2.34,ES2005d.D.dialog-act.dharshi.32,D,D,0.0,0.83,False,False,0.0,[],False," It does also lie flat,",5,task,Inform
+ES2005d,D,214.94,219.61,4.67,ES2005d.D.dialog-act.dharshi.33,D,D,0.0,0.0,False,False,0.0,[],False, but that's the that yellow stand there represents the the charging stand.,12,task,Inform
+ES2005d,C,219.33,220.3,0.97,ES2005d.C.dialog-act.dharshi.42,,,,,,,,,False," Okay, brilliant mm.",3,task,Assess
+ES2005d,D,219.61,223.39,3.78,ES2005d.D.dialog-act.dharshi.34,C,D,0.17,0.0,False,False,0.0,[],False, Um the black on the back is the slogan.,9,task,Inform
+ES2005d,C,223.56,226.81,3.25,ES2005d.C.dialog-act.dharshi.43,D,D,-0.55,0.17,True,True,0.55,['ES2005d.D.dialog-act.dharshi.36'],True," Okay, nice and obvious there,",5,task,Assess
+ES2005d,D,225.01,226.26,1.25,ES2005d.D.dialog-act.dharshi.35,,,,,,,,,False," Uh yeah, that",3,task,Assess
+ES2005d,B,225.797,226.74,0.943,ES2005d.B.dialog-act.dharshi.11,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,226.26,227.76,1.5,ES2005d.D.dialog-act.dharshi.36,C,C,-0.95,-0.55,True,True,0.95,['ES2005d.C.dialog-act.dharshi.44'],False," Well, we did think of that.",6,task,Inform
+ES2005d,C,226.81,228.48,1.67,ES2005d.C.dialog-act.dharshi.44,D,D,-0.04,-0.95,True,True,0.04,['ES2005d.D.dialog-act.dharshi.37'],False," if it's standing up, I guess, yeah.",7,task,Assess
+ES2005d,D,228.44,231.77,3.33,ES2005d.D.dialog-act.dharshi.37,D,C,0.0,-0.04,True,False,0.0,[],False," Yeah, if it's standing up it's it's on there,",9,task,Assess
+ES2005d,D,231.77,238.04,6.27,ES2005d.D.dialog-act.dharshi.38,C,D,-1.45,0.0,False,True,1.45,['ES2005d.C.dialog-act.dharshi.45'],False," but also we're gonna have the company name on the front, which is the little black kind of line in the middle.",22,task,Inform
+ES2005d,C,236.59,239.32,2.73,ES2005d.C.dialog-act.dharshi.45,D,D,-1.28,-1.45,True,True,1.28,['ES2005d.D.dialog-act.dharshi.39'],False," Oh right, okay, brilliant. Like that from its centre.",9,task,Assess
+ES2005d,D,238.04,243.51,5.47,ES2005d.D.dialog-act.dharshi.39,D,C,0.0,-1.28,True,False,0.0,[],False, So um and that's the um transmit the L_E_D_ thing.,10,task,Inform
+ES2005d,D,243.51,249.41,5.9,ES2005d.D.dialog-act.dharshi.40,D,D,0.0,0.0,False,False,0.0,[],False, These are the s two scroll ones which we thought could be channel up and down and volume up and down.,21,task,Inform
+ES2005d,D,249.41,256.02,6.61,ES2005d.D.dialog-act.dharshi.41,C,D,-0.58,0.0,False,True,0.58,['ES2005d.C.dialog-act.dharshi.46'],False," We n were weren't sure about putting them there, because um i it's it kind of could get bashed.",19,task,Inform
+ES2005d,C,255.44,257.552,2.112,ES2005d.C.dialog-act.dharshi.46,D,D,0.418,-0.58,True,False,0.0,[],False," Where you're, yeah, uh were you're holding it kind of",10,task,Assess
+ES2005d,D,257.46,257.97,0.51,ES2005d.D.dialog-act.dharshi.42,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,D,257.97,258.94,0.97,ES2005d.D.dialog-act.dharshi.43,D,C,0.0,0.418,True,False,0.0,[],True," Well, if you hold it,",5,task,Inform
+ES2005d,D,258.94,260.25,1.31,ES2005d.D.dialog-act.dharshi.44,D,D,0.21,0.0,False,False,0.0,[],False," you can you all can hold it,",7,task,Suggest
+ES2005d,D,260.25,260.46,0.21,ES2005d.D.dialog-act.dharshi.45,,,,,,,,,False, is,1,minor,Stall
+ES2005d,D,260.46,262.88,2.42,ES2005d.D.dialog-act.dharshi.46,D,D,0.0,0.21,False,False,0.0,[],False," it does actually feel quite ergonomic,",6,task,Inform
+ES2005d,C,262.52,262.78,0.26,ES2005d.C.dialog-act.dharshi.47,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,D,262.88,266.22,3.34,ES2005d.D.dialog-act.dharshi.47,D,D,0.0,0.0,False,False,0.0,[],False, if you've got small hands.,5,task,Inform
+ES2005d,C,264.07,266.64,2.57,ES2005d.C.dialog-act.dharshi.48,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,B,264.519,265.456,0.937,ES2005d.B.dialog-act.dharshi.12,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,264.64,264.87,0.23,ES2005d.A.dialog-act.dharshi.19,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2005d,D,266.22,269.08,2.86,ES2005d.D.dialog-act.dharshi.48,D,D,0.0,0.0,False,False,0.0,[],False," Um, obviously I don't think that's real sized.",8,task,Inform
+ES2005d,C,266.64,267.04,0.4,ES2005d.C.dialog-act.dharshi.49,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2005d,D,269.08,271.54,2.46,ES2005d.D.dialog-act.dharshi.49,C,D,-1.52,0.0,False,True,1.3,['ES2005d.C.dialog-act.dharshi.51'],False, It would have to be a bit bigger.,8,task,Inform
+ES2005d,C,269.51,270.02,0.51,ES2005d.C.dialog-act.dharshi.50,,,,,,,,,False," Yeah, okay.",2,task,Assess
+ES2005d,C,270.02,271.32,1.3,ES2005d.C.dialog-act.dharshi.51,D,D,1.03,-1.52,True,False,0.0,[],False," Yeah, scale model, yeah.",4,task,Assess
+ES2005d,D,271.54,272.35,0.81,ES2005d.D.dialog-act.dharshi.50,,,,,,,,,False, Okay.,1,minor,Stall
+ES2005d,D,272.35,274.08,1.73,ES2005d.D.dialog-act.dharshi.51,D,C,0.0,1.03,True,False,0.0,[],True," Um that's a speaker at the top,",7,task,Inform
+ES2005d,D,274.08,278.41,4.33,ES2005d.D.dialog-act.dharshi.52,D,D,2.55,0.0,False,False,0.0,[],False, so you can speak into it like a little walkie-talkie as well for speak recognition.,15,task,Inform
+ES2005d,C,278.7,279.01,0.31,ES2005d.C.dialog-act.dharshi.52,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,D,279.36,280.96,1.6,ES2005d.D.dialog-act.dharshi.53,,,,,,,,,False, Um and,2,minor,Stall
+ES2005d,D,280.96,283.5,2.54,ES2005d.D.dialog-act.dharshi.54,D,D,0.0,2.55,False,False,0.0,[],False, um then the buttons.,4,task,Inform
+ES2005d,D,283.5,286.51,3.01,ES2005d.D.dialog-act.dharshi.55,D,D,0.0,0.0,False,False,0.0,[],False," Yeah kind of self-explanatory, just buttons whenever you need them.",10,task,Inform
+ES2005d,D,286.51,287.73,1.22,ES2005d.D.dialog-act.dharshi.56,D,D,0.0,0.0,False,False,0.0,[],False, Tried to keep it simple.,5,task,Inform
+ES2005d,D,287.73,292.19,4.46,ES2005d.D.dialog-act.dharshi.57,D,D,0.73,0.0,False,False,0.0,[],False, Oh that's the charging base prongs at the bottom.,9,task,Inform
+ES2005d,C,290.544,295.42,4.876,ES2005d.C.dialog-act.dharshi.53,,,,,,,,,False," Alright, excellent.",2,task,Assess
+ES2005d,D,292.19,292.92,0.73,ES2005d.D.dialog-act.dharshi.58,,,,,,,,,False, We used those.,3,task,Inform
+ES2005d,D,292.92,300.16,7.24,ES2005d.D.dialog-act.dharshi.59,D,D,0.0,0.73,False,False,0.0,[],False, And um then the big red button in the middle is the on and off one.,16,task,Inform
+ES2005d,D,300.16,302.44,2.28,ES2005d.D.dialog-act.dharshi.60,D,D,0.0,0.0,False,False,0.0,[],False," It's not in the traditional place,",6,task,Inform
+ES2005d,C,300.22,300.78,0.56,ES2005d.C.dialog-act.dharshi.54,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,C,302.05,303.07,1.02,ES2005d.C.dialog-act.dharshi.55,,,,,,,,,False, No.,1,task,Assess
+ES2005d,D,302.44,305.23,2.79,ES2005d.D.dialog-act.dharshi.61,C,D,-2.16,0.0,False,True,1.58,['ES2005d.C.dialog-act.dharshi.56'],False, but um it's quite an obvious place.,7,task,Inform
+ES2005d,C,303.07,304.65,1.58,ES2005d.C.dialog-act.dharshi.56,D,D,2.71,-2.16,True,False,0.0,[],False," It's out of the way as well, I suppose, so.",10,task,Assess
+ES2005d,C,305.81,306.19,0.38,ES2005d.C.dialog-act.dharshi.57,,,,,,,,,False, Excellent.,1,task,Assess
+ES2005d,D,307.36,308.82,1.46,ES2005d.D.dialog-act.dharshi.62,D,C,0.0,2.71,True,False,0.0,[],True, So there we go,4,other,Other
+ES2005d,D,308.82,314.63,5.81,ES2005d.D.dialog-act.dharshi.63,A,D,0.44,0.0,False,False,0.0,[],False, and and um we have the banana-based one too.,9,task,Inform
+ES2005d,A,312.74,313.63,0.89,ES2005d.A.dialog-act.dharshi.20,,,,,,,,,False," Oh yeah, yeah.",3,task,Assess
+ES2005d,C,314.24,316.272,2.032,ES2005d.C.dialog-act.dharshi.58,,,,,,,,,False, Yep.,1,minor,Backchannel
+ES2005d,A,315.07,318.14,3.07,ES2005d.A.dialog-act.dharshi.21,A,D,1.08,0.44,True,False,0.0,[],True," This one is uh, I suppose for the younger audiences.",10,task,Inform
+ES2005d,D,318.128,318.896,0.768,ES2005d.D.dialog-act.dharshi.64,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,318.84,320.2,1.36,ES2005d.C.dialog-act.dharshi.59,,,,,,,,,False, Okay,1,task,Assess
+ES2005d,A,319.22,320.941,1.721,ES2005d.A.dialog-act.dharshi.22,C,A,-0.741,1.08,False,True,0.741,['ES2005d.C.dialog-act.dharshi.60'],False, A a more friendly type of,6,task,Inform
+ES2005d,C,320.2,322.27,2.07,ES2005d.C.dialog-act.dharshi.60,A,A,0.57,-0.741,True,False,0.0,[],False,", so so Barney the banana.",5,task,Assess
+ES2005d,A,322.05,322.84,0.79,ES2005d.A.dialog-act.dharshi.23,,,,,,,,,False," Right, right.",2,task,Assess
+ES2005d,A,322.84,327.54,4.7,ES2005d.A.dialog-act.dharshi.24,C,C,-0.89,0.57,True,True,0.89,['ES2005d.C.dialog-act.dharshi.61'],True, It's to uh induce more television watching I suppose or,10,task,Inform
+ES2005d,C,326.65,328.16,1.51,ES2005d.C.dialog-act.dharshi.61,A,A,1.74,-0.89,True,False,0.0,[],False," Ah excellent, just what we need.",6,task,Assess
+ES2005d,D,328.35,328.95,0.6,ES2005d.D.dialog-act.dharshi.65,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2005d,A,328.36,328.71,0.35,ES2005d.A.dialog-act.dharshi.25,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2005d,A,329.9,330.55,0.65,ES2005d.A.dialog-act.dharshi.26,C,C,-0.118,1.74,True,True,0.118,['ES2005d.C.dialog-act.dharshi.62'],True, Say it for the camera.,5,other,Be-Positive
+ES2005d,C,330.432,335.505,5.073,ES2005d.C.dialog-act.dharshi.62,C,A,4.305,-0.118,True,False,0.0,[],False, Lo Sort of Loch Ness banana.,6,task,Assess
+ES2005d,D,330.56,331.568,1.008,ES2005d.D.dialog-act.dharshi.66,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,331.81,332.3,0.49,ES2005d.B.dialog-act.dharshi.13,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,D,335.11,336.53,1.42,ES2005d.D.dialog-act.dharshi.67,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,A,335.9,336.97,1.07,ES2005d.A.dialog-act.dharshi.27,,,,,,,,,False," Right, right.",2,task,Assess
+ES2005d,C,337.6,339.81,2.21,ES2005d.C.dialog-act.dharshi.63,,,,,,,,,False, Cool yeah.,2,task,Assess
+ES2005d,C,339.81,342.86,3.05,ES2005d.C.dialog-act.dharshi.64,D,C,-0.255,4.305,False,True,0.255,['ES2005d.D.dialog-act.dharshi.69'],False," Well, nice to have uh options at least.",8,task,Assess
+ES2005d,D,341.53,341.71,0.18,ES2005d.D.dialog-act.dharshi.68,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,A,341.79,342.736,0.946,ES2005d.A.dialog-act.dharshi.28,,,,,,,,,False, Yep.,1,task,Assess
+ES2005d,D,342.605,348.608,6.003,ES2005d.D.dialog-act.dharshi.69,C,C,-1.488,-0.255,True,True,1.488,"['ES2005d.C.dialog-act.dharshi.66', 'ES2005d.A.dialog-act.dharshi.32']",False, So are there any um improvements or issues or,9,elicit,Elicit-Assessment
+ES2005d,C,342.86,343.875,1.015,ES2005d.C.dialog-act.dharshi.65,,,,,,,,,False, 'Kay and,2,minor,Fragment
+ES2005d,A,346.52,347.22,0.7,ES2005d.A.dialog-act.dharshi.29,,,,,,,,,False, It won't stand.,3,task,Inform
+ES2005d,C,347.12,349.54,2.42,ES2005d.C.dialog-act.dharshi.66,A,D,-1.038,-1.488,True,True,1.038,['ES2005d.A.dialog-act.dharshi.32'],False," Oh there are issues, oh there are issues.",8,task,Assess
+ES2005d,A,348.502,350.53,2.028,ES2005d.A.dialog-act.dharshi.32,C,C,1.81,-1.038,True,False,0.0,[],False," Just let it lie down,",5,task,Suggest
+ES2005d,A,350.53,351.639,1.109,ES2005d.A.dialog-act.dharshi.33,,,,,,,,,False, it wont stand.,3,task,Inform
+ES2005d,D,351.216,352.032,0.816,ES2005d.D.dialog-act.dharshi.70,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,352.34,356.89,4.55,ES2005d.C.dialog-act.dharshi.67,C,A,1.48,1.81,True,False,0.0,[],True, Um main problem that we have unfortunately being finance.,9,task,Inform
+ES2005d,A,355.309,355.824,0.515,ES2005d.A.dialog-act.dharshi.31,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,357.25,358.31,1.06,ES2005d.D.dialog-act.dharshi.71,,,,,,,,,False, Oh.,1,other,Other
+ES2005d,C,358.37,362.43,4.06,ES2005d.C.dialog-act.dharshi.68,C,C,4.1,1.48,False,False,0.0,[],False," Uh, let's just enter in the um evaluation criteria.",9,task,Inform
+ES2005d,A,361.873,362.67,0.797,ES2005d.A.dialog-act.dharshi.34,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,362.43,365.46,3.03,ES2005d.C.dialog-act.dharshi.69,,,,,,,,,False, Um unfortunately,2,task,Inform
+ES2005d,C,366.53,374.68,8.15,ES2005d.C.dialog-act.dharshi.70,A,C,2.57,4.1,False,False,0.0,[],False," the unit we are currently going to produce minus the extra scroll buttons, uh it's gonna cost us fourteen point six Euros.",22,task,Inform
+ES2005d,B,372.26,372.5,0.24,ES2005d.B.dialog-act.dharshi.14,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2005d,D,375.16,375.65,0.49,ES2005d.D.dialog-act.dharshi.72,,,,,,,,,False, Oh.,1,other,Other
+ES2005d,C,376.67,377.95,1.28,ES2005d.C.dialog-act.dharshi.71,,,,,,,,,False, So we have to,4,minor,Fragment
+ES2005d,A,377.25,379.855,2.605,ES2005d.A.dialog-act.dharshi.35,C,C,-0.225,2.57,True,True,0.225,['ES2005d.C.dialog-act.dharshi.73'],True, What's on the uh on the left?,7,elicit,Elicit-Inform
+ES2005d,C,377.95,379.63,1.68,ES2005d.C.dialog-act.dharshi.72,,,,,,,,,False," rea Sorry,",2,other,Be-Positive
+ES2005d,C,379.63,382.23,2.6,ES2005d.C.dialog-act.dharshi.73,C,A,7.02,-0.225,True,False,0.0,[],False, I've accidentally highlighted somehow,4,task,Inform
+ES2005d,C,382.23,384.63,2.4,ES2005d.C.dialog-act.dharshi.74,,,,,,,,,False, Um.,1,minor,Stall
+ES2005d,C,384.63,385.05,0.42,ES2005d.C.dialog-act.dharshi.75,,,,,,,,,False, There we go.,3,task,Assess
+ES2005d,A,386.05,386.44,0.39,ES2005d.A.dialog-act.dharshi.36,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,C,388.63,389.25,0.62,ES2005d.C.dialog-act.dharshi.76,,,,,,,,,False," Oh god,",2,other,Other
+ES2005d,D,389.02,389.21,0.19,ES2005d.D.dialog-act.dharshi.73,,,,,,,,,False, Ooh.,1,other,Other
+ES2005d,C,389.25,390.54,1.29,ES2005d.C.dialog-act.dharshi.77,C,C,7.22,7.02,False,False,0.0,[],False, why is it doing that?,5,elicit,Elicit-Inform
+ES2005d,C,392.66,397.76,5.1,ES2005d.C.dialog-act.dharshi.78,,,,,,,,,False, There we go.,3,other,Other
+ES2005d,C,397.76,411.51,13.75,ES2005d.C.dialog-act.dharshi.79,D,C,1.99,7.22,False,False,0.0,[],False," So basically, um in order to save our two Euros um I was thinking that we could have essentially the same shape, but just have it flattened.",27,task,Suggest
+ES2005d,D,412.31,413.5,1.19,ES2005d.D.dialog-act.dharshi.74,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,D,413.5,415.26,1.76,ES2005d.D.dialog-act.dharshi.75,C,C,0.37,1.99,True,False,0.0,[],True, More like a traditional remote control.,6,task,Assess
+ES2005d,C,413.78,414.02,0.24,ES2005d.C.dialog-act.dharshi.80,,,,,,,,,False, Um.,1,minor,Stall
+ES2005d,C,415.11,415.63,0.52,ES2005d.C.dialog-act.dharshi.81,,,,,,,,,False," Yeah,",1,task,Assess
+ES2005d,C,415.63,418.25,2.62,ES2005d.C.dialog-act.dharshi.82,C,D,0.0,0.37,True,False,0.0,[],True," I mean it's already got a kind of cool shape,",10,task,Assess
+ES2005d,D,417.82,418.15,0.33,ES2005d.D.dialog-act.dharshi.76,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,C,418.25,421.71,3.46,ES2005d.C.dialog-act.dharshi.83,C,C,2.81,0.0,False,False,0.0,[],False, so but it wouldn't have to be curved sort of in and out.,13,task,Suggest
+ES2005d,D,419.97,420.99,1.02,ES2005d.D.dialog-act.dharshi.77,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,C,421.71,424.52,2.81,ES2005d.C.dialog-act.dharshi.85,,,,,,,,,False, And by doing so,4,minor,Fragment
+ES2005d,C,424.52,425.29,0.77,ES2005d.C.dialog-act.dharshi.86,C,C,0.0,2.81,False,False,0.0,[],False," Oh no, hold on.",4,other,Other
+ES2005d,C,425.29,426.63,1.34,ES2005d.C.dialog-act.dharshi.87,C,C,1.66,0.0,False,False,0.0,[],False, Doesn't save us quite as much.,6,task,Inform
+ES2005d,C,428.29,429.85,1.56,ES2005d.C.dialog-act.dharshi.84,A,C,0.25,1.66,False,False,0.0,[],False, I don't know what's going on with this again.,9,task,Inform
+ES2005d,A,430.1,432.86,2.76,ES2005d.A.dialog-act.dharshi.37,B,C,4.52,0.25,True,False,0.0,[],True, W why is the uh double curved two of them?,10,elicit,Elicit-Inform
+ES2005d,C,434.9,436.0,1.1,ES2005d.C.dialog-act.dharshi.88,,,,,,,,,False," Oh, good point.",3,task,Assess
+ES2005d,B,437.38,441.13,3.75,ES2005d.B.dialog-act.dharshi.15,B,A,2.01,4.52,True,False,0.0,[],True, And double curve on both sides?,6,task,Inform
+ES2005d,C,439.0,439.48,0.48,ES2005d.C.dialog-act.dharshi.89,,,,,,,,,False, Um.,1,minor,Stall
+ES2005d,B,442.29,443.14,0.85,ES2005d.B.dialog-act.dharshi.16,,,,,,,,,False, Curve.,1,minor,Stall
+ES2005d,B,443.14,444.46,1.32,ES2005d.B.dialog-act.dharshi.17,C,B,-0.73,2.01,False,True,0.73,['ES2005d.C.dialog-act.dharshi.90'],False," Yeah, this is double-curve,",4,task,Inform
+ES2005d,C,443.73,446.7,2.97,ES2005d.C.dialog-act.dharshi.90,B,B,-0.02,-0.73,True,True,0.02,['ES2005d.B.dialog-act.dharshi.21'],False, That's sort of curve in and out.,7,task,Assess
+ES2005d,B,444.46,445.64,1.18,ES2005d.B.dialog-act.dharshi.18,,,,,,,,,False, no?,1,elicit,Elicit-Inform
+ES2005d,B,445.64,446.5,0.86,ES2005d.B.dialog-act.dharshi.19,,,,,,,,,False, This is double-curve.,3,task,Inform
+ES2005d,A,445.68,445.97,0.29,ES2005d.A.dialog-act.dharshi.38,,,,,,,,,False, Is i,2,minor,Fragment
+ES2005d,B,446.5,446.68,0.18,ES2005d.B.dialog-act.dharshi.20,,,,,,,,,False, It,1,minor,Fragment
+ES2005d,B,446.68,447.88,1.2,ES2005d.B.dialog-act.dharshi.21,B,C,1.7,-0.02,True,False,0.0,[],False, This one is single curve.,5,task,Inform
+ES2005d,A,449.42,450.39,0.97,ES2005d.A.dialog-act.dharshi.39,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2005d,B,449.58,450.59,1.01,ES2005d.B.dialog-act.dharshi.22,B,B,0.0,1.7,False,False,0.0,[],False," 'Cause this is single curve,",5,task,Inform
+ES2005d,B,450.59,452.02,1.43,ES2005d.B.dialog-act.dharshi.23,C,B,2.12,0.0,False,False,0.0,[],False, this is curved on both sides.,6,task,Inform
+ES2005d,B,453.17,453.93,0.76,ES2005d.B.dialog-act.dharshi.24,,,,,,,,,False, So double-curve.,2,task,Inform
+ES2005d,C,453.91,454.14,0.23,ES2005d.C.dialog-act.dharshi.91,,,,,,,,,False," No,",1,task,Assess
+ES2005d,C,454.14,457.96,3.82,ES2005d.C.dialog-act.dharshi.92,D,B,-1.19,2.12,True,True,0.94,['ES2005d.D.dialog-act.dharshi.78'],True, I think it means double curved as in um,9,task,Inform
+ES2005d,D,456.77,457.71,0.94,ES2005d.D.dialog-act.dharshi.78,C,C,0.25,-1.19,True,False,0.0,[],False, Like an S_ shape.,4,task,Inform
+ES2005d,C,457.96,467.18,9.22,ES2005d.C.dialog-act.dharshi.93,C,D,0.0,0.25,True,False,0.0,[],True," like uh a single curve on that bottom half, and the double curved would be if it was that similar curve upward.",22,task,Inform
+ES2005d,D,466.51,466.98,0.47,ES2005d.D.dialog-act.dharshi.79,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2005d,C,467.18,468.3,1.12,ES2005d.C.dialog-act.dharshi.94,B,C,0.27,0.0,False,False,0.0,[],False," Okay, I might be wrong though.",6,task,Inform
+ES2005d,B,468.57,473.01,4.44,ES2005d.B.dialog-act.dharshi.25,C,C,-1.52,0.27,True,True,1.52,['ES2005d.C.dialog-act.dharshi.95'],True," Like this, one curve on this side, one curve on that side.",12,elicit,Elicit-Inform
+ES2005d,C,471.49,473.96,2.47,ES2005d.C.dialog-act.dharshi.95,C,B,1.1,-1.52,True,False,0.0,[],False," I don't think that counts as a curve, I think that's just a shape.",14,task,Inform
+ES2005d,B,473.01,474.97,1.96,ES2005d.B.dialog-act.dharshi.26,,,,,,,,,False, Hmm. Hmm.,2,minor,Backchannel
+ES2005d,D,474.73,475.09,0.36,ES2005d.D.dialog-act.dharshi.80,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2005d,A,474.922,476.205,1.283,ES2005d.A.dialog-act.dharshi.40,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,475.06,477.95,2.89,ES2005d.C.dialog-act.dharshi.96,A,C,0.738,1.1,False,False,0.0,[],False, A curvature is like the this case.,7,task,Inform
+ES2005d,B,477.12,478.01,0.89,ES2005d.B.dialog-act.dharshi.27,,,,,,,,,False, Maybe.,1,minor,Fragment
+ES2005d,A,478.688,482.01,3.322,ES2005d.A.dialog-act.dharshi.41,A,C,0.0,0.738,True,False,0.0,[],True," 'Cause that's the uh the biggest expense there, right.",9,elicit,Elicit-Inform
+ES2005d,D,478.93,479.45,0.52,ES2005d.D.dialog-act.dharshi.81,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2005d,C,481.63,482.1,0.47,ES2005d.C.dialog-act.dharshi.97,,,,,,,,,False," Yeah,",1,task,Inform
+ES2005d,A,482.01,483.116,1.106,ES2005d.A.dialog-act.dharshi.42,C,A,-1.016,0.0,False,True,1.016,['ES2005d.C.dialog-act.dharshi.98'],False, got two of them,4,task,Inform
+ES2005d,C,482.1,484.07,1.97,ES2005d.C.dialog-act.dharshi.98,C,A,0.0,-1.016,True,False,0.0,[],False," and why why I've got it two, I don't know,",10,task,Inform
+ES2005d,C,484.07,486.34,2.27,ES2005d.C.dialog-act.dharshi.99,A,C,1.91,0.0,False,False,0.0,[],False, I can't seem to select any more however.,8,task,Inform
+ES2005d,A,486.98,488.25,1.27,ES2005d.A.dialog-act.dharshi.43,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,A,488.25,489.78,1.53,ES2005d.A.dialog-act.dharshi.44,A,C,6.66,1.91,True,False,0.0,[],True, Well we can work around that,6,task,Suggest
+ES2005d,C,489.552,490.256,0.704,ES2005d.C.dialog-act.dharshi.100,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,489.78,490.782,1.002,ES2005d.A.dialog-act.dharshi.45,,,,,,,,,False, um,1,minor,Stall
+ES2005d,D,490.2,490.87,0.67,ES2005d.D.dialog-act.dharshi.82,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,C,491.4,492.61,1.21,ES2005d.C.dialog-act.dharshi.101,,,,,,,,,False, Right. No.,2,other,Other
+ES2005d,A,492.176,493.63,1.454,ES2005d.A.dialog-act.dharshi.46,,,,,,,,,False, Cut things out.,3,task,Suggest
+ES2005d,A,496.44,497.4,0.96,ES2005d.A.dialog-act.dharshi.47,C,A,1.04,6.66,False,False,0.0,[],False, But you think it should be one.,7,elicit,Elicit-Inform
+ES2005d,C,498.44,499.58,1.14,ES2005d.C.dialog-act.dharshi.102,C,A,0.0,1.04,True,False,0.0,[],True," It's meant to be one, yeah,",6,task,Inform
+ES2005d,C,499.58,500.94,1.36,ES2005d.C.dialog-act.dharshi.103,C,C,1.16,0.0,False,False,0.0,[],False," I don't know why I put two in there,",9,task,Inform
+ES2005d,A,500.89,501.16,0.27,ES2005d.A.dialog-act.dharshi.48,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2005d,C,500.94,502.1,1.16,ES2005d.C.dialog-act.dharshi.104,,,,,,,,,False, but um,2,minor,Stall
+ES2005d,C,502.1,503.0,0.9,ES2005d.C.dialog-act.dharshi.105,C,C,0.0,1.16,False,False,0.0,[],False," Hold on till I find it,",6,task,Suggest
+ES2005d,C,503.0,505.1,2.1,ES2005d.C.dialog-act.dharshi.106,C,C,3.45,0.0,False,False,0.0,[],False, I think this shift button might be stuck again.,9,task,Inform
+ES2005d,C,508.55,514.47,5.92,ES2005d.C.dialog-act.dharshi.107,C,C,0.0,3.45,False,False,0.0,[],False, No maybe the shift button's stuck in.,7,task,Inform
+ES2005d,A,512.84,513.29,0.45,ES2005d.A.dialog-act.dharshi.49,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2005d,C,514.47,517.97,3.5,ES2005d.C.dialog-act.dharshi.108,C,C,2.55,0.0,False,False,0.0,[],False," Um okay, so that would take away three, which would give us",12,task,Inform
+ES2005d,B,514.71,515.48,0.77,ES2005d.B.dialog-act.dharshi.28,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2005d,B,515.48,516.08,0.6,ES2005d.B.dialog-act.dharshi.29,,,,,,,,,False, Should,1,minor,Fragment
+ES2005d,A,516.902,517.948,1.046,ES2005d.A.dialog-act.dharshi.50,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,518.77,519.52,0.75,ES2005d.C.dialog-act.dharshi.109,,,,,,,,,False, Oh that's fine.,3,task,Assess
+ES2005d,A,519.91,521.216,1.306,ES2005d.A.dialog-act.dharshi.51,,,,,,,,,False," Yeah, so we're",3,minor,Fragment
+ES2005d,C,520.52,522.19,1.67,ES2005d.C.dialog-act.dharshi.110,D,C,3.69,2.55,False,False,0.0,[],False, Eleven uh eleven Euros sixty.,5,task,Inform
+ES2005d,D,520.73,521.13,0.4,ES2005d.D.dialog-act.dharshi.83,,,,,,,,,False, Cool.,1,task,Assess
+ES2005d,D,522.56,522.98,0.42,ES2005d.D.dialog-act.dharshi.84,,,,,,,,,False, Cool.,1,task,Assess
+ES2005d,C,523.68,526.758,3.078,ES2005d.C.dialog-act.dharshi.111,,,,,,,,,False, Um,1,minor,Stall
+ES2005d,D,525.88,527.61,1.73,ES2005d.D.dialog-act.dharshi.85,C,C,-0.01,3.69,True,True,0.01,['ES2005d.C.dialog-act.dharshi.112'],True, So we could even add something.,6,task,Suggest
+ES2005d,C,527.6,531.9,4.3,ES2005d.C.dialog-act.dharshi.112,A,D,-2.37,-0.01,True,True,1.62,['ES2005d.A.dialog-act.dharshi.52'],False," We cou Oh not quite, have the scroll-wheel, unfortunately.",9,task,Inform
+ES2005d,A,529.53,531.15,1.62,ES2005d.A.dialog-act.dharshi.52,A,C,9.0,-2.37,True,False,0.0,[],False, We should fire the accountants.,5,other,Be-Positive
+ES2005d,C,531.9,532.11,0.21,ES2005d.C.dialog-act.dharshi.113,,,,,,,,,False, What?,1,other,Comment-About-Understanding
+ES2005d,A,532.85,535.29,2.44,ES2005d.A.dialog-act.dharshi.53,,,,,,,,,False, Fire the accountants.,3,other,Be-Positive
+ES2005d,C,533.552,538.528,4.976,ES2005d.C.dialog-act.dharshi.114,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,534.32,534.688,0.368,ES2005d.D.dialog-act.dharshi.86,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,540.15,541.37,1.22,ES2005d.A.dialog-act.dharshi.54,A,A,2.45,9.0,False,False,0.0,[],False," Ah yeah, we could add things.",6,task,Suggest
+ES2005d,C,542.512,543.696,1.184,ES2005d.C.dialog-act.dharshi.115,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,543.82,548.65,4.83,ES2005d.A.dialog-act.dharshi.55,C,A,0.54,2.45,False,False,0.0,[],False," Maybe if you click back in that bottom right cell, where you're starting from, and then use the arrow keys.",20,task,Suggest
+ES2005d,C,547.2,547.55,0.35,ES2005d.C.dialog-act.dharshi.116,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,A,548.65,549.97,1.32,ES2005d.A.dialog-act.dharshi.56,,,,,,,,,False, Does that work?,3,elicit,Elicit-Inform
+ES2005d,C,549.19,551.83,2.64,ES2005d.C.dialog-act.dharshi.117,B,A,-0.66,0.54,True,True,0.66,['ES2005d.B.dialog-act.dharshi.30'],True," Yeah, I know, that just extends it as well.",9,task,Inform
+ES2005d,A,549.97,551.51,1.54,ES2005d.A.dialog-act.dharshi.57,,,,,,,,,False, No mm.,2,task,Assess
+ES2005d,B,551.17,554.01,2.84,ES2005d.B.dialog-act.dharshi.30,B,C,0.0,-0.66,True,False,0.0,[],False, Uh you can do one thing.,6,task,Suggest
+ES2005d,C,551.83,552.36,0.53,ES2005d.C.dialog-act.dharshi.118,,,,,,,,,False, I don't know.,3,task,Assess
+ES2005d,B,554.01,555.7,1.69,ES2005d.B.dialog-act.dharshi.31,B,B,1.07,0.0,False,False,0.0,[],False, You just select one box outsi,6,task,Suggest
+ES2005d,B,555.7,556.77,1.07,ES2005d.B.dialog-act.dharshi.32,,,,,,,,,False," yeah, this box.",3,task,Assess
+ES2005d,B,556.77,558.72,1.95,ES2005d.B.dialog-act.dharshi.33,C,B,2.1,1.07,False,False,0.0,[],False, Then move it with the help of this,8,task,Suggest
+ES2005d,B,558.72,561.58,2.86,ES2005d.B.dialog-act.dharshi.34,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,C,560.82,563.56,2.74,ES2005d.C.dialog-act.dharshi.119,B,B,-0.25,2.1,True,True,0.25,['ES2005d.B.dialog-act.dharshi.36'],True," It One of the buttons is sticking, I don't know.",10,task,Inform
+ES2005d,B,561.58,563.31,1.73,ES2005d.B.dialog-act.dharshi.35,,,,,,,,,False, Just uh just uh,4,minor,Stall
+ES2005d,B,563.31,564.45,1.14,ES2005d.B.dialog-act.dharshi.36,B,C,3.31,-0.25,True,False,0.0,[],False," Okay, just a minute.",4,other,Other
+ES2005d,B,567.01,567.76,0.75,ES2005d.B.dialog-act.dharshi.37,,,,,,,,,False, Okay.,1,minor,Stall
+ES2005d,B,567.76,570.83,3.07,ES2005d.B.dialog-act.dharshi.38,C,B,0.78,3.31,False,False,0.0,[],False," No input, like this.",4,task,Suggest
+ES2005d,B,570.83,571.58,0.75,ES2005d.B.dialog-act.dharshi.39,,,,,,,,,False, Shift.,1,task,Inform
+ES2005d,B,571.58,573.33,1.75,ES2005d.B.dialog-act.dharshi.40,,,,,,,,,False, No it's not.,3,task,Inform
+ES2005d,C,571.61,573.85,2.24,ES2005d.C.dialog-act.dharshi.120,B,B,-0.52,0.78,True,True,0.52,['ES2005d.B.dialog-act.dharshi.41'],True," No, it's 'cause the uh the shift button's stuck, or something.",11,task,Assess
+ES2005d,B,573.33,575.86,2.53,ES2005d.B.dialog-act.dharshi.41,A,C,-0.02,-0.52,True,True,0.02,['ES2005d.A.dialog-act.dharshi.58'],False," Yeah, it's not working.",4,task,Assess
+ES2005d,A,575.84,577.33,1.49,ES2005d.A.dialog-act.dharshi.58,B,B,-0.3,-0.02,True,True,0.3,['ES2005d.B.dialog-act.dharshi.43'],False, Is it the other shift button maybe?,7,elicit,Elicit-Inform
+ES2005d,B,575.86,577.03,1.17,ES2005d.B.dialog-act.dharshi.42,,,,,,,,,False, Should we ask Meli,4,minor,Stall
+ES2005d,C,576.143,577.861,1.718,ES2005d.C.dialog-act.dharshi.121,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,577.03,582.72,5.69,ES2005d.B.dialog-act.dharshi.43,C,A,-0.71,-0.3,True,True,0.71,['ES2005d.C.dialog-act.dharshi.123'],False, Should we ask our technical expert Melissa?,7,task,Suggest
+ES2005d,C,580.512,582.01,1.498,ES2005d.C.dialog-act.dharshi.122,,,,,,,,,False, No that's fine.,3,task,Assess
+ES2005d,C,582.01,583.97,1.96,ES2005d.C.dialog-act.dharshi.123,A,B,-0.011,-0.71,True,True,0.011,['ES2005d.A.dialog-act.dharshi.59'],False, Um we've worked out what it would be anyway.,9,task,Inform
+ES2005d,A,583.959,586.08,2.121,ES2005d.A.dialog-act.dharshi.59,A,C,0.0,-0.011,True,False,0.0,[],False, Did you try both shift buttons?,6,elicit,Elicit-Inform
+ES2005d,A,586.08,586.94,0.86,ES2005d.A.dialog-act.dharshi.60,C,A,9.12,0.0,False,False,0.0,[],False, It could be the other side.,6,task,Inform
+ES2005d,C,586.29,587.02,0.73,ES2005d.C.dialog-act.dharshi.124,,,,,,,,,False, Yeah.,1,task,Inform
+ES2005d,A,589.04,589.36,0.32,ES2005d.A.dialog-act.dharshi.61,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,589.32,591.77,2.45,ES2005d.C.dialog-act.dharshi.125,,,,,,,,,False, Cancel. Piss off.,3,other,Other
+ES2005d,A,592.65,593.15,0.5,ES2005d.A.dialog-act.dharshi.62,,,,,,,,,False, That's too bad.,3,task,Assess
+ES2005d,C,596.06,597.28,1.22,ES2005d.C.dialog-act.dharshi.126,C,A,2.49,9.12,True,False,0.0,[],True," Oh well, never mind.",4,task,Assess
+ES2005d,C,597.28,597.88,0.6,ES2005d.C.dialog-act.dharshi.127,,,,,,,,,False, Um.,1,minor,Stall
+ES2005d,C,599.77,601.67,1.9,ES2005d.C.dialog-act.dharshi.128,C,C,1.31,2.49,False,False,0.0,[],False," Right, so that's finances",4,task,Inform
+ES2005d,C,601.67,602.98,1.31,ES2005d.C.dialog-act.dharshi.130,,,,,,,,,False, and I dunno what we,5,minor,Stall
+ES2005d,C,602.98,604.55,1.57,ES2005d.C.dialog-act.dharshi.131,D,C,2.29,1.31,False,False,0.0,[],False, what could we reckon we could add?,7,elicit,Elicit-Offer-Or-Suggestion
+ES2005d,C,605.76,606.25,0.49,ES2005d.C.dialog-act.dharshi.129,,,,,,,,,False, Um,1,minor,Stall
+ES2005d,D,606.84,608.68,1.84,ES2005d.D.dialog-act.dharshi.87,C,C,1.54,2.29,True,False,0.0,[],True," Well maybe we could add something,",6,task,Suggest
+ES2005d,D,608.68,610.2,1.52,ES2005d.D.dialog-act.dharshi.88,,,,,,,,,False, but maybe if,3,minor,Fragment
+ES2005d,D,610.2,611.42,1.22,ES2005d.D.dialog-act.dharshi.89,,,,,,,,,False, What do you th,4,minor,Stall
+ES2005d,C,610.22,614.432,4.212,ES2005d.C.dialog-act.dharshi.133,D,D,-3.012,1.54,True,True,2.16,"['ES2005d.D.dialog-act.dharshi.90', 'ES2005d.D.dialog-act.dharshi.91']",True, Well I suppose that's our that's that's our design that we've got. So,13,task,Assess
+ES2005d,D,611.42,613.58,2.16,ES2005d.D.dialog-act.dharshi.90,D,C,0.0,-3.012,True,False,0.0,[],False," We're trying to save money, so.",6,task,Inform
+ES2005d,D,613.58,618.09,4.51,ES2005d.D.dialog-act.dharshi.91,D,D,0.0,0.0,False,False,0.0,[],False," Yeah, if we're happy with the design there's no point in spending money, if we don't have to.",18,task,Assess
+ES2005d,C,618.08,618.56,0.48,ES2005d.C.dialog-act.dharshi.134,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2005d,D,618.09,622.11,4.02,ES2005d.D.dialog-act.dharshi.92,D,D,1.04,0.0,False,False,0.0,[],False," But if there is anything you think we've missed out there, then, you know, feel free to add it.",19,task,Suggest
+ES2005d,D,622.11,623.15,1.04,ES2005d.D.dialog-act.dharshi.93,,,,,,,,,False, Maybe,1,minor,Stall
+ES2005d,D,623.15,628.67,5.52,ES2005d.D.dialog-act.dharshi.94,D,D,0.0,1.04,False,False,0.0,[],False," I mean obviously it would be bigger so there might be more space for the the slogan on the front,",20,task,Inform
+ES2005d,D,628.67,631.58,2.91,ES2005d.D.dialog-act.dharshi.95,C,D,1.64,0.0,False,False,0.0,[],False, because it's not in an ideal place right now.,9,task,Assess
+ES2005d,C,629.08,629.88,0.8,ES2005d.C.dialog-act.dharshi.135,,,,,,,,,False, Yeah yeah.,2,minor,Backchannel
+ES2005d,C,631.73,633.22,1.49,ES2005d.C.dialog-act.dharshi.136,,,,,,,,,False, Well that's that's uh,4,minor,Stall
+ES2005d,C,633.22,635.02,1.8,ES2005d.C.dialog-act.dharshi.137,C,D,0.0,1.64,True,False,0.0,[],True," Okay, so project evaluation.",4,task,Inform
+ES2005d,C,635.02,638.75,3.73,ES2005d.C.dialog-act.dharshi.138,C,C,0.0,0.0,False,False,0.0,[],False, We have under twelve Euros fifty.,6,task,Inform
+ES2005d,C,638.75,640.69,1.94,ES2005d.C.dialog-act.dharshi.139,A,C,3.88,0.0,False,False,0.0,[],False," Project process, how do we think that went?",8,elicit,Elicit-Assessment
+ES2005d,C,642.69,643.3,0.61,ES2005d.C.dialog-act.dharshi.140,,,,,,,,,False, Are we happy?,3,elicit,Elicit-Assessment
+ES2005d,A,643.23,643.54,0.31,ES2005d.A.dialog-act.dharshi.63,,,,,,,,,False, Oh.,1,other,Other
+ES2005d,D,643.83,644.46,0.63,ES2005d.D.dialog-act.dharshi.96,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2005d,A,644.57,646.82,2.25,ES2005d.A.dialog-act.dharshi.64,C,C,11.24,3.88,True,False,0.0,[],True, Yeah I think we have a a winning product.,9,task,Assess
+ES2005d,C,646.944,654.15,7.206,ES2005d.C.dialog-act.dharshi.141,,,,,,,,,False, Okay.,1,minor,Stall
+ES2005d,C,655.04,656.03,0.99,ES2005d.C.dialog-act.dharshi.142,,,,,,,,,False, Evaluation.,1,other,Other
+ES2005d,C,658.06,660.08,2.02,ES2005d.C.dialog-act.dharshi.143,D,A,-0.78,11.24,True,True,0.78,['ES2005d.D.dialog-act.dharshi.97'],True, Oh we've been writing this up for m months.,9,other,Other
+ES2005d,D,659.3,661.23,1.93,ES2005d.D.dialog-act.dharshi.97,C,C,3.08,-0.78,True,False,0.0,[],False, I think it went quite smoothly.,6,task,Assess
+ES2005d,C,664.31,666.78,2.47,ES2005d.C.dialog-act.dharshi.144,D,D,1.05,3.08,True,False,0.0,[],True," Uh room for creativity, were we happy with that?",9,elicit,Elicit-Assessment
+ES2005d,D,667.83,669.74,1.91,ES2005d.D.dialog-act.dharshi.98,C,C,0.22,1.05,True,False,0.0,[],True, W I think we were very creative.,7,task,Assess
+ES2005d,A,669.616,673.325,3.709,ES2005d.A.dialog-act.dharshi.65,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,669.96,671.93,1.97,ES2005d.C.dialog-act.dharshi.145,C,D,13.69,0.22,True,False,0.0,[],True," No, I mea I think it means sort of individually.",10,task,Inform
+ES2005d,D,672.42,673.53,1.11,ES2005d.D.dialog-act.dharshi.99,,,,,,,,,False," Oh right, okay.",3,task,Assess
+ES2005d,C,675.61,677.03,1.42,ES2005d.C.dialog-act.dharshi.146,,,,,,,,,False," Yes, no, maybe?",3,elicit,Elicit-Assessment
+ES2005d,D,676.36,677.79,1.43,ES2005d.D.dialog-act.dharshi.100,,,,,,,,,False, Mm-hmm.,1,task,Assess
+ES2005d,C,677.03,678.6,1.57,ES2005d.C.dialog-act.dharshi.147,,,,,,,,,False, Okay. Groovy.,2,task,Assess
+ES2005d,C,678.6,680.12,1.52,ES2005d.C.dialog-act.dharshi.148,,,,,,,,,False, So uh we're just gonna.,5,minor,Fragment
+ES2005d,C,680.12,681.18,1.06,ES2005d.C.dialog-act.dharshi.149,,,,,,,,,False," Uh yeah, okay.",3,minor,Stall
+ES2005d,C,681.18,682.2,1.02,ES2005d.C.dialog-act.dharshi.150,,,,,,,,,False, Teamwork?,1,elicit,Elicit-Assessment
+ES2005d,C,682.2,682.64,0.44,ES2005d.C.dialog-act.dharshi.153,,,,,,,,,False," Leadership,",1,elicit,Elicit-Assessment
+ES2005d,C,682.64,682.91,0.27,ES2005d.C.dialog-act.dharshi.154,,,,,,,,,False, sorry.,1,other,Be-Positive
+ES2005d,A,684.04,688.403,4.363,ES2005d.A.dialog-act.dharshi.66,,,,,,,,,False, Great leadership.,2,task,Assess
+ES2005d,D,684.09,686.403,2.313,ES2005d.D.dialog-act.dharshi.101,,,,,,,,,False, Excellent leadership.,2,task,Assess
+ES2005d,C,685.62,686.29,0.67,ES2005d.C.dialog-act.dharshi.155,C,C,0.0,13.69,False,False,0.0,[],False, Thank you very much.,4,other,Be-Positive
+ES2005d,B,685.952,686.48,0.528,ES2005d.B.dialog-act.dharshi.44,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,686.29,688.46,2.17,ES2005d.C.dialog-act.dharshi.156,C,C,0.0,0.0,False,False,0.0,[],False, You're all get you're all getting a raise.,8,other,Be-Positive
+ES2005d,C,688.46,691.73,3.27,ES2005d.C.dialog-act.dharshi.158,D,C,-0.46,0.0,False,True,0.46,['ES2005d.D.dialog-act.dharshi.102'],False, Uh teamwork. I thought went well.,6,task,Assess
+ES2005d,A,690.92,691.51,0.59,ES2005d.A.dialog-act.dharshi.67,,,,,,,,,False," Yeah, yeah.",2,task,Assess
+ES2005d,B,691.08,691.33,0.25,ES2005d.B.dialog-act.dharshi.45,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,D,691.27,694.19,2.92,ES2005d.D.dialog-act.dharshi.102,C,C,0.19,-0.46,True,False,0.0,[],False," Yeah, everyone got enough input, I think.",7,task,Assess
+ES2005d,C,691.73,691.92,0.19,ES2005d.C.dialog-act.dharshi.159,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,C,694.38,696.34,1.96,ES2005d.C.dialog-act.dharshi.160,C,D,0.0,0.19,True,False,0.0,[],True," Uh and well means, yeah.",5,task,Inform
+ES2005d,A,696.092,700.016,3.924,ES2005d.A.dialog-act.dharshi.68,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,696.24,697.184,0.944,ES2005d.B.dialog-act.dharshi.47,,,,,,,,,False," Yeah, we",2,minor,Fragment
+ES2005d,C,696.34,699.93,3.59,ES2005d.C.dialog-act.dharshi.161,A,C,3.427,0.0,False,False,0.0,[],False, The technical stuff was brilliant.,5,other,Be-Positive
+ES2005d,B,698.163,698.688,0.525,ES2005d.B.dialog-act.dharshi.46,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,699.93,700.87,0.94,ES2005d.C.dialog-act.dharshi.164,,,,,,,,,False, Let's buy more.,3,other,Be-Positive
+ES2005d,D,700.06,700.45,0.39,ES2005d.D.dialog-act.dharshi.103,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2005d,C,700.87,703.93,3.06,ES2005d.C.dialog-act.dharshi.162,,,,,,,,,False, Uh Right. Um,3,minor,Stall
+ES2005d,B,701.27,701.8,0.53,ES2005d.B.dialog-act.dharshi.48,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2005d,A,703.357,705.47,2.113,ES2005d.A.dialog-act.dharshi.69,C,C,-1.54,3.427,True,True,1.54,['ES2005d.C.dialog-act.dharshi.163'],True, These pens are are neat though.,6,task,Assess
+ES2005d,C,703.93,706.8,2.87,ES2005d.C.dialog-act.dharshi.163,B,A,-1.136,-1.54,True,True,1.136,['ES2005d.B.dialog-act.dharshi.49'],False," I don't know what, new ideas found, means, to be honest.",11,task,Inform
+ES2005d,B,705.664,710.76,5.096,ES2005d.B.dialog-act.dharshi.49,B,C,0.0,-1.136,True,False,0.0,[],False," Yeah, these are new ideas, like glow-in-the-dark or something like that.",11,task,Assess
+ES2005d,B,710.76,712.29,1.53,ES2005d.B.dialog-act.dharshi.52,B,B,0.0,0.0,False,False,0.0,[],False," We discussed all the new ideas,",6,task,Inform
+ES2005d,B,712.29,716.83,4.54,ES2005d.B.dialog-act.dharshi.53,B,B,0.0,0.0,False,False,0.0,[],False," but of course we couldn't reach any proper goals, we couldn't use these,",13,task,Assess
+ES2005d,B,716.83,720.31,3.48,ES2005d.B.dialog-act.dharshi.54,B,B,0.0,0.0,False,False,0.0,[],False, but we h we are using these scroll buttons like this.,11,task,Inform
+ES2005d,D,720.01,720.52,0.51,ES2005d.D.dialog-act.dharshi.104,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,C,720.21,720.5,0.29,ES2005d.C.dialog-act.dharshi.165,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,B,720.31,723.39,3.08,ES2005d.B.dialog-act.dharshi.55,C,B,1.62,0.0,False,False,0.0,[],False," These are new ideas we And new shapes, everything",9,task,Assess
+ES2005d,D,722.78,723.15,0.37,ES2005d.D.dialog-act.dharshi.105,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,C,723.09,725.01,1.92,ES2005d.C.dialog-act.dharshi.166,,,,,,,,,False, Mm 'kay. Groovy.,3,task,Assess
+ES2005d,B,723.39,724.51,1.12,ES2005d.B.dialog-act.dharshi.50,,,,,,,,,False,. At le,2,minor,Fragment
+ES2005d,B,724.51,724.93,0.42,ES2005d.B.dialog-act.dharshi.51,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,C,725.01,728.21,3.2,ES2005d.C.dialog-act.dharshi.167,C,B,0.0,1.62,True,False,0.0,[],True, So just general thumbs up for all of us then.,10,task,Assess
+ES2005d,A,727.457,728.167,0.71,ES2005d.A.dialog-act.dharshi.70,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,727.6,727.71,0.11,ES2005d.B.dialog-act.dharshi.56,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2005d,C,728.21,735.15,6.94,ES2005d.C.dialog-act.dharshi.168,C,C,0.62,0.0,False,False,0.0,[],False, That kind of unfortunately is too quick.,7,task,Assess
+ES2005d,D,731.97,733.42,1.45,ES2005d.D.dialog-act.dharshi.106,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,B,732.11,732.29,0.18,ES2005d.B.dialog-act.dharshi.57,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2005d,A,733.03,733.54,0.51,ES2005d.A.dialog-act.dharshi.71,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,D,733.42,736.09,2.67,ES2005d.D.dialog-act.dharshi.107,,,,,,,,,False, Well um.,2,minor,Stall
+ES2005d,A,734.544,734.896,0.352,ES2005d.A.dialog-act.dharshi.72,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,735.15,735.77,0.62,ES2005d.C.dialog-act.dharshi.169,,,,,,,,,False, Uh.,1,minor,Stall
+ES2005d,C,735.77,739.19,3.42,ES2005d.C.dialog-act.dharshi.170,A,C,-0.75,0.62,False,True,0.75,['ES2005d.A.dialog-act.dharshi.73'],False, I suppose yeah. Um.,4,other,Other
+ES2005d,A,738.44,745.152,6.712,ES2005d.A.dialog-act.dharshi.73,C,C,-3.911,-0.75,True,True,3.911,['ES2005d.C.dialog-act.dharshi.171'],False," Uh so let's talk about our bonuses and the raises we're getting for this, right.",15,task,Suggest
+ES2005d,D,741.056,741.552,0.496,ES2005d.D.dialog-act.dharshi.108,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,741.241,748.36,7.119,ES2005d.C.dialog-act.dharshi.171,C,A,2.03,-3.911,True,False,0.0,[],False," That's it, um I think another couple of days holiday pay might be well in order for all of you.",20,task,Assess
+ES2005d,B,742.272,742.992,0.72,ES2005d.B.dialog-act.dharshi.58,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,745.83,746.1,0.27,ES2005d.D.dialog-act.dharshi.109,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2005d,B,745.84,746.672,0.832,ES2005d.B.dialog-act.dharshi.59,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,747.95,748.89,0.94,ES2005d.A.dialog-act.dharshi.74,,,,,,,,,False," Right, right.",2,task,Assess
+ES2005d,C,748.36,750.39,2.03,ES2005d.C.dialog-act.dharshi.172,,,,,,,,,False, Uh,1,minor,Stall
+ES2005d,C,750.39,753.12,2.73,ES2005d.C.dialog-act.dharshi.173,A,C,-0.4,2.03,False,True,0.4,['ES2005d.A.dialog-act.dharshi.75'],False, Let's see if I can get this bloody thing to work.,11,other,Offer
+ES2005d,A,752.72,755.46,2.74,ES2005d.A.dialog-act.dharshi.75,C,C,2.06,-0.4,True,False,0.0,[],False, Uh maybe we should start cleaning up the clay.,9,task,Suggest
+ES2005d,C,753.12,753.61,0.49,ES2005d.C.dialog-act.dharshi.174,,,,,,,,,False, Whoops.,1,other,Other
+ES2005d,C,755.648,756.91,1.262,ES2005d.C.dialog-act.dharshi.175,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,755.824,756.69,0.866,ES2005d.D.dialog-act.dharshi.110,,,,,,,,,False," Yeah, maybe.",2,task,Assess
+ES2005d,B,756.39,756.768,0.378,ES2005d.B.dialog-act.dharshi.60,,,,,,,,,False, So,1,minor,Fragment
+ES2005d,A,756.779,757.407,0.628,ES2005d.A.dialog-act.dharshi.76,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,757.52,759.43,1.91,ES2005d.C.dialog-act.dharshi.176,C,A,4.21,2.06,True,False,0.0,[],True," Does it go back in, does it?",7,elicit,Elicit-Inform
+ES2005d,C,759.43,760.11,0.68,ES2005d.C.dialog-act.dharshi.177,,,,,,,,,False, Reusable.,1,task,Inform
+ES2005d,A,760.832,762.096,1.264,ES2005d.A.dialog-act.dharshi.77,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,760.844,762.576,1.732,ES2005d.D.dialog-act.dharshi.111,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,763.22,764.42,1.2,ES2005d.A.dialog-act.dharshi.80,,,,,,,,,False, Something we should get.,4,minor,Fragment
+ES2005d,C,763.64,766.53,2.89,ES2005d.C.dialog-act.dharshi.181,B,C,0.58,4.21,False,False,0.0,[],False, I don't know what this is but it's really really annoying.,11,task,Assess
+ES2005d,B,764.63,765.25,0.62,ES2005d.B.dialog-act.dharshi.64,,,,,,,,,False, So,1,minor,Fragment
+ES2005d,B,767.11,770.87,3.76,ES2005d.B.dialog-act.dharshi.65,C,C,-0.21,0.58,True,True,0.21,['ES2005d.C.dialog-act.dharshi.183'],True," Uh Brian, have you have you finished?",7,elicit,Elicit-Inform
+ES2005d,C,768.75,769.12,0.37,ES2005d.C.dialog-act.dharshi.182,,,,,,,,,False, Uh-huh.,1,other,Other
+ES2005d,C,770.66,771.83,1.17,ES2005d.C.dialog-act.dharshi.183,B,B,-0.96,-0.21,True,True,0.96,['ES2005d.B.dialog-act.dharshi.66'],False," Um I have, yes.",4,task,Inform
+ES2005d,B,770.87,772.77,1.9,ES2005d.B.dialog-act.dharshi.66,B,C,1.3,-0.96,True,False,0.0,[],False, Uh mine needs also this.,5,task,Inform
+ES2005d,C,773.84,774.03,0.19,ES2005d.C.dialog-act.dharshi.184,,,,,,,,,False, Huh?,1,other,Comment-About-Understanding
+ES2005d,B,774.07,776.56,2.49,ES2005d.B.dialog-act.dharshi.63,C,B,0.15,1.3,False,False,0.0,[],False, At last mine is also the presentation.,7,task,Inform
+ES2005d,C,776.71,778.48,1.77,ES2005d.C.dialog-act.dharshi.178,D,B,-0.53,0.15,True,True,0.53,['ES2005d.D.dialog-act.dharshi.112'],True," Oh right, okay, you've got more, okay.",7,task,Assess
+ES2005d,B,777.712,779.53,1.818,ES2005d.B.dialog-act.dharshi.67,,,,,,,,,False," Yeah, yeah.",2,task,Assess
+ES2005d,D,777.95,778.87,0.92,ES2005d.D.dialog-act.dharshi.112,C,C,1.08,-0.53,True,False,0.0,[],False," Oh, you got a presentation,",5,task,Assess
+ES2005d,C,778.48,779.95,1.47,ES2005d.C.dialog-act.dharshi.179,,,,,,,,,False, Sorry uh.,2,other,Be-Positive
+ES2005d,D,778.87,779.38,0.51,ES2005d.D.dialog-act.dharshi.113,,,,,,,,,False, sorry.,1,elicit,Elicit-Comment-Understanding
+ES2005d,A,779.54,780.13,0.59,ES2005d.A.dialog-act.dharshi.79,,,,,,,,,False, Oh ok,2,task,Assess
+ES2005d,C,779.95,782.03,2.08,ES2005d.C.dialog-act.dharshi.180,B,D,5.57,1.08,True,False,0.0,[],True, It didn't bother to tell me that on this,9,task,Inform
+ES2005d,B,780.69,780.72,0.03,ES2005d.B.dialog-act.dharshi.61,,,,,,,,,False, S,1,minor,Fragment
+ES2005d,A,781.248,781.856,0.608,ES2005d.A.dialog-act.dharshi.78,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,781.824,782.48,0.656,ES2005d.B.dialog-act.dharshi.62,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,782.88,783.24,0.36,ES2005d.C.dialog-act.dharshi.185,,,,,,,,,False, thing.,1,task,Inform
+ES2005d,C,785.0,785.28,0.28,ES2005d.C.dialog-act.dharshi.186,,,,,,,,,False, Is it?,2,other,Other
+ES2005d,C,786.85,787.18,0.33,ES2005d.C.dialog-act.dharshi.187,,,,,,,,,False, Okay.,1,minor,Stall
+ES2005d,B,787.6,792.27,4.67,ES2005d.B.dialog-act.dharshi.68,C,C,0.12,5.57,True,False,0.0,[],True," Uh is the project evaluated, that is mine.",8,task,Inform
+ES2005d,C,787.689,790.562,2.873,ES2005d.C.dialog-act.dharshi.188,,,,,,,,,False, Doesn't tell me.,3,task,Inform
+ES2005d,C,792.39,793.92,1.53,ES2005d.C.dialog-act.dharshi.189,C,B,1.27,0.12,True,False,0.0,[],True, Oh you're doing that.,4,task,Assess
+ES2005d,B,793.92,794.25,0.33,ES2005d.B.dialog-act.dharshi.69,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,C,795.19,799.152,3.962,ES2005d.C.dialog-act.dharshi.190,D,C,6.428,1.27,False,False,0.0,[],False," We evaluated ourselves, we thought we were great.",8,task,Inform
+ES2005d,B,796.384,799.296,2.912,ES2005d.B.dialog-act.dharshi.70,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,797.51,798.11,0.6,ES2005d.D.dialog-act.dharshi.114,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2005d,A,798.374,800.135,1.761,ES2005d.A.dialog-act.dharshi.81,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,800.752,802.464,1.712,ES2005d.C.dialog-act.dharshi.191,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,804.09,804.28,0.19,ES2005d.A.dialog-act.dharshi.82,,,,,,,,,False, Uh.,1,minor,Stall
+ES2005d,D,805.58,808.1,2.52,ES2005d.D.dialog-act.dharshi.115,D,C,0.0,6.428,True,False,0.0,[],True," Mm, love to eat that now.",6,other,Be-Positive
+ES2005d,A,806.63,808.414,1.784,ES2005d.A.dialog-act.dharshi.83,,,,,,,,,False, Anybody,1,other,Be-Positive
+ES2005d,D,808.1,809.46,1.36,ES2005d.D.dialog-act.dharshi.116,D,D,4.59,0.0,False,False,0.0,[],False, Kind of a green banana now.,6,task,Assess
+ES2005d,C,808.64,809.84,1.2,ES2005d.C.dialog-act.dharshi.192,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2005d,A,809.27,810.34,1.07,ES2005d.A.dialog-act.dharshi.84,,,,,,,,,False, Clay covered banana.,3,task,Assess
+ES2005d,D,812.7,813.0,0.3,ES2005d.D.dialog-act.dharshi.118,,,,,,,,,False, It's,1,minor,Stall
+ES2005d,D,813.0,813.68,0.68,ES2005d.D.dialog-act.dharshi.119,,,,,,,,,False," this as well,",3,task,Inform
+ES2005d,D,813.68,814.05,0.37,ES2005d.D.dialog-act.dharshi.120,,,,,,,,,False," sorry,",1,other,Be-Positive
+ES2005d,D,814.05,814.73,0.68,ES2005d.D.dialog-act.dharshi.121,D,D,0.0,4.59,False,False,0.0,[],False, we forgot to mention,4,task,Inform
+ES2005d,D,814.73,820.16,5.43,ES2005d.D.dialog-act.dharshi.122,C,D,10.935,0.0,False,False,0.0,[],False," it'll be made out of kind of a rubbery latex, new material that we've got.",15,task,Inform
+ES2005d,C,819.82,820.57,0.75,ES2005d.C.dialog-act.dharshi.194,,,,,,,,,False," O okay,",2,task,Assess
+ES2005d,D,820.16,820.68,0.52,ES2005d.D.dialog-act.dharshi.123,,,,,,,,,False, I've got.,2,minor,Fragment
+ES2005d,C,820.57,821.07,0.5,ES2005d.C.dialog-act.dharshi.195,,,,,,,,,False, hold on.,2,other,Other
+ES2005d,A,823.776,824.82,1.044,ES2005d.A.dialog-act.dharshi.85,,,,,,,,,False, blue.,1,elicit,Elicit-Inform
+ES2005d,D,824.453,825.405,0.952,ES2005d.D.dialog-act.dharshi.117,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,831.095,834.16,3.065,ES2005d.C.dialog-act.dharshi.196,A,D,9.35,10.935,True,False,0.0,[],True, I wonder w which cell do I want.,8,other,Other
+ES2005d,C,836.099,837.584,1.485,ES2005d.C.dialog-act.dharshi.193,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,843.51,844.37,0.86,ES2005d.A.dialog-act.dharshi.86,C,C,25.4,9.35,True,False,0.0,[],True, It's fun to touch.,4,task,Assess
+ES2005d,D,844.73,845.7,0.97,ES2005d.D.dialog-act.dharshi.124,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,B,867.152,870.68,3.528,ES2005d.B.dialog-act.dharshi.71,,,,,,,,,False, So. Yeah.,2,minor,Stall
+ES2005d,C,869.77,873.168,3.398,ES2005d.C.dialog-act.dharshi.198,D,A,0.082,25.4,True,False,0.0,[],True," Okay, I didn't realise you had that bit.",8,task,Inform
+ES2005d,B,872.432,874.94,2.508,ES2005d.B.dialog-act.dharshi.72,,,,,,,,,False, So.,1,minor,Stall
+ES2005d,D,873.25,875.3,2.05,ES2005d.D.dialog-act.dharshi.125,B,C,2.44,0.082,True,False,0.0,[],True, Oh could you pass the tomato please.,7,task,Suggest
+ES2005d,C,874.833,876.558,1.725,ES2005d.C.dialog-act.dharshi.197,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,875.3,876.65,1.35,ES2005d.D.dialog-act.dharshi.126,,,,,,,,,False, Sorry. Thank you.,3,other,Be-Positive
+ES2005d,B,877.74,882.68,4.94,ES2005d.B.dialog-act.dharshi.73,B,D,4.67,2.44,True,False,0.0,[],True," So now is the final evaluation, final evaluation of the uh uh of our product.",15,task,Inform
+ES2005d,D,882.6,882.87,0.27,ES2005d.D.dialog-act.dharshi.127,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,B,882.68,883.74,1.06,ES2005d.B.dialog-act.dharshi.76,,,,,,,,,False, How we are going to,5,minor,Stall
+ES2005d,B,883.74,887.35,3.61,ES2005d.B.dialog-act.dharshi.78,,,,,,,,,False, means uh at what standard what standard,7,minor,Stall
+ES2005d,B,887.35,890.04,2.69,ES2005d.B.dialog-act.dharshi.79,B,B,0.55,4.67,False,False,0.0,[],False, whether it meets our standards or not.,7,task,Inform
+ES2005d,B,890.04,890.59,0.55,ES2005d.B.dialog-act.dharshi.74,,,,,,,,,False, How mu,2,minor,Stall
+ES2005d,B,890.59,893.3,2.71,ES2005d.B.dialog-act.dharshi.75,B,B,0.0,0.55,False,False,0.0,[],False, What rating we will give to these products.,8,task,Inform
+ES2005d,B,893.3,895.23,1.93,ES2005d.B.dialog-act.dharshi.80,B,B,0.0,0.0,False,False,0.0,[],False," So of course this is will be a team work,",10,task,Inform
+ES2005d,B,895.23,900.82,5.59,ES2005d.B.dialog-act.dharshi.81,B,B,0.0,0.0,False,False,0.0,[],False, w we together have to decide wha what rating we will give to this product and everything.,17,task,Inform
+ES2005d,C,900.76,901.35,0.59,ES2005d.C.dialog-act.dharshi.200,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2005d,B,900.82,906.39,5.57,ES2005d.B.dialog-act.dharshi.82,B,B,0.53,0.0,False,False,0.0,[],False, So what methodology I will tell you on what basis we are going to discuss all this.,17,other,Offer
+ES2005d,B,906.92,916.33,9.41,ES2005d.B.dialog-act.dharshi.83,B,B,0.0,0.53,False,False,0.0,[],False," We will give the rating to this product based on the user requirements, whether it meets the user requirements or not, this product.",23,task,Inform
+ES2005d,B,916.33,920.96,4.63,ES2005d.B.dialog-act.dharshi.84,B,B,0.0,0.0,False,False,0.0,[],False," Then trends, whether it is as fashion trends or not?",10,task,Inform
+ES2005d,B,920.96,928.41,7.45,ES2005d.B.dialog-act.dharshi.85,B,B,0.0,0.0,False,False,0.0,[],False, Means because we have already stated that people do prefer fashionable things nowadays.,13,task,Inform
+ES2005d,D,927.57,928.11,0.54,ES2005d.D.dialog-act.dharshi.128,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,B,928.41,932.78,4.37,ES2005d.B.dialog-act.dharshi.86,B,B,0.0,0.0,False,False,0.0,[],False, So this is also an important factor for our evaluation also.,11,task,Inform
+ES2005d,B,932.78,935.05,2.27,ES2005d.B.dialog-act.dharshi.87,B,B,0.0,0.0,False,False,0.0,[],False, Then marketing strategy of the company.,6,task,Inform
+ES2005d,B,935.05,940.35,5.3,ES2005d.B.dialog-act.dharshi.88,B,B,0.0,0.0,False,False,0.0,[],False," As we have already discussed that our company is quite in the market,",13,task,Inform
+ES2005d,B,940.35,948.95,8.6,ES2005d.B.dialog-act.dharshi.89,B,B,3.37,0.0,False,False,0.0,[],False," not only in terms of providing quality products, not only in pro providing latest technologies, but also in terms of providing environmental s",23,task,Inform
+ES2005d,D,949.36,950.38,1.02,ES2005d.D.dialog-act.dharshi.129,,,,,,,,,False, Sorry.,1,other,Be-Positive
+ES2005d,D,950.38,950.61,0.23,ES2005d.D.dialog-act.dharshi.130,,,,,,,,,False," Sorry,",1,other,Be-Positive
+ES2005d,D,950.61,951.974,1.364,ES2005d.D.dialog-act.dharshi.131,,,,,,,,,False, carry on.,2,task,Suggest
+ES2005d,B,951.03,951.53,0.5,ES2005d.B.dialog-act.dharshi.90,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,B,951.53,952.32,0.79,ES2005d.B.dialog-act.dharshi.91,,,,,,,,,False, So,1,minor,Stall
+ES2005d,B,952.32,955.92,3.6,ES2005d.B.dialog-act.dharshi.92,B,B,0.0,3.37,False,False,0.0,[],False," but also in terms of providing environmental safe products,",9,task,Inform
+ES2005d,B,955.92,961.39,5.47,ES2005d.B.dialog-act.dharshi.93,B,B,2.84,0.0,False,False,0.0,[],False, uh yeah like uh keeping uh keeping in mind all the safety issues.,13,task,Inform
+ES2005d,B,961.39,962.32,0.93,ES2005d.B.dialog-act.dharshi.94,,,,,,,,,False, So,1,minor,Stall
+ES2005d,B,964.23,968.07,3.84,ES2005d.B.dialog-act.dharshi.95,B,B,0.0,2.84,False,False,0.0,[],False, Now comes the criteria rating with seven point scale.,9,task,Inform
+ES2005d,C,967.99,968.2,0.21,ES2005d.C.dialog-act.dharshi.202,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2005d,B,968.07,971.86,3.79,ES2005d.B.dialog-act.dharshi.97,B,B,0.0,0.0,False,False,0.0,[],False," I'm having this scale this scale,",6,task,Inform
+ES2005d,D,971.54,972.86,1.32,ES2005d.D.dialog-act.dharshi.132,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,B,971.86,975.21,3.35,ES2005d.B.dialog-act.dharshi.98,C,B,2.12,0.0,False,False,0.0,[],False, so we have to do it on a board.,9,task,Suggest
+ES2005d,C,974.6,975.425,0.825,ES2005d.C.dialog-act.dharshi.199,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,976.13,976.56,0.43,ES2005d.D.dialog-act.dharshi.133,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,C,976.6,977.33,0.73,ES2005d.C.dialog-act.dharshi.203,,,,,,,,,False," Alright, okay.",2,task,Assess
+ES2005d,B,976.992,983.16,6.168,ES2005d.B.dialog-act.dharshi.99,,,,,,,,,False, the user requirem I think.,5,minor,Fragment
+ES2005d,C,977.33,978.63,1.3,ES2005d.C.dialog-act.dharshi.204,A,B,3.78,2.12,True,False,0.0,[],True," The board working again, is it?",6,elicit,Elicit-Inform
+ES2005d,A,979.684,981.239,1.555,ES2005d.A.dialog-act.dharshi.87,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,982.312,983.412,1.1,ES2005d.C.dialog-act.dharshi.201,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,982.41,984.65,2.24,ES2005d.A.dialog-act.dharshi.88,B,C,97.324,3.78,True,False,0.0,[],True, Do we have the uh the marker for the board?,10,elicit,Elicit-Inform
+ES2005d,B,984.528,986.192,1.664,ES2005d.B.dialog-act.dharshi.96,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,985.359,987.36,2.001,ES2005d.C.dialog-act.dharshi.205,,,,,,,,,False, Uh.,1,minor,Stall
+ES2005d,D,985.69,986.17,0.48,ES2005d.D.dialog-act.dharshi.134,,,,,,,,,False, Um.,1,minor,Stall
+ES2005d,B,987.204,990.85,3.646,ES2005d.B.dialog-act.dharshi.100,,,,,,,,,False, Thank you.,2,other,Be-Positive
+ES2005d,A,987.7,988.18,0.48,ES2005d.A.dialog-act.dharshi.89,,,,,,,,,False, There it is.,3,task,Inform
+ES2005d,C,988.896,989.6,0.704,ES2005d.C.dialog-act.dharshi.206,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,990.928,992.565,1.637,ES2005d.C.dialog-act.dharshi.207,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,992.31,992.67,0.36,ES2005d.B.dialog-act.dharshi.101,,,,,,,,,False, So.,1,minor,Stall
+ES2005d,D,1014.288,1015.76,1.472,ES2005d.D.dialog-act.dharshi.135,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,1081.974,1089.08,7.106,ES2005d.B.dialog-act.dharshi.102,B,A,0.0,97.324,True,False,0.0,[],True, So these are the three crite criterias for our evaluation of our product.,13,task,Inform
+ES2005d,D,1088.84,1089.34,0.5,ES2005d.D.dialog-act.dharshi.136,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,B,1089.08,1092.75,3.67,ES2005d.B.dialog-act.dharshi.103,B,B,0.0,0.0,False,False,0.0,[],False, First of all uh comes user requirement.,7,task,Inform
+ES2005d,B,1092.75,1098.22,5.47,ES2005d.B.dialog-act.dharshi.104,B,B,0.57,0.0,False,False,0.0,[],False, So we will see whether this product meets all user requirements or not.,13,task,Inform
+ES2005d,B,1098.22,1098.79,0.57,ES2005d.B.dialog-act.dharshi.105,,,,,,,,,False, I I will,3,minor,Stall
+ES2005d,B,1098.79,1100.66,1.87,ES2005d.B.dialog-act.dharshi.106,B,B,0.0,0.57,False,False,0.0,[],False," first I would like to have your views,",8,elicit,Elicit-Assessment
+ES2005d,B,1100.66,1103.85,3.19,ES2005d.B.dialog-act.dharshi.107,D,B,5.96,0.0,False,False,0.0,[],False, what do you think whether it meets all user requirements or not?,12,elicit,Elicit-Assessment
+ES2005d,D,1104.89,1106.31,1.42,ES2005d.D.dialog-act.dharshi.137,,,,,,,,,False, Um,1,minor,Stall
+ES2005d,D,1106.31,1106.896,0.586,ES2005d.D.dialog-act.dharshi.138,,,,,,,,,False, I think,2,minor,Stall
+ES2005d,D,1108.05,1109.81,1.76,ES2005d.D.dialog-act.dharshi.139,,,,,,,,,False," Yeah, it did.",3,task,Assess
+ES2005d,D,1109.81,1118.99,9.18,ES2005d.D.dialog-act.dharshi.140,C,B,0.58,5.96,True,False,0.0,[],True, It had all the basic buttons that they needed as well as the uh new technology that people said they wanted.,21,task,Inform
+ES2005d,B,1109.87,1111.11,1.24,ES2005d.B.dialog-act.dharshi.108,,,,,,,,,False, S,1,minor,Fragment
+ES2005d,C,1118.05,1118.24,0.19,ES2005d.C.dialog-act.dharshi.208,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2005d,D,1118.99,1121.79,2.8,ES2005d.D.dialog-act.dharshi.141,,,,,,,,,False, Um so.,2,minor,Stall
+ES2005d,C,1119.57,1122.83,3.26,ES2005d.C.dialog-act.dharshi.209,C,D,1.82,0.58,True,False,0.0,[],True," When the user requirement is essentially just to operate the T_V_,",11,task,Inform
+ES2005d,D,1121.79,1123.21,1.42,ES2005d.D.dialog-act.dharshi.142,,,,,,,,,False, Does it work?,3,task,Inform
+ES2005d,C,1122.83,1124.65,1.82,ES2005d.C.dialog-act.dharshi.210,,,,,,,,,False," so yeah,",2,task,Assess
+ES2005d,D,1123.21,1125.03,1.82,ES2005d.D.dialog-act.dharshi.143,,,,,,,,,False, Yeah. So.,2,task,Assess
+ES2005d,C,1124.65,1126.68,2.03,ES2005d.C.dialog-act.dharshi.211,B,C,-1.867,1.82,False,True,1.867,['ES2005d.B.dialog-act.dharshi.109'],False, of course we haven't actually got a working model yet.,10,task,Inform
+ES2005d,B,1124.813,1129.62,4.807,ES2005d.B.dialog-act.dharshi.109,D,C,-1.73,-1.867,True,True,1.73,['ES2005d.D.dialog-act.dharshi.144'],False, So what do you think you will personally give.,9,elicit,Elicit-Assessment
+ES2005d,D,1127.89,1130.93,3.04,ES2005d.D.dialog-act.dharshi.144,D,B,0.0,-1.73,True,False,0.0,[],False, I would say seven.,4,task,Assess
+ES2005d,B,1129.62,1131.45,1.83,ES2005d.B.dialog-act.dharshi.110,,,,,,,,,False, Seven. Uh.,2,task,Assess
+ES2005d,D,1130.93,1132.95,2.02,ES2005d.D.dialog-act.dharshi.145,D,D,1.28,0.0,False,False,0.0,[],False," Seven is good, yeah, isn't it?",6,elicit,Elicit-Inform
+ES2005d,D,1132.95,1133.49,0.54,ES2005d.D.dialog-act.dharshi.146,,,,,,,,,False, I can't,2,minor,Fragment
+ES2005d,D,1133.49,1134.23,0.74,ES2005d.D.dialog-act.dharshi.147,,,,,,,,,False, True or false?,3,other,Other
+ES2005d,D,1134.23,1136.42,2.19,ES2005d.D.dialog-act.dharshi.148,B,D,0.62,1.28,False,False,0.0,[],False, No sorry tr one is true.,6,task,Inform
+ES2005d,C,1135.02,1136.11,1.09,ES2005d.C.dialog-act.dharshi.212,,,,,,,,,False," One, yeah.",2,task,Assess
+ES2005d,B,1135.499,1135.856,0.357,ES2005d.B.dialog-act.dharshi.111,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,1137.04,1139.72,2.68,ES2005d.B.dialog-act.dharshi.112,B,D,0.78,0.62,True,False,0.0,[],True," Uh one is means highest ranking,",6,elicit,Elicit-Inform
+ES2005d,D,1139.36,1139.64,0.28,ES2005d.D.dialog-act.dharshi.149,,,,,,,,,False, Yeah.,1,task,Inform
+ES2005d,B,1139.72,1140.5,0.78,ES2005d.B.dialog-act.dharshi.113,,,,,,,,,False, okay.,1,task,Assess
+ES2005d,B,1140.5,1142.78,2.28,ES2005d.B.dialog-act.dharshi.114,C,B,-0.12,0.78,False,True,0.12,['ES2005d.C.dialog-act.dharshi.213'],False," But I think highest ranking is seven,",7,task,Inform
+ES2005d,C,1142.66,1146.25,3.59,ES2005d.C.dialog-act.dharshi.213,B,B,1.0,-0.12,True,False,0.0,[],False," No it's it's like true is one end, and false is the oth",13,task,Inform
+ES2005d,B,1142.78,1143.27,0.49,ES2005d.B.dialog-act.dharshi.115,,,,,,,,,False, or one?,2,elicit,Elicit-Inform
+ES2005d,A,1143.28,1144.45,1.17,ES2005d.A.dialog-act.dharshi.90,,,,,,,,,False, No that's false.,3,task,Inform
+ES2005d,B,1145.13,1147.25,2.12,ES2005d.B.dialog-act.dharshi.116,,,,,,,,,False," Okay, right right.",3,task,Assess
+ES2005d,D,1146.8,1147.58,0.78,ES2005d.D.dialog-act.dharshi.150,,,,,,,,,False," Okay, so one.",3,task,Assess
+ES2005d,B,1147.25,1151.08,3.83,ES2005d.B.dialog-act.dharshi.117,B,C,0.0,1.0,True,False,0.0,[],True, So it's one for from your point of view.,9,task,Assess
+ES2005d,D,1150.63,1150.91,0.28,ES2005d.D.dialog-act.dharshi.151,,,,,,,,,False, Yep.,1,task,Assess
+ES2005d,B,1151.08,1156.01,4.93,ES2005d.B.dialog-act.dharshi.118,A,B,1.55,0.0,False,False,0.0,[],False, And what do you say our Industrial Expert?,8,elicit,Elicit-Assessment
+ES2005d,A,1153.976,1155.28,1.304,ES2005d.A.dialog-act.dharshi.91,,,,,,,,,False, Uh.,1,minor,Stall
+ES2005d,A,1157.56,1158.51,0.95,ES2005d.A.dialog-act.dharshi.92,A,B,0.0,1.55,True,False,0.0,[],True, It's hard to know.,4,task,Assess
+ES2005d,A,1158.51,1163.461,4.951,ES2005d.A.dialog-act.dharshi.93,B,A,0.529,0.0,False,False,0.0,[],False, I I give it a two.,6,task,Assess
+ES2005d,C,1160.6,1162.855,2.255,ES2005d.C.dialog-act.dharshi.214,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,1160.64,1163.99,3.35,ES2005d.B.dialog-act.dharshi.119,,,,,,,,,False, Uh d you can you can tell on on the like,11,minor,Stall
+ES2005d,B,1163.99,1169.54,5.55,ES2005d.B.dialog-act.dharshi.120,B,A,0.0,0.529,True,False,0.0,[],True," I think she has given her views on the basis of design, because she was our i Interface Expert.",19,task,Inform
+ES2005d,A,1169.41,1169.76,0.35,ES2005d.A.dialog-act.dharshi.94,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2005d,B,1169.54,1172.31,2.77,ES2005d.B.dialog-act.dharshi.121,B,B,0.0,0.0,False,False,0.0,[],False," But you can give your views based on technology,",9,task,Suggest
+ES2005d,B,1172.31,1177.18,4.87,ES2005d.B.dialog-act.dharshi.122,A,B,-0.66,0.0,False,True,0.66,['ES2005d.A.dialog-act.dharshi.95'],False, whether the technology meets the requirements of the customers or not?,11,elicit,Elicit-Assessment
+ES2005d,A,1176.52,1180.17,3.65,ES2005d.A.dialog-act.dharshi.95,A,B,1.74,-0.66,True,False,0.0,[],False," Um yeah, I think i it might even exceed it um.",11,task,Assess
+ES2005d,A,1181.91,1184.57,2.66,ES2005d.A.dialog-act.dharshi.96,A,A,1.65,1.74,False,False,0.0,[],False, But I guess there is a kind of a shortage of buttons.,12,task,Assess
+ES2005d,C,1184.686,1186.178,1.492,ES2005d.C.dialog-act.dharshi.215,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,1185.73,1186.22,0.49,ES2005d.A.dialog-act.dharshi.97,,,,,,,,,False, Um,1,minor,Stall
+ES2005d,A,1186.22,1189.05,2.83,ES2005d.A.dialog-act.dharshi.98,B,A,0.27,1.65,False,False,0.0,[],False, I'm gonna give it a two.,6,task,Assess
+ES2005d,B,1188.51,1189.32,0.81,ES2005d.B.dialog-act.dharshi.123,,,,,,,,,False, Two.,1,other,Comment-About-Understanding
+ES2005d,A,1189.05,1189.29,0.24,ES2005d.A.dialog-act.dharshi.99,,,,,,,,,False, Two.,1,task,Assess
+ES2005d,B,1189.32,1193.48,4.16,ES2005d.B.dialog-act.dharshi.124,C,A,-1.27,0.27,True,True,1.27,['ES2005d.C.dialog-act.dharshi.216'],True," And what about uh you, Brian?",6,elicit,Elicit-Assessment
+ES2005d,C,1192.21,1193.568,1.358,ES2005d.C.dialog-act.dharshi.216,B,B,-0.088,-1.27,True,True,0.088,['ES2005d.B.dialog-act.dharshi.125'],False," Oh, I'll go for a one.",6,task,Assess
+ES2005d,B,1193.48,1195.74,2.26,ES2005d.B.dialog-act.dharshi.125,C,C,-0.95,-0.088,True,True,0.95,['ES2005d.C.dialog-act.dharshi.217'],False, You will go for one.,5,task,Assess
+ES2005d,C,1194.79,1197.38,2.59,ES2005d.C.dialog-act.dharshi.217,B,B,1.12,-0.95,True,False,0.0,[],False, Basic requirements but of the pro of the project.,9,task,Inform
+ES2005d,B,1195.74,1198.5,2.76,ES2005d.B.dialog-act.dharshi.126,,,,,,,,,False, Okay.,1,minor,Stall
+ES2005d,B,1198.5,1202.52,4.02,ES2005d.B.dialog-act.dharshi.127,B,C,0.0,1.12,True,False,0.0,[],True," Uh for me personally it is everything fine,",8,task,Assess
+ES2005d,B,1202.52,1209.15,6.63,ES2005d.B.dialog-act.dharshi.128,B,B,0.0,0.0,False,False,0.0,[],False," it may be having good design, it may be uh meeting all the requirements of the customers like technology-wise, price-wise,",20,task,Assess
+ES2005d,B,1209.15,1212.06,2.91,ES2005d.B.dialog-act.dharshi.129,B,B,0.0,0.0,False,False,0.0,[],False," but there is one thing which limits the customers,",9,elicit,Elicit-Assessment
+ES2005d,B,1212.06,1214.51,2.45,ES2005d.B.dialog-act.dharshi.130,B,B,0.0,0.0,False,False,0.0,[],False," like we are having only two, three designs,",8,task,Inform
+ES2005d,B,1214.51,1219.2,4.69,ES2005d.B.dialog-act.dharshi.131,B,B,1.7,0.0,False,False,0.0,[],False," like we are having one banana design and the other one is orange,",13,task,Inform
+ES2005d,A,1216.72,1222.058,5.338,ES2005d.A.dialog-act.dharshi.100,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,1217.163,1223.198,6.035,ES2005d.C.dialog-act.dharshi.219,,,,,,,,,False, Yeah th,2,minor,Fragment
+ES2005d,D,1218.85,1219.95,1.1,ES2005d.D.dialog-act.dharshi.152,,,,,,,,,False, Mm,1,minor,Backchannel
+ES2005d,B,1219.2,1220.9,1.7,ES2005d.B.dialog-act.dharshi.132,,,,,,,,,False, and,1,minor,Fragment
+ES2005d,D,1219.95,1220.39,0.44,ES2005d.D.dialog-act.dharshi.153,,,,,,,,,False, yellow.,1,task,Inform
+ES2005d,B,1220.9,1222.37,1.47,ES2005d.B.dialog-act.dharshi.133,B,B,0.0,1.7,False,False,0.0,[],False," Uh yeah, lower end.",4,task,Assess
+ES2005d,B,1222.37,1226.34,3.97,ES2005d.B.dialog-act.dharshi.134,B,B,0.0,0.0,False,False,0.0,[],False, And the third one is what you ge uh that is not a f fruit look.,16,task,Inform
+ES2005d,A,1223.532,1227.73,4.198,ES2005d.A.dialog-act.dharshi.101,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,1225.248,1226.336,1.088,ES2005d.C.dialog-act.dharshi.218,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,1226.32,1226.73,0.41,ES2005d.D.dialog-act.dharshi.154,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+ES2005d,B,1226.34,1231.51,5.17,ES2005d.B.dialog-act.dharshi.135,B,B,0.0,0.0,False,False,0.0,[],False," But if a person doesn't like banana, or orange, you are limiting him.",13,task,Assess
+ES2005d,C,1226.9,1228.447,1.547,ES2005d.C.dialog-act.dharshi.220,,,,,,,,,False, Come on that was the tha,6,minor,Fragment
+ES2005d,C,1229.206,1229.938,0.732,ES2005d.C.dialog-act.dharshi.221,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,1231.152,1231.97,0.818,ES2005d.C.dialog-act.dharshi.222,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+ES2005d,D,1231.32,1231.68,0.36,ES2005d.D.dialog-act.dharshi.155,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+ES2005d,B,1231.51,1235.77,4.26,ES2005d.B.dialog-act.dharshi.136,B,B,0.0,0.0,False,False,0.0,[],False," No, don't buy our product, because we are l we like this only.",13,task,Assess
+ES2005d,D,1235.35,1235.76,0.41,ES2005d.D.dialog-act.dharshi.156,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2005d,B,1235.77,1239.01,3.24,ES2005d.B.dialog-act.dharshi.137,B,B,0.0,0.0,False,False,0.0,[],False," So we are showing our preference for particular fruits,",9,task,Assess
+ES2005d,C,1238.474,1244.408,5.934,ES2005d.C.dialog-act.dharshi.223,,,,,,,,,False, Being fruitist.,2,other,Be-Positive
+ES2005d,A,1238.496,1240.854,2.358,ES2005d.A.dialog-act.dharshi.102,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,1239.01,1240.2,1.19,ES2005d.B.dialog-act.dharshi.138,D,B,1.92,0.0,False,False,0.0,[],False," two or three kinds rather,",5,task,Assess
+ES2005d,B,1240.2,1241.7,1.5,ES2005d.B.dialog-act.dharshi.139,,,,,,,,,False, and,1,minor,Fragment
+ES2005d,B,1241.7,1242.45,0.75,ES2005d.B.dialog-act.dharshi.140,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,D,1242.12,1243.99,1.87,ES2005d.D.dialog-act.dharshi.157,B,B,0.7,1.92,True,False,0.0,[],True, Is that no is that not trends?,7,elicit,Elicit-Assessment
+ES2005d,B,1242.45,1242.75,0.3,ES2005d.B.dialog-act.dharshi.141,,,,,,,,,False, So.,1,minor,Stall
+ES2005d,B,1244.69,1249.67,4.98,ES2005d.B.dialog-act.dharshi.142,B,D,0.0,0.7,True,False,0.0,[],True," Uh no, uh personally as a Marketing Expert I don't believe that,",12,task,Assess
+ES2005d,C,1246.677,1247.436,0.759,ES2005d.C.dialog-act.dharshi.224,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,1248.546,1249.11,0.564,ES2005d.C.dialog-act.dharshi.225,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,1249.67,1255.95,6.28,ES2005d.B.dialog-act.dharshi.143,B,B,0.0,0.0,False,False,0.0,[],False," because whatever companies they launch their products in the shape of fruits, they give a range of products, a range of shapes,",22,task,Inform
+ES2005d,B,1255.95,1262.04,6.09,ES2005d.B.dialog-act.dharshi.144,B,B,0.0,0.0,False,False,0.0,[],False," like if we see, look at the smallest thing, toffee chocolates, they give a variety of different things.",18,task,Inform
+ES2005d,D,1261.33,1261.93,0.6,ES2005d.D.dialog-act.dharshi.158,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,B,1262.04,1267.4,5.36,ES2005d.B.dialog-act.dharshi.145,B,B,0.0,0.0,False,False,0.0,[],False," Some children like to buy banana shape, some apple shape, some even pineapple shape, some orange shape.",17,task,Inform
+ES2005d,A,1266.099,1268.076,1.977,ES2005d.A.dialog-act.dharshi.103,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,1267.01,1267.34,0.33,ES2005d.D.dialog-act.dharshi.159,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,B,1267.4,1270.98,3.58,ES2005d.B.dialog-act.dharshi.146,B,B,0.0,0.0,False,False,0.0,[],False, So you can what shape a person will like.,9,task,Assess
+ES2005d,B,1270.98,1276.1,5.12,ES2005d.B.dialog-act.dharshi.147,B,B,0.0,0.0,False,False,0.0,[],False, So in this case giving only one or two choices we are lim limiting our customers.,16,task,Assess
+ES2005d,B,1276.1,1281.01,4.91,ES2005d.B.dialog-act.dharshi.148,D,B,-0.89,0.0,False,True,0.89,['ES2005d.D.dialog-act.dharshi.161'],False," And by limiting them, we are limiting our sales, limiting our profit also.",13,task,Assess
+ES2005d,D,1276.41,1276.93,0.52,ES2005d.D.dialog-act.dharshi.160,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+ES2005d,D,1280.12,1287.95,7.83,ES2005d.D.dialog-act.dharshi.161,D,B,0.0,-0.89,True,False,0.0,[],False," But in electronics, I think, it's not q always quite so um you don't always have so many choices as with chocolates.",22,task,Assess
+ES2005d,D,1287.95,1299.16,11.21,ES2005d.D.dialog-act.dharshi.162,D,D,0.0,0.0,False,False,0.0,[],False," I think, you know, if you're going to buy a T_V_ maybe a company'll have That you're going to choose from, a company'll have two or three choices, but they're different designs.",32,task,Inform
+ES2005d,C,1288.336,1289.177,0.841,ES2005d.C.dialog-act.dharshi.226,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,1299.16,1300.87,1.71,ES2005d.D.dialog-act.dharshi.163,B,D,4.45,0.0,False,False,0.0,[],False, We were coming up with one product.,7,task,Inform
+ES2005d,B,1303.92,1305.32,1.4,ES2005d.B.dialog-act.dharshi.149,,,,,,,,,False, Uh maybe. Okay,3,task,Assess
+ES2005d,B,1305.32,1311.69,6.37,ES2005d.B.dialog-act.dharshi.150,D,D,-5.57,4.45,True,True,2.06,['ES2005d.D.dialog-act.dharshi.164'],True, but I will I will personally won't give it beyond three.,11,task,Assess
+ES2005d,D,1306.12,1308.18,2.06,ES2005d.D.dialog-act.dharshi.164,C,B,4.639,-5.57,True,False,0.0,[],False," No, I mean uh obviously your opinion,",7,task,Assess
+ES2005d,C,1306.165,1307.141,0.976,ES2005d.C.dialog-act.dharshi.227,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,1306.987,1308.745,1.758,ES2005d.A.dialog-act.dharshi.104,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,1308.18,1308.976,0.796,ES2005d.D.dialog-act.dharshi.166,,,,,,,,,False, I'm just trying to,4,minor,Fragment
+ES2005d,D,1311.11,1311.53,0.42,ES2005d.D.dialog-act.dharshi.165,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,B,1311.69,1314.192,2.502,ES2005d.B.dialog-act.dharshi.151,,,,,,,,,False, So we can,3,minor,Fragment
+ES2005d,C,1312.819,1314.61,1.791,ES2005d.C.dialog-act.dharshi.228,B,D,0.69,4.639,True,False,0.0,[],True, He's a tough cookie.,4,task,Assess
+ES2005d,A,1314.992,1316.107,1.115,ES2005d.A.dialog-act.dharshi.105,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,1315.3,1319.88,4.58,ES2005d.B.dialog-act.dharshi.152,C,C,6.31,0.69,True,False,0.0,[],True," Yeah, on an average we can think three, four sevenths, maybe.",11,task,Inform
+ES2005d,B,1321.79,1324.18,2.39,ES2005d.B.dialog-act.dharshi.153,,,,,,,,,False, Three or four?,3,elicit,Elicit-Inform
+ES2005d,C,1323.366,1324.147,0.781,ES2005d.C.dialog-act.dharshi.229,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,1324.18,1325.82,1.64,ES2005d.B.dialog-act.dharshi.156,,,,,,,,,False," Uh, no sorry,",3,task,Assess
+ES2005d,A,1324.786,1325.585,0.799,ES2005d.A.dialog-act.dharshi.106,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,1325.82,1328.032,2.212,ES2005d.B.dialog-act.dharshi.157,,,,,,,,,False, it should be,3,task,Inform
+ES2005d,C,1326.19,1327.8,1.61,ES2005d.C.dialog-act.dharshi.230,D,B,1.12,6.31,True,False,0.0,[],True, Six. Five or six.,4,task,Inform
+ES2005d,D,1328.92,1329.58,0.66,ES2005d.D.dialog-act.dharshi.167,A,C,0.2,1.12,True,False,0.0,[],True, What are we doing?,4,elicit,Elicit-Inform
+ES2005d,B,1329.48,1329.89,0.41,ES2005d.B.dialog-act.dharshi.158,,,,,,,,,False, No,1,task,Inform
+ES2005d,A,1329.78,1330.73,0.95,ES2005d.A.dialog-act.dharshi.107,B,D,-0.84,0.2,True,True,0.84,['ES2005d.B.dialog-act.dharshi.159'],True, What are we doing?,4,elicit,Elicit-Inform
+ES2005d,B,1329.89,1331.25,1.36,ES2005d.B.dialog-act.dharshi.159,B,A,0.0,-0.84,True,False,0.0,[],False," sorry, sorry, sorry, sorry,",4,other,Be-Positive
+ES2005d,D,1330.84,1331.45,0.61,ES2005d.D.dialog-act.dharshi.168,,,,,,,,,False, Adding them up?,3,elicit,Elicit-Inform
+ES2005d,B,1331.25,1333.26,2.01,ES2005d.B.dialog-act.dharshi.160,A,B,-1.07,0.0,False,True,1.05,['ES2005d.A.dialog-act.dharshi.108'],False, we are doing a very wrong thing.,7,task,Assess
+ES2005d,A,1332.19,1333.24,1.05,ES2005d.A.dialog-act.dharshi.108,B,B,0.02,-1.07,True,False,0.0,[],False, We're gonna average them?,4,elicit,Elicit-Inform
+ES2005d,B,1333.26,1334.57,1.31,ES2005d.B.dialog-act.dharshi.161,A,A,-0.02,0.02,True,True,0.02,['ES2005d.A.dialog-act.dharshi.109'],True," Yeah, yeah, we are taking everything,",6,task,Inform
+ES2005d,A,1334.55,1337.27,2.72,ES2005d.A.dialog-act.dharshi.109,B,B,-2.25,-0.02,True,True,1.75,['ES2005d.B.dialog-act.dharshi.163'],False, Okay. So seven fourths.,4,task,Assess
+ES2005d,B,1334.57,1335.02,0.45,ES2005d.B.dialog-act.dharshi.162,,,,,,,,,False, and that's,2,minor,Stall
+ES2005d,D,1334.92,1335.22,0.3,ES2005d.D.dialog-act.dharshi.169,,,,,,,,,False, Oh.,1,task,Assess
+ES2005d,B,1335.02,1336.77,1.75,ES2005d.B.dialog-act.dharshi.163,A,A,0.5,-2.25,True,False,0.0,[],False, I have taken it very wrongly.,6,task,Assess
+ES2005d,B,1336.77,1337.51,0.74,ES2005d.B.dialog-act.dharshi.164,,,,,,,,,False, Yeah uh,2,task,Assess
+ES2005d,A,1337.27,1339.47,2.2,ES2005d.A.dialog-act.dharshi.110,B,B,-1.96,0.5,True,True,1.96,['ES2005d.B.dialog-act.dharshi.165'],True, About one point f one point eight.,7,task,Inform
+ES2005d,B,1337.51,1340.23,2.72,ES2005d.B.dialog-act.dharshi.165,B,A,0.0,-1.96,True,False,0.0,[],False, three four four two six seven seven sev,8,other,Other
+ES2005d,B,1340.23,1341.57,1.34,ES2005d.B.dialog-act.dharshi.166,B,B,0.0,0.0,False,False,0.0,[],False, Yeah one pe exactly.,4,task,Assess
+ES2005d,B,1341.57,1344.56,2.99,ES2005d.B.dialog-act.dharshi.167,B,B,0.0,0.0,False,False,0.0,[],False, So we can say one or two.,7,task,Suggest
+ES2005d,A,1343.52,1343.75,0.23,ES2005d.A.dialog-act.dharshi.111,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,D,1343.64,1344.0,0.36,ES2005d.D.dialog-act.dharshi.170,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,B,1344.56,1349.96,5.4,ES2005d.B.dialog-act.dharshi.169,A,B,-0.95,0.0,False,True,0.95,['ES2005d.A.dialog-act.dharshi.113'],False," because it is one point eight uh two, so we will do two.",13,task,Suggest
+ES2005d,A,1345.088,1346.176,1.088,ES2005d.A.dialog-act.dharshi.112,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,1346.32,1346.81,0.49,ES2005d.C.dialog-act.dharshi.231,,,,,,,,,False, Oh I see.,3,task,Assess
+ES2005d,A,1349.01,1351.32,2.31,ES2005d.A.dialog-act.dharshi.113,B,B,-0.39,-0.95,True,True,0.39,['ES2005d.B.dialog-act.dharshi.168'],False, Yeah round it up to two.,6,task,Assess
+ES2005d,B,1349.96,1350.93,0.97,ES2005d.B.dialog-act.dharshi.170,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,D,1350.42,1351.03,0.61,ES2005d.D.dialog-act.dharshi.171,,,,,,,,,False," Okay, yeah.",2,task,Assess
+ES2005d,B,1350.93,1355.48,4.55,ES2005d.B.dialog-act.dharshi.168,A,A,-0.99,-0.39,True,True,0.99,['ES2005d.A.dialog-act.dharshi.115'],False, So where were the trends.,5,elicit,Elicit-Assessment
+ES2005d,A,1351.32,1352.45,1.13,ES2005d.A.dialog-act.dharshi.114,,,,,,,,,False, So trends.,2,task,Inform
+ES2005d,A,1354.49,1356.58,2.09,ES2005d.A.dialog-act.dharshi.115,A,B,1.54,-0.99,True,False,0.0,[],False, Can you explain what you want us to write there?,10,elicit,Elicit-Inform
+ES2005d,B,1357.4,1357.73,0.33,ES2005d.B.dialog-act.dharshi.171,,,,,,,,,False, Sorry?,1,other,Comment-About-Understanding
+ES2005d,A,1358.12,1360.4,2.28,ES2005d.A.dialog-act.dharshi.116,B,A,-0.02,1.54,False,True,0.02,['ES2005d.B.dialog-act.dharshi.172'],False, How it how conforms to the current trends?,8,elicit,Elicit-Inform
+ES2005d,B,1360.38,1362.42,2.04,ES2005d.B.dialog-act.dharshi.172,B,A,0.0,-0.02,True,False,0.0,[],False," Yeah, again the the fashion trends,",6,task,Inform
+ES2005d,B,1362.42,1370.91,8.49,ES2005d.B.dialog-act.dharshi.173,D,B,0.18,0.0,False,False,0.0,[],False, this also like whether it it will be fashionable to have these products in the uh as a fruit shape or something.,22,task,Inform
+ES2005d,D,1367.71,1368.17,0.46,ES2005d.D.dialog-act.dharshi.172,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,A,1370.038,1370.86,0.822,ES2005d.A.dialog-act.dharshi.117,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,1370.13,1371.09,0.96,ES2005d.D.dialog-act.dharshi.173,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,B,1370.91,1371.75,0.84,ES2005d.B.dialog-act.dharshi.174,,,,,,,,,False, Uh.,1,minor,Stall
+ES2005d,D,1371.09,1388.01,16.92,ES2005d.D.dialog-act.dharshi.174,D,B,0.0,0.18,True,False,0.0,[],True," Well um going on uh the specifications that we had, that fruit and vegetables are quite popular, and that people like something that is good to look at and not many buttons, I would give it um,",37,task,Assess
+ES2005d,D,1388.01,1393.83,5.82,ES2005d.D.dialog-act.dharshi.175,D,D,0.0,0.0,False,False,0.0,[],False," well, because it's hard to make a fruit good to look at, that that looks cool, you know,",18,task,Assess
+ES2005d,C,1392.898,1394.461,1.563,ES2005d.C.dialog-act.dharshi.232,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,1393.83,1398.88,5.05,ES2005d.D.dialog-act.dharshi.176,D,D,0.0,0.0,False,False,0.0,[],False, so I would actually give it a three.,8,task,Assess
+ES2005d,B,1394.629,1395.251,0.622,ES2005d.B.dialog-act.dharshi.175,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,1398.88,1401.84,2.96,ES2005d.D.dialog-act.dharshi.177,D,D,0.0,0.0,False,False,0.0,[],False," Tha three or four, I'm not sure.",7,task,Assess
+ES2005d,D,1401.84,1403.36,1.52,ES2005d.D.dialog-act.dharshi.182,A,D,1.52,0.0,False,False,0.0,[],False, Three. Go for three.,4,task,Assess
+ES2005d,B,1402.12,1403.88,1.76,ES2005d.B.dialog-act.dharshi.176,,,,,,,,,False, Okay. Yeah.,2,task,Assess
+ES2005d,D,1403.36,1403.75,0.39,ES2005d.D.dialog-act.dharshi.180,,,,,,,,,False, That's fine.,2,task,Assess
+ES2005d,B,1403.88,1404.592,0.712,ES2005d.B.dialog-act.dharshi.177,,,,,,,,,False, Uh,1,minor,Stall
+ES2005d,A,1404.88,1409.99,5.11,ES2005d.A.dialog-act.dharshi.118,A,D,0.0,1.52,True,False,0.0,[],True," 'Kay. As far as the uh technology it its' got the latest trends in speech technology,",16,task,Assess
+ES2005d,A,1409.99,1413.89,3.9,ES2005d.A.dialog-act.dharshi.119,A,A,0.0,0.0,False,False,0.0,[],False," but it's missing the screen, as we said,",8,task,Assess
+ES2005d,A,1413.89,1417.59,3.7,ES2005d.A.dialog-act.dharshi.120,A,A,0.93,0.0,False,False,0.0,[],False," um but it does have the push-buttons, or the scroll-buttons,",10,task,Assess
+ES2005d,A,1418.52,1424.44,5.92,ES2005d.A.dialog-act.dharshi.121,A,A,0.0,0.93,False,False,0.0,[],False, um but it doesn't have that fancy solar power or the the vibrating energy mechanism.,15,task,Assess
+ES2005d,A,1424.44,1426.96,2.52,ES2005d.A.dialog-act.dharshi.122,A,A,0.0,0.0,False,False,0.0,[],False, So I give it a a four.,7,task,Assess
+ES2005d,A,1426.96,1428.49,1.53,ES2005d.A.dialog-act.dharshi.123,C,A,5.9,0.0,False,False,0.0,[],False, I'd give it a kinda middle of the road for,10,task,Assess
+ES2005d,D,1428.68,1429.27,0.59,ES2005d.D.dialog-act.dharshi.183,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2005d,A,1429.64,1430.43,0.79,ES2005d.A.dialog-act.dharshi.124,,,,,,,,,False, for technology.,2,task,Assess
+ES2005d,C,1431.86,1434.39,2.53,ES2005d.C.dialog-act.dharshi.233,,,,,,,,,False," Yeah, I am sort of pret uh",7,minor,Fragment
+ES2005d,C,1434.39,1436.05,1.66,ES2005d.C.dialog-act.dharshi.234,C,A,0.0,5.9,True,False,0.0,[],True," Just the fruit does me in,",6,task,Assess
+ES2005d,C,1436.05,1437.25,1.2,ES2005d.C.dialog-act.dharshi.235,C,C,1.27,0.0,False,False,0.0,[],False, I mean uh it might,5,task,Assess
+ES2005d,D,1436.08,1438.778,2.698,ES2005d.D.dialog-act.dharshi.184,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,1436.647,1438.683,2.036,ES2005d.A.dialog-act.dharshi.126,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,1436.96,1440.18,3.22,ES2005d.B.dialog-act.dharshi.179,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,1438.52,1441.47,2.95,ES2005d.C.dialog-act.dharshi.236,C,C,2.7,1.27,False,False,0.0,[],False," it might be trendy to some, but I'm just not swallowing the fruit,",13,task,Assess
+ES2005d,C,1441.47,1444.17,2.7,ES2005d.C.dialog-act.dharshi.237,,,,,,,,,False, so um,2,minor,Stall
+ES2005d,D,1441.61,1442.17,0.56,ES2005d.D.dialog-act.dharshi.185,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2005d,B,1442.0,1443.824,1.824,ES2005d.B.dialog-act.dharshi.178,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,1442.231,1443.682,1.451,ES2005d.A.dialog-act.dharshi.125,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,1444.17,1447.98,3.81,ES2005d.C.dialog-act.dharshi.238,C,C,0.0,2.7,False,False,0.0,[],False, Uh also uh I would have liked to have seen the L_C_D_ screen in it.,15,task,Assess
+ES2005d,C,1447.98,1451.61,3.63,ES2005d.C.dialog-act.dharshi.239,B,C,2.43,0.0,False,False,0.0,[],False, Um so yeah I'd say about four as well.,9,task,Assess
+ES2005d,B,1452.0,1454.04,2.04,ES2005d.B.dialog-act.dharshi.180,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,B,1454.04,1461.79,7.75,ES2005d.B.dialog-act.dharshi.181,B,C,0.0,2.43,True,False,0.0,[],True," Uh personally I wi uh I think that in terms of trends, these products are quite good,",17,task,Assess
+ES2005d,B,1461.79,1465.09,3.3,ES2005d.B.dialog-act.dharshi.182,B,B,2.22,0.0,False,False,0.0,[],False," like, these products are in fruit shape,",7,task,Assess
+ES2005d,B,1465.09,1467.31,2.22,ES2005d.B.dialog-act.dharshi.183,,,,,,,,,False, because that wha people now,5,minor,Stall
+ES2005d,B,1467.31,1481.1,13.79,ES2005d.B.dialog-act.dharshi.184,B,B,0.3,2.22,False,False,0.0,[],False," our fashion trend shows that people like everything all f everything that is being advertised, like clothes, shoes, and everything is being advertised in the form of fruits and vegetables, or getting them or showing some association with them.",39,task,Inform
+ES2005d,D,1474.24,1474.62,0.38,ES2005d.D.dialog-act.dharshi.186,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,B,1481.4,1484.38,2.98,ES2005d.B.dialog-act.dharshi.185,B,B,0.0,0.3,False,False,0.0,[],False, So and in this way our product is good.,9,task,Assess
+ES2005d,B,1484.38,1493.03,8.65,ES2005d.B.dialog-act.dharshi.187,B,B,2.9,0.0,False,False,0.0,[],False," And the second thing, now people don't want any complicated or bulky products and ours is quite simple and quite handy.",21,task,Assess
+ES2005d,C,1487.14,1488.225,1.085,ES2005d.C.dialog-act.dharshi.240,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,1492.93,1493.43,0.5,ES2005d.D.dialog-act.dharshi.187,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2005d,B,1493.03,1495.93,2.9,ES2005d.B.dialog-act.dharshi.188,,,,,,,,,False, So that is also ef that also,7,minor,Stall
+ES2005d,B,1495.93,1500.06,4.13,ES2005d.B.dialog-act.dharshi.189,B,B,1.99,2.9,False,False,0.0,[],False, Our product meets the f the fashion uh trends of the market.,12,task,Assess
+ES2005d,B,1500.06,1502.05,1.99,ES2005d.B.dialog-act.dharshi.190,,,,,,,,,False, And yes.,2,minor,Stall
+ES2005d,B,1502.05,1503.89,1.84,ES2005d.B.dialog-act.dharshi.191,B,B,0.0,1.99,False,False,0.0,[],False, It is cus spongy also.,5,task,Assess
+ES2005d,B,1503.89,1506.2,2.31,ES2005d.B.dialog-act.dharshi.192,B,B,0.0,0.0,False,False,0.0,[],False," So they can play with it, it's quite good.",9,task,Assess
+ES2005d,C,1505.023,1506.029,1.006,ES2005d.C.dialog-act.dharshi.241,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,1506.2,1511.37,5.17,ES2005d.B.dialog-act.dharshi.193,B,B,0.0,0.0,False,False,0.0,[],False," So then I think, maybe I can give it two.",10,task,Assess
+ES2005d,B,1511.37,1516.72,5.35,ES2005d.B.dialog-act.dharshi.194,B,B,3.15,0.0,False,False,0.0,[],False, So four five ten thirteen thirteen.,6,other,Other
+ES2005d,B,1516.72,1518.3,1.58,ES2005d.B.dialog-act.dharshi.195,,,,,,,,,False, So we can,3,minor,Fragment
+ES2005d,B,1518.3,1519.87,1.57,ES2005d.B.dialog-act.dharshi.196,,,,,,,,,False, Is it fine?,3,elicit,Elicit-Inform
+ES2005d,B,1519.87,1522.43,2.56,ES2005d.B.dialog-act.dharshi.197,A,B,3.27,3.15,False,False,0.0,[],False, So what about company strategy?,5,elicit,Elicit-Assessment
+ES2005d,A,1520.54,1520.93,0.39,ES2005d.A.dialog-act.dharshi.127,,,,,,,,,False, Yeah.,1,task,Inform
+ES2005d,B,1523.648,1524.117,0.469,ES2005d.B.dialog-act.dharshi.186,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,1525.7,1526.24,0.54,ES2005d.D.dialog-act.dharshi.188,,,,,,,,,False, Um.,1,minor,Stall
+ES2005d,A,1525.7,1527.42,1.72,ES2005d.A.dialog-act.dharshi.128,D,B,0.88,3.27,True,False,0.0,[],True, Well it was yellow.,4,task,Assess
+ES2005d,C,1527.168,1529.136,1.968,ES2005d.C.dialog-act.dharshi.242,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,1528.3,1531.7,3.4,ES2005d.D.dialog-act.dharshi.189,D,A,0.0,0.88,True,False,0.0,[],True," Yeah, the company strategy, okay.",5,other,Other
+ES2005d,D,1531.7,1535.2,3.5,ES2005d.D.dialog-act.dharshi.190,D,D,0.0,0.0,False,False,0.0,[],False," Um there was lot of discussing, that was good.",9,task,Assess
+ES2005d,D,1535.2,1537.53,2.33,ES2005d.D.dialog-act.dharshi.191,D,D,0.0,0.0,False,False,0.0,[],False, Um I feel I got my say.,7,task,Assess
+ES2005d,D,1537.53,1545.58,8.05,ES2005d.D.dialog-act.dharshi.192,A,D,1.76,0.0,False,False,0.0,[],False, Um so I'd give the company strategy a two.,9,task,Assess
+ES2005d,B,1546.96,1547.65,0.69,ES2005d.B.dialog-act.dharshi.198,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,A,1547.34,1553.16,5.82,ES2005d.A.dialog-act.dharshi.129,A,D,0.0,1.76,True,False,0.0,[],True," Well, I think it's the the remote control conforms to the the company strategy.",14,task,Inform
+ES2005d,D,1552.44,1554.33,1.89,ES2005d.D.dialog-act.dharshi.193,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,C,1553.07,1554.06,0.99,ES2005d.C.dialog-act.dharshi.243,,,,,,,,,False," Yeah,",1,task,Assess
+ES2005d,A,1553.16,1554.13,0.97,ES2005d.A.dialog-act.dharshi.130,D,A,7.7,0.0,False,False,0.0,[],False, Is that the question?,4,elicit,Elicit-Inform
+ES2005d,C,1554.06,1554.52,0.46,ES2005d.C.dialog-act.dharshi.244,,,,,,,,,False, yeah.,1,task,Inform
+ES2005d,D,1554.33,1555.19,0.86,ES2005d.D.dialog-act.dharshi.194,,,,,,,,,False, Is it? Okay.,3,task,Assess
+ES2005d,A,1555.231,1555.762,0.531,ES2005d.A.dialog-act.dharshi.131,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,1556.74,1557.05,0.31,ES2005d.A.dialog-act.dharshi.132,,,,,,,,,False, Um.,1,minor,Stall
+ES2005d,D,1556.76,1557.62,0.86,ES2005d.D.dialog-act.dharshi.195,,,,,,,,,False," Okay, so",2,minor,Stall
+ES2005d,D,1558.349,1558.889,0.54,ES2005d.D.dialog-act.dharshi.196,,,,,,,,,False,,0,minor,Fragment
+ES2005d,D,1559.91,1561.19,1.28,ES2005d.D.dialog-act.dharshi.197,,,,,,,,,False, one or two.,3,task,Assess
+ES2005d,A,1561.15,1561.65,0.5,ES2005d.A.dialog-act.dharshi.133,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2005d,D,1561.19,1561.83,0.64,ES2005d.D.dialog-act.dharshi.198,,,,,,,,,False, One.,1,task,Assess
+ES2005d,D,1561.83,1563.67,1.84,ES2005d.D.dialog-act.dharshi.199,A,A,0.75,7.7,True,False,0.0,[],True," Okay, just leave it, it's fine.",6,task,Assess
+ES2005d,A,1564.42,1565.09,0.67,ES2005d.A.dialog-act.dharshi.134,B,D,2.16,0.75,True,False,0.0,[],True, I'll go with two.,4,task,Assess
+ES2005d,B,1567.25,1568.81,1.56,ES2005d.B.dialog-act.dharshi.199,C,A,4.06,2.16,True,False,0.0,[],True," So what about you, Brian?",5,elicit,Elicit-Assessment
+ES2005d,C,1569.4,1570.43,1.03,ES2005d.C.dialog-act.dharshi.246,,,,,,,,,False," Um yeah,",2,minor,Stall
+ES2005d,C,1570.43,1571.43,1.0,ES2005d.C.dialog-act.dharshi.247,,,,,,,,,False, a three.,2,minor,Fragment
+ES2005d,C,1572.87,1581.376,8.506,ES2005d.C.dialog-act.dharshi.248,B,B,2.434,4.06,True,False,0.0,[],True," Pretty much kept to the company strategy, so I would go for a a one, as we not only kept it, but we were limited by",26,task,Assess
+ES2005d,D,1581.81,1582.65,0.84,ES2005d.D.dialog-act.dharshi.200,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2005d,B,1583.81,1586.96,3.15,ES2005d.B.dialog-act.dharshi.200,B,C,0.0,2.434,True,False,0.0,[],True," Yeah, and me also,",4,task,Assess
+ES2005d,B,1586.96,1592.6,5.64,ES2005d.B.dialog-act.dharshi.201,B,B,0.0,0.0,False,False,0.0,[],False," like, this product me uh me uh me uh this meets all company strategy",14,task,Assess
+ES2005d,B,1592.6,1600.84,8.24,ES2005d.B.dialog-act.dharshi.202,B,B,0.0,0.0,False,False,0.0,[],False," like our product should be as per customers' requirement, as per latest technology, and it should be environmental safe.",19,task,Inform
+ES2005d,B,1600.84,1607.0,6.16,ES2005d.B.dialog-act.dharshi.203,B,B,0.0,0.0,False,False,0.0,[],False," So since our product meets all these requirements, so I would also prefer to give it rank one.",18,task,Assess
+ES2005d,B,1607.0,1609.54,2.54,ES2005d.B.dialog-act.dharshi.204,A,B,-1.046,0.0,False,True,1.046,['ES2005d.A.dialog-act.dharshi.137'],False, So four six six,4,other,Other
+ES2005d,A,1608.494,1610.2,1.706,ES2005d.A.dialog-act.dharshi.137,B,B,0.97,-1.046,True,False,0.0,[],False, So one and a half.,5,task,Inform
+ES2005d,D,1610.64,1611.36,0.72,ES2005d.D.dialog-act.dharshi.201,,,,,,,,,False," Yeah, one.",2,task,Assess
+ES2005d,B,1610.8,1611.17,0.37,ES2005d.B.dialog-act.dharshi.205,,,,,,,,,False, half.,1,minor,Backchannel
+ES2005d,B,1611.17,1615.51,4.34,ES2005d.B.dialog-act.dharshi.206,B,A,0.97,0.97,True,False,0.0,[],True, So we can say two or one,7,elicit,Elicit-Assessment
+ES2005d,A,1614.6,1615.1,0.5,ES2005d.A.dialog-act.dharshi.138,,,,,,,,,False, A two.,2,task,Assess
+ES2005d,B,1615.51,1616.48,0.97,ES2005d.B.dialog-act.dharshi.207,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,A,1615.892,1616.531,0.639,ES2005d.A.dialog-act.dharshi.136,,,,,,,,,False,,0,minor,Fragment
+ES2005d,B,1616.48,1620.71,4.23,ES2005d.B.dialog-act.dharshi.208,B,B,6.49,0.97,False,False,0.0,[],False, So th seven seven.,4,other,Other
+ES2005d,B,1627.2,1630.0,2.8,ES2005d.B.dialog-act.dharshi.209,B,B,0.0,6.49,False,False,0.0,[],False," Uh overall we are getting two something,",7,task,Inform
+ES2005d,B,1630.0,1631.88,1.88,ES2005d.B.dialog-act.dharshi.210,B,B,1.3,0.0,False,False,0.0,[],False, but we can round it as two.,7,task,Suggest
+ES2005d,A,1632.38,1632.83,0.45,ES2005d.A.dialog-act.dharshi.139,,,,,,,,,False, Yep.,1,task,Assess
+ES2005d,D,1632.5,1632.8,0.3,ES2005d.D.dialog-act.dharshi.202,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,C,1632.93,1634.256,1.326,ES2005d.C.dialog-act.dharshi.249,,,,,,,,,False," Cool, groovy.",2,task,Assess
+ES2005d,B,1633.18,1638.99,5.81,ES2005d.B.dialog-act.dharshi.211,B,B,0.0,1.3,False,False,0.0,[],False, Yeah. So I think overall uh evaluation of our product is quite good.,13,task,Assess
+ES2005d,A,1634.68,1634.98,0.3,ES2005d.A.dialog-act.dharshi.140,,,,,,,,,False, S,1,minor,Fragment
+ES2005d,C,1638.71,1638.97,0.26,ES2005d.C.dialog-act.dharshi.250,,,,,,,,,False, Cool.,1,task,Assess
+ES2005d,B,1638.99,1641.8,2.81,ES2005d.B.dialog-act.dharshi.212,C,B,9.12,0.0,False,False,0.0,[],False, So we can launch it. Yeah.,6,task,Suggest
+ES2005d,C,1641.94,1643.264,1.324,ES2005d.C.dialog-act.dharshi.251,,,,,,,,,False, Brilliant.,1,task,Assess
+ES2005d,D,1642.02,1642.5,0.48,ES2005d.D.dialog-act.dharshi.203,,,,,,,,,False, Woo-hoo.,1,task,Assess
+ES2005d,C,1644.839,1646.062,1.223,ES2005d.C.dialog-act.dharshi.252,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,1647.504,1648.34,0.836,ES2005d.C.dialog-act.dharshi.253,,,,,,,,,False,,0,minor,Fragment
+ES2005d,C,1650.92,1653.09,2.17,ES2005d.C.dialog-act.dharshi.255,C,B,0.79,9.12,True,False,0.0,[],True, In which case we are done.,6,task,Inform
+ES2005d,C,1653.88,1656.51,2.63,ES2005d.C.dialog-act.dharshi.256,,C,,0.79,False,False,0.0,[],False, 'Cause we've evaluated and we are within budget.,8,task,Inform
+ES2005d,C,1657.632,1658.678,1.046,ES2005d.C.dialog-act.dharshi.254,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,1658.709,1659.63,0.921,ES2005d.A.dialog-act.dharshi.142,,,,,,,,,False, Okay.,1,task,Assess
+ES2005d,D,1658.83,1659.09,0.26,ES2005d.D.dialog-act.dharshi.204,,,,,,,,,False, Cool.,1,task,Assess
+ES2005d,B,1659.69,1661.1,1.41,ES2005d.B.dialog-act.dharshi.214,,,,,,,,,False, So,1,minor,Stall
+ES2005d,C,1660.0,1664.36,4.36,ES2005d.C.dialog-act.dharshi.257,,,,,,,,,False, Champagne lunch anyone?,3,other,Be-Positive
+ES2005d,D,1661.1,1661.67,0.57,ES2005d.D.dialog-act.dharshi.205,,,,,,,,,False, Yeah.,1,task,Assess
+ES2005d,B,1661.1,1664.76,3.66,ES2005d.B.dialog-act.dharshi.213,,,,,,,,,False, yeah. Great.,2,task,Assess
+ES2005d,A,1661.44,1661.792,0.352,ES2005d.A.dialog-act.dharshi.135,,,,,,,,,False,,0,minor,Fragment
+ES2005d,A,1663.23,1664.07,0.84,ES2005d.A.dialog-act.dharshi.141,,,,,,,,,False, Uh.,1,minor,Stall

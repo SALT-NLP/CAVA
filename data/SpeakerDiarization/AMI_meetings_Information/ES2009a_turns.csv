@@ -1,0 +1,880 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+ES2009a,B,0.0,0.0,0.0,ES2009a.B.dialog-act.vkaraisk.1,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,2.27,4.01,1.74,ES2009a.D.dialog-act.vkaraisk.1,B,,10.56,,True,False,0.0,[],False, Are you sure I got it all,7,task,Inform
+ES2009a,D,4.01,8.36,4.35,ES2009a.D.dialog-act.vkaraisk.2,,,,,,,,,False, head's kinda small.,3,task,Inform
+ES2009a,C,8.27,11.12,2.85,ES2009a.C.dialog-act.vkaraisk.1,,,,,,,,,False, How're we placed in terms of the,7,minor,Fragment
+ES2009a,D,8.36,9.277,0.917,ES2009a.D.dialog-act.vkaraisk.3,,,,,,,,,False, Okay.,1,task,Assess
+ES2009a,C,11.12,11.69,0.57,ES2009a.C.dialog-act.vkaraisk.2,,,,,,,,,False, alright.,1,other,Comment-About-Understanding
+ES2009a,D,11.17,12.4,1.23,ES2009a.D.dialog-act.vkaraisk.4,,,,,,,,,False, We're okay?,2,elicit,Elicit-Assessment
+ES2009a,B,14.57,17.28,2.71,ES2009a.B.dialog-act.vkaraisk.2,B,D,7.62,10.56,True,False,0.0,[],True, Guess I should probably try to sit up straight.,9,other,Offer
+ES2009a,C,16.918,17.623,0.705,ES2009a.C.dialog-act.vkaraisk.3,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,19.57,20.32,0.75,ES2009a.A.dialog-act.vkaraisk.1,,,,,,,,,False, Like that?,2,elicit,Elicit-Inform
+ES2009a,A,20.32,21.05,0.73,ES2009a.A.dialog-act.vkaraisk.2,,,,,,,,,False," Okay, cool.",2,task,Assess
+ES2009a,D,22.16,22.45,0.29,ES2009a.D.dialog-act.vkaraisk.5,,,,,,,,,False, We're good?,2,elicit,Elicit-Assessment
+ES2009a,B,24.52,24.9,0.38,ES2009a.B.dialog-act.vkaraisk.3,,,,,,,,,False," Oh,",1,minor,Stall
+ES2009a,B,24.9,26.16,1.26,ES2009a.B.dialog-act.vkaraisk.4,D,B,9.56,7.62,False,False,0.0,[],False, I think mine's fallen off.,5,task,Inform
+ES2009a,C,25.92,26.609,0.689,ES2009a.C.dialog-act.vkaraisk.4,,,,,,,,,False, It fell,2,task,Inform
+ES2009a,C,27.54,27.9,0.36,ES2009a.C.dialog-act.vkaraisk.5,,,,,,,,,False, That's why.,2,task,Inform
+ES2009a,D,35.72,39.94,4.22,ES2009a.D.dialog-act.vkaraisk.6,A,B,8.3,9.56,True,False,0.0,[],True, I guess it's gonna be hard to drink coffee.,9,task,Assess
+ES2009a,B,38.751,40.162,1.411,ES2009a.B.dialog-act.vkaraisk.5,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,39.94,41.1,1.16,ES2009a.D.dialog-act.vkaraisk.7,,,,,,,,,False, Mm.,1,other,Other
+ES2009a,C,40.97,41.665,0.695,ES2009a.C.dialog-act.vkaraisk.6,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,41.1,42.33,1.23,ES2009a.D.dialog-act.vkaraisk.8,,,,,,,,,False, Uh okay.,2,task,Assess
+ES2009a,C,42.65,42.71,0.06,ES2009a.C.dialog-act.vkaraisk.7,,,,,,,,,False, Ah.,1,other,Other
+ES2009a,A,43.71,43.99,0.28,ES2009a.A.dialog-act.vkaraisk.3,,,,,,,,,False, Okay?,1,elicit,Elicit-Assessment
+ES2009a,A,46.29,48.24,1.95,ES2009a.A.dialog-act.vkaraisk.4,,,,,,,,,False," Right, so",2,minor,Stall
+ES2009a,A,48.24,51.98,3.74,ES2009a.A.dialog-act.vkaraisk.5,A,D,17.1,8.3,True,False,0.0,[],True, I'm just gonna start this PowerPoint real quick.,8,other,Offer
+ES2009a,C,51.122,54.979,3.857,ES2009a.C.dialog-act.vkaraisk.8,,,,,,,,,False,,0,minor,Fragment
+ES2009a,B,51.62,51.89,0.27,ES2009a.B.dialog-act.vkaraisk.6,,,,,,,,,False, Wow.,1,task,Assess
+ES2009a,A,51.98,54.31,2.33,ES2009a.A.dialog-act.vkaraisk.6,,,,,,,,,False," Yeah, PowerPoint.",2,task,Inform
+ES2009a,D,53.47,54.13,0.66,ES2009a.D.dialog-act.vkaraisk.9,,,,,,,,,False, Very official.,2,task,Assess
+ES2009a,A,54.31,55.09,0.78,ES2009a.A.dialog-act.vkaraisk.7,,,,,,,,,False," Yeah, well,",2,minor,Stall
+ES2009a,A,55.09,58.42,3.33,ES2009a.A.dialog-act.vkaraisk.8,,,,,,,,,False," you know,.",2,other,Other
+ES2009a,C,67.952,70.992,3.04,ES2009a.C.dialog-act.vkaraisk.9,,,,,,,,,False,,0,minor,Fragment
+ES2009a,B,68.104,69.1,0.996,ES2009a.B.dialog-act.vkaraisk.7,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,69.08,73.38,4.3,ES2009a.A.dialog-act.vkaraisk.9,A,A,3.11,17.1,False,False,0.0,[],False, Yeah I kinda like this I'm kinda getting into it.,10,task,Assess
+ES2009a,A,73.38,76.49,3.11,ES2009a.A.dialog-act.vkaraisk.10,,,,,,,,,False, Right. Um. So,3,minor,Stall
+ES2009a,A,76.49,77.65,1.16,ES2009a.A.dialog-act.vkaraisk.11,A,A,1.39,3.11,False,False,0.0,[],False, just to kick off the meeting,6,other,Offer
+ES2009a,A,77.65,79.04,1.39,ES2009a.A.dialog-act.vkaraisk.12,,,,,,,,,False, basically um so,3,minor,Stall
+ES2009a,A,79.04,80.98,1.94,ES2009a.A.dialog-act.vkaraisk.13,A,A,3.72,1.39,False,False,0.0,[],False," we're working now for a real reaction,",7,task,Inform
+ES2009a,A,80.98,83.16,2.18,ES2009a.A.dialog-act.vkaraisk.14,,,,,,,,,False, this is uh so it,5,minor,Fragment
+ES2009a,A,83.16,83.41,0.25,ES2009a.A.dialog-act.vkaraisk.15,,,,,,,,,False, right.,1,minor,Stall
+ES2009a,A,84.7,90.323,5.623,ES2009a.A.dialog-act.vkaraisk.16,A,A,1.037,3.72,False,False,0.0,[],False, Just got an agenda to set out what we're gonna try to accomplish in this particular first meeting. Um,19,other,Offer
+ES2009a,A,91.36,92.73,1.37,ES2009a.A.dialog-act.vkaraisk.17,A,A,0.0,1.037,False,False,0.0,[],False, We're gonna just do a quick opening,7,task,Inform
+ES2009a,A,92.73,94.99,2.26,ES2009a.A.dialog-act.vkaraisk.18,A,A,0.0,0.0,False,False,0.0,[],False, and we can hopefully all get acquainted with one another,10,task,Inform
+ES2009a,A,94.99,98.0,3.01,ES2009a.A.dialog-act.vkaraisk.19,A,A,0.16,0.0,False,False,0.0,[],False, um then we're gonna start talk a little bit about tool training.,12,task,Inform
+ES2009a,A,98.16,103.27,5.11,ES2009a.A.dialog-act.vkaraisk.20,A,A,0.0,0.16,False,False,0.0,[],False," Essentially that means getting used to the only thing that we haven't tried out yet, the whiteboard.",17,task,Inform
+ES2009a,A,103.27,108.19,4.92,ES2009a.A.dialog-act.vkaraisk.21,A,A,0.0,0.0,False,False,0.0,[],False, Um we've got a general plan for the project how we're gonna go about accomplishing this,16,task,Inform
+ES2009a,A,108.19,110.82,2.63,ES2009a.A.dialog-act.vkaraisk.22,A,A,11.23,0.0,False,False,0.0,[],False, and then just a bit of discussion close up.,9,task,Inform
+ES2009a,A,110.82,116.53,5.71,ES2009a.A.dialog-act.vkaraisk.23,,,,,,,,,False, Um I guess you know game or something um in real life,12,minor,Fragment
+ES2009a,A,116.53,118.8,2.27,ES2009a.A.dialog-act.vkaraisk.24,,,,,,,,,False, um so yeah basically,4,minor,Stall
+ES2009a,A,119.92,122.05,2.13,ES2009a.A.dialog-act.vkaraisk.25,,,,,,,,,False, I want to I'm just gonna you got,8,minor,Fragment
+ES2009a,A,122.05,122.99,0.94,ES2009a.A.dialog-act.vkaraisk.26,A,A,0.0,11.23,False,False,0.0,[],False," of course you can discuss that,",6,task,Inform
+ES2009a,A,122.99,134.6,11.61,ES2009a.A.dialog-act.vkaraisk.27,A,A,1.64,0.0,False,False,0.0,[],False," I'm thinking about um uh proposing that since we've got this weird blend of ourselves and our roles that we just don't ask, don't tell.",25,task,Suggest
+ES2009a,A,134.6,136.24,1.64,ES2009a.A.dialog-act.vkaraisk.28,,,,,,,,,False, Um so um,3,minor,Stall
+ES2009a,A,136.24,138.99,2.75,ES2009a.A.dialog-act.vkaraisk.29,D,A,-0.366,1.64,False,True,0.366,['ES2009a.D.dialog-act.vkaraisk.10'],False," if you say something about marketing, right, sorted,",8,task,Suggest
+ES2009a,D,138.624,140.5,1.876,ES2009a.D.dialog-act.vkaraisk.10,D,A,0.0,-0.366,True,False,0.0,[],False," You're just gonna believe me,",5,task,Suggest
+ES2009a,A,138.99,140.31,1.32,ES2009a.A.dialog-act.vkaraisk.30,,,,,,,,,False, um y is,3,minor,Fragment
+ES2009a,B,139.402,139.936,0.534,ES2009a.B.dialog-act.vkaraisk.8,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,140.5,142.01,1.51,ES2009a.D.dialog-act.vkaraisk.11,A,D,5.85,0.0,False,False,0.0,[],False, we'll go from there.,4,task,Suggest
+ES2009a,A,141.33,142.3,0.97,ES2009a.A.dialog-act.vkaraisk.31,,,,,,,,,False, Exactly.,1,task,Assess
+ES2009a,D,142.01,142.4,0.39,ES2009a.D.dialog-act.vkaraisk.12,,,,,,,,,False, Fair enough.,2,task,Assess
+ES2009a,A,142.3,143.06,0.76,ES2009a.A.dialog-act.vkaraisk.32,,,,,,,,,False, Um I mean,3,minor,Stall
+ES2009a,A,143.06,147.52,4.46,ES2009a.A.dialog-act.vkaraisk.33,,,,,,,,,False, obvi if if you guys if if at the same time if you like logically if something doesn't like if I'm,21,minor,Fragment
+ES2009a,A,147.52,147.86,0.34,ES2009a.A.dialog-act.vkaraisk.34,,,,,,,,,False, like,1,minor,Stall
+ES2009a,A,147.86,150.74,2.88,ES2009a.A.dialog-act.vkaraisk.35,A,D,1.15,5.85,True,False,0.0,[],True, we're gonna sell a remote control that's the size of this paper book,13,task,Inform
+ES2009a,A,150.74,151.89,1.15,ES2009a.A.dialog-act.vkaraisk.36,,,,,,,,,False, you know um,3,minor,Stall
+ES2009a,A,151.89,156.27,4.38,ES2009a.A.dialog-act.vkaraisk.37,A,A,0.0,1.15,False,False,0.0,[],False, you say like well that doesn't seem like such a good idea because of X_ obviously go with it.,19,task,Suggest
+ES2009a,A,156.27,157.39,1.12,ES2009a.A.dialog-act.vkaraisk.38,A,A,0.0,0.0,False,False,0.0,[],False, I mean we'll discuss it,5,task,Suggest
+ES2009a,A,157.39,161.69,4.3,ES2009a.A.dialog-act.vkaraisk.39,A,A,2.36,0.0,False,False,0.0,[],False, but I'm not gonna ask do you know that or uh yeah it seems like,15,other,Offer
+ES2009a,D,160.92,161.48,0.56,ES2009a.D.dialog-act.vkaraisk.13,,,,,,,,,False, Prove it,2,task,Inform
+ES2009a,D,161.48,162.77,1.29,ES2009a.D.dialog-act.vkaraisk.14,,,,,,,,,False," yeah, okay.",2,other,Comment-About-Understanding
+ES2009a,A,161.69,162.73,1.04,ES2009a.A.dialog-act.vkaraisk.40,,,,,,,,,False, yeah yeah exactly,3,task,Assess
+ES2009a,A,162.73,163.5,0.77,ES2009a.A.dialog-act.vkaraisk.41,,,,,,,,,False," so,",1,minor,Stall
+ES2009a,A,163.5,164.05,0.55,ES2009a.A.dialog-act.vkaraisk.42,,,,,,,,,False, 'cause we're what,3,minor,Fragment
+ES2009a,A,164.05,165.04,0.99,ES2009a.A.dialog-act.vkaraisk.43,A,A,0.64,2.36,False,False,0.0,[],False, we're sort of role playing,5,task,Inform
+ES2009a,A,165.04,165.53,0.49,ES2009a.A.dialog-act.vkaraisk.44,,,,,,,,,False, is y g,3,minor,Fragment
+ES2009a,A,165.53,165.68,0.15,ES2009a.A.dialog-act.vkaraisk.45,,,,,,,,,False, yeah,1,minor,Stall
+ES2009a,A,165.68,168.43,2.75,ES2009a.A.dialog-act.vkaraisk.46,A,A,0.21,0.64,False,False,0.0,[],False, you're gonna tap into your own knowledge as well um.,10,task,Suggest
+ES2009a,A,168.64,173.31,4.67,ES2009a.A.dialog-act.vkaraisk.47,A,A,3.95,0.21,False,False,0.0,[],False, And that's the same for your when we do introductions I mean um and you talk about your background,19,task,Suggest
+ES2009a,A,173.31,173.44,0.13,ES2009a.A.dialog-act.vkaraisk.49,,,,,,,,,False, you know,2,minor,Stall
+ES2009a,A,173.44,173.96,0.52,ES2009a.A.dialog-act.vkaraisk.50,,,,,,,,,False," have fun,",2,task,Suggest
+ES2009a,A,173.96,174.17,0.21,ES2009a.A.dialog-act.vkaraisk.51,,,,,,,,,False, you know,2,minor,Stall
+ES2009a,A,174.17,174.93,0.76,ES2009a.A.dialog-act.vkaraisk.52,,,,,,,,,False, maybe you went to,4,minor,Fragment
+ES2009a,A,174.93,177.26,2.33,ES2009a.A.dialog-act.vkaraisk.53,,,,,,,,,False, um uh you know,4,minor,Stall
+ES2009a,A,177.26,179.53,2.27,ES2009a.A.dialog-act.vkaraisk.54,A,A,0.0,3.95,False,False,0.0,[],False, maybe i you're like in Maine you went to U_C_S_B_,10,task,Inform
+ES2009a,A,179.53,181.49,1.96,ES2009a.A.dialog-act.vkaraisk.55,A,A,2.18,0.0,False,False,0.0,[],False," but you wanna say you went to Harvard or something like that,",12,task,Inform
+ES2009a,D,181.264,183.53,2.266,ES2009a.D.dialog-act.vkaraisk.15,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,181.49,181.87,0.38,ES2009a.A.dialog-act.vkaraisk.56,,,,,,,,,False," why not,",2,task,Suggest
+ES2009a,B,181.536,182.96,1.424,ES2009a.B.dialog-act.vkaraisk.9,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,181.87,182.22,0.35,ES2009a.A.dialog-act.vkaraisk.57,,,,,,,,,False, you know,2,minor,Stall
+ES2009a,A,182.22,183.41,1.19,ES2009a.A.dialog-act.vkaraisk.58,,,,,,,,,False, you can this is,4,minor,Fragment
+ES2009a,A,183.41,183.67,0.26,ES2009a.A.dialog-act.vkaraisk.59,,,,,,,,,False, you know,2,minor,Stall
+ES2009a,A,183.67,185.31,1.64,ES2009a.A.dialog-act.vkaraisk.60,A,A,0.0,2.18,False,False,0.0,[],False, I guess we can have a little bit of fun with it.,12,task,Suggest
+ES2009a,A,185.31,186.89,1.58,ES2009a.A.dialog-act.vkaraisk.61,A,A,0.0,0.0,False,False,0.0,[],False, So are you guys okay with that,7,elicit,Elicit-Assessment
+ES2009a,A,186.89,188.17,1.28,ES2009a.A.dialog-act.vkaraisk.62,B,A,0.5,0.0,False,False,0.0,[],False, does that seem logical?,4,elicit,Elicit-Assessment
+ES2009a,B,188.67,189.61,0.94,ES2009a.B.dialog-act.vkaraisk.10,A,A,7.86,0.5,True,False,0.0,[],True," Oh yeah, that's fine.",4,task,Assess
+ES2009a,C,189.96,190.19,0.23,ES2009a.C.dialog-act.vkaraisk.10,,,,,,,,,False, Sure.,1,task,Assess
+ES2009a,D,190.16,190.65,0.49,ES2009a.D.dialog-act.vkaraisk.16,,,,,,,,,False, Works for me.,3,task,Assess
+ES2009a,A,190.88,191.43,0.55,ES2009a.A.dialog-act.vkaraisk.63,,,,,,,,,False, Sweet.,1,other,Be-Positive
+ES2009a,A,193.67,194.24,0.57,ES2009a.A.dialog-act.vkaraisk.64,,,,,,,,,False, Cool.,1,other,Be-Positive
+ES2009a,A,194.24,195.02,0.78,ES2009a.A.dialog-act.vkaraisk.65,,,,,,,,,False, So,1,minor,Stall
+ES2009a,A,195.02,197.47,2.45,ES2009a.A.dialog-act.vkaraisk.66,,,,,,,,,False, I guess that that we're totally,6,minor,Fragment
+ES2009a,A,197.47,198.88,1.41,ES2009a.A.dialog-act.vkaraisk.67,A,B,1.21,7.86,True,False,0.0,[],True, we're making a remote control,5,task,Inform
+ES2009a,A,198.88,200.09,1.21,ES2009a.A.dialog-act.vkaraisk.68,,,,,,,,,False, which is thrilling,3,task,Assess
+ES2009a,B,199.21,199.45,0.24,ES2009a.B.dialog-act.vkaraisk.11,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2009a,A,200.09,206.71,6.62,ES2009a.A.dialog-act.vkaraisk.69,A,A,2.29,1.21,False,False,0.0,[],False, um uh but the idea is that we can make something based on the whole corporate model,17,task,Inform
+ES2009a,A,206.71,209.0,2.29,ES2009a.A.dialog-act.vkaraisk.70,,,,,,,,,False, I dunno if you guys had time to check the,10,minor,Fragment
+ES2009a,A,209.0,214.98,5.98,ES2009a.A.dialog-act.vkaraisk.71,A,A,0.21,2.29,False,False,0.0,[],False, in real life I dunno if you guys uh checked the um uh the corporate website.,16,elicit,Elicit-Inform
+ES2009a,A,215.19,220.03,4.84,ES2009a.A.dialog-act.vkaraisk.72,A,A,0.0,0.21,False,False,0.0,[],False," Um we've got to make something as fashionable as possible,",10,task,Inform
+ES2009a,A,220.03,223.94,3.91,ES2009a.A.dialog-act.vkaraisk.73,A,A,0.0,0.0,False,False,0.0,[],False, that's kind of the corporate strategy is we're gonna try to take ordinary stuff,14,task,Inform
+ES2009a,A,223.94,225.16,1.22,ES2009a.A.dialog-act.vkaraisk.74,A,A,0.0,0.0,False,False,0.0,[],False, that nobody really thinks about,5,task,Inform
+ES2009a,A,225.16,227.14,1.98,ES2009a.A.dialog-act.vkaraisk.75,A,A,0.2,0.0,False,False,0.0,[],False, and try to make it nice,6,task,Inform
+ES2009a,A,227.14,227.34,0.2,ES2009a.A.dialog-act.vkaraisk.76,,,,,,,,,False, you know,2,minor,Stall
+ES2009a,A,227.34,230.36,3.02,ES2009a.A.dialog-act.vkaraisk.77,A,A,3.23,0.2,False,False,0.0,[],False, like John Lewis nice or you know if you go to Debenham's or something.,14,task,Inform
+ES2009a,A,231.44,233.59,2.15,ES2009a.A.dialog-act.vkaraisk.78,,,,,,,,,False, So um basically,3,minor,Stall
+ES2009a,A,233.59,234.82,1.23,ES2009a.A.dialog-act.vkaraisk.79,A,A,0.0,3.23,False,False,0.0,[],False, we are reinventing the wheel,5,task,Inform
+ES2009a,A,234.82,240.81,5.99,ES2009a.A.dialog-act.vkaraisk.80,A,A,0.0,0.0,False,False,0.0,[],False, but we wanna try to do it in a user friendly um slick sleek kind of way.,17,task,Inform
+ES2009a,A,240.81,246.81,6.0,ES2009a.A.dialog-act.vkaraisk.81,A,A,0.2,0.0,False,False,0.0,[],False, Um way we're gonna go about doing that is basically at first we're gonna start on the basics.,18,task,Suggest
+ES2009a,A,247.01,254.33,7.32,ES2009a.A.dialog-act.vkaraisk.82,A,A,0.0,0.2,False,False,0.0,[],False, And that's where I'm gonna need you guys the User Interface Designers and the um um the other designer,19,task,Suggest
+ES2009a,A,254.33,255.25,0.92,ES2009a.A.dialog-act.vkaraisk.83,A,A,0.0,0.0,False,False,0.0,[],False," that I can't remember,",4,elicit,Elicit-Inform
+ES2009a,D,254.448,255.088,0.64,ES2009a.D.dialog-act.vkaraisk.17,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,255.25,257.05,1.8,ES2009a.A.dialog-act.vkaraisk.84,A,A,0.31,0.0,False,False,0.0,[],False, the the I_D_ and the U_I_D_,6,task,Inform
+ES2009a,A,257.05,257.36,0.31,ES2009a.A.dialog-act.vkaraisk.85,,,,,,,,,False, right,1,task,Assess
+ES2009a,A,257.36,259.96,2.6,ES2009a.A.dialog-act.vkaraisk.86,A,A,0.0,0.31,False,False,0.0,[],False, um the Industrial Designer,4,task,Inform
+ES2009a,B,257.504,258.364,0.86,ES2009a.B.dialog-act.vkaraisk.12,,,,,,,,,False,,0,minor,Fragment
+ES2009a,C,257.612,258.735,1.123,ES2009a.C.dialog-act.vkaraisk.11,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,257.797,258.713,0.916,ES2009a.D.dialog-act.vkaraisk.18,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,259.96,261.22,1.26,ES2009a.A.dialog-act.vkaraisk.87,A,A,0.0,0.0,False,False,0.0,[],False," hey right on alright,",4,task,Assess
+ES2009a,C,260.39,260.54,0.15,ES2009a.C.dialog-act.vkaraisk.12,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2009a,D,260.86,261.36,0.5,ES2009a.D.dialog-act.vkaraisk.19,,,,,,,,,False, There you go.,3,task,Assess
+ES2009a,A,261.22,262.74,1.52,ES2009a.A.dialog-act.vkaraisk.88,A,A,0.56,0.0,False,False,0.0,[],False, getting into it um,4,task,Inform
+ES2009a,A,263.3,266.11,2.81,ES2009a.A.dialog-act.vkaraisk.89,A,A,0.0,0.56,False,False,0.0,[],False, to guide me and guide us on this project,9,task,Suggest
+ES2009a,A,266.11,268.52,2.41,ES2009a.A.dialog-act.vkaraisk.90,A,A,0.23,0.0,False,False,0.0,[],False, 'cause you're gonna be you're g you guys are the bottom,11,task,Inform
+ES2009a,A,268.52,268.75,0.23,ES2009a.A.dialog-act.vkaraisk.91,,,,,,,,,False, you know,2,minor,Stall
+ES2009a,A,268.75,273.59,4.84,ES2009a.A.dialog-act.vkaraisk.92,A,A,0.56,0.23,False,False,0.0,[],False, you're like no you can't do that you can't have you know X_ and Y_ um at the same time.,20,task,Inform
+ES2009a,A,274.15,280.45,6.3,ES2009a.A.dialog-act.vkaraisk.93,A,A,2.16,0.56,False,False,0.0,[],False," And then um we'll work up from what is necessary to more like what would be good,",17,task,Suggest
+ES2009a,A,280.45,282.61,2.16,ES2009a.A.dialog-act.vkaraisk.94,,,,,,,,,False, you know like um,4,minor,Stall
+ES2009a,A,282.61,284.74,2.13,ES2009a.A.dialog-act.vkaraisk.95,A,A,0.0,2.16,False,False,0.0,[],False, I I think you guys probably got the same emails I did,12,task,Inform
+ES2009a,A,284.74,291.02,6.28,ES2009a.A.dialog-act.vkaraisk.96,A,A,0.0,0.0,False,False,0.0,[],False," but the idea of um, yes a coffee pot needs to be able to hold coffee",16,task,Inform
+ES2009a,A,291.02,294.07,3.05,ES2009a.A.dialog-act.vkaraisk.97,A,A,0.0,0.0,False,False,0.0,[],False, but it's also better if it's not like really cheap glass,11,task,Assess
+ES2009a,A,294.07,296.54,2.47,ES2009a.A.dialog-act.vkaraisk.98,A,A,0.3,0.0,False,False,0.0,[],False," so that it if you touch it you hurt your hand, or something like that.",15,task,Inform
+ES2009a,A,296.84,299.3,2.46,ES2009a.A.dialog-act.vkaraisk.99,A,A,0.0,0.3,False,False,0.0,[],False, Um and so we'll work up from there,8,task,Suggest
+ES2009a,A,299.3,300.85,1.55,ES2009a.A.dialog-act.vkaraisk.100,A,A,0.0,0.0,False,False,0.0,[],False, and um then we'll meet on,6,task,Suggest
+ES2009a,A,300.85,301.49,0.64,ES2009a.A.dialog-act.vkaraisk.101,A,A,0.0,0.0,False,False,0.0,[],False, and talk about it,4,task,Suggest
+ES2009a,A,301.49,308.44,6.95,ES2009a.A.dialog-act.vkaraisk.102,A,A,0.0,0.0,False,False,0.0,[],False, and then finally we'll incorporate as kind of the last stage you know where you guys build or tell me tell us what's possible,24,task,Suggest
+ES2009a,A,308.44,314.35,5.91,ES2009a.A.dialog-act.vkaraisk.103,A,A,0.0,0.0,False,False,0.0,[],False, and then you tell us what we can um hope for and what way to go,16,task,Suggest
+ES2009a,A,314.35,316.14,1.79,ES2009a.A.dialog-act.vkaraisk.104,A,A,0.0,0.0,False,False,0.0,[],False, take the the the take the basics,7,task,Suggest
+ES2009a,A,316.14,316.88,0.74,ES2009a.A.dialog-act.vkaraisk.105,A,A,0.0,0.0,False,False,0.0,[],False, and make it nicer,4,task,Suggest
+ES2009a,A,316.88,325.93,9.05,ES2009a.A.dialog-act.vkaraisk.106,A,A,0.37,0.0,False,False,0.0,[],False, and then ov obviously uh the U_I_D_ and the I_D_ you know you you can keep on the you know sort of at the cutting edge of how to get about maximising what is possible,35,task,Suggest
+ES2009a,A,326.3,329.23,2.93,ES2009a.A.dialog-act.vkaraisk.107,A,A,0.0,0.37,False,False,0.0,[],False, um to try t of sync it all up.,9,task,Suggest
+ES2009a,A,329.23,330.34,1.11,ES2009a.A.dialog-act.vkaraisk.108,A,A,0.0,0.0,False,False,0.0,[],False, So that's the detailed design.,5,task,Inform
+ES2009a,A,330.34,332.24,1.9,ES2009a.A.dialog-act.vkaraisk.109,A,A,2.02,0.0,False,False,0.0,[],False, So it's a three stage kind of thing.,8,task,Inform
+ES2009a,A,332.24,334.26,2.02,ES2009a.A.dialog-act.vkaraisk.110,,,,,,,,,False, Um right so,3,minor,Stall
+ES2009a,A,334.26,339.5,5.24,ES2009a.A.dialog-act.vkaraisk.111,A,A,0.0,2.02,False,False,0.0,[],False," for now just for th the white board um basically uh just to get used to it,",17,task,Suggest
+ES2009a,A,339.5,340.96,1.46,ES2009a.A.dialog-act.vkaraisk.112,A,A,0.0,0.0,False,False,0.0,[],False, I haven't tried it yet either,6,task,Inform
+ES2009a,A,340.96,342.48,1.52,ES2009a.A.dialog-act.vkaraisk.113,A,A,0.0,0.0,False,False,0.0,[],False, um I'm just gonna start,5,other,Offer
+ES2009a,A,342.48,345.39,2.91,ES2009a.A.dialog-act.vkaraisk.114,A,A,0.74,0.0,False,False,0.0,[],False, and um mm carry like five remotes around,8,other,Offer
+ES2009a,A,346.13,352.29,6.16,ES2009a.A.dialog-act.vkaraisk.115,A,A,0.16,0.74,False,False,0.0,[],False, um and just write down I'm just gonna write down one of the names of my um desert discs,19,other,Offer
+ES2009a,A,352.29,352.45,0.16,ES2009a.A.dialog-act.vkaraisk.116,,,,,,,,,False, you know,2,minor,Stall
+ES2009a,A,352.45,359.11,6.66,ES2009a.A.dialog-act.vkaraisk.117,A,A,0.0,0.16,False,False,0.0,[],False," if you if you were trapped on a desert island and you could only bring five C_D_s along with you name one of them that you could, not all five,",30,task,Suggest
+ES2009a,A,359.11,360.36,1.25,ES2009a.A.dialog-act.vkaraisk.118,A,A,0.0,0.0,False,False,0.0,[],False, if you wanna write all five go for it,9,task,Suggest
+ES2009a,A,360.36,362.79,2.43,ES2009a.A.dialog-act.vkaraisk.119,A,A,4.13,0.0,False,False,0.0,[],False, but name one of them that you could um.,9,task,Suggest
+ES2009a,A,362.79,363.46,0.67,ES2009a.A.dialog-act.vkaraisk.120,,,,,,,,,False," Oh,",1,other,Other
+ES2009a,A,363.46,365.31,1.85,ES2009a.A.dialog-act.vkaraisk.121,,,,,,,,,False, we skipped introductions.,3,task,Inform
+ES2009a,A,365.31,365.87,0.56,ES2009a.A.dialog-act.vkaraisk.122,,,,,,,,,False, Nice.,1,other,Be-Negative
+ES2009a,D,366.432,366.944,0.512,ES2009a.D.dialog-act.vkaraisk.20,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,366.92,369.32,2.4,ES2009a.A.dialog-act.vkaraisk.123,A,A,1.08,4.13,False,False,0.0,[],False, I'm a excellent Project Manager. Um.,6,other,Be-Negative
+ES2009a,C,368.864,370.432,1.568,ES2009a.C.dialog-act.vkaraisk.13,,,,,,,,,False,,0,minor,Fragment
+ES2009a,B,369.136,369.797,0.661,ES2009a.B.dialog-act.vkaraisk.13,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,369.32,370.4,1.08,ES2009a.A.dialog-act.vkaraisk.124,,,,,,,,,False," I'm Marty,",2,task,Inform
+ES2009a,A,370.4,373.49,3.09,ES2009a.A.dialog-act.vkaraisk.125,A,A,0.0,1.08,False,False,0.0,[],False, um I went to uni at uh U_C_ Santa Barbara,10,task,Inform
+ES2009a,A,373.49,375.83,2.34,ES2009a.A.dialog-act.vkaraisk.126,D,A,4.39,0.0,False,False,0.0,[],False, and I'm here working on a P_H_D_ in psychology.,9,task,Inform
+ES2009a,A,375.83,378.617,2.787,ES2009a.A.dialog-act.vkaraisk.127,,,,,,,,,False, Um yeah. So,3,minor,Stall
+ES2009a,D,379.14,380.22,1.08,ES2009a.D.dialog-act.vkaraisk.21,,,,,,,,,False," I'm Sarah,",2,task,Inform
+ES2009a,D,380.22,381.66,1.44,ES2009a.D.dialog-act.vkaraisk.22,D,A,0.0,4.39,True,False,0.0,[],True," I went to Michigan,",4,task,Inform
+ES2009a,D,381.66,384.05,2.39,ES2009a.D.dialog-act.vkaraisk.23,D,D,0.0,0.0,False,False,0.0,[],False, and I'm here doing cultural studies,6,task,Inform
+ES2009a,D,384.05,386.44,2.39,ES2009a.D.dialog-act.vkaraisk.24,A,D,2.32,0.0,False,False,0.0,[],False, and I'm the Marketing Manager or something.,7,task,Inform
+ES2009a,D,386.44,387.08,0.64,ES2009a.D.dialog-act.vkaraisk.25,,,,,,,,,False," Marketing,",1,task,Inform
+ES2009a,A,387.07,388.76,1.69,ES2009a.A.dialog-act.vkaraisk.128,,,,,,,,,False, Expert,1,task,Inform
+ES2009a,D,387.08,389.83,2.75,ES2009a.D.dialog-act.vkaraisk.26,,,,,,,,,False, yeah Expert. Expert.,3,task,Assess
+ES2009a,A,388.76,389.58,0.82,ES2009a.A.dialog-act.vkaraisk.129,C,D,3.28,2.32,True,False,0.0,[],True, Don't play yourself down.,4,task,Suggest
+ES2009a,C,389.536,390.72,1.184,ES2009a.C.dialog-act.vkaraisk.14,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,389.83,390.65,0.82,ES2009a.D.dialog-act.vkaraisk.27,,,,,,,,,False, Fine.,1,task,Assess
+ES2009a,A,389.99,391.16,1.17,ES2009a.A.dialog-act.vkaraisk.130,,,,,,,,,False, Expert,1,task,Inform
+ES2009a,D,390.65,391.13,0.48,ES2009a.D.dialog-act.vkaraisk.28,,,,,,,,,False, That's me.,2,task,Inform
+ES2009a,C,392.08,392.86,0.78,ES2009a.C.dialog-act.vkaraisk.15,,,,,,,,,False, I'm Ron.,2,task,Inform
+ES2009a,C,392.86,396.37,3.51,ES2009a.C.dialog-act.vkaraisk.16,C,A,0.0,3.28,True,False,0.0,[],True, I uh once upon a time studied in Victoria,9,task,Inform
+ES2009a,C,396.37,400.75,4.38,ES2009a.C.dialog-act.vkaraisk.17,B,C,2.84,0.0,False,False,0.0,[],False, and I am the User Interface Designer.,7,task,Inform
+ES2009a,B,401.79,402.4,0.61,ES2009a.B.dialog-act.vkaraisk.14,,,,,,,,,False," I'm Nathan,",2,task,Inform
+ES2009a,B,402.4,403.59,1.19,ES2009a.B.dialog-act.vkaraisk.15,,,,,,,,,False," I'm from California,",3,task,Inform
+ES2009a,B,403.59,406.62,3.03,ES2009a.B.dialog-act.vkaraisk.16,A,C,0.12,2.84,True,False,0.0,[],True, and I'm here doing a Masters degree in social anthropology.,10,task,Inform
+ES2009a,A,406.74,408.79,2.05,ES2009a.A.dialog-act.vkaraisk.131,A,B,0.9,0.12,True,False,0.0,[],True, Where did you go to uni Nathan?,7,elicit,Elicit-Inform
+ES2009a,B,407.433,409.43,1.997,ES2009a.B.dialog-act.vkaraisk.17,,,,,,,,,False, U_C_L_A_.,1,task,Inform
+ES2009a,A,408.79,408.92,0.13,ES2009a.A.dialog-act.vkaraisk.133,,,,,,,,,False, Oh,1,other,Comment-About-Understanding
+ES2009a,A,408.92,409.69,0.77,ES2009a.A.dialog-act.vkaraisk.132,,,,,,,,,False, brilliant. Cool.,2,task,Assess
+ES2009a,B,409.43,409.63,0.2,ES2009a.B.dialog-act.vkaraisk.18,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2009a,A,409.69,412.03,2.34,ES2009a.A.dialog-act.vkaraisk.134,D,A,4.88,0.9,False,False,0.0,[],False, My little brother goes there.,5,task,Inform
+ES2009a,B,410.71,411.17,0.46,ES2009a.B.dialog-act.vkaraisk.19,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+ES2009a,A,412.03,412.57,0.54,ES2009a.A.dialog-act.vkaraisk.135,,,,,,,,,False, Right so,2,minor,Stall
+ES2009a,A,412.57,415.83,3.26,ES2009a.A.dialog-act.vkaraisk.136,,,,,,,,,False, desert island discs.,3,task,Suggest
+ES2009a,D,413.1,413.57,0.47,ES2009a.D.dialog-act.vkaraisk.29,,,,,,,,,False, So.,1,other,Other
+ES2009a,A,415.83,416.35,0.52,ES2009a.A.dialog-act.vkaraisk.137,,,,,,,,,False, Yeah.,1,other,Other
+ES2009a,D,416.84,416.91,0.07,ES2009a.D.dialog-act.vkaraisk.30,,,,,,,,,False, So,1,minor,Stall
+ES2009a,D,416.91,418.03,1.12,ES2009a.D.dialog-act.vkaraisk.31,D,A,0.0,4.88,True,False,0.0,[],True, do we have to wait for you to write it down,11,elicit,Elicit-Assessment
+ES2009a,D,418.03,419.47,1.44,ES2009a.D.dialog-act.vkaraisk.32,D,D,0.0,0.0,False,False,0.0,[],False, or are you gonna tell us?,6,elicit,Elicit-Inform
+ES2009a,A,419.26,419.53,0.27,ES2009a.A.dialog-act.vkaraisk.138,,,,,,,,,False, Well,1,minor,Stall
+ES2009a,D,419.47,420.29,0.82,ES2009a.D.dialog-act.vkaraisk.33,A,D,0.61,0.0,False,False,0.0,[],False, I'm waiting to know.,4,task,Inform
+ES2009a,A,419.53,420.01,0.48,ES2009a.A.dialog-act.vkaraisk.139,,,,,,,,,False, I'll t i,3,minor,Fragment
+ES2009a,A,420.01,420.9,0.89,ES2009a.A.dialog-act.vkaraisk.140,,,,,,,,,False, no no yeah,3,minor,Stall
+ES2009a,A,420.9,422.37,1.47,ES2009a.A.dialog-act.vkaraisk.141,A,D,0.0,0.61,True,False,0.0,[],True, I'm just gonna write a couple of 'em down.,9,other,Offer
+ES2009a,A,422.37,423.38,1.01,ES2009a.A.dialog-act.vkaraisk.142,A,A,0.0,0.0,False,False,0.0,[],False, See I'm a big music fan,6,task,Inform
+ES2009a,A,423.38,424.3,0.92,ES2009a.A.dialog-act.vkaraisk.143,A,A,0.0,0.0,False,False,0.0,[],False," I don't know if you guys are,",7,elicit,Elicit-Inform
+ES2009a,D,423.81,424.738,0.928,ES2009a.D.dialog-act.vkaraisk.34,,,,,,,,,False, Uh,1,other,Comment-About-Understanding
+ES2009a,A,424.3,427.1,2.8,ES2009a.A.dialog-act.vkaraisk.144,A,A,0.39,0.0,False,False,0.0,[],False, I'm assuming everybody likes music to some lesser or greater extent,11,task,Inform
+ES2009a,A,427.1,427.3,0.2,ES2009a.A.dialog-act.vkaraisk.145,,,,,,,,,False, but,1,minor,Fragment
+ES2009a,D,427.38,427.77,0.39,ES2009a.D.dialog-act.vkaraisk.35,,,,,,,,,False, Fair enough.,2,minor,Backchannel
+ES2009a,A,427.49,429.78,2.29,ES2009a.A.dialog-act.vkaraisk.146,A,A,0.48,0.39,False,False,0.0,[],False," there's some other options, if you're a T_V_ slut",9,task,Inform
+ES2009a,A,429.78,430.26,0.48,ES2009a.A.dialog-act.vkaraisk.147,,,,,,,,,False, like I am,3,task,Inform
+ES2009a,A,430.26,432.12,1.86,ES2009a.A.dialog-act.vkaraisk.148,A,A,0.0,0.48,False,False,0.0,[],False, like Smallville terrible television show,5,task,Assess
+ES2009a,C,430.608,431.04,0.432,ES2009a.C.dialog-act.vkaraisk.18,,,,,,,,,False,,0,minor,Fragment
+ES2009a,B,430.96,431.728,0.768,ES2009a.B.dialog-act.vkaraisk.20,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,431.78,434.29,2.51,ES2009a.D.dialog-act.vkaraisk.36,,,,,,,,,False," Oh, Smallville.",2,task,Assess
+ES2009a,A,432.12,433.29,1.17,ES2009a.A.dialog-act.vkaraisk.150,A,A,0.69,0.0,False,False,0.0,[],False," but I happen to love it,",6,task,Assess
+ES2009a,C,432.752,437.266,4.514,ES2009a.C.dialog-act.vkaraisk.19,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,433.29,433.98,0.69,ES2009a.A.dialog-act.vkaraisk.151,,,,,,,,,False, it's rubbish,2,task,Assess
+ES2009a,A,433.98,434.64,0.66,ES2009a.A.dialog-act.vkaraisk.152,D,A,-0.35,0.69,False,True,0.35,['ES2009a.D.dialog-act.vkaraisk.37'],False, but I love it.,4,task,Assess
+ES2009a,D,434.29,436.77,2.48,ES2009a.D.dialog-act.vkaraisk.37,A,A,0.2,-0.35,True,False,0.0,[],False, I went to high school with Tom Willing actually.,9,task,Inform
+ES2009a,A,436.97,438.72,1.75,ES2009a.A.dialog-act.vkaraisk.153,A,D,1.84,0.2,True,False,0.0,[],True, T the the main c the main character?,8,elicit,Elicit-Inform
+ES2009a,D,438.17,439.79,1.62,ES2009a.D.dialog-act.vkaraisk.38,,,,,,,,,False, The guy. Yeah.,3,task,Inform
+ES2009a,A,438.72,439.26,0.54,ES2009a.A.dialog-act.vkaraisk.154,,,,,,,,,False, Wow.,1,task,Assess
+ES2009a,A,440.56,441.33,0.77,ES2009a.A.dialog-act.vkaraisk.155,D,A,2.66,1.84,False,False,0.0,[],False, Is he a wanker?,4,elicit,Elicit-Inform
+ES2009a,D,441.4,442.9,1.5,ES2009a.D.dialog-act.vkaraisk.39,,,,,,,,,False, Yeah.,1,task,Inform
+ES2009a,C,441.712,442.928,1.216,ES2009a.C.dialog-act.vkaraisk.20,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,442.9,443.99,1.09,ES2009a.D.dialog-act.vkaraisk.40,,,,,,,,,False, Very much so.,3,task,Inform
+ES2009a,D,443.99,445.1,1.11,ES2009a.D.dialog-act.vkaraisk.41,D,A,0.0,2.66,True,False,0.0,[],True, Hell of a soccer player,5,task,Assess
+ES2009a,D,445.1,446.85,1.75,ES2009a.D.dialog-act.vkaraisk.42,A,D,-0.53,0.0,False,True,0.53,['ES2009a.A.dialog-act.vkaraisk.156'],False, but a total bastard nonetheless.,5,task,Assess
+ES2009a,A,446.32,447.37,1.05,ES2009a.A.dialog-act.vkaraisk.156,A,D,0.0,-0.53,True,False,0.0,[],False," He looks really tall,",4,task,Inform
+ES2009a,A,447.37,449.83,2.46,ES2009a.A.dialog-act.vkaraisk.157,D,A,-2.09,0.0,False,True,2.09,['ES2009a.D.dialog-act.vkaraisk.43'],False, like he's gotta be like six six.,7,task,Inform
+ES2009a,D,447.74,450.56,2.82,ES2009a.D.dialog-act.vkaraisk.43,A,A,2.31,-2.09,True,False,0.0,[],False, Yeah. He is a big guy. Yeah.,7,task,Assess
+ES2009a,A,449.83,452.87,3.04,ES2009a.A.dialog-act.vkaraisk.158,,,,,,,,,False, Yeah. Um okay so,4,minor,Stall
+ES2009a,A,452.87,454.75,1.88,ES2009a.A.dialog-act.vkaraisk.160,A,D,0.0,2.31,True,False,0.0,[],True, I really like Jeff Buckley.,5,task,Assess
+ES2009a,A,454.75,456.83,2.08,ES2009a.A.dialog-act.vkaraisk.161,A,A,1.72,0.0,False,False,0.0,[],False, You guys heard of Jeff Buckley?,6,elicit,Elicit-Inform
+ES2009a,D,455.87,456.12,0.25,ES2009a.D.dialog-act.vkaraisk.44,,,,,,,,,False, Mm-hmm.,1,task,Inform
+ES2009a,B,456.25,456.65,0.4,ES2009a.B.dialog-act.vkaraisk.21,,,,,,,,,False, Mm-hmm.,1,task,Inform
+ES2009a,A,456.83,458.55,1.72,ES2009a.A.dialog-act.vkaraisk.162,,,,,,,,,False, Um that's cool,3,task,Assess
+ES2009a,A,458.55,460.77,2.22,ES2009a.A.dialog-act.vkaraisk.163,A,A,3.01,1.72,False,False,0.0,[],False, 'cause like not very many people have.,7,task,Inform
+ES2009a,A,460.77,463.78,3.01,ES2009a.A.dialog-act.vkaraisk.164,,,,,,,,,False, Um and um oh well,5,minor,Stall
+ES2009a,A,463.78,465.37,1.59,ES2009a.A.dialog-act.vkaraisk.165,A,A,0.0,3.01,False,False,0.0,[],False, I might as well throw a British person in there,10,other,Offer
+ES2009a,A,465.37,467.81,2.44,ES2009a.A.dialog-act.vkaraisk.166,A,A,7.12,0.0,False,False,0.0,[],False, um you can't go wrong with Radiohead.,7,task,Assess
+ES2009a,C,465.648,466.512,0.864,ES2009a.C.dialog-act.vkaraisk.21,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,467.81,468.07,0.26,ES2009a.A.dialog-act.vkaraisk.167,,,,,,,,,False, It's a r,3,minor,Fragment
+ES2009a,D,468.46,468.97,0.51,ES2009a.D.dialog-act.vkaraisk.45,,,,,,,,,False, Good call.,2,task,Assess
+ES2009a,A,473.232,474.93,1.698,ES2009a.A.dialog-act.vkaraisk.168,,,,,,,,,False, Okay so,2,minor,Stall
+ES2009a,A,474.93,476.23,1.3,ES2009a.A.dialog-act.vkaraisk.169,A,A,0.0,7.12,False,False,0.0,[],False, it really works just like a pen,7,task,Inform
+ES2009a,A,476.23,477.98,1.75,ES2009a.A.dialog-act.vkaraisk.170,A,A,2.29,0.0,False,False,0.0,[],False, only makes noises I think.,5,task,Inform
+ES2009a,A,477.98,478.55,0.57,ES2009a.A.dialog-act.vkaraisk.171,,,,,,,,,False, It's kinda weird.,3,task,Assess
+ES2009a,A,478.55,479.43,0.88,ES2009a.A.dialog-act.vkaraisk.172,,,,,,,,,False, Anyway,1,other,Other
+ES2009a,D,478.62,479.28,0.66,ES2009a.D.dialog-act.vkaraisk.46,,,,,,,,,False, Interesting.,1,task,Assess
+ES2009a,A,479.43,480.27,0.84,ES2009a.A.dialog-act.vkaraisk.173,,,,,,,,,False," yeah. Yeah,",2,minor,Stall
+ES2009a,A,480.27,482.21,1.94,ES2009a.A.dialog-act.vkaraisk.174,A,A,2.8,2.29,False,False,0.0,[],False, you're like press and it's.,5,task,Inform
+ES2009a,D,481.6,483.616,2.016,ES2009a.D.dialog-act.vkaraisk.47,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,482.21,483.51,1.3,ES2009a.A.dialog-act.vkaraisk.175,,,,,,,,,False, Kinda cool.,2,task,Assess
+ES2009a,B,482.488,483.424,0.936,ES2009a.B.dialog-act.vkaraisk.22,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,483.51,484.26,0.75,ES2009a.A.dialog-act.vkaraisk.176,,,,,,,,,False, You'll see.,2,task,Inform
+ES2009a,A,484.26,485.01,0.75,ES2009a.A.dialog-act.vkaraisk.177,,,,,,,,,False, Alright so um,3,minor,Stall
+ES2009a,C,484.32,484.864,0.544,ES2009a.C.dialog-act.vkaraisk.22,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,485.01,489.4,4.39,ES2009a.A.dialog-act.vkaraisk.178,D,A,-0.08,2.8,False,True,0.08,['ES2009a.D.dialog-act.vkaraisk.48'],False," whoever wants to get up next, you can write down some telly that you watch or whatever you want.",19,task,Suggest
+ES2009a,D,489.32,491.4,2.08,ES2009a.D.dialog-act.vkaraisk.48,D,A,0.37,-0.08,True,False,0.0,[],False, I guess I'll go next then.,6,other,Offer
+ES2009a,C,490.49,491.47,0.98,ES2009a.C.dialog-act.vkaraisk.23,,,,,,,,,False, Go for it.,3,task,Suggest
+ES2009a,A,490.71,491.97,1.26,ES2009a.A.dialog-act.vkaraisk.179,,,,,,,,,False, Right on.,2,task,Assess
+ES2009a,D,491.4,491.77,0.37,ES2009a.D.dialog-act.vkaraisk.49,,,,,,,,,False, Okay.,1,task,Assess
+ES2009a,D,491.77,494.97,3.2,ES2009a.D.dialog-act.vkaraisk.50,D,D,1.3,0.37,False,False,0.0,[],False," Don't wanna lose all my mikes, plugged in here.",9,task,Inform
+ES2009a,D,494.97,496.27,1.3,ES2009a.D.dialog-act.vkaraisk.51,,,,,,,,,False, Okay.,1,minor,Stall
+ES2009a,D,496.27,498.45,2.18,ES2009a.D.dialog-act.vkaraisk.52,D,D,2.5,1.3,False,False,0.0,[],False, This is basically just pen practice,6,task,Inform
+ES2009a,D,498.45,499.97,1.52,ES2009a.D.dialog-act.vkaraisk.53,,,,,,,,,False, huh?,1,elicit,Elicit-Assessment
+ES2009a,A,499.92,500.1,0.18,ES2009a.A.dialog-act.vkaraisk.180,,,,,,,,,False, W,1,minor,Fragment
+ES2009a,D,499.97,500.95,0.98,ES2009a.D.dialog-act.vkaraisk.54,,,,,,,,,False, Okay.,1,minor,Stall
+ES2009a,D,500.95,502.07,1.12,ES2009a.D.dialog-act.vkaraisk.56,D,D,0.0,2.5,False,False,0.0,[],False, Oh you're much taller than me,6,task,Inform
+ES2009a,D,502.07,503.23,1.16,ES2009a.D.dialog-act.vkaraisk.57,D,D,4.5,0.0,False,False,0.0,[],False, so I'm gonna write down here.,6,other,Offer
+ES2009a,D,505.11,505.51,0.4,ES2009a.D.dialog-act.vkaraisk.58,,,,,,,,,False, Um.,1,minor,Stall
+ES2009a,D,507.73,513.98,6.25,ES2009a.D.dialog-act.vkaraisk.59,D,D,0.0,4.5,False,False,0.0,[],False," Right now I'm listening to a lot of somebody nobody's ever heard of, Chris Bathgate,",15,task,Inform
+ES2009a,A,513.93,514.29,0.36,ES2009a.A.dialog-act.vkaraisk.181,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2009a,D,513.98,516.48,2.5,ES2009a.D.dialog-act.vkaraisk.60,D,D,2.76,0.0,False,False,0.0,[],False," local Michigan folk singer,",4,task,Inform
+ES2009a,A,515.88,516.25,0.37,ES2009a.A.dialog-act.vkaraisk.182,,,,,,,,,False, Nice.,1,task,Assess
+ES2009a,B,516.1,516.51,0.41,ES2009a.B.dialog-act.vkaraisk.23,,,,,,,,,False, Wow.,1,task,Assess
+ES2009a,D,516.48,517.48,1.0,ES2009a.D.dialog-act.vkaraisk.61,,,,,,,,,False, really lame,2,task,Assess
+ES2009a,D,517.48,518.33,0.85,ES2009a.D.dialog-act.vkaraisk.62,,,,,,,,,False, and uh,2,minor,Fragment
+ES2009a,C,517.644,518.432,0.788,ES2009a.C.dialog-act.vkaraisk.24,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,519.24,520.4,1.16,ES2009a.D.dialog-act.vkaraisk.63,D,D,2.39,2.76,False,False,0.0,[],False, uh what else did I bring with me?,8,elicit,Elicit-Inform
+ES2009a,D,521.67,522.79,1.12,ES2009a.D.dialog-act.vkaraisk.64,,,,,,,,,False," Probably classical,",2,task,Inform
+ES2009a,D,522.79,524.13,1.34,ES2009a.D.dialog-act.vkaraisk.65,D,D,4.23,2.39,False,False,0.0,[],False," to totally geek it out,",5,task,Assess
+ES2009a,A,523.57,524.54,0.97,ES2009a.A.dialog-act.vkaraisk.183,,,,,,,,,False, Okay yeah yeah.,3,task,Assess
+ES2009a,D,524.13,525.15,1.02,ES2009a.D.dialog-act.vkaraisk.66,,,,,,,,,False, yeah I think.,3,task,Assess
+ES2009a,D,528.36,530.04,1.68,ES2009a.D.dialog-act.vkaraisk.67,D,D,0.0,4.23,False,False,0.0,[],False, And my family guy D_V_D_s,5,task,Inform
+ES2009a,A,529.98,530.18,0.2,ES2009a.A.dialog-act.vkaraisk.184,,,,,,,,,False, Well,1,minor,Stall
+ES2009a,D,530.04,531.85,1.81,ES2009a.D.dialog-act.vkaraisk.68,A,D,1.61,0.0,False,False,0.0,[],False, but we don't need to write that one down.,9,other,Offer
+ES2009a,A,530.18,531.5,1.32,ES2009a.A.dialog-act.vkaraisk.185,,,,,,,,,False, yeah.,1,other,Comment-About-Understanding
+ES2009a,A,531.5,531.74,0.24,ES2009a.A.dialog-act.vkaraisk.186,,,,,,,,,False," Oh,",1,minor,Stall
+ES2009a,A,531.74,532.86,1.12,ES2009a.A.dialog-act.vkaraisk.187,,,,,,,,,False, family guy.,2,task,Assess
+ES2009a,B,532.816,533.408,0.592,ES2009a.B.dialog-act.vkaraisk.24,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,532.86,533.46,0.6,ES2009a.A.dialog-act.vkaraisk.188,,,,,,,,,False, Isn't h has h,4,minor,Fragment
+ES2009a,A,533.46,534.58,1.12,ES2009a.A.dialog-act.vkaraisk.189,D,D,1.55,1.61,True,False,0.0,[],True, do you watch the new season?,6,elicit,Elicit-Inform
+ES2009a,D,534.93,536.13,1.2,ES2009a.D.dialog-act.vkaraisk.69,,,,,,,,,False, No.,1,task,Inform
+ES2009a,D,536.13,537.38,1.25,ES2009a.D.dialog-act.vkaraisk.70,D,A,0.0,1.55,True,False,0.0,[],True," Are you getting it online,",5,elicit,Elicit-Inform
+ES2009a,D,537.38,539.06,1.68,ES2009a.D.dialog-act.vkaraisk.71,A,D,-1.605,0.0,False,True,1.405,['ES2009a.A.dialog-act.vkaraisk.190'],False, or is it on sky?,5,elicit,Elicit-Inform
+ES2009a,A,537.455,538.86,1.405,ES2009a.A.dialog-act.vkaraisk.190,D,D,0.2,-1.605,True,False,0.0,[],False, I think I'm gonna start downloading it,7,other,Offer
+ES2009a,A,538.86,539.53,0.67,ES2009a.A.dialog-act.vkaraisk.191,,,,,,,,,False, yeah.,1,task,Inform
+ES2009a,D,539.06,540.49,1.43,ES2009a.D.dialog-act.vkaraisk.72,C,A,3.34,0.2,True,False,0.0,[],True," Yeah, that'd be nice.",4,task,Assess
+ES2009a,C,541.53,543.83,2.3,ES2009a.C.dialog-act.vkaraisk.25,,,,,,,,,False, Alright.,1,minor,Stall
+ES2009a,C,543.83,548.71,4.88,ES2009a.C.dialog-act.vkaraisk.26,C,D,21.4,3.34,True,False,0.0,[],True, Think I'm just gonna put down one uh one C_D_.,10,other,Offer
+ES2009a,C,563.74,564.53,0.79,ES2009a.C.dialog-act.vkaraisk.27,,,,,,,,,False, Anybody?,1,elicit,Elicit-Inform
+ES2009a,A,564.36,564.84,0.48,ES2009a.A.dialog-act.vkaraisk.192,,,,,,,,,False, Mm-mm.,1,task,Inform
+ES2009a,B,564.41,564.95,0.54,ES2009a.B.dialog-act.vkaraisk.25,,,,,,,,,False, No.,1,task,Inform
+ES2009a,C,564.53,565.73,1.2,ES2009a.C.dialog-act.vkaraisk.28,,,,,,,,,False, No? no?,2,elicit,Elicit-Inform
+ES2009a,D,564.99,565.61,0.62,ES2009a.D.dialog-act.vkaraisk.73,,,,,,,,,False, 'Fraid not.,2,task,Inform
+ES2009a,C,565.73,566.86,1.13,ES2009a.C.dialog-act.vkaraisk.30,,,,,,,,,False," Afro beat orchestra,",3,task,Inform
+ES2009a,C,566.86,568.56,1.7,ES2009a.C.dialog-act.vkaraisk.31,,,,,,,,,False, very cool.,2,task,Assess
+ES2009a,A,567.45,568.9,1.45,ES2009a.A.dialog-act.vkaraisk.193,,,,,,,,,False, Afro beat orchestra?,3,other,Comment-About-Understanding
+ES2009a,C,568.56,569.44,0.88,ES2009a.C.dialog-act.vkaraisk.32,,,,,,,,,False, Yeah.,1,task,Inform
+ES2009a,A,568.9,569.85,0.95,ES2009a.A.dialog-act.vkaraisk.194,,,,,,,,,False, Very cool. Mm.,3,task,Assess
+ES2009a,D,569.11,569.53,0.42,ES2009a.D.dialog-act.vkaraisk.74,,,,,,,,,False, Mm.,1,task,Assess
+ES2009a,C,569.44,570.11,0.67,ES2009a.C.dialog-act.vkaraisk.33,,,,,,,,,False, Fift S,2,minor,Fragment
+ES2009a,B,569.56,570.33,0.77,ES2009a.B.dialog-act.vkaraisk.26,,,,,,,,,False, Sounds nice.,2,task,Assess
+ES2009a,C,570.11,572.63,2.52,ES2009a.C.dialog-act.vkaraisk.34,C,C,0.0,21.4,False,False,0.0,[],False, they like fifteen members from Brooklyn.,6,task,Inform
+ES2009a,C,572.63,578.02,5.39,ES2009a.C.dialog-act.vkaraisk.35,C,C,0.24,0.0,False,False,0.0,[],False," Um and I'm hoping to go to the concert in Belgium, in Brussels in April first.",16,other,Offer
+ES2009a,A,576.56,577.11,0.55,ES2009a.A.dialog-act.vkaraisk.195,,,,,,,,,False, Wow.,1,task,Assess
+ES2009a,D,576.7,577.6,0.9,ES2009a.D.dialog-act.vkaraisk.75,,,,,,,,,False, Exciting.,1,task,Assess
+ES2009a,C,578.02,578.26,0.24,ES2009a.C.dialog-act.vkaraisk.36,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,C,578.26,580.03,1.77,ES2009a.C.dialog-act.vkaraisk.37,C,C,0.0,0.24,False,False,0.0,[],False, It's supposed to be in Brussels anyways.,7,task,Inform
+ES2009a,D,578.8,579.29,0.49,ES2009a.D.dialog-act.vkaraisk.77,,,,,,,,,False, That'd be.,2,minor,Fragment
+ES2009a,C,580.03,583.776,3.746,ES2009a.C.dialog-act.vkaraisk.38,D,C,0.634,0.0,False,False,0.0,[],False, Um thing I love about Edinburgh,6,task,Inform
+ES2009a,D,584.02,584.41,0.39,ES2009a.D.dialog-act.vkaraisk.78,,,,,,,,,False, Oh.,1,minor,Stall
+ES2009a,D,584.41,585.34,0.93,ES2009a.D.dialog-act.vkaraisk.79,D,C,1.0,0.634,True,False,0.0,[],True, I didn't even read those.,5,task,Inform
+ES2009a,D,585.91,586.34,0.43,ES2009a.D.dialog-act.vkaraisk.80,,,,,,,,,False, Oops.,1,task,Assess
+ES2009a,D,586.34,589.04,2.7,ES2009a.D.dialog-act.vkaraisk.81,A,D,-2.2,1.0,False,True,2.2,['ES2009a.A.dialog-act.vkaraisk.196'],False, I shouldn't admit that.,4,other,Be-Positive
+ES2009a,A,586.84,591.92,5.08,ES2009a.A.dialog-act.vkaraisk.196,D,D,-0.17,-2.2,True,True,0.17,['ES2009a.D.dialog-act.vkaraisk.83'],False, That's what a PowerPoint presentation is for. It's they're designed specifically to ignore. I it's th brilliant.,17,other,Be-Positive
+ES2009a,B,588.08,589.05,0.97,ES2009a.B.dialog-act.vkaraisk.27,,,,,,,,,False," Oh, wow.",2,other,Other
+ES2009a,D,590.79,591.75,0.96,ES2009a.D.dialog-act.vkaraisk.82,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,B,590.796,591.47,0.674,ES2009a.B.dialog-act.vkaraisk.28,,,,,,,,,False,,0,minor,Fragment
+ES2009a,C,591.376,591.824,0.448,ES2009a.C.dialog-act.vkaraisk.39,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,591.75,593.82,2.07,ES2009a.D.dialog-act.vkaraisk.83,A,A,0.75,-0.17,True,False,0.0,[],False," It's the five by five, I can't read that much.",10,task,Inform
+ES2009a,A,594.57,597.45,2.88,ES2009a.A.dialog-act.vkaraisk.197,D,D,0.88,0.75,True,False,0.0,[],True, Ah yes yes yes okay I see that.,8,other,Comment-About-Understanding
+ES2009a,D,596.416,598.33,1.914,ES2009a.D.dialog-act.vkaraisk.84,,,,,,,,,False, Yeah,1,other,Comment-About-Understanding
+ES2009a,A,597.45,597.86,0.41,ES2009a.A.dialog-act.vkaraisk.200,,,,,,,,,False, Vomit.,1,other,Comment-About-Understanding
+ES2009a,A,597.86,599.0,1.14,ES2009a.A.dialog-act.vkaraisk.201,,,,,,,,,False, Yes.,1,task,Assess
+ES2009a,D,598.33,602.75,4.42,ES2009a.D.dialog-act.vkaraisk.85,A,A,-0.042,0.88,True,True,0.042,['ES2009a.A.dialog-act.vkaraisk.203'],True, oh it's so horrible.,4,task,Assess
+ES2009a,C,598.986,603.648,4.662,ES2009a.C.dialog-act.vkaraisk.40,,,,,,,,,False, Love um,2,task,Assess
+ES2009a,A,599.0,599.94,0.94,ES2009a.A.dialog-act.vkaraisk.202,,,,,,,,,False, Street pizza.,2,other,Comment-About-Understanding
+ES2009a,A,599.94,601.04,1.1,ES2009a.A.dialog-act.vkaraisk.199,,,,,,,,,False, It's so brilliant.,3,task,Assess
+ES2009a,A,602.708,606.05,3.342,ES2009a.A.dialog-act.vkaraisk.203,C,D,-0.546,-0.042,True,True,0.546,['ES2009a.C.dialog-act.vkaraisk.41'],False," I've seen more urine in this city than ever before,",10,task,Inform
+ES2009a,D,604.98,606.07,1.09,ES2009a.D.dialog-act.vkaraisk.86,,,,,,,,,False, Oh my God.,3,other,Other
+ES2009a,C,605.504,608.33,2.826,ES2009a.C.dialog-act.vkaraisk.41,C,A,0.0,-0.546,True,False,0.0,[],False, I just came from Glasgow,5,task,Inform
+ES2009a,A,606.05,606.5,0.45,ES2009a.A.dialog-act.vkaraisk.204,,,,,,,,,False, I mean,2,minor,Fragment
+ES2009a,D,606.07,606.88,0.81,ES2009a.D.dialog-act.vkaraisk.87,,,,,,,,,False, Seriously?,1,elicit,Elicit-Inform
+ES2009a,C,608.33,613.87,5.54,ES2009a.C.dialog-act.vkaraisk.42,B,C,-3.5,0.0,False,True,0.91,['ES2009a.B.dialog-act.vkaraisk.29'],False, and I'm um happy to say that there's the there's the same quantity approximately.,14,task,Inform
+ES2009a,B,610.37,611.28,0.91,ES2009a.B.dialog-act.vkaraisk.29,A,C,15.69,-3.5,True,False,0.0,[],False, There's more vomit there.,4,task,Inform
+ES2009a,C,613.87,614.44,0.57,ES2009a.C.dialog-act.vkaraisk.43,,,,,,,,,False, Um.,1,minor,Stall
+ES2009a,A,614.4,615.71,1.31,ES2009a.A.dialog-act.vkaraisk.205,,,,,,,,,False, It's so minging.,3,task,Assess
+ES2009a,C,614.44,614.63,0.19,ES2009a.C.dialog-act.vkaraisk.44,,,,,,,,,False, I w,2,minor,Fragment
+ES2009a,D,616.2,618.352,2.152,ES2009a.D.dialog-act.vkaraisk.88,,,,,,,,,False, It really is,3,task,Assess
+ES2009a,A,616.95,617.67,0.72,ES2009a.A.dialog-act.vkaraisk.206,,,,,,,,,False, Uh.,1,task,Assess
+ES2009a,C,618.87,619.19,0.32,ES2009a.C.dialog-act.vkaraisk.45,,,,,,,,,False, Does,1,minor,Fragment
+ES2009a,C,619.19,621.25,2.06,ES2009a.C.dialog-act.vkaraisk.46,,,,,,,,,False, uh yeah.,2,minor,Stall
+ES2009a,C,621.25,624.9,3.65,ES2009a.C.dialog-act.vkaraisk.47,,,,,,,,,False, Ready?,1,elicit,Elicit-Inform
+ES2009a,B,621.64,622.12,0.48,ES2009a.B.dialog-act.vkaraisk.30,,,,,,,,,False, Alright. Yep.,2,task,Inform
+ES2009a,C,624.9,625.45,0.55,ES2009a.C.dialog-act.vkaraisk.48,,,,,,,,,False, Minging?,1,other,Comment-About-Understanding
+ES2009a,C,625.45,625.89,0.44,ES2009a.C.dialog-act.vkaraisk.49,,,,,,,,,False, Nice.,1,task,Assess
+ES2009a,D,626.28,627.29,1.01,ES2009a.D.dialog-act.vkaraisk.89,,,,,,,,,False, Yeah.,1,task,Inform
+ES2009a,A,626.97,628.83,1.86,ES2009a.A.dialog-act.vkaraisk.207,D,B,-1.54,15.69,True,True,0.96,['ES2009a.D.dialog-act.vkaraisk.91'],True, I'm going local. Going local.,5,task,Inform
+ES2009a,D,627.29,628.25,0.96,ES2009a.D.dialog-act.vkaraisk.91,A,A,0.58,-1.54,True,False,0.0,[],False, Slide it in there.,4,other,Be-Positive
+ES2009a,D,628.25,628.59,0.34,ES2009a.D.dialog-act.vkaraisk.90,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,A,628.83,630.1,1.27,ES2009a.A.dialog-act.vkaraisk.208,A,D,0.0,0.58,True,False,0.0,[],True, I have to be here for three years,8,task,Inform
+ES2009a,A,630.1,631.79,1.69,ES2009a.A.dialog-act.vkaraisk.209,D,A,0.25,0.0,False,False,0.0,[],False, so I might as well get the terminology right.,9,other,Offer
+ES2009a,D,630.26,630.83,0.57,ES2009a.D.dialog-act.vkaraisk.92,,,,,,,,,False, Yeah fair enough.,3,task,Assess
+ES2009a,D,632.04,633.89,1.85,ES2009a.D.dialog-act.vkaraisk.93,D,A,0.0,0.25,True,False,0.0,[],True, I've already got more than I can keep track of.,10,task,Inform
+ES2009a,D,633.89,635.15,1.26,ES2009a.D.dialog-act.vkaraisk.94,D,D,0.0,0.0,False,False,0.0,[],False, And I'm gonna go home next week,7,task,Inform
+ES2009a,D,635.15,638.56,3.41,ES2009a.D.dialog-act.vkaraisk.95,A,D,-0.99,0.0,False,True,0.99,['ES2009a.A.dialog-act.vkaraisk.211'],False," and everyone's gonna be like oh my God you're turning into one of those people,",15,task,Inform
+ES2009a,A,636.9,637.57,0.67,ES2009a.A.dialog-act.vkaraisk.210,,,,,,,,,False," Oh,",1,minor,Stall
+ES2009a,A,637.57,638.87,1.3,ES2009a.A.dialog-act.vkaraisk.211,A,D,0.0,-0.99,True,False,0.0,[],False, have you been home yet?,5,elicit,Elicit-Inform
+ES2009a,C,637.587,638.101,0.514,ES2009a.C.dialog-act.vkaraisk.50,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,638.56,639.02,0.46,ES2009a.D.dialog-act.vkaraisk.96,,,,,,,,,False, no.,1,task,Inform
+ES2009a,A,638.87,640.59,1.72,ES2009a.A.dialog-act.vkaraisk.212,A,A,0.0,0.0,False,False,0.0,[],False," They'll be like, say something British,",6,task,Inform
+ES2009a,A,640.59,645.552,4.962,ES2009a.A.dialog-act.vkaraisk.213,D,A,-4.672,0.0,False,True,2.59,"['ES2009a.D.dialog-act.vkaraisk.97', 'ES2009a.D.dialog-act.vkaraisk.98', 'ES2009a.D.dialog-act.vkaraisk.99']",False, and you're like oh shut up family.,7,task,Inform
+ES2009a,D,640.88,643.47,2.59,ES2009a.D.dialog-act.vkaraisk.97,D,A,0.0,-4.672,True,False,0.0,[],False, I know. I know.,4,task,Assess
+ES2009a,C,642.28,642.46,0.18,ES2009a.C.dialog-act.vkaraisk.51,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+ES2009a,B,643.25,644.256,1.006,ES2009a.B.dialog-act.vkaraisk.31,,,,,,,,,False, Um,1,minor,Stall
+ES2009a,D,643.47,645.52,2.05,ES2009a.D.dialog-act.vkaraisk.98,D,D,0.0,0.0,False,False,0.0,[],False, Oh it should be interesting.,5,task,Assess
+ES2009a,D,645.52,647.01,1.49,ES2009a.D.dialog-act.vkaraisk.99,D,D,1.18,0.0,False,False,0.0,[],False, Wait until I tell them I'm not coming back.,9,task,Inform
+ES2009a,B,645.86,646.8,0.94,ES2009a.B.dialog-act.vkaraisk.32,,,,,,,,,False, Let's see.,2,other,Other
+ES2009a,C,647.312,650.352,3.04,ES2009a.C.dialog-act.vkaraisk.52,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,647.792,649.77,1.978,ES2009a.A.dialog-act.vkaraisk.214,,,,,,,,,False, Right,1,minor,Stall
+ES2009a,D,648.19,649.19,1.0,ES2009a.D.dialog-act.vkaraisk.100,A,D,0.58,1.18,False,False,0.0,[],False, They're gonna love that one.,5,task,Inform
+ES2009a,A,649.77,650.91,1.14,ES2009a.A.dialog-act.vkaraisk.215,D,D,1.12,0.58,True,False,0.0,[],True, you s you're gonna stay here?,6,elicit,Elicit-Inform
+ES2009a,D,651.08,652.03,0.95,ES2009a.D.dialog-act.vkaraisk.101,,,,,,,,,False, Probably.,1,task,Inform
+ES2009a,D,652.03,653.5,1.47,ES2009a.D.dialog-act.vkaraisk.102,B,A,2.89,1.12,True,False,0.0,[],True, Or at least get a work visa for a while,10,other,Offer
+ES2009a,A,652.07,653.06,0.99,ES2009a.A.dialog-act.vkaraisk.216,,,,,,,,,False, Wow.,1,task,Assess
+ES2009a,D,653.5,654.28,0.78,ES2009a.D.dialog-act.vkaraisk.103,,,,,,,,,False, and then decide.,3,other,Offer
+ES2009a,C,654.448,655.14,0.692,ES2009a.C.dialog-act.vkaraisk.53,,,,,,,,,False, Nice.,1,task,Assess
+ES2009a,D,654.84,656.3,1.46,ES2009a.D.dialog-act.vkaraisk.104,,,,,,,,,False, 'Cause,1,minor,Fragment
+ES2009a,A,654.96,655.7,0.74,ES2009a.A.dialog-act.vkaraisk.217,,,,,,,,,False, Bad religion?,2,other,Comment-About-Understanding
+ES2009a,B,655.88,656.39,0.51,ES2009a.B.dialog-act.vkaraisk.33,,,,,,,,,False," Yeah,",1,task,Inform
+ES2009a,D,656.3,657.12,0.82,ES2009a.D.dialog-act.vkaraisk.105,,,,,,,,,False, nice.,1,task,Assess
+ES2009a,B,656.39,658.04,1.65,ES2009a.B.dialog-act.vkaraisk.34,D,D,2.5,2.89,True,False,0.0,[],True, that's the music I grew up listening to.,8,task,Inform
+ES2009a,D,658.12,658.88,0.76,ES2009a.D.dialog-act.vkaraisk.106,,,,,,,,,False, Of course.,2,other,Comment-About-Understanding
+ES2009a,A,658.23,659.03,0.8,ES2009a.A.dialog-act.vkaraisk.218,,,,,,,,,False," Yeah yeah, yeah.",3,other,Comment-About-Understanding
+ES2009a,C,659.265,659.889,0.624,ES2009a.C.dialog-act.vkaraisk.54,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,659.99,660.54,0.55,ES2009a.D.dialog-act.vkaraisk.107,,,,,,,,,False," Oh,",1,minor,Stall
+ES2009a,B,660.13,661.824,1.694,ES2009a.B.dialog-act.vkaraisk.35,,,,,,,,,False, And so there,3,minor,Fragment
+ES2009a,D,660.54,662.03,1.49,ES2009a.D.dialog-act.vkaraisk.108,D,B,1.05,2.5,True,False,0.0,[],True, now I can think of so many other ones.,9,task,Inform
+ES2009a,A,662.2,662.5,0.3,ES2009a.A.dialog-act.vkaraisk.219,,,,,,,,,False, Well,1,minor,Stall
+ES2009a,A,662.5,662.68,0.18,ES2009a.A.dialog-act.vkaraisk.220,,,,,,,,,False, yeah,1,task,Assess
+ES2009a,A,662.68,663.72,1.04,ES2009a.A.dialog-act.vkaraisk.221,,,,,,,,,False, that's why,2,minor,Fragment
+ES2009a,D,663.08,663.9,0.82,ES2009a.D.dialog-act.vkaraisk.109,B,D,0.2,1.05,False,False,0.0,[],False, That's how it works.,4,task,Inform
+ES2009a,A,663.72,664.08,0.36,ES2009a.A.dialog-act.vkaraisk.222,,,,,,,,,False, yeah.,1,task,Assess
+ES2009a,B,664.1,665.94,1.84,ES2009a.B.dialog-act.vkaraisk.36,B,D,5.73,0.2,True,False,0.0,[],True, Something I miss about my hometown.,6,other,Offer
+ES2009a,A,668.44,670.52,2.08,ES2009a.A.dialog-act.vkaraisk.223,,,,,,,,,False, I miss coffee.,3,task,Inform
+ES2009a,B,669.57,670.4,0.83,ES2009a.B.dialog-act.vkaraisk.37,,,,,,,,,False, Burritos,1,task,Inform
+ES2009a,D,669.78,671.55,1.77,ES2009a.D.dialog-act.vkaraisk.110,,,,,,,,,False, Mm.,1,minor,Stall
+ES2009a,C,670.47,670.97,0.5,ES2009a.C.dialog-act.vkaraisk.55,,,,,,,,,False, Nice.,1,task,Assess
+ES2009a,A,670.52,671.38,0.86,ES2009a.A.dialog-act.vkaraisk.224,,,,,,,,,False, Burritos.,1,task,Assess
+ES2009a,D,671.55,672.332,0.782,ES2009a.D.dialog-act.vkaraisk.111,,,,,,,,,False, Oh,1,task,Assess
+ES2009a,B,671.67,675.94,4.27,ES2009a.B.dialog-act.vkaraisk.38,D,B,-2.926,5.73,False,True,2.626,"['ES2009a.D.dialog-act.vkaraisk.112', 'ES2009a.A.dialog-act.vkaraisk.227']",False, that cost less than eight Pounds.,6,task,Inform
+ES2009a,D,673.014,675.64,2.626,ES2009a.D.dialog-act.vkaraisk.112,A,B,0.11,-2.926,True,False,0.0,[],False, Any thing that are like free.,6,task,Inform
+ES2009a,A,673.09,673.4,0.31,ES2009a.A.dialog-act.vkaraisk.225,,,,,,,,,False, Oh yeah,2,task,Assess
+ES2009a,A,673.4,674.39,0.99,ES2009a.A.dialog-act.vkaraisk.226,,,,,,,,,False, two two bucks.,3,task,Inform
+ES2009a,A,675.75,677.16,1.41,ES2009a.A.dialog-act.vkaraisk.227,B,D,-0.08,0.11,True,True,0.08,['ES2009a.B.dialog-act.vkaraisk.39'],True, Where are you from in California by the way?,9,elicit,Elicit-Inform
+ES2009a,C,675.856,676.231,0.375,ES2009a.C.dialog-act.vkaraisk.56,,,,,,,,,False,,0,minor,Fragment
+ES2009a,B,677.08,678.14,1.06,ES2009a.B.dialog-act.vkaraisk.39,A,A,3.48,-0.08,True,False,0.0,[],False," I grew up in San Diego,",6,task,Inform
+ES2009a,B,678.14,678.65,0.51,ES2009a.B.dialog-act.vkaraisk.41,,,,,,,,,False, but,1,minor,Fragment
+ES2009a,A,678.24,678.57,0.33,ES2009a.A.dialog-act.vkaraisk.228,,,,,,,,,False, Did you really?,3,elicit,Elicit-Inform
+ES2009a,A,678.57,679.03,0.46,ES2009a.A.dialog-act.vkaraisk.229,,,,,,,,,False, What part?,2,elicit,Elicit-Inform
+ES2009a,B,678.65,680.17,1.52,ES2009a.B.dialog-act.vkaraisk.42,,,,,,,,,False, yeah um,2,minor,Stall
+ES2009a,B,680.17,683.26,3.09,ES2009a.B.dialog-act.vkaraisk.40,,,,,,,,,False," La Jolla, P_B_.",3,task,Inform
+ES2009a,A,681.47,681.62,0.15,ES2009a.A.dialog-act.vkaraisk.230,,,,,,,,,False, Yeah,1,minor,Stall
+ES2009a,A,681.62,682.41,0.79,ES2009a.A.dialog-act.vkaraisk.231,B,B,2.01,3.48,True,False,0.0,[],True, I'm from San Diego as well.,6,task,Inform
+ES2009a,D,683.89,685.143,1.253,ES2009a.D.dialog-act.vkaraisk.113,,,,,,,,,False, Nice.,1,task,Assess
+ES2009a,A,684.05,685.25,1.2,ES2009a.A.dialog-act.vkaraisk.232,,,,,,,,,False, Yeah oh man.,3,other,Other
+ES2009a,B,684.42,686.86,2.44,ES2009a.B.dialog-act.vkaraisk.43,B,A,1.53,2.01,True,False,0.0,[],True," But really uh I last lived in San Francisco,",9,task,Inform
+ES2009a,B,686.86,688.3,1.44,ES2009a.B.dialog-act.vkaraisk.44,,,,,,,,,False, I haven't lived in Cali,5,minor,Fragment
+ES2009a,B,688.3,688.39,0.09,ES2009a.B.dialog-act.vkaraisk.45,,,,,,,,,False, well,1,minor,Stall
+ES2009a,B,688.39,690.5,2.11,ES2009a.B.dialog-act.vkaraisk.46,A,B,1.48,1.53,False,False,0.0,[],False, I haven't lived in southern California since I was eighteen.,10,task,Inform
+ES2009a,A,690.52,691.98,1.46,ES2009a.A.dialog-act.vkaraisk.233,,,,,,,,,False, Going to s like North Carol,6,minor,Fragment
+ES2009a,A,691.98,696.24,4.26,ES2009a.A.dialog-act.vkaraisk.234,B,B,1.48,1.48,True,False,0.0,[],True, I'm sorry you you just can't get a better burrito than what's available in the s in San Diego.,19,task,Inform
+ES2009a,B,696.91,697.72,0.81,ES2009a.B.dialog-act.vkaraisk.47,,,,,,,,,False, It's different.,2,task,Assess
+ES2009a,B,697.72,700.53,2.81,ES2009a.B.dialog-act.vkaraisk.48,B,A,0.0,1.48,True,False,0.0,[],True, 'Cause in San Diego th the tortillas are cooked on the grill,12,task,Inform
+ES2009a,B,700.53,702.55,2.02,ES2009a.B.dialog-act.vkaraisk.49,D,B,1.26,0.0,False,False,0.0,[],False, and in northern California they steam them.,7,task,Inform
+ES2009a,D,703.81,707.584,3.774,ES2009a.D.dialog-act.vkaraisk.114,B,B,-2.574,1.26,True,True,0.92,"['ES2009a.B.dialog-act.vkaraisk.50', 'ES2009a.A.dialog-act.vkaraisk.237']",True, It must make all the difference.,6,task,Inform
+ES2009a,B,705.01,705.93,0.92,ES2009a.B.dialog-act.vkaraisk.50,A,D,1.63,-2.574,True,False,0.0,[],False," Yeah, it really does.",4,task,Assess
+ES2009a,A,705.94,706.3,0.36,ES2009a.A.dialog-act.vkaraisk.235,,,,,,,,,False, Well,1,minor,Stall
+ES2009a,A,706.3,707.56,1.26,ES2009a.A.dialog-act.vkaraisk.236,,,,,,,,,False, it's it's i,3,minor,Fragment
+ES2009a,A,707.56,708.56,1.0,ES2009a.A.dialog-act.vkaraisk.237,A,B,0.37,1.63,True,False,0.0,[],True, there's other things too,4,task,Inform
+ES2009a,A,708.56,708.93,0.37,ES2009a.A.dialog-act.vkaraisk.238,,,,,,,,,False, there's,1,minor,Fragment
+ES2009a,A,708.93,709.88,0.95,ES2009a.A.dialog-act.vkaraisk.239,A,A,0.13,0.37,False,False,0.0,[],False, you just can't place it,5,task,Inform
+ES2009a,D,709.31,709.64,0.33,ES2009a.D.dialog-act.vkaraisk.115,,,,,,,,,False, Ah.,1,minor,Backchannel
+ES2009a,A,709.88,710.01,0.13,ES2009a.A.dialog-act.vkaraisk.240,,,,,,,,,False, like,1,minor,Stall
+ES2009a,A,710.01,711.93,1.92,ES2009a.A.dialog-act.vkaraisk.241,A,A,0.0,0.13,False,False,0.0,[],False, I when I went to school in the U_ in Santa Barbara,12,task,Inform
+ES2009a,A,711.93,713.4,1.47,ES2009a.A.dialog-act.vkaraisk.242,A,A,0.41,0.0,False,False,0.0,[],False, which is central California,4,task,Inform
+ES2009a,A,713.81,715.74,1.93,ES2009a.A.dialog-act.vkaraisk.243,A,A,0.0,0.41,False,False,0.0,[],False," the Mexican food is okay,",5,task,Assess
+ES2009a,A,715.74,717.07,1.33,ES2009a.A.dialog-act.vkaraisk.244,A,A,0.21,0.0,False,False,0.0,[],False, it's just not good,4,task,Assess
+ES2009a,A,717.07,717.28,0.21,ES2009a.A.dialog-act.vkaraisk.245,,,,,,,,,False, like,1,minor,Stall
+ES2009a,B,717.08,717.83,0.75,ES2009a.B.dialog-act.vkaraisk.51,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2009a,A,717.28,718.68,1.4,ES2009a.A.dialog-act.vkaraisk.246,A,A,0.0,0.21,False,False,0.0,[],False," and yeah it's like two bucks,",6,task,Assess
+ES2009a,A,718.68,721.09,2.41,ES2009a.A.dialog-act.vkaraisk.247,A,A,0.96,0.0,False,False,0.0,[],False, like literally two bucks for this massive,7,task,Inform
+ES2009a,D,720.66,721.05,0.39,ES2009a.D.dialog-act.vkaraisk.116,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2009a,A,721.09,721.54,0.45,ES2009a.A.dialog-act.vkaraisk.248,,,,,,,,,False, I miss,2,minor,Fragment
+ES2009a,A,721.54,722.05,0.51,ES2009a.A.dialog-act.vkaraisk.249,,,,,,,,,False, yeah,1,minor,Stall
+ES2009a,A,722.05,722.84,0.79,ES2009a.A.dialog-act.vkaraisk.250,B,A,0.93,0.96,False,False,0.0,[],False, good call on that.,4,task,Assess
+ES2009a,B,722.89,723.77,0.88,ES2009a.B.dialog-act.vkaraisk.52,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,B,723.77,724.7,0.93,ES2009a.B.dialog-act.vkaraisk.53,A,A,0.36,0.93,True,False,0.0,[],True, Where you from in San Diego?,6,elicit,Elicit-Inform
+ES2009a,D,724.19,724.64,0.45,ES2009a.D.dialog-act.vkaraisk.117,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2009a,A,725.06,728.08,3.02,ES2009a.A.dialog-act.vkaraisk.251,A,B,0.0,0.36,True,False,0.0,[],True," Um just literally just metropolitan San Diego,",7,task,Inform
+ES2009a,A,728.08,730.12,2.04,ES2009a.A.dialog-act.vkaraisk.252,A,A,0.12,0.0,False,False,0.0,[],False, I live like five minutes from the zoo.,8,task,Inform
+ES2009a,B,729.64,729.96,0.32,ES2009a.B.dialog-act.vkaraisk.54,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+ES2009a,A,730.12,730.24,0.12,ES2009a.A.dialog-act.vkaraisk.253,,,,,,,,,False, So,1,minor,Stall
+ES2009a,A,730.24,732.12,1.88,ES2009a.A.dialog-act.vkaraisk.254,B,A,-0.24,0.12,False,True,0.24,['ES2009a.B.dialog-act.vkaraisk.56'],False, North Park actually if you want to get real specific.,10,task,Inform
+ES2009a,B,731.6,731.88,0.28,ES2009a.B.dialog-act.vkaraisk.55,,,,,,,,,False," Yeah,",1,minor,Stall
+ES2009a,B,731.88,734.46,2.58,ES2009a.B.dialog-act.vkaraisk.56,B,A,2.69,-0.24,True,False,0.0,[],False, my grandparents lived on um thirty second.,7,task,Inform
+ES2009a,A,734.62,734.78,0.16,ES2009a.A.dialog-act.vkaraisk.255,,,,,,,,,False, Yep.,1,other,Comment-About-Understanding
+ES2009a,B,736.72,737.15,0.43,ES2009a.B.dialog-act.vkaraisk.57,,,,,,,,,False, Close t,2,minor,Fragment
+ES2009a,B,737.15,739.41,2.26,ES2009a.B.dialog-act.vkaraisk.58,A,B,2.63,2.69,False,False,0.0,[],False," uh do you know where Clare de Lune coffee shop is,",11,elicit,Elicit-Inform
+ES2009a,A,739.0,739.58,0.58,ES2009a.A.dialog-act.vkaraisk.256,,,,,,,,,False, Yes.,1,task,Inform
+ES2009a,B,739.41,739.63,0.22,ES2009a.B.dialog-act.vkaraisk.59,,,,,,,,,False, and,1,minor,Fragment
+ES2009a,A,739.58,740.51,0.93,ES2009a.A.dialog-act.vkaraisk.257,,,,,,,,,False," On university,",2,task,Inform
+ES2009a,B,740.51,741.664,1.154,ES2009a.B.dialog-act.vkaraisk.60,,,,,,,,,False, Cafe Forte,2,elicit,Elicit-Inform
+ES2009a,A,740.51,741.81,1.3,ES2009a.A.dialog-act.vkaraisk.258,,,,,,,,,False, yeah.,1,task,Inform
+ES2009a,A,741.81,742.04,0.23,ES2009a.A.dialog-act.vkaraisk.259,,,,,,,,,False, Yeah,1,task,Inform
+ES2009a,A,742.04,745.54,3.5,ES2009a.A.dialog-act.vkaraisk.260,A,B,1.78,2.63,True,False,0.0,[],True, it's actually like literally half a mile from my house.,10,task,Inform
+ES2009a,B,744.89,745.23,0.34,ES2009a.B.dialog-act.vkaraisk.61,,,,,,,,,False, Cool.,1,other,Be-Positive
+ES2009a,A,745.54,745.74,0.2,ES2009a.A.dialog-act.vkaraisk.261,,,,,,,,,False," Yeah,",1,task,Assess
+ES2009a,A,745.74,746.18,0.44,ES2009a.A.dialog-act.vkaraisk.262,,,,,,,,,False, pretty cool.,2,other,Be-Positive
+ES2009a,A,746.18,747.32,1.14,ES2009a.A.dialog-act.vkaraisk.263,,,,,,,,,False, Small world,2,task,Inform
+ES2009a,B,747.05,747.39,0.34,ES2009a.B.dialog-act.vkaraisk.62,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,A,747.32,748.6,1.28,ES2009a.A.dialog-act.vkaraisk.264,A,A,0.37,1.78,False,False,0.0,[],False, as we were discussing before.,5,task,Inform
+ES2009a,A,748.97,753.1,4.13,ES2009a.A.dialog-act.vkaraisk.265,A,A,0.92,0.37,False,False,0.0,[],False, Especially when we're all from the same general region.,9,task,Inform
+ES2009a,A,753.1,754.02,0.92,ES2009a.A.dialog-act.vkaraisk.266,,,,,,,,,False," Right so okay,",3,minor,Stall
+ES2009a,A,754.02,755.83,1.81,ES2009a.A.dialog-act.vkaraisk.267,A,A,0.0,0.92,False,False,0.0,[],False, success on the whiteboard.,4,task,Assess
+ES2009a,D,755.62,756.19,0.57,ES2009a.D.dialog-act.vkaraisk.118,,,,,,,,,False, There you go.,3,task,Assess
+ES2009a,A,755.83,756.95,1.12,ES2009a.A.dialog-act.vkaraisk.268,A,A,0.0,0.0,False,False,0.0,[],False, You can harness the awesome power,6,task,Inform
+ES2009a,C,756.368,756.976,0.608,ES2009a.C.dialog-act.vkaraisk.57,,,,,,,,,False,,0,minor,Fragment
+ES2009a,B,756.75,757.25,0.5,ES2009a.B.dialog-act.vkaraisk.63,,,,,,,,,False, Wow.,1,other,Other
+ES2009a,A,756.95,759.51,2.56,ES2009a.A.dialog-act.vkaraisk.269,A,A,0.0,0.0,False,False,0.0,[],False, a little bit introductions we talked about some of our C_D_s,11,task,Inform
+ES2009a,A,759.51,761.17,1.66,ES2009a.A.dialog-act.vkaraisk.270,A,A,2.88,0.0,False,False,0.0,[],False, and things we like about the city,7,task,Inform
+ES2009a,A,761.17,761.5,0.33,ES2009a.A.dialog-act.vkaraisk.271,,,,,,,,,False," you know,",2,minor,Stall
+ES2009a,A,761.5,761.952,0.452,ES2009a.A.dialog-act.vkaraisk.272,,,,,,,,,False, I think we'll,3,minor,Fragment
+ES2009a,C,762.176,762.896,0.72,ES2009a.C.dialog-act.vkaraisk.58,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,762.74,764.05,1.31,ES2009a.A.dialog-act.vkaraisk.273,,,,,,,,,False, Um right so,3,minor,Stall
+ES2009a,D,762.857,763.683,0.826,ES2009a.D.dialog-act.vkaraisk.119,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,764.05,765.85,1.8,ES2009a.A.dialog-act.vkaraisk.274,A,A,2.57,2.88,False,False,0.0,[],False, moving on to not fun stuff,6,task,Suggest
+ES2009a,A,765.85,767.41,1.56,ES2009a.A.dialog-act.vkaraisk.275,,,,,,,,,False, uh project finance.,3,task,Suggest
+ES2009a,C,766.32,766.736,0.416,ES2009a.C.dialog-act.vkaraisk.59,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,767.41,768.42,1.01,ES2009a.A.dialog-act.vkaraisk.276,,,,,,,,,False, Um basically,2,minor,Stall
+ES2009a,A,768.42,772.072,3.652,ES2009a.A.dialog-act.vkaraisk.277,A,A,1.008,2.57,False,False,0.0,[],False, what we're trying to do is sell this remote for twenty five Euros. Um.,14,task,Inform
+ES2009a,A,773.08,775.92,2.84,ES2009a.A.dialog-act.vkaraisk.278,A,A,0.0,1.008,False,False,0.0,[],False," This is what the finance department has told me, the C_F_O_",11,task,Inform
+ES2009a,A,775.92,777.5,1.58,ES2009a.A.dialog-act.vkaraisk.279,A,A,0.0,0.0,False,False,0.0,[],False," but I don't know,",4,task,Assess
+ES2009a,A,777.5,778.67,1.17,ES2009a.A.dialog-act.vkaraisk.280,A,A,2.43,0.0,False,False,0.0,[],False," I'm not sold on this,",5,task,Assess
+ES2009a,A,778.67,779.75,1.08,ES2009a.A.dialog-act.vkaraisk.281,,,,,,,,,False," it's pretty dear,",3,task,Assess
+ES2009a,A,779.75,780.6,0.85,ES2009a.A.dialog-act.vkaraisk.282,,,,,,,,,False, I mean,2,minor,Stall
+ES2009a,A,780.6,781.1,0.5,ES2009a.A.dialog-act.vkaraisk.283,,,,,,,,,False, twenty f,2,minor,Fragment
+ES2009a,A,781.1,783.48,2.38,ES2009a.A.dialog-act.vkaraisk.284,A,A,0.0,2.43,False,False,0.0,[],False, that's like you know forty bucks for a remote.,9,task,Inform
+ES2009a,A,783.48,786.19,2.71,ES2009a.A.dialog-act.vkaraisk.285,A,A,0.67,0.0,False,False,0.0,[],False, It would have to pretty much like do my laundry for me.,12,task,Inform
+ES2009a,D,785.98,786.33,0.35,ES2009a.D.dialog-act.vkaraisk.120,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2009a,A,786.19,786.66,0.47,ES2009a.A.dialog-act.vkaraisk.286,,,,,,,,,False, Um so,2,minor,Stall
+ES2009a,A,786.66,786.86,0.2,ES2009a.A.dialog-act.vkaraisk.287,,,,,,,,,False, what,1,minor,Fragment
+ES2009a,A,786.86,788.43,1.57,ES2009a.A.dialog-act.vkaraisk.288,A,A,0.0,0.67,False,False,0.0,[],False, we can maybe work on that a later,8,task,Suggest
+ES2009a,A,788.43,789.96,1.53,ES2009a.A.dialog-act.vkaraisk.289,A,A,0.0,0.0,False,False,0.0,[],False," but we're gonna make a lot on it,",8,task,Inform
+ES2009a,A,789.96,792.21,2.25,ES2009a.A.dialog-act.vkaraisk.290,A,A,4.03,0.0,False,False,0.0,[],False, the profit aims to make fifty million Euros on it.,10,task,Inform
+ES2009a,A,792.37,793.84,1.47,ES2009a.A.dialog-act.vkaraisk.291,,,,,,,,,False, Eur internationally.,2,task,Inform
+ES2009a,A,793.84,796.24,2.4,ES2009a.A.dialog-act.vkaraisk.292,,,,,,,,,False, So um,2,minor,Stall
+ES2009a,A,796.24,804.45,8.21,ES2009a.A.dialog-act.vkaraisk.293,A,A,2.32,4.03,False,False,0.0,[],False, one of the things I I was gonna mention to you um you guys the designers is that um it m we probably need a rever it needs to be a universal remote control probably.,35,task,Suggest
+ES2009a,B,804.59,804.87,0.28,ES2009a.B.dialog-act.vkaraisk.64,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+ES2009a,A,804.97,806.77,1.8,ES2009a.A.dialog-act.vkaraisk.294,,,,,,,,,False, Um so,2,minor,Stall
+ES2009a,A,806.77,812.42,5.65,ES2009a.A.dialog-act.vkaraisk.295,A,A,1.77,2.32,False,False,0.0,[],False, something that could do N_T_S_C_ as well as PAL as well as various other formats like if it's gonna control D_V_D_s,21,task,Suggest
+ES2009a,D,807.76,808.49,0.73,ES2009a.D.dialog-act.vkaraisk.121,,,,,,,,,False, Makes sense.,2,task,Assess
+ES2009a,D,812.12,812.4,0.28,ES2009a.D.dialog-act.vkaraisk.122,,,,,,,,,False, Uh.,1,minor,Backchannel
+ES2009a,A,812.42,814.19,1.77,ES2009a.A.dialog-act.vkaraisk.296,,,,,,,,,False, but um you know,4,minor,Stall
+ES2009a,A,814.19,815.03,0.84,ES2009a.A.dialog-act.vkaraisk.297,A,A,0.73,1.77,False,False,0.0,[],False, I'll leave that to you guys,6,other,Offer
+ES2009a,A,815.03,815.76,0.73,ES2009a.A.dialog-act.vkaraisk.298,,,,,,,,,False, but that's something that i i,6,minor,Fragment
+ES2009a,A,815.76,818.281,2.521,ES2009a.A.dialog-act.vkaraisk.299,A,A,0.019,0.73,False,False,0.0,[],False, it is gonna be an international sold thing.,8,task,Inform
+ES2009a,A,818.3,821.54,3.24,ES2009a.A.dialog-act.vkaraisk.300,A,A,0.0,0.019,False,False,0.0,[],False, Um but we wanna try to make it for twelve fifty.,11,task,Inform
+ES2009a,A,821.54,824.42,2.88,ES2009a.A.dialog-act.vkaraisk.301,A,A,2.76,0.0,False,False,0.0,[],False, So we wanna try to make a hundred percent profit on it if we can.,15,task,Inform
+ES2009a,A,825.322,827.18,1.858,ES2009a.A.dialog-act.vkaraisk.302,,,,,,,,,False, Um s right so um,5,minor,Stall
+ES2009a,A,827.18,827.93,0.75,ES2009a.A.dialog-act.vkaraisk.303,A,A,0.0,2.76,False,False,0.0,[],False," just to close up,",4,task,Suggest
+ES2009a,A,827.93,829.4,1.47,ES2009a.A.dialog-act.vkaraisk.304,A,A,0.0,0.0,False,False,0.0,[],False, I'm not sure how much time I've used,8,task,Inform
+ES2009a,A,829.4,832.28,2.88,ES2009a.A.dialog-act.vkaraisk.305,A,A,1.17,0.0,False,False,0.0,[],False," mm next time right Project Manager, sorted.",7,other,Other
+ES2009a,A,832.28,833.056,0.776,ES2009a.A.dialog-act.vkaraisk.306,,,,,,,,,False, Um.,1,minor,Stall
+ES2009a,A,833.08,833.45,0.37,ES2009a.A.dialog-act.vkaraisk.307,,,,,,,,,False, Is,1,minor,Fragment
+ES2009a,A,833.45,835.55,2.1,ES2009a.A.dialog-act.vkaraisk.308,A,A,0.0,1.17,False,False,0.0,[],False, uh we'll meet in another half an hour or so,10,task,Inform
+ES2009a,A,835.55,843.47,7.92,ES2009a.A.dialog-act.vkaraisk.309,A,A,0.42,0.0,False,False,0.0,[],False," um and I'd like the um Industrial Designer to get ge think about what needs to be done, like what the basic function of it.",25,task,Inform
+ES2009a,A,843.89,848.67,4.78,ES2009a.A.dialog-act.vkaraisk.310,A,A,0.0,0.42,False,False,0.0,[],False, Um U_I_D_ well yeah you right g your assignments are up there,12,task,Inform
+ES2009a,A,848.67,853.81,5.14,ES2009a.A.dialog-act.vkaraisk.311,A,A,2.06,0.0,False,False,0.0,[],False, and you'll also get s assignments from in your email as well more spec specifics on what do do.,19,task,Inform
+ES2009a,A,854.29,855.87,1.58,ES2009a.A.dialog-act.vkaraisk.312,,,,,,,,,False, Um mm basic and um so,6,minor,Stall
+ES2009a,A,855.87,860.82,4.95,ES2009a.A.dialog-act.vkaraisk.313,D,A,-0.68,2.06,False,True,0.68,['ES2009a.D.dialog-act.vkaraisk.123'],False, I need you to tell us what um we what the user's gonna want.,14,task,Inform
+ES2009a,D,860.14,861.03,0.89,ES2009a.D.dialog-act.vkaraisk.123,A,A,0.42,-0.68,True,False,0.0,[],False, What they're looking for.,4,task,Inform
+ES2009a,A,860.82,861.45,0.63,ES2009a.A.dialog-act.vkaraisk.314,,,,,,,,,False, So,1,minor,Stall
+ES2009a,A,861.45,868.05,6.6,ES2009a.A.dialog-act.vkaraisk.315,D,D,0.95,0.42,True,False,0.0,[],True," actually in a way you guys c maybe in our next meeting chat a bit about what the user's gonna want and what the user can have,",27,task,Suggest
+ES2009a,A,868.05,870.205,2.155,ES2009a.A.dialog-act.vkaraisk.316,,,,,,,,,False, you know like uh so,5,minor,Stall
+ES2009a,D,869.0,871.19,2.19,ES2009a.D.dialog-act.vkaraisk.124,A,A,-0.84,0.95,True,True,0.84,['ES2009a.A.dialog-act.vkaraisk.317'],True, And negotiate that. Uh.,4,task,Suggest
+ES2009a,A,870.35,871.4,1.05,ES2009a.A.dialog-act.vkaraisk.317,A,D,0.0,-0.84,True,False,0.0,[],False, yeah well it is,4,task,Assess
+ES2009a,A,871.4,873.98,2.58,ES2009a.A.dialog-act.vkaraisk.318,A,A,0.73,0.0,False,False,0.0,[],False, and we'll discuss the trade-offs in between,7,task,Suggest
+ES2009a,A,873.98,874.71,0.73,ES2009a.A.dialog-act.vkaraisk.319,,,,,,,,,False, um so yeah,3,minor,Stall
+ES2009a,A,874.71,878.14,3.43,ES2009a.A.dialog-act.vkaraisk.320,A,A,0.0,0.73,False,False,0.0,[],False, specific instructions will be sent in your email.,8,task,Inform
+ES2009a,A,878.14,883.53,5.39,ES2009a.A.dialog-act.vkaraisk.321,A,A,0.09,0.0,False,False,0.0,[],False, But I think that that is more or less a good place to start for now um,17,task,Assess
+ES2009a,A,883.62,885.67,2.05,ES2009a.A.dialog-act.vkaraisk.322,A,A,0.0,0.09,False,False,0.0,[],False, and as more things come up we'll have meetings,9,task,Inform
+ES2009a,A,885.67,887.71,2.04,ES2009a.A.dialog-act.vkaraisk.323,A,A,0.0,0.0,False,False,0.0,[],False, and you'll get emails and so forth.,7,task,Inform
+ES2009a,A,887.71,890.1,2.39,ES2009a.A.dialog-act.vkaraisk.324,C,A,2.66,0.0,False,False,0.0,[],False," Um any questions, before we get started?",7,elicit,Elicit-Comment-Understanding
+ES2009a,C,892.76,896.35,3.59,ES2009a.C.dialog-act.vkaraisk.60,C,A,0.0,2.66,True,False,0.0,[],True," I assume that we're building a stand alone uh remote control,",11,elicit,Elicit-Inform
+ES2009a,C,896.35,900.8,4.45,ES2009a.C.dialog-act.vkaraisk.61,C,C,1.92,0.0,False,False,0.0,[],False, we can't kind of build it into other uh products.,10,elicit,Elicit-Assessment
+ES2009a,A,901.175,902.784,1.609,ES2009a.A.dialog-act.vkaraisk.325,,,,,,,,,False, You mean to like,4,minor,Fragment
+ES2009a,C,902.72,906.01,3.29,ES2009a.C.dialog-act.vkaraisk.62,D,C,5.03,1.92,False,False,0.0,[],False, For instance like a mobile phone or something like that.,10,elicit,Elicit-Assessment
+ES2009a,B,905.63,908.41,2.78,ES2009a.B.dialog-act.vkaraisk.65,,,,,,,,,False, Mm. Sounds interesting.,3,task,Assess
+ES2009a,A,906.68,907.24,0.56,ES2009a.A.dialog-act.vkaraisk.326,,,,,,,,,False, Hmm.,1,other,Comment-About-Understanding
+ES2009a,A,909.066,910.53,1.464,ES2009a.A.dialog-act.vkaraisk.327,,,,,,,,,False, Yeah.,1,minor,Stall
+ES2009a,D,911.04,913.45,2.41,ES2009a.D.dialog-act.vkaraisk.125,B,C,-0.66,5.03,True,True,0.66,['ES2009a.B.dialog-act.vkaraisk.66'],True, I don't think there's any rules about it yet. So,10,task,Inform
+ES2009a,B,912.79,917.43,4.64,ES2009a.B.dialog-act.vkaraisk.66,C,D,0.32,-0.66,True,False,0.0,[],False, Maybe our personal coach will have something to say about that.,11,task,Inform
+ES2009a,D,914.93,915.09,0.16,ES2009a.D.dialog-act.vkaraisk.126,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,A,914.958,915.107,0.149,ES2009a.A.dialog-act.vkaraisk.328,,,,,,,,,False,,0,minor,Fragment
+ES2009a,C,915.52,917.75,2.23,ES2009a.C.dialog-act.vkaraisk.63,,,,,,,,,False, Or or you know can we produ,7,minor,Fragment
+ES2009a,C,917.75,921.77,4.02,ES2009a.C.dialog-act.vkaraisk.64,A,B,0.53,0.32,True,False,0.0,[],True, can we sell a remote control phone for twenty five pounds or less?,13,elicit,Elicit-Inform
+ES2009a,A,922.05,922.3,0.25,ES2009a.A.dialog-act.vkaraisk.329,,,,,,,,,False," Well,",1,minor,Stall
+ES2009a,D,922.13,923.02,0.89,ES2009a.D.dialog-act.vkaraisk.127,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2009a,A,922.3,923.28,0.98,ES2009a.A.dialog-act.vkaraisk.330,A,C,3.19,0.53,True,False,0.0,[],True, have a think about it.,5,task,Suggest
+ES2009a,A,923.28,924.67,1.39,ES2009a.A.dialog-act.vkaraisk.331,,,,,,,,,False, I mean,2,minor,Stall
+ES2009a,C,923.41,924.53,1.12,ES2009a.C.dialog-act.vkaraisk.65,,,,,,,,,False, Yep. Okay.,2,task,Assess
+ES2009a,A,924.67,926.07,1.4,ES2009a.A.dialog-act.vkaraisk.332,,,,,,,,,False, I'm I'm certainly op it seems,6,minor,Fragment
+ES2009a,A,926.07,926.47,0.4,ES2009a.A.dialog-act.vkaraisk.333,,,,,,,,,False, like yeah,2,minor,Stall
+ES2009a,A,926.47,928.03,1.56,ES2009a.A.dialog-act.vkaraisk.334,A,A,2.04,3.19,False,False,0.0,[],False, it it seems like it's certainly do-able,7,task,Inform
+ES2009a,D,926.51,927.09,0.58,ES2009a.D.dialog-act.vkaraisk.128,,,,,,,,,False, W,1,minor,Backchannel
+ES2009a,D,927.09,927.27,0.18,ES2009a.D.dialog-act.vkaraisk.129,,,,,,,,,False, yeah.,1,minor,Backchannel
+ES2009a,A,928.03,928.76,0.73,ES2009a.A.dialog-act.vkaraisk.335,,,,,,,,,False, isn't it.,2,elicit,Elicit-Assessment
+ES2009a,A,928.76,930.07,1.31,ES2009a.A.dialog-act.vkaraisk.336,,,,,,,,,False, I mean um,3,minor,Stall
+ES2009a,A,930.07,936.76,6.69,ES2009a.A.dialog-act.vkaraisk.337,A,A,2.71,2.04,False,False,0.0,[],False, or if we can't have a full mobile phone maybe a remote that has some other kind of useful function.,20,task,Suggest
+ES2009a,C,934.72,934.93,0.21,ES2009a.C.dialog-act.vkaraisk.66,,,,,,,,,False, Mm-hmm.,1,task,Assess
+ES2009a,B,934.91,935.33,0.42,ES2009a.B.dialog-act.vkaraisk.67,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,A,936.76,937.31,0.55,ES2009a.A.dialog-act.vkaraisk.338,,,,,,,,,False, The clapper.,2,other,Be-Positive
+ES2009a,A,937.31,939.18,1.87,ES2009a.A.dialog-act.vkaraisk.339,,,,,,,,,False, No I mean,3,elicit,Elicit-Comment-Understanding
+ES2009a,D,937.482,938.491,1.009,ES2009a.D.dialog-act.vkaraisk.130,,,,,,,,,False,,0,minor,Fragment
+ES2009a,C,937.98,938.88,0.9,ES2009a.C.dialog-act.vkaraisk.67,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,939.18,939.47,0.29,ES2009a.A.dialog-act.vkaraisk.341,,,,,,,,,False," no,",1,minor,Stall
+ES2009a,A,939.47,940.46,0.99,ES2009a.A.dialog-act.vkaraisk.342,B,A,0.34,2.71,False,False,0.0,[],False," good idea, good idea.",4,task,Assess
+ES2009a,A,940.46,941.129,0.669,ES2009a.A.dialog-act.vkaraisk.343,,,,,,,,,False, We'll see what see what,5,minor,Fragment
+ES2009a,B,940.8,946.32,5.52,ES2009a.B.dialog-act.vkaraisk.68,D,A,-1.02,0.34,True,True,1.02,"['ES2009a.D.dialog-act.vkaraisk.131', 'ES2009a.A.dialog-act.vkaraisk.344']",True," Maybe a remote with changeable faces, like the faces that you can buy for phones.",15,task,Suggest
+ES2009a,C,944.432,949.792,5.36,ES2009a.C.dialog-act.vkaraisk.68,,,,,,,,,False, Nice. Hot.,2,task,Assess
+ES2009a,D,945.3,947.18,1.88,ES2009a.D.dialog-act.vkaraisk.131,A,B,-1.27,-1.02,True,True,1.27,['ES2009a.A.dialog-act.vkaraisk.344'],False, I like the little cover thingies.,6,task,Assess
+ES2009a,A,945.91,948.624,2.714,ES2009a.A.dialog-act.vkaraisk.344,A,D,2.766,-1.27,True,False,0.0,[],False, Uh-huh y I like that,5,task,Assess
+ES2009a,B,946.32,947.0,0.68,ES2009a.B.dialog-act.vkaraisk.69,,,,,,,,,False, Yeah.,1,other,Other
+ES2009a,A,949.78,951.01,1.23,ES2009a.A.dialog-act.vkaraisk.345,,,,,,,,,False, Yeah.,1,minor,Stall
+ES2009a,A,951.01,951.39,0.38,ES2009a.A.dialog-act.vkaraisk.347,,,,,,,,,False," That's true,",2,task,Assess
+ES2009a,A,951.39,953.13,1.74,ES2009a.A.dialog-act.vkaraisk.346,A,A,0.0,2.766,False,False,0.0,[],False," I guess we we probably have some time,",8,task,Inform
+ES2009a,A,953.13,955.87,2.74,ES2009a.A.dialog-act.vkaraisk.348,A,A,3.87,0.0,False,False,0.0,[],False," maybe we should brainstorm a bit like what we wanna do,",11,task,Suggest
+ES2009a,A,955.87,959.74,3.87,ES2009a.A.dialog-act.vkaraisk.349,,,,,,,,,False, go back to um I don't really have any.,9,minor,Fragment
+ES2009a,A,959.74,967.06,7.32,ES2009a.A.dialog-act.vkaraisk.350,A,A,0.0,3.87,False,False,0.0,[],False," Let me bring up something about our basic goals here, what we want to accomplish.",15,other,Offer
+ES2009a,A,967.06,971.872,4.812,ES2009a.A.dialog-act.vkaraisk.351,A,A,14.788,0.0,False,False,0.0,[],False, Uh project announcement. Ts ts ts,6,other,Other
+ES2009a,A,974.928,983.24,8.312,ES2009a.A.dialog-act.vkaraisk.352,,,,,,,,,False, Yeah.,1,minor,Stall
+ES2009a,A,983.24,984.22,0.98,ES2009a.A.dialog-act.vkaraisk.353,,,,,,,,,False, Not so much.,3,task,Inform
+ES2009a,B,984.384,985.536,1.152,ES2009a.B.dialog-act.vkaraisk.70,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,985.52,985.7,0.18,ES2009a.D.dialog-act.vkaraisk.132,,,,,,,,,False, Hmm.,1,minor,Backchannel
+ES2009a,A,986.39,986.66,0.27,ES2009a.A.dialog-act.vkaraisk.354,,,,,,,,,False, All right,2,minor,Stall
+ES2009a,A,986.66,987.81,1.15,ES2009a.A.dialog-act.vkaraisk.355,C,A,0.8,14.788,False,False,0.0,[],False," we'll find them, we're on our own.",7,task,Suggest
+ES2009a,C,988.44,988.61,0.17,ES2009a.C.dialog-act.vkaraisk.69,,,,,,,,,False, Now,1,minor,Stall
+ES2009a,C,988.61,991.68,3.07,ES2009a.C.dialog-act.vkaraisk.70,A,A,0.09,0.8,True,False,0.0,[],True, are we also discussing kind of our initial ideas at all here?,12,elicit,Elicit-Inform
+ES2009a,A,991.38,991.77,0.39,ES2009a.A.dialog-act.vkaraisk.356,,,,,,,,,False, Yeah yeah,2,task,Inform
+ES2009a,A,991.77,993.38,1.61,ES2009a.A.dialog-act.vkaraisk.357,C,C,0.99,0.09,True,False,0.0,[],True," let's do it, let's do.",5,task,Suggest
+ES2009a,C,993.84,994.37,0.53,ES2009a.C.dialog-act.vkaraisk.71,,,,,,,,,False, S,1,minor,Fragment
+ES2009a,C,994.37,996.18,1.81,ES2009a.C.dialog-act.vkaraisk.72,A,A,0.34,0.99,True,False,0.0,[],True, does anybody have any initial ideas?,6,elicit,Elicit-Offer-Or-Suggestion
+ES2009a,A,996.52,998.01,1.49,ES2009a.A.dialog-act.vkaraisk.358,D,C,3.23,0.34,True,False,0.0,[],True, I'm gonna go ahead and take notes on this too,10,other,Offer
+ES2009a,A,998.01,998.4,0.39,ES2009a.A.dialog-act.vkaraisk.359,,,,,,,,,False, 'cause,1,minor,Fragment
+ES2009a,D,1001.24,1005.034,3.794,ES2009a.D.dialog-act.vkaraisk.133,D,A,5.366,3.23,True,False,0.0,[],True, Good idea. Start your minutes. Um,6,task,Assess
+ES2009a,A,1003.56,1003.96,0.4,ES2009a.A.dialog-act.vkaraisk.360,,,,,,,,,False, Yeah,1,task,Assess
+ES2009a,A,1003.96,1006.56,2.6,ES2009a.A.dialog-act.vkaraisk.361,,,,,,,,,False, I mean oh yeah right. So,6,minor,Stall
+ES2009a,A,1006.56,1008.752,2.192,ES2009a.A.dialog-act.vkaraisk.362,,,,,,,,,False, initial ideas.,2,elicit,Elicit-Offer-Or-Suggestion
+ES2009a,D,1010.31,1010.4,0.09,ES2009a.D.dialog-act.vkaraisk.134,,,,,,,,,False, Well,1,minor,Stall
+ES2009a,D,1010.4,1012.82,2.42,ES2009a.D.dialog-act.vkaraisk.135,D,D,0.33,5.366,False,False,0.0,[],False, it's pretty much given it's gonna be universal,8,task,Inform
+ES2009a,D,1012.82,1013.15,0.33,ES2009a.D.dialog-act.vkaraisk.136,,,,,,,,,False," right,",1,elicit,Elicit-Assessment
+ES2009a,A,1012.92,1013.17,0.25,ES2009a.A.dialog-act.vkaraisk.363,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,D,1013.15,1014.6,1.45,ES2009a.D.dialog-act.vkaraisk.137,D,D,0.0,0.33,False,False,0.0,[],False, we decided that already,4,task,Inform
+ES2009a,D,1014.6,1017.02,2.42,ES2009a.D.dialog-act.vkaraisk.138,D,D,0.06,0.0,False,False,0.0,[],False," and it may be functioning for other things,",8,task,Inform
+ES2009a,D,1017.08,1021.91,4.83,ES2009a.D.dialog-act.vkaraisk.139,D,D,0.0,0.06,False,False,0.0,[],False," as soon as you said that I was thinking like all the other things you could get a remote to do, like your microwave or your front door",28,task,Inform
+ES2009a,B,1021.46,1021.83,0.37,ES2009a.B.dialog-act.vkaraisk.71,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2009a,D,1021.91,1023.56,1.65,ES2009a.D.dialog-act.vkaraisk.140,D,D,0.0,0.0,False,False,0.0,[],False," or like to have everything on one thing,",8,task,Suggest
+ES2009a,A,1022.88,1023.744,0.864,ES2009a.A.dialog-act.vkaraisk.364,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,1023.56,1027.19,3.63,ES2009a.D.dialog-act.vkaraisk.141,D,D,0.0,0.0,False,False,0.0,[],False," but then, I've never been a fan of those huge remotes that have like a million buttons,",17,task,Assess
+ES2009a,D,1027.19,1028.28,1.09,ES2009a.D.dialog-act.vkaraisk.142,C,D,0.89,0.0,False,False,0.0,[],False, you can't tell what they do.,6,task,Inform
+ES2009a,B,1027.25,1029.06,1.81,ES2009a.B.dialog-act.vkaraisk.72,,,,,,,,,False, S smaller's better.,3,task,Assess
+ES2009a,A,1027.52,1027.9,0.38,ES2009a.A.dialog-act.vkaraisk.365,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2009a,B,1029.06,1029.99,0.93,ES2009a.B.dialog-act.vkaraisk.73,,,,,,,,,False, Simple.,1,task,Suggest
+ES2009a,D,1029.12,1029.58,0.46,ES2009a.D.dialog-act.vkaraisk.143,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,C,1029.17,1035.83,6.66,ES2009a.C.dialog-act.vkaraisk.73,C,D,0.0,0.89,True,False,0.0,[],True, But I'm thinking I'm thinking kind of P_D_A_ uh design,10,task,Suggest
+ES2009a,D,1030.48,1031.3,0.82,ES2009a.D.dialog-act.vkaraisk.144,,,,,,,,,False, Specific.,1,task,Suggest
+ES2009a,C,1035.83,1038.8,2.97,ES2009a.C.dialog-act.vkaraisk.74,C,C,0.0,0.0,False,False,0.0,[],False, so touch screen design rather than button,7,task,Suggest
+ES2009a,D,1037.68,1038.17,0.49,ES2009a.D.dialog-act.vkaraisk.145,,,,,,,,,False, Okay.,1,other,Comment-About-Understanding
+ES2009a,B,1038.67,1039.26,0.59,ES2009a.B.dialog-act.vkaraisk.74,,,,,,,,,False, Oh right.,2,other,Comment-About-Understanding
+ES2009a,C,1038.8,1042.6,3.8,ES2009a.C.dialog-act.vkaraisk.75,A,C,6.62,0.0,False,False,0.0,[],False, so that you can kind of flip around all sorts of different things.,13,task,Inform
+ES2009a,B,1039.26,1039.89,0.63,ES2009a.B.dialog-act.vkaraisk.75,,,,,,,,,False, That'd be different.,3,task,Assess
+ES2009a,D,1039.66,1040.42,0.76,ES2009a.D.dialog-act.vkaraisk.146,,,,,,,,,False, Interesting.,1,task,Assess
+ES2009a,A,1041.728,1042.98,1.252,ES2009a.A.dialog-act.vkaraisk.366,,,,,,,,,False, Yeah,1,minor,Stall
+ES2009a,B,1042.618,1043.133,0.515,ES2009a.B.dialog-act.vkaraisk.76,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,1042.98,1043.48,0.5,ES2009a.A.dialog-act.vkaraisk.367,,,,,,,,,False, that's slick,2,task,Assess
+ES2009a,A,1043.48,1044.01,0.53,ES2009a.A.dialog-act.vkaraisk.368,,,,,,,,,False, isn't it.,2,elicit,Elicit-Assessment
+ES2009a,A,1044.01,1045.23,1.22,ES2009a.A.dialog-act.vkaraisk.369,,,,,,,,,False, I mean like,3,minor,Stall
+ES2009a,A,1045.23,1046.34,1.11,ES2009a.A.dialog-act.vkaraisk.370,,,,,,,,,False, stylist,1,task,Assess
+ES2009a,A,1046.34,1046.96,0.62,ES2009a.A.dialog-act.vkaraisk.371,,,,,,,,,False, yeah like,2,minor,Stall
+ES2009a,C,1046.672,1047.392,0.72,ES2009a.C.dialog-act.vkaraisk.76,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,1046.96,1047.68,0.72,ES2009a.A.dialog-act.vkaraisk.372,,,,,,,,,False, a just a,3,minor,Fragment
+ES2009a,D,1047.03,1047.58,0.55,ES2009a.D.dialog-act.vkaraisk.147,,,,,,,,,False, True.,1,task,Assess
+ES2009a,A,1047.68,1049.22,1.54,ES2009a.A.dialog-act.vkaraisk.373,,,,,,,,,False, yeah. Right so,3,minor,Stall
+ES2009a,A,1049.22,1051.0,1.78,ES2009a.A.dialog-act.vkaraisk.374,A,C,1.36,6.62,True,False,0.0,[],True," we got five minutes more to chat about this,",9,task,Inform
+ES2009a,A,1051.0,1051.83,0.83,ES2009a.A.dialog-act.vkaraisk.375,,,,,,,,,False, perfect.,1,task,Assess
+ES2009a,A,1051.83,1052.36,0.53,ES2009a.A.dialog-act.vkaraisk.376,,,,,,,,,False, Um so,2,minor,Stall
+ES2009a,A,1052.36,1059.54,7.18,ES2009a.A.dialog-act.vkaraisk.377,D,A,0.37,1.36,False,False,0.0,[],False, we've got this kind of an idea of a trade-off between um uh size and functionality.,16,task,Inform
+ES2009a,D,1055.83,1055.91,0.08,ES2009a.D.dialog-act.vkaraisk.148,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2009a,D,1058.43,1059.56,1.13,ES2009a.D.dialog-act.vkaraisk.149,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2009a,A,1059.54,1061.088,1.548,ES2009a.A.dialog-act.vkaraisk.378,,,,,,,,,False, Um and we also,4,minor,Fragment
+ES2009a,D,1059.56,1059.91,0.35,ES2009a.D.dialog-act.vkaraisk.150,,,,,,,,,False, Right.,1,minor,Stall
+ES2009a,D,1059.91,1061.9,1.99,ES2009a.D.dialog-act.vkaraisk.151,D,A,0.0,0.37,True,False,0.0,[],True, We want it to be munt multifunctional,7,task,Suggest
+ES2009a,D,1061.9,1066.09,4.19,ES2009a.D.dialog-act.vkaraisk.152,B,D,-0.11,0.0,False,True,0.11,['ES2009a.B.dialog-act.vkaraisk.78'],False," but at the same time if you get it to do too much you're not gonna be able to tell them apart,",22,task,Assess
+ES2009a,B,1064.49,1065.98,1.49,ES2009a.B.dialog-act.vkaraisk.77,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,C,1065.23,1065.96,0.73,ES2009a.C.dialog-act.vkaraisk.77,,,,,,,,,False, Too confusing.,2,task,Assess
+ES2009a,B,1065.98,1069.69,3.71,ES2009a.B.dialog-act.vkaraisk.78,A,D,1.51,-0.11,True,False,0.0,[],False," It's gonna be too complicated, too crowded with buttons and things.",11,task,Assess
+ES2009a,A,1071.2,1074.91,3.71,ES2009a.A.dialog-act.vkaraisk.379,A,B,1.97,1.51,True,False,0.0,[],True, I'm also gonna note for future reference this idea,9,other,Offer
+ES2009a,D,1071.76,1072.24,0.48,ES2009a.D.dialog-act.vkaraisk.153,,,,,,,,,False, Hmm.,1,minor,Stall
+ES2009a,A,1074.91,1075.18,0.27,ES2009a.A.dialog-act.vkaraisk.380,,,,,,,,,False, of,1,minor,Fragment
+ES2009a,A,1075.18,1076.88,1.7,ES2009a.A.dialog-act.vkaraisk.381,,,,,,,,,False, um so you like,4,minor,Stall
+ES2009a,A,1076.88,1079.23,2.35,ES2009a.A.dialog-act.vkaraisk.382,A,A,2.01,1.97,False,False,0.0,[],False, maybe like an L_ like a touch screen type of remote?,11,elicit,Elicit-Assessment
+ES2009a,C,1079.33,1081.15,1.82,ES2009a.C.dialog-act.vkaraisk.78,,,,,,,,,False, Mm-hmm. Possibly.,2,task,Assess
+ES2009a,D,1080.02,1080.34,0.32,ES2009a.D.dialog-act.vkaraisk.155,,,,,,,,,False, Mm.,1,task,Assess
+ES2009a,A,1081.24,1082.66,1.42,ES2009a.A.dialog-act.vkaraisk.383,A,A,0.0,2.01,False,False,0.0,[],False, I don't think one exists.,5,task,Inform
+ES2009a,D,1081.73,1082.74,1.01,ES2009a.D.dialog-act.vkaraisk.156,,,,,,,,,False, An interesting option.,3,task,Assess
+ES2009a,A,1082.66,1083.32,0.66,ES2009a.A.dialog-act.vkaraisk.384,B,A,-0.58,0.0,False,True,0.58,['ES2009a.B.dialog-act.vkaraisk.79'],False, Be a good idea.,4,task,Assess
+ES2009a,B,1082.74,1086.85,4.11,ES2009a.B.dialog-act.vkaraisk.79,A,A,0.1,-0.58,True,False,0.0,[],False, Needs it needs one outstanding feature to set it apart from all the other remotes.,15,task,Suggest
+ES2009a,D,1084.15,1084.5,0.35,ES2009a.D.dialog-act.vkaraisk.157,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2009a,D,1086.0,1086.62,0.62,ES2009a.D.dialog-act.vkaraisk.158,,,,,,,,,False, Definitely.,1,task,Assess
+ES2009a,A,1086.95,1089.27,2.32,ES2009a.A.dialog-act.vkaraisk.385,A,B,0.0,0.1,True,False,0.0,[],True, Yeah all the other universal remotes.,6,task,Assess
+ES2009a,A,1089.27,1091.58,2.31,ES2009a.A.dialog-act.vkaraisk.386,A,A,0.0,0.0,False,False,0.0,[],False," Um I don't know if there's such a thing out there,",11,task,Inform
+ES2009a,A,1091.58,1094.94,3.36,ES2009a.A.dialog-act.vkaraisk.387,A,A,0.0,0.0,False,False,0.0,[],False, I guess we could do some uh do some research on or one of us could do some research on it,21,task,Suggest
+ES2009a,A,1094.94,1103.824,8.884,ES2009a.A.dialog-act.vkaraisk.388,C,A,1.416,0.0,False,False,0.0,[],False," about whether or not there are um multi-format like um you know PAL, N_T_S_C_, region one",16,elicit,Elicit-Inform
+ES2009a,D,1104.08,1104.41,0.33,ES2009a.D.dialog-act.vkaraisk.159,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2009a,C,1105.24,1107.27,2.03,ES2009a.C.dialog-act.vkaraisk.79,C,A,0.25,1.416,True,False,0.0,[],True, I'm pretty sure there is.,5,task,Inform
+ES2009a,C,1107.27,1107.52,0.25,ES2009a.C.dialog-act.vkaraisk.80,,,,,,,,,False, I mean,2,minor,Stall
+ES2009a,C,1107.52,1110.37,2.85,ES2009a.C.dialog-act.vkaraisk.81,C,C,0.0,0.25,False,False,0.0,[],False, I I have a friend who has a P_D_A_,9,task,Inform
+ES2009a,A,1107.58,1107.84,0.26,ES2009a.A.dialog-act.vkaraisk.389,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2009a,A,1109.7,1109.97,0.27,ES2009a.A.dialog-act.vkaraisk.390,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2009a,C,1110.37,1114.55,4.18,ES2009a.C.dialog-act.vkaraisk.82,C,C,0.0,0.0,False,False,0.0,[],False, that he just points at his telev any television he wants,11,task,Inform
+ES2009a,D,1111.53,1111.779,0.249,ES2009a.D.dialog-act.vkaraisk.160,,,,,,,,,False, That,1,minor,Fragment
+ES2009a,C,1114.55,1118.22,3.67,ES2009a.C.dialog-act.vkaraisk.83,C,C,0.0,0.0,False,False,0.0,[],False, and it'll figure out the the specifications of it,9,task,Inform
+ES2009a,D,1114.65,1114.94,0.29,ES2009a.D.dialog-act.vkaraisk.161,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2009a,C,1118.22,1120.41,2.19,ES2009a.C.dialog-act.vkaraisk.84,C,C,0.82,0.0,False,False,0.0,[],False, and will control it,4,task,Inform
+ES2009a,A,1119.375,1120.69,1.315,ES2009a.A.dialog-act.vkaraisk.391,,,,,,,,,False, Interesting.,1,task,Assess
+ES2009a,D,1120.07,1120.44,0.37,ES2009a.D.dialog-act.vkaraisk.162,,,,,,,,,False, Awesome.,1,task,Assess
+ES2009a,C,1120.41,1121.01,0.6,ES2009a.C.dialog-act.vkaraisk.85,,,,,,,,,False, um so,2,minor,Stall
+ES2009a,A,1120.69,1121.15,0.46,ES2009a.A.dialog-act.vkaraisk.392,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2009a,C,1121.01,1121.23,0.22,ES2009a.C.dialog-act.vkaraisk.86,,,,,,,,,False, I th,2,minor,Fragment
+ES2009a,C,1121.23,1124.33,3.1,ES2009a.C.dialog-act.vkaraisk.87,A,C,4.09,0.82,False,False,0.0,[],False, I assume that that can be done with uh kind of around the world.,14,task,Inform
+ES2009a,D,1123.42,1123.76,0.34,ES2009a.D.dialog-act.vkaraisk.163,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2009a,A,1123.43,1124.58,1.15,ES2009a.A.dialog-act.vkaraisk.393,,,,,,,,,False, Okay. Okay.,2,other,Comment-About-Understanding
+ES2009a,A,1125.338,1128.09,2.752,ES2009a.A.dialog-act.vkaraisk.394,,,,,,,,,False, Um all right. So.,4,minor,Stall
+ES2009a,A,1128.09,1128.42,0.33,ES2009a.A.dialog-act.vkaraisk.395,,,,,,,,,False, I li,2,minor,Fragment
+ES2009a,A,1128.42,1132.84,4.42,ES2009a.A.dialog-act.vkaraisk.396,B,C,5.18,4.09,True,False,0.0,[],True," I'm liking that idea, this idea of a touch screen remote with multi-format features. Um.",15,task,Assess
+ES2009a,D,1132.34,1132.85,0.51,ES2009a.D.dialog-act.vkaraisk.164,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+ES2009a,B,1133.12,1133.58,0.46,ES2009a.B.dialog-act.vkaraisk.80,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2009a,A,1134.41,1137.86,3.45,ES2009a.A.dialog-act.vkaraisk.397,,,,,,,,,False, Um. Let's see.,3,minor,Stall
+ES2009a,B,1138.02,1141.35,3.33,ES2009a.B.dialog-act.vkaraisk.81,B,A,0.0,5.18,True,False,0.0,[],True," I think, making it out of a nice material would be very important,",13,task,Suggest
+ES2009a,B,1141.35,1146.73,5.38,ES2009a.B.dialog-act.vkaraisk.82,D,B,-0.35,0.0,False,True,0.35,['ES2009a.D.dialog-act.vkaraisk.167'],False," because so many of those remotes that you see, these universal remotes look so cheap and low quality.",18,task,Assess
+ES2009a,D,1143.98,1144.32,0.34,ES2009a.D.dialog-act.vkaraisk.165,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2009a,A,1145.68,1146.05,0.37,ES2009a.A.dialog-act.vkaraisk.398,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2009a,D,1146.2,1146.38,0.18,ES2009a.D.dialog-act.vkaraisk.166,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,D,1146.38,1149.38,3.0,ES2009a.D.dialog-act.vkaraisk.167,D,B,2.59,-0.35,True,False,0.0,[],False," Keeping it nice and slick, would be important.",8,task,Suggest
+ES2009a,D,1149.38,1149.76,0.38,ES2009a.D.dialog-act.vkaraisk.168,,,,,,,,,False, And,1,minor,Fragment
+ES2009a,D,1150.8,1151.53,0.73,ES2009a.D.dialog-act.vkaraisk.169,,,,,,,,,False," I don't know,",3,task,Assess
+ES2009a,D,1151.53,1151.97,0.44,ES2009a.D.dialog-act.vkaraisk.170,,,,,,,,,False," like,",1,minor,Stall
+ES2009a,D,1151.97,1154.21,2.24,ES2009a.D.dialog-act.vkaraisk.171,D,D,0.0,2.59,False,False,0.0,[],False," there's such a problem with losing them,",7,task,Inform
+ES2009a,A,1153.6,1154.793,1.193,ES2009a.A.dialog-act.vkaraisk.399,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,1154.21,1157.96,3.75,ES2009a.D.dialog-act.vkaraisk.172,D,D,0.0,0.0,False,False,0.0,[],False," that adding this whole like P_D_A_ pen business is only one more thing to lose,",15,task,Assess
+ES2009a,B,1156.41,1157.08,0.67,ES2009a.B.dialog-act.vkaraisk.83,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2009a,D,1157.96,1159.472,1.512,ES2009a.D.dialog-act.vkaraisk.173,D,D,1.648,0.0,False,False,0.0,[],False, so we're gonna have to be careful with what like,10,task,Suggest
+ES2009a,C,1158.78,1159.17,0.39,ES2009a.C.dialog-act.vkaraisk.88,,,,,,,,,False, Oh.,1,minor,Backchannel
+ES2009a,D,1161.12,1163.99,2.87,ES2009a.D.dialog-act.vkaraisk.174,D,D,0.0,1.648,False,False,0.0,[],False, Just something like keep in mind when we start actually dealing with this stuff,14,task,Suggest
+ES2009a,D,1163.99,1166.11,2.12,ES2009a.D.dialog-act.vkaraisk.175,C,D,3.81,0.0,False,False,0.0,[],False, but that would be really cool.,6,task,Assess
+ES2009a,A,1166.928,1169.89,2.962,ES2009a.A.dialog-act.vkaraisk.400,,,,,,,,,False, Uh let's see. Um.,4,minor,Stall
+ES2009a,C,1169.92,1173.85,3.93,ES2009a.C.dialog-act.vkaraisk.89,D,D,0.59,3.81,True,False,0.0,[],True, I like the idea of the uh multi plate.,9,task,Assess
+ES2009a,B,1172.16,1172.928,0.768,ES2009a.B.dialog-act.vkaraisk.84,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,1173.14,1173.97,0.83,ES2009a.A.dialog-act.vkaraisk.401,,,,,,,,,False, Yeah yeah okay.,3,task,Assess
+ES2009a,D,1173.19,1173.76,0.57,ES2009a.D.dialog-act.vkaraisk.176,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,D,1173.76,1174.2,0.44,ES2009a.D.dialog-act.vkaraisk.177,,,,,,,,,False, Fi b,2,minor,Fragment
+ES2009a,C,1173.85,1175.27,1.42,ES2009a.C.dialog-act.vkaraisk.90,,,,,,,,,False, In in,2,minor,Fragment
+ES2009a,D,1174.2,1174.44,0.24,ES2009a.D.dialog-act.vkaraisk.178,,,,,,,,,False, like,1,minor,Stall
+ES2009a,B,1174.208,1174.778,0.57,ES2009a.B.dialog-act.vkaraisk.85,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,1174.44,1176.54,2.1,ES2009a.D.dialog-act.vkaraisk.179,D,C,0.0,0.59,True,False,0.0,[],True," what are they called, those face plate things?",8,elicit,Elicit-Inform
+ES2009a,D,1176.54,1177.82,1.28,ES2009a.D.dialog-act.vkaraisk.180,A,D,-1.23,0.0,False,True,1.23,['ES2009a.A.dialog-act.vkaraisk.402'],False, Isn't there a name for them?,6,elicit,Elicit-Inform
+ES2009a,A,1176.59,1178.16,1.57,ES2009a.A.dialog-act.vkaraisk.402,B,D,0.93,-1.23,True,False,0.0,[],False, Think they're just called face plates?,6,task,Inform
+ES2009a,D,1177.82,1178.56,0.74,ES2009a.D.dialog-act.vkaraisk.181,,,,,,,,,False, Are they?,2,elicit,Elicit-Inform
+ES2009a,B,1178.128,1179.09,0.962,ES2009a.B.dialog-act.vkaraisk.86,,,,,,,,,False," something,",1,minor,Fragment
+ES2009a,A,1178.16,1178.57,0.41,ES2009a.A.dialog-act.vkaraisk.403,,,,,,,,,False, I don't know.,3,task,Inform
+ES2009a,D,1178.56,1179.13,0.57,ES2009a.D.dialog-act.vkaraisk.182,,,,,,,,,False, I dunno.,2,task,Inform
+ES2009a,B,1179.09,1180.76,1.67,ES2009a.B.dialog-act.vkaraisk.87,C,A,-0.05,0.93,True,True,0.05,['ES2009a.C.dialog-act.vkaraisk.92'],True," uh we'll have to come up with a name,",9,task,Suggest
+ES2009a,C,1179.3,1180.71,1.41,ES2009a.C.dialog-act.vkaraisk.91,,,,,,,,,False, I like.,2,task,Assess
+ES2009a,C,1180.71,1185.24,4.53,ES2009a.C.dialog-act.vkaraisk.92,D,B,-1.681,-0.05,True,True,1.681,['ES2009a.D.dialog-act.vkaraisk.185'],False, We should c we should come up with a fuzzy one as well.,13,task,Suggest
+ES2009a,B,1180.76,1181.2,0.44,ES2009a.B.dialog-act.vkaraisk.88,,,,,,,,,False, patent it.,2,task,Suggest
+ES2009a,D,1180.82,1181.55,0.73,ES2009a.D.dialog-act.vkaraisk.183,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,D,1181.55,1182.33,0.78,ES2009a.D.dialog-act.vkaraisk.184,,,,,,,,,False, Something really cool.,3,task,Suggest
+ES2009a,A,1183.056,1185.779,2.723,ES2009a.A.dialog-act.vkaraisk.404,,,,,,,,,False,,0,minor,Fragment
+ES2009a,B,1183.312,1184.864,1.552,ES2009a.B.dialog-act.vkaraisk.89,,,,,,,,,False,,0,minor,Fragment
+ES2009a,D,1183.559,1189.12,5.561,ES2009a.D.dialog-act.vkaraisk.185,C,C,-3.88,-1.681,True,True,2.664,['ES2009a.C.dialog-act.vkaraisk.93'],False, Leopard print or something.,4,task,Suggest
+ES2009a,C,1185.24,1187.904,2.664,ES2009a.C.dialog-act.vkaraisk.93,B,D,9.876,-3.88,True,False,0.0,[],False, For those cold winter days.,5,other,Be-Positive
+ES2009a,B,1185.93,1188.148,2.218,ES2009a.B.dialog-act.vkaraisk.90,,,,,,,,,False, Leopard print.,2,task,Suggest
+ES2009a,A,1189.65,1190.53,0.88,ES2009a.A.dialog-act.vkaraisk.405,,,,,,,,,False, Um.,1,minor,Stall
+ES2009a,D,1196.94,1197.29,0.35,ES2009a.D.dialog-act.vkaraisk.186,,,,,,,,,False, Hmm.,1,other,Other
+ES2009a,B,1197.78,1201.55,3.77,ES2009a.B.dialog-act.vkaraisk.91,B,C,0.0,9.876,True,False,0.0,[],True," I think, it wouldn't be such a bad idea to have a like a locator device,",16,task,Assess
+ES2009a,B,1201.55,1204.48,2.93,ES2009a.B.dialog-act.vkaraisk.92,A,B,1.21,0.0,False,False,0.0,[],False, maybe a simple button that you have on your television to help you find your remote.,16,task,Suggest
+ES2009a,D,1204.37,1204.76,0.39,ES2009a.D.dialog-act.vkaraisk.187,,,,,,,,,False, True.,1,task,Assess
+ES2009a,A,1205.69,1209.82,4.13,ES2009a.A.dialog-act.vkaraisk.406,C,B,7.38,1.21,True,False,0.0,[],True, Mm. But if we're bundling it unless we're selling their telly with the remote.,14,task,Assess
+ES2009a,D,1209.86,1210.27,0.41,ES2009a.D.dialog-act.vkaraisk.188,,,,,,,,,False, Right.,1,other,Comment-About-Understanding
+ES2009a,B,1210.58,1210.9,0.32,ES2009a.B.dialog-act.vkaraisk.93,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2009a,A,1211.03,1214.415,3.385,ES2009a.A.dialog-act.vkaraisk.407,,,,,,,,,False, Um,1,minor,Stall
+ES2009a,C,1217.03,1217.2,0.17,ES2009a.C.dialog-act.vkaraisk.94,,,,,,,,,False, Well,1,minor,Stall
+ES2009a,C,1217.2,1220.38,3.18,ES2009a.C.dialog-act.vkaraisk.95,C,A,0.0,7.38,True,False,0.0,[],True, if we bundle it as a phone then you can always call it.,13,task,Suggest
+ES2009a,B,1220.28,1220.62,0.34,ES2009a.B.dialog-act.vkaraisk.94,,,,,,,,,False, True.,1,task,Assess
+ES2009a,C,1220.38,1226.28,5.9,ES2009a.C.dialog-act.vkaraisk.96,C,C,0.15,0.0,False,False,0.0,[],False, If you're not doing that then we can have something that just kind of rings from either,17,task,Suggest
+ES2009a,D,1220.94,1221.36,0.42,ES2009a.D.dialog-act.vkaraisk.189,,,,,,,,,False, True.,1,task,Assess
+ES2009a,C,1226.28,1226.43,0.15,ES2009a.C.dialog-act.vkaraisk.97,,,,,,,,,False, well,1,minor,Stall
+ES2009a,C,1226.43,1228.2,1.77,ES2009a.C.dialog-act.vkaraisk.98,C,C,0.0,0.15,False,False,0.0,[],False, there used to be those whistling devices,7,task,Inform
+ES2009a,C,1228.2,1229.42,1.22,ES2009a.C.dialog-act.vkaraisk.99,A,C,0.34,0.0,False,False,0.0,[],False, but that's a little bit annoying.,6,task,Assess
+ES2009a,D,1228.57,1229.01,0.44,ES2009a.D.dialog-act.vkaraisk.190,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2009a,A,1229.76,1234.99,5.23,ES2009a.A.dialog-act.vkaraisk.408,A,C,0.0,0.34,True,False,0.0,[],True, Cou could we not do something where like just a little lit like literally just a very small kind of thing,21,task,Suggest
+ES2009a,A,1234.99,1236.44,1.45,ES2009a.A.dialog-act.vkaraisk.409,A,A,0.0,0.0,False,False,0.0,[],False, that comes with the remote,5,task,Suggest
+ES2009a,A,1236.44,1237.61,1.17,ES2009a.A.dialog-act.vkaraisk.410,A,A,0.91,0.0,False,False,0.0,[],False, that you could place something else,6,task,Suggest
+ES2009a,A,1237.61,1238.52,0.91,ES2009a.A.dialog-act.vkaraisk.411,,,,,,,,,False, that you press,3,task,Suggest
+ES2009a,A,1238.52,1239.95,1.43,ES2009a.A.dialog-act.vkaraisk.412,A,A,0.0,0.91,False,False,0.0,[],False, and it makes the remote page.,6,task,Suggest
+ES2009a,A,1239.95,1245.58,5.63,ES2009a.A.dialog-act.vkaraisk.413,A,A,0.0,0.0,False,False,0.0,[],False," Kinda like how on a lot of um uh cordless regular phones, you have a page button and it goes,",20,task,Inform
+ES2009a,C,1239.99,1240.43,0.44,ES2009a.C.dialog-act.vkaraisk.100,,,,,,,,,False, Th,1,minor,Fragment
+ES2009a,D,1240.31,1240.78,0.47,ES2009a.D.dialog-act.vkaraisk.191,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2009a,C,1242.97,1243.24,0.27,ES2009a.C.dialog-act.vkaraisk.101,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2009a,B,1243.57,1243.83,0.26,ES2009a.B.dialog-act.vkaraisk.95,,,,,,,,,False, Yeah.,1,other,Comment-About-Understanding
+ES2009a,D,1245.08,1245.51,0.43,ES2009a.D.dialog-act.vkaraisk.192,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2009a,A,1245.58,1246.56,0.98,ES2009a.A.dialog-act.vkaraisk.414,C,A,2.31,0.0,False,False,0.0,[],False, could we do something like that?,6,elicit,Elicit-Assessment
+ES2009a,B,1246.249,1248.54,2.291,ES2009a.B.dialog-act.vkaraisk.96,,,,,,,,,False, I think so.,3,task,Assess
+ES2009a,C,1246.35,1246.81,0.46,ES2009a.C.dialog-act.vkaraisk.102,,,,,,,,,False, That's cool.,2,task,Assess
+ES2009a,D,1247.04,1247.49,0.45,ES2009a.D.dialog-act.vkaraisk.193,,,,,,,,,False, Probably.,1,task,Assess
+ES2009a,C,1248.87,1254.56,5.69,ES2009a.C.dialog-act.vkaraisk.103,A,A,0.18,2.31,True,False,0.0,[],True, I think we could design into that.,7,task,Inform
+ES2009a,B,1249.86,1250.62,0.76,ES2009a.B.dialog-act.vkaraisk.97,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,D,1250.52,1251.58,1.06,ES2009a.D.dialog-act.vkaraisk.194,,,,,,,,,False, Good.,1,other,Be-Positive
+ES2009a,A,1253.41,1254.74,1.33,ES2009a.A.dialog-act.vkaraisk.415,,,,,,,,,False, Um yeah,2,minor,Stall
+ES2009a,A,1254.74,1259.78,5.04,ES2009a.A.dialog-act.vkaraisk.416,A,C,0.0,0.18,True,False,0.0,[],True, I think this material quality as well like I guess what we can think about what kind of,18,task,Suggest
+ES2009a,A,1259.78,1266.83,7.05,ES2009a.A.dialog-act.vkaraisk.417,D,A,-0.11,0.0,False,True,0.11,['ES2009a.D.dialog-act.vkaraisk.197'],False, um uh you know Apple 's been really successful with this surgical white kind of business or this sleek kind of,21,task,Inform
+ES2009a,D,1263.83,1264.07,0.24,ES2009a.D.dialog-act.vkaraisk.195,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2009a,D,1265.87,1266.72,0.85,ES2009a.D.dialog-act.vkaraisk.196,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,D,1266.72,1271.18,4.46,ES2009a.D.dialog-act.vkaraisk.197,A,A,1.76,-0.11,True,False,0.0,[],False," And that titanium the new silver sleek ones that's last couple of years, very much so.",16,task,Inform
+ES2009a,B,1266.82,1267.1,0.28,ES2009a.B.dialog-act.vkaraisk.98,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2009a,A,1266.83,1267.337,0.507,ES2009a.A.dialog-act.vkaraisk.418,,,,,,,,,False, you know,2,minor,Stall
+ES2009a,A,1270.26,1270.66,0.4,ES2009a.A.dialog-act.vkaraisk.419,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,C,1271.24,1272.27,1.03,ES2009a.C.dialog-act.vkaraisk.104,,,,,,,,,False, Curves.,1,task,Suggest
+ES2009a,D,1272.39,1272.73,0.34,ES2009a.D.dialog-act.vkaraisk.198,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2009a,A,1272.71,1272.94,0.23,ES2009a.A.dialog-act.vkaraisk.420,,,,,,,,,False, Yeah.,1,minor,Stall
+ES2009a,A,1272.94,1274.77,1.83,ES2009a.A.dialog-act.vkaraisk.421,A,D,0.4,1.76,True,False,0.0,[],True, We do have the minimum am amount,7,task,Inform
+ES2009a,A,1274.77,1275.17,0.4,ES2009a.A.dialog-act.vkaraisk.422,,,,,,,,,False, I mean,2,minor,Stall
+ES2009a,A,1275.17,1276.19,1.02,ES2009a.A.dialog-act.vkaraisk.423,A,A,0.32,0.4,False,False,0.0,[],False, we were talking finances,4,task,Inform
+ES2009a,A,1276.19,1276.51,0.32,ES2009a.A.dialog-act.vkaraisk.425,,,,,,,,,False," I dunno,",2,task,Assess
+ES2009a,A,1276.51,1283.43,6.92,ES2009a.A.dialog-act.vkaraisk.424,A,A,0.0,0.32,False,False,0.0,[],False," selling a a forty Pound remote would h or a forty Dollar remote, twenty five Euro remote would be pretty you know it's pretty expensive",25,task,Inform
+ES2009a,D,1282.23,1282.52,0.29,ES2009a.D.dialog-act.vkaraisk.199,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2009a,A,1283.43,1288.47,5.04,ES2009a.A.dialog-act.vkaraisk.426,A,A,0.35,0.0,False,False,0.0,[],False, so maybe we might wanna trade off some of the features for a lower price.,15,task,Suggest
+ES2009a,A,1288.82,1294.38,5.56,ES2009a.A.dialog-act.vkaraisk.427,A,A,0.0,0.35,False,False,0.0,[],False, Without without getting into that whole like you know go down to bargain store remote you know bargain store universal remote,21,task,Suggest
+ES2009a,D,1293.647,1294.14,0.493,ES2009a.D.dialog-act.vkaraisk.200,,,,,,,,,False, Right.,1,minor,Backchannel
+ES2009a,A,1294.38,1296.51,2.13,ES2009a.A.dialog-act.vkaraisk.428,A,A,0.0,0.0,False,False,0.0,[],False," that's black and you know m massive,",7,task,Inform
+ES2009a,B,1294.66,1295.08,0.42,ES2009a.B.dialog-act.vkaraisk.99,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2009a,A,1296.51,1298.91,2.4,ES2009a.A.dialog-act.vkaraisk.429,A,A,1.09,0.0,False,False,0.0,[],False, some kind of I dunno a balance there in somewhere.,10,task,Suggest
+ES2009a,D,1297.06,1297.16,0.1,ES2009a.D.dialog-act.vkaraisk.201,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2009a,D,1299.35,1299.89,0.54,ES2009a.D.dialog-act.vkaraisk.202,,,,,,,,,False, Definitely.,1,task,Assess
+ES2009a,A,1300.0,1302.33,2.33,ES2009a.A.dialog-act.vkaraisk.430,A,A,0.0,1.09,False,False,0.0,[],False," But um have a think about what we can do,",10,task,Suggest
+ES2009a,A,1302.33,1304.55,2.22,ES2009a.A.dialog-act.vkaraisk.431,A,A,0.0,0.0,False,False,0.0,[],False," have a think about what we want to do,",9,task,Suggest
+ES2009a,D,1304.45,1304.82,0.37,ES2009a.D.dialog-act.vkaraisk.203,,,,,,,,,False, Yeah.,1,minor,Backchannel
+ES2009a,A,1304.55,1305.57,1.02,ES2009a.A.dialog-act.vkaraisk.432,D,A,1.69,0.0,False,False,0.0,[],False, how we're gonna sell it,5,task,Suggest
+ES2009a,A,1305.57,1306.364,0.794,ES2009a.A.dialog-act.vkaraisk.433,,,,,,,,,False, and um,2,minor,Fragment
+ES2009a,D,1305.9,1307.06,1.16,ES2009a.D.dialog-act.vkaraisk.204,,,,,,,,,False," Or if you our users in mind,",7,minor,Fragment
+ES2009a,D,1307.06,1307.26,0.2,ES2009a.D.dialog-act.vkaraisk.205,,,,,,,,,False, like,1,minor,Stall
+ES2009a,D,1307.26,1311.91,4.65,ES2009a.D.dialog-act.vkaraisk.206,D,A,0.36,1.69,True,False,0.0,[],True," these grandmas are not gonna be into this whole new let's design,",12,task,Inform
+ES2009a,D,1311.91,1312.27,0.36,ES2009a.D.dialog-act.vkaraisk.207,,,,,,,,,False, no it's,2,minor,Fragment
+ES2009a,D,1312.27,1313.2,0.93,ES2009a.D.dialog-act.vkaraisk.208,D,D,0.0,0.36,False,False,0.0,[],False, they're used to the buttons,5,task,Inform
+ES2009a,D,1313.2,1315.86,2.66,ES2009a.D.dialog-act.vkaraisk.209,D,D,0.0,0.0,False,False,0.0,[],False," so we'll have to be careful of exactly who we're marketing this to,",13,task,Suggest
+ES2009a,B,1315.35,1315.87,0.52,ES2009a.B.dialog-act.vkaraisk.100,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,D,1315.86,1318.89,3.03,ES2009a.D.dialog-act.vkaraisk.210,C,D,6.65,0.0,False,False,0.0,[],False, and who we're gonna be able to get it out of.,11,task,Suggest
+ES2009a,A,1315.94,1316.39,0.45,ES2009a.A.dialog-act.vkaraisk.434,,,,,,,,,False, Mm.,1,task,Assess
+ES2009a,B,1319.35,1320.16,0.81,ES2009a.B.dialog-act.vkaraisk.101,,,,,,,,,False, 'S true.,2,task,Assess
+ES2009a,D,1323.59,1324.188,0.598,ES2009a.D.dialog-act.vkaraisk.211,,,,,,,,,False, But,1,minor,Fragment
+ES2009a,C,1325.54,1327.55,2.01,ES2009a.C.dialog-act.vkaraisk.105,C,D,4.962,6.65,True,False,0.0,[],True, We're talking twenty five Pounds or twenty five Euros?,9,elicit,Elicit-Inform
+ES2009a,A,1327.57,1328.26,0.69,ES2009a.A.dialog-act.vkaraisk.435,,,,,,,,,False, Twenty five Euros.,3,task,Inform
+ES2009a,D,1327.77,1328.48,0.71,ES2009a.D.dialog-act.vkaraisk.212,,,,,,,,,False, Euros.,1,task,Inform
+ES2009a,C,1332.512,1337.85,5.338,ES2009a.C.dialog-act.vkaraisk.106,A,C,3.49,4.962,False,False,0.0,[],False, Slight difference I guess.,4,task,Inform
+ES2009a,B,1338.064,1338.72,0.656,ES2009a.B.dialog-act.vkaraisk.102,,,,,,,,,False,,0,minor,Fragment
+ES2009a,A,1338.77,1340.44,1.67,ES2009a.A.dialog-act.vkaraisk.436,,,,,,,,,False, Yeah.,1,task,Assess
+ES2009a,A,1340.44,1341.34,0.9,ES2009a.A.dialog-act.vkaraisk.437,,,,,,,,,False, They're all weaker than,4,minor,Fragment
+ES2009a,A,1341.34,1342.75,1.41,ES2009a.A.dialog-act.vkaraisk.438,A,C,2.66,3.49,True,False,0.0,[],True, they're all stronger than the Dollar.,6,task,Inform
+ES2009a,D,1343.06,1343.32,0.26,ES2009a.D.dialog-act.vkaraisk.213,,,,,,,,,False, Mm.,1,task,Assess
+ES2009a,A,1343.23,1345.41,2.18,ES2009a.A.dialog-act.vkaraisk.439,,,,,,,,,False," Although, computer parts, all",4,minor,Fragment
+ES2009a,A,1345.41,1347.97,2.56,ES2009a.A.dialog-act.vkaraisk.440,A,A,0.55,2.66,False,False,0.0,[],False," if you're gonna upgrade your computer, buy it in the States.",11,task,Suggest
+ES2009a,A,1347.97,1348.52,0.55,ES2009a.A.dialog-act.vkaraisk.441,,,,,,,,,False, Like um,2,minor,Stall
+ES2009a,A,1348.52,1352.27,3.75,ES2009a.A.dialog-act.vkaraisk.442,A,A,3.13,0.55,False,False,0.0,[],False, do you guys know Fry's? Huge computer uh electronics store?,10,elicit,Elicit-Inform
+ES2009a,C,1350.53,1350.83,0.3,ES2009a.C.dialog-act.vkaraisk.107,,,,,,,,,False, No.,1,task,Inform
+ES2009a,D,1350.7,1351.05,0.35,ES2009a.D.dialog-act.vkaraisk.214,,,,,,,,,False, Mm-mm.,1,task,Inform
+ES2009a,A,1352.57,1355.4,2.83,ES2009a.A.dialog-act.vkaraisk.443,,,,,,,,,False, They serve um right they sa tha s,8,minor,Fragment
+ES2009a,A,1355.4,1357.44,2.04,ES2009a.A.dialog-act.vkaraisk.444,A,A,0.0,3.13,False,False,0.0,[],False, they will sell things overseas,5,task,Inform
+ES2009a,A,1357.44,1359.1,1.66,ES2009a.A.dialog-act.vkaraisk.445,A,A,0.0,0.0,False,False,0.0,[],False, so you can buy stuff in America,7,task,Inform
+ES2009a,D,1357.57,1357.9,0.33,ES2009a.D.dialog-act.vkaraisk.215,,,,,,,,,False, Mm.,1,minor,Backchannel
+ES2009a,A,1359.1,1361.59,2.49,ES2009a.A.dialog-act.vkaraisk.446,A,A,3.73,0.0,False,False,0.0,[],False, and have it shipped over for like twenty thirty Pounds about.,11,task,Inform
+ES2009a,A,1362.15,1365.32,3.17,ES2009a.A.dialog-act.vkaraisk.447,,,,,,,,,False, Right so um,3,minor,Stall
+ES2009a,A,1365.32,1368.03,2.71,ES2009a.A.dialog-act.vkaraisk.448,A,A,0.0,3.73,False,False,0.0,[],False," let's go ahead and wrap that up here for now,",10,task,Suggest
+ES2009a,A,1368.03,1374.6,6.57,ES2009a.A.dialog-act.vkaraisk.449,A,A,0.0,0.0,False,False,0.0,[],False," I'm gonna put these initial ideas that we've got in the um project documents,",14,other,Offer
+ES2009a,A,1374.6,1385.44,10.84,ES2009a.A.dialog-act.vkaraisk.450,A,A,2.43,0.0,False,False,0.0,[],False," so if you guys wa need a reminder about what we've talked about um the different you know kind of trade-offs that we've got and the other ideas, you can consult them at your leisure.",35,task,Suggest
+ES2009a,D,1380.02,1380.34,0.32,ES2009a.D.dialog-act.vkaraisk.216,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2009a,B,1380.44,1380.92,0.48,ES2009a.B.dialog-act.vkaraisk.103,,,,,,,,,False, Okay.,1,minor,Backchannel
+ES2009a,A,1386.18,1387.23,1.05,ES2009a.A.dialog-act.vkaraisk.451,,,,,,,,,False, And uh right so,4,minor,Stall
+ES2009a,A,1387.23,1387.87,0.64,ES2009a.A.dialog-act.vkaraisk.452,,,,,,,,,False, thanks for that.,3,other,Be-Positive
+ES2009a,A,1387.87,1390.19,2.32,ES2009a.A.dialog-act.vkaraisk.453,D,A,2.76,2.43,False,False,0.0,[],False, Let's just uh head back to work on what we were talking about,13,task,Suggest
+ES2009a,A,1390.19,1392.44,2.25,ES2009a.A.dialog-act.vkaraisk.454,,,,,,,,,False, bef uh goi h h getting into.,7,minor,Fragment
+ES2009a,D,1392.95,1393.68,0.73,ES2009a.D.dialog-act.vkaraisk.217,,A,,2.76,True,False,0.0,[],True, With half an hour?,4,elicit,Elicit-Inform
+ES2009a,A,1394.18,1395.52,1.34,ES2009a.A.dialog-act.vkaraisk.455,,,,,,,,,False, Um. Yes.,2,task,Inform
+ES2009a,D,1395.61,1395.95,0.34,ES2009a.D.dialog-act.vkaraisk.218,,,,,,,,,False, 'Kay.,1,other,Comment-About-Understanding
+ES2009a,D,1395.95,1396.37,0.42,ES2009a.D.dialog-act.vkaraisk.219,,,,,,,,,False, Perfect.,1,other,Be-Positive
+ES2009a,A,1396.76,1397.32,0.56,ES2009a.A.dialog-act.vkaraisk.456,,,,,,,,,False, Thanks guys.,2,other,Be-Positive
+ES2009a,D,1397.49,1397.73,0.24,ES2009a.D.dialog-act.vkaraisk.220,,,,,,,,,False, Cool.,1,other,Be-Positive
+ES2009a,C,1397.99,1398.38,0.39,ES2009a.C.dialog-act.vkaraisk.108,,,,,,,,,False, Thank you.,2,other,Be-Positive
+ES2009a,B,1398.3,1398.65,0.35,ES2009a.B.dialog-act.vkaraisk.104,,,,,,,,,False, Alright.,1,other,Be-Positive

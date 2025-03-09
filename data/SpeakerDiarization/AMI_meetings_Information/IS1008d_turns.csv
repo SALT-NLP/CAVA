@@ -1,0 +1,590 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+IS1008d,B,30.61,31.95,1.34,IS1008d.B.dialog-act.s9553330.1,A,,9.56,,True,False,0.0,[],False, I'm sorry to be late.,5,other,Be-Positive
+IS1008d,A,30.73,32.96,2.23,IS1008d.A.dialog-act.s9553330.1,,,,,,,,,False, Welcome back.,2,other,Be-Positive
+IS1008d,A,32.96,35.2,2.24,IS1008d.A.dialog-act.s9553330.2,,,,,,,,,False, Welcome back everybody.,3,other,Be-Positive
+IS1008d,C,36.86,37.03,0.17,IS1008d.C.dialog-act.s9553330.2,,,,,,,,,False, Yeah.,1,other,Other
+IS1008d,C,38.19,39.28,1.09,IS1008d.C.dialog-act.s9553330.3,,,,,,,,,False, Thanks.,1,other,Be-Positive
+IS1008d,A,41.51,46.05,4.54,IS1008d.A.dialog-act.s9553330.3,A,B,1.95,9.56,True,False,0.0,[],True, So this meeting agenda will be the detailed design meeting.,10,task,Inform
+IS1008d,A,48.0,54.14,6.14,IS1008d.A.dialog-act.s9553330.4,A,A,0.0,1.95,False,False,0.0,[],False," And uh opening and uh P_M_s of the meet minutes,",10,task,Inform
+IS1008d,A,54.14,59.87,5.73,IS1008d.A.dialog-act.s9553330.5,A,A,1.88,0.0,False,False,0.0,[],False, uh prototype presentation from uh Christine and uh Agnes.,9,task,Inform
+IS1008d,B,60.46,61.95,1.49,IS1008d.B.dialog-act.s9553330.2,,,,,,,,,False," Agnes, yes.",2,task,Assess
+IS1008d,A,61.56,61.75,0.19,IS1008d.A.dialog-act.s9553330.6,,,,,,,,,False, Yes,1,minor,Backchannel
+IS1008d,A,61.75,63.58,1.83,IS1008d.A.dialog-act.s9553330.7,A,A,1.51,1.88,False,False,0.0,[],False, and uh evaluation criteria.,4,task,Inform
+IS1008d,A,65.09,68.64,3.55,IS1008d.A.dialog-act.s9553330.8,A,A,0.0,1.51,False,False,0.0,[],False," The finance, it's uh from my side, from the management,",10,task,Inform
+IS1008d,A,68.64,72.88,4.24,IS1008d.A.dialog-act.s9553330.9,A,A,0.0,0.0,False,False,0.0,[],False, and uh production evaluation. Then uh closing.,7,task,Inform
+IS1008d,A,72.88,83.4,10.52,IS1008d.A.dialog-act.s9553330.10,A,A,5.52,0.0,False,False,0.0,[],False," So we have forty minutes to discuss and uh finalise and close the product and project and to move further, okay,",21,task,Inform
+IS1008d,A,83.4,84.32,0.92,IS1008d.A.dialog-act.s9553330.11,,,,,,,,,False, so,1,minor,Stall
+IS1008d,A,88.92,94.12,5.2,IS1008d.A.dialog-act.s9553330.12,A,A,2.57,5.52,False,False,0.0,[],False," Okay, let's talk about uh maybe first uh for the prototype.",11,task,Suggest
+IS1008d,C,95.81,96.57,0.76,IS1008d.C.dialog-act.s9553330.4,,,,,,,,,False," Mm, okay.",2,other,Offer
+IS1008d,A,96.69,97.632,0.942,IS1008d.A.dialog-act.s9553330.13,C,A,1.618,2.57,False,False,0.0,[],False, So I handle to,4,task,Suggest
+IS1008d,C,99.25,100.11,0.86,IS1008d.C.dialog-act.s9553330.5,C,A,0.0,1.618,True,False,0.0,[],True," I've done a presentation,",4,task,Inform
+IS1008d,C,100.11,102.54,2.43,IS1008d.C.dialog-act.s9553330.6,C,C,0.0,0.0,False,False,0.0,[],False," but it pretty much covers work that we've both done,",10,task,Inform
+IS1008d,C,102.54,106.57,4.03,IS1008d.C.dialog-act.s9553330.7,A,C,-1.57,0.0,False,True,1.16,"['IS1008d.A.dialog-act.s9553330.14', 'IS1008d.B.dialog-act.s9553330.4']",False," so if I'm missing anything, Christine can just correct me.",10,task,Suggest
+IS1008d,A,105.0,106.16,1.16,IS1008d.A.dialog-act.s9553330.14,B,C,0.35,-1.57,True,False,0.0,[],False, So shall I go to,5,other,Offer
+IS1008d,B,105.78,106.51,0.73,IS1008d.B.dialog-act.s9553330.3,,,,,,,,,False," Uh thank you,",3,other,Be-Positive
+IS1008d,A,106.16,106.56,0.4,IS1008d.A.dialog-act.s9553330.15,,,,,,,,,False, sorry.,1,other,Be-Positive
+IS1008d,B,106.51,109.92,3.41,IS1008d.B.dialog-act.s9553330.4,A,A,-0.61,0.35,True,True,0.61,['IS1008d.A.dialog-act.s9553330.17'],True," so you did a PowerPoint presentation, good for you.",9,other,Be-Negative
+IS1008d,A,107.43,108.49,1.06,IS1008d.A.dialog-act.s9553330.16,,,,,,,,,False, Yep. S,2,minor,Backchannel
+IS1008d,A,109.31,111.91,2.6,IS1008d.A.dialog-act.s9553330.17,C,B,1.98,-0.61,True,False,0.0,[],False," Okay, let's go to A_M_I_.",5,other,Offer
+IS1008d,C,110.0,110.519,0.519,IS1008d.C.dialog-act.s9553330.1,,,,,,,,,False,,0,minor,Fragment
+IS1008d,C,113.89,117.115,3.225,IS1008d.C.dialog-act.s9553330.8,A,A,1.27,1.98,True,False,0.0,[],True," It's not the biggest PowerPoint presentation in the world, but",10,task,Assess
+IS1008d,B,116.368,117.8,1.432,IS1008d.B.dialog-act.s9553330.5,,,,,,,,,False,,0,minor,Fragment
+IS1008d,D,117.12,117.84,0.72,IS1008d.D.dialog-act.s9553330.1,,,,,,,,,False,,0,minor,Fragment
+IS1008d,B,118.352,118.688,0.336,IS1008d.B.dialog-act.s9553330.6,,,,,,,,,False,,0,minor,Fragment
+IS1008d,A,118.385,119.936,1.551,IS1008d.A.dialog-act.s9553330.18,D,C,8.754,1.27,True,False,0.0,[],True, So in two or three or,6,elicit,Elicit-Inform
+IS1008d,C,119.88,120.06,0.18,IS1008d.C.dialog-act.s9553330.9,,,,,,,,,False, Three.,1,task,Inform
+IS1008d,C,126.15,127.18,1.03,IS1008d.C.dialog-act.s9553330.10,,,,,,,,,False, Um.,1,minor,Stall
+IS1008d,C,128.544,129.59,1.046,IS1008d.C.dialog-act.s9553330.11,,,,,,,,,False, No it's,2,minor,Fragment
+IS1008d,D,128.69,133.05,4.36,IS1008d.D.dialog-act.s9553330.2,C,A,-3.46,8.754,True,True,1.5,['IS1008d.C.dialog-act.s9553330.12'],True, Probably. Technical pa I would think.,6,other,Offer
+IS1008d,C,129.59,131.09,1.5,IS1008d.C.dialog-act.s9553330.12,C,D,2.85,-3.46,True,False,0.0,[],False, think it's the last one.,5,task,Inform
+IS1008d,C,132.7,133.08,0.38,IS1008d.C.dialog-act.s9553330.13,,,,,,,,,False," No,",1,task,Inform
+IS1008d,C,133.08,133.94,0.86,IS1008d.C.dialog-act.s9553330.14,,,,,,,,,False, then this is,3,minor,Fragment
+IS1008d,C,133.94,137.04,3.1,IS1008d.C.dialog-act.s9553330.15,C,C,0.0,2.85,False,False,0.0,[],False," the la yeah, that one, final design.",7,task,Inform
+IS1008d,D,134.7,134.92,0.22,IS1008d.D.dialog-act.s9553330.3,,,,,,,,,False, Ha.,1,minor,Backchannel
+IS1008d,A,136.76,136.9,0.14,IS1008d.A.dialog-act.s9553330.20,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,C,137.04,141.23,4.19,IS1008d.C.dialog-act.s9553330.16,C,C,0.0,0.0,False,False,0.0,[],False," It is named appropriately, you just couldn't see the name.",10,task,Inform
+IS1008d,B,138.72,139.316,0.596,IS1008d.B.dialog-act.s9553330.7,,,,,,,,,False,,0,minor,Fragment
+IS1008d,D,139.328,139.898,0.57,IS1008d.D.dialog-act.s9553330.4,,,,,,,,,False,,0,minor,Fragment
+IS1008d,C,141.23,143.28,2.05,IS1008d.C.dialog-act.s9553330.17,C,C,8.1,0.0,False,False,0.0,[],False," Um okay, can I have the mouse?",7,elicit,Elicit-Offer-Or-Suggestion
+IS1008d,A,142.79,143.1,0.31,IS1008d.A.dialog-act.s9553330.19,,,,,,,,,False, Yes.,1,other,Offer
+IS1008d,C,145.22,145.66,0.44,IS1008d.C.dialog-act.s9553330.18,,,,,,,,,False, Thanks.,1,other,Be-Positive
+IS1008d,C,147.84,149.02,1.18,IS1008d.C.dialog-act.s9553330.19,,,,,,,,,False," Alright, so",2,minor,Stall
+IS1008d,C,151.38,158.01,6.63,IS1008d.C.dialog-act.s9553330.20,C,C,0.0,8.1,False,False,0.0,[],False," from when we were discussing specifying the case in the last meeting, we decided that we wanted an ergonomic shape,",20,task,Inform
+IS1008d,C,158.01,160.65,2.64,IS1008d.C.dialog-act.s9553330.21,C,C,0.0,0.0,False,False,0.0,[],False," the material that we chose was wood,",7,task,Inform
+IS1008d,C,160.65,162.79,2.14,IS1008d.C.dialog-act.s9553330.22,C,C,0.0,0.0,False,False,0.0,[],False," and uh the colour would be customisable,",7,task,Inform
+IS1008d,C,162.79,164.8,2.01,IS1008d.C.dialog-act.s9553330.23,C,C,2.34,0.0,False,False,0.0,[],False, 'cause you can stain the wood whatever colour.,8,task,Inform
+IS1008d,C,165.9,167.14,1.24,IS1008d.C.dialog-act.s9553330.24,,,,,,,,,False," Um,",1,minor,Stall
+IS1008d,C,167.14,174.42,7.28,IS1008d.C.dialog-act.s9553330.25,C,C,0.0,2.34,False,False,0.0,[],False," so in terms of function, you have to be able to turn the T_V_ on and off, volume and channel control, menu control, voice recognition control,",26,task,Inform
+IS1008d,C,174.42,178.95,4.53,IS1008d.C.dialog-act.s9553330.26,C,C,0.0,0.0,False,False,0.0,[],False," and we've incorporated the L_C_D_ screen on the flip panel as part of the design,",15,task,Inform
+IS1008d,C,178.95,182.51,3.56,IS1008d.C.dialog-act.s9553330.27,C,C,1.922,0.0,False,False,0.0,[],False," if we figure out it's too expensive, well then you just take it off.",14,task,Inform
+IS1008d,C,182.51,183.41,0.9,IS1008d.C.dialog-act.s9553330.28,,,,,,,,,False," Um, so",2,minor,Stall
+IS1008d,C,184.432,186.96,2.528,IS1008d.C.dialog-act.s9553330.29,C,C,3.11,1.922,False,False,0.0,[],False, to unveil our lovely product.,5,other,Offer
+IS1008d,D,190.057,191.14,1.083,IS1008d.D.dialog-act.s9553330.5,,,,,,,,,False,,0,minor,Fragment
+IS1008d,C,190.07,194.88,4.81,IS1008d.C.dialog-act.s9553330.30,C,C,0.66,3.11,False,False,0.0,[],False," This is our remote control, with the flip panel as you can see.",13,task,Inform
+IS1008d,C,195.54,201.35,5.81,IS1008d.C.dialog-act.s9553330.31,C,C,0.0,0.66,False,False,0.0,[],False," So if you lift up the panel, you can see the lovely yellow L_C_D_ display.",15,task,Inform
+IS1008d,C,201.35,203.88,2.53,IS1008d.C.dialog-act.s9553330.32,C,C,0.0,0.0,False,False,0.0,[],False," Um, this is actually hard to do.",7,task,Assess
+IS1008d,C,203.88,206.22,2.34,IS1008d.C.dialog-act.s9553330.33,C,C,0.0,0.0,False,False,0.0,[],False," The yellow button you have is the on off button,",10,task,Inform
+IS1008d,C,206.22,207.9,1.68,IS1008d.C.dialog-act.s9553330.34,C,C,0.49,0.0,False,False,0.0,[],False," so it's really big, hard to miss.",7,task,Inform
+IS1008d,C,208.39,215.12,6.73,IS1008d.C.dialog-act.s9553330.35,C,C,0.0,0.49,False,False,0.0,[],False, You have the the red um triangles are the toggles for changing the volume.,14,task,Inform
+IS1008d,C,215.12,218.3,3.18,IS1008d.C.dialog-act.s9553330.36,C,C,0.0,0.0,False,False,0.0,[],False," So up volume up, down volume down.",7,other,Other
+IS1008d,C,218.3,220.36,2.06,IS1008d.C.dialog-act.s9553330.37,C,C,0.153,0.0,False,False,0.0,[],False, The green are the channel changing.,6,task,Inform
+IS1008d,C,220.513,223.87,3.357,IS1008d.C.dialog-act.s9553330.38,C,C,0.56,0.153,False,False,0.0,[],False," S And it's one of those very light, very touchable displays.",11,task,Inform
+IS1008d,C,224.43,228.96,4.53,IS1008d.C.dialog-act.s9553330.39,C,C,0.0,0.56,False,False,0.0,[],False," And then you have the numeric pad in the dark blue at the bottom,",14,task,Inform
+IS1008d,C,228.96,234.83,5.87,IS1008d.C.dialog-act.s9553330.40,C,C,0.0,0.0,False,False,0.0,[],False," and on the right-hand side you have the access to the menu on the T_V_,",15,task,Inform
+IS1008d,C,234.83,242.41,7.58,IS1008d.C.dialog-act.s9553330.41,C,C,0.0,0.0,False,False,0.0,[],False, and on the left-hand side you have the the the ability to turn off the voice recognition.,17,task,Inform
+IS1008d,C,242.41,245.65,3.24,IS1008d.C.dialog-act.s9553330.42,C,C,7.64,0.0,False,False,0.0,[],False, So this is pretty much what we had on the white board the last time.,15,task,Inform
+IS1008d,A,247.02,247.11,0.09,IS1008d.A.dialog-act.s9553330.21,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008d,C,249.77,249.93,0.16,IS1008d.C.dialog-act.s9553330.43,,,,,,,,,False, So.,1,elicit,Elicit-Offer-Or-Suggestion
+IS1008d,B,250.42,252.414,1.994,IS1008d.B.dialog-act.s9553330.8,,,,,,,,,False, Um and uh I could,5,minor,Fragment
+IS1008d,C,251.437,253.29,1.853,IS1008d.C.dialog-act.s9553330.44,,,,,,,,,False, Oh yes.,2,task,Assess
+IS1008d,B,253.01,253.48,0.47,IS1008d.B.dialog-act.s9553330.9,,,,,,,,,False, Yeah the d,3,minor,Fragment
+IS1008d,C,253.29,258.09,4.8,IS1008d.C.dialog-act.s9553330.45,C,C,0.0,7.64,False,False,0.0,[],False, Additional feature on the back is that you can have your own customised backing,14,task,Inform
+IS1008d,C,258.09,261.85,3.76,IS1008d.C.dialog-act.s9553330.46,C,C,0.0,0.0,False,False,0.0,[],False, and I suppose you could do the same thing on the flip case on the front.,16,task,Inform
+IS1008d,C,261.85,265.34,3.49,IS1008d.C.dialog-act.s9553330.47,B,C,0.94,0.0,False,False,0.0,[],False, So that you can really make this a highly highly customisable remote control.,13,task,Inform
+IS1008d,B,266.28,273.04,6.76,IS1008d.B.dialog-act.s9553330.10,B,C,0.0,0.94,True,False,0.0,[],True, We haven't um uh specified where the speaker or the microphone will be placed.,14,task,Inform
+IS1008d,B,273.04,280.112,7.072,IS1008d.B.dialog-act.s9553330.11,A,B,1.238,0.0,False,False,0.0,[],False, That depends on the uh s design of the circuit board inside and uh what room is left um,19,task,Inform
+IS1008d,C,279.99,280.24,0.25,IS1008d.C.dialog-act.s9553330.48,,,,,,,,,False, Yeah.,1,task,Assess
+IS1008d,A,281.35,286.27,4.92,IS1008d.A.dialog-act.s9553330.22,A,B,1.77,1.238,True,False,0.0,[],True," I think the microphone is on on the top, uh on the middle, the under the flip.",17,task,Suggest
+IS1008d,B,283.97,284.84,0.87,IS1008d.B.dialog-act.s9553330.12,,,,,,,,,False," Yes, okay.",2,minor,Backchannel
+IS1008d,B,286.72,287.01,0.29,IS1008d.B.dialog-act.s9553330.13,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+IS1008d,A,288.04,290.61,2.57,IS1008d.A.dialog-act.s9553330.23,A,A,1.14,1.77,False,False,0.0,[],False," So that will be the safe,",6,task,Inform
+IS1008d,A,290.61,291.75,1.14,IS1008d.A.dialog-act.s9553330.24,,,,,,,,,False, so p any the chip,5,minor,Fragment
+IS1008d,A,291.75,295.341,3.591,IS1008d.A.dialog-act.s9553330.25,B,A,-0.471,1.14,False,True,0.471,['IS1008d.B.dialog-act.s9553330.14'],False, it's not on the chip because you need to have microphone to,12,task,Inform
+IS1008d,B,294.87,297.15,2.28,IS1008d.B.dialog-act.s9553330.14,C,A,0.87,-0.471,True,False,0.0,[],False," No, I mean it depends on the design of the circuit board.",12,task,Assess
+IS1008d,A,297.35,297.69,0.34,IS1008d.A.dialog-act.s9553330.26,,,,,,,,,False, Yes.,1,task,Assess
+IS1008d,C,298.02,299.7,1.68,IS1008d.C.dialog-act.s9553330.49,C,B,0.0,0.87,True,False,0.0,[],True," But it shouldn't be under the flip either,",8,task,Assess
+IS1008d,C,299.7,305.82,6.12,IS1008d.C.dialog-act.s9553330.50,A,C,1.96,0.0,False,False,0.0,[],False," because you can have the remote control closed, but you still might want to activate it by voice.",18,task,Inform
+IS1008d,A,303.874,305.183,1.309,IS1008d.A.dialog-act.s9553330.27,,,,,,,,,False, Uh it's it's,3,minor,Fragment
+IS1008d,A,305.91,307.78,1.87,IS1008d.A.dialog-act.s9553330.28,,,,,,,,,False," Yeah, but uh uh",4,minor,Stall
+IS1008d,A,307.78,309.91,2.13,IS1008d.A.dialog-act.s9553330.29,A,C,0.0,1.96,True,False,0.0,[],True, my opinion I think it's better under the flip,9,task,Inform
+IS1008d,A,309.91,315.61,5.7,IS1008d.A.dialog-act.s9553330.30,A,A,0.0,0.0,False,False,0.0,[],False," because whenever you want to uh the talk, okay, so then you can speak then you can close it.",19,task,Inform
+IS1008d,A,315.61,322.17,6.56,IS1008d.A.dialog-act.s9553330.31,A,A,0.0,0.0,False,False,0.0,[],False," But if you put it on the on the flip, okay, then uh technical I don't think it's uh feasible,",20,task,Inform
+IS1008d,A,322.17,324.85,2.68,IS1008d.A.dialog-act.s9553330.32,C,A,-0.13,0.0,False,True,0.13,['IS1008d.C.dialog-act.s9553330.51'],False, 'cause most of the time you speak then it will be recognised.,12,task,Inform
+IS1008d,C,324.72,331.32,6.6,IS1008d.C.dialog-act.s9553330.51,C,A,0.0,-0.13,True,False,0.0,[],False," But if you've already got the remote control in your hand you need to open the flip to use the voice, why use the voice, why not just use your hand?",31,task,Assess
+IS1008d,C,331.32,338.66,7.34,IS1008d.C.dialog-act.s9553330.52,B,C,-0.38,0.0,False,True,0.38,['IS1008d.B.dialog-act.s9553330.15'],False," I mean the whole point of the voice is that if the remote control is sitting there and I'm too lazy to reach over and pick it up, I can just use my voice.",34,task,Inform
+IS1008d,B,338.28,343.93,5.65,IS1008d.B.dialog-act.s9553330.15,C,C,0.78,-0.38,True,False,0.0,[],False, Maybe I've got my hand in the popcorn bowl and I'm holding my cup of Coca-Cola in the other hand.,20,task,Suggest
+IS1008d,C,344.6,344.71,0.11,IS1008d.C.dialog-act.s9553330.53,,,,,,,,,False, Yeah.,1,task,Assess
+IS1008d,C,344.71,348.776,4.066,IS1008d.C.dialog-act.s9553330.54,D,B,-3.286,0.78,True,True,3.286,['IS1008d.D.dialog-act.s9553330.6'],True, And you don't wanna let go of either one.,9,task,Suggest
+IS1008d,D,345.49,350.14,4.65,IS1008d.D.dialog-act.s9553330.6,C,C,-0.01,-3.286,True,True,0.01,['IS1008d.C.dialog-act.s9553330.56'],False, I don't wanna say. Louder. Yeah.,6,task,Assess
+IS1008d,C,348.776,350.112,1.336,IS1008d.C.dialog-act.s9553330.55,,,,,,,,,False,,0,minor,Fragment
+IS1008d,C,350.13,351.32,1.19,IS1008d.C.dialog-act.s9553330.56,C,D,0.0,-0.01,True,False,0.0,[],False," I mean it doesn't have to be on the flip,",10,task,Inform
+IS1008d,C,351.32,352.93,1.61,IS1008d.C.dialog-act.s9553330.57,D,C,-0.72,0.0,False,True,0.72,"['IS1008d.D.dialog-act.s9553330.7', 'IS1008d.A.dialog-act.s9553330.33']",False, it can be on the side somewhere.,7,task,Suggest
+IS1008d,D,352.21,353.25,1.04,IS1008d.D.dialog-act.s9553330.7,A,C,-0.38,-0.72,True,True,0.38,['IS1008d.A.dialog-act.s9553330.33'],False, Can also be on the side.,6,task,Suggest
+IS1008d,A,352.87,354.25,1.38,IS1008d.A.dialog-act.s9553330.33,C,D,0.97,-0.38,True,False,0.0,[],False," Yeah, the sides maybe is good.",6,other,Comment-About-Understanding
+IS1008d,C,353.49,353.9,0.41,IS1008d.C.dialog-act.s9553330.58,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,B,354.97,355.41,0.44,IS1008d.B.dialog-act.s9553330.16,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008d,C,355.22,358.685,3.465,IS1008d.C.dialog-act.s9553330.59,A,A,-1.605,0.97,True,True,1.605,['IS1008d.A.dialog-act.s9553330.34'],True," So, I mean I can pass this around if anyone wants to",12,other,Offer
+IS1008d,A,357.08,358.8,1.72,IS1008d.A.dialog-act.s9553330.34,B,C,0.52,-1.605,True,False,0.0,[],False, Yes. So it's maybe good idea.,6,task,Assess
+IS1008d,B,359.32,362.556,3.236,IS1008d.B.dialog-act.s9553330.17,D,A,-0.972,0.52,True,True,0.972,['IS1008d.D.dialog-act.s9553330.8'],True," Yeah, y better you pass it around with a napkin.",10,task,Suggest
+IS1008d,C,359.332,360.729,1.397,IS1008d.C.dialog-act.s9553330.60,,,,,,,,,False,,0,minor,Fragment
+IS1008d,D,361.584,372.25,10.666,IS1008d.D.dialog-act.s9553330.8,A,B,4.29,-0.972,True,False,0.0,[],False," No, because y you can easily put a microphone on the side that would have no problem would haven't been not be damaged or anything, and it'd be accessible all the time to voice.",34,task,Inform
+IS1008d,C,362.864,364.124,1.26,IS1008d.C.dialog-act.s9553330.61,,,,,,,,,False,,0,minor,Fragment
+IS1008d,C,367.133,367.79,0.657,IS1008d.C.dialog-act.s9553330.62,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,A,367.78,368.18,0.4,IS1008d.A.dialog-act.s9553330.35,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,A,370.33,370.89,0.56,IS1008d.A.dialog-act.s9553330.36,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,C,372.45,373.45,1.0,IS1008d.C.dialog-act.s9553330.63,,,,,,,,,False," Yeah, exactly.",2,task,Assess
+IS1008d,D,375.9,376.01,0.11,IS1008d.D.dialog-act.s9553330.9,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,A,376.54,377.51,0.97,IS1008d.A.dialog-act.s9553330.37,D,D,2.48,4.29,True,False,0.0,[],True, So it's maybe good idea.,5,task,Assess
+IS1008d,A,377.58,377.93,0.35,IS1008d.A.dialog-act.s9553330.38,,,,,,,,,False, S s,2,minor,Fragment
+IS1008d,B,378.42,382.235,3.815,IS1008d.B.dialog-act.s9553330.18,,,,,,,,,False, It's um It's um,4,minor,Fragment
+IS1008d,D,379.99,381.15,1.16,IS1008d.D.dialog-act.s9553330.10,B,A,2.04,2.48,True,False,0.0,[],True, Compliments to the artist.,4,other,Be-Positive
+IS1008d,B,383.19,386.208,3.018,IS1008d.B.dialog-act.s9553330.19,C,D,2.012,2.04,True,False,0.0,[],True, You need to work on the weight a little bit.,10,task,Suggest
+IS1008d,C,385.74,388.22,2.48,IS1008d.C.dialog-act.s9553330.64,,,,,,,,,False, Yes.,1,task,Assess
+IS1008d,D,385.82,386.81,0.99,IS1008d.D.dialog-act.s9553330.11,,,,,,,,,False, Uh.,1,minor,Backchannel
+IS1008d,A,386.9,388.128,1.228,IS1008d.A.dialog-act.s9553330.39,,,,,,,,,False, Okay. S,2,minor,Backchannel
+IS1008d,A,388.15,390.23,2.08,IS1008d.A.dialog-act.s9553330.40,,,,,,,,,False," I'm fine, I'm satisfi",4,minor,Fragment
+IS1008d,C,388.22,389.92,1.7,IS1008d.C.dialog-act.s9553330.65,C,B,0.0,2.012,True,False,0.0,[],True," And maybe the shape of the buttons,",7,task,Suggest
+IS1008d,C,389.92,394.354,4.434,IS1008d.C.dialog-act.s9553330.66,B,C,-2.914,0.0,False,True,2.83,"['IS1008d.B.dialog-act.s9553330.20', 'IS1008d.A.dialog-act.s9553330.42']",False," the little egg shapes aren't the most economical, but",9,task,Inform
+IS1008d,A,390.23,391.09,0.86,IS1008d.A.dialog-act.s9553330.41,,,,,,,,,False, I'm satisfied.,2,task,Assess
+IS1008d,B,391.44,394.27,2.83,IS1008d.B.dialog-act.s9553330.20,A,C,-1.16,-2.914,True,True,1.16,['IS1008d.A.dialog-act.s9553330.42'],False, We're glad you're satisfied.,4,other,Be-Positive
+IS1008d,A,393.11,398.58,5.47,IS1008d.A.dialog-act.s9553330.42,C,B,0.32,-1.16,True,False,0.0,[],False," Of course it's it's it's looks more heo heavy, but I think when it's completely maybe it's a less weight.",20,task,Assess
+IS1008d,C,398.9,400.95,2.05,IS1008d.C.dialog-act.s9553330.67,C,A,0.0,0.32,True,False,0.0,[],True, Yeah. I mean this is plasticene.,6,task,Assess
+IS1008d,C,400.95,402.32,1.37,IS1008d.C.dialog-act.s9553330.68,C,C,0.0,0.0,False,False,0.0,[],False, There's only so much you can do.,7,task,Assess
+IS1008d,A,401.06,401.43,0.37,IS1008d.A.dialog-act.s9553330.43,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,C,402.32,404.69,2.37,IS1008d.C.dialog-act.s9553330.69,C,C,2.86,0.0,False,False,0.0,[],False, We could have possibly made it a lot thinner as well.,11,task,Suggest
+IS1008d,C,405.316,406.384,1.068,IS1008d.C.dialog-act.s9553330.70,,,,,,,,,False, But,1,minor,Stall
+IS1008d,C,407.55,411.35,3.8,IS1008d.C.dialog-act.s9553330.71,C,C,0.0,2.86,False,False,0.0,[],False," And part of the thing is m a lot of people say that they don't like something that's too light,",20,task,Inform
+IS1008d,C,411.35,413.93,2.58,IS1008d.C.dialog-act.s9553330.72,C,C,0.0,0.0,False,False,0.0,[],False, because they don't feel like they have enough control over it.,11,task,Inform
+IS1008d,B,413.84,414.22,0.38,IS1008d.B.dialog-act.s9553330.21,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008d,C,413.93,416.33,2.4,IS1008d.C.dialog-act.s9553330.73,C,C,0.0,0.0,False,False,0.0,[],False," So I mean maybe this is excessively heavy,",8,task,Assess
+IS1008d,C,416.33,417.76,1.43,IS1008d.C.dialog-act.s9553330.74,C,C,0.0,0.0,False,False,0.0,[],False," but I think it needs to have some weight,",9,task,Inform
+IS1008d,C,417.76,420.08,2.32,IS1008d.C.dialog-act.s9553330.75,C,C,1.996,0.0,False,False,0.0,[],False, it needs to feel like you're still holding something.,9,task,Inform
+IS1008d,A,418.09,418.24,0.15,IS1008d.A.dialog-act.s9553330.44,,,,,,,,,False, Yep.,1,minor,Backchannel
+IS1008d,C,422.076,426.89,4.814,IS1008d.C.dialog-act.s9553330.76,A,C,-0.25,1.996,False,True,0.25,['IS1008d.A.dialog-act.s9553330.45'],False, So that's pretty much it for our presentation actually.,9,task,Inform
+IS1008d,A,426.64,428.67,2.03,IS1008d.A.dialog-act.s9553330.45,A,C,0.0,-0.25,True,False,0.0,[],False, That's your uh prototype model?,5,task,Inform
+IS1008d,C,428.08,428.22,0.14,IS1008d.C.dialog-act.s9553330.77,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,A,428.67,431.24,2.57,IS1008d.A.dialog-act.s9553330.46,A,A,0.0,0.0,False,False,0.0,[],False," Okay, that's good, thank you very much.",7,other,Be-Positive
+IS1008d,D,430.368,430.752,0.384,IS1008d.D.dialog-act.s9553330.12,,,,,,,,,False,,0,minor,Fragment
+IS1008d,A,431.24,432.864,1.624,IS1008d.A.dialog-act.s9553330.48,D,A,1.066,0.0,False,False,0.0,[],False, So any comments or uh,5,elicit,Elicit-Assessment
+IS1008d,D,433.93,441.0,7.07,IS1008d.D.dialog-act.s9553330.13,D,A,0.0,1.066,True,False,0.0,[],True," Well, the prototype is is very well within the design and ideas that we've we've talked about on the previous meetings.",21,task,Assess
+IS1008d,A,440.9,440.99,0.09,IS1008d.A.dialog-act.s9553330.47,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1008d,D,441.0,447.248,6.248,IS1008d.D.dialog-act.s9553330.14,A,D,16.462,0.0,False,False,0.0,[],False, Now it goes into this next phase as the financial uh marketing uh,13,task,Inform
+IS1008d,A,444.488,445.712,1.224,IS1008d.A.dialog-act.s9553330.49,,,,,,,,,False," Yes, that uh",3,minor,Fragment
+IS1008d,A,447.2,448.784,1.584,IS1008d.A.dialog-act.s9553330.50,,,,,,,,,False, So I'll come back to the,6,minor,Fragment
+IS1008d,A,456.944,457.542,0.598,IS1008d.A.dialog-act.s9553330.51,,,,,,,,,False,,0,minor,Fragment
+IS1008d,A,463.71,466.89,3.18,IS1008d.A.dialog-act.s9553330.52,A,D,0.0,16.462,True,False,0.0,[],True," So evaluation criteria, I think uh that will be good,",10,task,Inform
+IS1008d,A,466.89,469.72,2.83,IS1008d.A.dialog-act.s9553330.53,A,A,0.0,0.0,False,False,0.0,[],False," so then let's come to the finance uh,",8,task,Inform
+IS1008d,A,469.72,474.7,4.98,IS1008d.A.dialog-act.s9553330.55,A,A,1.69,0.0,False,False,0.0,[],False, I have some uh calculations which I made uh as for uh the budget.,14,other,Offer
+IS1008d,A,476.39,483.57,7.18,IS1008d.A.dialog-act.s9553330.56,A,A,1.22,1.69,False,False,0.0,[],False, So here you can uh look like uh the energy and uh dynamo and uh kinetic and solar cells.,19,task,Inform
+IS1008d,A,484.79,487.63,2.84,IS1008d.A.dialog-act.s9553330.57,A,A,0.0,1.22,False,False,0.0,[],False," Uh it's optional, somewhat optional",5,task,Inform
+IS1008d,A,487.63,491.23,3.6,IS1008d.A.dialog-act.s9553330.58,A,A,1.34,0.0,False,False,0.0,[],False," and Ed wants the chip on print, that's what uh we were talking about that.",15,task,Inform
+IS1008d,B,488.781,489.456,0.675,IS1008d.B.dialog-act.s9553330.22,,,,,,,,,False,,0,minor,Fragment
+IS1008d,A,492.57,501.76,9.19,IS1008d.A.dialog-act.s9553330.60,A,A,2.13,1.34,False,False,0.0,[],False," So then we have sample sensor and sample speaker, then uh we have the wood material, then special colour and push button.",22,task,Inform
+IS1008d,A,502.87,503.89,1.02,IS1008d.A.dialog-act.s9553330.61,,,,,,,,,False, So it's uh,3,minor,Fragment
+IS1008d,A,503.89,506.28,2.39,IS1008d.A.dialog-act.s9553330.62,A,A,0.0,2.13,False,False,0.0,[],False," actually, our budget was uh twelve point five Euro,",9,task,Inform
+IS1008d,A,506.28,508.51,2.23,IS1008d.A.dialog-act.s9553330.63,A,A,0.0,0.0,False,False,0.0,[],False," but uh it's coming to nine point nine five Euro,",10,task,Inform
+IS1008d,A,508.51,511.32,2.81,IS1008d.A.dialog-act.s9553330.64,A,A,0.0,0.0,False,False,0.0,[],False," so we are under uh below the budget,",8,task,Inform
+IS1008d,A,511.32,513.53,2.21,IS1008d.A.dialog-act.s9553330.65,A,A,2.78,0.0,False,False,0.0,[],False," okay, so still we are saving some money.",8,task,Inform
+IS1008d,A,516.31,517.65,1.34,IS1008d.A.dialog-act.s9553330.66,D,A,5.28,2.78,False,False,0.0,[],False, I think it's a good figure.,6,task,Assess
+IS1008d,B,517.81,518.91,1.1,IS1008d.B.dialog-act.s9553330.23,,,,,,,,,False," Yes, great",2,task,Assess
+IS1008d,A,517.856,521.966,4.11,IS1008d.A.dialog-act.s9553330.59,,,,,,,,,False,,0,minor,Fragment
+IS1008d,D,518.848,521.248,2.4,IS1008d.D.dialog-act.s9553330.15,,,,,,,,,False,,0,minor,Fragment
+IS1008d,B,518.91,521.1,2.19,IS1008d.B.dialog-act.s9553330.24,,,,,,,,,False, I I'm surprised.,3,task,Assess
+IS1008d,B,521.1,522.992,1.892,IS1008d.B.dialog-act.s9553330.25,,,,,,,,,False, Congratulations.,1,other,Be-Positive
+IS1008d,A,521.966,522.86,0.894,IS1008d.A.dialog-act.s9553330.67,,,,,,,,,False, Than thank you.,3,other,Be-Positive
+IS1008d,D,522.93,524.98,2.05,IS1008d.D.dialog-act.s9553330.16,D,A,0.0,5.28,True,False,0.0,[],True," Well we haven't come to mine yet, so",8,task,Assess
+IS1008d,A,522.959,527.887,4.928,IS1008d.A.dialog-act.s9553330.68,,,,,,,,,False,,0,minor,Fragment
+IS1008d,C,524.53,525.363,0.833,IS1008d.C.dialog-act.s9553330.78,,,,,,,,,False,,0,minor,Fragment
+IS1008d,B,524.61,525.14,0.53,IS1008d.B.dialog-act.s9553330.26,,,,,,,,,False," Oh, okay",2,task,Assess
+IS1008d,D,524.98,527.673,2.693,IS1008d.D.dialog-act.s9553330.17,B,D,-2.533,0.0,False,True,2.533,['IS1008d.B.dialog-act.s9553330.27'],False," we're gonna have a bit of difference of opinion, yes.",10,task,Inform
+IS1008d,B,525.14,529.21,4.07,IS1008d.B.dialog-act.s9553330.27,A,D,1.16,-2.533,True,False,0.0,[],False,". It's gonna cost a long way to c you know, cost a lot of money to market it, is it?",20,elicit,Elicit-Inform
+IS1008d,D,527.673,530.32,2.647,IS1008d.D.dialog-act.s9553330.18,,,,,,,,,False,,0,minor,Fragment
+IS1008d,A,530.37,536.56,6.19,IS1008d.A.dialog-act.s9553330.69,D,B,6.07,1.16,True,False,0.0,[],True," So maybe it's for some money we can utilise for our uh marketing, for the sales, okay, and uh",19,task,Suggest
+IS1008d,D,539.488,542.63,3.142,IS1008d.D.dialog-act.s9553330.19,,,,,,,,,False," Well, it just depends on if we're gonna add a o",11,minor,Fragment
+IS1008d,D,542.63,552.05,9.42,IS1008d.D.dialog-act.s9553330.20,D,A,0.0,6.07,True,False,0.0,[],True," on this pr provisionary cost analysis, we do not have a L_C_ display.",13,task,Inform
+IS1008d,D,552.05,554.23,2.18,IS1008d.D.dialog-act.s9553330.21,C,D,-0.1,0.0,False,True,0.1,['IS1008d.C.dialog-act.s9553330.80'],False," L_C_ display is gonna be very expensive,",7,task,Inform
+IS1008d,C,554.13,556.01,1.88,IS1008d.C.dialog-act.s9553330.80,D,D,0.72,-0.1,True,False,0.0,[],False," No we do, but it's not filled in.",8,task,Inform
+IS1008d,D,554.23,554.576,0.346,IS1008d.D.dialog-act.s9553330.22,,,,,,,,,False, it's gonna be,3,minor,Fragment
+IS1008d,C,556.01,557.38,1.37,IS1008d.C.dialog-act.s9553330.81,,,,,,,,,False, It's number thirty.,3,task,Inform
+IS1008d,D,556.01,556.73,0.72,IS1008d.D.dialog-act.s9553330.23,,,,,,,,,False, It's not it doesn't say.,5,minor,Fragment
+IS1008d,A,556.08,557.01,0.93,IS1008d.A.dialog-act.s9553330.72,,,,,,,,,False, It's not.,2,minor,Fragment
+IS1008d,B,556.45,556.93,0.48,IS1008d.B.dialog-act.s9553330.28,,,,,,,,,False, Thirty.,1,minor,Backchannel
+IS1008d,D,556.73,558.47,1.74,IS1008d.D.dialog-act.s9553330.24,C,C,-0.1,0.72,True,True,0.1,['IS1008d.C.dialog-act.s9553330.83'],True," We don't have the price up there,",7,task,Inform
+IS1008d,A,557.01,558.28,1.27,IS1008d.A.dialog-act.s9553330.70,,,,,,,,,False, Yeah. Yeah.,2,minor,Backchannel
+IS1008d,C,557.38,558.37,0.99,IS1008d.C.dialog-act.s9553330.82,,,,,,,,,False," Oh, yeah, yeah,",3,minor,Backchannel
+IS1008d,C,558.37,559.65,1.28,IS1008d.C.dialog-act.s9553330.83,D,D,-1.18,-0.1,True,True,1.18,['IS1008d.D.dialog-act.s9553330.25'],False," you're right, sorry, yes.",4,other,Be-Positive
+IS1008d,A,558.46,559.41,0.95,IS1008d.A.dialog-act.s9553330.71,,,,,,,,,False, Yeah. Yeah.,2,minor,Backchannel
+IS1008d,D,558.47,574.896,16.426,IS1008d.D.dialog-act.s9553330.25,B,C,-0.496,-1.18,True,True,0.496,['IS1008d.B.dialog-act.s9553330.31'],False," okay, so if we add approximately two to three Euro per remote, now we're up around about twelve, twelve and a half as to what uh the company had initially uh requested. Um",33,task,Inform
+IS1008d,B,558.87,558.96,0.09,IS1008d.B.dialog-act.s9553330.30,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,B,574.4,578.11,3.71,IS1008d.B.dialog-act.s9553330.31,D,D,0.42,-0.496,True,False,0.0,[],False," So that means we can put the uh the L_C_D_ in, yeah.",12,task,Suggest
+IS1008d,D,576.32,578.53,2.21,IS1008d.D.dialog-act.s9553330.26,,,,,,,,,False, Display in.,2,task,Suggest
+IS1008d,D,578.53,581.24,2.71,IS1008d.D.dialog-act.s9553330.27,D,B,0.0,0.42,True,False,0.0,[],True, But as far as production um I'm putting up a question,11,task,Inform
+IS1008d,D,581.24,584.01,2.77,IS1008d.D.dialog-act.s9553330.28,D,D,0.0,0.0,False,False,0.0,[],False," because we're talking about profit also,",6,task,Inform
+IS1008d,D,584.01,593.25,9.24,IS1008d.D.dialog-act.s9553330.29,D,D,0.0,0.0,False,False,0.0,[],False," and in mine you'll see uh the problem with uh our survey, the p the possibility that how many units can be sold, what percentage of the market, etcetera etcetera",30,task,Inform
+IS1008d,D,593.25,596.58,3.33,IS1008d.D.dialog-act.s9553330.30,D,D,1.13,0.0,False,False,0.0,[],False, because that has to be taken in into consideration.,9,task,Inform
+IS1008d,A,596.354,596.806,0.452,IS1008d.A.dialog-act.s9553330.73,,,,,,,,,False,,0,minor,Fragment
+IS1008d,D,597.71,604.544,6.834,IS1008d.D.dialog-act.s9553330.33,A,D,1.126,1.13,False,False,0.0,[],False," Uh this is just production cost, it is not uh advertising cost, it's not transportation cost uh",17,task,Inform
+IS1008d,A,605.67,607.96,2.29,IS1008d.A.dialog-act.s9553330.74,D,D,-1.045,1.126,True,True,1.045,['IS1008d.D.dialog-act.s9553330.34'],True," Yes, so still uh we have twelve point five Euro.",10,task,Inform
+IS1008d,D,606.915,614.67,7.755,IS1008d.D.dialog-act.s9553330.34,D,A,0.0,-1.045,True,False,0.0,[],False, And that will inflate quite a bit the cost of the uh the cost of the unit for the company.,20,task,Inform
+IS1008d,A,609.4,609.95,0.55,IS1008d.A.dialog-act.s9553330.75,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,A,610.711,611.242,0.531,IS1008d.A.dialog-act.s9553330.76,,,,,,,,,False,,0,minor,Fragment
+IS1008d,A,611.73,612.083,0.353,IS1008d.A.dialog-act.s9553330.77,,,,,,,,,False," Yeah, but",2,minor,Fragment
+IS1008d,A,613.04,614.12,1.08,IS1008d.A.dialog-act.s9553330.78,,,,,,,,,False, Yes. Yep.,2,minor,Backchannel
+IS1008d,C,614.14,614.41,0.27,IS1008d.C.dialog-act.s9553330.84,,,,,,,,,False, Um-hmm.,1,minor,Backchannel
+IS1008d,D,614.67,621.16,6.49,IS1008d.D.dialog-act.s9553330.35,A,D,0.34,0.0,False,False,0.0,[],False," So to come up with what the company wants is a fifty million Pound profit, we're gonna have to go a long ways.",23,task,Inform
+IS1008d,A,621.0,621.5,0.5,IS1008d.A.dialog-act.s9553330.79,,,,,,,,,False, Yes.,1,task,Assess
+IS1008d,A,621.5,623.57,2.07,IS1008d.A.dialog-act.s9553330.80,A,D,0.0,0.34,True,False,0.0,[],True," This we are talking about one unit, okay,",8,task,Inform
+IS1008d,D,623.098,623.94,0.842,IS1008d.D.dialog-act.s9553330.36,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,A,623.57,628.0,4.43,IS1008d.A.dialog-act.s9553330.81,B,A,1.624,0.0,False,False,0.0,[],False," so when it go into the quantity, okay, and the cost will come down.",14,task,Inform
+IS1008d,B,629.624,640.16,10.536,IS1008d.B.dialog-act.s9553330.32,D,A,-3.71,1.624,True,True,2.33,['IS1008d.D.dialog-act.s9553330.38'],True," Although customisation, because this is being done, you know, the on on-order basis, it might be uh the the quantity won't m won't uh",24,task,Inform
+IS1008d,D,629.9,630.41,0.51,IS1008d.D.dialog-act.s9553330.37,,,,,,,,,False, Slightly.,1,task,Assess
+IS1008d,A,636.08,636.25,0.17,IS1008d.A.dialog-act.s9553330.82,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,D,636.45,638.78,2.33,IS1008d.D.dialog-act.s9553330.38,B,B,1.38,-3.71,True,False,0.0,[],False, It's gonna be very hard to reduce.,7,task,Inform
+IS1008d,C,637.98,638.75,0.77,IS1008d.C.dialog-act.s9553330.85,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,B,640.16,643.33,3.17,IS1008d.B.dialog-act.s9553330.33,B,D,0.0,1.38,True,False,0.0,[],True," the circuit board will b you're right, would be in producing quantity,",12,task,Inform
+IS1008d,B,643.33,647.248,3.918,IS1008d.B.dialog-act.s9553330.34,B,B,1.272,0.0,False,False,0.0,[],False, but the cost of the case would uh be fixed at the,12,task,Inform
+IS1008d,B,648.52,653.15,4.63,IS1008d.B.dialog-act.s9553330.35,B,B,0.5,1.272,False,False,0.0,[],False, Uh you got some pretty cheap labour that can do this case for one Euro.,15,task,Assess
+IS1008d,D,652.31,654.97,2.66,IS1008d.D.dialog-act.s9553330.39,,,,,,,,,False, That's not bad.,3,task,Assess
+IS1008d,B,653.15,653.65,0.5,IS1008d.B.dialog-act.s9553330.36,,,,,,,,,False, That's really,2,minor,Fragment
+IS1008d,B,653.65,657.29,3.64,IS1008d.B.dialog-act.s9553330.37,A,B,2.457,0.5,False,False,0.0,[],False," that's the cost of the material and lab wow, that's really outstanding.",12,task,Assess
+IS1008d,A,654.57,654.71,0.14,IS1008d.A.dialog-act.s9553330.83,,,,,,,,,False, Yep.,1,minor,Backchannel
+IS1008d,A,655.73,655.91,0.18,IS1008d.A.dialog-act.s9553330.84,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,A,658.101,658.486,0.385,IS1008d.A.dialog-act.s9553330.85,,,,,,,,,False,,0,minor,Fragment
+IS1008d,A,659.747,662.35,2.603,IS1008d.A.dialog-act.s9553330.86,A,B,0.0,2.457,True,False,0.0,[],True," But anyhow, still we are under control, okay,",8,task,Assess
+IS1008d,A,662.35,669.76,7.41,IS1008d.A.dialog-act.s9553330.87,A,A,0.0,0.0,False,False,0.0,[],False," so what uh I will do is I will try to negotiate with the vendors, okay, to get uh the production cost less, okay,",24,other,Offer
+IS1008d,A,669.76,677.54,7.78,IS1008d.A.dialog-act.s9553330.88,A,A,0.0,0.0,False,False,0.0,[],False," so then we can save some money, okay, to put into th our marketing or uh you know the promotions, whatever, okay,",22,task,Inform
+IS1008d,A,677.54,679.72,2.18,IS1008d.A.dialog-act.s9553330.89,A,A,0.0,0.0,False,False,0.0,[],False, so that uh I will look after.,7,other,Offer
+IS1008d,A,679.72,684.73,5.01,IS1008d.A.dialog-act.s9553330.90,D,A,5.31,0.0,False,False,0.0,[],False, I will speak to the management and how to get uh you know some more uh cost down.,18,other,Offer
+IS1008d,D,690.04,692.41,2.37,IS1008d.D.dialog-act.s9553330.40,D,A,1.17,5.31,True,False,0.0,[],True, If we can go to to my display.,8,task,Suggest
+IS1008d,D,693.58,695.47,1.89,IS1008d.D.dialog-act.s9553330.42,D,D,0.0,1.17,False,False,0.0,[],False, And we'll come back to yours,6,task,Inform
+IS1008d,A,695.13,695.42,0.29,IS1008d.A.dialog-act.s9553330.91,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,D,695.47,697.9,2.43,IS1008d.D.dialog-act.s9553330.43,D,D,3.61,0.0,False,False,0.0,[],False, just to give everybody an idea of the market.,9,other,Offer
+IS1008d,D,701.51,705.92,4.41,IS1008d.D.dialog-act.s9553330.44,D,D,2.52,3.61,False,False,0.0,[],False, So now I'm gonna scare everybody out of this project.,10,task,Inform
+IS1008d,C,703.872,705.04,1.168,IS1008d.C.dialog-act.s9553330.86,,,,,,,,,False,,0,minor,Fragment
+IS1008d,B,703.892,705.28,1.388,IS1008d.B.dialog-act.s9553330.38,,,,,,,,,False,,0,minor,Fragment
+IS1008d,D,708.44,711.86,3.42,IS1008d.D.dialog-act.s9553330.45,D,D,1.63,2.52,False,False,0.0,[],False, If I'm still here.,4,other,Other
+IS1008d,A,710.92,711.68,0.76,IS1008d.A.dialog-act.s9553330.92,,,,,,,,,False, You're in four?,3,elicit,Elicit-Inform
+IS1008d,D,711.86,712.08,0.22,IS1008d.D.dialog-act.s9553330.47,,,,,,,,,False, Yep,1,task,Inform
+IS1008d,D,711.86,711.86,0.0,IS1008d.D.dialog-act.s9553330.46,,,,,,,,,False,,0,minor,Fragment
+IS1008d,D,713.49,714.55,1.06,IS1008d.D.dialog-act.s9553330.49,D,D,0.0,1.63,False,False,0.0,[],False, The four gives me,4,other,Other
+IS1008d,D,714.55,717.3,2.75,IS1008d.D.dialog-act.s9553330.50,B,D,0.16,0.0,False,False,0.0,[],False, it's gotta be uh TrendWatch.,5,task,Inform
+IS1008d,A,715.83,716.56,0.73,IS1008d.A.dialog-act.s9553330.93,,,,,,,,,False, TrendWatch.,1,task,Inform
+IS1008d,B,717.46,719.1,1.64,IS1008d.B.dialog-act.s9553330.39,D,D,4.06,0.16,True,False,0.0,[],True, Is this the same one you did before?,8,elicit,Elicit-Inform
+IS1008d,D,719.92,720.11,0.19,IS1008d.D.dialog-act.s9553330.51,,,,,,,,,False, No.,1,task,Inform
+IS1008d,B,721.09,721.49,0.4,IS1008d.B.dialog-act.s9553330.40,,,,,,,,,False, Okay.,1,task,Assess
+IS1008d,D,722.59,723.16,0.57,IS1008d.D.dialog-act.s9553330.52,,,,,,,,,False, It shouldn't be,3,task,Inform
+IS1008d,D,723.16,725.02,1.86,IS1008d.D.dialog-act.s9553330.53,C,B,-1.81,4.06,True,True,1.81,['IS1008d.C.dialog-act.s9553330.87'],True, if it's not it's not the right one.,8,task,Inform
+IS1008d,C,723.21,726.28,3.07,IS1008d.C.dialog-act.s9553330.87,D,D,-1.26,-1.81,True,True,1.26,['IS1008d.D.dialog-act.s9553330.54'],False," That's no, I think it's the same one.",8,task,Inform
+IS1008d,D,725.02,726.76,1.74,IS1008d.D.dialog-act.s9553330.54,D,C,0.0,-1.26,True,False,0.0,[],False," No, no we g no, that's the same one.",9,task,Inform
+IS1008d,D,726.76,728.09,1.33,IS1008d.D.dialog-act.s9553330.55,D,D,5.74,0.0,False,False,0.0,[],False, You have to go back and find another one.,9,task,Suggest
+IS1008d,D,733.83,735.33,1.5,IS1008d.D.dialog-act.s9553330.56,D,D,1.62,5.74,False,False,0.0,[],False, Whatever name it popped up under.,6,task,Suggest
+IS1008d,A,735.354,736.006,0.652,IS1008d.A.dialog-act.s9553330.94,,,,,,,,,False,,0,minor,Fragment
+IS1008d,D,736.95,739.49,2.54,IS1008d.D.dialog-act.s9553330.57,D,D,0.0,1.62,False,False,0.0,[],False," Uh functional, try functional,",4,task,Suggest
+IS1008d,C,737.08,737.97,0.89,IS1008d.C.dialog-act.s9553330.88,,,,,,,,,False, Functional.,1,task,Suggest
+IS1008d,D,739.49,741.15,1.66,IS1008d.D.dialog-act.s9553330.58,C,D,1.32,0.0,False,False,0.0,[],False," it might not be it either, but we'll see.",9,task,Inform
+IS1008d,B,741.84,742.128,0.288,IS1008d.B.dialog-act.s9553330.41,,,,,,,,,False,,0,minor,Fragment
+IS1008d,C,742.47,743.1,0.63,IS1008d.C.dialog-act.s9553330.89,D,D,2.28,1.32,True,False,0.0,[],True," It looks like it,",4,task,Assess
+IS1008d,C,743.1,743.784,0.684,IS1008d.C.dialog-act.s9553330.90,,,,,,,,,False, there's,1,minor,Fragment
+IS1008d,D,744.55,745.38,0.83,IS1008d.D.dialog-act.s9553330.59,,,,,,,,,False," Yep, that's it.",3,task,Inform
+IS1008d,C,745.03,745.37,0.34,IS1008d.C.dialog-act.s9553330.91,,,,,,,,,False, S Yeah.,2,minor,Backchannel
+IS1008d,D,745.38,747.33,1.95,IS1008d.D.dialog-act.s9553330.60,D,C,1.02,2.28,True,False,0.0,[],True, So we'll go screen by screen.,6,task,Suggest
+IS1008d,A,746.49,746.76,0.27,IS1008d.A.dialog-act.s9553330.95,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1008d,D,747.33,748.35,1.02,IS1008d.D.dialog-act.s9553330.61,,,,,,,,,False, Although,1,minor,Fragment
+IS1008d,D,748.35,758.01,9.66,IS1008d.D.dialog-act.s9553330.62,D,D,1.18,1.02,False,False,0.0,[],False, since uh we need to have some type of idea on a market uh we had independent study that says it this this market has an availability to absorb eight mi eight million units per year.,36,task,Inform
+IS1008d,D,758.01,759.19,1.18,IS1008d.D.dialog-act.s9553330.63,,,,,,,,,False, Okay?,1,elicit,Elicit-Comment-Understanding
+IS1008d,D,759.19,762.77,3.58,IS1008d.D.dialog-act.s9553330.64,D,D,0.0,1.18,False,False,0.0,[],False, Our internal company evaluation puts it between eight to nine million,11,task,Inform
+IS1008d,D,762.77,764.97,2.2,IS1008d.D.dialog-act.s9553330.65,D,D,1.14,0.0,False,False,0.0,[],False, which is approximately the same as the independent study.,9,task,Inform
+IS1008d,A,765.48,766.367,0.887,IS1008d.A.dialog-act.s9553330.96,,,,,,,,,False, Yep.,1,minor,Backchannel
+IS1008d,D,766.11,767.97,1.86,IS1008d.D.dialog-act.s9553330.67,D,D,0.0,1.14,False,False,0.0,[],False," So if we continue,",4,task,Suggest
+IS1008d,D,767.97,769.76,1.79,IS1008d.D.dialog-act.s9553330.68,D,D,3.36,0.0,False,False,0.0,[],False, we'll look at the findings.,5,task,Inform
+IS1008d,D,769.76,770.43,0.67,IS1008d.D.dialog-act.s9553330.69,,,,,,,,,False, Next screen.,2,task,Suggest
+IS1008d,D,773.12,780.11,6.99,IS1008d.D.dialog-act.s9553330.70,D,D,0.0,3.36,False,False,0.0,[],False," Which means that uh if we have a target of two million would the company has to take twenty five percent of the market in the first year,",28,task,Inform
+IS1008d,A,779.68,779.96,0.28,IS1008d.A.dialog-act.s9553330.97,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008d,D,780.11,781.44,1.33,IS1008d.D.dialog-act.s9553330.71,B,D,2.67,0.0,False,False,0.0,[],False, which is actually a tremendous amount.,6,task,Inform
+IS1008d,B,781.44,782.927,1.487,IS1008d.B.dialog-act.s9553330.42,,,,,,,,,False," Yeah, no kidding.",3,task,Assess
+IS1008d,D,783.0,783.83,0.83,IS1008d.D.dialog-act.s9553330.72,,,,,,,,,False," No kidding, yeah.",3,task,Inform
+IS1008d,B,784.11,786.12,2.01,IS1008d.B.dialog-act.s9553330.43,D,D,0.13,2.67,True,False,0.0,[],True, Mayb maybe they already expected something.,6,task,Suggest
+IS1008d,D,785.64,786.25,0.61,IS1008d.D.dialog-act.s9553330.73,,,,,,,,,False," So,",1,minor,Stall
+IS1008d,D,786.25,792.96,6.71,IS1008d.D.dialog-act.s9553330.74,D,B,0.0,0.13,True,False,0.0,[],True," if we put an inflated price of fifty Euro at a production cost that cannot exceed twenty-five Euro,",18,task,Suggest
+IS1008d,D,792.96,796.0,3.04,IS1008d.D.dialog-act.s9553330.75,D,D,0.0,0.0,False,False,0.0,[],False," okay, we're already in that that price, okay,",8,task,Inform
+IS1008d,A,794.95,795.42,0.47,IS1008d.A.dialog-act.s9553330.98,,,,,,,,,False, Yes.,1,task,Assess
+IS1008d,D,796.0,808.17,12.17,IS1008d.D.dialog-act.s9553330.76,D,D,0.79,0.0,False,False,0.0,[],False," with transport, promotion, labour, because we hav gi included the promotion in the cost, transport for the material to the stores or whatever how however we're gonna break this down between our our retailers.",34,task,Inform
+IS1008d,C,801.46,801.68,0.22,IS1008d.C.dialog-act.s9553330.92,,,,,,,,,False, Um-hmm.,1,minor,Backchannel
+IS1008d,D,808.96,812.22,3.26,IS1008d.D.dialog-act.s9553330.77,D,D,0.0,0.79,False,False,0.0,[],False, Twenty-five percent of the market to get to two million units.,11,task,Inform
+IS1008d,D,812.22,819.1,6.88,IS1008d.D.dialog-act.s9553330.78,D,D,3.72,0.0,False,False,0.0,[],False," At two million units, we have to have a profit of twenty-five Euro per unit to get to the fifty million unit Eu Euro profit.",25,task,Inform
+IS1008d,A,817.0,817.47,0.47,IS1008d.A.dialog-act.s9553330.99,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008d,A,818.65,818.82,0.17,IS1008d.A.dialog-act.s9553330.100,,,,,,,,,False, Yep.,1,task,Assess
+IS1008d,D,819.1,819.6,0.5,IS1008d.D.dialog-act.s9553330.79,,,,,,,,,False, Okay?,1,elicit,Elicit-Comment-Understanding
+IS1008d,D,821.08,822.82,1.74,IS1008d.D.dialog-act.s9553330.80,,,,,,,,,False," So, obviously we w w",5,minor,Fragment
+IS1008d,D,822.82,825.46,2.64,IS1008d.D.dialog-act.s9553330.81,D,D,0.0,3.72,False,False,0.0,[],False," I just did a run down the evaluation of the form,",11,task,Inform
+IS1008d,D,825.46,832.58,7.12,IS1008d.D.dialog-act.s9553330.82,D,D,0.0,0.0,False,False,0.0,[],False," the fan uh the fancy stylishness of the of the unit, the ease of use, speech recognition, cost, we've gone through these.",22,task,Inform
+IS1008d,D,832.58,839.47,6.89,IS1008d.D.dialog-act.s9553330.83,D,D,1.12,0.0,False,False,0.0,[],False," Now, the company must evaluate the feasibility of being able to take enough of the market to justify in production.",20,task,Inform
+IS1008d,D,840.59,843.2,2.61,IS1008d.D.dialog-act.s9553330.84,D,D,0.0,1.12,False,False,0.0,[],False," Or we project this over two years,",7,task,Suggest
+IS1008d,D,843.2,848.95,5.75,IS1008d.D.dialog-act.s9553330.85,D,D,0.0,0.0,False,False,0.0,[],False," but being that the market changes very very quickly, maybe there's no more interest in buying this thing in eighteen months from now.",23,task,Inform
+IS1008d,A,845.45,845.79,0.34,IS1008d.A.dialog-act.s9553330.101,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,A,848.33,848.49,0.16,IS1008d.A.dialog-act.s9553330.102,,,,,,,,,False, Yep.,1,minor,Backchannel
+IS1008d,D,848.95,851.38,2.43,IS1008d.D.dialog-act.s9553330.86,D,D,0.0,0.0,False,False,0.0,[],False," So, now we have to come up with a decision.",10,task,Suggest
+IS1008d,A,849.42,850.21,0.79,IS1008d.A.dialog-act.s9553330.104,,,,,,,,,False, Of course.,2,task,Assess
+IS1008d,C,849.59,849.84,0.25,IS1008d.C.dialog-act.s9553330.93,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1008d,D,851.38,853.68,2.3,IS1008d.D.dialog-act.s9553330.87,D,D,0.0,0.0,False,False,0.0,[],False, Can the company sell two million units?,7,elicit,Elicit-Inform
+IS1008d,A,853.4,853.55,0.15,IS1008d.A.dialog-act.s9553330.103,,,,,,,,,False, Yep.,1,minor,Backchannel
+IS1008d,D,853.68,856.22,2.54,IS1008d.D.dialog-act.s9553330.88,B,D,-1.04,0.0,False,True,1.04,['IS1008d.B.dialog-act.s9553330.44'],False, Can it sell it for fifty Euros?,7,elicit,Elicit-Inform
+IS1008d,B,855.18,858.64,3.46,IS1008d.B.dialog-act.s9553330.44,B,D,0.0,-1.04,True,False,0.0,[],False, Could could I go to findings?,6,task,Suggest
+IS1008d,A,855.81,856.14,0.33,IS1008d.A.dialog-act.s9553330.105,,,,,,,,,False, Yep.,1,minor,Backchannel
+IS1008d,B,858.64,869.13,10.49,IS1008d.B.dialog-act.s9553330.45,B,B,0.0,0.0,False,False,0.0,[],False, Uh uh um I would uh like to explore the possibility of using um alternative um delivery and sales channel,20,other,Offer
+IS1008d,B,869.13,875.37,6.24,IS1008d.B.dialog-act.s9553330.46,C,B,-2.962,0.0,False,True,2.142,['IS1008d.C.dialog-act.s9553330.94'],False, which would be um to use the internet for promotion and ordering,12,task,Suggest
+IS1008d,C,872.408,874.55,2.142,IS1008d.C.dialog-act.s9553330.94,B,B,0.82,-2.962,True,False,0.0,[],False," I was thinking the same thing, yeah.",7,task,Assess
+IS1008d,A,872.86,873.29,0.43,IS1008d.A.dialog-act.s9553330.106,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,B,875.37,880.12,4.75,IS1008d.B.dialog-act.s9553330.47,B,C,0.0,0.82,True,False,0.0,[],True, and then to drop-ship the p product to the customer's residence.,11,task,Suggest
+IS1008d,C,878.72,879.41,0.69,IS1008d.C.dialog-act.s9553330.97,,,,,,,,,False, Directly.,1,task,Assess
+IS1008d,B,880.12,882.91,2.79,IS1008d.B.dialog-act.s9553330.48,B,B,0.0,0.0,False,False,0.0,[],False," That way you have no storage, you have no um",10,task,Inform
+IS1008d,B,882.91,886.21,3.3,IS1008d.B.dialog-act.s9553330.49,B,B,0.0,0.0,False,False,0.0,[],False," you do have transportation, still have the labour cost,",9,task,Inform
+IS1008d,C,884.57,884.88,0.31,IS1008d.C.dialog-act.s9553330.95,,,,,,,,,False, Um-hmm.,1,minor,Backchannel
+IS1008d,B,886.21,891.16,4.95,IS1008d.B.dialog-act.s9553330.50,B,B,0.0,0.0,False,False,0.0,[],False, but you don't have the transport to the uh point of sale.,12,task,Inform
+IS1008d,A,890.85,891.27,0.42,IS1008d.A.dialog-act.s9553330.107,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,C,891.14,891.44,0.3,IS1008d.C.dialog-act.s9553330.96,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,B,891.16,893.22,2.06,IS1008d.B.dialog-act.s9553330.51,C,B,1.28,0.0,False,False,0.0,[],False, The point of sale is online.,6,task,Inform
+IS1008d,A,892.39,893.27,0.88,IS1008d.A.dialog-act.s9553330.108,,,,,,,,,False, To the agents.,3,other,Other
+IS1008d,C,894.08,894.5,0.42,IS1008d.C.dialog-act.s9553330.98,,,,,,,,,False, Yeah.,1,task,Assess
+IS1008d,C,894.5,896.5,2.0,IS1008d.C.dialog-act.s9553330.99,C,B,0.0,1.28,True,False,0.0,[],True," You can do a shipping centre somewhere,",7,task,Suggest
+IS1008d,C,896.5,901.12,4.62,IS1008d.C.dialog-act.s9553330.100,B,C,-0.94,0.0,False,True,0.94,['IS1008d.B.dialog-act.s9553330.53'],False, or strategically place shipping centres to minimise distance costs.,9,task,Suggest
+IS1008d,B,898.53,900.18,1.65,IS1008d.B.dialog-act.s9553330.52,,,,,,,,,False," Right, like Amazon.",3,task,Assess
+IS1008d,B,900.18,901.97,1.79,IS1008d.B.dialog-act.s9553330.53,A,C,5.31,-0.94,True,False,0.0,[],False," In fact, we should sell through Amazon,",7,task,Suggest
+IS1008d,A,900.73,901.09,0.36,IS1008d.A.dialog-act.s9553330.109,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,B,901.97,903.08,1.11,IS1008d.B.dialog-act.s9553330.54,,,,,,,,,False, don't you think?,3,elicit,Elicit-Assessment
+IS1008d,A,902.19,903.099,0.909,IS1008d.A.dialog-act.s9553330.110,,,,,,,,,False," Or eBay, or",3,task,Suggest
+IS1008d,B,903.08,904.12,1.04,IS1008d.B.dialog-act.s9553330.55,,,,,,,,,False," Or eBay, yeah.",3,task,Assess
+IS1008d,A,903.82,904.34,0.52,IS1008d.A.dialog-act.s9553330.111,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,C,904.18,904.46,0.28,IS1008d.C.dialog-act.s9553330.101,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,D,906.375,907.114,0.739,IS1008d.D.dialog-act.s9553330.89,,,,,,,,,False,,0,minor,Fragment
+IS1008d,B,906.38,907.13,0.75,IS1008d.B.dialog-act.s9553330.56,,,,,,,,,False, There's an idea.,3,task,Assess
+IS1008d,B,907.13,909.984,2.854,IS1008d.B.dialog-act.s9553330.57,,,,,,,,,False, Going with um,3,minor,Fragment
+IS1008d,A,907.28,908.19,0.91,IS1008d.A.dialog-act.s9553330.112,A,B,1.35,5.31,True,False,0.0,[],True," Yeah, that's a good idea.",5,task,Assess
+IS1008d,A,909.54,911.168,1.628,IS1008d.A.dialog-act.s9553330.113,B,A,1.412,1.35,False,False,0.0,[],False, To impro more profit and uh,6,task,Inform
+IS1008d,D,910.53,914.46,3.93,IS1008d.D.dialog-act.s9553330.90,,,,,,,,,False, S Upscale technology.,3,task,Inform
+IS1008d,A,911.68,912.5,0.82,IS1008d.A.dialog-act.s9553330.114,,,,,,,,,False," Yeah, yes.",2,minor,Backchannel
+IS1008d,B,912.58,917.568,4.988,IS1008d.B.dialog-act.s9553330.58,C,A,1.032,1.412,True,False,0.0,[],True," Ah, we we're do you know, selling a unique product uh.",11,task,Inform
+IS1008d,D,914.46,914.7,0.24,IS1008d.D.dialog-act.s9553330.91,,,,,,,,,False, Well.,1,task,Assess
+IS1008d,C,918.6,921.66,3.06,IS1008d.C.dialog-act.s9553330.102,C,B,0.0,1.032,True,False,0.0,[],True," That actually makes more sense if we're gonna make it so highly customisable,",13,task,Inform
+IS1008d,C,921.66,929.21,7.55,IS1008d.C.dialog-act.s9553330.103,D,C,-0.71,0.0,False,True,0.71,['IS1008d.D.dialog-act.s9553330.92'],False," 'cause on the web people can look at the different options they have, see maybe what other people have done, what the range of possibility as,",26,task,Inform
+IS1008d,B,927.6,928.29,0.69,IS1008d.B.dialog-act.s9553330.59,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1008d,D,928.5,930.25,1.75,IS1008d.D.dialog-act.s9553330.92,C,C,-1.04,-0.71,True,True,1.04,['IS1008d.C.dialog-act.s9553330.104'],False, There are several companies that have gone that way.,9,task,Inform
+IS1008d,C,929.21,937.1,7.89,IS1008d.C.dialog-act.s9553330.104,C,D,0.0,-1.04,True,False,0.0,[],False," whereas if you're in a store, you can't unless you're a highly imaginative person, you may not really know what it is you want,",24,task,Inform
+IS1008d,B,931.1,931.44,0.34,IS1008d.B.dialog-act.s9553330.60,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1008d,C,937.1,940.432,3.332,IS1008d.C.dialog-act.s9553330.105,B,C,0.378,0.0,False,False,0.0,[],False," whereas on the web, if you have a bunch of pictures, it can sort of trigger ideas and",18,task,Inform
+IS1008d,B,938.3,938.59,0.29,IS1008d.B.dialog-act.s9553330.61,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008d,B,940.81,946.34,5.53,IS1008d.B.dialog-act.s9553330.62,B,C,0.0,0.378,True,False,0.0,[],True, And you can even have an a movie that you can rotate the object and look at the di,19,task,Suggest
+IS1008d,C,945.94,946.27,0.33,IS1008d.C.dialog-act.s9553330.106,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,B,946.34,948.94,2.6,IS1008d.B.dialog-act.s9553330.63,C,B,-0.69,0.0,False,True,0.69,"['IS1008d.C.dialog-act.s9553330.107', 'IS1008d.D.dialog-act.s9553330.93']",False, the only thing that you're missing really is the weight.,10,task,Inform
+IS1008d,C,948.25,949.4,1.15,IS1008d.C.dialog-act.s9553330.107,D,B,-0.74,-0.69,True,True,0.74,['IS1008d.D.dialog-act.s9553330.93'],False, The weight and feel.,4,task,Inform
+IS1008d,D,948.66,951.184,2.524,IS1008d.D.dialog-act.s9553330.93,B,C,0.406,-0.74,True,False,0.0,[],False," Weight, the feel of the product, but",7,task,Inform
+IS1008d,B,950.11,950.36,0.25,IS1008d.B.dialog-act.s9553330.64,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1008d,C,950.24,950.47,0.23,IS1008d.C.dialog-act.s9553330.108,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,B,951.59,952.58,0.99,IS1008d.B.dialog-act.s9553330.65,B,D,0.0,0.406,True,False,0.0,[],True, We're getting used to that.,5,task,Inform
+IS1008d,B,952.58,954.72,2.14,IS1008d.B.dialog-act.s9553330.66,B,B,0.0,0.0,False,False,0.0,[],False," It's not quite like trying on a shoe,",8,task,Inform
+IS1008d,B,954.72,960.96,6.24,IS1008d.B.dialog-act.s9553330.67,D,B,-0.62,0.0,False,True,0.62,['IS1008d.D.dialog-act.s9553330.94'],False, but people are getting used to buying things online that they can't touch before buying.,15,task,Inform
+IS1008d,C,956.77,957.11,0.34,IS1008d.C.dialog-act.s9553330.109,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,C,960.04,960.27,0.23,IS1008d.C.dialog-act.s9553330.110,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,D,960.34,962.87,2.53,IS1008d.D.dialog-act.s9553330.94,D,B,0.0,-0.62,True,False,0.0,[],False," There are several that have gone through with the watches, too.",11,task,Inform
+IS1008d,D,962.87,964.2,1.33,IS1008d.D.dialog-act.s9553330.95,D,D,0.0,0.0,False,False,0.0,[],False," You can customise a watch,",5,task,Inform
+IS1008d,D,964.2,966.67,2.47,IS1008d.D.dialog-act.s9553330.96,D,D,0.0,0.0,False,False,0.0,[],False," you can see how it is at the f at the end of the production,",15,task,Inform
+IS1008d,C,965.48,966.03,0.55,IS1008d.C.dialog-act.s9553330.111,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008d,B,965.737,967.43,1.693,IS1008d.B.dialog-act.s9553330.68,,,,,,,,,False, Uh-huh.,1,minor,Backchannel
+IS1008d,D,966.67,968.428,1.758,IS1008d.D.dialog-act.s9553330.97,D,D,0.302,0.0,False,False,0.0,[],False, you can change it uh,5,task,Inform
+IS1008d,D,968.73,970.94,2.21,IS1008d.D.dialog-act.s9553330.98,D,D,0.29,0.302,False,False,0.0,[],False, There's a lot of online that's that is doing this now.,11,task,Inform
+IS1008d,C,970.19,970.62,0.43,IS1008d.C.dialog-act.s9553330.112,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,D,971.23,975.03,3.8,IS1008d.D.dialog-act.s9553330.99,D,D,0.0,0.29,False,False,0.0,[],False," And when you're rotating, you'll look behind and look this way uh",12,task,Inform
+IS1008d,D,975.03,976.1,1.07,IS1008d.D.dialog-act.s9553330.100,D,D,0.0,0.0,False,False,0.0,[],False," it's possible to do with this,",6,task,Suggest
+IS1008d,D,976.1,985.45,9.35,IS1008d.D.dialog-act.s9553330.101,A,D,4.49,0.0,False,False,0.0,[],False," maybe there's a possibility of selling more than two million units in one year, which could you know, feasibili feasibility uh lower the price of the unit.",27,task,Inform
+IS1008d,A,979.29,979.49,0.2,IS1008d.A.dialog-act.s9553330.115,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,C,985.3,985.56,0.26,IS1008d.C.dialog-act.s9553330.113,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008d,A,987.8,988.24,0.44,IS1008d.A.dialog-act.s9553330.116,,,,,,,,,False, We can.,2,task,Assess
+IS1008d,B,988.58,988.89,0.31,IS1008d.B.dialog-act.s9553330.69,,,,,,,,,False, Great.,1,task,Assess
+IS1008d,A,989.94,992.0,2.06,IS1008d.A.dialog-act.s9553330.117,A,D,1.19,4.49,True,False,0.0,[],True," I don't think that's uh not possible,",7,task,Inform
+IS1008d,A,992.0,993.19,1.19,IS1008d.A.dialog-act.s9553330.118,,,,,,,,,False, it's uh,2,minor,Fragment
+IS1008d,A,993.19,997.8,4.61,IS1008d.A.dialog-act.s9553330.119,A,A,0.0,1.19,False,False,0.0,[],False," okay then, l uh let's wait for the production, okay, then uh you can evaluate the product,",17,task,Suggest
+IS1008d,A,997.8,1001.92,4.12,IS1008d.A.dialog-act.s9553330.120,C,A,0.8,0.0,False,False,0.0,[],False, so how it looks like technically and uh how it look like uh the real.,15,task,Inform
+IS1008d,C,1002.72,1004.43,1.71,IS1008d.C.dialog-act.s9553330.114,C,A,1.7,0.8,True,False,0.0,[],True, What turnaround time do we have?,6,elicit,Elicit-Inform
+IS1008d,A,1004.81,1004.95,0.14,IS1008d.A.dialog-act.s9553330.121,,,,,,,,,False, T,1,minor,Fragment
+IS1008d,C,1006.13,1010.26,4.13,IS1008d.C.dialog-act.s9553330.115,A,C,-0.35,1.7,False,True,0.35,['IS1008d.A.dialog-act.s9553330.123'],False, 'Cause I mean production evaluation can be very very quick or very very long.,14,task,Inform
+IS1008d,A,1007.88,1008.316,0.436,IS1008d.A.dialog-act.s9553330.122,,,,,,,,,False, Oh but,2,minor,Fragment
+IS1008d,A,1009.91,1011.75,1.84,IS1008d.A.dialog-act.s9553330.123,A,C,0.0,-0.35,True,False,0.0,[],False," Yes it's it's very quick, of course.",7,task,Inform
+IS1008d,A,1011.75,1014.86,3.11,IS1008d.A.dialog-act.s9553330.124,A,A,0.0,0.0,False,False,0.0,[],False," It will uh come back in two weeks, okay,",9,task,Inform
+IS1008d,A,1014.86,1016.81,1.95,IS1008d.A.dialog-act.s9553330.125,A,A,4.7,0.0,False,False,0.0,[],False, it will be ready in two weeks.,7,task,Inform
+IS1008d,B,1016.25,1016.96,0.71,IS1008d.B.dialog-act.s9553330.70,,,,,,,,,False, Works for me.,3,task,Assess
+IS1008d,A,1016.81,1018.0,1.19,IS1008d.A.dialog-act.s9553330.126,,,,,,,,,False," For evaluation, okay.",3,task,Inform
+IS1008d,B,1018.336,1018.704,0.368,IS1008d.B.dialog-act.s9553330.71,,,,,,,,,False,,0,minor,Fragment
+IS1008d,B,1019.96,1021.85,1.89,IS1008d.B.dialog-act.s9553330.72,,,,,,,,,False," Prototypes, you mean.",3,elicit,Elicit-Inform
+IS1008d,A,1021.51,1024.02,2.51,IS1008d.A.dialog-act.s9553330.127,B,A,0.08,4.7,False,False,0.0,[],False," Yes, the prototype uh prototype product evaluation.",7,task,Inform
+IS1008d,B,1021.85,1022.996,1.146,IS1008d.B.dialog-act.s9553330.73,,,,,,,,,False, In um,2,minor,Fragment
+IS1008d,B,1024.1,1031.5,7.4,IS1008d.B.dialog-act.s9553330.74,D,A,0.08,0.08,True,False,0.0,[],True, We probably should do some market tests uh once we have the prototypes and do some orders and things like that and test-market it.,24,task,Suggest
+IS1008d,A,1026.07,1026.61,0.54,IS1008d.A.dialog-act.s9553330.128,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,D,1027.49,1028.38,0.89,IS1008d.D.dialog-act.s9553330.102,,,,,,,,,False," Well, obviously.",2,task,Assess
+IS1008d,A,1027.88,1029.96,2.08,IS1008d.A.dialog-act.s9553330.129,,,,,,,,,False, Yes. Yes.,2,minor,Backchannel
+IS1008d,C,1028.66,1028.94,0.28,IS1008d.C.dialog-act.s9553330.116,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,D,1031.58,1034.35,2.77,IS1008d.D.dialog-act.s9553330.103,A,B,0.04,0.08,True,False,0.0,[],True," Mm that'd have to be thrown out on the market for people to get an idea,",16,task,Suggest
+IS1008d,A,1031.79,1031.88,0.09,IS1008d.A.dialog-act.s9553330.130,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,D,1034.35,1036.128,1.778,IS1008d.D.dialog-act.s9553330.104,,,,,,,,,False, to see get get their,5,minor,Fragment
+IS1008d,A,1034.39,1037.23,2.84,IS1008d.A.dialog-act.s9553330.131,C,D,0.02,0.04,True,False,0.0,[],True, So you can take a minimum two weeks to a maximum four weeks.,13,task,Inform
+IS1008d,C,1035.09,1035.48,0.39,IS1008d.C.dialog-act.s9553330.117,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008d,C,1037.25,1044.57,7.32,IS1008d.C.dialog-act.s9553330.118,C,A,0.0,0.02,True,False,0.0,[],True, Think minimum two weeks if we're gonna develop prototypes and then try to take them to different places and see how people use,23,task,Inform
+IS1008d,A,1038.09,1038.28,0.19,IS1008d.A.dialog-act.s9553330.132,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,C,1044.57,1046.72,2.15,IS1008d.C.dialog-act.s9553330.119,A,C,-0.28,0.0,False,True,0.28,['IS1008d.A.dialog-act.s9553330.133'],False, it's not a trivial task.,5,task,Inform
+IS1008d,A,1046.44,1052.05,5.61,IS1008d.A.dialog-act.s9553330.133,C,C,-1.26,-0.28,True,True,1.26,['IS1008d.C.dialog-act.s9553330.121'],False," Yeah, because we we are not going to do it in uh our factory, okay, so we can give it a product evalua",23,task,Inform
+IS1008d,C,1049.92,1050.79,0.87,IS1008d.C.dialog-act.s9553330.120,,,,,,,,,False, No no.,2,task,Assess
+IS1008d,C,1050.79,1053.242,2.452,IS1008d.C.dialog-act.s9553330.121,A,A,0.968,-1.26,True,False,0.0,[],False, We definitely shouldn't do it in our factory.,8,task,Inform
+IS1008d,A,1052.05,1053.32,1.27,IS1008d.A.dialog-act.s9553330.134,,,,,,,,,False," Yes, yes.",2,task,Assess
+IS1008d,B,1052.586,1054.076,1.49,IS1008d.B.dialog-act.s9553330.75,,,,,,,,,False,,0,minor,Fragment
+IS1008d,A,1054.21,1056.73,2.52,IS1008d.A.dialog-act.s9553330.135,A,C,0.0,0.968,True,False,0.0,[],True," So we'll do it in the other place,",8,task,Inform
+IS1008d,A,1056.73,1058.88,2.15,IS1008d.A.dialog-act.s9553330.136,A,A,5.15,0.0,False,False,0.0,[],False, and I don't think it's take more than four weeks time.,11,task,Inform
+IS1008d,A,1061.53,1062.1,0.57,IS1008d.A.dialog-act.s9553330.137,,,,,,,,,False, Or uh,2,minor,Stall
+IS1008d,A,1064.03,1069.07,5.04,IS1008d.A.dialog-act.s9553330.138,A,A,0.0,5.15,False,False,0.0,[],False," Okay, so then the real production we will start once we product evaluation, okay,",14,task,Inform
+IS1008d,A,1069.07,1079.32,10.25,IS1008d.A.dialog-act.s9553330.139,A,A,4.41,0.0,False,False,0.0,[],False," then uh it's approve from uh the technical team and uh your team, okay, uh from the management, then we can launch in the market.",25,task,Inform
+IS1008d,A,1081.75,1081.9,0.15,IS1008d.A.dialog-act.s9553330.140,,,,,,,,,False, Hm?,1,minor,Backchannel
+IS1008d,B,1082.2,1083.4,1.2,IS1008d.B.dialog-act.s9553330.76,,,,,,,,,False, Any outstanding?,2,elicit,Elicit-Offer-Or-Suggestion
+IS1008d,A,1083.73,1088.95,5.22,IS1008d.A.dialog-act.s9553330.141,D,A,3.3,4.41,False,False,0.0,[],False, S Any any other uh questions or uh comments to be discuss?,12,elicit,Elicit-Offer-Or-Suggestion
+IS1008d,B,1091.53,1092.73,1.2,IS1008d.B.dialog-act.s9553330.77,,,,,,,,,False," No, I'm",2,minor,Fragment
+IS1008d,C,1091.58,1092.06,0.48,IS1008d.C.dialog-act.s9553330.122,,,,,,,,,False, What ab,2,minor,Fragment
+IS1008d,D,1092.25,1093.87,1.62,IS1008d.D.dialog-act.s9553330.105,B,A,1.09,3.3,True,False,0.0,[],True, I think we pretty much covered everything.,7,task,Assess
+IS1008d,B,1092.73,1093.06,0.33,IS1008d.B.dialog-act.s9553330.78,,,,,,,,,False, go ahead.,2,other,Be-Positive
+IS1008d,A,1094.08,1095.566,1.486,IS1008d.A.dialog-act.s9553330.142,,,,,,,,,False," Okay, so then uh",4,minor,Fragment
+IS1008d,B,1094.96,1095.89,0.93,IS1008d.B.dialog-act.s9553330.79,C,D,-0.322,1.09,True,True,0.322,['IS1008d.C.dialog-act.s9553330.123'],True, Did you have something?,4,elicit,Elicit-Offer-Or-Suggestion
+IS1008d,C,1095.568,1106.91,11.342,IS1008d.C.dialog-act.s9553330.123,A,B,2.09,-0.322,True,False,0.0,[],False," Well I was just wondering about if we're gonna do a product evaluation then what about time for redesign if the users come back and tell us no this is bad, this is bad, we want this done differently.",39,elicit,Elicit-Inform
+IS1008d,A,1109.0,1111.45,2.45,IS1008d.A.dialog-act.s9553330.143,A,C,0.0,2.09,True,False,0.0,[],True," Okay uh, let's take like this.",6,task,Suggest
+IS1008d,A,1111.45,1116.2,4.75,IS1008d.A.dialog-act.s9553330.144,A,A,0.0,0.0,False,False,0.0,[],False," Let's proceed with this model, okay, for the for the marketing direction, okay.",13,task,Suggest
+IS1008d,B,1114.224,1114.544,0.32,IS1008d.B.dialog-act.s9553330.80,,,,,,,,,False,,0,minor,Fragment
+IS1008d,A,1116.2,1121.4,5.2,IS1008d.A.dialog-act.s9553330.145,A,A,1.92,0.0,False,False,0.0,[],False," So no more changes will be made, okay, in this the basic design.",13,task,Inform
+IS1008d,A,1122.55,1123.32,0.77,IS1008d.A.dialog-act.s9553330.146,,,,,,,,,False, Okay?,1,elicit,Elicit-Comment-Understanding
+IS1008d,A,1123.32,1127.02,3.7,IS1008d.A.dialog-act.s9553330.147,A,A,0.0,1.92,False,False,0.0,[],False, So we will introduce m this model and uh let's introduce in the market,14,task,Inform
+IS1008d,A,1127.02,1131.57,4.55,IS1008d.A.dialog-act.s9553330.148,A,A,3.32,0.0,False,False,0.0,[],False," and let's take the feedback from the customers, then we can uh go for the",15,task,Inform
+IS1008d,B,1132.24,1133.27,1.03,IS1008d.B.dialog-act.s9553330.81,,,,,,,,,False, Second generation.,2,task,Inform
+IS1008d,A,1132.77,1133.8,1.03,IS1008d.A.dialog-act.s9553330.149,,,,,,,,,False, second generation.,2,task,Inform
+IS1008d,C,1133.952,1134.704,0.752,IS1008d.C.dialog-act.s9553330.124,,,,,,,,,False,,0,minor,Fragment
+IS1008d,A,1134.89,1138.32,3.43,IS1008d.A.dialog-act.s9553330.150,C,A,-0.6,3.32,False,True,0.6,['IS1008d.C.dialog-act.s9553330.125'],False," Okay. There's no end, there's not limit.",7,task,Inform
+IS1008d,B,1135.472,1136.622,1.15,IS1008d.B.dialog-act.s9553330.82,,,,,,,,,False,,0,minor,Fragment
+IS1008d,C,1137.72,1144.62,6.9,IS1008d.C.dialog-act.s9553330.125,D,A,-4.1,-0.6,True,True,1.56,"['IS1008d.D.dialog-act.s9553330.106', 'IS1008d.A.dialog-act.s9553330.153', 'IS1008d.D.dialog-act.s9553330.107']",False, The problem is there might not be a second generation if the first generation flops for some silly reason that we haven't thought of.,24,task,Inform
+IS1008d,A,1138.32,1139.47,1.15,IS1008d.A.dialog-act.s9553330.151,,,,,,,,,False, Every every custom,3,minor,Fragment
+IS1008d,B,1140.491,1141.458,0.967,IS1008d.B.dialog-act.s9553330.83,,,,,,,,,False,,0,minor,Fragment
+IS1008d,D,1140.52,1141.37,0.85,IS1008d.D.dialog-act.s9553330.106,A,C,1.69,-4.1,True,False,0.0,[],False," Well, then it may not be.",6,task,Assess
+IS1008d,A,1142.71,1142.85,0.14,IS1008d.A.dialog-act.s9553330.152,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1008d,A,1143.06,1150.65,7.59,IS1008d.A.dialog-act.s9553330.153,D,D,-6.38,1.69,True,True,3.167,['IS1008d.D.dialog-act.s9553330.107'],True," Well, every customer, okay, they have their own ideas, they have their own test, okay, so there's no end, there's no limit.",22,task,Inform
+IS1008d,D,1144.27,1147.437,3.167,IS1008d.D.dialog-act.s9553330.107,C,A,5.383,-6.38,True,False,0.0,[],False, Like people don't like wood.,5,task,Suggest
+IS1008d,C,1152.82,1165.53,12.71,IS1008d.C.dialog-act.s9553330.126,A,D,0.35,5.383,True,False,0.0,[],True," No, but there's a difference between releasing a product that has been minimally tested and fine-tuned to suit a general range of requirements versus releasing a product that we think will work but we don't really have anything to back it up.",42,task,Inform
+IS1008d,D,1164.301,1165.71,1.409,IS1008d.D.dialog-act.s9553330.108,,,,,,,,,False, very specific.,2,task,Inform
+IS1008d,A,1165.88,1168.88,3.0,IS1008d.A.dialog-act.s9553330.154,A,C,0.0,0.35,True,False,0.0,[],True," Yeah, so that's the reason you are here for uh the design, okay,",13,task,Inform
+IS1008d,A,1168.88,1170.54,1.66,IS1008d.A.dialog-act.s9553330.155,C,A,-0.92,0.0,False,True,0.92,['IS1008d.C.dialog-act.s9553330.127'],False, I hope you made a good design.,7,elicit,Elicit-Assessment
+IS1008d,C,1169.62,1172.0,2.38,IS1008d.C.dialog-act.s9553330.127,C,A,0.0,-0.92,True,False,0.0,[],False," Yes, but I'm not everybody.",5,task,Assess
+IS1008d,B,1170.8,1171.472,0.672,IS1008d.B.dialog-act.s9553330.84,,,,,,,,,False,,0,minor,Fragment
+IS1008d,C,1172.0,1176.21,4.21,IS1008d.C.dialog-act.s9553330.128,C,C,0.0,0.0,False,False,0.0,[],False, I mean the whole point of user evaluation is to see what real people need.,15,task,Inform
+IS1008d,C,1176.21,1179.57,3.36,IS1008d.C.dialog-act.s9553330.129,C,C,0.0,0.0,False,False,0.0,[],False," We have our own motivations in mind, we have our own ideas in mind,",14,task,Inform
+IS1008d,C,1179.57,1181.56,1.99,IS1008d.C.dialog-act.s9553330.130,A,C,-0.036,0.0,False,True,0.036,['IS1008d.A.dialog-act.s9553330.156'],False, but that doesn't mean that that's what's gonna sell.,9,task,Inform
+IS1008d,A,1181.524,1185.08,3.556,IS1008d.A.dialog-act.s9553330.156,A,C,0.0,-0.036,True,False,0.0,[],False," Yeah, but uh see, we ought to take a few considerations, okay,",12,task,Inform
+IS1008d,A,1185.08,1192.64,7.56,IS1008d.A.dialog-act.s9553330.157,A,A,0.0,0.0,False,False,0.0,[],False," one is the price consideration, one is future consideration, okay, like uh you can eat uh you can all eat more chi I can eat more chilli, okay,",28,task,Inform
+IS1008d,B,1192.528,1193.061,0.533,IS1008d.B.dialog-act.s9553330.85,,,,,,,,,False,,0,minor,Fragment
+IS1008d,A,1192.64,1195.84,3.2,IS1008d.A.dialog-act.s9553330.158,A,A,0.0,0.0,False,False,0.0,[],False," so i it's a depends on the individual taste, you know,",11,task,Inform
+IS1008d,A,1195.84,1197.97,2.13,IS1008d.A.dialog-act.s9553330.159,C,A,1.6,0.0,False,False,0.0,[],False, so we have we have to balance somewhere.,8,task,Inform
+IS1008d,C,1198.93,1199.57,0.64,IS1008d.C.dialog-act.s9553330.131,,,,,,,,,False," Yeah, of course.",3,task,Assess
+IS1008d,C,1199.57,1206.88,7.31,IS1008d.C.dialog-act.s9553330.132,C,A,0.0,1.6,True,False,0.0,[],True, I'm just trying to point out that I think that your evaluation and redesign turnaround time is too short,19,task,Inform
+IS1008d,C,1206.88,1213.552,6.672,IS1008d.C.dialog-act.s9553330.133,B,C,-3.232,0.0,False,True,2.73,['IS1008d.B.dialog-act.s9553330.86'],False," well you have no redesign not you personally, but in the project we have no redesign time and",18,task,Inform
+IS1008d,A,1209.68,1209.95,0.27,IS1008d.A.dialog-act.s9553330.160,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,B,1210.32,1213.05,2.73,IS1008d.B.dialog-act.s9553330.86,B,C,1.29,-3.232,True,False,0.0,[],False, Our project doesn't um,4,task,Inform
+IS1008d,A,1211.01,1211.1,0.09,IS1008d.A.dialog-act.s9553330.161,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,B,1214.34,1221.04,6.7,IS1008d.B.dialog-act.s9553330.87,B,B,1.54,1.29,False,False,0.0,[],False," Ed, d do you know what season of the year or time of the year is the most important for T_V_ remote control sales?",24,elicit,Elicit-Inform
+IS1008d,D,1221.0,1221.22,0.22,IS1008d.D.dialog-act.s9553330.109,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IS1008d,B,1222.58,1225.68,3.1,IS1008d.B.dialog-act.s9553330.88,D,B,2.35,1.54,False,False,0.0,[],False, Would it be the Christmas season by any chance?,9,task,Suggest
+IS1008d,A,1224.69,1225.63,0.94,IS1008d.A.dialog-act.s9553330.162,,,,,,,,,False, The sports time.,3,task,Inform
+IS1008d,B,1225.68,1227.18,1.5,IS1008d.B.dialog-act.s9553330.89,,,,,,,,,False, Sports season.,2,task,Assess
+IS1008d,D,1228.03,1232.88,4.85,IS1008d.D.dialog-act.s9553330.110,D,B,0.0,2.35,True,False,0.0,[],True," Right before the Eur the World Cup. World soccer. World Cup soccer,",12,task,Inform
+IS1008d,B,1228.46,1229.61,1.15,IS1008d.B.dialog-act.s9553330.90,,,,,,,,,False, Which sport season?,3,elicit,Elicit-Inform
+IS1008d,A,1230.27,1230.88,0.61,IS1008d.A.dialog-act.s9553330.163,,,,,,,,,False, Football.,1,task,Inform
+IS1008d,B,1230.84,1232.43,1.59,IS1008d.B.dialog-act.s9553330.91,,,,,,,,,False, So so,2,minor,Fragment
+IS1008d,C,1230.92,1232.256,1.336,IS1008d.C.dialog-act.s9553330.134,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,D,1232.88,1238.38,5.5,IS1008d.D.dialog-act.s9553330.111,B,D,0.24,0.0,False,False,0.0,[],False, they need those things that they have their hands g occupied and they need to be able to talk to the con remote control.,24,task,Inform
+IS1008d,A,1233.7,1234.39,0.69,IS1008d.A.dialog-act.s9553330.164,,,,,,,,,False, Football.,1,task,Inform
+IS1008d,B,1234.47,1235.896,1.426,IS1008d.B.dialog-act.s9553330.92,,,,,,,,,False, maybe what,2,minor,Fragment
+IS1008d,C,1236.225,1238.025,1.8,IS1008d.C.dialog-act.s9553330.135,,,,,,,,,False,,0,minor,Fragment
+IS1008d,B,1238.62,1247.78,9.16,IS1008d.B.dialog-act.s9553330.93,C,D,-0.35,0.24,True,True,0.35,['IS1008d.C.dialog-act.s9553330.136'],True, So I think what we need to do is perhaps to synchronise the final the the launch of a user-tested device with some special event.,25,task,Suggest
+IS1008d,D,1239.014,1239.967,0.953,IS1008d.D.dialog-act.s9553330.112,,,,,,,,,False,,0,minor,Fragment
+IS1008d,A,1244.74,1245.07,0.33,IS1008d.A.dialog-act.s9553330.165,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,A,1247.31,1247.6,0.29,IS1008d.A.dialog-act.s9553330.166,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,C,1247.43,1248.53,1.1,IS1008d.C.dialog-act.s9553330.136,B,B,1.03,-0.35,True,False,0.0,[],False," Yeah, that's a good idea.",5,task,Assess
+IS1008d,B,1247.78,1249.56,1.78,IS1008d.B.dialog-act.s9553330.94,,,,,,,,,False, And and then um,4,minor,Fragment
+IS1008d,B,1249.56,1253.53,3.97,IS1008d.B.dialog-act.s9553330.95,B,C,0.0,1.03,True,False,0.0,[],True," so that gives us a little more time perhaps then we anticipated,",12,task,Inform
+IS1008d,B,1253.53,1255.89,2.36,IS1008d.B.dialog-act.s9553330.96,B,B,0.0,0.0,False,False,0.0,[],False," because I don't know when the World Cup is,",9,task,Inform
+IS1008d,B,1255.89,1257.77,1.88,IS1008d.B.dialog-act.s9553330.97,D,B,-0.713,0.0,False,True,0.713,['IS1008d.D.dialog-act.s9553330.113'],False, but I'm sure there's gonna be one.,7,task,Inform
+IS1008d,D,1257.057,1258.99,1.933,IS1008d.D.dialog-act.s9553330.113,B,B,0.3,-0.713,True,False,0.0,[],False, Or any major sports.,4,task,Suggest
+IS1008d,B,1259.29,1261.31,2.02,IS1008d.B.dialog-act.s9553330.98,B,D,0.0,0.3,True,False,0.0,[],True, Or another m major sports event.,6,task,Inform
+IS1008d,B,1261.31,1265.33,4.02,IS1008d.B.dialog-act.s9553330.99,B,B,0.0,0.0,False,False,0.0,[],False, Probably not the um the football games coming up the end of January.,13,task,Suggest
+IS1008d,B,1265.33,1268.06,2.73,IS1008d.B.dialog-act.s9553330.100,B,B,0.0,0.0,False,False,0.0,[],False," I think that might be a little too aggressive um,",10,task,Inform
+IS1008d,A,1267.12,1267.36,0.24,IS1008d.A.dialog-act.s9553330.168,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,C,1267.3,1267.52,0.22,IS1008d.C.dialog-act.s9553330.137,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,B,1268.06,1277.47,9.41,IS1008d.B.dialog-act.s9553330.101,B,B,0.0,0.0,False,False,0.0,[],False," but, so, I'm just ig uh pointing out a uh a strategy to uh do some additional user testing",19,task,Suggest
+IS1008d,A,1277.09,1277.6,0.51,IS1008d.A.dialog-act.s9553330.167,,,,,,,,,False, Research.,1,task,Suggest
+IS1008d,C,1277.25,1277.5,0.25,IS1008d.C.dialog-act.s9553330.138,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008d,B,1277.47,1282.15,4.68,IS1008d.B.dialog-act.s9553330.102,C,B,1.608,0.0,False,False,0.0,[],False, pri and then to launch um at a a major sports event,12,task,Suggest
+IS1008d,B,1282.15,1284.96,2.81,IS1008d.B.dialog-act.s9553330.103,,,,,,,,,False, or uh perhaps to uh also,6,minor,Fragment
+IS1008d,A,1282.2,1282.47,0.27,IS1008d.A.dialog-act.s9553330.169,,,,,,,,,False, Yep.,1,minor,Backchannel
+IS1008d,C,1283.758,1286.17,2.412,IS1008d.C.dialog-act.s9553330.139,B,B,0.39,1.608,True,False,0.0,[],True, That's actually good place to advertise it too.,8,task,Inform
+IS1008d,B,1286.56,1288.24,1.68,IS1008d.B.dialog-act.s9553330.104,B,C,0.0,0.39,True,False,0.0,[],True, And to work with motion pictures.,6,task,Suggest
+IS1008d,C,1287.43,1287.74,0.31,IS1008d.C.dialog-act.s9553330.140,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,B,1288.24,1298.87,10.63,IS1008d.B.dialog-act.s9553330.105,B,B,0.0,0.0,False,False,0.0,[],False," There might be some motion pictures that are coming out um that are coming out on D_V_D_ that uh they need to have a m special remote control to work with it,",32,task,Inform
+IS1008d,B,1298.87,1303.97,5.1,IS1008d.B.dialog-act.s9553330.106,B,B,0.0,0.0,False,False,0.0,[],False, so we could maybe work out a campaign with uh with Sony Pictures for example.,15,task,Suggest
+IS1008d,A,1303.16,1303.58,0.42,IS1008d.A.dialog-act.s9553330.170,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,B,1303.97,1308.22,4.25,IS1008d.B.dialog-act.s9553330.107,A,B,0.01,0.0,False,False,0.0,[],False, Maybe some management has got uh relationships there we can leverage.,11,task,Suggest
+IS1008d,C,1304.18,1304.45,0.27,IS1008d.C.dialog-act.s9553330.141,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008d,A,1308.23,1312.38,4.15,IS1008d.A.dialog-act.s9553330.171,C,B,4.43,0.01,True,False,0.0,[],True," Yes, the that of course uh I will convince the management to do that, okay.",15,other,Offer
+IS1008d,B,1312.24,1315.68,3.44,IS1008d.B.dialog-act.s9553330.108,,,,,,,,,False, That's great.,2,task,Assess
+IS1008d,C,1316.81,1318.44,1.63,IS1008d.C.dialog-act.s9553330.142,C,A,0.0,4.43,True,False,0.0,[],True," It's just something to to keep in mind,",8,task,Inform
+IS1008d,C,1318.44,1319.96,1.52,IS1008d.C.dialog-act.s9553330.143,C,C,0.0,0.0,False,False,0.0,[],False, 'cause it's really really important.,5,task,Inform
+IS1008d,A,1319.054,1321.07,2.016,IS1008d.A.dialog-act.s9553330.172,,,,,,,,,False," Sure, sure, yes.",3,task,Assess
+IS1008d,C,1319.96,1324.68,4.72,IS1008d.C.dialog-act.s9553330.144,C,C,0.0,0.0,False,False,0.0,[],False," A lot of products have gone out there without being properly user-tested and completely flopped,",15,task,Inform
+IS1008d,C,1324.68,1330.33,5.65,IS1008d.C.dialog-act.s9553330.145,B,C,0.51,0.0,False,False,0.0,[],False, when in fact it gets re-released a few years down the line with proper testing and it takes off like crazy.,21,task,Inform
+IS1008d,B,1330.84,1334.16,3.32,IS1008d.B.dialog-act.s9553330.110,C,C,0.54,0.51,True,False,0.0,[],True, Disposable diapers is an example of that in fact.,9,task,Inform
+IS1008d,C,1333.056,1334.7,1.644,IS1008d.C.dialog-act.s9553330.146,,,,,,,,,False, Really?,1,elicit,Elicit-Inform
+IS1008d,B,1334.16,1335.01,0.85,IS1008d.B.dialog-act.s9553330.111,,,,,,,,,False," Yes,",1,task,Inform
+IS1008d,C,1334.7,1335.864,1.164,IS1008d.C.dialog-act.s9553330.147,B,B,-0.854,0.54,True,True,0.854,['IS1008d.B.dialog-act.s9553330.112'],True, That I didn't know.,4,task,Inform
+IS1008d,B,1335.01,1342.81,7.8,IS1008d.B.dialog-act.s9553330.112,B,C,1.02,-0.854,True,False,0.0,[],False," it is one of the first consumer products that was launched about thirty years that was a disposable consumer product,",20,task,Inform
+IS1008d,B,1342.81,1343.83,1.02,IS1008d.B.dialog-act.s9553330.113,,,,,,,,,False, and uh people,3,minor,Fragment
+IS1008d,B,1343.83,1351.94,8.11,IS1008d.B.dialog-act.s9553330.114,B,B,0.0,1.02,False,False,0.0,[],False," the market hadn't really gotten on to the concept that you could use something and then throw it away, 'cause it wasn't uh",23,task,Inform
+IS1008d,C,1349.82,1350.14,0.32,IS1008d.C.dialog-act.s9553330.148,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1008d,B,1351.94,1355.9,3.96,IS1008d.B.dialog-act.s9553330.115,B,B,0.0,0.0,False,False,0.0,[],False," but then when they re-launched them thirty years later, they were virtually the same design,",15,task,Inform
+IS1008d,A,1355.798,1356.572,0.774,IS1008d.A.dialog-act.s9553330.173,,,,,,,,,False,.,0,minor,Fragment
+IS1008d,B,1355.9,1362.52,6.62,IS1008d.B.dialog-act.s9553330.116,B,B,0.0,0.0,False,False,0.0,[],False," but people had gotten the throw-away, you know, paper cups and napki y all kinds of things that they hadn't um",21,task,Inform
+IS1008d,B,1362.52,1365.62,3.1,IS1008d.B.dialog-act.s9553330.117,B,B,0.0,0.0,False,False,0.0,[],False," so, you're right, timing is very important,",7,task,Inform
+IS1008d,C,1363.27,1363.57,0.3,IS1008d.C.dialog-act.s9553330.149,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,A,1365.43,1365.58,0.15,IS1008d.A.dialog-act.s9553330.174,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,B,1365.62,1367.17,1.55,IS1008d.B.dialog-act.s9553330.118,A,B,0.49,0.0,False,False,0.0,[],False, but I think we've got a good product.,8,task,Inform
+IS1008d,C,1367.54,1367.67,0.13,IS1008d.C.dialog-act.s9553330.150,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1008d,A,1367.66,1369.01,1.35,IS1008d.A.dialog-act.s9553330.175,A,B,0.0,0.49,True,False,0.0,[],True, That's the reason Ed is here.,6,task,Inform
+IS1008d,A,1369.01,1374.33,5.32,IS1008d.A.dialog-act.s9553330.176,B,A,-1.1,0.0,False,True,1.1,['IS1008d.B.dialog-act.s9553330.120'],False, I think he can promote the the brand value and the product value.,13,task,Suggest
+IS1008d,B,1369.09,1369.69,0.6,IS1008d.B.dialog-act.s9553330.119,,,,,,,,,False, That's right.,2,task,Assess
+IS1008d,B,1373.23,1376.471,3.241,IS1008d.B.dialog-act.s9553330.120,A,A,1.119,-1.1,True,False,0.0,[],False, It's gonna be very important to the company.,8,task,Inform
+IS1008d,A,1374.33,1374.73,0.4,IS1008d.A.dialog-act.s9553330.177,,,,,,,,,False, Yes.,1,minor,Backchannel
+IS1008d,A,1377.59,1380.4,2.81,IS1008d.A.dialog-act.s9553330.178,D,B,1.29,1.119,True,False,0.0,[],True," We are behind the scene and he is the front screen, so.",12,task,Inform
+IS1008d,C,1380.53,1380.67,0.14,IS1008d.C.dialog-act.s9553330.151,,,,,,,,,False, Yep.,1,task,Assess
+IS1008d,D,1381.69,1385.76,4.07,IS1008d.D.dialog-act.s9553330.114,A,A,-3.61,1.29,True,True,0.97,['IS1008d.A.dialog-act.s9553330.179'],True," Yeah, I'm the one who takes the heat.",8,other,Offer
+IS1008d,A,1382.15,1383.12,0.97,IS1008d.A.dialog-act.s9553330.179,D,D,2.64,-3.61,True,False,0.0,[],False, He's on the big screen.,5,task,Inform
+IS1008d,C,1382.912,1389.264,6.352,IS1008d.C.dialog-act.s9553330.152,,,,,,,,,False, Exactly.,1,task,Assess
+IS1008d,B,1384.32,1385.89,1.57,IS1008d.B.dialog-act.s9553330.121,,,,,,,,,False," Good luck, Ed.",3,other,Be-Positive
+IS1008d,D,1385.76,1388.544,2.784,IS1008d.D.dialog-act.s9553330.115,B,A,-0.08,2.64,True,True,0.08,['IS1008d.B.dialog-act.s9553330.122'],True," If it's a flop, it's the marketer.",7,task,Inform
+IS1008d,B,1388.464,1394.93,6.466,IS1008d.B.dialog-act.s9553330.122,A,D,1.49,-0.08,True,False,0.0,[],False," You look very relaxed, considering h you know, the uh the weight on your shoulders, yeah.",16,task,Assess
+IS1008d,D,1388.544,1392.87,4.326,IS1008d.D.dialog-act.s9553330.116,,,,,,,,,False, Yes. Yes.,2,minor,Backchannel
+IS1008d,D,1392.87,1395.632,2.762,IS1008d.D.dialog-act.s9553330.117,,,,,,,,,False, Stress.,1,task,Inform
+IS1008d,C,1394.16,1394.959,0.799,IS1008d.C.dialog-act.s9553330.153,,,,,,,,,False,,0,minor,Fragment
+IS1008d,A,1396.42,1399.75,3.33,IS1008d.A.dialog-act.s9553330.180,A,B,0.0,1.49,True,False,0.0,[],True," Okay, so then uh let's come to the closing",9,task,Suggest
+IS1008d,A,1399.75,1402.71,2.96,IS1008d.A.dialog-act.s9553330.181,A,A,0.0,0.0,False,False,0.0,[],False, and uh are the costs within the budget,8,task,Inform
+IS1008d,D,1399.85,1401.755,1.905,IS1008d.D.dialog-act.s9553330.118,,,,,,,,,False, Celebration.,1,other,Be-Positive
+IS1008d,A,1402.71,1407.98,5.27,IS1008d.A.dialog-act.s9553330.182,A,A,0.0,0.0,False,False,0.0,[],False," and uh is the product evaluated, okay, so that will uh come soon.",13,task,Inform
+IS1008d,A,1407.98,1414.78,6.8,IS1008d.A.dialog-act.s9553330.183,A,A,0.0,0.0,False,False,0.0,[],False," Okay for uh but our time being, so thanks for all your efforts and great work and uh great design",20,other,Be-Positive
+IS1008d,A,1414.78,1420.14,5.36,IS1008d.A.dialog-act.s9553330.184,A,A,0.0,0.0,False,False,0.0,[],False, and uh let's leave it to the Ed for later for once production is over,15,task,Suggest
+IS1008d,A,1420.14,1422.47,2.33,IS1008d.A.dialog-act.s9553330.185,A,A,0.0,0.0,False,False,0.0,[],False, and the meantime let's celebrate.,5,task,Suggest
+IS1008d,A,1422.47,1426.37,3.9,IS1008d.A.dialog-act.s9553330.186,B,A,4.49,0.0,False,False,0.0,[],False, So let's meet up uh this evening to hang up for some party.,13,other,Be-Positive
+IS1008d,B,1426.704,1428.114,1.41,IS1008d.B.dialog-act.s9553330.123,,,,,,,,,False,,0,minor,Fragment
+IS1008d,D,1426.96,1428.562,1.602,IS1008d.D.dialog-act.s9553330.119,,,,,,,,,False,,0,minor,Fragment
+IS1008d,C,1427.04,1427.98,0.94,IS1008d.C.dialog-act.s9553330.155,,,,,,,,,False,,0,minor,Fragment
+IS1008d,B,1429.08,1430.13,1.05,IS1008d.B.dialog-act.s9553330.124,,,,,,,,,False, Sounds good.,2,task,Assess
+IS1008d,A,1429.92,1430.18,0.26,IS1008d.A.dialog-act.s9553330.187,,,,,,,,,False, 'S good.,2,other,Be-Positive
+IS1008d,D,1429.99,1430.9,0.91,IS1008d.D.dialog-act.s9553330.120,,,,,,,,,False, Very good.,2,other,Be-Positive
+IS1008d,C,1430.02,1430.33,0.31,IS1008d.C.dialog-act.s9553330.156,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1008d,B,1430.13,1430.86,0.73,IS1008d.B.dialog-act.s9553330.125,,,,,,,,,False, Thank you.,2,other,Be-Positive
+IS1008d,B,1430.86,1431.89,1.03,IS1008d.B.dialog-act.s9553330.126,D,A,0.1,4.49,True,False,0.0,[],True, Nice working with you.,4,other,Be-Positive
+IS1008d,D,1431.99,1436.47,4.48,IS1008d.D.dialog-act.s9553330.121,A,B,-2.35,0.1,True,True,1.04,"['IS1008d.A.dialog-act.s9553330.189', 'IS1008d.A.dialog-act.s9553330.190']",True, Thank you very much.,4,other,Be-Positive
+IS1008d,A,1433.0,1434.12,1.12,IS1008d.A.dialog-act.s9553330.188,,,,,,,,,False, Thank you.,2,other,Be-Positive
+IS1008d,C,1434.11,1434.43,0.32,IS1008d.C.dialog-act.s9553330.157,,,,,,,,,False, Thanks,1,other,Be-Positive
+IS1008d,A,1434.12,1435.16,1.04,IS1008d.A.dialog-act.s9553330.189,A,D,1.23,-2.35,True,False,0.0,[],False, Thank you again for all.,5,other,Be-Positive
+IS1008d,B,1435.136,1436.008,0.872,IS1008d.B.dialog-act.s9553330.127,,,,,,,,,False,,0,minor,Fragment
+IS1008d,C,1435.696,1435.696,0.0,IS1008d.C.dialog-act.s9553330.158,,,,,,,,,False,,0,minor,Fragment
+IS1008d,A,1436.39,1437.72,1.33,IS1008d.A.dialog-act.s9553330.190,D,A,-0.3,1.23,False,True,0.3,['IS1008d.D.dialog-act.s9553330.123'],False, And see you in the evening for drinks.,8,other,Be-Positive
+IS1008d,D,1436.47,1437.42,0.95,IS1008d.D.dialog-act.s9553330.122,,,,,,,,,False, Bye-bye.,1,other,Be-Positive
+IS1008d,D,1437.42,1440.42,3.0,IS1008d.D.dialog-act.s9553330.123,,A,,-0.3,True,False,0.0,[],False," Yep, okay, see you later on.",6,other,Be-Positive
+IS1008d,C,1438.38,1438.57,0.19,IS1008d.C.dialog-act.s9553330.159,,,,,,,,,False, Bye.,1,other,Be-Positive

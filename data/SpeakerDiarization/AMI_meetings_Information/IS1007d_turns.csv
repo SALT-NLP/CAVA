@@ -1,0 +1,858 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+IS1007d,C,42.413,42.871,0.458,IS1007d.C.dialog-act.s9553330.1,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,49.61,53.59,3.98,IS1007d.A.dialog-act.s9553330.1,A,,0.0,,True,False,0.0,[],False, So in last meeting we have discussed the conceptual design,10,task,Inform
+IS1007d,A,53.59,65.8,12.21,IS1007d.A.dialog-act.s9553330.2,A,A,2.47,0.0,False,False,0.0,[],False, and we asked you to prepare a prototype for the for the remote control.,14,task,Inform
+IS1007d,B,57.68,69.53,11.85,IS1007d.B.dialog-act.s9553330.3,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1007d,C,57.697,67.775,10.078,IS1007d.C.dialog-act.s9553330.2,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,59.003,67.934,8.931,IS1007d.D.dialog-act.s9553330.1,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,65.8,68.27,2.47,IS1007d.A.dialog-act.s9553330.3,,,,,,,,,False, So.,1,minor,Fragment
+IS1007d,A,68.27,72.65,4.38,IS1007d.A.dialog-act.s9553330.4,B,A,-0.88,2.47,False,True,0.88,['IS1007d.B.dialog-act.s9553330.5'],False, So let's see the what did you prepare.,8,task,Suggest
+IS1007d,B,71.17,71.77,0.6,IS1007d.B.dialog-act.s9553330.4,,,,,,,,,False," Yeah,",1,task,Assess
+IS1007d,B,71.77,75.12,3.35,IS1007d.B.dialog-act.s9553330.5,B,A,1.22,-0.88,True,False,0.0,[],False, so can you go out to the shared folder?,9,task,Suggest
+IS1007d,B,76.34,77.89,1.55,IS1007d.B.dialog-act.s9553330.6,A,B,-1.0,1.22,False,True,1.0,['IS1007d.A.dialog-act.s9553330.5'],False, Mm the shared folder.,4,task,Inform
+IS1007d,A,76.89,80.0,3.11,IS1007d.A.dialog-act.s9553330.5,B,B,0.07,-1.0,True,False,0.0,[],False, Sh share folder for th your presentation?,7,elicit,Elicit-Inform
+IS1007d,B,79.0,79.3,0.3,IS1007d.B.dialog-act.s9553330.7,,,,,,,,,False, Yes.,1,task,Inform
+IS1007d,B,80.07,81.3,1.23,IS1007d.B.dialog-act.s9553330.8,B,A,10.75,0.07,True,False,0.0,[],True, We have a presentation.,4,task,Inform
+IS1007d,A,81.28,82.656,1.376,IS1007d.A.dialog-act.s9553330.6,,,,,,,,,False, Because I have here,4,minor,Fragment
+IS1007d,C,81.968,85.415,3.447,IS1007d.C.dialog-act.s9553330.3,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,82.739,84.672,1.933,IS1007d.B.dialog-act.s9553330.1,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,86.27,86.864,0.594,IS1007d.B.dialog-act.s9553330.10,,,,,,,,,False, Uh,1,minor,Backchannel
+IS1007d,B,88.848,89.52,0.672,IS1007d.B.dialog-act.s9553330.9,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,92.05,95.64,3.59,IS1007d.B.dialog-act.s9553330.11,B,B,5.54,10.75,False,False,0.0,[],False, So I got the participant uh three.,7,task,Inform
+IS1007d,B,96.93,98.11,1.18,IS1007d.B.dialog-act.s9553330.12,,,,,,,,,False, W uh.,2,minor,Fragment
+IS1007d,B,99.14,99.67,0.53,IS1007d.B.dialog-act.s9553330.13,,,,,,,,,False, Three.,1,task,Inform
+IS1007d,B,101.18,103.22,2.04,IS1007d.B.dialog-act.s9553330.14,B,B,6.32,5.54,False,False,0.0,[],False," It's the final design,",4,task,Inform
+IS1007d,B,103.22,103.53,0.31,IS1007d.B.dialog-act.s9553330.15,,,,,,,,,False, yeah.,1,task,Assess
+IS1007d,A,104.13,106.16,2.03,IS1007d.A.dialog-act.s9553330.7,,,,,,,,,False, Okay just one.,3,other,Other
+IS1007d,C,105.488,107.36,1.872,IS1007d.C.dialog-act.s9553330.4,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,108.048,108.448,0.4,IS1007d.B.dialog-act.s9553330.2,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,109.54,112.27,2.73,IS1007d.B.dialog-act.s9553330.16,B,B,6.48,6.32,False,False,0.0,[],False, S so so I discussed with Guillaume.,7,task,Inform
+IS1007d,C,111.73,112.16,0.43,IS1007d.C.dialog-act.s9553330.5,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,C,113.216,116.11,2.894,IS1007d.C.dialog-act.s9553330.6,,,,,,,,,False, Yeah.,1,task,Assess
+IS1007d,B,113.86,115.15,1.29,IS1007d.B.dialog-act.s9553330.17,,,,,,,,,False, Right.,1,minor,Backchannel
+IS1007d,B,115.15,118.75,3.6,IS1007d.B.dialog-act.s9553330.18,,,,,,,,,False, And uh so we have,5,minor,Fragment
+IS1007d,B,118.75,123.65,4.9,IS1007d.B.dialog-act.s9553330.19,B,B,0.0,6.48,False,False,0.0,[],False," and we we are both agreed on some two versions of the prototypes,",13,task,Inform
+IS1007d,B,123.65,129.38,5.73,IS1007d.B.dialog-act.s9553330.20,B,B,0.0,0.0,False,False,0.0,[],False, because we were no not decided whether we wanted to have an L_C_D_ or not because it's too expensive.,19,task,Inform
+IS1007d,B,129.38,132.27,2.89,IS1007d.B.dialog-act.s9553330.21,B,B,0.0,0.0,False,False,0.0,[],False, So we come up with two versions.,7,task,Inform
+IS1007d,B,132.27,135.26,2.99,IS1007d.B.dialog-act.s9553330.22,B,B,0.0,0.0,False,False,0.0,[],False, One with and one without L_C_D_s.,6,task,Inform
+IS1007d,B,135.26,138.82,3.56,IS1007d.B.dialog-act.s9553330.23,B,B,0.0,0.0,False,False,0.0,[],False, Um but both comes with a charger,7,task,Inform
+IS1007d,B,138.82,143.76,4.94,IS1007d.B.dialog-act.s9553330.24,B,B,1.2,0.0,False,False,0.0,[],False, and then detachable and uh or control module.,8,task,Inform
+IS1007d,B,144.96,149.26,4.3,IS1007d.B.dialog-act.s9553330.25,C,B,1.72,1.2,False,False,0.0,[],False, And detachable big buttons for all people um.,8,task,Inform
+IS1007d,C,150.98,157.73,6.75,IS1007d.C.dialog-act.s9553330.7,C,B,0.0,1.72,True,False,0.0,[],True, S okay so I'll show you the the two prototypes.,10,other,Offer
+IS1007d,B,151.11,156.12,5.01,IS1007d.B.dialog-act.s9553330.26,,,,,,,,,False, So.,1,minor,Fragment
+IS1007d,C,157.73,162.74,5.01,IS1007d.C.dialog-act.s9553330.8,C,C,2.95,0.0,False,False,0.0,[],False, Here we have the first one with the beautiful uh L_C_D_ um display.,13,task,Inform
+IS1007d,C,162.74,165.69,2.95,IS1007d.C.dialog-act.s9553330.9,,,,,,,,,False, You you can s here.,5,minor,Fragment
+IS1007d,C,165.69,174.25,8.56,IS1007d.C.dialog-act.s9553330.10,C,C,0.0,2.95,False,False,0.0,[],False, And you can uh just um browse into the the navigation menu by uh joystick joystick-like uh button.,18,task,Inform
+IS1007d,B,171.87,172.05,0.18,IS1007d.B.dialog-act.s9553330.27,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,C,174.25,176.71,2.46,IS1007d.C.dialog-act.s9553330.11,C,C,0.0,0.0,False,False,0.0,[],False, You can uh choose the direction,6,task,Inform
+IS1007d,C,176.71,181.18,4.47,IS1007d.C.dialog-act.s9553330.12,C,C,1.14,0.0,False,False,0.0,[],False, and if you just push on it it's considered like a enter function.,13,task,Inform
+IS1007d,B,179.89,180.09,0.2,IS1007d.B.dialog-act.s9553330.28,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,B,181.72,182.07,0.35,IS1007d.B.dialog-act.s9553330.29,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1007d,C,182.32,191.47,9.15,IS1007d.C.dialog-act.s9553330.13,C,C,0.0,1.14,False,False,0.0,[],False, You have on the mm on the side here the microphone for the for the speech recognition system here.,19,task,Inform
+IS1007d,B,186.57,188.592,2.022,IS1007d.B.dialog-act.s9553330.30,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,191.47,194.682,3.212,IS1007d.C.dialog-act.s9553330.14,A,C,-0.602,0.0,False,True,0.602,['IS1007d.A.dialog-act.s9553330.8'],False, And here the the switch that control if you want,10,task,Inform
+IS1007d,A,194.08,197.95,3.87,IS1007d.A.dialog-act.s9553330.8,A,C,3.4,-0.602,True,False,0.0,[],False, Why you why you you put it in the the side?,11,elicit,Elicit-Inform
+IS1007d,C,198.39,201.728,3.338,IS1007d.C.dialog-act.s9553330.15,,,,,,,,,False, Well I I I think uh it's the,8,minor,Fragment
+IS1007d,A,201.35,204.08,2.73,IS1007d.A.dialog-act.s9553330.9,B,A,-0.09,3.4,False,True,0.09,['IS1007d.B.dialog-act.s9553330.31'],False, It's not a good place maybe.,6,task,Assess
+IS1007d,C,203.12,204.679,1.559,IS1007d.C.dialog-act.s9553330.16,,,,,,,,,False, Yeah but,2,minor,Fragment
+IS1007d,B,203.99,208.4,4.41,IS1007d.B.dialog-act.s9553330.31,B,A,0.0,-0.09,True,False,0.0,[],False, No i i it's the all around camer uh microphone isn't it.,12,task,Inform
+IS1007d,B,208.4,212.78,4.38,IS1007d.B.dialog-act.s9553330.32,D,B,-1.38,0.0,False,True,1.38,['IS1007d.D.dialog-act.s9553330.2'],False, The the microphone picks up the speeches from anywhere.,9,task,Inform
+IS1007d,C,210.42,210.64,0.22,IS1007d.C.dialog-act.s9553330.17,,,,,,,,,False, Yeah.,1,task,Assess
+IS1007d,D,211.4,213.93,2.53,IS1007d.D.dialog-act.s9553330.2,C,B,0.7,-1.38,True,False,0.0,[],False, Is it an only a single mic or a microphone array?,11,elicit,Elicit-Inform
+IS1007d,C,214.63,219.6,4.97,IS1007d.C.dialog-act.s9553330.18,A,D,-2.0,0.7,True,True,2.0,['IS1007d.A.dialog-act.s9553330.10'],True, Well so it's a microphone array.,6,task,Inform
+IS1007d,B,216.896,218.252,1.356,IS1007d.B.dialog-act.s9553330.33,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,217.6,222.0,4.4,IS1007d.A.dialog-act.s9553330.10,C,C,-1.48,-2.0,True,True,1.36,['IS1007d.C.dialog-act.s9553330.20'],False," Oh it's very costly, microphone array.",6,task,Inform
+IS1007d,D,217.89,218.17,0.28,IS1007d.D.dialog-act.s9553330.3,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1007d,C,219.6,220.52,0.92,IS1007d.C.dialog-act.s9553330.19,,,,,,,,,False, No,1,task,Assess
+IS1007d,C,220.52,221.88,1.36,IS1007d.C.dialog-act.s9553330.20,C,A,1.07,-1.48,True,False,0.0,[],False," it's just a single microphone,",5,task,Inform
+IS1007d,B,220.53,221.983,1.453,IS1007d.B.dialog-act.s9553330.34,,,,,,,,,False, Yeah,1,minor,Backchannel
+IS1007d,C,221.88,222.95,1.07,IS1007d.C.dialog-act.s9553330.21,,,,,,,,,False, and you,2,minor,Fragment
+IS1007d,C,222.95,232.07,9.12,IS1007d.C.dialog-act.s9553330.22,C,C,0.0,1.07,False,False,0.0,[],False, I I think uh we we put it here because I think when you when you are browsing your L_C_D_ you will be close to,25,task,Inform
+IS1007d,D,230.23,230.58,0.35,IS1007d.D.dialog-act.s9553330.4,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,230.25,230.77,0.52,IS1007d.B.dialog-act.s9553330.35,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,C,232.07,237.15,5.08,IS1007d.C.dialog-act.s9553330.23,C,C,0.0,0.0,False,False,0.0,[],False," well it's better to to to place it here th than here, for instance.",14,task,Inform
+IS1007d,B,234.64,236.38,1.74,IS1007d.B.dialog-act.s9553330.36,,,,,,,,,False, Yeah yeah.,2,task,Assess
+IS1007d,D,235.62,236.04,0.42,IS1007d.D.dialog-act.s9553330.5,,,,,,,,,False, Okay.,1,task,Assess
+IS1007d,C,237.15,245.58,8.43,IS1007d.C.dialog-act.s9553330.24,C,C,1.73,0.0,False,False,0.0,[],False, And here is a little switch that control if you want the the speaker uh recognition system to um to be on or off.,24,task,Inform
+IS1007d,C,247.31,252.44,5.13,IS1007d.C.dialog-act.s9553330.25,A,C,0.29,1.73,False,False,0.0,[],False, And uh so this remote control comes up with its charger.,11,task,Inform
+IS1007d,A,252.73,254.16,1.43,IS1007d.A.dialog-act.s9553330.11,C,C,0.71,0.29,True,False,0.0,[],True, How much does it cost this one?,7,elicit,Elicit-Inform
+IS1007d,C,254.87,263.0,8.13,IS1007d.C.dialog-act.s9553330.26,A,A,1.35,0.71,True,False,0.0,[],True, Well this this prototype is um made for about uh well fi fi fifteen fifteen dollars,16,task,Inform
+IS1007d,B,259.3,260.349,1.049,IS1007d.B.dialog-act.s9553330.37,,,,,,,,,False, For the,2,minor,Fragment
+IS1007d,B,261.84,262.09,0.25,IS1007d.B.dialog-act.s9553330.38,,,,,,,,,False, Yeah.,1,task,Assess
+IS1007d,A,262.12,262.83,0.71,IS1007d.A.dialog-act.s9553330.12,,,,,,,,,False, Fifteen dollars?,2,other,Comment-About-Understanding
+IS1007d,C,263.0,264.14,1.14,IS1007d.C.dialog-act.s9553330.27,,,,,,,,,False," fifteen dollars,",2,task,Inform
+IS1007d,C,264.14,267.88,3.74,IS1007d.C.dialog-act.s9553330.28,,,,,,,,,False, but uh well it's not it's not uh,8,minor,Fragment
+IS1007d,A,264.35,267.3,2.95,IS1007d.A.dialog-act.s9553330.13,C,C,1.25,1.35,True,False,0.0,[],True, Ah it's above it's above the budget.,7,task,Inform
+IS1007d,C,267.88,268.55,0.67,IS1007d.C.dialog-act.s9553330.29,,,,,,,,,False," yeah,",1,task,Assess
+IS1007d,C,268.55,270.13,1.58,IS1007d.C.dialog-act.s9553330.30,C,A,0.0,1.25,True,False,0.0,[],True, but uh it's just a prototype,6,task,Inform
+IS1007d,C,270.13,275.27,5.14,IS1007d.C.dialog-act.s9553330.31,D,C,0.35,0.0,False,False,0.0,[],False, and if we uh if we optimises the um the uh voila.,12,task,Inform
+IS1007d,D,275.62,277.21,1.59,IS1007d.D.dialog-act.s9553330.6,C,C,-0.29,0.35,True,True,0.29,['IS1007d.C.dialog-act.s9553330.33'],True, The cost would be le reduced.,6,task,Inform
+IS1007d,C,276.72,276.92,0.2,IS1007d.C.dialog-act.s9553330.32,,,,,,,,,False, Yeah,1,task,Assess
+IS1007d,C,276.92,284.12,7.2,IS1007d.C.dialog-act.s9553330.33,A,D,-1.38,-0.29,True,True,1.38,['IS1007d.A.dialog-act.s9553330.14'],False, the and the the production costs we we can achieve uh about ten dollars.,14,task,Inform
+IS1007d,B,277.96,278.33,0.37,IS1007d.B.dialog-act.s9553330.39,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,B,281.19,281.58,0.39,IS1007d.B.dialog-act.s9553330.40,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IS1007d,A,282.74,285.02,2.28,IS1007d.A.dialog-act.s9553330.14,C,C,0.38,-1.38,True,False,0.0,[],False, How many b battery is there?,6,elicit,Elicit-Inform
+IS1007d,C,285.4,286.32,0.92,IS1007d.C.dialog-act.s9553330.34,C,A,1.12,0.38,True,False,0.0,[],True," How many, excuse me?",4,other,Comment-About-Understanding
+IS1007d,A,286.28,286.68,0.4,IS1007d.A.dialog-act.s9553330.15,,,,,,,,,False, Battery.,1,task,Inform
+IS1007d,C,287.44,292.4,4.96,IS1007d.C.dialog-act.s9553330.36,B,C,-1.36,1.12,False,True,1.36,['IS1007d.B.dialog-act.s9553330.41'],False," Well uh f battery, we use uh about uh",9,task,Inform
+IS1007d,B,291.04,294.86,3.82,IS1007d.B.dialog-act.s9553330.41,C,C,3.39,-1.36,True,False,0.0,[],False, Is it n the two A_A_s batteries in it.,9,task,Inform
+IS1007d,C,294.08,294.28,0.2,IS1007d.C.dialog-act.s9553330.37,,,,,,,,,False, Yeah.,1,task,Assess
+IS1007d,B,294.86,296.46,1.6,IS1007d.B.dialog-act.s9553330.42,,,,,,,,,False, A_A_ rechargeable batteries.,3,task,Inform
+IS1007d,C,296.85,298.25,1.4,IS1007d.C.dialog-act.s9553330.38,,,,,,,,,False," Rechargeable of course,",3,task,Inform
+IS1007d,B,297.9,299.49,1.59,IS1007d.B.dialog-act.s9553330.43,,,,,,,,,False, Yeah rechargeable batteries.,3,task,Assess
+IS1007d,C,298.25,299.53,1.28,IS1007d.C.dialog-act.s9553330.39,B,B,-0.04,3.39,True,True,0.04,['IS1007d.B.dialog-act.s9553330.44'],True, because we have the charger.,5,task,Inform
+IS1007d,B,299.49,301.79,2.3,IS1007d.B.dialog-act.s9553330.44,A,C,0.2,-0.04,True,False,0.0,[],False, We have the charger so it's no problem.,8,task,Inform
+IS1007d,C,300.77,302.0,1.23,IS1007d.C.dialog-act.s9553330.40,,,,,,,,,False, Yeah and you just,4,minor,Fragment
+IS1007d,A,301.99,303.06,1.07,IS1007d.A.dialog-act.s9553330.16,C,B,1.14,0.2,True,False,0.0,[],True, So one one battery?,4,elicit,Elicit-Inform
+IS1007d,C,304.2,305.76,1.56,IS1007d.C.dialog-act.s9553330.41,D,A,0.61,1.14,True,False,0.0,[],True, On uh yeah one battery.,5,task,Inform
+IS1007d,D,306.37,307.44,1.07,IS1007d.D.dialog-act.s9553330.7,B,C,3.248,0.61,True,False,0.0,[],True, Is that two or one?,5,elicit,Elicit-Inform
+IS1007d,B,308.176,309.176,1.0,IS1007d.B.dialog-act.s9553330.45,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,309.46,311.24,1.78,IS1007d.A.dialog-act.s9553330.17,,,,,,,,,False, It's kinetic reserve.,3,task,Inform
+IS1007d,B,310.688,314.93,4.242,IS1007d.B.dialog-act.s9553330.46,D,D,0.58,3.248,True,False,0.0,[],True, Actually uh it's a flexible thing.,6,task,Inform
+IS1007d,C,310.99,316.219,5.229,IS1007d.C.dialog-act.s9553330.42,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,311.76,313.172,1.412,IS1007d.D.dialog-act.s9553330.8,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,314.93,316.166,1.236,IS1007d.B.dialog-act.s9553330.47,,,,,,,,,False, You just n uh,4,minor,Fragment
+IS1007d,D,315.51,317.23,1.72,IS1007d.D.dialog-act.s9553330.9,D,B,3.35,0.58,True,False,0.0,[],True, Now what is the whole day rating for that?,9,elicit,Elicit-Inform
+IS1007d,C,318.05,318.74,0.69,IS1007d.C.dialog-act.s9553330.43,,,,,,,,,False, The,1,minor,Fragment
+IS1007d,D,318.72,319.53,0.81,IS1007d.D.dialog-act.s9553330.10,,,,,,,,,False, Whole day's rating.,3,task,Inform
+IS1007d,C,318.74,319.43,0.69,IS1007d.C.dialog-act.s9553330.44,,,,,,,,,False, excuse me?,2,other,Comment-About-Understanding
+IS1007d,B,320.368,323.88,3.512,IS1007d.B.dialog-act.s9553330.48,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,320.58,321.46,0.88,IS1007d.D.dialog-act.s9553330.11,C,D,0.73,3.35,False,False,0.0,[],False, What type of battery?,4,elicit,Elicit-Inform
+IS1007d,C,321.67,322.19,0.52,IS1007d.C.dialog-act.s9553330.45,,,,,,,,,False, Oh yeah,2,other,Comment-About-Understanding
+IS1007d,C,322.19,326.17,3.98,IS1007d.C.dialog-act.s9553330.46,D,D,1.36,0.73,True,False,0.0,[],True, it's just a r uh simple battery a rechargeable uh,10,task,Inform
+IS1007d,B,325.52,327.2,1.68,IS1007d.B.dialog-act.s9553330.49,,,,,,,,,False, Yeah yeah.,2,minor,Backchannel
+IS1007d,C,326.17,328.26,2.09,IS1007d.C.dialog-act.s9553330.47,,,,,,,,,False, if you uh like it's exist.,6,minor,Fragment
+IS1007d,D,327.53,331.05,3.52,IS1007d.D.dialog-act.s9553330.12,C,C,1.69,1.36,True,False,0.0,[],True," Something like a two A_, A_ three size batteries?",9,elicit,Elicit-Inform
+IS1007d,C,330.06,330.48,0.42,IS1007d.C.dialog-act.s9553330.48,,,,,,,,,False, Yeah.,1,task,Inform
+IS1007d,D,331.05,331.41,0.36,IS1007d.D.dialog-act.s9553330.13,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1007d,B,331.42,332.74,1.32,IS1007d.B.dialog-act.s9553330.50,,,,,,,,,False, Yeah.,1,task,Inform
+IS1007d,C,332.74,340.81,8.07,IS1007d.C.dialog-act.s9553330.49,C,D,0.0,1.69,True,False,0.0,[],True, So and if you want to charge the battery you just put the remote control like that to plug in the the charger,23,task,Inform
+IS1007d,B,338.18,338.56,0.38,IS1007d.B.dialog-act.s9553330.51,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,340.04,340.32,0.28,IS1007d.B.dialog-act.s9553330.52,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,C,340.81,344.52,3.71,IS1007d.C.dialog-act.s9553330.50,C,C,0.0,0.0,False,False,0.0,[],False," and uh leave it uh alone, it's alright.",8,task,Inform
+IS1007d,B,342.45,342.77,0.32,IS1007d.B.dialog-act.s9553330.53,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,B,344.436,349.7,5.264,IS1007d.B.dialog-act.s9553330.54,,,,,,,,,False, At uh yeah.,3,minor,Fragment
+IS1007d,C,344.52,347.05,2.53,IS1007d.C.dialog-act.s9553330.51,B,C,2.65,0.0,False,False,0.0,[],False," Then the next time you pick it, oh",8,task,Inform
+IS1007d,A,347.182,348.433,1.251,IS1007d.A.dialog-act.s9553330.18,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,348.52,349.88,1.36,IS1007d.C.dialog-act.s9553330.52,,,,,,,,,False, it works.,2,task,Inform
+IS1007d,B,349.7,353.05,3.35,IS1007d.B.dialog-act.s9553330.55,C,C,-0.37,2.65,True,True,0.37,['IS1007d.C.dialog-act.s9553330.53'],True," I forgot to tell you there is only a single button there,",12,task,Inform
+IS1007d,C,352.68,354.91,2.23,IS1007d.C.dialog-act.s9553330.53,B,B,0.58,-0.37,True,False,0.0,[],False, Yeah just explain the button uh Norman.,7,task,Suggest
+IS1007d,B,353.05,354.29,1.24,IS1007d.B.dialog-act.s9553330.56,,,,,,,,,False, b this button,3,minor,Fragment
+IS1007d,B,354.29,355.49,1.2,IS1007d.B.dialog-act.s9553330.57,,,,,,,,,False, yeah alright.,2,task,Assess
+IS1007d,B,355.49,359.01,3.52,IS1007d.B.dialog-act.s9553330.58,B,C,0.0,0.58,True,False,0.0,[],True," This button is like the mouse is like a joystick,",10,task,Inform
+IS1007d,C,355.668,357.376,1.708,IS1007d.C.dialog-act.s9553330.54,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,359.01,361.81,2.8,IS1007d.B.dialog-act.s9553330.59,B,B,0.0,0.0,False,False,0.0,[],False, you can move in three hundred and sixty degrees of direction,11,task,Inform
+IS1007d,B,361.81,363.39,1.58,IS1007d.B.dialog-act.s9553330.60,B,B,0.0,0.0,False,False,0.0,[],False, so you can make a turn,6,task,Inform
+IS1007d,B,363.39,367.51,4.12,IS1007d.B.dialog-act.s9553330.61,B,B,0.0,0.0,False,False,0.0,[],False, and it the additi functions associated to all the actions,10,task,Inform
+IS1007d,B,367.51,372.5,4.99,IS1007d.B.dialog-act.s9553330.62,B,B,0.0,0.0,False,False,0.0,[],False, you ma you have a click you have a double click all in a single button.,16,task,Inform
+IS1007d,A,370.36,370.85,0.49,IS1007d.A.dialog-act.s9553330.19,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,C,371.63,373.594,1.964,IS1007d.C.dialog-act.s9553330.55,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,372.5,375.32,2.82,IS1007d.B.dialog-act.s9553330.63,B,B,0.0,0.0,False,False,0.0,[],False," You can move up, down, left, right,",7,task,Inform
+IS1007d,B,375.32,376.96,1.64,IS1007d.B.dialog-act.s9553330.64,B,B,0.0,0.0,False,False,0.0,[],False, or you can do a swing.,6,task,Inform
+IS1007d,B,376.96,381.22,4.26,IS1007d.B.dialog-act.s9553330.65,B,B,0.0,0.0,False,False,0.0,[],False," So a swing to the left, a swing to the right defines other functions.",14,task,Inform
+IS1007d,B,381.22,389.6,8.38,IS1007d.B.dialog-act.s9553330.66,D,B,-1.56,0.0,False,True,1.56,['IS1007d.D.dialog-act.s9553330.14'],False," So even though it's a single button, but it is pretty s flexible because of the three hundred and sixty degree movement.",22,task,Inform
+IS1007d,D,388.04,390.23,2.19,IS1007d.D.dialog-act.s9553330.14,B,B,0.41,-1.56,True,False,0.0,[],False," And the L_C_D_ is this one, on the remote?",9,elicit,Elicit-Inform
+IS1007d,B,389.6,390.64,1.04,IS1007d.B.dialog-act.s9553330.67,,,,,,,,,False, Yeah.,1,task,Inform
+IS1007d,C,390.3,390.49,0.19,IS1007d.C.dialog-act.s9553330.56,,,,,,,,,False, Yep.,1,task,Inform
+IS1007d,B,390.64,393.9,3.26,IS1007d.B.dialog-act.s9553330.68,B,D,0.0,0.41,True,False,0.0,[],True, This is the version y that comes with L_C_D_.,9,task,Inform
+IS1007d,D,393.35,393.68,0.33,IS1007d.D.dialog-act.s9553330.15,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,393.9,396.24,2.34,IS1007d.B.dialog-act.s9553330.69,A,B,-0.36,0.0,False,True,0.36,['IS1007d.A.dialog-act.s9553330.22'],False, Here I present another version without the L_C_D_.,8,other,Offer
+IS1007d,C,394.769,396.81,2.041,IS1007d.C.dialog-act.s9553330.57,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,395.88,397.82,1.94,IS1007d.A.dialog-act.s9553330.22,A,B,0.0,-0.36,True,False,0.0,[],False, I think it's not a good idea,7,task,Assess
+IS1007d,A,397.82,405.49,7.67,IS1007d.A.dialog-act.s9553330.23,B,A,0.03,0.0,False,False,0.0,[],False, because after maybe one or two months of function is getting destroyed.,12,task,Inform
+IS1007d,B,400.26,400.48,0.22,IS1007d.B.dialog-act.s9553330.70,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,A,405.49,406.19,0.7,IS1007d.A.dialog-act.s9553330.24,,,,,,,,,False, If you,2,task,Inform
+IS1007d,B,405.52,411.29,5.77,IS1007d.B.dialog-act.s9553330.71,C,A,-2.18,0.03,True,True,2.18,['IS1007d.C.dialog-act.s9553330.59'],True, Uh okay this is new prototype uh.,7,task,Inform
+IS1007d,C,407.0,407.626,0.626,IS1007d.C.dialog-act.s9553330.58,,,,,,,,,False, Yeah it's,2,minor,Fragment
+IS1007d,A,407.28,408.103,0.823,IS1007d.A.dialog-act.s9553330.20,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,408.935,409.964,1.029,IS1007d.A.dialog-act.s9553330.21,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,409.11,414.85,5.74,IS1007d.C.dialog-act.s9553330.59,C,B,0.0,-2.18,True,False,0.0,[],False, So we have the the second version also with the different uh button configuration.,14,task,Inform
+IS1007d,C,414.85,416.64,1.79,IS1007d.C.dialog-act.s9553330.60,C,C,0.0,0.0,False,False,0.0,[],False," The second version is also simpler,",6,task,Inform
+IS1007d,C,416.64,424.16,7.52,IS1007d.C.dialog-act.s9553330.61,D,C,1.37,0.0,False,False,0.0,[],False, we d uh we had just uh I have to put the microphone also.,14,task,Inform
+IS1007d,B,419.814,428.35,8.536,IS1007d.B.dialog-act.s9553330.72,,,,,,,,,False, Yeah yeah.,2,minor,Backchannel
+IS1007d,D,420.57,421.936,1.366,IS1007d.D.dialog-act.s9553330.17,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,424.16,426.74,2.58,IS1007d.C.dialog-act.s9553330.62,,,,,,,,,False, So basically th it's the same uh,7,minor,Fragment
+IS1007d,D,425.53,427.53,2.0,IS1007d.D.dialog-act.s9553330.16,C,C,0.5,1.37,True,False,0.0,[],True, Uh-huh and also the switch.,5,task,Inform
+IS1007d,A,426.608,428.674,2.066,IS1007d.A.dialog-act.s9553330.25,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,426.74,428.03,1.29,IS1007d.C.dialog-act.s9553330.63,,,,,,,,,False, yeah.,1,task,Assess
+IS1007d,D,427.53,427.97,0.44,IS1007d.D.dialog-act.s9553330.18,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1007d,C,428.03,432.83,4.8,IS1007d.C.dialog-act.s9553330.64,C,D,0.0,0.5,True,False,0.0,[],True, Basically it's the same uh things uh uh as uh I presented before.,13,task,Inform
+IS1007d,C,432.83,436.55,3.72,IS1007d.C.dialog-act.s9553330.65,C,C,0.0,0.0,False,False,0.0,[],False, But here we have uh we have uh four buttons for navigation.,12,task,Inform
+IS1007d,C,436.55,440.64,4.09,IS1007d.C.dialog-act.s9553330.66,C,C,0.0,0.0,False,False,0.0,[],False, Press one button uh acting as a a enter button.,10,task,Inform
+IS1007d,B,438.13,439.23,1.1,IS1007d.B.dialog-act.s9553330.74,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,C,440.64,445.93,5.29,IS1007d.C.dialog-act.s9553330.67,C,C,2.14,0.0,False,False,0.0,[],False, So um yeah according to what you said it's more robust to the user.,14,task,Inform
+IS1007d,B,446.036,447.744,1.708,IS1007d.B.dialog-act.s9553330.73,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,446.18,446.72,0.54,IS1007d.A.dialog-act.s9553330.26,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1007d,D,446.3,446.93,0.63,IS1007d.D.dialog-act.s9553330.19,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1007d,C,448.07,450.62,2.55,IS1007d.C.dialog-act.s9553330.68,C,C,0.0,2.14,False,False,0.0,[],False, And uh it's also cheaper to produce.,7,task,Inform
+IS1007d,C,450.62,460.259,9.639,IS1007d.C.dialog-act.s9553330.69,A,C,-4.609,0.0,False,True,4.609,"['IS1007d.A.dialog-act.s9553330.27', 'IS1007d.D.dialog-act.s9553330.20']",False, We can produce uh such remote control for about uh four dollars.,12,task,Inform
+IS1007d,B,455.488,458.386,2.898,IS1007d.B.dialog-act.s9553330.75,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,455.65,461.413,5.763,IS1007d.A.dialog-act.s9553330.27,D,C,-1.423,-4.609,True,True,1.423,['IS1007d.D.dialog-act.s9553330.20'],False," No four dollars, it's good.",5,task,Assess
+IS1007d,D,459.99,464.92,4.93,IS1007d.D.dialog-act.s9553330.20,D,A,0.0,-1.423,True,False,0.0,[],False," And I think you forgot a point here to have an button to find the charger,",16,task,Inform
+IS1007d,B,464.5,464.92,0.42,IS1007d.B.dialog-act.s9553330.76,,,,,,,,,False, Oh no,2,task,Assess
+IS1007d,B,464.92,467.92,3.0,IS1007d.B.dialog-act.s9553330.77,C,D,-1.16,-2.098,True,True,1.16,['IS1007d.C.dialog-act.s9553330.71'],False, th actually th we'll come to that point in our,10,task,Inform
+IS1007d,D,464.92,467.018,2.098,IS1007d.D.dialog-act.s9553330.21,B,D,-2.098,0.0,False,True,2.098,"['IS1007d.B.dialog-act.s9553330.77', 'IS1007d.C.dialog-act.s9553330.71']",False, because that's a major that's a,6,task,Inform
+IS1007d,C,466.55,466.76,0.21,IS1007d.C.dialog-act.s9553330.70,,,,,,,,,False, Yeah,1,task,Assess
+IS1007d,C,466.76,471.66,4.9,IS1007d.C.dialog-act.s9553330.71,D,B,1.09,-1.16,True,False,0.0,[],False, it's it's it's embed in the uh speech recognition system.,10,task,Inform
+IS1007d,B,469.3,469.71,0.41,IS1007d.B.dialog-act.s9553330.78,,,,,,,,,False, Yeah.,1,task,Assess
+IS1007d,D,471.68,472.75,1.07,IS1007d.D.dialog-act.s9553330.22,,,,,,,,,False, Okay,1,task,Assess
+IS1007d,D,472.75,475.06,2.31,IS1007d.D.dialog-act.s9553330.23,B,C,0.22,1.09,True,False,0.0,[],True, and if you disable speech recognition system then?,8,elicit,Elicit-Inform
+IS1007d,C,472.78,473.36,0.58,IS1007d.C.dialog-act.s9553330.72,,,,,,,,,False, So,1,minor,Fragment
+IS1007d,B,475.28,477.52,2.24,IS1007d.B.dialog-act.s9553330.79,C,D,-0.064,0.22,True,True,0.064,['IS1007d.C.dialog-act.s9553330.73'],True, W w I'll I'll come to that point later on.,10,task,Inform
+IS1007d,D,477.28,478.38,1.1,IS1007d.D.dialog-act.s9553330.24,,,,,,,,,False, Mm hmm hmm hmm hmm hmm.,6,minor,Backchannel
+IS1007d,C,477.456,481.1,3.644,IS1007d.C.dialog-act.s9553330.73,A,B,-0.75,-0.064,True,True,0.75,['IS1007d.A.dialog-act.s9553330.28'],False, so Norman will explain to you.,6,task,Inform
+IS1007d,A,480.35,483.87,3.52,IS1007d.A.dialog-act.s9553330.28,C,C,-0.17,-0.75,True,True,0.17,['IS1007d.C.dialog-act.s9553330.74'],False, And we will we will serve the charger with this?,10,elicit,Elicit-Inform
+IS1007d,B,480.37,480.67,0.3,IS1007d.B.dialog-act.s9553330.80,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,D,480.64,481.13,0.49,IS1007d.D.dialog-act.s9553330.25,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1007d,C,483.7,486.67,2.97,IS1007d.C.dialog-act.s9553330.74,A,A,-1.78,-0.17,True,True,1.08,['IS1007d.A.dialog-act.s9553330.29'],False, Yeah yeah of course mm.,5,task,Inform
+IS1007d,B,484.39,488.3,3.91,IS1007d.B.dialog-act.s9553330.81,,,,,,,,,False, Th they either these with the uh the the charger any,11,minor,Fragment
+IS1007d,A,484.89,485.97,1.08,IS1007d.A.dialog-act.s9553330.29,B,C,2.33,-1.78,True,False,0.0,[],False, With the remote control.,4,task,Inform
+IS1007d,B,488.3,493.01,4.71,IS1007d.B.dialog-act.s9553330.82,A,A,0.51,2.33,True,False,0.0,[],True, in either versions you they they ha they use the same charger yeah.,13,task,Inform
+IS1007d,A,492.71,493.52,0.81,IS1007d.A.dialog-act.s9553330.31,,,,,,,,,False, Okay,1,minor,Stall
+IS1007d,A,493.52,495.984,2.464,IS1007d.A.dialog-act.s9553330.32,B,B,1.096,0.51,True,False,0.0,[],True, so the price of the charger included in the,9,elicit,Elicit-Inform
+IS1007d,B,497.08,505.96,8.88,IS1007d.B.dialog-act.s9553330.85,B,A,0.0,1.096,True,False,0.0,[],True, Uh it's a standard module so you should get it for a cheap price uh.,15,task,Inform
+IS1007d,A,497.729,498.561,0.832,IS1007d.A.dialog-act.s9553330.30,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,498.693,499.826,1.133,IS1007d.C.dialog-act.s9553330.75,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,501.92,504.94,3.02,IS1007d.C.dialog-act.s9553330.77,,,,,,,,,False, Thank thank you.,3,task,Assess
+IS1007d,A,503.2,506.891,3.691,IS1007d.A.dialog-act.s9553330.33,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1007d,C,504.94,506.9,1.96,IS1007d.C.dialog-act.s9553330.78,,,,,,,,,False, And so mm-hmm.,3,minor,Backchannel
+IS1007d,B,505.96,508.4,2.44,IS1007d.B.dialog-act.s9553330.86,B,B,0.0,0.0,False,False,0.0,[],False, It's that same charger that you can use for the hand-phone,11,task,Inform
+IS1007d,B,508.4,512.79,4.39,IS1007d.B.dialog-act.s9553330.87,B,B,0.0,0.0,False,False,0.0,[],False, but uh again depends on the types.,7,task,Inform
+IS1007d,B,512.79,515.453,2.663,IS1007d.B.dialog-act.s9553330.88,A,B,-0.893,0.0,False,True,0.893,['IS1007d.A.dialog-act.s9553330.34'],False," I think we have to investigate more on that, but",10,task,Suggest
+IS1007d,A,514.56,518.73,4.17,IS1007d.A.dialog-act.s9553330.34,B,B,0.13,-0.893,True,False,0.0,[],False, The price should be below twelve and a half Euro.,10,task,Inform
+IS1007d,B,516.477,516.92,0.443,IS1007d.B.dialog-act.s9553330.89,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,518.1,518.86,0.76,IS1007d.B.dialog-act.s9553330.90,,,,,,,,,False, Yeah,1,task,Assess
+IS1007d,A,518.73,519.818,1.088,IS1007d.A.dialog-act.s9553330.35,,,,,,,,,False, Well that's so,3,minor,Fragment
+IS1007d,B,518.86,526.01,7.15,IS1007d.B.dialog-act.s9553330.91,D,A,0.44,0.13,True,False,0.0,[],True," but as the Marketing Manager says, people is willing to people are willing to pay more for good design.",19,task,Inform
+IS1007d,D,526.45,528.03,1.58,IS1007d.D.dialog-act.s9553330.27,D,B,0.0,0.44,True,False,0.0,[],True," Yeah people are willing to pay more,",7,task,Assess
+IS1007d,A,526.91,529.014,2.104,IS1007d.A.dialog-act.s9553330.36,,,,,,,,,False, We have we have just,5,minor,Fragment
+IS1007d,B,527.6,529.246,1.646,IS1007d.B.dialog-act.s9553330.83,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,528.03,532.09,4.06,IS1007d.D.dialog-act.s9553330.28,A,D,-1.03,0.0,False,True,1.03,['IS1007d.A.dialog-act.s9553330.37'],False, but the company is not willing to invest more at the moment.,12,task,Inform
+IS1007d,C,528.242,531.478,3.236,IS1007d.C.dialog-act.s9553330.76,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,531.01,531.31,0.3,IS1007d.B.dialog-act.s9553330.92,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,A,531.06,533.76,2.7,IS1007d.A.dialog-act.s9553330.37,C,D,3.5,-1.03,True,False,0.0,[],False, The price of selling is twenty five Euros.,8,task,Inform
+IS1007d,B,532.69,533.1,0.41,IS1007d.B.dialog-act.s9553330.93,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,534.3,534.68,0.38,IS1007d.B.dialog-act.s9553330.94,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1007d,A,535.17,537.861,2.691,IS1007d.A.dialog-act.s9553330.38,,,,,,,,,False, And the price of production,5,minor,Fragment
+IS1007d,B,535.749,536.096,0.347,IS1007d.B.dialog-act.s9553330.84,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,536.82,537.26,0.44,IS1007d.C.dialog-act.s9553330.79,,,,,,,,,False, Alright,1,minor,Stall
+IS1007d,C,537.26,540.43,3.17,IS1007d.C.dialog-act.s9553330.80,B,A,0.29,3.5,True,False,0.0,[],True, please uh go on Norman with the special features.,9,task,Suggest
+IS1007d,D,539.32,539.904,0.584,IS1007d.D.dialog-act.s9553330.29,,,,,,,,,False, Or uh,2,minor,Fragment
+IS1007d,B,540.08,540.72,0.64,IS1007d.B.dialog-act.s9553330.95,,,,,,,,,False, Yeah,1,task,Assess
+IS1007d,B,540.72,541.7,0.98,IS1007d.B.dialog-act.s9553330.96,B,C,0.0,0.29,True,False,0.0,[],True," we'll we'll come up to that,",6,other,Offer
+IS1007d,B,541.7,546.48,4.78,IS1007d.B.dialog-act.s9553330.97,B,B,0.0,0.0,False,False,0.0,[],False, the the the thing that makes this the controller cheap is that it is modular,15,task,Inform
+IS1007d,B,546.48,548.84,2.36,IS1007d.B.dialog-act.s9553330.98,B,B,0.0,0.0,False,False,0.0,[],False, so you want more function you pay more.,8,task,Inform
+IS1007d,B,548.84,556.17,7.33,IS1007d.B.dialog-act.s9553330.99,B,B,0.0,0.0,False,False,0.0,[],False," If you want less function i i if you want a reasonable price you pay for the functions that you add on to the system,",25,task,Inform
+IS1007d,D,553.52,554.101,0.581,IS1007d.D.dialog-act.s9553330.26,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,556.17,558.36,2.19,IS1007d.B.dialog-act.s9553330.100,A,B,0.58,0.0,False,False,0.0,[],False, so is uh modular.,4,task,Inform
+IS1007d,A,558.94,560.81,1.87,IS1007d.A.dialog-act.s9553330.39,A,B,0.0,0.58,True,False,0.0,[],True, That's for this basis function,5,task,Inform
+IS1007d,A,560.81,562.76,1.95,IS1007d.A.dialog-act.s9553330.40,D,A,1.07,0.0,False,False,0.0,[],False, and if you want more you pay more.,8,task,Inform
+IS1007d,B,562.36,563.84,1.48,IS1007d.B.dialog-act.s9553330.101,,,,,,,,,False," Yeah yeah,",2,task,Assess
+IS1007d,A,563.824,564.381,0.557,IS1007d.A.dialog-act.s9553330.41,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,563.83,565.85,2.02,IS1007d.D.dialog-act.s9553330.30,B,A,-2.01,1.07,True,True,2.01,['IS1007d.B.dialog-act.s9553330.103'],True, Something like customised. Yeah,4,task,Inform
+IS1007d,B,563.84,569.64,5.8,IS1007d.B.dialog-act.s9553330.103,B,D,0.0,-2.01,True,False,0.0,[],False," for example the L_C_D_, you can take it you can put it put it back in, or you can use the other one,",23,task,Inform
+IS1007d,A,565.88,566.43,0.55,IS1007d.A.dialog-act.s9553330.43,,,,,,,,,False, Yeah.,1,task,Assess
+IS1007d,C,569.379,573.261,3.882,IS1007d.C.dialog-act.s9553330.81,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,569.64,574.5,4.86,IS1007d.B.dialog-act.s9553330.104,B,B,0.0,0.0,False,False,0.0,[],False, or the speech recogniser with the microphone yeah yeah.,9,task,Inform
+IS1007d,C,574.465,584.024,9.559,IS1007d.C.dialog-act.s9553330.82,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,574.5,584.38,9.88,IS1007d.B.dialog-act.s9553330.105,B,B,1.8,0.0,False,False,0.0,[],False, You want a microphone to put in the speech recogniser you don't wan you pay less for the system you see.,21,task,Inform
+IS1007d,A,576.59,577.13,0.54,IS1007d.A.dialog-act.s9553330.44,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1007d,D,580.89,581.71,0.82,IS1007d.D.dialog-act.s9553330.31,,,,,,,,,False, Mm hmm hmm hmm.,4,minor,Backchannel
+IS1007d,A,583.392,583.928,0.536,IS1007d.A.dialog-act.s9553330.42,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,584.38,585.218,0.838,IS1007d.B.dialog-act.s9553330.106,,,,,,,,,False, So,1,minor,Stall
+IS1007d,D,584.57,586.19,1.62,IS1007d.D.dialog-act.s9553330.32,,,,,,,,,False, Hmm okay.,2,minor,Backchannel
+IS1007d,B,586.18,589.11,2.93,IS1007d.B.dialog-act.s9553330.107,C,B,-1.39,1.8,False,True,1.39,['IS1007d.C.dialog-act.s9553330.84'],False, It's pretty flexible in the yeah price.,7,task,Inform
+IS1007d,C,586.288,586.968,0.68,IS1007d.C.dialog-act.s9553330.83,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,587.72,592.27,4.55,IS1007d.C.dialog-act.s9553330.84,B,B,1.01,-1.39,True,False,0.0,[],False, You also have the the the two other modules for the parental control,13,task,Inform
+IS1007d,A,588.51,589.034,0.524,IS1007d.A.dialog-act.s9553330.45,,,,,,,,,False, But,1,minor,Fragment
+IS1007d,B,592.57,593.28,0.71,IS1007d.B.dialog-act.s9553330.108,,,,,,,,,False, Uh yeah yeah,3,task,Assess
+IS1007d,B,593.28,594.09,0.81,IS1007d.B.dialog-act.s9553330.109,D,C,-0.58,1.01,True,True,0.58,"['IS1007d.D.dialog-act.s9553330.33', 'IS1007d.C.dialog-act.s9553330.85']",True, you should present that.,4,task,Suggest
+IS1007d,D,593.51,594.65,1.14,IS1007d.D.dialog-act.s9553330.33,C,B,-1.09,-0.58,True,True,1.09,['IS1007d.C.dialog-act.s9553330.85'],False, And this is other one?,5,elicit,Elicit-Inform
+IS1007d,C,593.56,599.9,6.34,IS1007d.C.dialog-act.s9553330.85,C,D,0.0,-1.09,True,False,0.0,[],False, that that you ca you can add up to the to your remote control,14,task,Inform
+IS1007d,B,596.016,600.128,4.112,IS1007d.B.dialog-act.s9553330.102,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,599.9,609.58,9.68,IS1007d.C.dialog-act.s9553330.86,C,C,1.27,0.0,False,False,0.0,[],False," i i if you uh if you want to to have more more power on what you do, and uh which channel you want to choose and so on.",29,task,Inform
+IS1007d,B,603.024,606.09,3.066,IS1007d.B.dialog-act.s9553330.110,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,C,610.85,614.1,3.25,IS1007d.C.dialog-act.s9553330.87,C,C,0.0,1.27,False,False,0.0,[],False, H here is just the the the module for the kids,11,task,Inform
+IS1007d,C,614.1,618.72,4.62,IS1007d.C.dialog-act.s9553330.88,C,C,0.0,0.0,False,False,0.0,[],False," and th if the parents want to watch T_V_, up they come up with their modules,",16,task,Inform
+IS1007d,D,615.91,616.78,0.87,IS1007d.D.dialog-act.s9553330.34,,,,,,,,,False, Mm hmm hmm hmm.,4,minor,Backchannel
+IS1007d,C,618.72,620.5,1.78,IS1007d.C.dialog-act.s9553330.89,C,C,0.0,0.0,False,False,0.0,[],False, they just plug in it,5,task,Inform
+IS1007d,B,619.67,620.76,1.09,IS1007d.B.dialog-act.s9553330.111,,,,,,,,,False, Yeah,1,minor,Backchannel
+IS1007d,C,620.5,623.39,2.89,IS1007d.C.dialog-act.s9553330.90,C,C,0.0,0.0,False,False,0.0,[],False, and they can have all the control they want here.,10,task,Inform
+IS1007d,B,622.76,622.99,0.23,IS1007d.B.dialog-act.s9553330.112,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,C,623.39,630.57,7.18,IS1007d.C.dialog-act.s9553330.91,C,C,0.0,0.0,False,False,0.0,[],False," We also have this module for uh old people with big buttons, clearly labelled,",14,task,Inform
+IS1007d,B,627.72,628.11,0.39,IS1007d.B.dialog-act.s9553330.113,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IS1007d,B,629.345,631.272,1.927,IS1007d.B.dialog-act.s9553330.114,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,630.57,633.76,3.19,IS1007d.C.dialog-act.s9553330.92,C,C,0.0,0.0,False,False,0.0,[],False," and it acts like the previous one,",7,task,Inform
+IS1007d,B,633.01,633.53,0.52,IS1007d.B.dialog-act.s9553330.115,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,C,633.76,636.4,2.64,IS1007d.C.dialog-act.s9553330.93,B,C,2.94,0.0,False,False,0.0,[],False, you just plug in and it works.,7,task,Inform
+IS1007d,B,635.741,639.34,3.599,IS1007d.B.dialog-act.s9553330.116,,,,,,,,,False, Yeah,1,minor,Backchannel
+IS1007d,D,636.93,637.33,0.4,IS1007d.D.dialog-act.s9553330.35,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1007d,B,639.34,646.06,6.72,IS1007d.B.dialog-act.s9553330.117,B,C,0.0,2.94,True,False,0.0,[],True, the i the idea the the conceptual idea is that simplicity and powerful.,13,task,Inform
+IS1007d,B,646.06,649.86,3.8,IS1007d.B.dialog-act.s9553330.118,B,B,0.0,0.0,False,False,0.0,[],False," Simplicity meaning that we have few buttons,",7,task,Inform
+IS1007d,B,649.86,658.99,9.13,IS1007d.B.dialog-act.s9553330.119,B,B,0.0,0.0,False,False,0.0,[],False, powerful is that all the controls with the one you saw we saw earlier in the meetings with lots of buttons n,22,task,Inform
+IS1007d,B,658.99,660.62,1.63,IS1007d.B.dialog-act.s9553330.120,B,B,0.0,0.0,False,False,0.0,[],False, but here you only have few buttons,7,task,Inform
+IS1007d,B,660.62,664.56,3.94,IS1007d.B.dialog-act.s9553330.121,B,B,0.0,0.0,False,False,0.0,[],False, but you retain the mm the same powerful functionalities.,9,task,Inform
+IS1007d,B,664.56,666.33,1.77,IS1007d.B.dialog-act.s9553330.122,B,B,0.5,0.0,False,False,0.0,[],False, But in addition with simplicity.,5,task,Inform
+IS1007d,B,666.83,669.48,2.65,IS1007d.B.dialog-act.s9553330.123,B,B,0.86,0.5,False,False,0.0,[],False," So that's the best idea,",5,task,Assess
+IS1007d,B,669.48,670.34,0.86,IS1007d.B.dialog-act.s9553330.124,,,,,,,,,False, the cond that,3,minor,Fragment
+IS1007d,B,670.34,678.17,7.83,IS1007d.B.dialog-act.s9553330.125,B,B,0.0,0.86,False,False,0.0,[],False, that's our uh an innovation um uh i in this uh design here.,13,task,Inform
+IS1007d,A,678.12,678.49,0.37,IS1007d.A.dialog-act.s9553330.46,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1007d,B,678.17,682.36,4.19,IS1007d.B.dialog-act.s9553330.126,B,B,0.0,0.0,False,False,0.0,[],False, Okay now we come to other important features that I did not tell you.,14,task,Inform
+IS1007d,B,682.36,684.22,1.86,IS1007d.B.dialog-act.s9553330.127,B,B,0.0,0.0,False,False,0.0,[],False," The first one is the speech recogniser,",7,task,Inform
+IS1007d,B,684.22,686.74,2.52,IS1007d.B.dialog-act.s9553330.128,B,B,0.0,0.0,False,False,0.0,[],False, again it's detachable or add-on.,5,task,Inform
+IS1007d,B,686.74,688.47,1.73,IS1007d.B.dialog-act.s9553330.129,B,B,0.0,0.0,False,False,0.0,[],False, And then we also have security feature,7,task,Inform
+IS1007d,B,688.47,693.38,4.91,IS1007d.B.dialog-act.s9553330.130,B,B,2.38,0.0,False,False,0.0,[],False, for example this here oop,5,task,Inform
+IS1007d,C,690.256,695.458,5.202,IS1007d.C.dialog-act.s9553330.94,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,693.38,694.79,1.41,IS1007d.B.dialog-act.s9553330.131,,,,,,,,,False," it's very robust,",3,task,Inform
+IS1007d,B,694.79,695.76,0.97,IS1007d.B.dialog-act.s9553330.132,,,,,,,,,False, it doesn't break,3,task,Inform
+IS1007d,B,695.76,698.03,2.27,IS1007d.B.dialog-act.s9553330.133,B,B,3.12,2.38,False,False,0.0,[],False," and the material, what's the material again?",7,elicit,Elicit-Inform
+IS1007d,C,697.08,697.88,0.8,IS1007d.C.dialog-act.s9553330.95,,,,,,,,,False, The titanium,2,task,Inform
+IS1007d,C,697.88,699.696,1.816,IS1007d.C.dialog-act.s9553330.96,,,,,,,,,False, and so it's very uh,5,minor,Fragment
+IS1007d,A,698.17,698.85,0.68,IS1007d.A.dialog-act.s9553330.47,,,,,,,,,False, Titanium.,1,minor,Backchannel
+IS1007d,B,701.15,705.43,4.28,IS1007d.B.dialog-act.s9553330.134,B,B,0.0,3.12,False,False,0.0,[],False," Again uh and the battery life is uh is an is an endurable one,",14,task,Inform
+IS1007d,B,705.43,710.1,4.67,IS1007d.B.dialog-act.s9553330.135,B,B,0.0,0.0,False,False,0.0,[],False, again because this is A_A_ batteries you can choose the types of battery you want.,15,task,Inform
+IS1007d,D,709.33,709.92,0.59,IS1007d.D.dialog-act.s9553330.36,,,,,,,,,False, Yeah that's fine.,3,task,Assess
+IS1007d,B,710.1,711.74,1.64,IS1007d.B.dialog-act.s9553330.136,B,B,0.0,0.0,False,False,0.0,[],False," Lithium-ion may be a good one,",6,task,Inform
+IS1007d,B,711.74,713.7,1.96,IS1007d.B.dialog-act.s9553330.137,B,B,0.0,0.0,False,False,0.0,[],False," but you can replace it with cheaper one,",8,task,Inform
+IS1007d,B,713.7,716.0,2.3,IS1007d.B.dialog-act.s9553330.138,B,B,0.0,0.0,False,False,0.0,[],False," again you pay for what you get,",7,task,Inform
+IS1007d,B,716.0,720.2,4.2,IS1007d.B.dialog-act.s9553330.139,B,B,0.0,0.0,False,False,0.0,[],False, and then um y the other p points are robust and misplacement reminder.,13,task,Inform
+IS1007d,B,720.2,733.67,13.47,IS1007d.B.dialog-act.s9553330.140,B,B,0.0,0.0,False,False,0.0,[],False," So when you finish watching your T_V_ and you the you t you turn off the T_V_, uh and then there's this message coming out that uh please put that back to the charger,",34,task,Inform
+IS1007d,B,733.67,737.61,3.94,IS1007d.B.dialog-act.s9553330.142,B,B,0.0,0.0,False,False,0.0,[],False, so so that's the or is it,7,other,Other
+IS1007d,D,733.95,734.56,0.61,IS1007d.D.dialog-act.s9553330.38,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1007d,B,737.61,739.89,2.28,IS1007d.B.dialog-act.s9553330.143,B,B,3.15,0.0,False,False,0.0,[],False, that's the reminder part.,4,task,Inform
+IS1007d,B,739.89,740.94,1.05,IS1007d.B.dialog-act.s9553330.144,,,,,,,,,False, Yeah,1,minor,Backchannel
+IS1007d,B,740.94,741.856,0.916,IS1007d.B.dialog-act.s9553330.145,,,,,,,,,False, and um,2,minor,Stall
+IS1007d,B,743.04,745.88,2.84,IS1007d.B.dialog-act.s9553330.146,B,B,0.0,3.15,False,False,0.0,[],False," And it also use a programmable channel and vocabulary,",9,task,Inform
+IS1007d,B,745.88,747.73,1.85,IS1007d.B.dialog-act.s9553330.147,B,B,0.0,0.0,False,False,0.0,[],False, so we didn't define the vocabulary,6,task,Inform
+IS1007d,B,747.73,750.37,2.64,IS1007d.B.dialog-act.s9553330.148,B,B,5.87,0.0,False,False,0.0,[],False, so it's up to the user to define,8,task,Inform
+IS1007d,D,749.58,750.32,0.74,IS1007d.D.dialog-act.s9553330.39,,,,,,,,,False, Mm hmm hmm hmm.,4,minor,Backchannel
+IS1007d,B,750.37,751.89,1.52,IS1007d.B.dialog-act.s9553330.149,,,,,,,,,False, so,1,task,Suggest
+IS1007d,B,751.89,756.24,4.35,IS1007d.B.dialog-act.s9553330.150,,,,,,,,,False, sorry?,1,task,Suggest
+IS1007d,A,753.21,755.333,2.123,IS1007d.A.dialog-act.s9553330.48,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,753.248,755.382,2.134,IS1007d.C.dialog-act.s9553330.97,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,754.417,756.25,1.833,IS1007d.D.dialog-act.s9553330.37,,,,,,,,,False,,0,other,Unlabelled
+IS1007d,B,756.24,765.8,9.56,IS1007d.B.dialog-act.s9553330.151,B,B,0.0,5.87,False,False,0.0,[],False," And then uh because of the chil because children are using the device so we have also a a of T_V_ programmes by genre,",24,task,Inform
+IS1007d,B,765.8,769.45,3.65,IS1007d.B.dialog-act.s9553330.152,B,B,0.49,0.0,False,False,0.0,[],False, and this can be used by the adult or by the children.,12,task,Inform
+IS1007d,B,769.94,775.2,5.26,IS1007d.B.dialog-act.s9553330.153,B,B,0.0,0.49,False,False,0.0,[],False, So instead of choosing the channel you are choosing the T_V_ contents of the night.,15,task,Inform
+IS1007d,B,775.2,777.43,2.23,IS1007d.B.dialog-act.s9553330.154,B,B,0.0,0.0,False,False,0.0,[],False," So it's pretty powerful,",4,task,Assess
+IS1007d,B,777.43,781.22,3.79,IS1007d.B.dialog-act.s9553330.155,B,B,1.47,0.0,False,False,0.0,[],False," and that's that's why the num buttons are reduced, because of this feature.",13,task,Inform
+IS1007d,B,781.22,782.69,1.47,IS1007d.B.dialog-act.s9553330.156,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,782.69,786.22,3.53,IS1007d.B.dialog-act.s9553330.158,B,B,4.42,1.47,False,False,0.0,[],False, And and for the materials that is cheap to produce,10,task,Inform
+IS1007d,B,786.22,790.64,4.42,IS1007d.B.dialog-act.s9553330.159,,,,,,,,,False, I think uh it's quite clear from yeah.,8,minor,Fragment
+IS1007d,A,787.978,788.912,0.934,IS1007d.A.dialog-act.s9553330.49,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,790.64,794.71,4.07,IS1007d.B.dialog-act.s9553330.160,B,B,0.0,4.42,False,False,0.0,[],False, And also like the and the fancy designs yeah.,9,task,Inform
+IS1007d,B,794.71,800.09,5.38,IS1007d.B.dialog-act.s9553330.161,A,B,-2.23,0.0,False,True,1.74,['IS1007d.A.dialog-act.s9553330.53'],False, Maybe we can improve more on the design but,9,task,Suggest
+IS1007d,A,795.12,796.185,1.065,IS1007d.A.dialog-act.s9553330.51,,,,,,,,,False, What what's,2,minor,Fragment
+IS1007d,C,796.863,798.846,1.983,IS1007d.C.dialog-act.s9553330.98,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,796.93,797.86,0.93,IS1007d.A.dialog-act.s9553330.52,,,,,,,,,False, Maybe yeah.,2,task,Assess
+IS1007d,A,797.86,799.6,1.74,IS1007d.A.dialog-act.s9553330.53,B,B,0.49,-2.23,True,False,0.0,[],False, What's the price to p to produce?,7,elicit,Elicit-Inform
+IS1007d,B,800.09,813.509,13.419,IS1007d.B.dialog-act.s9553330.162,C,A,-12.159,0.49,True,True,9.42,"['IS1007d.C.dialog-act.s9553330.99', 'IS1007d.A.dialog-act.s9553330.54']",True, uh this is the,4,task,Suggest
+IS1007d,C,801.35,810.77,9.42,IS1007d.C.dialog-act.s9553330.99,A,B,1.69,-12.159,True,False,0.0,[],False," Well so the price to produce For uh the simplest one, say we start from four dollars to produce such a device.",22,task,Inform
+IS1007d,C,812.07,813.448,1.378,IS1007d.C.dialog-act.s9553330.100,,,,,,,,,False, Uh it's about it,4,minor,Fragment
+IS1007d,A,812.46,814.86,2.4,IS1007d.A.dialog-act.s9553330.54,C,C,-0.47,1.69,True,True,0.47,['IS1007d.C.dialog-act.s9553330.101'],True, With with with the charge?,5,elicit,Elicit-Inform
+IS1007d,C,814.39,816.91,2.52,IS1007d.C.dialog-act.s9553330.101,C,A,0.0,-0.47,True,False,0.0,[],False, The without without the charger,5,task,Inform
+IS1007d,D,814.43,815.22,0.79,IS1007d.D.dialog-act.s9553330.40,,,,,,,,,False, With the charger?,3,elicit,Elicit-Inform
+IS1007d,A,816.31,816.74,0.43,IS1007d.A.dialog-act.s9553330.55,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1007d,B,816.5,818.11,1.61,IS1007d.B.dialog-act.s9553330.163,,,,,,,,,False, Yeah,1,minor,Backchannel
+IS1007d,C,816.91,823.01,6.1,IS1007d.C.dialog-act.s9553330.102,C,C,1.31,0.0,False,False,0.0,[],False, it's about uh well two dollars to produce uh the microphone and speech recognition systems.,15,task,Inform
+IS1007d,B,819.1,828.391,9.291,IS1007d.B.dialog-act.s9553330.157,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,824.32,828.91,4.59,IS1007d.C.dialog-act.s9553330.103,C,C,0.0,1.31,False,False,0.0,[],False," Two dollars for the uh for the add-on modules,",9,task,Inform
+IS1007d,C,828.91,831.57,2.66,IS1007d.C.dialog-act.s9553330.104,C,C,1.07,0.0,False,False,0.0,[],False, and finally three dollars for the charger.,7,elicit,Elicit-Inform
+IS1007d,C,832.64,844.27,11.63,IS1007d.C.dialog-act.s9553330.105,A,C,-8.92,1.07,False,True,1.261,['IS1007d.A.dialog-act.s9553330.56'],False," So if you uh sum up uh everything wi with the L_C_D_, which costs two dollar, you have two plus four plus four plus two plus two.",27,task,Inform
+IS1007d,B,834.576,852.23,17.654,IS1007d.B.dialog-act.s9553330.164,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,A,835.35,836.611,1.261,IS1007d.A.dialog-act.s9553330.56,D,C,8.148,-8.92,True,False,0.0,[],False, We don't have charger.,4,task,Inform
+IS1007d,A,837.768,839.602,1.834,IS1007d.A.dialog-act.s9553330.50,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,844.759,852.19,7.431,IS1007d.D.dialog-act.s9553330.41,A,A,-4.1,8.148,True,True,3.65,['IS1007d.A.dialog-act.s9553330.57'],True, I think we can use Excel.,6,task,Suggest
+IS1007d,C,845.439,852.31,6.871,IS1007d.C.dialog-act.s9553330.106,,,,,,,,,False, It's about,2,minor,Fragment
+IS1007d,A,848.09,851.74,3.65,IS1007d.A.dialog-act.s9553330.57,C,D,0.57,-4.1,True,False,0.0,[],False, We don't have all the options.,6,task,Inform
+IS1007d,C,852.31,858.26,5.95,IS1007d.C.dialog-act.s9553330.107,A,A,-5.21,0.57,True,True,2.12,['IS1007d.A.dialog-act.s9553330.58'],True, so the total cost if you if you want all the fuct functionalities will be about uh fifteen dollars.,19,task,Inform
+IS1007d,A,853.05,855.17,2.12,IS1007d.A.dialog-act.s9553330.58,C,C,4.89,-5.21,True,False,0.0,[],False, Charger we don't have charger here either.,7,task,Inform
+IS1007d,B,855.366,859.23,3.864,IS1007d.B.dialog-act.s9553330.165,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,A,859.49,861.04,1.55,IS1007d.A.dialog-act.s9553330.59,,,,,,,,,False, No it's,2,minor,Fragment
+IS1007d,C,860.06,863.67,3.61,IS1007d.C.dialog-act.s9553330.108,A,A,-0.98,4.89,True,True,0.98,['IS1007d.A.dialog-act.s9553330.60'],True, But it's just if you want all functionalities.,8,task,Inform
+IS1007d,A,862.69,864.53,1.84,IS1007d.A.dialog-act.s9553330.60,A,C,1.63,-0.98,True,False,0.0,[],False, it's below the the the budget.,6,task,Inform
+IS1007d,B,864.36,865.11,0.75,IS1007d.B.dialog-act.s9553330.166,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,C,865.48,865.87,0.39,IS1007d.C.dialog-act.s9553330.109,,,,,,,,,False, Excuse me?,2,other,Comment-About-Understanding
+IS1007d,A,866.16,870.34,4.18,IS1007d.A.dialog-act.s9553330.61,D,A,-0.56,1.63,False,True,0.56,['IS1007d.D.dialog-act.s9553330.42'],False, It's below the bu the budget.,6,task,Inform
+IS1007d,B,868.755,871.158,2.403,IS1007d.B.dialog-act.s9553330.167,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,869.78,871.24,1.46,IS1007d.D.dialog-act.s9553330.42,D,A,0.0,-0.56,True,False,0.0,[],False, Yeah it's a nice input,5,task,Assess
+IS1007d,A,870.34,871.209,0.869,IS1007d.A.dialog-act.s9553330.62,,,,,,,,,False, We,1,minor,Fragment
+IS1007d,D,871.24,876.62,5.38,IS1007d.D.dialog-act.s9553330.43,D,D,0.0,0.0,False,False,0.0,[],False, but we have an other inputs from the l public demands.,11,task,Inform
+IS1007d,A,874.304,875.146,0.842,IS1007d.A.dialog-act.s9553330.63,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,876.62,878.6,1.98,IS1007d.D.dialog-act.s9553330.44,D,D,0.0,0.0,False,False,0.0,[],False, I think we will just have a rough look,9,task,Suggest
+IS1007d,D,878.6,881.14,2.54,IS1007d.D.dialog-act.s9553330.45,D,D,0.0,0.0,False,False,0.0,[],False," and then we can make our statements,",7,task,Suggest
+IS1007d,D,881.14,884.39,3.25,IS1007d.D.dialog-act.s9553330.46,D,D,1.33,0.0,False,False,0.0,[],False, and we can finalise the product based on this discu,10,task,Suggest
+IS1007d,B,883.65,884.13,0.48,IS1007d.B.dialog-act.s9553330.171,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,C,884.63,884.79,0.16,IS1007d.C.dialog-act.s9553330.110,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,D,885.72,887.93,2.21,IS1007d.D.dialog-act.s9553330.47,D,D,1.27,1.33,False,False,0.0,[],False, I think we can just go to my presentation then.,10,task,Suggest
+IS1007d,D,889.2,890.16,0.96,IS1007d.D.dialog-act.s9553330.48,D,D,3.01,1.27,False,False,0.0,[],False, We can wind up.,4,task,Suggest
+IS1007d,D,893.17,896.49,3.32,IS1007d.D.dialog-act.s9553330.49,D,D,10.91,3.01,False,False,0.0,[],False, Or we could uh come to some f uh final conclusions.,11,task,Suggest
+IS1007d,B,899.024,900.171,1.147,IS1007d.B.dialog-act.s9553330.170,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,907.4,911.24,3.84,IS1007d.D.dialog-act.s9553330.50,D,D,0.0,10.91,False,False,0.0,[],False, So the marketing made an evaluation criteria,7,task,Inform
+IS1007d,D,911.24,913.95,2.71,IS1007d.D.dialog-act.s9553330.51,D,D,0.0,0.0,False,False,0.0,[],False," and these were some of the findings,",7,task,Inform
+IS1007d,D,913.95,927.02,13.07,IS1007d.D.dialog-act.s9553330.52,D,D,0.0,0.0,False,False,0.0,[],False," and uh in the market the people are not really interested with L_C_D_, without L_C_D_, with speech recognition interface, or without speech recognition interface,",24,task,Inform
+IS1007d,D,927.02,934.28,7.26,IS1007d.D.dialog-act.s9553330.53,D,D,0.0,0.0,False,False,0.0,[],False," but most of the people what they are interested is first thing is, they want to have an fancy look and feel,",22,task,Inform
+IS1007d,D,934.28,935.95,1.67,IS1007d.D.dialog-act.s9553330.54,D,D,0.0,0.0,False,False,0.0,[],False, it should be very fancy with colourful,7,task,Inform
+IS1007d,D,935.95,940.24,4.29,IS1007d.D.dialog-act.s9553330.55,D,D,0.0,0.0,False,False,0.0,[],False, and uh very handy to hold.,6,task,Inform
+IS1007d,B,936.783,937.924,1.141,IS1007d.B.dialog-act.s9553330.168,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,940.24,944.84,4.6,IS1007d.D.dialog-act.s9553330.56,D,D,1.74,0.0,False,False,0.0,[],False, And the second thing is it should be much more technologically innovative.,12,task,Inform
+IS1007d,B,940.33,940.61,0.28,IS1007d.B.dialog-act.s9553330.172,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,B,946.508,947.583,1.075,IS1007d.B.dialog-act.s9553330.169,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,946.58,952.8,6.22,IS1007d.D.dialog-act.s9553330.57,D,D,0.0,1.74,False,False,0.0,[],False, Of course in that we could put L_C_D_ or recognition to be more technologically innovative.,15,task,Inform
+IS1007d,D,952.8,955.09,2.29,IS1007d.D.dialog-act.s9553330.58,C,D,0.43,0.0,False,False,0.0,[],False, And the third one is easy to use.,8,task,Inform
+IS1007d,C,955.52,960.47,4.95,IS1007d.C.dialog-act.s9553330.111,C,D,0.0,0.43,True,False,0.0,[],True, Well I think that the technical in innovation is is in the product itself,14,task,Inform
+IS1007d,B,955.6,955.89,0.29,IS1007d.B.dialog-act.s9553330.173,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,C,960.47,971.55,11.08,IS1007d.C.dialog-act.s9553330.112,D,C,1.11,0.0,False,False,0.0,[],False, since we haven't yet a remote who are allowing to to choose interactively with the T_V_ screen uh uh with just four buttons.,23,task,Inform
+IS1007d,D,972.66,975.44,2.78,IS1007d.D.dialog-act.s9553330.59,D,C,0.0,1.11,True,False,0.0,[],True," Okay and if we go to the next slide,",9,task,Suggest
+IS1007d,D,975.44,978.98,3.54,IS1007d.D.dialog-act.s9553330.60,D,D,0.0,0.0,False,False,0.0,[],False," here you can find these are the latest fashion updates,",10,task,Inform
+IS1007d,D,978.98,989.94,10.96,IS1007d.D.dialog-act.s9553330.61,D,D,0.0,0.0,False,False,0.0,[],False," and so this in Paris and Milan they have detected this trends that the this year it's going to be an year of fruit and vegetable,",26,task,Inform
+IS1007d,D,989.94,998.32,8.38,IS1007d.D.dialog-act.s9553330.62,D,D,1.24,0.0,False,False,0.0,[],False," so people are really interested to see if they have an remote in the shape of the fruit or a vegetable, or whatever they like.",25,task,Inform
+IS1007d,B,992.18,994.21,2.03,IS1007d.B.dialog-act.s9553330.174,,,,,,,,,False, Spongy spongy.,2,other,Other
+IS1007d,B,997.18,998.49,1.31,IS1007d.B.dialog-act.s9553330.175,,,,,,,,,False, Mm mm.,2,minor,Backchannel
+IS1007d,D,999.56,1006.95,7.39,IS1007d.D.dialog-act.s9553330.63,D,D,0.0,1.24,False,False,0.0,[],False, So I think it should be much more customised to make a different uh shapes.,15,task,Inform
+IS1007d,B,1003.62,1005.17,1.55,IS1007d.B.dialog-act.s9553330.176,,,,,,,,,False, Mm mm.,2,minor,Backchannel
+IS1007d,D,1006.95,1016.12,9.17,IS1007d.D.dialog-act.s9553330.64,D,D,0.0,0.0,False,False,0.0,[],False," And the second thing is, and if the material, they really do not want it to be very hard, as in the case of very pl plastic or titanium,",29,task,Inform
+IS1007d,D,1016.12,1017.75,1.63,IS1007d.D.dialog-act.s9553330.65,B,D,1.19,0.0,False,False,0.0,[],False, it should be somewhat spongy.,5,task,Inform
+IS1007d,C,1018.87,1019.52,0.65,IS1007d.C.dialog-act.s9553330.113,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1007d,B,1018.94,1024.67,5.73,IS1007d.B.dialog-act.s9553330.177,B,D,1.78,1.19,True,False,0.0,[],True, But the the problem is that uh is it robust to mishandling?,12,elicit,Elicit-Inform
+IS1007d,B,1026.28,1026.45,0.17,IS1007d.B.dialog-act.s9553330.178,,,,,,,,,False, We have,2,minor,Fragment
+IS1007d,B,1026.45,1032.21,5.76,IS1007d.B.dialog-act.s9553330.179,D,B,-0.91,1.78,False,True,0.91,['IS1007d.D.dialog-act.s9553330.66'],False, you should find a material that is robust at the same time spongy.,13,task,Suggest
+IS1007d,C,1031.22,1034.448,3.228,IS1007d.C.dialog-act.s9553330.114,,,,,,,,,False, A sponge.,2,task,Suggest
+IS1007d,D,1031.3,1037.61,6.31,IS1007d.D.dialog-act.s9553330.66,D,B,0.0,-0.91,True,False,0.0,[],False, Yeah so uh so finally we have these three criterias.,10,task,Inform
+IS1007d,B,1032.21,1033.77,1.56,IS1007d.B.dialog-act.s9553330.180,,,,,,,,,False, Spongy.,1,task,Suggest
+IS1007d,D,1037.61,1039.72,2.11,IS1007d.D.dialog-act.s9553330.67,D,D,5.97,0.0,False,False,0.0,[],False," One is fancy look,",4,task,Inform
+IS1007d,D,1039.72,1045.69,5.97,IS1007d.D.dialog-act.s9553330.68,,,,,,,,,False," second is innovative,",3,task,Inform
+IS1007d,D,1045.69,1048.28,2.59,IS1007d.D.dialog-act.s9553330.69,D,D,4.489,5.97,False,False,0.0,[],False, and third is easy to use.,6,task,Inform
+IS1007d,D,1052.769,1058.98,6.211,IS1007d.D.dialog-act.s9553330.70,D,D,0.0,4.489,False,False,0.0,[],False, So these are the f uh three criteria on which we are going to build our remote.,17,task,Inform
+IS1007d,B,1052.848,1053.136,0.288,IS1007d.B.dialog-act.s9553330.181,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,1058.72,1059.1,0.38,IS1007d.B.dialog-act.s9553330.182,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1007d,D,1058.98,1064.4,5.42,IS1007d.D.dialog-act.s9553330.71,D,D,0.0,0.0,False,False,0.0,[],False," So and we have an evaluation criteria for each one of these,",12,task,Inform
+IS1007d,C,1059.79,1059.96,0.17,IS1007d.C.dialog-act.s9553330.115,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IS1007d,D,1064.4,1071.98,7.58,IS1007d.D.dialog-act.s9553330.73,D,D,0.0,0.0,False,False,0.0,[],False," say that we have a seven point scale, from one to seven,",12,task,Inform
+IS1007d,B,1071.41,1071.83,0.42,IS1007d.B.dialog-act.s9553330.183,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1007d,D,1071.98,1076.81,4.83,IS1007d.D.dialog-act.s9553330.74,D,D,1.75,0.0,False,False,0.0,[],False, and for each of the product you could just give me the scale according to this.,16,task,Suggest
+IS1007d,B,1077.59,1077.9,0.31,IS1007d.B.dialog-act.s9553330.184,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,D,1078.56,1081.52,2.96,IS1007d.D.dialog-act.s9553330.75,D,D,0.0,1.75,False,False,0.0,[],False," So now you have with L_C_D_ and without L_C_D_,",9,task,Inform
+IS1007d,C,1079.028,1080.278,1.25,IS1007d.C.dialog-act.s9553330.116,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,1081.52,1089.98,8.46,IS1007d.D.dialog-act.s9553330.76,D,D,0.0,0.0,False,False,0.0,[],False," so on this scale, if it is true, if it is if it has a fancy look you could just tell me one,",23,task,Inform
+IS1007d,B,1081.78,1082.11,0.33,IS1007d.B.dialog-act.s9553330.185,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,D,1089.98,1097.05,7.07,IS1007d.D.dialog-act.s9553330.77,D,D,1.638,0.0,False,False,0.0,[],False," or if it is false, it doesn't it looks uh it doesn't look much fancy, then you could just tell me seven.",22,task,Inform
+IS1007d,D,1097.05,1097.472,0.422,IS1007d.D.dialog-act.s9553330.78,,,,,,,,,False, So,1,minor,Stall
+IS1007d,B,1097.552,1100.52,2.968,IS1007d.B.dialog-act.s9553330.186,,,,,,,,,False, So,1,minor,Fragment
+IS1007d,D,1098.688,1100.56,1.872,IS1007d.D.dialog-act.s9553330.79,B,D,-0.04,1.638,False,True,0.04,['IS1007d.B.dialog-act.s9553330.187'],False, We can make our study on this and,8,task,Inform
+IS1007d,B,1100.52,1106.06,5.54,IS1007d.B.dialog-act.s9553330.187,D,D,1.06,-0.04,True,False,0.0,[],False, so is the e evaluation depending on us or other users?,11,elicit,Elicit-Inform
+IS1007d,D,1106.84,1107.12,0.28,IS1007d.D.dialog-act.s9553330.80,,,,,,,,,False, No no,2,task,Assess
+IS1007d,D,1107.12,1109.6,2.48,IS1007d.D.dialog-act.s9553330.81,D,B,0.0,1.06,True,False,0.0,[],True," we have you have designed two products now,",8,task,Inform
+IS1007d,A,1109.36,1109.54,0.18,IS1007d.A.dialog-act.s9553330.64,,,,,,,,,False, Yeah.,1,task,Assess
+IS1007d,D,1109.6,1111.82,2.22,IS1007d.D.dialog-act.s9553330.82,B,D,0.61,0.0,False,False,0.0,[],False, one is with L_C_D_ and without L_C_D_.,7,task,Inform
+IS1007d,B,1111.11,1111.38,0.27,IS1007d.B.dialog-act.s9553330.188,,,,,,,,,False, Yeah.,1,task,Assess
+IS1007d,C,1111.17,1111.79,0.62,IS1007d.C.dialog-act.s9553330.117,,,,,,,,,False, Yeah.,1,task,Assess
+IS1007d,B,1112.43,1117.62,5.19,IS1007d.B.dialog-act.s9553330.189,D,D,0.52,0.61,True,False,0.0,[],True, But who will give the scoring uh we ourself or or a third party?,14,elicit,Elicit-Inform
+IS1007d,A,1115.62,1115.96,0.34,IS1007d.A.dialog-act.s9553330.65,,,,,,,,,False, You.,1,task,Inform
+IS1007d,D,1116.18,1117.95,1.77,IS1007d.D.dialog-act.s9553330.83,,,,,,,,,False," According to you,",3,task,Inform
+IS1007d,D,1117.95,1118.14,0.19,IS1007d.D.dialog-act.s9553330.84,,,,,,,,,False, no,1,task,Assess
+IS1007d,D,1118.14,1120.16,2.02,IS1007d.D.dialog-act.s9553330.85,D,B,0.0,0.52,True,False,0.0,[],True," according to you designers,",4,task,Inform
+IS1007d,D,1120.16,1124.67,4.51,IS1007d.D.dialog-act.s9553330.86,D,D,1.29,0.0,False,False,0.0,[],False, how will feel does it uh with L_C_D_ and without L_C_D_?,11,elicit,Elicit-Assessment
+IS1007d,B,1123.02,1123.31,0.29,IS1007d.B.dialog-act.s9553330.190,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,D,1125.96,1130.12,4.16,IS1007d.D.dialog-act.s9553330.87,D,D,1.24,1.29,False,False,0.0,[],False, Okay let us make this L_ and without L_C_D_.,9,task,Suggest
+IS1007d,D,1131.36,1137.28,5.92,IS1007d.D.dialog-act.s9553330.89,D,D,0.0,1.24,False,False,0.0,[],False, On on this scale the L_C_D_ remote control. How do you look how does it look?,16,elicit,Elicit-Assessment
+IS1007d,B,1133.75,1134.21,0.46,IS1007d.B.dialog-act.s9553330.191,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,B,1135.93,1136.32,0.39,IS1007d.B.dialog-act.s9553330.192,,,,,,,,,False, Mm.,1,other,Unlabelled
+IS1007d,D,1137.28,1140.69,3.41,IS1007d.D.dialog-act.s9553330.90,C,D,0.39,0.0,False,False,0.0,[],False, D is it very fancy or doesn't look much fancy?,10,elicit,Elicit-Assessment
+IS1007d,C,1141.08,1142.7,1.62,IS1007d.C.dialog-act.s9553330.118,C,D,0.0,0.39,True,False,0.0,[],True, Well it doesn't look much fancy,6,task,Assess
+IS1007d,C,1142.7,1145.08,2.38,IS1007d.C.dialog-act.s9553330.119,D,C,1.56,0.0,False,False,0.0,[],False, I'll I'll say three or four.,6,task,Assess
+IS1007d,D,1146.64,1147.95,1.31,IS1007d.D.dialog-act.s9553330.91,B,C,1.513,1.56,True,False,0.0,[],True, And you both agree for that?,6,elicit,Elicit-Inform
+IS1007d,A,1148.59,1148.94,0.35,IS1007d.A.dialog-act.s9553330.66,,,,,,,,,False, And you?,2,elicit,Elicit-Assessment
+IS1007d,B,1149.463,1153.05,3.587,IS1007d.B.dialog-act.s9553330.193,B,D,0.0,1.513,True,False,0.0,[],True, I think we can improve on the design.,8,task,Assess
+IS1007d,D,1149.54,1150.956,1.416,IS1007d.D.dialog-act.s9553330.92,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,1152.69,1153.09,0.4,IS1007d.C.dialog-act.s9553330.120,,,,,,,,,False, Yeah.,1,task,Assess
+IS1007d,B,1153.05,1160.0,6.95,IS1007d.B.dialog-act.s9553330.197,B,B,0.0,0.0,False,False,0.0,[],False, Som someone um commented this is like a the stone age uh design.,13,task,Inform
+IS1007d,C,1153.09,1154.236,1.146,IS1007d.C.dialog-act.s9553330.121,,,,,,,,,False, It's it it,3,minor,Fragment
+IS1007d,C,1157.11,1158.86,1.75,IS1007d.C.dialog-act.s9553330.122,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,1157.837,1158.644,0.807,IS1007d.A.dialog-act.s9553330.67,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,1160.0,1170.51,10.51,IS1007d.B.dialog-act.s9553330.198,B,B,0.0,0.0,False,False,0.0,[],False," Um we have been focused all all this time on the on the technical aspect, functional aspect, but also the simplicity.",21,task,Inform
+IS1007d,C,1165.51,1166.83,1.32,IS1007d.C.dialog-act.s9553330.123,,,,,,,,,False, Technical aspects.,2,task,Inform
+IS1007d,A,1170.14,1170.46,0.32,IS1007d.A.dialog-act.s9553330.68,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1007d,B,1170.51,1176.21,5.7,IS1007d.B.dialog-act.s9553330.199,D,B,-3.32,0.0,False,True,2.82,"['IS1007d.D.dialog-act.s9553330.93', 'IS1007d.D.dialog-act.s9553330.94']",False, As for the design maybe we c should hire a designer to help.,13,task,Suggest
+IS1007d,D,1172.89,1175.71,2.82,IS1007d.D.dialog-act.s9553330.93,D,B,0.0,-3.32,True,False,0.0,[],False, So I take three on with L_C_D_?,7,elicit,Elicit-Assessment
+IS1007d,C,1174.01,1174.64,0.63,IS1007d.C.dialog-act.s9553330.124,,,,,,,,,False, Yeah a three.,3,task,Assess
+IS1007d,D,1175.71,1177.6,1.89,IS1007d.D.dialog-act.s9553330.94,C,D,1.85,0.0,False,False,0.0,[],False, So without L_C_D_ how would you rate it?,8,elicit,Elicit-Assessment
+IS1007d,B,1176.21,1176.81,0.6,IS1007d.B.dialog-act.s9553330.200,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,C,1178.19,1179.45,1.26,IS1007d.C.dialog-act.s9553330.125,,,,,,,,,False, Uh four.,2,task,Assess
+IS1007d,D,1179.37,1180.05,0.68,IS1007d.D.dialog-act.s9553330.95,,,,,,,,,False, Four.,1,minor,Backchannel
+IS1007d,C,1179.45,1185.48,6.03,IS1007d.C.dialog-act.s9553330.126,C,D,0.0,1.85,True,False,0.0,[],True, I think it's it's uh more easy to make f fancy things when it's not complicated,16,task,Inform
+IS1007d,C,1185.48,1193.72,8.24,IS1007d.C.dialog-act.s9553330.127,D,C,0.28,0.0,False,False,0.0,[],False, so removing the L_C_D_ um gives us a li more liberty to to have a fancy look.,17,task,Inform
+IS1007d,B,1186.23,1186.61,0.38,IS1007d.B.dialog-act.s9553330.201,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,1190.624,1192.47,1.846,IS1007d.B.dialog-act.s9553330.202,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,D,1194.0,1197.99,3.99,IS1007d.D.dialog-act.s9553330.96,C,C,0.64,0.28,True,False,0.0,[],True," And in the sense of innovativeness, with L_C_D_.",8,elicit,Elicit-Assessment
+IS1007d,C,1198.63,1200.58,1.95,IS1007d.C.dialog-act.s9553330.128,C,D,0.0,0.64,True,False,0.0,[],True, Well it's it's the same for both,7,task,Inform
+IS1007d,C,1200.58,1203.962,3.382,IS1007d.C.dialog-act.s9553330.129,D,C,0.768,0.0,False,False,0.0,[],False," so I will give a five, six.",7,task,Assess
+IS1007d,B,1201.584,1202.139,0.555,IS1007d.B.dialog-act.s9553330.194,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,1203.18,1203.45,0.27,IS1007d.B.dialog-act.s9553330.196,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,B,1204.624,1205.928,1.304,IS1007d.B.dialog-act.s9553330.195,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,1204.73,1206.8,2.07,IS1007d.D.dialog-act.s9553330.97,C,C,0.71,0.768,True,False,0.0,[],True, Five with L_C_D_ and,4,elicit,Elicit-Assessment
+IS1007d,B,1207.421,1208.378,0.957,IS1007d.B.dialog-act.s9553330.203,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,1207.51,1209.47,1.96,IS1007d.C.dialog-act.s9553330.130,B,D,2.01,0.71,True,False,0.0,[],True, Well five also uh,4,task,Assess
+IS1007d,C,1209.47,1210.603,1.133,IS1007d.C.dialog-act.s9553330.131,,,,,,,,,False, Norman please.,2,elicit,Elicit-Assessment
+IS1007d,B,1209.47,1211.48,2.01,IS1007d.B.dialog-act.s9553330.204,,,,,,,,,False, Yeah,1,minor,Backchannel
+IS1007d,A,1210.81,1211.431,0.621,IS1007d.A.dialog-act.s9553330.69,,,,,,,,,False, Uh,1,minor,Fragment
+IS1007d,B,1211.48,1230.32,18.84,IS1007d.B.dialog-act.s9553330.205,B,C,0.0,2.01,True,False,0.0,[],True," from the innovation aspect I feel that uh what is most innovative of our prototype compared to the existing prototypes that we saw l in the last meeting is that um the retrieval of T_V_ programmes by content,",38,task,Inform
+IS1007d,B,1230.32,1234.02,3.7,IS1007d.B.dialog-act.s9553330.206,B,B,0.0,0.0,False,False,0.0,[],False," because uh that is really innovative,",6,task,Assess
+IS1007d,B,1234.02,1238.73,4.71,IS1007d.B.dialog-act.s9553330.207,B,B,0.0,0.0,False,False,0.0,[],False, and for now and another innovation we have is simplicity,10,task,Inform
+IS1007d,B,1238.73,1247.43,8.7,IS1007d.B.dialog-act.s9553330.208,C,B,-2.96,0.0,False,True,1.79,['IS1007d.C.dialog-act.s9553330.132'],False," and simplicity, few buttons, we've uh A lot of functionalities.",10,task,Inform
+IS1007d,C,1244.47,1246.26,1.79,IS1007d.C.dialog-act.s9553330.132,B,B,1.17,-2.96,True,False,0.0,[],False, With lot of functionalities.,4,task,Inform
+IS1007d,D,1247.4,1248.86,1.46,IS1007d.D.dialog-act.s9553330.100,,,,,,,,,False, So without L_C_D_?,3,elicit,Elicit-Assessment
+IS1007d,B,1247.43,1250.6,3.17,IS1007d.B.dialog-act.s9553330.209,B,C,1.92,1.17,True,False,0.0,[],True, So that is uh that is uh for both th,10,task,Inform
+IS1007d,B,1252.01,1252.52,0.51,IS1007d.B.dialog-act.s9553330.210,,,,,,,,,False, Our gi,2,minor,Fragment
+IS1007d,B,1252.52,1257.66,5.14,IS1007d.B.dialog-act.s9553330.211,B,B,0.0,1.92,False,False,0.0,[],False, I think that the our our product is uh has the best in all,14,task,Assess
+IS1007d,B,1257.66,1260.59,2.93,IS1007d.B.dialog-act.s9553330.212,B,B,0.0,0.0,False,False,0.0,[],False, well this is a biased judgement,6,task,Inform
+IS1007d,C,1259.432,1260.69,1.258,IS1007d.C.dialog-act.s9553330.133,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,1260.4,1260.76,0.36,IS1007d.D.dialog-act.s9553330.101,,,,,,,,,False, No no,2,task,Assess
+IS1007d,B,1260.59,1261.81,1.22,IS1007d.B.dialog-act.s9553330.213,D,B,-1.05,0.0,False,True,1.05,['IS1007d.D.dialog-act.s9553330.102'],False, because we designed them.,4,task,Inform
+IS1007d,D,1260.76,1265.21,4.45,IS1007d.D.dialog-act.s9553330.102,B,B,-0.01,-1.05,True,True,0.01,['IS1007d.B.dialog-act.s9553330.215'],False, according to design aspect we want to know how would you feel the innovativeness?,14,elicit,Elicit-Assessment
+IS1007d,B,1263.43,1264.411,0.981,IS1007d.B.dialog-act.s9553330.214,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,1265.2,1267.65,2.45,IS1007d.B.dialog-act.s9553330.215,C,D,2.28,-0.01,True,False,0.0,[],False, Uh the innovation is v is very high I think.,10,task,Assess
+IS1007d,D,1267.56,1268.85,1.29,IS1007d.D.dialog-act.s9553330.103,,,,,,,,,False, With L_C_D_.,2,task,Inform
+IS1007d,A,1267.75,1268.51,0.76,IS1007d.A.dialog-act.s9553330.70,,,,,,,,,False, For L_C_D_.,2,elicit,Elicit-Inform
+IS1007d,D,1268.85,1269.95,1.1,IS1007d.D.dialog-act.s9553330.104,,,,,,,,,False, And without L_C_D_?,3,elicit,Elicit-Assessment
+IS1007d,B,1269.23,1269.9,0.67,IS1007d.B.dialog-act.s9553330.216,,,,,,,,,False, Both.,1,task,Inform
+IS1007d,C,1269.93,1273.02,3.09,IS1007d.C.dialog-act.s9553330.134,B,B,-0.5,2.28,True,True,0.5,['IS1007d.B.dialog-act.s9553330.218'],True, Mm for both it's the the same innovations.,8,task,Inform
+IS1007d,B,1270.77,1271.23,0.46,IS1007d.B.dialog-act.s9553330.217,,,,,,,,,False, For both.,2,task,Inform
+IS1007d,B,1272.52,1274.06,1.54,IS1007d.B.dialog-act.s9553330.218,B,C,0.0,-0.5,True,False,0.0,[],False, It's the same innovation.,4,task,Inform
+IS1007d,D,1273.97,1274.24,0.27,IS1007d.D.dialog-act.s9553330.105,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1007d,B,1274.06,1276.62,2.56,IS1007d.B.dialog-act.s9553330.219,C,B,-0.524,0.0,False,True,0.524,['IS1007d.C.dialog-act.s9553330.135'],False, So maybe I can put six to seven.,8,task,Assess
+IS1007d,C,1276.096,1278.27,2.174,IS1007d.C.dialog-act.s9553330.135,D,B,1.22,-0.524,True,False,0.0,[],False," six, let's go for six.",5,task,Assess
+IS1007d,A,1277.36,1278.25,0.89,IS1007d.A.dialog-act.s9553330.71,,,,,,,,,False, Without L_C_D_.,2,task,Inform
+IS1007d,B,1278.55,1278.85,0.3,IS1007d.B.dialog-act.s9553330.220,,,,,,,,,False, Both.,1,task,Inform
+IS1007d,D,1279.23,1279.49,0.26,IS1007d.D.dialog-act.s9553330.106,,,,,,,,,False, No,1,task,Assess
+IS1007d,D,1279.49,1283.91,4.42,IS1007d.D.dialog-act.s9553330.107,D,C,0.0,1.22,True,False,0.0,[],True, actually uh to make it with L_C_D_ you make more efforts.,11,task,Inform
+IS1007d,D,1283.91,1289.72,5.81,IS1007d.D.dialog-act.s9553330.108,D,D,0.0,0.0,False,False,0.0,[],False, So I there is high innovativeness included if you make it with L_C_D_ y,14,task,Assess
+IS1007d,C,1289.43,1289.68,0.25,IS1007d.C.dialog-act.s9553330.136,,,,,,,,,False, Yeah.,1,task,Assess
+IS1007d,D,1289.72,1293.57,3.85,IS1007d.D.dialog-act.s9553330.109,A,D,-1.17,0.0,False,True,1.15,['IS1007d.A.dialog-act.s9553330.72'],False, then when it is without L_C_D_ there is not much innovativeness.,11,task,Assess
+IS1007d,B,1291.43,1291.63,0.2,IS1007d.B.dialog-act.s9553330.221,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,A,1292.4,1293.55,1.15,IS1007d.A.dialog-act.s9553330.72,B,D,0.07,-1.17,True,False,0.0,[],False, Uh no innovative yeah.,4,task,Assess
+IS1007d,D,1293.57,1295.62,2.05,IS1007d.D.dialog-act.s9553330.110,,,,,,,,,False, So we can't go,4,minor,Fragment
+IS1007d,B,1293.62,1299.45,5.83,IS1007d.B.dialog-act.s9553330.222,B,A,1.97,0.07,True,False,0.0,[],True, Uh uh uh there w there was a there was a issue here is that what are what is the display on the L_C_D_?,24,elicit,Elicit-Inform
+IS1007d,A,1294.679,1295.614,0.935,IS1007d.A.dialog-act.s9553330.73,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,1300.353,1305.251,4.898,IS1007d.C.dialog-act.s9553330.137,,,,,,,,,False, Talk about,2,task,Suggest
+IS1007d,B,1301.42,1307.32,5.9,IS1007d.B.dialog-act.s9553330.223,D,B,-3.59,1.97,False,True,3.3,['IS1007d.D.dialog-act.s9553330.111'],False, We haven't really uh determined what are actually actually,9,task,Inform
+IS1007d,D,1303.73,1307.03,3.3,IS1007d.D.dialog-act.s9553330.111,B,B,0.29,-3.59,True,False,0.0,[],False, I mean that what you are sayin that's what the design,11,task,Inform
+IS1007d,A,1303.88,1306.283,2.403,IS1007d.A.dialog-act.s9553330.74,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,1307.32,1308.31,0.99,IS1007d.B.dialog-act.s9553330.224,B,D,0.0,0.29,True,False,0.0,[],True, it's good to have a L_C_D_,6,task,Assess
+IS1007d,B,1308.31,1315.518,7.208,IS1007d.B.dialog-act.s9553330.225,D,B,-4.008,0.0,False,True,3.058,"['IS1007d.D.dialog-act.s9553330.112', 'IS1007d.D.dialog-act.s9553330.113']",False, but what are we gonna display on a L_C_D_?,9,elicit,Elicit-Inform
+IS1007d,C,1308.5,1312.097,3.597,IS1007d.C.dialog-act.s9553330.138,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,1311.51,1312.46,0.95,IS1007d.D.dialog-act.s9553330.112,D,B,0.0,-4.008,True,False,0.0,[],False," No it's like this,",4,task,Inform
+IS1007d,A,1312.431,1313.787,1.356,IS1007d.A.dialog-act.s9553330.75,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,1312.46,1325.67,13.21,IS1007d.D.dialog-act.s9553330.113,A,D,-9.16,0.0,False,True,1.01,['IS1007d.A.dialog-act.s9553330.76'],False," I mean on the L_C_D_, according to what I understand from your model is, you have a joystick here, and you have L_C_D_, you just press your joystick, you get here a programme.",33,task,Inform
+IS1007d,A,1316.51,1317.52,1.01,IS1007d.A.dialog-act.s9553330.76,C,D,8.27,-9.16,True,False,0.0,[],False, So let's remove it.,4,task,Suggest
+IS1007d,B,1318.95,1319.34,0.39,IS1007d.B.dialog-act.s9553330.226,,,,,,,,,False, Yeah?,1,minor,Backchannel
+IS1007d,B,1320.64,1320.98,0.34,IS1007d.B.dialog-act.s9553330.227,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,1325.08,1325.823,0.743,IS1007d.B.dialog-act.s9553330.228,,,,,,,,,False, Yeah but,2,minor,Fragment
+IS1007d,C,1325.48,1325.79,0.31,IS1007d.C.dialog-act.s9553330.140,,,,,,,,,False, Yeah,1,task,Assess
+IS1007d,D,1325.67,1326.208,0.538,IS1007d.D.dialog-act.s9553330.114,,,,,,,,,False, Uh then,2,minor,Fragment
+IS1007d,C,1325.79,1327.93,2.14,IS1007d.C.dialog-act.s9553330.139,A,A,1.29,8.27,True,False,0.0,[],True, but you have the same programme on the T_V_ screen.,10,task,Inform
+IS1007d,A,1326.14,1326.643,0.503,IS1007d.A.dialog-act.s9553330.77,,,,,,,,,False, But,1,minor,Fragment
+IS1007d,B,1327.97,1329.49,1.52,IS1007d.B.dialog-act.s9553330.229,,,,,,,,,False, Yes exactly.,2,task,Assess
+IS1007d,A,1329.22,1330.06,0.84,IS1007d.A.dialog-act.s9553330.78,D,C,0.26,1.29,True,False,0.0,[],True, This is the problem.,4,task,Inform
+IS1007d,D,1330.21,1330.32,0.11,IS1007d.D.dialog-act.s9553330.115,,,,,,,,,False, No,1,task,Assess
+IS1007d,D,1330.32,1332.94,2.62,IS1007d.D.dialog-act.s9553330.116,C,A,0.25,0.26,True,False,0.0,[],True, on the T_V_ you don't it doesn't display on the T_V_ now.,12,task,Inform
+IS1007d,C,1333.19,1334.1,0.91,IS1007d.C.dialog-act.s9553330.141,D,D,0.61,0.25,True,False,0.0,[],True," If you have the L_C_D_,",5,task,Inform
+IS1007d,D,1333.99,1334.71,0.72,IS1007d.D.dialog-act.s9553330.117,,,,,,,,,False, L_C_D_?,1,other,Other
+IS1007d,C,1334.1,1334.62,0.52,IS1007d.C.dialog-act.s9553330.142,,,,,,,,,False, but if n,3,minor,Fragment
+IS1007d,D,1334.71,1337.56,2.85,IS1007d.D.dialog-act.s9553330.118,D,C,0.0,0.61,True,False,0.0,[],True, Then uh there is no meaning in having it on the T_V_.,12,task,Inform
+IS1007d,C,1337.38,1337.58,0.2,IS1007d.C.dialog-act.s9553330.143,,,,,,,,,False, Yeah.,1,task,Assess
+IS1007d,D,1337.56,1341.32,3.76,IS1007d.D.dialog-act.s9553330.119,B,D,-0.57,0.0,False,True,0.57,['IS1007d.B.dialog-act.s9553330.230'],False," Or then again you have a channels, volume and all the stuff and what a",15,task,Inform
+IS1007d,B,1340.75,1343.32,2.57,IS1007d.B.dialog-act.s9553330.230,D,D,0.97,-0.57,True,False,0.0,[],False, But you cannot display all on a L_C_D_.,8,task,Inform
+IS1007d,D,1344.29,1347.082,2.792,IS1007d.D.dialog-act.s9553330.120,B,B,2.838,0.97,True,False,0.0,[],True," I mean that depends upon your design, so",8,task,Inform
+IS1007d,B,1349.92,1356.34,6.42,IS1007d.B.dialog-act.s9553330.231,B,D,0.0,2.838,True,False,0.0,[],True," Anyway for for the users who who who opt for L_C_D_ we'll give them the give them the L_C_D_,",19,task,Inform
+IS1007d,D,1354.36,1354.832,0.472,IS1007d.D.dialog-act.s9553330.121,,,,,,,,,False, I mean,2,minor,Fragment
+IS1007d,B,1356.34,1359.44,3.1,IS1007d.B.dialog-act.s9553330.232,D,B,1.41,0.0,False,False,0.0,[],False," we give what the customer uh wants, right.",8,task,Inform
+IS1007d,C,1360.05,1360.31,0.26,IS1007d.C.dialog-act.s9553330.144,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,1360.752,1362.742,1.99,IS1007d.B.dialog-act.s9553330.233,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,1360.85,1366.29,5.44,IS1007d.D.dialog-act.s9553330.122,D,B,2.03,1.41,True,False,0.0,[],True, So without L_C_D_ you want to put it fi the same level of innovativeness?,14,task,Inform
+IS1007d,D,1368.32,1373.28,4.96,IS1007d.D.dialog-act.s9553330.123,C,D,4.07,2.03,False,False,0.0,[],False," And which do you recommend e easy to use, with L_C_D_ or without L_C_D_?",14,elicit,Elicit-Assessment
+IS1007d,B,1374.96,1379.08,4.12,IS1007d.B.dialog-act.s9553330.234,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,1377.35,1380.6,3.25,IS1007d.C.dialog-act.s9553330.145,C,D,0.0,4.07,True,False,0.0,[],True, Well I think both are really easy to use,9,task,Assess
+IS1007d,C,1380.6,1383.33,2.73,IS1007d.C.dialog-act.s9553330.146,C,C,0.0,0.0,False,False,0.0,[],False," because there are few button buttons,",6,task,Inform
+IS1007d,B,1382.76,1383.47,0.71,IS1007d.B.dialog-act.s9553330.235,,,,,,,,,False, Yeah,1,minor,Backchannel
+IS1007d,C,1383.33,1389.424,6.094,IS1007d.C.dialog-act.s9553330.147,C,C,1.136,0.0,False,False,0.0,[],False," and uh well t p the menu are clear, well-organised, so",11,task,Inform
+IS1007d,B,1385.509,1386.266,0.757,IS1007d.B.dialog-act.s9553330.236,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,1387.36,1387.66,0.3,IS1007d.B.dialog-act.s9553330.237,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,1388.95,1389.21,0.26,IS1007d.B.dialog-act.s9553330.238,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,C,1390.56,1395.4,4.84,IS1007d.C.dialog-act.s9553330.148,C,C,0.0,1.136,False,False,0.0,[],False, Well with little knowing of the technology you can you can easily use the product,15,task,Inform
+IS1007d,B,1394.144,1396.143,1.999,IS1007d.B.dialog-act.s9553330.239,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,1395.4,1398.05,2.65,IS1007d.C.dialog-act.s9553330.149,A,C,2.31,0.0,False,False,0.0,[],False, so I will give a six for the easy to use.,11,task,Assess
+IS1007d,B,1397.35,1398.34,0.99,IS1007d.B.dialog-act.s9553330.240,,,,,,,,,False, Yeah,1,minor,Backchannel
+IS1007d,B,1398.34,1400.03,1.69,IS1007d.B.dialog-act.s9553330.241,,,,,,,,,False, I think,2,minor,Fragment
+IS1007d,B,1400.03,1400.3,0.27,IS1007d.B.dialog-act.s9553330.242,,,,,,,,,False, sorry.,1,other,Be-Positive
+IS1007d,A,1400.36,1412.35,11.99,IS1007d.A.dialog-act.s9553330.79,A,C,1.86,2.31,True,False,0.0,[],True, No it's just if I I see the the f the rate I think it's better to do it without L_C_D_.,21,task,Inform
+IS1007d,B,1413.2,1414.256,1.056,IS1007d.B.dialog-act.s9553330.243,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,1414.21,1417.06,2.85,IS1007d.A.dialog-act.s9553330.80,A,A,0.0,1.86,False,False,0.0,[],False," Because that's with L_C_D_ just will increase the price,",9,task,Inform
+IS1007d,D,1414.41,1414.88,0.47,IS1007d.D.dialog-act.s9553330.124,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,A,1417.06,1422.157,5.097,IS1007d.A.dialog-act.s9553330.81,D,A,-1.227,0.0,False,True,1.227,['IS1007d.D.dialog-act.s9553330.125'],False, and I thi i they have the same rate so without L_C_D_ it will be,15,task,Inform
+IS1007d,B,1419.67,1420.03,0.36,IS1007d.B.dialog-act.s9553330.245,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,D,1420.93,1425.85,4.92,IS1007d.D.dialog-act.s9553330.125,D,A,2.75,-1.227,True,False,0.0,[],False, Or we can just go back to the previous slide uh where we ha we have a few updates.,19,task,Suggest
+IS1007d,D,1428.6,1434.03,5.43,IS1007d.D.dialog-act.s9553330.126,D,D,0.0,2.75,False,False,0.0,[],False, So I mean in the product design you could just amend it to make some few changes,17,task,Suggest
+IS1007d,B,1431.897,1432.476,0.579,IS1007d.B.dialog-act.s9553330.244,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,1433.15,1435.29,2.14,IS1007d.B.dialog-act.s9553330.246,,,,,,,,,False, Yeah. Yeah.,2,minor,Backchannel
+IS1007d,D,1434.03,1435.71,1.68,IS1007d.D.dialog-act.s9553330.127,D,D,0.0,0.0,False,False,0.0,[],False, according to fruit and vegetable,5,task,Inform
+IS1007d,D,1435.71,1437.78,2.07,IS1007d.D.dialog-act.s9553330.128,D,D,0.0,0.0,False,False,0.0,[],False, or a spongy touch,4,task,Inform
+IS1007d,B,1436.97,1437.67,0.7,IS1007d.B.dialog-act.s9553330.247,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,D,1437.78,1440.22,2.44,IS1007d.D.dialog-act.s9553330.129,D,D,0.0,0.0,False,False,0.0,[],False, without L_C_D_ and without speech recognition.,6,task,Inform
+IS1007d,D,1440.22,1444.3,4.08,IS1007d.D.dialog-act.s9553330.130,C,D,-1.5,0.0,False,True,1.47,['IS1007d.C.dialog-act.s9553330.151'],False, Even then our product is going to be very good.,10,task,Assess
+IS1007d,C,1441.86,1442.8,0.94,IS1007d.C.dialog-act.s9553330.150,,,,,,,,,False," Yeah,",1,task,Assess
+IS1007d,C,1442.8,1444.27,1.47,IS1007d.C.dialog-act.s9553330.151,C,D,3.22,-1.5,True,False,0.0,[],False, it's cheaper to produce.,4,task,Inform
+IS1007d,D,1444.3,1444.67,0.37,IS1007d.D.dialog-act.s9553330.131,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,1444.86,1446.832,1.972,IS1007d.B.dialog-act.s9553330.248,,,,,,,,,False, Mm. S,2,minor,Backchannel
+IS1007d,C,1445.75,1447.49,1.74,IS1007d.C.dialog-act.s9553330.152,,,,,,,,,False, And uh if the the,5,minor,Fragment
+IS1007d,C,1447.49,1453.552,6.062,IS1007d.C.dialog-act.s9553330.153,B,C,0.088,3.22,False,False,0.0,[],False, well if we have less technology we have more liberty to uh for the shape and uh things like that so,21,task,Inform
+IS1007d,D,1451.08,1451.86,0.78,IS1007d.D.dialog-act.s9553330.132,,,,,,,,,False, Yeah that's right.,3,task,Assess
+IS1007d,B,1453.26,1453.64,0.38,IS1007d.B.dialog-act.s9553330.249,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,1453.64,1457.53,3.89,IS1007d.B.dialog-act.s9553330.250,B,C,0.0,0.088,True,False,0.0,[],True, I have another thing to say about the easy to use aspect.,12,other,Offer
+IS1007d,B,1457.53,1462.81,5.28,IS1007d.B.dialog-act.s9553330.251,B,B,0.0,0.0,False,False,0.0,[],False, I think the easy to use uh aspect is different for different people.,13,task,Inform
+IS1007d,C,1462.77,1462.96,0.19,IS1007d.C.dialog-act.s9553330.154,,,,,,,,,False, Yep.,1,minor,Backchannel
+IS1007d,B,1462.81,1466.25,3.44,IS1007d.B.dialog-act.s9553330.252,B,B,0.0,0.0,False,False,0.0,[],False, For the young generation easy to use may be very complicated,11,task,Inform
+IS1007d,A,1463.17,1463.56,0.39,IS1007d.A.dialog-act.s9553330.82,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1007d,B,1466.25,1470.52,4.27,IS1007d.B.dialog-act.s9553330.253,B,B,0.0,0.0,False,False,0.0,[],False, because uh they w they wants lot of controls with lots of buttons.,13,task,Inform
+IS1007d,B,1470.52,1476.25,5.73,IS1007d.B.dialog-act.s9553330.254,D,B,-1.95,0.0,False,True,1.06,['IS1007d.D.dialog-act.s9553330.133'],False," For kids they want simply the s similarit for the old people they want simplicity,",15,task,Inform
+IS1007d,D,1474.3,1475.36,1.06,IS1007d.D.dialog-act.s9553330.133,B,B,0.89,-1.95,True,False,0.0,[],False, Yeah yeah that's right.,4,task,Assess
+IS1007d,B,1476.25,1478.7,2.45,IS1007d.B.dialog-act.s9553330.255,B,D,0.48,0.89,True,False,0.0,[],True, so that's why we have the parental module.,8,task,Inform
+IS1007d,B,1479.18,1484.27,5.09,IS1007d.B.dialog-act.s9553330.256,B,B,0.0,0.48,False,False,0.0,[],False," Uh we can ha have build a more complex design if if they want it,",15,task,Inform
+IS1007d,B,1484.27,1493.36,9.09,IS1007d.B.dialog-act.s9553330.257,B,B,0.0,0.0,False,False,0.0,[],False, but but uh what I'm trying to say here is that the um we have different sets of buttons for different kinds of people.,24,task,Inform
+IS1007d,B,1493.36,1499.14,5.78,IS1007d.B.dialog-act.s9553330.258,B,B,0.0,0.0,False,False,0.0,[],False, So in terms of easy to use I think it's very user customisable.,13,task,Inform
+IS1007d,B,1499.14,1502.03,2.89,IS1007d.B.dialog-act.s9553330.259,D,B,3.59,0.0,False,False,0.0,[],False, User customisation is very important,5,task,Inform
+IS1007d,B,1502.03,1503.87,1.84,IS1007d.B.dialog-act.s9553330.260,,,,,,,,,False, yeah. Yeah,2,minor,Backchannel
+IS1007d,C,1502.14,1502.43,0.29,IS1007d.C.dialog-act.s9553330.155,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,1503.87,1505.056,1.186,IS1007d.B.dialog-act.s9553330.261,,,,,,,,,False, so,1,minor,Stall
+IS1007d,D,1505.62,1508.66,3.04,IS1007d.D.dialog-act.s9553330.134,D,B,1.27,3.59,True,False,0.0,[],True, So without L_C_D_ I just take it five?,8,task,Suggest
+IS1007d,C,1506.07,1506.66,0.59,IS1007d.C.dialog-act.s9553330.156,,,,,,,,,False, Six.,1,task,Assess
+IS1007d,A,1509.57,1509.98,0.41,IS1007d.A.dialog-act.s9553330.83,,,,,,,,,False, Mm-hmm.,1,task,Assess
+IS1007d,B,1509.79,1510.541,0.751,IS1007d.B.dialog-act.s9553330.262,,,,,,,,,False, W uh,2,minor,Fragment
+IS1007d,D,1509.93,1511.82,1.89,IS1007d.D.dialog-act.s9553330.135,B,D,0.55,1.27,False,False,0.0,[],False, Or you want it to be six?,7,elicit,Elicit-Assessment
+IS1007d,C,1511.89,1512.41,0.52,IS1007d.C.dialog-act.s9553330.157,,,,,,,,,False, Um six.,2,task,Assess
+IS1007d,B,1512.37,1513.28,0.91,IS1007d.B.dialog-act.s9553330.263,C,D,2.53,0.55,True,False,0.0,[],True, I think it's the same.,5,task,Inform
+IS1007d,B,1514.94,1515.18,0.24,IS1007d.B.dialog-act.s9553330.264,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,C,1515.81,1519.19,3.38,IS1007d.C.dialog-act.s9553330.159,D,B,-0.86,2.53,True,True,0.86,['IS1007d.D.dialog-act.s9553330.136'],True," Yes as you say, with better uh",7,task,Assess
+IS1007d,A,1518.15,1519.02,0.87,IS1007d.A.dialog-act.s9553330.84,,,,,,,,,False, Without L_C_D_.,2,task,Inform
+IS1007d,D,1518.33,1522.83,4.5,IS1007d.D.dialog-act.s9553330.136,C,C,1.3,-0.86,True,False,0.0,[],False, S s oh I think it's better to have this without L_C_D_.,12,task,Assess
+IS1007d,C,1519.19,1519.48,0.29,IS1007d.C.dialog-act.s9553330.160,,,,,,,,,False, yeah.,1,task,Assess
+IS1007d,C,1524.13,1525.86,1.73,IS1007d.C.dialog-act.s9553330.161,D,D,-0.75,1.3,True,True,0.75,['IS1007d.D.dialog-act.s9553330.137'],True, And to improve the the look.,6,task,Suggest
+IS1007d,D,1525.11,1531.32,6.21,IS1007d.D.dialog-act.s9553330.137,D,C,0.0,-0.75,True,False,0.0,[],False," As our Programme Manager s Pro Project Manager says that without L_C_D_ it is going to reduce the cost also,",20,task,Inform
+IS1007d,B,1526.29,1526.62,0.33,IS1007d.B.dialog-act.s9553330.265,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,A,1530.44,1530.74,0.3,IS1007d.A.dialog-act.s9553330.85,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,D,1531.32,1534.17,2.85,IS1007d.D.dialog-act.s9553330.138,C,D,-1.37,0.0,False,True,1.37,['IS1007d.C.dialog-act.s9553330.162'],False, and it's going to be much simpler to use.,9,task,Inform
+IS1007d,B,1531.4,1531.86,0.46,IS1007d.B.dialog-act.s9553330.266,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,C,1532.8,1536.59,3.79,IS1007d.C.dialog-act.s9553330.162,C,D,2.33,-1.37,True,False,0.0,[],False, Yes and to give us more liberty to have a fancy look so,13,task,Inform
+IS1007d,B,1537.73,1538.09,0.36,IS1007d.B.dialog-act.s9553330.267,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,C,1538.92,1543.829,4.909,IS1007d.C.dialog-act.s9553330.165,B,C,-2.779,2.33,False,True,2.779,"['IS1007d.B.dialog-act.s9553330.269', 'IS1007d.A.dialog-act.s9553330.87']",False, so let's go back to our laboratory and,8,task,Suggest
+IS1007d,B,1541.05,1544.59,3.54,IS1007d.B.dialog-act.s9553330.269,A,C,-1.11,-2.779,True,True,1.11,['IS1007d.A.dialog-act.s9553330.87'],False, To improve on the design.,5,task,Inform
+IS1007d,D,1543.47,1543.8,0.33,IS1007d.D.dialog-act.s9553330.139,,,,,,,,,False, So.,1,minor,Stall
+IS1007d,A,1543.48,1545.74,2.26,IS1007d.A.dialog-act.s9553330.87,A,B,1.156,-1.11,True,False,0.0,[],False, What a what what about the sys speech recognition?,9,elicit,Elicit-Inform
+IS1007d,B,1546.44,1546.65,0.21,IS1007d.B.dialog-act.s9553330.270,,,,,,,,,False, Huh?,1,other,Comment-About-Understanding
+IS1007d,A,1546.896,1550.05,3.154,IS1007d.A.dialog-act.s9553330.88,B,A,-0.89,1.156,False,True,0.89,['IS1007d.B.dialog-act.s9553330.271'],False, what about the integration of speech recognition?,7,elicit,Elicit-Inform
+IS1007d,B,1549.16,1551.23,2.07,IS1007d.B.dialog-act.s9553330.271,D,A,1.25,-0.89,True,False,0.0,[],False, The speech recogniser is a add-on module.,7,task,Inform
+IS1007d,C,1552.18,1552.46,0.28,IS1007d.C.dialog-act.s9553330.166,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,1552.46,1552.66,0.2,IS1007d.B.dialog-act.s9553330.272,,,,,,,,,False, Right?,1,minor,Backchannel
+IS1007d,D,1552.48,1554.0,1.52,IS1007d.D.dialog-act.s9553330.140,D,B,0.0,1.25,True,False,0.0,[],True, That's going to be an optional.,6,task,Inform
+IS1007d,D,1554.0,1557.41,3.41,IS1007d.D.dialog-act.s9553330.141,A,D,-0.37,0.0,False,True,0.37,['IS1007d.A.dialog-act.s9553330.89'],False," If somebody wants to buy it they can have it, otherwise no.",12,task,Inform
+IS1007d,B,1554.003,1559.49,5.487,IS1007d.B.dialog-act.s9553330.273,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,C,1555.716,1556.916,1.2,IS1007d.C.dialog-act.s9553330.163,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,1557.04,1559.56,2.52,IS1007d.A.dialog-act.s9553330.89,C,D,1.03,-0.37,True,False,0.0,[],False, Ah so it's optional with the okay.,7,other,Comment-About-Understanding
+IS1007d,D,1558.18,1558.96,0.78,IS1007d.D.dialog-act.s9553330.142,,,,,,,,,False, It's an optional.,3,task,Inform
+IS1007d,C,1559.22,1560.59,1.37,IS1007d.C.dialog-act.s9553330.167,,,,,,,,,False," It's optional yeah,",3,task,Inform
+IS1007d,C,1560.59,1570.432,9.842,IS1007d.C.dialog-act.s9553330.168,A,A,-0.572,1.03,True,True,0.572,['IS1007d.A.dialog-act.s9553330.91'],True, since well according to this study uh people more likes more to have a spongy uh remote control than,19,task,Inform
+IS1007d,A,1564.92,1567.13,2.21,IS1007d.A.dialog-act.s9553330.90,,,,,,,,,False, I think it will be I think i,8,minor,Fragment
+IS1007d,B,1566.373,1570.668,4.295,IS1007d.B.dialog-act.s9553330.268,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,1568.81,1569.02,0.21,IS1007d.D.dialog-act.s9553330.143,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,A,1569.86,1575.37,5.51,IS1007d.A.dialog-act.s9553330.91,A,C,0.0,-0.572,True,False,0.0,[],False," I think it will be better if we have all these modules in the same remote control,",17,task,Suggest
+IS1007d,A,1575.37,1578.429,3.059,IS1007d.A.dialog-act.s9553330.92,D,A,-1.339,0.0,False,True,1.339,['IS1007d.D.dialog-act.s9553330.145'],False, because maybe parents will lose these uh,7,task,Inform
+IS1007d,D,1576.74,1577.09,0.35,IS1007d.D.dialog-act.s9553330.144,,,,,,,,,False," Yeah,",1,task,Assess
+IS1007d,D,1577.09,1584.21,7.12,IS1007d.D.dialog-act.s9553330.145,D,A,0.0,-1.339,True,False,0.0,[],False," but I mean if you have an add-ons, the kids may just uh hide the parental module",17,task,Inform
+IS1007d,A,1583.87,1585.69,1.82,IS1007d.A.dialog-act.s9553330.93,,,,,,,,,False, Yeah. Or ma yeah.,4,minor,Backchannel
+IS1007d,D,1584.21,1588.04,3.83,IS1007d.D.dialog-act.s9553330.146,A,D,-2.35,0.0,False,True,2.35,['IS1007d.A.dialog-act.s9553330.94'],False, and so that their parents can't use it.,8,task,Inform
+IS1007d,A,1585.69,1590.55,4.86,IS1007d.A.dialog-act.s9553330.94,A,D,0.0,-2.35,True,False,0.0,[],False," Or maybe parents they can for forget where they put it or,",12,task,Inform
+IS1007d,C,1586.891,1587.488,0.597,IS1007d.C.dialog-act.s9553330.164,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,1590.55,1593.152,2.602,IS1007d.A.dialog-act.s9553330.95,D,A,-0.072,0.0,False,True,0.072,['IS1007d.D.dialog-act.s9553330.147'],False, so mayb better if you have all this in the same,11,task,Suggest
+IS1007d,D,1593.08,1594.79,1.71,IS1007d.D.dialog-act.s9553330.147,D,A,0.0,-0.072,True,False,0.0,[],False," In the same set, yeah,",5,task,Assess
+IS1007d,A,1593.981,1595.122,1.141,IS1007d.A.dialog-act.s9553330.86,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,1594.79,1597.45,2.66,IS1007d.D.dialog-act.s9553330.148,B,D,-0.186,0.0,False,True,0.186,['IS1007d.B.dialog-act.s9553330.274'],False, and and individual buttons to make them work.,8,task,Suggest
+IS1007d,B,1597.264,1609.19,11.926,IS1007d.B.dialog-act.s9553330.274,B,D,0.0,-0.186,True,False,0.0,[],False," The problem is if i we are bla if a customer wants a certain component, and doesn't want the parental control because it's a couple who do not have children",30,task,Inform
+IS1007d,A,1597.75,1597.95,0.2,IS1007d.A.dialog-act.s9553330.97,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,1609.19,1612.55,3.36,IS1007d.B.dialog-act.s9553330.275,B,B,0.0,0.0,False,False,0.0,[],False," when you sell the product in the market you could meet any kind of people,",15,task,Inform
+IS1007d,B,1612.55,1617.33,4.78,IS1007d.B.dialog-act.s9553330.276,B,B,0.0,0.0,False,False,0.0,[],False, and not all people will need all the functionalities we propose to them.,13,task,Inform
+IS1007d,B,1617.33,1619.93,2.6,IS1007d.B.dialog-act.s9553330.277,B,B,0.52,0.0,False,False,0.0,[],False, So we might lose the customer because of this.,9,task,Inform
+IS1007d,B,1619.93,1620.45,0.52,IS1007d.B.dialog-act.s9553330.278,,,,,,,,,False," I don't know,",3,task,Inform
+IS1007d,B,1620.45,1621.65,1.2,IS1007d.B.dialog-act.s9553330.279,A,B,-0.91,0.52,False,True,0.91,['IS1007d.A.dialog-act.s9553330.96'],False, what do you think uh?,5,elicit,Elicit-Inform
+IS1007d,A,1620.74,1625.1,4.36,IS1007d.A.dialog-act.s9553330.96,B,B,1.79,-0.91,True,False,0.0,[],False, So you mean that even if these modules will be will be functional uh will be optional.,17,task,Inform
+IS1007d,B,1625.57,1626.89,1.32,IS1007d.B.dialog-act.s9553330.280,,,,,,,,,False, Yes exa,2,task,Inform
+IS1007d,B,1626.89,1627.41,0.52,IS1007d.B.dialog-act.s9553330.281,B,A,0.0,1.79,True,False,0.0,[],True," what do you think,",4,elicit,Elicit-Inform
+IS1007d,B,1627.41,1629.58,2.17,IS1007d.B.dialog-act.s9553330.282,D,B,-1.27,0.0,False,True,1.27,['IS1007d.D.dialog-act.s9553330.149'],False, I don't know. You are Marketing Manag.,7,task,Inform
+IS1007d,D,1628.31,1637.0,8.69,IS1007d.D.dialog-act.s9553330.149,D,B,0.0,-1.27,True,False,0.0,[],False, I mean how to how to how to make a marketing survey that uh how many married couple or how many couples have a T_V_,25,task,Suggest
+IS1007d,A,1628.63,1629.456,0.826,IS1007d.A.dialog-act.s9553330.98,,,,,,,,,False, Uh,1,minor,Backchannel
+IS1007d,B,1631.62,1633.648,2.028,IS1007d.B.dialog-act.s9553330.283,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,C,1636.953,1637.937,0.984,IS1007d.C.dialog-act.s9553330.169,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,1637.0,1640.44,3.44,IS1007d.D.dialog-act.s9553330.150,B,D,4.51,0.0,False,False,0.0,[],False, or to the number or singles who have a television.,10,task,Suggest
+IS1007d,C,1640.32,1640.53,0.21,IS1007d.C.dialog-act.s9553330.170,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,D,1640.44,1642.188,1.748,IS1007d.D.dialog-act.s9553330.151,,,,,,,,,False, So based on that I think,6,minor,Fragment
+IS1007d,B,1642.56,1644.95,2.39,IS1007d.B.dialog-act.s9553330.284,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,1644.95,1659.173,14.223,IS1007d.B.dialog-act.s9553330.287,A,D,-6.803,4.51,True,True,1.937,"['IS1007d.A.dialog-act.s9553330.101', 'IS1007d.A.dialog-act.s9553330.102']",True, But the the question is n does those modularity increase the production cost or decrease the production cost?,18,elicit,Elicit-Inform
+IS1007d,A,1652.37,1654.307,1.937,IS1007d.A.dialog-act.s9553330.101,A,B,3.653,-6.803,True,False,0.0,[],False, I think it inc increase.,5,task,Assess
+IS1007d,A,1655.408,1656.295,0.887,IS1007d.A.dialog-act.s9553330.99,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,1655.59,1659.0,3.41,IS1007d.C.dialog-act.s9553330.172,,,,,,,,,False, Well you can if you had uh something li,9,minor,Fragment
+IS1007d,A,1657.96,1659.26,1.3,IS1007d.A.dialog-act.s9553330.102,C,A,6.17,3.653,False,False,0.0,[],False, I think it i increases.,5,task,Assess
+IS1007d,C,1659.96,1660.65,0.69,IS1007d.C.dialog-act.s9553330.173,,,,,,,,,False," Oh no,",2,task,Assess
+IS1007d,C,1660.65,1663.91,3.26,IS1007d.C.dialog-act.s9553330.174,,,,,,,,,False, because if you if you add uh something,8,minor,Fragment
+IS1007d,A,1660.692,1661.472,0.78,IS1007d.A.dialog-act.s9553330.100,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,1663.91,1665.43,1.52,IS1007d.C.dialog-act.s9553330.175,,,,,,,,,False, well yeah maybe,3,task,Assess
+IS1007d,C,1665.43,1670.341,4.911,IS1007d.C.dialog-act.s9553330.176,D,A,0.489,6.17,True,False,0.0,[],True, because it's three different pieces uh to to to build but,11,task,Inform
+IS1007d,A,1668.31,1668.67,0.36,IS1007d.A.dialog-act.s9553330.103,,,,,,,,,False, Hmm.,1,minor,Backchannel
+IS1007d,D,1670.83,1673.98,3.15,IS1007d.D.dialog-act.s9553330.152,C,C,3.04,0.489,True,False,0.0,[],True, But you can make it on a single P_C_ with three different options.,13,task,Suggest
+IS1007d,C,1674.75,1677.02,2.27,IS1007d.C.dialog-act.s9553330.177,,,,,,,,,False, Yeah yeah yeah,3,task,Assess
+IS1007d,B,1676.808,1677.712,0.904,IS1007d.B.dialog-act.s9553330.285,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,1677.02,1687.814,10.794,IS1007d.C.dialog-act.s9553330.178,D,D,-0.064,3.04,True,True,0.064,['IS1007d.D.dialog-act.s9553330.153'],True," it's I think it's cheaper if you if you already built the all the functionalities um on the same module, but uh",22,task,Assess
+IS1007d,B,1680.33,1680.62,0.29,IS1007d.B.dialog-act.s9553330.288,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,B,1683.379,1684.222,0.843,IS1007d.B.dialog-act.s9553330.286,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,1685.62,1686.0,0.38,IS1007d.B.dialog-act.s9553330.289,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,B,1687.67,1688.02,0.35,IS1007d.B.dialog-act.s9553330.290,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,D,1687.75,1689.01,1.26,IS1007d.D.dialog-act.s9553330.153,B,C,0.13,-0.064,True,False,0.0,[],False, On the same P_C_B_,4,task,Inform
+IS1007d,C,1688.74,1688.86,0.12,IS1007d.C.dialog-act.s9553330.179,,,,,,,,,False, Yeah.,1,task,Assess
+IS1007d,D,1689.01,1689.52,0.51,IS1007d.D.dialog-act.s9553330.154,,,,,,,,,False, yeah yeah.,2,task,Assess
+IS1007d,B,1689.14,1698.39,9.25,IS1007d.B.dialog-act.s9553330.292,B,D,0.0,0.13,True,False,0.0,[],True," Well well the other aspect is that if in the when they have the ar existing product you you gonna maintain the the you're gonna keep the same customer,",29,task,Inform
+IS1007d,B,1698.39,1701.34,2.95,IS1007d.B.dialog-act.s9553330.293,D,B,1.99,0.0,False,False,0.0,[],False, because the same customer will come back to buy other add-ons.,11,task,Inform
+IS1007d,D,1702.0,1703.33,1.33,IS1007d.D.dialog-act.s9553330.155,,,,,,,,,False, Yeah that's right.,3,task,Assess
+IS1007d,B,1702.96,1704.378,1.418,IS1007d.B.dialog-act.s9553330.291,,,,,,,,,False, So so,2,minor,Stall
+IS1007d,D,1703.33,1705.91,2.58,IS1007d.D.dialog-act.s9553330.156,B,B,0.09,1.99,True,False,0.0,[],True, I mean you could just provide with an optional.,9,task,Inform
+IS1007d,B,1705.83,1706.0,0.17,IS1007d.B.dialog-act.s9553330.294,,,,,,,,,False, Yeah,1,task,Assess
+IS1007d,B,1706.0,1709.85,3.85,IS1007d.B.dialog-act.s9553330.295,B,D,0.0,0.09,True,False,0.0,[],True, i i so if don't don't buy now they can buy i in the future.,15,task,Inform
+IS1007d,B,1709.85,1713.58,3.73,IS1007d.B.dialog-act.s9553330.296,B,B,0.0,0.0,False,False,0.0,[],False," So in in that way you're actually keeping the cus the same customer,",13,task,Inform
+IS1007d,B,1713.58,1721.93,8.35,IS1007d.B.dialog-act.s9553330.297,D,B,-3.16,0.0,False,True,3.16,"['IS1007d.D.dialog-act.s9553330.157', 'IS1007d.A.dialog-act.s9553330.106']",False, attracting them to come back in again and again.,9,task,Inform
+IS1007d,C,1717.402,1718.752,1.35,IS1007d.C.dialog-act.s9553330.171,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,1718.77,1726.97,8.2,IS1007d.D.dialog-act.s9553330.157,A,B,-6.748,-3.16,True,True,5.088,"['IS1007d.A.dialog-act.s9553330.106', 'IS1007d.B.dialog-act.s9553330.298']",False, So it's something like a Microsoft product update.,8,task,Assess
+IS1007d,C,1720.202,1723.183,2.981,IS1007d.C.dialog-act.s9553330.180,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,1720.222,1725.31,5.088,IS1007d.A.dialog-act.s9553330.106,B,D,-3.38,-6.748,True,True,3.31,['IS1007d.B.dialog-act.s9553330.298'],False, And and we we we we we we don't want that.,11,task,Inform
+IS1007d,B,1721.93,1725.24,3.31,IS1007d.B.dialog-act.s9553330.298,D,A,1.73,-3.38,True,False,0.0,[],False, We're not trying to follow the Microsoft,7,task,Inform
+IS1007d,B,1725.24,1727.86,2.62,IS1007d.B.dialog-act.s9553330.299,,,,,,,,,False, and we don't want to the m,7,minor,Fragment
+IS1007d,A,1726.963,1731.344,4.381,IS1007d.A.dialog-act.s9553330.104,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,1726.97,1728.27,1.3,IS1007d.D.dialog-act.s9553330.158,D,B,0.0,1.73,True,False,0.0,[],True, Updates and we sell it.,5,other,Be-Positive
+IS1007d,D,1728.27,1729.85,1.58,IS1007d.D.dialog-act.s9553330.159,B,D,0.36,0.0,False,False,0.0,[],False, We make updates and sell it.,6,other,Be-Positive
+IS1007d,C,1729.44,1730.787,1.347,IS1007d.C.dialog-act.s9553330.181,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,1730.21,1735.87,5.66,IS1007d.B.dialog-act.s9553330.300,B,D,0.0,0.36,True,False,0.0,[],True," Yeah well if the buyers can be up the th would be can be upgraded, it would be a good thing right?",22,task,Assess
+IS1007d,C,1733.453,1735.9,2.447,IS1007d.C.dialog-act.s9553330.182,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,A,1733.85,1736.795,2.945,IS1007d.A.dialog-act.s9553330.105,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,1735.87,1742.663,6.793,IS1007d.B.dialog-act.s9553330.301,D,B,-4.903,0.0,False,True,4.903,['IS1007d.D.dialog-act.s9553330.160'],False," Yeah, it depends on the v production.",7,task,Inform
+IS1007d,D,1737.76,1742.96,5.2,IS1007d.D.dialog-act.s9553330.160,D,B,0.0,-4.903,True,False,0.0,[],False, And uh what's the idea about uh the shape of the remote controls?,13,elicit,Elicit-Inform
+IS1007d,D,1742.96,1746.36,3.4,IS1007d.D.dialog-act.s9553330.161,D,D,0.97,0.0,False,False,0.0,[],False, Uh can they be made into a fruit and vegetable types?,11,elicit,Elicit-Inform
+IS1007d,C,1743.1,1744.265,1.165,IS1007d.C.dialog-act.s9553330.183,,,,,,,,,False, Well so,2,minor,Fragment
+IS1007d,C,1745.52,1747.99,2.47,IS1007d.C.dialog-act.s9553330.184,,,,,,,,,False, Yeah yeah,2,minor,Backchannel
+IS1007d,D,1747.33,1749.994,2.664,IS1007d.D.dialog-act.s9553330.162,C,D,-0.314,0.97,False,True,0.314,['IS1007d.C.dialog-act.s9553330.187'],False, Do you require different types of P_C_B_s and,8,elicit,Elicit-Inform
+IS1007d,C,1747.99,1749.36,1.37,IS1007d.C.dialog-act.s9553330.185,,,,,,,,,False, I think we are,4,minor,Fragment
+IS1007d,C,1749.36,1749.68,0.32,IS1007d.C.dialog-act.s9553330.186,,,,,,,,,False, yeah,1,task,Inform
+IS1007d,C,1749.68,1754.22,4.54,IS1007d.C.dialog-act.s9553330.187,C,D,0.0,-0.314,True,False,0.0,[],False, but we are also the um well the components will have to change,13,task,Inform
+IS1007d,C,1754.22,1757.25,3.03,IS1007d.C.dialog-act.s9553330.188,C,C,0.0,0.0,False,False,0.0,[],False, because uh we have to deal with the shape,9,task,Inform
+IS1007d,C,1757.25,1762.022,4.772,IS1007d.C.dialog-act.s9553330.189,D,C,-0.542,0.0,False,True,0.542,['IS1007d.D.dialog-act.s9553330.163'],False, and um but I don't think it will uh increase the cost too much so,15,task,Inform
+IS1007d,B,1757.91,1758.21,0.3,IS1007d.B.dialog-act.s9553330.302,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,D,1761.48,1768.97,7.49,IS1007d.D.dialog-act.s9553330.163,C,C,0.49,-0.542,True,False,0.0,[],False," Or uh it could be like this the P_C_B_ would be the same for all, but only the exterior uh shape is different o for all.",26,task,Suggest
+IS1007d,B,1767.09,1767.39,0.3,IS1007d.B.dialog-act.s9553330.303,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,C,1769.46,1778.541,9.081,IS1007d.C.dialog-act.s9553330.190,B,D,-0.841,0.49,True,True,0.841,['IS1007d.B.dialog-act.s9553330.305'],True, Uh well but it's a bit complicated to if if if you need machines to different machines to um ah well,21,task,Inform
+IS1007d,B,1775.8,1776.19,0.39,IS1007d.B.dialog-act.s9553330.304,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,1777.7,1782.63,4.93,IS1007d.B.dialog-act.s9553330.305,B,C,0.0,-0.841,True,False,0.0,[],False, What we can change is to propose the customers with skins.,11,task,Suggest
+IS1007d,B,1782.63,1787.51,4.88,IS1007d.B.dialog-act.s9553330.306,D,B,-2.27,0.0,False,True,1.27,['IS1007d.D.dialog-act.s9553330.164'],False," For example the i the mobile phones nowaday, they sell different kinds of skin",14,task,Inform
+IS1007d,D,1785.24,1786.51,1.27,IS1007d.D.dialog-act.s9553330.164,B,B,1.0,-2.27,True,False,0.0,[],False," Yeah, yeah that's right.",4,task,Assess
+IS1007d,B,1787.51,1791.37,3.86,IS1007d.B.dialog-act.s9553330.307,C,D,0.1,1.0,True,False,0.0,[],True, and then people just feel that oh I have a new skin and looks better.,15,task,Inform
+IS1007d,C,1790.71,1791.47,0.76,IS1007d.C.dialog-act.s9553330.191,,,,,,,,,False, Yeah yeah,2,task,Assess
+IS1007d,C,1791.47,1793.6,2.13,IS1007d.C.dialog-act.s9553330.192,C,B,0.0,0.1,True,False,0.0,[],True, we can have the same global shape,7,task,Suggest
+IS1007d,B,1792.69,1793.02,0.33,IS1007d.B.dialog-act.s9553330.308,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,C,1793.6,1801.13,7.53,IS1007d.C.dialog-act.s9553330.193,B,C,0.77,0.0,False,False,0.0,[],False, and then uh add on skins and with with this uh tex spongy texture uh things like that.,18,task,Suggest
+IS1007d,B,1794.99,1795.27,0.28,IS1007d.B.dialog-act.s9553330.309,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,D,1795.51,1796.4,0.89,IS1007d.D.dialog-act.s9553330.166,,,,,,,,,False, Yeah that's right.,3,task,Assess
+IS1007d,B,1796.96,1798.746,1.786,IS1007d.B.dialog-act.s9553330.310,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,B,1800.6,1801.9,1.3,IS1007d.B.dialog-act.s9553330.311,,,,,,,,,False, Yeah you can pl,4,minor,Fragment
+IS1007d,B,1801.9,1804.04,2.14,IS1007d.B.dialog-act.s9553330.312,D,C,0.79,0.77,True,False,0.0,[],True, in what material would that be in uh?,8,elicit,Elicit-Inform
+IS1007d,C,1804.82,1807.393,2.573,IS1007d.C.dialog-act.s9553330.194,,,,,,,,,False, Sponge.,1,task,Inform
+IS1007d,D,1804.83,1806.91,2.08,IS1007d.D.dialog-act.s9553330.167,B,B,0.12,0.79,True,False,0.0,[],True, I think you need to look into the material.,9,task,Suggest
+IS1007d,B,1807.03,1811.06,4.03,IS1007d.B.dialog-act.s9553330.313,C,D,10.31,0.12,True,False,0.0,[],True, Yeah or furry like a pet dog kind of thing.,10,task,Suggest
+IS1007d,C,1809.486,1812.694,3.208,IS1007d.C.dialog-act.s9553330.195,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,1809.63,1810.41,0.78,IS1007d.D.dialog-act.s9553330.170,,,,,,,,,False, Yeah yeah.,2,minor,Backchannel
+IS1007d,C,1815.65,1816.23,0.58,IS1007d.C.dialog-act.s9553330.200,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1007d,A,1818.81,1820.064,1.254,IS1007d.A.dialog-act.s9553330.110,,,,,,,,,False, So,1,minor,Backchannel
+IS1007d,C,1821.37,1826.02,4.65,IS1007d.C.dialog-act.s9553330.201,D,B,1.41,10.31,True,False,0.0,[],True, So we finished the prototype uh presentation if you have uh something else to say.,15,elicit,Elicit-Offer-Or-Suggestion
+IS1007d,B,1826.694,1832.849,6.155,IS1007d.B.dialog-act.s9553330.314,,,,,,,,,False,,0,minor,Fragment
+IS1007d,D,1827.43,1834.36,6.93,IS1007d.D.dialog-act.s9553330.171,A,C,1.53,1.41,True,False,0.0,[],True, I think the Project Manager would be interested to look about the financial issues in making these models.,18,task,Suggest
+IS1007d,A,1833.052,1834.37,1.318,IS1007d.A.dialog-act.s9553330.107,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,1835.89,1839.76,3.87,IS1007d.A.dialog-act.s9553330.111,A,D,3.54,1.53,True,False,0.0,[],True," Project evaluation project satisfaction, for example.",6,other,Other
+IS1007d,A,1843.3,1845.58,2.28,IS1007d.A.dialog-act.s9553330.112,A,A,0.0,3.54,False,False,0.0,[],False," I don't know, we have to ask these question.",9,task,Inform
+IS1007d,A,1845.58,1848.96,3.38,IS1007d.A.dialog-act.s9553330.113,B,A,10.79,0.0,False,False,0.0,[],False, We have to give answers so,6,task,Inform
+IS1007d,D,1847.389,1850.908,3.519,IS1007d.D.dialog-act.s9553330.168,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,1849.088,1851.63,2.542,IS1007d.B.dialog-act.s9553330.316,,,,,,,,,False," I suppose that you this criteria, is it?",8,minor,Fragment
+IS1007d,A,1851.968,1853.82,1.852,IS1007d.A.dialog-act.s9553330.114,,,,,,,,,False, Project evaluation.,2,task,Inform
+IS1007d,A,1855.552,1856.128,0.576,IS1007d.A.dialog-act.s9553330.108,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,1857.696,1859.75,2.054,IS1007d.B.dialog-act.s9553330.317,,,,,,,,,False, Room for creativity.,3,task,Inform
+IS1007d,B,1859.75,1863.38,3.63,IS1007d.B.dialog-act.s9553330.319,B,A,0.0,10.79,True,False,0.0,[],True," This room is a bit small, but",7,task,Assess
+IS1007d,C,1860.734,1864.606,3.872,IS1007d.C.dialog-act.s9553330.196,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,1861.659,1864.56,2.901,IS1007d.A.dialog-act.s9553330.109,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,1863.38,1867.008,3.628,IS1007d.B.dialog-act.s9553330.320,D,B,0.342,0.0,False,False,0.0,[],False, but I think it's okay for us to work with.,10,task,Assess
+IS1007d,D,1867.35,1868.3,0.95,IS1007d.D.dialog-act.s9553330.173,D,B,0.0,0.342,True,False,0.0,[],True," I feel it's fine,",4,task,Assess
+IS1007d,D,1868.3,1870.83,2.53,IS1007d.D.dialog-act.s9553330.174,D,D,2.25,0.0,False,False,0.0,[],False, we know we don't need uh I think it's okay.,10,task,Assess
+IS1007d,B,1869.705,1873.02,3.315,IS1007d.B.dialog-act.s9553330.321,,,,,,,,,False, Yeah mm.,2,minor,Backchannel
+IS1007d,C,1873.06,1873.79,0.73,IS1007d.C.dialog-act.s9553330.202,,,,,,,,,False, That was good.,3,task,Assess
+IS1007d,D,1873.08,1876.46,3.38,IS1007d.D.dialog-act.s9553330.175,B,D,0.31,2.25,False,False,0.0,[],False, This is fine for making a presentat for project presentations.,10,task,Assess
+IS1007d,B,1874.72,1875.01,0.29,IS1007d.B.dialog-act.s9553330.322,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,B,1876.77,1891.48,14.71,IS1007d.B.dialog-act.s9553330.323,D,D,-6.48,0.31,True,True,4.5,"['IS1007d.D.dialog-act.s9553330.176', 'IS1007d.A.dialog-act.s9553330.116']",True, Yeah anyway we have the laboratory nearby to build our modules so it's okay.,14,task,Inform
+IS1007d,C,1877.46,1877.7,0.24,IS1007d.C.dialog-act.s9553330.203,,,,,,,,,False, Yeah.,1,minor,Backchannel
+IS1007d,C,1880.045,1882.345,2.3,IS1007d.C.dialog-act.s9553330.197,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,1884.49,1884.93,0.44,IS1007d.A.dialog-act.s9553330.115,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+IS1007d,D,1885.0,1886.5,1.5,IS1007d.D.dialog-act.s9553330.176,A,B,0.48,-6.48,True,False,0.0,[],False, And the leadership was excellent.,5,task,Assess
+IS1007d,C,1886.752,1887.456,0.704,IS1007d.C.dialog-act.s9553330.198,,,,,,,,,False,,0,minor,Fragment
+IS1007d,A,1886.98,1893.64,6.66,IS1007d.A.dialog-act.s9553330.116,B,D,-2.16,0.48,True,True,2.16,['IS1007d.B.dialog-act.s9553330.324'],True, Yeah I think so.,4,task,Assess
+IS1007d,C,1888.756,1890.739,1.983,IS1007d.C.dialog-act.s9553330.199,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,1891.48,1900.1,8.62,IS1007d.B.dialog-act.s9553330.324,A,A,-6.46,-2.16,True,True,3.32,"['IS1007d.A.dialog-act.s9553330.117', 'IS1007d.A.dialog-act.s9553330.118']",False, Good job good job.,4,other,Be-Positive
+IS1007d,C,1892.1,1894.23,2.13,IS1007d.C.dialog-act.s9553330.204,,,,,,,,,False, Fine yes uh,3,task,Assess
+IS1007d,A,1893.64,1896.96,3.32,IS1007d.A.dialog-act.s9553330.117,A,B,1.97,-6.46,True,False,0.0,[],False, He gave you the liberty to talk as you wants.,10,task,Inform
+IS1007d,D,1895.42,1896.62,1.2,IS1007d.D.dialog-act.s9553330.177,,,,,,,,,False, Yeah that's right.,3,task,Assess
+IS1007d,D,1896.62,1897.51,0.89,IS1007d.D.dialog-act.s9553330.178,,,,,,,,,False, Yeah that's right.,3,task,Assess
+IS1007d,A,1898.93,1901.69,2.76,IS1007d.A.dialog-act.s9553330.118,A,A,0.0,1.97,False,False,0.0,[],False, Uh the teamwork was very very good.,7,task,Assess
+IS1007d,C,1901.41,1902.49,1.08,IS1007d.C.dialog-act.s9553330.205,,,,,,,,,False, Very democratic.,2,task,Assess
+IS1007d,A,1901.69,1910.13,8.44,IS1007d.A.dialog-act.s9553330.119,D,A,5.54,0.0,False,False,0.0,[],False, I was really I am very satisfying to work with with you.,12,task,Assess
+IS1007d,B,1902.818,1906.205,3.387,IS1007d.B.dialog-act.s9553330.315,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,1906.24,1910.57,4.33,IS1007d.C.dialog-act.s9553330.206,,,,,,,,,False, Thank you.,2,other,Be-Positive
+IS1007d,D,1907.743,1910.527,2.784,IS1007d.D.dialog-act.s9553330.169,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,1908.42,1909.75,1.33,IS1007d.B.dialog-act.s9553330.325,,,,,,,,,False, Thank you.,2,other,Be-Positive
+IS1007d,A,1910.13,1912.45,2.32,IS1007d.A.dialog-act.s9553330.120,,,,,,,,,False, Oh.,1,minor,Backchannel
+IS1007d,C,1913.27,1913.94,0.67,IS1007d.C.dialog-act.s9553330.207,,,,,,,,,False, Alright.,1,minor,Stall
+IS1007d,B,1914.4,1914.8,0.4,IS1007d.B.dialog-act.s9553330.326,,,,,,,,,False, Alright.,1,minor,Stall
+IS1007d,D,1915.67,1917.68,2.01,IS1007d.D.dialog-act.s9553330.179,D,A,0.0,5.54,True,False,0.0,[],True, And new ideas found.,4,task,Inform
+IS1007d,D,1917.68,1921.76,4.08,IS1007d.D.dialog-act.s9553330.180,C,D,2.704,0.0,False,False,0.0,[],False, Any new ideas to make these presentations more interactive and more interesting?,12,elicit,Elicit-Inform
+IS1007d,B,1924.13,1929.328,5.198,IS1007d.B.dialog-act.s9553330.327,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,C,1924.464,1928.37,3.906,IS1007d.C.dialog-act.s9553330.208,D,D,-1.887,2.704,True,True,1.887,['IS1007d.D.dialog-act.s9553330.181'],True, Come up with new product.,5,task,Suggest
+IS1007d,D,1926.483,1932.09,5.607,IS1007d.D.dialog-act.s9553330.181,B,C,1.11,-1.887,True,False,0.0,[],False, I mean uh what type of product would you think could we make this more interesting?,16,elicit,Elicit-Inform
+IS1007d,A,1926.496,1934.79,8.294,IS1007d.A.dialog-act.s9553330.121,,,,,,,,,False, Less fancy.,2,task,Inform
+IS1007d,B,1933.2,1941.273,8.073,IS1007d.B.dialog-act.s9553330.328,C,D,-1.863,1.11,True,True,1.863,['IS1007d.C.dialog-act.s9553330.209'],True," Mm we I I know something, we need more cakes, more biscuits on the table while we have meetings.",19,task,Suggest
+IS1007d,C,1939.41,1952.95,13.54,IS1007d.C.dialog-act.s9553330.209,C,B,0.0,-1.863,True,False,0.0,[],False, Yeah and also more well uh more seriously I think it's it's a good idea to have uh clear clear points whenever we do a meeting,26,task,Suggest
+IS1007d,D,1943.302,1943.888,0.586,IS1007d.D.dialog-act.s9553330.182,,,,,,,,,False,,0,minor,Fragment
+IS1007d,B,1945.61,1948.887,3.277,IS1007d.B.dialog-act.s9553330.329,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,C,1952.95,1960.96,8.01,IS1007d.C.dialog-act.s9553330.210,C,C,0.0,0.0,False,False,0.0,[],False," uh prior to the meeting to have uh well a list with the points who will be discussed or things like that,",22,task,Suggest
+IS1007d,C,1960.96,1965.14,4.18,IS1007d.C.dialog-act.s9553330.211,C,C,0.0,0.0,False,False,0.0,[],False, but I think it's alright.,5,task,Assess
+IS1007d,C,1965.14,1968.71,3.57,IS1007d.C.dialog-act.s9553330.212,D,C,-0.13,0.0,False,True,0.13,['IS1007d.D.dialog-act.s9553330.184'],False, We achieved uh project goal I think.,7,task,Inform
+IS1007d,D,1968.31,1968.58,0.27,IS1007d.D.dialog-act.s9553330.183,,,,,,,,,False, Yeah,1,task,Assess
+IS1007d,D,1968.58,1969.82,1.24,IS1007d.D.dialog-act.s9553330.184,C,C,2.13,-0.13,True,False,0.0,[],False, that is within the budget.,5,task,Inform
+IS1007d,A,1969.0,1969.17,0.17,IS1007d.A.dialog-act.s9553330.122,,,,,,,,,False, De,1,minor,Fragment
+IS1007d,C,1970.56,1971.95,1.39,IS1007d.C.dialog-act.s9553330.213,,,,,,,,,False, It's w,2,minor,Fragment
+IS1007d,B,1970.71,1971.01,0.3,IS1007d.B.dialog-act.s9553330.330,,,,,,,,,False, Mm.,1,minor,Backchannel
+IS1007d,A,1970.898,1971.792,0.894,IS1007d.A.dialog-act.s9553330.123,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,1971.95,1973.41,1.46,IS1007d.C.dialog-act.s9553330.214,D,D,-1.26,2.13,True,True,1.26,"['IS1007d.D.dialog-act.s9553330.185', 'IS1007d.A.dialog-act.s9553330.124']",True," yes, more or less.",4,task,Assess
+IS1007d,D,1972.15,1973.59,1.44,IS1007d.D.dialog-act.s9553330.185,A,C,-0.82,-1.26,True,True,0.82,['IS1007d.A.dialog-act.s9553330.124'],False, And the evaluation was,4,task,Inform
+IS1007d,A,1972.77,1977.17,4.4,IS1007d.A.dialog-act.s9553330.124,D,D,2.8,-0.82,True,False,0.0,[],False," Without without L_C_D_, without speech recognition, it will be simple.",10,task,Inform
+IS1007d,D,1975.09,1976.11,1.02,IS1007d.D.dialog-act.s9553330.186,,,,,,,,,False, Yeah that's right.,3,task,Assess
+IS1007d,C,1975.64,1976.672,1.032,IS1007d.C.dialog-act.s9553330.215,,,,,,,,,False, Yeah but,2,task,Assess
+IS1007d,B,1978.804,1979.593,0.789,IS1007d.B.dialog-act.s9553330.331,,,,,,,,,False,,0,minor,Fragment
+IS1007d,C,1978.89,1979.39,0.5,IS1007d.C.dialog-act.s9553330.216,,,,,,,,,False, Alright.,1,minor,Stall
+IS1007d,D,1979.97,1981.89,1.92,IS1007d.D.dialog-act.s9553330.187,C,A,0.95,2.8,True,False,0.0,[],True, And the next is celebration.,5,task,Inform
+IS1007d,C,1980.45,1980.82,0.37,IS1007d.C.dialog-act.s9553330.217,,,,,,,,,False, So.,1,minor,Stall
+IS1007d,D,1982.56,1983.115,0.555,IS1007d.D.dialog-act.s9553330.188,,,,,,,,,False, So,1,minor,Stall
+IS1007d,C,1982.84,1987.71,4.87,IS1007d.C.dialog-act.s9553330.218,B,D,-3.227,0.95,True,True,3.227,"['IS1007d.B.dialog-act.s9553330.332', 'IS1007d.A.dialog-act.s9553330.125']",True, So uh coffee machine.,4,other,Other
+IS1007d,B,1984.483,1988.85,4.367,IS1007d.B.dialog-act.s9553330.332,A,C,-4.16,-3.227,True,True,3.09,['IS1007d.A.dialog-act.s9553330.125'],False," Alright then, we finished?",4,elicit,Elicit-Inform
+IS1007d,A,1984.69,1987.78,3.09,IS1007d.A.dialog-act.s9553330.125,A,B,1.42,-4.16,True,False,0.0,[],False, Yeah free free coffee,4,other,Other
+IS1007d,C,1987.71,1988.26,0.55,IS1007d.C.dialog-act.s9553330.219,,,,,,,,,False, Okay.,1,minor,Backchannel
+IS1007d,A,1989.2,1992.17,2.97,IS1007d.A.dialog-act.s9553330.126,D,A,-2.84,1.42,False,True,1.88,"['IS1007d.D.dialog-act.s9553330.189', 'IS1007d.B.dialog-act.s9553330.333']",False, Yeah thank you for your work and,7,other,Be-Positive
+IS1007d,D,1989.33,1991.21,1.88,IS1007d.D.dialog-act.s9553330.189,B,A,-1.3,-2.84,True,True,0.99,['IS1007d.B.dialog-act.s9553330.333'],False," Yeah thank you, thank you very much.",7,other,Be-Positive
+IS1007d,B,1989.91,1990.9,0.99,IS1007d.B.dialog-act.s9553330.333,,D,,-1.3,True,False,0.0,[],False, Thank you very much.,4,other,Be-Positive

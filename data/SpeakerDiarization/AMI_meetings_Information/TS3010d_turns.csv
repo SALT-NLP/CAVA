@@ -1,0 +1,716 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+TS3010d,A,8.64,10.46,1.82,TS3010d.A.dialog-act.dharshi.1,,,,,,,,,False, Okay.,1,minor,Stall
+TS3010d,A,10.46,14.89,4.43,TS3010d.A.dialog-act.dharshi.2,A,,0.0,,True,False,0.0,[],False," So, now um, last time.",5,task,Inform
+TS3010d,A,14.89,18.59,3.7,TS3010d.A.dialog-act.dharshi.3,A,A,5.84,0.0,False,False,0.0,[],False, Can you uh push the button?,6,task,Suggest
+TS3010d,A,18.59,21.36,2.77,TS3010d.A.dialog-act.dharshi.4,,,,,,,,,False, One time please.,3,task,Suggest
+TS3010d,A,21.36,22.254,0.894,TS3010d.A.dialog-act.dharshi.5,,,,,,,,,False, So,1,minor,Stall
+TS3010d,A,24.43,25.81,1.38,TS3010d.A.dialog-act.dharshi.6,A,A,1.56,5.84,False,False,0.0,[],False, I'm still the secretary.,4,task,Inform
+TS3010d,A,27.37,31.62,4.25,TS3010d.A.dialog-act.dharshi.7,A,A,0.0,1.56,False,False,0.0,[],False," Now uh, I ask you to presentate the prototype.",9,task,Suggest
+TS3010d,A,31.62,33.3,1.68,TS3010d.A.dialog-act.dharshi.8,B,A,3.38,0.0,False,False,0.0,[],False, One of your you two.,5,task,Suggest
+TS3010d,B,34.548,35.14,0.592,TS3010d.B.dialog-act.dharshi.1,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,35.16,36.401,1.241,TS3010d.C.dialog-act.dharshi.1,,,,,,,,,False, I don't care.,3,task,Assess
+TS3010d,B,36.68,37.75,1.07,TS3010d.B.dialog-act.dharshi.2,B,A,6.65,3.38,True,False,0.0,[],True," Oh this, you mean?",4,other,Comment-About-Understanding
+TS3010d,C,37.38,37.75,0.37,TS3010d.C.dialog-act.dharshi.2,,,,,,,,,False, Huh?,1,other,Comment-About-Understanding
+TS3010d,A,37.53,39.01,1.48,TS3010d.A.dialog-act.dharshi.9,,,,,,,,,False, Yes. The prototype.,3,task,Inform
+TS3010d,B,39.02,39.86,0.84,TS3010d.B.dialog-act.dharshi.3,,,,,,,,,False," Yes, well uh",3,minor,Stall
+TS3010d,B,41.2,41.73,0.53,TS3010d.B.dialog-act.dharshi.4,,,,,,,,,False, this is it.,3,task,Inform
+TS3010d,C,42.068,44.404,2.336,TS3010d.C.dialog-act.dharshi.3,,,,,,,,,False,,0,minor,Fragment
+TS3010d,B,42.535,43.578,1.043,TS3010d.B.dialog-act.dharshi.5,,,,,,,,,False,,0,minor,Fragment
+TS3010d,D,42.596,43.94,1.344,TS3010d.D.dialog-act.dharshi.1,,,,,,,,,False, This is it.,3,other,Other
+TS3010d,A,43.64,44.34,0.7,TS3010d.A.dialog-act.dharshi.10,,,,,,,,,False," Well, thank you.",3,other,Be-Positive
+TS3010d,A,44.34,45.179,0.839,TS3010d.A.dialog-act.dharshi.11,,,,,,,,,False," Uh, now",2,minor,Fragment
+TS3010d,B,44.4,46.91,2.51,TS3010d.B.dialog-act.dharshi.6,B,B,0.0,6.65,False,False,0.0,[],False, It's uh it's uh it's yellow.,6,task,Inform
+TS3010d,B,46.91,49.33,2.42,TS3010d.B.dialog-act.dharshi.7,B,B,1.24,0.0,False,False,0.0,[],False," And uh, this is rubber.",5,task,Inform
+TS3010d,B,50.57,51.94,1.37,TS3010d.B.dialog-act.dharshi.8,B,B,5.16,1.24,False,False,0.0,[],False, And and and this too.,5,task,Inform
+TS3010d,B,53.37,53.94,0.57,TS3010d.B.dialog-act.dharshi.9,,,,,,,,,False, The,1,minor,Stall
+TS3010d,A,54.299,54.634,0.335,TS3010d.A.dialog-act.dharshi.12,,,,,,,,,False,,0,minor,Fragment
+TS3010d,B,55.46,57.1,1.64,TS3010d.B.dialog-act.dharshi.10,,,,,,,,,False, the sides.,2,task,Inform
+TS3010d,A,56.54,56.82,0.28,TS3010d.A.dialog-act.dharshi.13,,,,,,,,,False, Yes.,1,minor,Backchannel
+TS3010d,B,57.1,58.35,1.25,TS3010d.B.dialog-act.dharshi.11,B,B,6.04,5.16,False,False,0.0,[],False, And the rest is hard plastic.,6,task,Inform
+TS3010d,B,60.39,61.354,0.964,TS3010d.B.dialog-act.dharshi.12,,,,,,,,,False, And uh,2,minor,Stall
+TS3010d,B,62.43,64.39,1.96,TS3010d.B.dialog-act.dharshi.13,,,,,,,,,False, We uh we had some uh,6,minor,Stall
+TS3010d,B,64.39,71.83,7.44,TS3010d.B.dialog-act.dharshi.14,B,B,0.0,6.04,False,False,0.0,[],False, We had a new idea that that this can uh can be uh uh turned inside.,16,task,Inform
+TS3010d,C,65.556,66.74,1.184,TS3010d.C.dialog-act.dharshi.4,,,,,,,,,False,,0,minor,Fragment
+TS3010d,B,71.83,74.08,2.25,TS3010d.B.dialog-act.dharshi.15,B,B,1.36,0.0,False,False,0.0,[],False, And then it covers the these buttons,7,task,Inform
+TS3010d,A,74.67,75.15,0.48,TS3010d.A.dialog-act.dharshi.14,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,B,75.44,76.61,1.17,TS3010d.B.dialog-act.dharshi.16,B,B,0.0,1.36,False,False,0.0,[],False, until here or something.,4,task,Inform
+TS3010d,D,75.45,75.78,0.33,TS3010d.D.dialog-act.dharshi.2,,,,,,,,,False, Yes.,1,minor,Backchannel
+TS3010d,B,76.61,80.95,4.34,TS3010d.B.dialog-act.dharshi.17,B,B,1.06,0.0,False,False,0.0,[],False, And then you can still use the the power button and the mute and the the joystick.,17,task,Inform
+TS3010d,A,81.54,81.96,0.42,TS3010d.A.dialog-act.dharshi.15,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3010d,B,82.01,84.13,2.12,TS3010d.B.dialog-act.dharshi.18,B,B,0.0,1.06,False,False,0.0,[],False," So, you can still operate uh all the things.",9,task,Inform
+TS3010d,B,84.13,85.87,1.74,TS3010d.B.dialog-act.dharshi.19,B,B,2.09,0.0,False,False,0.0,[],False, Because you don't always use the menu.,7,task,Inform
+TS3010d,B,87.96,88.9,0.94,TS3010d.B.dialog-act.dharshi.20,B,B,9.27,2.09,False,False,0.0,[],False, And then it can break.,5,task,Inform
+TS3010d,A,90.54,92.04,1.5,TS3010d.A.dialog-act.dharshi.16,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,A,92.04,92.8,0.76,TS3010d.A.dialog-act.dharshi.17,,,,,,,,,False, And the buttons?,3,elicit,Elicit-Inform
+TS3010d,B,94.58,95.812,1.232,TS3010d.B.dialog-act.dharshi.21,,,,,,,,,False," Uh, well uh",3,minor,Stall
+TS3010d,C,96.1,97.204,1.104,TS3010d.C.dialog-act.dharshi.6,,,,,,,,,False, Big.,1,task,Inform
+TS3010d,B,97.37,98.17,0.8,TS3010d.B.dialog-act.dharshi.22,,,,,,,,,False, Big buttons.,2,task,Inform
+TS3010d,B,98.17,101.3,3.13,TS3010d.B.dialog-act.dharshi.23,B,B,1.87,9.27,False,False,0.0,[],False," And everything is blue, except the power button.",8,task,Inform
+TS3010d,B,101.3,102.85,1.55,TS3010d.B.dialog-act.dharshi.24,,,,,,,,,False, And the mute.,3,task,Inform
+TS3010d,B,102.85,103.17,0.32,TS3010d.B.dialog-act.dharshi.25,,,,,,,,,False, Of uh,2,minor,Stall
+TS3010d,B,103.17,107.22,4.05,TS3010d.B.dialog-act.dharshi.26,B,B,1.75,1.87,False,False,0.0,[],False," yeah, and the mute and the the other button.",9,task,Inform
+TS3010d,B,107.22,107.57,0.35,TS3010d.B.dialog-act.dharshi.27,,,,,,,,,False, Yeah.,1,minor,Stall
+TS3010d,B,108.97,110.58,1.61,TS3010d.B.dialog-act.dharshi.28,A,B,1.35,1.75,False,False,0.0,[],False, Channel higher channel button.,4,task,Inform
+TS3010d,C,108.99,109.363,0.373,TS3010d.C.dialog-act.dharshi.5,,,,,,,,,False,.,0,minor,Fragment
+TS3010d,D,110.39,110.69,0.3,TS3010d.D.dialog-act.dharshi.3,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3010d,A,111.93,115.86,3.93,TS3010d.A.dialog-act.dharshi.18,C,B,4.19,1.35,True,False,0.0,[],True, And the joystick is for the volume and the channels.,10,elicit,Elicit-Inform
+TS3010d,B,115.85,116.96,1.11,TS3010d.B.dialog-act.dharshi.29,,,,,,,,,False," Uh, yes. Yes,",3,task,Inform
+TS3010d,C,116.14,116.43,0.29,TS3010d.C.dialog-act.dharshi.7,,,,,,,,,False, Yes.,1,task,Inform
+TS3010d,B,116.96,117.908,0.948,TS3010d.B.dialog-act.dharshi.30,,,,,,,,,False, that's uh,2,minor,Fragment
+TS3010d,C,118.068,118.82,0.752,TS3010d.C.dialog-act.dharshi.8,,,,,,,,,False,,0,minor,Fragment
+TS3010d,B,119.66,120.55,0.89,TS3010d.B.dialog-act.dharshi.31,,,,,,,,,False, Very obvious.,2,task,Inform
+TS3010d,C,120.05,121.37,1.32,TS3010d.C.dialog-act.dharshi.9,C,A,0.0,4.19,True,False,0.0,[],True, Up is channel up.,4,task,Inform
+TS3010d,A,120.216,120.588,0.372,TS3010d.A.dialog-act.dharshi.19,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,121.37,122.56,1.19,TS3010d.C.dialog-act.dharshi.10,C,C,0.0,0.0,False,False,0.0,[],False, Down is channel down.,4,task,Inform
+TS3010d,C,122.56,123.91,1.35,TS3010d.C.dialog-act.dharshi.11,C,C,0.0,0.0,False,False,0.0,[],False, To the right is volume up.,6,task,Inform
+TS3010d,C,123.91,125.31,1.4,TS3010d.C.dialog-act.dharshi.12,A,C,1.62,0.0,False,False,0.0,[],False, To the left is volume down.,6,task,Inform
+TS3010d,B,125.82,126.17,0.35,TS3010d.B.dialog-act.dharshi.32,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3010d,A,126.93,129.66,2.73,TS3010d.A.dialog-act.dharshi.20,B,C,6.48,1.62,True,False,0.0,[],True," Okay, so if joystick and L_C_D_.",6,task,Assess
+TS3010d,A,131.26,133.32,2.06,TS3010d.A.dialog-act.dharshi.21,,,,,,,,,False, What's the R_R_,3,elicit,Elicit-Inform
+TS3010d,A,133.32,133.72,0.4,TS3010d.A.dialog-act.dharshi.22,,,,,,,,,False, d,1,minor,Fragment
+TS3010d,A,134.835,135.207,0.372,TS3010d.A.dialog-act.dharshi.23,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,135.71,136.55,0.84,TS3010d.C.dialog-act.dharshi.13,,,,,,,,,False, The R_R_?,2,other,Comment-About-Understanding
+TS3010d,B,136.14,139.59,3.45,TS3010d.B.dialog-act.dharshi.33,D,A,2.59,6.48,True,False,0.0,[],True, R_R_'s the l the the the the company uh logo.,10,task,Inform
+TS3010d,A,138.61,140.67,2.06,TS3010d.A.dialog-act.dharshi.24,,,,,,,,,False, Okay. Very good.,3,task,Assess
+TS3010d,C,141.188,142.958,1.77,TS3010d.C.dialog-act.dharshi.14,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,141.8,143.135,1.335,TS3010d.A.dialog-act.dharshi.25,,,,,,,,,False," So, we have",3,minor,Fragment
+TS3010d,D,142.18,144.02,1.84,TS3010d.D.dialog-act.dharshi.4,A,B,4.35,2.59,True,False,0.0,[],True, That's on the rub rubber part.,6,task,Inform
+TS3010d,B,145.19,146.86,1.67,TS3010d.B.dialog-act.dharshi.34,,,,,,,,,False," Uh, yes. Yes.",3,task,Assess
+TS3010d,B,146.86,147.8,0.94,TS3010d.B.dialog-act.dharshi.35,,,,,,,,,False, That's about here.,3,task,Inform
+TS3010d,A,148.37,154.12,5.75,TS3010d.A.dialog-act.dharshi.26,A,D,2.81,4.35,True,False,0.0,[],True," So, what they say on the side is put fashion there.",11,task,Inform
+TS3010d,A,154.12,156.93,2.81,TS3010d.A.dialog-act.dharshi.27,,,,,,,,,False, Yes. It's good.,3,task,Assess
+TS3010d,B,156.05,156.24,0.19,TS3010d.B.dialog-act.dharshi.36,,,,,,,,,False, Oh.,1,other,Other
+TS3010d,A,156.93,162.73,5.8,TS3010d.A.dialog-act.dharshi.28,A,A,4.29,2.81,False,False,0.0,[],False," So, that's it. That's prototype.",5,task,Inform
+TS3010d,D,157.3,157.51,0.21,TS3010d.D.dialog-act.dharshi.5,,,,,,,,,False, Yeah?,1,other,Comment-About-Understanding
+TS3010d,A,162.73,165.946,3.216,TS3010d.A.dialog-act.dharshi.29,,,,,,,,,False," Now, the finance.",3,task,Inform
+TS3010d,A,167.02,170.05,3.03,TS3010d.A.dialog-act.dharshi.30,A,A,0.0,4.29,False,False,0.0,[],False, We don't know if it's th it if it's okay.,10,task,Inform
+TS3010d,D,168.18,169.323,1.143,TS3010d.D.dialog-act.dharshi.6,,,,,,,,,False, Alright.,1,task,Assess
+TS3010d,A,170.05,172.68,2.63,TS3010d.A.dialog-act.dharshi.31,D,A,-0.05,0.0,False,True,0.05,['TS3010d.D.dialog-act.dharshi.8'],False," So, I'm gonna look.",4,other,Offer
+TS3010d,D,172.06,172.63,0.57,TS3010d.D.dialog-act.dharshi.7,,,,,,,,,False, Do we,2,minor,Stall
+TS3010d,D,172.63,173.556,0.926,TS3010d.D.dialog-act.dharshi.8,D,A,1.144,-0.05,True,False,0.0,[],False, Do we change the,4,elicit,Elicit-Inform
+TS3010d,A,172.68,174.23,1.55,TS3010d.A.dialog-act.dharshi.32,,,,,,,,,False, We have,2,minor,Fragment
+TS3010d,A,174.23,174.5,0.27,TS3010d.A.dialog-act.dharshi.33,,,,,,,,,False, Sorry?,1,other,Comment-About-Understanding
+TS3010d,D,174.7,177.64,2.94,TS3010d.D.dialog-act.dharshi.9,D,D,0.0,1.144,False,False,0.0,[],False, Do we change the the order?,6,elicit,Elicit-Inform
+TS3010d,D,177.64,181.03,3.39,TS3010d.D.dialog-act.dharshi.10,A,D,4.24,0.0,False,False,0.0,[],False, Or are we going to uh ev evaluate it first?,10,elicit,Elicit-Inform
+TS3010d,A,178.65,180.23,1.58,TS3010d.A.dialog-act.dharshi.35,,,,,,,,,False, Finance is um,3,minor,Fragment
+TS3010d,A,180.23,180.676,0.446,TS3010d.A.dialog-act.dharshi.36,,,,,,,,,False, Yeah it's,2,minor,Fragment
+TS3010d,A,181.3,181.71,0.41,TS3010d.A.dialog-act.dharshi.37,,,,,,,,,False," No,",1,task,Inform
+TS3010d,A,181.71,182.644,0.934,TS3010d.A.dialog-act.dharshi.38,,,,,,,,,False, first uh,2,minor,Fragment
+TS3010d,A,185.27,188.3,3.03,TS3010d.A.dialog-act.dharshi.39,D,D,6.21,4.24,True,False,0.0,[],True, Yes. We have to evaluate the product yet.,8,task,Inform
+TS3010d,D,187.24,188.9,1.66,TS3010d.D.dialog-act.dharshi.11,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3010d,A,188.3,188.68,0.38,TS3010d.A.dialog-act.dharshi.40,,,,,,,,,False, Sorry.,1,other,Be-Positive
+TS3010d,D,188.9,194.51,5.61,TS3010d.D.dialog-act.dharshi.12,,,,,,,,,False, That's uh um,3,minor,Stall
+TS3010d,D,194.51,196.04,1.53,TS3010d.D.dialog-act.dharshi.13,D,A,8.71,6.21,True,False,0.0,[],True, That can be none.,4,task,Assess
+TS3010d,D,204.75,207.61,2.86,TS3010d.D.dialog-act.dharshi.14,D,D,0.0,8.71,False,False,0.0,[],False," Um, we gonna do the evaluation now, together.",8,task,Suggest
+TS3010d,D,207.61,211.51,3.9,TS3010d.D.dialog-act.dharshi.15,D,D,0.0,0.0,False,False,0.0,[],False, But I have uh a introduction how it works.,9,other,Offer
+TS3010d,D,211.51,212.87,1.36,TS3010d.D.dialog-act.dharshi.16,D,D,11.75,0.0,False,False,0.0,[],False," So, it will come up.",5,task,Inform
+TS3010d,D,217.43,219.95,2.52,TS3010d.D.dialog-act.dharshi.17,,,,,,,,,False, Uh-oh.,1,task,Assess
+TS3010d,D,219.95,220.28,0.33,TS3010d.D.dialog-act.dharshi.18,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,D,221.67,222.63,0.96,TS3010d.D.dialog-act.dharshi.19,,,,,,,,,False," Um, yeah.",2,minor,Stall
+TS3010d,D,222.63,224.62,1.99,TS3010d.D.dialog-act.dharshi.20,,,,,,,,,False," Well, we uh uh,",4,minor,Stall
+TS3010d,D,224.62,229.64,5.02,TS3010d.D.dialog-act.dharshi.21,D,D,0.0,11.75,False,False,0.0,[],False," I have um thinked a few evaluation uh criterias,",9,task,Inform
+TS3010d,D,229.64,237.32,7.68,TS3010d.D.dialog-act.dharshi.22,D,D,1.71,0.0,False,False,0.0,[],False," uh based on um our marketing strategy, on uh the latest trends, on user preferences.",15,task,Inform
+TS3010d,D,239.03,244.79,5.76,TS3010d.D.dialog-act.dharshi.23,D,D,0.0,1.71,False,False,0.0,[],False," Uh, we have a seven point scale from uh true, as well. To false, seven?",15,task,Inform
+TS3010d,D,244.79,249.59,4.8,TS3010d.D.dialog-act.dharshi.24,D,D,1.14,0.0,False,False,0.0,[],False," And on base of each c uh criteria, we need to um give a rating.",15,task,Inform
+TS3010d,D,249.59,250.73,1.14,TS3010d.D.dialog-act.dharshi.25,,,,,,,,,False, We can uh,3,minor,Fragment
+TS3010d,D,250.73,251.48,0.75,TS3010d.D.dialog-act.dharshi.26,D,D,0.0,1.14,False,False,0.0,[],False," Well, it look like this.",5,task,Inform
+TS3010d,D,251.48,255.5,4.02,TS3010d.D.dialog-act.dharshi.27,D,D,0.0,0.0,False,False,0.0,[],False," But we gonna uh do it here, they said.",9,task,Inform
+TS3010d,D,255.5,260.08,4.58,TS3010d.D.dialog-act.dharshi.28,D,D,21.55,0.0,False,False,0.0,[],False," So, you hope found out how to do it with a Word document.",13,task,Inform
+TS3010d,D,267.26,267.5,0.24,TS3010d.D.dialog-act.dharshi.29,,,,,,,,,False, Yeah.,1,other,Other
+TS3010d,D,277.53,281.63,4.1,TS3010d.D.dialog-act.dharshi.30,,,,,,,,,False," Okay, yeah. Yeah.",3,task,Assess
+TS3010d,D,281.63,285.12,3.49,TS3010d.D.dialog-act.dharshi.31,D,D,4.82,21.55,False,False,0.0,[],False," Um, well uh we have the Word document",8,task,Inform
+TS3010d,A,282.148,282.55,0.402,TS3010d.A.dialog-act.dharshi.41,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,284.477,286.8,2.323,TS3010d.C.dialog-act.dharshi.15,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,287.88,288.28,0.4,TS3010d.A.dialog-act.dharshi.42,,,,,,,,,False, Criteria.,1,other,Other
+TS3010d,D,289.01,289.94,0.93,TS3010d.D.dialog-act.dharshi.33,,,,,,,,,False, You,1,minor,Stall
+TS3010d,D,289.94,294.36,4.42,TS3010d.D.dialog-act.dharshi.34,D,D,7.16,4.82,False,False,0.0,[],False, So we open up that blank here.,7,task,Inform
+TS3010d,D,294.36,295.14,0.78,TS3010d.D.dialog-act.dharshi.35,,,,,,,,,False, Um,1,minor,Stall
+TS3010d,D,296.948,298.004,1.056,TS3010d.D.dialog-act.dharshi.32,,,,,,,,,False,,0,minor,Fragment
+TS3010d,D,299.29,301.52,2.23,TS3010d.D.dialog-act.dharshi.36,,,,,,,,,False, Think I can,3,minor,Fragment
+TS3010d,D,301.52,304.58,3.06,TS3010d.D.dialog-act.dharshi.37,D,D,0.0,7.16,False,False,0.0,[],False," Uh, what this just an example. So, this not very important.",11,task,Inform
+TS3010d,D,304.58,309.55,4.97,TS3010d.D.dialog-act.dharshi.39,D,D,6.75,0.0,False,False,0.0,[],False," But um, if I can get a number in here.",10,other,Offer
+TS3010d,D,314.44,314.66,0.22,TS3010d.D.dialog-act.dharshi.40,,,,,,,,,False, Hmm.,1,other,Other
+TS3010d,A,315.74,316.79,1.05,TS3010d.A.dialog-act.dharshi.43,,,,,,,,,False," No, it's okay.",3,task,Assess
+TS3010d,D,316.3,318.12,1.82,TS3010d.D.dialog-act.dharshi.41,D,D,1.3,6.75,False,False,0.0,[],False," Well, uh we can't do that.",6,task,Inform
+TS3010d,C,317.75,318.57,0.82,TS3010d.C.dialog-act.dharshi.16,,,,,,,,,False, I'll get it.,3,other,Offer
+TS3010d,A,318.66,319.28,0.62,TS3010d.A.dialog-act.dharshi.44,,,,,,,,,False," Oh, it's okay.",3,task,Assess
+TS3010d,D,319.42,329.39,9.97,TS3010d.D.dialog-act.dharshi.42,D,D,1.24,1.3,False,False,0.0,[],False," Um, so uh you have to think of it as uh the remote control is techno technologically innovative.",18,task,Inform
+TS3010d,D,330.63,333.26,2.63,TS3010d.D.dialog-act.dharshi.43,D,D,1.34,1.24,False,False,0.0,[],False," Uh, and then we have to uh agree on the rating together.",12,task,Suggest
+TS3010d,D,334.6,339.03,4.43,TS3010d.D.dialog-act.dharshi.44,D,D,0.0,1.34,False,False,0.0,[],False," And in the end, we will c uh count an average of all rating.",14,task,Suggest
+TS3010d,D,339.03,340.92,1.89,TS3010d.D.dialog-act.dharshi.45,A,D,2.74,0.0,False,False,0.0,[],False, The first uh on each item.,6,task,Inform
+TS3010d,A,343.66,344.36,0.7,TS3010d.A.dialog-act.dharshi.45,D,D,1.15,2.74,True,False,0.0,[],True, What do you think?,4,elicit,Elicit-Assessment
+TS3010d,D,345.51,353.52,8.01,TS3010d.D.dialog-act.dharshi.46,D,A,3.36,1.15,True,False,0.0,[],True," Yeah, I think it's uh Uh, well technologically using, it's not uh it doesn't contain many new features.",18,task,Assess
+TS3010d,D,353.52,354.65,1.13,TS3010d.D.dialog-act.dharshi.47,,,,,,,,,False, Only the L_C_D_.,3,task,Assess
+TS3010d,D,356.1,356.88,0.78,TS3010d.D.dialog-act.dharshi.48,,,,,,,,,False," So, it",2,minor,Stall
+TS3010d,D,356.88,363.03,6.15,TS3010d.D.dialog-act.dharshi.49,C,D,2.08,3.36,False,False,0.0,[],False," Um, I think I will give it a yeah, yeah, yeah, a four.",13,task,Assess
+TS3010d,D,363.03,363.23,0.2,TS3010d.D.dialog-act.dharshi.50,,,,,,,,,False, Hmm.,1,other,Other
+TS3010d,C,365.11,369.14,4.03,TS3010d.C.dialog-act.dharshi.17,C,D,3.6,2.08,True,False,0.0,[],True, I think the scroll-button is something also uh new.,9,task,Assess
+TS3010d,D,370.3,370.672,0.372,TS3010d.D.dialog-act.dharshi.51,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,370.41,372.74,2.33,TS3010d.C.dialog-act.dharshi.18,,,,,,,,,False," What uh not anoth uh,",5,minor,Stall
+TS3010d,C,372.74,376.13,3.39,TS3010d.C.dialog-act.dharshi.19,C,C,0.0,3.6,False,False,0.0,[],False, not a lot of uh a lot of uh remote controls have.,12,task,Assess
+TS3010d,C,376.13,382.76,6.63,TS3010d.C.dialog-act.dharshi.20,D,C,1.11,0.0,False,False,0.0,[],False, I think technologically I'll give it an seven.,8,task,Assess
+TS3010d,C,382.76,383.77,1.01,TS3010d.C.dialog-act.dharshi.21,,,,,,,,,False, Si six six.,3,task,Assess
+TS3010d,A,383.725,384.73,1.005,TS3010d.A.dialog-act.dharshi.46,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3010d,C,383.77,384.69,0.92,TS3010d.C.dialog-act.dharshi.22,,,,,,,,,False," Sorry, six.",2,task,Assess
+TS3010d,D,383.87,389.31,5.44,TS3010d.D.dialog-act.dharshi.52,D,C,0.0,1.11,True,False,0.0,[],True, So now i I think you uh see it um its statement.,12,task,Inform
+TS3010d,D,389.31,391.21,1.9,TS3010d.D.dialog-act.dharshi.53,C,D,-1.45,0.0,False,True,1.09,"['TS3010d.C.dialog-act.dharshi.23', 'TS3010d.C.dialog-act.dharshi.24']",False, And you true or false.,5,task,Inform
+TS3010d,C,389.76,390.85,1.09,TS3010d.C.dialog-act.dharshi.23,C,D,0.0,-1.45,True,False,0.0,[],False," Oh, true or false.",4,other,Comment-About-Understanding
+TS3010d,C,390.85,393.93,3.08,TS3010d.C.dialog-act.dharshi.24,D,C,-2.72,0.0,False,True,0.72,['TS3010d.D.dialog-act.dharshi.54'],False," Oh, uh I'll I'll give it uh a t a two.",11,task,Assess
+TS3010d,D,391.21,391.93,0.72,TS3010d.D.dialog-act.dharshi.54,A,C,7.2,-2.72,True,False,0.0,[],False, And true is one.,4,task,Inform
+TS3010d,D,392.37,394.09,1.72,TS3010d.D.dialog-act.dharshi.55,,,,,,,,,False," So, yeah. Yeah.",3,task,Assess
+TS3010d,A,393.93,394.21,0.28,TS3010d.A.dialog-act.dharshi.47,,,,,,,,,False, Two.,1,other,Comment-About-Understanding
+TS3010d,C,393.93,394.29,0.36,TS3010d.C.dialog-act.dharshi.25,,,,,,,,,False, Sorry.,1,other,Be-Positive
+TS3010d,A,395.58,395.81,0.23,TS3010d.A.dialog-act.dharshi.48,,,,,,,,,False, You?,1,elicit,Elicit-Assessment
+TS3010d,B,396.44,396.76,0.32,TS3010d.B.dialog-act.dharshi.37,,,,,,,,,False, Three.,1,task,Assess
+TS3010d,A,398.63,399.13,0.5,TS3010d.A.dialog-act.dharshi.49,,,,,,,,,False, Me too.,2,task,Assess
+TS3010d,A,399.13,399.88,0.75,TS3010d.A.dialog-act.dharshi.50,D,D,8.9,7.2,True,False,0.0,[],True, So it's a three.,4,task,Assess
+TS3010d,D,401.1,402.51,1.41,TS3010d.D.dialog-act.dharshi.56,,,,,,,,,False, 'Kay.,1,task,Assess
+TS3010d,D,402.51,403.921,1.411,TS3010d.D.dialog-act.dharshi.57,,,,,,,,,False," Um, well",2,minor,Stall
+TS3010d,D,408.78,411.1,2.32,TS3010d.D.dialog-act.dharshi.58,D,A,1.42,8.9,True,False,0.0,[],True, It's a one. The first item.,6,task,Assess
+TS3010d,D,412.52,414.11,1.59,TS3010d.D.dialog-act.dharshi.60,D,D,0.0,1.42,False,False,0.0,[],False," So, okay the second item.",5,task,Inform
+TS3010d,D,414.11,417.36,3.25,TS3010d.D.dialog-act.dharshi.61,D,D,2.5,0.0,False,False,0.0,[],False," Um, this product is for all sorts of customers.",9,elicit,Elicit-Assessment
+TS3010d,B,419.21,419.924,0.714,TS3010d.B.dialog-act.dharshi.38,,,,,,,,,False, Mm,1,minor,Backchannel
+TS3010d,D,419.86,426.22,6.36,TS3010d.D.dialog-act.dharshi.62,D,D,0.0,2.5,False,False,0.0,[],False," Well, it's a statement which uh I disagree with, because we uh really aim uh at at young market",19,task,Assess
+TS3010d,D,426.22,432.36,6.14,TS3010d.D.dialog-act.dharshi.63,D,D,0.0,0.0,False,False,0.0,[],False," and I think the way it looked uh c uh totally in yellow, it's not uh really aimed for all customers.",21,task,Assess
+TS3010d,D,432.36,433.38,1.02,TS3010d.D.dialog-act.dharshi.64,D,D,2.82,0.0,False,False,0.0,[],False, It doesn't look like that.,5,task,Assess
+TS3010d,A,434.76,435.904,1.144,TS3010d.A.dialog-act.dharshi.51,,,,,,,,,False, So it's a,3,elicit,Elicit-Assessment
+TS3010d,D,436.2,437.16,0.96,TS3010d.D.dialog-act.dharshi.65,A,D,6.54,2.82,False,False,0.0,[],False, That's uh a six.,4,task,Assess
+TS3010d,C,438.4,438.86,0.46,TS3010d.C.dialog-act.dharshi.26,,,,,,,,,False, Five.,1,task,Assess
+TS3010d,B,441.65,442.35,0.7,TS3010d.B.dialog-act.dharshi.39,,,,,,,,,False," Mm, four.",2,task,Assess
+TS3010d,A,443.7,447.91,4.21,TS3010d.A.dialog-act.dharshi.52,A,D,0.0,6.54,True,False,0.0,[],True," Yes, it's for the younger g group.",7,task,Assess
+TS3010d,B,447.85,448.86,1.01,TS3010d.B.dialog-act.dharshi.40,,,,,,,,,False," Yeah, but it's it's",4,minor,Fragment
+TS3010d,A,447.91,449.88,1.97,TS3010d.A.dialog-act.dharshi.53,A,A,1.39,0.0,False,False,0.0,[],False, So it's uh half half of the people.,8,task,Assess
+TS3010d,A,451.27,453.37,2.1,TS3010d.A.dialog-act.dharshi.54,B,A,0.97,1.39,False,False,0.0,[],False, So I think it's four.,5,task,Assess
+TS3010d,B,453.39,454.34,0.95,TS3010d.B.dialog-act.dharshi.41,,,,,,,,,False, Yeah.,1,task,Assess
+TS3010d,B,454.34,458.34,4.0,TS3010d.B.dialog-act.dharshi.42,B,A,0.0,0.97,True,False,0.0,[],True, I mean it still has l large buttons and not m many buttons.,13,task,Inform
+TS3010d,B,458.34,460.59,2.25,TS3010d.B.dialog-act.dharshi.43,A,B,1.04,0.0,False,False,0.0,[],False," So I mean, the colours are for young people,",9,task,Assess
+TS3010d,C,458.4,458.99,0.59,TS3010d.C.dialog-act.dharshi.27,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3010d,A,458.6,458.93,0.33,TS3010d.A.dialog-act.dharshi.55,,,,,,,,,False, No.,1,minor,Backchannel
+TS3010d,B,460.59,460.78,0.19,TS3010d.B.dialog-act.dharshi.44,,,,,,,,,False, but,1,minor,Fragment
+TS3010d,A,461.18,461.63,0.45,TS3010d.A.dialog-act.dharshi.56,,,,,,,,,False, Yes.,1,task,Assess
+TS3010d,A,461.63,462.98,1.35,TS3010d.A.dialog-act.dharshi.57,C,B,1.4,1.04,True,False,0.0,[],True," So, I think it's four.",5,task,Assess
+TS3010d,B,462.28,462.788,0.508,TS3010d.B.dialog-act.dharshi.45,,,,,,,,,False, older,1,minor,Fragment
+TS3010d,D,463.666,464.039,0.373,TS3010d.D.dialog-act.dharshi.67,,,,,,,,,False,,0,minor,Fragment
+TS3010d,B,464.25,464.48,0.23,TS3010d.B.dialog-act.dharshi.46,,,,,,,,,False, Yeah.,1,task,Assess
+TS3010d,C,464.38,470.548,6.168,TS3010d.C.dialog-act.dharshi.28,A,A,0.432,1.4,True,False,0.0,[],True, Maybe version uh three point O_ uh has other colours.,10,task,Suggest
+TS3010d,D,467.092,470.42,3.328,TS3010d.D.dialog-act.dharshi.66,,,,,,,,,False,,0,minor,Fragment
+TS3010d,B,467.604,470.43,2.826,TS3010d.B.dialog-act.dharshi.47,,,,,,,,,False, Yeah. Maybe.,2,task,Assess
+TS3010d,A,470.49,470.98,0.49,TS3010d.A.dialog-act.dharshi.58,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,A,470.98,472.61,1.63,TS3010d.A.dialog-act.dharshi.59,A,C,7.09,0.432,True,False,0.0,[],True, Give it a four.,4,task,Assess
+TS3010d,C,471.94,472.4,0.46,TS3010d.C.dialog-act.dharshi.29,,,,,,,,,False, Four.,1,elicit,Elicit-Assessment
+TS3010d,D,472.44,473.31,0.87,TS3010d.D.dialog-act.dharshi.68,,,,,,,,,False, Four.,1,task,Assess
+TS3010d,A,472.61,472.94,0.33,TS3010d.A.dialog-act.dharshi.60,,,,,,,,,False, Yep.,1,task,Assess
+TS3010d,D,473.31,475.77,2.46,TS3010d.D.dialog-act.dharshi.69,,,,,,,,,False," Uh, okay.",2,task,Assess
+TS3010d,D,475.77,476.12,0.35,TS3010d.D.dialog-act.dharshi.70,,,,,,,,,False, Mm.,1,minor,Stall
+TS3010d,A,479.7,481.5,1.8,TS3010d.A.dialog-act.dharshi.61,D,A,0.17,7.09,False,False,0.0,[],False, We put the fashion in electronics.,6,other,Other
+TS3010d,D,481.67,483.67,2.0,TS3010d.D.dialog-act.dharshi.71,D,A,1.5,0.17,True,False,0.0,[],True, That's uh the motto of our company.,7,task,Inform
+TS3010d,D,485.17,487.4,2.23,TS3010d.D.dialog-act.dharshi.72,D,D,7.66,1.5,False,False,0.0,[],False," Yeah, well do we do this with uh this product?",10,elicit,Elicit-Assessment
+TS3010d,D,493.67,495.06,1.39,TS3010d.D.dialog-act.dharshi.73,,,,,,,,,False, I um Yeah.,3,minor,Stall
+TS3010d,D,495.06,503.09,8.03,TS3010d.D.dialog-act.dharshi.74,D,D,0.0,7.66,False,False,0.0,[],False," I think if we do this, as it's uh uh c uh it's really orientates on the design.",18,task,Assess
+TS3010d,D,503.09,504.47,1.38,TS3010d.D.dialog-act.dharshi.75,C,D,2.88,0.0,False,False,0.0,[],False," Um, so I would give it a two.",8,task,Assess
+TS3010d,C,507.35,515.18,7.83,TS3010d.C.dialog-act.dharshi.30,C,D,0.0,2.88,True,False,0.0,[],True," Me too a two, because only the battery is not uh techin uh technologically high standard.",16,task,Assess
+TS3010d,C,515.18,517.1,1.92,TS3010d.C.dialog-act.dharshi.31,C,C,0.0,0.0,False,False,0.0,[],False, But the rest of it is.,6,task,Assess
+TS3010d,C,517.1,517.96,0.86,TS3010d.C.dialog-act.dharshi.32,A,C,4.91,0.0,False,False,0.0,[],False," So, I think a two.",5,task,Assess
+TS3010d,A,519.764,520.116,0.352,TS3010d.A.dialog-act.dharshi.62,,,,,,,,,False,,0,minor,Fragment
+TS3010d,B,520.95,521.4,0.45,TS3010d.B.dialog-act.dharshi.48,,,,,,,,,False, Yes. Two.,2,task,Assess
+TS3010d,D,522.46,522.94,0.48,TS3010d.D.dialog-act.dharshi.76,,,,,,,,,False, Two.,1,task,Assess
+TS3010d,A,522.87,525.46,2.59,TS3010d.A.dialog-act.dharshi.63,A,C,0.0,4.91,True,False,0.0,[],True," Uh, I say uh a five.",6,task,Assess
+TS3010d,A,525.46,526.58,1.12,TS3010d.A.dialog-act.dharshi.64,A,A,1.96,0.0,False,False,0.0,[],False," It's not fashion, it's new.",5,task,Assess
+TS3010d,A,528.54,529.84,1.3,TS3010d.A.dialog-act.dharshi.65,C,A,2.24,1.96,False,False,0.0,[],False, It must be a fashion.,5,task,Assess
+TS3010d,A,531.04,533.2,2.16,TS3010d.A.dialog-act.dharshi.66,,,,,,,,,False, But it isn't.,3,task,Assess
+TS3010d,C,531.13,532.08,0.95,TS3010d.C.dialog-act.dharshi.33,,,,,,,,,False, It,1,minor,Stall
+TS3010d,C,532.08,533.12,1.04,TS3010d.C.dialog-act.dharshi.34,A,A,0.7,2.24,True,False,0.0,[],True, it will be fashion.,4,task,Assess
+TS3010d,A,533.2,533.82,0.62,TS3010d.A.dialog-act.dharshi.67,,,,,,,,,False, Yes.,1,task,Assess
+TS3010d,A,533.82,536.63,2.81,TS3010d.A.dialog-act.dharshi.68,A,C,1.41,0.7,True,False,0.0,[],True, It w If it's not a fashion,7,task,Suggest
+TS3010d,A,538.04,539.75,1.71,TS3010d.A.dialog-act.dharshi.69,A,A,0.0,1.41,False,False,0.0,[],False, we can put it in it.,6,task,Suggest
+TS3010d,A,539.75,543.18,3.43,TS3010d.A.dialog-act.dharshi.70,A,A,0.0,0.0,False,False,0.0,[],False," So, it must be a fashion.",6,task,Inform
+TS3010d,A,543.18,544.23,1.05,TS3010d.A.dialog-act.dharshi.71,B,A,7.96,0.0,False,False,0.0,[],False, I think it's a five.,5,task,Assess
+TS3010d,C,548.708,551.476,2.768,TS3010d.C.dialog-act.dharshi.35,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,549.332,550.323,0.991,TS3010d.A.dialog-act.dharshi.72,,,,,,,,,False,,0,minor,Fragment
+TS3010d,D,549.94,550.58,0.64,TS3010d.D.dialog-act.dharshi.77,,,,,,,,,False, Uh,1,minor,Stall
+TS3010d,D,550.58,550.93,0.35,TS3010d.D.dialog-act.dharshi.78,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,B,552.19,553.36,1.17,TS3010d.B.dialog-act.dharshi.49,D,A,0.16,7.96,True,False,0.0,[],True, Then make it th three.,5,task,Suggest
+TS3010d,D,552.66,553.52,0.86,TS3010d.D.dialog-act.dharshi.79,,,,,,,,,False, Okay.,1,minor,Backchannel
+TS3010d,D,553.52,555.55,2.03,TS3010d.D.dialog-act.dharshi.80,C,B,-0.5,0.16,True,True,0.5,['TS3010d.C.dialog-act.dharshi.36'],True," Yes, I'll think of that too.",6,task,Assess
+TS3010d,A,554.44,555.27,0.83,TS3010d.A.dialog-act.dharshi.74,,,,,,,,,False, No.,1,task,Assess
+TS3010d,C,555.05,556.29,1.24,TS3010d.C.dialog-act.dharshi.36,A,D,0.11,-0.5,True,False,0.0,[],False, 'Kay. Three is okay.,4,task,Assess
+TS3010d,A,555.27,556.4,1.13,TS3010d.A.dialog-act.dharshi.75,,,,,,,,,False, Oh.,1,other,Other
+TS3010d,D,555.55,556.15,0.6,TS3010d.D.dialog-act.dharshi.81,,,,,,,,,False," Yeah, agree?",2,elicit,Elicit-Assessment
+TS3010d,A,556.4,559.593,3.193,TS3010d.A.dialog-act.dharshi.73,C,C,-1.801,0.11,True,True,1.801,['TS3010d.C.dialog-act.dharshi.38'],True, I use my feet though.,5,other,Be-Positive
+TS3010d,B,557.508,558.452,0.944,TS3010d.B.dialog-act.dharshi.50,,,,,,,,,False,,0,minor,Fragment
+TS3010d,D,557.748,559.924,2.176,TS3010d.D.dialog-act.dharshi.82,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,557.792,561.22,3.428,TS3010d.C.dialog-act.dharshi.38,D,A,8.81,-1.801,True,False,0.0,[],False," Oh, we'll wait outside.",4,other,Be-Positive
+TS3010d,A,561.312,562.627,1.315,TS3010d.A.dialog-act.dharshi.77,,,,,,,,,False,,0,minor,Fragment
+TS3010d,D,561.332,564.34,3.008,TS3010d.D.dialog-act.dharshi.84,,,,,,,,,False, A three.,2,elicit,Elicit-Assessment
+TS3010d,A,565.54,565.99,0.45,TS3010d.A.dialog-act.dharshi.78,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,D,566.29,567.03,0.74,TS3010d.D.dialog-act.dharshi.85,,,,,,,,,False, Yeah okay.,2,task,Assess
+TS3010d,B,566.441,567.115,0.674,TS3010d.B.dialog-act.dharshi.52,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,566.852,569.22,2.368,TS3010d.C.dialog-act.dharshi.37,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,567.471,567.972,0.501,TS3010d.A.dialog-act.dharshi.76,,,,,,,,,False,,0,minor,Fragment
+TS3010d,D,570.03,576.0,5.97,TS3010d.D.dialog-act.dharshi.86,D,C,0.0,8.81,True,False,0.0,[],True, The next element um is the product looks good.,9,task,Inform
+TS3010d,D,576.0,581.91,5.91,TS3010d.D.dialog-act.dharshi.87,D,D,0.0,0.0,False,False,0.0,[],False," Well personally, I do not prefer a um remote control that's fully in yellow.",14,task,Assess
+TS3010d,D,581.91,583.05,1.14,TS3010d.D.dialog-act.dharshi.88,C,D,2.28,0.0,False,False,0.0,[],False," So, I would give this a five.",7,task,Assess
+TS3010d,C,585.33,588.868,3.538,TS3010d.C.dialog-act.dharshi.39,A,D,7.652,2.28,True,False,0.0,[],True, I give it a one.,5,task,Assess
+TS3010d,B,586.5,587.323,0.823,TS3010d.B.dialog-act.dharshi.51,,,,,,,,,False,,0,minor,Fragment
+TS3010d,D,586.804,587.967,1.163,TS3010d.D.dialog-act.dharshi.83,,,,,,,,,False,,0,minor,Fragment
+TS3010d,B,588.964,589.716,0.752,TS3010d.B.dialog-act.dharshi.53,,,,,,,,,False,.,0,minor,Fragment
+TS3010d,B,592.21,593.13,0.92,TS3010d.B.dialog-act.dharshi.54,,,,,,,,,False," Yes, a one.",3,task,Assess
+TS3010d,B,593.13,593.76,0.63,TS3010d.B.dialog-act.dharshi.55,,,,,,,,,False, I like it.,3,task,Assess
+TS3010d,A,596.52,598.91,2.39,TS3010d.A.dialog-act.dharshi.79,A,C,0.0,7.652,True,False,0.0,[],True," Well, I say three.",4,task,Assess
+TS3010d,A,598.91,603.748,4.838,TS3010d.A.dialog-act.dharshi.80,D,A,-0.058,0.0,False,True,0.058,['TS3010d.D.dialog-act.dharshi.89'],False," So, counting then is two and a half.",8,task,Inform
+TS3010d,D,603.69,605.94,2.25,TS3010d.D.dialog-act.dharshi.89,D,A,6.39,-0.058,True,False,0.0,[],False, We have to do our uh,6,task,Inform
+TS3010d,C,605.24,606.91,1.67,TS3010d.C.dialog-act.dharshi.40,,,,,,,,,False, Say two.,2,task,Assess
+TS3010d,D,605.94,607.23,1.29,TS3010d.D.dialog-act.dharshi.90,,,,,,,,,False, Two or three?,3,elicit,Elicit-Assessment
+TS3010d,A,606.48,607.19,0.71,TS3010d.A.dialog-act.dharshi.81,,,,,,,,,False," Okay, two.",2,task,Assess
+TS3010d,C,606.91,607.46,0.55,TS3010d.C.dialog-act.dharshi.41,,,,,,,,,False, Two.,1,task,Assess
+TS3010d,D,607.23,608.29,1.06,TS3010d.D.dialog-act.dharshi.91,,,,,,,,,False, Two. Okay.,2,task,Assess
+TS3010d,C,609.94,613.908,3.968,TS3010d.C.dialog-act.dharshi.42,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,611.348,612.372,1.024,TS3010d.A.dialog-act.dharshi.82,,,,,,,,,False,,0,minor,Fragment
+TS3010d,D,612.33,616.73,4.4,TS3010d.D.dialog-act.dharshi.92,D,D,3.14,6.39,False,False,0.0,[],False," So, well we gonna do the next part.",8,task,Suggest
+TS3010d,D,616.73,618.42,1.69,TS3010d.D.dialog-act.dharshi.93,,,,,,,,,False," Uh, yep.",2,minor,Stall
+TS3010d,D,619.87,623.72,3.85,TS3010d.D.dialog-act.dharshi.94,D,D,1.39,3.14,False,False,0.0,[],False," Uh uh, the next statement. It has not too much buttons.",11,task,Inform
+TS3010d,D,623.72,625.11,1.39,TS3010d.D.dialog-act.dharshi.96,,,,,,,,,False," Um, yeah,",2,minor,Stall
+TS3010d,D,625.11,630.62,5.51,TS3010d.D.dialog-act.dharshi.97,D,D,0.0,1.39,False,False,0.0,[],False, I I have uh said is not because uh a low number is better.,14,task,Assess
+TS3010d,D,630.62,632.39,1.77,TS3010d.D.dialog-act.dharshi.98,D,D,1.14,0.0,False,False,0.0,[],False, And in the end we calculate an average.,8,task,Suggest
+TS3010d,D,633.53,637.31,3.78,TS3010d.D.dialog-act.dharshi.99,D,D,2.07,1.14,False,False,0.0,[],False," So, um that's why it's a negative in it.",9,task,Inform
+TS3010d,D,639.38,643.02,3.64,TS3010d.D.dialog-act.dharshi.100,D,D,0.0,2.07,False,False,0.0,[],False," Um, well this one of our aims not have too much buttons.",12,task,Inform
+TS3010d,D,643.02,646.36,3.34,TS3010d.D.dialog-act.dharshi.101,D,D,0.0,0.0,False,False,0.0,[],False," So, um uh did we uh do that?",8,elicit,Elicit-Assessment
+TS3010d,D,646.36,654.92,8.56,TS3010d.D.dialog-act.dharshi.102,D,D,0.85,0.0,False,False,0.0,[],False," Well, uh if we go to uh this fashion, I We still have caused uh a lot of uh buttons for the numbers.",23,task,Inform
+TS3010d,D,655.77,657.08,1.31,TS3010d.D.dialog-act.dharshi.103,D,D,0.0,0.85,False,False,0.0,[],False, But you can you can go for that.,8,task,Inform
+TS3010d,D,657.08,661.66,4.58,TS3010d.D.dialog-act.dharshi.104,D,D,0.0,0.0,False,False,0.0,[],False," And um that way, you don't have a lot of buttons over.",12,task,Inform
+TS3010d,D,661.66,662.95,1.29,TS3010d.D.dialog-act.dharshi.105,D,D,11.518,0.0,False,False,0.0,[],False," So, I would give this a two.",7,task,Assess
+TS3010d,C,663.99,664.32,0.33,TS3010d.C.dialog-act.dharshi.43,,,,,,,,,False, One.,1,task,Assess
+TS3010d,A,667.076,667.86,0.784,TS3010d.A.dialog-act.dharshi.83,,,,,,,,,False, You?,1,elicit,Elicit-Assessment
+TS3010d,B,669.1,670.072,0.972,TS3010d.B.dialog-act.dharshi.56,,,,,,,,,False, One.,1,task,Assess
+TS3010d,A,670.02,670.86,0.84,TS3010d.A.dialog-act.dharshi.84,,,,,,,,,False, Me too. One.,3,task,Assess
+TS3010d,D,671.24,671.75,0.51,TS3010d.D.dialog-act.dharshi.106,,,,,,,,,False, One.,1,task,Assess
+TS3010d,D,674.468,678.58,4.112,TS3010d.D.dialog-act.dharshi.107,A,D,7.15,11.518,False,False,0.0,[],False," Um, but where where is the?",6,elicit,Elicit-Inform
+TS3010d,C,675.332,678.052,2.72,TS3010d.C.dialog-act.dharshi.44,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,681.27,682.4,1.13,TS3010d.A.dialog-act.dharshi.85,,,,,,,,,False," Next, six.",2,task,Inform
+TS3010d,A,685.73,687.76,2.03,TS3010d.A.dialog-act.dharshi.86,D,D,2.67,7.15,True,False,0.0,[],True, It does not get lost easily.,6,elicit,Elicit-Assessment
+TS3010d,D,685.84,686.221,0.381,TS3010d.D.dialog-act.dharshi.108,,,,,,,,,False, So,1,minor,Stall
+TS3010d,D,690.43,692.43,2.0,TS3010d.D.dialog-act.dharshi.109,C,A,6.76,2.67,True,False,0.0,[],True," Yeah, did we implement uh the sound?",7,elicit,Elicit-Inform
+TS3010d,C,695.316,699.19,3.874,TS3010d.C.dialog-act.dharshi.45,,,,,,,,,False, Uh,1,minor,Stall
+TS3010d,B,697.74,698.707,0.967,TS3010d.B.dialog-act.dharshi.57,,,,,,,,,False, Yes.,1,task,Inform
+TS3010d,D,698.564,699.188,0.624,TS3010d.D.dialog-act.dharshi.110,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,699.19,702.193,3.003,TS3010d.C.dialog-act.dharshi.46,A,D,-0.373,6.76,True,True,0.373,['TS3010d.A.dialog-act.dharshi.87'],True, Just a small thing.,4,task,Inform
+TS3010d,A,701.82,704.19,2.37,TS3010d.A.dialog-act.dharshi.87,A,C,0.0,-0.373,True,False,0.0,[],False," No, we did not.",4,task,Inform
+TS3010d,B,703.89,704.792,0.902,TS3010d.B.dialog-act.dharshi.58,,,,,,,,,False," Yeah, but uh",3,minor,Fragment
+TS3010d,A,704.19,708.98,4.79,TS3010d.A.dialog-act.dharshi.88,A,A,0.0,0.0,False,False,0.0,[],False," So, but can it get lost if it's such a thing?",11,elicit,Elicit-Assessment
+TS3010d,B,707.54,707.97,0.43,TS3010d.B.dialog-act.dharshi.59,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3010d,C,708.44,710.63,2.19,TS3010d.C.dialog-act.dharshi.47,,,,,,,,,False, Ah. Yellow.,2,task,Inform
+TS3010d,A,708.98,709.89,0.91,TS3010d.A.dialog-act.dharshi.89,C,A,0.74,0.0,False,False,0.0,[],False, I don't think so.,4,task,Assess
+TS3010d,D,709.585,710.628,1.043,TS3010d.D.dialog-act.dharshi.111,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,710.63,712.03,1.4,TS3010d.C.dialog-act.dharshi.48,A,A,-0.15,0.74,True,True,0.15,['TS3010d.A.dialog-act.dharshi.91'],True, Looks like a pistol.,4,task,Inform
+TS3010d,A,711.14,711.88,0.74,TS3010d.A.dialog-act.dharshi.90,,,,,,,,,False, Yes.,1,task,Assess
+TS3010d,A,711.88,714.758,2.878,TS3010d.A.dialog-act.dharshi.91,C,C,-0.018,-0.15,True,True,0.018,['TS3010d.C.dialog-act.dharshi.50'],False, Not a not a normal shapes. So,7,task,Assess
+TS3010d,C,712.03,712.452,0.422,TS3010d.C.dialog-act.dharshi.49,,,,,,,,,False, Uh,1,minor,Fragment
+TS3010d,C,714.74,718.03,3.29,TS3010d.C.dialog-act.dharshi.50,A,A,-0.46,-0.018,True,True,0.46,['TS3010d.A.dialog-act.dharshi.93'],False, It won't get between uh the pillows uh on the couch.,11,task,Assess
+TS3010d,A,716.44,716.71,0.27,TS3010d.A.dialog-act.dharshi.92,,,,,,,,,False, No.,1,minor,Backchannel
+TS3010d,A,717.57,719.28,1.71,TS3010d.A.dialog-act.dharshi.93,D,C,10.1,-0.46,True,False,0.0,[],False, It won't get lost.,4,task,Assess
+TS3010d,D,717.69,718.01,0.32,TS3010d.D.dialog-act.dharshi.112,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3010d,A,719.28,719.679,0.399,TS3010d.A.dialog-act.dharshi.94,,,,,,,,,False, So,1,minor,Fragment
+TS3010d,C,719.55,719.94,0.39,TS3010d.C.dialog-act.dharshi.51,,,,,,,,,False, Uh,1,minor,Fragment
+TS3010d,D,719.85,720.34,0.49,TS3010d.D.dialog-act.dharshi.113,,,,,,,,,False, It won't.,2,task,Assess
+TS3010d,A,721.22,722.299,1.079,TS3010d.A.dialog-act.dharshi.95,,,,,,,,,False, A one?,2,elicit,Elicit-Assessment
+TS3010d,C,723.96,725.18,1.22,TS3010d.C.dialog-act.dharshi.52,,,,,,,,,False," Yeah, o one.",3,task,Assess
+TS3010d,B,724.12,724.49,0.37,TS3010d.B.dialog-act.dharshi.60,,,,,,,,,False, Yeah.,1,task,Assess
+TS3010d,A,724.65,726.39,1.74,TS3010d.A.dialog-act.dharshi.96,,,,,,,,,False," Okay, a one.",3,task,Assess
+TS3010d,D,725.67,725.96,0.29,TS3010d.D.dialog-act.dharshi.114,,,,,,,,,False, One.,1,task,Assess
+TS3010d,A,726.39,726.73,0.34,TS3010d.A.dialog-act.dharshi.97,,,,,,,,,False, Next.,1,task,Inform
+TS3010d,D,729.38,733.61,4.23,TS3010d.D.dialog-act.dharshi.115,D,A,0.0,10.1,True,False,0.0,[],True," Okay, um well we aimed for the younger market.",9,task,Inform
+TS3010d,A,730.516,731.032,0.516,TS3010d.A.dialog-act.dharshi.98,,,,,,,,,False,,0,minor,Fragment
+TS3010d,D,733.61,736.39,2.78,TS3010d.D.dialog-act.dharshi.116,D,D,0.0,0.0,False,False,0.0,[],False," Uh yeah, did we achieve that.",6,elicit,Elicit-Assessment
+TS3010d,D,736.39,741.39,5.0,TS3010d.D.dialog-act.dharshi.117,A,D,4.01,0.0,False,False,0.0,[],False," I think with the way it looks and um it is designed, I will give it a two.",18,task,Assess
+TS3010d,A,742.44,743.316,0.876,TS3010d.A.dialog-act.dharshi.99,,,,,,,,,False, Yeah me,2,task,Assess
+TS3010d,C,744.42,745.66,1.24,TS3010d.C.dialog-act.dharshi.53,,,,,,,,,False, Yeah. Me too.,3,task,Assess
+TS3010d,A,745.4,748.16,2.76,TS3010d.A.dialog-act.dharshi.100,A,D,5.9,4.01,True,False,0.0,[],True, That was our target.,4,task,Inform
+TS3010d,A,748.16,748.33,0.17,TS3010d.A.dialog-act.dharshi.101,,,,,,,,,False, Two.,1,task,Inform
+TS3010d,C,750.35,750.88,0.53,TS3010d.C.dialog-act.dharshi.54,,,,,,,,,False, Two.,1,task,Assess
+TS3010d,D,750.76,751.02,0.26,TS3010d.D.dialog-act.dharshi.118,,,,,,,,,False, Yeah.,1,task,Assess
+TS3010d,C,750.88,751.22,0.34,TS3010d.C.dialog-act.dharshi.55,,,,,,,,,False, Yeah?,1,elicit,Elicit-Assessment
+TS3010d,A,750.98,752.46,1.48,TS3010d.A.dialog-act.dharshi.103,,,,,,,,,False, Yep.,1,task,Assess
+TS3010d,C,751.22,751.55,0.33,TS3010d.C.dialog-act.dharshi.56,,,,,,,,,False, Yeah.,1,task,Assess
+TS3010d,A,752.46,752.99,0.53,TS3010d.A.dialog-act.dharshi.104,,,,,,,,,False, Right.,1,minor,Stall
+TS3010d,A,754.06,755.59,1.53,TS3010d.A.dialog-act.dharshi.102,D,A,2.3,5.9,False,False,0.0,[],False, There's a fancy look-and-feel.,4,elicit,Elicit-Assessment
+TS3010d,D,756.93,757.89,0.96,TS3010d.D.dialog-act.dharshi.119,,,,,,,,,False," Uh, yes.",2,task,Assess
+TS3010d,D,757.89,762.47,4.58,TS3010d.D.dialog-act.dharshi.120,D,A,0.0,2.3,True,False,0.0,[],True," That that was uh, yeah, one of the most important things that uh Trendwatch said.",15,task,Inform
+TS3010d,D,762.47,765.85,3.38,TS3010d.D.dialog-act.dharshi.121,D,D,1.14,0.0,False,False,0.0,[],False, I didn't uh say it in my presentation.,8,task,Inform
+TS3010d,D,765.85,766.99,1.14,TS3010d.D.dialog-act.dharshi.122,,,,,,,,,False," But um,",2,minor,Stall
+TS3010d,D,766.99,767.89,0.9,TS3010d.D.dialog-act.dharshi.123,D,D,2.67,1.14,False,False,0.0,[],False, well does it have that?,5,elicit,Elicit-Assessment
+TS3010d,D,770.56,771.78,1.22,TS3010d.D.dialog-act.dharshi.124,D,D,2.63,2.67,False,False,0.0,[],False, I would say yes.,4,task,Assess
+TS3010d,D,771.78,772.988,1.208,TS3010d.D.dialog-act.dharshi.125,,,,,,,,,False, So um,2,minor,Stall
+TS3010d,D,774.41,776.31,1.9,TS3010d.D.dialog-act.dharshi.126,C,D,1.3,2.63,False,False,0.0,[],False," Well, let's also give this a two.",7,task,Assess
+TS3010d,D,776.31,776.37,0.06,TS3010d.D.dialog-act.dharshi.127,,,,,,,,,False, T,1,minor,Fragment
+TS3010d,C,777.61,780.02,2.41,TS3010d.C.dialog-act.dharshi.57,C,D,1.6,1.3,True,False,0.0,[],True, I gave this a one because of the rubber.,9,task,Assess
+TS3010d,C,780.02,781.62,1.6,TS3010d.C.dialog-act.dharshi.58,,,,,,,,,False, It feels soft.,3,task,Assess
+TS3010d,C,781.62,784.48,2.86,TS3010d.C.dialog-act.dharshi.59,C,C,0.74,1.6,False,False,0.0,[],False," Uh, it looks like a l uh uh b uh, a bit like a joystick.",15,task,Assess
+TS3010d,C,784.48,785.22,0.74,TS3010d.C.dialog-act.dharshi.60,,,,,,,,,False, It's Yeah.,2,minor,Stall
+TS3010d,C,785.22,787.3,2.08,TS3010d.C.dialog-act.dharshi.61,A,C,4.23,0.74,False,False,0.0,[],False," Yeah, f very fancy trendy.",5,task,Assess
+TS3010d,A,788.99,789.37,0.38,TS3010d.A.dialog-act.dharshi.105,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,B,790.24,790.79,0.55,TS3010d.B.dialog-act.dharshi.61,,,,,,,,,False," Yes, a one.",3,task,Assess
+TS3010d,A,791.53,792.2,0.67,TS3010d.A.dialog-act.dharshi.106,A,C,2.08,4.23,True,False,0.0,[],True, I say a two.,4,task,Assess
+TS3010d,B,793.908,794.601,0.693,TS3010d.B.dialog-act.dharshi.62,,,,,,,,,False,,0,minor,Fragment
+TS3010d,D,794.244,795.364,1.12,TS3010d.D.dialog-act.dharshi.128,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,794.28,798.05,3.77,TS3010d.A.dialog-act.dharshi.107,A,A,0.0,2.08,False,False,0.0,[],False, It's a a bit personal. If it's fancy.,8,task,Assess
+TS3010d,D,796.59,796.74,0.15,TS3010d.D.dialog-act.dharshi.129,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3010d,A,798.05,799.55,1.5,TS3010d.A.dialog-act.dharshi.108,D,A,3.31,0.0,False,False,0.0,[],False, So I think s two is better.,7,task,Assess
+TS3010d,B,799.62,800.12,0.5,TS3010d.B.dialog-act.dharshi.63,,,,,,,,,False," Yeah, okay.",2,task,Assess
+TS3010d,D,800.54,802.86,2.32,TS3010d.D.dialog-act.dharshi.130,,,,,,,,,False, Okay. Two.,2,task,Assess
+TS3010d,C,800.94,803.06,2.12,TS3010d.C.dialog-act.dharshi.62,,,,,,,,,False, Two is okay.,3,task,Assess
+TS3010d,D,802.86,806.52,3.66,TS3010d.D.dialog-act.dharshi.131,D,A,0.0,3.31,True,False,0.0,[],True," And um, then the last one I could think of,",10,task,Inform
+TS3010d,C,803.06,803.06,0.0,TS3010d.C.dialog-act.dharshi.63,,,,,,,,,False,.,0,minor,Fragment
+TS3010d,D,806.52,809.03,2.51,TS3010d.D.dialog-act.dharshi.132,D,D,8.89,0.0,False,False,0.0,[],False, uh it goes with the latest trends.,7,elicit,Elicit-Assessment
+TS3010d,A,813.12,815.34,2.22,TS3010d.A.dialog-act.dharshi.109,,,,,,,,,False," No, it's new.",3,task,Assess
+TS3010d,A,815.34,816.12,0.78,TS3010d.A.dialog-act.dharshi.110,,,,,,,,,False, Innovation.,1,task,Assess
+TS3010d,D,817.92,824.61,6.69,TS3010d.D.dialog-act.dharshi.133,D,D,0.0,8.89,False,False,0.0,[],False," If we looked at the latest trends for the uh younger people, and they ate uh fruit and vegetables,",19,task,Inform
+TS3010d,D,824.61,829.38,4.77,TS3010d.D.dialog-act.dharshi.134,D,D,3.09,0.0,False,False,0.0,[],False," well it has a um a nice colour, uh well compared to food",13,task,Assess
+TS3010d,D,829.38,831.236,1.856,TS3010d.D.dialog-act.dharshi.135,,,,,,,,,False, but we didn't uh,4,minor,Stall
+TS3010d,D,832.47,836.19,3.72,TS3010d.D.dialog-act.dharshi.136,D,D,0.0,3.09,False,False,0.0,[],False, We did not paint any uh fruit and vegetable on it for something like that.,15,task,Assess
+TS3010d,C,835.82,836.38,0.56,TS3010d.C.dialog-act.dharshi.64,,,,,,,,,False, Oh.,1,minor,Fragment
+TS3010d,D,836.19,838.38,2.19,TS3010d.D.dialog-act.dharshi.137,D,D,1.05,0.0,False,False,0.0,[],False," So, I would did not give this uh a one or two.",12,task,Assess
+TS3010d,D,838.38,839.43,1.05,TS3010d.D.dialog-act.dharshi.138,,,,,,,,,False, I,1,minor,Stall
+TS3010d,D,839.43,840.65,1.22,TS3010d.D.dialog-act.dharshi.139,C,D,2.38,1.05,False,False,0.0,[],False, We'll go for a three.,5,task,Assess
+TS3010d,C,843.03,848.92,5.89,TS3010d.C.dialog-act.dharshi.65,C,D,0.0,2.38,True,False,0.0,[],True, I go for two because uh the the shapes are still round.,12,task,Assess
+TS3010d,A,843.066,844.069,1.003,TS3010d.A.dialog-act.dharshi.111,,,,,,,,,False,.,0,minor,Fragment
+TS3010d,C,848.92,851.02,2.1,TS3010d.C.dialog-act.dharshi.66,C,C,0.0,0.0,False,False,0.0,[],False," Uh, the latest trends are soft things,",7,task,Inform
+TS3010d,C,851.02,854.42,3.4,TS3010d.C.dialog-act.dharshi.67,C,C,1.7,0.0,False,False,0.0,[],False," you know, like uh I said in my presentation.",9,task,Inform
+TS3010d,D,854.23,854.48,0.25,TS3010d.D.dialog-act.dharshi.140,,,,,,,,,False, Yes.,1,task,Assess
+TS3010d,C,854.42,855.076,0.656,TS3010d.C.dialog-act.dharshi.68,,,,,,,,,False, Uh,1,minor,Fragment
+TS3010d,C,856.12,861.73,5.61,TS3010d.C.dialog-act.dharshi.69,C,C,0.0,1.7,False,False,0.0,[],False," But the the colours are um basic, like yellow, red, um blue.",12,task,Assess
+TS3010d,C,861.73,864.3,2.57,TS3010d.C.dialog-act.dharshi.70,C,C,0.0,0.0,False,False,0.0,[],False, Something what also younger people want.,6,task,Assess
+TS3010d,C,864.3,865.92,1.62,TS3010d.C.dialog-act.dharshi.71,D,C,14.05,0.0,False,False,0.0,[],False," It's also a trend, so I'll give it a two.",10,task,Assess
+TS3010d,A,867.52,867.97,0.45,TS3010d.A.dialog-act.dharshi.113,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,B,869.85,871.05,1.2,TS3010d.B.dialog-act.dharshi.64,,,,,,,,,False," Mm, three.",2,task,Assess
+TS3010d,A,872.1,873.03,0.93,TS3010d.A.dialog-act.dharshi.114,,,,,,,,,False, Me too. Three.,3,task,Assess
+TS3010d,D,874.81,875.24,0.43,TS3010d.D.dialog-act.dharshi.141,,,,,,,,,False, A three.,2,elicit,Elicit-Assessment
+TS3010d,A,875.35,875.77,0.42,TS3010d.A.dialog-act.dharshi.112,,,,,,,,,False, Yeah.,1,task,Assess
+TS3010d,D,879.39,879.97,0.58,TS3010d.D.dialog-act.dharshi.142,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,D,879.97,886.51,6.54,TS3010d.D.dialog-act.dharshi.143,D,C,0.0,14.05,True,False,0.0,[],True," So um, come back to the presentation now.",8,other,Offer
+TS3010d,D,886.51,887.74,1.23,TS3010d.D.dialog-act.dharshi.144,D,D,0.0,0.0,False,False,0.0,[],False," So, we find yourself there,",5,task,Inform
+TS3010d,D,887.74,890.75,3.01,TS3010d.D.dialog-act.dharshi.145,D,D,0.0,0.0,False,False,0.0,[],False, and now we have to calculate an average rating.,9,task,Suggest
+TS3010d,D,890.75,892.17,1.42,TS3010d.D.dialog-act.dharshi.147,A,D,-1.26,0.0,False,True,1.26,['TS3010d.A.dialog-act.dharshi.116'],False," So, we will do that.",5,task,Suggest
+TS3010d,A,890.91,895.66,4.75,TS3010d.A.dialog-act.dharshi.116,A,D,1.54,-1.26,True,False,0.0,[],False," Effort is three, ten and twelve. Thirty, forty, fifty,.",9,other,Other
+TS3010d,D,892.17,892.48,0.31,TS3010d.D.dialog-act.dharshi.148,,,,,,,,,False, Yes.,1,other,Other
+TS3010d,A,895.66,897.2,1.54,TS3010d.A.dialog-act.dharshi.117,,,,,,,,,False, Twenty one.,2,task,Inform
+TS3010d,A,897.2,900.94,3.74,TS3010d.A.dialog-act.dharshi.118,D,A,2.33,1.54,False,False,0.0,[],False," So, it's uh two and three nine two and one third.",11,task,Inform
+TS3010d,D,897.62,898.26,0.64,TS3010d.D.dialog-act.dharshi.149,,,,,,,,,False, By nine.,2,task,Inform
+TS3010d,C,902.66,902.99,0.33,TS3010d.C.dialog-act.dharshi.72,,,,,,,,,False, Two.,1,task,Inform
+TS3010d,D,903.27,908.58,5.31,TS3010d.D.dialog-act.dharshi.150,D,A,16.13,2.33,True,False,0.0,[],True," Yeah. Um, uh okay.",4,task,Assess
+TS3010d,D,911.98,912.39,0.41,TS3010d.D.dialog-act.dharshi.151,,,,,,,,,False, Two.,1,other,Other
+TS3010d,A,916.3,916.64,0.34,TS3010d.A.dialog-act.dharshi.119,,,,,,,,,False, Yep.,1,minor,Backchannel
+TS3010d,D,916.59,919.172,2.582,TS3010d.D.dialog-act.dharshi.152,,,,,,,,,False, Come on.,2,other,Other
+TS3010d,C,917.316,918.19,0.874,TS3010d.C.dialog-act.dharshi.73,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,917.87,918.48,0.61,TS3010d.A.dialog-act.dharshi.120,,,,,,,,,False," Uh, nah.",2,task,Assess
+TS3010d,A,921.54,922.19,0.65,TS3010d.A.dialog-act.dharshi.121,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,D,924.71,926.86,2.15,TS3010d.D.dialog-act.dharshi.154,D,D,3.73,16.13,False,False,0.0,[],False," So uh, that's a pretty low rating, I think.",9,task,Inform
+TS3010d,B,927.828,929.25,1.422,TS3010d.B.dialog-act.dharshi.65,,,,,,,,,False, Yes.,1,task,Assess
+TS3010d,D,928.612,929.508,0.896,TS3010d.D.dialog-act.dharshi.153,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,929.58,930.3,0.72,TS3010d.A.dialog-act.dharshi.122,,,,,,,,,False," So, it's good.",3,task,Assess
+TS3010d,D,930.59,937.044,6.454,TS3010d.D.dialog-act.dharshi.155,D,D,6.226,3.73,False,False,0.0,[],False," So, according to our uh own evaluation uh we did a good job.",13,task,Assess
+TS3010d,A,936.29,936.92,0.63,TS3010d.A.dialog-act.dharshi.123,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,B,936.373,937.305,0.932,TS3010d.B.dialog-act.dharshi.66,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,936.92,937.42,0.5,TS3010d.A.dialog-act.dharshi.124,,,,,,,,,False, Thank you.,2,other,Be-Positive
+TS3010d,C,937.29,938.21,0.92,TS3010d.C.dialog-act.dharshi.74,,,,,,,,,False," Yeah, I think.",3,task,Assess
+TS3010d,D,941.7,943.27,1.57,TS3010d.D.dialog-act.dharshi.156,,,,,,,,,False, Oh. Nah.,2,task,Assess
+TS3010d,D,943.27,944.4,1.13,TS3010d.D.dialog-act.dharshi.157,D,D,2.3,6.226,False,False,0.0,[],False, How am I doing?,4,other,Other
+TS3010d,D,944.4,944.66,0.26,TS3010d.D.dialog-act.dharshi.158,,,,,,,,,False, Yes.,1,task,Assess
+TS3010d,D,946.7,948.38,1.68,TS3010d.D.dialog-act.dharshi.159,A,D,-0.82,2.3,False,True,0.82,['TS3010d.A.dialog-act.dharshi.126'],False, And I closed your slide-show.,5,task,Inform
+TS3010d,A,946.85,947.56,0.71,TS3010d.A.dialog-act.dharshi.125,,,,,,,,,False, Okay.,1,minor,Stall
+TS3010d,A,947.56,949.823,2.263,TS3010d.A.dialog-act.dharshi.126,D,D,0.167,-0.82,True,False,0.0,[],False, Back to my uh,4,task,Suggest
+TS3010d,D,949.99,951.61,1.62,TS3010d.D.dialog-act.dharshi.160,A,A,13.56,0.167,True,False,0.0,[],True, Which one was the last for you?,7,elicit,Elicit-Inform
+TS3010d,D,951.61,952.79,1.18,TS3010d.D.dialog-act.dharshi.161,,,,,,,,,False," Uh, dreaming.",2,other,Other
+TS3010d,A,953.24,953.71,0.47,TS3010d.A.dialog-act.dharshi.127,,,,,,,,,False, Yep.,1,task,Assess
+TS3010d,A,962.51,965.17,2.66,TS3010d.A.dialog-act.dharshi.128,,,,,,,,,False, Next please.,2,task,Suggest
+TS3010d,D,963.62,966.45,2.83,TS3010d.D.dialog-act.dharshi.162,,,,,,,,,False, Next. Finance.,2,task,Inform
+TS3010d,A,965.17,968.37,3.2,TS3010d.A.dialog-act.dharshi.129,A,D,1.53,13.56,True,False,0.0,[],True," So, now uh we have a product.",7,task,Inform
+TS3010d,A,968.37,969.9,1.53,TS3010d.A.dialog-act.dharshi.130,,,,,,,,,False, Very happy.,2,task,Assess
+TS3010d,A,969.9,972.51,2.61,TS3010d.A.dialog-act.dharshi.131,A,A,5.9,1.53,False,False,0.0,[],False," But uh, is it cheap enough?",6,task,Inform
+TS3010d,A,974.98,978.41,3.43,TS3010d.A.dialog-act.dharshi.133,,,,,,,,,False," Um, so if uh",4,minor,Stall
+TS3010d,A,978.41,979.06,0.65,TS3010d.A.dialog-act.dharshi.134,A,A,0.0,5.9,False,False,0.0,[],False, I'll have a look.,4,other,Offer
+TS3010d,A,979.06,981.75,2.69,TS3010d.A.dialog-act.dharshi.135,A,A,10.05,0.0,False,False,0.0,[],False, We have a battery.,4,task,Inform
+TS3010d,A,981.75,982.48,0.73,TS3010d.A.dialog-act.dharshi.136,,,,,,,,,False, One battery.,2,task,Inform
+TS3010d,B,983.8,984.12,0.32,TS3010d.B.dialog-act.dharshi.67,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3010d,C,984.49,985.25,0.76,TS3010d.C.dialog-act.dharshi.78,,,,,,,,,False, Cheapest there is.,3,task,Inform
+TS3010d,A,985.72,987.53,1.81,TS3010d.A.dialog-act.dharshi.137,,,,,,,,,False," Okay, one battery.",3,task,Inform
+TS3010d,A,987.53,989.56,2.03,TS3010d.A.dialog-act.dharshi.138,,,,,,,,,False, Electronics. Advanced chip.,3,task,Inform
+TS3010d,C,990.52,991.29,0.77,TS3010d.C.dialog-act.dharshi.79,,,,,,,,,False, Expensive.,1,task,Inform
+TS3010d,A,991.64,991.8,0.16,TS3010d.A.dialog-act.dharshi.140,,,,,,,,,False, Yeah,1,task,Assess
+TS3010d,A,991.8,993.72,1.92,TS3010d.A.dialog-act.dharshi.141,A,A,2.3,10.05,False,False,0.0,[],False, it's the most advanced.,4,task,Inform
+TS3010d,A,993.72,994.55,0.83,TS3010d.A.dialog-act.dharshi.142,,,,,,,,,False, Chip-on-print.,1,task,Inform
+TS3010d,A,996.02,996.79,0.77,TS3010d.A.dialog-act.dharshi.143,C,A,2.13,2.3,False,False,0.0,[],False, We have that one.,4,task,Inform
+TS3010d,C,998.92,1000.35,1.43,TS3010d.C.dialog-act.dharshi.80,A,A,-0.61,2.13,True,True,0.61,['TS3010d.A.dialog-act.dharshi.144'],True," Well, it's the most advanced.",5,task,Inform
+TS3010d,A,999.74,1001.54,1.8,TS3010d.A.dialog-act.dharshi.144,A,C,1.44,-0.61,True,False,0.0,[],False," We have the simple, regular and advanced.",7,task,Inform
+TS3010d,C,1002.22,1002.87,0.65,TS3010d.C.dialog-act.dharshi.81,,,,,,,,,False, Advanced.,1,task,Inform
+TS3010d,A,1002.98,1005.08,2.1,TS3010d.A.dialog-act.dharshi.145,A,A,0.0,1.44,False,False,0.0,[],False, We have the adva advanced.,5,task,Inform
+TS3010d,A,1005.08,1006.53,1.45,TS3010d.A.dialog-act.dharshi.146,A,A,0.59,0.0,False,False,0.0,[],False," 'Kay, so uncurved or flat.",5,task,Inform
+TS3010d,A,1006.53,1007.12,0.59,TS3010d.A.dialog-act.dharshi.147,,,,,,,,,False, Nope.,1,task,Inform
+TS3010d,A,1007.12,1008.84,1.72,TS3010d.A.dialog-act.dharshi.148,A,A,0.0,0.59,False,False,0.0,[],False, Single curved or double curved?,5,task,Inform
+TS3010d,A,1008.84,1009.99,1.15,TS3010d.A.dialog-act.dharshi.149,A,A,11.82,0.0,False,False,0.0,[],False, We have double curved.,4,task,Inform
+TS3010d,A,1012.604,1014.964,2.36,TS3010d.A.dialog-act.dharshi.132,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,1015.364,1015.748,0.384,TS3010d.C.dialog-act.dharshi.77,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,1018.62,1018.975,0.355,TS3010d.A.dialog-act.dharshi.150,,,,,,,,,False, So,1,minor,Stall
+TS3010d,C,1019.3,1019.812,0.512,TS3010d.C.dialog-act.dharshi.76,,,,,,,,,False,,0,minor,Fragment
+TS3010d,D,1020.579,1021.22,0.641,TS3010d.D.dialog-act.dharshi.163,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,1021.364,1021.604,0.24,TS3010d.C.dialog-act.dharshi.75,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,1021.81,1026.46,4.65,TS3010d.A.dialog-act.dharshi.151,A,A,0.0,11.82,False,False,0.0,[],False," Then we have plastic, wood, rubber.",6,task,Inform
+TS3010d,A,1026.46,1028.54,2.08,TS3010d.A.dialog-act.dharshi.152,A,A,16.08,0.0,False,False,0.0,[],False," we have half rubber, half plastic.",6,task,Inform
+TS3010d,B,1029.58,1030.24,0.66,TS3010d.B.dialog-act.dharshi.68,,,,,,,,,False," Mm, yes.",2,task,Assess
+TS3010d,A,1032.78,1033.9,1.12,TS3010d.A.dialog-act.dharshi.153,,,,,,,,,False, No titanium.,2,task,Inform
+TS3010d,A,1033.9,1034.98,1.08,TS3010d.A.dialog-act.dharshi.154,,,,,,,,,False, Special colour.,2,elicit,Elicit-Inform
+TS3010d,A,1037.61,1038.44,0.83,TS3010d.A.dialog-act.dharshi.155,,,,,,,,,False," Yes, yellow.",2,task,Inform
+TS3010d,D,1037.96,1038.18,0.22,TS3010d.D.dialog-act.dharshi.164,,,,,,,,,False, Yeah.,1,task,Inform
+TS3010d,C,1037.97,1039.297,1.327,TS3010d.C.dialog-act.dharshi.82,,,,,,,,,False," Uh, yellow.",2,task,Inform
+TS3010d,B,1039.07,1039.42,0.35,TS3010d.B.dialog-act.dharshi.69,,,,,,,,,False," Mm, yeah.",2,minor,Backchannel
+TS3010d,A,1040.72,1042.14,1.42,TS3010d.A.dialog-act.dharshi.156,,,,,,,,,False," Interface,",1,task,Inform
+TS3010d,A,1042.14,1042.81,0.67,TS3010d.A.dialog-act.dharshi.157,,,,,,,,,False, push-button.,1,task,Inform
+TS3010d,A,1044.62,1052.5,7.88,TS3010d.A.dialog-act.dharshi.158,A,A,0.0,16.08,False,False,0.0,[],False," Scroll-wheel, integrated scroll-wheel push push-button, or L_C_D_ display.",8,task,Inform
+TS3010d,C,1051.604,1052.052,0.448,TS3010d.C.dialog-act.dharshi.83,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,1052.5,1053.75,1.25,TS3010d.A.dialog-act.dharshi.159,A,A,1.66,0.0,False,False,0.0,[],False," So, we have the L_C_D_",5,task,Inform
+TS3010d,A,1055.41,1058.68,3.27,TS3010d.A.dialog-act.dharshi.160,A,A,1.06,1.66,False,False,0.0,[],False, We have two scroll-wheels? Or one?,6,elicit,Elicit-Inform
+TS3010d,C,1058.47,1058.78,0.31,TS3010d.C.dialog-act.dharshi.84,,,,,,,,,False, One.,1,task,Inform
+TS3010d,D,1059.07,1059.34,0.27,TS3010d.D.dialog-act.dharshi.165,,,,,,,,,False, One.,1,task,Inform
+TS3010d,A,1059.74,1061.37,1.63,TS3010d.A.dialog-act.dharshi.161,A,A,0.94,1.06,False,False,0.0,[],False, And it's not really a s,6,task,Inform
+TS3010d,C,1060.8,1062.35,1.55,TS3010d.C.dialog-act.dharshi.85,,,,,,,,,False, Joystick uh thing.,3,task,Inform
+TS3010d,D,1061.46,1062.023,0.563,TS3010d.D.dialog-act.dharshi.166,,,,,,,,,False,.,0,minor,Fragment
+TS3010d,A,1062.31,1064.64,2.33,TS3010d.A.dialog-act.dharshi.162,A,A,0.0,0.94,False,False,0.0,[],False," Yeah, it's this one.",4,task,Assess
+TS3010d,C,1064.356,1065.674,1.318,TS3010d.C.dialog-act.dharshi.86,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,1064.64,1066.97,2.33,TS3010d.A.dialog-act.dharshi.163,A,A,2.46,0.0,False,False,0.0,[],False," Now, uh button supplement.",4,task,Inform
+TS3010d,A,1066.97,1068.18,1.21,TS3010d.A.dialog-act.dharshi.164,,,,,,,,,False, Special colour.,2,task,Inform
+TS3010d,A,1068.18,1069.43,1.25,TS3010d.A.dialog-act.dharshi.165,,,,,,,,,False, We already,2,minor,Fragment
+TS3010d,A,1069.43,1071.87,2.44,TS3010d.A.dialog-act.dharshi.166,A,A,0.0,2.46,False,False,0.0,[],False," Uh, that's the from the for the buttons.",8,task,Inform
+TS3010d,A,1071.87,1073.93,2.06,TS3010d.A.dialog-act.dharshi.167,C,A,14.762,0.0,False,False,0.0,[],False, The buttons are regular colour.,5,task,Inform
+TS3010d,B,1074.51,1075.04,0.53,TS3010d.B.dialog-act.dharshi.70,,,,,,,,,False," Mm, yeah.",2,task,Assess
+TS3010d,A,1077.99,1082.484,4.494,TS3010d.A.dialog-act.dharshi.168,,,,,,,,,False," So, then uh then then then then then then",9,minor,Stall
+TS3010d,A,1084.39,1085.396,1.006,TS3010d.A.dialog-act.dharshi.169,,,,,,,,,False, Then,1,minor,Stall
+TS3010d,C,1088.692,1092.148,3.456,TS3010d.C.dialog-act.dharshi.87,A,A,3.092,14.762,True,False,0.0,[],True, We're not gonna make it.,5,task,Assess
+TS3010d,A,1091.06,1092.37,1.31,TS3010d.A.dialog-act.dharshi.171,,,,,,,,,False," Uh, no.",2,task,Assess
+TS3010d,A,1092.37,1093.29,0.92,TS3010d.A.dialog-act.dharshi.172,,,,,,,,,False, It's too expensive.,3,task,Inform
+TS3010d,C,1093.26,1093.85,0.59,TS3010d.C.dialog-act.dharshi.88,,,,,,,,,False, Yeah.,1,task,Assess
+TS3010d,C,1093.85,1095.63,1.78,TS3010d.C.dialog-act.dharshi.89,,,,,,,,,False, Wh,1,minor,Fragment
+TS3010d,A,1095.24,1099.81,4.57,TS3010d.A.dialog-act.dharshi.173,C,C,-3.17,3.092,True,True,1.88,['TS3010d.C.dialog-act.dharshi.91'],True," So, we have to change something.",6,task,Suggest
+TS3010d,C,1096.64,1098.52,1.88,TS3010d.C.dialog-act.dharshi.91,A,A,3.79,-3.17,True,False,0.0,[],False, What what are the costs?,5,elicit,Elicit-Inform
+TS3010d,C,1099.333,1100.413,1.08,TS3010d.C.dialog-act.dharshi.90,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,1099.81,1102.08,2.27,TS3010d.A.dialog-act.dharshi.174,,,,,,,,,False, Fifteen Euros.,2,task,Inform
+TS3010d,C,1101.13,1101.9,0.77,TS3010d.C.dialog-act.dharshi.92,,,,,,,,,False, Fifteen.,1,other,Other
+TS3010d,A,1102.08,1102.31,0.23,TS3010d.A.dialog-act.dharshi.175,,,,,,,,,False," Yeah,",1,task,Assess
+TS3010d,A,1102.31,1108.92,6.61,TS3010d.A.dialog-act.dharshi.176,A,C,0.0,3.79,True,False,0.0,[],True," well uh when we lose one scroll-wheel, it's okay.",9,task,Assess
+TS3010d,A,1108.92,1110.99,2.07,TS3010d.A.dialog-act.dharshi.177,A,A,0.0,0.0,False,False,0.0,[],False, 'Cause we can't lose the battery.,6,task,Assess
+TS3010d,A,1110.99,1113.32,2.33,TS3010d.A.dialog-act.dharshi.178,A,A,0.0,0.0,False,False,0.0,[],False, We can't lose the advanced chip.,6,task,Assess
+TS3010d,A,1113.32,1114.88,1.56,TS3010d.A.dialog-act.dharshi.179,A,A,1.68,0.0,False,False,0.0,[],False, We can't lose the double curve.,6,task,Assess
+TS3010d,A,1116.56,1119.7,3.14,TS3010d.A.dialog-act.dharshi.180,C,A,2.17,1.68,False,False,0.0,[],False," We have rubber, special colour.",5,task,Inform
+TS3010d,D,1116.62,1117.067,0.447,TS3010d.D.dialog-act.dharshi.167,,,,,,,,,False,.,0,minor,Fragment
+TS3010d,D,1117.86,1119.57,1.71,TS3010d.D.dialog-act.dharshi.168,,,,,,,,,False, We would have uh n,5,minor,Fragment
+TS3010d,C,1121.1,1121.87,0.77,TS3010d.C.dialog-act.dharshi.93,,,,,,,,,False, A special colour.,3,task,Assess
+TS3010d,C,1121.87,1124.74,2.87,TS3010d.C.dialog-act.dharshi.95,C,A,2.02,2.17,True,False,0.0,[],True," Uh, I don't think it's a very special colour.",9,task,Assess
+TS3010d,A,1122.15,1123.61,1.46,TS3010d.A.dialog-act.dharshi.181,,,,,,,,,False," Oh, no, we",3,minor,Fragment
+TS3010d,A,1123.61,1124.281,0.671,TS3010d.A.dialog-act.dharshi.182,,,,,,,,,False," No, it's uh",3,minor,Fragment
+TS3010d,A,1126.14,1126.56,0.42,TS3010d.A.dialog-act.dharshi.183,,,,,,,,,False, Sorry?,1,other,Comment-About-Understanding
+TS3010d,C,1126.76,1128.43,1.67,TS3010d.C.dialog-act.dharshi.96,D,C,0.86,2.02,False,False,0.0,[],False," Yellow? Uh, is it a special colour?",7,elicit,Elicit-Inform
+TS3010d,D,1129.29,1131.14,1.85,TS3010d.D.dialog-act.dharshi.169,D,C,0.99,0.86,True,False,0.0,[],True, For a remote control.,4,task,Inform
+TS3010d,C,1131.044,1132.13,1.086,TS3010d.C.dialog-act.dharshi.97,,,,,,,,,False, What?,1,other,Comment-About-Understanding
+TS3010d,D,1131.14,1132.13,0.99,TS3010d.D.dialog-act.dharshi.170,,,,,,,,,False, I've,1,minor,Fragment
+TS3010d,D,1132.13,1134.452,2.322,TS3010d.D.dialog-act.dharshi.171,D,D,1.148,0.99,False,False,0.0,[],False," For a remote control, I think it is.",8,task,Inform
+TS3010d,C,1133.62,1135.028,1.408,TS3010d.C.dialog-act.dharshi.98,,,,,,,,,False, Yeah.,1,task,Assess
+TS3010d,D,1135.6,1142.45,6.85,TS3010d.D.dialog-act.dharshi.172,A,D,-0.86,1.148,False,True,0.86,['TS3010d.A.dialog-act.dharshi.184'],False, If we would have uh uh normal buttons instead of uh the joystick. For up down left right.,18,task,Suggest
+TS3010d,A,1141.59,1147.24,5.65,TS3010d.A.dialog-act.dharshi.184,A,D,0.0,-0.86,True,False,0.0,[],False," Um, then we uh lose two Euros.",7,task,Inform
+TS3010d,A,1147.24,1148.77,1.53,TS3010d.A.dialog-act.dharshi.185,A,A,0.0,0.0,False,False,0.0,[],False, Then we have thirteen Euros.,5,task,Inform
+TS3010d,A,1148.77,1150.43,1.66,TS3010d.A.dialog-act.dharshi.186,A,A,4.22,0.0,False,False,0.0,[],False, Half a Euro too much.,5,task,Inform
+TS3010d,A,1154.65,1156.42,1.77,TS3010d.A.dialog-act.dharshi.187,C,A,5.31,4.22,False,False,0.0,[],False, Exactly the special colours.,4,task,Inform
+TS3010d,C,1161.73,1166.292,4.562,TS3010d.C.dialog-act.dharshi.99,C,A,2.298,5.31,True,False,0.0,[],True, And what if we use only one sort of um,10,task,Suggest
+TS3010d,A,1161.91,1162.659,0.749,TS3010d.A.dialog-act.dharshi.188,,,,,,,,,False, So,1,minor,Fragment
+TS3010d,C,1168.59,1172.46,3.87,TS3010d.C.dialog-act.dharshi.100,A,C,7.54,2.298,False,False,0.0,[],False, Um just only plastic or only rubber?,7,task,Suggest
+TS3010d,A,1172.31,1174.45,2.14,TS3010d.A.dialog-act.dharshi.189,,,,,,,,,False, That's one Euro.,3,task,Inform
+TS3010d,C,1175.91,1176.9,0.99,TS3010d.C.dialog-act.dharshi.102,,,,,,,,,False, One Euro discount.,3,other,Comment-About-Understanding
+TS3010d,C,1179.412,1181.574,2.162,TS3010d.C.dialog-act.dharshi.101,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,1180.0,1181.64,1.64,TS3010d.A.dialog-act.dharshi.190,A,C,10.12,7.54,True,False,0.0,[],True," So, I don't think that's good.",6,task,Assess
+TS3010d,A,1183.82,1184.708,0.888,TS3010d.A.dialog-act.dharshi.191,,,,,,,,,False, Mm,1,minor,Stall
+TS3010d,A,1191.76,1193.52,1.76,TS3010d.A.dialog-act.dharshi.192,C,A,5.61,10.12,False,False,0.0,[],False, I think we have to keep the L_C_D_.,8,task,Suggest
+TS3010d,A,1196.01,1196.644,0.634,TS3010d.A.dialog-act.dharshi.193,,,,,,,,,False, If,1,minor,Fragment
+TS3010d,C,1199.13,1206.94,7.81,TS3010d.C.dialog-act.dharshi.103,A,A,2.16,5.61,True,False,0.0,[],True," If we change the joyst uh the joystick thing into a button up, button down, button right, button left.",19,task,Suggest
+TS3010d,A,1207.02,1207.28,0.26,TS3010d.A.dialog-act.dharshi.194,,,,,,,,,False, Yes.,1,task,Assess
+TS3010d,A,1209.1,1214.35,5.25,TS3010d.A.dialog-act.dharshi.195,C,C,0.651,2.16,True,False,0.0,[],True, Then it's only thirteen Euros.,5,task,Inform
+TS3010d,C,1215.001,1218.47,3.469,TS3010d.C.dialog-act.dharshi.104,A,A,7.08,0.651,True,False,0.0,[],True, And then we'll lose fifty cent in what?,8,elicit,Elicit-Offer-Or-Suggestion
+TS3010d,A,1219.12,1220.06,0.94,TS3010d.A.dialog-act.dharshi.196,,,,,,,,,False, So uh yeah.,3,minor,Stall
+TS3010d,A,1223.26,1225.55,2.29,TS3010d.A.dialog-act.dharshi.197,,,,,,,,,False, Yeah. Then you have,4,minor,Stall
+TS3010d,A,1225.55,1227.59,2.04,TS3010d.A.dialog-act.dharshi.198,A,C,3.17,7.08,True,False,0.0,[],True, Or you have to cut this off.,7,task,Suggest
+TS3010d,C,1225.66,1227.0,1.34,TS3010d.C.dialog-act.dharshi.105,,,,,,,,,False, Uh uh-uh.,2,minor,Fragment
+TS3010d,A,1230.76,1234.61,3.85,TS3010d.A.dialog-act.dharshi.199,A,A,1.52,3.17,False,False,0.0,[],False, Then it's not good anymore.,5,task,Assess
+TS3010d,C,1232.66,1233.37,0.71,TS3010d.C.dialog-act.dharshi.106,,,,,,,,,False, No.,1,task,Assess
+TS3010d,A,1234.61,1236.13,1.52,TS3010d.A.dialog-act.dharshi.200,,,,,,,,,False," So, wait.",2,other,Other
+TS3010d,A,1236.13,1238.61,2.48,TS3010d.A.dialog-act.dharshi.201,C,A,5.33,1.52,False,False,0.0,[],False, Okay. I'll have a look.,5,other,Offer
+TS3010d,A,1241.172,1244.635,3.463,TS3010d.A.dialog-act.dharshi.202,,,,,,,,,False, We,1,minor,Fragment
+TS3010d,C,1243.94,1247.0,3.06,TS3010d.C.dialog-act.dharshi.107,C,A,0.0,5.33,True,False,0.0,[],True, And if you say it's just a r uh normal colour,11,task,Suggest
+TS3010d,C,1247.0,1247.89,0.89,TS3010d.C.dialog-act.dharshi.108,C,C,2.59,0.0,False,False,0.0,[],False," it's a normal colour,",4,task,Suggest
+TS3010d,C,1247.89,1250.48,2.59,TS3010d.C.dialog-act.dharshi.109,,,,,,,,,False, wh,1,minor,Fragment
+TS3010d,C,1250.48,1252.484,2.004,TS3010d.C.dialog-act.dharshi.110,C,C,2.416,2.59,False,False,0.0,[],False, No one will see it.,5,task,Inform
+TS3010d,A,1250.8,1251.55,0.75,TS3010d.A.dialog-act.dharshi.204,,,,,,,,,False, Yellow rubber.,2,task,Assess
+TS3010d,A,1252.79,1253.71,0.92,TS3010d.A.dialog-act.dharshi.205,,,,,,,,,False," Yeah, normal.",2,task,Assess
+TS3010d,C,1254.9,1258.43,3.53,TS3010d.C.dialog-act.dharshi.112,C,C,0.0,2.416,False,False,0.0,[],False," Normal colour, and the the joystick away,",7,task,Suggest
+TS3010d,C,1258.43,1261.89,3.46,TS3010d.C.dialog-act.dharshi.113,C,C,2.15,0.0,False,False,0.0,[],False," and put the button up, button down, right, left.",9,task,Suggest
+TS3010d,A,1263.22,1264.756,1.536,TS3010d.A.dialog-act.dharshi.206,,,,,,,,,False, Uh,1,minor,Fragment
+TS3010d,C,1264.04,1266.14,2.1,TS3010d.C.dialog-act.dharshi.114,A,C,20.41,2.15,False,False,0.0,[],False," And it's twelve Euros, I think.",6,task,Inform
+TS3010d,A,1267.63,1270.58,2.95,TS3010d.A.dialog-act.dharshi.207,,,,,,,,,False," One minute, please.",3,other,Other
+TS3010d,A,1270.58,1273.04,2.46,TS3010d.A.dialog-act.dharshi.208,,,,,,,,,False, Uh,1,minor,Stall
+TS3010d,A,1273.04,1277.31,4.27,TS3010d.A.dialog-act.dharshi.209,,,,,,,,,False, Is it maximum.,3,other,Other
+TS3010d,A,1277.31,1278.091,0.781,TS3010d.A.dialog-act.dharshi.210,,,,,,,,,False, Um,1,minor,Stall
+TS3010d,A,1286.55,1287.74,1.19,TS3010d.A.dialog-act.dharshi.211,A,C,4.85,20.41,True,False,0.0,[],True," Yeah, it's normal colour.",4,task,Assess
+TS3010d,A,1292.59,1298.34,5.75,TS3010d.A.dialog-act.dharshi.212,C,A,1.89,4.85,False,False,0.0,[],False," But if you lose the joystick, it's still uh an advanced chip?",12,elicit,Elicit-Inform
+TS3010d,C,1300.23,1303.8,3.57,TS3010d.C.dialog-act.dharshi.116,A,A,-2.27,1.89,True,True,1.94,['TS3010d.A.dialog-act.dharshi.213'],True," No. Uh, no, no, no.",5,task,Inform
+TS3010d,A,1301.53,1303.47,1.94,TS3010d.A.dialog-act.dharshi.213,C,C,3.2,-2.27,True,False,0.0,[],False, Or it's then a regular?,5,elicit,Elicit-Inform
+TS3010d,C,1303.8,1304.9,1.1,TS3010d.C.dialog-act.dharshi.115,,,,,,,,,False, Uh,1,minor,Stall
+TS3010d,C,1306.67,1307.97,1.3,TS3010d.C.dialog-act.dharshi.117,D,A,0.53,3.2,True,False,0.0,[],True," Oh, wait wait wait.",4,other,Other
+TS3010d,D,1308.5,1310.3,1.8,TS3010d.D.dialog-act.dharshi.174,A,C,3.22,0.53,True,False,0.0,[],True, The advanced chip was for the L_C_D_,7,task,Inform
+TS3010d,D,1310.3,1310.77,0.47,TS3010d.D.dialog-act.dharshi.173,,,,,,,,,False, wasn't it?,2,elicit,Elicit-Inform
+TS3010d,B,1311.64,1312.0,0.36,TS3010d.B.dialog-act.dharshi.71,,,,,,,,,False, Yeah.,1,task,Inform
+TS3010d,C,1312.26,1312.71,0.45,TS3010d.C.dialog-act.dharshi.118,,,,,,,,,False, Oh yeah.,2,task,Assess
+TS3010d,A,1313.52,1317.64,4.12,TS3010d.A.dialog-act.dharshi.214,A,D,3.59,3.22,True,False,0.0,[],True," So, the advanced is for the L_C_D_ and the regular for the joystick.",13,task,Inform
+TS3010d,C,1314.1,1314.45,0.35,TS3010d.C.dialog-act.dharshi.119,,,,,,,,,False, Oh yeah.,2,task,Assess
+TS3010d,C,1316.81,1318.32,1.51,TS3010d.C.dialog-act.dharshi.120,,,,,,,,,False," Yeah. Yeah, yeah.",3,task,Assess
+TS3010d,A,1321.23,1323.07,1.84,TS3010d.A.dialog-act.dharshi.215,C,A,1.72,3.59,False,False,0.0,[],False, And what if we lose the L_C_D_?,7,task,Suggest
+TS3010d,C,1324.79,1331.43,6.64,TS3010d.C.dialog-act.dharshi.121,A,A,1.07,1.72,True,False,0.0,[],True," If we lose the L_C_D_, then we have an uh regular chip and no L_C_D_.",15,task,Inform
+TS3010d,A,1328.71,1330.46,1.75,TS3010d.A.dialog-act.dharshi.216,,,,,,,,,False," Yeah, regular chip.",3,task,Assess
+TS3010d,A,1330.46,1330.81,0.35,TS3010d.A.dialog-act.dharshi.217,,,,,,,,,False, But,1,minor,Fragment
+TS3010d,A,1332.5,1333.87,1.37,TS3010d.A.dialog-act.dharshi.218,C,C,2.64,1.07,True,False,0.0,[],True, Is it a good design?,5,elicit,Elicit-Assessment
+TS3010d,C,1336.1,1336.51,0.41,TS3010d.C.dialog-act.dharshi.122,,,,,,,,,False," Uh, yeah.",2,task,Assess
+TS3010d,C,1336.51,1341.2,4.69,TS3010d.C.dialog-act.dharshi.123,C,A,0.0,2.64,True,False,0.0,[],True, Then you'll have to m uh see the menu on the television.,12,task,Inform
+TS3010d,C,1341.2,1344.52,3.32,TS3010d.C.dialog-act.dharshi.124,C,C,1.78,0.0,False,False,0.0,[],False, And you don't have the L_C_D_.,6,task,Inform
+TS3010d,D,1345.7,1346.324,0.624,TS3010d.D.dialog-act.dharshi.175,,,,,,,,,False, If uh,2,minor,Fragment
+TS3010d,C,1346.3,1348.85,2.55,TS3010d.C.dialog-act.dharshi.125,D,C,2.87,1.78,False,False,0.0,[],False," So, the T_V_s has to uh have to be up-to-date.",10,task,Inform
+TS3010d,D,1349.11,1351.72,2.61,TS3010d.D.dialog-act.dharshi.176,,,,,,,,,False, If we have the n no buttons,7,minor,Fragment
+TS3010d,D,1351.72,1355.43,3.71,TS3010d.D.dialog-act.dharshi.177,D,C,1.31,2.87,True,False,0.0,[],True," If we have we have uh not a joystick but buttons, we would have uh, we have thirteen Euros?",19,elicit,Elicit-Inform
+TS3010d,C,1355.66,1355.95,0.29,TS3010d.C.dialog-act.dharshi.126,,,,,,,,,False, Yeah.,1,task,Inform
+TS3010d,A,1355.94,1356.39,0.45,TS3010d.A.dialog-act.dharshi.219,,,,,,,,,False," Mm, yes.",2,task,Inform
+TS3010d,D,1356.74,1358.87,2.13,TS3010d.D.dialog-act.dharshi.179,D,D,0.0,1.31,False,False,0.0,[],False, And then uh we move the the colour.,8,task,Suggest
+TS3010d,D,1358.87,1360.73,1.86,TS3010d.D.dialog-act.dharshi.180,C,D,1.69,0.0,False,False,0.0,[],False, What will that be?,4,elicit,Elicit-Offer-Or-Suggestion
+TS3010d,C,1359.5,1359.8,0.3,TS3010d.C.dialog-act.dharshi.128,,,,,,,,,False, Yeah.,1,task,Assess
+TS3010d,A,1361.22,1362.11,0.89,TS3010d.A.dialog-act.dharshi.222,,,,,,,,,False, Then it's okay.,3,task,Assess
+TS3010d,C,1362.42,1363.45,1.03,TS3010d.C.dialog-act.dharshi.129,A,D,2.88,1.69,True,False,0.0,[],True, Huh. No knew that.,4,task,Assess
+TS3010d,D,1363.66,1364.29,0.63,TS3010d.D.dialog-act.dharshi.181,,,,,,,,,False, Yeah.,1,task,Assess
+TS3010d,A,1366.33,1369.21,2.88,TS3010d.A.dialog-act.dharshi.223,A,C,0.0,2.88,True,False,0.0,[],True," Okay, so no joystick.",4,task,Suggest
+TS3010d,A,1369.21,1372.73,3.52,TS3010d.A.dialog-act.dharshi.224,C,A,0.51,0.0,False,False,0.0,[],False," Oh no, but we then we get push-buttons from half a Euro.",12,task,Inform
+TS3010d,C,1373.02,1373.24,0.22,TS3010d.C.dialog-act.dharshi.131,,,,,,,,,False," Yeah,",1,task,Assess
+TS3010d,C,1373.24,1374.96,1.72,TS3010d.C.dialog-act.dharshi.132,A,A,2.07,0.51,True,False,0.0,[],True," then it's twelve Euro fifty, then it's okay.",8,task,Inform
+TS3010d,A,1377.03,1380.34,3.31,TS3010d.A.dialog-act.dharshi.225,A,C,0.0,2.07,True,False,0.0,[],True," Uh, yes, yes, yes, yes.",5,task,Assess
+TS3010d,A,1380.34,1387.23,6.89,TS3010d.A.dialog-act.dharshi.226,A,A,0.0,0.0,False,False,0.0,[],False, No joystick. Push-buttons. No special colour.,6,task,Inform
+TS3010d,A,1387.23,1391.54,4.31,TS3010d.A.dialog-act.dharshi.227,A,A,1.01,0.0,False,False,0.0,[],False, Twelve and a half Euros.,5,task,Inform
+TS3010d,A,1391.54,1392.55,1.01,TS3010d.A.dialog-act.dharshi.228,,,,,,,,,False, Then it's okay.,3,task,Inform
+TS3010d,A,1392.55,1395.76,3.21,TS3010d.A.dialog-act.dharshi.229,A,A,1.22,1.01,False,False,0.0,[],False," So, we have to change that a little bit.",9,task,Suggest
+TS3010d,A,1396.98,1402.1,5.12,TS3010d.A.dialog-act.dharshi.230,A,A,0.0,1.22,False,False,0.0,[],False, And you cannot use the red and green button.,9,task,Inform
+TS3010d,A,1402.1,1405.41,3.31,TS3010d.A.dialog-act.dharshi.231,A,A,1.19,0.0,False,False,0.0,[],False," Because if you give them a s uh colour,",9,task,Inform
+TS3010d,B,1402.69,1402.9,0.21,TS3010d.B.dialog-act.dharshi.73,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,B,1402.9,1403.84,0.94,TS3010d.B.dialog-act.dharshi.74,,,,,,,,,False, All the same uh,4,minor,Fragment
+TS3010d,A,1406.6,1411.13,4.53,TS3010d.A.dialog-act.dharshi.232,C,A,1.06,1.19,False,False,0.0,[],False, you have to pay point two Euros.,7,task,Inform
+TS3010d,C,1412.19,1415.27,3.08,TS3010d.C.dialog-act.dharshi.133,C,A,0.0,1.06,True,False,0.0,[],True," So, all the buttons has to have to be the same colour.",12,task,Inform
+TS3010d,A,1414.91,1415.35,0.44,TS3010d.A.dialog-act.dharshi.233,,,,,,,,,False, Yes.,1,task,Assess
+TS3010d,C,1415.27,1418.28,3.01,TS3010d.C.dialog-act.dharshi.134,C,C,3.75,0.0,False,False,0.0,[],False, But then the print on it will g um change it.,11,task,Suggest
+TS3010d,C,1418.28,1420.64,2.36,TS3010d.C.dialog-act.dharshi.135,,,,,,,,,False, Make it uh,3,task,Suggest
+TS3010d,C,1422.03,1424.25,2.22,TS3010d.C.dialog-act.dharshi.136,C,C,0.0,3.75,False,False,0.0,[],False, for everybody to see what button it is.,8,task,Suggest
+TS3010d,C,1424.25,1425.84,1.59,TS3010d.C.dialog-act.dharshi.137,A,C,33.09,0.0,False,False,0.0,[],False, Uh l How you call it?,6,elicit,Elicit-Inform
+TS3010d,B,1424.97,1425.46,0.49,TS3010d.B.dialog-act.dharshi.75,,,,,,,,,False," Mm, yeah.",2,minor,Backchannel
+TS3010d,B,1427.88,1428.67,0.79,TS3010d.B.dialog-act.dharshi.76,,,,,,,,,False, Recognisable.,1,task,Inform
+TS3010d,C,1428.55,1429.45,0.9,TS3010d.C.dialog-act.dharshi.138,,,,,,,,,False," Recognisable, yeah.",2,task,Assess
+TS3010d,B,1428.67,1429.82,1.15,TS3010d.B.dialog-act.dharshi.77,,,,,,,,,False, Like what,2,minor,Fragment
+TS3010d,A,1429.58,1429.95,0.37,TS3010d.A.dialog-act.dharshi.234,,,,,,,,,False, Yes.,1,minor,Backchannel
+TS3010d,B,1429.82,1430.25,0.43,TS3010d.B.dialog-act.dharshi.78,,,,,,,,,False, Yeah.,1,task,Assess
+TS3010d,B,1432.56,1433.03,0.47,TS3010d.B.dialog-act.dharshi.79,,,,,,,,,False," Mm, yeah.",2,minor,Stall
+TS3010d,A,1440.5,1441.071,0.571,TS3010d.A.dialog-act.dharshi.235,,,,,,,,,False, So,1,minor,Stall
+TS3010d,C,1441.09,1441.43,0.34,TS3010d.C.dialog-act.dharshi.140,,,,,,,,,False, Yeah?,1,elicit,Elicit-Assessment
+TS3010d,B,1443.02,1443.37,0.35,TS3010d.B.dialog-act.dharshi.81,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,C,1444.42,1444.76,0.34,TS3010d.C.dialog-act.dharshi.141,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,A,1450.244,1454.441,4.197,TS3010d.A.dialog-act.dharshi.236,,,,,,,,,False, So Well,2,minor,Stall
+TS3010d,A,1458.93,1460.12,1.19,TS3010d.A.dialog-act.dharshi.237,A,C,5.11,33.09,True,False,0.0,[],True," Now we have to change that,",6,task,Suggest
+TS3010d,A,1460.12,1463.78,3.66,TS3010d.A.dialog-act.dharshi.238,,,,,,,,,False, but that's okay.,3,task,Assess
+TS3010d,A,1463.78,1465.23,1.45,TS3010d.A.dialog-act.dharshi.239,,,,,,,,,False, Rubber.,1,task,Inform
+TS3010d,A,1465.23,1466.31,1.08,TS3010d.A.dialog-act.dharshi.240,C,A,19.71,5.11,False,False,0.0,[],False, What's the normal colour?,4,elicit,Elicit-Inform
+TS3010d,B,1476.11,1477.636,1.526,TS3010d.B.dialog-act.dharshi.80,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,1476.804,1478.148,1.344,TS3010d.C.dialog-act.dharshi.139,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,1486.02,1487.1,1.08,TS3010d.C.dialog-act.dharshi.142,C,A,49.5,19.71,True,False,0.0,[],True," Oh, well that's clear.",4,task,Assess
+TS3010d,A,1499.076,1499.872,0.796,TS3010d.A.dialog-act.dharshi.241,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,1505.43,1505.805,0.375,TS3010d.A.dialog-act.dharshi.242,,,,,,,,,False, So,1,minor,Fragment
+TS3010d,A,1507.48,1508.333,0.853,TS3010d.A.dialog-act.dharshi.243,,,,,,,,,False, And,1,minor,Fragment
+TS3010d,D,1507.727,1508.51,0.783,TS3010d.D.dialog-act.dharshi.182,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,1518.69,1519.26,0.57,TS3010d.A.dialog-act.dharshi.244,,,,,,,,,False, Where's?,1,elicit,Elicit-Inform
+TS3010d,A,1522.19,1522.36,0.17,TS3010d.A.dialog-act.dharshi.245,,,,,,,,,False, Yeah.,1,other,Other
+TS3010d,A,1534.45,1537.078,2.628,TS3010d.A.dialog-act.dharshi.247,,,,,,,,,False," So, now it's",3,minor,Fragment
+TS3010d,C,1536.6,1537.96,1.36,TS3010d.C.dialog-act.dharshi.144,A,C,5.35,49.5,False,False,0.0,[],False, And the joystick away.,4,task,Suggest
+TS3010d,C,1539.49,1540.33,0.84,TS3010d.C.dialog-act.dharshi.145,,,,,,,,,False, And its buttons.,3,task,Suggest
+TS3010d,A,1541.63,1543.31,1.68,TS3010d.A.dialog-act.dharshi.248,,,,,,,,,False, Yeah. It is.,3,task,Assess
+TS3010d,A,1543.31,1549.27,5.96,TS3010d.A.dialog-act.dharshi.249,A,C,36.55,5.35,True,False,0.0,[],True, But then it will be just that ones.,8,task,Inform
+TS3010d,C,1549.98,1550.37,0.39,TS3010d.C.dialog-act.dharshi.146,,,,,,,,,False, Yeah.,1,task,Assess
+TS3010d,A,1560.57,1561.332,0.762,TS3010d.A.dialog-act.dharshi.250,,,,,,,,,False, Now it's,2,minor,Fragment
+TS3010d,D,1579.559,1583.211,3.652,TS3010d.D.dialog-act.dharshi.184,,,,,,,,,False," still, he waited at the",5,minor,Fragment
+TS3010d,C,1579.762,1581.11,1.348,TS3010d.C.dialog-act.dharshi.143,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,1582.05,1585.82,3.77,TS3010d.A.dialog-act.dharshi.251,,,,,,,,,False, Very good.,2,task,Assess
+TS3010d,D,1584.31,1584.45,0.14,TS3010d.D.dialog-act.dharshi.185,,,,,,,,,False, No.,1,minor,Backchannel
+TS3010d,A,1585.82,1590.09,4.27,TS3010d.A.dialog-act.dharshi.252,A,A,2.02,36.55,False,False,0.0,[],False," Now, uh project eva evaluation.",5,task,Inform
+TS3010d,A,1590.09,1590.548,0.458,TS3010d.A.dialog-act.dharshi.253,,,,,,,,,False, Well,1,minor,Stall
+TS3010d,A,1592.11,1594.53,2.42,TS3010d.A.dialog-act.dharshi.254,C,A,17.21,2.02,False,False,0.0,[],False, What do you think of it?,6,elicit,Elicit-Assessment
+TS3010d,A,1594.53,1594.989,0.459,TS3010d.A.dialog-act.dharshi.255,,,,,,,,,False, Uh,1,minor,Stall
+TS3010d,A,1598.883,1599.815,0.932,TS3010d.A.dialog-act.dharshi.246,,,,,,,,,False,,0,minor,Fragment
+TS3010d,D,1600.34,1600.676,0.336,TS3010d.D.dialog-act.dharshi.183,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,1600.85,1601.93,1.08,TS3010d.C.dialog-act.dharshi.147,,,,,,,,,False, About the,2,other,Comment-About-Understanding
+TS3010d,D,1602.15,1602.9,0.75,TS3010d.D.dialog-act.dharshi.186,,,,,,,,,False, Project.,1,task,Inform
+TS3010d,A,1602.19,1603.27,1.08,TS3010d.A.dialog-act.dharshi.256,,,,,,,,,False, About the project.,3,task,Inform
+TS3010d,C,1603.64,1606.24,2.6,TS3010d.C.dialog-act.dharshi.148,,,,,,,,,False, process. Went good.,3,task,Assess
+TS3010d,C,1607.88,1609.396,1.516,TS3010d.C.dialog-act.dharshi.149,,,,,,,,,False, Uh,1,minor,Stall
+TS3010d,C,1611.74,1619.2,7.46,TS3010d.C.dialog-act.dharshi.150,C,A,0.0,17.21,True,False,0.0,[],True, I think uh the creativity uh was good enough.,9,task,Assess
+TS3010d,B,1618.852,1619.252,0.4,TS3010d.B.dialog-act.dharshi.82,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,1619.2,1622.14,2.94,TS3010d.C.dialog-act.dharshi.151,C,C,4.77,0.0,False,False,0.0,[],False, We have a gun instead of a remote control.,9,task,Assess
+TS3010d,C,1622.14,1623.156,1.016,TS3010d.C.dialog-act.dharshi.152,,,,,,,,,False, Um,1,minor,Stall
+TS3010d,C,1626.21,1626.91,0.7,TS3010d.C.dialog-act.dharshi.153,,,,,,,,,False, Uh leadership.,2,task,Inform
+TS3010d,C,1626.91,1632.54,5.63,TS3010d.C.dialog-act.dharshi.154,C,C,0.0,4.77,False,False,0.0,[],False," Yeah, you were the project project manager, and uh had the final vote.",13,task,Inform
+TS3010d,A,1631.892,1632.481,0.589,TS3010d.A.dialog-act.dharshi.257,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,1632.54,1634.4,1.86,TS3010d.C.dialog-act.dharshi.155,C,C,2.61,0.0,False,False,0.0,[],False, So yeah that was clear.,5,task,Assess
+TS3010d,C,1635.94,1637.01,1.07,TS3010d.C.dialog-act.dharshi.156,,,,,,,,,False, Team-work okay.,2,task,Assess
+TS3010d,C,1637.01,1639.43,2.42,TS3010d.C.dialog-act.dharshi.157,C,C,4.47,2.61,False,False,0.0,[],False, Everybody uh has something uh to say about it.,9,task,Assess
+TS3010d,C,1641.99,1643.9,1.91,TS3010d.C.dialog-act.dharshi.158,,,,,,,,,False," And uh no,",3,minor,Stall
+TS3010d,C,1643.9,1649.62,5.72,TS3010d.C.dialog-act.dharshi.159,B,C,11.59,4.47,False,False,0.0,[],False, uh o only the the drawing uh was very difficult.,10,task,Assess
+TS3010d,C,1651.33,1652.9,1.57,TS3010d.C.dialog-act.dharshi.160,,,,,,,,,False," But, nah.",2,minor,Stall
+TS3010d,C,1652.9,1654.564,1.664,TS3010d.C.dialog-act.dharshi.161,,,,,,,,,False, New ideas found.,3,other,Other
+TS3010d,C,1656.89,1657.3,0.41,TS3010d.C.dialog-act.dharshi.162,,,,,,,,,False, Nope.,1,task,Assess
+TS3010d,A,1658.19,1659.69,1.5,TS3010d.A.dialog-act.dharshi.258,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,A,1659.69,1659.98,0.29,TS3010d.A.dialog-act.dharshi.259,,,,,,,,,False, And you.,2,elicit,Elicit-Assessment
+TS3010d,B,1661.21,1662.31,1.1,TS3010d.B.dialog-act.dharshi.83,B,C,0.0,11.59,True,False,0.0,[],True," Yeah, well the same.",4,task,Assess
+TS3010d,B,1662.31,1665.28,2.97,TS3010d.B.dialog-act.dharshi.84,B,B,6.77,0.0,False,False,0.0,[],False," I I espe I especially uh liked the the means,",10,task,Assess
+TS3010d,B,1665.28,1666.53,1.25,TS3010d.B.dialog-act.dharshi.85,,,,,,,,,False, the the SMARTboard,3,task,Assess
+TS3010d,B,1666.53,1667.286,0.756,TS3010d.B.dialog-act.dharshi.86,,,,,,,,,False, and uh,2,minor,Fragment
+TS3010d,B,1668.6,1669.508,0.908,TS3010d.B.dialog-act.dharshi.87,,,,,,,,,False," Yeah, it uh",3,minor,Stall
+TS3010d,B,1672.05,1674.86,2.81,TS3010d.B.dialog-act.dharshi.88,D,B,5.98,6.77,False,False,0.0,[],False, It brings up new ideas when you work with uh with it.,12,task,Assess
+TS3010d,A,1677.69,1678.04,0.35,TS3010d.A.dialog-act.dharshi.260,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,B,1678.63,1678.8,0.17,TS3010d.B.dialog-act.dharshi.89,,,,,,,,,False, Yeah.,1,task,Assess
+TS3010d,D,1680.84,1692.34,11.5,TS3010d.D.dialog-act.dharshi.187,D,B,2.6,5.98,True,False,0.0,[],True," Yeah, I think you have to compare it to if you would have a normal um normal project without laptops uh and without these devices.",25,task,Suggest
+TS3010d,D,1692.34,1693.508,1.168,TS3010d.D.dialog-act.dharshi.188,,,,,,,,,False, I think um,3,minor,Stall
+TS3010d,D,1694.94,1701.12,6.18,TS3010d.D.dialog-act.dharshi.189,D,D,0.0,2.6,False,False,0.0,[],False," Well, the laptops if you have them out front of you, you sometimes looking at that instead of the presentation.",20,task,Assess
+TS3010d,D,1701.12,1708.81,7.69,TS3010d.D.dialog-act.dharshi.190,D,D,2.79,0.0,False,False,0.0,[],False," Um, well uh the draw-board, well you can draw things. But it not really going very convenient.",17,task,Assess
+TS3010d,B,1709.79,1710.11,0.32,TS3010d.B.dialog-act.dharshi.91,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3010d,D,1711.6,1714.9,3.3,TS3010d.D.dialog-act.dharshi.191,D,D,0.0,2.79,False,False,0.0,[],False," Uh, maybe it will be easier if you have a smaller monitor",12,task,Assess
+TS3010d,D,1714.9,1717.22,2.32,TS3010d.D.dialog-act.dharshi.193,D,D,0.0,0.0,False,False,0.0,[],False, and uh you would also see there.,7,task,Assess
+TS3010d,D,1717.22,1718.26,1.04,TS3010d.D.dialog-act.dharshi.192,D,D,1.87,0.0,False,False,0.0,[],False, And with a normal mouse.,5,task,Assess
+TS3010d,D,1720.13,1726.53,6.4,TS3010d.D.dialog-act.dharshi.194,D,D,0.0,1.87,False,False,0.0,[],False," Um, and uh the project. Yeah, I agree on what was said uh mainly.",14,task,Assess
+TS3010d,D,1726.53,1730.23,3.7,TS3010d.D.dialog-act.dharshi.195,D,D,1.76,0.0,False,False,0.0,[],False," Uh, yeah but you always have that some people are talking more than others.",14,task,Assess
+TS3010d,D,1731.99,1740.08,8.09,TS3010d.D.dialog-act.dharshi.196,D,D,2.44,1.76,False,False,0.0,[],False, And maybe is then um the task of the the project manager to also uh ask more to the people uh less talking.,23,task,Assess
+TS3010d,D,1742.52,1743.52,1.0,TS3010d.D.dialog-act.dharshi.197,A,D,3.87,2.44,False,False,0.0,[],False, To tell their opinion.,4,task,Assess
+TS3010d,A,1745.61,1746.06,0.45,TS3010d.A.dialog-act.dharshi.261,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,A,1747.39,1750.11,2.72,TS3010d.A.dialog-act.dharshi.262,A,D,0.0,3.87,True,False,0.0,[],True," Well, what do I have to say.",7,other,Other
+TS3010d,A,1750.11,1751.29,1.18,TS3010d.A.dialog-act.dharshi.263,A,A,0.0,0.0,False,False,0.0,[],False, I think it was good.,5,task,Assess
+TS3010d,A,1751.29,1754.09,2.8,TS3010d.A.dialog-act.dharshi.264,A,A,0.0,0.0,False,False,0.0,[],False, Not too many discussions.,4,task,Assess
+TS3010d,C,1752.9,1753.67,0.77,TS3010d.C.dialog-act.dharshi.164,,,,,,,,,False, No.,1,minor,Backchannel
+TS3010d,A,1754.09,1756.58,2.49,TS3010d.A.dialog-act.dharshi.265,A,A,2.11,0.0,False,False,0.0,[],False," So, it's good for the speed.",6,task,Assess
+TS3010d,B,1755.18,1755.64,0.46,TS3010d.B.dialog-act.dharshi.92,,,,,,,,,False, No.,1,minor,Backchannel
+TS3010d,C,1757.44,1757.77,0.33,TS3010d.C.dialog-act.dharshi.163,,,,,,,,,False, Yep.,1,minor,Backchannel
+TS3010d,A,1758.69,1761.14,2.45,TS3010d.A.dialog-act.dharshi.266,,A,,2.11,False,False,0.0,[],False," So, I think we're ready.",5,task,Assess
+TS3010d,D,1759.11,1759.29,0.18,TS3010d.D.dialog-act.dharshi.198,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3010d,A,1761.14,1763.32,2.18,TS3010d.A.dialog-act.dharshi.267,,,,,,,,,False, Good price.,2,task,Assess
+TS3010d,A,1763.32,1764.67,1.35,TS3010d.A.dialog-act.dharshi.268,,,,,,,,,False, Evaluation ready.,2,task,Assess
+TS3010d,A,1766.8,1767.14,0.34,TS3010d.A.dialog-act.dharshi.269,,,,,,,,,False, Ready.,1,task,Assess
+TS3010d,B,1767.7,1768.084,0.384,TS3010d.B.dialog-act.dharshi.90,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,1767.968,1770.17,2.202,TS3010d.C.dialog-act.dharshi.165,,,,,,,,,False, Beer.,1,other,Be-Positive
+TS3010d,A,1770.525,1771.012,0.487,TS3010d.A.dialog-act.dharshi.221,,,,,,,,,False,,0,minor,Fragment
+TS3010d,D,1770.964,1771.604,0.64,TS3010d.D.dialog-act.dharshi.178,,,,,,,,,False,,0,minor,Fragment
+TS3010d,C,1771.524,1772.82,1.296,TS3010d.C.dialog-act.dharshi.127,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,1772.533,1772.869,0.336,TS3010d.A.dialog-act.dharshi.220,,,,,,,,,False,,0,minor,Fragment
+TS3010d,A,1774.59,1775.31,0.72,TS3010d.A.dialog-act.dharshi.270,,,,,,,,,False, That's it.,2,task,Inform
+TS3010d,C,1775.96,1777.71,1.75,TS3010d.C.dialog-act.dharshi.166,,,,,,,,,False, Yeah? Okay then.,3,task,Assess
+TS3010d,D,1776.52,1776.89,0.37,TS3010d.D.dialog-act.dharshi.199,,,,,,,,,False, Okay.,1,task,Assess
+TS3010d,B,1781.012,1781.572,0.56,TS3010d.B.dialog-act.dharshi.72,,,,,,,,,False,.,0,minor,Fragment

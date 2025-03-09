@@ -1,0 +1,810 @@
+meeting_id,speaker,start_time,end_time,duration,segment_id,next_speaker,prev_speaker,time_to_next,time_from_prev,is_turn_change,has_overlap,overlap_duration,overlapping_speakers,new_turn,words_ref,word_count,class,gloss
+TS3009a,D,4.03,5.276,1.246,TS3009a.D.dialog-act.s9553330.1,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,5.015,13.668,8.653,TS3009a.A.dialog-act.s9553330.1,,,,,,,,,False,,0,minor,Fragment
+TS3009a,D,8.62,8.99,0.37,TS3009a.D.dialog-act.s9553330.2,,,,,,,,,False, I dunno.,2,minor,Fragment
+TS3009a,D,11.36,14.36,3.0,TS3009a.D.dialog-act.s9553330.3,A,,46.16,,True,False,0.0,[],False, Throwing away my toothpick.,4,other,Other
+TS3009a,B,17.49,18.16,0.67,TS3009a.B.dialog-act.s9553330.1,,,,,,,,,False, Hi there.,2,other,Be-Positive
+TS3009a,A,22.91,23.49,0.58,TS3009a.A.dialog-act.s9553330.2,,,,,,,,,False, Yo.,1,other,Be-Positive
+TS3009a,A,26.87,27.32,0.45,TS3009a.A.dialog-act.s9553330.3,,,,,,,,,False, Ow.,1,other,Other
+TS3009a,C,35.199,35.528,0.329,TS3009a.C.dialog-act.s9553330.1,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,39.8,47.773,7.973,TS3009a.A.dialog-act.s9553330.4,,,,,,,,,False,,0,minor,Fragment
+TS3009a,D,42.58,42.91,0.33,TS3009a.D.dialog-act.s9553330.4,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+TS3009a,A,48.71,49.908,1.198,TS3009a.A.dialog-act.s9553330.5,,,,,,,,,False, Uh,1,minor,Fragment
+TS3009a,D,50.95,52.18,1.23,TS3009a.D.dialog-act.s9553330.5,,,,,,,,,False, Nice user interface.,3,task,Assess
+TS3009a,A,52.49,52.82,0.33,TS3009a.A.dialog-act.s9553330.6,,,,,,,,,False, Yeah.,1,task,Assess
+TS3009a,A,53.94,54.651,0.711,TS3009a.A.dialog-act.s9553330.7,,,,,,,,,False, What the,2,minor,Fragment
+TS3009a,A,55.13,55.944,0.814,TS3009a.A.dialog-act.s9553330.8,,,,,,,,,False, Uh,1,minor,Fragment
+TS3009a,D,58.745,62.878,4.133,TS3009a.D.dialog-act.s9553330.6,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,60.52,65.69,5.17,TS3009a.A.dialog-act.s9553330.9,A,D,0.0,46.16,True,False,0.0,[],True," Yeah well, ja well let's just start.",7,task,Suggest
+TS3009a,D,64.95,65.16,0.21,TS3009a.D.dialog-act.s9553330.7,,,,,,,,,False, 'Kay.,1,task,Assess
+TS3009a,A,65.69,67.34,1.65,TS3009a.A.dialog-act.s9553330.10,D,A,0.81,0.0,False,False,0.0,[],False, I've uh made a presentation,5,task,Inform
+TS3009a,D,68.15,68.94,0.79,TS3009a.D.dialog-act.s9553330.8,A,A,-0.36,0.81,True,True,0.36,['TS3009a.A.dialog-act.s9553330.12'],True, Right let's see it.,4,task,Suggest
+TS3009a,A,68.58,73.66,5.08,TS3009a.A.dialog-act.s9553330.12,A,D,1.85,-0.36,True,False,0.0,[],False," uh but uh I'll open it on the Smartboard, so we can all see it.",15,other,Offer
+TS3009a,A,75.51,76.93,1.42,TS3009a.A.dialog-act.s9553330.13,A,A,0.0,1.85,False,False,0.0,[],False, So it's in the project documents,6,task,Inform
+TS3009a,A,76.93,79.28,2.35,TS3009a.A.dialog-act.s9553330.14,A,A,7.99,0.0,False,False,0.0,[],False, because that's what we can find here.,7,task,Inform
+TS3009a,A,82.28,85.57,3.29,TS3009a.A.dialog-act.s9553330.15,,,,,,,,,False, Well.,1,minor,Fragment
+TS3009a,C,83.088,83.853,0.765,TS3009a.C.dialog-act.s9553330.2,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,85.57,86.07,0.5,TS3009a.A.dialog-act.s9553330.16,,,,,,,,,False, Very nice.,2,task,Assess
+TS3009a,A,87.27,90.13,2.86,TS3009a.A.dialog-act.s9553330.17,A,A,0.0,7.99,False,False,0.0,[],False, Well this is called the the the kick-off meeting.,9,task,Inform
+TS3009a,A,90.13,92.42,2.29,TS3009a.A.dialog-act.s9553330.18,A,A,0.0,0.0,False,False,0.0,[],False," So uh I'm the Project Manager,",6,task,Inform
+TS3009a,A,92.42,94.97,2.55,TS3009a.A.dialog-act.s9553330.19,A,A,12.12,0.0,False,False,0.0,[],False," so I had to fill it in,",7,task,Inform
+TS3009a,D,94.32,94.49,0.17,TS3009a.D.dialog-act.s9553330.9,,,,,,,,,False, 'Kay.,1,minor,Backchannel
+TS3009a,A,94.97,99.024,4.054,TS3009a.A.dialog-act.s9553330.20,,,,,,,,,False, and uh hmm.,3,minor,Fragment
+TS3009a,A,102.51,103.312,0.802,TS3009a.A.dialog-act.s9553330.21,,,,,,,,,False, Oh sorry.,2,minor,Fragment
+TS3009a,A,107.09,109.136,2.046,TS3009a.A.dialog-act.s9553330.22,A,A,1.124,12.12,False,False,0.0,[],False, And an uh a nice agenda.,6,task,Inform
+TS3009a,A,110.26,112.09,1.83,TS3009a.A.dialog-act.s9553330.23,A,A,0.0,1.124,False,False,0.0,[],False, Uh we'll do the opening,5,task,Inform
+TS3009a,A,112.09,115.34,3.25,TS3009a.A.dialog-act.s9553330.24,A,A,0.0,0.0,False,False,0.0,[],False," and then uh we'll meet each other,",7,task,Inform
+TS3009a,A,115.34,116.36,1.02,TS3009a.A.dialog-act.s9553330.25,A,A,0.0,0.0,False,False,0.0,[],False," what uh we already do,",5,task,Inform
+TS3009a,A,116.36,119.18,2.82,TS3009a.A.dialog-act.s9553330.26,A,A,0.0,0.0,False,False,0.0,[],False," so, that's not uh very much trouble.",7,task,Assess
+TS3009a,A,119.18,125.33,6.15,TS3009a.A.dialog-act.s9553330.27,A,A,0.0,0.0,False,False,0.0,[],False," I'll I'll show you the the tools we have here, so that we can all use them.",17,task,Inform
+TS3009a,A,125.33,130.2,4.87,TS3009a.A.dialog-act.s9553330.28,A,A,1.33,0.0,False,False,0.0,[],False, Then uh we'll look at the project plan from uh Real Reaction.,12,task,Inform
+TS3009a,D,128.944,130.352,1.408,TS3009a.D.dialog-act.s9553330.10,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,131.53,135.05,3.52,TS3009a.A.dialog-act.s9553330.29,A,A,0.0,1.33,False,False,0.0,[],False," We'll discuss about our first ideas about the project,",9,task,Inform
+TS3009a,A,135.05,137.32,2.27,TS3009a.A.dialog-act.s9553330.30,A,A,0.0,0.0,False,False,0.0,[],False," and then uh we'll close the meeting,",7,task,Inform
+TS3009a,A,137.32,140.47,3.15,TS3009a.A.dialog-act.s9553330.31,A,A,0.0,0.0,False,False,0.0,[],False, and then we can uh individually uh do our things,10,task,Inform
+TS3009a,A,140.47,143.02,2.55,TS3009a.A.dialog-act.s9553330.32,A,A,4.95,0.0,False,False,0.0,[],False, and then uh we'll get back here.,7,task,Inform
+TS3009a,A,143.02,145.792,2.772,TS3009a.A.dialog-act.s9553330.33,,,,,,,,,False, So this the opening we'll uh,6,minor,Fragment
+TS3009a,A,147.97,151.27,3.3,TS3009a.A.dialog-act.s9553330.34,A,A,0.0,4.95,False,False,0.0,[],False, We have to uh design a new television remote control.,10,task,Inform
+TS3009a,A,151.27,153.94,2.67,TS3009a.A.dialog-act.s9553330.35,A,A,0.0,0.0,False,False,0.0,[],False," You have heard that uh already I think, so.",9,task,Inform
+TS3009a,D,153.42,153.68,0.26,TS3009a.D.dialog-act.s9553330.11,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3009a,A,153.94,156.39,2.45,TS3009a.A.dialog-act.s9553330.36,A,A,0.0,0.0,False,False,0.0,[],False," Um we want it to be original,",7,task,Inform
+TS3009a,A,156.39,158.33,1.94,TS3009a.A.dialog-act.s9553330.37,A,A,1.1,0.0,False,False,0.0,[],False, so a nice uh a nice new design.,8,task,Inform
+TS3009a,A,159.43,162.41,2.98,TS3009a.A.dialog-act.s9553330.38,A,A,0.0,1.1,False,False,0.0,[],False," Uh trendy, it's also for young people,",7,task,Inform
+TS3009a,A,162.41,165.85,3.44,TS3009a.A.dialog-act.s9553330.39,A,A,3.31,0.0,False,False,0.0,[],False, and we have to just uh make it uh modern.,10,task,Inform
+TS3009a,A,167.46,169.16,1.7,TS3009a.A.dialog-act.s9553330.40,,,,,,,,,False," And uh friendly,",3,task,Inform
+TS3009a,A,169.16,171.86,2.7,TS3009a.A.dialog-act.s9553330.41,A,A,0.0,3.31,False,False,0.0,[],False, so size does matter.,4,task,Inform
+TS3009a,A,171.86,182.15,10.29,TS3009a.A.dialog-act.s9553330.42,A,A,4.69,0.0,False,False,0.0,[],False," And uh Well it has to be a have the the right uh the right buttons on the right place, that kin those kind of things.",26,task,Inform
+TS3009a,C,180.91,181.19,0.28,TS3009a.C.dialog-act.s9553330.3,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3009a,A,185.02,185.68,0.66,TS3009a.A.dialog-act.s9553330.43,,,,,,,,,False, Other uh,2,minor,Fragment
+TS3009a,A,186.84,189.82,2.98,TS3009a.A.dialog-act.s9553330.44,A,A,0.0,4.69,False,False,0.0,[],False, There happen to be uh three stages.,7,task,Inform
+TS3009a,A,189.82,189.82,0.0,TS3009a.A.dialog-act.s9553330.45,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,189.82,193.49,3.67,TS3009a.A.dialog-act.s9553330.46,A,A,1.2,0.0,False,False,0.0,[],False," functional, conceptual, and d detailed design.",6,task,Inform
+TS3009a,A,194.69,203.39,8.7,TS3009a.A.dialog-act.s9553330.47,A,A,6.36,1.2,False,False,0.0,[],False," Um so every time we we'll do some individual work, get meeting, talk about it, uh and then go into the next phase.",23,task,Inform
+TS3009a,A,204.5,205.08,0.58,TS3009a.A.dialog-act.s9553330.48,,,,,,,,,False, That's just it.,3,task,Inform
+TS3009a,A,207.76,208.432,0.672,TS3009a.A.dialog-act.s9553330.49,,,,,,,,,False, Um,1,minor,Stall
+TS3009a,A,209.75,212.01,2.26,TS3009a.A.dialog-act.s9553330.50,A,A,1.19,6.36,False,False,0.0,[],False, We have uh these two Smartboards.,6,task,Inform
+TS3009a,A,213.2,220.18,6.98,TS3009a.A.dialog-act.s9553330.51,A,A,0.0,1.19,False,False,0.0,[],False," Um well as I just showed, there's a project management folder, a project document folder on the desktop.",18,task,Inform
+TS3009a,A,220.18,222.87,2.69,TS3009a.A.dialog-act.s9553330.52,A,A,0.0,0.0,False,False,0.0,[],False, It just works exactly the same as a computer.,9,task,Inform
+TS3009a,A,222.87,228.9,6.03,TS3009a.A.dialog-act.s9553330.53,A,A,0.0,0.0,False,False,0.0,[],False, You just uh click on the on the folder and you open the everything you you put in it with your laptop.,22,task,Inform
+TS3009a,A,228.9,231.57,2.67,TS3009a.A.dialog-act.s9553330.54,A,A,1.2,0.0,False,False,0.0,[],False," So you can uh make uh Words Excel, everything.",9,task,Inform
+TS3009a,A,232.77,239.96,7.19,TS3009a.A.dialog-act.s9553330.55,A,A,0.0,1.2,False,False,0.0,[],False," Um and the w the r uh the rest uh also works the same so uh when you open a notepad you uh you just get your uh things,",29,task,Inform
+TS3009a,A,239.96,242.13,2.17,TS3009a.A.dialog-act.s9553330.56,A,A,0.0,0.0,False,False,0.0,[],False, you can uh draw.,4,task,Inform
+TS3009a,A,242.13,245.46,3.33,TS3009a.A.dialog-act.s9553330.57,A,A,1.356,0.0,False,False,0.0,[],False, This is a uh well a drawing board.,8,task,Inform
+TS3009a,A,246.816,254.8,7.984,TS3009a.A.dialog-act.s9553330.58,A,A,0.0,1.356,False,False,0.0,[],False, you have a these different uh functions on the board.,10,task,Inform
+TS3009a,A,254.8,255.58,0.78,TS3009a.A.dialog-act.s9553330.59,A,A,1.24,0.0,False,False,0.0,[],False, You can see them there.,5,task,Inform
+TS3009a,A,256.82,259.38,2.56,TS3009a.A.dialog-act.s9553330.60,A,A,0.0,1.24,False,False,0.0,[],False," So you have a a nice pen,",7,task,Inform
+TS3009a,A,259.38,261.58,2.2,TS3009a.A.dialog-act.s9553330.61,A,A,5.0,0.0,False,False,0.0,[],False, and it's works just like a bal ball pen.,9,task,Inform
+TS3009a,A,261.58,262.94,1.36,TS3009a.A.dialog-act.s9553330.62,,,,,,,,,False, This is just a.,4,minor,Fragment
+TS3009a,A,264.17,264.912,0.742,TS3009a.A.dialog-act.s9553330.63,,,,,,,,,False, I want to uh,4,minor,Fragment
+TS3009a,A,266.1,266.58,0.48,TS3009a.A.dialog-act.s9553330.64,,,,,,,,,False, Oh yeah.,2,minor,Backchannel
+TS3009a,C,266.24,266.24,0.0,TS3009a.C.dialog-act.s9553330.4,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,266.58,269.357,2.777,TS3009a.A.dialog-act.s9553330.65,C,A,-0.517,5.0,False,True,0.517,['TS3009a.C.dialog-act.s9553330.5'],False, Of course w doesn't work any more.,7,task,Inform
+TS3009a,B,268.069,268.899,0.83,TS3009a.B.dialog-act.s9553330.2,,,,,,,,,False,,0,minor,Fragment
+TS3009a,C,268.84,271.62,2.78,TS3009a.C.dialog-act.s9553330.5,A,A,6.76,-0.517,True,False,0.0,[],False, Maybe you should try to write on the on the big white uh,13,task,Suggest
+TS3009a,C,271.62,271.86,0.24,TS3009a.C.dialog-act.s9553330.6,,,,,,,,,False, Does it?,2,elicit,Elicit-Assessment
+TS3009a,C,271.86,272.83,0.97,TS3009a.C.dialog-act.s9553330.7,,,,,,,,,False, Yeah. It works.,3,task,Inform
+TS3009a,A,271.87,273.03,1.16,TS3009a.A.dialog-act.s9553330.66,,,,,,,,,False, Yes I will,3,task,Assess
+TS3009a,A,273.03,275.05,2.02,TS3009a.A.dialog-act.s9553330.68,,,,,,,,,False, eraser so.,2,minor,Fragment
+TS3009a,C,274.944,277.45,2.506,TS3009a.C.dialog-act.s9553330.8,,,,,,,,,False, Wonderful.,1,task,Assess
+TS3009a,A,276.37,278.38,2.01,TS3009a.A.dialog-act.s9553330.67,,,,,,,,,False, It's fantas fantastic.,3,task,Assess
+TS3009a,A,278.38,281.72,3.34,TS3009a.A.dialog-act.s9553330.69,A,C,0.0,6.76,True,False,0.0,[],True, We can uh uh well you can save a file.,10,task,Inform
+TS3009a,A,281.72,284.19,2.47,TS3009a.A.dialog-act.s9553330.70,A,A,0.0,0.0,False,False,0.0,[],False, So if uh we draw we have to save everything.,10,task,Inform
+TS3009a,A,284.19,285.33,1.14,TS3009a.A.dialog-act.s9553330.71,A,A,1.39,0.0,False,False,0.0,[],False, Don't throw anything away.,4,task,Inform
+TS3009a,C,285.93,286.23,0.3,TS3009a.C.dialog-act.s9553330.9,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3009a,A,286.72,293.25,6.53,TS3009a.A.dialog-act.s9553330.72,A,A,0.0,1.39,False,False,0.0,[],False," Uh just we can start a new one, and we just go on, and don't throw anything away.",18,task,Inform
+TS3009a,D,290.233,291.013,0.78,TS3009a.D.dialog-act.s9553330.12,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,293.25,295.29,2.04,TS3009a.A.dialog-act.s9553330.73,A,A,1.13,0.0,False,False,0.0,[],False, Just uh let them all uh stand here.,8,task,Inform
+TS3009a,A,296.42,298.55,2.13,TS3009a.A.dialog-act.s9553330.74,A,A,0.0,1.13,False,False,0.0,[],False," We can delete, but we don't do that.",8,task,Inform
+TS3009a,A,298.55,300.94,2.39,TS3009a.A.dialog-act.s9553330.75,A,A,0.0,0.0,False,False,0.0,[],False," Um you can here select a pen,",7,task,Inform
+TS3009a,A,300.94,302.14,1.2,TS3009a.A.dialog-act.s9553330.76,A,A,0.0,0.0,False,False,0.0,[],False, you can draw anything you want.,6,task,Inform
+TS3009a,A,302.14,305.53,3.39,TS3009a.A.dialog-act.s9553330.77,A,A,0.0,0.0,False,False,0.0,[],False, It's a bit uh childish you have to write.,9,task,Assess
+TS3009a,A,305.53,308.56,3.03,TS3009a.A.dialog-act.s9553330.78,A,A,0.0,0.0,False,False,0.0,[],False," It's not as fast as you w you know it,",10,task,Assess
+TS3009a,A,308.56,314.98,6.42,TS3009a.A.dialog-act.s9553330.79,A,A,0.0,0.0,False,False,0.0,[],False, but it does work sometimes.,5,task,Inform
+TS3009a,C,311.127,315.536,4.409,TS3009a.C.dialog-act.s9553330.10,,,,,,,,,False,.,0,minor,Fragment
+TS3009a,D,311.76,312.308,0.548,TS3009a.D.dialog-act.s9553330.13,,,,,,,,,False,,0,minor,Fragment
+TS3009a,B,311.942,313.623,1.681,TS3009a.B.dialog-act.s9553330.3,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,314.98,320.15,5.17,TS3009a.A.dialog-act.s9553330.80,A,A,2.85,0.0,False,False,0.0,[],False, Well it's just like a normal uh paint.,8,task,Inform
+TS3009a,C,318.336,319.312,0.976,TS3009a.C.dialog-act.s9553330.11,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,320.15,321.32,1.17,TS3009a.A.dialog-act.s9553330.81,,,,,,,,,False, So it's gone.,3,task,Inform
+TS3009a,C,320.207,322.0,1.793,TS3009a.C.dialog-act.s9553330.17,,,,,,,,,False," Alright, yep.",2,minor,Backchannel
+TS3009a,A,323.0,327.41,4.41,TS3009a.A.dialog-act.s9553330.82,A,A,2.66,2.85,False,False,0.0,[],False," Well we are designers, so we have to have a a more uh a Smartboard.",15,task,Inform
+TS3009a,A,327.41,330.07,2.66,TS3009a.A.dialog-act.s9553330.83,,,,,,,,,False, So that's fantastic.,3,task,Assess
+TS3009a,A,330.07,332.73,2.66,TS3009a.A.dialog-act.s9553330.84,A,A,3.13,2.66,False,False,0.0,[],False, Um well this uh speaks for itself.,7,task,Inform
+TS3009a,A,335.86,336.86,1.0,TS3009a.A.dialog-act.s9553330.85,A,A,1.3,3.13,False,False,0.0,[],False, We going to try it.,5,task,Inform
+TS3009a,A,338.16,343.46,5.3,TS3009a.A.dialog-act.s9553330.86,D,A,2.12,1.3,False,False,0.0,[],False," So um we all uh are going to uh draw a nice animal on this board,",16,task,Inform
+TS3009a,C,339.727,340.292,0.565,TS3009a.C.dialog-act.s9553330.12,,,,,,,,,False,,0,minor,Fragment
+TS3009a,B,339.924,341.059,1.135,TS3009a.B.dialog-act.s9553330.4,,,,,,,,,False,,0,minor,Fragment
+TS3009a,D,342.371,344.416,2.045,TS3009a.D.dialog-act.s9553330.14,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,343.46,347.55,4.09,TS3009a.A.dialog-act.s9553330.87,,,,,,,,,False, not my idea.,3,task,Inform
+TS3009a,C,343.921,346.448,2.527,TS3009a.C.dialog-act.s9553330.13,,,,,,,,,False,,0,minor,Fragment
+TS3009a,D,345.58,349.248,3.668,TS3009a.D.dialog-act.s9553330.16,A,A,-1.698,2.12,True,True,1.698,['TS3009a.A.dialog-act.s9553330.88'],True," Alright, your favourite animal?",4,elicit,Elicit-Inform
+TS3009a,A,347.55,349.47,1.92,TS3009a.A.dialog-act.s9553330.88,A,D,0.0,-1.698,True,False,0.0,[],False, Yes our your favourite.,4,task,Inform
+TS3009a,A,349.47,352.84,3.37,TS3009a.A.dialog-act.s9553330.89,A,A,0.0,0.0,False,False,0.0,[],False," So um I'm to going to have to draw a kangaroo,",11,other,Offer
+TS3009a,C,350.373,351.865,1.492,TS3009a.C.dialog-act.s9553330.14,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,352.84,354.73,1.89,TS3009a.A.dialog-act.s9553330.90,A,A,0.0,0.0,False,False,0.0,[],False, but I'm going d I'm not going to.,8,task,Inform
+TS3009a,A,354.73,359.46,4.73,TS3009a.A.dialog-act.s9553330.91,A,A,0.0,0.0,False,False,0.0,[],False, I'm just uh going to uh well draw a nice uh beast,12,other,Offer
+TS3009a,D,358.839,362.464,3.625,TS3009a.D.dialog-act.s9553330.17,,,,,,,,,False, Grizzly bear.,2,task,Suggest
+TS3009a,A,359.46,361.98,2.52,TS3009a.A.dialog-act.s9553330.92,C,A,5.14,0.0,False,False,0.0,[],False, w I dunno what I'm going to design.,8,task,Assess
+TS3009a,C,360.164,362.821,2.657,TS3009a.C.dialog-act.s9553330.15,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,361.98,367.5,5.52,TS3009a.A.dialog-act.s9553330.93,,,,,,,,,False, Oh um doesn't oh.,4,minor,Fragment
+TS3009a,C,367.12,370.27,3.15,TS3009a.C.dialog-act.s9553330.18,C,A,0.0,5.14,True,False,0.0,[],True, I hope this was part of the assignment and not uh your uh,13,task,Assess
+TS3009a,A,368.14,368.92,0.78,TS3009a.A.dialog-act.s9553330.95,,,,,,,,,False," Yeah, 'kay.",2,minor,Backchannel
+TS3009a,A,370.23,370.45,0.22,TS3009a.A.dialog-act.s9553330.94,,,,,,,,,False, Hmm?,1,other,Comment-About-Understanding
+TS3009a,C,370.27,373.97,3.7,TS3009a.C.dialog-act.s9553330.19,A,C,-0.43,0.0,False,True,0.43,['TS3009a.A.dialog-act.s9553330.96'],False, I hope this was part of the assignment and not uh your personal uh enjoyment.,15,task,Assess
+TS3009a,D,371.645,372.271,0.626,TS3009a.D.dialog-act.s9553330.15,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,373.54,375.18,1.64,TS3009a.A.dialog-act.s9553330.96,A,C,0.0,-0.43,True,False,0.0,[],False, I just said it's not my idea,7,task,Inform
+TS3009a,D,374.39,374.67,0.28,TS3009a.D.dialog-act.s9553330.20,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,C,375.014,376.912,1.898,TS3009a.C.dialog-act.s9553330.16,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,375.18,376.2,1.02,TS3009a.A.dialog-act.s9553330.97,A,A,0.0,0.0,False,False,0.0,[],False," but I am the Project Manager,",6,task,Inform
+TS3009a,A,376.2,378.57,2.37,TS3009a.A.dialog-act.s9553330.98,C,A,-0.28,0.0,False,True,0.28,['TS3009a.C.dialog-act.s9553330.20'],False, and officially this is my idea.,6,task,Inform
+TS3009a,C,378.29,380.22,1.93,TS3009a.C.dialog-act.s9553330.20,D,A,-0.15,-0.28,True,True,0.15,['TS3009a.D.dialog-act.s9553330.18'],False, I I I I understand.,5,other,Comment-About-Understanding
+TS3009a,A,378.57,382.34,3.77,TS3009a.A.dialog-act.s9553330.100,,,,,,,,,False, So,1,minor,Fragment
+TS3009a,B,378.648,379.718,1.07,TS3009a.B.dialog-act.s9553330.5,,,,,,,,,False,,0,minor,Fragment
+TS3009a,D,380.07,381.33,1.26,TS3009a.D.dialog-act.s9553330.18,D,C,1.28,-0.15,True,False,0.0,[],False," We're kinda losing time, though.",5,task,Inform
+TS3009a,C,380.22,380.82,0.6,TS3009a.C.dialog-act.s9553330.21,,,,,,,,,False, Alright.,1,other,Comment-About-Understanding
+TS3009a,A,382.34,382.53,0.19,TS3009a.A.dialog-act.s9553330.99,,,,,,,,,False, what?,1,other,Comment-About-Understanding
+TS3009a,D,382.61,384.384,1.774,TS3009a.D.dialog-act.s9553330.19,A,D,-0.634,1.28,False,True,0.634,['TS3009a.A.dialog-act.s9553330.101'],False," We're losing time, but",4,task,Inform
+TS3009a,A,383.75,390.91,7.16,TS3009a.A.dialog-act.s9553330.101,A,D,4.47,-0.634,True,False,0.0,[],False," Ah the first the first meeting is just a bit uh loose, loosen up, a bit uh meeting each other",20,task,Inform
+TS3009a,C,383.968,385.296,1.328,TS3009a.C.dialog-act.s9553330.24,,,,,,,,,False, so start,2,minor,Fragment
+TS3009a,D,387.73,387.97,0.24,TS3009a.D.dialog-act.s9553330.25,,,,,,,,,False, Alright.,1,minor,Backchannel
+TS3009a,A,390.91,393.19,2.28,TS3009a.A.dialog-act.s9553330.102,,,,,,,,,False, well uh uh nice yeah. Sh,6,minor,Fragment
+TS3009a,C,391.238,392.69,1.452,TS3009a.C.dialog-act.s9553330.25,,,,,,,,,False, Yep yes.,2,minor,Backchannel
+TS3009a,A,395.38,397.51,2.13,TS3009a.A.dialog-act.s9553330.103,C,A,1.58,4.47,False,False,0.0,[],False, I hope our Industrial Designer does this better,8,other,Be-Positive
+TS3009a,A,397.51,399.409,1.899,TS3009a.A.dialog-act.s9553330.104,,,,,,,,,False, because uh this is uh,5,minor,Fragment
+TS3009a,C,399.09,400.21,1.12,TS3009a.C.dialog-act.s9553330.26,A,A,0.76,1.58,True,False,0.0,[],True, Don't uh count on it.,5,other,Be-Positive
+TS3009a,A,400.66,400.97,0.31,TS3009a.A.dialog-act.s9553330.105,,,,,,,,,False, No,1,minor,Fragment
+TS3009a,A,400.97,407.09,6.12,TS3009a.A.dialog-act.s9553330.106,D,C,-0.51,0.76,True,True,0.51,['TS3009a.D.dialog-act.s9553330.26'],True, so a a few legs.,5,other,Other
+TS3009a,D,406.58,408.07,1.49,TS3009a.D.dialog-act.s9553330.26,A,A,2.82,-0.51,True,False,0.0,[],False, Do we have to guess?,5,elicit,Elicit-Inform
+TS3009a,A,408.048,409.05,1.002,TS3009a.A.dialog-act.s9553330.107,,,,,,,,,False, Yes yes,2,task,Inform
+TS3009a,D,408.07,414.09,6.02,TS3009a.D.dialog-act.s9553330.27,,,,,,,,,False, A hippo?,2,task,Suggest
+TS3009a,A,409.05,410.89,1.84,TS3009a.A.dialog-act.s9553330.108,,,,,,,,,False, guess.,1,elicit,Elicit-Offer-Or-Suggestion
+TS3009a,A,410.89,415.647,4.757,TS3009a.A.dialog-act.s9553330.110,C,D,-4.423,2.82,True,True,4.423,['TS3009a.C.dialog-act.s9553330.27'],True, Well I should make it an hippo now.,8,other,Offer
+TS3009a,C,411.224,416.67,5.446,TS3009a.C.dialog-act.s9553330.27,A,A,-0.374,-4.423,True,True,0.374,['TS3009a.A.dialog-act.s9553330.109'],False, I think it's a mouse or a rat.,8,task,Inform
+TS3009a,B,411.542,412.364,0.822,TS3009a.B.dialog-act.s9553330.6,,,,,,,,,False,,0,minor,Fragment
+TS3009a,D,414.09,414.77,0.68,TS3009a.D.dialog-act.s9553330.28,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,B,414.445,415.066,0.621,TS3009a.B.dialog-act.s9553330.7,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,416.296,417.94,1.644,TS3009a.A.dialog-act.s9553330.109,C,C,1.84,-0.374,True,False,0.0,[],False, No I don't think so.,5,task,Assess
+TS3009a,D,416.912,418.896,1.984,TS3009a.D.dialog-act.s9553330.21,,,,,,,,,False,,0,minor,Fragment
+TS3009a,C,418.13,418.39,0.26,TS3009a.C.dialog-act.s9553330.28,,,,,,,,,False, Oh.,1,other,Comment-About-Understanding
+TS3009a,C,419.78,420.43,0.65,TS3009a.C.dialog-act.s9553330.29,A,A,2.09,1.84,True,False,0.0,[],True, Oh I know it.,4,other,Comment-About-Understanding
+TS3009a,A,422.52,423.21,0.69,TS3009a.A.dialog-act.s9553330.111,D,C,-0.01,2.09,True,True,0.01,['TS3009a.D.dialog-act.s9553330.29'],True," Well what is it, huh?",5,elicit,Elicit-Inform
+TS3009a,C,423.09,424.19,1.1,TS3009a.C.dialog-act.s9553330.30,,,,,,,,,False, It's a hedgehog.,3,task,Inform
+TS3009a,D,423.2,424.59,1.39,TS3009a.D.dialog-act.s9553330.29,A,A,3.48,-0.01,True,False,0.0,[],False, I don't know how to call it.,7,task,Inform
+TS3009a,A,424.49,427.22,2.73,TS3009a.A.dialog-act.s9553330.112,,,,,,,,,False, Yeah,1,task,Assess
+TS3009a,D,424.59,427.248,2.658,TS3009a.D.dialog-act.s9553330.30,,,,,,,,,False, A hedgehog?,2,other,Comment-About-Understanding
+TS3009a,A,427.22,428.07,0.85,TS3009a.A.dialog-act.s9553330.113,,,,,,,,,False, difficult English word.,3,task,Assess
+TS3009a,A,428.07,431.36,3.29,TS3009a.A.dialog-act.s9553330.114,C,D,-0.68,3.48,True,True,0.68,['TS3009a.C.dialog-act.s9553330.31'],True, I didn't knew it myself.,5,task,Inform
+TS3009a,D,429.152,429.824,0.672,TS3009a.D.dialog-act.s9553330.31,,,,,,,,,False,.,0,minor,Fragment
+TS3009a,C,430.68,436.352,5.672,TS3009a.C.dialog-act.s9553330.31,A,A,-0.632,-0.68,True,True,0.632,['TS3009a.A.dialog-act.s9553330.115'],False, Well I'm amazed uh about your uh drawing skills.,9,task,Assess
+TS3009a,D,434.552,435.67,1.118,TS3009a.D.dialog-act.s9553330.22,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,435.72,438.34,2.62,TS3009a.A.dialog-act.s9553330.115,A,C,0.0,-0.632,True,False,0.0,[],False, Our characteristics sum it up.,5,task,Inform
+TS3009a,A,438.34,444.23,5.89,TS3009a.A.dialog-act.s9553330.116,A,A,5.79,0.0,False,False,0.0,[],False, Well it's uh very uh painful,6,task,Inform
+TS3009a,C,439.964,444.028,4.064,TS3009a.C.dialog-act.s9553330.22,,,,,,,,,False,,0,minor,Fragment
+TS3009a,D,440.701,443.36,2.659,TS3009a.D.dialog-act.s9553330.23,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,444.23,445.01,0.78,TS3009a.A.dialog-act.s9553330.117,,,,,,,,,False, those kind of thing.,4,minor,Fragment
+TS3009a,D,444.56,444.848,0.288,TS3009a.D.dialog-act.s9553330.24,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,445.01,447.392,2.382,TS3009a.A.dialog-act.s9553330.118,,,,,,,,,False, So we can uh just uh,6,minor,Fragment
+TS3009a,C,447.054,447.93,0.876,TS3009a.C.dialog-act.s9553330.32,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,D,448.528,450.08,1.552,TS3009a.D.dialog-act.s9553330.32,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,449.46,450.02,0.56,TS3009a.A.dialog-act.s9553330.119,,,,,,,,,False, We're going back,3,task,Inform
+TS3009a,C,449.594,451.52,1.926,TS3009a.C.dialog-act.s9553330.23,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,450.02,456.05,6.03,TS3009a.A.dialog-act.s9553330.120,C,A,-3.948,5.79,False,True,2.208,['TS3009a.C.dialog-act.s9553330.33'],False, and now uh our Industrial Designer can uh draw its uh most favourite animal.,14,task,Suggest
+TS3009a,C,452.102,454.31,2.208,TS3009a.C.dialog-act.s9553330.33,C,A,3.28,-3.948,True,False,0.0,[],False, I am the Industrial Designer.,5,task,Inform
+TS3009a,D,452.32,452.7,0.38,TS3009a.D.dialog-act.s9553330.33,,,,,,,,,False, Alright.,1,task,Assess
+TS3009a,D,455.01,456.64,1.63,TS3009a.D.dialog-act.s9553330.35,,,,,,,,,False, Thank you.,2,other,Be-Positive
+TS3009a,A,456.05,456.21,0.16,TS3009a.A.dialog-act.s9553330.121,,,,,,,,,False, Huh.,1,minor,Backchannel
+TS3009a,C,457.59,459.44,1.85,TS3009a.C.dialog-act.s9553330.35,A,C,0.23,3.28,False,False,0.0,[],False," Chief, I am the Industrial Designer.",6,task,Inform
+TS3009a,A,459.67,461.53,1.86,TS3009a.A.dialog-act.s9553330.122,C,C,2.534,0.23,True,False,0.0,[],True, Oh uh but this uh marketing designer.,7,task,Inform
+TS3009a,C,461.89,462.02,0.13,TS3009a.C.dialog-act.s9553330.36,,,,,,,,,False, Yeah.,1,task,Assess
+TS3009a,A,463.638,469.856,6.218,TS3009a.A.dialog-act.s9553330.123,,,,,,,,,False,,0,minor,Fragment
+TS3009a,C,464.064,472.85,8.786,TS3009a.C.dialog-act.s9553330.38,A,A,4.22,2.534,True,False,0.0,[],True, I think It's pr it resembles the animal drawn by.,10,task,Assess
+TS3009a,D,468.224,469.168,0.944,TS3009a.D.dialog-act.s9553330.36,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,473.072,473.072,0.0,TS3009a.A.dialog-act.s9553330.125,,,,,,,,,False,,0,other,Comment-About-Understanding
+TS3009a,D,474.8,476.672,1.872,TS3009a.D.dialog-act.s9553330.38,,,,,,,,,False, It's.,1,task,Assess
+TS3009a,A,477.07,479.296,2.226,TS3009a.A.dialog-act.s9553330.126,C,C,1.064,4.22,True,False,0.0,[],True, what kind of animal is that then?,7,elicit,Elicit-Inform
+TS3009a,C,479.24,480.36,1.12,TS3009a.C.dialog-act.s9553330.39,,,,,,,,,False, I think,2,minor,Fragment
+TS3009a,C,480.36,480.96,0.6,TS3009a.C.dialog-act.s9553330.40,D,A,10.23,1.064,True,False,0.0,[],True, can I say it?,4,other,Offer
+TS3009a,D,481.68,482.87,1.19,TS3009a.D.dialog-act.s9553330.39,,,,,,,,,False, Yeah sure.,2,task,Assess
+TS3009a,A,482.49,486.768,4.278,TS3009a.A.dialog-act.s9553330.127,,,,,,,,,False, Uh it.,2,minor,Fragment
+TS3009a,C,483.216,485.632,2.416,TS3009a.C.dialog-act.s9553330.37,,,,,,,,,False,,0,minor,Fragment
+TS3009a,B,483.969,485.228,1.259,TS3009a.B.dialog-act.s9553330.8,,,,,,,,,False,,0,minor,Fragment
+TS3009a,D,487.94,489.77,1.83,TS3009a.D.dialog-act.s9553330.40,,,,,,,,,False, It's a rabbit.,3,task,Inform
+TS3009a,D,489.77,490.064,0.294,TS3009a.D.dialog-act.s9553330.41,,,,,,,,,False, Well,1,minor,Stall
+TS3009a,D,491.19,492.29,1.1,TS3009a.D.dialog-act.s9553330.42,A,C,3.41,10.23,True,False,0.0,[],True," Looks very nice, right?",4,task,Assess
+TS3009a,A,492.36,492.5,0.14,TS3009a.A.dialog-act.s9553330.128,,,,,,,,,False, Yeah.,1,task,Assess
+TS3009a,C,492.93,493.97,1.04,TS3009a.C.dialog-act.s9553330.41,,,,,,,,,False, It looks amazing.,3,task,Assess
+TS3009a,A,494.56,495.7,1.14,TS3009a.A.dialog-act.s9553330.129,,,,,,,,,False, No no no.,3,task,Assess
+TS3009a,A,495.7,496.46,0.76,TS3009a.A.dialog-act.s9553330.130,B,D,0.84,3.41,True,False,0.0,[],True, What are you going to do?,6,elicit,Elicit-Inform
+TS3009a,A,497.005,497.923,0.918,TS3009a.A.dialog-act.s9553330.124,,,,,,,,,False,,0,minor,Fragment
+TS3009a,B,497.3,500.031,2.731,TS3009a.B.dialog-act.s9553330.9,A,A,0.099,0.84,True,False,0.0,[],True, We want to erase it.,5,task,Inform
+TS3009a,A,498.34,499.67,1.33,TS3009a.A.dialog-act.s9553330.131,,,,,,,,,False, No no.,2,task,Assess
+TS3009a,D,498.486,499.728,1.242,TS3009a.D.dialog-act.s9553330.37,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,499.67,500.13,0.46,TS3009a.A.dialog-act.s9553330.132,,,,,,,,,False, No no,2,task,Assess
+TS3009a,A,500.13,501.7,1.57,TS3009a.A.dialog-act.s9553330.133,A,B,1.54,0.099,True,False,0.0,[],True, save it and start a new uh,7,task,Suggest
+TS3009a,A,501.7,502.14,0.44,TS3009a.A.dialog-act.s9553330.134,,,,,,,,,False, save it,2,task,Suggest
+TS3009a,D,502.61,503.13,0.52,TS3009a.D.dialog-act.s9553330.43,,,,,,,,,False, Yes.,1,task,Assess
+TS3009a,C,502.76,503.975,1.215,TS3009a.C.dialog-act.s9553330.42,,,,,,,,,False, These are very impor,4,minor,Fragment
+TS3009a,A,503.24,505.53,2.29,TS3009a.A.dialog-act.s9553330.135,C,A,-0.73,1.54,False,True,0.73,['TS3009a.C.dialog-act.s9553330.43'],False, and start a new black uh doc a blank document.,10,task,Suggest
+TS3009a,C,504.8,508.083,3.283,TS3009a.C.dialog-act.s9553330.43,A,A,-1.013,-0.73,True,True,1.013,['TS3009a.A.dialog-act.s9553330.136'],False," These are very important documents, of course, uh these drawings, uh",11,task,Assess
+TS3009a,A,507.07,508.28,1.21,TS3009a.A.dialog-act.s9553330.136,A,C,0.0,-1.013,True,False,0.0,[],False, Yeah well we have to save everything,7,task,Inform
+TS3009a,D,507.55,509.04,1.49,TS3009a.D.dialog-act.s9553330.44,,,,,,,,,False, Yes uh right.,3,minor,Backchannel
+TS3009a,A,508.28,510.032,1.752,TS3009a.A.dialog-act.s9553330.137,A,A,1.2,0.0,False,False,0.0,[],False, so now um the next one uh,7,elicit,Elicit-Offer-Or-Suggestion
+TS3009a,A,511.232,514.93,3.698,TS3009a.A.dialog-act.s9553330.138,A,A,8.84,1.2,False,False,0.0,[],False, and then save it and start an blank document.,9,task,Inform
+TS3009a,D,511.36,511.87,0.51,TS3009a.D.dialog-act.s9553330.45,,,,,,,,,False, You go man.,3,task,Suggest
+TS3009a,B,511.794,513.03,1.236,TS3009a.B.dialog-act.s9553330.10,,,,,,,,,False, Thanks.,1,other,Be-Positive
+TS3009a,A,520.608,523.77,3.162,TS3009a.A.dialog-act.s9553330.139,,,,,,,,,False, Yeah.,1,other,Other
+TS3009a,A,523.77,525.81,2.04,TS3009a.A.dialog-act.s9553330.140,A,A,0.0,8.84,False,False,0.0,[],False, There's also different colours,4,task,Inform
+TS3009a,A,525.81,533.04,7.23,TS3009a.A.dialog-act.s9553330.141,A,A,0.0,0.0,False,False,0.0,[],False, and different uh well pen widths uh the line the the thickness thickness.,13,task,Inform
+TS3009a,D,533.04,533.29,0.25,TS3009a.D.dialog-act.s9553330.46,,,,,,,,,False, Alright.,1,minor,Backchannel
+TS3009a,A,533.04,536.576,3.536,TS3009a.A.dialog-act.s9553330.142,D,A,0.484,0.0,False,False,0.0,[],False, So um well you should uh try it but uh,10,task,Suggest
+TS3009a,D,537.06,540.612,3.552,TS3009a.D.dialog-act.s9553330.47,A,A,-1.602,0.484,True,True,1.602,['TS3009a.A.dialog-act.s9553330.143'],True, I should have made mine a white rabbit.,8,task,Assess
+TS3009a,A,539.01,541.0,1.99,TS3009a.A.dialog-act.s9553330.143,C,D,-0.07,-1.602,True,True,0.07,['TS3009a.C.dialog-act.s9553330.44'],False, Well y y y you could have but uh.,9,task,Inform
+TS3009a,C,540.93,544.37,3.44,TS3009a.C.dialog-act.s9553330.44,A,A,-2.24,-0.07,True,True,1.04,['TS3009a.A.dialog-act.s9553330.144'],False, And he deliberately draws a animal we don't know the English word for.,13,task,Inform
+TS3009a,D,542.104,546.074,3.97,TS3009a.D.dialog-act.s9553330.48,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,542.13,543.17,1.04,TS3009a.A.dialog-act.s9553330.144,A,C,4.48,-2.24,True,False,0.0,[],False, It speaks for itself.,4,task,Inform
+TS3009a,A,544.32,547.65,3.33,TS3009a.A.dialog-act.s9553330.146,,,,,,,,,False, What the,2,minor,Fragment
+TS3009a,C,546.56,547.936,1.376,TS3009a.C.dialog-act.s9553330.45,,,,,,,,,False, It looks like an uh,5,minor,Fragment
+TS3009a,A,547.65,549.52,1.87,TS3009a.A.dialog-act.s9553330.147,C,A,0.04,4.48,False,False,0.0,[],False, uh just a duck.,4,task,Suggest
+TS3009a,C,549.56,551.56,2.0,TS3009a.C.dialog-act.s9553330.46,A,A,8.6,0.04,True,False,0.0,[],True, It looks like that beast from Sesame Street.,8,task,Inform
+TS3009a,A,551.552,556.496,4.944,TS3009a.A.dialog-act.s9553330.148,,,,,,,,,False, Nice.,1,task,Assess
+TS3009a,D,552.208,553.888,1.68,TS3009a.D.dialog-act.s9553330.49,,,,,,,,,False,.,0,minor,Fragment
+TS3009a,C,554.21,554.5,0.29,TS3009a.C.dialog-act.s9553330.47,,,,,,,,,False, Yeah.,1,other,Other
+TS3009a,B,555.13,556.768,1.638,TS3009a.B.dialog-act.s9553330.11,,,,,,,,,False, Big bird.,2,task,Inform
+TS3009a,A,557.362,558.888,1.526,TS3009a.A.dialog-act.s9553330.145,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,560.16,560.83,0.67,TS3009a.A.dialog-act.s9553330.150,D,C,-0.57,8.6,True,True,0.57,['TS3009a.D.dialog-act.s9553330.50'],True, Is it a duck?,4,elicit,Elicit-Inform
+TS3009a,D,560.26,561.44,1.18,TS3009a.D.dialog-act.s9553330.50,D,A,0.0,-0.57,True,False,0.0,[],False," You're standing in front of it,",6,task,Inform
+TS3009a,C,561.03,562.128,1.098,TS3009a.C.dialog-act.s9553330.48,,,,,,,,,False, It's it's uh,3,minor,Fragment
+TS3009a,D,561.44,562.63,1.19,TS3009a.D.dialog-act.s9553330.51,A,D,-0.76,0.0,False,True,0.76,['TS3009a.A.dialog-act.s9553330.151'],False, I can't see it.,4,task,Inform
+TS3009a,A,561.87,563.44,1.57,TS3009a.A.dialog-act.s9553330.151,D,D,0.35,-0.76,True,False,0.0,[],False, Is it a plane?,4,elicit,Elicit-Inform
+TS3009a,D,562.63,563.79,1.16,TS3009a.D.dialog-act.s9553330.52,,,,,,,,,False," Alright, thank you.",3,other,Be-Positive
+TS3009a,D,563.79,565.22,1.43,TS3009a.D.dialog-act.s9553330.53,D,A,0.0,0.35,True,False,0.0,[],True," Yeah it's a bird,",4,task,Inform
+TS3009a,D,565.22,566.3,1.08,TS3009a.D.dialog-act.s9553330.54,A,D,2.25,0.0,False,False,0.0,[],False, but what kind of bird?,5,elicit,Elicit-Offer-Or-Suggestion
+TS3009a,C,567.104,567.44,0.336,TS3009a.C.dialog-act.s9553330.49,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,568.55,572.21,3.66,TS3009a.A.dialog-act.s9553330.152,D,D,0.05,2.25,True,False,0.0,[],True, It doesn't draw uh circles uh that easy uh.,9,task,Assess
+TS3009a,C,570.04,571.12,1.08,TS3009a.C.dialog-act.s9553330.50,,,,,,,,,False, Do we have to uh,5,minor,Fragment
+TS3009a,D,572.26,573.21,0.95,TS3009a.D.dialog-act.s9553330.55,A,A,1.04,0.05,True,False,0.0,[],True, You have to push harder.,5,task,Inform
+TS3009a,A,573.38,574.25,0.87,TS3009a.A.dialog-act.s9553330.153,,,,,,,,,False, Yeah,1,task,Assess
+TS3009a,B,574.22,574.74,0.52,TS3009a.B.dialog-act.s9553330.14,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3009a,A,574.25,575.21,0.96,TS3009a.A.dialog-act.s9553330.156,C,D,1.77,1.04,True,False,0.0,[],True," just a bit a bit childish,",6,task,Assess
+TS3009a,A,575.21,575.43,0.22,TS3009a.A.dialog-act.s9553330.157,,,,,,,,,False, a bit.,2,minor,Fragment
+TS3009a,C,576.98,582.19,5.21,TS3009a.C.dialog-act.s9553330.51,B,A,0.578,1.77,True,False,0.0,[],True, But we have uh do we have to name the specific species of the bird?,15,elicit,Elicit-Inform
+TS3009a,D,577.7,578.35,0.65,TS3009a.D.dialog-act.s9553330.58,,,,,,,,,False, Release your anger.,3,other,Be-Positive
+TS3009a,B,578.491,580.735,2.244,TS3009a.B.dialog-act.s9553330.12,,,,,,,,,False,,0,minor,Fragment
+TS3009a,D,579.442,581.811,2.369,TS3009a.D.dialog-act.s9553330.56,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,581.187,582.72,1.533,TS3009a.A.dialog-act.s9553330.154,,,,,,,,,False,,0,minor,Fragment
+TS3009a,B,582.768,584.09,1.322,TS3009a.B.dialog-act.s9553330.15,B,C,0.0,0.578,True,False,0.0,[],True, Uh no I don't.,4,task,Inform
+TS3009a,C,583.31,583.62,0.31,TS3009a.C.dialog-act.s9553330.52,,,,,,,,,False, No?,1,elicit,Elicit-Inform
+TS3009a,B,584.09,585.04,0.95,TS3009a.B.dialog-act.s9553330.16,A,B,1.34,0.0,False,False,0.0,[],False, It's just a bird.,4,task,Inform
+TS3009a,C,586.36,587.13,0.77,TS3009a.C.dialog-act.s9553330.53,,,,,,,,,False, Well wonderful.,2,task,Assess
+TS3009a,A,586.38,587.94,1.56,TS3009a.A.dialog-act.s9553330.158,A,B,5.44,1.34,True,False,0.0,[],True, Well uh save the document,5,task,Suggest
+TS3009a,A,587.94,588.544,0.604,TS3009a.A.dialog-act.s9553330.159,,,,,,,,,False, and then uh,3,minor,Fragment
+TS3009a,D,589.248,590.048,0.8,TS3009a.D.dialog-act.s9553330.57,,,,,,,,,False,,0,minor,Fragment
+TS3009a,B,589.292,591.186,1.894,TS3009a.B.dialog-act.s9553330.13,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,593.38,595.11,1.73,TS3009a.A.dialog-act.s9553330.160,A,A,1.706,5.44,False,False,0.0,[],False, And then a a new blank document for.,8,task,Suggest
+TS3009a,A,596.816,603.2,6.384,TS3009a.A.dialog-act.s9553330.161,C,A,-2.373,1.706,False,True,2.183,['TS3009a.C.dialog-act.s9553330.54'],False, uh will uh choose a new colour and a new pen width so w we can all see it.,19,task,Suggest
+TS3009a,B,597.85,598.35,0.5,TS3009a.B.dialog-act.s9553330.17,,,,,,,,,False, Here you go.,3,other,Other
+TS3009a,C,600.827,603.01,2.183,TS3009a.C.dialog-act.s9553330.54,A,A,2.85,-2.373,True,False,0.0,[],False, Why do I have to do the difficult tasks?,9,elicit,Elicit-Inform
+TS3009a,C,603.01,605.14,2.13,TS3009a.C.dialog-act.s9553330.55,,,,,,,,,False, Uh pen,2,task,Suggest
+TS3009a,A,603.2,604.73,1.53,TS3009a.A.dialog-act.s9553330.162,,,,,,,,,False, No well first,3,minor,Fragment
+TS3009a,A,604.73,605.86,1.13,TS3009a.A.dialog-act.s9553330.163,,,,,,,,,False, yeah.,1,task,Assess
+TS3009a,C,605.14,605.52,0.38,TS3009a.C.dialog-act.s9553330.56,,,,,,,,,False, yeah that's.,2,minor,Fragment
+TS3009a,A,605.86,609.37,3.51,TS3009a.A.dialog-act.s9553330.164,A,C,0.96,2.85,True,False,0.0,[],True," And then you go to format I think,",8,task,Suggest
+TS3009a,C,609.06,609.93,0.87,TS3009a.C.dialog-act.s9553330.57,,,,,,,,,False, Uh current colour.,3,task,Inform
+TS3009a,A,609.37,610.33,0.96,TS3009a.A.dialog-act.s9553330.165,,,,,,,,,False, and current colour,3,task,Suggest
+TS3009a,A,610.33,611.4,1.07,TS3009a.A.dialog-act.s9553330.166,A,A,0.0,0.96,False,False,0.0,[],False, you choose a new colour.,5,task,Suggest
+TS3009a,A,611.4,619.46,8.06,TS3009a.A.dialog-act.s9553330.167,C,A,-6.47,0.0,False,True,2.29,['TS3009a.C.dialog-act.s9553330.59'],False, And a new pen width uh also format.,8,task,Suggest
+TS3009a,C,611.92,612.99,1.07,TS3009a.C.dialog-act.s9553330.58,,,,,,,,,False, I like uh,3,minor,Fragment
+TS3009a,B,612.77,613.1,0.33,TS3009a.B.dialog-act.s9553330.18,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3009a,C,612.99,615.28,2.29,TS3009a.C.dialog-act.s9553330.59,A,A,5.35,-6.47,True,False,0.0,[],False, oh they don't have pink.,5,task,Inform
+TS3009a,C,615.28,617.384,2.104,TS3009a.C.dialog-act.s9553330.60,,,,,,,,,False, Oh b oh think this is uh,7,minor,Fragment
+TS3009a,A,620.63,622.31,1.68,TS3009a.A.dialog-act.s9553330.168,A,C,1.01,5.35,True,False,0.0,[],True, It's not like in paint.,5,task,Inform
+TS3009a,C,622.01,622.368,0.358,TS3009a.C.dialog-act.s9553330.62,,,,,,,,,False, Uh? Uh,2,minor,Backchannel
+TS3009a,A,622.31,623.32,1.01,TS3009a.A.dialog-act.s9553330.169,,,,,,,,,False, Line width.,2,task,Inform
+TS3009a,A,623.32,624.74,1.42,TS3009a.A.dialog-act.s9553330.170,C,A,3.94,1.01,False,False,0.0,[],False, And you can choose a nice one.,7,task,Suggest
+TS3009a,C,623.89,624.52,0.63,TS3009a.C.dialog-act.s9553330.61,,,,,,,,,False, Line width.,2,task,Inform
+TS3009a,B,624.52,625.06,0.54,TS3009a.B.dialog-act.s9553330.19,,,,,,,,,False, Width.,1,task,Inform
+TS3009a,A,624.74,625.97,1.23,TS3009a.A.dialog-act.s9553330.171,,,,,,,,,False, Width width.,2,other,Comment-About-Understanding
+TS3009a,C,625.91,628.68,2.77,TS3009a.C.dialog-act.s9553330.63,,,,,,,,,False, Uh fifteen.,2,task,Suggest
+TS3009a,A,625.97,626.67,0.7,TS3009a.A.dialog-act.s9553330.172,,,,,,,,,False, With each other.,3,other,Be-Positive
+TS3009a,A,627.36,628.272,0.912,TS3009a.A.dialog-act.s9553330.155,,,,,,,,,False,,0,minor,Fragment
+TS3009a,C,628.68,629.53,0.85,TS3009a.C.dialog-act.s9553330.64,A,A,3.574,3.94,True,False,0.0,[],True, And I can draw?,4,elicit,Elicit-Inform
+TS3009a,B,628.91,629.21,0.3,TS3009a.B.dialog-act.s9553330.20,,,,,,,,,False, Hmm.,1,minor,Backchannel
+TS3009a,A,629.72,629.94,0.22,TS3009a.A.dialog-act.s9553330.173,,,,,,,,,False, Yeah.,1,task,Inform
+TS3009a,A,633.104,636.51,3.406,TS3009a.A.dialog-act.s9553330.174,B,C,5.15,3.574,True,False,0.0,[],True, So. Just a wa that's the way we do,9,task,Inform
+TS3009a,C,635.64,636.331,0.691,TS3009a.C.dialog-act.s9553330.65,,,,,,,,,False, Uh,1,minor,Backchannel
+TS3009a,A,636.51,638.57,2.06,TS3009a.A.dialog-act.s9553330.175,,,,,,,,,False, it's quite easy.,3,task,Assess
+TS3009a,B,638.823,639.86,1.037,TS3009a.B.dialog-act.s9553330.21,,,,,,,,,False,,0,minor,Fragment
+TS3009a,D,639.82,640.544,0.724,TS3009a.D.dialog-act.s9553330.59,,,,,,,,,False, Hmm.,1,minor,Backchannel
+TS3009a,C,640.704,641.088,0.384,TS3009a.C.dialog-act.s9553330.66,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,641.04,644.04,3.0,TS3009a.A.dialog-act.s9553330.177,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3009a,B,641.66,642.51,0.85,TS3009a.B.dialog-act.s9553330.23,C,A,3.01,5.15,True,False,0.0,[],True, It's a pussy cat.,4,task,Suggest
+TS3009a,D,642.71,643.856,1.146,TS3009a.D.dialog-act.s9553330.60,,,,,,,,,False, It's a cat.,3,task,Suggest
+TS3009a,A,644.04,645.952,1.912,TS3009a.A.dialog-act.s9553330.178,,,,,,,,,False, Oh Pussy.,2,other,Be-Positive
+TS3009a,C,645.52,649.0,3.48,TS3009a.C.dialog-act.s9553330.67,A,B,-0.34,3.01,True,True,0.34,['TS3009a.A.dialog-act.s9553330.179'],True," Oh the line width is too thick, but oh well.",10,task,Assess
+TS3009a,A,648.66,649.78,1.12,TS3009a.A.dialog-act.s9553330.179,C,C,15.36,-0.34,True,False,0.0,[],False, Well then you change it.,5,task,Suggest
+TS3009a,A,651.12,652.05,0.93,TS3009a.A.dialog-act.s9553330.180,,,,,,,,,False, And erase things.,3,task,Suggest
+TS3009a,C,653.75,654.45,0.7,TS3009a.C.dialog-act.s9553330.68,,,,,,,,,False, Uh.,1,minor,Backchannel
+TS3009a,B,656.032,662.912,6.88,TS3009a.B.dialog-act.s9553330.22,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,656.288,663.99,7.702,TS3009a.A.dialog-act.s9553330.181,,,,,,,,,False, What?,1,other,Comment-About-Understanding
+TS3009a,D,657.574,663.76,6.186,TS3009a.D.dialog-act.s9553330.61,,,,,,,,,False, It's a pig.,3,task,Suggest
+TS3009a,C,661.25,662.32,1.07,TS3009a.C.dialog-act.s9553330.69,,,,,,,,,False, It smiles nicely.,3,task,Assess
+TS3009a,A,663.99,666.04,2.05,TS3009a.A.dialog-act.s9553330.182,,,,,,,,,False, Super pig.,2,other,Be-Positive
+TS3009a,C,665.14,667.248,2.108,TS3009a.C.dialog-act.s9553330.70,C,A,7.032,15.36,True,False,0.0,[],True, Now I have to change the line width.,8,other,Offer
+TS3009a,C,671.15,672.47,1.32,TS3009a.C.dialog-act.s9553330.71,,,,,,,,,False, Uh one.,2,other,Other
+TS3009a,A,673.12,673.408,0.288,TS3009a.A.dialog-act.s9553330.183,,,,,,,,,False, So,1,minor,Fragment
+TS3009a,C,674.28,675.68,1.4,TS3009a.C.dialog-act.s9553330.72,C,C,2.13,7.032,False,False,0.0,[],False," These are whiskers, you know.",5,task,Inform
+TS3009a,A,674.736,676.34,1.604,TS3009a.A.dialog-act.s9553330.184,,,,,,,,,False, Yeah yeah yeah,3,task,Assess
+TS3009a,D,676.29,676.69,0.4,TS3009a.D.dialog-act.s9553330.62,,,,,,,,,False, Right.,1,task,Assess
+TS3009a,A,676.34,677.36,1.02,TS3009a.A.dialog-act.s9553330.185,,,,,,,,,False, we know.,2,task,Inform
+TS3009a,C,677.81,680.67,2.86,TS3009a.C.dialog-act.s9553330.73,D,C,6.28,2.13,False,False,0.0,[],False, Uh well I think it's obvious right now.,8,task,Inform
+TS3009a,A,680.8,682.7,1.9,TS3009a.A.dialog-act.s9553330.186,,,,,,,,,False, Yes alright.,2,task,Assess
+TS3009a,A,682.7,684.352,1.652,TS3009a.A.dialog-act.s9553330.187,,,,,,,,,False, It's a cat.,3,task,Inform
+TS3009a,D,686.95,687.65,0.7,TS3009a.D.dialog-act.s9553330.63,C,C,6.13,6.28,True,False,0.0,[],True, No it looks great.,4,task,Assess
+TS3009a,C,691.72,692.56,0.84,TS3009a.C.dialog-act.s9553330.74,,,,,,,,,False, Miaow.,1,other,Be-Positive
+TS3009a,A,692.784,694.624,1.84,TS3009a.A.dialog-act.s9553330.176,,,,,,,,,False,,0,minor,Fragment
+TS3009a,C,693.78,695.648,1.868,TS3009a.C.dialog-act.s9553330.75,C,D,4.464,6.13,True,False,0.0,[],True, Well if this isn't obvious,5,task,Assess
+TS3009a,A,696.76,698.048,1.288,TS3009a.A.dialog-act.s9553330.188,,,,,,,,,False, Well well um,3,minor,Fragment
+TS3009a,D,699.09,701.904,2.814,TS3009a.D.dialog-act.s9553330.64,,,,,,,,,False, Just save it.,3,task,Suggest
+TS3009a,C,700.112,703.24,3.128,TS3009a.C.dialog-act.s9553330.76,A,C,-2.67,4.464,False,True,2.67,['TS3009a.A.dialog-act.s9553330.190'],False, I'll save it alright uh save.,6,other,Offer
+TS3009a,A,700.32,700.57,0.25,TS3009a.A.dialog-act.s9553330.189,,,,,,,,,False, Yeah,1,task,Assess
+TS3009a,B,700.324,702.29,1.966,TS3009a.B.dialog-act.s9553330.24,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,700.57,705.25,4.68,TS3009a.A.dialog-act.s9553330.190,C,C,1.41,-2.67,True,False,0.0,[],False, save it and start a new blank document.,8,task,Suggest
+TS3009a,C,706.66,708.17,1.51,TS3009a.C.dialog-act.s9553330.78,A,A,1.02,1.41,True,False,0.0,[],True, Uh yeah uh blank.,4,task,Assess
+TS3009a,A,708.4,709.19,0.79,TS3009a.A.dialog-act.s9553330.191,,,,,,,,,False, Yep.,1,task,Assess
+TS3009a,A,709.19,714.05,4.86,TS3009a.A.dialog-act.s9553330.192,C,C,-1.45,1.02,True,True,1.45,['TS3009a.C.dialog-act.s9553330.79'],True, So that's uh what we're going to use when we uh need it.,13,task,Inform
+TS3009a,C,712.6,715.28,2.68,TS3009a.C.dialog-act.s9553330.79,A,A,-1.23,-1.45,True,True,1.23,['TS3009a.A.dialog-act.s9553330.193'],False, Well I feel comfortable now.,5,task,Inform
+TS3009a,D,713.25,713.94,0.69,TS3009a.D.dialog-act.s9553330.66,,,,,,,,,False, Oh great.,2,task,Assess
+TS3009a,A,714.05,717.856,3.806,TS3009a.A.dialog-act.s9553330.193,C,C,-2.576,-1.23,True,True,0.99,['TS3009a.C.dialog-act.s9553330.80'],False," Well it's terrific, eh?",4,task,Assess
+TS3009a,B,714.992,715.931,0.939,TS3009a.B.dialog-act.s9553330.25,,,,,,,,,False,,0,minor,Fragment
+TS3009a,C,715.28,716.27,0.99,TS3009a.C.dialog-act.s9553330.80,D,A,2.21,-2.576,True,False,0.0,[],False, Thanks for this exercise.,4,other,Be-Positive
+TS3009a,D,718.48,722.718,4.238,TS3009a.D.dialog-act.s9553330.67,C,C,-4.088,2.21,True,True,1.51,['TS3009a.C.dialog-act.s9553330.81'],True, It's good for group spirit.,5,task,Assess
+TS3009a,C,718.63,720.14,1.51,TS3009a.C.dialog-act.s9553330.81,A,D,3.05,-4.088,True,False,0.0,[],False, I feel totally at ease.,5,task,Inform
+TS3009a,A,719.84,723.19,3.35,TS3009a.A.dialog-act.s9553330.194,,,,,,,,,False, Yeah that's it.,3,task,Assess
+TS3009a,B,720.464,723.248,2.784,TS3009a.B.dialog-act.s9553330.26,,,,,,,,,False, It certainly is.,3,task,Assess
+TS3009a,A,723.19,727.4,4.21,TS3009a.A.dialog-act.s9553330.195,C,C,-1.27,3.05,True,True,1.2,['TS3009a.C.dialog-act.s9553330.82'],True, We're one big happy family now.,6,other,Be-Positive
+TS3009a,D,725.232,725.488,0.256,TS3009a.D.dialog-act.s9553330.65,,,,,,,,,False,,0,minor,Fragment
+TS3009a,C,726.13,727.33,1.2,TS3009a.C.dialog-act.s9553330.82,A,A,0.07,-1.27,True,False,0.0,[],False, Yeah something like that.,4,task,Assess
+TS3009a,A,727.4,729.55,2.15,TS3009a.A.dialog-act.s9553330.196,A,C,1.49,0.07,True,False,0.0,[],True, Well then uh the serious uh stuff.,7,task,Inform
+TS3009a,A,731.04,735.12,4.08,TS3009a.A.dialog-act.s9553330.197,A,A,0.0,1.49,False,False,0.0,[],False, We're we want to sell it at twenty five Euros internationally,11,task,Inform
+TS3009a,A,735.12,741.2,6.08,TS3009a.A.dialog-act.s9553330.198,A,A,1.09,0.0,False,False,0.0,[],False," um so um but we dunno what exactly th i it is in dollars, but uh twenty five Euros.",19,task,Inform
+TS3009a,A,742.29,746.57,4.28,TS3009a.A.dialog-act.s9553330.199,A,A,1.37,1.09,False,False,0.0,[],False," Our profit aim is, worldwide, fifty million Euros.",8,task,Inform
+TS3009a,C,747.58,747.872,0.292,TS3009a.C.dialog-act.s9553330.83,,,,,,,,,False, So,1,minor,Fragment
+TS3009a,A,747.94,754.92,6.98,TS3009a.A.dialog-act.s9553330.200,A,A,0.0,1.37,False,False,0.0,[],False, So I didn't uh exactly uh calculate how much we have to sell.,13,task,Inform
+TS3009a,C,752.8,754.208,1.408,TS3009a.C.dialog-act.s9553330.77,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,754.92,759.17,4.25,TS3009a.A.dialog-act.s9553330.202,A,A,0.0,0.0,False,False,0.0,[],False, we want to keep it our costs at twelve and a half Euros,13,task,Inform
+TS3009a,A,759.17,768.41,9.24,TS3009a.A.dialog-act.s9553330.203,A,A,3.05,0.0,False,False,0.0,[],False," so, keep uh that in mind when we uh talk about our uh materials an f and stuff, and uh marketing uh research.",23,task,Suggest
+TS3009a,D,765.58,765.81,0.23,TS3009a.D.dialog-act.s9553330.68,,,,,,,,,False, Right.,1,task,Assess
+TS3009a,C,765.69,766.03,0.34,TS3009a.C.dialog-act.s9553330.84,,,,,,,,,False, Alright.,1,task,Assess
+TS3009a,A,771.46,779.77,8.31,TS3009a.A.dialog-act.s9553330.204,A,A,0.0,3.05,False,False,0.0,[],False," Now then we all uh we can uh sit down and discuss uh what do we think about our current remote controls,",22,task,Inform
+TS3009a,A,779.77,787.84,8.07,TS3009a.A.dialog-act.s9553330.205,A,A,0.0,0.0,False,False,0.0,[],False, first about design uh about uh aim in the market etcetera?,11,task,Inform
+TS3009a,D,787.17,787.37,0.2,TS3009a.D.dialog-act.s9553330.69,,,,,,,,,False, Right.,1,minor,Backchannel
+TS3009a,A,787.84,789.59,1.75,TS3009a.A.dialog-act.s9553330.206,A,A,0.0,0.0,False,False,0.0,[],False, Well uh we c we can sit down uh,9,task,Inform
+TS3009a,A,789.59,793.04,3.45,TS3009a.A.dialog-act.s9553330.207,A,A,0.0,0.0,False,False,0.0,[],False, because uh presentation can wait.,5,task,Inform
+TS3009a,A,793.04,796.096,3.056,TS3009a.A.dialog-act.s9553330.208,A,A,1.244,0.0,False,False,0.0,[],False, We can uh take notes and uh,7,task,Suggest
+TS3009a,A,797.34,802.56,5.22,TS3009a.A.dialog-act.s9553330.209,C,A,2.45,1.244,False,False,0.0,[],False, Well who has uh some uh remarks about the current uh remote controls?,13,elicit,Elicit-Offer-Or-Suggestion
+TS3009a,C,805.01,808.56,3.55,TS3009a.C.dialog-act.s9553330.85,A,A,-0.41,2.45,True,True,0.41,['TS3009a.A.dialog-act.s9553330.211'],True, Well I I didn't have to prepare anything about uh,10,task,Inform
+TS3009a,A,805.17,806.24,1.07,TS3009a.A.dialog-act.s9553330.210,,,,,,,,,False, Please?,1,elicit,Elicit-Offer-Or-Suggestion
+TS3009a,A,808.15,810.176,2.026,TS3009a.A.dialog-act.s9553330.211,C,C,-1.616,-0.41,True,True,1.616,['TS3009a.C.dialog-act.s9553330.86'],False, No uh I did.,4,task,Inform
+TS3009a,C,808.56,813.22,4.66,TS3009a.C.dialog-act.s9553330.86,D,A,3.28,-1.616,True,False,0.0,[],False," it's not, it's it's not my task to uh talk about uh experience with current remote controls,",17,task,Inform
+TS3009a,C,813.22,813.664,0.444,TS3009a.C.dialog-act.s9553330.87,,,,,,,,,False, but uh,2,minor,Fragment
+TS3009a,A,813.89,818.048,4.158,TS3009a.A.dialog-act.s9553330.212,,,,,,,,,False, Well uh just w we're uh four uh if we if we would just have one then,17,minor,Fragment
+TS3009a,D,816.5,821.82,5.32,TS3009a.D.dialog-act.s9553330.70,D,C,1.07,3.28,True,False,0.0,[],True, I think it's im it's important to uh look at uh the remote controls of our competitors.,17,task,Suggest
+TS3009a,A,822.29,822.43,0.14,TS3009a.A.dialog-act.s9553330.213,,,,,,,,,False, Yeah.,1,task,Assess
+TS3009a,D,822.89,824.02,1.13,TS3009a.D.dialog-act.s9553330.71,D,D,0.0,1.07,False,False,0.0,[],False, Get the good points,4,task,Suggest
+TS3009a,D,824.02,828.19,4.17,TS3009a.D.dialog-act.s9553330.72,D,D,0.0,0.0,False,False,0.0,[],False, uh try to merge them into one universal remote control.,10,task,Suggest
+TS3009a,A,827.73,828.01,0.28,TS3009a.A.dialog-act.s9553330.214,,,,,,,,,False, Yeah yeah.,2,task,Suggest
+TS3009a,D,828.19,835.63,7.44,TS3009a.D.dialog-act.s9553330.73,D,D,0.0,0.0,False,False,0.0,[],False, On our corporate site I saw uh a new D_V_D_ player uh we're gonna produce.,15,task,Inform
+TS3009a,A,834.84,834.98,0.14,TS3009a.A.dialog-act.s9553330.215,,,,,,,,,False, Yep.,1,minor,Backchannel
+TS3009a,D,835.63,838.62,2.99,TS3009a.D.dialog-act.s9553330.74,A,D,0.76,0.0,False,False,0.0,[],False, Maybe it's important to make it compatible with the D_V_D_ player,11,task,Suggest
+TS3009a,A,836.04,836.63,0.59,TS3009a.A.dialog-act.s9553330.217,,,,,,,,,False, That's alright.,2,task,Assess
+TS3009a,A,839.38,840.78,1.4,TS3009a.A.dialog-act.s9553330.216,D,D,-0.02,0.76,True,True,0.02,['TS3009a.D.dialog-act.s9553330.75'],True," That would be a nice idea, yes.",7,task,Assess
+TS3009a,D,840.76,846.01,5.25,TS3009a.D.dialog-act.s9553330.75,D,A,1.66,-0.02,True,False,0.0,[],False, so you can uh use your television and your D_V_D_ player with the same uh remote control.,17,task,Suggest
+TS3009a,A,845.57,846.16,0.59,TS3009a.A.dialog-act.s9553330.218,,,,,,,,,False, Yep yep yep.,3,task,Assess
+TS3009a,D,847.67,855.37,7.7,TS3009a.D.dialog-act.s9553330.76,D,D,0.0,1.66,False,False,0.0,[],False," Furthermore it's important to make it uh acceptable for the whole world, for different cultures, maybe,",16,task,Inform
+TS3009a,D,855.37,859.53,4.16,TS3009a.D.dialog-act.s9553330.77,A,D,0.58,0.0,False,False,0.0,[],False, because we want to we want to well fifty million?,10,task,Inform
+TS3009a,A,860.11,862.86,2.75,TS3009a.A.dialog-act.s9553330.219,D,D,0.02,0.58,True,False,0.0,[],True," Yes fifty million is our aim to a profit, so.",10,task,Inform
+TS3009a,C,860.67,860.94,0.27,TS3009a.C.dialog-act.s9553330.88,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3009a,D,861.84,862.88,1.04,TS3009a.D.dialog-act.s9553330.78,,,,,,,,,False, Yeah yeah,2,task,Assess
+TS3009a,B,862.832,863.646,0.814,TS3009a.B.dialog-act.s9553330.27,,,,,,,,,False,,0,minor,Fragment
+TS3009a,D,862.88,865.41,2.53,TS3009a.D.dialog-act.s9553330.79,C,A,0.31,0.02,True,False,0.0,[],True, so a lot of people have to be able to use it.,12,task,Inform
+TS3009a,C,865.72,873.01,7.29,TS3009a.C.dialog-act.s9553330.89,C,D,1.36,0.31,True,False,0.0,[],True, No but uh the b the buttons have to uh have to have uh international recognisable buttons and uh,19,task,Inform
+TS3009a,D,866.18,866.988,0.808,TS3009a.D.dialog-act.s9553330.80,,,,,,,,,False, So,1,minor,Fragment
+TS3009a,B,867.17,868.0,0.83,TS3009a.B.dialog-act.s9553330.28,,,,,,,,,False, Easy to learn.,3,task,Inform
+TS3009a,D,868.23,868.47,0.24,TS3009a.D.dialog-act.s9553330.82,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,D,873.67,874.11,0.44,TS3009a.D.dialog-act.s9553330.81,,,,,,,,,False, Yeah that's right.,3,task,Assess
+TS3009a,B,874.08,874.32,0.24,TS3009a.B.dialog-act.s9553330.29,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,A,874.34,874.69,0.35,TS3009a.A.dialog-act.s9553330.220,,,,,,,,,False, Yes.,1,minor,Backchannel
+TS3009a,C,874.37,880.44,6.07,TS3009a.C.dialog-act.s9553330.90,A,C,1.67,1.36,False,False,0.0,[],False," and numbers and uh that every culture in uh, yeah, people in every country can recognise.",16,task,Inform
+TS3009a,B,879.58,879.81,0.23,TS3009a.B.dialog-act.s9553330.30,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,A,882.11,883.22,1.11,TS3009a.A.dialog-act.s9553330.221,A,C,2.62,1.67,True,False,0.0,[],True, I'll make uh notes,4,other,Offer
+TS3009a,A,883.22,885.84,2.62,TS3009a.A.dialog-act.s9553330.222,,,,,,,,,False, and then uh maybe uh,5,minor,Fragment
+TS3009a,A,885.84,890.3,4.46,TS3009a.A.dialog-act.s9553330.223,B,A,-0.34,2.62,False,True,0.34,['TS3009a.B.dialog-act.s9553330.31'],False, well I'll put it in the project uh folder when I'm done uh just now.,15,other,Offer
+TS3009a,D,889.28,889.65,0.37,TS3009a.D.dialog-act.s9553330.83,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3009a,C,889.78,890.33,0.55,TS3009a.C.dialog-act.s9553330.91,,,,,,,,,False, Alright.,1,task,Assess
+TS3009a,B,889.96,893.22,3.26,TS3009a.B.dialog-act.s9553330.31,B,A,0.0,-0.34,True,False,0.0,[],False, I also think we should not add too many buttons.,10,task,Inform
+TS3009a,D,890.52,890.76,0.24,TS3009a.D.dialog-act.s9553330.84,,,,,,,,,False, Right.,1,minor,Backchannel
+TS3009a,B,893.22,897.96,4.74,TS3009a.B.dialog-act.s9553330.32,A,B,-1.92,0.0,False,True,1.92,['TS3009a.A.dialog-act.s9553330.225'],False, Modern day uh remotes have too much buttons I think.,10,task,Assess
+TS3009a,A,893.43,894.97,1.54,TS3009a.A.dialog-act.s9553330.224,,,,,,,,,False, No that's right.,3,task,Assess
+TS3009a,A,896.04,899.68,3.64,TS3009a.A.dialog-act.s9553330.225,D,B,2.45,-1.92,True,False,0.0,[],False, Y y you don't use uh the half of them that's that's,12,task,Inform
+TS3009a,B,898.82,899.42,0.6,TS3009a.B.dialog-act.s9553330.33,,,,,,,,,False, Precisely.,1,task,Assess
+TS3009a,A,899.68,901.44,1.76,TS3009a.A.dialog-act.s9553330.226,,,,,,,,,False, culture uh international.,3,other,Other
+TS3009a,D,902.13,906.17,4.04,TS3009a.D.dialog-act.s9553330.85,D,A,0.0,2.45,True,False,0.0,[],True, Maybe we could make one button to switch between D_V_D_ player and T_V_,13,task,Suggest
+TS3009a,B,905.95,906.21,0.26,TS3009a.B.dialog-act.s9553330.34,,,,,,,,,False, Yeah.,1,task,Assess
+TS3009a,D,906.17,909.23,3.06,TS3009a.D.dialog-act.s9553330.86,C,D,0.35,0.0,False,False,0.0,[],False, and make the other buttons uh multi-functional or something.,9,task,Suggest
+TS3009a,B,908.98,910.18,1.2,TS3009a.B.dialog-act.s9553330.35,,,,,,,,,False, Yeah indeed.,2,task,Assess
+TS3009a,C,909.35,909.58,0.23,TS3009a.C.dialog-act.s9553330.92,,,,,,,,,False, Yeah,1,task,Assess
+TS3009a,A,909.35,909.72,0.37,TS3009a.A.dialog-act.s9553330.227,,,,,,,,,False, Yes.,1,minor,Backchannel
+TS3009a,C,909.58,913.696,4.116,TS3009a.C.dialog-act.s9553330.93,A,D,0.684,0.35,True,False,0.0,[],True, so it doesn't uh become too complicated with too much buttons and uh,13,task,Inform
+TS3009a,D,913.14,913.49,0.35,TS3009a.D.dialog-act.s9553330.87,,,,,,,,,False, Yeah right.,2,task,Assess
+TS3009a,A,913.64,914.38,0.74,TS3009a.A.dialog-act.s9553330.228,,,,,,,,,False," Yep,",1,minor,Backchannel
+TS3009a,A,914.38,919.67,5.29,TS3009a.A.dialog-act.s9553330.229,A,C,0.0,0.684,True,False,0.0,[],True, and maybe we do uh we even have uh more than just a D_V_D_ player.,15,task,Suggest
+TS3009a,A,919.67,921.68,2.01,TS3009a.A.dialog-act.s9553330.230,B,A,-0.03,0.0,False,True,0.03,['TS3009a.B.dialog-act.s9553330.37'],False, Don't we have uh other uh ou,7,elicit,Elicit-Inform
+TS3009a,B,921.43,921.65,0.22,TS3009a.B.dialog-act.s9553330.36,,,,,,,,,False, Yeah,1,task,Assess
+TS3009a,B,921.65,925.81,4.16,TS3009a.B.dialog-act.s9553330.37,C,A,-2.78,-0.03,True,True,2.75,"['TS3009a.C.dialog-act.s9553330.94', 'TS3009a.A.dialog-act.s9553330.232']",False," we should make it compatible perhaps with everything we use, we uh we make?",14,task,Suggest
+TS3009a,C,923.03,925.78,2.75,TS3009a.C.dialog-act.s9553330.94,A,B,-1.37,-2.78,True,True,1.37,['TS3009a.A.dialog-act.s9553330.232'],False, And stereo uh s uh audio installations.,7,task,Suggest
+TS3009a,A,923.18,923.33,0.15,TS3009a.A.dialog-act.s9553330.231,,,,,,,,,False, Uh.,1,minor,Backchannel
+TS3009a,A,924.41,929.11,4.7,TS3009a.A.dialog-act.s9553330.232,D,C,-1.12,-1.37,True,True,1.12,['TS3009a.D.dialog-act.s9553330.88'],False, We also uh just uh released a T_F_T_ uh thing I saw.,12,task,Inform
+TS3009a,D,927.99,932.64,4.65,TS3009a.D.dialog-act.s9553330.88,B,A,1.53,-1.12,True,False,0.0,[],False, Yeah so but th that's kind kind of standard T_ television so it also works on that.,17,task,Inform
+TS3009a,A,930.97,931.29,0.32,TS3009a.A.dialog-act.s9553330.233,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,B,931.48,931.9,0.42,TS3009a.B.dialog-act.s9553330.38,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,A,933.06,933.27,0.21,TS3009a.A.dialog-act.s9553330.234,,,,,,,,,False, Yep.,1,minor,Backchannel
+TS3009a,B,934.17,940.42,6.25,TS3009a.B.dialog-act.s9553330.39,B,D,0.0,1.53,True,False,0.0,[],True, And I think the people who who will buy our uh remote already have some experience with remotes.,18,task,Inform
+TS3009a,B,940.42,942.47,2.05,TS3009a.B.dialog-act.s9553330.40,C,B,-0.69,0.0,False,True,0.69,['TS3009a.C.dialog-act.s9553330.95'],False, So we can keep that in mind.,7,task,Suggest
+TS3009a,C,941.78,942.89,1.11,TS3009a.C.dialog-act.s9553330.95,A,B,2.42,-0.69,True,False,0.0,[],False," Most people do, yeah.",4,task,Assess
+TS3009a,A,943.37,943.93,0.56,TS3009a.A.dialog-act.s9553330.235,,,,,,,,,False, Well yeah.,2,task,Assess
+TS3009a,C,944.29,945.05,0.76,TS3009a.C.dialog-act.s9553330.96,,,,,,,,,False, It doesn't,2,minor,Fragment
+TS3009a,C,945.05,946.576,1.526,TS3009a.C.dialog-act.s9553330.97,,,,,,,,,False, it doesn't have to be,5,minor,Fragment
+TS3009a,B,945.215,945.686,0.471,TS3009a.B.dialog-act.s9553330.41,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,945.31,947.65,2.34,TS3009a.A.dialog-act.s9553330.236,B,C,-0.73,2.42,True,True,0.73,['TS3009a.B.dialog-act.s9553330.42'],True," It doesn't have to be, but we can.",8,task,Inform
+TS3009a,B,946.92,948.68,1.76,TS3009a.B.dialog-act.s9553330.42,B,A,0.0,-0.73,True,False,0.0,[],False, W well it's a n it's a new remote,9,task,Inform
+TS3009a,B,948.68,953.47,4.79,TS3009a.B.dialog-act.s9553330.43,A,B,-0.93,0.0,False,True,0.93,['TS3009a.A.dialog-act.s9553330.237'],False, and you don't buy a remote if you don't have anything to uh to control with it.,17,task,Inform
+TS3009a,A,952.54,956.57,4.03,TS3009a.A.dialog-act.s9553330.237,D,B,0.38,-0.93,True,False,0.0,[],False, Well except if we deliver it together with our D_V_D_.,10,task,Suggest
+TS3009a,D,953.58,953.936,0.356,TS3009a.D.dialog-act.s9553330.89,,,,,,,,,False, Yeah but,2,minor,Fragment
+TS3009a,C,955.89,956.32,0.43,TS3009a.C.dialog-act.s9553330.98,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,B,956.55,958.05,1.5,TS3009a.B.dialog-act.s9553330.44,,,,,,,,,False," Yeah alright, but",3,minor,Fragment
+TS3009a,D,956.95,960.045,3.095,TS3009a.D.dialog-act.s9553330.90,A,A,-0.005,0.38,True,True,0.005,['TS3009a.A.dialog-act.s9553330.239'],True, We need to to keep it consistent with other d uh,11,task,Inform
+TS3009a,A,959.33,960.04,0.71,TS3009a.A.dialog-act.s9553330.238,,,,,,,,,False, Yeah,1,task,Assess
+TS3009a,C,959.64,959.92,0.28,TS3009a.C.dialog-act.s9553330.101,,,,,,,,,False, Well.,1,minor,Backchannel
+TS3009a,A,960.04,961.42,1.38,TS3009a.A.dialog-act.s9553330.239,A,D,0.0,-0.005,True,False,0.0,[],False, because we look at competitors,5,task,Inform
+TS3009a,A,961.42,965.136,3.716,TS3009a.A.dialog-act.s9553330.240,D,A,1.524,0.0,False,False,0.0,[],False, and w if we pick up the good things about that and give it a nice design,17,task,Suggest
+TS3009a,C,965.4,965.67,0.27,TS3009a.C.dialog-act.s9553330.100,,,,,,,,,False, Hmm.,1,minor,Backchannel
+TS3009a,D,966.21,966.66,0.45,TS3009a.D.dialog-act.s9553330.91,,,,,,,,,False, Yeah,1,task,Assess
+TS3009a,D,966.66,968.92,2.26,TS3009a.D.dialog-act.s9553330.92,C,A,-1.33,1.524,True,True,1.33,['TS3009a.C.dialog-act.s9553330.99'],True, but it's it has to be useable.,7,task,Inform
+TS3009a,C,967.59,969.45,1.86,TS3009a.C.dialog-act.s9553330.99,B,D,2.29,-1.33,True,False,0.0,[],False, It has to be different and familiar at the same time.,11,task,Suggest
+TS3009a,A,969.7,969.97,0.27,TS3009a.A.dialog-act.s9553330.241,,,,,,,,,False, Yes.,1,minor,Backchannel
+TS3009a,D,970.16,970.41,0.25,TS3009a.D.dialog-act.s9553330.93,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,B,970.39,971.74,1.35,TS3009a.B.dialog-act.s9553330.45,,,,,,,,,False, Yeah. Yeah,2,minor,Backchannel
+TS3009a,B,971.74,976.51,4.77,TS3009a.B.dialog-act.s9553330.46,C,C,-1.454,2.29,True,True,1.454,['TS3009a.C.dialog-act.s9553330.102'],True," we could use another form or shape or colour, that kind of things.",13,task,Suggest
+TS3009a,A,972.61,972.72,0.11,TS3009a.A.dialog-act.s9553330.242,,,,,,,,,False, Yep.,1,minor,Backchannel
+TS3009a,C,975.056,977.55,2.494,TS3009a.C.dialog-act.s9553330.102,C,B,0.0,-1.454,True,False,0.0,[],False, yeah the shape will will have to be recognised.,9,task,Inform
+TS3009a,C,977.55,985.88,8.33,TS3009a.C.dialog-act.s9553330.103,C,C,0.0,0.0,False,False,0.0,[],False, I thought about uh like most uh remote controls uh are uh a long box shaped thing,17,task,Inform
+TS3009a,A,985.67,985.85,0.18,TS3009a.A.dialog-act.s9553330.243,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,C,985.88,987.88,2.0,TS3009a.C.dialog-act.s9553330.104,C,C,0.0,0.0,False,False,0.0,[],False," you can make it uh triangle shaped,",7,task,Suggest
+TS3009a,D,987.597,989.84,2.243,TS3009a.D.dialog-act.s9553330.94,,,,,,,,,False, No.,1,minor,Backchannel
+TS3009a,C,987.88,989.69,1.81,TS3009a.C.dialog-act.s9553330.105,B,C,-1.38,0.0,False,True,1.38,['TS3009a.B.dialog-act.s9553330.47'],False, but that's not uh very recognisable.,6,task,Assess
+TS3009a,B,988.31,991.968,3.658,TS3009a.B.dialog-act.s9553330.47,A,C,0.302,-1.38,True,False,0.0,[],False," Well we we could make more more oval or something, and and",12,task,Suggest
+TS3009a,A,988.89,989.04,0.15,TS3009a.A.dialog-act.s9553330.244,,,,,,,,,False, Oo,1,minor,Fragment
+TS3009a,C,991.0,992.18,1.18,TS3009a.C.dialog-act.s9553330.106,,,,,,,,,False, Oval?,1,other,Comment-About-Understanding
+TS3009a,A,992.27,994.53,2.26,TS3009a.A.dialog-act.s9553330.245,A,B,0.0,0.302,True,False,0.0,[],True, N we can use uh it as a as a game pad.,12,task,Suggest
+TS3009a,C,992.71,993.058,0.348,TS3009a.C.dialog-act.s9553330.107,,,,,,,,,False, I,1,minor,Fragment
+TS3009a,B,992.89,993.6,0.71,TS3009a.B.dialog-act.s9553330.48,,,,,,,,,False, Yeah or so,3,task,Assess
+TS3009a,A,994.53,1004.35,9.82,TS3009a.A.dialog-act.s9553330.246,B,A,-8.88,0.0,False,True,2.602,"['TS3009a.B.dialog-act.s9553330.49', 'TS3009a.D.dialog-act.s9553330.95', 'TS3009a.D.dialog-act.s9553330.97', 'TS3009a.B.dialog-act.s9553330.51']",False," So one hand has the beer, so the other hand uh",11,task,Suggest
+TS3009a,C,995.09,996.461,1.371,TS3009a.C.dialog-act.s9553330.108,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3009a,B,995.47,997.152,1.682,TS3009a.B.dialog-act.s9553330.49,D,A,0.278,-8.88,True,False,0.0,[],False, Well yeah it's new.,4,task,Assess
+TS3009a,D,995.776,996.584,0.808,TS3009a.D.dialog-act.s9553330.96,,,,,,,,,False,.,0,minor,Fragment
+TS3009a,D,997.43,1000.032,2.602,TS3009a.D.dialog-act.s9553330.95,D,B,1.298,0.278,True,False,0.0,[],True, Not with two hands.,4,task,Assess
+TS3009a,B,998.294,999.156,0.862,TS3009a.B.dialog-act.s9553330.50,,,,,,,,,False,,0,minor,Fragment
+TS3009a,D,1001.33,1002.85,1.52,TS3009a.D.dialog-act.s9553330.97,B,D,0.097,1.298,False,False,0.0,[],False," Yeah yeah yeah, right.",4,task,Assess
+TS3009a,D,1002.85,1003.936,1.086,TS3009a.D.dialog-act.s9553330.98,,,,,,,,,False, No,1,minor,Fragment
+TS3009a,B,1002.947,1004.9,1.953,TS3009a.B.dialog-act.s9553330.51,D,D,1.86,0.097,True,False,0.0,[],True, but young people want something different,6,task,Inform
+TS3009a,B,1004.9,1006.064,1.164,TS3009a.B.dialog-act.s9553330.52,,,,,,,,,False, and it is,3,minor,Fragment
+TS3009a,A,1006.12,1008.23,2.11,TS3009a.A.dialog-act.s9553330.247,,,,,,,,,False, Well i we already uh,5,minor,Fragment
+TS3009a,D,1006.76,1009.71,2.95,TS3009a.D.dialog-act.s9553330.99,A,B,-1.48,1.86,True,True,1.48,['TS3009a.A.dialog-act.s9553330.248'],True, Yeah but it's quite important that it fits.,8,task,Inform
+TS3009a,A,1008.23,1012.864,4.634,TS3009a.A.dialog-act.s9553330.248,C,D,1.836,-1.48,True,False,0.0,[],False, one of our aims is that it has to be original and trendy so,14,task,Inform
+TS3009a,B,1011.19,1011.66,0.47,TS3009a.B.dialog-act.s9553330.53,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,D,1011.25,1011.47,0.22,TS3009a.D.dialog-act.s9553330.100,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,C,1011.52,1013.23,1.71,TS3009a.C.dialog-act.s9553330.109,,,,,,,,,False, Oh but it ha it has to be m,9,minor,Fragment
+TS3009a,C,1013.23,1014.7,1.47,TS3009a.C.dialog-act.s9553330.110,,,,,,,,,False, yeah.,1,task,Assess
+TS3009a,C,1014.7,1017.632,2.932,TS3009a.C.dialog-act.s9553330.111,A,A,0.248,1.836,True,False,0.0,[],True, But you still have to know it's a remote and not another,12,task,Inform
+TS3009a,B,1017.72,1018.33,0.61,TS3009a.B.dialog-act.s9553330.54,,,,,,,,,False, Yeah alright.,2,minor,Backchannel
+TS3009a,A,1017.88,1022.69,4.81,TS3009a.A.dialog-act.s9553330.249,A,C,0.0,0.248,True,False,0.0,[],True, Well there has been done a lot of researches about remotes uh we have to we can imagine uh,19,task,Inform
+TS3009a,A,1022.69,1024.65,1.96,TS3009a.A.dialog-act.s9553330.250,A,A,0.0,0.0,False,False,0.0,[],False, because it's a long time uh on the market.,9,task,Inform
+TS3009a,A,1024.65,1029.409,4.759,TS3009a.A.dialog-act.s9553330.251,C,A,-0.219,0.0,False,True,0.219,['TS3009a.C.dialog-act.s9553330.112'],False, So the the form will have been uh tested out so,11,task,Inform
+TS3009a,C,1024.85,1025.07,0.22,TS3009a.C.dialog-act.s9553330.113,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,C,1028.97,1029.19,0.22,TS3009a.C.dialog-act.s9553330.114,,,,,,,,,False, Yeah,1,task,Assess
+TS3009a,C,1029.19,1032.83,3.64,TS3009a.C.dialog-act.s9553330.112,C,A,1.56,-0.219,True,False,0.0,[],False," so the long box uh shaped thing must be uh, yeah, useful",12,task,Inform
+TS3009a,A,1033.28,1033.6,0.32,TS3009a.A.dialog-act.s9553330.252,,,,,,,,,False, Yes.,1,task,Assess
+TS3009a,C,1034.39,1036.57,2.18,TS3009a.C.dialog-act.s9553330.115,A,C,-0.65,1.56,False,True,0.65,['TS3009a.A.dialog-act.s9553330.254'],False, or else uh they would have been ano another shape.,10,task,Inform
+TS3009a,A,1034.48,1035.92,1.44,TS3009a.A.dialog-act.s9553330.253,,,,,,,,,False, Well,1,minor,Stall
+TS3009a,A,1035.92,1038.79,2.87,TS3009a.A.dialog-act.s9553330.254,A,C,0.0,-0.65,True,False,0.0,[],False, for me personally I have a a lot of remotes uh at home,13,task,Inform
+TS3009a,A,1038.79,1048.38,9.59,TS3009a.A.dialog-act.s9553330.255,A,A,0.0,0.0,False,False,0.0,[],False, but those ones that have a a round ending and uh well uh just an uh square uh middle I don't like to use them.,25,task,Inform
+TS3009a,A,1048.38,1051.92,3.54,TS3009a.A.dialog-act.s9553330.256,A,A,0.0,0.0,False,False,0.0,[],False, I have uh have to it has to fit my hands.,11,task,Inform
+TS3009a,D,1051.34,1051.56,0.22,TS3009a.D.dialog-act.s9553330.102,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,B,1051.89,1052.36,0.47,TS3009a.B.dialog-act.s9553330.55,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,A,1051.92,1056.96,5.04,TS3009a.A.dialog-act.s9553330.257,D,A,-2.52,0.0,False,True,1.05,"['TS3009a.D.dialog-act.s9553330.101', 'TS3009a.C.dialog-act.s9553330.117']",False, When it falls over it and I just have and then the button that I use most has to be here.,21,task,Inform
+TS3009a,D,1054.44,1055.49,1.05,TS3009a.D.dialog-act.s9553330.101,C,A,0.53,-2.52,True,False,0.0,[],False, It shouldn't be boxy.,4,task,Inform
+TS3009a,C,1054.76,1056.02,1.26,TS3009a.C.dialog-act.s9553330.116,,,,,,,,,False, Yeah. Yeah,2,minor,Backchannel
+TS3009a,C,1056.02,1057.87,1.85,TS3009a.C.dialog-act.s9553330.117,C,D,0.0,0.53,True,False,0.0,[],True, a lo the long box shape yeah.,7,task,Assess
+TS3009a,C,1057.87,1060.14,2.27,TS3009a.C.dialog-act.s9553330.118,A,C,-1.42,0.0,False,True,1.42,['TS3009a.A.dialog-act.s9553330.258'],False, You have to use one hand.,6,task,Inform
+TS3009a,A,1058.72,1063.72,5.0,TS3009a.A.dialog-act.s9553330.258,D,C,-1.33,-1.42,True,True,1.33,['TS3009a.D.dialog-act.s9553330.103'],False, It f it fits your hands and then you just push the button that you use most with thumb.,19,task,Inform
+TS3009a,D,1059.4,1059.994,0.594,TS3009a.D.dialog-act.s9553330.105,,,,,,,,,False, Nah,1,task,Assess
+TS3009a,D,1062.39,1064.33,1.94,TS3009a.D.dialog-act.s9553330.103,D,A,0.0,-1.33,True,False,0.0,[],False, I don't agree with the long box uh shape,9,task,Inform
+TS3009a,D,1064.33,1067.03,2.7,TS3009a.D.dialog-act.s9553330.104,B,D,0.67,0.0,False,False,0.0,[],False, it it has to be custom made for the hand.,10,task,Inform
+TS3009a,C,1064.56,1064.97,0.41,TS3009a.C.dialog-act.s9553330.119,,,,,,,,,False, Why not?,2,elicit,Elicit-Inform
+TS3009a,B,1067.7,1068.99,1.29,TS3009a.B.dialog-act.s9553330.56,A,D,-0.43,0.67,True,True,0.43,['TS3009a.A.dialog-act.s9553330.259'],True, Yeah it doesn't fit.,4,task,Assess
+TS3009a,A,1068.56,1071.71,3.15,TS3009a.A.dialog-act.s9553330.259,C,B,-2.01,-0.43,True,True,1.85,"['TS3009a.C.dialog-act.s9553330.120', 'TS3009a.C.dialog-act.s9553330.121']",False, Tho tho those new D_V_D_ players on the market do have those.,12,task,Inform
+TS3009a,D,1068.67,1068.98,0.31,TS3009a.D.dialog-act.s9553330.107,,,,,,,,,False, Yeah.,1,task,Assess
+TS3009a,C,1069.7,1071.55,1.85,TS3009a.C.dialog-act.s9553330.120,C,A,0.0,-2.01,True,False,0.0,[],False," But it does fit in the hand if you hold it like this,",13,task,Inform
+TS3009a,C,1071.55,1073.13,1.58,TS3009a.C.dialog-act.s9553330.121,B,C,0.8,0.0,False,False,0.0,[],False," and you can make it another shape,",7,task,Inform
+TS3009a,D,1072.13,1073.338,1.208,TS3009a.D.dialog-act.s9553330.106,,,,,,,,,False, Yeah but if you shape it,6,minor,Fragment
+TS3009a,C,1073.13,1073.792,0.662,TS3009a.C.dialog-act.s9553330.122,,,,,,,,,False, but then you have,4,minor,Fragment
+TS3009a,B,1073.93,1085.62,11.69,TS3009a.B.dialog-act.s9553330.57,C,C,-0.22,0.8,True,True,0.22,['TS3009a.C.dialog-act.s9553330.123'],True, No if y if you look at new Phillips uh D_V_D_ with their uh remotes pl players they they are the new remotes aren't box shaped.,26,task,Inform
+TS3009a,D,1074.26,1074.527,0.267,TS3009a.D.dialog-act.s9553330.108,,,,,,,,,False, If,1,minor,Fragment
+TS3009a,D,1078.816,1082.336,3.52,TS3009a.D.dialog-act.s9553330.109,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,1079.09,1081.44,2.35,TS3009a.A.dialog-act.s9553330.260,,,,,,,,,False, D_V_D_ players. Yes.,3,task,Inform
+TS3009a,C,1085.4,1086.51,1.11,TS3009a.C.dialog-act.s9553330.123,D,B,-0.55,-0.22,True,True,0.55,['TS3009a.D.dialog-act.s9553330.110'],False, W no w what else?,5,elicit,Elicit-Inform
+TS3009a,D,1085.96,1087.8,1.84,TS3009a.D.dialog-act.s9553330.110,C,C,1.08,-0.55,True,False,0.0,[],False, No that's ol old fashioned.,5,task,Inform
+TS3009a,C,1086.51,1086.79,0.28,TS3009a.C.dialog-act.s9553330.124,,,,,,,,,False, I di,2,minor,Fragment
+TS3009a,B,1087.05,1087.551,0.501,TS3009a.B.dialog-act.s9553330.58,,,,,,,,,False, Well,1,minor,Stall
+TS3009a,B,1088.2,1088.51,0.31,TS3009a.B.dialog-act.s9553330.59,,,,,,,,,False, Yeah.,1,minor,Stall
+TS3009a,C,1088.88,1091.02,2.14,TS3009a.C.dialog-act.s9553330.125,B,D,0.1,1.08,True,False,0.0,[],True, Yeah well but uh what what what do you suggest then?,11,elicit,Elicit-Offer-Or-Suggestion
+TS3009a,D,1089.12,1090.29,1.17,TS3009a.D.dialog-act.s9553330.113,,,,,,,,,False, I can imagine that us,5,minor,Fragment
+TS3009a,B,1089.6,1090.019,0.419,TS3009a.B.dialog-act.s9553330.62,,,,,,,,,False, Yes uh,2,minor,Stall
+TS3009a,B,1091.12,1094.86,3.74,TS3009a.B.dialog-act.s9553330.60,B,C,0.0,0.1,True,False,0.0,[],True," Well most of of them are are somewhat thicker at the end,",12,task,Inform
+TS3009a,B,1094.86,1099.5,4.64,TS3009a.B.dialog-act.s9553330.61,D,B,-2.34,0.0,False,True,1.13,['TS3009a.D.dialog-act.s9553330.112'],False, and get um yeah thinner towards the uh the other end.,11,task,Inform
+TS3009a,D,1094.98,1095.48,0.5,TS3009a.D.dialog-act.s9553330.111,,,,,,,,,False, Yeah right.,2,task,Assess
+TS3009a,D,1097.16,1098.29,1.13,TS3009a.D.dialog-act.s9553330.112,C,B,4.66,-2.34,True,False,0.0,[],False, It fits in your palms.,5,task,Inform
+TS3009a,C,1100.21,1102.95,2.74,TS3009a.C.dialog-act.s9553330.126,,,,,,,,,False, Hmm. Well,2,minor,Stall
+TS3009a,B,1100.71,1100.96,0.25,TS3009a.B.dialog-act.s9553330.63,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3009a,C,1102.95,1105.27,2.32,TS3009a.C.dialog-act.s9553330.127,C,D,0.0,4.66,True,False,0.0,[],True," but it's still then uh the the long box,",9,task,Inform
+TS3009a,C,1105.27,1110.85,5.58,TS3009a.C.dialog-act.s9553330.129,A,C,-1.38,0.0,False,True,1.38,['TS3009a.A.dialog-act.s9553330.262'],False," uh but then with some uh round uh round forms in it to fit your hand,",16,task,Inform
+TS3009a,B,1106.98,1107.2,0.22,TS3009a.B.dialog-act.s9553330.64,,,,,,,,,False, Yeah,1,task,Assess
+TS3009a,B,1107.2,1107.629,0.429,TS3009a.B.dialog-act.s9553330.65,,,,,,,,,False, it,1,minor,Fragment
+TS3009a,D,1107.75,1107.93,0.18,TS3009a.D.dialog-act.s9553330.114,,,,,,,,,False, Hmm?,1,minor,Backchannel
+TS3009a,A,1108.07,1108.352,0.282,TS3009a.A.dialog-act.s9553330.261,,,,,,,,,False, Well,1,minor,Stall
+TS3009a,A,1109.47,1115.45,5.98,TS3009a.A.dialog-act.s9553330.262,C,C,-4.6,-1.38,True,True,1.401,"['TS3009a.C.dialog-act.s9553330.128', 'TS3009a.C.dialog-act.s9553330.130', 'TS3009a.C.dialog-act.s9553330.131']",False, A it h it has it it has a that's tha th th shape that it fits your hand.,19,task,Inform
+TS3009a,D,1109.77,1110.25,0.48,TS3009a.D.dialog-act.s9553330.115,,,,,,,,,False, Um.,1,minor,Backchannel
+TS3009a,C,1110.85,1112.251,1.401,TS3009a.C.dialog-act.s9553330.128,C,A,2.129,-4.6,True,False,0.0,[],False, but it's it's still,4,task,Inform
+TS3009a,C,1114.38,1115.26,0.88,TS3009a.C.dialog-act.s9553330.130,C,C,0.0,2.129,False,False,0.0,[],False, Yeah yeah al alright,4,other,Comment-About-Understanding
+TS3009a,C,1115.26,1118.57,3.31,TS3009a.C.dialog-act.s9553330.131,C,C,0.0,0.0,False,False,0.0,[],False," but but it's still it's still sort of box, yeah.",10,task,Inform
+TS3009a,A,1115.45,1116.4,0.95,TS3009a.A.dialog-act.s9553330.263,,,,,,,,,False, That's,1,minor,Fragment
+TS3009a,D,1117.056,1117.449,0.393,TS3009a.D.dialog-act.s9553330.116,,,,,,,,,False,.,0,minor,Fragment
+TS3009a,C,1118.57,1119.7,1.13,TS3009a.C.dialog-act.s9553330.132,C,C,0.0,0.0,False,False,0.0,[],False, It it has round forms,5,task,Inform
+TS3009a,D,1118.885,1120.736,1.851,TS3009a.D.dialog-act.s9553330.117,,,,,,,,,False, Well,1,minor,Backchannel
+TS3009a,B,1119.0,1119.59,0.59,TS3009a.B.dialog-act.s9553330.66,,,,,,,,,False, Yeah yea,2,task,Assess
+TS3009a,C,1119.7,1121.77,2.07,TS3009a.C.dialog-act.s9553330.133,D,C,2.25,0.0,False,False,0.0,[],False," but it in the end it's still the box, so that's what I mean.",14,task,Inform
+TS3009a,D,1124.02,1126.66,2.64,TS3009a.D.dialog-act.s9553330.118,C,C,-0.43,2.25,True,True,0.43,['TS3009a.C.dialog-act.s9553330.135'],True, Yeah but it has it has to fit your hand.,10,task,Inform
+TS3009a,C,1126.23,1127.08,0.85,TS3009a.C.dialog-act.s9553330.135,D,D,-0.42,-0.43,True,True,0.42,['TS3009a.D.dialog-act.s9553330.119'],False," Yeah yeah I understand,",4,other,Comment-About-Understanding
+TS3009a,D,1126.66,1128.16,1.5,TS3009a.D.dialog-act.s9553330.119,C,C,-1.08,-0.42,True,True,1.08,['TS3009a.C.dialog-act.s9553330.136'],False," It shouldn't be too boxy, you know.",7,task,Suggest
+TS3009a,C,1127.08,1131.11,4.03,TS3009a.C.dialog-act.s9553330.136,C,D,0.0,-1.08,True,False,0.0,[],False, but no no I don't mean an entire box like completely square,12,task,Inform
+TS3009a,D,1128.16,1128.514,0.354,TS3009a.D.dialog-act.s9553330.120,,,,,,,,,False, It's,1,minor,Fragment
+TS3009a,B,1128.21,1128.78,0.57,TS3009a.B.dialog-act.s9553330.70,,,,,,,,,False, Hmm.,1,minor,Backchannel
+TS3009a,D,1129.872,1130.89,1.018,TS3009a.D.dialog-act.s9553330.122,,,,,,,,,False, No no no.,3,task,Assess
+TS3009a,A,1130.0,1132.352,2.352,TS3009a.A.dialog-act.s9553330.264,,,,,,,,,False,,0,minor,Fragment
+TS3009a,B,1130.409,1131.825,1.416,TS3009a.B.dialog-act.s9553330.67,,,,,,,,,False,,0,minor,Fragment
+TS3009a,C,1131.11,1132.78,1.67,TS3009a.C.dialog-act.s9553330.137,C,C,0.0,0.0,False,False,0.0,[],False," but a also with round edges of course,",8,task,Inform
+TS3009a,B,1132.779,1133.337,0.558,TS3009a.B.dialog-act.s9553330.69,,,,,,,,,False,.,0,minor,Fragment
+TS3009a,C,1132.78,1143.47,10.69,TS3009a.C.dialog-act.s9553330.138,D,C,-0.67,0.0,False,True,0.67,['TS3009a.D.dialog-act.s9553330.124'],False, but in in in at the end it's still this long box shape with convenient uh round uh shapes uh to fit.,22,task,Inform
+TS3009a,D,1132.96,1133.15,0.19,TS3009a.D.dialog-act.s9553330.121,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,A,1139.344,1140.265,0.921,TS3009a.A.dialog-act.s9553330.265,,,,,,,,,False,,0,minor,Fragment
+TS3009a,D,1141.81,1142.8,0.99,TS3009a.D.dialog-act.s9553330.123,,,,,,,,,False, Right,1,task,Assess
+TS3009a,D,1142.8,1144.28,1.48,TS3009a.D.dialog-act.s9553330.124,D,C,1.31,-0.67,True,False,0.0,[],False, maybe something like this,4,task,Suggest
+TS3009a,C,1145.03,1146.26,1.23,TS3009a.C.dialog-act.s9553330.139,,,,,,,,,False, Yeah yes,2,task,Assess
+TS3009a,D,1145.59,1150.07,4.48,TS3009a.D.dialog-act.s9553330.125,C,D,-3.81,1.31,False,True,1.31,['TS3009a.C.dialog-act.s9553330.140'],False, and then a button here to switch between different systems like D_V_D_ player,13,task,Suggest
+TS3009a,C,1146.26,1147.57,1.31,TS3009a.C.dialog-act.s9553330.140,C,D,3.88,-3.81,True,False,0.0,[],False, I thought about something like that.,6,task,Inform
+TS3009a,C,1149.46,1149.61,0.15,TS3009a.C.dialog-act.s9553330.141,,,,,,,,,False, Yeah.,1,task,Assess
+TS3009a,D,1150.07,1152.438,2.368,TS3009a.D.dialog-act.s9553330.126,,,,,,,,,False, and so you can I've,5,minor,Fragment
+TS3009a,C,1151.45,1153.49,2.04,TS3009a.C.dialog-act.s9553330.142,D,C,0.69,3.88,False,False,0.0,[],False, A big recognisable button on top or something.,8,task,Suggest
+TS3009a,D,1153.17,1154.18,1.01,TS3009a.D.dialog-act.s9553330.127,,,,,,,,,False," Yeah right,",2,task,Assess
+TS3009a,D,1154.18,1161.141,6.961,TS3009a.D.dialog-act.s9553330.128,A,C,-1.151,0.69,True,True,1.151,['TS3009a.A.dialog-act.s9553330.266'],True, and I do think we have to keep this kind of idea with the with the numbers and,18,task,Suggest
+TS3009a,B,1156.94,1157.39,0.45,TS3009a.B.dialog-act.s9553330.71,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,A,1159.99,1161.73,1.74,TS3009a.A.dialog-act.s9553330.266,C,D,0.94,-1.151,True,False,0.0,[],False, We have five minutes left.,5,task,Inform
+TS3009a,C,1162.67,1165.62,2.95,TS3009a.C.dialog-act.s9553330.143,C,A,0.0,0.94,True,False,0.0,[],True," The buttons should uh also be not too small, not too big, of course,",14,task,Suggest
+TS3009a,D,1162.69,1162.9,0.21,TS3009a.D.dialog-act.s9553330.129,,,,,,,,,False, Right.,1,minor,Backchannel
+TS3009a,B,1164.288,1164.496,0.208,TS3009a.B.dialog-act.s9553330.68,,,,,,,,,False,,0,minor,Fragment
+TS3009a,C,1165.62,1168.97,3.35,TS3009a.C.dialog-act.s9553330.144,D,C,-0.89,0.0,False,True,0.89,['TS3009a.D.dialog-act.s9553330.130'],False, and uh n uh uh not too close uh together.,10,task,Suggest
+TS3009a,A,1165.67,1166.34,0.67,TS3009a.A.dialog-act.s9553330.267,,,,,,,,,False, Yes,1,task,Assess
+TS3009a,A,1166.34,1168.0,1.66,TS3009a.A.dialog-act.s9553330.268,,,,,,,,,False, uh that's yep.,3,minor,Fragment
+TS3009a,D,1168.08,1176.1,8.02,TS3009a.D.dialog-act.s9553330.130,D,C,0.0,-0.89,True,False,0.0,[],False, But it should be possible to to um make it ap apparent that there are two functions for every button.,20,task,Suggest
+TS3009a,A,1176.08,1176.24,0.16,TS3009a.A.dialog-act.s9553330.269,,,,,,,,,False, Yep.,1,task,Assess
+TS3009a,D,1176.1,1179.74,3.64,TS3009a.D.dialog-act.s9553330.131,C,D,-0.63,0.0,False,True,0.63,['TS3009a.C.dialog-act.s9553330.146'],False, So there has to be some space between the buttons.,10,task,Suggest
+TS3009a,C,1176.32,1176.59,0.27,TS3009a.C.dialog-act.s9553330.145,,,,,,,,,False, Uh-huh.,1,task,Assess
+TS3009a,C,1179.11,1184.45,5.34,TS3009a.C.dialog-act.s9553330.146,D,D,0.51,-0.63,True,False,0.0,[],False, Yeah of course uh to uh to uh to have icons to explain the different functions.,16,task,Suggest
+TS3009a,D,1179.74,1179.94,0.2,TS3009a.D.dialog-act.s9553330.132,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,D,1183.38,1184.96,1.58,TS3009a.D.dialog-act.s9553330.133,,,,,,,,,False," Yeah right right,",3,task,Assess
+TS3009a,C,1184.45,1184.71,0.26,TS3009a.C.dialog-act.s9553330.147,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,D,1184.96,1186.11,1.15,TS3009a.D.dialog-act.s9553330.134,B,C,0.77,0.51,True,False,0.0,[],True, and maybe we should use colours.,6,task,Suggest
+TS3009a,C,1186.69,1187.15,0.46,TS3009a.C.dialog-act.s9553330.148,,,,,,,,,False," Colours, yeah.",2,task,Assess
+TS3009a,B,1186.88,1195.81,8.93,TS3009a.B.dialog-act.s9553330.72,B,D,0.0,0.77,True,False,0.0,[],True," Yeah maybe we can um just like on cell phones those um well you can you can put on on them,",21,task,Suggest
+TS3009a,D,1193.64,1193.9,0.26,TS3009a.D.dialog-act.s9553330.137,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,A,1195.56,1195.71,0.15,TS3009a.A.dialog-act.s9553330.270,,,,,,,,,False, Ha.,1,other,Other
+TS3009a,B,1195.81,1202.78,6.97,TS3009a.B.dialog-act.s9553330.73,C,B,1.9,0.0,False,False,0.0,[],False, and so you can customise your uh your own remote with different colours or or special paint jobs,18,task,Suggest
+TS3009a,D,1195.89,1196.65,0.76,TS3009a.D.dialog-act.s9553330.135,,,,,,,,,False, That's kinda trendy.,3,task,Assess
+TS3009a,D,1201.43,1201.83,0.4,TS3009a.D.dialog-act.s9553330.136,,,,,,,,,False, Yeah right.,2,task,Assess
+TS3009a,B,1202.78,1203.898,1.118,TS3009a.B.dialog-act.s9553330.74,,,,,,,,,False, I dunno but,3,task,Assess
+TS3009a,A,1203.24,1204.51,1.27,TS3009a.A.dialog-act.s9553330.271,,,,,,,,,False, Sound nice. Yes.,3,task,Assess
+TS3009a,C,1204.68,1207.424,2.744,TS3009a.C.dialog-act.s9553330.149,A,B,1.616,1.9,True,False,0.0,[],True, I think we have to talk also about uh the the materials for um,14,task,Suggest
+TS3009a,B,1208.56,1209.941,1.381,TS3009a.B.dialog-act.s9553330.75,,,,,,,,,False, Well,1,minor,Fragment
+TS3009a,A,1209.04,1211.26,2.22,TS3009a.A.dialog-act.s9553330.272,A,C,0.0,1.616,True,False,0.0,[],True, Well it's just uh about our first ideas now,9,task,Inform
+TS3009a,C,1209.773,1211.703,1.93,TS3009a.C.dialog-act.s9553330.150,,,,,,,,,False,.,0,minor,Fragment
+TS3009a,A,1211.26,1218.96,7.7,TS3009a.A.dialog-act.s9553330.273,D,A,-0.499,0.0,False,True,0.499,['TS3009a.D.dialog-act.s9553330.140'],False, so I think individually we'll have to uh come up with ideas for the next meeting about these materials and markets etcetera.,22,task,Inform
+TS3009a,D,1216.01,1216.33,0.32,TS3009a.D.dialog-act.s9553330.138,,,,,,,,,False, Right.,1,minor,Backchannel
+TS3009a,C,1216.035,1216.391,0.356,TS3009a.C.dialog-act.s9553330.151,,,,,,,,,False,,0,minor,Fragment
+TS3009a,D,1217.28,1217.751,0.471,TS3009a.D.dialog-act.s9553330.139,,,,,,,,,False, But,1,minor,Stall
+TS3009a,D,1218.461,1224.56,6.099,TS3009a.D.dialog-act.s9553330.140,A,A,2.72,-0.499,True,False,0.0,[],False," I think it's uh it's important to uh notate all the the decisions that we make,",16,task,Suggest
+TS3009a,C,1218.93,1220.576,1.646,TS3009a.C.dialog-act.s9553330.152,,,,,,,,,False, Already thought about something tha,5,minor,Fragment
+TS3009a,A,1218.96,1219.27,0.31,TS3009a.A.dialog-act.s9553330.274,,,,,,,,,False, Yes?,1,other,Other
+TS3009a,A,1223.84,1224.19,0.35,TS3009a.A.dialog-act.s9553330.275,,,,,,,,,False, Yes.,1,task,Assess
+TS3009a,D,1224.56,1225.936,1.376,TS3009a.D.dialog-act.s9553330.141,,,,,,,,,False, so we,2,minor,Fragment
+TS3009a,A,1227.28,1229.85,2.57,TS3009a.A.dialog-act.s9553330.276,A,D,3.02,2.72,True,False,0.0,[],True, Well thirty minutes we have.,5,task,Inform
+TS3009a,C,1229.52,1229.79,0.27,TS3009a.C.dialog-act.s9553330.153,,,,,,,,,False, Mm-hmm.,1,minor,Backchannel
+TS3009a,A,1229.85,1231.12,1.27,TS3009a.A.dialog-act.s9553330.277,,,,,,,,,False, So um,2,minor,Stall
+TS3009a,B,1229.853,1230.672,0.819,TS3009a.B.dialog-act.s9553330.76,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,1232.87,1236.19,3.32,TS3009a.A.dialog-act.s9553330.278,A,A,0.0,3.02,False,False,0.0,[],False, This is about uh what we are going to uh do uh.,12,task,Inform
+TS3009a,A,1236.19,1242.43,6.24,TS3009a.A.dialog-act.s9553330.279,A,A,1.3,0.0,False,False,0.0,[],False, You'll get specific instructions when you're back in your room so uh it's uh logical uh. I think.,18,task,Inform
+TS3009a,D,1238.38,1238.66,0.28,TS3009a.D.dialog-act.s9553330.142,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,B,1239.024,1239.232,0.208,TS3009a.B.dialog-act.s9553330.77,,,,,,,,,False,.,0,minor,Fragment
+TS3009a,D,1242.174,1243.58,1.406,TS3009a.D.dialog-act.s9553330.143,,,,,,,,,False, No problem.,2,task,Assess
+TS3009a,A,1243.73,1246.1,2.37,TS3009a.A.dialog-act.s9553330.280,A,A,0.0,1.3,False,False,0.0,[],False, Oh and uh that's uh that's all.,7,task,Inform
+TS3009a,A,1246.1,1250.41,4.31,TS3009a.A.dialog-act.s9553330.281,C,A,-0.61,0.0,False,True,0.61,['TS3009a.C.dialog-act.s9553330.154'],False, So we'll just get a notice that the the meeting is uh over.,13,task,Inform
+TS3009a,C,1249.8,1251.64,1.84,TS3009a.C.dialog-act.s9553330.154,C,A,0.0,-0.61,True,False,0.0,[],False," Yeah now we can still talk about the material,",9,task,Suggest
+TS3009a,A,1250.41,1251.9,1.49,TS3009a.A.dialog-act.s9553330.282,,,,,,,,,False, Yeah yes say.,3,elicit,Elicit-Offer-Or-Suggestion
+TS3009a,C,1251.64,1253.07,1.43,TS3009a.C.dialog-act.s9553330.155,C,C,0.0,0.0,False,False,0.0,[],False, we have some some minutes left uh,7,task,Inform
+TS3009a,B,1251.71,1252.02,0.31,TS3009a.B.dialog-act.s9553330.78,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3009a,C,1253.07,1258.2,5.13,TS3009a.C.dialog-act.s9553330.156,C,C,0.0,0.0,False,False,0.0,[],False," I w wrote down uh that the case should be plastic of course, hard plastic,",15,task,Suggest
+TS3009a,D,1257.89,1258.13,0.24,TS3009a.D.dialog-act.s9553330.145,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,C,1258.2,1260.49,2.29,TS3009a.C.dialog-act.s9553330.157,D,C,0.23,0.0,False,False,0.0,[],False, the buttons should be uh rubbery I think uh.,9,task,Suggest
+TS3009a,D,1260.72,1261.93,1.21,TS3009a.D.dialog-act.s9553330.144,A,C,0.92,0.23,True,False,0.0,[],True, Yeah it shouldn't be too heavy.,6,task,Suggest
+TS3009a,B,1261.376,1261.872,0.496,TS3009a.B.dialog-act.s9553330.79,,,,,,,,,False,.,0,minor,Fragment
+TS3009a,C,1262.4,1263.13,0.73,TS3009a.C.dialog-act.s9553330.158,,,,,,,,,False, No n n,3,task,Assess
+TS3009a,B,1262.603,1263.232,0.629,TS3009a.B.dialog-act.s9553330.80,,,,,,,,,False,.,0,minor,Fragment
+TS3009a,A,1262.85,1271.98,9.13,TS3009a.A.dialog-act.s9553330.283,A,D,0.0,0.92,True,False,0.0,[],True, Well I have had remotes that um they had uh the function of the buttons was about uh uh a layer over the buttons,24,task,Inform
+TS3009a,A,1271.98,1274.71,2.73,TS3009a.A.dialog-act.s9553330.284,B,A,-0.43,0.0,False,True,0.43,['TS3009a.B.dialog-act.s9553330.81'],False, and when I've had use it much it was gone.,10,task,Inform
+TS3009a,B,1274.28,1275.82,1.54,TS3009a.B.dialog-act.s9553330.81,A,A,-1.11,-0.43,True,True,1.11,['TS3009a.A.dialog-act.s9553330.285'],False," Yeah that's bad, yeah.",4,task,Assess
+TS3009a,D,1274.44,1275.18,0.74,TS3009a.D.dialog-act.s9553330.146,,,,,,,,,False, Yeah yeah yeah.,3,task,Assess
+TS3009a,A,1274.71,1277.82,3.11,TS3009a.A.dialog-act.s9553330.285,A,B,0.0,-1.11,True,False,0.0,[],False, So it has to be made in the buttons I think.,11,task,Suggest
+TS3009a,A,1277.82,1279.84,2.02,TS3009a.A.dialog-act.s9553330.286,C,A,2.36,0.0,False,False,0.0,[],False, It has to uh not be loose.,7,task,Suggest
+TS3009a,B,1279.05,1280.12,1.07,TS3009a.B.dialog-act.s9553330.82,,,,,,,,,False, Yeah that's important.,3,task,Assess
+TS3009a,C,1280.39,1282.2,1.81,TS3009a.C.dialog-act.s9553330.159,,,,,,,,,False, Mm. Alright.,2,minor,Stall
+TS3009a,C,1282.2,1287.81,5.61,TS3009a.C.dialog-act.s9553330.160,A,A,-1.15,2.36,True,True,1.15,['TS3009a.A.dialog-act.s9553330.288'],True, And of course there are several electrical cables in it to uh to connect things uh to each other.,19,task,Inform
+TS3009a,A,1285.03,1285.26,0.23,TS3009a.A.dialog-act.s9553330.287,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,A,1286.66,1293.15,6.49,TS3009a.A.dialog-act.s9553330.288,D,C,0.98,-1.15,True,False,0.0,[],False, Is there an a universal uh universal way of um transmitting from the remote to the television,17,elicit,Elicit-Inform
+TS3009a,A,1293.15,1294.39,1.24,TS3009a.A.dialog-act.s9553330.290,,,,,,,,,False, so it's all about uh,5,minor,Fragment
+TS3009a,D,1294.13,1295.5,1.37,TS3009a.D.dialog-act.s9553330.147,C,A,-0.63,0.98,True,True,0.63,"['TS3009a.C.dialog-act.s9553330.162', 'TS3009a.A.dialog-act.s9553330.289']",True, Yeah it's univ yeah yeah yeah.,6,task,Inform
+TS3009a,C,1294.23,1294.87,0.64,TS3009a.C.dialog-act.s9553330.161,,,,,,,,,False, I think so.,3,task,Inform
+TS3009a,C,1294.87,1298.65,3.78,TS3009a.C.dialog-act.s9553330.162,A,D,-3.16,-0.63,True,True,1.64,['TS3009a.A.dialog-act.s9553330.289'],False, It's a a common stan standard way,7,task,Inform
+TS3009a,A,1295.49,1297.13,1.64,TS3009a.A.dialog-act.s9553330.289,C,C,1.52,-3.16,True,False,0.0,[],False, It's not that in China it's different?,7,elicit,Elicit-Inform
+TS3009a,D,1297.65,1297.87,0.22,TS3009a.D.dialog-act.s9553330.148,,,,,,,,,False, Yep.,1,minor,Backchannel
+TS3009a,C,1298.65,1301.19,2.54,TS3009a.C.dialog-act.s9553330.163,A,A,0.91,1.52,True,False,0.0,[],True, infrared beams an infrared beam I think.,7,task,Inform
+TS3009a,A,1300.42,1300.7,0.28,TS3009a.A.dialog-act.s9553330.291,,,,,,,,,False, Yeah.,1,task,Assess
+TS3009a,A,1302.1,1306.558,4.458,TS3009a.A.dialog-act.s9553330.292,C,C,-0.838,0.91,True,True,0.838,['TS3009a.C.dialog-act.s9553330.164'],True, But y you can have uh of course different between D_V_D_s and televisions and between,15,task,Inform
+TS3009a,D,1303.3,1303.962,0.662,TS3009a.D.dialog-act.s9553330.149,,,,,,,,,False, And you can use,4,minor,Fragment
+TS3009a,C,1305.72,1312.66,6.94,TS3009a.C.dialog-act.s9553330.164,B,A,-0.32,-0.838,True,True,0.32,['TS3009a.B.dialog-act.s9553330.87'],False, It it's a we we make an a universal remote so it ha has to work with uh all kinds of brands and things.,24,task,Inform
+TS3009a,D,1307.81,1308.06,0.25,TS3009a.D.dialog-act.s9553330.150,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,A,1309.69,1309.95,0.26,TS3009a.A.dialog-act.s9553330.293,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,B,1310.08,1310.53,0.45,TS3009a.B.dialog-act.s9553330.83,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,B,1312.34,1316.038,3.698,TS3009a.B.dialog-act.s9553330.87,C,C,7.022,-0.32,True,False,0.0,[],False," But our T_V_s are mostly made in China and that sort of country, so",14,task,Inform
+TS3009a,A,1315.008,1317.79,2.782,TS3009a.A.dialog-act.s9553330.296,,,,,,,,,False, Probably yes.,2,task,Assess
+TS3009a,D,1315.074,1320.416,5.342,TS3009a.D.dialog-act.s9553330.151,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,1317.79,1321.152,3.362,TS3009a.A.dialog-act.s9553330.297,,,,,,,,,False, China rules.,2,other,Be-Positive
+TS3009a,B,1319.024,1319.6,0.576,TS3009a.B.dialog-act.s9553330.84,,,,,,,,,False,,0,minor,Fragment
+TS3009a,C,1319.447,1320.0,0.553,TS3009a.C.dialog-act.s9553330.165,,,,,,,,,False,,0,minor,Fragment
+TS3009a,C,1321.09,1323.06,1.97,TS3009a.C.dialog-act.s9553330.166,,,,,,,,,False, And have well yeah,4,minor,Stall
+TS3009a,C,1323.06,1325.46,2.4,TS3009a.C.dialog-act.s9553330.167,C,B,0.0,7.022,True,False,0.0,[],True, I've wrote something down about how it works.,8,task,Inform
+TS3009a,C,1325.46,1330.13,4.67,TS3009a.C.dialog-act.s9553330.168,C,C,0.0,0.0,False,False,0.0,[],False," The user presses a button and with an infrared beam it signals the television set accordingly,",16,task,Inform
+TS3009a,A,1328.129,1328.991,0.862,TS3009a.A.dialog-act.s9553330.294,,,,,,,,,False,,0,minor,Fragment
+TS3009a,D,1328.21,1329.336,1.126,TS3009a.D.dialog-act.s9553330.152,,,,,,,,,False, But are,2,minor,Fragment
+TS3009a,C,1330.13,1332.398,2.268,TS3009a.C.dialog-act.s9553330.169,D,C,-1.134,0.0,False,True,1.134,['TS3009a.D.dialog-act.s9553330.153'],False," but that's pretty obvious, I think.",6,task,Inform
+TS3009a,D,1331.264,1336.31,5.046,TS3009a.D.dialog-act.s9553330.153,A,C,0.49,-1.134,True,False,0.0,[],False, Are we going w uh with the front uh fronts uh idea?,12,elicit,Elicit-Assessment
+TS3009a,B,1331.503,1332.592,1.089,TS3009a.B.dialog-act.s9553330.85,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,1331.696,1332.72,1.024,TS3009a.A.dialog-act.s9553330.295,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,1336.8,1340.44,3.64,TS3009a.A.dialog-act.s9553330.298,D,D,-2.4,0.49,True,True,2.4,['TS3009a.D.dialog-act.s9553330.154'],True, Well I think uh w we can look into that in the in the next uh thirty minutes.,18,task,Suggest
+TS3009a,D,1338.04,1340.72,2.68,TS3009a.D.dialog-act.s9553330.154,D,A,0.0,-2.4,True,False,0.0,[],False, I think we should make it universal,7,task,Suggest
+TS3009a,A,1340.44,1340.7,0.26,TS3009a.A.dialog-act.s9553330.299,,,,,,,,,False, Yeah.,1,task,Assess
+TS3009a,D,1340.72,1344.32,3.6,TS3009a.D.dialog-act.s9553330.155,D,D,0.0,0.0,False,False,0.0,[],False," and you can always use a front front on it, you know?",12,task,Inform
+TS3009a,D,1344.32,1346.62,2.3,TS3009a.D.dialog-act.s9553330.156,D,D,0.0,0.0,False,False,0.0,[],False, You can use it just plain,6,task,Suggest
+TS3009a,A,1346.34,1346.57,0.23,TS3009a.A.dialog-act.s9553330.300,,,,,,,,,False, Yes.,1,minor,Backchannel
+TS3009a,D,1346.62,1349.12,2.5,TS3009a.D.dialog-act.s9553330.157,A,D,-1.07,0.0,False,True,1.07,['TS3009a.A.dialog-act.s9553330.301'],False, but you can To make it more trendy.,8,task,Suggest
+TS3009a,B,1346.655,1347.232,0.577,TS3009a.B.dialog-act.s9553330.86,,,,,,,,,False,.,0,minor,Fragment
+TS3009a,A,1348.05,1351.14,3.09,TS3009a.A.dialog-act.s9553330.301,A,D,0.0,-1.07,True,False,0.0,[],False," Well j just y you get a n a normal front with it,",13,task,Suggest
+TS3009a,A,1351.14,1354.048,2.908,TS3009a.A.dialog-act.s9553330.302,A,A,1.232,0.0,False,False,0.0,[],False, but you can change them uh when you buy the,10,task,Suggest
+TS3009a,B,1351.3,1351.52,0.22,TS3009a.B.dialog-act.s9553330.88,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,D,1352.79,1353.01,0.22,TS3009a.D.dialog-act.s9553330.158,,,,,,,,,False, Right.,1,minor,Backchannel
+TS3009a,B,1353.3,1354.56,1.26,TS3009a.B.dialog-act.s9553330.89,,,,,,,,,False, Yes. Yes.,2,minor,Backchannel
+TS3009a,D,1354.12,1354.32,0.2,TS3009a.D.dialog-act.s9553330.159,,,,,,,,,False, Right.,1,minor,Backchannel
+TS3009a,A,1355.28,1360.192,4.912,TS3009a.A.dialog-act.s9553330.304,B,A,-0.422,1.232,False,True,0.422,['TS3009a.B.dialog-act.s9553330.91'],False, And we should uh dispatch those kind of fronts fronts a a around the world so uh,17,task,Suggest
+TS3009a,B,1358.34,1358.48,0.14,TS3009a.B.dialog-act.s9553330.90,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3009a,D,1358.555,1360.45,1.895,TS3009a.D.dialog-act.s9553330.160,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,B,1359.77,1360.95,1.18,TS3009a.B.dialog-act.s9553330.91,B,A,0.0,-0.422,True,False,0.0,[],False," Well you can make profit with them,",7,task,Inform
+TS3009a,B,1360.95,1363.39,2.44,TS3009a.B.dialog-act.s9553330.92,A,B,0.05,0.0,False,False,0.0,[],False, and it's a way to make them trendy.,8,task,Inform
+TS3009a,A,1363.44,1367.01,3.57,TS3009a.A.dialog-act.s9553330.305,A,B,0.0,0.05,True,False,0.0,[],True, Well th those fifty million don't uh don't se sells itself,11,task,Inform
+TS3009a,A,1367.01,1370.89,3.88,TS3009a.A.dialog-act.s9553330.306,C,A,-0.26,0.0,False,True,0.26,['TS3009a.C.dialog-act.s9553330.170'],False, so we have to uh make uh some extra effort like fronts uh.,13,task,Inform
+TS3009a,C,1370.63,1373.79,3.16,TS3009a.C.dialog-act.s9553330.170,C,A,0.0,-0.26,True,False,0.0,[],False, Well but th but the standard front will be uh just grey or something,14,task,Inform
+TS3009a,D,1370.98,1371.3,0.32,TS3009a.D.dialog-act.s9553330.161,,,,,,,,,False, Yeah right.,2,minor,Backchannel
+TS3009a,B,1371.14,1371.76,0.62,TS3009a.B.dialog-act.s9553330.93,,,,,,,,,False, Yeah alright.,2,minor,Backchannel
+TS3009a,B,1373.76,1374.85,1.09,TS3009a.B.dialog-act.s9553330.94,,,,,,,,,False, Yeah normal.,2,task,Assess
+TS3009a,C,1373.79,1376.36,2.57,TS3009a.C.dialog-act.s9553330.171,A,C,-1.22,0.0,False,True,1.22,"['TS3009a.A.dialog-act.s9553330.308', 'TS3009a.B.dialog-act.s9553330.95']",False, uh b a simple colour not not very flashy.,9,task,Inform
+TS3009a,A,1374.44,1375.14,0.7,TS3009a.A.dialog-act.s9553330.307,,,,,,,,,False, Yes.,1,task,Assess
+TS3009a,A,1375.14,1380.98,5.84,TS3009a.A.dialog-act.s9553330.308,B,C,-4.73,-1.22,True,True,1.62,['TS3009a.B.dialog-act.s9553330.95'],False," Yeah well it has to it h it has to fit the the te television and D_V_D_ set we are going to sell,",23,task,Inform
+TS3009a,B,1376.25,1377.87,1.62,TS3009a.B.dialog-act.s9553330.95,A,A,3.11,-4.73,True,False,0.0,[],False, No a colour everyone accepts.,5,task,Inform
+TS3009a,A,1380.98,1386.528,5.548,TS3009a.A.dialog-act.s9553330.309,C,B,-3.618,3.11,True,True,2.72,['TS3009a.C.dialog-act.s9553330.172'],True, so if they are uh black and black black and silver we'll make them black and silver so,18,task,Inform
+TS3009a,B,1381.5,1381.7,0.2,TS3009a.B.dialog-act.s9553330.96,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3009a,C,1382.91,1385.63,2.72,TS3009a.C.dialog-act.s9553330.172,D,A,2.95,-3.618,True,False,0.0,[],False," Pink television sets pink remote,.",5,task,Suggest
+TS3009a,B,1383.93,1384.16,0.23,TS3009a.B.dialog-act.s9553330.97,,,,,,,,,False, Mm.,1,minor,Backchannel
+TS3009a,D,1385.11,1385.75,0.64,TS3009a.D.dialog-act.s9553330.162,,,,,,,,,False, Yeah yeah yeah.,3,task,Assess
+TS3009a,B,1386.2,1386.45,0.25,TS3009a.B.dialog-act.s9553330.98,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,B,1387.616,1388.34,0.724,TS3009a.B.dialog-act.s9553330.99,,,,,,,,,False, standard.,1,minor,Fragment
+TS3009a,D,1388.58,1391.18,2.6,TS3009a.D.dialog-act.s9553330.163,D,C,0.0,2.95,True,False,0.0,[],True, But people of often don't like bright colours or something.,10,task,Inform
+TS3009a,A,1391.17,1391.548,0.378,TS3009a.A.dialog-act.s9553330.303,,,,,,,,,False,.,0,minor,Fragment
+TS3009a,D,1391.18,1392.69,1.51,TS3009a.D.dialog-act.s9553330.164,D,D,1.27,0.0,False,False,0.0,[],False, We have to make it grey or s or black.,10,task,Inform
+TS3009a,B,1392.44,1395.04,2.6,TS3009a.B.dialog-act.s9553330.100,,,,,,,,,False, Well young people s li,5,minor,Fragment
+TS3009a,D,1393.96,1396.34,2.38,TS3009a.D.dialog-act.s9553330.165,C,D,6.14,1.27,False,False,0.0,[],False, Yeah but then you can use a a front.,9,task,Inform
+TS3009a,B,1396.21,1397.16,0.95,TS3009a.B.dialog-act.s9553330.101,,,,,,,,,False," Yeah yeah, yeah.",3,task,Assess
+TS3009a,C,1398.96,1399.23,0.27,TS3009a.C.dialog-act.s9553330.173,,,,,,,,,False, Alright.,1,minor,Stall
+TS3009a,A,1401.44,1401.74,0.3,TS3009a.A.dialog-act.s9553330.312,,,,,,,,,False, Yeah.,1,minor,Stall
+TS3009a,C,1402.48,1405.024,2.544,TS3009a.C.dialog-act.s9553330.174,A,D,0.176,6.14,True,False,0.0,[],True, I must not forget my pen the next time.,9,task,Suggest
+TS3009a,A,1403.48,1404.16,0.68,TS3009a.A.dialog-act.s9553330.311,,,,,,,,,False, Well if if you,4,minor,Fragment
+TS3009a,B,1403.917,1405.025,1.108,TS3009a.B.dialog-act.s9553330.102,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,1404.16,1405.2,1.04,TS3009a.A.dialog-act.s9553330.313,,,,,,,,,False, yeah.,1,task,Assess
+TS3009a,A,1405.2,1413.49,8.29,TS3009a.A.dialog-act.s9553330.314,D,C,1.46,0.176,True,False,0.0,[],True, If you have a a a television room for little children and you make a if if you buy a a pink front they'll they'll love it.,27,task,Inform
+TS3009a,B,1413.09,1413.31,0.22,TS3009a.B.dialog-act.s9553330.103,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,D,1413.34,1413.93,0.59,TS3009a.D.dialog-act.s9553330.166,,,,,,,,,False, Yeah that's right.,3,elicit,Elicit-Assessment
+TS3009a,A,1413.49,1414.0,0.51,TS3009a.A.dialog-act.s9553330.315,,,,,,,,,False, I think.,2,task,Assess
+TS3009a,D,1414.95,1418.29,3.34,TS3009a.D.dialog-act.s9553330.167,A,A,-3.2,1.46,True,True,3.2,['TS3009a.A.dialog-act.s9553330.316'],True, Yeah or a t Teletubby front.,6,task,Suggest
+TS3009a,A,1415.09,1420.048,4.958,TS3009a.A.dialog-act.s9553330.316,A,D,3.442,-3.2,True,False,0.0,[],False, But that's uh marketing uh research you can uh you can ask uh.,13,task,Suggest
+TS3009a,D,1418.29,1419.99,1.7,TS3009a.D.dialog-act.s9553330.168,,,,,,,,,False, Yeah yeah yeah.,3,task,Assess
+TS3009a,D,1419.99,1421.0,1.01,TS3009a.D.dialog-act.s9553330.169,,,,,,,,,False, I will investigate.,3,other,Offer
+TS3009a,A,1421.06,1421.45,0.39,TS3009a.A.dialog-act.s9553330.317,,,,,,,,,False, Yes.,1,minor,Backchannel
+TS3009a,A,1422.591,1423.026,0.435,TS3009a.A.dialog-act.s9553330.310,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,1423.49,1435.66,12.17,TS3009a.A.dialog-act.s9553330.318,A,A,0.0,3.442,False,False,0.0,[],False," Well our user interface you can uh maybe uh I don't know what your specific instructions will be, but uh probably about uh the precision of the buttons and and those kind of things and what buttons will have to be on the uh remote.",45,task,Suggest
+TS3009a,A,1435.66,1440.35,4.69,TS3009a.A.dialog-act.s9553330.319,C,A,0.49,0.0,False,False,0.0,[],False," And you will look into the technical design and um form, I think.",13,task,Inform
+TS3009a,C,1440.84,1445.49,4.65,TS3009a.C.dialog-act.s9553330.175,A,A,-4.12,0.49,True,True,0.87,['TS3009a.A.dialog-act.s9553330.321'],True," Mm yeah also the the look and feel uh of the the remote's also my task, yeah.",17,task,Inform
+TS3009a,A,1441.37,1442.24,0.87,TS3009a.A.dialog-act.s9553330.321,B,C,4.18,-4.12,True,False,0.0,[],False, Or something like that.,4,other,Other
+TS3009a,A,1443.54,1443.85,0.31,TS3009a.A.dialog-act.s9553330.320,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,A,1445.76,1445.92,0.16,TS3009a.A.dialog-act.s9553330.323,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,D,1446.19,1446.67,0.48,TS3009a.D.dialog-act.s9553330.170,,,,,,,,,False, Right.,1,minor,Backchannel
+TS3009a,B,1446.42,1451.394,4.974,TS3009a.B.dialog-act.s9553330.104,C,A,-2.834,4.18,True,True,2.02,"['TS3009a.C.dialog-act.s9553330.176', 'TS3009a.C.dialog-act.s9553330.177', 'TS3009a.D.dialog-act.s9553330.171']",True, What's the uh url or the website 'cause I didn't get,11,elicit,Elicit-Inform
+TS3009a,C,1448.56,1450.58,2.02,TS3009a.C.dialog-act.s9553330.176,C,B,0.0,-2.834,True,False,0.0,[],False, Yeah I uh w was wondering that too.,8,task,Assess
+TS3009a,C,1450.58,1452.18,1.6,TS3009a.C.dialog-act.s9553330.177,D,C,-1.12,0.0,False,True,1.12,['TS3009a.D.dialog-act.s9553330.171'],False, Y you went to the company website.,7,task,Inform
+TS3009a,A,1450.59,1452.06,1.47,TS3009a.A.dialog-act.s9553330.324,,,,,,,,,False, Euro?,1,other,Comment-About-Understanding
+TS3009a,D,1451.06,1454.782,3.722,TS3009a.D.dialog-act.s9553330.171,C,C,-0.622,-1.12,True,True,0.622,['TS3009a.C.dialog-act.s9553330.178'],False, It's Yeah yeah yeah just if you start up your Internet Explorer,12,task,Inform
+TS3009a,A,1452.06,1453.0,0.94,TS3009a.A.dialog-act.s9553330.325,,,,,,,,,False, Well it it it's,4,minor,Fragment
+TS3009a,B,1452.38,1452.86,0.48,TS3009a.B.dialog-act.s9553330.105,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,A,1453.0,1453.68,0.68,TS3009a.A.dialog-act.s9553330.326,,,,,,,,,False, if you uh,3,minor,Fragment
+TS3009a,C,1454.16,1456.719,2.559,TS3009a.C.dialog-act.s9553330.178,B,D,-0.709,-0.622,True,True,0.709,['TS3009a.B.dialog-act.s9553330.107'],False, It's the the the start uh starting page uh,9,task,Inform
+TS3009a,B,1455.04,1456.01,0.97,TS3009a.B.dialog-act.s9553330.106,,,,,,,,,False, Oh oh right,3,other,Comment-About-Understanding
+TS3009a,B,1456.01,1458.09,2.08,TS3009a.B.dialog-act.s9553330.107,A,C,3.91,-0.709,True,False,0.0,[],False, oh well I didn't uh use it.,7,task,Inform
+TS3009a,D,1456.34,1456.49,0.15,TS3009a.D.dialog-act.s9553330.175,,,,,,,,,False, Yeah.,1,minor,Backchannel
+TS3009a,A,1458.04,1459.61,1.57,TS3009a.A.dialog-act.s9553330.327,,,,,,,,,False, Finish meeting now.,3,task,Inform
+TS3009a,B,1459.384,1461.089,1.705,TS3009a.B.dialog-act.s9553330.112,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,1459.61,1462.0,2.39,TS3009a.A.dialog-act.s9553330.328,,,,,,,,,False, Oh alright.,2,task,Assess
+TS3009a,A,1462.0,1466.08,4.08,TS3009a.A.dialog-act.s9553330.329,B,B,1.01,3.91,True,False,0.0,[],True, Well uh we're going to back uh back into our rooms so,12,task,Inform
+TS3009a,B,1464.48,1464.79,0.31,TS3009a.B.dialog-act.s9553330.113,,,,,,,,,False, Yes.,1,minor,Backchannel
+TS3009a,D,1466.52,1467.06,0.54,TS3009a.D.dialog-act.s9553330.176,,,,,,,,,False, Well that's great.,3,task,Assess
+TS3009a,B,1467.09,1468.352,1.262,TS3009a.B.dialog-act.s9553330.114,A,A,0.728,1.01,True,False,0.0,[],True, Next meeting is in,4,elicit,Elicit-Inform
+TS3009a,A,1468.31,1469.08,0.77,TS3009a.A.dialog-act.s9553330.330,,,,,,,,,False," In thirty minutes,",3,task,Inform
+TS3009a,D,1468.57,1469.29,0.72,TS3009a.D.dialog-act.s9553330.177,,,,,,,,,False, Thirty minutes.,2,task,Inform
+TS3009a,B,1469.06,1469.73,0.67,TS3009a.B.dialog-act.s9553330.115,,,,,,,,,False, Thirty minutes.,2,other,Comment-About-Understanding
+TS3009a,A,1469.08,1474.82,5.74,TS3009a.A.dialog-act.s9553330.331,B,B,-2.92,0.728,True,True,2.92,['TS3009a.B.dialog-act.s9553330.117'],True, but uh I think it will be you will be warned uh through your laptop uh to get over here.,20,task,Inform
+TS3009a,B,1471.36,1471.9,0.54,TS3009a.B.dialog-act.s9553330.116,,,,,,,,,False, Yeah alright,2,task,Assess
+TS3009a,B,1471.9,1475.088,3.188,TS3009a.B.dialog-act.s9553330.117,A,A,-0.268,-2.92,True,True,0.268,"['TS3009a.A.dialog-act.s9553330.332', 'TS3009a.C.dialog-act.s9553330.179']",False, it's it's handy to know,5,task,Inform
+TS3009a,A,1474.82,1477.89,3.07,TS3009a.A.dialog-act.s9553330.332,C,B,-2.804,-0.268,True,True,1.304,['TS3009a.C.dialog-act.s9553330.179'],False, I'll have to restore my uh my desktop uh,9,task,Inform
+TS3009a,C,1475.086,1476.39,1.304,TS3009a.C.dialog-act.s9553330.179,A,A,1.5,-2.804,True,False,0.0,[],False, Very handy to know.,4,task,Inform
+TS3009a,D,1476.727,1479.568,2.841,TS3009a.D.dialog-act.s9553330.178,,,,,,,,,False, It's totally broken.,3,task,Suggest
+TS3009a,B,1477.404,1477.984,0.58,TS3009a.B.dialog-act.s9553330.111,,,,,,,,,False,,0,minor,Fragment
+TS3009a,A,1477.89,1481.68,3.79,TS3009a.A.dialog-act.s9553330.333,C,C,0.55,1.5,True,False,0.0,[],True, because uh it's it's the half of the normal size.,10,task,Inform
+TS3009a,B,1478.614,1479.209,0.595,TS3009a.B.dialog-act.s9553330.110,,,,,,,,,False,,0,minor,Fragment
+TS3009a,B,1480.233,1480.767,0.534,TS3009a.B.dialog-act.s9553330.109,,,,,,,,,False,,0,minor,Fragment
+TS3009a,C,1482.23,1483.97,1.74,TS3009a.C.dialog-act.s9553330.180,A,A,4.83,0.55,True,False,0.0,[],True, Right see you in half an hour then.,8,other,Be-Positive
+TS3009a,A,1482.73,1486.29,3.56,TS3009a.A.dialog-act.s9553330.334,,,,,,,,,False," Oh right, oh.",3,task,Assess
+TS3009a,B,1482.77,1485.91,3.14,TS3009a.B.dialog-act.s9553330.118,,,,,,,,,False, Oh. Goodbye.,2,other,Be-Positive
+TS3009a,C,1486.01,1486.07,0.06,TS3009a.C.dialog-act.s9553330.181,,,,,,,,,False, W,1,minor,Fragment
+TS3009a,A,1486.29,1487.451,1.161,TS3009a.A.dialog-act.s9553330.335,,,,,,,,,False, Ma,1,minor,Fragment
+TS3009a,D,1486.43,1486.785,0.355,TS3009a.D.dialog-act.s9553330.179,,,,,,,,,False, Oh,1,minor,Backchannel
+TS3009a,B,1487.51,1487.97,0.46,TS3009a.B.dialog-act.s9553330.119,,,,,,,,,False, S,1,minor,Fragment
+TS3009a,A,1488.8,1491.78,2.98,TS3009a.A.dialog-act.s9553330.337,C,C,3.56,4.83,True,False,0.0,[],True, W that was a nice meeting.,6,task,Assess
+TS3009a,D,1490.205,1490.845,0.64,TS3009a.D.dialog-act.s9553330.174,,,,,,,,,False,,0,minor,Fragment
+TS3009a,D,1492.17,1493.694,1.524,TS3009a.D.dialog-act.s9553330.173,,,,,,,,,False,.,0,minor,Fragment
+TS3009a,B,1492.748,1494.396,1.648,TS3009a.B.dialog-act.s9553330.108,,,,,,,,,False,.,0,minor,Fragment
+TS3009a,C,1495.34,1498.796,3.456,TS3009a.C.dialog-act.s9553330.182,,A,,3.56,True,False,0.0,[],True, Right uh see you in thirty minutes then.,8,other,Be-Positive
+TS3009a,A,1496.15,1499.641,3.491,TS3009a.A.dialog-act.s9553330.336,,,,,,,,,False," Yeah, see you.",3,other,Be-Positive

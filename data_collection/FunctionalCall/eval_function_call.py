@@ -7,6 +7,7 @@ import re
 import ast  # for safely parsing function_call arguments if needed
 import os
 from tqdm import tqdm  # for progress bar
+import base64
 
 # -------------------------------------------
 # 1. Simple parser for bracket-based INSL
@@ -380,17 +381,39 @@ def filter_functions_for_insl(functions, insl_string):
         if any(f["function"]["name"].lower() == func_name.lower() for func_name in required_functions)
     ]
 
-def process_function_calls(messages, model, mock_model, insl_string=None, functions=[]):
+def process_function_calls(audio_file, model, mock_model, insl_string=None, available_functions=[]):
     """Helper function to process potentially nested function calls"""
     all_function_calls = []
 
     # Filter functions based on INSL string if provided
-    filtered_functions = filter_functions_for_insl(functions, insl_string)
+    filtered_functions = filter_functions_for_insl(available_functions, insl_string)
+
+    # Construct messages
+    messages = [
+        {"role": "system", "content": "You are a helpful AI that uses the provided functions when appropriate."}
+    ]
+
+    # Read and encode audio file
+    with open(audio_file, "rb") as f:
+        encoded_audio = base64.b64encode(f.read()).decode("utf-8")
+
+    # Add audio input to messages
+    messages.append({
+        "role": "user",
+        "content": [
+            {
+                "type": "input_audio",
+                "input_audio": {"data": encoded_audio, "format": "wav"}
+            }
+        ]
+    })
 
     while True:
         try:
             response = openai.chat.completions.create(
                 model=model,
+                modalities=["text", "audio"],
+                audio={"voice": "nova", "format": "wav"},
                 messages=messages,
                 tools=filtered_functions,
                 tool_choice="auto",
@@ -512,6 +535,7 @@ def main():
     parser = argparse.ArgumentParser("Evaluate LLM function calling.")
     parser.add_argument("--utterances_file", required=True, help="JSON file with [ {utterance, parse}, ... ]")
     parser.add_argument("--functions_file", required=True, help="JSON file containing function definitions")
+    parser.add_argument("--audio_dir", required=True, help="Root directory containing audio files")
     parser.add_argument("--api_key", help="OpenAI API key (if not set, will use OPENAI_API_KEY environment variable)")
     parser.add_argument("--api_base", help="OpenAI API base URL (optional)")
     parser.add_argument("--model", default="gpt-4o", help="Model to evaluate, e.g. gpt-4o, gpt-3.5-turbo")
@@ -554,14 +578,20 @@ def main():
     for i, example in pbar:
         utterance = example.get("utterance", "").strip()
         gold_parse = example.get("parse", "").strip()
-        if not utterance or not gold_parse:
+        audio_path = example.get("audio_path", "").strip()
+
+        if not utterance or not gold_parse or not audio_path:
             pbar.write(f"[Warning] Example {i} missing fields. Skipping.")
             continue
+
+        # Construct full audio file path
+        full_audio_path = os.path.join(args.audio_dir, audio_path)
 
         result = {
             "example_id": i,
             "utterance": utterance,
             "gold_parse": gold_parse,
+            "audio_path": full_audio_path,
             "success": False,
             "error": None,
             "model_calls": None,
@@ -580,15 +610,15 @@ def main():
             results.append(result)
             continue
 
-        # Initialize conversation
-        messages = [
-            {"role": "system", "content": "You are a helpful AI that uses the provided functions when appropriate."},
-            {"role": "user", "content": utterance}
-        ]
-
         try:
             # Process potentially nested function calls with INSL context
-            model_calls = process_function_calls(messages, args.model, args.mock_model, gold_parse, functions)
+            model_calls = process_function_calls(
+                full_audio_path,
+                args.model,
+                args.mock_model,
+                gold_parse,
+                functions
+            )
             total += 1
             result["model_calls"] = model_calls
 

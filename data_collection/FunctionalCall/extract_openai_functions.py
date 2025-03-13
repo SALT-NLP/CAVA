@@ -42,7 +42,208 @@ print(f"Successfully installed/verified packages: {', '.join(installed_packages)
 
 from datasets import load_from_disk
 from tqdm import tqdm
-from parser import parse_insl
+
+#!/usr/bin/env python3
+"""
+INSL Format Parser for Audio Task Functional Call.
+
+This module provides parser functionality for the INSL (INtent-SLot) format
+used to represent voice commands and their structured semantic representations.
+"""
+
+# Regular expressions for parsing INSL frames
+INTENT_PATTERN = r'\[IN:([A-Z_]+)'
+SLOT_PATTERN = r'\[SL:([A-Z_]+)'
+NESTED_INTENT_PATTERN = r'\[SL:[A-Z_]+ \[IN:([A-Z_]+)'
+
+def parse_insl(parse_string: str, output_format: str = "full") -> Dict[str, Any]:
+    """
+    Parse INSL frame text and extract intents and slots.
+
+    Args:
+        parse_string: The INSL frame parse string
+        output_format: The output format to return:
+            - "full": Complete hierarchical structure (default)
+            - "function_call": OpenAI function call format with name and arguments
+
+    Returns:
+        Dict containing the parsed information in the requested format or None if parsing fails
+    """
+    if not parse_string or not parse_string.strip():
+        return {} if output_format == "full" else None
+
+    # Extract main intent
+    main_intent_match = re.search(INTENT_PATTERN, parse_string)
+    if not main_intent_match:
+        return {} if output_format == "full" else None
+
+    main_intent = main_intent_match.group(1)
+
+    # Create a token list by parsing the string
+    tokens = []
+    i = 0
+    while i < len(parse_string):
+        if i+4 <= len(parse_string) and parse_string[i:i+4] == "[IN:":
+            # Find the end of the intent name
+            end = parse_string.find(" ", i+4)
+            if end == -1:
+                # No space found, see if the end bracket is there
+                end = parse_string.find("]", i+4)
+                if end == -1:
+                    # Malformed string, just increment and continue
+                    i += 1
+                    continue
+            intent_name = parse_string[i+4:end]
+            tokens.append(("INTENT_START", intent_name, i))  # Store position for tracking
+            i = end
+        elif i+4 <= len(parse_string) and parse_string[i:i+4] == "[SL:":
+            # Find the end of the slot name
+            end = parse_string.find(" ", i+4)
+            if end == -1:
+                # No space found, see if the end bracket is there
+                end = parse_string.find("]", i+4)
+                if end == -1:
+                    # Malformed string, just increment and continue
+                    i += 1
+                    continue
+            slot_name = parse_string[i+4:end]
+            tokens.append(("SLOT_START", slot_name, i))  # Store position for tracking
+            i = end
+        elif i < len(parse_string) and parse_string[i] == "]":
+            tokens.append(("END", None, i))
+            i += 1
+        else:
+            i += 1
+
+    # Build a hierarchical structure using a stack-based approach with unique IDs
+    stack = []  # Will contain tuples of (type, name, pos, id)
+    current_intent_id = None
+    intent_counter = {}  # Track occurrence count of each intent type
+
+    # Maps for storing the structure
+    intent_instances = {}  # Maps intent_id -> {name, slots, parent_id, pos}
+    slot_to_intent = {}  # Maps slot_pos -> intent_id
+    slot_values = {}  # Maps slot_name -> slot_value
+
+    # Process tokens to build the structure
+    for token_type, token_value, token_pos in tokens:
+        if token_type == "INTENT_START":
+            # Create a unique ID for this intent instance
+            if token_value not in intent_counter:
+                intent_counter[token_value] = 0
+            count = intent_counter[token_value]
+            intent_counter[token_value] += 1
+            intent_id = f"{token_value}_{count}"
+
+            # Get the parent intent (if any)
+            parent_id = current_intent_id
+
+            # Store this intent instance
+            intent_instances[intent_id] = {
+                "name": token_value,
+                "slots": [],
+                "parent_id": parent_id,
+                "pos": token_pos,
+                "children": []
+            }
+
+            # Link this intent as a child of its parent
+            if parent_id and parent_id in intent_instances:
+                intent_instances[parent_id]["children"].append(intent_id)
+
+            # Push the intent onto the stack
+            stack.append(("INTENT", token_value, token_pos, intent_id))
+            current_intent_id = intent_id
+
+        elif token_type == "SLOT_START":
+            # Add this slot to the current intent
+            if current_intent_id and current_intent_id in intent_instances:
+                intent_instances[current_intent_id]["slots"].append(token_value)
+                slot_to_intent[token_pos] = current_intent_id
+
+                # Extract slot value - find the text between this slot start and the next closing bracket
+                slot_end = parse_string.find("]", token_pos)
+                if slot_end != -1:
+                    # Extract everything after the space after the slot name
+                    slot_text_start = parse_string.find(" ", token_pos + 4)
+                    if slot_text_start != -1 and slot_text_start < slot_end:
+                        slot_value = parse_string[slot_text_start+1:slot_end].strip()
+                        slot_values[token_value] = slot_value
+
+            stack.append(("SLOT", token_value, token_pos, None))
+
+        elif token_type == "END":
+            # Pop from the stack
+            if stack:
+                stack.pop()
+
+                # Update current intent if we're back to a previous intent
+                current_intent_id = None
+                for type_val, name, pos, id_val in reversed(stack):
+                    if type_val == "INTENT":
+                        current_intent_id = id_val
+                        break
+
+    # Find the main intent instance (first occurrence of the main intent)
+    main_intent_id = f"{main_intent}_0"
+
+    # If we want the OpenAI function call format, return that simplified structure
+    if output_format == "function_call":
+        arguments = {}
+        if main_intent_id in intent_instances:
+            for slot in intent_instances[main_intent_id]["slots"]:
+                if slot in slot_values:
+                    # Convert slot names to lowercase to match OpenAI function naming convention
+                    arguments[slot.lower()] = slot_values[slot]
+
+        return {
+            "name": main_intent.lower(),
+            "arguments": arguments
+        }
+
+    # Otherwise, return the full hierarchical structure
+    # Build intent hierarchy (for nested intents of the same type)
+    intent_hierarchy = {
+        "instances": intent_instances,
+        "main_intent": main_intent,
+        "main_intent_id": main_intent_id
+    }
+
+    # Extract all nested intents (distinct intent types other than main intent)
+    all_intent_names = set(instance["name"] for instance in intent_instances.values())
+    nested_intent_types = list(all_intent_names - {main_intent})
+
+    # Extract all nested intent instances (all instances except the main one)
+    nested_intent_instances = [
+        intent_id for intent_id in intent_instances.keys()
+        if not intent_id.startswith(f"{main_intent}_")
+    ]
+
+    # Build the traditional intent_to_slots mapping (for backward compatibility)
+    intent_to_slots = {}
+    for intent_id, info in intent_instances.items():
+        intent_name = info["name"]
+        if intent_name not in intent_to_slots:
+            intent_to_slots[intent_name] = []
+        for slot in info["slots"]:
+            if slot not in intent_to_slots[intent_name]:
+                intent_to_slots[intent_name].append(slot)
+
+    # Extract direct slots for the main intent
+    direct_slots = intent_instances.get(main_intent_id, {}).get("slots", [])
+
+    # Return both traditional format and the new hierarchical format
+    return {
+        "intent": main_intent,
+        "slots": direct_slots,
+        "slot_values": slot_values,
+        "nested_intents": nested_intent_types,
+        "raw_parse": parse_string,
+        "intent_slot_mapping": intent_to_slots,
+        "hierarchy": intent_hierarchy,
+        "intent_instances": intent_instances,
+        "nested_intent_instances": nested_intent_instances
+    }
 
 # Define alias for backward compatibility
 def extract_intents_and_slots(parse_string: str) -> Dict[str, Any]:
@@ -332,9 +533,9 @@ def generate_openai_functions(analysis_results: Dict[str, Any]) -> List[Dict[str
 
 def main():
     parser = argparse.ArgumentParser(description="Convert STOP dataset intents to OpenAI Function Calling format")
-    parser.add_argument('--dataset_path', type=str, default='./output/stop_dataset',
+    parser.add_argument('--dataset_path', type=str, default='./stop_dataset',
                         help='Path to the processed STOP dataset')
-    parser.add_argument('--output_dir', type=str, default='./output',
+    parser.add_argument('--output_dir', type=str, default='.',
                         help='Output directory for the OpenAI function definitions')
     parser.add_argument('--min_examples', type=int, default=5,
                         help='Minimum number of examples for an intent to be included')

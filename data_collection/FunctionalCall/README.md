@@ -24,26 +24,17 @@ wget https://dl.fbaipublicfiles.com/stop/stop.tar.gz
 tar -xzf stop.tar.gz
 
 # 2. Convert the dataset from fairseq to HuggingFace format
-python fairseq_to_hf.py --fairseq_data_dir ./stop/data --output_dir ./hf_stop
+python fairseq_to_hf.py --stop_root stop --output_dir .
 
 # 3. Extract OpenAI function definitions
-python extract_openai_functions.py \
-    --hf_dataset_path ./hf_stop \
-    --output_file openai_functions.json \
-    --domains weather,reminder,alarm,navigation
+python extract_openai_functions.py --dataset_path ./stop_dataset --output_dir .
 
 # 4. Extract utterances from the STOP dataset
-python extract_stop_utterances.py \
-    --hf_dataset_path ./hf_stop \
-    --output_file stop_utterances.json \
-    --domains weather,reminder,alarm,navigation
+python extract_stop_utterances.py --dataset stop_dataset --output stop_utterances.json
 
 # 5. Run evaluation
 python eval_function_call.py \
-    --utterances_file stop_utterances.json \
-    --functions_file openai_functions.json \
-    --model gpt-4 \
-    --output_file evaluation_results.json
+    --model gpt-4o-audio-preview \
 ```
 
 Note: You may need to adjust parameters based on your specific needs. Check each script's help documentation for available options.

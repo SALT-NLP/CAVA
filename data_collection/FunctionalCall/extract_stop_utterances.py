@@ -160,9 +160,9 @@ def extract_utterances(dataset_path, output_file, split="all", max_samples=None,
 
 def main():
     parser = argparse.ArgumentParser(description="Extract utterances from the STOP dataset")
-    parser.add_argument("--dataset", default="output/stop_dataset",
+    parser.add_argument("--dataset", default="stop_dataset",
                         help="Path to the processed STOP dataset directory")
-    parser.add_argument("--output", default="output/utterances.json",
+    parser.add_argument("--output", default="./stop_utterances.json",
                         help="Path to save the extracted utterances")
     parser.add_argument("--split", default="all",
                         help="Dataset split to use (train, validation, test, or 'all' for all splits)")

@@ -161,7 +161,7 @@ def convert_fairseq_to_hf(stop_root, output_dir, splits=['train', 'eval', 'test'
                     if len(file_id_parts) == 3:
                         _, domain, filename = file_id_parts
                         # Create domain directory if it doesn't exist
-                        domain_dir = split_audio_dir / domain.split('_')[0]  # Just use the first part of domain (e.g., 'music')
+                        domain_dir = split_audio_dir / domain
                         domain_dir.mkdir(exist_ok=True, parents=True)
 
                         # New destination path for the audio file
@@ -324,16 +324,16 @@ print(sample["native"])
 ```
 """
 
-        with open(output_dir / 'README.md', 'w') as f:
+        with open(output_dir / 'stop_dataset/README.md', 'w') as f:
             f.write(readme_content)
 
         print("Dataset card created.")
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Convert STOP dataset from fairseq to HuggingFace format')
-    parser.add_argument('--stop_root', type=str, default='./input/stop',
+    parser.add_argument('--stop_root', type=str, default='./stop',
                     help='Path to STOP root directory')
-    parser.add_argument('--output_dir', type=str, default='./output',
+    parser.add_argument('--output_dir', type=str, default='.',
                     help='Output directory for HuggingFace dataset')
     parser.add_argument('--splits', type=str, default='train,eval,test',
                     help='Comma-separated list of splits to process (train, eval, test)')

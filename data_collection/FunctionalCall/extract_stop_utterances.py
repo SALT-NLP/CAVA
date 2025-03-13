@@ -129,7 +129,10 @@ def extract_utterances(dataset_path, output_file, split="all", max_samples=None,
                 break
 
         # Create output directory if it doesn't exist
-        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        output_dir = os.path.dirname(output_file)
+        if not output_dir:
+            output_dir = "."
+        os.makedirs(output_dir, exist_ok=True)
 
         # Save the utterances
         if output_file.endswith(".json"):

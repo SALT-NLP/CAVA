@@ -34,7 +34,12 @@ python extract_stop_utterances.py --dataset stop_dataset --output stop_utterance
 
 # 5. Run evaluation
 python eval_function_call.py \
+    --api_key $OPENAI_API_KEY \
     --model gpt-4o-audio-preview \
+    --audio_dir audio \
+    --functions_file openai_functions.json \
+    --utterances_file stop_utterances.json \
+    --output_file evaluation_gpt-4o-audio-preview_results.json
 ```
 
 Note: You may need to adjust parameters based on your specific needs. Check each script's help documentation for available options.

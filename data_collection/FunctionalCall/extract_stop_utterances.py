@@ -114,6 +114,8 @@ def extract_utterances(dataset_path, output_file, split="all", max_samples=None,
                     output_item["parse"] = item["parse"]
                 if domain:
                     output_item["domain"] = domain
+                if "file_id" in item:
+                    output_item["audio_path"] = item["file_id"]
 
                 split_items.append(output_item)
 

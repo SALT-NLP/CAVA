@@ -312,8 +312,9 @@ def main_curses(stdscr):
     df["priority"] = df["pos"].apply(get_priority)
     df_noun = df[df["priority"] < len(pos_priority_list)]
     df_non_noun = df[df["priority"] >= len(pos_priority_list)]
-    df_noun = df_noun.sort_values(by=["priority", "word"], ascending=True)
-    df_non_noun = df_non_noun.sort_values(by=["word"], ascending=True)
+    df_noun = df_noun.sample(frac=1, random_state=args.seed).reset_index()
+    df_non_noun = df_non_noun.sample(frac=1, random_state=args.seed).reset_index()
+    df_noun = df_noun.sort_values(by=["priority"], ascending=True)
     df_filtered = pd.concat([df_noun, df_non_noun])
     debug_print(f"Filtered dataset contains {df_filtered.shape[0]} rows.")
 

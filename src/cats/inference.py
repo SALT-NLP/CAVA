@@ -7,6 +7,7 @@ import time
 from enum import Enum
 from pathlib import Path
 from typing import Any, Callable, Dict, List, NamedTuple, Optional, Tuple, Type, Union
+import uuid
 
 import diskcache
 import librosa
@@ -27,6 +28,7 @@ from transformers import (
 )
 
 from cats.config import TaskConfig, create_task_configs, format_prompt_template
+from cats.speech_judge import compare_speech
 
 
 # Global API call counters for rate limiting
@@ -253,7 +255,7 @@ def save_model_speech_output(audio_data: bytes, task_config: TaskConfig, record_
     os.makedirs(output_dir, exist_ok=True)
 
     # Generate output filename
-    output_path = output_dir / f"{task_config.name}_{record_id}_{int(time.time())}.wav"
+    output_path = output_dir / f"{task_config.name}_{record_id}_{int(time.time_ns() // 1e6)}.wav"
 
     # Write audio data to file
     with open(output_path, "wb") as f:
@@ -322,7 +324,7 @@ def create_cache_key(
         A unique hash string to use as cache key
     """
     # Get audio content hash
-    audio_hash = hashlib.md5(audio["array"].tobytes()).hexdigest()
+    audio_hash = hashlib.md5(audio["array"].tobytes()).hexdigest() if audio and "array" in audio else ""
 
     # Get prompt hash
     prompt_hash = hashlib.md5(text_prompt.encode()).hexdigest()
@@ -367,9 +369,14 @@ def api_cached(func):
         # Call the original function
         result = func(resources, audio, text_prompt, task_config, *args, **kwargs)
 
-        # Store in cache
-        api_cache.set(cache_key, result, expire=CACHE_EXPIRE_SECONDS)
-        print(f"Cached {resources.model_type} API response for {resources.model_name}")
+        if result and (result[-1] == True):
+            result = result[:-1]
+
+            # Store in cache
+            api_cache.set(cache_key, result, expire=CACHE_EXPIRE_SECONDS)
+            print(f"Cached {resources.model_type} API response for {resources.model_name}")
+        else:
+            print(f"Avoided caching {resources.model_type} API response for {resources.model_name} due to failure")
 
         return result
 
@@ -392,18 +399,23 @@ def process_with_qwen(
     Returns:
         Model output
     """
+    # Check success for caching purposes
+    success = False
+
     # Save audio to temporary file
-    temp_audio_path = save_temp_audio(audio, task_config.name, "qwen2")
+    temp_audio_path = save_temp_audio(audio, task_config.name, "qwen2") if audio else ""
 
     try:
         # Create conversation input
+        content = []
+        if audio:
+            content.append({"type": "audio", "audio_url": temp_audio_path})
+        content.append({"type": "text", "text": text_prompt})
+
         conversation = [
             {
                 "role": "user",
-                "content": [
-                    {"type": "audio", "audio_url": temp_audio_path},
-                    {"type": "text", "text": text_prompt},
-                ],
+                "content": content,
             },
         ]
 
@@ -431,7 +443,9 @@ def process_with_qwen(
             # Take the last part after "assistant"
             response = response_parts[-1].strip()
 
-        return response
+        success = True
+
+        return response, success
     finally:
         # Clean up temporary file
         cleanup_temp_audio(temp_audio_path)
@@ -453,14 +467,17 @@ def process_with_diva(
     Returns:
         Model output
     """
+    # Check success for caching purposes
+    success = False
+
     # Save audio to temporary file - although not directly used by the model
     # it can be helpful for debugging or logging purposes
-    temp_audio_path = save_temp_audio(audio, task_config.name, "diva")
+    temp_audio_path = save_temp_audio(audio, task_config.name, "diva") if audio else ""
 
     try:
         # Prepare generation kwargs
         gen_kwargs = {
-            "audio": [audio["array"]],
+            "audio": [audio["array"]] if audio else [None], # Untested if None works
             "text_prompt": ["\n" + text_prompt],
             "max_new_tokens": task_config.max_new_tokens,
         }
@@ -474,7 +491,9 @@ def process_with_diva(
         with torch.cuda.amp.autocast(dtype=torch.float16):
             llm_message = resources.model.generate(**gen_kwargs)
 
-        return llm_message[0]
+        success = True
+
+        return llm_message[0], success
     finally:
         # Clean up temporary file
         cleanup_temp_audio(temp_audio_path)
@@ -498,21 +517,26 @@ def process_with_gemini(
     """
     import google.generativeai as genai
 
+    # Check success for caching purposes
+    success = False
+
     # Check API call limit
     if not check_api_call_limit("gemini"):
         # Return default value if limit reached
         return task_config.labels[0] if task_config.labels else "API limit reached"
 
     # Save audio to temporary file
-    temp_audio_path = save_temp_audio(audio, task_config.name, "gemini")
+    temp_audio_path = save_temp_audio(audio, task_config.name, "gemini") if audio else ""
 
     try:
         # Create inputs for the model
         prompt = text_prompt
         inputs = [
             prompt,
-            {"mime_type": "audio/wav", "data": Path(temp_audio_path).read_bytes()},
         ]
+
+        if audio:
+            inputs.append({"mime_type": "audio/wav", "data": Path(temp_audio_path).read_bytes()})
 
         # Set up retry logic
         max_retries = 5
@@ -536,7 +560,8 @@ def process_with_gemini(
                     response = resources.model.generate_content(inputs)
 
                 response_text = response.candidates[0].content.parts[0].text
-                return response_text
+                success = True
+                return response_text, success
 
             except Exception as e:
                 if attempt < max_retries - 1:
@@ -546,7 +571,7 @@ def process_with_gemini(
                 else:
                     print(f"Failed after {max_retries} attempts: {e}")
                     # Default to first label if available, otherwise empty string
-                    return task_config.labels[0] if task_config.labels else ""
+                    return task_config.labels[0] if task_config.labels else "", success
     finally:
         # Clean up temporary file
         cleanup_temp_audio(temp_audio_path)
@@ -568,18 +593,22 @@ def process_with_openai(
     Returns:
         Model output text, or tuple of (output text, path to output audio) for speech tasks
     """
+    # Check success for caching purposes
+    success = False
+
     # Check API call limit
     if not check_api_call_limit("openai"):
         # Return default value if limit reached
         return task_config.labels[0] if task_config.labels else "API limit reached"
 
     # Save audio to temporary file
-    temp_audio_path = save_temp_audio(audio, task_config.name, "gpt")
+    temp_audio_path = save_temp_audio(audio, task_config.name, "gpt") if audio else ""
 
     try:
         # Encode audio to base64
-        with open(temp_audio_path, "rb") as audio_file:
-            encoded_audio = base64.b64encode(audio_file.read()).decode("utf-8")
+        if audio:
+            with open(temp_audio_path, "rb") as audio_file:
+                encoded_audio = base64.b64encode(audio_file.read()).decode("utf-8")
 
         # Prepare content
         messages_content = [
@@ -594,6 +623,13 @@ def process_with_openai(
                             "format": "wav",
                         },
                     },
+                ],
+            },
+        ] if audio else [
+            {
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": text_prompt},
                 ],
             },
         ]
@@ -621,6 +657,10 @@ def process_with_openai(
                     "messages": messages_content,
                 }
 
+                if task_config.speech_output:
+                    # TODO: Should we test multiple voices?
+                    api_args["audio"] = {"voice": "alloy", "format": "wav"}
+
                 # Make the API call
                 completion = resources.model.chat.completions.create(**api_args)
 
@@ -629,7 +669,9 @@ def process_with_openai(
                 # Handle speech output if applicable
                 output_audio_path = None
                 if task_config.speech_output and hasattr(completion.choices[0].message, "audio"):
-                    audio_data = base64.b64decode(completion.choices[0].message.audio)
+                    audio_data = base64.b64decode(completion.choices[0].message.audio.data)
+                    record_id = os.path.basename(temp_audio_path).split("_")[0] if temp_audio_path else uuid.uuid4().hex
+
                     output_audio_path = save_model_speech_output(
                         audio_data, task_config, os.path.basename(temp_audio_path).split("_")[0]
                     )
@@ -652,11 +694,13 @@ def process_with_openai(
                                     label.lower() for label, pred in zip(task_config.labels, response_vec) if pred == 1
                                 ][0]
 
+                success = True
+
                 # Return appropriate result based on task type
                 if task_config.speech_output and output_audio_path:
-                    return response, output_audio_path
+                    return response, output_audio_path, success
                 else:
-                    return response
+                    return response, success
 
             except Exception as e:
                 if attempt < max_retries - 1:
@@ -666,7 +710,7 @@ def process_with_openai(
                 else:
                     print(f"Failed after {max_retries} attempts: {e}")
                     # Default to first label if available, otherwise empty string
-                    return task_config.labels[0] if task_config.labels else ""
+                    return task_config.labels[0] if task_config.labels else "", success
     finally:
         # Clean up temporary file
         cleanup_temp_audio(temp_audio_path)
@@ -737,7 +781,7 @@ def process_record(
         return record, 0, 0
 
     # Process audio
-    audio = process_audio(audio_file, task_config.audio_dir)
+    audio = process_audio(audio_file, task_config.audio_dir) if task_config.audio_input else None
 
     # Format the prompt template with record values if template_fields are provided
     formatted_prompt = format_prompt_template(task_config.prompt_template, record, task_config.template_fields)
@@ -757,13 +801,26 @@ def process_record(
     # Check if prediction is correct
     correct = 0
     if expected_value and predicted_value:
-        if predicted_value.lower() == expected_value.lower():
-            correct = 1
+        if task_config.name=="speaker_diarization":
+            # correct = 1 - get_jer_score(expected_value, predicted_value)
+            #correct = 1 - get_der_score(expected_value, predicted_value)
+            pass # TODO: Include woody's logic
+        else:
+            if predicted_value.lower() == expected_value.lower():
+                correct = 1
+    elif task_config.name=="pronunciation_oed" or task_config.name=="pronunciation_audio":
+        input_audio_path = Path("data") / (task_config.audio_dir + audio_file if task_config.audio_dir else audio_file)
+        # TODO: IMPORTANT REPLACE WITH ALWAYS OPENAI RESOURCES.  THIS IS CURRENTLY BROKEN!!!!!!!
+        correct = compare_speech(resources, audio_path_1=input_audio_path, audio_path_2=output_audio_path)
+        # TODO: IMPORTANT SEE ABOVE
+        print(correct)
+        correct = correct["match"]
+        record["score"] = correct
 
     return record, correct, 1
 
 
-def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[float, List[Dict[str, Any]]]:
+def run_evaluation(resources: ModelResources, task_config: TaskConfig, workers: int = 16) -> Tuple[float, List[Dict[str, Any]]]:
     """
     Run evaluation on a dataset
 
@@ -788,22 +845,35 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
     # Log path being used for debugging
     print(f"Loading data from: {data_path}")
 
+    # Read all lines from the file
     with open(data_path, "r") as f:
-        pbar = tqdm(f)
-        for line in pbar:
-            json_data = json.loads(line)
-            processed_samples = []
+        lines = f.readlines()
 
-            processed_record, sample_correct, sample_total = process_record(resources, json_data, task_config)
-            processed_samples.append(processed_record)
-            correct += sample_correct
-            total += sample_total
+    from concurrent.futures import ThreadPoolExecutor
 
-            # Update progress bar
-            if total > 0:
-                pbar.set_description(f"{task_config.name}: {100*(correct/total):.2f}% (N={total})")
+    # Process records in parallel while preserving order
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        results = list(
+            executor.map(
+                lambda line: process_record(resources, json.loads(line), task_config),
+                lines,
+            )
+        )
 
-            records_with_preds.append(json_data)
+    # Create a progress bar for updating evaluation progress
+    pbar = tqdm(total=len(results))
+    for processed_record, sample_correct, sample_total in results:
+        # Append processed record
+        records_with_preds.append(processed_record)
+        # Accumulate correct and total counts
+        correct += sample_correct
+        total += sample_total
+
+        # Update progress bar
+        if total > 0:
+            pbar.set_description(f"{task_config.name}: {100*(correct/total):.2f}% (N={total})")
+        pbar.update(1)
+    pbar.close()
 
     # Maintain relative path for output file but use the same directory as input file
     output_path = f"{data_path}_{resources.model_name.split('/')[-1]}_{task_config.name}"
@@ -836,7 +906,7 @@ def get_cache_stats():
     return stats
 
 
-def main():
+def main(workers: int):
     """Entry point for the evaluation pipeline"""
     # Reset API counters at the start of a run
     reset_api_counters()
@@ -851,28 +921,29 @@ def main():
     tasks = create_task_configs()
 
     # Define task to run
-    task_name = "transcription"  # Change this to run different tasks
+    task_name = "pronunciation_audio"  # Change this to run different tasks
     task_config = tasks[task_name]
 
     # Model names to evaluate - now including API-based models
     model_names = [
         # "Qwen/Qwen2-Audio-7B-Instruct",
         # "WillHeld/DiVA-llama-3-v0-8b",
-        "models/gemini-2.0-flash-exp",
+        # "models/gemini-2.0-flash-exp",
         "gpt-4o-audio-preview",
     ]
 
-    # Run evaluations for each model
+    # Run evaluations for each model using the provided number of worker threads
     for model_name in model_names:
         print(f"Evaluating model: {model_name}")
 
         # Load model resources
         resources = load_model(model_name)
 
-        # Run evaluation
+        # Run evaluation (with threading: pass the workers parameter)
         run_evaluation(
             resources=resources,
             task_config=task_config,
+            workers=workers
         )
 
         # Print final API usage for this model if applicable
@@ -890,17 +961,15 @@ def main():
 
 
 if __name__ == "__main__":
-    # Add argument parsing for cache management
     import argparse
 
     parser = argparse.ArgumentParser(description="CATS evaluation pipeline")
     parser.add_argument("--clear-cache", action="store_true", help="Clear the API response cache before running")
     parser.add_argument("--cache-seed", type=str, help="Set a cache seed to force fresh API calls")
     parser.add_argument("--disable-cache", action="store_true", help="Disable caching for this run")
-
+    parser.add_argument("--workers", type=int, default=16, help="Number of worker threads to use for parallel processing")
     args = parser.parse_args()
 
-    # Handle cache-related arguments
     if args.clear_cache:
         response = input(
             "Warning: You are about to clear the cache. This action cannot be undone.\nDo you want to continue? [y/N]: "
@@ -918,4 +987,5 @@ if __name__ == "__main__":
         os.environ["CATS_DISABLE_CACHE"] = "true"
         print("Caching disabled for this run")
 
-    main()
+    # Pass the workers argument from argparse to main
+    main(workers=args.workers)

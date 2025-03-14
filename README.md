@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-# CATS - Comprehensive Assesment for Testing Speech
+# CATS - Comprehensive Assessment for Testing Speech
 
 A framework for evaluating audio models across multiple tasks.
 

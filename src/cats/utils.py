@@ -2,13 +2,39 @@ import re
 import numpy as np
 from scipy.optimize import linear_sum_assignment
 
-def get_jer_score(expected_value, predicted_value):#for speaker diarization task
-    ref_dict = ref_dict = {i+1: speaker for i, speaker in enumerate(expected_value)}
+def get_jer_score(expected_value, predicted_value):
+    '''
+    This is a function to calculate the Jaccard Error Rate for Speaker Diarization Task
+    Given the ground truth speaker order(expected_value) and the parsed speaker order dictionary answered by the audio model, this function will return a Jaccard Error Rate from 0 to 1
+    '''
+    ref_dict = {i+1: speaker for i, speaker in enumerate(expected_value)}
     sys_dict = predicted_value
     random_dict = {i+1: 1 for i, speaker in enumerate(expected_value)}
-    if sys_dict == None:
-        sys_dict=random_dict
+    try:
+        if sys_dict[1] == "fail":
+            sys_dict=random_dict
+            print("use a random prediction")
+    except:
+        pass
     return calculate_jer(ref_dict, sys_dict)
+
+def get_der_score(expected_value, predicted_value):
+    '''
+    This is a function to calculate the simple version of Diarization Error Rate for Speaker Diarization Task (#miss-classified sentence/#total sentences)
+    Given the ground truth speaker order(expected_value) and the parsed speaker order dictionary answered by the audio model, this function will return a DER from 0 to 1
+    '''
+    ref_dict = {i+1: speaker for i, speaker in enumerate(expected_value)}
+    sys_dict = predicted_value
+    random_dict = {i+1: 1 for i, speaker in enumerate(expected_value)}
+    try:
+        if sys_dict[1] == "fail":
+            sys_dict=random_dict
+            print("use a random prediction")
+    except:
+        pass
+    return calculate_der(ref_dict, sys_dict)
+
+
 
 def calculate_jer(ref_dict, sys_dict):
     # Get unique speakers
@@ -66,10 +92,70 @@ def calculate_jer(ref_dict, sys_dict):
         #print(jers[ref_idx])
         #print(cm[ref_idx, sys_idx], ref_counts[ref_idx], sys_counts[sys_idx])
         #print(union[ref_idx, sys_idx])
-    
+
     return float(np.mean(jers))
 
-def parse_speaker_label_response(response_text): #for speaker diarization task
+def calculate_der(ref_dict, sys_dict):
+    """
+    Calculate the Diarization Error Rate (DER) between reference and system speaker diarization.
+    
+    DER is defined as the fraction of time that is not attributed correctly to a speaker.
+    It's calculated as: (false_alarm + missed_detection + speaker_confusion) / total_time
+    
+    For sentence-level diarization, we can simplify this to be the proportion of sentences
+    that are not correctly attributed after finding the optimal mapping.
+    
+    Args:
+        ref_dict: Dictionary mapping sentence IDs to speaker IDs in the reference
+        sys_dict: Dictionary mapping sentence IDs to speaker IDs in the system output
+        
+    Returns:
+        float: The Diarization Error Rate (0.0 to 1.0, lower is better)
+    """
+    # Get unique speakers
+    ref_speakers = sorted(set(ref_dict.values()))
+    sys_speakers = sorted(set(sys_dict.values()))
+    
+    n_ref = len(ref_speakers)
+    n_sys = len(sys_speakers)
+    
+    # Handle edge cases
+    if n_ref == 0 and n_sys > 0:
+        return 1.0  # All false alarms
+    elif n_ref > 0 and n_sys == 0:
+        return 1.0  # All missed detections
+    elif n_ref == n_sys == 0:
+        return 0.0  # Both empty, perfect match
+    
+    # Create confusion matrix
+    cm = np.zeros((n_ref, n_sys))
+    
+    # Fill the confusion matrix
+    for sent in ref_dict:
+        ref_spk = ref_dict.get(sent)
+        sys_spk = sys_dict.get(sent)
+        if sys_spk == None:
+            sys_spk = sys_speakers[0] #randomly assign to the first speaker
+        ref_idx = ref_speakers.index(ref_spk)
+        sys_idx = sys_speakers.index(sys_spk)
+        cm[ref_idx, sys_idx] += 1
+    
+    neg_cm = -cm
+    total_sentences = len(ref_dict)
+
+    ref_inds, sys_inds = linear_sum_assignment(neg_cm)
+    
+    # Calculate the number of correctly classified sentences with optimal mapping
+    correct_sentences = sum(cm[i, j] for i, j in zip(ref_inds, sys_inds))
+    
+    # Calculate DER
+    der = 1.0 - (correct_sentences / total_sentences)
+    
+    return der
+    
+
+def parse_speaker_label_response(response_text):
+    #This function will help to parse the output from LM to a dictionary that maps from the sentence index to the speaker label
     try:
         speaker_labels = {}
 
@@ -121,7 +207,7 @@ def parse_speaker_label_response(response_text): #for speaker diarization task
         if not speaker_labels:
             print("Warning: No speaker labels found in response")
             print(response_text)
-        return speaker_labels if speaker_labels else None
+        return speaker_labels if speaker_labels else {1 : "fail"} #dont want to return empty dictionary, but a dictionary that indicate failure
 
     except Exception as e:
         print(f"Error parsing response: {e}")

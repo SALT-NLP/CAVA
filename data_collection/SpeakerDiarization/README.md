@@ -1,4 +1,4 @@
-# SpeakerDiarizatin Data Collection Pipeline
+# Speaker Diarizatin Data Collection Pipeline
 
 The pipeline runs in 2 steps
 
@@ -20,3 +20,11 @@ python dataset_prepare.py
 The dataset config will be saved in `data/SpeakerDiarization/audio_inputs.jsonl`
 
 Now you can safely delete `data/SpeakerDiarization/amicorpus`
+
+## Alternative: You can directly download and process the data from huggingface
+The dataset is currently private, please feel free to text me on slack or request access for `rma9248/CATS-ami-speaker-diarization` on huggingface.
+```sh
+python download_from_hg.py
+```
+
+

@@ -27,7 +27,7 @@ from transformers import (
 )
 
 from cats.config import TaskConfig, create_task_configs, format_prompt_template
-from cats.utils import get_jer_score
+from cats.utils import get_jer_score, get_der_score
 
 
 # Global API call counters for rate limiting
@@ -517,7 +517,7 @@ def process_with_gemini(
 
         # Set up retry logic
         max_retries = 5
-        sleep_time = 4
+        sleep_time = 10
 
         # Try to generate content with retries for API rate limits
         for attempt in range(max_retries):
@@ -672,6 +672,153 @@ def process_with_openai(
         # Clean up temporary file
         cleanup_temp_audio(temp_audio_path)
 
+@api_cached
+def process_with_openai_realtime(
+    resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
+) -> Union[str, Tuple[str, str]]:
+    """
+    Process audio with OpenAI realtime model
+
+    Args:
+        resources: Model resources
+        audio: Processed audio data
+        text_prompt: Text prompt for the model
+        task_config: Task configuration
+
+    Returns:
+        Model output text, or tuple of (output text, path to output audio) for speech tasks
+    """
+    # Check API call limit
+    if not check_api_call_limit("openai"):
+        # Return default value if limit reached
+        return task_config.labels[0] if task_config.labels else "API limit reached"
+
+    # Save audio to temporary file
+    temp_audio_path = save_temp_audio(audio, task_config.name, "gpt_realtime")
+    
+    try:
+        # Encode audio to base64
+        with open(temp_audio_path, "rb") as audio_file:
+            encoded_audio = base64.b64encode(audio_file.read()).decode("utf-8")
+
+        # Prepare content
+        messages_content = {
+            "type": "conversation.item.create",
+            "item": {
+                "type": "message",
+                "role": "user",
+                "content": [
+                    {"type": "input_text", "text": text_prompt},
+                    {"type": "input_audio", "audio": encoded_audio}
+                ]
+            }
+        }
+
+        # If we have labels for constrained generation, use schema
+        if task_config.labels and task_config.use_logits_processor:
+            # Dynamically create a pydantic model for structured output
+            SchemaWrapper = create_schema_wrapper(task_config.field_name)
+
+            # Add schema format guidance
+            messages_content["item"]["content"][0]["text"] += "\nFormat: " + json.dumps(SchemaWrapper.model_json_schema())
+
+        # Set up WebSocket connection
+        url = f"wss://api.openai.com/v1/realtime?model={resources.model_name}"
+        import websocket
+        headers = [
+            "Authorization: Bearer " + os.environ.get("OPENAI_API_KEY"),
+            "OpenAI-Beta: realtime=v1"
+        ]
+
+        response_text = ""
+        output_audio_path = None
+
+        # Set up retry logic
+        max_retries = 5
+        sleep_time = 0.1
+
+        # Try to generate content with retries for API rate limits
+        for attempt in range(max_retries):
+            try:
+                def on_open(ws):
+                    # Send conversation event first
+                    ws.send(json.dumps(messages_content))
+                    
+                    # Then create response event
+                    response_event = {
+                        "type": "response.create",
+                        "response": {
+                            "modalities": ["text"] if not task_config.speech_output else ["text", "audio"],
+                            #"temperature": 0, Doesn't allow zero: decimal below minimum value. Expected a value >= 0.6, but got 0 instead.
+                        }
+                    }
+                    ws.send(json.dumps(response_event))
+
+                def on_message(ws, message):
+                    nonlocal response_text, output_audio_path
+                    server_event = json.loads(message)
+                    
+                    if server_event["type"] == "response.done":
+                        response_text = server_event["response"]["output"][0]["content"][0]["text"]
+                        
+                        # Handle speech output if applicable
+                        if (task_config.speech_output and 
+                            "audio" in server_event["response"]["output"][0]["content"][1]):
+                            audio_data = base64.b64decode(
+                                server_event["response"]["output"][0]["content"][1]["audio"])
+                            output_audio_path = save_model_speech_output(
+                                audio_data, task_config, os.path.basename(temp_audio_path).split("_")[0]
+                            )
+                        
+                        if response_text.strip() != "":
+                            ws.close()
+
+                ws = websocket.WebSocketApp(
+                    url,
+                    header=headers,
+                    on_open=on_open,
+                    on_message=on_message,
+                )
+
+                ws.run_forever(ping_timeout=30)
+
+                # Try to parse structured response if using schema
+                if task_config.labels and task_config.use_logits_processor:
+                    try:
+                        # First try to parse as JSON
+                        response_json = json.loads(response_text)
+                        response_text = response_json[task_config.field_name]
+                    except:
+                        # Fall back to checking for label terms in response
+                        if task_config.labels:
+                            # Check if any of the labels appear in the response
+                            response_vec = [int(label.lower() in response_text.lower()) for label in task_config.labels]
+
+                            if np.sum(response_vec) == 1:
+                                # Find which label was detected
+                                response_text = [
+                                    label.lower() for label, pred in zip(task_config.labels, response_vec) if pred == 1
+                                ][0]
+                
+                # Return appropriate result based on task type
+                if task_config.speech_output and output_audio_path:
+                    return response_text, output_audio_path
+                else:
+                    return response_text
+                    
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    print(f"OpenAI API error: {e}. Retrying after {sleep_time}s...")
+                    time.sleep(sleep_time)
+                    sleep_time *= 2
+                else:
+                    print(f"Failed after {max_retries} attempts: {e}")
+                    # Default to first label if available, otherwise empty string
+                    return task_config.labels[0] if task_config.labels else ""
+    finally:
+        # Clean up temporary file
+        cleanup_temp_audio(temp_audio_path)
+
 
 def process_sample(
     resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
@@ -701,9 +848,13 @@ def process_sample(
         else:
             raise ValueError(f"Transformers model {resources.model_name} processing not implemented")
     elif resources.model_type == "gemini":
-        response = process_with_gemini(resources, audio, text_prompt, task_config)
+        response = process_with_gemini(resources, audio, text_prompt, task_config)         
     elif resources.model_type == "openai":
-        response = process_with_openai(resources, audio, text_prompt, task_config)
+        if "realtime" in resources.model_name.lower():
+            # Real-time API models require a different processing function
+            response = process_with_openai_realtime(resources, audio, text_prompt, task_config)
+        else:
+            response = process_with_openai(resources, audio, text_prompt, task_config)
     else:
         raise ValueError(f"Model type {resources.model_type} processing not implemented")
 
@@ -760,6 +911,7 @@ def process_record(
     if expected_value and predicted_value:
         if task_config.name=="speaker_diarization":
             correct = 1 - get_jer_score(expected_value, predicted_value)
+            #correct = 1 - get_der_score(expected_value, predicted_value)
         else:
             if predicted_value.lower() == expected_value.lower():
                 correct = 1
@@ -864,6 +1016,8 @@ def main():
         # "WillHeld/DiVA-llama-3-v0-8b",
         "models/gemini-2.0-flash-exp",
         "gpt-4o-audio-preview",
+        "gpt-4o-mini-audio-preview",
+        "gpt-4o-realtime-preview",
     ]
 
     # Run evaluations for each model

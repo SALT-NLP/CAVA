@@ -412,8 +412,7 @@ def process_function_calls(audio_file, model, mock_model, insl_string=None, avai
         try:
             response = openai.chat.completions.create(
                 model=model,
-                modalities=["text", "audio"],
-                audio={"voice": "nova", "format": "wav"},
+                modalities=["text"],
                 messages=messages,
                 tools=filtered_functions,
                 tool_choice="auto",

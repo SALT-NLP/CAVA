@@ -86,7 +86,7 @@ Results are stored in JSON format as follows:
 ## Visualization
 The script `visualize_pairwise.py` generates a comparative bar chart, saved as `pairwise_all_in_one.png`:
 
-![Pairwise Model Performance](./results/GPT-4o_realtime.json)
+![Pairwise Model Performance](./results/pairwise_all_in_one.png)
 
 
 

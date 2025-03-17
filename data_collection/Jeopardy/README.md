@@ -88,5 +88,48 @@ The script `visualize_pairwise.py` generates a comparative bar chart, saved as `
 
 ![Pairwise Model Performance](./results/pairwise_all_in_one.png)
 
+## Accuracy and processing time metrics
+```
+===========================
+Accuracy (Overall):
+===========================
+GPT-4o_realtime           => 4/4 = 100.0%
+Gemini-2.0_multimodal     => 1/4 = 25.0%
+
+===========================
+Accuracy (By Category):
+===========================
+
+----- GPT-4o_realtime -----
+  literature                => 1/1 = 100.0%
+  science                   => 2/2 = 100.0%
+  world_history             => 1/1 = 100.0%
+
+----- Gemini-2.0_multimodal -----
+  literature                => 1/1 = 100.0%
+  science                   => 0/2 = 0.0%
+  world_history             => 0/1 = 0.0%
+
+===========================
+Mean Processing Time (Overall) [seconds]:
+===========================
+GPT-4o_realtime           => 0.0317s (across 4 answers)
+Gemini-2.0_multimodal     => 0.0608s (across 4 answers)
+
+===========================
+Mean Processing Time (By Category) [seconds]:
+===========================
+
+----- GPT-4o_realtime -----
+  literature                => 0.0608s (across 1 answers)
+  science                   => 0.0024s (across 2 answers)
+  world_history             => 0.0610s (across 1 answers)
+
+----- Gemini-2.0_multimodal -----
+  literature                => 0.0608s (across 1 answers)
+  science                   => 0.0608s (across 2 answers)
+  world_history             => 0.0608s (across 1 answers)
+```
+
 
 

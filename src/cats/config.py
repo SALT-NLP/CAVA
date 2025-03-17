@@ -50,6 +50,15 @@ def create_task_configs() -> Dict[str, TaskConfig]:
             audio_dir="transcription_test/",
             data_file="audio_inputs.jsonl",
         ),
+        "jeopardy": TaskConfig(
+            name="jeopardy",
+            prompt_template="You are a contestant on Jeopardy. the answer must be worded in the form of a question, beginning with “What is” or “Who are,” for example.",
+            use_logits_processor=False,
+            max_new_tokens=100,
+            field_name="question",
+            audio_dir="jeopardy/",
+            data_file="audio_inputs.jsonl",
+        ),
     }
 
 

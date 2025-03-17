@@ -851,7 +851,7 @@ def main():
     tasks = create_task_configs()
 
     # Define task to run
-    task_name = "transcription"  # Change this to run different tasks
+    task_name = "jeopardy"  # Change this to run different tasks
     task_config = tasks[task_name]
 
     # Model names to evaluate - now including API-based models

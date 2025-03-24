@@ -18,6 +18,9 @@ class TaskConfig(NamedTuple):
     output_audio_dir: Optional[str] = None  # Directory to save model's speech output
     template_fields: Optional[Dict[str, Any]] = None  # Fields to populate in prompt template
     verify_tokenization: bool = False  # Flag to verify label tokenization
+    functions: Optional[List[Dict[str, Any]]] = None  # List of function definitions for function calling
+    function_field_name: str = "function_call"  # Field name for function call results
+    use_functions: bool = False  # Flag to enable function calling
 
 
 def create_task_configs() -> Dict[str, TaskConfig]:
@@ -49,6 +52,21 @@ def create_task_configs() -> Dict[str, TaskConfig]:
             field_name="transcript",
             audio_dir="transcription_test/",
             data_file="audio_inputs.jsonl",
+        ),
+        "function_call": TaskConfig(
+            name="function_call",
+            prompt_template=(
+                "Listen to the audio and call the appropriate function with the correct parameters. "
+                "The user is making a request or giving a command related to one of the available functions."
+            ),
+            use_logits_processor=False,
+            max_new_tokens=500,  # Larger token count for function call outputs
+            field_name="transcript",  # For storing the transcript if needed
+            function_field_name="function_call",  # For storing the function call
+            audio_dir="function_calling/audio/",
+            data_file="function_call_inputs.jsonl",
+            use_functions=True,  # Enable function calling
+            # Functions will be loaded from the data file or set programmatically
         ),
     }
 

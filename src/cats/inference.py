@@ -483,7 +483,7 @@ def process_with_diva(
 @api_cached
 def process_with_gemini(
     resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
-) -> str:
+) -> Union[str, Dict[str, Any]]:
     """
     Process audio with Gemini model
 
@@ -494,7 +494,7 @@ def process_with_gemini(
         task_config: Task configuration
 
     Returns:
-        Model output
+        Model output text, or dictionary with function call data for function calling tasks
     """
     import google.generativeai as genai
 
@@ -521,8 +521,39 @@ def process_with_gemini(
         # Try to generate content with retries for API rate limits
         for attempt in range(max_retries):
             try:
+                # Function call support
+                if task_config.use_functions and task_config.functions:
+                    # Convert OpenAI function format to Gemini function format if needed
+                    gemini_functions = []
+                    for func in task_config.functions:
+                        gemini_func = {
+                            "name": func["name"],
+                            "description": func.get("description", ""),
+                            "parameters": func.get("parameters", {})
+                        }
+                        gemini_functions.append(gemini_func)
+
+                    response = resources.model.generate_content(
+                        inputs,
+                        tools=[{"function_declarations": gemini_functions}],
+                    )
+
+                    # Extract function call from response
+                    if hasattr(response, "candidates") and response.candidates[0].content.parts:
+                        for part in response.candidates[0].content.parts:
+                            if hasattr(part, "function_call"):
+                                function_call = part.function_call
+                                return {
+                                    "name": function_call.name,
+                                    "arguments": function_call.args
+                                }
+
+                    # If no function call was detected but we were expecting one
+                    response_text = response.candidates[0].content.parts[0].text
+                    return response_text
+
                 # If we have labels for constrained generation
-                if task_config.labels and task_config.use_logits_processor:
+                elif task_config.labels and task_config.use_logits_processor:
                     # Dynamically create enum type from labels
                     DynamicEnum = create_enum_from_labels(task_config.labels, f"{task_config.name.capitalize()}Enum")
 
@@ -555,7 +586,7 @@ def process_with_gemini(
 @api_cached
 def process_with_openai(
     resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
-) -> Union[str, Tuple[str, str]]:
+) -> Union[str, Tuple[str, str], Dict[str, Any]]:
     """
     Process audio with OpenAI model
 
@@ -566,7 +597,8 @@ def process_with_openai(
         task_config: Task configuration
 
     Returns:
-        Model output text, or tuple of (output text, path to output audio) for speech tasks
+        Model output text, or tuple of (output text, path to output audio) for speech tasks,
+        or dictionary with function call data for function calling tasks
     """
     # Check API call limit
     if not check_api_call_limit("openai"):
@@ -621,8 +653,29 @@ def process_with_openai(
                     "messages": messages_content,
                 }
 
+                # Add function definitions if using function calling
+                if task_config.use_functions and task_config.functions:
+                    api_args["functions"] = task_config.functions
+                    # Force function calling if there's only one function
+                    if len(task_config.functions) == 1:
+                        api_args["function_call"] = {"name": task_config.functions[0]["name"]}
+
                 # Make the API call
                 completion = resources.model.chat.completions.create(**api_args)
+
+                # Handle function calling response
+                if task_config.use_functions and hasattr(completion.choices[0].message, "function_call"):
+                    function_call = completion.choices[0].message.function_call
+                    function_name = function_call.name
+                    try:
+                        function_args = json.loads(function_call.arguments)
+                    except json.JSONDecodeError:
+                        function_args = {}
+
+                    return {
+                        "name": function_name,
+                        "arguments": function_args
+                    }
 
                 response = completion.choices[0].message.content
 
@@ -674,7 +727,7 @@ def process_with_openai(
 
 def process_sample(
     resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
-) -> Union[str, Tuple[str, str]]:
+) -> Union[str, Tuple[str, str], Dict[str, Any]]:
     """
     Process a single audio sample based on model type
 
@@ -685,7 +738,8 @@ def process_sample(
         task_config: Task configuration
 
     Returns:
-        Processed model output text, or tuple of (output text, path to output audio) for speech tasks
+        Processed model output text, tuple of (output text, path to output audio) for speech tasks,
+        or dictionary with function call data for function calling tasks
     """
     # Verify label tokenization if required
     if task_config.verify_tokenization and task_config.labels and resources.tokenizer:
@@ -698,69 +752,91 @@ def process_sample(
         elif "diva" in resources.model_name.lower():
             response = process_with_diva(resources, audio, text_prompt, task_config)
         else:
-            raise ValueError(f"Transformers model {resources.model_name} processing not implemented")
+            raise ValueError(f"Unsupported transformers model: {resources.model_name}")
     elif resources.model_type == "gemini":
         response = process_with_gemini(resources, audio, text_prompt, task_config)
     elif resources.model_type == "openai":
         response = process_with_openai(resources, audio, text_prompt, task_config)
     else:
-        raise ValueError(f"Model type {resources.model_type} processing not implemented")
+        raise ValueError(f"Unsupported model type: {resources.model_type}")
 
-    # Apply task-specific output processing for text responses
-    if isinstance(response, tuple) and task_config.speech_output:
-        # For speech output tasks, apply processing only to the text part
-        text_response, audio_path = response
-        return task_config.output_processor(text_response), audio_path
-    else:
-        # For text-only tasks
-        return task_config.output_processor(response)
+    return response
 
 
 def process_record(
     resources: ModelResources, record: Dict[str, Any], task_config: TaskConfig
 ) -> Tuple[Dict[str, Any], int, int]:
     """
-    Process a single record from the dataset
+    Process a single record
 
     Args:
         resources: Model resources
-        record: Record data
+        record: Input record containing 'filename' and other required fields
         task_config: Task configuration
 
     Returns:
-        Tuple of (processed record, correct count, total count)
+        Tuple of (processed_record, label_match_count, total_count)
     """
-    expected_value = record.get(task_config.field_name)
-    audio_file = record.get("filename")
+    try:
+        # Format prompt template with record values
+        text_prompt = format_prompt_template(
+            task_config.prompt_template, record, task_config.template_fields
+        )
 
-    if not audio_file:
-        return record, 0, 0
+        # Process audio
+        audio = process_audio(record["filename"], task_config.audio_dir)
 
-    # Process audio
-    audio = process_audio(audio_file, task_config.audio_dir)
+        # Get model response
+        response = process_sample(resources, audio, text_prompt, task_config)
 
-    # Format the prompt template with record values if template_fields are provided
-    formatted_prompt = format_prompt_template(task_config.prompt_template, record, task_config.template_fields)
+        # Create copy of record with prediction
+        processed_record = record.copy()
 
-    # Get model prediction
-    prediction = process_sample(resources, audio, formatted_prompt, task_config)
+        # Handle speech output
+        if task_config.speech_output and isinstance(response, tuple):
+            text_output, audio_path = response
+            processed_record[f"predicted_{task_config.field_name}"] = text_output
+            processed_record["output_audio_path"] = audio_path
+        # Handle function calling output
+        elif task_config.use_functions and isinstance(response, dict) and "name" in response:
+            # Store function call in the specified field
+            processed_record[f"predicted_{task_config.function_field_name}"] = response
+        else:
+            # Apply output processor for text outputs
+            processed_output = task_config.output_processor(response)
+            processed_record[f"predicted_{task_config.field_name}"] = processed_output
 
-    # Handle different return types based on task type
-    if isinstance(prediction, tuple) and task_config.speech_output:
-        predicted_value, output_audio_path = prediction
-        record["prediction"] = predicted_value
-        record["output_audio_path"] = output_audio_path
-    else:
-        predicted_value = prediction
-        record["prediction"] = predicted_value
+        # Calculate metric if ground truth exists
+        label_match = 0
+        total = 0
 
-    # Check if prediction is correct
-    correct = 0
-    if expected_value and predicted_value:
-        if predicted_value.lower() == expected_value.lower():
-            correct = 1
+        # For function calling tasks
+        if task_config.use_functions and task_config.function_field_name in record:
+            total = 1
+            gold_function = record[task_config.function_field_name]
+            pred_function = processed_record.get(f"predicted_{task_config.function_field_name}")
 
-    return record, correct, 1
+            # Simple comparison of function name
+            if (isinstance(pred_function, dict) and isinstance(gold_function, dict) and
+                pred_function.get("name") == gold_function.get("name")):
+                label_match = 1
+        # For standard classification tasks
+        elif task_config.field_name in record:
+            total = 1
+            gold_label = str(record[task_config.field_name]).strip().lower()
+            pred_label = str(processed_record[f"predicted_{task_config.field_name}"]).strip().lower()
+            if gold_label == pred_label:
+                label_match = 1
+
+        return processed_record, label_match, total
+
+    except Exception as e:
+        print(f"Error processing record {record.get('filename', 'unknown')}: {e}")
+        # Return record with error information
+        error_record = record.copy()
+        error_record[f"predicted_{task_config.field_name}"] = f"ERROR: {str(e)}"
+        error_record["error"] = str(e)
+        return error_record, 0, 0
 
 
 def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[float, List[Dict[str, Any]]]:

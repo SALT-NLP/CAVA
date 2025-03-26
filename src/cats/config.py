@@ -50,6 +50,22 @@ def create_task_configs() -> Dict[str, TaskConfig]:
             audio_dir="transcription_test/",
             data_file="audio_inputs.jsonl",
         ),
+        "deception_detection": TaskConfig(
+            name="deception_detection",
+            prompt_template="Listen to the following audio of a One Night Ultimate Werewolf game being played. Some of the players may be the Werewolf. Name a player who is the Werewolf. Response using a single word by stating the name of the player who is the Werewolf",
+            max_new_tokens = 100,
+            field_name="werewolf",
+            audio_dir="Werewolf/",
+            data_file="werewolf.jsonl",
+        ),
+        "deception_character_prediction": TaskConfig(
+            name="deception_character_prediction",
+            prompt_template= "Listen to the following audio of a One Night Ultimate Werewolf game being played. Determine who each player will vote for as the Werewolf. Respond with a JSON-formatted list of names (one word per player) corresponding to the votes.",
+            max_new_tokens = 100,
+            field_name="votingOutcome",
+            audio_dir="Werewolf/",
+            data_file="werewolf.jsonl",
+        )
     }
 
 

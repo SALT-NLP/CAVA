@@ -26,6 +26,11 @@ from transformers import (
     Qwen2AudioForConditionalGeneration,
 )
 
+# newly added to resolve path issues when running inference.py
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+
 from cats.config import TaskConfig, create_task_configs, format_prompt_template
 
 
@@ -138,8 +143,12 @@ def load_model(model_name: str) -> ModelResources:
             api_key = os.environ.get("OPENAI_API_KEY")
             if not api_key:
                 raise ValueError("OPENAI_API_KEY environment variable is required for OpenAI models")
+            
+            project_id = os.environ.get("OPENAI_PROJECT_ID")
+            if not project_id:
+                raise ValueError("OPENAI_PROJECT_ID environment variable is required for project-scoped keys")
 
-            model = OpenAI(api_key=api_key)
+            model = OpenAI(api_key=api_key, project=project_id)
             tokenizer = None
             processor = None
             model_type = "openai"
@@ -610,6 +619,12 @@ def process_with_openai(
         max_retries = 5
         sleep_time = 0.1
 
+        from openai import OpenAI
+
+        api_key = os.environ.get("OPENAI_API_KEY")
+        project_id = os.environ.get("OPENAI_PROJECT_ID")
+        client = OpenAI(api_key=api_key, project=project_id)
+
         # Try to generate content with retries for API rate limits
         for attempt in range(max_retries):
             try:
@@ -622,7 +637,13 @@ def process_with_openai(
                 }
 
                 # Make the API call
-                completion = resources.model.chat.completions.create(**api_args)
+                #completion = resources.model.chat.completions.create(**api_args)
+                completion = client.chat.completions.create(**api_args)
+
+                # completion = resources.model.chat.completions.create(
+                #     **api_args,
+                #     project=os.environ.get("OPENAI_PROJECT_ID")  # ✅ Explicitly pass project again
+                # )
 
                 response = completion.choices[0].message.content
 
@@ -755,12 +776,92 @@ def process_record(
         record["prediction"] = predicted_value
 
     # Check if prediction is correct
+    # correct = 0
+    # if expected_value and predicted_value:
+    #     if predicted_value.lower() == expected_value.lower():
+    #         correct = 1
+    
+    # Check if prediction is correct (supporting multiple ground truth values)
     correct = 0
     if expected_value and predicted_value:
-        if predicted_value.lower() == expected_value.lower():
+        # Convert expected_value to list if it's a string
+        expected_values = expected_value if isinstance(expected_value, list) else [expected_value]
+        expected_values = [v.lower() for v in expected_values]
+        if predicted_value.lower() in expected_values:
             correct = 1
 
+
+
     return record, correct, 1
+
+# For the werewolf voting prediction task       
+# def process_record(
+#     resources: ModelResources, record: Dict[str, Any], task_config: TaskConfig
+# ) -> Tuple[Dict[str, Any], int, int]:
+#     """
+#     Process a single record from the dataset
+
+#     Args:
+#         resources: Model resources
+#         record: Record data
+#         task_config: Task configuration
+
+#     Returns:
+#         Tuple of (processed record, correct count, total count)
+#     """
+#     # Get expected votes from "votingOutcome" by mapping indices to "PlayerNames"
+#     voting_outcome = record.get("votingOutcome")
+#     player_names = record.get("PlayerNames")
+#     audio_file = record.get("filename")
+
+#     if not audio_file or voting_outcome is None or player_names is None:
+#         return record, 0, 0
+
+#     expected_votes = []
+#     for idx in voting_outcome:
+#         try:
+#             # Since votingOutcome is 0-indexed, use the index directly
+#             name = player_names[int(idx)]
+#             expected_votes.append(name.lower().strip())
+#         except Exception as e:
+#             expected_votes.append("")
+
+#     # Process audio
+#     audio = process_audio(audio_file, task_config.audio_dir)
+
+#     # Format the prompt template with record values if template_fields are provided
+#     formatted_prompt = format_prompt_template(task_config.prompt_template, record, task_config.template_fields)
+
+#     # Get model prediction (expected to be a JSON-formatted list of vote names)
+#     prediction = process_sample(resources, audio, formatted_prompt, task_config)
+
+#     # Handle different return types based on task type
+#     if isinstance(prediction, tuple) and task_config.speech_output:
+#         predicted_value, output_audio_path = prediction
+#         record["prediction"] = predicted_value
+#         record["output_audio_path"] = output_audio_path
+#     else:
+#         predicted_value = prediction
+#         record["prediction"] = predicted_value
+
+#     # Parse the model output as a list of predicted vote names
+#     try:
+#         predicted_votes = json.loads(predicted_value)
+#         if not isinstance(predicted_votes, list):
+#             predicted_votes = [predicted_votes]
+#     except Exception as e:
+#         predicted_votes = [predicted_value]
+#     predicted_votes = [str(v).lower().strip() for v in predicted_votes if v is not None]
+
+#     # Check if prediction is correct (index-by-index comparison)
+#     correct = 0
+#     total = min(len(expected_votes), len(predicted_votes))
+#     for i in range(total):
+#         if predicted_votes[i] == expected_votes[i]:
+#             correct += 1
+
+#     return record, correct, total
+
 
 
 def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[float, List[Dict[str, Any]]]:
@@ -817,6 +918,57 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
     print(f"Model: {resources.model_name}, Task: {task_config.name}, Accuracy: {accuracy:.2%}")
     return accuracy, records_with_preds
 
+# Evaluation for the werewolf voting prediction task
+# def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[Dict[str, float], List[Dict[str, Any]]]:
+#     """
+#     Run evaluation on a dataset
+
+#     Args:
+#         resources: Model resources
+#         task_config: Task configuration
+
+#     Returns:
+#         Tuple of (accuracy score, processed records)
+#     """
+#     correct_total = 0
+#     total_count = 0
+#     records_with_preds = []
+
+#     data_path = Path("data") / task_config.audio_dir / task_config.data_file
+
+#     # Ensure data_path exists
+#     if not data_path.exists():
+#         data_path = Path(task_config.audio_dir) / task_config.data_file
+
+#     print(f"Loading data from: {data_path}")
+
+#     with open(data_path, "r") as f:
+#         pbar = tqdm(f)
+#         for line in pbar:
+#             json_data = json.loads(line)
+#             processed_record, correct, total = process_record(resources, json_data, task_config)
+#             correct_total += correct
+#             total_count += total
+
+#             if total_count > 0:
+#                 pbar.set_description(f"{task_config.name}: Acc={100*(correct_total/total_count):.2f}% (N={total_count})")
+#             records_with_preds.append(processed_record)
+
+#     accuracy = correct_total / total_count if total_count > 0 else 0
+#     print(f"Model: {resources.model_name}, Task: {task_config.name}, Accuracy: {accuracy:.2%}")
+#     metrics = {"accuracy": accuracy}
+
+#     # Save predictions for further inspection
+#     output_path = f"{data_path}_{resources.model_name.split('/')[-1]}_{task_config.name}"
+#     with open(output_path, "w") as f:
+#         for entry in records_with_preds:
+#             json.dump(entry, fp=f, ensure_ascii=False)
+#             f.write("\n")
+
+#     return metrics, records_with_preds
+
+
+
 
 def reset_api_counters():
     """Reset all API call counters to zero"""
@@ -851,7 +1003,7 @@ def main():
     tasks = create_task_configs()
 
     # Define task to run
-    task_name = "transcription"  # Change this to run different tasks
+    task_name = "deception_detection"  # Change this to run different tasks
     task_config = tasks[task_name]
 
     # Model names to evaluate - now including API-based models

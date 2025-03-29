@@ -18,6 +18,7 @@ class TaskConfig(NamedTuple):
     output_audio_dir: Optional[str] = None  # Directory to save model's speech output
     template_fields: Optional[Dict[str, Any]] = None  # Fields to populate in prompt template
     verify_tokenization: bool = False  # Flag to verify label tokenization
+    process_function_calls: bool = False  # Flag to process function calls
 
 
 def create_task_configs() -> Dict[str, TaskConfig]:
@@ -56,9 +57,10 @@ def create_task_configs() -> Dict[str, TaskConfig]:
                 "Listen to the audio and call the appropriate function with the correct parameters. "
                 "The user is making a request or giving a command related to one of the available functions."
             ),
-            field_name="parse",
-            audio_dir="function_call_test/",
+            field_name="intent",
+            audio_dir="function_calling_test/",
             data_file="audio_inputs.jsonl",
+            process_function_calls=True
         )
     }
 

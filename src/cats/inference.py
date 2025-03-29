@@ -27,7 +27,7 @@ from transformers import (
 )
 
 from cats.config import TaskConfig, create_task_configs, format_prompt_template
-from cats.data import prep_function_calling_data
+from cats.data import prep_data_function_calling
 
 
 # Global API call counters for rate limiting
@@ -556,7 +556,7 @@ def process_with_gemini(
 @api_cached
 def process_with_openai(
     resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
-) -> Union[str, Tuple[str, str]]:
+) -> Union[str, Tuple[str, str], Tuple[str, List[Dict[str, Any]]]]:
     """
     Process audio with OpenAI model
 
@@ -567,7 +567,8 @@ def process_with_openai(
         task_config: Task configuration
 
     Returns:
-        Model output text, or tuple of (output text, path to output audio) for speech tasks
+        Model output text, or tuple of (output text, path to output audio) for speech tasks,
+        or tuple of (output text, function_calls) for function calling tasks
     """
     # Check API call limit
     if not check_api_call_limit("openai"):
@@ -607,6 +608,19 @@ def process_with_openai(
             # Add schema format guidance
             messages_content[0]["content"][0]["text"] += "\nFormat: " + json.dumps(SchemaWrapper.model_json_schema())
 
+        # For function calling, load functions if available
+        tools = None
+        if task_config.process_function_calls:
+            function_file = Path("data") / task_config.audio_dir / "functions.json"
+            if function_file.exists():
+                try:
+                    with open(function_file, "r") as f:
+                        functions = json.load(f)
+                        tools = functions
+                        print(f"Loaded {len(functions)} function definitions for function calling evaluation")
+                except Exception as e:
+                    print(f"Error loading function definitions: {e}")
+
         # Set up retry logic
         max_retries = 5
         sleep_time = 0.1
@@ -622,9 +636,123 @@ def process_with_openai(
                     "messages": messages_content,
                 }
 
+                # Add tools for function calling task
+                if task_config.process_function_calls and tools:
+                    api_args["tools"] = tools
+                    api_args["tool_choice"] = "auto"
+
                 # Make the API call
                 completion = resources.model.chat.completions.create(**api_args)
 
+                # For function calling, handle tool calls with a conversation loop
+                if task_config.process_function_calls and hasattr(completion.choices[0].message, "tool_calls") and completion.choices[0].message.tool_calls:
+                    # Initialize conversation and function call tracking
+                    conversation = messages_content.copy()
+                    all_function_calls = []
+                    final_response = ""
+                    
+                    # Process the first response
+                    assistant_message = completion.choices[0].message
+                    final_response = assistant_message.content or ""
+                    
+                    # Add assistant's message to conversation
+                    conversation.append({
+                        "role": "assistant",
+                        "content": assistant_message.content,
+                        "tool_calls": assistant_message.tool_calls
+                    })
+                    
+                    # Process initial function calls
+                    for tool_call in assistant_message.tool_calls:
+                        if hasattr(tool_call, "function"):
+                            func_call_data = tool_call.function
+                            # Parse arguments
+                            try:
+                                arguments = json.loads(func_call_data.arguments)
+                            except json.JSONDecodeError:
+                                arguments = {"error": "Failed to parse arguments", "raw": func_call_data.arguments}
+                            
+                            # Store function call
+                            function_call = {
+                                "name": func_call_data.name,
+                                "arguments": arguments
+                            }
+                            all_function_calls.append(function_call)
+                            
+                            # Add mock function result to conversation
+                            mock_result = f"Success: {func_call_data.name} executed successfully."
+                            conversation.append({
+                                "role": "tool",
+                                "tool_call_id": tool_call.id,
+                                "content": mock_result
+                            })
+                    
+                    # Continue conversation for up to 5 additional turns if there are more function calls
+                    for turn in range(5):  # Limit to 5 additional turns
+                        # Skip if no tool calls in previous turn
+                        if not assistant_message.tool_calls:
+                            break
+                            
+                        try:
+                            # Make another API call with updated conversation
+                            completion = resources.model.chat.completions.create(
+                                model=resources.model_name,
+                                modalities=["text"],
+                                temperature=0,
+                                messages=conversation,
+                                tools=tools,
+                                tool_choice="auto"
+                            )
+                            
+                            # Get the assistant's new message
+                            assistant_message = completion.choices[0].message
+                            final_response = assistant_message.content or final_response
+                            
+                            # Add to conversation
+                            conversation.append({
+                                "role": "assistant",
+                                "content": assistant_message.content,
+                                "tool_calls": assistant_message.tool_calls
+                            })
+                            
+                            # If no more tool calls, we're done
+                            if not assistant_message.tool_calls:
+                                break
+                                
+                            # Process new function calls
+                            for tool_call in assistant_message.tool_calls:
+                                if hasattr(tool_call, "function"):
+                                    func_call_data = tool_call.function
+                                    
+                                    # Parse arguments
+                                    try:
+                                        arguments = json.loads(func_call_data.arguments)
+                                    except json.JSONDecodeError:
+                                        arguments = {"error": "Failed to parse arguments", "raw": func_call_data.arguments}
+                                    
+                                    # Store function call
+                                    function_call = {
+                                        "name": func_call_data.name,
+                                        "arguments": arguments
+                                    }
+                                    all_function_calls.append(function_call)
+                                    
+                                    # Add mock function result to conversation
+                                    mock_result = f"Success: {func_call_data.name} executed successfully."
+                                    conversation.append({
+                                        "role": "tool",
+                                        "tool_call_id": tool_call.id,
+                                        "content": mock_result
+                                    })
+                                    
+                        except Exception as e:
+                            print(f"Error in function calling loop (turn {turn}): {e}")
+                            break
+                    
+                    # Return the final response and all accumulated function calls
+                    return final_response, all_function_calls
+
+                # For standard API responses
                 response = completion.choices[0].message.content
 
                 # Handle speech output if applicable
@@ -675,7 +803,7 @@ def process_with_openai(
 
 def process_sample(
     resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
-) -> Union[str, Tuple[str, str]]:
+) -> Union[str, Tuple[str, str], Tuple[str, List[Dict[str, Any]]]]:
     """
     Process a single audio sample based on model type
 
@@ -686,7 +814,9 @@ def process_sample(
         task_config: Task configuration
 
     Returns:
-        Processed model output text, or tuple of (output text, path to output audio) for speech tasks
+        Processed model output text,
+        or tuple of (output text, path to output audio) for speech tasks,
+        or tuple of (output text, function_calls) for function calling tasks
     """
     # Verify label tokenization if required
     if task_config.verify_tokenization and task_config.labels and resources.tokenizer:
@@ -707,14 +837,23 @@ def process_sample(
     else:
         raise ValueError(f"Model type {resources.model_type} processing not implemented")
 
-    # Apply task-specific output processing for text responses
-    if isinstance(response, tuple) and task_config.speech_output:
-        # For speech output tasks, apply processing only to the text part
-        text_response, audio_path = response
-        return task_config.output_processor(text_response), audio_path
-    else:
-        # For text-only tasks
-        return task_config.output_processor(response)
+    # Apply task-specific output processing
+    if isinstance(response, tuple):
+        if len(response) == 2:
+            first_item, second_item = response
+
+            # Check if this is a speech output task
+            if task_config.speech_output and isinstance(second_item, str):
+                # For speech output tasks, apply processing only to the text part
+                return task_config.output_processor(first_item), second_item
+
+            # Check if this is a function calling task
+            elif task_config.process_function_calls and isinstance(second_item, list):
+                # For function calling tasks, return both text and function calls
+                return task_config.output_processor(first_item), second_item
+
+    # For text-only tasks or any unhandled case
+    return task_config.output_processor(response)
 
 
 def process_record(
@@ -747,19 +886,63 @@ def process_record(
     prediction = process_sample(resources, audio, formatted_prompt, task_config)
 
     # Handle different return types based on task type
-    if isinstance(prediction, tuple) and task_config.speech_output:
-        predicted_value, output_audio_path = prediction
-        record["prediction"] = predicted_value
-        record["output_audio_path"] = output_audio_path
+    if isinstance(prediction, tuple):
+        if len(prediction) == 2:
+            # Check if this is a speech output task
+            if task_config.speech_output and isinstance(prediction[1], str):
+                predicted_value, output_audio_path = prediction
+                record["prediction"] = predicted_value
+                record["output_audio_path"] = output_audio_path
+            # Check if this is a function calling task with direct model function calls
+            elif task_config.process_function_calls and isinstance(prediction[1], list):
+                predicted_value, model_calls = prediction
+                record["prediction"] = predicted_value
+                record["function_calls"] = model_calls
+            else:
+                # Default handling for unrecognized tuple format
+                predicted_value = str(prediction)
+                record["prediction"] = predicted_value
+        else:
+            # Handle unexpected tuple size
+            predicted_value = str(prediction)
+            record["prediction"] = predicted_value
     else:
+        # For simple string responses
         predicted_value = prediction
         record["prediction"] = predicted_value
 
-    # Check if prediction is correct
     correct = 0
-    if expected_value and predicted_value:
-        if predicted_value.lower() == expected_value.lower():
-            correct = 1
+
+    # For function calling tasks, we need special evaluation
+    if task_config.name == "function_calling" and expected_value:
+        try:
+            # Import here to avoid circular imports
+            from cats.function_calling import evaluate_function_calling, extract_function_calls_from_model_response
+
+            # Check if we already have function calls from the model
+            if task_config.process_function_calls and "function_calls" in record:
+                model_calls = record["function_calls"]
+            else:
+                # Extract function calls from the model's prediction text
+                model_calls = extract_function_calls_from_model_response(predicted_value)
+                record["function_calls"] = model_calls
+
+            # Evaluate against gold parse
+            success, error_message = evaluate_function_calling(model_calls, expected_value)
+            record["success"] = success
+            record["error"] = error_message if not success else None
+
+            if success:
+                correct = 1
+
+        except Exception as e:
+            print(f"Error in function calling evaluation: {e}")
+            record["error"] = str(e)
+    else:
+        # Standard evaluation for other tasks
+        if expected_value and predicted_value:
+            if predicted_value.lower() == expected_value.lower():
+                correct = 1
 
     return record, correct, 1
 
@@ -779,7 +962,8 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
     total = 0
     records_with_preds = []
 
-    data_path = Path("data") / task_config.audio_dir / task_config.data_file
+    module_root = Path(__file__).parent.parent.parent  # Go up three levels: src/cats -> src -> root
+    data_path = module_root / "data" / task_config.audio_dir / task_config.data_file
 
     # Ensure data_path exists
     if not data_path.exists():
@@ -789,13 +973,31 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
     # Log path being used for debugging
     print(f"Loading data from: {data_path}")
 
+    # For function calling, load function definitions if available
+    if task_config.name == "function_calling":
+        # Import function_calling module only when needed
+        from cats.function_calling import evaluate_function_calling, extract_function_calls_from_model_response
+
+        # Load function definitions if available
+        function_file = Path("data") / task_config.audio_dir / "functions.json"
+        if function_file.exists():
+            try:
+                with open(function_file, "r") as f:
+                    functions = json.load(f)
+                    print(f"Loaded {len(functions)} function definitions from {function_file}")
+            except Exception as e:
+                print(f"Error loading function definitions: {e}")
+
     with open(data_path, "r") as f:
         pbar = tqdm(f)
         for line in pbar:
             json_data = json.loads(line)
             processed_samples = []
 
-            processed_record, sample_correct, sample_total = process_record(resources, json_data, task_config)
+            processed_record, sample_correct, sample_total = process_record(
+                resources, json_data, task_config
+            )
+
             processed_samples.append(processed_record)
             correct += sample_correct
             total += sample_total
@@ -902,8 +1104,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    if args.prep_function_calling_data:
-        prep_function_calling_data(args.prep_function_calling_data)
+    if args.prep_data_function_calling:
+        prep_data_function_calling()
         print("Function calling data prepared for evaluation")
         exit()
 

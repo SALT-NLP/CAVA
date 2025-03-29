@@ -22,7 +22,7 @@ def download_file(url: str, destination: str):
     with DownloadProgressBar(unit='B', unit_scale=True, miniters=1, desc=url.split('/')[-1]) as t:
         urllib.request.urlretrieve(url, filename=destination, reporthook=t.update_to)
 
-def prep_function_calling_data():
+def prep_data_function_calling():
     """
     Prepare function calling dataset by:
     1. Downloading STOP dataset if not already downloaded

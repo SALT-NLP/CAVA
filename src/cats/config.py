@@ -50,6 +50,16 @@ def create_task_configs() -> Dict[str, TaskConfig]:
             audio_dir="transcription_test/",
             data_file="audio_inputs.jsonl",
         ),
+        "function_calling": TaskConfig(
+            name="function_calling",
+            prompt_template=(
+                "Listen to the audio and call the appropriate function with the correct parameters. "
+                "The user is making a request or giving a command related to one of the available functions."
+            ),
+            field_name="parse",
+            audio_dir="function_call_test/",
+            data_file="audio_inputs.jsonl",
+        )
     }
 
 

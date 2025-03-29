@@ -27,6 +27,7 @@ from transformers import (
 )
 
 from cats.config import TaskConfig, create_task_configs, format_prompt_template
+from cats.data import prep_function_calling_data
 
 
 # Global API call counters for rate limiting
@@ -851,14 +852,14 @@ def main():
     tasks = create_task_configs()
 
     # Define task to run
-    task_name = "transcription"  # Change this to run different tasks
+    task_name = "function_calling"  # Change this to run different tasks
     task_config = tasks[task_name]
 
     # Model names to evaluate - now including API-based models
     model_names = [
         # "Qwen/Qwen2-Audio-7B-Instruct",
         # "WillHeld/DiVA-llama-3-v0-8b",
-        "models/gemini-2.0-flash-exp",
+        # "models/gemini-2.0-flash-exp",
         "gpt-4o-audio-preview",
     ]
 
@@ -897,8 +898,14 @@ if __name__ == "__main__":
     parser.add_argument("--clear-cache", action="store_true", help="Clear the API response cache before running")
     parser.add_argument("--cache-seed", type=str, help="Set a cache seed to force fresh API calls")
     parser.add_argument("--disable-cache", action="store_true", help="Disable caching for this run")
+    parser.add_argument("--prep-data-function-calling", type=bool, default=False, help="Prepare function calling data for evaluation")
 
     args = parser.parse_args()
+
+    if args.prep_function_calling_data:
+        prep_function_calling_data(args.prep_function_calling_data)
+        print("Function calling data prepared for evaluation")
+        exit()
 
     # Handle cache-related arguments
     if args.clear_cache:

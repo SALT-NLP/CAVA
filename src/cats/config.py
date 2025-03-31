@@ -50,36 +50,36 @@ def create_task_configs() -> Dict[str, TaskConfig]:
             audio_dir="transcription_test/",
             data_file="audio_inputs.jsonl",
         ),
-        "speaker_diarization":TaskConfig(
+        "speaker_diarization": TaskConfig(
         name="speaker_diarization",
         data_file="audio_inputs.jsonl",
         audio_dir="SpeakerDiarization/",
         field_name="speaker_order",  
         prompt_template="""
-### **Task: Speaker Diarization**
+          ### **Task: Speaker Diarization**
 
-You will analyze the following **meeting audio** and its transcript to distinguish different speakers.
+          You will analyze the following **meeting audio** and its transcript to distinguish different speakers.
 
-### **Context:**
+          ### **Context:**
 
-- The meeting consists of **{num_speakers}** distinct speakers.
-- Below is the transcript of the meeting, **without speaker labels**:
-{unlabeled_transcript}
+          - The meeting consists of **{num_speakers}** distinct speakers.
+          - Below is the transcript of the meeting, **without speaker labels**:
+          {unlabeled_transcript}
 
-### **Instructions:**
-- **Your goal is to differentiate between speakers based on the structure and flow of the conversation, as well as the voice characteristics of different speakers.**  
-- Assign speakers sequentially, starting from **Speaker 1** up to **Speaker {num_speakers}**.
-- Maintain consistency in assigning speaker labels for different parts of the conversation.
+          ### **Instructions:**
+          - **Your goal is to differentiate between speakers based on the structure and flow of the conversation, as well as the voice characteristics of different speakers.**  
+          - Assign speakers sequentially, starting from **Speaker 1** up to **Speaker {num_speakers}**.
+          - Maintain consistency in assigning speaker labels for different parts of the conversation.
 
-### **Output Format:**
-Your output should follow this strict format:
-```
-Sentence 1: Speaker 1
-Sentence 2: Speaker 2
-Sentence 3: Speaker 3
-Sentence 4: Speaker 1
-```
-""",
+          ### **Output Format:**
+          Your output should follow this strict format:
+          ```
+          Sentence 1: Speaker 1
+          Sentence 2: Speaker 2
+          Sentence 3: Speaker 3
+          Sentence 4: Speaker 1
+          ```
+        """,
         template_fields={"num_speakers": "num_speakers", "unlabeled_transcript":"transcript_without_speaker"},  # Template fields to replace
         labels=[],  # No fixed labels for this task
         use_logits_processor=False,  # Free-form output
@@ -88,8 +88,17 @@ Sentence 4: Speaker 1
         output_processor=lambda x: parse_speaker_label_response(x),  
         output_audio_dir=None,
         speech_output=False
-    )
-}
+        ),
+        "jeopardy": TaskConfig(
+            name="jeopardy",
+            prompt_template="You are a contestant on Jeopardy. the answer must be worded in the form of a question, beginning with “What is” or “Who are,” for example.",
+            use_logits_processor=False,
+            max_new_tokens=100,
+            field_name="question",
+            audio_dir="jeopardy/",
+            data_file="audio_inputs.jsonl",
+        ),
+    }
 
 
 def format_prompt_template(

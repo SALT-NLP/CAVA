@@ -1007,7 +1007,7 @@ def main():
     tasks = create_task_configs()
 
     # Define task to run
-    task_name = "speaker_diarization"  # Change this to run different tasks
+    task_name = "transcription"
     task_config = tasks[task_name]
 
     # Model names to evaluate - now including API-based models

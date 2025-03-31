@@ -1,0 +1,58 @@
+{
+    "0": {
+        "question": "'James Jones' 1962 novel \"The Thin Red Line\" was a sequel to this 1951 work'",
+        "correct_answer": "\"From Here to Eternity\"",
+        "category": "literature",
+        "results": {
+            "GPT-4o_realtime": {
+                "transcript": "What is \"From Here to Eternity\"?",
+                "audio_path": "gpt_assistant_output.wav",
+                "processing_time": "0.060811",
+                "success": true,
+                "correct": true
+            }
+        }
+    },
+    "1": {
+        "question": "'His discovery of energy quanta earned him the 1918 Nobel Prize for Physics'",
+        "correct_answer": "Max Planck",
+        "category": "science",
+        "results": {
+            "GPT-4o_realtime": {
+                "transcript": "What is Max Planck?",
+                "audio_path": "gpt_assistant_output.wav",
+                "processing_time": "0.002415",
+                "success": true,
+                "correct": true
+            }
+        }
+    },
+    "2": {
+        "question": "'Both Lord Protectors of Great Britain, Oliver & Richard had this last name'",
+        "correct_answer": "Cromwell",
+        "category": "world_history",
+        "results": {
+            "GPT-4o_realtime": {
+                "transcript": "What is Cromwell?",
+                "audio_path": "gpt_assistant_output.wav",
+                "processing_time": "0.060973",
+                "success": true,
+                "correct": true
+            }
+        }
+    },
+    "3": {
+        "question": "'Magnifications of up to one million times can be achieved with this type of microscope'",
+        "correct_answer": "an electron microscope",
+        "category": "science",
+        "results": {
+            "GPT-4o_realtime": {
+                "transcript": "What is an electron microscope?",
+                "audio_path": "gpt_assistant_output.wav",
+                "processing_time": "0.002417",
+                "success": true,
+                "correct": true
+            }
+        }
+    }
+}

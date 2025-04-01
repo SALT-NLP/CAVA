@@ -73,7 +73,7 @@ The `convert_from_hf.py` script converts any HuggingFace audio dataset to CATS f
 python convert_from_hf.py \
   --dataset WillHeld/werewolf \
   --split train \
-  --audio-dir werewolf_data \
+  --audio-dir Werewolf \
   --output audio_inputs.jsonl \
   --preserve-columns
 ```

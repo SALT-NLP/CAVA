@@ -10,7 +10,7 @@ Example JSONL structure for Werewolf dataset:
 {"filename": "0.wav", "werewolf": ["Justin", "Mike"], "PlayerNames": ["Justin", "Caitlynn", "Mitchell", "James", "Mike"], "endRoles": ["Werewolf", "Tanner", "Seer", "Robber", "Werewolf"], "votingOutcome": [3, 0, 3, 0, 0]}
 
 Usage:
-    python convert_from_hf.py --dataset WillHeld/werewolf --split train --audio-dir werewolf_data --output audio_inputs.jsonl
+    python convert_from_hf.py --dataset WillHeld/werewolf --split train --audio-dir Werewolf --output audio_inputs.jsonl
 
 Author: Will Held
 """

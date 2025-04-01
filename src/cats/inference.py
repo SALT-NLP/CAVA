@@ -29,7 +29,6 @@ from transformers import (
 from cats.config import TaskConfig, create_task_configs, format_prompt_template
 from cats.utils import get_jer_score, get_der_score
 
-
 # Global API call counters for rate limiting
 API_CALL_COUNTERS = {"gemini": 0, "openai": 0}
 
@@ -143,7 +142,7 @@ def load_model(model_name: str) -> ModelResources:
             model = OpenAI(api_key=api_key)
             tokenizer = None
             processor = None
-            model_type = "openai"
+            model_type = "openai" if "pipeline" not in model_name else "openai_pipeline"
 
         else:
             # Generic transformers model fallback
@@ -820,6 +819,141 @@ def process_with_openai_realtime(
         cleanup_temp_audio(temp_audio_path)
 
 
+@api_cached
+def process_with_openai_pipeline(
+    resources: ModelResources,
+    audio: Dict[str, Any],
+    text_prompt: str,
+    task_config: TaskConfig,
+    use_tts: bool = True,
+    llm_model: str = "gpt-4o",
+    tts_model: str = "gpt-4o-mini-tts",
+    tts_voice: str = "alloy",
+    stt_model: str = "gpt-4o-transcribe",
+    tts_instructions: Optional[str] = None,
+) -> Union[str, Tuple[str, str]]:
+    """
+    Process audio with OpenAI pipeline: STT -> LLM -> TTS
+
+    Args:
+        resources: Model resources
+        audio: Processed audio data
+        text_prompt: Text prompt for the model
+        task_config: Task configuration
+        use_tts: Whether to use TTS for the output
+        llm_model: Model name for the LLM processing
+        tts_model: Model name for text-to-speech
+        tts_voice: Voice to use for TTS
+        stt_model: Model name for speech-to-text
+        tts_instructions: Optional instructions for TTS voice characteristics
+
+    Returns:
+        Model output text, or tuple of (output text, path to output audio) for speech tasks
+    """
+    # Check API call limit
+    if not check_api_call_limit("openai"):
+        # Return default value if limit reached
+        return task_config.labels[0] if task_config.labels else "API limit reached"
+
+    try:
+        # Step 1: Convert input audio to text using STT
+        # Save audio to temporary file
+        temp_audio_path = save_temp_audio(audio, task_config.name, "openai-pipeline")
+
+        # Create a file object for the API
+        with open(temp_audio_path, "rb") as audio_file:
+            transcription = resources.model.audio.transcriptions.create(
+                model=stt_model,
+                file=audio_file,
+            )
+
+        transcribed_text = transcription.text
+
+        # Step 2: Process with LLM
+        # Combine the transcribed text with the text prompt
+        combined_prompt = f'[BEGIN AUDIO] "{transcribed_text}"[END AUDIO]\n\n{text_prompt}'
+
+        # Set up retry logic
+        max_retries = 5
+        sleep_time = 0.1
+
+        # Structure messages for the LLM
+        messages = [
+            {
+                "role": "user",
+                "content": "You are acting as the middle part of a pipelined LLM system for Speech. The content of the audio will be wrapped in [BEGIN AUDIO] and [END AUDIO]",
+            },
+            {"role": "user", "content": combined_prompt},
+        ]
+
+        # Try to generate content with retries for API rate limits
+        llm_response = None
+        for attempt in range(max_retries):
+            try:
+                completion = resources.model.chat.completions.create(
+                    model=llm_model,
+                    messages=messages,
+                    temperature=task_config.temperature if hasattr(task_config, "temperature") else 0,
+                )
+                llm_response = completion.choices[0].message.content
+                break
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    print(f"OpenAI API error: {e}. Retrying after {sleep_time}s...")
+                    time.sleep(sleep_time)
+                    sleep_time *= 2
+                else:
+                    print(f"Failed after {max_retries} attempts: {e}")
+                    # Default to first label if available, otherwise empty string
+                    return task_config.labels[0] if task_config.labels else ""
+
+        # Apply task-specific output processing
+        processed_response = task_config.output_processor(llm_response)
+
+        # Step 3: Convert text to speech if requested
+        if task_config.speech_output:
+            # Set up TTS options
+            tts_options = {
+                "model": tts_model,
+                "voice": tts_voice,
+                "input": processed_response,
+                "response_format": "mp3",
+            }
+
+            # Add instructions if provided
+            if tts_instructions:
+                tts_options["instructions"] = tts_instructions
+
+            # Try to generate speech with retries for API rate limits
+            for attempt in range(max_retries):
+                try:
+                    response = resources.model.audio.speech.create(**tts_options)
+
+                    # Save the audio output
+                    output_audio_path = save_model_speech_output(
+                        response.content, task_config, f"pipeline_output_{int(time.time())}"
+                    )
+
+                    return processed_response, output_audio_path
+                except Exception as e:
+                    if attempt < max_retries - 1:
+                        print(f"OpenAI TTS API error: {e}. Retrying after {sleep_time}s...")
+                        time.sleep(sleep_time)
+                        sleep_time *= 2
+                    else:
+                        print(f"Failed TTS after {max_retries} attempts: {e}")
+                        # Return just the text response if TTS fails
+                        return processed_response
+
+        # Return text only if TTS was not requested or failed
+        return processed_response
+
+    except Exception as e:
+        print(f"Pipeline error: {e}")
+        # Default to first label if available, otherwise empty string
+        return task_config.labels[0] if task_config.labels else ""
+
+
 def process_sample(
     resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
 ) -> Union[str, Tuple[str, str]]:
@@ -855,6 +989,14 @@ def process_sample(
             response = process_with_openai_realtime(resources, audio, text_prompt, task_config)
         else:
             response = process_with_openai(resources, audio, text_prompt, task_config)
+    elif resources.model_type == "openai_pipeline":
+        try:
+            _, llm_model, tts_model, stt_model = resources.model_name.split("_")
+        except:
+            print(f"Pipeline Model Definition failed: Got {resources.model_name}, Expected pipeline_llm_tts_stt")
+        response = process_with_openai_pipeline(
+            resources, audio, text_prompt, task_config, llm_model=llm_model, tts_model=tts_model, stt_model=stt_model
+        )
     else:
         raise ValueError(f"Model type {resources.model_type} processing not implemented")
 
@@ -1014,10 +1156,11 @@ def main():
     model_names = [
         # "Qwen/Qwen2-Audio-7B-Instruct",
         # "WillHeld/DiVA-llama-3-v0-8b",
-        "models/gemini-2.0-flash-exp",
-        "gpt-4o-audio-preview",
-        "gpt-4o-mini-audio-preview",
-        "gpt-4o-realtime-preview",
+        # "models/gemini-2.0-flash-exp",
+        # "gpt-4o-audio-preview",
+        "pipeline_gpt-4o_gpt-4o-mini-tts_gpt-4o-mini-transcribe",
+        # "gpt-4o-mini-audio-preview",
+        # "gpt-4o-realtime-preview",
     ]
 
     # Run evaluations for each model

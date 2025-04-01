@@ -67,10 +67,10 @@ You can convert audio datasets from HuggingFace to the CATS format using the inc
 
 #### HuggingFace Dataset Converter
 
-The `hf_to_cats.py` script converts any HuggingFace audio dataset to CATS format:
+The `convert_from_hf.py` script converts any HuggingFace audio dataset to CATS format:
 
 ```bash
-python hf_to_cats.py \
+python convert_from_hf.py \
   --dataset WillHeld/werewolf \
   --split train \
   --audio-dir werewolf_data \
@@ -94,7 +94,7 @@ You can then use this dataset like any other CATS dataset by configuring a task 
 For more options and customization:
 
 ```bash
-python hf_to_cats.py --help
+python convert_from_hf.py --help
 ```
 
 ### 4. Configure a new task

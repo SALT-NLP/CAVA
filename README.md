@@ -61,7 +61,43 @@ For example, for an emotion classification task:
 }
 ```
 
-### 3. Configure a new task
+### 3. Using HuggingFace datasets
+
+You can convert audio datasets from HuggingFace to the CATS format using the included conversion script. This allows you to leverage existing audio datasets without manual file preparation.
+
+#### HuggingFace Dataset Converter
+
+The `hf_to_cats.py` script converts any HuggingFace audio dataset to CATS format:
+
+```bash
+python hf_to_cats.py \
+  --dataset WillHeld/werewolf \
+  --split train \
+  --audio-dir werewolf_data \
+  --output audio_inputs.jsonl \
+  --preserve-columns
+```
+
+This will:
+1. Download the specified dataset from HuggingFace
+2. Extract the audio files to `data/werewolf_data/`
+3. Create a JSONL file at `data/werewolf_data/audio_inputs.jsonl` with entries like:
+
+```json
+{"filename": "0.wav", "werewolf": ["Justin", "Mike"], "PlayerNames": ["Justin", "Caitlynn", "Mitchell", "James", "Mike"], "endRoles": ["Werewolf", "Tanner", "Seer", "Robber", "Werewolf"], "votingOutcome": [3, 0, 3, 0, 0]}
+```
+
+You can then use this dataset like any other CATS dataset by configuring a task with:
+- `audio_dir: "werewolf_data/"`
+- `data_file: "audio_inputs.jsonl"`
+
+For more options and customization:
+
+```bash
+python hf_to_cats.py --help
+```
+
+### 4. Configure a new task
 
 Add a new task configuration in `src/cats/config.py` by updating the `create_task_configs()` function:
 
@@ -82,7 +118,7 @@ def create_task_configs() -> Dict[str, TaskConfig]:
     }
 ```
 
-### 4. Run evaluation
+### 5. Run evaluation
 
 Run the evaluation using the command:
 
@@ -140,4 +176,3 @@ For tasks that require evaluating a model's speech output (such as pronunciation
 1. Set the `speech_output` parameter to `True` in your task configuration
 2. Specify an `output_audio_dir` where generated audio will be saved
 3. Define an appropriate evaluation metric in the task configuration
-

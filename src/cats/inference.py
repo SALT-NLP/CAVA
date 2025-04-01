@@ -28,6 +28,7 @@ from transformers import (
 
 # newly added to resolve path issues when running inference.py
 import sys
+
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 
@@ -143,12 +144,8 @@ def load_model(model_name: str) -> ModelResources:
             api_key = os.environ.get("OPENAI_API_KEY")
             if not api_key:
                 raise ValueError("OPENAI_API_KEY environment variable is required for OpenAI models")
-            
-            project_id = os.environ.get("OPENAI_PROJECT_ID")
-            if not project_id:
-                raise ValueError("OPENAI_PROJECT_ID environment variable is required for project-scoped keys")
 
-            model = OpenAI(api_key=api_key, project=project_id)
+            model = OpenAI(api_key=api_key)
             tokenizer = None
             processor = None
             model_type = "openai"
@@ -623,7 +620,7 @@ def process_with_openai(
 
         api_key = os.environ.get("OPENAI_API_KEY")
         project_id = os.environ.get("OPENAI_PROJECT_ID")
-        client = OpenAI(api_key=api_key, project=project_id)
+        client = OpenAI(api_key=api_key)
 
         # Try to generate content with retries for API rate limits
         for attempt in range(max_retries):
@@ -636,14 +633,7 @@ def process_with_openai(
                     "messages": messages_content,
                 }
 
-                # Make the API call
-                #completion = resources.model.chat.completions.create(**api_args)
-                completion = client.chat.completions.create(**api_args)
-
-                # completion = resources.model.chat.completions.create(
-                #     **api_args,
-                #     project=os.environ.get("OPENAI_PROJECT_ID")  # ✅ Explicitly pass project again
-                # )
+                completion = resources.model.chat.completions.create(**api_args)
 
                 response = completion.choices[0].message.content
 
@@ -780,7 +770,7 @@ def process_record(
     # if expected_value and predicted_value:
     #     if predicted_value.lower() == expected_value.lower():
     #         correct = 1
-    
+
     # Check if prediction is correct (supporting multiple ground truth values)
     correct = 0
     if expected_value and predicted_value:
@@ -790,11 +780,10 @@ def process_record(
         if predicted_value.lower() in expected_values:
             correct = 1
 
-
-
     return record, correct, 1
 
-# For the werewolf voting prediction task       
+
+# For the werewolf voting prediction task
 # def process_record(
 #     resources: ModelResources, record: Dict[str, Any], task_config: TaskConfig
 # ) -> Tuple[Dict[str, Any], int, int]:
@@ -863,7 +852,6 @@ def process_record(
 #     return record, correct, total
 
 
-
 def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[float, List[Dict[str, Any]]]:
     """
     Run evaluation on a dataset
@@ -918,6 +906,7 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
     print(f"Model: {resources.model_name}, Task: {task_config.name}, Accuracy: {accuracy:.2%}")
     return accuracy, records_with_preds
 
+
 # Evaluation for the werewolf voting prediction task
 # def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[Dict[str, float], List[Dict[str, Any]]]:
 #     """
@@ -966,8 +955,6 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
 #             f.write("\n")
 
 #     return metrics, records_with_preds
-
-
 
 
 def reset_api_counters():

@@ -27,8 +27,6 @@ from transformers import (
 )
 
 from cats.config import TaskConfig, create_task_configs, format_prompt_template
-from cats.data import prep_data_function_calling
-
 
 # Global API call counters for rate limiting
 API_CALL_COUNTERS = {"gemini": 0, "openai": 0}
@@ -639,29 +637,36 @@ def process_with_openai(
                 # Add tools for function calling task
                 if task_config.process_function_calls and tools:
                     api_args["tools"] = tools
-                    api_args["tool_choice"] = "auto"
+                    api_args["tool_choice"] = "required"
 
                 # Make the API call
                 completion = resources.model.chat.completions.create(**api_args)
+                all_function_calls = []
 
                 # For function calling, handle tool calls with a conversation loop
-                if task_config.process_function_calls and hasattr(completion.choices[0].message, "tool_calls") and completion.choices[0].message.tool_calls:
+                while (
+                    task_config.process_function_calls
+                    and hasattr(completion.choices[0].message, "tool_calls")
+                    and completion.choices[0].message.tool_calls
+                    and len(all_function_calls) < 10
+                ):
                     # Initialize conversation and function call tracking
                     conversation = messages_content.copy()
-                    all_function_calls = []
                     final_response = ""
-                    
+
                     # Process the first response
                     assistant_message = completion.choices[0].message
                     final_response = assistant_message.content or ""
-                    
+
                     # Add assistant's message to conversation
-                    conversation.append({
-                        "role": "assistant",
-                        "content": assistant_message.content,
-                        "tool_calls": assistant_message.tool_calls
-                    })
-                    
+                    conversation.append(
+                        {
+                            "role": "assistant",
+                            "content": assistant_message.content,
+                            "tool_calls": assistant_message.tool_calls,
+                        }
+                    )
+
                     # Process initial function calls
                     for tool_call in assistant_message.tool_calls:
                         if hasattr(tool_call, "function"):
@@ -671,86 +676,24 @@ def process_with_openai(
                                 arguments = json.loads(func_call_data.arguments)
                             except json.JSONDecodeError:
                                 arguments = {"error": "Failed to parse arguments", "raw": func_call_data.arguments}
-                            
+
                             # Store function call
-                            function_call = {
-                                "name": func_call_data.name,
-                                "arguments": arguments
-                            }
+                            function_call = {"name": func_call_data.name, "arguments": arguments}
                             all_function_calls.append(function_call)
-                            
+
                             # Add mock function result to conversation
-                            mock_result = f"Success: {func_call_data.name} executed successfully."
-                            conversation.append({
-                                "role": "tool",
-                                "tool_call_id": tool_call.id,
-                                "content": mock_result
-                            })
-                    
-                    # Continue conversation for up to 5 additional turns if there are more function calls
-                    for turn in range(5):  # Limit to 5 additional turns
-                        # Skip if no tool calls in previous turn
-                        if not assistant_message.tool_calls:
-                            break
-                            
-                        try:
-                            # Make another API call with updated conversation
-                            completion = resources.model.chat.completions.create(
-                                model=resources.model_name,
-                                modalities=["text"],
-                                temperature=0,
-                                messages=conversation,
-                                tools=tools,
-                                tool_choice="auto"
-                            )
-                            
-                            # Get the assistant's new message
-                            assistant_message = completion.choices[0].message
-                            final_response = assistant_message.content or final_response
-                            
-                            # Add to conversation
-                            conversation.append({
-                                "role": "assistant",
-                                "content": assistant_message.content,
-                                "tool_calls": assistant_message.tool_calls
-                            })
-                            
-                            # If no more tool calls, we're done
-                            if not assistant_message.tool_calls:
-                                break
-                                
-                            # Process new function calls
-                            for tool_call in assistant_message.tool_calls:
-                                if hasattr(tool_call, "function"):
-                                    func_call_data = tool_call.function
-                                    
-                                    # Parse arguments
-                                    try:
-                                        arguments = json.loads(func_call_data.arguments)
-                                    except json.JSONDecodeError:
-                                        arguments = {"error": "Failed to parse arguments", "raw": func_call_data.arguments}
-                                    
-                                    # Store function call
-                                    function_call = {
-                                        "name": func_call_data.name,
-                                        "arguments": arguments
-                                    }
-                                    all_function_calls.append(function_call)
-                                    
-                                    # Add mock function result to conversation
-                                    mock_result = f"Success: {func_call_data.name} executed successfully."
-                                    conversation.append({
-                                        "role": "tool",
-                                        "tool_call_id": tool_call.id,
-                                        "content": mock_result
-                                    })
-                                    
-                        except Exception as e:
-                            print(f"Error in function calling loop (turn {turn}): {e}")
-                            break
-                    
-                    # Return the final response and all accumulated function calls
-                    return final_response, all_function_calls
+                            mock_result = f"MOCK_RESPONSE({func_call_data.name})"
+                            conversation.append({"role": "tool", "tool_call_id": tool_call.id, "content": mock_result})
+
+                    api_args = {
+                        "model": resources.model_name,
+                        "modalities": ["text"] if not task_config.speech_output else ["text", "audio"],
+                        "temperature": 0,
+                        "messages": conversation,
+                        "tools": tools,
+                        "tool_choice": "auto",
+                    }
+                    completion = resources.model.chat.completions.create(**api_args)
 
                 # For standard API responses
                 response = completion.choices[0].message.content
@@ -784,6 +727,8 @@ def process_with_openai(
                 # Return appropriate result based on task type
                 if task_config.speech_output and output_audio_path:
                     return response, output_audio_path
+                elif task_config.process_function_calls:
+                    return response, all_function_calls
                 else:
                     return response
 
@@ -994,9 +939,7 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
             json_data = json.loads(line)
             processed_samples = []
 
-            processed_record, sample_correct, sample_total = process_record(
-                resources, json_data, task_config
-            )
+            processed_record, sample_correct, sample_total = process_record(resources, json_data, task_config)
 
             processed_samples.append(processed_record)
             correct += sample_correct
@@ -1100,14 +1043,8 @@ if __name__ == "__main__":
     parser.add_argument("--clear-cache", action="store_true", help="Clear the API response cache before running")
     parser.add_argument("--cache-seed", type=str, help="Set a cache seed to force fresh API calls")
     parser.add_argument("--disable-cache", action="store_true", help="Disable caching for this run")
-    parser.add_argument("--prep-data-function-calling", type=bool, default=False, help="Prepare function calling data for evaluation")
 
     args = parser.parse_args()
-
-    if args.prep_data_function_calling:
-        prep_data_function_calling()
-        print("Function calling data prepared for evaluation")
-        exit()
 
     # Handle cache-related arguments
     if args.clear_cache:

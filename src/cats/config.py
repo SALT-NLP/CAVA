@@ -54,14 +54,13 @@ def create_task_configs() -> Dict[str, TaskConfig]:
         "function_calling": TaskConfig(
             name="function_calling",
             prompt_template=(
-                "Listen to the audio and call the appropriate function with the correct parameters. "
-                "The user is making a request or giving a command related to one of the available functions."
+                "Execute all necessary function calls before responding. Treat mock responses as successful, valid data and use them as needed. If information in the user's query is relative or personalized, such as their current location, use function calls to gather more information. If nested function calls are required, execute them in a logical order, starting with lower-level functions. Respond to the user until after you have made all the function calls you need."
             ),
             field_name="intent",
             audio_dir="function_calling_test/",
             data_file="audio_inputs.jsonl",
-            process_function_calls=True
-        )
+            process_function_calls=True,
+        ),
     }
 
 

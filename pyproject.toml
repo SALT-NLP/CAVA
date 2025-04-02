@@ -33,6 +33,7 @@ dependencies = [
     "tqdm",
     "argparse",
     "diskcache",
+    "google-genai",
 ]
 
 [tool.hatch.build]

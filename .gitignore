@@ -7,6 +7,13 @@
 /data_collection/ReverseSpellingBee/audio_files/
 /data_collection/ReverseSpellingBee/load.py
 
+
 # NextSpeaker dataset
 /data/NextSpeaker
 /data/NextSpeaker/audio_inputs.jsonl
+# SpeakerDiarization
+/data/SpeakerDiarization/audio/
+/data/SpeakerDiarization/amicorpus/
+# Jeopardy
+/data/jeopardy/data/*.wav
+

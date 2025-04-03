@@ -1,6 +1,7 @@
 from typing import Any, Callable, Dict, List, NamedTuple, Optional, Tuple, Union
 from utils import parse_speaker_label_response
 
+
 # Define task configuration using NamedTuple for immutability
 class TaskConfig(NamedTuple):
     """Immutable configuration for a task"""
@@ -54,17 +55,22 @@ def create_task_configs() -> Dict[str, TaskConfig]:
         "function_calling": TaskConfig(
             name="function_calling",
             prompt_template=(
-                "Execute all necessary function calls before responding. Treat mock responses as successful, valid data and use them as needed. If information in the user's query is relative or personalized, such as their current location, use function calls to gather more information. If nested function calls are required, execute them in a logical order, starting with lower-level functions. Respond to the user until after you have made all the function calls you need."
+                "Execute all necessary function calls before responding. Treat mock responses as successful, valid"
+                " data and use them as needed. If information in the user's query is relative or personalized, such as"
+                " their current location, use function calls to gather more information. If nested function calls are"
+                " required, execute them in a logical order, starting with lower-level functions. Respond to the user"
+                " until after you have made all the function calls you need."
             ),
             field_name="intent",
             audio_dir="function_calling_test/",
             data_file="audio_inputs.jsonl",
             process_function_calls=True,
+        ),
         "speaker_diarization": TaskConfig(
             name="speaker_diarization",
             data_file="audio_inputs.jsonl",
             audio_dir="SpeakerDiarization/",
-            field_name="speaker_order",  
+            field_name="speaker_order",
             prompt_template="""
               ### **Task: Speaker Diarization**
 
@@ -90,18 +96,24 @@ def create_task_configs() -> Dict[str, TaskConfig]:
               Sentence 4: Speaker 1
               ```
             """,
-            template_fields={"num_speakers": "num_speakers", "unlabeled_transcript":"transcript_without_speaker"},  # Template fields to replace
+            template_fields={
+                "num_speakers": "num_speakers",
+                "unlabeled_transcript": "transcript_without_speaker",
+            },  # Template fields to replace
             labels=[],  # No fixed labels for this task
             use_logits_processor=False,  # Free-form output
             verify_tokenization=False,
             max_new_tokens=1000,  # Allow longer responses for transcripts
-            output_processor=lambda x: parse_speaker_label_response(x),  
+            output_processor=lambda x: parse_speaker_label_response(x),
             output_audio_dir=None,
-            speech_output=False
+            speech_output=False,
         ),
         "jeopardy": TaskConfig(
             name="jeopardy",
-            prompt_template="You are a contestant on Jeopardy. the answer must be worded in the form of a question, beginning with “What is” or “Who are,” for example.",
+            prompt_template=(
+                "You are a contestant on Jeopardy. the answer must be worded in the form of a question, beginning with"
+                " “What is” or “Who are,” for example."
+            ),
             use_logits_processor=False,
             max_new_tokens=100,
             field_name="question",

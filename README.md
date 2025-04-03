@@ -52,6 +52,7 @@ Create a JSONL file with entries describing each audio file. Each line should be
 ```
 
 For example, for an emotion classification task:
+
 ```json
 {
   "filename": "angry_speech_1.wav",
@@ -79,6 +80,7 @@ python convert_from_hf.py \
 ```
 
 This will:
+
 1. Download the specified dataset from HuggingFace
 2. Extract the audio files to `data/werewolf_data/`
 3. Create a JSONL file at `data/werewolf_data/audio_inputs.jsonl` with entries like:
@@ -88,6 +90,7 @@ This will:
 ```
 
 You can then use this dataset like any other CATS dataset by configuring a task with:
+
 - `audio_dir: "werewolf_data/"`
 - `data_file: "audio_inputs.jsonl"`
 
@@ -120,39 +123,29 @@ def create_task_configs() -> Dict[str, TaskConfig]:
 
 ### 5. Run evaluation
 
-Run the evaluation using the command:
+Assuming that the data for your evaluation is downloaded, run the evaluation using the command:
 
-```python
-import cats
-
-# To run evaluation on your new task
-from cats.inference import main
-main()
+```sh
+python src/cats/inference.py --task ${TASK_NAME}
 ```
 
-You can also modify the `main()` function in `src/cats/inference.py` to specify your task:
+#### Run Scripts
 
-```python
-def main():
-    # Reset API counters
-    reset_api_counters()
-    
-    # Get available tasks
-    tasks = create_task_configs()
-    
-    # Specify your task
-    task_name = "your_task"  
-    task_config = tasks[task_name]
-    
-    # ... rest of the function
+For each task, we should have a unified script which either reproduces the data or downloads it from a long-term storage solution such as HuggingFace. This should be put into the `run_scripts` directory.
+
+For example, to download all Spoken Function Calling data, process it for use in CATS, and then run the evaluation you can just run:
+
+```sh
+bash run_scripts/run_function_calling.sh
 ```
 
 ## Prompt Templates
 
-Prompt templates are used to guide the model in performing the task. 
+Prompt templates are used to guide the model in performing the task.
 Templates can include placeholders for dynamic content using the format `{placeholder_name}`.
 
 For example:
+
 ```python
 prompt_template="Analyze the audio and determine if the speaker sounds {emotion_type}. Respond with only 'yes' or 'no'."
 ```

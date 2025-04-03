@@ -1262,24 +1262,13 @@ def process_record(
     # For function calling tasks, we need special evaluation
     if task_config.name == "function_calling" and expected_value:
         try:
-            # Import here to avoid circular imports
-            from cats.function_calling import evaluate_function_calling, extract_function_calls_from_model_response
+            from cats.function_calling import evaluate_intent_to_function_mapping
 
             # Check if we already have function calls from the model
             if task_config.process_function_calls and "function_calls" in record:
                 model_calls = record["function_calls"]
-            else:
-                # Extract function calls from the model's prediction text
-                model_calls = extract_function_calls_from_model_response(predicted_value)
-                record["function_calls"] = model_calls
-
-            # Evaluate against gold parse
-            success, error_message = evaluate_function_calling(model_calls, expected_value)
-            record["success"] = success
-            record["error"] = error_message if not success else None
-
-            if success:
-                correct = 1
+                checks = evaluate_intent_to_function_mapping(expected_value, model_calls)["checks"]
+                correct += 1 if checks["slot_values_match"]["success"] else 0
 
         except Exception as e:
             print(f"Error in function calling evaluation: {e}")
@@ -1324,8 +1313,6 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
 
     # For function calling, load function definitions if available
     if task_config.name == "function_calling":
-        # Import function_calling module only when needed
-        from cats.function_calling import evaluate_function_calling, extract_function_calls_from_model_response
 
         # Load function definitions if available
         function_file = Path("data") / task_config.audio_dir / "functions.json"

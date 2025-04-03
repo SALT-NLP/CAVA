@@ -43,7 +43,6 @@ def parse_args():
     parser.add_argument(
         "--audio-format", type=str, default="wav", choices=["wav", "flac", "ogg"], help="Audio file format"
     )
-    parser.add_argument("--sample-rate", type=int, default=16000, help="Sample rate for saved audio")
     parser.add_argument("--filename-prefix", type=str, default="", help="Prefix for generated filenames")
 
     return parser.parse_args()
@@ -54,9 +53,9 @@ def ensure_dir(directory):
     Path(directory).mkdir(parents=True, exist_ok=True)
 
 
-def save_audio(audio_data, filepath, sample_rate, audio_format):
+def save_audio(audio_data, filepath, audio_format):
     """Save audio data to file"""
-    sf.write(filepath, audio_data["array"], sample_rate, format=audio_format.upper())
+    sf.write(filepath, audio_data["array"], audio_data["sampling_rate"], format=audio_format.upper())
 
 
 def convert_dataset(args):
@@ -91,7 +90,7 @@ def convert_dataset(args):
 
         # Save audio data
         audio_filepath = audio_path / filename
-        save_audio(example[args.audio_column], audio_filepath, args.sample_rate, args.audio_format)
+        save_audio(example[args.audio_column], audio_filepath, args.audio_format)
 
         # Create the record
         record = {"filename": filename}

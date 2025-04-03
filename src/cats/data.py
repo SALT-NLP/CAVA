@@ -1,12 +1,18 @@
-import os
+import heapq
 import json
+import math
+import os
+import random
+import re
+import shutil
 import tarfile
 import urllib.request
+from collections import defaultdict
 from pathlib import Path
-from typing import Dict, Any, List, Optional
+from typing import Any, Dict, List, Optional
+
+import numpy as np
 from tqdm import tqdm
-import heapq
-import shutil
 
 
 def download_file(url: str, destination: str):
@@ -159,16 +165,6 @@ def prep_data_function_calling():
     print(f"Processed {len(dataset_entries)} entries. Output saved to {output_file}")
 
 
-import json
-import os
-import random
-import re
-import math
-from collections import defaultdict
-from typing import List, Dict, Any
-import argparse
-
-
 def calculate_intent_tree_depth(json_obj: Dict) -> int:
     """
     Calculate the depth of the parse tree in the 'intent' field.
@@ -314,10 +310,14 @@ def stratified_complex_sampling(
             probabilities = [w / total_weight for w in weights]
 
             # Sample without replacement
-            sampled_indices = random.choices(
-                population=list(range(len(trees))),
-                k=num_to_select,
-                weights=probabilities,  # But we're using weighted sampling here
+            # Normalize probabilities if they don't already sum to 1
+            normalized_probabilities = np.array(probabilities) / sum(probabilities)
+
+            sampled_indices = np.random.choice(
+                a=len(trees),
+                size=num_to_select,
+                replace=False,
+                p=normalized_probabilities,
             )
 
             # Add the selected trees
@@ -371,6 +371,7 @@ def save_samples(samples: List[Dict], output_path: str):
 
 def filter_top_calls(json_file, num_samples=1000, bias=100, seed=42):
     random.seed(seed)
+    np.random.seed(seed)
     # Verify the input path exists
     if not os.path.exists(json_file):
         print(f"Error: Input file {json_file} does not exist.")

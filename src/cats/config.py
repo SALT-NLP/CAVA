@@ -1,4 +1,5 @@
 from typing import Any, Callable, Dict, List, NamedTuple, Optional, Tuple, Union
+
 from utils import parse_speaker_label_response
 
 

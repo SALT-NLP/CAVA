@@ -27,7 +27,8 @@ from transformers import (
 )
 
 from cats.config import TaskConfig, create_task_configs, format_prompt_template
-from cats.utils import get_jer_score, get_der_score
+from cats.utils import get_der_score, get_jer_score
+
 
 # Global API call counters for rate limiting
 API_CALL_COUNTERS = {"gemini": 0, "openai": 0}

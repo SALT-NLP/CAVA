@@ -1373,7 +1373,7 @@ def get_cache_stats():
     return stats
 
 
-def main():
+def main(task="transcription"):
     """Entry point for the evaluation pipeline"""
     # Reset API counters at the start of a run
     reset_api_counters()
@@ -1389,7 +1389,7 @@ def main():
     tasks = create_task_configs()
 
     # Define task to run
-    task_name = "transcription"
+    task_name = task
     task_config = tasks[task_name]
 
     # Model names to evaluate - now including API-based models
@@ -1435,6 +1435,7 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description="CATS evaluation pipeline")
+    parser.add_argument("--task", type=str, default="transcription")
     parser.add_argument("--clear-cache", action="store_true", help="Clear the API response cache before running")
     parser.add_argument("--cache-seed", type=str, help="Set a cache seed to force fresh API calls")
     parser.add_argument("--disable-cache", action="store_true", help="Disable caching for this run")
@@ -1459,4 +1460,4 @@ if __name__ == "__main__":
         os.environ["CATS_DISABLE_CACHE"] = "true"
         print("Caching disabled for this run")
 
-    main()
+    main(args.task)

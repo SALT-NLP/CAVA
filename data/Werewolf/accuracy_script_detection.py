@@ -1,5 +1,5 @@
 """
-accuracy_script.py calculates the accuracy of predictions for the werewolf deception detection task (i.e. predicts which character is the werewolf).
+accuracy_script_detection.py calculates the accuracy of predictions for the werewolf deception detection task (i.e. predicts which character is the werewolf).
 It measures the percentage of predictions which are correct.
 """
 

@@ -726,7 +726,7 @@ def process_sample(
         # For text-only tasks
         return task_config.output_processor(response)
 
-
+# For the werewolf deception detection task
 def process_record(
     resources: ModelResources, record: Dict[str, Any], task_config: TaskConfig
 ) -> Tuple[Dict[str, Any], int, int]:
@@ -765,93 +765,21 @@ def process_record(
         predicted_value = prediction
         record["prediction"] = predicted_value
 
-    # Check if prediction is correct
-    # correct = 0
-    # if expected_value and predicted_value:
-    #     if predicted_value.lower() == expected_value.lower():
-    #         correct = 1
-
-    # Check if prediction is correct (supporting multiple ground truth values)
     correct = 0
-    if expected_value and predicted_value:
-        # Convert expected_value to list if it's a string
-        expected_values = expected_value if isinstance(expected_value, list) else [expected_value]
-        expected_values = [v.lower() for v in expected_values]
-        if predicted_value.lower() in expected_values:
+    if predicted_value:
+        if expected_value is not None:
+            expected_values = expected_value if isinstance(expected_value, list) else [expected_value]
+            expected_values = [v.lower() for v in expected_values]
+            if predicted_value.strip('.').lower() in expected_values:
+                correct = 1
+        if predicted_value.strip('.').lower() == "none" and expected_value == []:
             correct = 1
+
 
     return record, correct, 1
 
 
-# For the werewolf voting prediction task
-# def process_record(
-#     resources: ModelResources, record: Dict[str, Any], task_config: TaskConfig
-# ) -> Tuple[Dict[str, Any], int, int]:
-#     """
-#     Process a single record from the dataset
-
-#     Args:
-#         resources: Model resources
-#         record: Record data
-#         task_config: Task configuration
-
-#     Returns:
-#         Tuple of (processed record, correct count, total count)
-#     """
-#     # Get expected votes from "votingOutcome" by mapping indices to "PlayerNames"
-#     voting_outcome = record.get("votingOutcome")
-#     player_names = record.get("PlayerNames")
-#     audio_file = record.get("filename")
-
-#     if not audio_file or voting_outcome is None or player_names is None:
-#         return record, 0, 0
-
-#     expected_votes = []
-#     for idx in voting_outcome:
-#         try:
-#             # Since votingOutcome is 0-indexed, use the index directly
-#             name = player_names[int(idx)]
-#             expected_votes.append(name.lower().strip())
-#         except Exception as e:
-#             expected_votes.append("")
-
-#     # Process audio
-#     audio = process_audio(audio_file, task_config.audio_dir)
-
-#     # Format the prompt template with record values if template_fields are provided
-#     formatted_prompt = format_prompt_template(task_config.prompt_template, record, task_config.template_fields)
-
-#     # Get model prediction (expected to be a JSON-formatted list of vote names)
-#     prediction = process_sample(resources, audio, formatted_prompt, task_config)
-
-#     # Handle different return types based on task type
-#     if isinstance(prediction, tuple) and task_config.speech_output:
-#         predicted_value, output_audio_path = prediction
-#         record["prediction"] = predicted_value
-#         record["output_audio_path"] = output_audio_path
-#     else:
-#         predicted_value = prediction
-#         record["prediction"] = predicted_value
-
-#     # Parse the model output as a list of predicted vote names
-#     try:
-#         predicted_votes = json.loads(predicted_value)
-#         if not isinstance(predicted_votes, list):
-#             predicted_votes = [predicted_votes]
-#     except Exception as e:
-#         predicted_votes = [predicted_value]
-#     predicted_votes = [str(v).lower().strip() for v in predicted_votes if v is not None]
-
-#     # Check if prediction is correct (index-by-index comparison)
-#     correct = 0
-#     total = min(len(expected_votes), len(predicted_votes))
-#     for i in range(total):
-#         if predicted_votes[i] == expected_votes[i]:
-#             correct += 1
-
-#     return record, correct, total
-
-
+# Evaluation for the werewolf deception detection task
 def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[float, List[Dict[str, Any]]]:
     """
     Run evaluation on a dataset
@@ -906,8 +834,25 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
     print(f"Model: {resources.model_name}, Task: {task_config.name}, Accuracy: {accuracy:.2%}")
     return accuracy, records_with_preds
 
+# For werewolf voting prediction task only
+# def clean_prediction(prediction_str: str) -> List[str]:
+#     """
+#     Cleans and parses the prediction field which is a multiline string of predicted vote names.
+#     It removes introductory header lines (if any) and strips out markdown asterisks.
+#     """
+#     lines = prediction_str.strip().splitlines()
+#     votes = []
+#     for line in lines:
+#         clean_line = line.strip()
+#         # If the line contains keywords that indicate it's header text, skip it.
+#         if any(keyword in clean_line.lower() for keyword in ["predicted", "votes", "based on the provided audio"]):
+#             continue
+#         # Remove markdown asterisks if present.
+#         clean_line = clean_line.replace("*", "").strip()
+#         votes.append(clean_line)
+#     return votes
 
-# Evaluation for the werewolf voting prediction task
+# # For werewolf voting prediction task only
 # def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[Dict[str, float], List[Dict[str, Any]]]:
 #     """
 #     Run evaluation on a dataset
@@ -917,15 +862,13 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
 #         task_config: Task configuration
 
 #     Returns:
-#         Tuple of (accuracy score, processed records)
+#         Tuple of (metrics dictionary, processed records)
 #     """
-#     correct_total = 0
-#     total_count = 0
+#     correct_predictions = 0
+#     total_predictions = 0
 #     records_with_preds = []
 
 #     data_path = Path("data") / task_config.audio_dir / task_config.data_file
-
-#     # Ensure data_path exists
 #     if not data_path.exists():
 #         data_path = Path(task_config.audio_dir) / task_config.data_file
 
@@ -934,20 +877,50 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
 #     with open(data_path, "r") as f:
 #         pbar = tqdm(f)
 #         for line in pbar:
-#             json_data = json.loads(line)
-#             processed_record, correct, total = process_record(resources, json_data, task_config)
-#             correct_total += correct
-#             total_count += total
+#             if not line.strip():
+#                 continue
+#             data = json.loads(line)
 
-#             if total_count > 0:
-#                 pbar.set_description(f"{task_config.name}: Acc={100*(correct_total/total_count):.2f}% (N={total_count})")
+#             # Call process_record to attach prediction
+#             processed_record, _, _ = process_record(resources, data, task_config)
+#             prediction_str = processed_record.get("prediction", "")
+#             player_names = processed_record.get("PlayerNames", [])
+#             voting_outcome = processed_record.get("votingOutcome", [])
+#             filename = processed_record.get("filename", "unknown")
+
+#             predictions = clean_prediction(prediction_str)
+
+#             for i, vote_index in enumerate(voting_outcome):
+#                 if isinstance(vote_index, str) and vote_index.strip().upper() == "N/A":
+#                     print(f"[{filename}] Skipping N/A vote for player {i}")
+#                     continue
+#                 try:
+#                     vote_index = int(vote_index)
+#                     true_vote_name = player_names[vote_index]
+#                 except (ValueError, IndexError):
+#                     print(f"\n[{filename}] Invalid vote index: {vote_index}")
+#                     print(f"  -> PlayerNames: {player_names}")
+#                     print(f"  -> VotingOutcome: {voting_outcome}")
+#                     # Change here: print the original data as in B
+#                     print(f"  -> Full line: {data}")
+#                     continue
+
+#                 model_vote_name = predictions[i] if i < len(predictions) else None
+#                 total_predictions += 1
+
+#                 if model_vote_name and model_vote_name.lower() == true_vote_name.lower():
+#                     correct_predictions += 1
+
+#             # Add to output
 #             records_with_preds.append(processed_record)
 
-#     accuracy = correct_total / total_count if total_count > 0 else 0
+#             if total_predictions > 0:
+#                 pbar.set_description(f"{task_config.name}: Acc={100*(correct_predictions/total_predictions):.2f}% (N={total_predictions})")
+
+#     accuracy = correct_predictions / total_predictions if total_predictions > 0 else 0
 #     print(f"Model: {resources.model_name}, Task: {task_config.name}, Accuracy: {accuracy:.2%}")
 #     metrics = {"accuracy": accuracy}
 
-#     # Save predictions for further inspection
 #     output_path = f"{data_path}_{resources.model_name.split('/')[-1]}_{task_config.name}"
 #     with open(output_path, "w") as f:
 #         for entry in records_with_preds:

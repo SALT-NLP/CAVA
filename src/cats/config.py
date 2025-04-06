@@ -52,7 +52,7 @@ def create_task_configs() -> Dict[str, TaskConfig]:
         ),
         "deception_detection": TaskConfig(
             name="deception_detection",
-            prompt_template="Listen to the following audio of a One Night Ultimate Werewolf game being played. Some of the players may be the Werewolf. Name a player who is the Werewolf. Response using a single word by stating the name of the player who is the Werewolf",
+            prompt_template="Listen to the following audio of a One Night Ultimate Werewolf game being played. Some of the players may be the Werewolf. If a Werewolf exists, name a player who is the Werewolf. Respond using a single word by stating the name of the player who is the Werewolf. If no Werewolf exists, respond with: None.",
             max_new_tokens = 100,
             field_name="werewolf",
             audio_dir="Werewolf/",
@@ -60,7 +60,7 @@ def create_task_configs() -> Dict[str, TaskConfig]:
         ),
         "deception_character_prediction": TaskConfig(
             name="deception_character_prediction",
-            prompt_template= "Listen to the following audio of a One Night Ultimate Werewolf game being played. Determine who each player will vote for as the Werewolf. Respond with a JSON-formatted list of names (one word per player) corresponding to the votes.",
+            prompt_template= "Listen to the following audio of a One Night Ultimate Werewolf game being played. Predict who each player will vote for as the Werewolf. Note that the Werewolf must be one of the players in the game. Respond with a list of names (one word per player) corresponding to the votes, seperated by newline symbol.",
             max_new_tokens = 100,
             field_name="votingOutcome",
             audio_dir="Werewolf/",

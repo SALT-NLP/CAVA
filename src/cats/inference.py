@@ -6,7 +6,7 @@ import os
 import time
 from enum import Enum
 from pathlib import Path
-from typing import Any, Dict, List, NamedTuple, Tuple, Type, Union
+from typing import Any, Callable, Dict, List, NamedTuple, Optional, Tuple, Type, Union
 
 import diskcache
 import librosa
@@ -21,6 +21,7 @@ from transformers import (
     AutoModelForCausalLM,
     AutoProcessor,
     AutoTokenizer,
+    GenerationConfig,
     PrefixConstrainedLogitsProcessor,
     Qwen2AudioForConditionalGeneration,
 )

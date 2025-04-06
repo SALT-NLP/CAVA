@@ -6,7 +6,7 @@ import os
 import time
 from enum import Enum
 from pathlib import Path
-from typing import Any, Callable, Dict, List, NamedTuple, Optional, Tuple, Type, Union
+from typing import Any, Dict, List, NamedTuple, Tuple, Type, Union
 
 import diskcache
 import librosa
@@ -21,7 +21,6 @@ from transformers import (
     AutoModelForCausalLM,
     AutoProcessor,
     AutoTokenizer,
-    GenerationConfig,
     PrefixConstrainedLogitsProcessor,
     Qwen2AudioForConditionalGeneration,
 )
@@ -615,12 +614,6 @@ def process_with_openai(
         # Set up retry logic
         max_retries = 5
         sleep_time = 0.1
-
-        from openai import OpenAI
-
-        api_key = os.environ.get("OPENAI_API_KEY")
-        project_id = os.environ.get("OPENAI_PROJECT_ID")
-        client = OpenAI(api_key=api_key)
 
         # Try to generate content with retries for API rate limits
         for attempt in range(max_retries):

@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-# CATS - Comprehensive Assesment for Testing Speech
+# CATS - Comprehensive Assessment for Testing Speech
 
 A framework for evaluating audio models across multiple tasks.
 
@@ -52,6 +52,7 @@ Create a JSONL file with entries describing each audio file. Each line should be
 ```
 
 For example, for an emotion classification task:
+
 ```json
 {
   "filename": "angry_speech_1.wav",
@@ -61,7 +62,45 @@ For example, for an emotion classification task:
 }
 ```
 
-### 3. Configure a new task
+### 3. Using HuggingFace datasets
+
+You can convert audio datasets from HuggingFace to the CATS format using the included conversion script. This allows you to leverage existing audio datasets without manual file preparation.
+
+#### HuggingFace Dataset Converter
+
+The `convert_from_hf.py` script converts any HuggingFace audio dataset to CATS format:
+
+```bash
+python convert_from_hf.py \
+  --dataset WillHeld/werewolf \
+  --split train \
+  --audio-dir Werewolf \
+  --output audio_inputs.jsonl \
+  --preserve-columns
+```
+
+This will:
+
+1. Download the specified dataset from HuggingFace
+2. Extract the audio files to `data/werewolf_data/`
+3. Create a JSONL file at `data/werewolf_data/audio_inputs.jsonl` with entries like:
+
+```json
+{"filename": "0.wav", "werewolf": ["Justin", "Mike"], "PlayerNames": ["Justin", "Caitlynn", "Mitchell", "James", "Mike"], "endRoles": ["Werewolf", "Tanner", "Seer", "Robber", "Werewolf"], "votingOutcome": [3, 0, 3, 0, 0]}
+```
+
+You can then use this dataset like any other CATS dataset by configuring a task with:
+
+- `audio_dir: "werewolf_data/"`
+- `data_file: "audio_inputs.jsonl"`
+
+For more options and customization:
+
+```bash
+python convert_from_hf.py --help
+```
+
+### 4. Configure a new task
 
 Add a new task configuration in `src/cats/config.py` by updating the `create_task_configs()` function:
 
@@ -82,41 +121,31 @@ def create_task_configs() -> Dict[str, TaskConfig]:
     }
 ```
 
-### 4. Run evaluation
+### 5. Run evaluation
 
-Run the evaluation using the command:
+Assuming that the data for your evaluation is downloaded, run the evaluation using the command:
 
-```python
-import cats
-
-# To run evaluation on your new task
-from cats.inference import main
-main()
+```sh
+python src/cats/inference.py --task ${TASK_NAME}
 ```
 
-You can also modify the `main()` function in `src/cats/inference.py` to specify your task:
+#### Run Scripts
 
-```python
-def main():
-    # Reset API counters
-    reset_api_counters()
-    
-    # Get available tasks
-    tasks = create_task_configs()
-    
-    # Specify your task
-    task_name = "your_task"  
-    task_config = tasks[task_name]
-    
-    # ... rest of the function
+For each task, we should have a unified script which either reproduces the data or downloads it from a long-term storage solution such as HuggingFace. This should be put into the `run_scripts` directory.
+
+For example, to download all Spoken Function Calling data, process it for use in CATS, and then run the evaluation you can just run:
+
+```sh
+bash run_scripts/run_function_calling.sh
 ```
 
 ## Prompt Templates
 
-Prompt templates are used to guide the model in performing the task. 
+Prompt templates are used to guide the model in performing the task.
 Templates can include placeholders for dynamic content using the format `{placeholder_name}`.
 
 For example:
+
 ```python
 prompt_template="Analyze the audio and determine if the speaker sounds {emotion_type}. Respond with only 'yes' or 'no'."
 ```
@@ -140,4 +169,3 @@ For tasks that require evaluating a model's speech output (such as pronunciation
 1. Set the `speech_output` parameter to `True` in your task configuration
 2. Specify an `output_audio_dir` where generated audio will be saved
 3. Define an appropriate evaluation metric in the task configuration
-

@@ -1,0 +1,2623 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "get_weather",
+      "description": "Get weather information for a location, date, or specific conditions like temperature or rainfall\n\nExamples:\n- \"WHATS THE CURRENT TEMPERATURE IN INDIAN VALLEY VIRGINIA\"\n- \"WHAT IS THE HIGH TEMPERATURE FOR THE DAY\"\n- \"MILLIMETRES OF RAINFALL TONIGHT\"\n- \"WHATS THE WEATHER FOR NEW YORK CITY TODAY\"\n- \"DISPLAY FORECAST FOR MOSCOW\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "weather_temperature_unit": {
+            "type": "string",
+            "description": "The weather temperature unit"
+          },
+          "measurement_unit": {
+            "type": "string",
+            "description": "The measurement unit"
+          },
+          "weather_attribute": {
+            "type": "string",
+            "description": "The weather attribute"
+          },
+          "location": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "create_alarm",
+      "description": "Create an alarm for a specific time or recurring schedule\n\nExamples:\n- \"ALARM FOUR THIS AFTERNOON\"\n- \"BUILD BI WEEKLY ALARM FOR WEDNESDAYS SEVEN AM\"\n- \"PLEASE SETUP AN ALARM FOR MONDAY AT NINE\"\n- \"SET MY WEEKEND ALARM FOR SEVEN THIRTY AM\"\n- \"SET ALARM FOR TOMORROW\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "recurring_date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "period": {
+            "type": "string",
+            "description": "The period"
+          },
+          "date_time_recurring": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "alarm_name": {
+            "type": "string",
+            "description": "The alarm name"
+          },
+          "duration": {
+            "type": "string",
+            "description": "The duration"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "date_time"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "create_reminder",
+      "description": "Create a reminder for a person about a specific task at a designated time\n\nExamples:\n- \"REMINDER SET FOR MEDICINE PICKUP TWICE A MONTH\"\n- \"REMIND THE CARD CLUB TO BRING AN APPETIZER\"\n- \"REMIND ME TO PICK MOM UP ON THURSDAY\"\n- \"REMIND ME TO SEND JAMES AN E MAIL AT EIGHT TOMORROW MORNING\"\n- \"REMIND JACK THAT ITS MY BIRTHDAY NEXT WEEK\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "person_reminded": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "recurring_date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "todo": {
+            "type": "string",
+            "description": "The todo"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "person_reminded",
+          "todo"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_event",
+      "description": "Find events by category, location, and time\n\nExamples:\n- \"PAGAN POTLUCK IN HARDY\"\n- \"CHARITY EVENTS IN OLEAN\"\n- \"DOES ANYONE HAVE MUSIC AND A SHOW TONIGHT\"\n- \"ANY THING TO DO IN LOS ANGELES TONIGHT\"\n- \"THINGS HAPPENING ON SATURDAY\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "attribute_event": {
+            "type": "string",
+            "description": "The attribute event"
+          },
+          "organizer_event": {
+            "type": "string",
+            "description": "The organizer event"
+          },
+          "category_event": {
+            "type": "string",
+            "description": "The category event"
+          },
+          "location": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "attendee_event": {
+            "type": "string",
+            "description": "The attendee event"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "name_event": {
+            "type": "string",
+            "description": "The name event"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_info_traffic",
+      "description": "Get traffic information for a specific location or route\n\nExamples:\n- \"ANY TRAFFIC ACCIDENTS TODAY\"\n- \"ARE THERE ANY TRAFFIC BACK UPS IN CINCINNATI\"\n- \"CLOSED ROADS IN SARASOTA\"\n- \"WHAT IS THE TRAFFIC LIKE ON ININE FIVE\"\n- \"TRAFFIC ON ITWO SEVENTY\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "The source"
+          },
+          "waypoint": {
+            "type": "string",
+            "description": "The waypoint"
+          },
+          "obstruction_avoid": {
+            "type": "string",
+            "description": "The obstruction avoid"
+          },
+          "path_avoid": {
+            "type": "string",
+            "description": "The path avoid"
+          },
+          "location": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "waypoint_avoid": {
+            "type": "string",
+            "description": "The waypoint avoid"
+          },
+          "path": {
+            "type": "string",
+            "description": "The path"
+          },
+          "destination": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "method_travel": {
+            "type": "string",
+            "description": "The method travel"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "road_condition": {
+            "type": "string",
+            "description": "The road condition"
+          }
+        },
+        "required": [
+          "location"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "send_message",
+      "description": "Send a message with specified content to a recipient\n\nExamples:\n- \"ASK LYDIA IF SHE REMEMBERS THE' BANANA INCIDENT'\"\n- \"MESSAGE SAMMY THAT WE'RE CANCELING THE PICNIC DUE TO THE TORNADO WATCH\"\n- \"AUDIO MESSAGE BETH KOHL\"\n- \"TELL KIM I'LL BE THERE IN FIFTEEN MINUTES\"\n- \"MESSAGE PAUL AND MARY\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "content_exact": {
+            "type": "string",
+            "description": "The content of the message or note"
+          },
+          "recipient": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "content_emoji": {
+            "type": "string",
+            "description": "The content of the message or note"
+          },
+          "type_content": {
+            "type": "string",
+            "description": "The content of the message or note"
+          },
+          "group": {
+            "type": "string",
+            "description": "The group"
+          },
+          "contact": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "sender": {
+            "type": "string",
+            "description": "The sender"
+          },
+          "resource": {
+            "type": "string",
+            "description": "The resource"
+          },
+          "name_app": {
+            "type": "string",
+            "description": "The name app"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "recipient"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "play_music",
+      "description": "Play music specified by artist, genre, track title, or playlist\n\nExamples:\n- \"PLAY ME POPULAR HITS FROM THE NINETY' S\"\n- \"SHOW ME MY PLAYLISTS\"\n- \"PLAY SOME GWEN STEFANIE\"\n- \"PLEASE PLAY ALTNINETY EIGHT POINT SEVEN ON IHEARTRADIO\"\n- \"PLAY EIGHTIES SOFT ROCK\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "music_playlist_title": {
+            "type": "string",
+            "description": "The music playlist title"
+          },
+          "music_artist_name": {
+            "type": "string",
+            "description": "The music artist name"
+          },
+          "music_type": {
+            "type": "string",
+            "description": "The music type"
+          },
+          "music_track_title": {
+            "type": "string",
+            "description": "The music track title"
+          },
+          "music_genre": {
+            "type": "string",
+            "description": "The music genre"
+          },
+          "music_provider_name": {
+            "type": "string",
+            "description": "The music provider name"
+          },
+          "music_album_title": {
+            "type": "string",
+            "description": "The music album title"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "music_radio_id": {
+            "type": "string",
+            "description": "The music radio id"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_estimated_duration",
+      "description": "Calculate estimated travel time to a destination from a starting point\n\nExamples:\n- \"WHAT IS MY DRIVE TIME TO DOWN TOWN\"\n- \"WILL IT TAKE LONGER TO GO ON BACKROADS\"\n- \"HOW LONG WOULD IT TAKE TO GO TO GALAXY CINEMA IN MANYAL FROM MY DAD HOUSE\"\n- \"WHAT IS THE AVERAGE DRIVE TIME TO OAKBROOK\"\n- \"HOW LONG DOES IT TAKE TO GET TO DOWN TOWN MIAMI TONIGH\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "The source"
+          },
+          "waypoint": {
+            "type": "string",
+            "description": "The waypoint"
+          },
+          "path_avoid": {
+            "type": "string",
+            "description": "The path avoid"
+          },
+          "obstruction_avoid": {
+            "type": "string",
+            "description": "The obstruction avoid"
+          },
+          "date_time_departure": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "waypoint_avoid": {
+            "type": "string",
+            "description": "The waypoint avoid"
+          },
+          "path": {
+            "type": "string",
+            "description": "The path"
+          },
+          "destination": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "method_travel": {
+            "type": "string",
+            "description": "The method travel"
+          },
+          "road_condition_avoid": {
+            "type": "string",
+            "description": "The road condition avoid"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "road_condition": {
+            "type": "string",
+            "description": "The road condition"
+          },
+          "date_time_arrival": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "destination"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "create_timer",
+      "description": "Create a timer for a specified duration\n\nExamples:\n- \"SET TEN MINUTES TIMER\"\n- \"SET EIGHT MINUTE TIMER\"\n- \"TIME ME WHILE I AM AT THE GYM\"\n- \"SET TIMER FOR EIGHTEEN\"\n- \"SET TIMER FOR WALK\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "timer_name": {
+            "type": "string",
+            "description": "The timer name"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "method_timer": {
+            "type": "string",
+            "description": "The method timer"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "method_timer"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "delete_reminder",
+      "description": "Delete a specific reminder or all reminders\n\nExamples:\n- \"PLEASE REMOVE THE REMINDER TO SE MAMA MIA\"\n- \"CANCEL REMINDS FOR TODAY\"\n- \"DELETE ALL OF MY REMINDERS FOR THIS WEEK\"\n- \"I DONT NEED THE WAKE UP REMINDERS ANYMORE\"\n- \"TURN OF ALL REMINDERS\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "recurring_date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "person_reminded": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "todo": {
+            "type": "string",
+            "description": "The todo"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_alarm",
+      "description": "Get information about existing alarms by time or name\n\nExamples:\n- \"ARE THERE ALARMS TOMORROW\"\n- \"PLEASE DISPLAY MY REMINDER ALERTS FOR THE WEEK\"\n- \"LIST DOWN ALL ALARMS\"\n- \"WHAT ARE MY ALARM\"\n- \"LIST DOWN THE ALARMS\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "period": {
+            "type": "string",
+            "description": "The period"
+          },
+          "date_time_recurring": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "alarm_name": {
+            "type": "string",
+            "description": "The alarm name"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "duration": {
+            "type": "string",
+            "description": "The duration"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_reminder",
+      "description": "Get information about specific reminders by task or person\n\nExamples:\n- \"SHOW ME ALL WEEKEND REMINDERS WITH PLAY GROUP\"\n- \"LIST ALL OF HE REMINDERS THAT INVOLVE PAUL\"\n- \"SHOW MEETING REMINDERS FOR BOTH JIM AND SALLY\"\n- \"WHAT REMINDERS ARE THERE ABOUT GIRL 'S WEEKEND\"\n- \"DOES DURBY HAVE ANY REMINDERS TO GET HIS FEET TRIMMED NEXT MONTH\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "person_reminded": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "recurring_date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "todo": {
+            "type": "string",
+            "description": "The todo"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "method_retrieval_reminder": {
+            "type": "string",
+            "description": "The method retrieval reminder"
+          }
+        },
+        "required": [
+          "todo"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "delete_alarm",
+      "description": "Delete a specific alarm or all alarms\n\nExamples:\n- \"DELETE TODAY 'S ALARMS\"\n- \"DELETE ALL MY ALARMS\"\n- \"DELETE ALARM FOR EIGHT FIFTY FIVE PM WEEKDAILY\"\n- \"WIPE OUT ALL ALARMS\"\n- \"CANCEL MY LAST ALARM\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "period": {
+            "type": "string",
+            "description": "The period"
+          },
+          "date_time_recurring": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "alarm_name": {
+            "type": "string",
+            "description": "The alarm name"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "duration": {
+            "type": "string",
+            "description": "The duration"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_timer",
+      "description": "Get information about active timers, including remaining time\n\nExamples:\n- \"TIME LEFT ON TIMER\"\n- \"HOW MUCH TIME LEFT FOR MY WORK OUT\"\n- \"WHATS MINUTES ON MY SET TIMER FOR MONDAY\"\n- \"DO I HAVE ANYTIME LEFT ON MY TIMER\"\n- \"HOW MUCH TIME LEFT\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "timer_name": {
+            "type": "string",
+            "description": "The timer name"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "method_timer": {
+            "type": "string",
+            "description": "The method timer"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "method_timer"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_directions",
+      "description": "Get navigation directions to a destination, potentially with route preferences\n\nExamples:\n- \"GO TO NEAREST TARGET\"\n- \"FASTEST ROUTE TO FRYS\"\n- \"WHATS THE BEST DETOUR ROUTE TO AVOID TRAFFIC\"\n- \"WHICH ROUTE WOULD BE BEST TO AVOID TRAFFIC\"\n- \"DIRECTIONS TO MY DENSIST\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "The source"
+          },
+          "road_condition": {
+            "type": "string",
+            "description": "The road condition"
+          },
+          "waypoint": {
+            "type": "string",
+            "description": "The waypoint"
+          },
+          "path_avoid": {
+            "type": "string",
+            "description": "The path avoid"
+          },
+          "obstruction_avoid": {
+            "type": "string",
+            "description": "The obstruction avoid"
+          },
+          "date_time_departure": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "location": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "waypoint_avoid": {
+            "type": "string",
+            "description": "The waypoint avoid"
+          },
+          "destination": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "method_travel": {
+            "type": "string",
+            "description": "The method travel"
+          },
+          "road_condition_avoid": {
+            "type": "string",
+            "description": "The road condition avoid"
+          },
+          "path": {
+            "type": "string",
+            "description": "The path"
+          },
+          "date_time_arrival": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_distance",
+      "description": "Calculate the distance between two locations\n\nExamples:\n- \"WHATS THE DISTANCE BETWEEN LARGO AND TARPON SPRINGS\"\n- \"DISTANCE BETWEEN SAN DEIGO TO HUNTERSVILLE NORTH CAROLINA\"\n- \"HOW MANY MILES IS ALBERTSON 'S FROM WALMART\"\n- \"HOW FAR 'S ALASKA\"\n- \"HOW MANY MILES BETWEEN DES MOINES AND ANKENY\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "The source"
+          },
+          "waypoint": {
+            "type": "string",
+            "description": "The waypoint"
+          },
+          "path_avoid": {
+            "type": "string",
+            "description": "The path avoid"
+          },
+          "obstruction_avoid": {
+            "type": "string",
+            "description": "The obstruction avoid"
+          },
+          "date_time_departure": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "unit_distance": {
+            "type": "string",
+            "description": "The unit distance"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "destination": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "method_travel": {
+            "type": "string",
+            "description": "The method travel"
+          },
+          "path": {
+            "type": "string",
+            "description": "The path"
+          }
+        },
+        "required": [
+          "source",
+          "destination"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "silence_alarm",
+      "description": "Silence or temporarily disable an alarm\n\nExamples:\n- \"REFRAIN FROM ALARM USAGES\"\n- \"RESET ALARM FOR TOMORROW\"\n- \"STOP ALL APPOINTMENT ALARM\"\n- \"SET OFF MY ALARM\"\n- \"RESET ALL THE ALARMS\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "period": {
+            "type": "string",
+            "description": "The period"
+          },
+          "date_time_recurring": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "alarm_name": {
+            "type": "string",
+            "description": "The alarm name"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "duration": {
+            "type": "string",
+            "description": "The duration"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "pause_timer",
+      "description": "Pause a currently running timer\n\nExamples:\n- \"STOP THE WORK TIMER\"\n- \"PAUSE FOUR MINUTE TIMER\"\n- \"PAUSE THE TIMER PLEASE\"\n- \"OKAY STOP THE TIMER\"\n- \"PAUSE A TIMER NOW\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "timer_name": {
+            "type": "string",
+            "description": "The timer name"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "method_timer": {
+            "type": "string",
+            "description": "The method timer"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "method_timer"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_estimated_arrival",
+      "description": "Calculate the estimated arrival time at a destination\n\nExamples:\n- \"ETA VIA ROUTE TWENTY\"\n- \"WHEN WILL WE BE AT THENO DOUBT CONCERT\"\n- \"CAN I REACH TO ROUPAR CITY BEFORE EVENING\"\n- \"I AM LEAVING AUBURNDALE NOW WHAT TIME WILL I GET TO MIAMI\"\n- \"WHAT IS THE RE ROUTE ESTIMATED ARRIVAL TIME\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "The source"
+          },
+          "road_condition": {
+            "type": "string",
+            "description": "The road condition"
+          },
+          "waypoint": {
+            "type": "string",
+            "description": "The waypoint"
+          },
+          "path_avoid": {
+            "type": "string",
+            "description": "The path avoid"
+          },
+          "obstruction_avoid": {
+            "type": "string",
+            "description": "The obstruction avoid"
+          },
+          "date_time_departure": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "location": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "destination": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "method_travel": {
+            "type": "string",
+            "description": "The method travel"
+          },
+          "road_condition_avoid": {
+            "type": "string",
+            "description": "The road condition avoid"
+          },
+          "path": {
+            "type": "string",
+            "description": "The path"
+          },
+          "date_time_arrival": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "snooze_alarm",
+      "description": "Snooze an active alarm for additional time\n\nExamples:\n- \"SNOOZE TEN MORE MINUTES\"\n- \"ANTOHER TEN MINUTES PLEASE\"\n- \"SNOOZE FOR FIFTEEN MINUTES\"\n- \"SNOOZE FOR FIFTEEN MINUTES\"\n- \"SNOOZE FOR FIVE MINUTES\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "period": {
+            "type": "string",
+            "description": "The period"
+          },
+          "date_time_recurring": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "alarm_name": {
+            "type": "string",
+            "description": "The alarm name"
+          },
+          "duration": {
+            "type": "string",
+            "description": "The duration"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "date_time"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "update_alarm",
+      "description": "Modify the settings or time of an existing alarm\n\nExamples:\n- \"CHANGE TOMMOROW 'S ALARM\"\n- \"REPEAT MY FIVE THIRTY AM ALARM EVERY DAY\"\n- \"CHANGE MY SEVEN OCLOCK ALARM TO SIX THIRTY\"\n- \"HAVE MY WAKEUP ALARM NOW AT SIX AM\"\n- \"RE MAKE MY MY ALARM FOR THREE PM\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "period": {
+            "type": "string",
+            "description": "The period"
+          },
+          "date_time_recurring": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "alarm_name": {
+            "type": "string",
+            "description": "The alarm name"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "duration": {
+            "type": "string",
+            "description": "The duration"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "alarm_name"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_message",
+      "description": "Retrieve messages from a specific sender or with specific content\n\nExamples:\n- \"BEGIN CHAT REQUESTS NOW\"\n- \"CHECK MY CHAT REQUESTS\"\n- \"CAN YOU READ ME MY CHAT REQUESTS PLEASE\"\n- \"FIND ME CHATS PLEASE\"\n- \"VIEW MY CHAT REQUESTS\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "content_exact": {
+            "type": "string",
+            "description": "The content of the message or note"
+          },
+          "recipient": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "type_content": {
+            "type": "string",
+            "description": "The content of the message or note"
+          },
+          "group": {
+            "type": "string",
+            "description": "The group"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "sender": {
+            "type": "string",
+            "description": "The sender"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "resource": {
+            "type": "string",
+            "description": "The resource"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "tag_message": {
+            "type": "string",
+            "description": "The tag message"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "skip_track_music",
+      "description": "Skip to the next track when playing music\n\nExamples:\n- \"SKIP TO NEXT SONG\"\n- \"SKIP THE SONG PLEASE\"\n- \"SKIP TO NEXT SONG\"\n- \"SKIP TO NEXT TRACK\"\n- \"GO TO NEXT SONG\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "music_playlist_title": {
+            "type": "string",
+            "description": "The music playlist title"
+          },
+          "music_artist_name": {
+            "type": "string",
+            "description": "The music artist name"
+          },
+          "music_type": {
+            "type": "string",
+            "description": "The music type"
+          },
+          "music_track_title": {
+            "type": "string",
+            "description": "The music track title"
+          },
+          "music_genre": {
+            "type": "string",
+            "description": "The music genre"
+          },
+          "music_provider_name": {
+            "type": "string",
+            "description": "The music provider name"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "music_album_title": {
+            "type": "string",
+            "description": "The music album title"
+          }
+        },
+        "required": [
+          "music_type",
+          "ordinal"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "unsupported_timer",
+      "description": "Handle special or complex timer requests\n\nExamples:\n- \"SET A TIMER FOR MY LAPS EVERY ONE ONE PER TWO MINUTES\"\n- \"SET AN ALARM FOR EVERY THIRTY MINUTES DURING A NINETY MINUTE TIMER\"\n- \"REPEAT TODAYS TIMER FOR THE REST OF WEEK\"\n- \"POPCORN TWO THIRTY MINUTES\"\n- \"ADD FIFTEEN MINUTES TO GYMTRAINING TIMER EVERY DAY\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "timer_name": {
+            "type": "string",
+            "description": "The timer name"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "method_timer": {
+            "type": "string",
+            "description": "The method timer"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "update_reminder_date_time",
+      "description": "Change the date or time of an existing reminder\n\nExamples:\n- \"UPDATE REMINDER TO SEVEN OH OH\"\n- \"PLEASE REMIND US THAT THE SALSA CLASS IS ON AUGUST TWENTY SEVENTH NOT AUGUST TWENTY NINTH\"\n- \"I NEED NEXT WEEKS CHILI COOK OFF REMINDER CHANGED TO ONE PM\"\n- \"CHANGE TACO TUESDAY REMINDER FORM TWELVE TO SIXTEEN\"\n- \"MODIFY MY REMINDER TO READ CINDY 'S SCRIPTURE BLAST ON FACEBOOK FROM FIVE AM TO SIX THIRTY AM BECAUSE MY WORK SCHEDULE HAS CHANGED\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "person_reminded": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "recurring_date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "person_reminded_added": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "todo": {
+            "type": "string",
+            "description": "The todo"
+          },
+          "recurring_date_time_new": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "date_time_new": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "attendee": {
+            "type": "string",
+            "description": "The attendee"
+          }
+        },
+        "required": [
+          "todo",
+          "date_time_new",
+          "date_time"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "add_time_timer",
+      "description": "Add additional time to an existing timer\n\nExamples:\n- \"ADD FORTY FIVE SECONDS T O THAT TIMER\"\n- \"ADD THIRTY MORE SECONDS\"\n- \"ADD FIVE MINUTES ON TO MY WORK OUT TIMER\"\n- \"ADD FIVE MINUTES TO TIMER\"\n- \"ADD TEN MINUTES THE TIMER\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "timer_name": {
+            "type": "string",
+            "description": "The timer name"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "method_timer": {
+            "type": "string",
+            "description": "The method timer"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "date_time"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "delete_timer",
+      "description": "Cancel or delete an active timer\n\nExamples:\n- \"DELETE TIMER FOR GYM I AM HERE EARLY\"\n- \"PLEASE CANCEL MY TIME\"\n- \"CANCEL MY COKING TIMER\"\n- \"REMOVE BOILED EGGS TIMER\"\n- \"DROP MY TIMER PLEASE\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "timer_name": {
+            "type": "string",
+            "description": "The timer name"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "method_timer": {
+            "type": "string",
+            "description": "The method timer"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "method_timer"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "replay_music",
+      "description": "Replay the current song or track\n\nExamples:\n- \"PLAY THE SONG AGAIN\"\n- \"PLAY THE SONG AGAIN\"\n- \"PLAY THAT SONG AGAIN\"\n- \"START THE SONG OVER\"\n- \"REPEAT THE RAP SONG\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "music_playlist_title": {
+            "type": "string",
+            "description": "The music playlist title"
+          },
+          "music_artist_name": {
+            "type": "string",
+            "description": "The music artist name"
+          },
+          "music_type": {
+            "type": "string",
+            "description": "The music type"
+          },
+          "music_track_title": {
+            "type": "string",
+            "description": "The music track title"
+          },
+          "music_genre": {
+            "type": "string",
+            "description": "The music genre"
+          },
+          "music_provider_name": {
+            "type": "string",
+            "description": "The music provider name"
+          },
+          "music_album_title": {
+            "type": "string",
+            "description": "The music album title"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "music_radio_id": {
+            "type": "string",
+            "description": "The music radio id"
+          }
+        },
+        "required": [
+          "music_type"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "unsupported_weather",
+      "description": "Handle special or complex weather-related requests\n\nExamples:\n- \"WHICH COUNTIES ARE IN DANGER OF TORNADO 'S\"\n- \"HOW COLD DOES IT GET TYPICALLY IN ALASKA\"\n- \"TEE OR LONG SLEEVE\"\n- \"WHAT IS FREEZING TEMPERATURE\"\n- \"TRACK THE LATEST HURRICANE\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "weather_attribute": {
+            "type": "string",
+            "description": "The weather attribute"
+          },
+          "location": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "weather_attribute"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_estimated_departure",
+      "description": "Calculate what time to leave to arrive at a destination by a specified time\n\nExamples:\n- \"WHAT TIME SHOULD I LEAVE TO MAKE IT TO THE IGUATEMI CINEMARK MOVIE THEATER BY SIX PM\"\n- \"WHAT TIME DO I NEED TO LEAVE FROM PERRY 'S TO MAKE IT TO MY DOCTORS APPOINTMENT\"\n- \"WHAT TIME SHOULD I START DRIVING TO GET ALABAMA ZAMLEK CITY BY EIGHT PM\"\n- \"WHEN SHOULD I LEAVE TO REACH EL LEEL DISCO IN HARAM FROM NERMINE HOUSE\"\n- \"TIME TO LEAVE FOR JEM SHOW FOR FIFTY MINS DRIVE\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "The source"
+          },
+          "road_condition": {
+            "type": "string",
+            "description": "The road condition"
+          },
+          "waypoint": {
+            "type": "string",
+            "description": "The waypoint"
+          },
+          "path_avoid": {
+            "type": "string",
+            "description": "The path avoid"
+          },
+          "obstruction_avoid": {
+            "type": "string",
+            "description": "The obstruction avoid"
+          },
+          "date_time_departure": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "location": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "destination": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "method_travel": {
+            "type": "string",
+            "description": "The method travel"
+          },
+          "path": {
+            "type": "string",
+            "description": "The path"
+          },
+          "date_time_arrival": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "destination"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "resume_timer",
+      "description": "Resume a previously paused timer\n\nExamples:\n- \"CARRY ON PAUSED TIMER\"\n- \"KEEP THE COUNTDOWN COUNTING\"\n- \"START MY TIMER OVER\"\n- \"RE START THE TIMER\"\n- \"RE START THE TIMER FOR FORTY FIVE MINUTES\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "timer_name": {
+            "type": "string",
+            "description": "The timer name"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "method_timer": {
+            "type": "string",
+            "description": "The method timer"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "method_timer"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "react_message",
+      "description": "Add a reaction to a message\n\nExamples:\n- \"MAD FACE TO MESSAGE IN THE SKATEAHOLICS GROUP\"\n- \"SMILE FACE TO DANI\"\n- \"DISLIKE THE MESSAGE THAT ANDI LAST SENT ME\"\n- \"WOW MOM 'S TEXT\"\n- \"HEART EYES TO JUSTIN\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "content_exact": {
+            "type": "string",
+            "description": "The content of the message or note"
+          },
+          "recipient": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "type_content": {
+            "type": "string",
+            "description": "The content of the message or note"
+          },
+          "group": {
+            "type": "string",
+            "description": "The group"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "contact": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "resource": {
+            "type": "string",
+            "description": "The resource"
+          },
+          "type_reaction": {
+            "type": "string",
+            "description": "The type reaction"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "tag_message": {
+            "type": "string",
+            "description": "The tag message"
+          }
+        },
+        "required": [
+          "recipient",
+          "type_reaction"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "previous_track_music",
+      "description": "Go back to the previous track when playing music\n\nExamples:\n- \"REPEAT THE LAST PLAYED SONG THREE MORE TIMES\"\n- \"REPLAY THE LAST SONG\"\n- \"REPEAT THE LAST SONG\"\n- \"REPEAT LAST SONG PLEASE\"\n- \"REPLAY THAT LAST SONG\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "music_artist_name": {
+            "type": "string",
+            "description": "The music artist name"
+          },
+          "music_type": {
+            "type": "string",
+            "description": "The music type"
+          },
+          "music_provider_name": {
+            "type": "string",
+            "description": "The music provider name"
+          },
+          "music_album_title": {
+            "type": "string",
+            "description": "The music album title"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          }
+        },
+        "required": [
+          "music_type",
+          "ordinal"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "restart_timer",
+      "description": "Restart a timer from the beginning\n\nExamples:\n- \"RESTART TIMER FROM BEGININNG\"\n- \"RESTART THE LAST TIMER\"\n- \"RESTART THE TIMER NOW\"\n- \"RESET TEN MINUTE TIMER\"\n- \"RESTART TIMER IN TWO MINUTE\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "timer_name": {
+            "type": "string",
+            "description": "The timer name"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "method_timer": {
+            "type": "string",
+            "description": "The method timer"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "method_timer"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "update_timer",
+      "description": "Modify the settings or duration of an active timer\n\nExamples:\n- \"NEW TIME FOR AEROBICS TIMER IS FORTY MINUTES\"\n- \"MAKE ADJUSTMENTS TO PASTA TIMER\"\n- \"REDUCE THE TIMER IN HALF\"\n- \"CHANGE TIMER TO FIVE MINUTES\"\n- \"CHANGE TIMER TO TWENTY MINTUES\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "timer_name": {
+            "type": "string",
+            "description": "The timer name"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "method_timer": {
+            "type": "string",
+            "description": "The method timer"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "method_timer"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "unsupported_alarm",
+      "description": "Handle special or complex alarm requests\n\nExamples:\n- \"SET AN ALARM EVERY THIRTY MINUTES BETWEEN SEVEN AM AND ELEVEN AM\"\n- \"SET ALARM EVERY TEN MINUTES UNTIL TWO PM\"\n- \"CREATE REMAINING ALARMS MO\"\n- \"APPLY A REMINDER ALARM WITH DIFFERENT RING TONE\"\n- \"SET AN ALARM FOR WHEN THE TIMER ENDS\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "period": {
+            "type": "string",
+            "description": "The period"
+          },
+          "date_time_recurring": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "alarm_name": {
+            "type": "string",
+            "description": "The alarm name"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "duration": {
+            "type": "string",
+            "description": "The duration"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "pause_music",
+      "description": "Pause currently playing music\n\nExamples:\n- \"PLEASE PAUSE THE SONG\"\n- \"PLEASE PAUSE THE SONG\"\n- \"PLEASE PAUSE THIS SONG\"\n- \"PUT MUSIC ON HOLD PLEASE\"\n- \"PLEASE PAUSE MUSIC FOR THIRTY SECONDS\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "music_playlist_title": {
+            "type": "string",
+            "description": "The music playlist title"
+          },
+          "music_artist_name": {
+            "type": "string",
+            "description": "The music artist name"
+          },
+          "music_type": {
+            "type": "string",
+            "description": "The music type"
+          },
+          "music_track_title": {
+            "type": "string",
+            "description": "The music track title"
+          },
+          "music_provider_name": {
+            "type": "string",
+            "description": "The music provider name"
+          }
+        },
+        "required": [
+          "music_type"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_reminder_date_time",
+      "description": "Get the scheduled time for a specific reminder\n\nExamples:\n- \"WHAT TIME IS FRIDAYS MEETING REMINDER SET FOR\"\n- \"WHEN ARE THE CAMPING REMINDERS FOR THIS SUMMER\"\n- \"WHEN IS MY REMINDER TO EMAIL JON INFORMATION\"\n- \"WHEN ARE THE VA APPOINTMENT REMINDERS FOR NEXT MONTH\"\n- \"WHEN IS MY NEXT REMINDER FOR DR BALES VISIT\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "person_reminded": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "recurring_date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "todo": {
+            "type": "string",
+            "description": "The todo"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "method_retrieval_reminder": {
+            "type": "string",
+            "description": "The method retrieval reminder"
+          }
+        },
+        "required": [
+          "todo"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_info_road_condition",
+      "description": "Get information about road conditions\n\nExamples:\n- \"ARE THE ROADS SNOWY\"\n- \"IS THERE FLOODING ON NINTH STREET RIGHT NOW\"\n- \"IS THERE ANY FLOODING ON GREENRIDGE STREET TODAY\"\n- \"IS THERE ANY ICY PATCHES ON ITWO NINE\"\n- \"HOW MUCH SNOW FELL ON THE ROADS LASTNIGHT\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "The source"
+          },
+          "waypoint": {
+            "type": "string",
+            "description": "The waypoint"
+          },
+          "date_time_departure": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "location": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "path": {
+            "type": "string",
+            "description": "The path"
+          },
+          "destination": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "method_travel": {
+            "type": "string",
+            "description": "The method travel"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "road_condition": {
+            "type": "string",
+            "description": "The road condition"
+          },
+          "date_time_arrival": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": [
+          "road_condition"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "stop_music",
+      "description": "Stop all music playback\n\nExamples:\n- \"TURN THE MUSIC OFF\"\n- \"MUTE THE STATION PLEASE\"\n- \"TURN OF THE MUSIC\"\n- \"STOP PLAYING THAT SONG\"\n- \"I'M DONE LISTENING TO MUSIC\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "music_playlist_title": {
+            "type": "string",
+            "description": "The music playlist title"
+          },
+          "music_artist_name": {
+            "type": "string",
+            "description": "The music artist name"
+          },
+          "music_type": {
+            "type": "string",
+            "description": "The music type"
+          },
+          "music_genre": {
+            "type": "string",
+            "description": "The music genre"
+          },
+          "music_provider_name": {
+            "type": "string",
+            "description": "The music provider name"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          }
+        },
+        "required": [
+          "music_type"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "update_reminder",
+      "description": "Update the details of an existing reminder\n\nExamples:\n- \"CHANGE MY PILL REMINDER FROM ELEVEN PM DAILY TO SEVEN AM WEEKLY\"\n- \"PLEASE UPDATE MARKS WEEKLY MEETING REMINDER TO BE MONTHLY\"\n- \"CHANGE MY BUNCO REMINDER FROM MONTHLY TO BI WEEKLY\"\n- \"PLEASE ADD CECILIA TO MY DOCTOR 'S APPOINTMENT REMINDER\"\n- \"CHANGE MY WEEKLY PILL REMINDERS TO WEDNESDAY 'S ONLY\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "attendee_added": {
+            "type": "string",
+            "description": "The attendee added"
+          },
+          "recurring_date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "person_reminded": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "person_reminded_added": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "attendee_removed": {
+            "type": "string",
+            "description": "The attendee removed"
+          },
+          "person_reminded_removed": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "todo_new": {
+            "type": "string",
+            "description": "The todo new"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "todo": {
+            "type": "string",
+            "description": "The todo"
+          },
+          "recurring_date_time_new": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "date_time_new": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "attendee": {
+            "type": "string",
+            "description": "The attendee"
+          }
+        },
+        "required": [
+          "recurring_date_time",
+          "person_reminded",
+          "todo",
+          "recurring_date_time_new"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "subtract_time_timer",
+      "description": "Remove time from an active timer\n\nExamples:\n- \"TAKE OFF THIRTY SECONDS\"\n- \"CAN WE REMOVE TEN MINUTES FROM MY WORKOUT TIMER\"\n- \"MAKE TURN OVER TIMER LESS\"\n- \"DROP FIVE MINUTES FROM TIMER\"\n- \"TAKE AWAY FROM THE TIME ON MY TIMER TITLED JAM TIME\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "method_timer": {
+            "type": "string",
+            "description": "The method timer"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "timer_name": {
+            "type": "string",
+            "description": "The timer name"
+          }
+        },
+        "required": [
+          "method_timer"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "unsupported_music",
+      "description": "Handle special or complex music-related requests\n\nExamples:\n- \"SHOW ME ALBUM ART\"\n- \"DOWNLOAD LATEST ADELE ALBUM\"\n- \"REPEAT LAST SONG TWICE\"\n- \"DO A MIX OF MY TOP THREE USED PLAYLISTS\"\n- \"IT 'S THE NAME OF A SONG BY UTWO\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "music_playlist_title": {
+            "type": "string",
+            "description": "The music playlist title"
+          },
+          "music_artist_name": {
+            "type": "string",
+            "description": "The music artist name"
+          },
+          "music_type": {
+            "type": "string",
+            "description": "The music type"
+          },
+          "music_track_title": {
+            "type": "string",
+            "description": "The music track title"
+          },
+          "music_genre": {
+            "type": "string",
+            "description": "The music genre"
+          },
+          "music_provider_name": {
+            "type": "string",
+            "description": "The music provider name"
+          }
+        },
+        "required": [
+          "music_type"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "start_shuffle_music",
+      "description": "Play music in random order\n\nExamples:\n- \"SHUFFLE MY MUSIC PLAYLIST\"\n- \"SHUFFLE SONGS IN THIS ALBUM\"\n- \"START SUFFLE WITH IN THE END\"\n- \"PLAY THE ROLLING STONES ON SHUFFLE\"\n- \"SHUFFLE ALL OF MY FOLK MUSIC\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "music_playlist_title": {
+            "type": "string",
+            "description": "The music playlist title"
+          },
+          "music_artist_name": {
+            "type": "string",
+            "description": "The music artist name"
+          },
+          "music_type": {
+            "type": "string",
+            "description": "The music type"
+          },
+          "music_track_title": {
+            "type": "string",
+            "description": "The music track title"
+          },
+          "music_genre": {
+            "type": "string",
+            "description": "The music genre"
+          },
+          "music_provider_name": {
+            "type": "string",
+            "description": "The music provider name"
+          },
+          "music_album_title": {
+            "type": "string",
+            "description": "The music album title"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "remove_from_playlist_music",
+      "description": "Remove a song from a playlist\n\nExamples:\n- \"REMOVE TRACK FROM PLAYLIST\"\n- \"DONT PLAY THAT SONG\"\n- \"DONT PLAY THIS SONG\"\n- \"SKIP ALL JUSTINE BIEBER SONGS\"\n- \"SKIP ALL SONGS BY NICKLEBACK\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "music_playlist_title": {
+            "type": "string",
+            "description": "The music playlist title"
+          },
+          "music_artist_name": {
+            "type": "string",
+            "description": "The music artist name"
+          },
+          "music_type": {
+            "type": "string",
+            "description": "The music type"
+          },
+          "music_track_title": {
+            "type": "string",
+            "description": "The music track title"
+          },
+          "music_genre": {
+            "type": "string",
+            "description": "The music genre"
+          },
+          "music_provider_name": {
+            "type": "string",
+            "description": "The music provider name"
+          }
+        },
+        "required": [
+          "music_type"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "update_directions",
+      "description": "Update or modify navigation directions\n\nExamples:\n- \"IS THERE AN ALTERNATIVE ROUTE OTHER AND I SIX NINETY FOUR TO JILL AND BRUCE 'S\"\n- \"RE ROUTE ME AWAY FROM THE TRAFFIC JAM\"\n- \"WHAT 'S AN ALTERNATE ROUTE TO THE BEACH\"\n- \"PLEASE PROVIDE ALTERNATIVE ROUTES TO MY OB GYN CLINIC ADDRESS\"\n- \"IS THERE A SHORTER ROUTE\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "The source"
+          },
+          "obstruction_avoid": {
+            "type": "string",
+            "description": "The obstruction avoid"
+          },
+          "path_avoid": {
+            "type": "string",
+            "description": "The path avoid"
+          },
+          "date_time_departure": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "waypoint_avoid": {
+            "type": "string",
+            "description": "The waypoint avoid"
+          },
+          "destination": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "waypoint_added": {
+            "type": "string",
+            "description": "The waypoint added"
+          },
+          "path": {
+            "type": "string",
+            "description": "The path"
+          },
+          "date_time_arrival": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_sunset",
+      "description": "Get the sunset time for a specific location and date\n\nExamples:\n- \"SUNDOWN BEGINS AT WHAT TIME\"\n- \"WHAT TIME IS TOMORROWS SUNSET\"\n- \"YOU KNOW WHAT TIME SUNDOWN IS\"\n- \"WHEN 'S SUNSET IN LOS ANGELES\"\n- \"TELL ME WHAT TIME SUNDOWN HAPPEN PLEASE\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "location": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "add_to_playlist_music",
+      "description": "Add a song to a playlist\n\nExamples:\n- \"SAVE THE NEWEST ROXETTE ALBUM\"\n- \"ADD A SONG TO MY PLAYLIST\"\n- \"ADD THE SONG TO MY PLAYLIST\"\n- \"ADD THIS SONG TO MY FAVORITES\"\n- \"ADD THIS SONG TO MY FAVORITES PLAYLIST\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "music_playlist_title": {
+            "type": "string",
+            "description": "The music playlist title"
+          },
+          "music_artist_name": {
+            "type": "string",
+            "description": "The music artist name"
+          },
+          "music_type": {
+            "type": "string",
+            "description": "The music type"
+          },
+          "music_track_title": {
+            "type": "string",
+            "description": "The music track title"
+          },
+          "music_genre": {
+            "type": "string",
+            "description": "The music genre"
+          },
+          "music_provider_name": {
+            "type": "string",
+            "description": "The music provider name"
+          },
+          "music_album_title": {
+            "type": "string",
+            "description": "The music album title"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          }
+        },
+        "required": [
+          "music_type"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "loop_music",
+      "description": "Play music on repeat\n\nExamples:\n- \"TURN ON REPEAT ONE SONG\"\n- \"PUT THE SONG ON REPEAT\"\n- \"KEEP THIS SONG ON REPEAT\"\n- \"REPEAT THIS TRACK ON LOOP\"\n- \"PUT THE HOKEY POKEY ON LOOP\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "music_playlist_title": {
+            "type": "string",
+            "description": "The music playlist title"
+          },
+          "music_artist_name": {
+            "type": "string",
+            "description": "The music artist name"
+          },
+          "music_type": {
+            "type": "string",
+            "description": "The music type"
+          },
+          "music_track_title": {
+            "type": "string",
+            "description": "The music track title"
+          },
+          "music_genre": {
+            "type": "string",
+            "description": "The music genre"
+          },
+          "music_provider_name": {
+            "type": "string",
+            "description": "The music provider name"
+          },
+          "music_album_title": {
+            "type": "string",
+            "description": "The music album title"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          }
+        },
+        "required": [
+          "music_type"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "create_playlist_music",
+      "description": "Create a new music playlist\n\nExamples:\n- \"CREATE NEW RADIO STATION\"\n- \"CREATE A GREATEST HITS FOR FINNISH MUSIC ON PANDORA\"\n- \"CREATE A NEW PLAY LIST\"\n- \"CREATE PLAYLIST OF LIL WAYNE\"\n- \"WHAT ARE THE TOPFOUR OH HITS FOR THE WEEK MAKE A PLAYLIST\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "music_playlist_title": {
+            "type": "string",
+            "description": "The music playlist title"
+          },
+          "music_artist_name": {
+            "type": "string",
+            "description": "The music artist name"
+          },
+          "music_type": {
+            "type": "string",
+            "description": "The music type"
+          },
+          "music_track_title": {
+            "type": "string",
+            "description": "The music track title"
+          },
+          "music_genre": {
+            "type": "string",
+            "description": "The music genre"
+          },
+          "music_provider_name": {
+            "type": "string",
+            "description": "The music provider name"
+          }
+        },
+        "required": [
+          "music_type"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "dislike_music",
+      "description": "Mark a song as disliked\n\nExamples:\n- \"DONT LIKE THIS SONG\"\n- \"I DONT LIKE THIS SONG\"\n- \"UNLIKE THIS SONG RIGHT NOW\"\n- \"THIS IS NOT THE VERSION OF THE SONG I WANTED\"\n- \"I WANT THIS SONG UNLIKED\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "music_artist_name": {
+            "type": "string",
+            "description": "The music artist name"
+          },
+          "music_type": {
+            "type": "string",
+            "description": "The music type"
+          },
+          "music_genre": {
+            "type": "string",
+            "description": "The music genre"
+          },
+          "music_provider_name": {
+            "type": "string",
+            "description": "The music provider name"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "music_album_title": {
+            "type": "string",
+            "description": "The music album title"
+          }
+        },
+        "required": [
+          "music_type"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "update_reminder_todo",
+      "description": "Change the task description of an existing reminder\n\nExamples:\n- \"UPDATE MY REMINDER TO COOK CHICKEN BIRIYANI AND RAITA FOR MONA 'S BIRTHDAY PARTY INSTEAD OF CHAPPATIS AND CHICKEN KURMA\"\n- \"CHANGE TOMORROWS REMINDER TO THIRTY DOLLARS INSTEAD OF FIFTY\"\n- \"ADD A NOTE TO MY TAXES REMINDER DON'T FORGET THE WTWO\"\n- \"ADD LAUDRY TO LISA 'S REMINDERS AND WILL YOU ALSO PUT A NOTE THAT SHE CAN'T VOID THIS\"\n- \"HEY BOT I AM TAKING TWO PIZZAS FOR THE PARTY ON SUNDAY INSTEAD OF ONE CAN YOU PLEASE UPDATE IT AND REMIND ME\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "recurring_date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "person_reminded": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "todo_new": {
+            "type": "string",
+            "description": "The todo new"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "todo": {
+            "type": "string",
+            "description": "The todo"
+          },
+          "recurring_date_time_new": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "attendee": {
+            "type": "string",
+            "description": "The attendee"
+          }
+        },
+        "required": [
+          "person_reminded",
+          "todo_new",
+          "todo"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "like_music",
+      "description": "Mark a song as liked\n\nExamples:\n- \"THUMPS UP CURRENT SONG\"\n- \"THUMPS UP LAST SONG\"\n- \"RATE THIS SONG THUMB UP\"\n- \"PLEASE THUMPS UP THAT SONG\"\n- \"I LIKE THIS PLAY MORE LIKE IT\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "music_playlist_title": {
+            "type": "string",
+            "description": "The music playlist title"
+          },
+          "music_artist_name": {
+            "type": "string",
+            "description": "The music artist name"
+          },
+          "music_type": {
+            "type": "string",
+            "description": "The music type"
+          },
+          "music_genre": {
+            "type": "string",
+            "description": "The music genre"
+          },
+          "music_provider_name": {
+            "type": "string",
+            "description": "The music provider name"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          }
+        },
+        "required": [
+          "music_type"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_sunrise",
+      "description": "Get the sunrise time for a specific location and date\n\nExamples:\n- \"WHAT TIME IS SUNDAY RISE IN DENVER COLORADO\"\n- \"WHAT TIME DOES THE SUNDAY RISE IN HOUSTON\"\n- \"WHEN TIME DOES THE SUNRISE IN NEW YORK\"\n- \"CAN YOU SEE THE SUNDAY RISE THIS SATURDAY\"\n- \"WHEN IS SUNRISE TOMORROW\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "location": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_reminder_amount",
+      "description": "Count the number of reminders\n\nExamples:\n- \"HOW MANY REMINDERS TO I HAVE\"\n- \"HOW MANY REMINDERS ARE SET FOR THE WEEK\"\n- \"HOW MANY WORKOUT REMINDERS DO I HAVE THIS WEEK\"\n- \"HOW MANY REMINDERS DID I SET FOR THE PARTY PLANNING\"\n- \"HOW MANY REMINDERS DO I HAVE NEXT WEEK FOR WORK\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "person_reminded": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "todo": {
+            "type": "string",
+            "description": "The todo"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "method_retrieval_reminder": {
+            "type": "string",
+            "description": "The method retrieval reminder"
+          }
+        },
+        "required": [
+          "person_reminded"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_reminder_location",
+      "description": "Get the location information for a reminder\n\nExamples:\n- \"WHATS THE LOCATION OF MY NEXT FAMILY REMINDER\"\n- \"WHERE IS THE LOCATION FOR MY COUSIN 'S PARTY REMINDER\"\n- \"SHOW MY LOCATIONREMINDER FOR TRUCKS AND TRAVEL MEET UP ON SATURDAY\"\n- \"WHERE IS MY WEEKEND REMINDER WITH KRIS\"\n- \"SHOW ME THE LOCATION OF THE NEXT BOYS REMINDER MEET UP THAT I HAVE PLANNED\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "person_reminded": {
+            "type": "string",
+            "description": "Name of the contact or person"
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "ordinal": {
+            "type": "string",
+            "description": "The ordinal"
+          },
+          "todo": {
+            "type": "string",
+            "description": "The todo"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "method_retrieval_reminder": {
+            "type": "string",
+            "description": "The method retrieval reminder"
+          }
+        },
+        "required": [
+          "person_reminded",
+          "todo"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set_default_provider_music",
+      "description": "Set the default music service provider\n\nExamples:\n- \"LET 'S SETUP DEFAULT MUSIC APP AS PANDORA\"\n- \"LET 'S SETUP DEFAULT MUSIC APP AS PANDORA\"\n- \"CAN YOU SET MY MUSIC APP\"\n- \"ADJUST THE DEFAULT PROVIDER TO BE SPOTIFY\"\n- \"COULD YOU MAKE PANDORA MY MUSIC APP PLEASE\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "music_provider_name": {
+            "type": "string",
+            "description": "The music provider name"
+          }
+        },
+        "required": [
+          "music_provider_name"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "ignore_message",
+      "description": "Ignore or dismiss incoming messages\n\nExamples:\n- \"IGNORE INCOMING VIDEO MESSAGE\"\n- \"I DON'T TO LOOK AT THIS TEXT RIGHT NOW\"\n- \"DISREGARD\"\n- \"COULD YOU IGNORE THAT TEXT\"\n- \"DON'T READ THAT\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "content_exact": {
+            "type": "string",
+            "description": "The content of the message or note"
+          },
+          "type_content": {
+            "type": "string",
+            "description": "The content of the message or note"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_location",
+      "description": "Find a location based on name, category, or relative position\n\nExamples:\n- \"WHAT ROAD IS THE FARMER 'S MARKET ON\"\n- \"WHERE IS THE NEAREST TRADER JOES FROM ME\"\n- \"IS THERE A LIGHT RAIL STATION ON CAPITOL AVE\"\n- \"IS THERE A MAILBOX LESS THAN A TEN MINUTE DRIVE FROM HERE\" (Contains 2 instances of GET_LOCATION)\n- \"ARE THERE ANY BUS STATIONS NEAR BY THAT CAN GET ME TO THE CITY\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "point_on_map": {
+            "type": "string",
+            "description": "The point on map"
+          },
+          "category_location": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "location_modifier": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "location_user": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "location": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "search_radius": {
+            "type": "string",
+            "description": "The search radius"
+          }
+        },
+        "required": [
+          "location_modifier"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_info_route",
+      "description": "Get information about a specific route\n\nExamples:\n- \"IS THERE A BIKE LANE ON ELSADAT STREET\"\n- \"TOURIST ATTRACTIONS ON ININE FIVE FROM WILSON TO ORLANDO\"\n- \"WHERE ARE THE HOV LANE EXITS BETWEEN HERE AND DALLAS\"\n- \"IS THERE A CONVENIENCE STORE ON ROUT FIFTY ONE GOING TO MOM 'S HOUSE\"\n- \"ARE THERE ANY DETOURS TO SCOTCH PLAINS\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "The source"
+          },
+          "waypoint": {
+            "type": "string",
+            "description": "The waypoint"
+          },
+          "date_time_departure": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "destination": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "method_travel": {
+            "type": "string",
+            "description": "The method travel"
+          },
+          "path": {
+            "type": "string",
+            "description": "The path"
+          }
+        },
+        "required": [
+          "destination",
+          "path"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cancel_message",
+      "description": "Cancel sending a message that's in progress\n\nExamples:\n- \"PLEASE CANCEL THE MESSAGE\"\n- \"MESSAGE CANCEL\"\n- \"CANCEL AUDIO MESSAGE\"\n- \"STOP SENDING\"\n- \"QUIT MESSAGING\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "amount": {
+            "type": "number",
+            "description": "The amount"
+          },
+          "type_content": {
+            "type": "string",
+            "description": "The content of the message or note"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_event_organizer",
+      "description": "Find the organizer of an event\n\nExamples:\n- \"WHO IS GIVING THE NUTCRACKER PERFORMANCE THIS WEEKEND HERE IN MIAMI\"\n- \"WHO IS HOSTING NEW YEAR 'S EVE PARTIES IN ORLANDO\"\n- \"ARE ANY OF MY FRIENDS HOSTING SECRET SANTA PARTIES NEXT WEEK\"\n- \"ARE ANY OF MY FRIENDS HOSTING PARTIES IN WILMINGTON THIS WEEKEND\"\n- \"ARE ANY OF MY FRIENDS HAVING PARTIES THIS WEEKEND\"",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "organizer_event": {
+            "type": "string",
+            "description": "The organizer event"
+          },
+          "location": {
+            "type": "string",
+            "description": "The location or place name"
+          },
+          "date_time": {
+            "type": "string",
+            "description": "Time or date specification (e.g., 'tomorrow at 3pm', 'next Monday')"
+          },
+          "category_event": {
+            "type": "string",
+            "description": "The category event"
+          }
+        },
+        "required": [
+          "date_time",
+          "category_event"
+        ]
+      }
+    }
+  }
+]

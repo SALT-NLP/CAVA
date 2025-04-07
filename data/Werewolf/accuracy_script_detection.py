@@ -6,8 +6,8 @@ It measures the percentage of predictions which are correct.
 import json
 
 # Path to your file
-file_path = "werewolf.jsonl_gemini-2.0-flash-exp_deception_detection_1" #'data.txt'  # or 'data.jsonl'
-#file_path = "werewolf.jsonl_gpt-4o-audio-preview_deception_detection_1"
+file_path = "werewolf.jsonl_gemini-2.0-flash-exp_deception_detection" 
+#file_path = "werewolf.jsonl_gpt-4o-audio-preview_deception_detection"
 
 total = 0
 correct_predictions = 0

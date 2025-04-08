@@ -53,6 +53,33 @@ def create_task_configs() -> Dict[str, TaskConfig]:
             audio_dir="transcription_test/",
             data_file="audio_inputs.jsonl",
         ),
+        "deception_detection": TaskConfig(
+            name="deception_detection",
+            prompt_template=(
+                "Listen to the following audio of a One Night Ultimate Werewolf game being played. Some of the players"
+                " may be the Werewolf. Name which player you think is most likely the Werewolf."
+                " Respond using a single word by stating the name of the player you think is the Werewolf."
+                " If you think nobody is the Werewolf, respond with: None."
+            ),
+            max_new_tokens=100,
+            field_name="werewolf",
+            audio_dir="Werewolf/",
+            data_file="werewolf.jsonl",
+        ),
+        "deception_vote_prediction": TaskConfig(
+            name="deception_vote_prediction",
+            prompt_template=(
+                "Listen to the following audio of a One Night Ultimate Werewolf game being played. Guess who each"
+                " player will vote for as the Werewolf. Note that the Werewolf must be one of the players in the game."
+                " Respond with a list of names (one word per player) corresponding to the votes, seperated by newline"
+                " symbol."
+            ),
+            max_new_tokens=100,
+            field_name="votingOutcome",
+            audio_dir="Werewolf/",
+            data_file="werewolf.jsonl",
+            output_processor=clean_prediction,
+        ),
         "function_calling": TaskConfig(
             name="function_calling",
             prompt_template=(
@@ -149,3 +176,21 @@ def format_prompt_template(
 
     # Format the template with the replacements
     return template.format(**replacements)
+
+
+def clean_prediction(prediction_str: str) -> List[str]:
+    """
+    Cleans and parses the prediction field which is a multiline string of predicted vote names.
+    It removes introductory header lines (if any) and strips out markdown asterisks.
+    """
+    lines = prediction_str.strip().splitlines()
+    votes = []
+    for line in lines:
+        clean_line = line.strip()
+        # If the line contains keywords that indicate it's header text, skip it.
+        if any(keyword in clean_line.lower() for keyword in ["predicted", "votes", "based on the provided audio"]):
+            continue
+        # Remove markdown asterisks if present.
+        clean_line = clean_line.replace("*", "").strip()
+        votes.append(clean_line)
+    return votes

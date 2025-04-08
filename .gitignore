@@ -1,6 +1,8 @@
 .env
 *pycache*
 
+*.wav
+
 .cats_cache
 
 # ReverseSpellingBee
@@ -23,3 +25,11 @@
 
 *.DS_Store
 
+# Function Calling
+/data/function_calling_test/*.wav
+
+# SpeakerDiarization
+/data/SpeakerDiarization/audio/
+/data/SpeakerDiarization/amicorpus/
+# Jeopardy
+/data/jeopardy/data/*.wav

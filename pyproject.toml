@@ -34,6 +34,10 @@ dependencies = [
     "argparse",
     "diskcache",
     "google-genai",
+    "pandas",
+    "pydub",
+    "numpy<2.0",
+    "scipy",
 ]
 
 [tool.hatch.build]

@@ -30,7 +30,10 @@ from transformers import (
 )
 
 from cats.config import TaskConfig, create_task_configs, format_prompt_template
+
 from cats.speech_judge import compare_speech
+from cats.utils import get_der_score, get_jer_score
+
 
 
 # Global API call counters for rate limiting
@@ -150,9 +153,8 @@ def load_model(model_name: str) -> ModelResources:
             model = OpenAI(api_key=api_key)
             tokenizer = None
             processor = None
-            model_type = "openai"
             client = None
-
+            model_type = "openai" if "pipeline" not in model_name else "openai_pipeline"
         else:
             # Generic transformers model fallback
             tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -594,15 +596,28 @@ def process_with_gemini(
     try:
         if task_config.speech_output:
             # Audio output branch – run our async helper
-            try:
-                # This async function returns a tuple (response_text, output_audio_path, success)
-                response_text, output_audio_path, success = asyncio.run(
-                    _process_with_gemini_audio_async(resources, text_prompt, task_config, temp_audio_path)
-                )
-                return response_text, output_audio_path, success
-            except Exception as e:
-                print(f"Failed processing Gemini audio output: {e}")
-                return task_config.labels[0] if task_config.labels else "", "", success
+            # Create inputs for the model
+            prompt = text_prompt
+            inputs = [
+                prompt,
+                {"mime_type": "audio/wav", "data": Path(temp_audio_path).read_bytes()},
+            ]
+
+            # Set up retry logic
+            max_retries = 5
+            sleep_time = 10
+
+            # Try to generate content with retries for API rate limits
+            for attempt in range(max_retries):
+                try:
+                    # This async function returns a tuple (response_text, output_audio_path, success)
+                    response_text, output_audio_path, success = asyncio.run(
+                        _process_with_gemini_audio_async(resources, text_prompt, task_config, temp_audio_path)
+                    )
+                    return response_text, output_audio_path, success
+                except Exception as e:
+                    print(f"Failed processing Gemini audio output: {e}")
+                    return task_config.labels[0] if task_config.labels else "", "", success
         else:
             # Text-only branch
             import google.generativeai as genai
@@ -648,7 +663,7 @@ def process_with_gemini(
 @api_cached
 def process_with_openai(
     resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
-) -> Union[str, Tuple[str, str]]:
+) -> Union[str, Tuple[str, str], Tuple[str, List[Dict[str, Any]]]]:
     """
     Process audio with OpenAI model
 
@@ -659,7 +674,8 @@ def process_with_openai(
         task_config: Task configuration
 
     Returns:
-        Model output text, or tuple of (output text, path to output audio) for speech tasks
+        Model output text, or tuple of (output text, path to output audio) for speech tasks,
+        or tuple of (output text, function_calls) for function calling tasks
     """
     # Check success for caching purposes
     success = False
@@ -710,6 +726,19 @@ def process_with_openai(
             # Add schema format guidance
             messages_content[0]["content"][0]["text"] += "\nFormat: " + json.dumps(SchemaWrapper.model_json_schema())
 
+        # For function calling, load functions if available
+        tools = None
+        if task_config.process_function_calls:
+            function_file = Path("data") / task_config.audio_dir / "functions.json"
+            if function_file.exists():
+                try:
+                    with open(function_file, "r") as f:
+                        functions = json.load(f)
+                        tools = functions
+                        print(f"Loaded {len(functions)} function definitions for function calling evaluation")
+                except Exception as e:
+                    print(f"Error loading function definitions: {e}")
+
         # Set up retry logic
         max_retries = 5
         sleep_time = 0.1
@@ -729,9 +758,68 @@ def process_with_openai(
                     # TODO: Should we test multiple voices?
                     api_args["audio"] = {"voice": "alloy", "format": "wav"}
 
+                # Add tools for function calling task
+                if task_config.process_function_calls and tools:
+                    api_args["tools"] = tools
+                    api_args["tool_choice"] = "required"
+
                 # Make the API call
                 completion = resources.model.chat.completions.create(**api_args)
+                all_function_calls = []
 
+                # For function calling, handle tool calls with a conversation loop
+                while (
+                    task_config.process_function_calls
+                    and hasattr(completion.choices[0].message, "tool_calls")
+                    and completion.choices[0].message.tool_calls
+                    and len(all_function_calls) < 10
+                ):
+                    # Initialize conversation and function call tracking
+                    conversation = messages_content.copy()
+                    final_response = ""
+
+                    # Process the first response
+                    assistant_message = completion.choices[0].message
+                    final_response = assistant_message.content or ""
+
+                    # Add assistant's message to conversation
+                    conversation.append(
+                        {
+                            "role": "assistant",
+                            "content": assistant_message.content,
+                            "tool_calls": assistant_message.tool_calls,
+                        }
+                    )
+
+                    # Process initial function calls
+                    for tool_call in assistant_message.tool_calls:
+                        if hasattr(tool_call, "function"):
+                            func_call_data = tool_call.function
+                            # Parse arguments
+                            try:
+                                arguments = json.loads(func_call_data.arguments)
+                            except json.JSONDecodeError:
+                                arguments = {"error": "Failed to parse arguments", "raw": func_call_data.arguments}
+
+                            # Store function call
+                            function_call = {"name": func_call_data.name, "arguments": arguments}
+                            all_function_calls.append(function_call)
+
+                            # Add mock function result to conversation
+                            mock_result = f"MOCK_RESPONSE({func_call_data.name})"
+                            conversation.append({"role": "tool", "tool_call_id": tool_call.id, "content": mock_result})
+
+                    api_args = {
+                        "model": resources.model_name,
+                        "modalities": ["text"] if not task_config.speech_output else ["text", "audio"],
+                        "temperature": 0,
+                        "messages": conversation,
+                        "tools": tools,
+                        "tool_choice": "auto",
+                    }
+                    completion = resources.model.chat.completions.create(**api_args)
+
+                # For standard API responses
                 response = completion.choices[0].message.content
 
                 # Handle speech output if applicable
@@ -767,6 +855,9 @@ def process_with_openai(
                 # Return appropriate result based on task type
                 if task_config.speech_output and output_audio_path:
                     return response, output_audio_path, success
+                    return response, output_audio_path
+                elif task_config.process_function_calls:
+                    return response, all_function_calls
                 else:
                     return response, success
 
@@ -784,9 +875,394 @@ def process_with_openai(
         cleanup_temp_audio(temp_audio_path)
 
 
-def process_sample(
+@api_cached
+def process_with_openai_realtime(
     resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
 ) -> Union[str, Tuple[str, str]]:
+    """
+    Process audio with OpenAI realtime model
+
+    Args:
+        resources: Model resources
+        audio: Processed audio data
+        text_prompt: Text prompt for the model
+        task_config: Task configuration
+
+    Returns:
+        Model output text, or tuple of (output text, path to output audio) for speech tasks
+    """
+    # Check API call limit
+    if not check_api_call_limit("openai"):
+        # Return default value if limit reached
+        return task_config.labels[0] if task_config.labels else "API limit reached"
+
+    # Save audio to temporary file
+    temp_audio_path = save_temp_audio(audio, task_config.name, "gpt_realtime")
+
+    try:
+        # Encode audio to base64
+        with open(temp_audio_path, "rb") as audio_file:
+            encoded_audio = base64.b64encode(audio_file.read()).decode("utf-8")
+
+        # Prepare content
+        messages_content = {
+            "type": "conversation.item.create",
+            "item": {
+                "type": "message",
+                "role": "user",
+                "content": [
+                    {"type": "input_text", "text": text_prompt},
+                    {"type": "input_audio", "audio": encoded_audio},
+                ],
+            },
+        }
+
+        # If we have labels for constrained generation, use schema
+        if task_config.labels and task_config.use_logits_processor:
+            # Dynamically create a pydantic model for structured output
+            SchemaWrapper = create_schema_wrapper(task_config.field_name)
+
+            # Add schema format guidance
+            messages_content["item"]["content"][0]["text"] += "\nFormat: " + json.dumps(
+                SchemaWrapper.model_json_schema()
+            )
+
+        # Set up WebSocket connection
+        url = f"wss://api.openai.com/v1/realtime?model={resources.model_name}"
+        import websocket
+
+        headers = ["Authorization: Bearer " + os.environ.get("OPENAI_API_KEY"), "OpenAI-Beta: realtime=v1"]
+
+        response_text = ""
+        output_audio_path = None
+
+        # Set up retry logic
+        max_retries = 5
+        sleep_time = 0.1
+
+        # Try to generate content with retries for API rate limits
+        for attempt in range(max_retries):
+            try:
+
+                def on_open(ws):
+                    # Send conversation event first
+                    ws.send(json.dumps(messages_content))
+
+                    # Then create response event
+                    response_event = {
+                        "type": "response.create",
+                        "response": {
+                            "modalities": ["text"] if not task_config.speech_output else ["text", "audio"],
+                            # "temperature": 0, Doesn't allow zero: decimal below minimum value. Expected a value >= 0.6, but got 0 instead.
+                        },
+                    }
+                    ws.send(json.dumps(response_event))
+
+                def on_message(ws, message):
+                    nonlocal response_text, output_audio_path
+                    server_event = json.loads(message)
+
+                    if server_event["type"] == "response.done":
+                        response_text = server_event["response"]["output"][0]["content"][0]["text"]
+
+                        # Handle speech output if applicable
+                        if (
+                            task_config.speech_output
+                            and "audio" in server_event["response"]["output"][0]["content"][1]
+                        ):
+                            audio_data = base64.b64decode(server_event["response"]["output"][0]["content"][1]["audio"])
+                            output_audio_path = save_model_speech_output(
+                                audio_data, task_config, os.path.basename(temp_audio_path).split("_")[0]
+                            )
+
+                        if response_text.strip() != "":
+                            ws.close()
+
+                ws = websocket.WebSocketApp(
+                    url,
+                    header=headers,
+                    on_open=on_open,
+                    on_message=on_message,
+                )
+
+                ws.run_forever(ping_timeout=30)
+
+                # Try to parse structured response if using schema
+                if task_config.labels and task_config.use_logits_processor:
+                    try:
+                        # First try to parse as JSON
+                        response_json = json.loads(response_text)
+                        response_text = response_json[task_config.field_name]
+                    except:
+                        # Fall back to checking for label terms in response
+                        if task_config.labels:
+                            # Check if any of the labels appear in the response
+                            response_vec = [
+                                int(label.lower() in response_text.lower()) for label in task_config.labels
+                            ]
+
+                            if np.sum(response_vec) == 1:
+                                # Find which label was detected
+                                response_text = [
+                                    label.lower() for label, pred in zip(task_config.labels, response_vec) if pred == 1
+                                ][0]
+
+                # Return appropriate result based on task type
+                if task_config.speech_output and output_audio_path:
+                    return response_text, output_audio_path
+                else:
+                    return response_text
+
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    print(f"OpenAI API error: {e}. Retrying after {sleep_time}s...")
+                    time.sleep(sleep_time)
+                    sleep_time *= 2
+                else:
+                    print(f"Failed after {max_retries} attempts: {e}")
+                    # Default to first label if available, otherwise empty string
+                    return task_config.labels[0] if task_config.labels else ""
+    finally:
+        # Clean up temporary file
+        cleanup_temp_audio(temp_audio_path)
+
+
+@api_cached
+def process_with_openai_pipeline(
+    resources: ModelResources,
+    audio: Dict[str, Any],
+    text_prompt: str,
+    task_config: TaskConfig,
+    use_tts: bool = True,
+    llm_model: str = "gpt-4o",
+    tts_model: str = "gpt-4o-mini-tts",
+    tts_voice: str = "alloy",
+    stt_model: str = "gpt-4o-transcribe",
+    tts_instructions: Optional[str] = None,
+) -> Union[str, Tuple[str, str], Tuple[str, List[Dict[str, Any]]]]:
+    """
+    Process audio with OpenAI pipeline: STT -> LLM -> TTS
+
+    Args:
+        resources: Model resources
+        audio: Processed audio data
+        text_prompt: Text prompt for the model
+        task_config: Task configuration
+        use_tts: Whether to use TTS for the output
+        llm_model: Model name for the LLM processing
+        tts_model: Model name for text-to-speech
+        tts_voice: Voice to use for TTS
+        stt_model: Model name for speech-to-text
+        tts_instructions: Optional instructions for TTS voice characteristics
+
+    Returns:
+        Model output text, or tuple of (output text, path to output audio) for speech tasks,
+        or tuple of (output text, function_calls) for function calling tasks
+    """
+    # Check API call limit
+    if not check_api_call_limit("openai"):
+        # Return default value if limit reached
+        return task_config.labels[0] if task_config.labels else "API limit reached"
+
+    try:
+        # Step 1: Convert input audio to text using STT
+        # Save audio to temporary file
+        temp_audio_path = save_temp_audio(audio, task_config.name, "openai-pipeline")
+
+        # Create a file object for the API
+        with open(temp_audio_path, "rb") as audio_file:
+            transcription = resources.model.audio.transcriptions.create(
+                model=stt_model,
+                file=audio_file,
+            )
+
+        transcribed_text = transcription.text
+
+        # Step 2: Process with LLM
+        # Combine the transcribed text with the text prompt
+        combined_prompt = f'[BEGIN AUDIO] "{transcribed_text}"[END AUDIO]\n\n{text_prompt}'
+
+        # Set up retry logic
+        max_retries = 5
+        sleep_time = 0.1
+
+        # For function calling, load functions if available
+        tools = None
+        all_function_calls = []
+        if task_config.process_function_calls:
+            function_file = Path("data") / task_config.audio_dir / "functions.json"
+            if function_file.exists():
+                try:
+                    with open(function_file, "r") as f:
+                        functions = json.load(f)
+                        tools = functions
+                        print(f"Loaded {len(functions)} function definitions for function calling evaluation")
+                except Exception as e:
+                    print(f"Error loading function definitions: {e}")
+
+        # Structure messages for the LLM
+        messages = [
+            {
+                "role": "user",
+                "content": (
+                    "You are acting as the middle part of a pipelined LLM system for Speech. The content of the audio"
+                    " will be wrapped in [BEGIN AUDIO] and [END AUDIO]"
+                ),
+            },
+            {"role": "user", "content": combined_prompt},
+        ]
+
+        # Try to generate content with retries for API rate limits
+        llm_response = None
+        for attempt in range(max_retries):
+            try:
+                # Create API call arguments
+                api_args = {
+                    "model": llm_model,
+                    "messages": messages,
+                    "temperature": task_config.temperature if hasattr(task_config, "temperature") else 0,
+                }
+
+                # Add tools for function calling task
+                if task_config.process_function_calls and tools:
+                    api_args["tools"] = tools
+                    api_args["tool_choice"] = "required"
+
+                # Make the API call
+                completion = resources.model.chat.completions.create(**api_args)
+                all_function_calls = []
+
+                # Initialize conversation for the function calling loop
+                conversation = messages.copy()
+                final_response = ""
+
+                # For function calling, handle tool calls with a conversation loop
+                while (
+                    task_config.process_function_calls
+                    and hasattr(completion.choices[0].message, "tool_calls")
+                    and completion.choices[0].message.tool_calls
+                    and len(all_function_calls) < 10  # Limit to avoid infinite loops
+                ):
+                    # Process the response
+                    assistant_message = completion.choices[0].message
+                    final_response = assistant_message.content or ""
+
+                    # Add assistant's message to conversation
+                    conversation.append(
+                        {
+                            "role": "assistant",
+                            "content": assistant_message.content,
+                            "tool_calls": assistant_message.tool_calls,
+                        }
+                    )
+
+                    # Process the function calls
+                    for tool_call in assistant_message.tool_calls:
+                        if hasattr(tool_call, "function"):
+                            func_call_data = tool_call.function
+                            # Parse arguments
+                            try:
+                                arguments = json.loads(func_call_data.arguments)
+                            except json.JSONDecodeError:
+                                arguments = {"error": "Failed to parse arguments", "raw": func_call_data.arguments}
+
+                            # Store function call
+                            function_call = {"name": func_call_data.name, "arguments": arguments}
+                            all_function_calls.append(function_call)
+
+                            # Add mock function result to conversation
+                            mock_result = f"MOCK_RESPONSE({func_call_data.name})"
+                            conversation.append({"role": "tool", "tool_call_id": tool_call.id, "content": mock_result})
+
+                    # Continue the conversation with another API call
+                    api_args = {
+                        "model": llm_model,
+                        "messages": conversation,
+                        "temperature": task_config.temperature if hasattr(task_config, "temperature") else 0,
+                    }
+
+                    # Add tools but don't force tool choice after the first round
+                    if tools:
+                        api_args["tools"] = tools
+                        api_args["tool_choice"] = "auto"
+
+                    # Make the next API call in the conversation
+                    completion = resources.model.chat.completions.create(**api_args)
+
+                # If we didn't go through the function calling loop, get the regular response
+                if not all_function_calls:
+                    llm_response = completion.choices[0].message.content
+                else:
+                    # Use the final response from the conversation
+                    llm_response = final_response
+
+                break
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    print(f"OpenAI API error: {e}. Retrying after {sleep_time}s...")
+                    time.sleep(sleep_time)
+                    sleep_time *= 2
+                else:
+                    print(f"Failed after {max_retries} attempts: {e}")
+                    # Default to first label if available, otherwise empty string
+                    return task_config.labels[0] if task_config.labels else ""
+
+        # Apply task-specific output processing
+        processed_response = task_config.output_processor(llm_response or "")
+
+        # Step 3: Convert text to speech if requested
+        if task_config.speech_output:
+            # Set up TTS options
+            tts_options = {
+                "model": tts_model,
+                "voice": tts_voice,
+                "input": processed_response,
+                "response_format": "mp3",
+            }
+
+            # Add instructions if provided
+            if tts_instructions:
+                tts_options["instructions"] = tts_instructions
+
+            # Try to generate speech with retries for API rate limits
+            for attempt in range(max_retries):
+                try:
+                    response = resources.model.audio.speech.create(**tts_options)
+
+                    # Save the audio output
+                    output_audio_path = save_model_speech_output(
+                        response.content, task_config, f"pipeline_output_{int(time.time())}"
+                    )
+
+                    # For function calling tasks with speech output
+                    if task_config.process_function_calls and all_function_calls:
+                        return processed_response, output_audio_path, all_function_calls
+                    # For speech output tasks
+                    return processed_response, output_audio_path
+                except Exception as e:
+                    if attempt < max_retries - 1:
+                        print(f"OpenAI TTS API error: {e}. Retrying after {sleep_time}s...")
+                        time.sleep(sleep_time)
+                        sleep_time *= 2
+                    else:
+                        print(f"Failed TTS after {max_retries} attempts: {e}")
+                        # Return without audio if TTS fails
+
+        # Return appropriate result based on task type
+        if task_config.process_function_calls and all_function_calls:
+            return processed_response, all_function_calls
+        else:
+            return processed_response
+
+    except Exception as e:
+        print(f"Pipeline error: {e}")
+        # Default to first label if available, otherwise empty string
+        return task_config.labels[0] if task_config.labels else ""
+
+
+def process_sample(
+    resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
+) -> Union[str, Tuple[str, str], Tuple[str, List[Dict[str, Any]]]]:
     """
     Process a single audio sample based on model type
 
@@ -797,7 +1273,9 @@ def process_sample(
         task_config: Task configuration
 
     Returns:
-        Processed model output text, or tuple of (output text, path to output audio) for speech tasks
+        Processed model output text,
+        or tuple of (output text, path to output audio) for speech tasks,
+        or tuple of (output text, function_calls) for function calling tasks
     """
     # Verify label tokenization if required
     if task_config.verify_tokenization and task_config.labels and resources.tokenizer:
@@ -814,18 +1292,41 @@ def process_sample(
     elif resources.model_type == "gemini":
         response = process_with_gemini(resources, audio, text_prompt, task_config)
     elif resources.model_type == "openai":
-        response = process_with_openai(resources, audio, text_prompt, task_config)
+        if "realtime" in resources.model_name.lower():
+            # Real-time API models require a different processing function
+            response = process_with_openai_realtime(resources, audio, text_prompt, task_config)
+        else:
+            response = process_with_openai(resources, audio, text_prompt, task_config)
+    elif resources.model_type == "openai_pipeline":
+        try:
+            _, llm_model, tts_model, stt_model = resources.model_name.split("_")
+        except:
+            print(f"Pipeline Model Definition failed: Got {resources.model_name}, Expected pipeline_llm_tts_stt")
+        response = process_with_openai_pipeline(
+            resources, audio, text_prompt, task_config, llm_model=llm_model, tts_model=tts_model, stt_model=stt_model
+        )
     else:
         raise ValueError(f"Model type {resources.model_type} processing not implemented")
 
-    # Apply task-specific output processing for text responses
-    if isinstance(response, tuple) and task_config.speech_output:
-        # For speech output tasks, apply processing only to the text part
-        text_response, audio_path = response
-        return task_config.output_processor(text_response), audio_path
-    else:
-        # For text-only tasks
-        return task_config.output_processor(response)
+    # Apply task-specific output processing
+    if isinstance(response, tuple):
+        if len(response) == 2:
+            first_item, second_item = response
+
+            # Check if this is a speech output task
+            if task_config.speech_output and isinstance(second_item, str):
+                # For speech output tasks, apply processing only to the text part
+                return task_config.output_processor(first_item), second_item
+
+            # Check if this is a function calling task
+            elif task_config.process_function_calls and isinstance(second_item, list):
+                # For function calling tasks, return both text and function calls
+                if len(second_item) >= 10:
+                    first_item = ""
+                return task_config.output_processor(first_item), second_item
+
+    # For text-only tasks or any unhandled case
+    return task_config.output_processor(response)
 
 
 def process_record(
@@ -858,29 +1359,74 @@ def process_record(
     prediction = process_sample(resources, audio, formatted_prompt, task_config)
 
     # Handle different return types based on task type
-    if isinstance(prediction, tuple) and task_config.speech_output:
-        predicted_value, output_audio_path = prediction
-        record["prediction"] = predicted_value
-        record["output_audio_path"] = output_audio_path
+    if isinstance(prediction, tuple):
+        if len(prediction) == 2:
+            # Check if this is a speech output task
+            if task_config.speech_output and isinstance(prediction[1], str):
+                predicted_value, output_audio_path = prediction
+                record["prediction"] = predicted_value
+                record["output_audio_path"] = output_audio_path
+            # Check if this is a function calling task with direct model function calls
+            elif task_config.process_function_calls and isinstance(prediction[1], list):
+                predicted_value, model_calls = prediction
+                record["prediction"] = predicted_value
+                record["function_calls"] = model_calls
+            else:
+                # Default handling for unrecognized tuple format
+                predicted_value = str(prediction)
+                record["prediction"] = predicted_value
+        else:
+            # Handle unexpected tuple size
+            predicted_value = str(prediction)
+            record["prediction"] = predicted_value
     else:
+        # For simple string responses
         predicted_value = prediction
         record["prediction"] = predicted_value
 
-    # Check if prediction is correct
     correct = 0
-    if expected_value and predicted_value:
-        if task_config.name=="speaker_diarization":
-            # correct = 1 - get_jer_score(expected_value, predicted_value)
-            #correct = 1 - get_der_score(expected_value, predicted_value)
-            pass # TODO: Include woody's logic
-        else:
-            if predicted_value.lower() == expected_value.lower():
+    if task_config.name == "deception_detection" and predicted_value:
+        if expected_value is not None:
+            expected_values = expected_value if isinstance(expected_value, list) else [expected_value]
+            expected_values = [v.lower() for v in expected_values]
+            if predicted_value.strip(".").lower() in expected_values:
                 correct = 1
+        if predicted_value.strip(".").lower() == "none" and expected_value == []:
+            correct = 1
     elif task_config.name=="pronunciation_oed" or task_config.name=="pronunciation_audio":
         input_audio_path = Path("data") / (task_config.audio_dir + audio_file if task_config.audio_dir else audio_file)
         gpt4o_judge = load_model("gpt-4o-audio-preview")
         correct = compare_speech(gpt4o_judge, audio_path_1=input_audio_path, audio_path_2=output_audio_path)["match"]
         record["score"] = correct
+    elif task_config.name == "deception_vote_prediction" and predicted_value:
+        player_names = record.get("PlayerNames", [])
+        for i, vote_index in enumerate(expected_value):
+            true_name = player_names[vote_index]
+            model_vote_name = predicted_value[i] if i < len(predicted_value) else None
+            correct += model_vote_name and model_vote_name.lower() == true_vote_name.lower()
+        return record, correct, len(expected_value)
+
+    elif task_config.name == "function_calling" and expected_value:
+        try:
+            from cats.function_calling import evaluate_intent_to_function_mapping
+
+            # Check if we already have function calls from the model
+            if task_config.process_function_calls and "function_calls" in record:
+                model_calls = record["function_calls"]
+                checks = evaluate_intent_to_function_mapping(expected_value, model_calls)["checks"]
+                correct += 1 if checks["slot_values_match"]["success"] else 0
+
+        except Exception as e:
+            print(f"Error in function calling evaluation: {e}")
+            record["error"] = str(e)
+    else:
+        if expected_value and predicted_value:
+            if task_config.name == "speaker_diarization":
+                correct = 1 - get_jer_score(expected_value, predicted_value)
+                # correct = 1 - get_der_score(expected_value, predicted_value)
+            else:
+                if predicted_value.lower() == expected_value.lower():
+                    correct = 1
 
     return record, correct, 1
 
@@ -910,9 +1456,21 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig, workers: 
     # Log path being used for debugging
     print(f"Loading data from: {data_path}")
 
+
     # Read all lines from the file
     with open(data_path, "r") as f:
         lines = f.readlines()
+    # For function calling, load function definitions if available
+    if task_config.name == "function_calling":
+        # Load function definitions if available
+        function_file = Path("data") / task_config.audio_dir / "functions.json"
+        if function_file.exists():
+            try:
+                with open(function_file, "r") as f:
+                    functions = json.load(f)
+                    print(f"Loaded {len(functions)} function definitions from {function_file}")
+            except Exception as e:
+                print(f"Error loading function definitions: {e}")
 
     from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -965,7 +1523,7 @@ def get_cache_stats():
     return stats
 
 
-def main(workers: int):
+def main(task="transcription", workers: int):
     """Entry point for the evaluation pipeline"""
     # Reset API counters at the start of a run
     reset_api_counters()
@@ -973,14 +1531,14 @@ def main(workers: int):
     # Print cache stats at the beginning
     cache_stats = get_cache_stats()
     print(
-        f"Cache stats: {cache_stats['volume']} items, {cache_stats['size']/1024/1024:.2f} MB at {cache_stats['directory']}"
+        f"Cache stats: {cache_stats['volume']} items, {cache_stats['size']/1024/1024:.2f} MB at"
+        f" {cache_stats['directory']}"
     )
 
     # Get available tasks
     tasks = create_task_configs()
 
-    # Define task to run
-    task_name = "pronunciation_oed"  # Change this to run different tasks
+    task_name = task
     task_config = tasks[task_name]
 
     # Model names to evaluate - now including API-based models
@@ -988,7 +1546,10 @@ def main(workers: int):
         # "Qwen/Qwen2-Audio-7B-Instruct",
         # "WillHeld/DiVA-llama-3-v0-8b",
         "models/gemini-2.0-flash-exp",
-        # "gpt-4o-audio-preview",
+        "gpt-4o-audio-preview",
+        # "pipeline_gpt-4o_gpt-4o-mini-tts_gpt-4o-mini-transcribe",
+        # "gpt-4o-mini-audio-preview",
+        # "gpt-4o-realtime-preview",
     ]
 
     # Run evaluations for each model using the provided number of worker threads
@@ -1023,6 +1584,7 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description="CATS evaluation pipeline")
+    parser.add_argument("--task", type=str, default="transcription")
     parser.add_argument("--clear-cache", action="store_true", help="Clear the API response cache before running")
     parser.add_argument("--cache-seed", type=str, help="Set a cache seed to force fresh API calls")
     parser.add_argument("--disable-cache", action="store_true", help="Disable caching for this run")
@@ -1031,7 +1593,8 @@ if __name__ == "__main__":
 
     if args.clear_cache:
         response = input(
-            "Warning: You are about to clear the cache. This action cannot be undone.\nDo you want to continue? [y/N]: "
+            "Warning: You are about to clear the cache. This action cannot be undone.\nDo you want to continue?"
+            " [y/N]: "
         )
         if response.lower() == "y":
             clear_cache()
@@ -1046,5 +1609,4 @@ if __name__ == "__main__":
         os.environ["CATS_DISABLE_CACHE"] = "true"
         print("Caching disabled for this run")
 
-    # Pass the workers argument from argparse to main
-    main(workers=args.workers)
+    main(args.task, workers=args.workers)

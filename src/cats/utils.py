@@ -1,4 +1,6 @@
-
+import re
+import numpy as np
+from scipy.optimize import linear_sum_assignment
 def parse_next_speaker_response(response_text):
     '''
     This function will help to parse the output from LM which contains both reasoning and speaker label to the speaker label like "A" or "B"'''
@@ -21,10 +23,9 @@ def parse_next_speaker_response(response_text):
             raise ValueError(f"Invalid speaker: {speaker}") 
         print(speaker)       
         return speaker
-import re
-
-import numpy as np
-from scipy.optimize import linear_sum_assignment
+    except Exception as e:
+        print(f"Error parsing response: {e}")
+        return None
 
 
 def get_jer_score(expected_value, predicted_value):

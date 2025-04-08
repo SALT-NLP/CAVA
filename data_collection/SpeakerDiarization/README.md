@@ -22,9 +22,9 @@ The dataset config will be saved in `data/SpeakerDiarization/audio_inputs.jsonl`
 Now you can safely delete `data/SpeakerDiarization/amicorpus`
 
 ## Alternative: You can directly download and process the data from huggingface
-The dataset is currently private, please feel free to text me on slack or request access for `rma9248/CATS-ami-speaker-diarization` on huggingface.
+Please cd back to the home directory of CATS first, then run this script:
 ```sh
-python download_from_hg.py
+python data/convert_from_hf.py --dataset rma9248/CATS-ami-speaker-diarization-audio --split train --audio-dir SpeakerDiarization --output audio_inputs.jsonl --preserve-columns --limit 1000
 ```
 
 

@@ -1,8 +1,6 @@
 # Next Speaker Data Collection Pipeline
 ## You can directly download and process the data from huggingface
-The dataset is currently private, please feel free to text me on slack or request access for `rma9248/CATS-ami-next-speaker` on huggingface.
+Please cd back to the home directory of CATS first, then run this script:
 ```sh
-python download_from_hg.py
+python data/convert_from_hf.py --dataset rma9248/CATS-ami-next-speaker-audio --split train --audio-dir NextSpeaker --output audio_inputs.jsonl --preserve-columns
 ```
-It is about 50 GB in file size and contains 1000 datapoints, so don't forget to clean your huggingface cache after downloading it.
-

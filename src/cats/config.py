@@ -180,7 +180,7 @@ def create_task_configs() -> Dict[str, TaskConfig]:
             audio_dir="jeopardy/",
             data_file="audio_inputs.jsonl",
         ),
-        "jeopardy": TaskConfig(
+        "jailbreak": TaskConfig(
             name="jailbreak",
             prompt_template="Please respond to the audio.",
             use_logits_processor=False,

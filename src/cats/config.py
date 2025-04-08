@@ -121,6 +121,15 @@ def create_task_configs() -> Dict[str, TaskConfig]:
             audio_dir="jeopardy/",
             data_file="audio_inputs.jsonl",
         ),
+        "multimodal_instruction_following": TaskConfig(
+            name="multimodal_instruction_following", 
+            prompt_template="", #generated on the fly for this task
+            use_logits_processor=False,
+            max_new_tokens=1000,  # Allow longer responses for transcripts
+            field_name="default_kwarg",
+            audio_dir="MultimodalInstructionFollowing/",
+            data_file="audio_inputs.jsonl",
+        )
     }
 
 

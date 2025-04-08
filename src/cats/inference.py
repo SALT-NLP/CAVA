@@ -26,12 +26,6 @@ from transformers import (
     Qwen2AudioForConditionalGeneration,
 )
 
-# newly added to resolve path issues when running inference.py
-import sys
-
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
-
 from cats.config import TaskConfig, create_task_configs, format_prompt_template
 from cats.utils import get_der_score, get_jer_score
 
@@ -1207,6 +1201,7 @@ def process_sample(
     # For text-only tasks or any unhandled case
     return task_config.output_processor(response)
 
+
 def process_record(
     resources: ModelResources, record: Dict[str, Any], task_config: TaskConfig
 ) -> Tuple[Dict[str, Any], int, int]:
@@ -1267,13 +1262,19 @@ def process_record(
         if expected_value is not None:
             expected_values = expected_value if isinstance(expected_value, list) else [expected_value]
             expected_values = [v.lower() for v in expected_values]
-            if predicted_value.strip('.').lower() in expected_values:
+            if predicted_value.strip(".").lower() in expected_values:
                 correct = 1
-        if predicted_value.strip('.').lower() == "none" and expected_value == []:
+        if predicted_value.strip(".").lower() == "none" and expected_value == []:
             correct = 1
+    elif task_config.name == "deception_vote_prediction" and predicted_value:
+        player_names = record.get("PlayerNames", [])
+        for i, vote_index in enumerate(expected_value):
+            true_name = player_names[vote_index]
+            model_vote_name = predicted_value[i] if i < len(predicted_value) else None
+            correct += model_vote_name and model_vote_name.lower() == true_vote_name.lower()
+        return record, correct, len(expected_value)
 
-    # For function calling tasks, we need special evaluation
-    if task_config.name == "function_calling" and expected_value:
+    elif task_config.name == "function_calling" and expected_value:
         try:
             from cats.function_calling import evaluate_intent_to_function_mapping
 
@@ -1313,8 +1314,7 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
     total = 0
     records_with_preds = []
 
-    module_root = Path(__file__).parent.parent.parent  # Go up three levels: src/cats -> src -> root
-    data_path = module_root / "data" / task_config.audio_dir / task_config.data_file
+    data_path = Path("data") / task_config.audio_dir / task_config.data_file
 
     # Ensure data_path exists
     if not data_path.exists():
@@ -1326,7 +1326,6 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
 
     # For function calling, load function definitions if available
     if task_config.name == "function_calling":
-
         # Load function definitions if available
         function_file = Path("data") / task_config.audio_dir / "functions.json"
         if function_file.exists():
@@ -1366,6 +1365,7 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
     accuracy = correct / total if total > 0 else 0
     print(f"Model: {resources.model_name}, Task: {task_config.name}, Accuracy: {accuracy:.2%}")
     return accuracy, records_with_preds
+
 
 # For werewolf voting prediction task only
 # def clean_prediction(prediction_str: str) -> List[str]:

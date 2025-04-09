@@ -64,7 +64,7 @@ def create_task_configs() -> Dict[str, TaskConfig]:
             audio_dir="EmoCF/",
             data_file="audio_inputs.jsonl",
         ),
-        "nextSpeaker": TaskConfig(
+        "next_speaker": TaskConfig(
             name="next_speaker",
             data_file="audio_inputs.jsonl",
             audio_dir="NextSpeaker/",

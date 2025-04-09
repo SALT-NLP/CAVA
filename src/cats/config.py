@@ -53,12 +53,13 @@ def create_task_configs() -> Dict[str, TaskConfig]:
             audio_dir="transcription_test/",
             data_file="audio_inputs.jsonl",
         ),
-        "nextSpeaker":TaskConfig(
-        name="next_speaker",
-        data_file="audio_inputs.jsonl",
-        audio_dir="NextSpeaker/",
-        field_name="speaker_answer",  
-        prompt_template=("""
+        "next_speaker": TaskConfig(
+            name="next_speaker",
+            data_file="audio_inputs.jsonl",
+            audio_dir="NextSpeaker/",
+            field_name="speaker_answer",
+            prompt_template=(
+                """
             You will analyze the following **meeting audio** to determine **who will speak next**.
 
             **Context:**
@@ -75,15 +76,18 @@ def create_task_configs() -> Dict[str, TaskConfig]:
                             {formatted_speaker_list}
             Please answer in the following format: \nReasoning: [Your reasoning here]. \nSpeaker: [The speaker's label here(e.g., \"A\",\"B\")].
             """
-        ),
-        template_fields={"transcription": "context_transcription", "formatted_speaker_list":"formatted_speaker_list"},  # Template fields to replace
-        labels=[],  
-        use_logits_processor=False,  #considering COT is important for this task, i would like the model to give reason first and then the speaker label
-        verify_tokenization=False,
-        max_new_tokens=1000, 
-        output_processor=lambda x: parse_next_speaker_response(x),  
-        output_audio_dir=None,
-        speech_output=False
+            ),
+            template_fields={
+                "transcription": "context_transcription",
+                "formatted_speaker_list": "formatted_speaker_list",
+            },  # Template fields to replace
+            labels=[],
+            use_logits_processor=False,  # considering COT is important for this task, i would like the model to give reason first and then the speaker label
+            verify_tokenization=False,
+            max_new_tokens=1000,
+            output_processor=lambda x: parse_next_speaker_response(x),
+            output_audio_dir=None,
+            speech_output=False,
         ),
         "deception_detection": TaskConfig(
             name="deception_detection",

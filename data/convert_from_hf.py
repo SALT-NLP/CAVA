@@ -36,7 +36,6 @@ def parse_args():
     parser.add_argument("--audio-dir", type=str, required=True, help="Directory to save audio files")
     parser.add_argument("--output", type=str, required=True, help="Output JSONL file name")
     parser.add_argument("--audio-column", type=str, default="audio", help="Column containing audio data")
-    parser.add_argument("--preserve-columns", action="store_true", help="Preserve all columns from original dataset")
     parser.add_argument("--exclude-columns", type=str, nargs="*", default=[], help="Columns to exclude from output")
     parser.add_argument("--limit", type=int, default=None, help="Limit number of examples to convert")
     parser.add_argument("--data-dir", type=str, default="data", help="Base data directory")
@@ -96,16 +95,15 @@ def convert_dataset(args):
         record = {"filename": filename}
 
         # Add other fields from the dataset
-        if args.preserve_columns:
-            for key, value in example.items():
-                if key not in args.exclude_columns and key != args.audio_column:
-                    # Skip audio data and excluded columns
-                    # Convert numpy arrays to lists for JSON serialization
-                    if isinstance(value, np.ndarray):
-                        record[key] = value.tolist()
-                    elif not isinstance(value, dict) or key == args.audio_column:
-                        # Skip complex objects but include the audio column
-                        record[key] = value
+        for key, value in example.items():
+            if key not in args.exclude_columns and key != args.audio_column:
+                # Skip audio data and excluded columns
+                # Convert numpy arrays to lists for JSON serialization
+                if isinstance(value, np.ndarray):
+                    record[key] = value.tolist()
+                elif not isinstance(value, dict) or key == args.audio_column:
+                    # Skip complex objects but include the audio column
+                    record[key] = value
 
         records.append(record)
 

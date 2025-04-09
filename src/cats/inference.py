@@ -940,6 +940,7 @@ def process_with_openai_pipeline(
     try:
         # Step 1: Convert input audio to text using STT
         # Save audio to temporary file
+        audio["array"] = audio["array"][-1 * (1500 * audio["sampling_rate"]) :]
         temp_audio_path = save_temp_audio(audio, task_config.name, "openai-pipeline")
 
         # Create a file object for the API
@@ -1081,7 +1082,7 @@ def process_with_openai_pipeline(
                     return task_config.labels[0] if task_config.labels else ""
 
         # Apply task-specific output processing
-        processed_response = task_config.output_processor(llm_response or "")
+        processed_response = llm_response or ""
 
         # Step 3: Convert text to speech if requested
         if task_config.speech_output:
@@ -1504,8 +1505,8 @@ def main(task="transcription"):
         # "Qwen/Qwen2-Audio-7B-Instruct",
         # "WillHeld/DiVA-llama-3-v0-8b",
         # "models/gemini-2.0-flash-exp",
-        "gpt-4o-audio-preview",
-        # "pipeline_gpt-4o_gpt-4o-mini-tts_gpt-4o-mini-transcribe",
+        # "gpt-4o-audio-preview",
+        "pipeline_gpt-4o_gpt-4o-mini-tts_gpt-4o-mini-transcribe",
         # "gpt-4o-mini-audio-preview",
         # "gpt-4o-realtime-preview",
     ]

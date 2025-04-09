@@ -1283,7 +1283,7 @@ def process_record(
             if task_config.process_function_calls and "function_calls" in record:
                 model_calls = record["function_calls"]
                 checks = evaluate_intent_to_function_mapping(expected_value, model_calls)["checks"]
-                correct += 1 if checks["slot_values_match"]["success"] else 0
+                correct += 1 if checks["function_counts_match"]["success"] else 0
 
         except Exception as e:
             print(f"Error in function calling evaluation: {e}")

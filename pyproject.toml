@@ -33,6 +33,10 @@ dependencies = [
     "tqdm",
     "argparse",
     "diskcache",
+    "pandas",
+    "pydub",
+    "numpy<2.0",
+    "scipy",
 ]
 
 [tool.hatch.build]

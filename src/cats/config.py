@@ -41,7 +41,7 @@ def create_task_configs() -> Dict[str, TaskConfig]:
             labels=["joy", "surprise", "anger", "sadness", "neutral"],
             max_new_tokens=1,
             field_name="emotion",
-            audio_dir="generated_audio/",
+            audio_dir="EmoCF/",
             data_file="audio_inputs.jsonl",
             verify_tokenization=True,  # Enable tokenization verification for labels
         ),
@@ -83,6 +83,17 @@ Please respond with only the word read aloud clearly, do not say anything else o
             output_audio_dir="output_pronunciation_audio/",
             audio_input=True,
             template_fields={"word": "word", "region": "region", "OED": "OED"},  # Map placeholders to record fields
+        ),
+        "tone_aware_reply": TaskConfig(
+            name="tone_aware_reply",
+            prompt_template=(
+                "Reply conversationally. Pay attention to the tone in which the user speaks and make your respond appropriately."
+            ),
+            use_logits_processor=False,
+            max_new_tokens=150,
+            field_name="known_reply",
+            audio_dir="EmoCF/",
+            data_file="audio_inputs.jsonl",
         ),
         "nextSpeaker":TaskConfig(
         name="next_speaker",

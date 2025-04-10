@@ -961,6 +961,7 @@ def process_with_openai_pipeline(
     try:
         # Step 1: Convert input audio to text using STT
         # Save audio to temporary file
+        audio["array"] = audio["array"][-1 * (1500 * audio["sampling_rate"]) :]
         temp_audio_path = save_temp_audio(audio, task_config.name, "openai-pipeline")
 
         # Create a file object for the API
@@ -1109,7 +1110,7 @@ def process_with_openai_pipeline(
                     return task_config.labels[0] if task_config.labels else ""
 
         # Apply task-specific output processing
-        processed_response = task_config.output_processor(llm_response or "")
+        processed_response = llm_response or ""
 
         # Step 3: Convert text to speech if requested
         if task_config.speech_output:
@@ -1297,7 +1298,7 @@ def process_record(
     elif task_config.name == "deception_vote_prediction" and predicted_value:
         player_names = record.get("PlayerNames", [])
         for i, vote_index in enumerate(expected_value):
-            true_name = player_names[vote_index]
+            true_vote_name = player_names[vote_index]
             model_vote_name = predicted_value[i] if i < len(predicted_value) else None
             correct += model_vote_name and model_vote_name.lower() == true_vote_name.lower()
         return record, correct, len(expected_value)
@@ -1316,7 +1317,7 @@ def process_record(
             if task_config.process_function_calls and "function_calls" in record:
                 model_calls = record["function_calls"]
                 checks = evaluate_intent_to_function_mapping(expected_value, model_calls)["checks"]
-                correct += 1 if checks["slot_values_match"]["success"] else 0
+                correct += 1 if checks["function_counts_match"]["success"] else 0
 
         except Exception as e:
             print(f"Error in function calling evaluation: {e}")
@@ -1405,102 +1406,6 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
     return accuracy, records_with_preds
 
 
-# For werewolf voting prediction task only
-# def clean_prediction(prediction_str: str) -> List[str]:
-#     """
-#     Cleans and parses the prediction field which is a multiline string of predicted vote names.
-#     It removes introductory header lines (if any) and strips out markdown asterisks.
-#     """
-#     lines = prediction_str.strip().splitlines()
-#     votes = []
-#     for line in lines:
-#         clean_line = line.strip()
-#         # If the line contains keywords that indicate it's header text, skip it.
-#         if any(keyword in clean_line.lower() for keyword in ["predicted", "votes", "based on the provided audio"]):
-#             continue
-#         # Remove markdown asterisks if present.
-#         clean_line = clean_line.replace("*", "").strip()
-#         votes.append(clean_line)
-#     return votes
-
-# # For werewolf voting prediction task only
-# def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[Dict[str, float], List[Dict[str, Any]]]:
-#     """
-#     Run evaluation on a dataset
-
-#     Args:
-#         resources: Model resources
-#         task_config: Task configuration
-
-#     Returns:
-#         Tuple of (metrics dictionary, processed records)
-#     """
-#     correct_predictions = 0
-#     total_predictions = 0
-#     records_with_preds = []
-
-#     data_path = Path("data") / task_config.audio_dir / task_config.data_file
-#     if not data_path.exists():
-#         data_path = Path(task_config.audio_dir) / task_config.data_file
-
-#     print(f"Loading data from: {data_path}")
-
-#     with open(data_path, "r") as f:
-#         pbar = tqdm(f)
-#         for line in pbar:
-#             if not line.strip():
-#                 continue
-#             data = json.loads(line)
-
-#             # Call process_record to attach prediction
-#             processed_record, _, _ = process_record(resources, data, task_config)
-#             prediction_str = processed_record.get("prediction", "")
-#             player_names = processed_record.get("PlayerNames", [])
-#             voting_outcome = processed_record.get("votingOutcome", [])
-#             filename = processed_record.get("filename", "unknown")
-
-#             predictions = clean_prediction(prediction_str)
-
-#             for i, vote_index in enumerate(voting_outcome):
-#                 if isinstance(vote_index, str) and vote_index.strip().upper() == "N/A":
-#                     print(f"[{filename}] Skipping N/A vote for player {i}")
-#                     continue
-#                 try:
-#                     vote_index = int(vote_index)
-#                     true_vote_name = player_names[vote_index]
-#                 except (ValueError, IndexError):
-#                     print(f"\n[{filename}] Invalid vote index: {vote_index}")
-#                     print(f"  -> PlayerNames: {player_names}")
-#                     print(f"  -> VotingOutcome: {voting_outcome}")
-#                     # Change here: print the original data as in B
-#                     print(f"  -> Full line: {data}")
-#                     continue
-
-#                 model_vote_name = predictions[i] if i < len(predictions) else None
-#                 total_predictions += 1
-
-#                 if model_vote_name and model_vote_name.lower() == true_vote_name.lower():
-#                     correct_predictions += 1
-
-#             # Add to output
-#             records_with_preds.append(processed_record)
-
-#             if total_predictions > 0:
-#                 pbar.set_description(f"{task_config.name}: Acc={100*(correct_predictions/total_predictions):.2f}% (N={total_predictions})")
-
-#     accuracy = correct_predictions / total_predictions if total_predictions > 0 else 0
-#     print(f"Model: {resources.model_name}, Task: {task_config.name}, Accuracy: {accuracy:.2%}")
-#     metrics = {"accuracy": accuracy}
-
-#     output_path = f"{data_path}_{resources.model_name.split('/')[-1]}_{task_config.name}"
-#     with open(output_path, "w") as f:
-#         for entry in records_with_preds:
-#             json.dump(entry, fp=f, ensure_ascii=False)
-#             f.write("\n")
-
-#     return metrics, records_with_preds
-
-
 def reset_api_counters():
     """Reset all API call counters to zero"""
     for key in API_CALL_COUNTERS:
@@ -1541,9 +1446,9 @@ def main(task="transcription"):
     model_names = [
         # "Qwen/Qwen2-Audio-7B-Instruct",
         # "WillHeld/DiVA-llama-3-v0-8b",
-        #"models/gemini-2.0-flash-exp",
+        "models/gemini-2.0-flash-exp",
         "gpt-4o-audio-preview",
-        #"pipeline_gpt-4o_gpt-4o-mini-tts_gpt-4o-mini-transcribe",
+        "pipeline_gpt-4o_gpt-4o-mini-tts_gpt-4o-mini-transcribe",
         # "gpt-4o-mini-audio-preview",
         # "gpt-4o-realtime-preview",
     ]

@@ -64,12 +64,13 @@ def create_task_configs() -> Dict[str, TaskConfig]:
             audio_dir="EmoCF/",
             data_file="audio_inputs.jsonl",
         ),
-        "nextSpeaker":TaskConfig(
-        name="next_speaker",
-        data_file="audio_inputs.jsonl",
-        audio_dir="NextSpeaker/",
-        field_name="speaker_answer",  
-        prompt_template=("""
+        "next_speaker": TaskConfig(
+            name="next_speaker",
+            data_file="audio_inputs.jsonl",
+            audio_dir="NextSpeaker/",
+            field_name="speaker_answer",
+            prompt_template=(
+                """
             You will analyze the following **meeting audio** to determine **who will speak next**.
 
             **Context:**

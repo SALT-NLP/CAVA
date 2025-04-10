@@ -5,6 +5,7 @@
 
 .cats_cache
 *.log
+*.DS_Store
 
 # ReverseSpellingBee
 /data_collection/ReverseSpellingBee/audio_files/
@@ -24,7 +25,6 @@
 /output_pronunciation_oed/
 /output_pronunciation_audio/
 
-*.DS_Store
 
 # NextSpeaker dataset
 /data/NextSpeaker
@@ -36,5 +36,8 @@
 # SpeakerDiarization
 /data/SpeakerDiarization/audio/
 /data/SpeakerDiarization/amicorpus/
+
 # Jeopardy
 /data/jeopardy/data/*.wav
+
+*.wav

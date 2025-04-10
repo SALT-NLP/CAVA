@@ -14,7 +14,7 @@ import numpy as np
 import soundfile as sf
 import torch
 from dotenv import load_dotenv
-from pydantic import BaseModel
+from pydantic import BaseModel, create_model
 from tqdm import tqdm
 from transformers import (
     AutoModel,
@@ -75,12 +75,14 @@ def create_schema_wrapper(field_name: str, enum_type=None) -> Type[BaseModel]:
     Returns:
         Dynamically created Pydantic model class
     """
+    model_name = f"{field_name.capitalize()}Wrapper"
+
     if enum_type:
-        # Create a model with an enum field
-        return type(f"{field_name.capitalize()}Wrapper", (BaseModel,), {field_name: enum_type})
+        # Create a model with the enum field
+        return create_model(model_name, **{field_name: (enum_type, ...)})  # ... means required field
     else:
         # Create a model with a string field
-        return type(f"{field_name.capitalize()}Wrapper", (BaseModel,), {field_name: (str, ...)})
+        return create_model(model_name, **{field_name: (str, ...)})  # ... means required field
 
 
 # Define model configuration
@@ -411,8 +413,15 @@ def process_with_qwen(
         # Apply chat template
         text_input = resources.processor.apply_chat_template(conversation, add_generation_prompt=True, tokenize=False)
 
+        audios = [librosa.load(temp_audio_path, sr=resources.processor.feature_extractor.sampling_rate)[0]]
+
         # Tokenize input
-        inputs = resources.tokenizer(text=text_input, return_tensors="pt").to("cuda")
+        inputs = resources.processor(
+            text=text_input,
+            audios=audios,
+            sampling_rate=resources.processor.feature_extractor.sampling_rate,
+            return_tensors="pt",
+        ).to("cuda")
 
         # Prepare generation kwargs
         gen_kwargs = {**inputs, "max_new_tokens": task_config.max_new_tokens}
@@ -499,6 +508,8 @@ def process_with_gemini(
     """
     import google.generativeai as genai
 
+    time.sleep(1)
+
     # Check API call limit
     if not check_api_call_limit("gemini"):
         # Return default value if limit reached
@@ -517,7 +528,7 @@ def process_with_gemini(
 
         # Set up retry logic
         max_retries = 5
-        sleep_time = 10
+        sleep_time = 20
 
         # Try to generate content with retries for API rate limits
         for attempt in range(max_retries):
@@ -603,7 +614,8 @@ def process_with_openai(
         # If we have labels for constrained generation, use schema
         if task_config.labels and task_config.use_logits_processor:
             # Dynamically create a pydantic model for structured output
-            SchemaWrapper = create_schema_wrapper(task_config.field_name)
+            DynamicEnum = create_enum_from_labels(task_config.labels, f"{task_config.name.capitalize()}Enum")
+            SchemaWrapper = create_schema_wrapper(task_config.field_name, DynamicEnum)
 
             # Add schema format guidance
             messages_content[0]["content"][0]["text"] += "\nFormat: " + json.dumps(SchemaWrapper.model_json_schema())
@@ -793,7 +805,8 @@ def process_with_openai_realtime(
         # If we have labels for constrained generation, use schema
         if task_config.labels and task_config.use_logits_processor:
             # Dynamically create a pydantic model for structured output
-            SchemaWrapper = create_schema_wrapper(task_config.field_name)
+            DynamicEnum = create_enum_from_labels(task_config.labels, f"{task_config.name.capitalize()}Enum")
+            SchemaWrapper = create_schema_wrapper(task_config.field_name, DynamicEnum)
 
             # Add schema format guidance
             messages_content["item"]["content"][0]["text"] += "\nFormat: " + json.dumps(
@@ -937,6 +950,14 @@ def process_with_openai_pipeline(
         # Return default value if limit reached
         return task_config.labels[0] if task_config.labels else "API limit reached"
 
+    # If we have labels for constrained generation, use schema
+    if task_config.labels and task_config.use_logits_processor:
+        # Dynamically create a pydantic model for structured output
+        DynamicEnum = create_enum_from_labels(task_config.labels, f"{task_config.name.capitalize()}Enum")
+        SchemaWrapper = create_schema_wrapper(task_config.field_name, DynamicEnum)
+    else:
+        SchemaWrapper = None
+
     try:
         # Step 1: Convert input audio to text using STT
         # Save audio to temporary file
@@ -962,6 +983,7 @@ def process_with_openai_pipeline(
         # For function calling, load functions if available
         tools = None
         all_function_calls = []
+
         if task_config.process_function_calls:
             function_file = Path("data") / task_config.audio_dir / "functions.json"
             if function_file.exists():
@@ -994,6 +1016,7 @@ def process_with_openai_pipeline(
                     "model": llm_model,
                     "messages": messages,
                     "temperature": task_config.temperature if hasattr(task_config, "temperature") else 0,
+                    "response_format": SchemaWrapper,
                 }
 
                 # Add tools for function calling task
@@ -1002,7 +1025,10 @@ def process_with_openai_pipeline(
                     api_args["tool_choice"] = "required"
 
                 # Make the API call
-                completion = resources.model.chat.completions.create(**api_args)
+                if SchemaWrapper:
+                    completion = resources.model.beta.chat.completions.parse(**api_args)
+                else:
+                    completion = resources.model.chat.completions.create(**api_args)
                 all_function_calls = []
 
                 # Initialize conversation for the function calling loop
@@ -1063,7 +1089,9 @@ def process_with_openai_pipeline(
                     completion = resources.model.chat.completions.create(**api_args)
 
                 # If we didn't go through the function calling loop, get the regular response
-                if not all_function_calls:
+                if SchemaWrapper:
+                    llm_response = list(json.loads(completion.choices[0].message.content).values())[0]
+                elif not all_function_calls:
                     llm_response = completion.choices[0].message.content
                 else:
                     # Use the final response from the conversation
@@ -1503,9 +1531,9 @@ def main(task="transcription"):
     model_names = [
         # "Qwen/Qwen2-Audio-7B-Instruct",
         # "WillHeld/DiVA-llama-3-v0-8b",
-        # "models/gemini-2.0-flash-exp",
+        "models/gemini-2.0-flash-exp",
         "gpt-4o-audio-preview",
-        # "pipeline_gpt-4o_gpt-4o-mini-tts_gpt-4o-mini-transcribe",
+        "pipeline_gpt-4o_gpt-4o-mini-tts_gpt-4o-mini-transcribe",
         # "gpt-4o-mini-audio-preview",
         # "gpt-4o-realtime-preview",
     ]

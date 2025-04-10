@@ -25,6 +25,10 @@
 
 *.DS_Store
 
+# NextSpeaker dataset
+/data/NextSpeaker
+/data/NextSpeaker/audio_inputs.jsonl
+
 # Function Calling
 /data/function_calling_test/*.wav
 

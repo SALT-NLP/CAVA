@@ -410,8 +410,15 @@ def process_with_qwen(
         # Apply chat template
         text_input = resources.processor.apply_chat_template(conversation, add_generation_prompt=True, tokenize=False)
 
+        audios = [librosa.load(temp_audio_path, sr=resources.processor.feature_extractor.sampling_rate)[0]]
+
         # Tokenize input
-        inputs = resources.tokenizer(text=text_input, return_tensors="pt").to("cuda")
+        inputs = resources.processor(
+            text=text_input,
+            audios=audios,
+            sampling_rate=resources.processor.feature_extractor.sampling_rate,
+            return_tensors="pt",
+        ).to("cuda")
 
         # Prepare generation kwargs
         gen_kwargs = {**inputs, "max_new_tokens": task_config.max_new_tokens}
@@ -515,7 +522,7 @@ def process_with_gemini(
         ]
 
         # Set up retry logic
-        max_retries = 5
+        max_retries = 50
         sleep_time = 1
 
         # Try to generate content with retries for API rate limits
@@ -851,7 +858,7 @@ def main():
     tasks = create_task_configs()
 
     # Define task to run
-    task_name = "transcription"  # Change this to run different tasks
+    task_name = "tone_aware_reply"  # Change this to run different tasks
     task_config = tasks[task_name]
 
     # Model names to evaluate - now including API-based models

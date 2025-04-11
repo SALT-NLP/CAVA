@@ -35,7 +35,6 @@ from cats.speech_judge import compare_speech
 from cats.utils import get_der_score, get_jer_score
 
 
-
 # Global API call counters for rate limiting
 API_CALL_COUNTERS = {"gemini": 0, "openai": 0}
 
@@ -98,9 +97,10 @@ class ModelResources(NamedTuple):
     tokenizer: Any
     processor: Any
     model: Any
-    client: Any # Some realtime models have a client object for API calls
+    client: Any  # Some realtime models have a client object for API calls
     model_name: str
     model_type: str  # Type indicator: 'transformers', 'gemini', 'openai'
+
 
 def load_model(model_name: str) -> ModelResources:
     """
@@ -142,7 +142,7 @@ def load_model(model_name: str) -> ModelResources:
             tokenizer = None
             processor = None
             model_type = "gemini"
-            client = genclient.Client(api_key=api_key, http_options={'api_version': 'v1alpha'})
+            client = genclient.Client(api_key=api_key, http_options={"api_version": "v1alpha"})
 
         elif "gpt" in model_name.lower():
             # Import here to avoid dependency issues if not using OpenAI
@@ -245,7 +245,6 @@ def save_temp_audio(audio: Dict[str, Any], task_name: str, model_type: str) -> s
     # Create a temporary file with proper suffix
     tmp_dir = tempfile.gettempdir()
     temp_audio_path = Path(tmp_dir) / f"cats_{task_name}_{model_type}_{int(time.time())}.wav"
-
     sf.write(str(temp_audio_path), audio["array"], audio["sampling_rate"], format="wav")
     return str(temp_audio_path)
 
@@ -496,7 +495,7 @@ def process_with_diva(
     try:
         # Prepare generation kwargs
         gen_kwargs = {
-            "audio": [audio["array"]] if audio else [None], # Untested if None works
+            "audio": [audio["array"]] if audio else [None],  # Untested if None works
             "text_prompt": ["\n" + text_prompt],
             "max_new_tokens": task_config.max_new_tokens,
         }
@@ -516,6 +515,7 @@ def process_with_diva(
     finally:
         # Clean up temporary file
         cleanup_temp_audio(temp_audio_path)
+
 
 async def _process_with_gemini_audio_async(
     resources: ModelResources, text_prompt: str, task_config: TaskConfig, temp_audio_path: str
@@ -576,6 +576,7 @@ async def _process_with_gemini_audio_async(
                 print(f"Failed after {max_retries} attempts in audio mode: {e}")
                 raise e
 
+
 @api_cached
 def process_with_gemini(
     resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
@@ -605,18 +606,15 @@ def process_with_gemini(
     temp_audio_path = save_temp_audio(audio, task_config.name, "gemini") if audio else ""
 
     try:
-        if task_config.speech_output:
-            # Audio output branch – run our async helper
-            # Create inputs for the model
-            prompt = text_prompt
-            inputs = [
-                prompt,
-                {"mime_type": "audio/wav", "data": Path(temp_audio_path).read_bytes()},
-            ]
-
         # Set up retry logic
         max_retries = 5
         sleep_time = 20
+        # Build inputs – if audio input is provided, include it
+        inputs = [text_prompt]
+        if audio:
+            inputs.append({"mime_type": "audio/wav", "data": Path(temp_audio_path).read_bytes()})
+        if task_config.speech_output:
+            # Audio output branch – run our async helper
 
             # Try to generate content with retries for API rate limits
             for attempt in range(max_retries):
@@ -633,19 +631,12 @@ def process_with_gemini(
             # Text-only branch
             import google.generativeai as genai
 
-            # Build inputs – if audio input is provided, include it
-            inputs = [text_prompt]
-            if audio:
-                from pathlib import Path
-                inputs.append({"mime_type": "audio/wav", "data": Path(temp_audio_path).read_bytes()})
-
-            max_retries = 5
-            sleep_time = 1
-
             for attempt in range(max_retries):
                 try:
                     if task_config.labels and task_config.use_logits_processor:
-                        DynamicEnum = create_enum_from_labels(task_config.labels, f"{task_config.name.capitalize()}Enum")
+                        DynamicEnum = create_enum_from_labels(
+                            task_config.labels, f"{task_config.name.capitalize()}Enum"
+                        )
                         response = resources.model.generate_content(
                             inputs,
                             generation_config=genai.GenerationConfig(
@@ -654,7 +645,7 @@ def process_with_gemini(
                         )
                     else:
                         response = resources.model.generate_content(inputs)
-                    
+
                     response_text = response.candidates[0].content.parts[0].text
                     success = True
                     return response_text, success
@@ -706,28 +697,32 @@ def process_with_openai(
                 encoded_audio = base64.b64encode(audio_file.read()).decode("utf-8")
 
         # Prepare content
-        messages_content = [
-            {
-                "role": "user",
-                "content": [
-                    {"type": "text", "text": text_prompt},
-                    {
-                        "type": "input_audio",
-                        "input_audio": {
-                            "data": encoded_audio,
-                            "format": "wav",
+        messages_content = (
+            [
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": text_prompt},
+                        {
+                            "type": "input_audio",
+                            "input_audio": {
+                                "data": encoded_audio,
+                                "format": "wav",
+                            },
                         },
-                    },
-                ],
-            },
-        ] if audio else [
-            {
-                "role": "user",
-                "content": [
-                    {"type": "text", "text": text_prompt},
-                ],
-            },
-        ]
+                    ],
+                },
+            ]
+            if audio
+            else [
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": text_prompt},
+                    ],
+                },
+            ]
+        )
 
         # If we have labels for constrained generation, use schema
         if task_config.labels and task_config.use_logits_processor:
@@ -838,7 +833,9 @@ def process_with_openai(
                 output_audio_path = None
                 if task_config.speech_output and hasattr(completion.choices[0].message, "audio"):
                     audio_data = base64.b64decode(completion.choices[0].message.audio.data)
-                    record_id = os.path.basename(temp_audio_path).split("_")[0] if temp_audio_path else uuid.uuid4().hex
+                    record_id = (
+                        os.path.basename(temp_audio_path).split("_")[0] if temp_audio_path else uuid.uuid4().hex
+                    )
 
                     output_audio_path = save_model_speech_output(
                         audio_data, task_config, os.path.basename(temp_audio_path).split("_")[0], resources.model_name
@@ -985,7 +982,10 @@ def process_with_openai_realtime(
                         ):
                             audio_data = base64.b64decode(server_event["response"]["output"][0]["content"][1]["audio"])
                             output_audio_path = save_model_speech_output(
-                                audio_data, task_config, os.path.basename(temp_audio_path).split("_")[0]
+                                audio_data,
+                                task_config,
+                                os.path.basename(temp_audio_path).split("_")[0],
+                                resources.model_name,
                             )
 
                         if response_text.strip() != "":
@@ -1072,6 +1072,7 @@ def process_with_openai_pipeline(
         Model output text, or tuple of (output text, path to output audio) for speech tasks,
         or tuple of (output text, function_calls) for function calling tasks
     """
+    success = False
     # Check API call limit
     if not check_api_call_limit("openai"):
         # Return default value if limit reached
@@ -1088,21 +1089,24 @@ def process_with_openai_pipeline(
     try:
         # Step 1: Convert input audio to text using STT
         # Save audio to temporary file
-        audio["array"] = audio["array"][-1 * (1500 * audio["sampling_rate"]) :]
-        temp_audio_path = save_temp_audio(audio, task_config.name, "openai-pipeline")
+        if audio:
+            audio["array"] = audio["array"][-1 * (1500 * audio["sampling_rate"]) :]
+            temp_audio_path = save_temp_audio(audio, task_config.name, "openai-pipeline")
 
-        # Create a file object for the API
-        with open(temp_audio_path, "rb") as audio_file:
-            transcription = resources.model.audio.transcriptions.create(
-                model=stt_model,
-                file=audio_file,
-            )
+            # Create a file object for the API
+            with open(temp_audio_path, "rb") as audio_file:
+                transcription = resources.model.audio.transcriptions.create(
+                    model=stt_model,
+                    file=audio_file,
+                )
 
-        transcribed_text = transcription.text
+            transcribed_text = transcription.text
 
-        # Step 2: Process with LLM
-        # Combine the transcribed text with the text prompt
-        combined_prompt = f'[BEGIN AUDIO] "{transcribed_text}"[END AUDIO]\n\n{text_prompt}'
+            # Step 2: Process with LLM
+            # Combine the transcribed text with the text prompt
+            combined_prompt = f'[BEGIN AUDIO] "{transcribed_text}"[END AUDIO]\n\n{text_prompt}'
+        else:
+            combined_prompt = text_prompt
 
         # Set up retry logic
         max_retries = 5
@@ -1128,8 +1132,17 @@ def process_with_openai_pipeline(
             {
                 "role": "user",
                 "content": (
-                    "You are acting as the middle part of a pipelined LLM system for Speech. The content of the audio"
-                    " will be wrapped in [BEGIN AUDIO] and [END AUDIO]"
+                    (
+                        "You are acting as the middle part of a pipelined LLM system for Speech. The content of the audio"
+                        " will be wrapped in [BEGIN AUDIO] and [END AUDIO].\n"
+                        if audio
+                        else ""
+                    )
+                    + (
+                        "Your response will be sent to a Text-to-speech system, so pretend you have speech output capabilities. Do not refuse on the grounds of 'I'm unable to produce audio directly' because I will use your outputs with a TTS system to produce audio."
+                        if task_config.speech_output
+                        else ""
+                    )
                 ),
             },
             {"role": "user", "content": combined_prompt},
@@ -1224,6 +1237,7 @@ def process_with_openai_pipeline(
                 else:
                     # Use the final response from the conversation
                     llm_response = final_response
+                success = True
 
                 break
             except Exception as e:
@@ -1241,12 +1255,13 @@ def process_with_openai_pipeline(
 
         # Step 3: Convert text to speech if requested
         if task_config.speech_output:
+            success = False
             # Set up TTS options
             tts_options = {
                 "model": tts_model,
                 "voice": tts_voice,
                 "input": processed_response,
-                "response_format": "mp3",
+                "response_format": "wav",
             }
 
             # Add instructions if provided
@@ -1260,14 +1275,14 @@ def process_with_openai_pipeline(
 
                     # Save the audio output
                     output_audio_path = save_model_speech_output(
-                        response.content, task_config, f"pipeline_output_{int(time.time())}"
+                        response.content, task_config, f"pipeline_output_{int(time.time())}", resources.model_name
                     )
-
+                    success = True
                     # For function calling tasks with speech output
                     if task_config.process_function_calls and all_function_calls:
-                        return processed_response, output_audio_path, all_function_calls
+                        return processed_response, output_audio_path, all_function_calls, success
                     # For speech output tasks
-                    return processed_response, output_audio_path
+                    return processed_response, output_audio_path, success
                 except Exception as e:
                     if attempt < max_retries - 1:
                         print(f"OpenAI TTS API error: {e}. Retrying after {sleep_time}s...")
@@ -1279,9 +1294,9 @@ def process_with_openai_pipeline(
 
         # Return appropriate result based on task type
         if task_config.process_function_calls and all_function_calls:
-            return processed_response, all_function_calls
+            return processed_response, all_function_calls, success
         else:
-            return processed_response
+            return processed_response, success
 
     except Exception as e:
         print(f"Pipeline error: {e}")
@@ -1422,7 +1437,7 @@ def process_record(
                 correct = 1
         if predicted_value.strip(".").lower() == "none" and expected_value == []:
             correct = 1
-    elif task_config.name=="pronunciation_oed" or task_config.name=="pronunciation_audio":
+    elif task_config.name == "pronunciation_oed" or task_config.name == "pronunciation_audio":
         input_audio_path = Path("data") / (task_config.audio_dir + audio_file if task_config.audio_dir else audio_file)
         gpt4o_judge = load_model("gpt-4o-audio-preview")
         correct = compare_speech(gpt4o_judge, audio_path_1=input_audio_path, audio_path_2=output_audio_path)["match"]
@@ -1466,7 +1481,9 @@ def process_record(
     return record, correct, 1
 
 
-def run_evaluation(resources: ModelResources, task_config: TaskConfig, workers: int = 16) -> Tuple[float, List[Dict[str, Any]]]:
+def run_evaluation(
+    resources: ModelResources, task_config: TaskConfig, workers: int = 16
+) -> Tuple[float, List[Dict[str, Any]]]:
     """
     Run evaluation on a dataset
 
@@ -1491,7 +1508,6 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig, workers: 
     # Log path being used for debugging
     print(f"Loading data from: {data_path}")
 
-
     # Read all lines from the file
     with open(data_path, "r") as f:
         lines = f.readlines()
@@ -1512,10 +1528,7 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig, workers: 
     # Process records in parallel while preserving order
     results = []
     with ThreadPoolExecutor(max_workers=workers) as executor:
-        futures = [
-            executor.submit(process_record, resources, json.loads(line), task_config)
-            for line in lines
-        ]
+        futures = [executor.submit(process_record, resources, json.loads(line), task_config) for line in lines]
         pbar = tqdm(total=len(futures))
         for future in as_completed(futures):
             result = future.result()
@@ -1562,7 +1575,7 @@ def get_cache_stats():
     return stats
 
 
-def main(task="transcription", workers: int):
+def main(task="transcription", workers: int = 1):
     """Entry point for the evaluation pipeline"""
     # Reset API counters at the start of a run
     reset_api_counters()
@@ -1599,11 +1612,7 @@ def main(task="transcription", workers: int):
         resources = load_model(model_name)
 
         # Run evaluation (with threading: pass the workers parameter)
-        run_evaluation(
-            resources=resources,
-            task_config=task_config,
-            workers=workers
-        )
+        run_evaluation(resources=resources, task_config=task_config, workers=workers)
 
         # Print final API usage for this model if applicable
         if resources.model_type in API_CALL_COUNTERS:
@@ -1627,7 +1636,9 @@ if __name__ == "__main__":
     parser.add_argument("--clear-cache", action="store_true", help="Clear the API response cache before running")
     parser.add_argument("--cache-seed", type=str, help="Set a cache seed to force fresh API calls")
     parser.add_argument("--disable-cache", action="store_true", help="Disable caching for this run")
-    parser.add_argument("--workers", type=int, default=16, help="Number of worker threads to use for parallel processing")
+    parser.add_argument(
+        "--workers", type=int, default=1, help="Number of worker threads to use for parallel processing"
+    )
     args = parser.parse_args()
 
     if args.clear_cache:

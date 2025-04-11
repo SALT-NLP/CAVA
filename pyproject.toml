@@ -33,6 +33,7 @@ dependencies = [
     "tqdm",
     "argparse",
     "diskcache",
+    "google-genai",
     "pandas",
     "pydub",
     "numpy<2.0",

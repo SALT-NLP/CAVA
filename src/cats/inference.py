@@ -7,6 +7,9 @@ import time
 from enum import Enum
 from pathlib import Path
 from typing import Any, Callable, Dict, List, NamedTuple, Optional, Tuple, Type, Union
+import uuid
+import asyncio
+import wave
 
 import diskcache
 import librosa
@@ -27,7 +30,10 @@ from transformers import (
 )
 
 from cats.config import TaskConfig, create_task_configs, format_prompt_template
+
+from cats.speech_judge import compare_speech
 from cats.utils import get_der_score, get_jer_score
+
 
 
 # Global API call counters for rate limiting
@@ -92,9 +98,9 @@ class ModelResources(NamedTuple):
     tokenizer: Any
     processor: Any
     model: Any
+    client: Any # Some realtime models have a client object for API calls
     model_name: str
     model_type: str  # Type indicator: 'transformers', 'gemini', 'openai'
-
 
 def load_model(model_name: str) -> ModelResources:
     """
@@ -113,16 +119,19 @@ def load_model(model_name: str) -> ModelResources:
             processor = AutoProcessor.from_pretrained(model_name)
             model = Qwen2AudioForConditionalGeneration.from_pretrained(model_name, device_map="auto")
             model_type = "transformers"
+            client = None
         elif "diva" in model_name.lower():
             tokenizer = AutoTokenizer.from_pretrained(model_name)
             processor = None
             model = AutoModel.from_pretrained(model_name, device_map="balanced_low_0", trust_remote_code=True).eval()
             model_type = "transformers"
+            client = None
 
         # API-based models
         elif "gemini" in model_name.lower():
             # Import here to avoid dependency issues if not using Gemini
             import google.generativeai as genai
+            from google import genai as genclient
 
             api_key = os.environ.get("GEMINI_API_KEY")
             if not api_key:
@@ -133,6 +142,7 @@ def load_model(model_name: str) -> ModelResources:
             tokenizer = None
             processor = None
             model_type = "gemini"
+            client = genclient.Client(api_key=api_key, http_options={'api_version': 'v1alpha'})
 
         elif "gpt" in model_name.lower():
             # Import here to avoid dependency issues if not using OpenAI
@@ -145,16 +155,17 @@ def load_model(model_name: str) -> ModelResources:
             model = OpenAI(api_key=api_key)
             tokenizer = None
             processor = None
+            client = None
             model_type = "openai" if "pipeline" not in model_name else "openai_pipeline"
-
         else:
             # Generic transformers model fallback
             tokenizer = AutoTokenizer.from_pretrained(model_name)
             processor = AutoProcessor.from_pretrained(model_name)
             model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", trust_remote_code=True)
             model_type = "transformers"
+            client = None
 
-        return ModelResources(tokenizer, processor, model, model_name, model_type)
+        return ModelResources(tokenizer, processor, model, client, model_name, model_type)
 
     except Exception as e:
         raise ValueError(f"Error loading model {model_name}: {str(e)}")
@@ -239,7 +250,7 @@ def save_temp_audio(audio: Dict[str, Any], task_name: str, model_type: str) -> s
     return str(temp_audio_path)
 
 
-def save_model_speech_output(audio_data: bytes, task_config: TaskConfig, record_id: str) -> str:
+def save_model_speech_output(audio_data: bytes, task_config: TaskConfig, record_id: str, model_id: str) -> str:
     """
     Save model's speech output to file
 
@@ -252,11 +263,11 @@ def save_model_speech_output(audio_data: bytes, task_config: TaskConfig, record_
         Path to saved audio file
     """
     # Create output directory if not exists
-    output_dir = Path(task_config.output_audio_dir or "model_speech_outputs")
+    output_dir = Path(task_config.output_audio_dir or "model_speech_outputs") / model_id
     os.makedirs(output_dir, exist_ok=True)
 
     # Generate output filename
-    output_path = output_dir / f"{task_config.name}_{record_id}_{int(time.time())}.wav"
+    output_path = output_dir / f"{task_config.name}_{record_id}_{int(time.time_ns() // 1e6)}.wav"
 
     # Write audio data to file
     with open(output_path, "wb") as f:
@@ -325,7 +336,7 @@ def create_cache_key(
         A unique hash string to use as cache key
     """
     # Get audio content hash
-    audio_hash = hashlib.md5(audio["array"].tobytes()).hexdigest()
+    audio_hash = hashlib.md5(audio["array"].tobytes()).hexdigest() if audio and "array" in audio else ""
 
     # Get prompt hash
     prompt_hash = hashlib.md5(text_prompt.encode()).hexdigest()
@@ -370,9 +381,14 @@ def api_cached(func):
         # Call the original function
         result = func(resources, audio, text_prompt, task_config, *args, **kwargs)
 
-        # Store in cache
-        api_cache.set(cache_key, result, expire=CACHE_EXPIRE_SECONDS)
-        print(f"Cached {resources.model_type} API response for {resources.model_name}")
+        if result and (result[-1] == True):
+            result = result[:-1]
+
+            # Store in cache
+            api_cache.set(cache_key, result, expire=CACHE_EXPIRE_SECONDS)
+            # print(f"Cached {resources.model_type} API response for {resources.model_name}")
+        else:
+            print(f"Avoided caching {resources.model_type} API response for {resources.model_name} due to failure")
 
         return result
 
@@ -395,18 +411,23 @@ def process_with_qwen(
     Returns:
         Model output
     """
+    # Check success for caching purposes
+    success = False
+
     # Save audio to temporary file
-    temp_audio_path = save_temp_audio(audio, task_config.name, "qwen2")
+    temp_audio_path = save_temp_audio(audio, task_config.name, "qwen2") if audio else ""
 
     try:
         # Create conversation input
+        content = []
+        if audio:
+            content.append({"type": "audio", "audio_url": temp_audio_path})
+        content.append({"type": "text", "text": text_prompt})
+
         conversation = [
             {
                 "role": "user",
-                "content": [
-                    {"type": "audio", "audio_url": temp_audio_path},
-                    {"type": "text", "text": text_prompt},
-                ],
+                "content": content,
             },
         ]
 
@@ -441,7 +462,9 @@ def process_with_qwen(
             # Take the last part after "assistant"
             response = response_parts[-1].strip()
 
-        return response
+        success = True
+
+        return response, success
     finally:
         # Clean up temporary file
         cleanup_temp_audio(temp_audio_path)
@@ -463,14 +486,17 @@ def process_with_diva(
     Returns:
         Model output
     """
+    # Check success for caching purposes
+    success = False
+
     # Save audio to temporary file - although not directly used by the model
     # it can be helpful for debugging or logging purposes
-    temp_audio_path = save_temp_audio(audio, task_config.name, "diva")
+    temp_audio_path = save_temp_audio(audio, task_config.name, "diva") if audio else ""
 
     try:
         # Prepare generation kwargs
         gen_kwargs = {
-            "audio": [audio["array"]],
+            "audio": [audio["array"]] if audio else [None], # Untested if None works
             "text_prompt": ["\n" + text_prompt],
             "max_new_tokens": task_config.max_new_tokens,
         }
@@ -484,83 +510,164 @@ def process_with_diva(
         with torch.cuda.amp.autocast(dtype=torch.float16):
             llm_message = resources.model.generate(**gen_kwargs)
 
-        return llm_message[0]
+        success = True
+
+        return llm_message[0], success
     finally:
         # Clean up temporary file
         cleanup_temp_audio(temp_audio_path)
 
+async def _process_with_gemini_audio_async(
+    resources: ModelResources, text_prompt: str, task_config: TaskConfig, temp_audio_path: str
+) -> Tuple[str, str, bool]:
+    """
+    Async helper to process Gemini audio output.
+
+    Uses Gemini’s live session to stream audio data and writes it to a WAV file.
+
+    Returns:
+        Tuple of (response text, output audio file path, success flag).
+    """
+    max_retries = 5
+    sleep_time = 1
+
+    # Configure for audio output
+    config = {"response_modalities": ["AUDIO"]}
+
+    output_dir = Path(task_config.output_audio_dir or "model_speech_outputs") / resources.model_name
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Determine an output file name; use record_id from temp_audio_path if available
+    record_id = os.path.basename(temp_audio_path).split("_")[0] if temp_audio_path else uuid.uuid4().hex
+    output_audio_path = str(output_dir / f"{task_config.name}_{record_id}_{int(time.time_ns() // 1e6)}.wav")
+
+    for attempt in range(max_retries):
+        try:
+            # Create an asynchronous client for Gemini (using v1alpha for audio)
+            client = resources.client
+            async with client.aio.live.connect(model=resources.model_name, config=config) as session:
+                # Open a wave file for writing audio data
+                wf = wave.open(output_audio_path, "wb")
+                wf.setnchannels(1)
+                wf.setsampwidth(2)
+                wf.setframerate(24000)
+
+                # Send the text prompt; note that for now we do not handle audio input in this branch
+                await session.send(input=text_prompt, end_of_turn=True)
+
+                # Receive and write audio data
+                async for response in session.receive():
+                    if response.data is not None:
+                        wf.writeframes(response.data)
+
+                wf.close()
+
+                # If Gemini provides text content in the response, you we could extract it here.
+                # For now, we assume the response is just audio
+                response_text = None
+                return response_text, output_audio_path, True
+
+        except Exception as e:
+            if attempt < max_retries - 1:
+                print(f"Gemini audio API error: {e}. Retrying after {sleep_time}s...")
+                await asyncio.sleep(sleep_time)
+                sleep_time *= 2
+            else:
+                print(f"Failed after {max_retries} attempts in audio mode: {e}")
+                raise e
 
 @api_cached
 def process_with_gemini(
     resources: ModelResources, audio: Dict[str, Any], text_prompt: str, task_config: TaskConfig
-) -> str:
+) -> Union[str, Tuple[str, str, bool]]:
     """
-    Process audio with Gemini model
+    Process audio with Gemini model supporting both text and audio output.
 
     Args:
-        resources: Model resources
-        audio: Processed audio data
-        text_prompt: Text prompt for the model
-        task_config: Task configuration
+        resources: Model resources.
+        audio: Processed audio data (input).
+        text_prompt: Text prompt for the model.
+        task_config: Task configuration.
 
     Returns:
-        Model output
+        For text-only: (response text, success).
+        For audio output: (response text, path to output audio, success).
     """
-    import google.generativeai as genai
+    success = False
 
     time.sleep(1)
 
     # Check API call limit
     if not check_api_call_limit("gemini"):
-        # Return default value if limit reached
         return task_config.labels[0] if task_config.labels else "API limit reached"
 
-    # Save audio to temporary file
-    temp_audio_path = save_temp_audio(audio, task_config.name, "gemini")
+    # Save input audio to temporary file if provided
+    temp_audio_path = save_temp_audio(audio, task_config.name, "gemini") if audio else ""
 
     try:
-        # Create inputs for the model
-        prompt = text_prompt
-        inputs = [
-            prompt,
-            {"mime_type": "audio/wav", "data": Path(temp_audio_path).read_bytes()},
-        ]
+        if task_config.speech_output:
+            # Audio output branch – run our async helper
+            # Create inputs for the model
+            prompt = text_prompt
+            inputs = [
+                prompt,
+                {"mime_type": "audio/wav", "data": Path(temp_audio_path).read_bytes()},
+            ]
 
         # Set up retry logic
         max_retries = 5
         sleep_time = 20
 
-        # Try to generate content with retries for API rate limits
-        for attempt in range(max_retries):
-            try:
-                # If we have labels for constrained generation
-                if task_config.labels and task_config.use_logits_processor:
-                    # Dynamically create enum type from labels
-                    DynamicEnum = create_enum_from_labels(task_config.labels, f"{task_config.name.capitalize()}Enum")
-
-                    response = resources.model.generate_content(
-                        inputs,
-                        generation_config=genai.GenerationConfig(
-                            response_mime_type="text/x.enum", response_schema=DynamicEnum
-                        ),
+            # Try to generate content with retries for API rate limits
+            for attempt in range(max_retries):
+                try:
+                    # This async function returns a tuple (response_text, output_audio_path, success)
+                    response_text, output_audio_path, success = asyncio.run(
+                        _process_with_gemini_audio_async(resources, text_prompt, task_config, temp_audio_path)
                     )
-                else:
-                    response = resources.model.generate_content(inputs)
+                    return response_text, output_audio_path, success
+                except Exception as e:
+                    print(f"Failed processing Gemini audio output: {e}")
+                    return task_config.labels[0] if task_config.labels else "", "", success
+        else:
+            # Text-only branch
+            import google.generativeai as genai
 
-                response_text = response.candidates[0].content.parts[0].text
-                return response_text
+            # Build inputs – if audio input is provided, include it
+            inputs = [text_prompt]
+            if audio:
+                from pathlib import Path
+                inputs.append({"mime_type": "audio/wav", "data": Path(temp_audio_path).read_bytes()})
 
-            except Exception as e:
-                if attempt < max_retries - 1:
-                    print(f"Gemini API error: {e}. Retrying after {sleep_time}s...")
-                    time.sleep(sleep_time)
-                    sleep_time *= 2
-                else:
-                    print(f"Failed after {max_retries} attempts: {e}")
-                    # Default to first label if available, otherwise empty string
-                    return task_config.labels[0] if task_config.labels else ""
+            max_retries = 5
+            sleep_time = 1
+
+            for attempt in range(max_retries):
+                try:
+                    if task_config.labels and task_config.use_logits_processor:
+                        DynamicEnum = create_enum_from_labels(task_config.labels, f"{task_config.name.capitalize()}Enum")
+                        response = resources.model.generate_content(
+                            inputs,
+                            generation_config=genai.GenerationConfig(
+                                response_mime_type="text/x.enum", response_schema=DynamicEnum
+                            ),
+                        )
+                    else:
+                        response = resources.model.generate_content(inputs)
+                    
+                    response_text = response.candidates[0].content.parts[0].text
+                    success = True
+                    return response_text, success
+                except Exception as e:
+                    if attempt < max_retries - 1:
+                        print(f"Gemini API error: {e}. Retrying after {sleep_time}s...")
+                        time.sleep(sleep_time)
+                        sleep_time *= 2
+                    else:
+                        print(f"Failed after {max_retries} attempts: {e}")
+                        return task_config.labels[0] if task_config.labels else "", success
     finally:
-        # Clean up temporary file
+        # Clean up temporary input file
         cleanup_temp_audio(temp_audio_path)
 
 
@@ -581,18 +688,22 @@ def process_with_openai(
         Model output text, or tuple of (output text, path to output audio) for speech tasks,
         or tuple of (output text, function_calls) for function calling tasks
     """
+    # Check success for caching purposes
+    success = False
+
     # Check API call limit
     if not check_api_call_limit("openai"):
         # Return default value if limit reached
         return task_config.labels[0] if task_config.labels else "API limit reached"
 
     # Save audio to temporary file
-    temp_audio_path = save_temp_audio(audio, task_config.name, "gpt")
+    temp_audio_path = save_temp_audio(audio, task_config.name, "gpt") if audio else ""
 
     try:
         # Encode audio to base64
-        with open(temp_audio_path, "rb") as audio_file:
-            encoded_audio = base64.b64encode(audio_file.read()).decode("utf-8")
+        if audio:
+            with open(temp_audio_path, "rb") as audio_file:
+                encoded_audio = base64.b64encode(audio_file.read()).decode("utf-8")
 
         # Prepare content
         messages_content = [
@@ -607,6 +718,13 @@ def process_with_openai(
                             "format": "wav",
                         },
                     },
+                ],
+            },
+        ] if audio else [
+            {
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": text_prompt},
                 ],
             },
         ]
@@ -647,6 +765,10 @@ def process_with_openai(
                     "temperature": 0,
                     "messages": messages_content,
                 }
+
+                if task_config.speech_output:
+                    # TODO: Should we test multiple voices?
+                    api_args["audio"] = {"voice": "alloy", "format": "wav"}
 
                 # Add tools for function calling task
                 if task_config.process_function_calls and tools:
@@ -715,9 +837,11 @@ def process_with_openai(
                 # Handle speech output if applicable
                 output_audio_path = None
                 if task_config.speech_output and hasattr(completion.choices[0].message, "audio"):
-                    audio_data = base64.b64decode(completion.choices[0].message.audio)
+                    audio_data = base64.b64decode(completion.choices[0].message.audio.data)
+                    record_id = os.path.basename(temp_audio_path).split("_")[0] if temp_audio_path else uuid.uuid4().hex
+
                     output_audio_path = save_model_speech_output(
-                        audio_data, task_config, os.path.basename(temp_audio_path).split("_")[0]
+                        audio_data, task_config, os.path.basename(temp_audio_path).split("_")[0], resources.model_name
                     )
 
                 # Try to parse structured response if using schema
@@ -738,13 +862,16 @@ def process_with_openai(
                                     label.lower() for label, pred in zip(task_config.labels, response_vec) if pred == 1
                                 ][0]
 
+                success = True
+
                 # Return appropriate result based on task type
                 if task_config.speech_output and output_audio_path:
+                    return response, output_audio_path, success
                     return response, output_audio_path
                 elif task_config.process_function_calls:
                     return response, all_function_calls
                 else:
-                    return response
+                    return response, success
 
             except Exception as e:
                 if attempt < max_retries - 1:
@@ -754,7 +881,7 @@ def process_with_openai(
                 else:
                     print(f"Failed after {max_retries} attempts: {e}")
                     # Default to first label if available, otherwise empty string
-                    return task_config.labels[0] if task_config.labels else ""
+                    return task_config.labels[0] if task_config.labels else "", success
     finally:
         # Clean up temporary file
         cleanup_temp_audio(temp_audio_path)
@@ -1252,7 +1379,7 @@ def process_record(
         return record, 0, 0
 
     # Process audio
-    audio = process_audio(audio_file, task_config.audio_dir)
+    audio = process_audio(audio_file, task_config.audio_dir) if task_config.audio_input else None
 
     # Format the prompt template with record values if template_fields are provided
     formatted_prompt = format_prompt_template(task_config.prompt_template, record, task_config.template_fields)
@@ -1295,6 +1422,11 @@ def process_record(
                 correct = 1
         if predicted_value.strip(".").lower() == "none" and expected_value == []:
             correct = 1
+    elif task_config.name=="pronunciation_oed" or task_config.name=="pronunciation_audio":
+        input_audio_path = Path("data") / (task_config.audio_dir + audio_file if task_config.audio_dir else audio_file)
+        gpt4o_judge = load_model("gpt-4o-audio-preview")
+        correct = compare_speech(gpt4o_judge, audio_path_1=input_audio_path, audio_path_2=output_audio_path)["match"]
+        record["score"] = correct
     elif task_config.name == "deception_vote_prediction" and predicted_value:
         player_names = record.get("PlayerNames", [])
         for i, vote_index in enumerate(expected_value):
@@ -1334,7 +1466,7 @@ def process_record(
     return record, correct, 1
 
 
-def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[float, List[Dict[str, Any]]]:
+def run_evaluation(resources: ModelResources, task_config: TaskConfig, workers: int = 16) -> Tuple[float, List[Dict[str, Any]]]:
     """
     Run evaluation on a dataset
 
@@ -1359,6 +1491,10 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
     # Log path being used for debugging
     print(f"Loading data from: {data_path}")
 
+
+    # Read all lines from the file
+    with open(data_path, "r") as f:
+        lines = f.readlines()
     # For function calling, load function definitions if available
     if task_config.name == "function_calling":
         # Load function definitions if available
@@ -1371,29 +1507,31 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
             except Exception as e:
                 print(f"Error loading function definitions: {e}")
 
-    with open(data_path, "r") as f:
-        pbar = tqdm(f)
-        for line in pbar:
-            json_data = json.loads(line)
-            processed_samples = []
+    from concurrent.futures import ThreadPoolExecutor, as_completed
 
-            processed_record, sample_correct, sample_total = process_record(resources, json_data, task_config)
-
-            processed_samples.append(processed_record)
-            correct += sample_correct
-            total += sample_total
-
-            # Update progress bar
-            if total > 0:
-                pbar.set_description(f"{task_config.name}: {100*(correct/total):.2f}% (N={total})")
-
-            records_with_preds.append(json_data)
+    # Process records in parallel while preserving order
+    results = []
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = [
+            executor.submit(process_record, resources, json.loads(line), task_config)
+            for line in lines
+        ]
+        pbar = tqdm(total=len(futures))
+        for future in as_completed(futures):
+            result = future.result()
+            results.append(result)
+            correct += result[1]  # Increment correct count
+            total += result[2]  # Increment total count
+            # Optionally update description based on result:
+            pbar.set_description(f"{task_config.name}: {len(results)}/{len(futures)}")
+            pbar.update(1)
+        pbar.close()
 
     # Maintain relative path for output file but use the same directory as input file
     output_path = f"{data_path}_{resources.model_name.split('/')[-1]}_{task_config.name}"
     with open(output_path, "w") as f:
-        for entry in records_with_preds:
-            json.dump(entry, ensure_ascii=False, fp=f)
+        for entry in results:
+            json.dump(entry[0], ensure_ascii=False, fp=f)
             f.write("\n")
 
     # Calculate and return accuracy
@@ -1424,7 +1562,7 @@ def get_cache_stats():
     return stats
 
 
-def main(task="transcription"):
+def main(task="transcription", workers: int):
     """Entry point for the evaluation pipeline"""
     # Reset API counters at the start of a run
     reset_api_counters()
@@ -1453,17 +1591,18 @@ def main(task="transcription"):
         # "gpt-4o-realtime-preview",
     ]
 
-    # Run evaluations for each model
+    # Run evaluations for each model using the provided number of worker threads
     for model_name in model_names:
         print(f"Evaluating model: {model_name}")
 
         # Load model resources
         resources = load_model(model_name)
 
-        # Run evaluation
+        # Run evaluation (with threading: pass the workers parameter)
         run_evaluation(
             resources=resources,
             task_config=task_config,
+            workers=workers
         )
 
         # Print final API usage for this model if applicable
@@ -1481,7 +1620,6 @@ def main(task="transcription"):
 
 
 if __name__ == "__main__":
-    # Add argument parsing for cache management
     import argparse
 
     parser = argparse.ArgumentParser(description="CATS evaluation pipeline")
@@ -1489,9 +1627,9 @@ if __name__ == "__main__":
     parser.add_argument("--clear-cache", action="store_true", help="Clear the API response cache before running")
     parser.add_argument("--cache-seed", type=str, help="Set a cache seed to force fresh API calls")
     parser.add_argument("--disable-cache", action="store_true", help="Disable caching for this run")
-
+    parser.add_argument("--workers", type=int, default=16, help="Number of worker threads to use for parallel processing")
     args = parser.parse_args()
-    # Handle cache-related arguments
+
     if args.clear_cache:
         response = input(
             "Warning: You are about to clear the cache. This action cannot be undone.\nDo you want to continue?"
@@ -1510,4 +1648,4 @@ if __name__ == "__main__":
         os.environ["CATS_DISABLE_CACHE"] = "true"
         print("Caching disabled for this run")
 
-    main(args.task)
+    main(args.task, workers=args.workers)

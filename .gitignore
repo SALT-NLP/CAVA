@@ -5,25 +5,34 @@
 
 .cats_cache
 *.log
+*.DS_Store
 
 # ReverseSpellingBee
 /data_collection/ReverseSpellingBee/audio_files/
+/data_collection/ReverseSpellingBee/generated_pronunciations/
 /data_collection/ReverseSpellingBee/load.py
-/data_collection/ReverseSpellingBee/judge_match_cache/
-/data_collection/ReverseSpellingBee/pos_cache/
-/data_collection/ReverseSpellingBee/cast_col.py
-/data_collection/ReverseSpellingBee/get_ipa_conversion.py
-/data_collection/ReverseSpellingBee/merge_ds.py
 /data_collection/ReverseSpellingBee/output.csv
-/data_collection/ReverseSpellingBee/skipped_terms.txt
 /data_collection/ReverseSpellingBee/target_words.txt
+/data_collection/ReverseSpellingBee/skipped_terms.txt
+/data_collection/ReverseSpellingBee/get_ipa_conversion.py
+/data_collection/ReverseSpellingBee/cast_col.py
+/data_collection/ReverseSpellingBee/merge_ds.py
+/data_collection/ReverseSpellingBee/judge_match_cache
+/data_collection/ReverseSpellingBee/pos_cache
+/data_collection/ReverseSpellingBee/judge_match.log
+/data_collection/ReverseSpellingBee/debug.log
+/data/ReverseSpellingBee/audio/
+/data/ReverseSpellingBee/hf_to_jsonl.py
+/data/ReverseSpellingBee/jsonl_to_hf.py
+/output_pronunciation_oed/
+/output_pronunciation_audio/
+
 
 # NextSpeaker dataset
 /data/NextSpeaker
 /data/NextSpeaker/audio_inputs.jsonl
 
 # Function Calling
-*.DS_Store
 /data/function_calling_test/*.wav
 
 # SpeakerDiarization

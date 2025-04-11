@@ -7,6 +7,7 @@ import hashlib
 import openai
 import diskcache as dc  # pip install diskcache
 
+
 # ---------------------------
 # Helper for Logging Sanitization
 # ---------------------------
@@ -36,13 +37,14 @@ def sanitize_for_log(obj, max_length=100):
     else:
         return obj
 
+
 # ---------------------------
 # Prompt & Result Parser Setup
 # ---------------------------
 def pronunciation_constructor(audio1_encoded, audio2_encoded):
     """
     Constructs prompts for comparing pronunciations.
-    
+
     Returns:
       (system_prompt, user_prompt) where:
         - system_prompt: a string of instructions.
@@ -62,12 +64,16 @@ def pronunciation_constructor(audio1_encoded, audio2_encoded):
         {"type": "input_audio", "input_audio": {"data": audio1_encoded, "format": "wav"}},
         {"type": "text", "text": "Here is the second audio clip:"},
         {"type": "input_audio", "input_audio": {"data": audio2_encoded, "format": "wav"}},
-        {"type": "text", "text": (
-            "Please analyze these recordings strictly for pronunciation details (phonemes, syllables, stress, emphasis). "
-            "Ignore differences solely due to accent. Respond ONLY in text and output valid JSON with keys 'reasoning' and 'match' (boolean)."
-        )}
+        {
+            "type": "text",
+            "text": (
+                "Please analyze these recordings strictly for pronunciation details (phonemes, syllables, stress, emphasis). "
+                "Ignore differences solely due to accent. Respond ONLY in text and output valid JSON with keys 'reasoning' and 'match' (boolean)."
+            ),
+        },
     ]
     return system_prompt, user_prompt
+
 
 def default_result_parser(response_text):
     """
@@ -77,10 +83,11 @@ def default_result_parser(response_text):
         parsed = json.loads(response_text)
         return {
             "reasoning": parsed.get("reasoning", "No reasoning provided."),
-            "match": bool(parsed.get("match", False))
+            "match": bool(parsed.get("match", False)),
         }
     except Exception as e:
         return {"reasoning": f"Error parsing response: {str(e)}", "match": False}
+
 
 # ---------------------------
 # Helper: Create a dummy resources object
@@ -89,18 +96,24 @@ def get_resources(model_id):
     """
     Returns a dummy resources object that wraps the openai.ChatCompletion API in the new SDK style.
     """
+
     class DummyModelChatCompletions:
         def create(self, **kwargs):
             # Forward the call to openai.ChatCompletion.create
             return openai.ChatCompletion.create(**kwargs)
+
     class DummyModelChat:
         completions = DummyModelChatCompletions()
+
     class DummyModel:
         chat = DummyModelChat()
+
     class DummyResources:
         model_name = model_id
         model = DummyModel()
+
     return DummyResources()
+
 
 # ---------------------------
 # Modern compare_speech function using new API/SDK style with improved debug logging
@@ -126,7 +139,7 @@ def compare_speech(
       force_refresh: If True, bypasses the cache.
       cache_dir: Directory for disk caching.
       debug: If True, prints debug information immediately.
-    
+
     Returns:
       Parsed result as a dict.
     """
@@ -143,7 +156,7 @@ def compare_speech(
         if debug:
             print(f"Error reading audio files: {e}")
         return {"reasoning": f"Error reading audio files: {str(e)}", "match": False}
-    
+
     audio1_encoded = base64.b64encode(audio1_data).decode("utf-8")
     audio2_encoded = base64.b64encode(audio2_data).decode("utf-8")
 
@@ -151,14 +164,14 @@ def compare_speech(
     system_prompt, user_prompt = prompt_constructor(audio1_encoded, audio2_encoded)
 
     # Create a cache key based on inputs and parameters
-    parser_key = getattr(result_parser, '__name__', str(result_parser))
+    parser_key = getattr(result_parser, "__name__", str(result_parser))
     hash_input = (
-        audio1_data +
-        audio2_data +
-        resources.model_name.encode() +
-        system_prompt.encode() +
-        json.dumps(user_prompt).encode() +
-        parser_key.encode()
+        audio1_data
+        + audio2_data
+        + resources.model_name.encode()
+        + system_prompt.encode()
+        + json.dumps(user_prompt).encode()
+        + parser_key.encode()
     )
     key = hashlib.md5(hash_input).hexdigest()
     CACHE_EXPIRE_SECONDS = int(os.environ.get("CATS_CACHE_EXPIRE", 60 * 60 * 24 * 30))
@@ -175,7 +188,7 @@ def compare_speech(
     # Build messages according to the new API's format:
     messages = [
         {"role": "system", "content": [{"type": "text", "text": system_prompt}]},
-        {"role": "user", "content": user_prompt}
+        {"role": "user", "content": user_prompt},
     ]
 
     # Prepare API call arguments using the new SDK style with modalities set to ["text"]
@@ -204,7 +217,7 @@ def compare_speech(
                 print(f"API call took {elapsed:.2f} seconds (attempt {attempt+1})")
             msg = completion.choices[0].message
             # Use attribute access to get the text content.
-            response_text = msg.content  
+            response_text = msg.content
             if response_text is None:
                 if debug:
                     print("No text output received, retrying...")
@@ -241,6 +254,7 @@ def compare_speech(
 
     return result
 
+
 # ---------------------------
 # Example usage (if running directly)
 # ---------------------------
@@ -249,15 +263,10 @@ if __name__ == "__main__":
     # Create a resources object for the desired model.
     model_id = "gpt-4o-audio-preview"  # Update as needed.
     resources = get_resources(model_id)
-    
+
     # Replace these with your actual audio file paths.
     audio_file_1 = "path/to/audio1.wav"
     audio_file_2 = "path/to/audio2.wav"
-    
-    res = compare_speech(
-        resources=resources,
-        audio_path_1=audio_file_1,
-        audio_path_2=audio_file_2,
-        debug=True
-    )
+
+    res = compare_speech(resources=resources, audio_path_1=audio_file_1, audio_path_2=audio_file_2, debug=True)
     print("Final Result:", sanitize_for_log(res))

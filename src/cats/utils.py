@@ -1,6 +1,16 @@
 import re
 import numpy as np
 from scipy.optimize import linear_sum_assignment
+from qa_metrics.pedant import PEDANT
+
+pedant = None
+
+
+def get_pedant_score(reference_answer, candidate_answer, question):
+    global pedant
+    pedant = pedant or PEDANT()
+    match_result = pedant.evaluate(reference_answer, candidate_answer, question)
+    return match_result
 
 
 def parse_next_speaker_response(response_text):

@@ -38,6 +38,8 @@ dependencies = [
     "pydub",
     "numpy<2.0",
     "scipy",
+    "qa-metrics==0.2.32",
+    "nltk==3.9.1"
 ]
 
 [tool.hatch.build]

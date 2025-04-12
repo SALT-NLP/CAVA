@@ -217,12 +217,15 @@ Please respond with only the word read aloud clearly, do not say anything else o
         "jeopardy": TaskConfig(
             name="jeopardy",
             prompt_template=(
-                "You are a contestant on Jeopardy. the answer must be worded in the form of a question, beginning with"
-                " “What is” or “Who are,” for example."
+                "You are answering Jeopardy clues. "
+                "For each clue given, respond with ONLY the answer phrased as a question. "
+                "Do not include explanations, commentary, or additional information beyond your answer. "
+                "Your answer must be worded in the form of a question, beginning with “What is” or “Who are,” for example."
             ),
             use_logits_processor=False,
+            speech_output=True,
             max_new_tokens=100,
-            field_name="question",
+            field_name="prefixed_answer",
             audio_dir="jeopardy/",
             data_file="audio_inputs.jsonl",
         ),

@@ -30,9 +30,8 @@ from transformers import (
 )
 
 from cats.config import TaskConfig, create_task_configs, format_prompt_template
-
 from cats.speech_judge import compare_speech
-from cats.utils import get_der_score, get_jer_score
+from cats.utils import get_der_score, get_jer_score, get_pedant_score
 
 
 # Global API call counters for rate limiting
@@ -832,6 +831,7 @@ def process_with_openai(
                 # Handle speech output if applicable
                 output_audio_path = None
                 if task_config.speech_output and hasattr(completion.choices[0].message, "audio"):
+                    response = completion.choices[0].message.audio.transcript
                     audio_data = base64.b64decode(completion.choices[0].message.audio.data)
                     record_id = (
                         os.path.basename(temp_audio_path).split("_")[0] if temp_audio_path else uuid.uuid4().hex
@@ -864,9 +864,8 @@ def process_with_openai(
                 # Return appropriate result based on task type
                 if task_config.speech_output and output_audio_path:
                     return response, output_audio_path, success
-                    return response, output_audio_path
                 elif task_config.process_function_calls:
-                    return response, all_function_calls
+                    return response, all_function_calls, success
                 else:
                     return response, success
 
@@ -1400,7 +1399,13 @@ def process_record(
     formatted_prompt = format_prompt_template(task_config.prompt_template, record, task_config.template_fields)
 
     # Get model prediction
+    start_time = time.time()
     prediction = process_sample(resources, audio, formatted_prompt, task_config)
+    end_time = time.time()
+
+    # Calculate latency and add to record
+    latency = end_time - start_time
+    record["latency"] = latency
 
     # Handle different return types based on task type
     if isinstance(prediction, tuple):
@@ -1437,6 +1442,8 @@ def process_record(
                 correct = 1
         if predicted_value.strip(".").lower() == "none" and expected_value == []:
             correct = 1
+    elif task_config.name == "jeopardy" and predicted_value:
+        correct = get_pedant_score(expected_value, predicted_value, record["question"])
     elif task_config.name == "pronunciation_oed" or task_config.name == "pronunciation_audio":
         input_audio_path = Path("data") / (task_config.audio_dir + audio_file if task_config.audio_dir else audio_file)
         gpt4o_judge = load_model("gpt-4o-audio-preview")
@@ -1527,16 +1534,27 @@ def run_evaluation(
 
     # Process records in parallel while preserving order
     results = []
-    with ThreadPoolExecutor(max_workers=workers) as executor:
-        futures = [executor.submit(process_record, resources, json.loads(line), task_config) for line in lines]
-        pbar = tqdm(total=len(futures))
-        for future in as_completed(futures):
-            result = future.result()
+    if workers != 1:
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = [executor.submit(process_record, resources, json.loads(line), task_config) for line in lines]
+            pbar = tqdm(total=len(futures))
+            for future in as_completed(futures):
+                result = future.result()
+                results.append(result)
+                correct += result[1]  # Increment correct count
+                total += result[2]  # Increment total count
+                # Optionally update description based on result:
+                pbar.set_description(f"{task_config.name}: {len(results)}/{len(futures)}")
+                pbar.update(1)
+            pbar.close()
+    else:
+        pbar = tqdm(total=len(lines))
+        for line in lines:
+            result = process_record(resources, json.loads(line), task_config)
             results.append(result)
-            correct += result[1]  # Increment correct count
-            total += result[2]  # Increment total count
-            # Optionally update description based on result:
-            pbar.set_description(f"{task_config.name}: {len(results)}/{len(futures)}")
+            correct += result[1]
+            total += result[2]
+            pbar.set_description(f"{task_config.name}: {len(results)}/{len(lines)}")
             pbar.update(1)
         pbar.close()
 

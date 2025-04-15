@@ -563,7 +563,6 @@ async def _process_with_gemini_audio_async(
                         )
                     )
 
-                # Send the text prompt; note that for now we do not handle audio input in this branch
                 await session.send_client_content(turns=types.Content(role="user", parts=inputs))
                 # Receive and write audio data
                 async for response in session.receive():

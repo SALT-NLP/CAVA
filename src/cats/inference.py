@@ -128,20 +128,19 @@ def load_model(model_name: str) -> ModelResources:
 
         # API-based models
         elif "gemini" in model_name.lower():
-            # Import here to avoid dependency issues if not using Gemini
-            import google.generativeai as genai
-            from google import genai as genclient
+            from google import genai
 
             api_key = os.environ.get("GEMINI_API_KEY")
             if not api_key:
                 raise ValueError("GEMINI_API_KEY environment variable is required for Gemini models")
-
-            genai.configure(api_key=api_key)
-            model = genai.GenerativeModel(model_name)
+            model = genai.Client(
+                api_key=api_key if os.environ.get("GOOGLE_GENAI_USE_VERTEXAI") else None,
+                http_options={"api_version": "v1"},
+            ).models
             tokenizer = None
             processor = None
             model_type = "gemini"
-            client = genclient.Client(api_key=api_key, http_options={"api_version": "v1alpha"})
+            client = genai.Client(api_key=api_key)
 
         elif "gpt" in model_name.lower():
             # Import here to avoid dependency issues if not using OpenAI
@@ -381,7 +380,8 @@ def api_cached(func):
 
         if result and (result[-1] == True):
             result = result[:-1]
-
+            if len(result) == 1:
+                result = result[0]
             # Store in cache
             api_cache.set(cache_key, result, expire=CACHE_EXPIRE_SECONDS)
             # print(f"Cached {resources.model_type} API response for {resources.model_name}")
@@ -527,11 +527,13 @@ async def _process_with_gemini_audio_async(
     Returns:
         Tuple of (response text, output audio file path, success flag).
     """
+    from google.genai import types
+
     max_retries = 5
     sleep_time = 1
 
     # Configure for audio output
-    config = {"response_modalities": ["AUDIO"]}
+    config = {"response_modalities": ["AUDIO"], "output_audio_transcription": types.AudioTranscriptionConfig()}
 
     output_dir = Path(task_config.output_audio_dir or "model_speech_outputs") / resources.model_name
     os.makedirs(output_dir, exist_ok=True)
@@ -539,6 +541,7 @@ async def _process_with_gemini_audio_async(
     # Determine an output file name; use record_id from temp_audio_path if available
     record_id = os.path.basename(temp_audio_path).split("_")[0] if temp_audio_path else uuid.uuid4().hex
     output_audio_path = str(output_dir / f"{task_config.name}_{record_id}_{int(time.time_ns() // 1e6)}.wav")
+    response_text = ""
 
     for attempt in range(max_retries):
         try:
@@ -551,19 +554,24 @@ async def _process_with_gemini_audio_async(
                 wf.setsampwidth(2)
                 wf.setframerate(24000)
 
-                # Send the text prompt; note that for now we do not handle audio input in this branch
-                await session.send(input=text_prompt, end_of_turn=True)
+                inputs = [types.Part(text=text_prompt)]
+                if temp_audio_path:
+                    inputs.append(
+                        types.Part.from_bytes(
+                            data=Path(temp_audio_path).read_bytes(),
+                            mime_type="audio/wav",
+                        )
+                    )
 
+                await session.send_client_content(turns=types.Content(role="user", parts=inputs))
                 # Receive and write audio data
                 async for response in session.receive():
+                    if response.server_content.output_transcription:
+                        response_text += response.server_content.output_transcription.text
                     if response.data is not None:
                         wf.writeframes(response.data)
 
                 wf.close()
-
-                # If Gemini provides text content in the response, you we could extract it here.
-                # For now, we assume the response is just audio
-                response_text = None
                 return response_text, output_audio_path, True
 
         except Exception as e:
@@ -593,6 +601,8 @@ def process_with_gemini(
         For text-only: (response text, success).
         For audio output: (response text, path to output audio, success).
     """
+    from google.genai import types
+
     success = False
 
     time.sleep(1)
@@ -611,7 +621,13 @@ def process_with_gemini(
         # Build inputs – if audio input is provided, include it
         inputs = [text_prompt]
         if audio:
-            inputs.append({"mime_type": "audio/wav", "data": Path(temp_audio_path).read_bytes()})
+
+            inputs.append(
+                types.Part.from_bytes(
+                    data=Path(temp_audio_path).read_bytes(),
+                    mime_type="audio/wav",
+                )
+            )
         if task_config.speech_output:
             # Audio output branch – run our async helper
 
@@ -627,9 +643,6 @@ def process_with_gemini(
                     print(f"Failed processing Gemini audio output: {e}")
                     return task_config.labels[0] if task_config.labels else "", "", success
         else:
-            # Text-only branch
-            import google.generativeai as genai
-
             for attempt in range(max_retries):
                 try:
                     if task_config.labels and task_config.use_logits_processor:
@@ -637,16 +650,22 @@ def process_with_gemini(
                             task_config.labels, f"{task_config.name.capitalize()}Enum"
                         )
                         response = resources.model.generate_content(
-                            inputs,
-                            generation_config=genai.GenerationConfig(
+                            contents=inputs,
+                            model=resources.model_name,
+                            config=types.GenerateContentConfig(
                                 response_mime_type="text/x.enum", response_schema=DynamicEnum
                             ),
                         )
                     else:
-                        response = resources.model.generate_content(inputs)
+                        response = resources.model.generate_content(contents=inputs, model=resources.model_name)
 
-                    response_text = response.candidates[0].content.parts[0].text
-                    success = True
+                    if response.candidates != None:
+                        response_text = response.candidates[0].content.parts[0].text
+                        success = True
+                    else:
+                        if response.prompt_feedback.block_reason:
+                            response_text = "I cannot respond to this request."
+                            success = True
                     return response_text, success
                 except Exception as e:
                     if attempt < max_retries - 1:
@@ -1454,7 +1473,7 @@ def process_record(
         for i, vote_index in enumerate(expected_value):
             true_vote_name = player_names[vote_index]
             model_vote_name = predicted_value[i] if i < len(predicted_value) else None
-            correct += model_vote_name and model_vote_name.lower() == true_vote_name.lower()
+            correct += model_vote_name != None and model_vote_name.lower() == true_vote_name.lower()
         return record, correct, len(expected_value)
     elif task_config.name in ["jailbreak", "jailbreak_base"] and predicted_value:
         ## Keyword Refusal detection from https://github.com/llm-attacks/llm-attacks/blob/098262edf85f807224e70ecd87b9d83716bf6b73/experiments/evaluate.py#L62

@@ -1,10 +1,10 @@
-<p align="center">
+<div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./img/CATS-white.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./img/CATS.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./img/CATS-white.svg" width="20%">
+    <source media="(prefers-color-scheme: light)" srcset="./img/CATS.svg" width="20%">
     <img alt="Shows a black logo in light color mode and a white one in dark color mode.">
   </picture>
-</p>
+</div>
 
 # CATS - Comprehensive Assessment for Testing Speech
 

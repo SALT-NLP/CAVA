@@ -1462,10 +1462,8 @@ def process_record(
         from instruction_following_eval import dict_to_input_example, test_instruction_following
 
         input_example = dict_to_input_example(record)
-        print(input_example, record)
         evaluation_output = test_instruction_following(input_example, record["prediction"], False)
         
-        print("Was correct or no: ", evaluation_output.follow_all_instructions)
         if evaluation_output.follow_all_instructions:
             correct = 1
     elif task_config.name == "function_calling" and expected_value:

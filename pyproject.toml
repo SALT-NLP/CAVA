@@ -5,64 +5,75 @@ build-backend = "hatchling.build"
 [project]
 name = "cats"
 version = "0.0.1"
-authors = [
-  {name="Will Held", email="wheld3@gatech.edu"},
-]
+authors = [{ name = "Will Held", email = "wheld3@gatech.edu" }]
 description = "A Framework for Multitask Evaluation of Audio Models"
 readme = "README.md"
 requires-python = ">=3.10"
 classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: Apache Software License",
-    "Operating System :: POSIX :: Linux",
-    "Operating System :: MacOS :: MacOS X",
-    "Development Status :: 4 - Beta",
-    "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: POSIX :: Linux",
+  "Operating System :: MacOS :: MacOS X",
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
 ]
+
 dependencies = [
-    "python-dotenv",
-    "soundfile",
-    "google-generativeai",
-    "librosa",
-    "torch",
-    "xxhash",
-    "datasets",
-    "openai",
-    "transformers",
-    "pydantic",
-    "tqdm",
-    "argparse",
-    "diskcache",
-    "google-genai",
-    "pandas",
-    "pydub",
-    "numpy<2.0",
-    "scipy",
-    "qa-metrics==0.2.32",
-    "nltk==3.9.1"
+  "python-dotenv",
+  "soundfile",
+  "google-generativeai",
+  "librosa",
+  "langdetect",
+  "torch",
+  "xxhash",
+  "datasets",
+  "openai",
+  "transformers",
+  "pydantic",
+  "tqdm",
+  "argparse",
+  "diskcache",
+  "pandas",
+  "pydub",
+  "numpy<2.0",
+  "scipy",
 ]
 
 [tool.hatch.build]
-include = ["src/"]
-dev-mode-dirs = [".", "src"]
+include = [
+  "src/",
+  "data_collection/MultimodalInstructionFollowing/instruction_following_eval/",
+]
+
+dev-mode-dirs = [
+  ".",
+  "src",
+  "data_collection/MultimodalInstructionFollowing/instruction_following_eval",
+]
 
 [tool.hatch.build.sources]
-"cats" = "src/cats"
+cats = "src/cats"
+instruction_following_eval = "data_collection/MultimodalInstructionFollowing/instruction_following_eval/instruction_following_eval"
+
+[tool.hatch.build.targets.sdist]
+only-include = [
+  "src",
+  "data_collection/MultimodalInstructionFollowing",
+]
+
+[tool.hatch.build.targets.wheel]
+only-include = [
+  "src/cats",
+  "data_collection/MultimodalInstructionFollowing/instruction_following_eval/instruction_following_eval",
+]
 
 [tool.hatch.metadata]
 allow-direct-references = true
-
-[tool.hatch.build.targets.sdist]
-only-include = ["src"]
-
-[tool.hatch.build.targets.wheel]
-only-include = ["src/cats"]
-
 [tool.hatch.version]
 
 [project.urls]
-"Homepage" = "https://diva-audio.github.io"
-"Repository" = "https://github.com/SALT-NLP/CATS"
+Homepage   = "https://diva-audio.github.io"
+Repository = "https://github.com/SALT-NLP/CATS"
 
 [tool.black]
 line-length = 119
@@ -78,4 +89,7 @@ force_grid_wrap = 0
 use_parentheses = true
 ensure_newline_before_comments = true
 line_length = 119
-src_paths = ["src"]
+src_paths = [
+  "src",
+  "data_collection/MultimodalInstructionFollowing/instruction_following_eval",
+]

@@ -232,6 +232,9 @@ Please respond with only the word read aloud clearly, do not say anything else o
         "multimodal_instruction_following": TaskConfig(
             name="multimodal_instruction_following", 
             prompt_template="{instruction_prompt}", #generated on the fly for this task
+            template_fields={
+                "instruction_prompt": "instruction_prompt"
+            },
             use_logits_processor=False,
             max_new_tokens=1000,  # Allow longer responses for transcripts
             field_name="default_kwarg",

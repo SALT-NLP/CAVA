@@ -1260,7 +1260,17 @@ def process_record(
     correct = 0
 
     # For function calling tasks, we need special evaluation
-    if task_config.name == "function_calling" and expected_value:
+    if task_config.name == "multimodal_instruction_following":
+        from instruction_following_eval import dict_to_input_example, test_instruction_following
+
+        input_example = dict_to_input_example(record)
+        print(input_example, record)
+        evaluation_output = test_instruction_following(input_example, record["prediction"], False)
+        
+        print("Was correct or no: ", evaluation_output.follow_all_instructions)
+        if evaluation_output.follow_all_instructions:
+            correct = 1
+    elif task_config.name == "function_calling" and expected_value:
         try:
             from cats.function_calling import evaluate_intent_to_function_mapping
 
@@ -1310,6 +1320,7 @@ def run_evaluation(resources: ModelResources, task_config: TaskConfig) -> Tuple[
 
     # Log path being used for debugging
     print(f"Loading data from: {data_path}")
+      
 
     # For function calling, load function definitions if available
     if task_config.name == "function_calling":

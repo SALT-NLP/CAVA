@@ -135,7 +135,7 @@ def load_model(model_name: str) -> ModelResources:
                 raise ValueError("GEMINI_API_KEY environment variable is required for Gemini models")
             model = genai.Client(
                 api_key=api_key if os.environ.get("GOOGLE_GENAI_USE_VERTEXAI") else None,
-                http_options={"api_version": "v1"},
+                http_options={"api_version": "v1alpha"},
             ).models
             tokenizer = None
             processor = None
@@ -1459,9 +1459,19 @@ def process_record(
 
     # For function calling tasks, we need special evaluation
     if task_config.name == "multimodal_instruction_following":
-        from instruction_following_eval import dict_to_input_example, test_instruction_following
+        from instruction_following_eval.evaluation import dict_to_input_example, test_instruction_following
 
-        input_example = dict_to_input_example(record)
+        ex_for_score = {}
+        ex_for_score["key"] = audio_file.replace(".wav", "")
+        ex_for_score["instruction_id_list"] = [record["instruction_id"]]
+        ex_for_score["prompt"] = record["instruction_prompt"]
+        ex_for_score["kwargs"] = [
+            {
+                item["key"]: int(item["value"]) if item["value"].isdigit() else item["value"]
+                for item in record["default_kwarg"]
+            }
+        ]
+        input_example = dict_to_input_example(ex_for_score)
         evaluation_output = test_instruction_following(input_example, record["prediction"], False)
 
         if evaluation_output.follow_all_instructions:
@@ -1673,6 +1683,7 @@ def main(task="transcription", workers: int = 1):
     model_names = [
         # "Qwen/Qwen2-Audio-7B-Instruct",
         # "WillHeld/DiVA-llama-3-v0-8b",
+        "gemini-2.5-pro-preview-03-25",
         "models/gemini-2.0-flash-exp",
         "gpt-4o-audio-preview",
         "pipeline_gpt-4o_gpt-4o-mini-tts_gpt-4o-mini-transcribe",

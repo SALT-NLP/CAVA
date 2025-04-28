@@ -39,7 +39,8 @@ dependencies = [
     "numpy<2.0",
     "scipy",
     "qa-metrics==0.2.32",
-    "nltk==3.9.1"
+    "nltk==3.9.1",
+    "instruction_following_eval@git+https://github.com/josejg/instruction_following_eval.git"
 ]
 
 [tool.hatch.build]

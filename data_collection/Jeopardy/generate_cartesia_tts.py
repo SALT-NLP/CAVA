@@ -146,7 +146,7 @@ def process_jsonl(input_file, output_dir):
         answer = data["answer"]
 
         # Generate prefixed answer using OpenAI
-        prefixed_answer = generate_prefixed_answer(question, answer)
+        prefixed_answer = data["prefixed_answer"]  # generate_prefixed_answer(question, answer)
 
         # Create output filename
         filename = data.get("filename", f"{line_idx}.wav")
@@ -156,7 +156,7 @@ def process_jsonl(input_file, output_dir):
         voice_id = random.choice(CARTESIA_VOICES)
 
         # Generate speech
-        success = generate_speech(prefixed_answer, output_path, voice_id)
+        success = generate_speech(question, output_path, voice_id)
 
         # Only add to dataset if speech generation was successful
         if success:
@@ -181,9 +181,7 @@ def create_and_push_dataset(dataset_items, repo_id):
     # Cast the audio column to Audio feature
     dataset = dataset.cast_column("audio", Audio())
 
-    # Split the dataset if needed (example: 80% train, 20% test)
-    train_test_dict = dataset.train_test_split(test_size=0.2, seed=42)
-    dataset_dict = DatasetDict({"train": train_test_dict["train"], "test": train_test_dict["test"]})
+    dataset_dict = DatasetDict({"combined": dataset})
     # Push to the Hub
     dataset_dict.push_to_hub(
         repo_id, commit_message="Upload dataset with Cartesia TTS audio samples and prefixed answers"

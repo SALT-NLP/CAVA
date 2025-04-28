@@ -575,6 +575,9 @@ async def _process_with_gemini_audio_async(
                 return response_text, output_audio_path, True
 
         except Exception as e:
+            if "Unsafe prompt" in str(e):
+                wf.close()
+                return "I cannot respond to this request.", output_audio_path, True
             if attempt < max_retries - 1:
                 print(f"Gemini audio API error: {e}. Retrying after {sleep_time}s...")
                 await asyncio.sleep(sleep_time)

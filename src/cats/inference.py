@@ -661,15 +661,21 @@ def process_with_gemini(
                         )
                     else:
                         response = resources.model.generate_content(contents=inputs, model=resources.model_name)
-
                     if response.candidates != None:
-                        response_text = response.candidates[0].content.parts[0].text
-                        success = True
+                        if response.candidates[0].finish_reason == "RECITATION":
+                            response_text = "I cannot respond to this request."
+                            success = True
+                        else:
+                            response_text = response.candidates[0].content.parts[0].text
+                            success = True
                     else:
+
                         if response.prompt_feedback.block_reason:
                             response_text = "I cannot respond to this request."
                             success = True
-                    return response_text, success
+                    if success == True and (response_text != None and response_text != ""):
+                        return response_text, success
+                    raise Exception("Unspecified Error in Gemini.")
                 except Exception as e:
                     if attempt < max_retries - 1:
                         print(f"Gemini API error: {e}. Retrying after {sleep_time}s...")
@@ -1460,18 +1466,23 @@ def process_record(
     # For function calling tasks, we need special evaluation
     if task_config.name == "multimodal_instruction_following":
         from instruction_following_eval.evaluation import dict_to_input_example, test_instruction_following
+        import ast
 
         ex_for_score = {}
         ex_for_score["key"] = audio_file.replace(".wav", "")
         ex_for_score["instruction_id_list"] = [record["instruction_id"]]
         ex_for_score["prompt"] = record["instruction_prompt"]
-        ex_for_score["kwargs"] = [
-            {
-                item["key"]: int(item["value"]) if item["value"].isdigit() else item["value"]
-                for item in record["default_kwarg"]
-            }
-        ]
+        ex_for_score["kwargs"] = []
+        for item in record["default_kwarg"]:
+            key = item["key"]
+            value = item["value"]
+            try:
+                value = ast.literal_eval(value)
+            except:
+                value = value
+            ex_for_score["kwargs"].append({key: value})
         input_example = dict_to_input_example(ex_for_score)
+
         evaluation_output = test_instruction_following(input_example, record["prediction"], False)
 
         if evaluation_output.follow_all_instructions:

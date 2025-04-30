@@ -7,8 +7,8 @@ A framework for evaluating audio models across multiple tasks relevant to the fu
 ### Create environment and install packages
 
 ```bash
-conda create -n "cats" python=3.12 ipython -y
-conda activate cats
+conda create -n "cava" python=3.12 ipython -y
+conda activate cava
 pip install -e .
 ```
 
@@ -56,11 +56,11 @@ For example, for an emotion classification task:
 
 ### 3. Using HuggingFace datasets
 
-You can convert audio datasets from HuggingFace to the CATS format using the included conversion script. This allows you to leverage existing audio datasets without manual file preparation.
+You can convert audio datasets from HuggingFace to the CAVA format using the included conversion script. This allows you to leverage existing audio datasets without manual file preparation.
 
 #### HuggingFace Dataset Converter
 
-The `convert_from_hf.py` script converts any HuggingFace audio dataset to CATS format:
+The `convert_from_hf.py` script converts any HuggingFace audio dataset to CAVA format:
 
 ```bash
 python convert_from_hf.py \
@@ -81,7 +81,7 @@ This will:
 {"filename": "0.wav", "werewolf": ["Justin", "Mike"], "PlayerNames": ["Justin", "Caitlynn", "Mitchell", "James", "Mike"], "endRoles": ["Werewolf", "Tanner", "Seer", "Robber", "Werewolf"], "votingOutcome": [3, 0, 3, 0, 0]}
 ```
 
-You can then use this dataset like any other CATS dataset by configuring a task with:
+You can then use this dataset like any other CAVA dataset by configuring a task with:
 
 - `audio_dir: "werewolf_data/"`
 - `data_file: "audio_inputs.jsonl"`
@@ -94,7 +94,7 @@ python convert_from_hf.py --help
 
 ### 4. Configure a new task
 
-Add a new task configuration in `src/cats/config.py` by updating the `create_task_configs()` function:
+Add a new task configuration in `src/cava/config.py` by updating the `create_task_configs()` function:
 
 ```python
 def create_task_configs() -> Dict[str, TaskConfig]:
@@ -118,14 +118,14 @@ def create_task_configs() -> Dict[str, TaskConfig]:
 Assuming that the data for your evaluation is downloaded, run the evaluation using the command:
 
 ```sh
-python src/cats/inference.py --task ${TASK_NAME}
+python src/cava/inference.py --task ${TASK_NAME}
 ```
 
 #### Run Scripts
 
 For each task, we should have a unified script which either reproduces the data or downloads it from a long-term storage solution such as HuggingFace. This should be put into the `run_scripts` directory.
 
-For example, to download all Spoken Function Calling data, process it for use in CATS, and then run the evaluation you can just run:
+For example, to download all Spoken Function Calling data, process it for use in CAVA, and then run the evaluation you can just run:
 
 ```sh
 bash run_scripts/run_function_calling.sh

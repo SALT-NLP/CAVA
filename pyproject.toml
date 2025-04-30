@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "cats"
+name = "cava"
 version = "0.0.1"
 authors = [
   {name="Will Held", email="wheld3@gatech.edu"},
@@ -48,7 +48,7 @@ include = ["src/"]
 dev-mode-dirs = [".", "src"]
 
 [tool.hatch.build.sources]
-"cats" = "src/cats"
+"" = "src/cava"
 
 [tool.hatch.metadata]
 allow-direct-references = true
@@ -57,13 +57,13 @@ allow-direct-references = true
 only-include = ["src"]
 
 [tool.hatch.build.targets.wheel]
-only-include = ["src/cats"]
+only-include = ["src/cava"]
 
 [tool.hatch.version]
 
 [project.urls]
 "Homepage" = "https://diva-audio.github.io"
-"Repository" = "https://github.com/SALT-NLP/CATS"
+"Repository" = "https://github.com/SALT-NLP/CAVA"
 
 [tool.black]
 line-length = 119

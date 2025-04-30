@@ -1,14 +1,6 @@
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./img/CATS-white.svg" width="20%">
-    <source media="(prefers-color-scheme: light)" srcset="./img/CATS.svg" width="20%">
-    <img alt="Shows a black logo in light color mode and a white one in dark color mode.">
-  </picture>
-</div>
+# CAVA - Comprehensive Assessment for Voice Assistants
 
-# CATS - Comprehensive Assessment for Testing Speech
-
-A framework for evaluating audio models across multiple tasks.
+A framework for evaluating audio models across multiple tasks relevant to the full-stack flow for Voice Assistants.
 
 ## Setup
 

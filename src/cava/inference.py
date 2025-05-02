@@ -31,6 +31,7 @@ from transformers import (
 
 from cava.config import TaskConfig, create_task_configs, format_prompt_template
 from cava.speech_judge import compare_speech
+from cava.vllm_utils import start_vllm_server
 from cava.utils import get_der_score, get_jer_score, get_pedant_score
 
 
@@ -132,13 +133,13 @@ def load_model(model_name: str) -> ModelResources:
             # Import here to avoid dependency issues if not using OpenAI
             from openai import OpenAI
 
-            model = OpenAI(api_key="cava", base_url="http://localhost:8000/v1")
             tokenizer = None
             processor = None
             client = None
             model_type = "vllm"
             model_name = model_name.replace("vllm/", "")
-
+            start_vllm_server(model_name)
+            model = OpenAI(api_key="cava", base_url="http://localhost:8000/v1")
         elif "gpt" in model_name.lower():
             # Import here to avoid dependency issues if not using OpenAI
             from openai import OpenAI

@@ -40,7 +40,8 @@ dependencies = [
     "scipy",
     "qa-metrics==0.2.32",
     "nltk==3.9.1",
-    "instruction_following_eval@git+https://github.com/josejg/instruction_following_eval.git"
+    "instruction_following_eval@git+https://github.com/josejg/instruction_following_eval.git",
+    "vllm[audio]>=0.8.5"
 ]
 
 [tool.hatch.build]

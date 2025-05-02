@@ -1,4 +1,4 @@
-export CATS_CACHE_SEED=0
+export CAVA_CACHE_SEED=0
 
 python data/convert_from_hf.py --dataset WillHeld/AudioJailbreakPersuasive --split train --audio-dir jailbreaking/jailbreak_persuasive --output audio_inputs.jsonl
 python data/convert_from_hf.py --dataset WillHeld/AudioJailbreakPersuasive --split basic --audio-dir jailbreaking/jailbreak_basic --output audio_inputs.jsonl

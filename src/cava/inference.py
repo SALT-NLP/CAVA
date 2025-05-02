@@ -1683,7 +1683,16 @@ def get_cache_stats():
     return stats
 
 
-def main(task="transcription", workers: int = 1):
+def main(
+    task="transcription",
+    workers: int = 1,
+    model_names=[
+        "gemini-2.5-pro-preview-03-25",
+        "models/gemini-2.0-flash-exp",
+        "gpt-4o-audio-preview",
+        "pipeline_gpt-4o_gpt-4o-mini-tts_gpt-4o-mini-transcribe",
+    ],
+):
     """Entry point for the evaluation pipeline"""
     # Reset API counters at the start of a run
     reset_api_counters()
@@ -1700,19 +1709,11 @@ def main(task="transcription", workers: int = 1):
 
     task_name = task
     task_config = tasks[task_name]
-
-    # Model names to evaluate - now including API-based models
-    model_names = [
-        # "Qwen/Qwen2-Audio-7B-Instruct",
-        # "WillHeld/DiVA-llama-3-v0-8b",
-        "vllm/Qwen/Qwen2.5-Omni-7B",
-        # "gemini-2.5-pro-preview-03-25",
-        # "models/gemini-2.0-flash-exp",
-        # "gpt-4o-audio-preview",
-        # "pipeline_gpt-4o_gpt-4o-mini-tts_gpt-4o-mini-transcribe",
-        # "gpt-4o-mini-audio-preview",
-        # "gpt-4o-realtime-preview",
-    ]
+    # Model names to evaluate
+    if model_names == None:
+        model_names = [
+            "vllm/Qwen/Qwen2.5-Omni-7B",
+        ]
 
     # Run evaluations for each model using the provided number of worker threads
     for model_name in model_names:
@@ -1749,6 +1750,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--workers", type=int, default=1, help="Number of worker threads to use for parallel processing"
     )
+    parser.add_argument("--models", nargs="+", help="List of model names to evaluate (space-separated)")
     args = parser.parse_args()
 
     if args.clear_cache:
@@ -1769,4 +1771,4 @@ if __name__ == "__main__":
         os.environ["CAVA_DISABLE_CACHE"] = "true"
         print("Caching disabled for this run")
 
-    main(args.task, workers=args.workers)
+    main(args.task, workers=args.workers, model_names=args.models)

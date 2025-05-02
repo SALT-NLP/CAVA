@@ -125,12 +125,12 @@ def compare_speech(
     audio_path_1=None,
     audio_path_2=None,
     force_refresh=False,
-    cache_dir=os.path.join(os.environ.get("CATS_CACHE_DIR", ".cats_cache"), "speech_judge"),
-    debug=False
+    cache_dir=os.path.join(os.environ.get("CAVA_CACHE_DIR", ".cava_cache"), "speech_judge"),
+    debug=False,
 ):
     """
     Compare two audio files for pronunciation matching using the modern OpenAI API style.
-    
+
     Parameters:
       resources: A resources object (e.g. from get_resources) with attributes model_name and model.chat.completions.create.
       prompt_constructor: Function that builds (system_prompt, user_prompt) from base64 audio strings.
@@ -174,7 +174,7 @@ def compare_speech(
         + parser_key.encode()
     )
     key = hashlib.md5(hash_input).hexdigest()
-    CACHE_EXPIRE_SECONDS = int(os.environ.get("CATS_CACHE_EXPIRE", 60 * 60 * 24 * 30))
+    CACHE_EXPIRE_SECONDS = int(os.environ.get("CAVA_CACHE_EXPIRE", 60 * 60 * 24 * 30))
     cache = dc.Cache(cache_dir)
 
     if not force_refresh:

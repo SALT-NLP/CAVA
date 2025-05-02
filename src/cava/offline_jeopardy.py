@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CATS Model Evaluation Script - Compares multiple models on Jeopardy tasks
+CAVA Model Evaluation Script - Compares multiple models on Jeopardy tasks
 
 This script evaluates the performance of different models on Jeopardy question answering
 by analyzing the JSONL output files. It compares models based on:
@@ -22,7 +22,7 @@ from typing import Dict, List, Tuple, Any, Optional
 import re
 
 # Import the PEDANT score function from the existing codebase
-from cats.utils import get_pedant_score
+from cava.utils import get_pedant_score
 
 
 def load_jsonl(filepath: str) -> List[Dict[str, Any]]:
@@ -257,7 +257,7 @@ def print_results(analysis: Dict[str, Any], model_names: List[str]):
         model_names: List of model names
     """
     print("\n" + "=" * 40)
-    print(f"CATS MODEL WIN RATES")
+    print(f"CAVA MODEL WIN RATES")
     print("=" * 40)
 
     # Format the model names for display
@@ -366,7 +366,7 @@ def generate_detailed_report(df: pd.DataFrame, model_names: List[str], output_fi
 
 
 def main():
-    parser = argparse.ArgumentParser(description="CATS Model Evaluation Tool")
+    parser = argparse.ArgumentParser(description="CAVA Model Evaluation Tool")
     parser.add_argument("--data-dir", type=str, default="data/jeopardy", help="Directory containing the data files")
     parser.add_argument("--base-file", type=str, default="audio_inputs.jsonl", help="Base filename of the dataset")
 

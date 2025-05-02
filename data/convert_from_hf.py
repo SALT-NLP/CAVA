@@ -96,7 +96,7 @@ def convert_dataset(args):
 
         # Add other fields from the dataset
         for key, value in example.items():
-            if key not in args.exclude_columns and key != args.audio_column:
+            if key not in args.exclude_columns and key != args.audio_column and key != "filename":
                 # Skip audio data and excluded columns
                 # Convert numpy arrays to lists for JSON serialization
                 if isinstance(value, np.ndarray):

@@ -1,6 +1,6 @@
 # CAVA - Comprehensive Assessment for Voice Assistants
 
-A framework for evaluating audio models across multiple tasks relevant to the full-stack flow for Voice Assistants.
+A framework for evaluating audio models across multiple tasks relevant to the full-stack flow for Voice Assistants.  See our [blog post](https://talkarena.org/cava) for more details!
 
 ## Setup
 
@@ -161,3 +161,16 @@ For tasks that require evaluating a model's speech output (such as pronunciation
 1. Set the `speech_output` parameter to `True` in your task configuration
 2. Specify an `output_audio_dir` where generated audio will be saved
 3. Define an appropriate evaluation metric in the task configuration
+
+## Citation
+
+```bibtex
+@misc{cava2025,
+  title = {CAVA: Comprehensive Assessment of Voice Assistants},
+  author = {Held, Will and Ryan, Michael J. and Shrivastava, Aditya and Khan, Ali Sartaz and Ziems, Caleb and Li, Ella and Bartelds, Martijn and Sun, Michael and Li, Tan and Gan, Woody and Yang, Diyi},
+  year = {2025},
+  url = {https://talkarena.org/cava},
+  howpublished = {\url{https://github.com/SALT-NLP/CAVA}},
+  note = {A benchmark for evaluating large audio models (LAMs) capabilities across six domains: turn taking, instruction following, function calling, tone awareness, safety, and latency}
+}
+```

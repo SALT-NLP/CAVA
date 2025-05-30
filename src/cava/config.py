@@ -1,6 +1,7 @@
 from typing import Any, Callable, Dict, List, NamedTuple, Optional, Tuple, Union
 
-from utils import parse_speaker_label_response, parse_next_speaker_response
+# absolute
+from cava.utils import parse_speaker_label_response, parse_next_speaker_response
 
 
 # Define task configuration using NamedTuple for immutability
@@ -257,6 +258,18 @@ Please respond with only the word read aloud clearly, do not say anything else o
             audio_dir="jailbreaking/jailbreak_persuasive/",
             data_file="audio_inputs.jsonl",
         ),
+        "transcribe_esl": TaskConfig(
+            name="transcribe_esl",
+            prompt_template=(
+                "Transcribe the audio of English second language speakers. "
+                "Do not add any summarization or do any paraphrasing."
+                "If you hear a censor beep, write '/filtered/' in place of the word censored."
+            ),
+            max_new_tokens=100,
+            field_name="ground_transcript",
+            audio_dir="pronunciation/",
+            data_file="pronunciation_data.jsonl",
+        )
     }
 
 

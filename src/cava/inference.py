@@ -19,14 +19,24 @@ import torch
 from dotenv import load_dotenv
 from pydantic import BaseModel, create_model
 from tqdm import tqdm
+import evaluate
+
+# from transformers import (
+#     AutoModel,
+#     AutoModelForCausalLM,
+#     AutoProcessor,
+#     AutoTokenizer,
+#     GenerationConfig,
+#     PrefixConstrainedLogitsProcessor,
+#     Qwen2AudioForConditionalGeneration,
+# )
 from transformers import (
     AutoModel,
     AutoModelForCausalLM,
     AutoProcessor,
     AutoTokenizer,
     GenerationConfig,
-    PrefixConstrainedLogitsProcessor,
-    Qwen2AudioForConditionalGeneration,
+    PrefixConstrainedLogitsProcessor
 )
 
 from cava.config import TaskConfig, create_task_configs, format_prompt_template
@@ -120,8 +130,12 @@ def load_model(model_name: str) -> ModelResources:
             api_key = os.environ.get("GEMINI_API_KEY")
             if not api_key:
                 raise ValueError("GEMINI_API_KEY environment variable is required for Gemini models")
+            # model = genai.Client(
+            #     api_key=api_key if os.environ.get("GOOGLE_GENAI_USE_VERTEXAI") else None,
+            #     http_options={"api_version": "v1alpha"},
+            # ).models
             model = genai.Client(
-                api_key=api_key if os.environ.get("GOOGLE_GENAI_USE_VERTEXAI") else None,
+                api_key=api_key if os.environ.get("GEMINI_API_KEY") else None,
                 http_options={"api_version": "v1alpha"},
             ).models
             tokenizer = None
@@ -1566,6 +1580,8 @@ def process_record(
         except Exception as e:
             print(f"Error in function calling evaluation: {e}")
             record["error"] = str(e)
+    elif task_config.name == "pronunciation" and predicted_value:
+        correct = 1 - get_jer_score(expected_value, predicted_value)
     else:
         if expected_value and predicted_value:
             if task_config.name == "speaker_diarization":
@@ -1620,6 +1636,12 @@ def run_evaluation(
             except Exception as e:
                 print(f"Error loading function definitions: {e}")
 
+    is_wer = (task_config.name == "transcribe_esl")
+    if is_wer:
+        wer_metric = evaluate.load("wer")
+        sum_wer = 0.0
+        num_examples = 0
+
     from concurrent.futures import ThreadPoolExecutor, as_completed
 
     # Process records in parallel while preserving order
@@ -1631,9 +1653,32 @@ def run_evaluation(
             for future in as_completed(futures):
                 result = future.result()
                 results.append(result)
-                correct += result[1]  # Increment correct count
-                total += result[2]  # Increment total count
-                # Optionally update description based on result:
+                if is_wer:
+                    record = result[0]
+                    pred = record["prediction"]
+                    records_with_preds.append(pred)
+                    raw_ref = record.get(task_config.field_name, "")
+                    if not raw_ref:
+                        wer = 1.0
+                    else:
+                        parts = raw_ref.split(".flac ", 1)
+                        if len(parts) == 2:
+                            # everything after the filename + “.flac ”
+                            ref = parts[1].strip()
+                        else:
+                            # fallback if the marker wasn’t found
+                            ref = raw_ref.strip()
+                        wer = wer_metric.compute(predictions=[pred], references=[ref])
+                        pred_print = predictions=[pred]
+                        ref_print = references=[ref]
+                        print(f"predictions: {pred_print}")
+                        print(f"references: {ref_print}")
+                    sum_wer += wer
+                    num_examples += 1
+                else:
+                    correct += result[1]  # Increment correct count
+                    total += result[2]  # Increment total count
+                    # Optionally update description based on result:
                 pbar.set_description(f"{task_config.name}: {len(results)}/{len(futures)}")
                 pbar.update(1)
             pbar.close()
@@ -1642,8 +1687,31 @@ def run_evaluation(
         for line in lines:
             result = process_record(resources, json.loads(line), task_config)
             results.append(result)
-            correct += result[1]
-            total += result[2]
+            if is_wer:
+                record = result[0]
+                pred = record["prediction"]
+                records_with_preds.append(pred)
+                raw_ref = record.get(task_config.field_name, "")
+                if not raw_ref:
+                    wer = 1.0
+                else:
+                    parts = raw_ref.split(".flac ", 1)
+                    if len(parts) == 2:
+                            # everything after the filename + “.flac ”
+                        ref = parts[1].strip()
+                    else:
+                        # fallback if the marker wasn’t found
+                        ref = raw_ref.strip()
+                    wer = wer_metric.compute(predictions=[pred], references=[ref])
+                    pred_print = predictions=[pred]
+                    ref_print = references=[ref]
+                    print(f"predictions: {pred_print}")
+                    print(f"references: {ref_print}")
+                sum_wer    += wer
+                num_examples += 1
+            else:
+                correct += result[1]
+                total += result[2]
             pbar.set_description(f"{task_config.name}: {len(results)}/{len(lines)}")
             pbar.update(1)
         pbar.close()
@@ -1657,6 +1725,11 @@ def run_evaluation(
 
     # Calculate and return accuracy
     accuracy = correct / total if total > 0 else 0
+    if is_wer:
+        avg_wer = (sum_wer / num_examples) if num_examples > 0 else 0.0
+        print(f"Model: {resources.model_name}, Task: {task_config.name}, WER: {avg_wer:.2%}")
+        # print(records_with_preds[:10])
+        return avg_wer, records_with_preds
     if task_config.name == "jailbreak":
         asr = 1 - accuracy
         print(f"Model: {resources.model_name}, Task: {task_config.name}, Attack Success Rate: {asr:.2%}")
@@ -1712,7 +1785,11 @@ def main(
     # Model names to evaluate
     if model_names == None:
         model_names = [
-            "vllm/Qwen/Qwen2.5-Omni-7B",
+            "gemini-2.5-pro-preview-03-25",
+            "models/gemini-2.0-flash-exp",
+            "gpt-4o-audio-preview",
+            "pipeline_gpt-4o_gpt-4o-mini-tts_gpt-4o-mini-transcribe",
+            #"vllm/Qwen/Qwen2.5-Omni-7B",
         ]
 
     # Run evaluations for each model using the provided number of worker threads

@@ -60,7 +60,7 @@ def save_audio(audio_data, filepath, audio_format):
 def convert_dataset(args):
     """Convert HuggingFace dataset to CATS format"""
     print(f"Loading dataset: {args.dataset}")
-    dataset = load_dataset(args.dataset, args.config, split=args.split, trust_remote_code=True)
+    dataset = load_dataset(args.dataset, args.config, split=args.split)#load_dataset(args.dataset, args.config, split=args.split, trust_remote_code=True)
 
     # Limit dataset size if specified
     if args.limit and args.limit > 0:

@@ -1656,8 +1656,13 @@ def run_evaluation(
                 if is_wer:
                     record = result[0]
                     pred = record["prediction"]
+                    if pred is None:
+                        print("warning: got pred=None")
+                        continue
                     records_with_preds.append(pred)
-                    raw_ref = record.get(task_config.field_name, "")
+                    raw_ref = record.get("transcript", "")
+                    # print(f"record: {record}")
+                    # print(f"raw: {raw_ref}")
                     if not raw_ref:
                         wer = 1.0
                     else:
@@ -1669,8 +1674,8 @@ def run_evaluation(
                             # fallback if the marker wasn’t found
                             ref = raw_ref.strip()
                         wer = wer_metric.compute(predictions=[pred], references=[ref])
-                        pred_print = predictions=[pred]
-                        ref_print = references=[ref]
+                        pred_print = pred
+                        ref_print = ref
                         print(f"predictions: {pred_print}")
                         print(f"references: {ref_print}")
                     sum_wer += wer
@@ -1690,8 +1695,13 @@ def run_evaluation(
             if is_wer:
                 record = result[0]
                 pred = record["prediction"]
+                if pred is None:
+                    print("warning: got pred=None")
+                    continue
                 records_with_preds.append(pred)
-                raw_ref = record.get(task_config.field_name, "")
+                raw_ref = record.get("transcript", "")
+                # print(f"record: {record}")
+                # print(f"raw: {raw_ref}")
                 if not raw_ref:
                     wer = 1.0
                 else:
@@ -1703,8 +1713,8 @@ def run_evaluation(
                         # fallback if the marker wasn’t found
                         ref = raw_ref.strip()
                     wer = wer_metric.compute(predictions=[pred], references=[ref])
-                    pred_print = predictions=[pred]
-                    ref_print = references=[ref]
+                    pred_print = pred
+                    ref_print = ref
                     print(f"predictions: {pred_print}")
                     print(f"references: {ref_print}")
                 sum_wer    += wer
@@ -1785,8 +1795,8 @@ def main(
     # Model names to evaluate
     if model_names == None:
         model_names = [
-            "gemini-2.5-pro-preview-03-25",
-            "models/gemini-2.0-flash-exp",
+            #"gemini-2.5-pro-preview-03-25",
+            #"models/gemini-2.0-flash-exp",
             "gpt-4o-audio-preview",
             "pipeline_gpt-4o_gpt-4o-mini-tts_gpt-4o-mini-transcribe",
             #"vllm/Qwen/Qwen2.5-Omni-7B",
